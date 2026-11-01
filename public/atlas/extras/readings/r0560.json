@@ -1,0 +1,48 @@
+{
+  "id": "r0560",
+  "ids": [
+    "reimbursement",
+    "aristocracy",
+    "array",
+    "prelude",
+    "perplex",
+    "tonnage",
+    "inward",
+    "hinder",
+    "quest",
+    "stagger"
+  ],
+  "title": "The Marsh Beyond the Ledger",
+  "titleZh": "账簿之外的沼泽",
+  "topic": "government",
+  "cefr": 4,
+  "paras": [
+    "At dawn on 18 March, I entered Bellwater Marsh with a council permit and a borrowed measuring pole. Once reserved for duck shooting by the regional [[aristocracy|aristocracy]], this low coastal basin was now being considered for public ownership. My [[reimbursement|reimbursement]] for boat hire depended on submitting receipts; the council’s purchase, however, depended on evidence that the marsh could retain floodwater.",
+    "Along the eastern bank, an [[array|array]] of footprints interrupted the smooth mud: heron toes, fox pads and the delicate slots of deer. These observations were merely a [[prelude|prelude]] to the afternoon’s measurements. What [[perplex|perplexed]] me was a narrow strip of flattened reeds, apparently indicating an [[inward|inward]] movement of water where our maps predicted drainage towards the sea.",
+    "By noon, rain had begun to [[hinder|hinder]] our work, blurring pencil marks and filling the sample trays. My assistant, Leila, watched me [[stagger|stagger]] across a submerged ridge before suggesting we follow the reeds instead. Beyond them, we discovered an unrecorded culvert beneath the old estate wall. Muddy tidal water was entering through it, although the [[tonnage|tonnage]] of sediment carried into the basin remained to be measured.",
+    "Our [[quest|quest]] for a simple measure of flood storage had exposed a more complicated system. Blocking the culvert might increase freshwater retention, yet reduce sediment inputs. That evening, I recommended tidal monitoring before any purchase decision. Outside the hut, the falling water left a dark line on the wall."
+  ],
+  "zh": [
+    "3月18日黎明，我带着议会签发的许可和一根借来的测量杆，进入了贝尔沃特沼泽。这片低洼的海岸盆地曾是当地贵族专用的猎鸭场，如今正被考虑收归公有。我的租船费能否报销，取决于是否提交收据；然而，议会是否买下这片土地，则取决于能否证明它具有蓄洪能力。",
+    "沿着东岸，一连串不同动物的足迹打破了泥面的平整：苍鹭的趾印、狐狸的爪印，以及鹿留下的纤细蹄痕。这些观察不过是下午测量工作的前奏。令我困惑的是一条倒伏的芦苇带，它似乎表明水流正向盆地内部移动，而我们的地图却显示，此处的水应当流向大海。",
+    "到了中午，雨水开始妨碍我们的工作，既模糊了铅笔标记，又灌满了采样盘。助手莱拉看着我踉踉跄跄地走过一道没入水中的土脊，随后建议我们不妨沿着芦苇倒伏的方向寻找。在芦苇带后方，我们发现旧庄园围墙下有一条未被记录的涵洞。浑浊的潮水正从那里流入，不过，带入盆地的泥沙究竟有多少吨，仍有待测量。",
+    "我们原本想找到一个简单指标来衡量蓄洪能力，却在探索中揭示了一个更复杂的系统。封堵涵洞或许能增加淡水蓄留量，却也可能减少泥沙输入。当晚，我建议在作出任何收购决定之前先开展潮汐监测。小屋外，退落的水在墙上留下一道深色痕迹。"
+  ],
+  "q": [
+    {
+      "s": "The council required evidence of the marsh’s capacity to hold floodwater before buying it.",
+      "a": "T",
+      "why": "首段说明收购取决于蓄洪能力的证据。"
+    },
+    {
+      "s": "Leila had previously searched council records for information about the culvert.",
+      "a": "NG",
+      "why": "文中未说明莱拉此前是否查过涵洞资料。"
+    },
+    {
+      "s": "The narrator recommended buying the marsh before monitoring its tides.",
+      "a": "F",
+      "why": "作者建议先监测潮汐，再作收购决定。"
+    }
+  ]
+}

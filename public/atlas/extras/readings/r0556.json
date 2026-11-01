@@ -1,0 +1,48 @@
+{
+  "id": "r0556",
+  "ids": [
+    "commissioner",
+    "holocaust",
+    "inauguration",
+    "citrus",
+    "ovation",
+    "vulnerability",
+    "instructive",
+    "dwelling",
+    "asterisk",
+    "merge"
+  ],
+  "title": "The Courtyard That Kept Its Names",
+  "titleZh": "留住姓名的庭院",
+  "topic": "society",
+  "cefr": 4,
+  "paras": [
+    "Visitors to the hill town of Bellacosta usually follow the scent of [[citrus|citrus]] into its Saturday market. Beyond the fruit stalls, however, a narrow passage leads to a former [[dwelling|dwelling]] whose courtyard contains an unusual archive: ceramic tiles recording the names of households displaced by the fire that consumed the lower town a century ago. Admission requires neither payment nor a guide.",
+    "The archive began when a newly appointed heritage [[commissioner|commissioner]] chose the courtyard for her [[inauguration|inauguration]]. Instead of delivering a conventional speech, she invited residents to read family accounts. One described the blaze as a [[holocaust|holocaust]], a word that conveys the scale of destruction without explaining its causes. The longest [[ovation|ovation]] greeted an elderly baker who recalled neighbours sharing their last flour.",
+    "For travellers, the most [[instructive|instructive]] detail is a small [[asterisk|asterisk]] beside certain names. It directs readers to a ledger distinguishing documented addresses from locations reconstructed through testimony. This modest device acknowledges the [[vulnerability|vulnerability]] of collective memory: repeated stories can acquire an authority that surviving records do not support. Yet uncertainty is displayed rather than concealed, allowing affection and historical scrutiny to coexist.",
+    "Each autumn, families bring new fragments—rent receipts, wedding photographs, a remembered nickname—which volunteers [[merge|merge]] into the growing record. Afterwards, everyone eats orange cake beneath the courtyard's surviving arch. A visitor leaves not with the reassuring impression that the town has recovered everything, but with a subtler understanding: belonging can depend on preserving the gaps as carefully as the names."
+  ],
+  "zh": [
+    "来到山城贝拉科斯塔的游客，通常会循着柑橘的香气走进周六集市。然而，水果摊后的一条狭窄通道，通向一座昔日的住宅。它的庭院里保存着一份不同寻常的档案：一块块瓷砖记录着那些因百年前吞噬下城区的大火而流离失所的家庭的姓名。进入这里既不收费，也无须导游陪同。",
+    "这份档案的建立，始于一位新任文化遗产专员选择在这座庭院举行就职典礼。她没有发表惯常的演说，而是邀请居民朗读各自家庭的往事。其中一篇叙述将那场烈火称为一场大毁灭；这个词传达了灾难的规模，却没有解释其成因。最持久的热烈掌声送给了一位年迈的面包师，他回忆了邻居们分享各自仅剩面粉的往事。",
+    "对旅行者而言，最具启发性的细节，是某些姓名旁的一个小星号。它引导读者查阅一本登记册，其中明确区分了有文献记载的地址和根据口述重建的位置。这个不起眼的符号承认了集体记忆的脆弱性：反复讲述的故事可能获得一种现存记录并不支持的权威。然而，这里的不确定性并未被掩盖，而是公开呈现，让情感与历史审视得以并存。",
+    "每到秋天，各家各户都会带来新的片段——房租收据、婚礼照片，或一个仍记得的绰号——由志愿者汇入不断扩充的档案。之后，大家便在庭院中幸存的拱门下吃橙子蛋糕。游客离开时，得到的并非小城已找回一切的安心印象，而是一种更细腻的领悟：归属感或许有赖于我们像珍视姓名一样，悉心保留那些空白。"
+  ],
+  "q": [
+    {
+      "s": "Visitors must pay to enter the courtyard archive.",
+      "a": "F",
+      "why": "第一段明确说明入场无须付费。"
+    },
+    {
+      "s": "The commissioner personally collected the family accounts read at her inauguration.",
+      "a": "NG",
+      "why": "文中未说明典礼所读的家庭记述由谁收集。"
+    },
+    {
+      "s": "Asterisks beside some names direct readers to a ledger.",
+      "a": "T",
+      "why": "第三段说明姓名旁的星号指引读者查阅登记册。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0620",
+  "ids": [
+    "ingenious",
+    "pulp",
+    "liberate",
+    "morale",
+    "schooling",
+    "inaccessible",
+    "imminent",
+    "payable",
+    "grove",
+    "diligent"
+  ],
+  "title": "Fruit Waste Becomes a Laboratory",
+  "titleZh": "果料废弃物变身实验室",
+  "topic": "science",
+  "cefr": 4,
+  "paras": [
+    "In the hillside district of Merava, fruit growers are adopting an unexpected scientific instrument: a sheet of dried mango [[pulp|pulp]]. Previously discarded after juice extraction, this material now forms the basis of an [[ingenious|ingenious]] humidity indicator. Suspended inside storage crates, the sheets change colour as moisture accumulates, warning that fungal growth may be [[imminent|imminent]] before visible damage appears.",
+    "The technique emerged from experiments in a small laboratory beside a mango [[grove|grove]]. Researcher Amara Sen mixed the fruit residue with a plant pigment whose colour responds to moisture. Commercial monitoring equipment was financially [[inaccessible|inaccessible]] to most growers, while annual subscription fees were [[payable|payable]] even during seasons when harvests failed. The disposable sheets required neither electricity nor specialist maintenance.",
+    "Surprisingly, the most [[diligent|diligent]] experimenters were packing workers with little formal [[schooling|schooling]]. They recorded colour changes against measured humidity, identifying a thickness that produced consistent results. Their contribution raised [[morale|morale]] across the cooperative, particularly after a visiting technician initially dismissed the sheets as unreliable. Subsequent trials showed that the indicators detected dangerous conditions early enough for workers to ventilate crates.",
+    "The sheets cannot identify particular fungi, and their performance deteriorates after prolonged exposure to sunlight. Nevertheless, their adoption has begun to [[liberate|liberate]] growers from the control of merchants who previously dictated storage arrangements in exchange for equipment loans. What began as a modest materials experiment is therefore changing who makes decisions after harvest: the people handling the fruit increasingly possess the evidence needed to protect it."
+  ],
+  "zh": [
+    "在梅拉瓦丘陵地区，果农正在采用一种出人意料的科学工具：一片由芒果果肉制成的干薄片。这种榨汁后原本会被丢弃的材料，如今成了一种巧妙的湿度指示片的基础材料。薄片悬挂在储存箱内，会随着水分积聚而变色，在可见损伤出现之前，预警真菌可能即将滋生。",
+    "这项技术源于一片芒果林旁的小型实验室所开展的实验。研究员阿玛拉·森将水果残渣与一种遇湿会变色的植物色素混合。商业监测设备价格高昂，大多数果农无力购买，而年度订阅费即使在歉收年份也必须支付。这种一次性薄片既不需要电力，也无需专业维护。",
+    "令人意外的是，最认真尽责的实验人员竟是几乎没有接受过正规学校教育的包装工人。他们对照测得的湿度记录颜色变化，找出了能够产生稳定结果的薄片厚度。他们的贡献提升了整个合作社的士气，尤其是在一位来访技术人员起初认定这些薄片不可靠之后。随后的试验表明，指示片能够及时发现危险状况，让工人来得及为储存箱通风。",
+    "这些薄片无法识别具体的真菌种类，而且长时间暴露在阳光下后，性能会下降。然而，随着它们得到应用，果农开始摆脱商人的控制；这些商人过去以提供设备贷款为条件，强行决定果实的储存安排。因此，一项起初规模不大的材料实验，正在改变采收后由谁作主：直接处理果实的人，正越来越多地掌握保护果实所需的证据。"
+  ],
+  "q": [
+    {
+      "s": "The fruit-based indicators can signal a storage problem before damage becomes visible.",
+      "a": "T",
+      "why": "第一段指出薄片可在可见损伤前预警。"
+    },
+    {
+      "s": "The cooperative paid packing workers extra for participating in the experiments.",
+      "a": "NG",
+      "why": "文章未提及参与实验是否获得额外报酬。"
+    },
+    {
+      "s": "The sheets can identify particular types of fungi.",
+      "a": "F",
+      "why": "末段明确说明薄片无法识别具体真菌。"
+    }
+  ]
+}

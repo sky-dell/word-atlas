@@ -1,0 +1,48 @@
+{
+  "id": "r0218",
+  "ids": [
+    "scenery",
+    "lover",
+    "elbow",
+    "stationery",
+    "though",
+    "pressure",
+    "flour",
+    "keep-fit",
+    "sunburn",
+    "injection"
+  ],
+  "title": "Letters Behind the Town Hall",
+  "titleZh": "市政厅背后的信件",
+  "topic": "government",
+  "cefr": 2,
+  "paras": [
+    "Mina Okafor repairs old documents for a small town council. Her workshop stands behind the town hall, with a view of river [[scenery|scenery]]. Last spring, workers brought her a wooden box of letters written by the town's first female mayor. Several were addressed to her [[lover|lover]], a boat builder who later became her husband.",
+    "The council wanted the letters ready for a summer exhibition. Mina felt [[pressure|pressure]] to finish quickly, [[though|though]] some pages broke apart when she touched them. She ordered special paper from a [[stationery|stationery]] supplier and made a gentle paste from [[flour|flour]] and water. Each morning, she repaired just two pages, supporting her [[elbow|elbow]] on a folded towel to keep her hand steady.",
+    "The work demanded care in other ways. After cutting her hand on a metal part of the box, Mina visited a nurse, who gave her an [[injection|injection]] to protect against infection. She also joined a [[keep-fit|keep-fit]] class because sitting all day made her back ache. At lunchtime, she walked beside the river, wearing a wide hat to prevent [[sunburn|sunburn]].",
+    "By July, the letters were ready. Visitors discovered that the mayor had worried about money and missed her family, just as they did. Mina stood beside the glass case, answering questions about the pale strips of repair paper along the edges of the letters."
+  ],
+  "zh": [
+    "米娜·奥卡福为一座小镇的议会修复旧文件。她的工作室位于市政厅后面，从那里可以欣赏河边的风景。去年春天，工人们给她送来一个木箱，里面装着小镇第一位女镇长写的信。其中几封是写给她的恋人的，那人是一位造船工，后来成为了她的丈夫。",
+    "议会希望这些信件能赶上夏季展览。米娜感到了尽快完成工作的压力，尽管有些纸页一碰就碎。她向一家文具供应商订购了专用纸，并用面粉和水调制了温和的浆糊。每天上午，她只修复两页，还把肘部支在折叠的毛巾上，让手保持稳定。",
+    "这项工作在其他方面也需要小心。米娜被箱子上的金属部件割伤手后，去找了一位护士。护士给她打了一针，以预防感染。她还参加了健身班，因为整天坐着让她背痛。午饭时间，她会沿河散步，戴着宽檐帽以防晒伤。",
+    "到了七月，信件修复完成了。参观者发现，这位女镇长也和他们一样，会为钱发愁，会想念家人。米娜站在玻璃展柜旁，回答大家关于信件边缘那些浅色修补纸条的问题。"
+  ],
+  "q": [
+    {
+      "s": "The mayor eventually married the man who received some of her letters.",
+      "a": "T",
+      "why": "收信的造船工后来成了她的丈夫。"
+    },
+    {
+      "s": "The stationery supplier delivered the paper to Mina's workshop.",
+      "a": "NG",
+      "why": "只说订购专用纸，未说明是否送到工作室。"
+    },
+    {
+      "s": "Mina walked beside the river at lunchtime without a hat.",
+      "a": "F",
+      "why": "原文说她午间沿河散步时戴着宽檐帽。"
+    }
+  ]
+}

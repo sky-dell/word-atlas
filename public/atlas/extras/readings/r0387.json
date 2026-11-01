@@ -1,0 +1,48 @@
+{
+  "id": "r0387",
+  "ids": [
+    "proposal",
+    "sustainable",
+    "expansion",
+    "pottery",
+    "dependence",
+    "boast",
+    "conservative",
+    "turnip",
+    "conductor",
+    "encounter"
+  ],
+  "title": "Why Familiar Methods Feel Safer",
+  "titleZh": "为什么熟悉的方法让人更安心",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "When a community garden faced a dry summer, one member made a [[proposal|proposal]]: bury unglazed [[pottery|pottery]] pots beside the vegetables and fill them with water. Moisture would slowly pass through the clay, reducing waste. Yet several gardeners preferred their usual watering cans. Their reaction illustrates a common mental tendency: familiar methods often feel safer than unfamiliar ones.",
+    "Among the doubters was Tomas, a retired orchestra [[conductor|conductor]] who grew [[turnip|turnips]]. He would sometimes [[boast|boast]] that he could judge the soil's needs simply by touching it. His [[conservative|conservative]] approach was not just stubbornness. Years of successful harvests had strengthened his [[dependence|dependence]] on personal experience, making a different technique seem unnecessarily risky.",
+    "Psychologists call this tendency status quo bias. When people [[encounter|encounter]] an unfamiliar option, they often focus more on possible losses than potential gains. Tomas pictured cracked pots and dry roots more easily than he imagined lower water use. The planned [[expansion|expansion]] of the vegetable beds increased his concern: a mistake would affect a larger area. Such caution can protect us, but it can also delay useful changes.",
+    "A small trial offered a way forward. The gardeners placed two pots in one bed and checked the soil daily. As the surrounding earth remained moist, the method became less mysterious. This potentially [[sustainable|sustainable]] practice no longer required a leap of faith. The brain's preference for familiarity had not disappeared; experience had simply begun to make the new method familiar."
+  ],
+  "zh": [
+    "一个社区菜园遇上了干旱的夏天，一位成员提出建议：把不上釉的陶罐埋在蔬菜旁边，再往里面灌满水。水分会慢慢透过陶土渗出，减少浪费。然而，几位园丁还是更愿意使用惯常的洒水壶。他们的反应体现了一种常见的心理倾向：熟悉的方法往往比陌生的方法更让人安心。",
+    "持怀疑态度的人中有托马斯，他是一位退休的管弦乐团指挥，种着芜菁。他有时会自夸，说自己只要摸一摸泥土，就能判断土壤需要什么。他这种保守的做法并不只是出于固执。多年来的丰收加强了他对个人经验的依赖，让另一种技术显得像是在冒不必要的风险。",
+    "心理学家把这种倾向称为“现状偏差”。当人们遇到陌生的选择时，往往更关注可能遭受的损失，而不是潜在的收益。比起想象用水量降低的情景，托马斯更容易想到破裂的陶罐和干枯的根。计划中的菜畦扩建让他更加担忧：一旦出错，受影响的面积就会更大。这种谨慎可以保护我们，却也可能延缓有益的改变。",
+    "一次小规模试验提供了推进的办法。园丁们在一块菜畦里放了两个陶罐，每天检查土壤。随着周围的泥土持续保持湿润，这种方法也不再那么神秘。这项可能有利于可持续发展的做法，不再需要人们毫无把握地去相信。大脑对熟悉事物的偏好并没有消失；只是新的经验开始让新方法变得熟悉。"
+  ],
+  "q": [
+    {
+      "s": "All the gardeners immediately preferred the proposed pots to their usual watering cans.",
+      "a": "F",
+      "why": "首段说几位园丁仍偏爱惯用的洒水壶。"
+    },
+    {
+      "s": "The planned expansion of the vegetable beds increased Tomas's concern about the new technique.",
+      "a": "T",
+      "why": "第三段明确说扩建计划加重了他的担忧。"
+    },
+    {
+      "s": "The trial pots were purchased from a nearby craft market.",
+      "a": "NG",
+      "why": "末段介绍了试验，但未说明陶罐的来源。"
+    }
+  ]
+}

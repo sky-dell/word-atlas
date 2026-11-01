@@ -1,0 +1,48 @@
+{
+  "id": "r0191",
+  "ids": [
+    "responsibility",
+    "electrician",
+    "destination",
+    "shiny",
+    "giant",
+    "unit",
+    "scream",
+    "powerful",
+    "poetry",
+    "foolish"
+  ],
+  "title": "Life Inside an Iron Lung",
+  "titleZh": "铁肺里的生活",
+  "topic": "health",
+  "cefr": 2,
+  "paras": [
+    "In 1928, a Boston hospital used a new machine to help a child breathe. Later known as the iron lung, it became an important tool against polio, a disease that could weaken breathing muscles. For some very sick children, the hospital became their [[destination|destination]] because it had one of these rare machines.",
+    "The iron lung looked like a [[giant|giant]] metal box with a [[shiny|shiny]] surface. A patient lay inside with only the head outside. A [[powerful|powerful]] pump changed the air pressure around the body, helping the chest rise and fall. Each [[unit|unit]] in a hospital's collection usually supported just one person at a time.",
+    "Keeping the equipment running was a serious [[responsibility|responsibility]]. Nurses watched patients closely, while an [[electrician|electrician]] could repair electrical faults. A frightened child might [[scream|scream]] when first placed inside the strange machine, so staff explained its movements and sounds. It would have been [[foolish|foolish]] to treat it as an ordinary bed: a patient's breathing depended on it.",
+    "Life inside was difficult, but it did not stop completely. Patients could read with books held above their faces, and visitors could share stories or [[poetry|poetry]]. From the 1950s, polio vaccines greatly reduced the need for iron lungs. Today, surviving examples in museums show how a metal box once gave people something precious: another breath."
+  ],
+  "zh": [
+    "1928年，波士顿一家医院用一台新机器帮助一名儿童呼吸。这种机器后来被称为铁肺，成为对抗脊髓灰质炎的重要工具。这种疾病会使呼吸肌无力。对一些病情严重的孩子来说，这家医院成了他们前往的目的地，因为那里有一台当时十分稀少的铁肺。",
+    "铁肺看起来像一个巨大的金属箱，表面闪着光。病人躺在里面，只有头露在外面。一个强力气泵改变身体周围的气压，帮助胸部起伏。在医院配备的这些设备中，每台通常一次只能帮助一个人呼吸。",
+    "确保设备持续运转是一项重大的责任。护士密切观察病人，而电工则可以维修电气故障。受惊的孩子初次被放进这台陌生的机器时，可能会尖叫，因此医护人员会解释机器的动作和声音。把它当作普通病床是不明智的，因为病人的呼吸依赖着它。",
+    "里面的生活很艰难，但并没有完全停下来。把书架在面部上方，病人就能阅读；来访者也可以分享故事或诗歌。从20世纪50年代起，脊髓灰质炎疫苗大大减少了人们对铁肺的需求。如今，博物馆里留存的铁肺向人们展示，一个金属箱曾如何给予人们珍贵的东西：再一次呼吸。"
+  ],
+  "q": [
+    {
+      "s": "The child treated in Boston in 1928 stayed in hospital for three months.",
+      "a": "NG",
+      "why": "首段未说明这名儿童住院多久。"
+    },
+    {
+      "s": "The pump helped patients breathe by changing the air pressure around their bodies.",
+      "a": "T",
+      "why": "第二段说明气泵改变气压，帮助胸部起伏。"
+    },
+    {
+      "s": "The need for iron lungs increased greatly after polio vaccines became available.",
+      "a": "F",
+      "why": "末段说疫苗大大减少了对铁肺的需求。"
+    }
+  ]
+}

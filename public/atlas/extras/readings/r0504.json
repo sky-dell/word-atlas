@@ -1,0 +1,48 @@
+{
+  "id": "r0504",
+  "ids": [
+    "carbohydrate",
+    "skilled",
+    "yarn",
+    "scarce",
+    "applaud",
+    "hectic",
+    "mist",
+    "longitude",
+    "objective",
+    "shrug"
+  ],
+  "title": "A Signal Through the Fog",
+  "titleZh": "雾中的报时信号",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "In the imaginary port of Greyhaven, a ball on a tower drops at one o’clock each afternoon. Its [[objective|objective]] is to give ships a reliable time signal. Accurate time matters to sailors because it helps them calculate their [[longitude|longitude]] at sea. On land, personal watches are [[scarce|scarce]], so shopkeepers also look towards the tower when they need to check the hour.",
+    "Mara works for a [[skilled|skilled]] cloth maker near the harbour. On one particularly [[hectic|hectic]] morning, she must deliver six bundles of [[yarn|yarn]] to a customer before his boat leaves. She has missed breakfast, so her employer gives her bread to eat on the way. It provides [[carbohydrate|carbohydrate]] for the long walk, though she would rather have time to sit down for a proper meal.",
+    "As Mara reaches the waterfront, [[mist|mist]] hides the tower completely. She asks a sailor whether the ball has dropped, but he can only [[shrug|shrug]]. Neither of them has seen it. Then the harbour bell strikes one. Unlike the hidden ball, the bell can still provide a signal they can use, although Mara cannot tell exactly how far away it is.",
+    "She hurries along the quay and finds her customer beside his boat, preparing to leave. He and his assistant [[applaud|applaud]] as she arrives with the bundles. Once the yarn is safely aboard, he hands her a receipt. She now has proof of delivery—and time to finish her bread."
+  ],
+  "zh": [
+    "在虚构的格雷黑文港，一座塔上的球每天下午一点落下。它的目的是为船只提供可靠的报时信号。准确的时间对水手很重要，因为这有助于他们计算在海上的经度。在岸上，个人手表很稀缺，因此店主需要核对时间时，也会望向那座塔。",
+    "玛拉在港口附近为一位技艺熟练的制布工匠工作。在一个格外忙乱的上午，她必须赶在一位顾客的船离开之前，将六捆纱线送到他手中。她没吃早饭，所以雇主给了她面包，让她路上吃。面包能为这段长路提供碳水化合物，不过她更希望有时间坐下来好好吃一顿。",
+    "玛拉到达水边时，薄雾完全遮住了塔。她问一名水手报时球是否已经落下，但他只能耸耸肩。他们谁都没看见球落下。随后，港口的钟敲响了一点的钟声。与被遮住的球不同，钟仍能为他们提供可用的信号，尽管玛拉无法确切判断钟离她有多远。",
+    "她沿着码头快步走去，发现顾客就在船边，正准备离开。看到她带着那些纱线赶到，他和助手都鼓起掌来。纱线安全装船后，他递给她一张收据。现在她有了送达凭证，也有时间把面包吃完了。"
+  ],
+  "q": [
+    {
+      "s": "The town council paid for Greyhaven’s time ball.",
+      "a": "NG",
+      "why": "首段未说明谁支付了报时球的费用。"
+    },
+    {
+      "s": "Mara sees the ball drop when she reaches the waterfront.",
+      "a": "F",
+      "why": "雾完全遮住了塔，玛拉没有看见球落下。"
+    },
+    {
+      "s": "The customer gives Mara a receipt after the yarn is aboard.",
+      "a": "T",
+      "why": "末段明确说明纱线装船后顾客交给她收据。"
+    }
+  ]
+}

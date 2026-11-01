@@ -1,0 +1,48 @@
+{
+  "id": "r0644",
+  "ids": [
+    "stony",
+    "paralyze",
+    "parish",
+    "bulky",
+    "glamour",
+    "marxism",
+    "apprehension",
+    "safeguard",
+    "penetration",
+    "downfall"
+  ],
+  "title": "The Cinema Heard, Not Seen",
+  "titleZh": "只闻其声的电影院",
+  "topic": "media",
+  "cefr": 4,
+  "paras": [
+    "In a coastal [[parish|parish]] where the former cinema overlooks a [[stony|stony]] beach, residents are buying tickets to hear films they cannot watch. Attendance at these narrated screenings has doubled in eighteen months, although deteriorating reels and [[bulky|bulky]] projectors needing repairs remain beyond the volunteer archive's restoration budget.",
+    "The initiative began with recordings made by projectionist Leila Haddad for her brother, whom a neurological illness had [[paralyze|paralyzed]] from the waist down. Unable to enter the upstairs auditorium, he received her spoken accounts of costume dramas. Rather than summarising plots, Haddad described the [[glamour|glamour]] of mirrored ballrooms, the hesitation before a kiss, and the shadows behind a departing carriage.",
+    "Archivists initially expressed [[apprehension|apprehension]] that narration would replace preservation. However, ticket revenue now helps [[safeguard|safeguard]] the collection by funding sealed storage cabinets that limit moisture [[penetration|penetration]]. The programme has also expanded beyond romance: one recent selection examined [[marxism|Marxism]] through a factory dispute, while another reconstructed the [[downfall|downfall]] of a silent-film studio whose extravagant productions exhausted its reserves. Both attracted unexpectedly large audiences.",
+    "Listeners say the missing pictures demand concentration rather than diminish pleasure. At a recent performance, the narrator paused while a recorded door creaked; several people turned towards the rear exit. Such moments suggest that the archive is doing more than compensating for obsolete equipment. It has made an inaccessible collection vivid again, while earning money to preserve the possibility of eventually seeing it."
+  ],
+  "zh": [
+    "在一个沿海堂区，昔日的电影院俯瞰着多石的海滩，居民买票来听那些无法观看的电影。这类电影讲述活动的观众人数在十八个月内翻了一番，然而，修复日渐劣化的胶片和需要维修的笨重放映机，仍超出了这家志愿者档案馆的修复预算。",
+    "这项活动起源于放映员莱拉·哈达德为自己的一位兄弟制作的录音。一场神经系统疾病使他腰部以下瘫痪。由于无法进入楼上的放映厅，他便通过录音听哈达德讲述古装剧情片。哈达德并非仅仅概括情节，而是描绘镜面舞厅的华丽魅力、亲吻前的迟疑，以及远去马车后方的阴影。",
+    "档案管理员起初担心，口头讲述会取代影片保护工作。然而，如今的票房收入正用于购买限制湿气渗入的密封储藏柜，从而帮助保护馆藏。活动内容也已不再局限于爱情片：最近的一部作品通过一场工厂纠纷探讨马克思主义，另一部则重现了一家默片制片厂因制作过于奢华、耗尽储备资金而走向衰败的过程。两场活动都吸引了出乎意料的众多观众。",
+    "听众表示，缺失的画面要求他们专注，而非削弱乐趣。最近一次演出中，讲述者停顿下来，录音里响起门的吱呀声；好几个人转头望向后方出口。这些瞬间提示，档案馆所做的不只是弥补设备陈旧的不足。它使一批无法欣赏的馆藏重新鲜活起来，同时赚取资金，为将来能够看到这些影片保留可能。"
+  ],
+  "q": [
+    {
+      "s": "The narrated film events have attracted twice as many attendees as they did eighteen months earlier.",
+      "a": "T",
+      "why": "首段指出观众人数在十八个月内翻番。"
+    },
+    {
+      "s": "Haddad used equipment borrowed from the archive to make her first recordings.",
+      "a": "NG",
+      "why": "文中未说明最初录音所用设备的来源。"
+    },
+    {
+      "s": "Ticket revenue makes no contribution to protecting the film collection.",
+      "a": "F",
+      "why": "票房收入资助密封储藏柜，帮助保护馆藏。"
+    }
+  ]
+}

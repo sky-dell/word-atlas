@@ -1,0 +1,48 @@
+{
+  "id": "r0534",
+  "ids": [
+    "survivor",
+    "foam",
+    "enormously",
+    "viewpoint",
+    "damp",
+    "colony",
+    "concise",
+    "attendance",
+    "diverse",
+    "repetition"
+  ],
+  "title": "The Sea in Small Strokes",
+  "titleZh": "细笔之下的大海",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "Why would an artist paint a floating bowl? That question runs through Making Waves, an exhibition of paintings by Mara Sen. A [[survivor|survivor]] of a storm that destroyed much of her island harbour in 1892, Sen chose not to paint broken buildings. Instead, a small blue picture shows white [[foam|foam]] gathering around a single wooden bowl. The object became central to her later work.",
+    "At the time, the island was a [[colony|colony]] governed by a distant European country. Official paintings presented its harbour as a place of profitable trade. Sen offered a different [[viewpoint|viewpoint]]: the sea was both a workplace and an unpredictable force. The exhibition's [[concise|concise]] labels identify fishing tools, kitchen objects and fragments of cloth among her painted waves.",
+    "Her sketchbooks suggest how carefully she developed this approach. Once stored in a [[damp|damp]] cupboard above a boat workshop, they have damaged edges but reveal an [[enormously|enormously]] patient artist. Through the [[repetition|repetition]] of tiny curved lines, Sen tested ways of suggesting movement without drawing complete waves. Visitors can use a magnifying screen to compare these experiments with her finished paintings.",
+    "Such attention to ordinary objects did not please everyone. Sen held her first exhibition in a sailmaker's shop. A notebook records the [[attendance|attendance]] of forty-three guests on opening night, while letters reveal their [[diverse|diverse]] responses. Some admired her skill; others wondered why anyone would paint a floating bowl."
+  ],
+  "zh": [
+    "艺术家为什么会画一只漂浮的碗？这个问题贯穿了玛拉·森的画展“描绘海浪”。1892年，一场风暴摧毁了她所在岛屿的大部分港口，森幸存下来，却没有选择描绘毁坏的建筑。相反，一幅小小的蓝色画作呈现了聚集在一只木碗周围的白色泡沫。这件物品后来成为她创作中的核心意象。",
+    "当时，这座岛屿是一个遥远的欧洲国家统治下的殖民地。官方画作将港口描绘成一个有利可图的贸易场所。森则提出了另一种看法：大海既是人们劳作的场所，也是一股难以预测的力量。展览中简明的说明牌标出了她笔下海浪间的渔具、厨房用品和碎布。",
+    "她的速写本让人看出，她在形成这种创作方式时是多么细致。这些速写本曾存放在一家船只作坊楼上一个潮湿的柜子里，纸页边缘已经受损，却仍能让人看出这位艺术家非凡的耐心。森反复画下细小的弧线，尝试不画出完整的波浪也能表现动感的方法。参观者可以借助放大显示屏，将这些尝试与她完成的画作进行比较。",
+    "这种对日常物件的关注并未得到所有人的喜爱。森在一家制帆店举办了首次展览。一本笔记记录了开幕当晚四十三位来宾的到场情况，而信件则展现了他们各不相同的反应。有些人赞赏她的技艺，另一些人却不明白为什么会有人画一只漂浮的碗。"
+  ],
+  "q": [
+    {
+      "s": "The wooden bowl in the small blue painting belonged to Sen.",
+      "a": "NG",
+      "why": "文章未说明画中的木碗归谁所有。"
+    },
+    {
+      "s": "The sketchbooks on display have survived without any physical damage.",
+      "a": "F",
+      "why": "第三段明确说速写本的纸页边缘受损。"
+    },
+    {
+      "s": "Forty-three guests attended the opening night of Sen's first exhibition.",
+      "a": "T",
+      "why": "笔记记录首次展览开幕当晚有四十三位来宾。"
+    }
+  ]
+}

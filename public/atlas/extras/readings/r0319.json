@@ -1,0 +1,48 @@
+{
+  "id": "r0319",
+  "ids": [
+    "embarrassed",
+    "excite",
+    "cruel",
+    "atlas",
+    "hike",
+    "chick",
+    "stock",
+    "stranger",
+    "election",
+    "shadow"
+  ],
+  "title": "The Library in a Wooden Box",
+  "titleZh": "木箱里的图书馆",
+  "topic": "history",
+  "cefr": 2,
+  "paras": [
+    "A wooden box in Bellwick's village library once carried books from farm to farm. In 1912, a reading club in this mountain village held an [[election|election]] to choose its first travelling librarian. The winner, Mira Das, used the box on her weekly rounds. Its small [[stock|stock]] included stories, farming guides and one [[atlas|atlas]].",
+    "A route drawn in Mira's notebook shows where she went. Each Friday, she made a twelve-kilometre [[hike|hike]] across the hills. At first, she was a [[stranger|stranger]] to many families. However, pictures of distant places soon began to [[excite|excite]] people, and kitchen tables became places for sharing books.",
+    "One entry in Mira's diary describes a visit to a farmer called Tomas. He felt [[embarrassed|embarrassed]] because he could not read the names on a map. When another visitor laughed, Mira called the behaviour [[cruel|cruel]]. She then asked Tomas to explain the valley's paths. His knowledge helped her correct several details on her route.",
+    "A child's drawing, found inside a returned book, is now kept with the diary. It shows Mira resting in the [[shadow|shadow]] of a tree, with a lost [[chick|chick]] beside her boot. There is no date on the drawing, so it cannot tell us when this happened. We do not know the artist's name either."
+  ],
+  "zh": [
+    "贝尔威克村图书馆里的一个木箱，曾经装着书往来于各个农场。1912年，这个山村的一个读书会举行选举，选出首位巡回图书管理员。当选者米拉·达斯每周巡回送书时都会用这个箱子。箱内存放的书不多，包括故事书、农事指南和一本地图册。",
+    "米拉笔记本里画的一条路线显示了她去过哪些地方。每个星期五，她都要翻越山丘，徒步走十二公里。起初，对许多家庭来说，她还是个陌生人。然而，描绘远方的图片很快就让人们兴奋起来，厨房里的餐桌也成了大家分享书籍的地方。",
+    "米拉的一篇日记记述了她拜访一位名叫托马斯的农夫的经历。他因为读不出地图上的地名而感到难为情。另一位来访者笑了起来，米拉说这种行为很刻薄。随后，她请托马斯讲解山谷中的小路。他掌握的情况帮助她修正了路线上的几处细节。",
+    "一幅在归还的书中发现的儿童画，如今与日记保存在一起。画中的米拉正在树荫下休息，一只迷路的小鸡就在她的靴子旁边。画上没有日期，因此无法从中得知这件事发生的时间。我们也不知道画画的孩子叫什么。"
+  ],
+  "q": [
+    {
+      "s": "Members of a village reading club voted to select their first travelling librarian.",
+      "a": "T",
+      "why": "首段说明读书会通过选举选出管理员。"
+    },
+    {
+      "s": "Tomas was unable to provide useful information about the local paths.",
+      "a": "F",
+      "why": "托马斯的知识帮助米拉修正了路线细节。"
+    },
+    {
+      "s": "The child who drew Mira later became a librarian.",
+      "a": "NG",
+      "why": "文中未提及画画的孩子后来的职业。"
+    }
+  ]
+}

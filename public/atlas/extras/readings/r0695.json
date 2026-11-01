@@ -1,0 +1,48 @@
+{
+  "id": "r0695",
+  "ids": [
+    "attribution",
+    "cocaine",
+    "clam",
+    "maniac",
+    "self-access",
+    "obscene",
+    "fling",
+    "empower",
+    "encroach",
+    "petition"
+  ],
+  "title": "Building a Skatepark Documentary",
+  "titleZh": "滑板场纪录片的制作",
+  "topic": "sport",
+  "cefr": 4,
+  "paras": [
+    "A twelve-minute documentary about a coastal skatepark begins not with a camera, but with a signed [[petition|petition]] opposing its expansion. Producer Amara scans the document, then maps the proposed ramps against the neighbouring tidal flats. Because construction could [[encroach|encroach]] on a [[clam|clam]] bed, she plans a film in which sporting ambition and ecological limits occupy the same frame.",
+    "During filming, microphones beneath the wooden platform capture the hollow percussion of wheels. One rider appears to [[fling|fling]] himself recklessly across a gap; a spectator calls him a [[maniac|maniac]]. Rather than allowing that remark to define him, Amara records his careful inspection of the landing area. The sequence transforms an apparently uncontrolled act into evidence of calculated athletic judgement.",
+    "Editing requires stricter decisions. The [[attribution|attribution]] of an anonymous complaint remains uncertain, so its allegation that riders use [[cocaine|cocaine]], an addictive stimulant, is excluded. Sexually explicit graffiti is also cropped: its [[obscene|obscene]] imagery contributes nothing to the dispute. However, criticism of noise remains, supported by recordings made from a nearby bedroom rather than dramatic music.",
+    "Finally, sound levels are balanced, captions checked, and a rough cut screened for participants, who may correct factual errors without dictating the argument. Amara also assembles a [[self-access|self-access]] editing pack containing sample clips and annotated timelines. Designed to [[empower|empower]] young riders to document their own activities, it reveals how selection shapes meaning. The finished film ends with wheels falling silent as the tide returns across the disputed sand."
+  ],
+  "zh": [
+    "一部关于海滨滑板场的十二分钟纪录片，制作的起点不是摄像机，而是一份签名反对滑板场扩建的请愿书。制片人阿玛拉扫描了这份文件，随后将拟建坡道的位置与邻近潮滩绘在同一张地图上。由于施工可能逐步侵占一片蛤蜊栖息地，她打算让这部影片把运动发展的雄心与生态承载的限度呈现在同一个画面中。",
+    "拍摄时，置于木制平台下方的麦克风收录了滑轮撞击木板时空洞的敲击声。一名滑手看似不顾危险地将自己猛地甩过一道间隙，一位旁观者称他为疯子。阿玛拉没有让这句评论成为对他的定论，而是拍下了他仔细检查落地区域的过程。这组镜头将一个看似失控的动作，转化为运动员经过审慎判断的证据。",
+    "剪辑需要更严格的取舍。一封匿名投诉的来源尚不确定，因此，其中关于滑手使用可卡因这种成瘾性兴奋剂的指控被删去了。画面中露骨的色情涂鸦也被裁掉，因为这些淫秽图像无助于呈现争议。不过，对噪声的批评被保留下来，佐证它的是在附近一间卧室里录下的声音，而非渲染气氛的音乐。",
+    "最后，制作团队平衡音量、核对字幕，并向参与者放映粗剪版；他们可以纠正事实错误，但不能左右影片的论点。阿玛拉还整理了一套供自主学习使用的剪辑资料，内含示例片段和带注释的时间线。这套资料旨在让年轻滑手有能力记录自己的活动，同时揭示素材取舍如何塑造意义。成片的结尾，滑轮声渐渐沉寂，潮水重新漫过那片引发争议的沙地。"
+  ],
+  "q": [
+    {
+      "s": "Most of the people who signed the petition lived beside the tidal flats.",
+      "a": "NG",
+      "why": "文中未说明签署者的居住地点。"
+    },
+    {
+      "s": "Amara excludes the drug allegation because its source is uncertain.",
+      "a": "T",
+      "why": "第三段明确因来源不明而删去该指控。"
+    },
+    {
+      "s": "Participants are allowed to dictate the film's argument at the rough-cut screening.",
+      "a": "F",
+      "why": "参与者可以纠正事实，但不能左右论点。"
+    }
+  ]
+}

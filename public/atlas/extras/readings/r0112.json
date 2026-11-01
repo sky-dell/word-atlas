@@ -1,0 +1,46 @@
+{
+  "id": "r0112",
+  "ids": [
+    "worse",
+    "document",
+    "cricket",
+    "shark",
+    "cancel",
+    "quality",
+    "international",
+    "event",
+    "however",
+    "present"
+  ],
+  "title": "Harbour Stories on Screen",
+  "titleZh": "银幕上的海港故事",
+  "topic": "media",
+  "cefr": 1,
+  "paras": [
+    "In May, a small film club in Bell Harbour planned a free film night. Its members wanted to share stories from their town. Amina, a shop worker, kept a [[document|document]] with the film names and running times. One film showed a beach [[cricket|cricket]] game. Another followed a fisherman who found a [[shark|shark]] beside his boat and watched it swim away. Both films were made by neighbours.",
+    "The club also invited a film group from another country to send a short film about its harbour. This made the night an [[international|international]] [[event|event]]. Three days before the show, rain came through the club roof. The next morning, the damage was [[worse|worse]], and the floor was wet. Some members wanted to [[cancel|cancel]] the night. [[however|However]], Tomas, a baker, offered the large room above his shop.",
+    "On Saturday, twelve volunteers carried chairs upstairs and covered the windows with dark cloth. They tested the picture and sound [[quality|quality]] before opening the doors. Forty people were [[present|present]], including several of the neighbours seen in the films. After the show, people stayed to talk about the two harbours. Amina added their ideas to her notes. The club now had enough stories for a second film night."
+  ],
+  "zh": [
+    "五月，贝尔港的一个小电影俱乐部计划举办一场免费电影之夜。成员们想分享镇上的故事。店员阿米娜用一份文档记录电影名称和片长。一部电影拍的是一场沙滩板球赛。另一部记录了一位渔民的经历：他发现船边有一条鲨鱼，随后看着它游走。这两部电影都是邻居们拍摄的。",
+    "俱乐部还邀请另一个国家的电影小组寄来一部介绍他们港口的短片。这让电影之夜成了一场国际活动。放映前三天，雨水从俱乐部屋顶漏了进来。第二天早上，损坏情况更加严重，地板也湿了。一些成员想取消电影之夜。不过，面包师托马斯提出，可以使用他店铺楼上的大房间。",
+    "星期六，十二名志愿者把椅子搬上楼，并用深色布遮住窗户。开门迎接观众前，他们测试了画面和声音的质量。共有四十人到场，其中包括几位在电影中出镜的邻居。放映结束后，大家留下来谈论这两个港口。阿米娜把他们的想法补充到笔记中。现在，俱乐部已经有了足够的故事，可以再办一场电影之夜。"
+  ],
+  "q": [
+    {
+      "s": "The club planned to charge people to watch the films.",
+      "a": "F",
+      "why": "第一段说明计划举办免费电影之夜。"
+    },
+    {
+      "s": "The room above Tomas's shop had been used for film shows before.",
+      "a": "NG",
+      "why": "文中未说明该房间以前是否放映过电影。"
+    },
+    {
+      "s": "Twelve volunteers carried chairs upstairs on Saturday.",
+      "a": "T",
+      "why": "第三段明确说明十二名志愿者周六搬椅子上楼。"
+    }
+  ]
+}

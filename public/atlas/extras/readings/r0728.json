@@ -1,0 +1,48 @@
+{
+  "id": "r0728",
+  "ids": [
+    "conveyance",
+    "woodside",
+    "mildew",
+    "inexorable",
+    "constitutive",
+    "furrow",
+    "harangue",
+    "countermand",
+    "perverse",
+    "alluvial"
+  ],
+  "title": "The Holiday That Keeps Its Mud",
+  "titleZh": "不避泥泞的假日",
+  "topic": "travel",
+  "cefr": 5,
+  "paras": [
+    "At a cluster of guesthouses on the fictional River Savael, an apparently [[perverse|perverse]] holiday preference has emerged: visitors increasingly request the rooms reached by the muddiest paths. Bookings for these outlying cottages have doubled in three seasons, while demand for accommodation beside the paved entrance has remained unchanged. What was once an inconvenience is becoming the destination’s principal attraction.",
+    "The cottages occupy an [[alluvial|alluvial]] terrace where winter floods deposit fine sediment. Guests leave their luggage for separate [[conveyance|conveyance]] by cart and follow a former farm track towards the [[woodside|woodside]]. Alongside it, each surviving [[furrow|furrow]] holds a miniature reflection of the sky. Walking the final kilometre slowly, rather than being delivered to a doorway, is now advertised as [[constitutive|constitutive]] of the holiday itself.",
+    "This reversal surprised manager Leila Mensah, who had commissioned gravel surfacing to arrest the seemingly [[inexorable|inexorable]] deterioration of the track. A repeat visitor’s [[harangue|harangue]] against ‘sterilising the arrival’ initially struck her as theatrical. Nevertheless, subsequent booking enquiries persuaded her to [[countermand|countermand]] the resurfacing order before the contractors arrived. Instead, she installed boot racks and a drying room, while retaining a firm alternative path for anyone needing one.",
+    "The experiment does not entail celebrating every discomfort. Staff remove [[mildew|mildew]] from window frames, inspect slippery sections daily and close the riverside route during floods. Nor do visitors undertake agricultural work: the fields remain a working farmer’s responsibility. The attraction is narrower and more revealing—a carefully bounded encounter with terrain that refuses to behave like a hotel corridor."
+  ],
+  "zh": [
+    "在虚构的萨瓦埃尔河畔，一片民宿出现了一种看似悖理的度假偏好：越来越多的游客指定入住那些必须经过最泥泞小路才能抵达的房间。三个旅游季以来，这些偏远小屋的预订量翻了一番，而铺装入口旁的住宿需求却没有变化。昔日的不便，正成为这处目的地最主要的吸引力。",
+    "这些小屋坐落在一片冲积阶地上，冬季洪水会在这里沉积细密的泥沙。客人留下行李，由小车另行运送，自己则沿着一条旧农道走向林边。路旁，每一道留存的犁沟都映着一小片天空。如今，宣传中已将慢步走完最后一公里，而非被直接送到门口，描述为这种假日本身不可或缺的一部分。",
+    "这种转变让经理莱拉·门萨颇感意外。她此前已经委托施工方铺设碎石，试图遏止小路看似无法阻挡的损坏。一位回头客曾激烈地长篇批评这种‘把抵达过程变得毫无野趣’的做法，她起初觉得这番话有些夸张。然而，随后的预订咨询使她改变了主意，在承包商到来之前撤销了铺路指令。她转而安装了靴架，设置了烘干室，同时保留了一条坚实的替代步道，供有需要的人使用。",
+    "这项尝试并不意味着赞美所有的不适。工作人员会清除窗框上的霉菌，每天检查湿滑路段，并在洪水期间关闭河边路线。游客也不承担农活：田地仍由务农的农场主负责打理。这种体验的吸引力更为具体，也更耐人寻味——在精心限定的范围内，接触一片不肯像酒店走廊那样平整顺遂的土地。"
+  ],
+  "q": [
+    {
+      "s": "The rise in bookings for the remote cottages has not been matched by increased demand for rooms near the paved entrance.",
+      "a": "T",
+      "why": "偏远小屋预订翻倍，入口旁需求未变。"
+    },
+    {
+      "s": "The gravel ordered for the track was to come from a local quarry.",
+      "a": "NG",
+      "why": "文中未说明计划使用的碎石来自何处。"
+    },
+    {
+      "s": "Visitors carry out agricultural work in the fields during their stay.",
+      "a": "F",
+      "why": "末段明确说游客不承担农活。"
+    }
+  ]
+}

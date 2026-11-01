@@ -1,0 +1,48 @@
+{
+  "id": "r0369",
+  "ids": [
+    "defence",
+    "diameter",
+    "senior",
+    "activate",
+    "attribute",
+    "multifunction",
+    "sympathize",
+    "steadily",
+    "protein",
+    "logic"
+  ],
+  "title": "Building a Gentle Kitchen Mixer",
+  "titleZh": "打造一台轻柔运转的厨房搅拌器",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "At a small equipment workshop, engineers make a [[multifunction|multifunction]] kitchen mixer for people who find ordinary controls difficult to use. It blends soup, stirs sauces and prepares drinks containing [[protein|protein]] for muscle growth and repair. The designers [[sympathize|sympathize]] with users whose painful fingers make gripping small switches uncomfortable. Their design therefore begins with a broad pressure pad rather than a narrow button.",
+    "First, a technician cuts a circular base from aluminium. Its [[diameter|diameter]] is 24 centimetres, wide enough to support a full jug without occupying too much counter space. A [[senior|senior]] engineer checks the measurements before a rubber ring is fitted underneath. This provides a simple [[defence|defence]] against slipping, while a sealed cover keeps spilled liquid away from the motor.",
+    "Next comes the control system. Pressing the pad will [[activate|activate]] the motor only when the lid is locked. The [[logic|logic]] is straightforward: an open jug could release hot liquid, so the machine must remain still until it is safely closed. During assembly, wires connect the lid sensor to a tiny control board. The motor is programmed to gain speed [[steadily|steadily]], preventing a sudden splash when mixing begins.",
+    "Finally, each finished mixer is tested with thick vegetable soup. If it shakes, technicians inspect the feet and blade alignment rather than immediately [[attribute|attribute]] the problem to the motor. After cleaning, the mixer is packed with a large-print guide: a carefully built machine made useful by equally careful instructions."
+  ],
+  "zh": [
+    "在一家小型设备工坊里，工程师们制作了一款多功能厨房搅拌器，专供觉得普通控制装置难以操作的人使用。它能搅打浓汤、搅拌酱汁，还能调制含有蛋白质的饮品，帮助肌肉生长和修复。设计师体谅那些手指疼痛、难以握住小开关的使用者。因此，他们的设计从一块宽大的按压板入手，而不是采用狭窄的按钮。",
+    "首先，技术人员用铝材切割出一个圆形底座。它的直径为24厘米，足以稳稳托住装满食物的搅拌杯，又不会占用太多台面空间。一名资深工程师核查尺寸后，工作人员便在底部安装一个橡胶圈。这能起到简单的防滑保护作用，而密封罩则防止溅出的液体接触电机。",
+    "接下来安装控制系统。只有在杯盖锁紧时，按下按压板才会启动电机。其逻辑很简单：敞口的搅拌杯可能会让热液体溅出，因此，在杯盖安全关闭之前，机器必须保持静止。组装时，工作人员用导线将杯盖传感器连接到一块微型控制板。电机经过程序设定，会平稳地逐渐加速，避免开始搅拌时液体突然飞溅。",
+    "最后，每台组装好的搅拌器都要用浓稠的蔬菜汤进行测试。如果机器晃动，技术人员会检查底脚状况和刀片是否对准，而不会立即将问题归因于电机。清洁之后，搅拌器会与一本大字版指南一起装箱：同样用心编写的说明让精心制造的机器便于使用。"
+  ],
+  "q": [
+    {
+      "s": "The designers chose a narrow button as the mixer's main control.",
+      "a": "F",
+      "why": "设计采用宽大的按压板，而非窄按钮。"
+    },
+    {
+      "s": "The motor cannot begin turning until the jug's lid is locked.",
+      "a": "T",
+      "why": "只有杯盖锁紧后，电机才能启动。"
+    },
+    {
+      "s": "Buyers receive free maintenance during their first year of ownership.",
+      "a": "NG",
+      "why": "文章未提及免费维护或保修期限。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0287",
+  "ids": [
+    "heavily",
+    "tank",
+    "misunderstand",
+    "elementary",
+    "western",
+    "zone",
+    "iron",
+    "movement",
+    "mixed",
+    "pint"
+  ],
+  "title": "Painting on Water",
+  "titleZh": "在水面上作画",
+  "topic": "arts",
+  "cefr": 2,
+  "paras": [
+    "In the [[western|western]] part of a small coastal town, artist Leila makes pictures on water. Her workshop has a wet [[zone|zone]], where a shallow [[tank|tank]] stands beside a table covered with drying paper. Inside it, red and blue lines curl like tiny rivers. These patterns will soon become book covers.",
+    "The method depends [[heavily|heavily]] on a simple scientific idea: thick liquids slow things down. Leila adds a powder made from sea plants to the water. For a small practice tray, she starts with one [[pint|pint]]. The thicker water supports drops of specially prepared paint, including a red colour made with [[iron|iron]].",
+    "Visitors sometimes [[misunderstand|misunderstand]] her instruction to 'let the colour travel'. They think they must shake the tray. Instead, Leila teaches an [[elementary|elementary]] technique: pull a thin stick gently across the surface. Each [[movement|movement]] stretches the floating paint into a new shape. Moving too quickly can break the smooth lines into small patches.",
+    "A [[mixed|mixed]] group of beginners, from bakers to nurses, watches her lower a sheet of paper onto the surface. When she lifts it, the pattern comes away with it. No two sheets look exactly alike, because tiny changes in speed and direction alter the design. The finished cover is therefore more than decoration: it records a brief dance of colour on water."
+  ],
+  "zh": [
+    "在一座海滨小镇的西部，艺术家莱拉在水面上作画。她的工作室设有湿作业区，一个浅水槽摆在桌子旁，桌上铺着正在晾干的纸。水槽里，红蓝相间的线条像细小的河流一样蜿蜒。这些图案很快就会成为书的封面。",
+    "这种方法很大程度上依靠一个简单的科学原理：黏稠的液体会让物体移动得更慢。莱拉往水里加入一种由海洋植物制成的粉末。使用小托盘练习时，她先倒入一品脱水。变稠的水能托住经过特殊调配的颜料滴，其中包括一种用铁制成的红色颜料。",
+    "参观者有时会误解她所说的“让颜色游走”。他们以为必须摇动托盘。实际上，莱拉教的是一种基础技法：用一根细棒轻轻划过水面。每一个动作都会将漂浮的颜料拉成新的形状。动作太快，可能会使流畅的线条断成小块。",
+    "一群来自不同职业的初学者，有面包师，也有护士，看着她将一张纸放到水面上。她提起纸时，图案也随之被带了起来。没有两张纸的图案完全一样，因为速度和方向的细微变化都会改变图案。因此，完成的封面不仅是装饰，更记录了色彩在水面上的一段短暂舞蹈。"
+  ],
+  "q": [
+    {
+      "s": "Leila has worked in her current workshop for five years.",
+      "a": "NG",
+      "why": "文章介绍了工作室，但未说明她在那里工作多久。"
+    },
+    {
+      "s": "Leila uses powder made from sea plants to make the water thicker.",
+      "a": "T",
+      "why": "第二段说明她加入海洋植物粉末使水变稠。"
+    },
+    {
+      "s": "Leila tells beginners to create patterns by shaking the container.",
+      "a": "F",
+      "why": "她教人用细棒轻划水面，而非摇动托盘。"
+    }
+  ]
+}

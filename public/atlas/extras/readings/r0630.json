@@ -1,0 +1,48 @@
+{
+  "id": "r0630",
+  "ids": [
+    "turnover",
+    "embroidery",
+    "attributable",
+    "vain",
+    "wrench",
+    "affirm",
+    "denote",
+    "lag",
+    "formulate",
+    "captive"
+  ],
+  "title": "When Encouragement Becomes Pressure",
+  "titleZh": "当鼓励变成压力",
+  "topic": "emotion",
+  "cefr": 4,
+  "paras": [
+    "In this fictional training case, a coastal sanctuary housed [[captive|captive]] seabirds unable to survive independently. Volunteers repaired feeding stands and decorated cloth bags for its shop. Although monthly [[turnover|turnover]] was recorded, frustration was not. Psychologist Leila Haddad recruited thirty volunteers to investigate whether reassuring instructions helped people persist when unfamiliar practical tasks became difficult.",
+    "Participants attempted two activities: tightening an awkward bolt with a [[wrench|wrench]] and learning a basic [[embroidery|embroidery]] stitch. Beforehand, Haddad asked each person to [[formulate|formulate]] a strategy for managing mistakes. Half then heard a recording declaring that most beginners succeeded quickly; the remainder heard that early errors were common and improvement varied considerably between individuals.",
+    "Coloured buttons allowed participants to report their feelings without interrupting work: blue was used to [[denote|denote]] calmness, orange irritation. Contrary to expectations, those promised rapid success began to [[lag|lag]] behind the other group after their first error. Several made [[vain|vain]] attempts to force the bolt into position, repeatedly applying pressure rather than reconsidering its angle.",
+    "After twenty minutes, the realistic-instruction group had completed more tasks and reported less irritation. Interviews suggested that the difference was partly [[attributable|attributable]] to interpretation: mistakes felt like information rather than evidence of personal inadequacy. Haddad cautioned that the small experiment could not establish lasting effects, but it did [[affirm|affirm]] a narrower conclusion: encouragement need not promise ease to be useful. The sanctuary subsequently replaced its cheerful assurance, “Anyone can do this immediately,” with a quieter invitation: “Try again, but try differently.”"
+  ],
+  "zh": [
+    "在这个虚构的培训案例中，一家海滨保护中心收容了无法独立生存的圈养海鸟。志愿者维修喂食架，并为中心商店的布袋添加装饰。中心每月都会记录营业额，却不记录挫败感。心理学家莱拉·哈达德招募了三十名志愿者，研究当不熟悉的动手任务变得困难时，令人安心的指导语是否能帮助人们坚持下去。",
+    "参与者尝试了两项活动：用扳手拧紧一颗难以操作的螺栓，以及学习一种基础刺绣针法。开始之前，哈达德请每个人构想一套应对错误的策略。随后，一半人听到的录音宣称，大多数初学者很快就能成功；另一半人则被告知，起初犯错很常见，而且不同人的进步速度存在相当大的差异。",
+    "参与者可以通过彩色按钮报告感受，无须中断手头的工作：蓝色表示平静，橙色表示烦躁。与预期相反，那些被告知会迅速成功的人，在第一次出错后就开始落后于另一组。有几个人徒劳地试图强行将螺栓拧到位，不断施加压力，而不是重新考虑螺栓的角度。",
+    "二十分钟后，接受现实指导语的那组人完成了更多任务，报告的烦躁程度也更低。访谈提示，这种差异可能部分归因于对错误的理解：错误被视为提供信息的线索，而不是个人能力不足的证据。哈达德提醒说，这项小规模实验无法确定长期效果，但它确实支持了一个较为有限的结论：鼓励不必承诺轻松，也能发挥作用。此后，保护中心将那句欢快的保证“谁都能立刻做到”，换成了一句更温和的邀请：“再试一次，但换个方法。”"
+  ],
+  "q": [
+    {
+      "s": "Haddad recruited the volunteers through an advertisement in the sanctuary's shop.",
+      "a": "NG",
+      "why": "文中说明招募了三十人，未说明招募方式。"
+    },
+    {
+      "s": "Participants promised quick success moved ahead of the other group after their first error.",
+      "a": "F",
+      "why": "第三段说这组人首次出错后开始落后。"
+    },
+    {
+      "s": "After twenty minutes, the realistic-instruction group had completed more tasks.",
+      "a": "T",
+      "why": "末段明确说明该组二十分钟后完成更多任务。"
+    }
+  ]
+}

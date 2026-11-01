@@ -1,0 +1,48 @@
+{
+  "id": "r0487",
+  "ids": [
+    "blossom",
+    "ambitious",
+    "fulfil",
+    "specialist",
+    "fatal",
+    "novelist",
+    "fossil",
+    "eyesight",
+    "flaw",
+    "overdue"
+  ],
+  "title": "The Leaf That Changed Its Name",
+  "titleZh": "一片叶子的更名之旅",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "At the centre of this exhibition lies a grey stone, no larger than a hand. Its delicate [[fossil|fossil]] leaf was discovered in 1886 by Mara Voss, an [[ambitious|ambitious]] collector who hoped to identify an unknown prehistoric tree. Beside it, a painting of pear [[blossom|blossom]] introduces the orchard where she first became interested in plants.",
+    "Begin with the notebook in the left-hand case. Voss, who also worked as a [[novelist|novelist]], described her discoveries in unusually vivid language. However, imagination could not replace evidence. To [[fulfil|fulfil]] a promise to the regional museum, she sent drawings to a plant [[specialist|specialist]]. His reply identified a serious [[flaw|flaw]] in her argument: the leaf's outline alone could not establish its identity.",
+    "The next display explains why the investigation stopped. The expert suffered a [[fatal|fatal]] fever before he could examine the stone, and Voss lacked access to comparable specimens. Her report became [[overdue|overdue]], but letters show that she continued working. As her [[eyesight|eyesight]] weakened, she used the large magnifying glass displayed here to trace the fine veins branching across the leaf.",
+    "At the final station, visitors can compare her drawing with a modern image made using angled light. The veins reveal that the specimen belonged to a familiar group of trees, not a new one. Although Voss never achieved her original aim, her careful records allowed later researchers to correct the label. Before leaving, try moving the lamp yourself: a small change in lighting can transform what the stone reveals."
+  ],
+  "zh": [
+    "展览中央是一块不比手掌大的灰色石头。石上精巧的叶片化石由玛拉·沃斯于1886年发现。这位雄心勃勃的收藏者希望借此辨认出一种尚不为人所知的史前树木。石头旁边的一幅梨花画，向观众介绍了她最初对植物产生兴趣的那座果园。",
+    "请先观看左侧展柜中的笔记本。沃斯同时也是一位小说家，她用格外生动的语言描述自己的发现。然而，想象力不能代替证据。为了履行对地区博物馆的承诺，她将绘图寄给了一位植物专家。专家在回信中指出了她论证中的一个严重缺陷：仅凭叶片的轮廓，无法确定它属于什么植物。",
+    "下一处展陈解释了这项研究为何中断。那位专家还没来得及检查石头，就因一场致命的热病去世了，而沃斯无法获取可供比较的标本。她的报告未能按期完成，但书信表明她一直在继续研究。随着视力衰退，她使用这里展出的那只大放大镜，描摹叶片上细密分叉的叶脉。",
+    "在最后一处展台，观众可以将她的绘图与利用斜射光拍摄的现代影像进行比较。叶脉显示，这件标本属于一个已知的树木类群，而非新发现的类群。尽管沃斯从未实现最初的目标，但她细致的记录使后来的研究人员得以更正标签。离开前，不妨亲手移动一下灯具：光照的微小变化，就能让石头显现出截然不同的细节。"
+  ],
+  "q": [
+    {
+      "s": "Voss discovered the fossil leaf in 1886.",
+      "a": "T",
+      "why": "首段明确说明化石叶片发现于1886年。"
+    },
+    {
+      "s": "The expert confirmed that the shape of the leaf was sufficient to identify it.",
+      "a": "F",
+      "why": "专家指出，仅凭叶片轮廓无法确定其身份。"
+    },
+    {
+      "s": "Voss bought her magnifying glass from a shop near the museum.",
+      "a": "NG",
+      "why": "文章未说明放大镜的购买地点。"
+    }
+  ]
+}

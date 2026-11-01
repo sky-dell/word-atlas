@@ -1,0 +1,46 @@
+{
+  "id": "r0068",
+  "ids": [
+    "off",
+    "wait",
+    "under",
+    "italian",
+    "on",
+    "personal",
+    "possible",
+    "cent",
+    "describe",
+    "say"
+  ],
+  "title": "A Small Part for a Big Ride",
+  "titleZh": "小零件，大骑行",
+  "topic": "sport",
+  "cefr": 0,
+  "paras": [
+    "Mina loved riding her bike by the river. One Sunday, she met Luca, her [[italian|Italian]] friend, for a long ride. She put her bag [[on|on]] a bench and checked her bike. The seat moved from side to side. Then a small nut fell [[off|off]]. It went into a hole in the ground below the bench. Without it, the seat was not safe. Mina felt sad. Their ride could not start.",
+    "Luca looked [[under|under]] the bench, but he could not see the nut in the hole. “There is a bike shop near here,” he [[say|said]]. “Please [[wait|wait]] here. I can ask for help.” At the shop, he [[describe|described]] the small nut to the woman at the desk. She showed him two sizes. He did not know which one Mina needed, so the woman walked back with him.",
+    "The woman brought her [[personal|personal]] tool bag. She found the right nut inside. It cost only twenty [[cent|cents]]. She put it in place and checked the seat again. Now a safe ride was [[possible|possible]]. Mina thanked her. Soon, the two friends were riding beside the water. At their first stop, Mina bought Luca a cold drink."
+  ],
+  "zh": [
+    "米娜喜欢在河边骑自行车。一个星期天，她和意大利朋友卢卡见面，准备骑车远行。她把包放在长椅上，检查了一下自行车。车座左右晃动。接着，一颗小螺母掉了下来，落进了长椅下方地面上的一个洞里。没有它，车座就不安全了。米娜很难过。他们没法出发了。",
+    "卢卡看了看长椅下面，但看不到洞里的螺母。“这附近有一家自行车店，”他说，“请在这里等着。我可以去找人帮忙。”到了店里，他向柜台旁的女士描述了那颗小螺母。她拿出两种尺寸给他看。他不知道米娜需要哪一种，于是那位女士和他一起走了回去。",
+    "那位女士带来了她自己的工具包。她在里面找到了合适的螺母，只要二十分。她把螺母装好，又检查了一遍车座。现在可以安全骑车了。米娜向她道谢。很快，两个朋友就在河边骑起了车。第一次停下来休息时，米娜给卢卡买了一杯冷饮。"
+  ],
+  "q": [
+    {
+      "s": "Mina found a problem with her bike before the ride began.",
+      "a": "T",
+      "why": "出发前检查时，她发现车座晃动。"
+    },
+    {
+      "s": "The woman had worked at the bike shop for ten years.",
+      "a": "NG",
+      "why": "文中未提及女士在店里工作的年数。"
+    },
+    {
+      "s": "The new nut cost fifty cents.",
+      "a": "F",
+      "why": "正文说螺母只要二十分，不是五十分。"
+    }
+  ]
+}

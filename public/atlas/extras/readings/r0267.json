@@ -1,0 +1,48 @@
+{
+  "id": "r0267",
+  "ids": [
+    "global",
+    "complaint",
+    "increasing",
+    "dig",
+    "production",
+    "position",
+    "cafeteria",
+    "mushroom",
+    "pattern",
+    "servant"
+  ],
+  "title": "How Mushrooms Capture Sunshine",
+  "titleZh": "蘑菇如何留住阳光",
+  "topic": "health",
+  "cefr": 2,
+  "paras": [
+    "In a large house a century ago, a [[servant|servant]] might have placed freshly picked mushrooms on a table outdoors in the sunshine. Today, a cook in a hospital [[cafeteria|cafeteria]] might do the same. Neither cook would necessarily know that sunlight can change the food in a useful way.",
+    "A [[mushroom|mushroom]] contains a substance that changes into vitamin D when certain rays in sunlight reach it. This vitamin helps our bodies use calcium to build strong bones. Low vitamin D levels are a [[global|global]] health concern, so there is [[increasing|increasing]] interest in this simple natural process.",
+    "The [[position|position]] of the food matters. Turning mushrooms upside down exposes the thin lines underneath their caps to more light. Cutting them into slices also exposes more surface. Tests show a clear [[pattern|pattern]]: suitable exposure to these rays supports vitamin D [[production|production]]. However, the result depends on the type of mushroom and the strength of the light.",
+    "Leaving mushrooms outside for too long can dry them out. A diner's [[complaint|complaint]] that they have become tough is therefore understandable. Cooks who want to [[dig|dig]] into this subject can start by reading about shop-bought mushrooms, which can undergo this change too. There is no need to collect wild ones, which may be poisonous."
+  ],
+  "zh": [
+    "一个世纪前，在一座大宅里，佣人可能会把刚采来的蘑菇放在室外阳光下的桌子上。如今，医院食堂的厨师也可能这样做。两位做饭的人未必知道，阳光能让这种食物发生一种有益的变化。",
+    "蘑菇含有一种物质，当阳光中的某些射线照到它时，它会转变成维生素D。这种维生素帮助人体利用钙来构建强健的骨骼。维生素D水平偏低是全球性的健康问题，因此，人们对这一简单自然过程的兴趣正日益增长。",
+    "食物摆放的位置很重要。将蘑菇翻过来，能让菌盖下面细细的条纹接触到更多光线。把蘑菇切片也能增加受光面积。试验显示出一个明确的规律：适当地接触这些射线，有助于维生素D的生成。不过，结果取决于蘑菇的种类和光照强度。",
+    "把蘑菇放在室外太久，可能会使它们变干。因此，用餐者抱怨蘑菇变得难嚼，也是可以理解的。想深入了解这个话题的厨师，可以先阅读有关商店所售蘑菇的资料，这些蘑菇也能发生这种变化。没有必要采集野生蘑菇，因为它们可能有毒。"
+  ],
+  "q": [
+    {
+      "s": "Vitamin D prevents our bodies from using calcium to build strong bones.",
+      "a": "F",
+      "why": "第二段说维生素D帮助而非阻止人体利用钙。"
+    },
+    {
+      "s": "Slicing mushrooms exposes more of their surface to light.",
+      "a": "T",
+      "why": "第三段明确说切片能增加受光面积。"
+    },
+    {
+      "s": "Most diners prefer the taste of mushrooms that have been exposed to sunlight.",
+      "a": "NG",
+      "why": "文章未说明多数食客是否偏好日晒蘑菇。"
+    }
+  ]
+}

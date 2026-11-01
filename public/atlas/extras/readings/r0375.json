@@ -1,0 +1,48 @@
+{
+  "id": "r0375",
+  "ids": [
+    "baggy",
+    "violent",
+    "confidential",
+    "priority",
+    "marble",
+    "bravery",
+    "component",
+    "eve",
+    "formerly",
+    "shove"
+  ],
+  "title": "A Garden Behind the Workshop",
+  "titleZh": "工坊后的小花园",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "Behind a row of houses in Bellwick lay a yard that had [[formerly|formerly]] been used for repairing boats. When six neighbours proposed turning it into a wildlife garden, their first [[priority|priority]] was removing sharp metal from the soil. Mina, a retired tailor in [[baggy|baggy]] trousers, spent three Saturdays sorting rubbish from reusable materials.",
+    "The volunteers built a shallow pond, using a cracked [[marble|marble]] slab as a firm landing place for birds. A small solar pump was the only mechanical [[component|component]] in their design. Rather than [[shove|shove]] young plants into narrow gaps, they prepared wide holes and added compost. By June, beetles were sheltering under logs, and birds were drinking at the pond's edge.",
+    "On the [[eve|eve]] of the garden's opening, however, a [[violent|violent]] intruder kicked apart the wooden gate and smashed several pots. Tomas, who lived opposite, witnessed the damage but stayed indoors instead of confronting him. He later provided a [[confidential|confidential]] account to the police. The group thanked him for his [[bravery|bravery]] in reporting what he had seen, while making clear that nobody was expected to risk injury.",
+    "The opening was delayed by a week. During that time, neighbours repaired the gate and replaced the pots with donated containers. At the eventual gathering, attention shifted from the damage to a frog sitting beneath a leaf. For Mina, its arrival was the clearest sign that the neglected yard had become a useful habitat."
+  ],
+  "zh": [
+    "贝尔威克一排住宅的后面有一处院子，从前是修船的地方。六位邻居提议把它改造成野生动物花园后，首先要做的就是清除土里的尖锐金属。退休裁缝米娜穿着宽松的裤子，花了三个星期六，把垃圾和可以再利用的材料分开。",
+    "志愿者们挖了一个浅水池，用一块开裂的大理石板为鸟儿提供稳固的落脚点。一台小型太阳能水泵是整个设计中唯一的机械部件。他们没有把幼苗随意塞进狭窄的缝隙，而是挖好宽敞的种植穴，并加入堆肥。到了六月，甲虫已在木头下面栖身，鸟儿也来到池边饮水。",
+    "然而，就在花园开放的前夕，一名凶暴的闯入者踢坏了木门，还砸碎了几个花盆。住在对面的托马斯目睹了破坏过程，但他留在屋内，没有出去与对方对峙。后来，他向警方提供了一份保密的情况陈述。大家感谢他勇敢地报告所见，同时明确表示，不会要求任何人冒着受伤的风险采取行动。",
+    "花园推迟了一周开放。在此期间，邻居们修好了门，并用捐赠的容器替换了破碎的花盆。等到大家终于相聚时，人们的注意力从遭到的破坏转向了一只蹲在叶子下面的青蛙。对米娜来说，它的到来最清楚地表明，这处被遗忘的院子已经成了有用的栖息地。"
+  ],
+  "q": [
+    {
+      "s": "Building the pond was the neighbours' first priority.",
+      "a": "F",
+      "why": "首要任务是清除土里的尖锐金属。"
+    },
+    {
+      "s": "Tomas remained indoors while the intruder damaged the garden.",
+      "a": "T",
+      "why": "他目睹破坏时留在屋内，没有出去对峙。"
+    },
+    {
+      "s": "The donated containers were larger than the pots they replaced.",
+      "a": "NG",
+      "why": "末段提到捐赠容器，但未比较大小。"
+    }
+  ]
+}

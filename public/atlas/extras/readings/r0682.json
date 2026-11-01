@@ -1,0 +1,48 @@
+{
+  "id": "r0682",
+  "ids": [
+    "disloyalty",
+    "worthy",
+    "recipient",
+    "recitation",
+    "oblige",
+    "adornment",
+    "shrewd",
+    "avalanche",
+    "consolation",
+    "migratory"
+  ],
+  "title": "Giving a Mountain Letter Its Voice",
+  "titleZh": "让一封山中来信发声",
+  "topic": "media",
+  "cefr": 4,
+  "paras": [
+    "A twelve-minute radio documentary begins with a letter recovered from a mountain refuge. Written after an [[avalanche|avalanche]] destroyed the neighbouring settlement, it describes the departure of several families as [[disloyalty|disloyalty]] to those who remained. Producer Leila considers the letter [[worthy|worthy]] of broadcast, not because its accusations are fair, but because they reveal how grief can reshape communal loyalties.",
+    "Production starts with verification. An archivist identifies the intended [[recipient|recipient]], a carpenter living beyond the valley, while Leila compares dates with snowfall records. These checks [[oblige|oblige]] her to abandon an attractive opening: the letter was written months after the disaster, rather than during it. A [[shrewd|shrewd]] editorial decision preserves this delay, making the persistence of resentment central to the programme.",
+    "Next, a performer prepares a [[recitation|recitation]] of a short verse quoted in the letter, memorising its irregular lines before entering the studio. The spoken letter itself is recorded separately, without theatrical sobbing. For the soundscape, Leila collects wind passing through roof slates and the calls of [[migratory|migratory]] birds returning to the ridge. These sounds establish place and season rather than merely supplying acoustic [[adornment|adornment]].",
+    "Finally, the editor assembles testimony, silence and archival explanation around the letter. A surviving family account supplies a measure of [[consolation|consolation]]: those who left later sent tools and seed to their former neighbours. Rather than erase the accusation, Leila lets this evidence answer it. The finished documentary closes with a wooden seed box being opened, its dry creak turning an abstract dispute into an audible act of care."
+  ],
+  "zh": [
+    "一部十二分钟的广播纪录片，以一封从山间避难所找回的信为起点。这封信写于一场摧毁邻近村落的雪崩之后，将几户人家的离去称为对留守者的背叛。制作人莱拉认为，这封信值得播出，并非因为其中的指责公正，而是因为它揭示了悲痛如何重塑群体内部的忠诚关系。",
+    "制作首先从核实事实开始。一位档案管理员查明，信件原定的收件人是一名住在山谷之外的木匠；与此同时，莱拉将信中的日期与降雪记录进行比对。这些核查迫使她放弃了一个颇具吸引力的开场：信并非写于灾难发生之际，而是在数月之后才写成。她作出了一个明智的编辑决定，保留这段时间差，将怨恨的持续存在置于节目的核心。",
+    "接着，一位表演者开始准备朗诵信中引用的一小段诗，在进入录音室之前，先背熟那些长短不齐的诗行。信件正文的朗读则单独录制，不加入戏剧化的抽泣声。为了制作声音环境，莱拉采集了风穿过屋顶石板缝隙的声音，以及重返山脊的候鸟鸣叫。这些声音用于交代地点与季节，而不只是充当听觉上的装饰。",
+    "最后，剪辑师围绕这封信，将证言、静默与档案解说编排在一起。一份留存下来的家族记述带来了些许慰藉：那些离开的人后来曾向昔日的邻居寄去工具和种子。莱拉没有抹去信中的指责，而是让这份证据回应它。成片以一个木制种子箱被打开的声音收尾，那声干涩的吱响，将抽象的争执化为一份听得见的关怀。"
+  ],
+  "q": [
+    {
+      "s": "Leila considers the letter worthy of broadcast because its accusations are fair.",
+      "a": "F",
+      "why": "首段明确否定指责公正是播出理由。"
+    },
+    {
+      "s": "The performer had previously worked with Leila on another radio documentary.",
+      "a": "NG",
+      "why": "文中未提表演者此前是否与莱拉合作。"
+    },
+    {
+      "s": "A surviving family account reports that the departing families later sent supplies to their former neighbours.",
+      "a": "T",
+      "why": "家族记述称离开者后来寄去了工具和种子。"
+    }
+  ]
+}

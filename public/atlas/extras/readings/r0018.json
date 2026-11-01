@@ -1,0 +1,46 @@
+{
+  "id": "r0018",
+  "ids": [
+    "grammar",
+    "that",
+    "ticket",
+    "third",
+    "maths",
+    "second",
+    "floor",
+    "farm",
+    "low",
+    "painting"
+  ],
+  "title": "Three Rooms, One Family",
+  "titleZh": "三个房间，一家人的生活",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "Welcome to the Little Red House Museum. Your [[ticket|ticket]] lets you visit all three rooms. A family lived here many years ago. They had a small [[farm|farm]] with six cows. Start in the kitchen. Look at [[that|that]] big pot beside the window. The family used it to make soup every evening. There are five bowls on the table, one for each person.",
+    "The [[second|second]] room shows the children's evening at home. After dinner, they sat here with their mother. Open the little book on the [[low|low]] table. It has simple [[grammar|grammar]] rules and short stories. Another book is for [[maths|maths]]. The children counted eggs and added numbers. You can try one page. Please leave the books on the table, not on the wooden [[floor|floor]].",
+    "In the [[third|third]] room, you can see a [[painting|painting]] of the family under an apple tree. Their daughter, Mina, made it when she was older. The house is behind them, with its red door open. Before you leave, look through the window. The same tree is still outside. You can sit under it and enjoy a quiet moment, just like the family."
+  ],
+  "zh": [
+    "欢迎来到小红屋博物馆。凭门票，您可以参观全部三个房间。很多年前，有一家人住在这里。他们有一个小农场，养了六头母牛。请先从厨房开始参观。看看窗边的那口大锅。这家人每天晚上都用它煮汤。桌上摆着五个碗，每人一个。",
+    "第二个房间展示了孩子们在家度过的夜晚。晚饭后，他们和妈妈一起坐在这里。请翻开矮桌上的那本小书。里面有简单的语法规则和短篇故事。另一本是数学书。孩子们数鸡蛋，做加法。您也可以试着做一页。请把书留在桌上，不要放在木地板上。",
+    "在第三个房间，您可以看到一幅画，画中是一家人在苹果树下的情景。他们的女儿米娜长大一些后画了这幅画。他们身后是那座房子，红色的门开着。离开之前，请向窗外看看。同一棵树现在还在外面。您可以坐在树下，像这家人一样，享受片刻宁静。"
+  ],
+  "q": [
+    {
+      "s": "A ticket costs five pounds.",
+      "a": "NG",
+      "why": "文章未说明博物馆门票的价格。"
+    },
+    {
+      "s": "The children's little book is on a high table.",
+      "a": "F",
+      "why": "小书放在矮桌上，而不是高桌上。"
+    },
+    {
+      "s": "Mina painted the picture of her family.",
+      "a": "T",
+      "why": "文中明确说这幅全家人的画是米娜画的。"
+    }
+  ]
+}

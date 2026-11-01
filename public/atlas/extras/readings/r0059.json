@@ -1,0 +1,46 @@
+{
+  "id": "r0059",
+  "ids": [
+    "wednesday",
+    "a-m",
+    "new",
+    "cooking",
+    "family",
+    "example",
+    "december",
+    "metre",
+    "hate",
+    "sleep"
+  ],
+  "title": "Colour from the Kitchen",
+  "titleZh": "厨房里的色彩",
+  "topic": "arts",
+  "cefr": 0,
+  "paras": [
+    "Can kitchen waste make art? In [[december|December]], artist Mina tries a [[new|new]] way to colour cloth. On [[wednesday|Wednesday]], she starts at nine [[a-m|a.m.]] Her [[family|family]] keeps onion skins for her after making dinner. These dry, brown skins look like rubbish. But they hold colour. Mina puts two cups of skins into a pot of water. Her kitchen becomes a small art room.",
+    "The next step is like [[cooking|cooking]]. Mina heats the water slowly for thirty minutes. The water turns orange and brown. Some people [[hate|hate]] the strong smell, so she opens a window. Then she takes out the skins. She puts in a piece of white cloth, one [[metre|metre]] long. The hot water carries colour from the skins into the cloth. This is an [[example|example]] of using plants to colour cloth.",
+    "Mina leaves the cloth in the pot overnight. Colours can keep moving into cloth while we [[sleep|sleep]]. In the morning, she washes it in cold water. It is now soft gold. She hangs it up to dry, then makes a small wall picture. A little kitchen waste has become something beautiful."
+  ],
+  "zh": [
+    "厨房废料能变成艺术品吗？十二月，艺术家米娜尝试了一种给布染色的新方法。星期三，她在上午九点开始动手。她的家人做好晚饭后，把洋葱皮留给她。这些干燥的棕色外皮看起来像垃圾，但里面含有色素。米娜把两杯洋葱皮放进一锅水里。她的厨房变成了一间小小的艺术工作室。",
+    "下一步很像烹饪。米娜用小火把水加热三十分钟。水变成了橙棕色。有些人很讨厌这种浓烈的气味，所以她打开了一扇窗。接着，她捞出洋葱皮，放进一块一米长的白布。热水将洋葱皮中的色素带入布中。这是利用植物给布染色的一个例子。",
+    "米娜让布在锅里浸泡一夜。我们睡觉时，色素仍可以继续进入布中。早上，她用冷水清洗这块布。它现在呈现出柔和的金色。她把布挂起来晾干，然后做成一幅小小的布艺挂画。一点厨房废料就这样变成了美丽的东西。"
+  ],
+  "q": [
+    {
+      "s": "Mina has used onion skins to colour cloth before.",
+      "a": "NG",
+      "why": "尝试新方法不说明此前是否用过洋葱皮。"
+    },
+    {
+      "s": "Mina takes out the onion skins before she puts in the cloth.",
+      "a": "T",
+      "why": "她先捞出洋葱皮，再放入白布。"
+    },
+    {
+      "s": "Mina washes the cloth in hot water the next morning.",
+      "a": "F",
+      "why": "第二天早上她用冷水清洗布。"
+    }
+  ]
+}

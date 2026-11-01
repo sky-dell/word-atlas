@@ -1,0 +1,48 @@
+{
+  "id": "r0247",
+  "ids": [
+    "incorrect",
+    "physically",
+    "meanwhile",
+    "altogether",
+    "aim",
+    "terrific",
+    "mainly",
+    "realise",
+    "staff",
+    "saucer"
+  ],
+  "title": "Lessons Written in Clay",
+  "titleZh": "写在陶土里的课堂",
+  "topic": "education",
+  "cefr": 2,
+  "paras": [
+    "On her first evening at a small pottery school, Farah made a cup that leaned to one side. The school's [[aim|aim]] was to teach adults a skill they could use to earn money. Its students were [[mainly|mainly]] beginners, and Farah had never touched clay before. She wanted to make a matching [[saucer|saucer]], but that would have to wait until the following week.",
+    "Preparing the clay was [[physically|physically]] demanding. The students pressed and folded it to make its texture even. [[meanwhile|Meanwhile]], their teacher demonstrated how to shape a cup at a wooden table. An [[incorrect|incorrect]] hand movement could spoil the shape. Farah pressed too hard on one side, leaving it thinner than the other. She asked whether she should start again, but the teacher suggested keeping this attempt.",
+    "Teachers kept unsuccessful pieces for later lessons rather than throwing them away. They did not try to prevent mistakes [[altogether|altogether]]. When Farah's first dish cracked during drying, she began to [[realise|realise]] why: she could compare its uneven thickness with her next dish. By the end of the course, she had made a [[terrific|terrific]] blue bowl decorated with birds.",
+    "At the school's open evening, [[staff|staff]] placed Farah's early pieces beside her bowl. Visitors could also try shaping a dish. One visitor pointed to the crack and asked what had happened. Farah turned the broken dish over to show its thick base."
+  ],
+  "zh": [
+    "法拉第一晚来到一所小型陶艺学校时，做了一只向一侧倾斜的杯子。学校的目标是教成年人一门可以谋生的手艺。学生大多是初学者，法拉以前也从未接触过陶土。她想做一个配套的茶碟，但那得等到下一周。",
+    "准备陶土很费体力。学生们揉压、折叠陶土，使其质地均匀。与此同时，老师在一张木桌旁示范如何给杯子塑形。一个不正确的手部动作就可能破坏形状。法拉在一侧压得太用力，使这一侧比另一侧薄。她问是否应该重新开始，但老师建议保留这次的尝试。",
+    "老师们把做得不成功的作品留作以后的教学材料，而不是扔掉。他们并不试图完全避免错误。法拉的第一个碟子在干燥过程中裂开时，她开始明白其中的原因：她可以把它厚薄不均的部分与自己接下来做的碟子进行比较。课程结束时，她已经做出了一只绘有小鸟的精美蓝碗。",
+    "在学校的晚间开放活动中，工作人员把法拉早期的作品放在她的碗旁边。参观者也可以尝试给碟子塑形。一位参观者指着裂缝，问这是怎么回事。法拉把破裂的碟子翻过来，展示它厚厚的底部。"
+  ],
+  "q": [
+    {
+      "s": "The pottery school offered adults training that could help them make a living.",
+      "a": "T",
+      "why": "学校旨在教授成年人可以谋生的手艺。"
+    },
+    {
+      "s": "Teachers threw away unsuccessful pieces instead of keeping them for lessons.",
+      "a": "F",
+      "why": "老师保留失败作品供以后教学，而非扔掉。"
+    },
+    {
+      "s": "Visitors had to pay to try shaping a dish.",
+      "a": "NG",
+      "why": "文章说参观者可以尝试，但未说明是否收费。"
+    }
+  ]
+}

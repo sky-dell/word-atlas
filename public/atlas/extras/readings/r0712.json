@@ -1,0 +1,48 @@
+{
+  "id": "r0712",
+  "ids": [
+    "loath",
+    "panacea",
+    "miscarry",
+    "underwriter",
+    "transship",
+    "eucalyptus",
+    "bridle",
+    "ingenuous",
+    "antecedent",
+    "arboreal"
+  ],
+  "title": "A Grant for the Last Mile",
+  "titleZh": "打通最后一程的拨款",
+  "topic": "government",
+  "cefr": 5,
+  "paras": [
+    "When Mira Sen petitioned the council for a medicine store on Bellwater Island, officials were [[loath|loath]] to fund another building. Her proposal had an unpromising [[antecedent|antecedent]]: a fishing cooperative whose warehouse had closed after two seasons. Yet the island’s nurse wanted only a secure cupboard within the village meeting room.",
+    "The project acquired urgency after a resident [[miscarry|miscarried]] while awaiting evacuation. Mira carefully rejected any suggestion that stored medicines would have prevented that loss; dependable supplies were no [[panacea|panacea]] for the island’s clinical limitations. Nevertheless, the council approved a modest grant, conditional on an [[underwriter|underwriter]] accepting the insurance risks associated with storage and delivery across the tidal inlet.",
+    "Each Thursday, volunteers would [[transship|transship]] sealed boxes from the coastal ferry to a shallow-draught launch. Beyond the landing, where a fallen [[eucalyptus|eucalyptus]] obstructed the cart track, Tomas Okeke led a packhorse by its [[bridle|bridle]]. Rather than remove the tree entirely, residents retained its hollow trunk beside the cleared track, preserving shelter used by [[arboreal|arboreal]] mammals without compromising the delivery route.",
+    "An [[ingenuous|ingenuous]] volunteer initially assumed that goodwill would dispense with paperwork. Mira insisted otherwise: temperature logs, signed receipts and a published expenditure ledger justified the arrangement at the council’s review. After twelve months, no scheduled delivery had been missed. Renewed funding rested not on promises to eliminate vulnerability, but on evidence that one manageable source of it had been reduced."
+  ],
+  "zh": [
+    "米拉·森向议会申请在贝尔沃特岛设立药品储存点时，官员们不愿再出资建造一栋房屋。她的提案有一个不太令人乐观的先例：一家渔业合作社的仓库只运营了两个季节便关闭了。然而，这位岛上的护士只想在村民议事室里放一个安全的储物柜。",
+    "一名居民在等待转运就医期间流产，这使项目变得迫切起来。米拉谨慎地否认了这样一种说法：如果当时储备了药品，就能避免这次不幸。稳定的药品供应并不是解决岛上医疗局限的万能药。不过，议会仍批准了一笔小额拨款，条件是必须有保险承保机构愿意承担药品储存及跨越潮汐水道运输所涉及的风险。",
+    "每逢星期四，志愿者都会把密封的药箱从沿海渡轮转装到一艘吃水较浅的小艇上。在登陆点之外，一棵倒下的桉树挡住了马车道，托马斯·奥凯克在那里拉着笼头牵引一匹驮马。居民没有把整棵树移走，而是在清理出的道路旁保留了中空的树干，既留下了树栖哺乳动物栖身的地方，也没有妨碍运送路线。",
+    "一位天真坦率的志愿者起初以为，有了善意，就不必做文书记录。米拉却坚持相反的做法：温度记录、签收凭据和公开的支出账目，在议会审核时为这套安排提供了依据。十二个月过去，没有漏掉任何一次计划内的配送。项目获得续拨资金，靠的不是消除脆弱处境的承诺，而是证据——造成这种处境的一个可控因素已经得到缓解。"
+  ],
+  "q": [
+    {
+      "s": "Mira's proposal required the council to construct a new building for storing medicines.",
+      "a": "F",
+      "why": "她只需要在现有村民议事室内放置储物柜。"
+    },
+    {
+      "s": "The council required the underwriter to be based on Bellwater Island.",
+      "a": "NG",
+      "why": "拨款条件涉及承保风险，未规定承保方所在地。"
+    },
+    {
+      "s": "No scheduled medicine delivery was missed during the first twelve months.",
+      "a": "T",
+      "why": "末段明确说十二个月内未漏掉计划配送。"
+    }
+  ]
+}

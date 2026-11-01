@@ -1,0 +1,48 @@
+{
+  "id": "r0633",
+  "ids": [
+    "partition",
+    "predecessor",
+    "feudalism",
+    "corrode",
+    "chant",
+    "municipal",
+    "dungeon",
+    "dismay",
+    "compress",
+    "ascribe"
+  ],
+  "title": "Giving a Castle Its Voice",
+  "titleZh": "让古堡开口讲述",
+  "topic": "travel",
+  "cefr": 4,
+  "paras": [
+    "Making an audio tour for a ruined castle begins with evidence rather than dramatic music. At Greywater Castle, curator Leila examines notebooks left by her [[predecessor|predecessor]], comparing their descriptions with surviving rooms. A timber [[partition|partition]], previously mistaken for a defensive structure, proves to have divided servants’ sleeping quarters. This discovery becomes the opening scene of the visitors’ recording.",
+    "Next, the scriptwriter converts architectural findings into a journey through social history. To explain [[feudalism|feudalism]], he follows an imaginary tenant whose right to cultivate land depends on service and loyalty to a lord. Records from the [[municipal|municipal]] archive supply authentic grain prices, while a brief harvest [[chant|chant]], reconstructed from a written fragment, introduces the agricultural calendar without overwhelming the narration.",
+    "Recording inside the castle presents less romantic difficulties. In the [[dungeon|dungeon]], the crew discover, to their [[dismay|dismay]], that moisture has damaged a microphone connector. Conservators [[ascribe|ascribe]] the deterioration to salts carried by persistent damp, which can [[corrode|corrode]] exposed metal. Subsequent sessions therefore take place in a dry storeroom, with underground echoes captured separately and added during editing.",
+    "Finally, sound engineers [[compress|compress]] the recordings into files small enough for the castle’s handheld players, checking that quiet consonants remain intelligible. Each stop lasts under ninety seconds, leaving visitors time to inspect the stonework rather than merely obey a voice. After a trial walk reveals an awkward pause beside a blocked staircase, Leila adjusts the sequence. The finished tour ends at an open window, where recorded footsteps give way to actual wind."
+  ],
+  "zh": [
+    "为一座古堡遗址制作语音导览，起点是史料，而非富有戏剧性的音乐。在灰水堡，馆长莱拉查阅前任留下的笔记，将其中的描述与现存房间逐一对照。一道曾被误认为防御设施的木隔墙，经查原来是用来分隔仆人卧室的。这一发现成了游客导览录音的开篇场景。",
+    "接下来，撰稿人把建筑研究成果转化为一段穿越社会历史的旅程。为解释封建制度，他以一名虚构佃农的经历为线索：此人耕种土地的权利，取决于他是否为领主服役并效忠。市政档案馆的记录提供了真实的谷物价格；一段依据文字残篇重建的简短丰收吟唱，则引出了农事历，又不至于喧宾夺主，盖过解说。",
+    "在城堡内录音，遇到的困难就没那么浪漫了。在地牢里，录音人员沮丧地发现，潮气已经损坏了一个麦克风接头。文物保护人员将这种损坏归因于持续潮湿环境所携带的盐分，它们可能腐蚀裸露的金属。因此，后续录音改在干燥的储藏室进行，地下空间的回声则单独采集，再于剪辑时加入。",
+    "最后，音响工程师将录音压缩成足够小的文件，以便存入城堡的手持播放器，同时检查较轻的辅音是否仍然清晰可辨。每个停靠点的讲解都不到九十秒，让游客有时间观察石砌结构，而不只是听从声音的指引。试走时，莱拉发现封闭楼梯旁的一处停顿十分突兀，于是调整了讲解顺序。完成后的导览在一扇敞开的窗前结束，录下的脚步声渐渐退去，耳边只剩真实的风声。"
+  ],
+  "q": [
+    {
+      "s": "Leila's investigation confirms that the timber partition was a defensive structure.",
+      "a": "F",
+      "why": "调查发现它用于分隔仆人寝室，防御用途是误判。"
+    },
+    {
+      "s": "After discovering the damaged connector, the crew move subsequent recording sessions to a dry storeroom.",
+      "a": "T",
+      "why": "第三段明确说后续录音改在干燥储藏室进行。"
+    },
+    {
+      "s": "Visitors must pay an additional fee to borrow the castle’s audio players.",
+      "a": "NG",
+      "why": "文章未提及播放器的借用费用。"
+    }
+  ]
+}

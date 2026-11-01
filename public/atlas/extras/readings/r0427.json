@@ -1,0 +1,48 @@
+{
+  "id": "r0427",
+  "ids": [
+    "invader",
+    "interest-free",
+    "invisible",
+    "specialty",
+    "grand",
+    "pamphlet",
+    "database",
+    "depress",
+    "lobby",
+    "processing"
+  ],
+  "title": "From Fortress to Fabric Workshop",
+  "titleZh": "从堡垒到织物工坊",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "In the mountain district of Bellara, a surprising change is taking place in public buildings: rooms once reserved for officials are becoming textile workshops. The first opened in a stone fortress whose thick walls were designed to resist [[invader|invaders]]. Now, every Thursday, residents carry damaged blankets through its [[grand|grand]] entrance instead of submitting documents.",
+    "The project began when council employee Amara Sen noticed how many woollen goods were being discarded. Empty offices used to [[depress|depress]] her, particularly while nearby craftspeople struggled to afford workspace. She proposed offering rooms at low rent, supported by [[interest-free|interest-free]] loans for equipment. A short [[pamphlet|pamphlet]], available in the [[lobby|lobby]], explains how residents can book repairs or learn basic techniques.",
+    "Demand has exceeded expectations. One room contains equipment for the [[processing|processing]] of raw wool, including washing, drying and combing it before spinning. In another, Pavel Marin, whose [[specialty|specialty]] is restoring woven carpets, examines damaged fibres under a microscope. Some weaknesses are [[invisible|invisible]] to the naked eye but become clear under magnification. Each repair is recorded in a shared [[database|database]], allowing workers to compare methods and estimate future costs.",
+    "Six months after opening, the workshop covers its running costs, although the council still pays for major building repairs. Two neighbouring districts are preparing similar schemes. What began as an attempt to fill unused rooms has given the fortress a different public purpose: protecting useful possessions rather than defending territory."
+  ],
+  "zh": [
+    "在山区贝拉拉，公共建筑正发生一种出人意料的变化：过去只供官员使用的房间正在变成织物工坊。第一家工坊设在一座石砌堡垒内，堡垒厚重的墙壁原本是为抵御入侵者而建的。如今，每到星期四，居民们便带着破损的毯子穿过宏伟的入口，而不是来递交文件。",
+    "这个项目源于市政工作人员阿玛拉·森的一次发现：大量羊毛制品被人们丢弃。空置的办公室曾让她感到沮丧，尤其是附近的手艺人还在为负担不起工作场地而苦恼。她提议以低廉租金提供房间，同时发放免息贷款，帮助购买设备。大厅里备有一本简短的小册子，介绍居民如何预约修补服务或学习基本技巧。",
+    "需求超出了预期。一间屋子里放着加工原毛的设备，用于纺纱前的清洗、干燥和梳理。在另一间屋子里，专长为修复编织地毯的帕维尔·马林正在显微镜下检查受损纤维。有些薄弱之处肉眼看不见，放大后却清晰可辨。每次修补都会录入一个共享数据库，方便工作人员比较方法并估算未来的成本。",
+    "开业六个月后，工坊的收入已能支付日常运营开支，不过建筑的大型维修仍由市政部门承担。两个邻近地区也在筹备类似项目。最初只是为了利用闲置房间的一次尝试，如今却赋予了这座堡垒新的公共用途：不再保卫领土，而是守护仍有使用价值的物品。"
+  ],
+  "q": [
+    {
+      "s": "The building housing the first workshop originally served a defensive purpose.",
+      "a": "T",
+      "why": "堡垒的厚墙原本用于抵御入侵者。"
+    },
+    {
+      "s": "Craftspeople can use the workshop rooms without paying rent.",
+      "a": "F",
+      "why": "房间以低廉租金提供，并非免费。"
+    },
+    {
+      "s": "The neighbouring districts plan to employ more repair workers than Bellara.",
+      "a": "NG",
+      "why": "只提到邻区筹备项目，未比较用工人数。"
+    }
+  ]
+}

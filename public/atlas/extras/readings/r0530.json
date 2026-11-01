@@ -1,0 +1,48 @@
+{
+  "id": "r0530",
+  "ids": [
+    "antibiotics",
+    "erupt",
+    "greed",
+    "renew",
+    "yield",
+    "commission",
+    "refusal",
+    "daring",
+    "framework",
+    "brag"
+  ],
+  "title": "Checking the Island's Airwaves",
+  "titleZh": "为海岛广播把关",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "On the small island of Narela, a weekly radio programme began after two alarming rumours spread through the harbour. One claimed that the island's volcano would [[erupt|erupt]] within days; another advised families to store [[antibiotics|antibiotics]] to treat any cough caused by volcanic ash. Neither claim came from a qualified source, but both were repeated in shops and fishing boats.",
+    "Retired sound engineer Leila Mensah proposed a [[daring|daring]] community project: residents would investigate popular claims live on air. Before the island's broadcasting [[commission|commission]] agreed to [[renew|renew]] the station's licence, however, it requested a written [[framework|framework]] for checking evidence. Leila recruited a nurse, a geology technician and six volunteers, who agreed that every medical or scientific claim required an appropriate expert.",
+    "Their first investigation concerned the medicine rumour. The nurse explained that these drugs treat bacterial infections, not irritation from ash. A shopkeeper's [[refusal|refusal]] to reveal who had supplied the advice initially caused suspicion. Yet Leila warned against blaming [[greed|greed]] without evidence: the shop did not even sell medicine. Eventually, the team traced the story to an old emergency leaflet whose advice had been taken out of context.",
+    "After three months, the broadcasts began to [[yield|yield]] a useful result: callers increasingly asked for sources before passing stories on. Leila did not [[brag|brag]] about changing island life. Instead, she kept one recording from a fisherman who had withdrawn a frightening claim on air. For her, that quiet correction justified the whole experiment."
+  ],
+  "zh": [
+    "在纳雷拉小岛上，两则令人不安的传言在港口流传后，一档每周播出的广播节目应运而生。一则传言称，岛上的火山将在几天内喷发；另一则建议各家储备抗生素，用来治疗火山灰引起的任何咳嗽。这两种说法都没有可靠的专业来源，却在商店里和渔船上被反复传播。",
+    "退休音响工程师莱拉·门萨提出了一项大胆的社区计划：让居民在直播中调查广为流传的说法。不过，岛上的广播委员会在同意为电台续签执照之前，要求电台提交一套核查证据的书面规则。莱拉招募了一名护士、一名地质技术员和六名志愿者。他们一致认为，每一项医学或科学说法都需要由相应领域的专家来核实。",
+    "他们的首次调查围绕那则药物传言展开。护士解释说，这类药物治疗的是细菌感染，而不是火山灰造成的刺激。一位店主拒绝透露建议的来源，起初引起了怀疑。但莱拉提醒大家，不要在没有证据的情况下认定这是贪心所致：那家店甚至不卖药。最终，团队发现，传言源自一份旧的应急宣传单，其中的建议被断章取义了。",
+    "三个月后，广播开始产生有益的效果：听众来电时，越来越多地会先询问信息来源，再决定是否转述。莱拉并没有吹嘘自己改变了海岛生活。相反，她保存了一段录音，里面是一名渔民在广播中撤回自己先前传播的一则吓人说法。对她来说，这次平静的纠正就足以证明整个尝试是值得的。"
+  ],
+  "q": [
+    {
+      "s": "The broadcasting body wanted documented evidence-checking procedures before extending the station's licence.",
+      "a": "T",
+      "why": "委员会要求先提交书面核查规则再续签执照。"
+    },
+    {
+      "s": "The old emergency leaflet was published by the island's hospital.",
+      "a": "NG",
+      "why": "文章未说明旧应急宣传单由谁发布。"
+    },
+    {
+      "s": "The fisherman in Leila's saved recording refused to withdraw his frightening claim on air.",
+      "a": "F",
+      "why": "录音中的渔民已在广播中撤回那则说法。"
+    }
+  ]
+}

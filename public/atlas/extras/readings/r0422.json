@@ -1,0 +1,48 @@
+{
+  "id": "r0422",
+  "ids": [
+    "bait",
+    "smog",
+    "brutal",
+    "durable",
+    "funeral",
+    "glare",
+    "hospitality",
+    "regardless",
+    "skinny",
+    "loyal"
+  ],
+  "title": "A Workshop Worth Keeping",
+  "titleZh": "值得留住的工坊",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "After tailor Tomas's [[funeral|funeral]], six neighbours met in his empty workshop beside the freight yard. For years, he had repaired coats cheaply and offered visitors tea. They wanted to preserve that [[hospitality|hospitality]], but needed paid work to cover the rent. His daughter, Leila, suggested making washable beds for animal shelters from discarded work jackets.",
+    "Their first customer was a rescue centre across the district. On a morning when [[smog|smog]] hid the yard's cranes, its manager brought a [[skinny|skinny]] dog to test a sample. Rescued from [[brutal|brutal]] treatment, the animal avoided everyone. Leila placed a biscuit on the bed as [[bait|bait]], then stepped back. Eventually, the dog approached and settled on it.",
+    "The trial revealed a practical weakness: the cover tore when washed. Although two volunteers wanted to stop, Leila continued [[regardless|regardless]], testing thicker fabric and stronger seams. A retired sailmaker, Koji, helped develop a more [[durable|durable]] design. When a visitor laughed at their uneven early stitching, Koji [[glare|glared]] at him before calmly demonstrating how much the new seams could hold.",
+    "Within four months, three shelters were placing regular orders. The workshop could pay two part-time workers, while volunteers sorted donated fabric on Saturdays. Several of Tomas's [[loyal|loyal]] customers returned with old jackets rather than repairs. A small photograph of him remained above the kettle. The room still welcomed neighbours, but its future now depended on useful products rather than memories alone."
+  ],
+  "zh": [
+    "裁缝托马斯的葬礼结束后，六位邻居来到他位于货运场旁、如今已空置的工坊。多年来，他一直以低廉的价格替人修补外套，还会请来客喝茶。大家希望延续这份待客的热情，但也需要靠接活赚钱来支付租金。他的女儿莱拉提议，用废弃的工作服外套为动物收容所制作可水洗的窝垫。",
+    "他们的第一位客户是区内另一头的一家动物救助中心。一天早晨，雾霾遮住了货运场的起重机，救助中心的负责人带来一只瘦骨嶙峋的狗，试用一个样品。这只狗曾遭受残忍虐待，获救后仍躲着所有人。莱拉在窝垫上放了一块饼干来引诱它，然后退到一旁。最终，狗走了过来，在窝垫上安顿下来。",
+    "试用暴露了一个实际问题：窝垫的外罩清洗时破了。尽管两名志愿者想放弃，莱拉还是坚持下去，试验更厚的布料和更结实的缝线。一位名叫浩二的退休船帆制作师帮忙改进出更耐用的设计。一名访客嘲笑他们早期作品上不整齐的针脚时，浩二怒视了他一会儿，随后平静地演示了新接缝能承受多大的拉力。",
+    "不到四个月，已有三家收容所定期下单。工坊能够支付两名兼职工人的工资，志愿者则在周六整理捐赠的布料。托马斯的几位老主顾也回来了，这次带来的是捐赠的旧外套，而不是待修补的衣物。水壶上方依然挂着他的一张小照片。这间屋子仍欢迎邻居们到来，但它的未来如今靠的是实用的产品，而不只是回忆。"
+  ],
+  "q": [
+    {
+      "s": "The neighbours needed an income if they were to keep the workshop open.",
+      "a": "T",
+      "why": "首段说他们需要靠接活支付租金。"
+    },
+    {
+      "s": "The dog brought to test the sample was less than a year old.",
+      "a": "NG",
+      "why": "文中描述了狗的状况，但未说明年龄。"
+    },
+    {
+      "s": "The first bed cover remained undamaged after washing.",
+      "a": "F",
+      "why": "第三段明确说窝垫外罩清洗时破了。"
+    }
+  ]
+}

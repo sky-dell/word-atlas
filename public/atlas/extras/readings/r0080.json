@@ -1,0 +1,46 @@
+{
+  "id": "r0080",
+  "ids": [
+    "cloud",
+    "alive",
+    "circle",
+    "pardon",
+    "succeed",
+    "easily",
+    "bit",
+    "typing",
+    "male",
+    "album"
+  ],
+  "title": "A Snail Beside the Kitchen",
+  "titleZh": "厨房旁的蜗牛",
+  "topic": "daily",
+  "cefr": 1,
+  "paras": [
+    "Tuesday, 7 a.m. A grey [[cloud|cloud]] covered the sun as I stepped outside with my tea. Beside the kitchen door, a snail lay still on the dry path. Was it [[alive|alive]]? I sat down to watch. Its shell had a dark [[circle|circle]] near the centre. After two minutes, its head slowly came out. I put a small wet leaf in front of it and opened my notebook.",
+    "My neighbour, Amira, called something from her garden. “[[pardon|Pardon]]?” I asked. She said a [[male|male]] blackbird was looking for food near the wall. I hoped the snail would [[succeed|succeed]] in reaching the plants before the bird came closer. A [[bit|bit]] of soil blocked its way, but it climbed over [[easily|easily]]. I did not carry it. I wanted to see which way it would go.",
+    "By 7:20, the snail was under a large green leaf. The bird stayed near the wall and pulled a worm from the ground. Back in the kitchen, I played a quiet [[album|album]] of guitar music. I had some [[typing|typing]] to do: I wanted to put my morning notes on the computer. Through the open door, I could still see the wet line across the path: a tiny journey, now safely finished."
+  ],
+  "zh": [
+    "星期二，早上七点。我端着茶走到屋外时，一朵灰云遮住了太阳。厨房门旁，一只蜗牛一动不动地趴在干燥的小路上。它还活着吗？我坐下来观察。它的壳上靠近中心的地方有一个深色的圆圈。两分钟后，它的头慢慢伸了出来。我在它面前放了一小片湿叶子，然后打开笔记本。",
+    "邻居阿米拉在她的花园里喊了一句话。“请再说一遍？”我问。她说，一只雄性乌鸫正在墙边觅食。我希望蜗牛能在鸟靠近之前成功爬到植物丛中。一小块泥土挡住了它的路，但它轻松地爬了过去。我没有把它搬走。我想看看它会往哪个方向走。",
+    "到了七点二十分，蜗牛已经在一片大绿叶下面。那只鸟仍在墙边，从土里拉出了一条蚯蚓。回到厨房后，我播放了一张轻柔的吉他音乐专辑。我有些打字的活儿要做：我想把早晨的观察笔记录入电脑。透过敞开的门，我仍能看见小路上那条湿湿的痕迹：一段小小的旅程，如今已平安结束。"
+  ],
+  "q": [
+    {
+      "s": "The snail moved its head after the writer watched it for a short time.",
+      "a": "T",
+      "why": "观察两分钟后，蜗牛慢慢伸出了头。"
+    },
+    {
+      "s": "Amira had kept snails as pets before.",
+      "a": "NG",
+      "why": "文中未交代阿米拉以前是否养过蜗牛。"
+    },
+    {
+      "s": "The writer helped the snail by moving it to the plants.",
+      "a": "F",
+      "why": "作者明确说没有搬动蜗牛。"
+    }
+  ]
+}

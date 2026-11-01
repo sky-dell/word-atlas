@@ -1,0 +1,48 @@
+{
+  "id": "r0588",
+  "ids": [
+    "agonize",
+    "propulsion",
+    "harmonious",
+    "generic",
+    "aural",
+    "locomotive",
+    "mock",
+    "exertion",
+    "genocide",
+    "fallible"
+  ],
+  "title": "The Machine Beside the Window",
+  "titleZh": "窗边的缝纫机",
+  "topic": "daily",
+  "cefr": 4,
+  "paras": [
+    "Before the sewing machine entered nineteenth-century homes, repairing a torn shirt demanded patient handwork. Early domestic machines promised speed, but their price could make a household [[agonize|agonize]] over whether to buy one. Positioned beside a window for daylight, the machine gradually transformed a familiar daily practice into an activity governed by mechanisms, maintenance and purchased thread.",
+    "The treadle model made this transformation particularly visible: feet supplied power through a rocking pedal, while a belt transmitted movement to the needle. Where a steam-driven [[locomotive|locomotive]] used steam for [[propulsion|propulsion]], this machine relied on the operator's muscles. Its rhythmic clatter became an [[aural|aural]] signature of domestic industry, reducing the [[exertion|exertion]] of repeated hand stitching without eliminating the operator's need for concentration.",
+    "Such machines also acquired meanings beyond efficiency. Among Armenians rebuilding their lives after the [[genocide|genocide]] of 1915, tailoring and dressmaking offered routes to earning a living. Yet the [[generic|generic]] label 'household equipment' reveals little about any particular machine's significance: an ordinary iron frame could support a livelihood, preserve a practised skill, or furnish a newly established home.",
+    "Relations between learners and instructors were not always [[harmonious|harmonious]]: an experienced sewer might [[mock|mock]] a beginner struggling with tangled thread. Printed instructions helped, but remained [[fallible|fallible]] guides to machines with worn mechanisms. Although electric motors later displaced many treadles, surviving examples still allow learners to examine the connections between needle, belt and pedal."
+  ],
+  "zh": [
+    "在缝纫机进入十九世纪的家庭之前，修补一件破衬衫需要耐心地手工缝制。早期家用缝纫机虽然能提高速度，但其价格可能让一家人为是否购买而苦苦思量。机器放在窗边以利用日光，逐渐将一种熟悉的日常劳作转变为受机械结构、保养和外购缝线支配的活动。",
+    "脚踏式缝纫机使这种转变尤为直观：双脚通过来回摆动的踏板提供动力，皮带再将运动传递给缝针。蒸汽机车利用蒸汽推进，而这种缝纫机依靠操作者的肌肉力量。它有节奏的咔嗒声成为家庭生产独特的听觉标志，减轻了反复手工缝制的体力消耗，却并未免除操作者集中注意力的必要。",
+    "这类机器还获得了效率之外的意义。对于在1915年种族灭绝后重建生活的亚美尼亚人而言，裁缝和制衣提供了谋生的途径。然而，“家用设备”这一笼统标签，几乎无法揭示某一台机器的特殊意义：一个普通的铁架，可能支撑着一份生计、延续着一门熟练的手艺，或成为新建家庭中的一件器物。",
+    "学习者与指导者之间的关系并不总是融洽的：熟练的缝纫者可能会嘲笑正在费力处理缠线的初学者。印刷说明书虽有帮助，但在指导操作机构磨损的机器时，仍不完全可靠。尽管电动机后来取代了许多脚踏装置，留存至今的机器仍能让学习者查看缝针、皮带与踏板之间的连接。"
+  ],
+  "q": [
+    {
+      "s": "Most households bought their first sewing machine in instalments.",
+      "a": "NG",
+      "why": "首段提及价格，但未说明家庭的付款方式。"
+    },
+    {
+      "s": "Treadle sewing machines removed the need for operators to concentrate.",
+      "a": "F",
+      "why": "第二段明确指出操作者仍需集中注意力。"
+    },
+    {
+      "s": "Printed instructions offered some help to people learning to use the machines.",
+      "a": "T",
+      "why": "末段明确说明印刷说明书有帮助。"
+    }
+  ]
+}

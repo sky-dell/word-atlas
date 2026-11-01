@@ -1,0 +1,48 @@
+{
+  "id": "r0640",
+  "ids": [
+    "accrue",
+    "eradicate",
+    "aggregation",
+    "discern",
+    "commemorate",
+    "devastate",
+    "enclosure",
+    "wane",
+    "inducement",
+    "materialism"
+  ],
+  "title": "The Cloth That Keeps the River",
+  "titleZh": "留住河流记忆的织物",
+  "topic": "economy",
+  "cefr": 4,
+  "paras": [
+    "In the riverside town of Varela, visitors follow a blue thread painted along the pavement to a former sheep [[enclosure|enclosure]]. Behind its stone walls, twelve weavers now sell striped blankets directly to travellers. The workshop began after a flood [[devastate|devastated]] the lower market, leaving households with working looms but nowhere to trade their cloth.",
+    "Its commercial strength lies in the [[aggregation|aggregation]] of small orders: requests for just two or three blankets from nearby guesthouses are combined into a single delivery run. Savings [[accrue|accrue]] as the weavers share transport and dye purchases. Rather than competing on price, they offer free repairs as an [[inducement|inducement]] to choose cloth designed for decades of use.",
+    "At first, explains founding member Samira, enthusiasm began to [[wane|wane]] when cheap factory blankets appeared at roadside stalls. The cooperative could not [[eradicate|eradicate]] such competition, so it made production visible. Visitors watch walnut husks simmer in copper pots and learn to [[discern|discern]] the slight irregularities that distinguish handwork from mechanical repetition. Each October, an indigo stripe is added to selected blankets to [[commemorate|commemorate]] the flood and the neighbours who rebuilt the market.",
+    "It would be easy to present this enterprise as a rejection of [[materialism|materialism]], yet Samira is frank about wanting reliable earnings. What interests her is not owning less, but making ownership carry obligations. Before wrapping my purchase, she writes the weaver's name and a repair address on its label. The souvenir leaves town; the relationship, deliberately, does not."
+  ],
+  "zh": [
+    "在河畔小镇瓦雷拉，游客沿着人行道上画的一条蓝线，来到一处昔日的羊圈。石墙之内，如今有十二名织工直接向旅人出售条纹毛毯。这间工坊创办于一场洪灾之后：洪水摧毁了地势较低的集市，各家虽有尚能运作的织机，却失去了卖布的地方。",
+    "工坊的商业优势在于汇集零散订单：附近旅馆各自只订购两三条毛毯，这些订单会合并在一趟配送中完成。织工们共同运输、合购染料，节省下来的钱便逐渐积累起来。他们不打价格战，而是提供免费修补服务，吸引顾客选择这种以使用数十年为目标制作的织物。",
+    "创始成员萨米拉解释说，起初，当廉价的工厂毛毯出现在路边摊上时，大家的热情开始消退。合作社无法彻底消除这类竞争，于是便向人们展示生产过程。游客可以观看铜锅里慢慢熬煮的核桃青皮，并学习辨认那些细微的不规则之处，借此区分手工制作与机械重复生产。每年十月，织工还会在部分毛毯上加织一道靛蓝条纹，以纪念那场洪灾，以及重建集市的街坊邻居。",
+    "人们很容易把这份事业描述成对物质主义的拒绝，然而萨米拉坦言，她希望获得稳定收入。她关心的并不是少拥有一些东西，而是让拥有一件物品也意味着承担责任。包好我买的毛毯之前，她在标签上写下织工的姓名和寄修地址。纪念品离开了小镇，而人与人之间的联系，却被有意留了下来。"
+  ],
+  "q": [
+    {
+      "s": "The cooperative competes for customers by offering lower prices than its rivals.",
+      "a": "F",
+      "why": "第二段明确说不以价格竞争，而提供免费修补。"
+    },
+    {
+      "s": "Blankets with the commemorative indigo stripe sell faster than other blankets.",
+      "a": "NG",
+      "why": "第三段说明条纹的纪念意义，未比较销售速度。"
+    },
+    {
+      "s": "Samira puts the weaver's name on the label before wrapping the narrator's purchase.",
+      "a": "T",
+      "why": "末段明确说包装前在标签上写下织工姓名。"
+    }
+  ]
+}

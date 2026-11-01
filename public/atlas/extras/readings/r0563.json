@@ -1,0 +1,48 @@
+{
+  "id": "r0563",
+  "ids": [
+    "platypus",
+    "converse",
+    "execution",
+    "doubtless",
+    "inference",
+    "alleviate",
+    "textual",
+    "semblance",
+    "indicative",
+    "barometer"
+  ],
+  "title": "From Specimen to Field Notebook",
+  "titleZh": "从标本到野外笔记",
+  "topic": "science",
+  "cefr": 4,
+  "paras": [
+    "When a preserved [[platypus|platypus]] reached Britain from Australia in 1799, its combination of fur, webbed feet and a ducklike bill provoked suspicion. A specimen could preserve the [[semblance|semblance]] of a living creature without explaining how it lived. The controversy exposed a weakness in natural history: objects travelled more readily than reliable accounts of their origins.",
+    "During the nineteenth century, the field notebook helped bridge that gap. Collectors increasingly recorded habitat, date and weather alongside anatomical observations; a [[barometer|barometer]] could supply an atmospheric pressure reading where impressions alone were inadequate. Such measurements would [[doubtless|doubtless]] make an account more useful, but their value depended on the careful [[execution|execution]] of a recording routine, not simply on possessing instruments.",
+    "Written records also preserved encounters. A visiting naturalist might [[converse|converse]] with Aboriginal observers whose knowledge extended beyond a brief collecting season, although published accounts often failed to acknowledge that contribution adequately. Comparing such testimony with direct observation could [[alleviate|alleviate]] uncertainty. Yet [[textual|textual]] agreement was not proof: several descriptions might repeat one earlier report, giving a single [[inference|inference]] the misleading authority of multiple witnesses.",
+    "The animal's reproduction made the distinction especially important. Features of its anatomy were [[indicative|indicative]] of unusual reproductive biology, but they did not settle whether it laid eggs. In 1884, collected eggs supplied decisive evidence. The notebook had not replaced the specimen; it had become its necessary companion, connecting physical material with circumstances that a bottle or skin could never preserve."
+  ],
+  "zh": [
+    "1799年，一件保存下来的鸭嘴兽标本从澳大利亚运抵英国。它兼具皮毛、蹼足和鸭子般的喙，引发了人们的怀疑。标本可以保留活体动物的外貌，却无法解释它如何生活。这场争论暴露了自然史研究的一个弱点：实物容易远行，有关其来源的可靠记录却未必能随之而来。",
+    "在十九世纪，野外笔记帮助弥合了这一缺口。采集者越来越多地在记录解剖特征的同时，记下栖息环境、日期和天气；当单凭印象不足以说明情况时，气压计可以提供大气压力读数。这些测量想必会让记录更有价值，但其价值取决于是否认真执行一套记录程序，而不只是拥有仪器。",
+    "文字记录还保存了人与人之间的交流。到访的博物学家可能与原住民观察者交谈，后者掌握的知识远非短暂的采集季所能涵盖，尽管已发表的记述往往未能充分承认他们的贡献。将这些口述信息与直接观察相互对照，可以减少疑问。然而，文本之间内容一致并不等于证据确凿：几份描述可能都在复述同一份早期报告，从而让一个推论获得仿佛有多位见证者支持的权威性，造成误导。",
+    "鸭嘴兽的繁殖方式使这种区分尤为重要。它的一些解剖特征表明，其繁殖生物学具有特殊之处，却不足以确定它是否产卵。1884年，采集到的卵提供了决定性证据。野外笔记并未取代标本，而是成为标本不可或缺的伙伴，将实物与其相关情境联系起来；这些情境，是一只标本瓶或一张皮张永远无法保存的。"
+  ],
+  "q": [
+    {
+      "s": "The preserved platypus was transported to Britain in a glass container.",
+      "a": "NG",
+      "why": "首段未说明标本运输时使用何种容器。"
+    },
+    {
+      "s": "The usefulness of measurements depended on careful recording procedures.",
+      "a": "T",
+      "why": "第二段明确说测量价值取决于认真执行记录程序。"
+    },
+    {
+      "s": "Agreement among several written descriptions necessarily meant that independent observers supported the same conclusion.",
+      "a": "F",
+      "why": "第三段指出多份描述可能复述同一早期报告。"
+    }
+  ]
+}

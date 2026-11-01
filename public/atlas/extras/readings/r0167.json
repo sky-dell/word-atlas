@@ -1,0 +1,46 @@
+{
+  "id": "r0167",
+  "ids": [
+    "cartoon",
+    "naughty",
+    "elevator",
+    "final",
+    "melon",
+    "well-known",
+    "chef",
+    "actually",
+    "towel",
+    "toe"
+  ],
+  "title": "How Drawings Learned to Move",
+  "titleZh": "画中的角色如何动起来",
+  "topic": "history",
+  "cefr": 1,
+  "paras": [
+    "Before computers, artists made film characters move with paper and pencils. Imagine an old-style [[cartoon|cartoon]] about a [[naughty|naughty]] cat who works in a hotel kitchen. The [[chef|chef]] tells him not to touch the fruit. But the cat takes a [[melon|melon]] and runs towards the [[elevator|elevator]]. The doors close on his tail. This little kitchen story can help us understand how artists turned simple drawings into action.",
+    "The cat seems alive, but he is [[actually|actually]] a long series of still pictures. An artist draws his foot in one position, then moves it a little in the next picture. Even a small [[toe|toe]] needs careful attention. Showing these pictures quickly creates the feeling of movement. This is a [[well-known|well-known]] idea now, but making a few minutes of film once took weeks of work.",
+    "Objects also help artists tell a story without words. Back in the kitchen, the cat drops the fruit. It breaks open, and he slips in its juice. He uses a [[towel|towel]] to dry the floor before his boss returns. In the [[final|final]] scene, he sits quietly beside the empty fruit bowl. His round stomach tells the audience where the fruit has gone. Hundreds of drawings have become one clear joke."
+  ],
+  "zh": [
+    "在电脑出现之前，画师用纸和铅笔让电影角色动起来。想象一部旧式动画片，讲的是一只在酒店厨房工作的淘气猫。主厨叫他不要碰水果，但猫拿起一个甜瓜，朝电梯跑去。电梯门关上时夹住了他的尾巴。这个发生在厨房的小故事可以帮助我们理解画师如何让简单的图画变成动态画面。",
+    "这只猫看起来活灵活现，但他其实是一长串静止的图片。画师先把他的脚画在一个位置，然后在下一张图中让脚稍微移动一点。即使是一根小脚趾，也需要仔细处理。快速播放这些图片，就会产生运动的感觉。这个原理如今已广为人知，但过去制作短短几分钟的影片，却需要数周时间。",
+    "物品也能帮助画师不用语言就讲清故事。回到厨房后，猫把水果掉在了地上。水果摔裂了，他踩到流出的果汁滑了一跤。他赶在老板回来之前，用毛巾擦干地板。在最后一个场景中，他安静地坐在空果盘旁。他圆鼓鼓的肚子告诉观众，水果到哪里去了。几百张图画就这样变成了一个一看就懂的笑话。"
+  ],
+  "q": [
+    {
+      "s": "The hotel in the story is called the Grand Hotel.",
+      "a": "NG",
+      "why": "文中未说明故事中酒店的名称。"
+    },
+    {
+      "s": "Showing still pictures quickly makes the cat seem to move.",
+      "a": "T",
+      "why": "快速播放静止图片会产生运动的感觉。"
+    },
+    {
+      "s": "The fruit bowl is full in the final scene.",
+      "a": "F",
+      "why": "最后一个场景中的果盘是空的。"
+    }
+  ]
+}

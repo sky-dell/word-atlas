@@ -1,0 +1,48 @@
+{
+  "id": "r0713",
+  "ids": [
+    "indemnify",
+    "rubric",
+    "matrimony",
+    "scrupulous",
+    "bough",
+    "sulphide",
+    "strew",
+    "plumb",
+    "pacific",
+    "undulate"
+  ],
+  "title": "The Courtyard Wedding Studio",
+  "titleZh": "庭院里的婚礼照相馆",
+  "topic": "city",
+  "cefr": 5,
+  "paras": [
+    "This gallery imagines a courtyard studio in the fictional city of Maren between 1892 and 1914. Here, [[matrimony|matrimony]] became a manufactured public image: borrowed silk concealed work clothes, while painted balustrades suggested spacious estates. Beneath an artificial elm [[bough|bough]], couples living in single rented rooms could commission the appearance, though not the substance, of prosperity.",
+    "The desk belongs to photographer Leila Varga, whose [[scrupulous|scrupulous]] records distinguish portrait payments from deposits on borrowed garments. A printed undertaking promises to [[indemnify|indemnify]] clients if studio chemicals damage their clothing. Beside it lies the [[rubric|rubric]] for assessing apprentices’ prints: tonal range, facial definition and cleanliness receive separate marks.",
+    "In the adjoining case, a silver ornament darkened by silver [[sulphide|sulphide]] illustrates the chemical vulnerability of fashionable possessions. Visitors can [[plumb|plumb]] the studio’s working methods through reconstructed account books and instructions. One instruction tells assistants to [[strew|strew]] paper petals across the paving, but never over customers’ shoes; another recommends a [[pacific|pacific]] response when relatives dispute their positions in a group portrait.",
+    "The final installation sets a gauze curtain moving: its folds [[undulate|undulate]] in the draught from a concealed fan, suggesting an improvised garden breeze. None of the fictional documents specifies whether clients found the scenery convincing. The portraits nevertheless invite visitors to imagine what customers were buying: not an estate, but an afternoon’s carefully staged sense of space."
+  ],
+  "zh": [
+    "本展厅构想了虚构城市马伦在1892年至1914年间的一间庭院照相馆。在这里，婚姻成为一种制作出来的公众形象：借来的丝绸衣裳遮住工作服，画出来的栏杆则让人联想到宽敞的庄园。在一根人造榆树大枝下，住在单间出租屋里的夫妇也能花钱获得富足生活的表象，却无法拥有其实质。",
+    "这张书桌属于摄影师莱拉·瓦尔加。她一丝不苟的记录将肖像照费用与借用服装的押金区分开来。一份印制的承诺书保证，如果照相馆的化学药剂损坏顾客的衣物，将给予赔偿。旁边放着评定学徒照片的评分细则：影调范围、面部清晰度与画面洁净度分别计分。",
+    "相邻展柜中，一件因硫化银而变暗的银饰展示了时髦物件在化学作用下的脆弱性。参观者可以通过重构的账簿和操作指示，深入探究照相馆的工作方法。一条指示要求助手将纸花瓣撒在铺石地面上，但绝不能撒到顾客的鞋上；另一条则建议，当亲属为合影中的站位发生争执时，应以平和的方式回应。",
+    "最后一处装置让一幅薄纱窗帘动了起来：隐藏风扇送出的气流使帘褶如波浪般起伏，让人联想到临时营造的花园微风。这些虚构文献均未说明顾客是否觉得布景逼真。不过，这些肖像照仍引导参观者想象顾客购买的究竟是什么：不是一座庄园，而是一个下午通过精心布景获得的宽敞感。"
+  ],
+  "q": [
+    {
+      "s": "The studio borrowed its silk garments from a nearby theatre.",
+      "a": "NG",
+      "why": "首段提到借来的丝绸衣裳，未说明来源。"
+    },
+    {
+      "s": "The studio promised compensation for clothing damaged by its chemicals.",
+      "a": "T",
+      "why": "承诺书保证赔偿药剂造成的衣物损坏。"
+    },
+    {
+      "s": "The fictional documents confirm that clients found the scenery convincing.",
+      "a": "F",
+      "why": "末段明确说文献均未说明顾客是否相信布景。"
+    }
+  ]
+}

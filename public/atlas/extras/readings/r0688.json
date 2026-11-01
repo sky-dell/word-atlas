@@ -1,0 +1,48 @@
+{
+  "id": "r0688",
+  "ids": [
+    "variance",
+    "militia",
+    "counsel",
+    "abundance",
+    "shaft",
+    "accordingly",
+    "precinct",
+    "acquisition",
+    "mitigate",
+    "maturity"
+  ],
+  "title": "The Looms Behind the Shopfronts",
+  "titleZh": "店面背后的织机",
+  "topic": "work",
+  "cefr": 4,
+  "paras": [
+    "Beyond the embroidered slippers displayed in a pedestrian shopping [[precinct|precinct]] in northern Morocco, a narrow doorway leads to a working silk studio. Its building once stored provisions for a local [[militia|militia]], whose members combined occasional military duties with ordinary trades. Today, visitors encounter another rhythm of labour: wooden pedals knocking beneath an [[abundance|abundance]] of suspended coloured threads.",
+    "The studio’s master weaver, Salma, invites travellers to watch rather than immediately purchase. She demonstrates the [[variance|variance]] between two apparently identical blue samples: one reflects light evenly, while the other shimmers in irregular bands. Such distinctions, she explains, make the [[acquisition|acquisition]] of weaving skills a prolonged education of the eye, not merely a matter of learning where to place the hands.",
+    "Summer heat complicates this work. An unused lift [[shaft|shaft]], extending from the ground floor to the roof, now draws warm air upwards; damp reed screens help [[mitigate|mitigate]] the discomfort below. Since silk responds to changes in moisture, Salma checks the tension each morning and adjusts the loom [[accordingly|accordingly]]. Her most frequently repeated [[counsel|counsel]] is deceptively simple: never correct a fault before understanding its cause.",
+    "An apprentice named Idris illustrates what she means. Discovering a loose edge, he stops rather than concealing it beneath the next row, although a customer is waiting. Salma regards this restraint as evidence of [[maturity|maturity]], worth more than speed. When I finally choose a scarf, its slightly uneven border no longer seems incidental: it records decisions made by people whose working day I have briefly entered."
+  ],
+  "zh": [
+    "在摩洛哥北部的一处步行商业区，越过陈列着绣花拖鞋的店面，一扇狭窄的门通向一间仍在生产的丝织作坊。这栋建筑曾为当地一支民兵组织储存物资，其成员平时从事普通行业，偶尔履行军事职责。如今，游客在这里感受到的是另一种劳动节奏：大量彩线悬垂而下，木制踏板在下方咔嗒作响。",
+    "作坊的织造师傅萨尔玛请游客先看，不必急着买。她拿出两块看似相同的蓝色布样，展示它们之间的差异：一块反光均匀，另一块则闪现出不规则的光带。她解释说，正是这些细微区别，让织造技艺的习得成为一场漫长的视觉训练，而不仅仅是学会双手该放在哪里。",
+    "夏季的炎热让这项工作更加复杂。一口闲置的升降机井从底层直通屋顶，如今用来将热空气向上导出；湿润的芦苇帘则有助于缓解下方的闷热。由于丝线会受到湿度变化的影响，萨尔玛每天早晨都检查丝线的张力，并相应调整织机。她最常给出的忠告听起来简单，实则不易做到：没有弄清问题的成因，就不要急着修正。",
+    "名叫伊德里斯的学徒用行动说明了她的意思。他发现布边松了，便停下手来，而不是用下一行织线将它掩盖，尽管已有顾客在等候。萨尔玛认为，这种克制是心智成熟的表现，比速度更可贵。当我终于选定一条围巾时，它略显不齐的边缘已不再像是无关紧要的细节：它记录着织工们做出的决定，而我曾短暂走进他们的工作日常。"
+  ],
+  "q": [
+    {
+      "s": "The militia members who used the building were full-time professional soldiers.",
+      "a": "F",
+      "why": "首段说明他们平时从事普通行业，只偶尔履行军务。"
+    },
+    {
+      "s": "Salma spent ten years learning to distinguish subtle differences between fabrics.",
+      "a": "NG",
+      "why": "文中未说明萨尔玛学习辨别织物差异的年限。"
+    },
+    {
+      "s": "Salma considers Idris's decision to stop at a fault a sign of maturity.",
+      "a": "T",
+      "why": "末段明确将他发现问题后停手的克制视为成熟。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0235",
+  "ids": [
+    "individual",
+    "involved",
+    "totally",
+    "display",
+    "minus",
+    "airmail",
+    "stolen",
+    "pleasure",
+    "sidewalk",
+    "shortly"
+  ],
+  "title": "The Gap in the Stamp Frame",
+  "titleZh": "邮票展示框里的空缺",
+  "topic": "thinking",
+  "cefr": 2,
+  "paras": [
+    "On Saturday morning, Leila was preparing to [[display|display]] forty old stamps in her small bookshop. They had arrived by [[airmail|airmail]] from her aunt overseas. Each stamp had an [[individual|individual]] paper pocket. However, when Leila counted the stamps in the glass frame, she found only thirty-nine. One pocket was empty.",
+    "Her first thought was that one of her stamps had been [[stolen|stolen]]. The shop door had been open while she cleaned the window. Anyone on the [[sidewalk|sidewalk]] outside could have entered. She felt [[totally|totally]] confused because the missing stamp was ordinary, while several expensive ones were still there.",
+    "Instead of blaming anyone, Leila asked Tomas, the only other person [[involved|involved]] in preparing the show, to help. They wrote down each step of their morning. Forty stamps [[minus|minus]] the thirty-nine in the frame meant one was somewhere else. Tomas remembered moving the empty envelope from the table. They examined it under a bright reading lamp and found a dark square behind its paper lining.",
+    "[[shortly|Shortly]] afterwards, Leila carefully opened the lining and freed the stamp. She thought it might have slipped inside during the journey. With real [[pleasure|pleasure]], she filled the final pocket. Tomas counted all forty stamps once more before they closed the glass frame. Leila put it beside the shop window, ready for the first customers of the day."
+  ],
+  "zh": [
+    "星期六早上，莱拉正准备在自己的小书店里展出四十枚旧邮票。这些邮票是她住在海外的一位姑姨辈亲属通过航空邮件寄来的。每枚邮票都有一个单独的纸袋。然而，莱拉清点玻璃展示框里的邮票时，发现只有三十九枚，有一个纸袋是空的。",
+    "她的第一个念头是，自己的一枚邮票被偷了。她擦窗户时，书店的门一直开着，外面人行道上的任何人都可能进来。她完全摸不着头脑，因为丢失的只是一枚普通邮票，而几枚昂贵的邮票却还在。",
+    "莱拉没有责怪任何人，而是请托马斯帮忙。他是除她以外唯一参与布置这次展览的人。他们写下了上午做过的每一步。四十枚邮票减去框里的三十九枚，就意味着还有一枚在别处。托马斯想起自己曾把空信封从桌上移走。他们在明亮的阅读灯下检查信封，发现内衬纸后面有一个深色方块。",
+    "不久后，莱拉小心地打开内衬，取出了邮票。她想，它可能是在邮寄途中滑进去的。她满心欢喜地把它放进最后一个纸袋。托马斯又清点了一遍全部四十枚邮票，然后两人合上了玻璃展示框。莱拉把它放在书店窗边，准备迎接当天的第一批顾客。"
+  ],
+  "q": [
+    {
+      "s": "The stamps were sent to Leila from another country using an air postal service.",
+      "a": "T",
+      "why": "首段说邮票从海外通过航空邮件寄来。"
+    },
+    {
+      "s": "Leila investigated the missing stamp without anyone else's help.",
+      "a": "F",
+      "why": "莱拉请托马斯帮忙，两人一起查找。"
+    },
+    {
+      "s": "Leila decided to make stamp exhibitions a yearly event.",
+      "a": "NG",
+      "why": "文中未提及她是否计划每年办展。"
+    }
+  ]
+}

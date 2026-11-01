@@ -1,0 +1,48 @@
+{
+  "id": "r0657",
+  "ids": [
+    "cognitive",
+    "slaughter",
+    "intensify",
+    "eminent",
+    "ration",
+    "pivot",
+    "insomnia",
+    "accord",
+    "virtue",
+    "fluctuation"
+  ],
+  "title": "Making a Night-Race Ration",
+  "titleZh": "夜间耐力赛口粮的制作",
+  "topic": "sport",
+  "cefr": 4,
+  "paras": [
+    "For competitors in overnight endurance races, a food bar must remain edible in cold weather without becoming sticky inside a warm pocket. At a specialist sports kitchen, production begins with a daily [[ration|ration]] divided into individually wrapped portions. Each combines oats, date paste and pea protein, supplying energy while requiring little chewing during prolonged exertion.",
+    "The recipe was developed with an [[eminent|eminent]] nutrition researcher, who argued that maintaining [[cognitive|cognitive]] performance mattered alongside muscular endurance: exhausted runners still have to interpret route markings. Caffeine was excluded because it could [[intensify|intensify]] post-race [[insomnia|insomnia]]. Instead, the developers adjusted the balance of ingredients to limit sharp [[fluctuation|fluctuations]] in energy availability, testing successive batches during supervised training runs.",
+    "Before mixing begins, suppliers sign an [[accord|accord]] establishing ingredient traceability and independent inspections. The kitchen avoids animal-derived gelatine, partly because some competitors object to production systems that [[slaughter|slaughter]] animals for food. Although honesty is often described as a personal [[virtue|virtue]], here it becomes a manufacturing obligation: every delivery must match its documented origin, and uncertain consignments are rejected.",
+    "Inside a heated bowl, a broad mixing arm rotates around a steel [[pivot|pivot]], folding the dry ingredients into softened dates. Workers then press the mixture into shallow trays, cool it and cut it into measured rectangles. Samples undergo compression tests at different temperatures; a bar that fractures into crumbs is reformulated. Finally, moisture-resistant wrappers are sealed around each portion. What reaches the runner is therefore not merely a sweet snack, but a carefully engineered component of the race kit."
+  ],
+  "zh": [
+    "对于参加通宵耐力赛的选手来说，能量棒既要在寒冷天气中便于食用，又不能在温暖的口袋里变得黏手。在一家专业运动食品厨房，制作以每日定量口粮为基础，将其分成独立包装的小份。每份都含有燕麦、椰枣泥和豌豆蛋白，既能提供能量，又能让选手在长时间运动中无需费力咀嚼。",
+    "这一配方由厨房与一位杰出且备受尊敬的营养研究人员共同开发。这位研究人员认为，维持认知表现与保持肌肉耐力同样重要，因为筋疲力尽的跑者仍须辨认路线标记。配方没有加入咖啡因，因为它可能加重赛后的失眠。开发人员转而调整各种原料的比例，以减少可用能量的剧烈波动，并在有人监督的训练跑中逐批测试产品。",
+    "混合原料之前，供应商须签署正式协议，确立原料追溯和独立检查制度。厨房不使用动物源明胶，部分原因是有些选手反对宰杀动物供人食用的生产体系。诚实常被视为个人美德，但在这里，它成为一项生产义务：每批到货的原料都必须与文件记载的来源一致，来源不明的批次一律拒收。",
+    "在加热的搅拌盆内，一根宽大的搅拌臂绕着钢制枢轴旋转，将干原料拌入软化的椰枣中。随后，工人把混合物压入浅盘，冷却后切成定量的长方块。样品要在不同温度下接受抗压测试；如果能量棒碎成渣，就需要重新调整配方。最后，每份产品都用防潮包装密封。因此，跑者拿到的不只是一块甜味零食，而是一件经过精心设计的比赛装备。"
+  ],
+  "q": [
+    {
+      "s": "The bars require extensive chewing during prolonged exercise.",
+      "a": "F",
+      "why": "首段说明长时间运动中食用时只需少量咀嚼。"
+    },
+    {
+      "s": "Caffeine was omitted because it could worsen sleeplessness after a race.",
+      "a": "T",
+      "why": "第二段明确说明因可能加重赛后失眠而排除咖啡因。"
+    },
+    {
+      "s": "The moisture-resistant packaging is made entirely from recycled materials.",
+      "a": "NG",
+      "why": "末段仅提到包装防潮，未说明材料来源。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0174",
+  "ids": [
+    "medicine",
+    "closed",
+    "learning",
+    "fishing",
+    "kick",
+    "certain",
+    "department",
+    "necklace",
+    "corner",
+    "soft"
+  ],
+  "title": "A Box of Calm Memories",
+  "titleZh": "一盒让人平静的回忆",
+  "topic": "emotion",
+  "cefr": 1,
+  "paras": [
+    "Mina worked in the art [[department|department]] of a small museum. Before giving talks, she often felt afraid. She was [[certain|certain]] that holding a familiar object could help. Her friend Tomas wanted to test this idea with her. For them, this was a chance for practical [[learning|learning]], not a test of a new [[medicine|medicine]]. Six museum workers agreed to join their experiment before their afternoon talks.",
+    "Each worker brought something that reminded them of a happy day. Mina chose a [[necklace|necklace]] from her sister. Tomas brought a small wooden boat because he enjoyed [[fishing|fishing]] with his father. Another worker brought a [[soft|soft]] ball that she used to [[kick|kick]] around with her daughter. They put everything in a box in a quiet [[corner|corner]]. The door stayed [[closed|closed]] during each test.",
+    "On Monday, the workers sat quietly for five minutes and looked at photographs of their objects. On Tuesday, they held the real objects for five minutes instead. Before and after each test, they scored their fear from one to ten. Four workers reported less fear after holding their objects than after looking at photographs. Two reported no difference. The test was small, but Mina felt encouraged. She now keeps her sister’s gift beside her notes when she speaks."
+  ],
+  "zh": [
+    "米娜在一家小博物馆的艺术部门工作。做讲解前，她常常感到害怕。她确信，握着一件熟悉的物品可能有所帮助。她的朋友托马斯想和她一起验证这个想法。对他们来说，这是一次实践学习的机会，而不是对一种新药的测试。六名博物馆工作人员同意在下午的讲解前参加实验。",
+    "每位工作人员都带来了一件能让自己想起某个快乐日子的物品。米娜选了自己姐妹送的一条项链。托马斯带来了一只小木船，因为他喜欢和父亲一起钓鱼。另一位工作人员带来一个柔软的球，她以前常和女儿一起踢这个球。他们把所有东西放进一个盒子，摆在安静的角落里。每次测试期间，门都保持关闭。",
+    "星期一，工作人员静坐五分钟，看着各自物品的照片。星期二，他们改为握着实物五分钟。每次测试前后，他们都用一到十分给自己的恐惧程度打分。四人表示，与看照片相比，握着物品之后恐惧感更少了。两人表示没有区别。实验规模虽小，但米娜受到了鼓舞。现在，她做讲解时都会把姐妹送的礼物放在笔记旁边。"
+  ],
+  "q": [
+    {
+      "s": "Tomas made the wooden boat himself.",
+      "a": "NG",
+      "why": "只说托马斯带来木船，未提谁制作。"
+    },
+    {
+      "s": "On Monday, the workers held their objects during the test.",
+      "a": "F",
+      "why": "周一看物品照片，周二才握着实物。"
+    },
+    {
+      "s": "Two workers reported no difference between the two tests.",
+      "a": "T",
+      "why": "末段明确说两人表示没有区别。"
+    }
+  ]
+}

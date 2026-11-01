@@ -1,0 +1,48 @@
+{
+  "id": "r0523",
+  "ids": [
+    "being",
+    "westward",
+    "preserve",
+    "assess",
+    "cork",
+    "composition",
+    "extensive",
+    "tempt",
+    "cable",
+    "time-consuming"
+  ],
+  "title": "The Rise of Silent Shop Rooms",
+  "titleZh": "商店里的静音小屋悄然兴起",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "In the old furniture district of Bellara, a surprising retail trend is spreading [[westward|westward]]: shops are setting aside valuable floor space for silence. Behind displays of chairs and lamps, visitors can now enter small rooms where conversation and music are absent. The aim is not to sell silence, but to [[tempt|tempt]] people to stay longer.",
+    "The first room appeared in Leila Haddad's lighting shop after customers complained about drilling from a neighbouring building. Rather than close temporarily, she lined a storeroom with [[cork|cork]] panels. An engineer helped her [[assess|assess]] the result, measuring sound levels beside the door and at the back. He also checked the [[composition|composition]] of the panels, since their effectiveness depended partly on the materials mixed with the bark.",
+    "Creating the room was surprisingly [[time-consuming|time-consuming]]. A loose electrical [[cable|cable]] rattled against a fan's casing whenever the fan ran, while gaps around the door admitted street noise. Yet the work did not require [[extensive|extensive]] rebuilding. Most changes were small enough to [[preserve|preserve]] the shop's original wooden fittings. A handwritten notice explained the room's purpose: 'A human [[being|being]] sometimes needs less stimulation, not more choice.'",
+    "Within six months, seven nearby businesses had copied the idea. Haddad reports that visitors often return with friends, although she has not calculated any effect on sales. The unexpected attraction is a space containing almost nothing: in a district devoted to household objects, an empty room has become something worth seeking out."
+  ],
+  "zh": [
+    "在贝拉拉的老家具街区，一股出人意料的零售潮流正向西蔓延：商店开始划出宝贵的营业空间，供人享受安静。在陈列的椅子和灯具后方，顾客如今可以走进没有交谈声和音乐的小房间。这样做不是为了出售宁静，而是为了吸引人们多停留一会儿。",
+    "第一间静音小屋出现在莱拉·哈达德的灯具店里。当时，顾客抱怨隔壁楼房的钻孔声太吵。她没有暂时停业，而是在储藏室内铺上了软木板。一位工程师帮助她评估效果，分别测量了门边和房间深处的声级。他还检查了板材的成分，因为其效果部分取决于与树皮混合的其他材料。",
+    "打造这间小屋比预想的更耗时。每当风扇运转时，一根松动的电缆就会碰着风扇外壳，发出咔嗒声，门周围的缝隙则让街上的噪声钻了进来。不过，这项工程不需要大规模改建。多数改动都很小，因此店内原有的木质装饰和设施得以保留。一张手写告示解释了小屋的用途：“人有时需要的是更少的刺激，而不是更多的选择。”",
+    "六个月内，附近已有七家商店效仿了这一做法。哈达德说，访客常常带着朋友再来，不过她还没有计算这对销售额有何影响。意想不到的吸引力来自一个几乎空无一物的空间：在一个专卖家居用品的街区，一间空房反倒成了值得专程寻找的去处。"
+  ],
+  "q": [
+    {
+      "s": "The quiet rooms are intended to encourage customers to spend more time in the shops.",
+      "a": "T",
+      "why": "首段说明目的是吸引顾客停留更久。"
+    },
+    {
+      "s": "Haddad had to make major structural alterations to create her quiet room.",
+      "a": "F",
+      "why": "第三段明确说无需大规模改建。"
+    },
+    {
+      "s": "The businesses that copied Haddad's idea received more visitors than her shop did.",
+      "a": "NG",
+      "why": "末段未比较各家商店的访客数量。"
+    }
+  ]
+}

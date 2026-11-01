@@ -1,0 +1,48 @@
+{
+  "id": "r0029",
+  "ids": [
+    "artist",
+    "stand",
+    "must",
+    "sky",
+    "about",
+    "sandwich",
+    "slow",
+    "make",
+    "every",
+    "quiet"
+  ],
+  "title": "A City on Small Tiles",
+  "titleZh": "小瓷砖上的城市",
+  "topic": "city",
+  "cefr": 0,
+  "paras": [
+    "In Bell Lane, a small city street, there is a blue door. Behind it, an [[artist|artist]] named Mina paints pictures on white tiles. Her shop is open [[every|every]] Saturday. Visitors can come inside and watch her work. There are pictures of cats, fruit shops, and red roofs on the walls.",
+    "This morning, two visitors, Luis and Hana, [[stand|stand]] near her table. Mina shows them a tile with a yellow house. It is a picture of her old home. She tells them [[about|about]] the people in that street. Then she asks, “Would you like to [[make|make]] a picture of this city?”",
+    "They go up to the roof with paper and pencils. The [[sky|sky]] is blue, and the street below is [[quiet|quiet]]. “You [[must|must]] stay away from the edge,” Mina says. They sit near the door. Hana draws a bread shop. Luis draws its green window. Their work is [[slow|slow]], but Mina does not hurry them.",
+    "At noon, Mina brings a cheese [[sandwich|sandwich]] for each visitor. They eat on the roof and look at their pictures. Later, they paint the same pictures on tiles downstairs. Mina keeps the tiles there to dry. “Come back next Saturday,” she says. Now Luis and Hana have a reason to return. A little piece of the city is waiting for them."
+  ],
+  "zh": [
+    "贝尔巷是城里的一条小街，街上有一扇蓝色的门。门后，一位名叫米娜的画家在白瓷砖上画画。她的小店每周六都开门。游客可以进来，看她作画。墙上的画里有猫、水果店和红色的屋顶。",
+    "今天上午，两位游客路易斯和哈娜站在她的桌边。米娜给他们看一块画着黄色房子的瓷砖。画上是她以前的家。她向他们讲起那条街上的人。接着，她问：“你们想画一幅这座城市的画吗？”",
+    "他们带着纸和铅笔来到屋顶。天空湛蓝，下面的街道很安静。“你们必须离屋顶边缘远一点。”米娜说。他们坐在门边。哈娜画一家面包店，路易斯画这家店的绿色窗户。他们画得很慢，但米娜并不催促。",
+    "中午，米娜给两位游客各带来一个奶酪三明治。他们在屋顶上，一边吃，一边看自己的画。随后，他们到楼下，把同样的画画在瓷砖上。米娜把瓷砖留在那里晾干。“下周六再来吧。”她说。现在，路易斯和哈娜有了再来的理由。这座城市的一小部分，正等着他们回来。"
+  ],
+  "q": [
+    {
+      "s": "Mina opened her shop last year.",
+      "a": "NG",
+      "why": "文章未说明米娜是哪一年开店的。"
+    },
+    {
+      "s": "The yellow house in Mina's picture is her old home.",
+      "a": "T",
+      "why": "文中明确说黄色房子的画画的是她以前的家。"
+    },
+    {
+      "s": "Mina tells the visitors to stay near the edge of the roof.",
+      "a": "F",
+      "why": "米娜要求他们远离屋顶边缘。"
+    }
+  ]
+}

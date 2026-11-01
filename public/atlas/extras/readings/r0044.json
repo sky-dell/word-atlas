@@ -1,0 +1,46 @@
+{
+  "id": "r0044",
+  "ids": [
+    "begin",
+    "enough",
+    "class",
+    "few",
+    "country",
+    "understand",
+    "die",
+    "april",
+    "with",
+    "plate"
+  ],
+  "title": "Holidays in a Village Garden",
+  "titleZh": "村庄菜园里的假期",
+  "topic": "travel",
+  "cefr": 0,
+  "paras": [
+    "A small village in Portugal has a surprising new kind of holiday. People come to work in gardens, not to sit on the beach. Last [[april|April]], only a [[few|few]] visitors came. This year, twenty people arrive each week. They come from across the [[country|country]]. Many stay for three days. They pay to sleep in small houses and help grow food.",
+    "Each morning, visitors [[begin|begin]] work at eight. They go to a short [[class|class]] [[with|with]] Rosa, a village gardener. She shows them how to put small plants in the ground. The visitors soon [[understand|understand]] why the plants need care. Without [[enough|enough]] water, young plants can [[die|die]] in the hot sun. Each person looks after one small part of the garden. Rosa writes their names on little wooden signs.",
+    "At noon, everyone eats together under a tree. Each visitor gets a [[plate|plate]] of rice and fresh vegetables. There is no work after lunch, but many people return to their plants. One guest, Amir, says, “I wanted a quiet holiday. Now I want to come back and see my tomatoes.” Rosa keeps a room ready for his next visit."
+  ],
+  "zh": [
+    "葡萄牙的一个小村庄出现了一种令人意外的新度假方式。人们来这里干园艺活，而不是坐在海滩上。去年四月，只有几位游客到来。今年，每周都有二十人来。他们来自全国各地。许多人住三天。他们付费住在小房子里，并帮忙种菜。",
+    "每天早上，游客们八点开始干活。他们上一堂短课，由村里的园丁罗莎来教。她教大家怎样把小菜苗种进土里。游客们很快就明白了为什么这些植物需要照顾。如果没有足够的水，幼苗就可能在烈日下枯死。每个人负责菜园里的一小块地。罗莎把他们的名字写在小木牌上。",
+    "中午，大家在树下一起吃饭。每位游客都会得到一盘米饭和新鲜蔬菜。午饭后不用干活，但许多人又回去看自己照料的植物。一位名叫阿米尔的客人说：“我本来想安静地度个假。现在，我想再回来看看我的番茄。”罗莎为他的下次到来留好了一间房。"
+  ],
+  "q": [
+    {
+      "s": "This year, twenty visitors come each week.",
+      "a": "T",
+      "why": "原文明确说今年每周有二十人来。"
+    },
+    {
+      "s": "Rosa has lived in the village for ten years.",
+      "a": "NG",
+      "why": "文章未说明罗莎在村里住了多久。"
+    },
+    {
+      "s": "Each visitor eats lunch alone.",
+      "a": "F",
+      "why": "原文说中午大家在树下一起吃饭。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0314",
+  "ids": [
+    "limit",
+    "striped",
+    "brick",
+    "architect",
+    "souvenir",
+    "cheek",
+    "ambition",
+    "advanced",
+    "earphone",
+    "mayor"
+  ],
+  "title": "A Street Inside a Box",
+  "titleZh": "盒子里的一条街",
+  "topic": "city",
+  "cefr": 2,
+  "paras": [
+    "In the city of Bellara, model maker Nadia Sen builds streets small enough to fit inside wooden boxes. Her [[ambition|ambition]] is to record the old shopping lanes before they disappear. Each morning, she walks through one lane with her brother, an [[architect|architect]], who helps her measure the buildings. Back in her workshop, she copies every detail, from a broken [[brick|brick]] to the blue-and-white [[striped|striped]] cover above a fruit stall.",
+    "Nadia sets a [[limit|limit]] of twelve buildings for each box; more would make the details difficult to see. She cuts and paints all the pieces by hand rather than using [[advanced|advanced]] machines. Often, a little red paint ends up on her [[cheek|cheek]] as she works. However, the boxes contain more than tiny buildings. Visitors can put an [[earphone|earphone]] in one ear and hear recordings of the real street: a baker calling out prices, or rain falling on a metal roof.",
+    "At her first exhibition, the city's [[mayor|mayor]] spent several minutes listening to one box. Other visitors recognised shops where they had worked or bought bread as children. Nadia now sells a smaller version as a [[souvenir|souvenir]], but keeps the large boxes for public exhibitions. Her favourite response came from a retired baker. After listening quietly, he smiled and said, 'My shop has closed, but its morning is still here.'"
+  ],
+  "zh": [
+    "在贝拉拉市，模型制作师娜迪娅·森把街道做得很小，可以装进木盒里。她的志向是赶在老商业巷消失之前，把它们记录下来。每天早晨，她都会和当建筑师的兄弟一起走过一条小巷，由他帮她测量建筑物。回到工作室后，她会复制每一处细节，从一块破损的砖，到水果摊上方蓝白条纹的遮棚。",
+    "娜迪娅给每个盒子设定了十二栋建筑的上限；再多，细节就不容易看清了。她不用先进的机器，而是亲手裁切每个部件并上色。工作时，她的脸颊上常常会沾上一点红色颜料。不过，盒子里不只有微型建筑。参观者可以将一只耳机放进耳朵，听真实街道的录音：面包师吆喝价格的声音，或雨水落在金属屋顶上的声音。",
+    "在她的首场展览上，市长花了好几分钟听其中一个盒子的录音。其他参观者认出了自己曾经工作过的店铺，或小时候买面包的地方。娜迪娅现在出售较小的版本作为纪念品，但把大盒子留作公开展览。她最喜欢的反馈来自一位退休的面包师。他静静地听完后，微笑着说：“我的店关门了，可它的早晨还在这里。”"
+  ],
+  "q": [
+    {
+      "s": "A member of Nadia's family helps her find out the sizes of the buildings.",
+      "a": "T",
+      "why": "她当建筑师的兄弟帮她测量建筑物。"
+    },
+    {
+      "s": "The mayor bought a small model after visiting Nadia's exhibition.",
+      "a": "NG",
+      "why": "只说市长听了录音，未提是否购买。"
+    },
+    {
+      "s": "Nadia keeps the large boxes for private use rather than public exhibitions.",
+      "a": "F",
+      "why": "她把大盒子留作公开展览。"
+    }
+  ]
+}

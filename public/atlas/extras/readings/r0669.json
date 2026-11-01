@@ -1,0 +1,48 @@
+{
+  "id": "r0669",
+  "ids": [
+    "equitable",
+    "petite",
+    "iconic",
+    "catalyst",
+    "kernel",
+    "synopsis",
+    "suppression",
+    "revival",
+    "abound",
+    "ponder"
+  ],
+  "title": "Carving a Town's Wooden Voice",
+  "titleZh": "雕出小镇的木头之声",
+  "topic": "work",
+  "cefr": 4,
+  "paras": [
+    "In a riverside puppet workshop, Amara, a [[petite|petite]] craftswoman, makes figures whose oversized hands have become [[iconic|iconic]] symbols of the town's theatre. A commission for twelve puppets proved the [[catalyst|catalyst]] for reorganising production: instead of paying everyone per finished object, the workshop introduced an [[equitable|equitable]] system that recognises both intricate carving and the less visible labour of preparing timber.",
+    "Each figure begins with a [[synopsis|synopsis]] of the play, which determines its posture, costume and movable joints. For a story about the [[suppression|suppression]] of street music, Amara designs a fiddler whose shoulders can gradually straighten. Before touching the wood, she pauses to [[ponder|ponder]] how this small mechanical change might communicate a transition from fear to confidence without spoken explanation.",
+    "She selects seasoned limewood, sketches the body lengthwise along its grain, and removes thin curls with a curved gouge. Knots [[abound|abound]] in cheaper offcuts, but these can interrupt a blade or weaken a wrist joint. Once the separate limbs are shaped, holes are drilled for connecting cords. Meanwhile, an assistant presses walnut [[kernel|kernels]] to obtain oil for the final protective coating.",
+    "After painting the face, Amara applies the oil sparingly, allowing each layer to dry before polishing. The strings are then adjusted above a rehearsal bench until the fiddler can lift his bow without tipping forward. This painstaking process supports a modest [[revival|revival]] of the craft, although its success is measured most immediately when a rigid wooden shoulder finally appears to breathe."
+  ],
+  "zh": [
+    "在河畔的一间木偶工坊里，身材娇小的女工匠阿玛拉制作着各种木偶，它们夸张的大手已成为小镇剧场广为人知的标志。一笔订制十二个木偶的订单促使工坊重新调整生产安排：不再按完工件数向每个人付酬，而是引入一种公平合理的制度，既认可精细雕刻的价值，也计入木料准备等不太显眼的劳动。",
+    "每个木偶的制作都从阅读剧本梗概开始，由此确定它的姿态、服装以及可活动的关节。为了一出讲述街头音乐遭到压制的戏，阿玛拉设计了一名双肩能够逐渐舒展的小提琴手。在动手处理木料之前，她停下来仔细思考：如何让这一细微的机械变化在没有台词解释的情况下，传达人物从恐惧走向自信的转变。",
+    "她选取干燥处理过的椴木，顺着木纹沿纵向勾勒出身体轮廓，再用弧形圆凿削去一层层薄薄的木屑。廉价的边角料中常有许多木节，但它们可能阻碍刀刃推进，或使腕部关节变得脆弱。各个肢体部件成形后，便钻孔以穿入连接绳。与此同时，一名助手压榨核桃仁，提取用于最后一道保护涂层的油。",
+    "画好面部后，阿玛拉薄薄地涂上核桃油，待每一层干燥后再抛光。随后，她在排练台上方调整提线，直到小提琴手能够抬起琴弓而不向前栽倒。这种一丝不苟的制作工艺推动着木偶手艺的小规模复兴，不过，它最直接的成功标志，是原本僵硬的木头肩膀终于仿佛有了呼吸。"
+  ],
+  "q": [
+    {
+      "s": "The revised payment system disregards the work of preparing timber.",
+      "a": "F",
+      "why": "新制度明确计入木料准备劳动。"
+    },
+    {
+      "s": "Amara considers how the fiddler's movement could convey confidence before she starts carving.",
+      "a": "T",
+      "why": "她接触木料前便思考动作如何传达自信。"
+    },
+    {
+      "s": "The workshop buys its walnuts from farms near the river.",
+      "a": "NG",
+      "why": "文章未说明核桃的采购来源。"
+    }
+  ]
+}

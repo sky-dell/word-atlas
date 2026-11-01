@@ -1,0 +1,46 @@
+{
+  "id": "r0001",
+  "ids": [
+    "library",
+    "thursday",
+    "bedroom",
+    "clothes",
+    "strong",
+    "body",
+    "month",
+    "let",
+    "born",
+    "paint"
+  ],
+  "title": "The Blue Book Box",
+  "titleZh": "蓝色书箱",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "In a small village, there was once a blue book box. Its story began with a woman called Mina. She was [[born|born]] in the village in 1920. As a girl, she kept six books in her [[bedroom|bedroom]], on a shelf above her [[clothes|clothes]]. There was no [[library|library]] near her home. She often [[let|let]] other children take her books home to read.",
+    "In 1945, Mina found an old wooden box. She put blue [[paint|paint]] on it and filled it with books. Every [[thursday|Thursday]], she took it to the village shop. At first, she carried it herself. She was [[strong|strong]], but the heavy box made her whole [[body|body]] tired. After one [[month|month]], the shopkeeper gave her a little cart. Now she could bring more books.",
+    "People came to buy bread and went home with stories, too. They wrote their names in a small book and returned each story the next week. Later, the shopkeeper made space for two shelves. The box stayed under them. Years passed, and its blue colour grew pale. But people kept it: this small box had brought books into many homes."
+  ],
+  "zh": [
+    "一个小村庄里，曾经有一只蓝色书箱。它的故事要从一位名叫米娜的女子说起。她于1920年出生在这个村庄。小时候，她把六本书放在卧室里，就在衣服上方的架子上。她家附近没有图书馆。她常常让其他孩子把自己的书带回家读。",
+    "1945年，米娜找到了一只旧木箱。她给箱子刷上蓝色油漆，然后装满了书。每逢星期四，她就把箱子送到村里的商店。起初，她自己搬箱子。她力气很大，但沉重的箱子还是让她浑身疲惫。一个月后，店主送给她一辆小推车。这下，她可以带更多书来了。",
+    "人们来买面包，回家时也带走了故事。他们在一本小册子上写下姓名，下一周再把故事书还回来。后来，店主腾出地方，放上两块搁板。箱子就留在搁板下面。多年过去，箱子的蓝色渐渐变淡了。但人们仍然留着它：这只小箱子曾把书带进了许多家庭。"
+  ],
+  "q": [
+    {
+      "s": "Mina shared her books with other children when she was young.",
+      "a": "T",
+      "why": "她小时候常让其他孩子把书带回家读。"
+    },
+    {
+      "s": "Mina used a cart from the first day she took books to the shop.",
+      "a": "F",
+      "why": "起初她自己搬箱子，一个月后才有推车。"
+    },
+    {
+      "s": "The shopkeeper's favourite books were stories about animals.",
+      "a": "NG",
+      "why": "文章没有提到店主最喜欢哪类书。"
+    }
+  ]
+}

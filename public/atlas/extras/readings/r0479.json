@@ -1,0 +1,48 @@
+{
+  "id": "r0479",
+  "ids": [
+    "preferable",
+    "associate",
+    "excessive",
+    "specify",
+    "overtime",
+    "deceive",
+    "limitation",
+    "conflict",
+    "punctual",
+    "peg"
+  ],
+  "title": "Making a Door Look Old",
+  "titleZh": "把新门做旧",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "In a theatre workshop, a door that appears centuries old may have been built only a week earlier. Audiences often [[associate|associate]] cracked paint and dark wood with age, so makers reproduce these features carefully. Lightweight pine is [[preferable|preferable]] to oak because stage workers must move the finished door between scenes.",
+    "First, the designer must [[specify|specify]] the door's dimensions and the direction in which it opens. Carpenter Amara cuts the boards, joins them with glue, and inserts a wooden [[peg|peg]] through each corner joint for strength. One [[limitation|limitation]] of pine is its softness: screws can loosen after repeated movement. Small metal plates therefore support the hinges on the hidden side.",
+    "Next comes the ageing process. Amara brushes on grey paint, adds a brown layer, then gently sands the edges where generations of hands would have touched them. [[excessive|Excessive]] sanding would expose too much fresh timber and spoil the effect. This treatment is intended to [[deceive|deceive]] the audience's eyes, not to copy every detail of a genuinely ancient door. Under bright stage lighting, subtle marks can disappear.",
+    "Finally, the door is tested on its frame. A [[conflict|conflict]] may arise if the director requests changes close to opening night, since extra work can mean paid [[overtime|overtime]]. To keep delivery [[punctual|punctual]], the team agrees on a final inspection date. When the door swings silently into place, fresh wood has become a convincing entrance to another century."
+  ],
+  "zh": [
+    "在剧院工坊里，一扇看似已有数百年历史的门，可能仅仅是一周前才制作出来的。观众常把开裂的油漆和深色木材与年代久远联系起来，因此制作者会仔细重现这些特征。轻质松木比橡木更合适，因为舞台工作人员必须在换场时搬动做好的门。",
+    "首先，设计师必须明确门的尺寸和开启方向。木工阿玛拉裁好木板，用胶水将其拼接起来，再在每个角部接合处穿入一根木钉，以增强牢固度。松木的一个不足是质地较软：经过反复移动，螺丝可能松动。因此，门背面看不见的地方会用小金属板加固铰链。",
+    "接下来是做旧工序。阿玛拉先刷上灰色油漆，再涂一层棕色，然后轻轻打磨门的边缘，模拟历代使用者经常用手触碰的位置。过度打磨会露出太多新木材，破坏效果。这种处理是为了让观众在视觉上信以为真，而不是复制一扇真正古老的门的每一处细节。在明亮的舞台灯光下，细微的痕迹可能根本看不出来。",
+    "最后，要把门装到门框上进行测试。如果导演在临近首演时提出修改要求，就可能引发争执，因为额外的工作可能意味着需要支付加班费。为了按时交付，团队会商定最终检查的日期。当这扇门安装到位，开合悄然无声时，崭新的木材便化作了一道令人信服的入口，通向另一个世纪。"
+  ],
+  "q": [
+    {
+      "s": "Pine costs the workshop less than oak.",
+      "a": "NG",
+      "why": "首段比较了木材重量，未比较价格。"
+    },
+    {
+      "s": "Small metal plates support the hinges on the hidden side of the door.",
+      "a": "T",
+      "why": "第二段明确说明用小金属板支撑隐蔽侧的铰链。"
+    },
+    {
+      "s": "The ageing treatment aims to reproduce all the features of an authentic old door.",
+      "a": "F",
+      "why": "第三段明确说并非复制古门的所有细节。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0379",
+  "ids": [
+    "patrol",
+    "consonant",
+    "banner",
+    "preceding",
+    "confirmation",
+    "logical",
+    "attempt",
+    "burner",
+    "hillside",
+    "judgement"
+  ],
+  "title": "Before the Market Wakes",
+  "titleZh": "集市醒来之前",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "Before sunrise, Amara Sen reached her tea stall in the [[hillside|hillside]] market. A cotton [[banner|banner]] announcing the spring market hung across the entrance. She unlocked the cupboard beneath her counter and took out the cups. Her new assistant, Ravi, arrived carrying bread just as she finished counting them.",
+    "A booking card sent during the [[preceding|preceding]] week lay beside the till. It provided [[confirmation|confirmation]] that Amara could use her usual space beside the well. Ravi suggested moving the water container behind the cups, but she showed him the [[logical|logical]] order of her work: fill the kettle, heat the water, then pour. Keeping the container beside the brass [[burner|burner]] meant she did not have to reach across clean cups with a dripping kettle.",
+    "Clouds were gathering above the roofs. Amara relied on [[judgement|judgement]] rather than a fixed rule to decide how much tea to prepare. While the water heated, Ravi made an [[attempt|attempt]] at calling out prices in English for visiting customers. Amara could not hear the final [[consonant|consonant]] in 'eight', so he repeated the price more clearly. From the next stall, a fruit seller called back the correct amount.",
+    "Two watchmen who would [[patrol|patrol]] the lanes before opening stopped beside the well. They checked that Amara's bread delivery was not blocking the passage. Ravi pushed the empty crate under the counter, and Amara lifted the kettle as the first customers approached."
+  ],
+  "zh": [
+    "日出前，阿玛拉·森来到山坡集市的茶摊。一条宣传春季集市的棉布横幅挂在入口上方。她打开柜台下方上了锁的柜子，取出杯子。就在她清点完杯子时，新助手拉维带着面包到了。",
+    "一张前一周寄来的摊位预订卡放在收款机旁，确认阿玛拉可以使用水井旁的老位置。拉维建议把储水容器移到杯子后面，但她向他展示了合理的操作顺序：先往水壶里加水，再烧水，然后倒水。把储水容器放在黄铜炉头旁，就不用提着滴水的水壶从干净的杯子上方伸手过去。",
+    "屋顶上方正聚起云层。阿玛拉依靠判断力，而不是固定的规则，来决定准备多少茶水。烧水时，拉维尝试用英语向来访的顾客吆喝价格。阿玛拉听不清“eight”末尾的辅音，于是他更清楚地重复了一遍价格。隔壁摊位的水果摊贩大声回应，报出了正确的金额。",
+    "两名将在开市前巡查通道的看守在井边停下。他们检查了阿玛拉收到的面包是否堵住通道。拉维把空箱子推到柜台下面，第一批顾客走来时，阿玛拉提起了水壶。"
+  ],
+  "q": [
+    {
+      "s": "Ravi arrived as Amara finished counting the cups.",
+      "a": "T",
+      "why": "原文说拉维到达时，她正好清点完杯子。"
+    },
+    {
+      "s": "Amara's booking card required her to move away from her regular trading spot.",
+      "a": "F",
+      "why": "预订卡确认她可使用水井旁的老位置。"
+    },
+    {
+      "s": "The watchmen checked every stall before the market opened.",
+      "a": "NG",
+      "why": "只提到检查阿玛拉摊旁，未说明是否查遍各摊。"
+    }
+  ]
+}

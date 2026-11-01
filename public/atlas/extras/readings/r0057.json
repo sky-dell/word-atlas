@@ -1,0 +1,46 @@
+{
+  "id": "r0057",
+  "ids": [
+    "green",
+    "call",
+    "cheese",
+    "long",
+    "meeting",
+    "waiter",
+    "bank",
+    "classroom",
+    "plan",
+    "funny"
+  ],
+  "title": "A Café for One Afternoon",
+  "titleZh": "只开一下午的咖啡馆",
+  "topic": "education",
+  "cefr": 0,
+  "paras": [
+    "On Friday, Rosa makes a small café in her [[classroom|classroom]]. Her class is learning about restaurant work. First, they have a short [[meeting|meeting]]. Their [[plan|plan]] is to make sandwiches and serve lunch to six teachers. Rosa goes to the [[bank|bank]] to get some money. Then she buys bread, [[cheese|cheese]], and tomatoes at the food shop. She brings everything back in two bags.",
+    "The class puts three small tables near the window. They cover each table with a [[green|green]] cloth. Next, they wash their hands and the tomatoes. They cut the bread into slices. They put thin pieces of cheese and tomato between two slices. Each sandwich is cut into two pieces. They place the food on a [[long|long]] plate in the middle of each table.",
+    "Amir is the [[waiter|waiter]] for the afternoon. He carries water and gives each teacher a paper menu. His tall paper hat looks [[funny|funny]], and everyone smiles. Rosa uses her phone to [[call|call]] the last teacher. Soon, all six guests are eating. The room is now a little café, and the class has made its first lunch."
+  ],
+  "zh": [
+    "星期五，罗莎在教室里布置了一间小咖啡馆。她的班级正在学习餐厅里的工作。首先，大家开了一个简短的会。他们的计划是做三明治，为六位老师提供午餐。罗莎去银行取了一些钱。然后，她在食品店买了面包、奶酪和西红柿。她用两个袋子把所有东西带了回来。",
+    "全班在窗边摆了三张小桌子，给每张桌子铺上绿色桌布。接着，他们洗了手，也洗了西红柿。他们把面包切成片，在两片面包之间放上薄薄的奶酪片和西红柿片。每个三明治都被切成两块。他们把食物放在长盘子里，每张桌子中间放一个盘子。",
+    "阿米尔担任这天下午的服务员。他端来水，给每位老师一张纸菜单。他的高高的纸帽子看起来很滑稽，大家都笑了。罗莎用手机给最后一位老师打电话。不久，六位客人都吃上了饭。教室现在成了一间小咖啡馆，全班也做好了他们的第一顿午餐。"
+  ],
+  "q": [
+    {
+      "s": "The class has a long meeting.",
+      "a": "F",
+      "why": "文中说会议很简短。"
+    },
+    {
+      "s": "The cloths on the tables are green.",
+      "a": "T",
+      "why": "每张桌子都铺着绿色桌布。"
+    },
+    {
+      "s": "Amir has worked in a restaurant before.",
+      "a": "NG",
+      "why": "文章未提及阿米尔过去的工作经历。"
+    }
+  ]
+}

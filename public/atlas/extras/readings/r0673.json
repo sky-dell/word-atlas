@@ -1,0 +1,48 @@
+{
+  "id": "r0673",
+  "ids": [
+    "piston",
+    "invariably",
+    "monopolize",
+    "mortal",
+    "resignation",
+    "tactful",
+    "ampere",
+    "amend",
+    "peasant",
+    "mandatory"
+  ],
+  "title": "The Clock Beneath the Well",
+  "titleZh": "井下的时钟",
+  "topic": "technology",
+  "cefr": 4,
+  "paras": [
+    "On a volcanic plateau, a borehole drilled for irrigation unexpectedly became a geyser. Its eruptions resembled the strokes of a [[piston|piston]], although no machinery remained underground. A narrow passage connected the surface to a chamber of heated groundwater, converting continuous heating into intermittent motion.",
+    "At depth, pressure [[invariably|invariably]] raises water's boiling point above its surface value. The chamber's contents can therefore exceed 100°C without boiling. Eventually, escaping bubbles lift water out of the passage, reducing pressure below. Some remaining water abruptly becomes steam, driving an eruption that largely empties the chamber.",
+    "An archive records how a [[peasant|peasant]] farming beside the borehole feared an irrigation contractor would [[monopolize|monopolize]] the water. Following the site manager's [[resignation|resignation]], her replacement offered a [[tactful|tactful]] compromise: shared access between eruptions. However, scalding overflows forced operators to [[amend|amend]] their distribution plan, while a safety inspection made fencing [[mandatory|mandatory]]. The underground cycle, not the timetable, determined when collection was possible.",
+    "Today, a monitoring circuit drawing less than one [[ampere|ampere]] records temperature changes before each discharge. Yet regularity does not imply permanence. Mineral deposits gradually constrict the passage, while fractures can divert its supply. Unlike a [[mortal|mortal]] organism, the geyser does not undergo biological ageing, but it can cease functioning. Its final silence may result not from cooling rocks but from changes in its hidden plumbing."
+  ],
+  "zh": [
+    "在一片火山高原上，一口为灌溉而钻的井意外变成了间歇泉。它的喷发如同活塞的往复运动，尽管地下已没有任何机械设备。一条狭窄通道将地表与一个储存受热地下水的腔室连接起来，把持续加热转化为间歇性的运动。",
+    "在地下深处，压力总会使水的沸点高于地表条件下的沸点。因此，腔室里的水即使超过100摄氏度，也可能仍未沸腾。最终，逸出的气泡将水推出通道，使下方压力降低。剩余的水有一部分随即迅速变成蒸汽，引发一次喷发，将腔室内的大部分水排出。",
+    "一份档案记载，一位在钻井旁耕作的小农担心某个灌溉承包商会垄断水源。现场女负责人辞职后，继任者委婉地提出一个折中方案：在两次喷发之间共同取水。然而，滚烫的水溢出，迫使运营人员修改配水计划，而一次安全检查又要求必须设置围栏。决定何时能够取水的，是地下的循环过程，而非时间表。",
+    "如今，一套电流不足一安培的监测电路记录着每次喷发前的温度变化。然而，规律性并不意味着永久不变。矿物沉积物逐渐使通道变窄，裂隙则可能使供水改道。与终有一死的生物不同，间歇泉不会经历生物性衰老，却仍然可能停止活动。它最终归于沉寂，可能不是因为岩石冷却，而是因为其隐蔽的地下管道发生了变化。"
+  ],
+  "q": [
+    {
+      "s": "The borehole was originally intended to provide water for agriculture.",
+      "a": "T",
+      "why": "首段说明钻井原本用于灌溉。"
+    },
+    {
+      "s": "The eruption begins when pressure inside the underground chamber increases suddenly.",
+      "a": "F",
+      "why": "第二段指出压力下降使部分水骤变为蒸汽。"
+    },
+    {
+      "s": "The replacement manager had previously supervised another geothermal site.",
+      "a": "NG",
+      "why": "文章未提及继任负责人的工作经历。"
+    }
+  ]
+}

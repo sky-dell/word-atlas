@@ -1,0 +1,48 @@
+{
+  "id": "r0303",
+  "ids": [
+    "hop",
+    "ambulance",
+    "confirm",
+    "volcano",
+    "pin",
+    "shared",
+    "originally",
+    "judge",
+    "duty",
+    "application"
+  ],
+  "title": "Why the Village Bath Stays Warm",
+  "titleZh": "村里的浴池为何总是温热的",
+  "topic": "daily",
+  "cefr": 2,
+  "paras": [
+    "Before breakfast, Mina walks to her village’s [[shared|shared]] outdoor bath. On cold mornings, birds [[hop|hop]] around its warm stone edge. The pool was [[originally|originally]] a muddy spring, but villagers built walls around it. Its warmth comes from deep underground, where rock is still hot beneath a nearby [[volcano|volcano]].",
+    "Rainwater enters cracks in the ground and travels down towards the hot rock. As it heats up, it rises through other cracks and returns to the surface. This journey can take many years. The water brings dissolved gases with it, so small bubbles sometimes appear. However, bubbles alone cannot [[confirm|confirm]] that water is boiling.",
+    "Each morning, Mina checks the temperature at several points. She uses a [[pin|pin]] to fasten the day's temperature card to a wooden board. Visitors cannot [[judge|judge]] the heat safely just by looking: clear water may be dangerously hot. It is Mina’s [[duty|duty]] to close the bath if the temperature rises too far. An [[ambulance|ambulance]] would take forty minutes to reach this quiet village.",
+    "Last year, the village sent an [[application|application]] for permission to build a second pool. This would allow hot spring water to cool before entering the bathing area. For now, Mina carefully mixes it with cold water. The comfortable morning bath depends on both underground heat and daily care."
+  ],
+  "zh": [
+    "早餐前，米娜会走到村里的共用露天浴池。寒冷的早晨，鸟儿在温暖的石砌池边蹦跳。这个池子原先是一处泥泞的泉眼，后来村民在四周砌起了池壁。它的热量来自地下深处，附近一座火山下方的岩石至今仍然很热。",
+    "雨水进入地面的裂缝，向下流到热岩石附近。水受热后，沿着其他裂缝上升，重新回到地表。这段旅程可能需要很多年。水中带着溶解的气体，因此有时会冒出小气泡。不过，仅凭气泡并不能证实水正在沸腾。",
+    "每天早晨，米娜都会测量池中几处位置的水温。她用一枚大头针把当天的水温卡固定在木板上。游客无法只靠观察就可靠地判断水温：清澈的水也可能烫得危险。如果水温升得过高，米娜有责任关闭浴池。救护车需要四十分钟才能到达这个安静的村庄。",
+    "去年，村里提交了一份申请，请求获准修建第二个池子。这样，温泉水就能先冷却，再流入洗浴区。目前，米娜会小心地往温泉水中兑入冷水。清晨舒适的泡浴，既依靠地下的热量，也离不开每天的照料。"
+  ],
+  "q": [
+    {
+      "s": "The village bath was never a natural spring.",
+      "a": "F",
+      "why": "浴池原先是一处泥泞的泉眼。"
+    },
+    {
+      "s": "Bubbles alone cannot prove that the spring water is boiling.",
+      "a": "T",
+      "why": "文中明确说仅凭气泡不能证实水在沸腾。"
+    },
+    {
+      "s": "The village plans to charge visitors to use the second pool.",
+      "a": "NG",
+      "why": "只提到申请建第二个池子，未提收费计划。"
+    }
+  ]
+}

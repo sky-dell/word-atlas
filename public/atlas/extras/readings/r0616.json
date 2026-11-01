@@ -1,0 +1,48 @@
+{
+  "id": "r0616",
+  "ids": [
+    "synthesis",
+    "sober",
+    "representation",
+    "evict",
+    "permanence",
+    "preset",
+    "protectionism",
+    "obtainable",
+    "psychiatry",
+    "nomad"
+  ],
+  "title": "The Loom That Remembers",
+  "titleZh": "会记忆的织机",
+  "topic": "technology",
+  "cefr": 4,
+  "paras": [
+    "Behind a courtyard in the mountain town of Veyra, visitors encounter a wooden loom connected to a small computer. Its keeper, Leila, a former nurse in [[psychiatry|psychiatry]], records weaving patterns brought by travelling families. One elderly [[nomad|nomad]] returns each autumn with saddlecloths whose angular designs describe wells and winter camps rather than political borders.",
+    "The workshop offers a [[synthesis|synthesis]] of textile practice and digital engineering: sensors translate the shuttle’s movements into diagrams, while visitors [[preset|preset]] the recording interval before trying the loom. Although nearby inns serve plum wine with lunch, anyone operating its heavy pedals must remain [[sober|sober]]. Replacement sensors are [[obtainable|obtainable]] from overseas, but [[protectionism|protectionism]], including steep import duties, has made repairs increasingly expensive.",
+    "The greater uncertainty concerns the building. When its owner sought to [[evict|evict]] the workshop through the courts, a weavers’ association provided legal [[representation|representation]] for Leila and negotiated another lease. Yet even this agreement offers no [[permanence|permanence]]: the rooms are secured for only three years. Consequently, every recorded pattern is copied onto two separate drives, one kept beyond the valley.",
+    "For travellers, the most revealing moment comes after the demonstration, when Leila places a printed diagram beside its original cloth. The computer preserves the sequence precisely, but not the slight hesitation where a weaver changed her mind. Guests may take a diagram away; the cloth stays with its maker. What survives here is therefore neither an untouched tradition nor a technological replacement, but a continuing conversation between hands, memory and machines."
+  ],
+  "zh": [
+    "在山城韦拉的一处庭院后面，游客会看到一台连接着小型电脑的木制织机。照管它的莱拉曾是一名精神科护士，如今负责记录四处迁徙的家庭带来的编织纹样。一位年长的游牧民每年秋天都会带着鞍毯回来，毯上棱角分明的图案描绘的是水井和冬季营地，而非政治疆界。",
+    "这间作坊将纺织技艺与数字工程融为一体：传感器把梭子的运动转化为图表，游客则在试用织机前预先设定记录间隔。虽然附近的客栈午餐时供应李子酒，但操作沉重踏板的人必须保持清醒，不受酒精影响。替换用的传感器可以从海外购得，然而包括高额进口关税在内的贸易保护措施，让维修费用越来越高。",
+    "更大的不确定性来自这栋建筑本身。房主曾试图通过法院依法驱逐作坊，一家织工协会为莱拉提供了法律代理，并协商续签了租约。然而，即使这份协议也不能保证作坊长久留驻：这些房间的使用权仅落实了三年。因此，每一种记录下来的纹样都会被复制到两个独立的存储盘上，其中一个存放在山谷之外。",
+    "对旅行者来说，最有启发的一刻出现在演示之后：莱拉把打印出来的图表放在对应的原版织物旁边。电脑精确保留了编织顺序，却无法留住织工改变主意时那一瞬间的迟疑。客人可以带走一份图表，织物则仍归制作者所有。因此，在这里延续下来的，既不是原封不动的传统，也不是取而代之的技术，而是双手、记忆与机器之间持续不断的对话。"
+  ],
+  "q": [
+    {
+      "s": "Replacement sensors can no longer be obtained from overseas.",
+      "a": "F",
+      "why": "第二段明确说替换传感器仍可从海外购得。"
+    },
+    {
+      "s": "The weavers’ association charged Leila for its legal assistance.",
+      "a": "NG",
+      "why": "文章未说明协会提供法律帮助是否收费。"
+    },
+    {
+      "s": "The original cloth remains with its maker after the demonstration.",
+      "a": "T",
+      "why": "末段明确说织物留在制作者手中。"
+    }
+  ]
+}

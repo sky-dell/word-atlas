@@ -1,0 +1,48 @@
+{
+  "id": "r0411",
+  "ids": [
+    "pebble",
+    "pitch",
+    "minimal",
+    "disappearance",
+    "potter",
+    "suite",
+    "color-blind",
+    "faculty",
+    "ripen",
+    "huddle"
+  ],
+  "title": "Why Frost Collects in Valleys",
+  "titleZh": "霜为何容易出现在谷地",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "On clear autumn mornings, a valley's football [[pitch|pitch]] may be white with frost while gardens higher up remain green. This contrast puzzled a [[potter|potter]] whose hillside workshop overlooked a riverside hotel. Each morning, she found ice on a [[pebble|pebble]] beside the river, yet none on the path outside her workshop.",
+    "Researchers from a nearby university's science [[faculty|faculty]] rented a [[suite|suite]] in the hotel to investigate. They placed temperature sensors at different heights along the slope. After sunset, the ground loses heat to the sky. With [[minimal|minimal]] cloud cover, this cooling is especially strong. Air touching the cold ground cools too, becomes denser, and flows downhill, collecting in low places like water in a shallow bowl.",
+    "By dawn, the valley floor can be several degrees colder than the hillside. Water vapour forms frost when surfaces become cold enough, sometimes damaging fruit before it can [[ripen|ripen]]. Small birds may [[huddle|huddle]] among sheltered branches to reduce heat loss. To make their temperature maps accessible to [[color-blind|color-blind]] readers, the researchers used numbered bands as well as different shades.",
+    "The morning [[disappearance|disappearance]] of frost does not mean the overnight pattern was unimportant. Sunlight warms the ground, and rising air gradually mixes the cold pool away. Nevertheless, repeated cold nights can determine where delicate plants survive. The hillside workshop and the frozen playing field reveal the same principle: even a modest change in height can create a different climate."
+  ],
+  "zh": [
+    "在晴朗的秋日清晨，谷地里的足球场可能覆盖着白霜，而地势较高的花园仍是一片青绿。这种反差让一位陶工感到困惑，她山坡上的作坊正对着一家河畔旅馆。每天早上，她都会发现河边的一颗卵石上结了冰，作坊外的小路上却没有。",
+    "附近一所大学理学院的研究人员在旅馆租了一间套房，着手调查。他们沿山坡在不同高度放置了温度传感器。日落后，地面向天空散失热量。云量极少时，这种降温尤其明显。接触寒冷地面的空气也随之冷却，密度增大，沿坡向下流动，像浅碗里的水一样积聚在低处。",
+    "到黎明时，谷底的温度可能比山坡低好几摄氏度。当地表温度足够低时，水汽便会凝华成霜，有时会损伤尚未成熟的果实。小鸟可能挤在有遮蔽的树枝间，以减少热量流失。为了让色盲读者也能读懂温度分布图，研究人员除了使用不同色调，还为各个温度区带标注了数字。",
+    "早晨霜的消失，并不意味着夜间的温度分布无关紧要。阳光使地面变暖，上升的空气逐渐与低处积聚的冷空气混合，使其消散。然而，反复出现的寒夜能够决定娇嫩植物可以在哪里存活。山坡上的作坊和结霜的球场揭示了同一个道理：即使高度只有小幅变化，也能形成不同的局地气候。"
+  ],
+  "q": [
+    {
+      "s": "The potter found ice on the path outside her workshop each morning.",
+      "a": "F",
+      "why": "首段明确说作坊外的小路上没有冰。"
+    },
+    {
+      "s": "Air cooled by contact with the ground flows downhill.",
+      "a": "T",
+      "why": "第二段说明接触冷地面的空气冷却后沿坡下流。"
+    },
+    {
+      "s": "The researchers published their temperature maps in a gardening magazine.",
+      "a": "NG",
+      "why": "文章说明了地图设计，未提及发表渠道。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0293",
+  "ids": [
+    "agreement",
+    "network",
+    "contain",
+    "daylight",
+    "notepaper",
+    "backwards",
+    "pale",
+    "tough",
+    "duty-free",
+    "religion"
+  ],
+  "title": "A Scanner Meets a Traveller's Box",
+  "titleZh": "扫描仪遇上旅行者的纸盒",
+  "topic": "technology",
+  "cefr": 2,
+  "paras": [
+    "A small travel museum wanted to turn old travel notes into text that visitors could search. Under an [[agreement|agreement]] with a nearby workshop, its manager, Leila, tested a new scanner for one week. It photographed pages from above and joined a [[network|network]] of three museum computers. For the experiment, Leila chose a box that [[contain|contained]] forty items from one traveller's journey in 1978.",
+    "The items included letters on blue [[notepaper|notepaper]], a receipt for [[duty-free|duty-free]] perfume bought at an airport, and notes about [[religion|religion]] after a visit to a temple. Some writing was [[pale|pale]] and difficult to read. Leila scanned each item twice: first beside a window in [[daylight|daylight]], then under a desk lamp with the curtains closed. Her assistant, Tomas, checked every word against the original. It was a [[tough|tough]] task because the traveller sometimes wrote between lines and drew arrows to connect ideas.",
+    "Under the lamp, the software read thirty-four items without mistakes; beside the window, it managed only twenty-six. However, one strange error appeared in both tests. A thin letter had been placed face down, so writing showed through the paper [[backwards|backwards]]. Turning it over solved the problem. The lamp gave better results in this test, but careful handling mattered too. Leila kept the scanner, with a simple rule: a person must check every page."
+  ],
+  "zh": [
+    "一家小型旅行博物馆想把旧旅行笔记转成可供参观者搜索的文字。根据与附近一家工作室达成的协议，馆长莱拉试用了一台新扫描仪，为期一周。它从上方拍摄页面，并接入了由馆内三台电脑组成的网络。莱拉为实验选了一个纸盒，里面装着一位旅行者在1978年的一次旅途中留下的四十件物品。",
+    "这些物品包括写在蓝色信纸上的信件、在机场购买免税香水的收据，以及参观一座寺庙后写下的有关宗教的笔记。有些字迹颜色很浅，难以辨认。莱拉把每件物品扫描了两次：第一次放在窗边，利用自然日光；第二次拉上窗帘，放在台灯下。她的助手托马斯对照原件逐字核查。这项工作很棘手，因为那位旅行者有时会在行间补写文字，还会画箭头把不同想法连起来。",
+    "在台灯下，软件准确无误地识别了三十四件物品；在窗边，它只成功识别了二十六件。不过，两次测试都出现了一个奇怪的错误。一封纸张很薄的信被正面朝下放置，字迹透过纸张显现出来，方向却是反的。把信翻过来就解决了问题。在本次测试中，台灯下的结果更好，但仔细操作也很重要。莱拉留下了扫描仪，同时定了一条简单的规则：每一页都必须由人来检查。"
+  ],
+  "q": [
+    {
+      "s": "The workshop charged the museum a fee to test the scanner.",
+      "a": "NG",
+      "why": "文中提到试用协议，未说明是否收费。"
+    },
+    {
+      "s": "Tomas checked the scanned text against the original documents.",
+      "a": "T",
+      "why": "托马斯对照原件逐字核查。"
+    },
+    {
+      "s": "The software read more items without mistakes beside the window than under the lamp.",
+      "a": "F",
+      "why": "窗边无误识别二十六件，台灯下三十四件。"
+    }
+  ]
+}

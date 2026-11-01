@@ -1,0 +1,48 @@
+{
+  "id": "r0721",
+  "ids": [
+    "macabre",
+    "sclerosis",
+    "fetter",
+    "upholster",
+    "halibut",
+    "pneumatic",
+    "delirium",
+    "inveterate",
+    "tenable",
+    "clasp"
+  ],
+  "title": "When Waking Leaves the Body Behind",
+  "titleZh": "当意识醒来，身体仍在沉睡",
+  "topic": "daily",
+  "cefr": 5,
+  "paras": [
+    "After spending the morning learning to [[upholster|upholster]] a chair with a [[pneumatic|pneumatic]] stapler, Mara ate grilled [[halibut|halibut]] and fell asleep on her sofa. On waking, she could see the unfinished chair but could neither move nor call out. A shadow beside it acquired a distinctly [[macabre|macabre]] appearance: she believed a dead stranger was watching her.",
+    "Such experiences arise when features of rapid-eye-movement sleep persist into wakefulness. During this phase, brainstem mechanisms suppress most voluntary muscle activity, preventing elaborate dreams from becoming physical performances. If awareness returns before this inhibition subsides, the sleeper may attempt to [[clasp|clasp]] a companion's hand yet remain motionless. The resulting mismatch can temporarily [[fetter|fetter]] the person's ability to respond to perceived danger.",
+    "Mara, an [[inveterate|inveterate]] late-night reader, had slept irregularly all week, a pattern associated with these episodes. Nevertheless, attributing her experience to lunch alone would scarcely be [[tenable|tenable]]. Dream imagery intruding upon a recognised bedroom can generate threatening figures; altered breathing sensations may contribute to an impression of pressure. These perceptions can feel externally imposed, although no intruder is present.",
+    "Unlike [[delirium|delirium]], which involves an acute disturbance of attention and awareness, isolated sleep paralysis is closely tied to transitions between sleeping and waking. Nor does its temporary immobility imply [[sclerosis|sclerosis]], an abnormal hardening of bodily tissue. Usually, voluntary movement returns within seconds or minutes. When Mara finally moved her fingers, the supposed visitor resolved into a coat draped over the chair: ordinary perception had reclaimed an object briefly recruited into a dream."
+  ],
+  "zh": [
+    "玛拉花了一上午学习给椅子安装软垫和面料，用的是一把气动码钉枪。随后，她吃了烤大比目鱼，便在沙发上睡着了。醒来时，她看得见那把尚未完工的椅子，却既不能动弹，也喊不出声。椅子旁的一道阴影显得阴森可怖：她以为一个死去的陌生人正在注视着她。",
+    "当快速眼动睡眠的某些特征延续到清醒状态时，就可能出现这种体验。在这一睡眠阶段，脑干机制会抑制大多数随意肌活动，防止复杂的梦境化作实际动作。如果意识恢复时这种抑制尚未消退，睡眠者即使试图握紧同伴的手，也可能仍然一动不动。这种意识与身体状态的不一致，会暂时限制当事人应对所感知危险的能力。",
+    "玛拉长期习惯在深夜阅读，那一周的睡眠一直不规律，而这种作息模式与此类发作有关。不过，仅将她的经历归因于午餐，显然很难站得住脚。梦境影像侵入一个人能够认出的卧室场景时，可能会生成具有威胁性的形象；呼吸感觉的变化也可能促成受压迫的感受。尽管并无闯入者，这些感知却可能让人觉得来自外界。",
+    "谵妄涉及注意力和意识的急性紊乱，而孤立性睡眠瘫痪与睡眠和清醒之间的转换密切相关，两者并不相同。这种暂时的无法动弹，也不意味着身体组织出现了异常硬化。通常，随意运动会在几秒到几分钟内恢复。当玛拉终于能够活动手指时，那个所谓的访客显出了原形：不过是搭在椅子上的一件外套。正常的感知重新接管了这件短暂被卷入梦境的物品。"
+  ],
+  "q": [
+    {
+      "s": "During rapid-eye-movement sleep, reduced muscular activity helps prevent people from acting out their dreams.",
+      "a": "T",
+      "why": "第二段指出肌肉活动受抑制，避免梦境化为动作。"
+    },
+    {
+      "s": "Mara had maintained a regular sleeping pattern throughout the week before the episode.",
+      "a": "F",
+      "why": "第三段明确说她那一周睡眠一直不规律。"
+    },
+    {
+      "s": "Mara regained movement exactly two minutes after becoming aware that she could not move.",
+      "a": "NG",
+      "why": "文章未说明玛拉恢复活动所用的确切时间。"
+    }
+  ]
+}

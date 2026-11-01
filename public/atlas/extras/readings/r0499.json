@@ -1,0 +1,48 @@
+{
+  "id": "r0499",
+  "ids": [
+    "critic",
+    "notable",
+    "sulphur",
+    "undertake",
+    "hatch",
+    "lime",
+    "overseas",
+    "immigrate",
+    "bark",
+    "deforestation"
+  ],
+  "title": "The Gallery That Waits for Wings",
+  "titleZh": "等待蝶翼的画廊",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "In the harbour district of Bellwick, an unexpected trend is changing small art galleries: visitors are coming to watch insects rather than admire paintings. Six venues now combine exhibitions with butterfly nurseries. The most [[notable|notable]] change is the audience. Retired gardeners and young families regularly outnumber art collectors, especially on mornings when eggs are expected to [[hatch|hatch]].",
+    "The idea began with ceramic artist Amara Sen, who [[immigrate|immigrated]] twelve years ago. Remembering her grandmother's orchard, she placed a young [[lime|lime]] tree beside clay models of caterpillars. Friends living [[overseas|overseas]] sent drawings of insects from their childhood gardens. Soon, neighbours offered to [[undertake|undertake]] the daily feeding and cleaning, turning a personal exhibition into a shared responsibility.",
+    "The displays do not present gardening as harmless. One cabinet contains a sealed historical sample of yellow [[sulphur|sulphur]], once used by an orchard owner to control plant diseases. Nearby photographs explain how [[deforestation|deforestation]] removes butterfly habitats. Yet the atmosphere remains informal: through an open courtyard door, visitors can hear dogs [[bark|barking]] while volunteers discuss damaged leaves over tea. All living insects come from an approved regional breeder.",
+    "An arts [[critic|critic]] initially dismissed the project as a gardening club with sculptures. After several visits, however, she praised its ability to make strangers talk. Attendance records suggest that people stay longer than at conventional exhibitions. For Sen, the real achievement is simpler: visitors who once asked what a sculpture cost now ask whose turn it is to water the tree."
+  ],
+  "zh": [
+    "在贝尔威克的港口区，一股出人意料的潮流正在改变小型画廊：参观者是来看昆虫的，而不是来欣赏绘画的。目前已有六家场馆将艺术展览与蝴蝶繁育结合起来。最值得注意的变化是观众群体。退休的园艺爱好者和年轻家庭的人数经常超过艺术收藏者，尤其是在预计虫卵即将孵化的早晨。",
+    "这个想法始于十二年前移民来到这里的陶艺家阿玛拉·森。回想起祖母或外祖母的果园，她在毛毛虫陶土模型旁摆放了一棵青柠幼树。住在海外的朋友寄来了画作，描绘他们童年花园里的昆虫。不久，邻居们主动提出承担每天的喂养和清洁工作，使一个个人展览变成了大家共同的责任。",
+    "这些展览并没有把园艺描绘成毫无危害的活动。一个展柜里放着一份密封保存的黄色硫磺历史样本，过去一位果园主人曾用这种物质防治植物病害。旁边的照片解释了毁林如何使蝴蝶失去栖息地。不过，这里的气氛依然轻松：志愿者喝茶讨论受损叶片时，参观者可以听到敞开的庭院门外传来的狗叫声。所有活体昆虫都来自一家获得许可的本地区繁育机构。",
+    "一位艺术评论家起初不以为然，认为这个项目不过是摆了些雕塑的园艺俱乐部。然而，参观几次后，她赞扬它能够让陌生人交谈起来。从参观记录来看，人们在这里停留的时间似乎比在传统展览上更长。对森而言，真正的成就更为简单：过去询问雕塑价格的参观者，如今会问轮到谁给树浇水了。"
+  ],
+  "q": [
+    {
+      "s": "Art collectors are often fewer in number than some other groups visiting the galleries.",
+      "a": "T",
+      "why": "首段指出园艺爱好者和年轻家庭常更多。"
+    },
+    {
+      "s": "Sen's friends abroad supplied the living insects for the exhibitions.",
+      "a": "F",
+      "why": "朋友寄来画作，活虫来自本地区繁育机构。"
+    },
+    {
+      "s": "The galleries charge higher admission fees than conventional exhibitions.",
+      "a": "NG",
+      "why": "文章比较了停留时间，未提及门票价格。"
+    }
+  ]
+}

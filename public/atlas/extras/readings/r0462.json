@@ -1,0 +1,48 @@
+{
+  "id": "r0462",
+  "ids": [
+    "itch",
+    "sponsorship",
+    "elastic",
+    "lifeboat",
+    "mercy",
+    "restriction",
+    "exclaim",
+    "modified",
+    "clockwise",
+    "practically"
+  ],
+  "title": "Testing the Harbour Rescue Suit",
+  "titleZh": "港口救援服测试",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "At a city harbour, rescue trainer Nadia Karim noticed that volunteers often struggled with their protective clothing before boarding the [[lifeboat|lifeboat]]. Tight sleeves caught on watches, while rough collars made their necks [[itch|itch]]. With [[sponsorship|sponsorship]] from a neighbourhood sailing club, she arranged an experiment to test whether small clothing changes could improve preparation times.",
+    "Twelve volunteers each completed two practice sessions, one wearing the original suit and another wearing a [[modified|modified]] version. The new design had a soft collar and [[elastic|elastic]] cuffs that stretched over watches. Half the group tested the new suit first. A safety [[restriction|restriction]] prevented anyone from running on the wet platform. Instead, participants walked [[clockwise|clockwise]] around a marked route, collected equipment and climbed aboard while an observer recorded their times.",
+    "During the first session, one participant dropped a glove and expected a time penalty. Nadia showed [[mercy|mercy]], deciding not to penalise the mistake because the rules had not been explained clearly. She then clarified them for everyone and restarted the trial. Later, wearing the new suit, the same volunteer [[exclaim|exclaimed]], \"My hands are free already!\" However, Nadia waited for the full results before drawing conclusions.",
+    "On average, preparation was eighteen seconds faster in the redesigned clothing, and complaints about neck discomfort [[practically|practically]] disappeared. The experiment did not show whether the suits would improve rescues at sea. It did suggest that removing a minor physical obstacle could make a familiar harbour routine both quicker and more comfortable."
+  ],
+  "zh": [
+    "在一座城市的港口，救援教练纳迪娅·卡里姆注意到，志愿者在登上救生艇之前，经常会被防护服弄得手忙脚乱。紧窄的袖口会钩住手表，粗糙的衣领则让他们的脖子发痒。在附近一家帆船俱乐部的资助下，她安排了一项实验，测试对服装稍作改动能否缩短准备时间。",
+    "十二名志愿者各完成了两次演练，一次穿原版防护服，另一次穿改良版。新款采用柔软的衣领和有弹性的袖口，袖口可以拉伸，从手表外顺利套过。一半的人先测试新款。出于安全考虑，规定禁止任何人在湿滑的平台上跑动。参与者只能沿标记路线顺时针行走，领取装备后登艇，同时由一名观察员记录用时。",
+    "第一次演练中，一名参与者掉了一只手套，以为会被加罚时间。纳迪娅手下留情，考虑到规则此前没有解释清楚，决定不处罚这个失误。随后，她向所有人说明规则，并重新开始测试。后来，同一名志愿者穿上新款后大声说道：“我的手这么快就伸出来了！”不过，纳迪娅等到全部结果出来后才下结论。",
+    "穿着重新设计的服装时，平均准备时间缩短了十八秒，关于颈部不适的抱怨也几乎消失了。实验并未证明这些防护服能否改善海上救援的表现。不过，它确实提示，消除一个小小的身体活动障碍，就可能让熟悉的港口日常操作变得更快捷、更舒适。"
+  ],
+  "q": [
+    {
+      "s": "The sailing club provided enough sponsorship to cover the full cost of the experiment.",
+      "a": "NG",
+      "why": "首段未说明赞助是否足以支付全部费用。"
+    },
+    {
+      "s": "All twelve volunteers tried the redesigned clothing before the original version.",
+      "a": "F",
+      "why": "只有一半志愿者先测试新款。"
+    },
+    {
+      "s": "Average preparation time was eighteen seconds shorter with the redesigned clothing.",
+      "a": "T",
+      "why": "末段明确说明平均准备时间缩短了十八秒。"
+    }
+  ]
+}

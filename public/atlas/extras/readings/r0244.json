@@ -1,0 +1,48 @@
+{
+  "id": "r0244",
+  "ids": [
+    "spicy",
+    "visa",
+    "rugby",
+    "plug",
+    "float",
+    "bug",
+    "sex",
+    "virus",
+    "plain",
+    "effect"
+  ],
+  "title": "A Quieter Light by the Pond",
+  "titleZh": "池塘边更安静的灯光",
+  "topic": "environment",
+  "cefr": 2,
+  "paras": [
+    "When insect researcher Amara received her [[visa|visa]] for a three-month visit abroad, she joined a small project at a village [[rugby|rugby]] club. Its bright outdoor lights attracted clouds of insects from a nearby pond. During a supper of [[spicy|spicy]] soup, the groundskeeper asked whether a different light could reduce the problem.",
+    "Amara set up two lamps beside the pond, where fallen leaves [[float|floated]] on the water. One gave white light; the other gave warm yellow light. Below each, she placed a [[plain|plain]] white board. A camera recorded every [[bug|bug]] that landed there. Before changing either lamp, she removed its [[plug|plug]] from the socket inside a dry equipment box.",
+    "For twelve evenings, she ran both lamps for two hours after sunset. She exchanged their positions each night to make the comparison fair. She counted insect visits rather than identifying each insect's [[sex|sex]]. Although some insects can carry a [[virus|virus]], this experiment tested attraction to light, not disease risk. Rainy evenings were left out because rain could change insect activity.",
+    "The yellow lamp had a clear [[effect|effect]]: its board received about half as many visits. This did not prove that yellow light was harmless to wildlife. However, it gave the club a practical choice. It changed the lamps nearest the pond and switched them off after training."
+  ],
+  "zh": [
+    "昆虫研究员阿玛拉拿到为期三个月的出国访问签证后，参加了一个乡村英式橄榄球俱乐部的小型项目。俱乐部明亮的室外灯光吸引了附近池塘的大群昆虫。一天晚餐喝辣汤时，场地管理员问她，换一种灯能否减轻这个问题。",
+    "阿玛拉在池塘边架起两盏灯，水面上漂着落叶。一盏发出白光，另一盏发出暖黄色的光。她在每盏灯下放了一块没有装饰的白色板子，用摄像机记录每只落在上面的小虫。每次更换灯具前，她都会从干燥的设备箱内的插座上拔下电源插头。",
+    "她在十二个晚上进行了实验，每晚日落后同时开两盏灯，持续两小时。为了公平比较，她每晚都交换两盏灯的位置。她统计的是昆虫到访次数，而没有鉴别每只昆虫的生理性别。虽然有些昆虫可能携带病毒，但这个实验检验的是灯光对昆虫的吸引力，而不是疾病风险。下雨的晚上不计入实验，因为雨水可能改变昆虫的活动情况。",
+    "黄灯的效果很明显：它下方板子上的昆虫到访次数约为另一块的一半。这并不能证明黄光对野生生物没有危害。不过，它给俱乐部提供了一个切实可行的选择。俱乐部更换了离池塘最近的灯，并在训练结束后将它们关闭。"
+  ],
+  "q": [
+    {
+      "s": "Each lamp stayed in the same place throughout the experiment.",
+      "a": "F",
+      "why": "阿玛拉每晚都交换两盏灯的位置。"
+    },
+    {
+      "s": "Most of the insect visits Amara counted were made by moths.",
+      "a": "NG",
+      "why": "文章未说明飞蛾占到访次数的比例。"
+    },
+    {
+      "s": "The board under the yellow lamp received about half as many insect visits as the other board.",
+      "a": "T",
+      "why": "末段明确说明黄灯下的到访次数约为一半。"
+    }
+  ]
+}

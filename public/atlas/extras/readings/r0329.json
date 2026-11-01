@@ -1,0 +1,48 @@
+{
+  "id": "r0329",
+  "ids": [
+    "unexpected",
+    "vote",
+    "avocado",
+    "forgive",
+    "aircraft",
+    "baggage",
+    "generous",
+    "flood",
+    "fox",
+    "centigrade"
+  ],
+  "title": "A Better Way to Wait",
+  "titleZh": "让等待更愉快的方法",
+  "topic": "travel",
+  "cefr": 2,
+  "paras": [
+    "At a small island airport, guide Mina tested a simple idea: could preparing food together make a long wait feel shorter? Twelve visitors arrived for a walking holiday, but a [[flood|flood]] had covered the road to their village. Their [[baggage|baggage]] stayed beside the desk while they waited for a small [[aircraft|aircraft]] to take them across the island.",
+    "It was twenty-six degrees [[centigrade|centigrade]], and everyone was tired. With their agreement, Mina divided the visitors into two groups. Before the activity began, everyone recorded how slowly time seemed to pass on a scale from one to five. Both groups received bread, [[avocado|avocados]] and tomatoes, but one received them as ready-made sandwiches; the other prepared its own.",
+    "The cooking group soon began talking. A [[generous|generous]] visitor offered to make extra sandwiches for the airport workers. When Pavel knocked a cup of water onto Asha's hat, she [[forgive|forgave]] him and laughed. Meanwhile, the other group ate quietly, although a [[fox|fox]] running past the window briefly caught their attention.",
+    "After forty minutes, Mina repeated the question. The result was [[unexpected|unexpected]]: time had seemed to pass faster for the cooks, although they had done more work. She then asked everyone to [[vote|vote]] on whether future waiting visitors should be offered the activity. Ten supported it. This small test proved little, but Mina planned to try the activity again with her next delayed group."
+  ],
+  "zh": [
+    "在一座小岛的机场，导游米娜测试了一个简单的想法：一起准备食物，能否让漫长的等待显得短一些？十二位游客来到岛上，准备度过一个徒步假期，但洪水淹没了通往他们要去的村庄的道路。他们把行李放在服务台旁，等待一架小型飞机把他们送到岛的另一边。",
+    "当时气温是二十六摄氏度，大家都很疲惫。征得同意后，米娜把游客分成两组。活动开始之前，每个人都用一到五分记录自己觉得时间过得有多慢。两组都拿到了面包、牛油果和西红柿，不过一组拿到的是用这些食材做好的三明治，另一组则自己动手准备。",
+    "动手做饭的那组很快就聊了起来。一位大方的游客主动提出多做一些三明治，送给机场工作人员。帕维尔不小心把一杯水碰倒，洒在了阿莎的帽子上，她原谅了他，还笑了起来。与此同时，另一组安静地吃着东西，不过，一只从窗外跑过的狐狸短暂地吸引了他们的注意。",
+    "四十分钟后，米娜再次提出了同样的问题。结果出乎意料：动手做饭的人虽然干了更多活，却觉得时间过得更快。随后，她请大家就今后是否应该为等待的游客提供这项活动进行投票。十个人表示支持。这个小测试并不能充分证明什么，但米娜计划在下次带的旅行团遇到延误时，再尝试一次这项活动。"
+  ],
+  "q": [
+    {
+      "s": "Mina had tried the same activity at another airport before.",
+      "a": "NG",
+      "why": "文中未说明她此前是否在其他机场试过。"
+    },
+    {
+      "s": "One group received sandwiches that were already prepared.",
+      "a": "T",
+      "why": "第二段明确说一组拿到了做好的三明治。"
+    },
+    {
+      "s": "All twelve visitors voted in favour of offering the activity.",
+      "a": "F",
+      "why": "十二位游客中只有十人表示支持。"
+    }
+  ]
+}

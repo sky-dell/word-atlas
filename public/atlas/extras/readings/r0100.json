@@ -1,0 +1,46 @@
+{
+  "id": "r0100",
+  "ids": [
+    "dishwasher",
+    "completely",
+    "partner",
+    "badminton",
+    "nobody",
+    "coast",
+    "enter",
+    "castle",
+    "awful",
+    "text"
+  ],
+  "title": "Supper Behind the Castle Walls",
+  "titleZh": "城堡里的晚餐",
+  "topic": "society",
+  "cefr": 1,
+  "paras": [
+    "On the west [[coast|coast]], a small village has an unusual meeting place: a [[castle|castle]] with two square towers. Every Friday, village families cook supper there and invite visitors to join them. When you [[enter|enter]] through the heavy wooden door, you find a long table beside the old kitchen. The [[text|text]] on a small sign says, “Take a seat and tell us about your journey.”",
+    "Lina and her business [[partner|partner]], Omar, run these evenings together. Last winter, the kitchen was in an [[awful|awful]] state. Rain came through the roof, and the floor was always wet. With help from their neighbours, they changed it [[completely|completely]]. Now it is warm and dry. A large [[dishwasher|dishwasher]] cleans the plates after supper, so the cooks have time to sit with their guests.",
+    "After a meal of fish soup and fresh bread, people move into the great hall. Some share stories, while others play [[badminton|badminton]] under the high roof. The games are friendly, and [[nobody|nobody]] keeps a record of the points. At the end of the evening, Omar collects the rackets while Lina moves the chairs back against the wall. As guests leave, she asks who will come next Friday. She needs to know how much soup to make."
+  ],
+  "zh": [
+    "西海岸的一个小村庄有个不同寻常的聚会场所：一座带有两座方形塔楼的城堡。每周五，村里的家庭都会在那里做晚餐，并邀请游客一起吃。穿过厚重的木门，你会看到旧厨房旁摆着一张长桌。一块小牌子上写着：“请坐，给我们讲讲你的旅途吧。”",
+    "莉娜和她的生意伙伴奥马尔一起负责这些晚间聚会。去年冬天，厨房的状况很糟糕。雨水从屋顶漏进来，地板总是湿的。在邻居们的帮助下，他们把厨房彻底改造了一番。现在，里面温暖又干燥。晚餐后，一台大洗碗机负责清洗盘子，让做饭的人也有时间坐下来陪陪客人。",
+    "吃过鱼汤和新鲜面包后，大家来到大厅。有些人分享故事，另一些人在高高的屋顶下打羽毛球。比赛气氛友好，没有人记录比分。晚间聚会结束时，奥马尔收起球拍，莉娜则把椅子搬回墙边。客人离开时，她问谁下周五还会来。她需要知道该做多少汤。"
+  ],
+  "q": [
+    {
+      "s": "The castle’s two towers are round.",
+      "a": "F",
+      "why": "第一段说两座塔楼是方形的。"
+    },
+    {
+      "s": "The neighbours paid for all the kitchen repairs.",
+      "a": "NG",
+      "why": "只说邻居帮忙，未说明谁支付维修费。"
+    },
+    {
+      "s": "No one records the points during the badminton games.",
+      "a": "T",
+      "why": "第三段明确说没有人记录比分。"
+    }
+  ]
+}

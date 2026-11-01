@@ -1,0 +1,48 @@
+{
+  "id": "r0711",
+  "ids": [
+    "infinitesimal",
+    "componential",
+    "aforesaid",
+    "profane",
+    "tibia",
+    "vehement",
+    "raucous",
+    "opal",
+    "multifarious",
+    "propellent"
+  ],
+  "title": "The Saint Beneath the Scanner",
+  "titleZh": "扫描仪下的圣像",
+  "topic": "technology",
+  "cefr": 5,
+  "paras": [
+    "Behind a chapel in the mountain town of Valdara, visitors encounter an unexpected attraction: a conservation laboratory devoted to a wooden processional saint. Every autumn, its articulated legs once carried it across the square, operated by concealed attendants. Now, beneath a scanner, an [[opal|opal]] embedded in its cloak flashes whenever conservator Amara Sen adjusts the examination lamp.",
+    "Sen’s [[componential|componential]] analysis distinguishes original joints from later repairs without dismantling the figure. Images reveal an almost [[infinitesimal|infinitesimal]] fissure in a metal pin beside the carved [[tibia|tibia]], the shinbone rendered with surprising anatomical precision. A handwritten maintenance book recommends an aerosol lubricant; its [[propellent|propellent]], however, could carry droplets into fragile painted surfaces. The [[aforesaid|aforesaid]] pin will therefore be treated manually.",
+    "Such technical restraint has not prevented [[vehement|vehement]] objections. Some worshippers consider displaying the saint’s interior [[profane|profane]]. Others recall the [[raucous|raucous]] grinding that accompanied its final procession and welcome intervention. Rather than dismiss either response, Sen invites residents to record memories, assembling an archive whose [[multifarious|multifarious]] voices complicate the laboratory’s apparently impersonal measurements.",
+    "Travellers can hear these recordings through headphones beside the scanning screen: a seamstress describes repairing the cloak; a baker remembers steadying one wooden foot. The restored figure will remain stationary, since renewed movement would endanger its oldest joints."
+  ],
+  "zh": [
+    "在山城瓦尔达拉的一座小教堂后面，游客会遇到一处意想不到的景点：一间专门修复游行用木制圣像的文物保护实验室。从前，每逢秋季，在隐蔽的随行人员操控下，圣像带有关节的双腿便会迈步穿过广场。如今，它置于扫描仪下，每当文物修复师阿玛拉·森调整检查灯时，嵌在斗篷上的一颗欧泊便会闪现光彩。",
+    "森通过对各个组成部分的分析，无须拆解圣像，便能区分原有关节与后期修补的部位。影像显示，雕刻出的胫骨旁有一枚金属销钉，上面存在一道几乎无法测量的细微裂缝；这根小腿骨在解剖细节上刻画得出奇准确。一本手写养护记录建议使用气雾式润滑剂，但其中的喷射剂可能将液滴带入脆弱的彩绘表面。因此，上述销钉将采用手工方式处理。",
+    "这种技术上的克制并未阻止强烈的反对声音。一些信众认为，展示圣像内部是对神圣事物的亵渎。另一些人则记得最后一次游行时伴随圣像的刺耳摩擦声，因而欢迎修复。森没有否定任何一方的反应，而是邀请居民录下回忆，汇成一份档案；其中形形色色的声音，使实验室看似不带个人情感的测量结果有了更复杂的意义。",
+    "旅行者可以在扫描屏幕旁戴上耳机，聆听这些录音：一位女裁缝讲述修补斗篷的经历，一位面包师回忆扶稳一只木脚的情景。修复后的圣像将不再移动，因为再次活动会危及最古老的关节。"
+  ],
+  "q": [
+    {
+      "s": "The saint used to move across the square without anyone operating it.",
+      "a": "F",
+      "why": "首段明确说圣像由隐蔽的随行人员操控。"
+    },
+    {
+      "s": "The damaged metal pin will be treated manually.",
+      "a": "T",
+      "why": "第二段明确说明上述销钉将手工处理。"
+    },
+    {
+      "s": "Residents who contributed recordings received free admission to the laboratory.",
+      "a": "NG",
+      "why": "文中未说明录音参与者是否获免费入场。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0072",
+  "ids": [
+    "book",
+    "home",
+    "date",
+    "club",
+    "hundred",
+    "toilet",
+    "grandmother",
+    "japan",
+    "lion",
+    "exercise"
+  ],
+  "title": "The House in the Blue Book",
+  "titleZh": "蓝皮书里的老房子",
+  "topic": "history",
+  "cefr": 0,
+  "paras": [
+    "Mina Sato repairs old books in a small room behind her [[home|home]]. She lives in a town in [[japan|Japan]]. One Monday, a man brings her a blue [[book|book]]. It has one [[hundred|hundred]] pages, but some are loose. The man says, “My [[grandmother|grandmother]] wrote this. Can you save it?”",
+    "Mina opens it slowly. The [[date|date]] on the first page is 6 May 1952. There are drawings of a house and short notes about life there. One drawing shows a new [[toilet|toilet]]. Another shows a stone [[lion|lion]] by the front door. A little girl stands beside it. She holds a red ball in her hands.",
+    "Mina cleans each page with a soft brush. She does not change the words or pictures. Each morning, she takes a short walk for [[exercise|exercise]]. Then she sits by the window and works. She puts the loose pages back in place with strong thread. The work takes five days. On Friday, the blue cover opens and closes well again.",
+    "The man returns with his reading [[club|club]]. They look at the pictures together. He points to the little girl. “That is my mother,” he says. “The house is gone now.” Mina gives him the repaired pages in their blue cover. He smiles. Now his children can read about the house, too."
+  ],
+  "zh": [
+    "佐藤美奈在家后面的一间小屋里修复旧书。她住在日本的一个小镇上。一个星期一，一名男子带来一本蓝皮书。书有一百页，但有些书页已经松脱了。男子说：“这是我奶奶或外婆写的。你能把它修好吗？”",
+    "美奈慢慢翻开书。第一页上的日期是1952年5月6日。书里有一栋房子的图画，还有一些记录在那里生活的简短文字。一幅画里是一个新马桶。另一幅画里，前门旁边有一头石狮子。一个小女孩站在石狮旁，手里拿着一个红球。",
+    "美奈用软刷清理每一页。她不改动文字或图画。每天早晨，她都出去走一小段路，锻炼身体。然后，她坐在窗边工作。她用结实的线把松脱的书页重新装好。这项工作花了五天。到了星期五，蓝色封面又能顺畅地翻开和合上了。",
+    "男子和读书会的成员一起回来了。他们一起看书里的图画。他指着那个小女孩说：“那是我妈妈。那栋房子现在已经不在了。”美奈把修好的蓝皮书交给他。他笑了。现在，他的孩子们也能读到关于那栋房子的故事了。"
+  ],
+  "q": [
+    {
+      "s": "The man has read every page of the blue book.",
+      "a": "NG",
+      "why": "文章未说明男子是否读过每一页。"
+    },
+    {
+      "s": "Mina changes the pictures in the book.",
+      "a": "F",
+      "why": "文中明确说她不改动文字或图画。"
+    },
+    {
+      "s": "The little girl in the picture is the man's mother.",
+      "a": "T",
+      "why": "男子指着图中的小女孩说那是他妈妈。"
+    }
+  ]
+}

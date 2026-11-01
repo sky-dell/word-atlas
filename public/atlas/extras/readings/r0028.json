@@ -1,0 +1,46 @@
+{
+  "id": "r0028",
+  "ids": [
+    "hour",
+    "married",
+    "full",
+    "europe",
+    "happen",
+    "number",
+    "take",
+    "enjoy",
+    "january",
+    "hobby"
+  ],
+  "title": "Paper Flowers at the Town Hall",
+  "titleZh": "市政厅里的纸花",
+  "topic": "government",
+  "cefr": 0,
+  "paras": [
+    "In a small town in [[europe|Europe]], visitors can see something special at the town hall. Every [[january|January]], paper flowers fill its front window. They are white, pink and yellow. The town pays for the paper, but people make the flowers at home. Visitors often stop outside for a photo. Then they go through the blue door with the [[number|number]] 12.",
+    "Inside, Hana welcomes them. She is a [[married|married]] woman who works at the hall. Making paper flowers is her [[hobby|hobby]], too. She shows visitors how to make one. The activity lasts one [[hour|hour]] and costs nothing. A little boy drops his flower into a cup of water. Such things sometimes [[happen|happen]], Hana says with a smile. She gives him more paper. He makes two new flowers, one yellow and one pink.",
+    "By noon, a box on the table is [[full|full]]. There is no room for another flower. Visitors can [[take|take]] one flower home. The others go into the window for weddings at the hall. Many couples [[enjoy|enjoy]] the bright colours on cold days. The little boy leaves with a dry yellow flower. Behind him, his pink one waits in the window for a wedding."
+  ],
+  "zh": [
+    "在欧洲的一个小镇，游客可以在市政厅看到特别的景象。每年一月，纸花摆满了市政厅的前窗，有白色、粉色和黄色的。镇上出钱买纸，居民则在家制作纸花。游客常常停在外面拍照，然后穿过门牌号为12的蓝色大门。",
+    "在里面，哈娜迎接大家。她是一位已婚女士，在市政厅工作。做纸花也是她的业余爱好。她教游客做一朵纸花。活动持续一小时，而且免费。一个小男孩把自己的纸花掉进了一杯水里。哈娜微笑着说，这种事偶尔会发生。她又给了他一些纸。他做了两朵新花，一朵黄色，一朵粉色。",
+    "到了中午，桌上的盒子已经装满，再也放不下一朵花了。游客可以带一朵花回家，其余的则摆进窗户，为在市政厅举行的婚礼增添装饰。在寒冷的日子里，许多新人喜欢这些鲜艳的色彩。小男孩带着一朵干燥的黄色纸花离开了。在他身后，他做的那朵粉色纸花正在窗户里等待一场婚礼。"
+  ],
+  "q": [
+    {
+      "s": "The flowers in the front window are all blue.",
+      "a": "F",
+      "why": "第一段说明纸花是白色、粉色和黄色的。"
+    },
+    {
+      "s": "Hana works at the town hall every day.",
+      "a": "NG",
+      "why": "文中只说她在此工作，未说明是否每天上班。"
+    },
+    {
+      "s": "Visitors can take one flower home.",
+      "a": "T",
+      "why": "第三段明确说游客可以带一朵花回家。"
+    }
+  ]
+}

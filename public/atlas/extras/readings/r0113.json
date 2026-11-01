@@ -1,0 +1,46 @@
+{
+  "id": "r0113",
+  "ids": [
+    "asian",
+    "shape",
+    "washroom",
+    "surprising",
+    "snowy",
+    "soda",
+    "anybody",
+    "ping-pong",
+    "rent",
+    "nephew"
+  ],
+  "title": "A Tall Glass Test",
+  "titleZh": "高杯子小实验",
+  "topic": "daily",
+  "cefr": 1,
+  "paras": [
+    "Mina sold [[asian|Asian]] snacks in a small shop. Her [[rent|rent]] was high, so she also sold drinks to earn more money. One [[snowy|snowy]] afternoon, her [[nephew|nephew]] Leo helped her put away some new glasses. Some were tall and thin; others were short and wide. Leo thought the tall glasses held more. Mina was not sure, so they planned a simple experiment before the evening customers arrived.",
+    "Mina put exactly 200 millilitres of orange [[soda|soda]] into each of two glasses. She placed them beside each other on the counter, away from the bottles. Twelve people from the [[ping-pong|ping-pong]] club next door came in after their games. Before they bought anything, Leo asked each person which glass held more. He did not let [[anybody|anybody]] touch the glasses. Mina wrote down their answers while Leo showed other visitors where the [[washroom|washroom]] was.",
+    "The result was [[surprising|surprising]]: ten people chose the tall glass. Only two said the amounts were equal. Mina then measured both drinks in front of the group. The [[shape|shape]] of the glass seemed to affect how much drink most people thought they could see. Mina decided to write the drink amount on her menu. Customers could then compare sizes without guessing."
+  ],
+  "zh": [
+    "米娜在一家小店里卖亚洲风味小吃。店铺租金很高，所以她也卖饮料来增加收入。一个下雪的下午，她的一个侄子或外甥利奥帮她收放一批新杯子。有些杯子又高又细，另一些则又矮又宽。利奥觉得高杯子能装更多饮料。米娜不太确定，于是他们打算在晚上的顾客到来之前做一个简单的实验。",
+    "米娜往两只杯子里各倒入整整200毫升橙味汽水。她把杯子并排放在柜台上，远离饮料瓶。隔壁乒乓球俱乐部的十二个人打完球后走进店里。在他们买东西之前，利奥逐一询问他们哪只杯子里的饮料更多。他不让任何人碰杯子。米娜记下他们的回答，利奥则给其他客人指了洗手间的位置。",
+    "结果令人惊讶：十个人选了高杯子。只有两个人说饮料一样多。随后，米娜当着大家的面测量了两杯饮料。杯子的形状似乎影响了大多数人对眼前饮料分量的判断。米娜决定在菜单上写明饮料的容量。这样，顾客就不用靠猜测来比较大小了。"
+  ],
+  "q": [
+    {
+      "s": "Mina had rented her shop for two years.",
+      "a": "NG",
+      "why": "文章提到租金高，但未说明租了多久。"
+    },
+    {
+      "s": "Mina put the same amount of soda into both glasses.",
+      "a": "T",
+      "why": "两只杯子各倒入了200毫升汽水。"
+    },
+    {
+      "s": "Most of the twelve people said the amounts were equal.",
+      "a": "F",
+      "why": "只有两人说一样多，十人选了高杯子。"
+    }
+  ]
+}

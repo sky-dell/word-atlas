@@ -1,0 +1,48 @@
+{
+  "id": "r0362",
+  "ids": [
+    "evaporate",
+    "predictable",
+    "uncover",
+    "harsh",
+    "resemble",
+    "saddle",
+    "fate",
+    "desperate",
+    "skeleton",
+    "precaution"
+  ],
+  "title": "Why Humid Rides Feel Harder",
+  "titleZh": "为什么潮湿天气骑车更吃力",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "On a humid afternoon, a cyclist may become unusually tired despite following a familiar route. From the [[saddle|saddle]], even a gentle hill can [[resemble|resemble]] a mountain. This is not simply bad luck or [[fate|fate]] working against the rider: it reflects the body's struggle to release heat into air already rich in water vapour.",
+    "As muscles pull on the [[skeleton|skeleton]] to turn the pedals, they produce heat as well as movement. The body's response is fairly [[predictable|predictable]]: blood flow towards the skin increases, and sweat glands release moisture. When these droplets [[evaporate|evaporate]], they take heat away from the skin. In humid conditions, however, evaporation slows. Sweat that drips onto the road provides much less cooling than sweat that becomes vapour.",
+    "This difference helps [[uncover|uncover]] why a soaked shirt does not necessarily indicate successful cooling. A rider who becomes [[desperate|desperate]] to finish may push harder, generating still more heat. Companions can be [[harsh|harsh]] in their judgement, calling the struggling cyclist lazy, although the difficulty has a physical explanation. Fitness does not remove the limits imposed by humid air.",
+    "Reducing speed is therefore a useful [[precaution|precaution]], because it lowers the rate of heat production. Stopping in shade also reduces the extra heat received from sunlight. Drinking replaces lost fluid, but cannot make humid air accept moisture faster. Understanding this process changes the meaning of a slow ride: sometimes, easing off is evidence of sensible adaptation rather than weakness."
+  ],
+  "zh": [
+    "在一个潮湿的下午，骑车的人即使沿着熟悉的路线前行，也可能感到异常疲倦。坐在自行车座上，就连缓坡也仿佛变成了一座大山。这并不只是运气不好，或是命运在与骑车者作对，而是因为周围空气中已经含有大量水汽，身体难以向其中散发热量。",
+    "肌肉牵动骨骼、带动脚踏板转动时，不仅产生运动，也会产生热量。身体的反应相当容易预测：流向皮肤的血液增多，汗腺开始分泌水分。这些汗滴蒸发时，会带走皮肤表面的热量。然而，在潮湿环境中，蒸发速度会减慢。滴落到路面的汗水，其降温作用远不如变成水汽的汗水。",
+    "这种差别有助于揭示，为什么衣服湿透并不一定意味着身体得到了有效降温。一名极其渴望完成行程的骑车者可能会更加用力，结果产生更多热量。同伴可能会苛刻地评价这名吃力前行的骑车者，认为这是懒惰，尽管这种困难其实有生理上的原因。身体强健也无法消除潮湿空气带来的限制。",
+    "因此，降低速度是一项有用的预防措施，因为它可以减慢身体产热的速度。在阴凉处停下来，也能减少从阳光中获得的额外热量。喝水可以补充流失的水分，却无法让潮湿空气更快地容纳水汽。理解这一过程，会改变我们对慢速骑行的看法：有时，放慢速度意味着合理适应环境，而不是软弱。"
+  ],
+  "q": [
+    {
+      "s": "Moisture already present in the air can make a familiar cycling journey more tiring.",
+      "a": "T",
+      "why": "首段指出空气水汽多会妨碍散热，使人疲倦。"
+    },
+    {
+      "s": "Regular cyclists have more sweat glands than people who rarely cycle.",
+      "a": "NG",
+      "why": "文章未比较不同人群的汗腺数量。"
+    },
+    {
+      "s": "Drinking makes humid air accept moisture faster.",
+      "a": "F",
+      "why": "末段明确指出喝水无法产生这种作用。"
+    }
+  ]
+}

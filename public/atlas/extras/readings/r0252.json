@@ -1,0 +1,48 @@
+{
+  "id": "r0252",
+  "ids": [
+    "newsletter",
+    "reasonable",
+    "occupation",
+    "independent",
+    "remain",
+    "flyer",
+    "vest",
+    "pray",
+    "dialogue",
+    "bush"
+  ],
+  "title": "The Sewing Circle's Paper Voice",
+  "titleZh": "缝纫小组的纸上声音",
+  "topic": "society",
+  "cefr": 2,
+  "paras": [
+    "In 1932, a sewing circle began in the back room of a bakery in a small coastal town. Its first project was a warm [[vest|vest]] for an elderly fisherman. Sewing was not the main [[occupation|occupation]] of most members, but they could repair clothes and wanted to help neighbours.",
+    "At first, a handwritten [[flyer|flyer]] on the bakery door invited people to bring damaged clothing. A flowering [[bush|bush]] beside the entrance made the meeting place easy to find. Members asked for a few coins to cover thread and buttons. Everyone agreed that this was a [[reasonable|reasonable]] price, and people without money could help with cleaning.",
+    "By 1935, the circle was producing a monthly [[newsletter|newsletter]]. Besides meeting dates, it carried sewing advice and requests for winter coats. Preparing it encouraged [[dialogue|dialogue]] between members with different ideas. Some wanted to [[pray|pray]] together before sewing; others preferred to begin work immediately. They agreed that anyone could arrive early for a short prayer.",
+    "The little paper helped the circle [[remain|remain]] active when the bakery closed in 1948. Readers offered another room and brought their own chairs. The group stayed [[independent|independent]], paying its costs through repairs rather than depending on a wealthy supporter. Its paper was no longer just an announcement: it had become the thread holding the circle together."
+  ],
+  "zh": [
+    "1932年，一个缝纫小组在一座海滨小镇的面包店后屋成立了。他们的第一件作品是为一位年迈渔民制作的保暖背心。缝纫并不是大多数成员的本职工作，但他们会修补衣服，也希望帮助邻居。",
+    "起初，面包店门上的一张手写传单邀请大家带来破损的衣物。入口旁有一丛开花的灌木，让聚会地点很容易找到。成员们收取少量硬币，用来支付线和纽扣的费用。大家都认为这个价格合理，没有钱的人则可以帮忙打扫。",
+    "到1935年时，小组已经在每月制作一份简报。除了聚会日期，简报还刊登缝纫建议和征集冬衣的信息。编写简报促进了持不同想法的成员之间的交流。有些人希望在缝纫前一起祈祷，另一些人则更愿意马上开始工作。最后大家约定，想参加简短祈祷的人可以提前到场。",
+    "1948年面包店关闭后，这份小小的简报帮助缝纫小组继续活动。读者们提供了另一间屋子，还带来了自己的椅子。小组靠修补衣物的收入支付开支，而不是依赖某位富有的资助者，因此保持了独立。这份简报不再只是一张通知，而成了将小组成员连在一起的线。"
+  ],
+  "q": [
+    {
+      "s": "The fisherman paid the circle for his vest.",
+      "a": "NG",
+      "why": "文中未说明渔民是否为背心付钱。"
+    },
+    {
+      "s": "All members were required to attend prayers before sewing.",
+      "a": "F",
+      "why": "祈祷是自愿提前参加的活动。"
+    },
+    {
+      "s": "The circle continued its activities after the bakery closed.",
+      "a": "T",
+      "why": "末段说明面包店关闭后小组继续活动。"
+    }
+  ]
+}

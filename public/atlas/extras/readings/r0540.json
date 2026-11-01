@@ -1,0 +1,48 @@
+{
+  "id": "r0540",
+  "ids": [
+    "satisfy",
+    "correction",
+    "navigate",
+    "assessed",
+    "visual",
+    "capture",
+    "module",
+    "temper",
+    "bilingual",
+    "interference"
+  ],
+  "title": "Learning to Guide a Gentle Gripper",
+  "titleZh": "学会操控温柔的机械爪",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "Moving a crab between aquarium tanks looks simple until it disappears beneath a rock. A soft robotic gripper could help keepers [[capture|capture]] the animal without damaging its shell. Yet the machine must [[satisfy|satisfy]] two demanding users: the keeper who needs reliable control and the animal specialist who insists on gentle handling.",
+    "At a coastal training centre, a short course introduces keepers to this technology. Its first [[module|module]] takes place in a simulated tank, where participants learn to [[navigate|navigate]] around rocks using a joystick. Coloured rings provide [[visual|visual]] guidance: green indicates a safe distance, while red warns that the gripper is approaching an obstacle. Each [[correction|correction]] to its path appears immediately on screen.",
+    "Course designer Amira Costa [[assessed|assessed]] early trials by recording collisions and asking participants about their experience. One keeper admitted losing his [[temper|temper]] when an instructor repeatedly took the joystick from him. Others also regarded this help as [[interference|interference]] rather than support. Costa therefore changed the teaching approach: instructors now ask permission before demonstrating a movement. A [[bilingual|bilingual]] guide in English and Portuguese also lets participants review instructions independently.",
+    "The final exercise uses a plastic crab with a pressure sensor hidden inside its shell. Squeezing too hard triggers a warning, so speed alone cannot earn a good result. Only after completing this task do keepers practise with live animals under supervision. The aim is not to replace human judgement, but to give careful hands a more forgiving tool."
+  ],
+  "zh": [
+    "把一只螃蟹从水族馆的一个水箱移到另一个，看起来很简单，直到它钻到岩石下面不见了。柔性机械爪可以帮助饲养员抓住螃蟹，而不损伤它的壳。不过，这台机器必须满足两类要求严格的使用者：需要可靠操控的饲养员，以及坚持轻柔操作的动物专家。",
+    "一家海滨培训中心开设了一门短期课程，向饲养员介绍这项技术。第一个课程单元在模拟水箱中进行，参与者学习用操纵杆控制机械爪绕过岩石。彩色圆环提供视觉引导：绿色表示距离安全，红色则警告机械爪正在接近障碍物。每一次对行进路线的修正都会立即显示在屏幕上。",
+    "课程设计师阿米拉·科斯塔通过记录碰撞次数并询问参与者的体验，对早期试用进行了评估。一名饲养员承认，指导员反复从他手中拿走操纵杆时，他发了脾气。其他人也认为这种帮助是干涉，而非支持。因此，科斯塔改变了教学方式：现在，指导员演示动作前会先征求同意。一份英葡双语指南也让参与者能够自行复习操作说明。",
+    "最后一项练习使用一只塑料螃蟹，它的壳内藏有压力传感器。夹得太紧就会触发警报，因此仅靠速度无法取得好成绩。只有完成这项任务后，饲养员才会在监督下用活体动物练习。目的并不是取代人的判断，而是为谨慎操作的双手提供一件更能容许失误的工具。"
+  ],
+  "q": [
+    {
+      "s": "The training centre lends keepers robotic grippers to use at their own workplaces.",
+      "a": "NG",
+      "why": "文中未说明培训中心是否外借机械爪。"
+    },
+    {
+      "s": "A red ring indicates that the gripper is a safe distance from obstacles.",
+      "a": "F",
+      "why": "绿色表示安全距离，红色警告接近障碍物。"
+    },
+    {
+      "s": "Keepers must complete the plastic-crab task before practising with live animals.",
+      "a": "T",
+      "why": "完成塑料螃蟹任务后才能用活体动物练习。"
+    }
+  ]
+}

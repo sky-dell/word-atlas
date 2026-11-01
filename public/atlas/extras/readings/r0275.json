@@ -1,0 +1,48 @@
+{
+  "id": "r0275",
+  "ids": [
+    "brave",
+    "obviously",
+    "porridge",
+    "surf",
+    "roughly",
+    "get-together",
+    "disk",
+    "tray",
+    "mosquito",
+    "secondly"
+  ],
+  "title": "Making a Beach Safety Guide",
+  "titleZh": "海滩安全指南的制作",
+  "topic": "government",
+  "cefr": 2,
+  "paras": [
+    "Each spring, a small island council makes a beach safety guide for visitors. Work begins at an informal [[get-together|get-together]] in the harbour office. While staff eat [[porridge|porridge]] from bowls on a wooden [[tray|tray]], beach workers describe problems from the previous summer. Their stories help the team decide what visitors need to know.",
+    "First, writer Mina collects advice from rescue workers. A person may feel [[brave|brave]] enough to enter deep water despite being afraid, but courage cannot replace swimming skills. [[secondly|Secondly]], she checks details about each beach. Visitors who want to [[surf|surf]] need to know where boards are allowed. She also includes advice about avoiding [[mosquito|mosquito]] bites near the wet grass behind the sand.",
+    "Next, an artist draws a simple map with safe swimming areas in green. Dangerous rocks are [[obviously|obviously]] important, so they appear as large black shapes rather than tiny marks. The team keeps the text short: [[roughly|roughly]] forty words for each beach. Mina saves the finished pages on the office computer's hard [[disk|disk]] and sends a copy to the printer.",
+    "Before printing hundreds of guides, the team folds one paper sample and takes it outside. Can the map be read in bright sunlight? Does it fit inside a pocket? After a few changes, the guide is ready to help visitors enjoy the island safely."
+  ],
+  "zh": [
+    "每年春天，一座小岛的议会都会为游客制作海滩安全指南。工作从港口办公室里的一次非正式聚会开始。工作人员吃着放在木托盘上的碗里的燕麦粥，海滩工作人员则讲述去年夏天遇到的问题。这些经历帮助团队确定游客需要了解什么。",
+    "首先，撰稿人米娜向救援人员征求建议。一个人虽然害怕，却可能鼓起勇气进入深水区，但勇气不能代替游泳技能。其次，她核查每片海滩的具体信息。想冲浪的游客需要知道哪些地方允许使用冲浪板。她还写入了如何在沙滩后方潮湿的草地附近避免蚊虫叮咬的建议。",
+    "接着，一位画师绘制简明地图，用绿色标出安全游泳区。危险的礁石显然很重要，因此用较大的黑色图形表示，而不是细小的标记。团队尽量保持文字简短，每片海滩的介绍约四十词。米娜把完成的页面保存在办公室电脑的硬盘上，并向印刷方发送一份副本。",
+    "在印制数百份指南之前，团队先折好一份纸质样本，带到户外查看。地图在强烈的阳光下能看清吗？指南能装进口袋吗？经过几处修改，指南终于可以帮助游客安全地游览小岛了。"
+  ],
+  "q": [
+    {
+      "s": "The meeting in the harbour office lasts two hours.",
+      "a": "NG",
+      "why": "文章未说明港口办公室聚会的时长。"
+    },
+    {
+      "s": "Mina includes advice on avoiding mosquito bites in the guide.",
+      "a": "T",
+      "why": "第二段明确说她加入了防蚊叮咬的建议。"
+    },
+    {
+      "s": "The map uses small symbols to show dangerous rocks.",
+      "a": "F",
+      "why": "危险礁石用较大的黑色图形而非小标记表示。"
+    }
+  ]
+}

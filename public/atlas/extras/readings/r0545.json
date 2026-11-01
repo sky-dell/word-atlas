@@ -1,0 +1,48 @@
+{
+  "id": "r0545",
+  "ids": [
+    "contemplation",
+    "threshold",
+    "constitute",
+    "preoperative",
+    "inherent",
+    "empirical",
+    "waterfront",
+    "redistribute",
+    "compliance",
+    "phony"
+  ],
+  "title": "The Dockworkers’ Penny Fund",
+  "titleZh": "码头工人的便士互助金",
+  "topic": "economy",
+  "cefr": 4,
+  "paras": [
+    "This exhibition follows a mutual aid fund established in 1886 along the [[waterfront|waterfront]] of the fictional port of Bellhaven. Its founders repaired cargo nets, work whose irregular payments made illness financially dangerous. The account books, contribution tokens and handwritten claims displayed here [[constitute|constitute]] the surviving archive of an experiment in sharing risk without relying on wealthy patrons.",
+    "In the first cabinet, notice the weekly contribution: one penny per member. Once savings crossed a specified [[threshold|threshold]], the fund began paying sickness allowances. Rather than reward those who deposited most, its rules sought to [[redistribute|redistribute]] money towards households temporarily unable to earn. A payment register offers [[empirical|empirical]] evidence of this principle: benefits rose during a winter of widespread chest infections.",
+    "The central display reconstructs the examination room where claimants supplied medical certificates. One document records a [[preoperative|preoperative]] assessment before a net repairer’s hand operation. Such checks reveal a tension [[inherent|inherent]] in collective insurance: assistance required trust, yet members feared [[phony|phony]] claims. Inspectors therefore monitored [[compliance|compliance]] with reporting rules, although the minutes record objections when questioning became intrusive. Visitors can compare the official form with a claimant’s indignant letter.",
+    "The final case contains no coins, only a chair from the fund’s meeting room. It invites [[contemplation|contemplation]] of what the accounts cannot fully measure: the reassurance of knowing that an injured hand need not mean an empty cupboard. Beside it, the last ledger shows a modest balance carried forward, suggesting that this institution’s achievement lay less in accumulating wealth than in keeping help available."
+  ],
+  "zh": [
+    "本展览讲述了一个互助基金的故事。它于1886年成立于虚构港口贝尔黑文的滨水区，创办者是一群修补货网的工人。这份工作的报酬并不稳定，因此一旦生病，生活便可能陷入经济困境。这里陈列的账簿、缴费凭证和手写申领书，构成了这场不依靠富裕赞助人、共同分担风险的尝试所留存的档案。",
+    "请留意第一个展柜中标明的每周缴费额：每名成员一便士。当积蓄超过规定数额后，基金便开始发放疾病津贴。其章程并不以奖励缴款最多的人为目的，而是力求将资金重新分配给暂时失去收入来源的家庭。一份付款登记册为这一原则提供了实证依据：在一个胸部感染广泛流行的冬季，津贴支出随之增加。",
+    "中央展区复原了申领者提交医疗证明的诊察室。其中一份文件记录了一名货网修补工接受手部手术前的评估。这些核查揭示了集体保险内在的一种矛盾：援助需要信任，但成员又担心有人虚假申领。因此，核查员会监督成员是否遵守申报规定，不过会议记录也记载了人们对过度盘问的反对。参观者可以将官方表格与一封申领者愤愤不平的来信对照阅读。",
+    "最后一个展柜里没有硬币，只有一把来自基金会议室的椅子。它引人静思那些账目无法充分衡量的东西：知道即使手受了伤，家中也未必会断粮，所带来的那份安心。椅子旁边，最后一本账簿记着一笔数额不大的结转余额，仿佛在说明，这个机构的成就，与其说在于积累财富，不如说在于让援助始终可及。"
+  ],
+  "q": [
+    {
+      "s": "The fund was established by twenty net repairers.",
+      "a": "NG",
+      "why": "首段说明创办者的工作，未说明人数。"
+    },
+    {
+      "s": "The fund waited until its reserves reached a set level before providing financial support for illness.",
+      "a": "T",
+      "why": "第二段说明积蓄超过规定数额才发津贴。"
+    },
+    {
+      "s": "Members accepted the inspectors’ questioning without expressing dissatisfaction.",
+      "a": "F",
+      "why": "第三段记载了对过度盘问的反对。"
+    }
+  ]
+}

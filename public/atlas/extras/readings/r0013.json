@@ -1,0 +1,46 @@
+{
+  "id": "r0013",
+  "ids": [
+    "sometimes",
+    "newspaper",
+    "fine",
+    "boat",
+    "card",
+    "afraid",
+    "start",
+    "hospital",
+    "life",
+    "centre"
+  ],
+  "title": "A Little Card for Saving",
+  "titleZh": "一张小小的储蓄卡",
+  "topic": "economy",
+  "cefr": 0,
+  "paras": [
+    "In 1910, a small river town had no bank. People kept money at home. A [[boat|boat]] worker named Tomas was [[afraid|afraid]] of losing his coins. He wanted to [[start|start]] a savings club. He put a notice in the town [[newspaper|newspaper]]. On Sunday, eight people met in his kitchen. They put a [[fine|fine]] wooden box in the [[centre|centre]] of the table.",
+    "Each person got a small [[card|card]] with their name on it. Every week, they brought a few coins. Tomas wrote the date and the amount on their cards. His sister checked the money and locked the box. People [[sometimes|sometimes]] brought only one coin. That was enough. The club was for people with little money, and everyone could save at their own speed.",
+    "After two years, one member, Ada, needed money to visit a [[hospital|hospital]] in another town. She took out her savings and paid for the trip. Later, other members bought shoes or tools with their money. The club made [[life|life]] a little easier. Years later, the town got a bank, but Ada kept her old savings card in a drawer."
+  ],
+  "zh": [
+    "1910年，一座河边小镇还没有银行。人们把钱放在家里。一位名叫托马斯的船工担心自己的硬币会丢失。他想成立一个储蓄会，于是在镇上的报纸上登了一则启事。星期天，八个人来到他家的厨房。他们把一个精致的木箱放在桌子中央。",
+    "每个人都领到了一张写着自己名字的小卡片。每周，他们都会带来几枚硬币。托马斯把日期和金额记在各人的卡片上。他的姐妹核对钱数，然后锁上箱子。人们有时只带来一枚硬币。这也足够了。这个储蓄会是为钱不多的人办的，每个人都可以按照自己的节奏存钱。",
+    "两年后，一位名叫艾达的会员需要钱去另一个镇的医院。她取出自己的积蓄，支付了这趟行程的费用。后来，其他会员也用存下的钱买了鞋子或工具。储蓄会让生活变得轻松了一点。多年以后，镇上有了银行，但艾达仍把那张旧储蓄卡保存在抽屉里。"
+  ],
+  "q": [
+    {
+      "s": "The first club meeting took place in Tomas's home.",
+      "a": "T",
+      "why": "第一次聚会在托马斯家的厨房举行。"
+    },
+    {
+      "s": "Members had to save the same amount each week.",
+      "a": "F",
+      "why": "会员可按自己的节奏存钱，一枚硬币也行。"
+    },
+    {
+      "s": "Ada travelled to the hospital with her daughter.",
+      "a": "NG",
+      "why": "文章未说明谁陪艾达去医院。"
+    }
+  ]
+}

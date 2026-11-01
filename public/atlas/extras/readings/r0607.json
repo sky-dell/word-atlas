@@ -1,0 +1,48 @@
+{
+  "id": "r0607",
+  "ids": [
+    "assertion",
+    "standstill",
+    "fodder",
+    "globalize",
+    "sway",
+    "spatial",
+    "habitual",
+    "narcotic",
+    "conspiracy",
+    "reliance"
+  ],
+  "title": "The Rise of Barn Breaks",
+  "titleZh": "谷仓休憩悄然兴起",
+  "topic": "daily",
+  "cefr": 4,
+  "paras": [
+    "On the outskirts of Bellwick, a farming village, residents are paying to spend their lunch breaks in converted barns. The attraction is neither food nor entertainment, but an hour during which ordinary demands reach a [[standstill|standstill]]. Weaver Mara Okafor's [[assertion|assertion]] that 'doing nothing now requires a booking' captures the unlikely commercial success of these retreats.",
+    "Inside the first barn to open, bundles of [[fodder|fodder]] remain behind a wooden partition, while suspended canvas chairs [[sway|sway]] gently above the floor. Their [[spatial|spatial]] arrangement prevents visitors from facing one another directly. According to owner Tomas Varga, this reduces the obligation to converse, allowing even [[habitual|habitual]] talkers to settle into silence without appearing unfriendly.",
+    "The business initially attracted suspicion. When three neighbouring farms introduced identical admission charges, some villagers alleged a [[conspiracy|conspiracy]] to inflate prices; the owners subsequently published their separate cost calculations. More persistent criticism concerns the marketing of rest as treatment. A barn visit cannot replace a prescribed [[narcotic|narcotic]], cautions a local pharmacist, and claims that it relieves serious pain lack evidence. Most customers, however, describe seeking permission to pause rather than a medical remedy.",
+    "Booking figures suggest that repeat visitors, rather than curious tourists, sustain the trade. Several owners now hope to [[globalize|globalize]] the concept through a shared reservation website, although Varga questions whether a standard package could reproduce its appeal. His customers' [[reliance|reliance]] on familiar smells, creaking beams and a predictable absence of conversation suggests a paradox: what makes these modest retreats commercially valuable may be precisely what resists expansion."
+  ],
+  "zh": [
+    "在农业村庄贝尔威克的边缘，居民正花钱到改造过的谷仓里度过午休时间。吸引他们的既不是食物，也不是娱乐，而是可以让日常事务彻底暂停的一小时。织工玛拉·奥卡福直言：“如今，连什么都不做也得预约。”这句话道出了这些休憩场所出人意料的商业成功。",
+    "在最先开业的谷仓里，一捆捆牲畜饲料仍堆放在木隔板后，悬挂的帆布椅则在地板上方轻轻摇摆。座椅的空间布局避免了访客彼此正面相对。店主托马斯·瓦尔加表示，这样可以减少人们觉得必须交谈的压力，让连平日健谈的人也能安心保持沉默，而不显得冷漠。",
+    "这门生意起初引来了怀疑。当附近三家农场推出相同的入场收费时，一些村民指控他们密谋抬价；随后，经营者公布了各自的成本核算。更持久的批评则针对把休息当作治疗来推销的做法。一位当地药剂师提醒，到谷仓休憩不能替代医生开具的麻醉性镇痛药，声称它能缓解剧烈疼痛也缺乏证据。不过，大多数顾客表示，他们寻求的是允许自己停下来的机会，而非医疗手段。",
+    "预订数据表明，支撑这门生意的是回头客，而不是好奇的游客。几位经营者如今希望通过共享预订网站，把这一理念推广到全球，但瓦尔加怀疑，标准化套餐是否能够复制它的吸引力。他的顾客依赖熟悉的气味、吱呀作响的梁木，以及可以预期的安静无交谈环境。这揭示了一个悖论：这些朴素休憩场所的商业价值所在，或许恰恰也是它们难以扩张的原因。"
+  ],
+  "q": [
+    {
+      "s": "The seating is designed to make visitors feel less pressure to engage in conversation.",
+      "a": "T",
+      "why": "第二段说明座椅布局可减轻交谈压力。"
+    },
+    {
+      "s": "First-time tourists provide the main support for the barn businesses.",
+      "a": "F",
+      "why": "第四段指出支撑生意的是回头客而非游客。"
+    },
+    {
+      "s": "The owners have agreed to divide the cost of developing the shared reservation website equally.",
+      "a": "NG",
+      "why": "末段提到共享网站，未说明开发费用如何分担。"
+    }
+  ]
+}

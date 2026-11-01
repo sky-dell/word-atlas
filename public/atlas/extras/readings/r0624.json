@@ -1,0 +1,48 @@
+{
+  "id": "r0624",
+  "ids": [
+    "operational",
+    "allocate",
+    "rave",
+    "plagiarize",
+    "victorious",
+    "originate",
+    "tract",
+    "noted",
+    "contradiction",
+    "prototype"
+  ],
+  "title": "Harvesting the Passing Cloud",
+  "titleZh": "收获掠过的云雾",
+  "topic": "environment",
+  "cefr": 4,
+  "paras": [
+    "The modern fog collector [[originate|originated]] in attempts to make the coastal deserts of South America more habitable. Along northern Chile, a barren [[tract|tract]] might receive almost no rain yet regularly disappear beneath ocean fog. This exposed a [[contradiction|contradiction]] in descriptions declaring that water was entirely absent: airborne droplets were abundant, although conventional wells could not capture them.",
+    "During the 1960s, researchers began testing structures that intercepted these droplets. Carlos Espinosa, a physicist [[noted|noted]] for his work on fog collection, helped establish the experimental foundations. A [[prototype|prototype]] required no elaborate engine: wind carried moisture against a collecting surface, where droplets merged and drained downwards. Nevertheless, making such equipment reliably [[operational|operational]] demanded careful attention to wind direction, mesh texture and structural strength.",
+    "By the late 1980s, larger installations were supplying water to a Chilean coastal settlement. Project teams had to [[allocate|allocate]] scarce funds between collecting screens, storage tanks and pipes; increasing the mesh area alone could not guarantee a dependable supply. Supporters might [[rave|rave]] about obtaining water without fuel, but maintenance revealed less picturesque realities: salt accumulated, fittings loosened, and storms could tear exposed fabric.",
+    "As the technique travelled, engineers sharing technical explanations needed to credit their sources rather than [[plagiarize|plagiarize]] earlier designers’ work. They also needed to acknowledge the equipment’s limits. They could not declare themselves permanently [[victorious|victorious]] over drought, since fog varied with weather and season. Collectors offered an additional water source, not a guaranteed replacement for every existing supply."
+  ],
+  "zh": [
+    "现代集雾器起源于让南美洲沿海沙漠更宜居的尝试。在智利北部，一大片贫瘠土地可能几乎没有降雨，却经常被海雾笼罩。这揭示了那些宣称当地完全无水的描述所存在的矛盾：空气中的水滴十分丰富，只是传统水井无法将其收集起来。",
+    "20世纪60年代，研究人员开始试验能够截留这些水滴的装置。以集雾研究闻名的物理学家卡洛斯·埃斯皮诺萨，帮助奠定了相关实验基础。早期样机不需要复杂的发动机：风将水滴带到收集表面，水滴在那里汇聚，再向下流走。然而，要让这类设备稳定运行，就必须仔细考量风向、网材质地以及结构强度。",
+    "到20世纪80年代末，规模更大的设施已开始为智利一处沿海聚居地供水。项目团队不得不在集雾网、储水箱和管道之间分配有限资金；单纯扩大网面面积，并不能保证供水稳定。支持者或许会对这种无需燃料便能取水的方式赞不绝口，但维护工作揭示了不那么美好的现实：盐分不断积聚，连接件逐渐松动，风暴还可能撕裂暴露在外的网布。",
+    "随着这项技术向其他地区传播，工程师在分享技术说明时需要注明来源，而不是剽窃早期设计者的成果。他们也需要承认设备的局限。他们不能宣称自己已永久战胜干旱，因为雾会随天气和季节而变化。集雾器提供了一种额外水源，却不能保证替代所有现有供水来源。"
+  ],
+  "q": [
+    {
+      "s": "Espinosa tested his first fog collector close to his home.",
+      "a": "NG",
+      "why": "文中未说明其首个集雾器试验地点与住所的距离。"
+    },
+    {
+      "s": "Expanding the collecting mesh was sufficient to ensure a reliable water supply.",
+      "a": "F",
+      "why": "第三段明确说仅扩大网面不能保证稳定供水。"
+    },
+    {
+      "s": "Seasonal changes in fog limited what collectors could achieve against drought.",
+      "a": "T",
+      "why": "末段指出雾随季节变化，无法永久战胜干旱。"
+    }
+  ]
+}

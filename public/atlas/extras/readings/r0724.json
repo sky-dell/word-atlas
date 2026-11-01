@@ -1,0 +1,48 @@
+{
+  "id": "r0724",
+  "ids": [
+    "countenance",
+    "prerogative",
+    "slag",
+    "sluice",
+    "neurosis",
+    "hairdress",
+    "inalienable",
+    "tare",
+    "ingot",
+    "promissory"
+  ],
+  "title": "The Face Beside the Furnace",
+  "titleZh": "熔炉旁的面容",
+  "topic": "arts",
+  "cefr": 5,
+  "paras": [
+    "At an industrial arts museum, sculptor Amara Sen investigated whether documentary context could alter the apparent emotion of a portrait. Her bronze represented an anonymous foundry worker whose [[countenance|countenance]] had been deliberately rendered ambiguous. Before casting, technicians recorded the crucible’s [[tare|tare]], weighed a single [[ingot|ingot]], and retained the [[slag|slag]] separated during melting for an accompanying display.",
+    "Sen commissioned a theatrical specialist to [[hairdress|hairdress]] a wig for the model, following an archival photograph. Behind the finished portrait stood a drawing of the foundry’s [[sluice|sluice]], which had regulated water entering its wheelhouse. These elements remained identical across two viewing sessions; only the explanatory panel changed. Eighty adult volunteers were randomly assigned to see one version.",
+    "The first panel described technical processes; the second reproduced a wage ledger, a [[promissory|promissory]] note issued instead of cash, and a rule making permission to leave work the proprietor’s sole [[prerogative|prerogative]]. It also quoted a physician’s attribution of workers’ distress to ‘[[neurosis|neurosis]]’, explicitly identifying this as historical terminology. Viewers then rated the face without being told that another panel existed.",
+    "Those given employment records rated the unchanged expression as markedly more anxious, although both groups judged its craftsmanship similarly. Sen resisted claiming that the experiment recovered the worker’s actual feelings: it demonstrated an interpretative effect, not historical access to a mind. Her final installation therefore presented both panels together, alongside a declaration that personal freedom is [[inalienable|inalienable]]. The bronze had not changed; the evidence surrounding it had made neutrality harder to sustain."
+  ],
+  "zh": [
+    "在一座工业艺术博物馆里，雕塑家阿玛拉·森研究了一个问题：文献背景能否改变观众从肖像中感受到的情绪？她的青铜像表现的是一位无名铸造工人，其神情被刻意塑造得模棱两可。浇铸之前，技术人员记录了坩埚的皮重，称量了一块金属锭，并保留了熔炼过程中分离出的炉渣，用于配套展陈。",
+    "森请一位舞台造型专家参照档案照片，为模特所戴的假发做造型。完成的肖像后方摆着一幅铸造厂闸控水道的图纸；这条水道曾用于调节流入水轮机房的水量。在两场观看活动中，这些元素完全相同，变化的只有说明展板。八十名成年志愿者被随机分配，各自观看其中一个版本。",
+    "第一块展板介绍技术工艺；第二块则复制展示了一份工资账册、一张代替现金发放的付款承诺票据，以及一条将离岗决定权交给厂主的规定。它还引用了一位医生将工人痛苦归因于“神经症”的说法，并明确指出这是历史用语。随后，观众在不知道还存在另一块展板的情况下，对面部表情作出评分。",
+    "看到雇佣记录的观众认为，同一副表情显得明显更加焦虑，不过两组对雕塑技艺的评价相近。森没有据此宣称实验还原了工人的真实感受：它揭示的是解读方式受到影响，而不是让人得以进入历史人物的内心。因此，她在最终展陈中同时呈现了两块展板，并附上一份宣言，声明人身自由不可剥夺或转让。青铜像并未改变；周围的证据却使中立的解读更难维持。"
+  ],
+  "q": [
+    {
+      "s": "Sen deliberately gave the worker an unmistakably anxious expression.",
+      "a": "F",
+      "why": "首段说明神情被刻意塑造得模棱两可。"
+    },
+    {
+      "s": "Most volunteers had previously visited exhibitions about industrial labour.",
+      "a": "NG",
+      "why": "文章未提及志愿者以往的观展经历。"
+    },
+    {
+      "s": "The two groups gave similar assessments of the portrait's craftsmanship.",
+      "a": "T",
+      "why": "末段明确说两组对雕塑技艺的评价相近。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0509",
+  "ids": [
+    "constant",
+    "twist",
+    "spoonful",
+    "brightness",
+    "remainder",
+    "sow",
+    "artificial",
+    "appealing",
+    "optical",
+    "distribute"
+  ],
+  "title": "Lighting a Weaver’s Evening",
+  "titleZh": "照亮织工的夜晚",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "How much work could a nineteenth-century weaver finish after sunset? At a textile museum, historian Amara Chen designed an experiment using a clay lamp copied from an original object. Records suggested that households burned flaxseed oil, but descriptions of its light were vague. Before testing the lamp, the museum invited volunteers to [[sow|sow]] flax in its garden, linking the fuel to the labour needed to produce it.",
+    "For the trial, Chen asked a craft worker to [[twist|twist]] several linen threads together to make a wick. For each test, she added one [[spoonful|spoonful]] of oil to the lamp and kept the [[remainder|remainder]] in a covered jar. An [[optical|optical]] sensor recorded the flame’s [[brightness|brightness]], while six experienced weavers took turns repairing identical pieces of cloth. Each also completed the task under modern [[artificial|artificial]] light, with the order of conditions varied between participants.",
+    "The lamp remained alight for forty minutes each time, but its [[constant|constant]] flickering made fine threads difficult to follow. Under electric light, the weavers finished their repairs in an average of twelve minutes; by lamplight, they needed nineteen. However, the number of mistakes was almost unchanged. Rather than working carelessly, participants appeared to protect accuracy by slowing down.",
+    "The warm flame looked [[appealing|appealing]] in photographs, yet the experiment challenged romantic images of evening craft work. The museum decided to [[distribute|distribute]] a short report to visitors beside the lamp display. Its message was simple: working hours depended not only on willingness, but also on the quality of available light."
+  ],
+  "zh": [
+    "一位十九世纪的织工在日落后能完成多少工作？在一家纺织博物馆，历史学者阿玛拉·陈用一盏依照原物复制的陶灯设计了一项实验。文献提示，当时的家庭可能会燃烧亚麻籽油照明，但对灯光的描述却很模糊。测试陶灯之前，博物馆邀请志愿者在园中播种亚麻，让人们将这种燃料与生产它所需的劳动联系起来。",
+    "实验中，陈请一位手工艺人将几根亚麻线拧在一起，制成灯芯。每次测试时，她往灯里加入一匙油，将剩下的油保存在一个带盖的罐子里。一台光学传感器记录火焰的亮度，六位经验丰富的织工则轮流修补完全相同的布料。每个人还在现代人工照明下完成了这项任务，不同参与者体验两种照明条件的先后顺序有所不同。",
+    "陶灯每次持续燃烧四十分钟，但火焰不停闪烁，使织工难以看清细线的走向。在电灯下，他们平均用十二分钟完成修补；在油灯下，则需要十九分钟。不过，出错次数几乎没有变化。参与者似乎并未草率操作，而是通过放慢速度来保证准确性。",
+    "温暖的火光在照片中看起来很迷人，但实验对夜间手工劳作的浪漫想象提出了质疑。博物馆决定在陶灯展品旁向参观者发放一份简短报告。报告传达的信息很简单：工作时间不仅取决于人的意愿，也取决于可用照明的质量。"
+  ],
+  "q": [
+    {
+      "s": "The original lamp was made in 1850.",
+      "a": "NG",
+      "why": "文章未说明原陶灯的制作年份。"
+    },
+    {
+      "s": "The wick was made by twisting linen threads together.",
+      "a": "T",
+      "why": "第二段明确说明用亚麻线拧成灯芯。"
+    },
+    {
+      "s": "Working by lamplight caused the weavers to make substantially more errors.",
+      "a": "F",
+      "why": "第三段指出两种照明下出错次数几乎相同。"
+    }
+  ]
+}

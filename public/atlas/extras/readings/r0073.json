@@ -1,0 +1,46 @@
+{
+  "id": "r0073",
+  "ids": [
+    "wall",
+    "some",
+    "interested",
+    "which",
+    "way",
+    "arm",
+    "woman",
+    "next",
+    "bookstore",
+    "police"
+  ],
+  "title": "The Books by the Garden Gate",
+  "titleZh": "花园门边的图书",
+  "topic": "environment",
+  "cefr": 0,
+  "paras": [
+    "In 1985, a small street garden had a new visitor: a box of old books. A [[woman|woman]] called Rosa put it beside the garden [[wall|wall]]. She worked in a [[bookstore|bookstore]]. The shop had [[some|some]] books with dirty covers, but their pages were good. Rosa did not want to throw them away. She carried the box under one [[arm|arm]] and made a sign: “Take a book. Bring one back.”",
+    "At first, people only looked. Then a cook took a book about trees. Two [[police|police]] officers brought books from home. Soon, many people were [[interested|interested]] in the little box. But rain was a problem. One wet morning, Rosa found water on the pages. She needed a better [[way|way]] to keep the books dry.",
+    "The [[next|next]] Saturday, her friend Sami brought two wooden boxes. “[[which|Which]] box do you want?” he asked. Rosa chose the taller one. Sami added a door and a little roof. They put it by the gate. Years later, the first box was gone, but the little book house was still there. Old books had a home, and people had stories to share."
+  ],
+  "zh": [
+    "1985年，一座街边小花园迎来了一位新客人：一箱旧书。一位名叫罗莎的女士把它放在花园的围墙旁。她在一家书店工作。店里有一些封面脏了的书，但书页还是好的。罗莎不想把它们扔掉。她把箱子夹在一只胳膊下面搬了过来，还做了一块牌子：“拿走一本书，带回一本书。”",
+    "起初，人们只是看看。后来，一位厨师拿走了一本关于树木的书。两名警察从家里带来了书。很快，许多人都对这个小箱子产生了兴趣。但是，下雨是个问题。一个下雨的早晨，罗莎发现书页上有水。她需要一个更好的办法，让书保持干燥。",
+    "紧接着的那个星期六，她的朋友萨米带来了两个木箱。“你想要哪个箱子？”他问。罗莎选了更高的那个。萨米给它装了一扇门和一个小屋顶。他们把它放在花园门边。多年以后，最初的箱子已经不在了，但那座小书屋还在那里。旧书有了家，人们也有了可以分享的故事。"
+  ],
+  "q": [
+    {
+      "s": "The first books came from the shop where Rosa worked.",
+      "a": "T",
+      "why": "罗莎在书店工作，带来了店里的旧书。"
+    },
+    {
+      "s": "The pages were dry when Rosa checked the books that wet morning.",
+      "a": "F",
+      "why": "那个下雨的早晨，罗莎发现书页上有水。"
+    },
+    {
+      "s": "Sami also made book houses for other gardens.",
+      "a": "NG",
+      "why": "文中未提萨米是否为其他花园制作书屋。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0034",
+  "ids": [
+    "wash",
+    "sofa",
+    "interesting",
+    "rice",
+    "area",
+    "clean",
+    "business",
+    "walking",
+    "name",
+    "airport"
+  ],
+  "title": "Birds in the Old Rice Field",
+  "titleZh": "旧稻田里的鸟",
+  "topic": "history",
+  "cefr": 0,
+  "paras": [
+    "May 6, morning. Mei and I like [[walking|walking]]. Today we are beside her grandfather's old field. His [[name|name]] was Lin. He grew [[rice|rice]] here and sold it in town. His [[business|business]] was small. Now this [[area|area]] is wet grassland. We can see the [[airport|airport]] across the road, but here we hear birds. Mei has his old notebook in her bag. We stop by a pool.",
+    "The notebook is fifty years old. One page has an [[interesting|interesting]] picture: three small birds with long legs. Today, three birds like these stand in the pool. We sit on a stone and watch them. Their feet move slowly through the water. One finds a small fish. I draw the birds in my book. Mei takes a picture of the pool.",
+    "At noon, we go to the old field house. I [[wash|wash]] my muddy hands with water from a bottle. Mei puts a [[clean|clean]] cloth on the old [[sofa|sofa]], and we sit down. We look at both books together. There is no food crop here now, but the birds still come. Under my drawing, I write, \"Lin's birds are home.\""
+  ],
+  "zh": [
+    "5月6日，早晨。梅和我喜欢散步。今天，我们在她爷爷或外公过去的田地旁。他叫林。他以前在这里种稻，再拿到镇上卖。他的生意很小。如今，这片地方成了湿润的草地。我们能看见马路对面的机场，但在这里，我们听见的是鸟叫声。梅的包里带着他的旧笔记本。我们在一个水塘边停下来。",
+    "这本笔记本已有五十年了。其中一页有一幅有趣的画：三只长腿的小鸟。今天，水塘里站着三只和画里很像的鸟。我们坐在一块石头上观察它们。它们的脚在水里慢慢移动。一只鸟找到了一条小鱼。我把这些鸟画在自己的本子里。梅给水塘拍了一张照片。",
+    "中午，我们去了田边的老屋。我用瓶子里的水清洗沾满泥的双手。梅在旧沙发上铺了一块干净的布，我们坐了下来。我们一起看着两个本子。这里如今不再种粮食，但鸟儿依然会来。我在画下面写道：“林的鸟儿回家了。”"
+  ],
+  "q": [
+    {
+      "s": "Lin's business was large.",
+      "a": "F",
+      "why": "第一段明确说他的生意很小。"
+    },
+    {
+      "s": "Lin bought his notebook in town.",
+      "a": "NG",
+      "why": "文中未说明笔记本是在哪里买的。"
+    },
+    {
+      "s": "Mei puts a clean cloth on the sofa.",
+      "a": "T",
+      "why": "第三段明确说梅在沙发上铺了干净的布。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0283",
+  "ids": [
+    "crop",
+    "impress",
+    "fetch",
+    "badge",
+    "freeze",
+    "customs",
+    "pharmacy",
+    "headmaster",
+    "caring",
+    "multiplication"
+  ],
+  "title": "A Village Finds Its Voice",
+  "titleZh": "一个村庄有了自己的声音",
+  "topic": "media",
+  "cefr": 2,
+  "paras": [
+    "Welcome to “A Village Finds Its Voice”, an exhibition about a small radio station opened in 1962. It broadcast from a room above a [[pharmacy|pharmacy]]. The first display shows presenter Amara Bello’s blue [[badge|badge]] and the wooden desk where she read the evening news. Only a thin wall separated her from the medicine store.",
+    "The station reported on everyday village life. Turn the handle beside the desk to hear a farmer discussing his potato [[crop|crop]]. Another recording features the village [[headmaster|headmaster]], who taught [[multiplication|multiplication]] through songs. His lessons were designed for children who missed school during the harvest, although adults enjoyed singing along too.",
+    "Making these programmes was not easy. A photograph shows Amara cycling to [[fetch|fetch]] a heavy recorder from the railway office. It had spent three weeks at [[customs|customs]] after arriving from abroad. In winter, water would [[freeze|freeze]] in the station’s kitchen, so the team brought hot drinks from home. Their efforts still [[impress|impress]] visitors more than the simple equipment does.",
+    "At the final listening point, hear Amara’s [[caring|caring]] voice reading messages for people living alone. She always left a short pause after each name, giving listeners time to recognise a neighbour. Before leaving, record a message for someone you know."
+  ],
+  "zh": [
+    "欢迎参观“一个村庄有了自己的声音”展览，了解一家于1962年开播的小型广播电台。电台在一家药店楼上的房间里播音。第一处展区陈列着主持人阿玛拉·贝洛的蓝色身份徽章，以及她播报晚间新闻时使用的木桌。她的播音室与药品储藏室之间只隔着一堵薄墙。",
+    "电台报道村里的日常生活。转动桌旁的把手，就能听到一位农民谈论他种的土豆。另一段录音中，村里的男校长用歌曲教乘法。这些课程是为收获季节无法上学的孩子设计的，不过大人们也喜欢跟着唱。",
+    "制作这些节目并不容易。一张照片中，阿玛拉正骑车前往铁路办事处，取回一台沉重的录音机。它从国外运来后，在海关停留了三个星期。冬天，电台厨房里的水会结冰，所以工作人员会从家中带来热饮。比起那些简陋的设备，他们付出的努力至今更让参观者钦佩。",
+    "在最后一个收听点，你可以听到阿玛拉用体贴的声音，为独居者念留言。每念完一个名字，她总会稍作停顿，让听众有时间认出那位邻居。离开展览前，请为你认识的人录一段留言。"
+  ],
+  "q": [
+    {
+      "s": "The radio station shared a building with a business selling medicines.",
+      "a": "T",
+      "why": "电台设在一家药店楼上的房间里。"
+    },
+    {
+      "s": "The headmaster’s radio lessons were intended mainly for adult listeners.",
+      "a": "F",
+      "why": "课程是为收获季节缺课的孩子设计的。"
+    },
+    {
+      "s": "Visitors must pay an extra fee to record their own messages.",
+      "a": "NG",
+      "why": "文章未说明录制留言是否另行收费。"
+    }
+  ]
+}

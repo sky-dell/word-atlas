@@ -1,0 +1,48 @@
+{
+  "id": "r0332",
+  "ids": [
+    "cosmetics",
+    "approachable",
+    "release",
+    "touching",
+    "novice",
+    "decent",
+    "nursery",
+    "scholar",
+    "rally",
+    "consistency"
+  ],
+  "title": "The Shops Selling Less Packaging",
+  "titleZh": "少卖包装的商店",
+  "topic": "economy",
+  "cefr": 3,
+  "paras": [
+    "In the small coastal town of Bellwick, shops selling [[cosmetics|cosmetics]] have discovered an unexpected source of growth: customers who want to buy less. Rather than choosing new jars of face cream, shoppers bring empty containers for refilling. Three refill counters have opened within a year, despite charging slightly more than supermarkets.",
+    "The attraction is partly personal. At Mina Okafor's counter, an [[approachable|approachable]] assistant explains ingredients without pushing expensive treatments. Even a [[novice|novice]] can learn to clean a container properly and [[release|release]] trapped air from its pump. Customers say the creams are [[decent|decent]], but it is the advice that brings them back. To maintain [[consistency|consistency]], Mina weighs every refill and records which batch it came from.",
+    "The movement began after a public [[rally|rally]] against unnecessary packaging. Among the speakers was a worker from a nearby [[nursery|nursery]], who described collecting empty plastic pots for children's craft activities. Her [[touching|touching]] account of a child asking why beautiful things created so much rubbish stayed with several shopkeepers. However, environmental concern alone did not guarantee sales: the first refill stall closed because its opening hours were unpredictable.",
+    "According to economic [[scholar|scholar]] Daniel Chen, the surviving businesses sell trust as much as cream. He notes that regular visits create opportunities for conversation which larger stores rarely provide. Bellwick's experience suggests a surprising commercial lesson: reducing what customers carry home can increase the value they receive."
+  ],
+  "zh": [
+    "在沿海小镇贝尔威克，销售化妆品的商店发现了一个意想不到的增长来源：那些想少买一点的顾客。购物者不再选购新罐装的面霜，而是带着空容器来补充装填。一年之内，镇上开出了三个补充装柜台，尽管它们的价格比超市略高。",
+    "这种吸引力部分来自人与人之间的交流。在米娜·奥卡福的柜台，一位亲切的店员会讲解成分，而不会推销昂贵的护理产品。即使是新手，也能学会如何正确清洗容器，以及如何排出泵头里困住的空气。顾客说，面霜的品质还不错，但让他们再次光顾的是店里的建议。为保持品质稳定，米娜会称量每一份补充装，并记录它所属的批次。",
+    "这股风潮始于一场反对多余包装的公众集会。发言者中有一位附近托儿所的工作人员，她讲述了自己收集空塑料罐供孩子们做手工的经历。一个孩子曾问她，为什么美丽的东西会制造这么多垃圾。她这段感人的讲述让几位店主久久难忘。然而，单靠环保意识并不能保证销路：最早的补充装摊位就因营业时间不固定而关门了。",
+    "经济学者丹尼尔·陈认为，那些存活下来的商家既在卖面霜，也在卖信任。他指出，顾客定期光顾会创造交谈机会，而大型商店很少提供这样的机会。贝尔威克的经历揭示了一条令人意外的商业启示：减少顾客带回家的东西，反而可能增加他们获得的价值。"
+  ],
+  "q": [
+    {
+      "s": "Bellwick's refill counters have expanded even though cheaper alternatives are available.",
+      "a": "T",
+      "why": "一年内开了三个柜台，价格却略高于超市。"
+    },
+    {
+      "s": "Mina's assistant received training from a cosmetics manufacturer.",
+      "a": "NG",
+      "why": "文章未说明店员是否接受过厂商培训。"
+    },
+    {
+      "s": "Daniel Chen says larger stores frequently provide opportunities for conversation.",
+      "a": "F",
+      "why": "他指出大型商店很少提供这样的交谈机会。"
+    }
+  ]
+}

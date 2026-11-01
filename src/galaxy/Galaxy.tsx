@@ -1,3 +1,4 @@
+import {profileStorage} from '../store/profileStorage';
 import { Crosshair, Minus, Plus, RotateCcw, Share2 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useAtlas } from "../atlas/context";
@@ -158,8 +159,8 @@ export function Galaxy({
   useEffect(() => {
     if (mode !== "full") return;
     try {
-      if (localStorage.getItem("word-atlas:galaxy-hello")) return;
-      localStorage.setItem("word-atlas:galaxy-hello", "1");
+      if (profileStorage.getItem("word-atlas:galaxy-hello")) return;
+      profileStorage.setItem("word-atlas:galaxy-hello", "1");
     } catch {
       return;
     }

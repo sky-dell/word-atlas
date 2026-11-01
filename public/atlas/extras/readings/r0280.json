@@ -1,0 +1,46 @@
+{
+  "id": "r0280",
+  "ids": [
+    "indeed",
+    "region",
+    "breath",
+    "second-hand",
+    "tutor",
+    "allergy",
+    "ferry",
+    "state",
+    "column",
+    "remind"
+  ],
+  "title": "Drawing the Island's Changing Shore",
+  "titleZh": "画下海岛变幻的岸边",
+  "topic": "nature",
+  "cefr": 2,
+  "paras": [
+    "The morning [[ferry|ferry]] to Willow Island carries visitors past low rocks covered with seabirds. This small island is known across the [[region|region]] for its shore drawings, made with dark pencil on rough paper. I arrived with a [[second-hand|second-hand]] drawing book bought at a village market. Several pages already showed shells, but there was plenty of space for my own discoveries.",
+    "My [[tutor|tutor]], Mara, taught small groups in an old fishing hut. Before we went outside, she asked about any health problems. One visitor had an [[allergy|allergy]] to grass, so Mara chose a route along the beach rather than through the fields. At the water's edge, she told us to take a slow [[breath|breath]] and watch before drawing. The shore seemed empty at first. However, it was [[indeed|indeed]] full of movement: tiny crabs were leaving tracks between the stones.",
+    "Mara asked us to record the [[state|state]] of the beach beside each picture: wet or dry, calm or windy. A narrow [[column|column]] on each page held the time and date. These notes would [[remind|remind]] us how quickly the shore changed. By afternoon, water had covered our drawing spot. Back in the hut, we hung our pictures beside drawings left by earlier visitors. Together, they showed an island that never quite stayed still."
+  ],
+  "zh": [
+    "清晨，开往柳树岛的渡船载着游客，从栖满海鸟的低矮岩石旁驶过。这座小岛以画在粗糙纸上的深色铅笔海岸画闻名于整个地区。我带着一本从村里集市买来的二手绘画本来到这里。几页纸上已经画着贝壳，但仍有足够的空白，让我记录自己的发现。",
+    "我的导师玛拉在一间旧渔屋里教小组绘画。出门前，她询问大家是否有健康方面的问题。一位游客对草过敏，于是玛拉选择沿沙滩走，而不穿过田野。到了水边，她让我们缓缓吸一口气，先观察，再动笔。起初，岸边似乎空无一物。然而，这里的确充满了动静：小螃蟹正从石头之间爬过，留下道道痕迹。",
+    "玛拉让我们在每幅画旁记录海滩当时的状况：潮湿还是干燥，平静还是多风。每页都有窄窄的一栏，用来填写时间和日期。这些笔记会提醒我们，海岸的变化有多快。到了下午，海水已经淹没了我们画画的地方。回到渔屋，我们把作品挂在先前游客留下的画旁边。这些画共同展现了一座总在悄然变化的小岛。"
+  ],
+  "q": [
+    {
+      "s": "Every page in the writer's drawing book was blank when the writer arrived.",
+      "a": "F",
+      "why": "作者到达时，已有几页画着贝壳。"
+    },
+    {
+      "s": "Mara had taught drawing on the island for ten years.",
+      "a": "NG",
+      "why": "文章未说明玛拉在岛上教画多久。"
+    },
+    {
+      "s": "By afternoon, water had covered the place where the group had been drawing.",
+      "a": "T",
+      "why": "第三段明确说下午海水已覆盖画画的地点。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0088",
+  "ids": [
+    "smart",
+    "mother-in-law",
+    "goat",
+    "clear",
+    "blog",
+    "digital",
+    "polite",
+    "energy",
+    "government",
+    "organise"
+  ],
+  "title": "A Cooler Corner for Goats",
+  "titleZh": "给山羊一个凉快的角落",
+  "topic": "science",
+  "cefr": 1,
+  "paras": [
+    "One hot June, Mina visited her [[mother-in-law|mother-in-law]], Rosa, who kept six [[goat|goats]] behind the village hall. Their field had only one small tree. Mina had a [[smart|smart]] idea: neighbours could build a shade roof and test how much cooler it was underneath. Rosa agreed to [[organise|organise]] the project. Eight people came to help, and the village shop gave them wood.",
+    "The group borrowed two [[digital|digital]] thermometers from a science centre. The regional [[government|government]] had paid for the centre's equipment. Each afternoon, Mina put one thermometer under the new roof and the other outside it. She waited twenty minutes before reading them. Rosa made a [[clear|clear]] chart with large numbers. The thermometer in the shade usually showed four degrees less. Both thermometers stayed at the same height above the ground. However, sunlight could heat the thermometer outside the roof. The readings alone could not tell them the difference in air temperature.",
+    "Rosa had plenty of [[energy|energy]] and checked the roof every morning. She also wrote a weekly [[blog|blog]] about the project. When readers asked questions, her answers were [[polite|polite]] and helpful. After three weeks, the animals were spending most hot afternoons under the roof. At a small village meeting, Mina showed the chart and photos. Two nearby animal keepers asked for the building plan."
+  ],
+  "zh": [
+    "在一个炎热的六月，米娜去看望配偶的母亲罗莎。罗莎在村礼堂后面养了六只山羊，羊活动的场地里只有一棵小树。米娜想出了一个好主意：邻居们可以搭一个遮阳棚，再测测棚下能凉快多少。罗莎答应组织这项活动。八个人来帮忙，村里的商店还送来了木料。",
+    "大家从一家科学中心借来了两支数码温度计。中心的设备是地区政府出资购买的。每天下午，米娜把一支温度计放在新棚子下面，另一支放在棚外。她等二十分钟后才读数。罗莎做了一张清晰易懂的图表，上面的数字写得很大。遮阳处的温度计读数通常低四度。两支温度计离地面的高度始终相同。不过，阳光可能会使棚外的温度计升温。仅凭这些读数，他们无法确定两处的空气温差。",
+    "罗莎精力充沛，每天早上都会检查棚子。她还每周更新博客，介绍这个项目。读者提问时，她的回答既有礼貌又有帮助。三周后，山羊在大多数炎热的下午都待在棚下。在一次小型村民聚会上，米娜展示了图表和照片。附近两位养动物的人索要了搭建图纸。"
+  ],
+  "q": [
+    {
+      "s": "There were several large trees in the goats' field.",
+      "a": "F",
+      "why": "场地里只有一棵小树。"
+    },
+    {
+      "s": "The science centre charged the group for borrowing the thermometers.",
+      "a": "NG",
+      "why": "只说借了温度计，未说明是否收费。"
+    },
+    {
+      "s": "Rosa wrote about the project on her blog every week.",
+      "a": "T",
+      "why": "第三段说明她每周写博客介绍项目。"
+    }
+  ]
+}

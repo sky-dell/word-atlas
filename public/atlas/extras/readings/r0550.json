@@ -1,0 +1,48 @@
+{
+  "id": "r0550",
+  "ids": [
+    "implicit",
+    "mediator",
+    "middleman",
+    "sanction",
+    "dagger",
+    "hydroelectric",
+    "persistence",
+    "ordinarily",
+    "instantaneous",
+    "eclipse"
+  ],
+  "title": "An Eclipse in the Repair Shop",
+  "titleZh": "修理铺里的日食",
+  "topic": "daily",
+  "cefr": 4,
+  "paras": [
+    "At Leila's repair shop, a curtained window became an astronomical instrument. The neighbourhood's [[implicit|implicit]] understanding was that visitors could watch her work provided they touched nothing. On the morning of a solar [[eclipse|eclipse]], she invited them to examine the Sun's image, projected onto white card through a tiny hole.",
+    "Leila [[ordinarily|ordinarily]] repaired household items and ornaments, including an ornamental [[dagger|dagger]] with a loose handle. Preparing the projection required similar [[persistence|persistence]]: enlarging the hole brightened the image but blurred its edges. A [[middleman|middleman]] offered expensive viewing equipment, yet cardboard and foil sufficed. Projection allowed several people to watch without looking towards the Sun.",
+    "Sharing the cramped room proved harder. Two traders disputed whose customers could enter first, until a retired nurse acted as [[mediator|mediator]], proposing alternating ten-minute visits. The market association threatened a [[sanction|sanction]]—temporary loss of trading permission—if either trader blocked the passage outside. Once access was settled, attention returned to the crescent on the card.",
+    "The shop's lamps drew power from a nearby [[hydroelectric|hydroelectric]] station, but Leila switched them off to improve contrast. Passing clouds caused an apparently [[instantaneous|instantaneous]] change in the image's brightness; no electronic sensor was involved. Visitors were fascinated that the round hole produced a crescent, not a circle. Each visible point on the Sun sent light through the opening, collectively composing an image. For an hour, the shop made the geometry of sunlight visible."
+  ],
+  "zh": [
+    "在莱拉的修理铺里，一扇挂着窗帘的窗户变成了天文仪器。街坊之间有个不言而喻的约定：只要不碰任何东西，来客就可以观看她工作。日食当天上午，她邀请大家观察太阳穿过小孔投射在白色卡纸上的影像。",
+    "莱拉通常修理家庭用品和装饰物，其中包括一把刀柄松动的装饰性匕首。调试投影装置同样需要坚持不懈：把孔扩大，影像会更明亮，边缘却会变得模糊。一位中间商向她推销昂贵的观测设备，但硬纸板和金属箔就已足够。投影让好几个人能够一起观看，而不必朝太阳看。",
+    "共用这间狭小的屋子反倒更难。两位商贩为谁的顾客可以先进门争执起来，直到一位退休护士出面调解，提议双方顾客轮流入内，每次十分钟。市场协会警告说，任何一方若堵塞门外通道，就会受到暂时取消经营资格的处罚。入场安排妥当后，大家的注意力重新回到卡纸上的新月形影像。",
+    "店里的灯由附近一座水电站供电，但莱拉把灯关掉了，以增强明暗对比。云朵飘过时，影像的亮度看起来瞬间就发生了变化，整个过程没有任何电子传感器参与。圆孔投出的竟然是新月形，而不是圆形，这让来客着迷。太阳上每一个可见的点都将光线送过小孔，共同构成一幅影像。在这一个小时里，修理铺让阳光的几何原理变得清晰可见。"
+  ],
+  "q": [
+    {
+      "s": "Enlarging the opening made the edges of the projected image sharper.",
+      "a": "F",
+      "why": "第二段说明扩大孔径会使影像边缘模糊。"
+    },
+    {
+      "s": "The retired nurse had previously worked for the market association.",
+      "a": "NG",
+      "why": "文中未提护士是否曾为市场协会工作。"
+    },
+    {
+      "s": "The projected image changed brightness as clouds passed without any electronic sensor being involved.",
+      "a": "T",
+      "why": "末段明确说明云过时亮度变化，无传感器参与。"
+    }
+  ]
+}

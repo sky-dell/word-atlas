@@ -1,0 +1,48 @@
+{
+  "id": "r0256",
+  "ids": [
+    "dust",
+    "afterward",
+    "rob",
+    "researcher",
+    "represent",
+    "exist",
+    "rather",
+    "mention",
+    "practical",
+    "wheat"
+  ],
+  "title": "The Mill Behind the Bakery",
+  "titleZh": "面包房后的小磨坊",
+  "topic": "economy",
+  "cefr": 2,
+  "paras": [
+    "When flour prices rose in Bellwick, six families started a small milling project behind a bakery. They bought [[wheat|wheat]] together from a nearby farm and used an old electric mill. Before the first delivery, bakery owner Amira cleaned years of [[dust|dust]] from the storeroom and built two wooden shelves.",
+    "A food [[researcher|researcher]] named Tomas helped the group plan a [[practical|practical]] training day. Each member learned to weigh grain, run the mill and pack flour safely. The machine was [[rather|rather]] noisy, so they agreed to use it only between ten and four. They shared fresh bread [[afterward|afterward]] and compared their first bags of flour.",
+    "However, cheap flour was not their only concern. Someone had tried to [[rob|rob]] a nearby shop the previous winter. At their next meeting, Amira [[mention|mentioned]] this event and suggested keeping no cash in the storeroom. Members paid through the bank instead. They also chose Rosa to [[represent|represent]] them in price discussions with the farmer.",
+    "After three months, records showed that each family was spending less on flour, even after electricity costs. Similar groups did not [[exist|exist]] in the surrounding villages, so Rosa wrote a simple guide for others. By autumn, two more families had joined, and the bakery was selling a weekly loaf made with the group's flour."
+  ],
+  "zh": [
+    "贝尔威克的面粉价格上涨后，六户家庭在一家面包房后面办起了一个小型磨粉项目。他们一起从附近的农场购买小麦，使用一台旧电动磨粉机加工。第一批小麦送来之前，面包房店主阿米拉清理了储藏室里积了多年的灰尘，还做了两个木架。",
+    "一位名叫托马斯的食品研究人员帮助大家安排了一天的实操培训。每位成员都学会了称量谷物、操作磨粉机以及安全地包装面粉。机器噪声相当大，因此大家约定只在上午十点到下午四点之间使用。之后，他们一起吃了新鲜面包，并比较了各自磨出的第一批面粉。",
+    "不过，便宜的面粉并不是他们唯一关心的事。前一年冬天，有人曾试图抢劫附近的一家商店。在接下来的会议上，阿米拉提到了这件事，并建议不要在储藏室里存放现金。于是，成员们改为通过银行付款。他们还选出罗莎，代表大家与农场主商谈价格。",
+    "三个月后，账目显示，即使算上电费，每户家庭花在面粉上的钱也减少了。周边村庄还没有类似的团体，因此罗莎为其他人写了一份简易指南。到了秋天，又有两户家庭加入，面包房也开始每周出售一种用大家磨出的面粉制作的面包。"
+  ],
+  "q": [
+    {
+      "s": "The families used a brand-new electric mill for their project.",
+      "a": "F",
+      "why": "原文明确说他们使用的是旧电动磨粉机。"
+    },
+    {
+      "s": "Tomas was paid for helping to plan the training day.",
+      "a": "NG",
+      "why": "文章未说明托马斯是否获得报酬。"
+    },
+    {
+      "s": "After three months, every family was spending less on flour, including electricity costs.",
+      "a": "T",
+      "why": "账目显示，计入电费后每户面粉支出仍减少。"
+    }
+  ]
+}

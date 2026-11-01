@@ -1,0 +1,48 @@
+{
+  "id": "r0656",
+  "ids": [
+    "fibreglass",
+    "artery",
+    "hoof",
+    "gaol",
+    "unprecedented",
+    "delinquency",
+    "barge",
+    "forensic",
+    "frugal",
+    "whisker"
+  ],
+  "title": "The Museum Objects Going Home",
+  "titleZh": "被借回家的博物馆展品",
+  "topic": "city",
+  "cefr": 4,
+  "paras": [
+    "In the canal district of Bellwick, residents are borrowing museum objects rather than buying ornaments. The neighbourhood collection, housed in a former [[gaol|gaol]], began lending replicas last autumn after its storage rooms reached capacity. Within six months, requests had risen to an [[unprecedented|unprecedented]] level: even a battered [[fibreglass|fibreglass]] horse had acquired a waiting list of seventeen households.",
+    "The horse originally illustrated the working life of animals that pulled each cargo [[barge|barge]] along the canal. Its raised [[hoof|hoof]], polished by generations of visitors, now occupies a baker's front window. Elsewhere, a retired nurse displays an anatomical model showing how an [[artery|artery]] carries blood away from the heart, turning her weekly tea gatherings into unexpectedly technical discussions.",
+    "Not everything available is conventionally decorative. A teaching kit from a former [[forensic|forensic]] laboratory includes a magnified replica of a cat's [[whisker|whisker]], once used to explain how animal hairs could connect suspects with particular locations. Another case documents nineteenth-century responses to juvenile [[delinquency|delinquency]]. Borrowers receive contextual notes, and fragile originals remain behind glass; only robust teaching materials circulate.",
+    "Curator Amara Sen initially interpreted the scheme's popularity as a [[frugal|frugal]] response to rising household costs. Interviews, however, revealed another motive: people wanted possessions that prompted conversation without requiring permanent ownership. Several borrowers have consequently recorded memories triggered by their temporary exhibits, adding new testimony to the collection. What began as a solution to overcrowded shelves has made the district itself an extension of the museum."
+  ],
+  "zh": [
+    "在贝尔威克的运河区，居民开始向博物馆借展品，而不是购买装饰品。这座社区博物馆设在一所旧监狱内，去年秋天，由于库房已满，开始外借复制品。六个月内，借用需求达到前所未有的水平：就连一匹破旧的玻璃钢马，也有十七户家庭排队等着借。",
+    "这匹马最初用于展示役畜沿运河拖曳货运驳船的劳动生活。它那只被一代代参观者摸得光亮的抬起的马蹄，如今出现在一家面包店的临街橱窗里。在另一处，一位退休护士展示着一个解剖模型，说明动脉如何将血液从心脏输送出去，让她每周的茶聚意外地变成了专业知识讨论会。",
+    "可借的物品并不都符合人们对装饰品的通常理解。一套来自旧司法鉴定实验室的教具中，有一根放大的猫须复制品，曾用于解释动物毛发如何将嫌疑人与特定地点联系起来。另一个展箱记录了十九世纪处理青少年违法行为的方式。借用者会收到背景说明，而易损的原件仍留在玻璃展柜内，只有结实耐用的教学材料可以外借。",
+    "策展人阿玛拉·森起初认为，这个项目受欢迎，是人们面对家庭开支上涨而采取的节俭之举。然而，访谈揭示了另一种动机：人们想要能够引发交谈、却不必永久拥有的物品。因此，几位借用者记录了临时展品唤起的往事，为馆藏增添了新的见证材料。原本为解决库架拥挤而开展的项目，如今让整个街区成了博物馆的延伸。"
+  ],
+  "q": [
+    {
+      "s": "A shortage of storage space prompted the museum to introduce its lending scheme.",
+      "a": "T",
+      "why": "首段说明库房已满后开始外借复制品。"
+    },
+    {
+      "s": "Borrowers must pay a deposit before taking the horse away.",
+      "a": "NG",
+      "why": "文章未提及借马是否需要押金。"
+    },
+    {
+      "s": "The museum allows delicate original objects to be borrowed alongside its teaching materials.",
+      "a": "F",
+      "why": "第三段明确易损原件不外借。"
+    }
+  ]
+}

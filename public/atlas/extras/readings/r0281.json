@@ -1,0 +1,48 @@
+{
+  "id": "r0281",
+  "ids": [
+    "promote",
+    "orchestra",
+    "physical",
+    "pipe",
+    "billion",
+    "medical",
+    "stripes",
+    "editor",
+    "mixture",
+    "delay"
+  ],
+  "title": "Music Beside the Mineral Spring",
+  "titleZh": "矿泉边的音乐",
+  "topic": "history",
+  "cefr": 2,
+  "paras": [
+    "Behind the stone bathhouse in the mountain town of Bellara, warm water still flows from a spring. A board says that about one [[billion|billion]] litres rise here each year. During a visit, I followed guide Tomas through a narrow door to see the original iron [[pipe|pipe]], which carried water into the baths.",
+    "In the nineteenth century, visitors came for [[medical|medical]] treatment. Doctors believed that bathing could reduce [[physical|physical]] pain after years of hard work. The water contains a [[mixture|mixture]] of natural salts, which leaves pale [[stripes|stripes]] on the dark stone walls. Tomas explained that these marks helped workers notice changes in the water level.",
+    "However, the bathhouse offered more than warm baths. To [[promote|promote]] interest in the town, its owners built a music room. An [[orchestra|orchestra]] played there every Sunday, and townspeople could attend alongside wealthy guests. Heavy snow sometimes forced the musicians to [[delay|delay]] a concert, but the room remained a favourite meeting place.",
+    "Today, the baths are closed, although the music room welcomes visitors. Leila, the [[editor|editor]] of a small history magazine, has collected old concert programmes for a display. Before leaving, I sat beside one programme dated 1886. From below the floor came the sound of running water—the only music left in this quiet room."
+  ],
+  "zh": [
+    "在山城贝拉拉的石砌浴场后面，一眼泉水至今仍流淌着温热的水。告示牌上写着，这里每年约涌出十亿升水。参观时，我跟着导游托马斯穿过一道窄门，去看当年将泉水引入浴池的铁管。",
+    "十九世纪，游客来到这里接受医疗。医生相信，泡澡能够减轻多年辛苦劳作带来的身体疼痛。泉水含有多种天然盐分，在深色石墙上留下了浅色条纹。托马斯解释说，这些痕迹有助于工人察觉水位的变化。",
+    "不过，这座浴场提供的不只是温水浴。为了让更多人对这座小镇产生兴趣，浴场主人建了一间音乐厅。每逢星期日，都有一支管弦乐队在那里演奏，镇民可以和富有的客人一同欣赏。大雪有时迫使乐手推迟音乐会，但这里一直是人们喜爱的聚会场所。",
+    "如今，浴池已经关闭，音乐厅却仍向游客开放。一份小型历史杂志的编辑莱拉收集了旧音乐会节目单，供人们参观。离开前，我在一张标有1886年日期的节目单旁坐下。地板下传来流水声——这是这间安静屋子里仅存的音乐。"
+  ],
+  "q": [
+    {
+      "s": "The original iron pipe was made in Bellara.",
+      "a": "NG",
+      "why": "文中未说明原铁管的制造地点。"
+    },
+    {
+      "s": "Marks on the walls helped workers notice changes in water level.",
+      "a": "T",
+      "why": "第二段明确说明痕迹帮助工人察觉水位变化。"
+    },
+    {
+      "s": "Only wealthy guests could attend the Sunday concerts.",
+      "a": "F",
+      "why": "第三段说镇民也能与富有的客人一起参加。"
+    }
+  ]
+}

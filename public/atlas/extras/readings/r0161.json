@@ -1,0 +1,46 @@
+{
+  "id": "r0161",
+  "ids": [
+    "law",
+    "bill",
+    "should",
+    "environment",
+    "perfect",
+    "southwest",
+    "weekly",
+    "kill",
+    "curtain",
+    "pull"
+  ],
+  "title": "Blue Cloth, Clear Water",
+  "titleZh": "蓝布与清水",
+  "topic": "government",
+  "cefr": 1,
+  "paras": [
+    "In the [[southwest|southwest]] of the island, visitors come to Nalo for its blue cloth. Every Friday, makers sell bags and shirts at a [[weekly|weekly]] market beside the river. But the river is more than a pretty place for photos. A town [[law|law]] says that workshops cannot put dirty blue water into it. This rule helps protect the [[environment|environment]] and keeps the river safe for fish.",
+    "At a small workshop, a maker called Mira shows me how she colours cotton. She uses leaves from plants grown behind her house. Even water made dirty by plants can [[kill|kill]] fish, she explains. Her used water goes into a large tank, not the river. After our talk, we [[pull|pull]] a long piece of cotton from a blue bath together. My hands turn blue too.",
+    "Mira hangs the cloth outside, where the warm wind dries it. I choose a small piece for a kitchen [[curtain|curtain]]. Its colour is [[perfect|perfect]] for my white window. She writes my [[bill|bill]] on paper and adds a little drawing of a fish. “You [[should|should]] wash it separately the first time,” she says. Walking back beside the clear river, I understand why this town cares about both its cloth and its water."
+  ],
+  "zh": [
+    "在岛的西南部，游客们为了蓝布来到纳洛。每逢周五，手艺人都会在河边每周一次的集市上出售布包和衬衫。但这条河不只是一个适合拍照的美丽地方。镇上的一项法规规定，作坊不得将染蓝的污水排入河中。这条规定有助于保护自然环境，让鱼儿能在河里安全地生活。",
+    "在一家小作坊里，一位名叫米拉的手艺人向我展示她如何给棉布染色。她用的是屋后种植的植物叶子。她解释说，即使是被植物弄脏的水，也可能使鱼死亡。她用过的水流入一个大水箱，而不是河里。聊完后，我们一起从蓝色染液中拉出一长块棉布。我的双手也变蓝了。",
+    "米拉把布挂到外面，让暖风将它吹干。我选了一小块，准备做厨房窗帘。它的颜色与我家的白色窗户十分相配。她把我的账单写在纸上，还画了一条小鱼。“第一次洗的时候，你应该把它单独洗，”她说。沿着清澈的河流往回走时，我明白了这座小镇为什么既珍爱自己的布，也珍爱自己的水。"
+  ],
+  "q": [
+    {
+      "s": "The town's law about dirty water started last year.",
+      "a": "NG",
+      "why": "文章说明了法规内容，但未说明实施时间。"
+    },
+    {
+      "s": "Mira sends her used water into a large tank.",
+      "a": "T",
+      "why": "第二段明确说用过的水进入大水箱。"
+    },
+    {
+      "s": "Mira says to wash the cloth with other things the first time.",
+      "a": "F",
+      "why": "米拉建议第一次将布单独洗。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0514",
+  "ids": [
+    "extend",
+    "friction",
+    "recession",
+    "pest",
+    "insure",
+    "wreck",
+    "determine",
+    "outcome",
+    "herd",
+    "gadget"
+  ],
+  "title": "A Scratching Post on the Marsh",
+  "titleZh": "盐沼上的蹭痒柱",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "18 June, coastal grazing marsh. At seven this morning, I found the cattle beside the fenced [[wreck|wreck]] of a farm truck. Beyond it, swallows flew low over wet grass. The farmer, Amara, explained that the last [[recession|recession]] had delayed replacing the vehicle. She could now afford to [[insure|insure]] a replacement, but my visit concerned the health of her [[herd|herd]], not her transport.",
+    "Several cows had bare patches around their shoulders. Amara suspected a biting [[pest|pest]], although repeated rubbing against rough fence posts could also explain the damage. To [[determine|determine]] the cause, we examined ten animals and recorded the position of each patch. A small [[gadget|gadget]] that clipped a magnifying lens onto my torch revealed tiny lice among the hairs of eight cows.",
+    "Following veterinary treatment, we fitted a broad, soft brush to a wooden post on dry ground. It offered a place to scratch without the intense [[friction|friction]] produced by splintered timber. I watched the animals approach cautiously, then lean into the bristles. One older cow returned four times within an hour, while two younger animals ignored it completely.",
+    "We will [[extend|extend]] our observations through July rather than judge the [[outcome|outcome]] from one morning. New hair will take time to appear, and scratching alone cannot show whether lice remain. Before leaving, I marked the same ten cows on our recording sheet. Behind me, the older cow stood quietly beside the brush, chewing."
+  ],
+  "zh": [
+    "6月18日，海岸放牧盐沼。今天早上七点，我发现牛群聚在一辆被围栏隔开的农用卡车残骸旁。残骸后方，燕子低低地掠过湿草地。农场主阿玛拉解释说，上一次经济衰退让她推迟了换车计划。如今她已经负担得起给替换车辆投保的费用，不过，我这次来关心的是她的牛群健康，而不是交通工具。",
+    "几头牛的肩部周围出现了脱毛斑。阿玛拉怀疑是叮咬牲畜的害虫所致，但反复在粗糙的围栏柱上蹭擦也可能造成这种损伤。为了查明原因，我们检查了十头牛，并记录了每处脱毛斑的位置。我把一个小装置夹在手电筒上，借助上面的放大镜，在其中八头牛的毛间发现了细小的虱子。",
+    "兽医治疗后，我们在干燥地面的一根木柱上安装了一把宽大的软毛刷。牛可以在这里蹭痒，又不会像蹭擦带木刺的木料那样产生强烈摩擦。我看着它们小心地走近，随后把身体靠向刷毛。一头年纪较大的母牛在一小时内回来了四次，而两头较年轻的牛则完全没有理会它。",
+    "我们将把观察延长到整个七月，而不是根据一个早晨的情况判断结果。新毛长出来需要时间，仅凭蹭痒行为也无法判断虱子是否仍然存在。离开前，我在记录表上标出了同样的十头牛。在我身后，那头年长的母牛安静地站在毛刷旁，咀嚼着。"
+  ],
+  "q": [
+    {
+      "s": "The last recession had enabled Amara to replace the farm truck sooner than planned.",
+      "a": "F",
+      "why": "经济衰退推迟了换车，而非使其提前。"
+    },
+    {
+      "s": "The veterinarian recommended the particular brush installed on the marsh.",
+      "a": "NG",
+      "why": "文中未说明毛刷是否由兽医推荐。"
+    },
+    {
+      "s": "The observers plan to continue monitoring the cattle through July.",
+      "a": "T",
+      "why": "末段明确计划将观察延长至整个七月。"
+    }
+  ]
+}

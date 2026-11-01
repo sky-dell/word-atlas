@@ -1,0 +1,46 @@
+{
+  "id": "r0049",
+  "ids": [
+    "above",
+    "beginner",
+    "cry",
+    "buy",
+    "short",
+    "sentence",
+    "wear",
+    "day",
+    "homework",
+    "better"
+  ],
+  "title": "The Little Swimming Board",
+  "titleZh": "小小的游泳浮板",
+  "topic": "sport",
+  "cefr": 0,
+  "paras": [
+    "In 1935, a swimming club beside a lake had little money. It could not [[buy|buy]] much new equipment. A worker called Tomas made a swimming board from wood. It was [[short|short]], with smooth sides. A swimmer could hold it and move their legs in the water. After each lesson, Tomas put it on a shelf [[above|above]] the door. This kept the floor clear.",
+    "The first person to use it was Mina, a young [[beginner|beginner]]. On her first [[day|day]], she was afraid and started to [[cry|cry]]. Tomas stayed beside her in the lake. With the board, she could keep her face out of the water. That evening, her school [[homework|homework]] was to write about something new. She wrote one happy [[sentence|sentence]]: “I can swim with my legs!”",
+    "Over the years, more people came to the club. They had to [[wear|wear]] swimming hats, and everyone learned to kick with a board. Later, the club got soft, light boards. These were [[better|better]] for small hands than the heavy wooden one. But the club kept its first board. Mina returned as an old woman and smiled when she saw it."
+  ],
+  "zh": [
+    "1935年，湖边的一家游泳俱乐部没有多少钱，买不起太多新器材。一位叫托马斯的工人用木头做了一块游泳浮板。它不长，边缘很光滑。游泳的人可以扶着它，在水里踢腿。每次上完课，托马斯都会把它放在门上方的架子上。这样地面就不会堆着东西。",
+    "第一个使用它的人是米娜，一个年纪不大的初学者。第一天，她很害怕，哭了起来。托马斯在湖里一直陪在她身边。有了浮板，她就能让脸保持在水面上。那天晚上，她的学校家庭作业是写一件新鲜事。她写下了一句高兴的话：“我能用腿游泳了！”",
+    "这些年来，来俱乐部的人越来越多。他们必须戴泳帽，每个人都扶着浮板学踢腿。后来，俱乐部添置了柔软、轻便的浮板。比起那块沉重的木板，这些浮板更适合小手使用。不过，俱乐部保留了第一块浮板。米娜年老后再次来到这里，看到它时露出了笑容。"
+  ],
+  "q": [
+    {
+      "s": "The club kept the wooden board on a shelf above the door.",
+      "a": "T",
+      "why": "课后，木浮板被放在门上方的架子上。"
+    },
+    {
+      "s": "Mina was not afraid on her first day.",
+      "a": "F",
+      "why": "第一天她很害怕，还哭了起来。"
+    },
+    {
+      "s": "Mina later taught her own children to swim at the club.",
+      "a": "NG",
+      "why": "文章未提及米娜是否教自己的孩子游泳。"
+    }
+  ]
+}

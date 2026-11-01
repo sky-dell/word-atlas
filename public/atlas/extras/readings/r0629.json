@@ -1,0 +1,48 @@
+{
+  "id": "r0629",
+  "ids": [
+    "defendant",
+    "irrigate",
+    "proximity",
+    "residue",
+    "analogy",
+    "flicker",
+    "aerodynamics",
+    "recurrence",
+    "oasis",
+    "defraud"
+  ],
+  "title": "A Garden Drawn by Wind",
+  "titleZh": "风绘花园",
+  "topic": "arts",
+  "cefr": 4,
+  "paras": [
+    "This exhibition imagines a garden created by the fictional artist Samira Nadir beside a desert [[oasis|oasis]]. Neither conventional sculpture nor agricultural machinery, her installation uses rotating copper leaves to power small pumps that [[irrigate|irrigate]] narrow beds of indigo. Its [[proximity|proximity]] to a caravan route brings travellers past the work before they reach the settlement's shaded courtyards.",
+    "In the first gallery, a model leaf reveals how artistic ambition depends on practical experimentation. In the exhibition's story, Nadir consults an engineer familiar with [[aerodynamics|aerodynamics]], then adjusts the leaves to catch the wind. Blue [[residue|residue]] inside a collecting vessel is consistent with her notebooks' account of processing plants into dye. Nearby, lights [[flicker|flicker]] across a model, recreating the garden's unstable reflections.",
+    "The second gallery introduces a less harmonious episode. A merchant alleges that Nadir has tried to [[defraud|defraud]] him by selling ordinary dyed cloth as fabric coloured with a rare mineral. As the [[defendant|defendant]] in the resulting civil case, she submits notebooks recording every ingredient. Displayed beside the disputed textile, these pages show that she explicitly described its colour as plant-derived.",
+    "The final room follows repairs after sand repeatedly obstructs the pumps. To prevent a [[recurrence|recurrence]], Nadir adds removable mesh screens, represented here by a working model. The curator offers an [[analogy|analogy]] with musical notation: the machinery supplies a structure, but wind determines each performance. Through an open window, visitors can watch the reconstructed leaves turn at varying speeds."
+  ],
+  "zh": [
+    "本展览设想了一座由虚构艺术家萨米拉·纳迪尔在沙漠绿洲旁建造的花园。她的装置既不是传统雕塑，也不是农业机械，而是利用旋转的铜叶片驱动小型水泵，灌溉狭长的靛蓝植物种植畦。花园紧邻一条商队路线，因此旅人在抵达聚落中绿荫覆盖的庭院之前，会先经过这件作品。",
+    "第一展厅中，一片模型叶片揭示了艺术抱负如何依赖实际试验。在展览的故事里，纳迪尔向一位熟悉空气动力学的工程师请教，随后调整叶片，使其能够迎风转动。一个收集容器内的蓝色残留物，与她笔记中将植物加工成染料的记载相符。旁边，灯光在模型上闪烁，再现花园中变幻不定的反光。",
+    "第二展厅介绍了一段不那么和谐的插曲。一名商人指称，纳迪尔试图将普通染布冒充用稀有矿物着色的织物出售，以骗取他的钱财。在由此引发的民事诉讼中，作为被告的她提交了记录每一种原料的笔记。这些笔记与涉案织物一同展出，表明她曾明确说明织物的颜色来自植物。",
+    "最后一个展厅讲述了沙粒反复堵塞水泵后的修复过程。为防止问题再次发生，纳迪尔加装了可拆卸的网罩，展厅通过一个可运行的模型呈现这一设计。策展人以乐谱作类比：机械提供结构，风则决定每一次演出的样貌。透过一扇打开的窗户，参观者可以看到复原的叶片以不同速度转动。"
+  ],
+  "q": [
+    {
+      "s": "Nadir chose the garden's location on an engineer's advice.",
+      "a": "NG",
+      "why": "文中未说明谁建议选择花园的位置。"
+    },
+    {
+      "s": "Nadir's notebooks describe processing plants into dye.",
+      "a": "T",
+      "why": "第二段明确提到笔记记载了植物制染料。"
+    },
+    {
+      "s": "Nadir's notebooks identify a mineral as the source of the textile's colour.",
+      "a": "F",
+      "why": "第三段说明笔记明确记载颜色来自植物。"
+    }
+  ]
+}

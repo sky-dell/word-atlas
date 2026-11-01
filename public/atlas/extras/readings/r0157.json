@@ -1,0 +1,46 @@
+{
+  "id": "r0157",
+  "ids": [
+    "neck",
+    "car-park",
+    "lamp",
+    "grape",
+    "pan",
+    "step",
+    "foggy",
+    "double",
+    "carpet",
+    "twin"
+  ],
+  "title": "Breakfast Above the Fog",
+  "titleZh": "雾气上方的早餐",
+  "topic": "society",
+  "cefr": 1,
+  "paras": [
+    "On autumn Sundays, neighbours meet for breakfast at a village hall on a hill. Some mornings are so [[foggy|foggy]] that people cannot see the [[car-park|car park]] below. A [[lamp|lamp]] beside the hall door helps them find their way. Inside, Mina puts [[grape|grapes]] into bowls while her [[twin|twin]], Sami, warms bread in a large [[pan|pan]]. They make [[double|double]] the usual amount of bread because more neighbours are coming.",
+    "The fog begins to form during the night. Under a clear sky, the ground loses heat. It then cools the air just above it. When this air becomes cold enough, some water in it turns into tiny drops. These drops hang in the air and make fog. Cold air also moves downhill, so the valley below the hall often fills with fog first.",
+    "After breakfast, Mina wraps a scarf around her [[neck|neck]] and goes outside. She takes one careful [[step|step]] onto the wet path. Tiny drops have collected on the stones and grass. Sami stays on the dry [[carpet|carpet]] by the open door. As sunlight warms the valley, the drops turn back into water vapour, which people cannot see. Soon the neighbours can see their homes below, and breakfast above the clouds is over."
+  ],
+  "zh": [
+    "秋天的星期日，邻居们会到山丘上的村民活动室一起吃早餐。有些早晨雾很大，大家看不见下方的停车场。活动室门旁的一盏灯帮助他们找到路。屋里，米娜把葡萄装进碗里，与她同为双胞胎的萨米则用一口大平底锅加热面包。他们准备了平时两倍的面包，因为会有更多邻居来。",
+    "雾在夜间开始形成。天空晴朗时，地面会散失热量，随后使紧贴地面的空气冷却。当这些空气变得足够冷时，其中的一部分水分就会变成小水滴。这些水滴悬浮在空气中，形成了雾。冷空气还会向山下流动，因此，活动室下方的山谷往往最先被雾填满。",
+    "早餐后，米娜在脖子上围好围巾，走到外面。她小心地迈出一步，踏上湿漉漉的小路。石头和草上已经聚集了细小的水滴。萨米留在敞开的门旁，站在干燥的地毯上。随着阳光使山谷变暖，水滴重新变成人们看不见的水蒸气。很快，邻居们就能看见下面各自的家了，这场云雾上方的早餐也结束了。"
+  ],
+  "q": [
+    {
+      "s": "Mina and Sami make more bread because more neighbours are coming.",
+      "a": "T",
+      "why": "第一段说邻居来得更多，所以面包准备了两倍。"
+    },
+    {
+      "s": "The valley usually becomes foggy later than the hill.",
+      "a": "F",
+      "why": "第二段说冷空气下沉，山谷往往先起雾。"
+    },
+    {
+      "s": "Mina bought her scarf at a village shop.",
+      "a": "NG",
+      "why": "文章只说米娜围上围巾，未提购买地点。"
+    }
+  ]
+}

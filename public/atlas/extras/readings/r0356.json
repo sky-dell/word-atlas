@@ -1,0 +1,48 @@
+{
+  "id": "r0356",
+  "ids": [
+    "variation",
+    "honour",
+    "deny",
+    "bond",
+    "globe",
+    "constantly",
+    "habitat",
+    "assessment",
+    "loop",
+    "disgrace"
+  ],
+  "title": "The Cemetery After Dark",
+  "titleZh": "夜幕下的墓园",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "An unexpected evening attraction has emerged in the coastal village of Bellwick: its old cemetery. Visitors once came mainly to read historic gravestones, but increasing numbers now arrive after sunset to watch moths. A monthly walk follows a short [[loop|loop]] through the grounds, where long grass provides a rich [[habitat|habitat]] for insects.",
+    "The change began when gardener Amara Silva stopped cutting several strips of grass. Some residents complained that the grounds looked abandoned. Silva did not [[deny|deny]] that they appeared untidy, but an initial [[assessment|assessment]] revealed eleven moth species among the flowers. Later counts showed considerable [[variation|variation]] between closely cut areas and the taller vegetation, which supported far more insects.",
+    "Now volunteers record visitors to a white sheet lit by a special lamp. The list is [[constantly|constantly]] updated as different species appear through the seasons. Inside the entrance lodge, a [[globe|globe]] helps guides explain where some migrating moths originate. Watching these delicate arrivals has also strengthened the [[bond|bond]] between older residents and newcomers, who compare observations over tea after each walk.",
+    "For Bellwick, the project carries particular meaning. A corner of the cemetery was once used for illegal rubbish dumping, a source of [[disgrace|disgrace]] for those responsible. Today, residents consider it an [[honour|honour]] to lead the evening visitors. The grass still looks untidy to some, but it now represents something quite different: a place becoming more alive."
+  ],
+  "zh": [
+    "海滨村庄贝尔威克出现了一处意想不到的夜间景点：村里的老墓园。过去，游客主要来这里阅读历史悠久的墓碑，如今却有越来越多的人在日落后到访，观察飞蛾。每月一次的步行活动沿着园内一条短短的环形路线展开，沿途的高草为昆虫提供了丰富的栖息环境。",
+    "这一变化始于园丁阿玛拉·席尔瓦停止修剪几条带状区域的草。一些居民抱怨，墓园看起来像是无人照管。席尔瓦并不否认这些地方显得杂乱，但初步评估发现，花丛中有十一种飞蛾。后续统计显示，修剪得很短的区域与植被较高的区域差异明显，后者容纳的昆虫多得多。",
+    "如今，志愿者会记录被特殊灯光吸引到一块白布上的昆虫。随着不同物种在四季中陆续出现，记录名单也在不断更新。在入口处的小屋里，讲解员借助地球仪说明一些迁徙飞蛾来自哪里。观察这些纤巧的小生命，也拉近了老居民与新搬来居民之间的距离。每次步行活动结束后，大家都会一边喝茶，一边交流观察结果。",
+    "对贝尔威克而言，这个项目有着特殊意义。墓园的一角曾被用于非法倾倒垃圾，让那些涉事者蒙羞。如今，居民们却以带领夜间游客参观为荣。在一些人眼中，草地依然杂乱，但它现在传达的意义已截然不同：这里正变得更加生机勃勃。"
+  ],
+  "q": [
+    {
+      "s": "The cemetery is attracting more people who want to observe insects at night.",
+      "a": "T",
+      "why": "首段指出，越来越多的人日落后来观察飞蛾。"
+    },
+    {
+      "s": "The initial assessment took a full week to complete.",
+      "a": "NG",
+      "why": "第二段未说明初步评估花了多长时间。"
+    },
+    {
+      "s": "The volunteers keep the species list unchanged throughout the year.",
+      "a": "F",
+      "why": "第三段说名单随不同物种出现而不断更新。"
+    }
+  ]
+}

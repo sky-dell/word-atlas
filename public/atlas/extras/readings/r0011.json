@@ -1,0 +1,46 @@
+{
+  "id": "r0011",
+  "ids": [
+    "spring",
+    "rome",
+    "band",
+    "east",
+    "banana",
+    "camera",
+    "menu",
+    "girl",
+    "answer",
+    "line"
+  ],
+  "title": "The Farm Race",
+  "titleZh": "农场赛跑",
+  "topic": "sport",
+  "cefr": 0,
+  "paras": [
+    "In the [[spring|spring]] of 1978, a small running race began on a farm near [[rome|Rome]]. The farmer, Rosa, wanted a day of sport for her family and friends. But where could they run? Her young son had an [[answer|answer]]: use the long road beside the apple trees. Rosa made a white [[line|line]] on the road. The runners started behind it.",
+    "The first race had twelve runners. They ran towards the [[east|east]], with the morning sun in front of them. A [[girl|girl]] called Amina came first. Rosa's brother took her picture with his old [[camera|camera]]. After the race, everyone sat under the trees. There was no [[menu|menu]] to read. Rosa gave each person bread, water and a [[banana|banana]]. Everyone ate together.",
+    "The next year, more people came. A [[band|band]] played beside the road, and children danced to the music. Over time, the race became a special day for the nearby village. The food changed, and the runners got numbers to wear. But one thing stayed the same. Before every race, someone drew a white mark across the old farm road, just as Rosa did."
+  ],
+  "zh": [
+    "1978年春天，罗马附近的一座农场举办了一场小型赛跑。农场主罗莎想让家人和朋友一起运动一天。可是，他们能在哪里跑呢？她年幼的儿子想出了一个办法：就在苹果树旁的那条长路上跑。罗莎在路上画了一条白线。跑步的人从白线后面起跑。",
+    "第一场比赛有十二人参加。他们向东跑去，迎着早晨的太阳。一个叫阿米娜的女孩得了第一名。罗莎的兄弟用他的旧相机给她拍了照。比赛后，大家坐在树下。这里没有菜单可看。罗莎给每个人发了面包、水和一根香蕉。大家一起吃了起来。",
+    "第二年，来的人更多了。一支乐队在路旁演奏，孩子们随着音乐跳舞。渐渐地，比赛成了附近村庄的一个特别的日子。食物变了，跑步的人也开始佩戴号码。但有一件事一直没变。每次比赛前，总有人像当年的罗莎一样，在农场的老路上画一道白色的标记。"
+  ],
+  "q": [
+    {
+      "s": "Rosa's son was ten years old at the first race.",
+      "a": "NG",
+      "why": "只说儿子年幼，未说明具体年龄。"
+    },
+    {
+      "s": "Twelve people ran in the first race.",
+      "a": "T",
+      "why": "第二段明确说第一场有十二名跑者。"
+    },
+    {
+      "s": "Fewer people came in the second year than in the first year.",
+      "a": "F",
+      "why": "第三段明确说第二年来的人更多。"
+    }
+  ]
+}

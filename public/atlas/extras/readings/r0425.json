@@ -1,0 +1,48 @@
+{
+  "id": "r0425",
+  "ids": [
+    "correspond",
+    "vast",
+    "segment",
+    "scout",
+    "substitute",
+    "sprinkle",
+    "loneliness",
+    "infectious",
+    "hazard",
+    "glow"
+  ],
+  "title": "Decisions Beyond the Map",
+  "titleZh": "地图之外的抉择",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "How do people make decisions when reliable information is scarce? This exhibition explores that question through an imaginary nineteenth-century desert expedition. At its centre stands a [[vast|vast]] relief map, created for the fictional journey. The marks on its surface [[correspond|correspond]] to water sources, camps and routes described in the journals displayed nearby.",
+    "Begin with the eastern [[segment|segment]] of the map, where a wooden figure represents a [[scout|scout]] sent ahead to examine a narrow valley. Visitors receive three reports: one describes animal tracks, another mentions dry wells, and a third records distant clouds. Choose a route before opening the drawer containing the expedition leader's decision. There is no perfectly safe answer.",
+    "The next display examines health, isolation and judgement. A cracked cup recalls the danger of sharing drinking vessels when an [[infectious|infectious]] disease spreads through a camp. Beside it, a diary describes the writer's [[loneliness|loneliness]] during weeks away from home. The writer also admits that familiar routines were no reliable [[substitute|substitute]] for discussing difficult route choices with a trusted companion.",
+    "At the final table, [[sprinkle|sprinkle]] wooden grains over a model slope to see how loose ground can become a [[hazard|hazard]]. Small lamps then [[glow|glow]] beneath routes that avoid the unstable area. Before leaving, compare your first choice with your final one. The exhibition's point is not that careful thinkers never make mistakes, but that they remain willing to revise a decision when the evidence changes."
+  ],
+  "zh": [
+    "当可靠的信息不足时，人们如何作出决定？本展览通过一次虚构的十九世纪沙漠探险来探讨这个问题。展厅中央是一幅为这段虚构旅程制作的巨型地形浮雕地图。地图表面的标记与旁边展出的日志中描述的水源、营地和路线对应。",
+    "请先观看地图的东部区域。那里的一尊木制人偶代表一名被派往前方狭窄山谷探查情况的侦察员。参观者会收到三份报告：一份描述动物的足迹，一份提到干涸的水井，另一份记录远处的云层。请先选择一条路线，再打开抽屉，查看探险队领队的决定。没有任何一个答案是绝对安全的。",
+    "下一个展区探讨健康、孤立与判断。一只开裂的杯子提醒人们：当传染病在营地中蔓延时，共用饮水器具会带来危险。旁边的一本日记描述了作者离家数周期间的孤独感。作者还承认，在路线选择难以决定时，遵循熟悉的惯例并不能可靠地替代与信任的同伴商量。",
+    "在最后一张展台上，请将木颗粒撒在斜坡模型上，观察松散的地面如何成为安全隐患。随后，避开不稳定区域的路线下方会亮起柔和的小灯。离开前，请比较自己最初与最终的选择。本展览想表达的并不是谨慎思考的人从不犯错，而是当证据发生变化时，他们仍愿意调整决定。"
+  ],
+  "q": [
+    {
+      "s": "The central map took six months to make.",
+      "a": "NG",
+      "why": "文章未说明中央地图的制作时间。"
+    },
+    {
+      "s": "Visitors choose a route before checking the expedition leader's decision.",
+      "a": "T",
+      "why": "第二段要求先选路线，再查看领队决定。"
+    },
+    {
+      "s": "The lamps mark routes that pass through the unstable area.",
+      "a": "F",
+      "why": "灯光标示的是避开不稳定区域的路线。"
+    }
+  ]
+}

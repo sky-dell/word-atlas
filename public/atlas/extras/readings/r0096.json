@@ -1,0 +1,46 @@
+{
+  "id": "r0096",
+  "ids": [
+    "tour",
+    "apartment",
+    "among",
+    "toast",
+    "couch",
+    "field",
+    "online",
+    "armchair",
+    "musician",
+    "since"
+  ],
+  "title": "When Fresh Air Was Medicine",
+  "titleZh": "当新鲜空气被当作良药",
+  "topic": "health",
+  "cefr": 1,
+  "paras": [
+    "In the late nineteenth century, doctors often sent people with a serious lung illness to special country hospitals. They believed that fresh air, food and rest could help. These hospitals stood [[among|among]] trees, far from busy streets. A patient might leave a small city [[apartment|apartment]] and spend months there. Outside the bedroom window, there was often a garden or a green [[field|field]] where cows ate grass.",
+    "Life followed a slow daily plan. After a breakfast of eggs and [[toast|toast]], patients went outside. They lay on a long [[couch|couch]] under a roof, even in cold weather. Thick blankets kept them warm. Someone who could sit up might use an [[armchair|armchair]] instead. Talking was sometimes limited because rest was so important. At some hospitals, a visiting [[musician|musician]] played quiet music to make the long days more pleasant.",
+    "From the 1940s, new medicines began to change care for this illness. Many of the old hospitals have closed [[since|since]] that time. Some buildings now welcome visitors. A guided [[tour|tour]] can show the wide outdoor spaces where patients rested. Old photographs in [[online|online]] collections also tell this story. The empty chairs remind us of a time when getting well meant waiting through the seasons."
+  ],
+  "zh": [
+    "十九世纪末，医生常把患有严重肺病的人送到乡间的专门医院。他们相信，新鲜空气、食物和休息能有所帮助。这些医院坐落在树林中，远离繁忙的街道。病人可能离开城里的小公寓，在那里住上几个月。卧室窗外常常有一座花园，或是一片奶牛吃草的绿色牧场。",
+    "每天的生活都按照缓慢的节奏进行。早餐吃过鸡蛋和烤面包片后，病人们便到室外去。即使天气寒冷，他们也会躺在有顶棚遮挡的长沙发上。厚毯子让他们保持温暖。能够坐起来的人则可能改坐扶手椅。有时，说话也受到限制，因为休息非常重要。在一些医院，来访的乐手会演奏轻柔的音乐，让漫长的日子过得愉快一些。",
+    "从二十世纪四十年代起，新药开始改变这种疾病的治疗方式。自那以后，许多老医院陆续关闭。有些建筑如今向游客开放。跟随导览参观，人们可以看到病人当年休息的宽阔户外空间。网上藏品中的老照片也讲述着这段历史。那些空椅子提醒我们：曾经有一个时代，康复意味着在四季更替中等待。"
+  ],
+  "q": [
+    {
+      "s": "Patients paid for their stay at the country hospitals.",
+      "a": "NG",
+      "why": "首段介绍住院情况，未说明病人是否付费。"
+    },
+    {
+      "s": "Patients rested outdoors only when the weather was warm.",
+      "a": "F",
+      "why": "第二段说即使天冷，病人也在室外躺着。"
+    },
+    {
+      "s": "Old photographs online tell the story of these hospitals.",
+      "a": "T",
+      "why": "末段明确说网上的老照片也讲述这段历史。"
+    }
+  ]
+}

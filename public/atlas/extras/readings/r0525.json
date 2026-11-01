@@ -1,0 +1,48 @@
+{
+  "id": "r0525",
+  "ids": [
+    "retreat",
+    "swell",
+    "photographic",
+    "fantasy",
+    "context",
+    "golden",
+    "abstract",
+    "majority",
+    "narrator",
+    "suffix"
+  ],
+  "title": "Amber After Rain",
+  "titleZh": "雨后的琥珀",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "At dawn, I returned to a fallen oak beside the stream to inspect the jelly fungi recorded the previous week. After two dry days, they had resembled dark flakes. Overnight rain had caused them to [[swell|swell]], and now their [[golden|golden]] folds shone against the wet bark. I counted seventeen clusters along one branch.",
+    "My [[photographic|photographic]] record included a ruler beside each cluster, but images alone could not explain the change. The [[context|context]] mattered: rainfall, shade and the condition of the wood all belonged in the notebook. The [[majority|majority]] of the clusters occupied the branch's sheltered underside, where moisture remained after the exposed surface began to dry.",
+    "For an audio diary, I became the [[narrator|narrator]] of this small transformation. When a technical term with an unfamiliar [[suffix|suffix]] interrupted the flow, I replaced it with a plain description: the fungus looked like jelly. The idea of a tree producing sweets belonged to [[fantasy|fantasy]], yet the comparison captured something useful about the fungus's texture. Water absorption was no longer an [[abstract|abstract]] process; its effects were visible in folds that had nearly doubled in width.",
+    "By mid-morning, rising water forced me to [[retreat|retreat]] from the slippery bank. From higher ground, I made one final note: these striking forms were not permanent. As the branch dried, they would shrink again. I marked the oak's position on my map, ready to return when the weather changed and the same quiet experiment began another cycle."
+  ],
+  "zh": [
+    "黎明时，我回到溪边一棵倒下的橡树旁，查看上周记录过的胶质真菌。经过两天干燥天气，它们看起来像深色的薄片。一夜的雨水使它们膨胀起来，此刻，金色的褶皱映着湿润的树皮闪闪发亮。我沿着一根树枝数了数，共有十七簇。",
+    "拍照记录时，我在每簇真菌旁都放了一把尺子，但仅凭图像无法解释这种变化。具体环境很重要：降雨、遮阴情况和木材状况都需要记入笔记。大多数菌簇长在树枝较为隐蔽的下侧；当暴露在外的表面开始变干时，那里仍保留着水分。",
+    "录制有声日记时，我成了这场微小变化的叙述者。当一个带有陌生后缀的专业术语使叙述变得不流畅时，我把它换成了直白的描述：这种真菌看起来像果冻。树木长出糖果只是幻想，但这个比喻确实传达了真菌质地的某些特点。吸水不再是一个抽象的过程：那些宽度几乎翻了一番的褶皱，让它的效果清晰可见。",
+    "上午过了一半时，水位上涨，迫使我从湿滑的溪岸退开。在地势较高的地方，我记下最后一条观察：这些引人注目的形态并非永久不变。随着树枝变干，它们还会再次收缩。我在地图上标出了橡树的位置，准备等天气变化、这场安静的实验进入下一轮循环时再来。"
+  ],
+  "q": [
+    {
+      "s": "The fungi were smaller after the overnight rain than during the dry weather.",
+      "a": "F",
+      "why": "一夜雨水使真菌膨胀，而非缩小。"
+    },
+    {
+      "s": "Most of the clusters grew on the sheltered underside of the branch.",
+      "a": "T",
+      "why": "第二段说明多数菌簇位于树枝隐蔽的下侧。"
+    },
+    {
+      "s": "The observer planned to bring another researcher on the next visit.",
+      "a": "NG",
+      "why": "文中只说准备再来，未提及同行者。"
+    }
+  ]
+}

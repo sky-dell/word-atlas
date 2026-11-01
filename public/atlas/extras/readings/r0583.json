@@ -1,0 +1,48 @@
+{
+  "id": "r0583",
+  "ids": [
+    "precedence",
+    "resonance",
+    "apologetic",
+    "stoop",
+    "postmortem",
+    "certify",
+    "heighten",
+    "advocate",
+    "tigress",
+    "aptitude"
+  ],
+  "title": "The Economics of Animal Replicas",
+  "titleZh": "动物复制模型的经济价值",
+  "topic": "economy",
+  "cefr": 4,
+  "paras": [
+    "At a wildlife sanctuary in the fictional hill town of Merava, an unexpected business is helping finance animal care: the manufacture of anatomically accurate replicas. Buyers once requested dramatic hunting poses; increasingly, however, they order animals sleeping or stretching. Educational value now takes [[precedence|precedence]] over spectacle, according to the workshop's order book, which records nineteen commissions this year.",
+    "The change began with Suri, an elderly [[tigress|tigress]] whose quiet habits had acquired considerable emotional [[resonance|resonance]] among visitors. After she died, a [[postmortem|postmortem]] established that heart disease was the cause. Using measurements collected by veterinary staff, sculptor Amara Chen produced a model of Suri resting. Visitors would [[stoop|stoop]] beside its platform to examine the remarkably convincing paws.",
+    "Chen, whose [[aptitude|aptitude]] for modelling first emerged while repairing theatrical scenery, initially sounded [[apologetic|apologetic]] about charging museums for copies. Yet each sale covered several weeks of veterinary supplies. Independent specialists now [[certify|certify]] the anatomical accuracy of every design before production. The workshop also publishes its material costs, although it does not disclose individual employees' wages.",
+    "Some conservation educators [[advocate|advocate]] this commercial approach because an ordinary resting posture can [[heighten|heighten]] awareness of an animal's vulnerability more effectively than a display of teeth. Demand has allowed the sanctuary to employ two additional craftspeople without increasing admission charges. Whether orders will remain strong is uncertain, but the workshop has already overturned one assumption: wildlife merchandise need not make animals look fearsome to make their protection economically worthwhile."
+  ],
+  "zh": [
+    "在虚构山城梅拉瓦的一家野生动物保护中心，一项出人意料的业务正在为动物照护提供资金：制作解剖结构准确的动物复制模型。买家过去常要求制作富有戏剧性的捕猎姿态，如今却越来越多地订购睡眠或伸展身体的动物模型。根据工坊的订单簿，教育价值现在已优先于视觉上的震撼效果；今年簿上已登记了十九笔委托订单。",
+    "这一变化始于一只名叫苏丽的年老雌虎。它安静的生活习性曾让游客产生深厚的情感共鸣。它死后，尸体检验确定死因为心脏病。雕塑师阿玛拉·陈利用兽医工作人员采集的测量数据，制作了一个苏丽休息时的模型。游客会在模型展台旁俯下身，仔细观察那些逼真得令人惊叹的虎爪。",
+    "陈的造型天赋最初是在修补舞台布景时显露出来的。起初，说起向博物馆收取复制模型的费用，她的语气带着歉意。然而，每售出一件模型，所得就足以支付数周的兽医用品开销。如今，每个设计在投入生产前，都会由独立专家正式认证其解剖结构的准确性。工坊还会公布材料成本，但不披露员工个人的工资。",
+    "一些自然保护教育工作者公开支持这种商业模式，因为比起龇牙的造型，普通的休息姿态可能更能增强人们对动物脆弱性的认识。市场需求使保护中心得以在不提高门票价格的情况下，增聘两名工匠。订单能否持续旺盛尚不确定，但工坊已经推翻了一种假设：野生动物商品不必把动物塑造得凶猛可怕，也能让保护它们在经济上变得值得。"
+  ],
+  "q": [
+    {
+      "s": "The workshop's customers are increasingly choosing relaxed animal poses rather than scenes of predatory action.",
+      "a": "T",
+      "why": "首段说买家越来越多订购睡眠或伸展姿态。"
+    },
+    {
+      "s": "Chen's aptitude for modelling first emerged when she made the model of Suri.",
+      "a": "F",
+      "why": "她的天赋最初在修补舞台布景时显露。"
+    },
+    {
+      "s": "The two newly recruited craftspeople earn more than the sanctuary's animal keepers.",
+      "a": "NG",
+      "why": "文章未比较新工匠与动物饲养员的工资。"
+    }
+  ]
+}

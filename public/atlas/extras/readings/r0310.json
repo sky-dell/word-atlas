@@ -1,0 +1,48 @@
+{
+  "id": "r0310",
+  "ids": [
+    "puzzle",
+    "spoil",
+    "bleed",
+    "choir",
+    "element",
+    "creative",
+    "sail",
+    "boxing-day",
+    "murder",
+    "district"
+  ],
+  "title": "An Island Mystery Made of Sound",
+  "titleZh": "声音里的海岛谜案",
+  "topic": "travel",
+  "cefr": 2,
+  "paras": [
+    "Visitors to Bell Island can explore its harbour with their ears as well as their eyes. In this small coastal [[district|district]], a museum offers a [[creative|creative]] walking tour built around recorded sounds. Visitors become detectives, using what they hear to solve a fictional [[murder|murder]] from a hundred years ago.",
+    "The tour begins with a short boat trip. As visitors [[sail|sail]] towards the island, headphones play the first clue: a church [[choir|choir]] singing behind a man's voice. The story takes place on [[boxing-day|Boxing Day]], December 26. A written note claims that the man was far from the church, but the recording suggests otherwise.",
+    "Sound is an important [[element|element]] in how we understand places. Our brains compare what we hear with sounds stored in memory. Here, each recording becomes a small [[puzzle|puzzle]]. Was that a door closing or a wave hitting wood? Visitors often listen twice. Pictures could [[spoil|spoil]] the challenge by revealing the answer too quickly.",
+    "The final clue waits beside an old fishing boat. A safety notice warns visitors not to touch broken metal, which can cut skin and make it [[bleed|bleed]]. Instead, they press a button to hear the ending. After the mystery is solved, many remove their headphones and notice the island's real sounds more clearly."
+  ],
+  "zh": [
+    "来到贝尔岛的游客，既可以用眼睛，也可以用耳朵探索港口。在这片小小的沿海地区，一家博物馆推出了一条富有创意的步行游览路线，以录制的声音为线索。游客化身侦探，根据听到的内容，破解一桩设定在一百年前的虚构谋杀案。",
+    "游览从一段短途乘船之旅开始。游客乘船驶向海岛时，耳机里会播放第一条线索：在一名男子说话的背景声中，教堂合唱团正在唱歌。故事发生在12月26日，也就是节礼日。一张纸条声称，当时这名男子离教堂很远，但录音却暗示情况并非如此。",
+    "声音是我们理解地点的重要要素。大脑会把听到的声音与记忆中储存的声音进行比较。在这里，每段录音都成了一道小小的益智题。那是关门声，还是海浪拍打木头的声音？游客常常会听两遍。如果配上图片，答案可能一下子就暴露了，从而破坏解谜的乐趣。",
+    "最后一条线索藏在一艘旧渔船旁。安全告示提醒游客不要触碰破损的金属，因为它可能划破皮肤，造成出血。游客不去触碰金属，而是按下一个按钮，听取故事的结局。谜案破解后，许多人摘下耳机，更清楚地注意到了岛上真实的声音。"
+  ],
+  "q": [
+    {
+      "s": "The recording supports the note's claim about the man's location.",
+      "a": "F",
+      "why": "录音暗示的位置与纸条的说法相反。"
+    },
+    {
+      "s": "Visitors often listen twice because the recordings are too quiet.",
+      "a": "NG",
+      "why": "提到常听两遍，但未说明是否因音量太低。"
+    },
+    {
+      "s": "A notice warns visitors not to touch broken metal near the old fishing boat.",
+      "a": "T",
+      "why": "旧渔船旁的安全告示提醒勿碰破损金属。"
+    }
+  ]
+}

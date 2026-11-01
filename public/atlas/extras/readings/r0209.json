@@ -1,0 +1,48 @@
+{
+  "id": "r0209",
+  "ids": [
+    "athlete",
+    "minibus",
+    "outdoor",
+    "curious",
+    "sweetheart",
+    "term",
+    "cosy",
+    "wage",
+    "scare",
+    "disappoint"
+  ],
+  "title": "A Lesson in Village Skittles",
+  "titleZh": "乡村木柱球体验课",
+  "topic": "education",
+  "cefr": 2,
+  "paras": [
+    "Every Saturday, a yellow [[minibus|minibus]] takes visitors from the coast to a small hill village. They come not just for the mountain views, but to learn a traditional game. In the village square, former [[athlete|athlete]] Mara teaches them to knock down wooden posts with a wooden ball.",
+    "The two-hour [[outdoor|outdoor]] lesson begins with a story. Years ago, farmers played here after bringing their sheep home. Mara explains that “skittle” is the English [[term|term]] for one of the posts. A [[curious|curious]] visitor asks why the posts have red tops. These make them easier to see against the pale stone walls, she explains.",
+    "Beginners stand close to the posts, while experienced players throw from farther away. The loud crash can [[scare|scare]] people at first, so Mara demonstrates before anyone starts. She warns that a first attempt may [[disappoint|disappoint]] them: strength matters less than careful movement. Soon, however, even the quietest visitors are cheering each other.",
+    "The village museum pays Mara a weekly [[wage|wage]] for these lessons. Afterwards, her [[sweetheart|sweetheart]], Tomas, serves tea in their [[cosy|cosy]] kitchen beside the square. There is no prize to take home. Instead, visitors leave knowing a game they can share, and understanding why the village still makes time to play."
+  ],
+  "zh": [
+    "每逢星期六，一辆黄色小巴都会把游客从海边送到一座山间小村。他们不仅为山景而来，也来学习一种传统游戏。在村里的广场上，退役运动员玛拉教大家用木球击倒木柱。",
+    "这堂两小时的户外体验课以一个故事开场。多年前，农民们把羊赶回家后，就会在这里玩这个游戏。玛拉解释说，英语中用“skittle”这个词来称呼游戏中的木柱。一位好奇的游客问，为什么木柱顶端涂成了红色。她解释，这样以浅色石墙为背景时，木柱就更容易看清。",
+    "初学者站在木柱附近，有经验的玩家则从更远的地方投球。木柱倒下时的巨响起初可能会吓到人，因此玛拉会在大家开始之前先做示范。她提醒大家，第一次尝试可能会令人失望：细心控制动作比力气更重要。不过，没过多久，连最安静的游客也开始互相加油了。",
+    "村里的博物馆每周付给玛拉一笔工资，请她教授这些体验课。课后，她的爱人托马斯会在他们位于广场旁温暖舒适的厨房里为大家端上茶。游客没有奖品可以带回家，却学会了一种可以与他人分享的游戏，也明白了为什么村里人至今仍会抽出时间来玩。"
+  ],
+  "q": [
+    {
+      "s": "Mara won a national sports prize before she began teaching visitors.",
+      "a": "NG",
+      "why": "只说她曾是运动员，未提是否获得全国体育奖。"
+    },
+    {
+      "s": "The outdoor lesson lasts two hours.",
+      "a": "T",
+      "why": "第二段明确说户外课为时两小时。"
+    },
+    {
+      "s": "Mara receives her weekly wage from the village school.",
+      "a": "F",
+      "why": "支付这份周薪的是村博物馆，而非学校。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0279",
+  "ids": [
+    "educate",
+    "impressed",
+    "obey",
+    "excitement",
+    "listener",
+    "attack",
+    "blow",
+    "storeroom",
+    "rid",
+    "antarctic"
+  ],
+  "title": "Small Boats, Southern Stories",
+  "titleZh": "小船里的南方故事",
+  "topic": "economy",
+  "cefr": 2,
+  "paras": [
+    "In the southern port of Bellamar, travellers waiting for [[antarctic|Antarctic]] trips often visit a tiny wooden-boat workshop. Its owner, Mara, makes models of the fishing boats once common here. The business supports three families, but it also helps [[educate|educate]] visitors about the port's working life.",
+    "On Saturday morning, there is [[excitement|excitement]] around a table covered with little blue boats. Before the workshop begins, everyone must [[obey|obey]] one rule: leave the sharp tools to Mara. Visitors paint instead. I am [[impressed|impressed]] by how she turns a plain piece of wood into a boat with a curved bow.",
+    "While we work, Mara tells stories about her grandfather at sea. Even the youngest [[listener|listener]] puts down his brush when she describes winds that [[blow|blow]] hard enough to carry fishing boxes across a deck. Later, she opens a [[storeroom|storeroom]] filled with wood saved from old buildings. Using this material has helped her [[rid|rid]] the workshop of almost all its plastic model parts.",
+    "Some shop owners [[attack|attack]] her prices, saying handmade gifts cost too much. Mara simply points to the hours each boat takes. Before my ship leaves, I buy a small green model. It costs more than a printed postcard, but I leave with both a boat and a story worth taking home."
+  ],
+  "zh": [
+    "在南方港口贝拉马尔，等待启程前往南极地区的游客常常会走进一家小小的木船作坊。店主玛拉制作的模型，是这里曾经常见的渔船。这门生意养活了三个家庭，也帮助游客了解这座港口的劳动生活。",
+    "星期六早上，一张摆满蓝色小船的桌子周围洋溢着兴奋的气氛。体验活动开始前，每个人都必须遵守一条规则：锋利的工具只能由玛拉使用。游客则负责上色。看着她把一块普通木头变成船头弯曲的小船，我十分佩服。",
+    "我们一边动手，玛拉一边讲述她祖父或外祖父出海的故事。她说海上的风大得能把装鱼的箱子吹着横穿甲板时，就连年纪最小的听众也放下了画笔。随后，她打开了一间储藏室，里面堆满了从旧建筑中回收的木料。使用这些材料，让她的作坊几乎完全摆脱了塑料模型零件。",
+    "一些店主猛烈批评她的定价，认为手工礼物太贵。玛拉只是提醒他们，制作每艘小船所需的工时。轮船出发前，我买了一艘绿色的小模型。它比印刷明信片贵，但我带走的不仅是一艘船，还有一个值得带回家的故事。"
+  ],
+  "q": [
+    {
+      "s": "Mara's business supports only one family.",
+      "a": "F",
+      "why": "第一段明确说这门生意养活了三个家庭。"
+    },
+    {
+      "s": "Visitors must leave the sharp tools to Mara.",
+      "a": "T",
+      "why": "活动规则要求锋利工具由玛拉使用。"
+    },
+    {
+      "s": "Mara sells more model boats in summer than in winter.",
+      "a": "NG",
+      "why": "文章未比较夏季与冬季的销量。"
+    }
+  ]
+}

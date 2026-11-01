@@ -1,0 +1,48 @@
+{
+  "id": "r0702",
+  "ids": [
+    "resultant",
+    "structural",
+    "segregate",
+    "craze",
+    "grim",
+    "forerunner",
+    "millennium",
+    "antiquated",
+    "corps",
+    "wedge"
+  ],
+  "title": "The Return of Washday",
+  "titleZh": "集体洗衣日的回归",
+  "topic": "daily",
+  "cefr": 4,
+  "paras": [
+    "In the hill town of Bellara, communal washing has become an unlikely weekend [[craze|craze]]. Residents who own perfectly serviceable washing machines now carry sheets to a restored washhouse beside the river. Bookings have doubled since April, and the [[resultant|resultant]] waiting list has surprised organisers, who initially expected only a few enthusiasts interested in domestic history.",
+    "The building’s prospects once looked [[grim|grim]]. A survey revealed [[structural|structural]] cracks beneath its roof, while its [[antiquated|antiquated]] drainage system regularly flooded the courtyard. Yet volunteers repaired rather than modernised its central washing benches. Carpenter Leila Haddad secured each replacement leg with a wooden [[wedge|wedge]], using a joint whose basic principle has remained familiar to craftspeople for more than a [[millennium|millennium]].",
+    "Records show that an army supply [[corps|corps]] established the washhouse to clean uniforms before civilian families gained access. Early rules attempted to [[segregate|segregate]] users by social class, assigning prosperous households separate hours. The current organisers regard a later cooperative laundry, which admitted everyone on equal terms, as the true [[forerunner|forerunner]] of their project. Its handwritten membership book now lies beneath glass near the entrance.",
+    "What attracts visitors, however, is less the historical display than the rhythm of shared labour. While two people twist a wet blanket, others exchange recipes or discuss repairs at home. Attendance records show that many have continued returning for several months. Organisers therefore no longer advertise an escape into the past: they offer something more practical, a weekly appointment during which an ordinary chore becomes an occasion for company."
+  ],
+  "zh": [
+    "在山城贝拉拉，集体洗衣意外成为一种周末时尚。明明家中有运转良好的洗衣机，居民们却开始抱着床单，前往河边一座修复后的公共洗衣房。自四月以来，预约量翻了一番，由此出现的候补名单让组织者颇感意外：他们原本以为，只有少数对家务生活史感兴趣的爱好者会来。",
+    "这座建筑的前景一度令人担忧。勘察发现，屋顶下方存在结构性裂缝，而陈旧的排水系统经常导致院内积水。不过，志愿者选择修复中央的洗衣台，而不是将其改造成现代设施。木匠莱拉·哈达德用木楔固定每一条新换的台腿，采用的接合方式，其基本原理为工匠所熟知已有一千多年。",
+    "档案显示，这座洗衣房最初由军队的一支补给部队设立，用于清洗军服，后来才向平民家庭开放。早期规定曾试图按社会阶层将使用者分开，为富裕家庭安排专用时段。如今的组织者认为，后来一家平等接纳所有人的合作洗衣社，才是他们这一项目真正的前身。那家洗衣社的手写会员名册，如今就陈列在入口附近的玻璃罩下。",
+    "然而，吸引访客的与其说是历史展览，不如说是共同劳动的节奏。两个人合力拧干湿毯子时，其他人便交换食谱，或讨论家里的修缮事项。出勤记录显示，许多人已连续数月反复前来。因此，组织者不再以逃离现实、重返过去为宣传口号，而是提供一种更实在的安排：每周相约一次，让普通家务成为与人相聚的机会。"
+  ],
+  "q": [
+    {
+      "s": "Residents can book washhouse sessions through an online system.",
+      "a": "NG",
+      "why": "首段提到预约，但未说明预约方式。"
+    },
+    {
+      "s": "The early rules assigned prosperous households the same hours as other civilian users.",
+      "a": "F",
+      "why": "早期规定为富裕家庭安排了单独时段。"
+    },
+    {
+      "s": "Organisers now promote the weekly chore as an opportunity for company.",
+      "a": "T",
+      "why": "末段说现以每周家务提供与人相聚的机会。"
+    }
+  ]
+}

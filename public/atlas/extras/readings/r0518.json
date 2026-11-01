@@ -1,0 +1,48 @@
+{
+  "id": "r0518",
+  "ids": [
+    "respective",
+    "fund",
+    "latin",
+    "modify",
+    "speculation",
+    "asthma",
+    "regarding",
+    "automobile",
+    "weave",
+    "measurement"
+  ],
+  "title": "Baskets with a Social History",
+  "titleZh": "篮子里的社区往事",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "In the riverside town of Merrow, basket maker Leila Haddad collects damaged shopping baskets rather than antiques. Their owners bring them to her workshop, where each basket and its story receive their [[respective|respective]] labels. A small community [[fund|fund]] pays for repairs, allowing Leila to record how ordinary objects have connected neighbours over several generations.",
+    "One delivery arrived in an elderly baker's [[automobile|automobile]]: a narrow basket with unfamiliar words burned into its base. There was considerable [[speculation|speculation]] that it had belonged to a travelling doctor. However, a retired librarian recognised the words as [[latin|Latin]] and translated them as names of plants. Further enquiries [[regarding|regarding]] its history revealed that a market gardener had used it to carry herbs.",
+    "Leila's work depends on careful [[measurement|measurement]] of each basket's width and depth before she begins repairs. She then teaches the owner to [[weave|weave]] fresh willow strips into the damaged area. Because she has [[asthma|asthma]], she has had to [[modify|modify]] her working methods, soaking dusty material outdoors and keeping dry fibres away from her main bench. These changes also make the workshop more comfortable for visitors.",
+    "At the end of each month, Leila displays three repaired baskets beside short accounts from their owners. She does not try to make the baskets look new; darker original strips remain clearly visible. For her, a successful repair preserves evidence of use while allowing another chapter to begin. Most baskets leave the exhibition carrying someone's weekly shopping."
+  ],
+  "zh": [
+    "在河畔小镇梅罗，编篮工匠莱拉·哈达德收集的是破损的购物篮，而不是古董。主人们把篮子带到她的工作室，每只篮子及其背后的故事都会分别贴上标签。一笔小额社区基金支付修理费用，让莱拉得以记录这些日常物品几代以来如何将邻里联系在一起。",
+    "有一次，一只狭长的篮子由一位年迈面包师的汽车送来，篮底烙着一些陌生的文字。人们纷纷猜测，它曾属于一位四处行医的医生。然而，一位退休图书管理员认出这些文字是拉丁语，翻译后发现它们都是植物名称。进一步询问篮子的来历后，大家得知，一位菜农曾用它运送香草。",
+    "莱拉每次动手修理前，都要仔细测量篮子的宽度和深度。随后，她教主人把新的柳条编入破损处。由于患有哮喘，她不得不调整工作方法：在室外浸泡沾满灰尘的材料，并让干燥的纤维远离主要工作台。这些改变也让来访者在工作室里待得更舒适。",
+    "每到月底，莱拉都会展出三只修好的篮子，旁边附上主人讲述的简短故事。她并不试图把篮子修得像新的一样；原先颜色较深的柳条仍然清晰可见。对她而言，成功的修补既保留使用过的痕迹，也让新的篇章得以开始。大多数篮子离开展览时，里面已经装着某个人当周采购的物品。"
+  ],
+  "q": [
+    {
+      "s": "A community fund pays for Leila's basket repairs.",
+      "a": "T",
+      "why": "首段明确说社区基金支付修理费用。"
+    },
+    {
+      "s": "The elderly baker bought the narrow basket from the market gardener.",
+      "a": "NG",
+      "why": "文中未说明面包师如何得到这个篮子。"
+    },
+    {
+      "s": "Leila tries to make the repaired baskets look new.",
+      "a": "F",
+      "why": "末段明确说她不试图把篮子修得像新的。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0463",
+  "ids": [
+    "airliner",
+    "fluid",
+    "stab",
+    "autobiography",
+    "moist",
+    "grasp",
+    "spite",
+    "incentive",
+    "voter",
+    "ditch"
+  ],
+  "title": "The Water Beneath the Wings",
+  "titleZh": "机翼下的积水之谜",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "Every Monday, Leila found a dark patch beneath a retired [[airliner|airliner]] at a small aviation museum. Nearby shelves held flight records, and one pilot’s [[autobiography|autobiography]] already had [[moist|moist]] pages. As the volunteer responsible for the collection, she needed to identify the source before more books were damaged. Yet the roof above appeared perfectly dry.",
+    "The museum stood beside a flying club whose members had recently voted against paying for new storage. One angry volunteer suggested that a disappointed [[voter|voter]] was pouring water through a window out of [[spite|spite]]. Leila refused to accuse anyone without evidence. However, the possibility of losing the collection gave everyone an [[incentive|incentive]] to help investigate.",
+    "First, Leila collected some of the [[fluid|fluid]] in a clean jar. It contained fine brown particles, unlike water from the museum’s taps. Outside, she [[stab|stabbed]] the soil beside the wall with a narrow metal probe and found it surprisingly soft. An old maintenance drawing revealed a buried [[ditch|ditch]] running from the hillside towards the building. Following its route, she found fallen leaves blocking the outlet. She began to [[grasp|grasp]] how rainwater could be backing up beneath the museum floor.",
+    "After the volunteers cleared the blockage, they watched water flow away from the building during the next storm. The floor stayed dry. Leila moved the books to higher shelves and photographed the outlet so other volunteers could find it easily."
+  ],
+  "zh": [
+    "每到星期一，莱拉都会在一家小型航空博物馆的一架退役民航客机下方发现一块深色水迹。附近的书架存放着飞行记录，其中一本飞行员自传的书页已经微微受潮。作为负责馆藏的志愿者，她必须在更多书籍受损之前找出水的来源。然而，上方的屋顶看起来完全是干的。",
+    "博物馆旁边有一家飞行俱乐部，其成员最近投票否决了出资修建新储藏室的提议。一名愤怒的志愿者猜测，某个对投票结果失望的人心怀怨恨，正从窗户往馆内倒水。莱拉拒绝在没有证据的情况下指责任何人。不过，馆藏可能遭受损失，这促使大家都来协助调查。",
+    "首先，莱拉用一个干净的罐子收集了一些液体。与博物馆的自来水不同，里面含有细小的棕色颗粒。她来到室外，用一根细金属探针戳入墙边的土壤，发现土质松软得出奇。一张旧维修图纸显示，地下埋着一条从山坡延伸至建筑附近的排水沟。她沿着排水沟的路线查看，发现落叶堵住了排水口。她开始明白雨水可能是怎样因排不出去而积在博物馆地板下方的。",
+    "志愿者们清理堵塞物之后，在下一场暴雨中看到水流远离了建筑。地板始终保持干燥。莱拉把书移到更高的架子上，并拍下排水口的照片，以便其他志愿者能轻松找到它。"
+  ],
+  "q": [
+    {
+      "s": "Some damage to the collection was visible before Leila discovered where the water came from.",
+      "a": "T",
+      "why": "查明水源前，一本自传的书页已经受潮。"
+    },
+    {
+      "s": "Leila was willing to accuse someone without evidence.",
+      "a": "F",
+      "why": "莱拉明确拒绝在没有证据时指责任何人。"
+    },
+    {
+      "s": "The museum introduced monthly drain inspections after the blockage was removed.",
+      "a": "NG",
+      "why": "文章未提及清理后是否每月检查排水沟。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0666",
+  "ids": [
+    "layman",
+    "dart",
+    "refrain",
+    "nitrate",
+    "detract",
+    "quench",
+    "adversity",
+    "wretched",
+    "endow",
+    "fob"
+  ],
+  "title": "Recovery After Sunset",
+  "titleZh": "日落后的康复",
+  "topic": "health",
+  "cefr": 4,
+  "paras": [
+    "At a rehabilitation garden in the fictional coastal town of Belmere, the busiest appointments now begin after sunset. Patients recovering from serious illness increasingly prefer tending vegetables under low amber lamps to exercising indoors. What might strike a [[layman|layman]] as recreational gardening is, for occupational therapist Amara Sen, a carefully structured programme of physical recovery.",
+    "The change began during a summer heatwave, when several patients described feeling [[wretched|wretched]] after daytime sessions. Evening access, granted through an electronic [[fob|fob]], initially seemed a temporary concession to climatic [[adversity|adversity]]. Yet attendance remained high as temperatures fell. Participants said darkness reduced their sense of being watched, while moths that [[dart|dart]] between flowers provided welcome distractions from repetitive movements.",
+    "Safety procedures remain deliberately unromantic. Patients must [[refrain|refrain]] from lifting full watering cans, and drinking taps are supplied separately from irrigation tanks, whose water is tested for [[nitrate|nitrates]] from fertiliser runoff. A sheltered station allows gardeners to [[quench|quench]] their thirst without crossing uneven ground. Although these restrictions might appear to [[detract|detract]] from the garden's freedom, participants generally describe them as reassuring rather than intrusive.",
+    "A retired ceramicist has now agreed to [[endow|endow]] a permanent therapy post, allowing evening sessions to continue throughout the year. The clinic has not established that night gardening accelerates recovery; its clearest finding is that patients return more consistently. For Sen, this distinction matters: the garden's achievement is not a miraculous cure, but making the slow work of rehabilitation feel worth coming back for."
+  ],
+  "zh": [
+    "在虚构的海滨小镇贝尔米尔，一座康复花园如今最繁忙的预约时段从日落后开始。重病康复期的患者越来越愿意在柔和的琥珀色灯光下照料蔬菜，而不是在室内锻炼。在外行看来，这或许只是休闲园艺；但对作业治疗师阿玛拉·森而言，它是一套精心设计的身体康复方案。",
+    "这一变化始于某年夏天的一场热浪，当时几名患者表示，日间训练后身体非常难受。凭电子钥匙在晚间进入花园，起初似乎只是面对恶劣天气的临时妥协。然而，气温下降后，出勤率依然很高。参与者表示，夜色减轻了被人注视的感觉，而在花间快速穿梭的飞蛾，也让他们在反复练习动作时有了令人愉快的分心之物。",
+    "安全措施依然刻意保持着务实作风。患者必须避免提起装满水的洒水壶，饮水龙头则采用独立于灌溉水箱的供水系统；水箱里的水需接受检测，以查明是否含有肥料径流带来的硝酸盐。一处带顶棚的饮水点让园艺参与者无需走过不平整的地面就能解渴。这些限制看似会削弱花园给予人的自由感，但参与者普遍认为，它们令人安心，而非碍手碍脚。",
+    "一位退休陶艺家现已同意捐资设立一个永久治疗岗位，使晚间活动得以全年持续。诊所尚未证实夜间园艺能加快康复；目前最明确的发现是，患者会更稳定地回来参加活动。对森而言，这一区别很重要：花园的成就并非创造神奇的疗效，而是让漫长的康复过程变得值得一次次回来坚持。"
+  ],
+  "q": [
+    {
+      "s": "Patients must book evening gardening sessions at least a week in advance.",
+      "a": "NG",
+      "why": "文中未说明晚间活动须提前多久预约。"
+    },
+    {
+      "s": "Participants obtain their drinking water from the tanks used to water the garden.",
+      "a": "F",
+      "why": "饮用水与灌溉水箱采用独立供水系统。"
+    },
+    {
+      "s": "A retired ceramicist has agreed to fund a permanent therapy post.",
+      "a": "T",
+      "why": "末段明确说明陶艺家同意捐资设立该岗位。"
+    }
+  ]
+}

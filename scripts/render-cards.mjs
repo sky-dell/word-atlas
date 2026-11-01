@@ -57,7 +57,7 @@ function card({ width, height, cols, rows, title, sub, chips, tile }) {
   <div class="mosaic">${words.map((w) => `<figure><img src="${thumb(w[0])}"><figcaption>${w[1]}</figcaption></figure>`).join("")}</div>
   <div class="fade"></div>
   <div class="copy">
-    <div class="brand"><svg width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14.5" fill="none" stroke="#1e2640" stroke-width="1.5"/><path d="M16 3.5 19 16 16 28.5 13 16Z" fill="#1e2640"/><path d="M16 3.5 19 16H13Z" fill="#c4573a"/><circle cx="16" cy="16" r="1.6" fill="#f3ecdf"/></svg>词光 <small>WORD ATLAS</small></div>
+    <div class="brand"><svg width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14.5" fill="none" stroke="#1e2640" stroke-width="1.5"/><path d="M16 3.5 19 16 16 28.5 13 16Z" fill="#1e2640"/><path d="M16 3.5 19 16H13Z" fill="#c4573a"/><circle cx="16" cy="16" r="1.6" fill="#f3ecdf"/></svg>词与远方 <small>Words & Beyond</small></div>
     <h1 class="serif">${title}</h1>
     <p class="sub">${sub}</p>
     <div class="chips">${chips.map((c) => `<span>${c}</span>`).join("")}</div>
@@ -81,7 +81,7 @@ const shot = async (html, w, h, out, type = "jpeg") => {
   console.log("wrote", path.relative(root, out));
 };
 
-const title = `一词一画，<br><em>点亮雅思</em>。`;
+const title = `多懂一个词，<br><em>多看一点世界</em>。`;
 const sub = `${fmt(index.count)} 个雅思词，每个都有一幅画<br>${fmt(index.examples)} 条原创例句 · 英美发音 · 免费开源`;
 await shot(card({ width: 1200, height: 630, cols: 6, rows: 7, tile: 150, title, sub, chips: ["无需注册", "手机可用", "CC BY 4.0 词库"] }), 1200, 630, path.join(root, "public/brand/og-card.jpg"));
 await shot(card({ width: 1600, height: 720, cols: 7, rows: 7, tile: 170, title, sub, chips: ["无需注册", "词汇星图", "JSON / CSV 下载"] }), 1600, 720, path.join(root, "docs/assets/banner.jpg"));

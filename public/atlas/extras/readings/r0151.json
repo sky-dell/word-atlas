@@ -1,0 +1,46 @@
+{
+  "id": "r0151",
+  "ids": [
+    "level",
+    "afterwards",
+    "empty",
+    "earn",
+    "adventure",
+    "twelfth",
+    "belt",
+    "fireman",
+    "interview",
+    "similar"
+  ],
+  "title": "A Fireman's Kitchen",
+  "titleZh": "消防员的厨房",
+  "topic": "daily",
+  "cefr": 1,
+  "paras": [
+    "Welcome to A Fireman's Kitchen. This small exhibition follows one working day of Arun Das, a [[fireman|fireman]] in a river town in 1952. Begin at the kitchen table. On the morning of his [[twelfth|twelfth]] day at work, Arun left his tea here when the station bell rang. The cup is now [[empty|empty]], but a photograph taken that morning shows the [[level|level]] of the tea inside.",
+    "Next, look at the dark coat and wide [[belt|belt]] beside the door. Arun wore these to work. He wanted to [[earn|earn]] enough money to buy a better cooker for his family. A letter below the coat invited him to an [[interview|interview]] at the fire station. He went there on Monday and got the job two days [[afterwards|afterwards]]. You can lift a copy of his coat; it is surprisingly heavy, even without water.",
+    "The final display tells the story of that morning's [[adventure|adventure]]. A shop near the river was burning, and Arun helped carry a long ladder through a narrow street. Everyone escaped safely. That evening, he returned to this quiet kitchen. Press the green button to hear his daughter's memories of dinner. Before leaving, notice the kettle. It looks [[similar|similar]] to many kettles still used today: an ordinary object waiting at the end of an unusual day."
+  ],
+  "zh": [
+    "欢迎参观“消防员的厨房”。这个小型展览讲述了1952年河畔小镇上的男消防员阿伦·达斯一个工作日的生活。请先看厨房里的餐桌。上班第十二天的早晨，消防站的铃声响起，阿伦把茶留在这里就走了。如今杯子已经空了，但那天早晨拍摄的一张照片显示出杯中茶水的高度。",
+    "接下来，请看门旁的深色外套和宽腰带。阿伦穿戴着它们去工作。他想挣够钱，给家里买一个更好的炉灶。外套下方的一封信邀请他到消防站参加面试。他周一去了那里，两天后得到了这份工作。你可以提起一件仿制的外套试试；即使没有沾水，它也重得令人吃惊。",
+    "最后一处展品讲述了那天早晨的惊险经历。河边的一家商店着火了，阿伦帮忙抬着一架长梯穿过狭窄的街道。所有人都安全逃了出来。那天晚上，他回到了这间安静的厨房。按下绿色按钮，就能听到他女儿对晚餐的回忆。离开之前，请留意那把水壶。它看起来和今天仍在使用的许多水壶很相似：在不寻常的一天结束时，一件平凡的物品正静静等候。"
+  ],
+  "q": [
+    {
+      "s": "A photograph shows the height of the tea in Arun's cup that morning.",
+      "a": "T",
+      "why": "那天早晨的照片显示了杯中茶水的高度。"
+    },
+    {
+      "s": "Arun got the job on the day of his interview.",
+      "a": "F",
+      "why": "他周一去面试，两天后才得到工作。"
+    },
+    {
+      "s": "Arun's daughter gave the kettle to the museum.",
+      "a": "NG",
+      "why": "文章未说明水壶由谁捐赠。"
+    }
+  ]
+}

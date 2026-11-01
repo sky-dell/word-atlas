@@ -1,0 +1,48 @@
+{
+  "id": "r0446",
+  "ids": [
+    "incident",
+    "cod",
+    "cosmetic",
+    "richness",
+    "expedition",
+    "reliability",
+    "relate",
+    "accompany",
+    "bulk",
+    "strictly"
+  ],
+  "title": "Why the Shore Turns Foamy",
+  "titleZh": "海岸为何泛起泡沫",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "After a winter storm, a fishing harbour may disappear beneath thick white sea foam. Such an [[incident|incident]] can alarm residents, especially when boats return with [[cod|cod]] from nearby waters. Yet foam alone does not prove that the sea is polluted. Government coastal monitoring teams investigate it by examining both the water and the weather.",
+    "The process begins with the biological [[richness|richness]] of seawater. Tiny algae and other organisms release proteins and similar substances, particularly as they decay. Like certain ingredients in [[cosmetic|cosmetic]] cleansers, these substances help bubbles last longer. Breaking waves mix air into the water, while winds push the resulting foam towards shore. The [[bulk|bulk]] of a large foam bank is therefore trapped air rather than solid material.",
+    "On a sampling [[expedition|expedition]], a marine biologist may [[accompany|accompany]] government inspectors to a sheltered bay where foam collects. They take samples from several locations to improve the [[reliability|reliability]] of their findings. Collection procedures are [[strictly|strictly]] followed: containers must be clean, and each sample needs a recorded time and position. Researchers then [[relate|relate]] laboratory results to recent storms and changes in algae numbers.",
+    "Natural foam is often harmless, but its appearance cannot reveal everything it contains. Some algal species produce toxins, and coastal runoff can introduce harmful chemicals. Testing helps officials distinguish an ordinary seasonal event from a genuine health concern. What looks like a beach covered in soap is thus a visible meeting of marine life, moving water and air."
+  ],
+  "zh": [
+    "冬季风暴过后，渔港可能被厚厚的白色海沫覆盖。这样的事件会让居民感到不安，尤其是当渔船带着从附近海域捕获的鳕鱼返港时。然而，仅凭泡沫并不能证明海水受到了污染。政府的海岸监测团队会同时检查水质和天气情况，以查明原因。",
+    "这一过程始于海水中丰富多样的生物。微小的藻类和其他生物会释放蛋白质及类似物质，尤其是在它们腐烂分解时。这些物质就像某些美容洁面产品中的成分一样，能让气泡维持更久。碎浪将空气混入海水，而风则将形成的泡沫推向岸边。因此，大量堆积的海沫中，主要成分是被困住的空气，而非固体物质。",
+    "在采样考察中，海洋生物学家可能会陪同政府检查人员前往一处泡沫聚集的避风海湾。他们从多个地点采集样本，以提高调查结果的可靠性。采集程序得到严格遵守：容器必须洁净，每份样本都要记录采集时间和位置。随后，研究人员将实验室结果与近期风暴及藻类数量变化联系起来分析。",
+    "天然海沫通常无害，但其外观无法揭示其中的全部成分。一些藻类会产生毒素，沿海地区的地表径流也可能带来有害化学物质。检测能够帮助工作人员区分普通的季节性现象与真正威胁健康的情况。因此，看似铺满肥皂泡的海滩，实际上呈现的是海洋生物、流动的海水与空气相遇的结果。"
+  ],
+  "q": [
+    {
+      "s": "Sea foam alone does not establish that the water is polluted.",
+      "a": "T",
+      "why": "首段明确说仅凭泡沫不能证明海水受污染。"
+    },
+    {
+      "s": "Laboratory tests on the collected samples normally take two days.",
+      "a": "NG",
+      "why": "文章未说明样本检测通常需要多久。"
+    },
+    {
+      "s": "The appearance of natural foam reveals everything it contains.",
+      "a": "F",
+      "why": "末段明确说外观无法揭示其全部成分。"
+    }
+  ]
+}

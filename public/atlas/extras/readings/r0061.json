@@ -1,0 +1,46 @@
+{
+  "id": "r0061",
+  "ids": [
+    "computer",
+    "shopping",
+    "alphabet",
+    "address",
+    "win",
+    "grow",
+    "box",
+    "fun",
+    "beard",
+    "wet"
+  ],
+  "title": "Small Seeds Wake Up",
+  "titleZh": "小种子醒来了",
+  "topic": "work",
+  "cefr": 0,
+  "paras": [
+    "Omar has a small seed shop. He has a short grey [[beard|beard]] and likes talking about plants. People come here to do their spring [[shopping|shopping]]. He puts the seed bags in order by name, from A to Z, following the [[alphabet|alphabet]]. He uses a [[computer|computer]] to make labels. Each label has the shop's [[address|address]], so people can find him again.",
+    "On his table is a clear [[box|box]] with bean seeds inside. The seeds sit on [[wet|wet]] paper. This shows people how plants start to [[grow|grow]]. First, a seed takes in water and gets bigger. Its skin opens. A little root comes out and goes down. Next, a green shoot goes up. The seed has food inside to help it start.",
+    "Omar keeps the seeds warm, but he does not cover them with water. They need air too. After a few days, he puts the little plants in soil near the window. Their leaves use light to make food. Watching them is [[fun|fun]] for his visitors. Some hope to [[win|win]] a prize for the tallest bean plant at the summer fair. It all starts with one small seed."
+  ],
+  "zh": [
+    "奥马尔有一家小种子店。他留着短短的灰胡子，喜欢聊植物。人们来这里购买春天要用的东西。他按名称将种子袋依照字母表顺序从A到Z排列。他用电脑制作标签。每张标签上都有店铺的地址，方便人们再次找到他。",
+    "他的桌上有一个透明盒子，里面放着菜豆种子。种子放在湿纸上，让人们看到植物是怎样开始生长的。首先，种子吸收水分，变得更大。种皮裂开，一条小根钻出来，向下生长。接着，一根绿色的嫩芽向上生长。种子内部储存的养分帮助它开始生长。",
+    "奥马尔让种子保持温暖，但不会让水淹没它们。它们也需要空气。几天后，他把这些小苗种进窗边的土里。叶子利用光制造养分。看着它们生长，来店里的人都觉得很有趣。有些人希望在夏季集市上凭最高的菜豆植株赢得奖项。而这一切，都从一颗小小的种子开始。"
+  ],
+  "q": [
+    {
+      "s": "The labels tell buyers where Omar's shop is.",
+      "a": "T",
+      "why": "标签上有店铺地址，方便人们再来。"
+    },
+    {
+      "s": "The green shoot appears before the root.",
+      "a": "F",
+      "why": "文中先长出小根，接着才长出绿芽。"
+    },
+    {
+      "s": "The summer fair gives money to the winner.",
+      "a": "NG",
+      "why": "文中提到奖项，但没有说明奖品是什么。"
+    }
+  ]
+}

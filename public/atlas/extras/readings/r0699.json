@@ -1,0 +1,48 @@
+{
+  "id": "r0699",
+  "ids": [
+    "zeal",
+    "futures",
+    "revelation",
+    "overpayment",
+    "radiant",
+    "successive",
+    "discrete",
+    "persecute",
+    "fusion",
+    "breadth"
+  ],
+  "title": "The Frost Hidden in Grain Ledgers",
+  "titleZh": "粮商账簿中隐藏的霜冻",
+  "topic": "history",
+  "cefr": 4,
+  "paras": [
+    "Old grain ledgers can preserve clues to a natural puzzle: why neighbouring fields sometimes produced sharply different harvests. Historians approaching these records with [[zeal|zeal]] must distinguish weather losses from accounting errors. An [[overpayment|overpayment]] might explain an unusual entry, whereas purchases of grain [[futures|futures]], contracts fixing prices for later delivery, could indicate anxiety about the coming crop.",
+    "The central [[revelation|revelation]] may emerge only when records are compared with the landscape. During [[successive|successive]] clear spring nights, exposed ground loses heat rapidly. Air touching it cools, becomes denser, and flows downhill, collecting in hollows. These depressions form [[discrete|discrete]] pockets of cold, where frost can damage flowering grain while crops on nearby slopes remain largely unharmed.",
+    "Imagine two growers confronting this contrast without understanding atmospheric physics. One surveying an intact hillside crop might appear [[radiant|radiant]], while the neighbour below faced ruin. In a community already divided by suspicion, people might blame and [[persecute|persecute]] a religious minority. A ledger alone, however, cannot establish that this happened; evidence of accusations and hostile actions would be needed.",
+    "Understanding the harvest pattern requires a [[fusion|fusion]] of documentary evidence and physical geography. The [[breadth|breadth]] of useful material extends beyond harvest totals to flowering dates, field boundaries and descriptions of cloud cover. Clouds reduce the ground's overnight heat loss; wind disrupts cold pools by mixing the air. Read alongside such mechanisms, a ledger becomes more than a financial record: it reveals how a few metres of elevation could divide security from hunger."
+  ],
+  "zh": [
+    "旧时粮商的账簿可能保存着一个自然谜题的线索：为什么相邻田地的收成有时会相差悬殊？满怀热情研究这些记录的历史学家，必须区分天气造成的损失与记账错误。一笔多付的款项或许就能解释某条异常记录，而购买粮食期货——即事先确定价格、日后交货的合约——则可能反映出人们对即将到来的收成感到担忧。",
+    "只有将记录与地形对照，关键的惊人发现才可能浮现。在连续晴朗的春夜里，裸露的地面会迅速散热。与地面接触的空气随之冷却，密度增大，沿坡向下流动，积聚在低洼处。这些洼地形成一个个彼此分离的冷空气区，霜冻可能损害正在开花的谷物，而附近坡地上的作物却基本不受影响。",
+    "设想两位不懂大气物理的农人面对这种反差。一位望着山坡上完好无损的庄稼，或许喜气洋洋，而坡下的邻居却面临破产。在一个早已因猜疑而分裂的社区里，人们或许会责怪并迫害某个宗教少数群体。不过，仅凭一本账簿无法证明这类事情确曾发生；还需要有关指控和敌对行为的证据。",
+    "要理解这种收成差异，需要将文献证据与自然地理知识相结合。有用材料的范围不仅包括收成总量，还涵盖开花日期、田地边界以及云量描述。云层能减少地面夜间的热量流失；风则通过混合空气，打散积聚的冷空气。结合这些机制解读，账簿便不再只是财务记录：它揭示了仅仅几米的高差，如何就能划开温饱与饥饿的界线。"
+  ],
+  "q": [
+    {
+      "s": "Accounting errors can be ruled out as an explanation for unusual entries in grain ledgers.",
+      "a": "F",
+      "why": "首段指出记账错误及多付款项可能解释异常。"
+    },
+    {
+      "s": "On clear spring nights, cooling air can flow downhill and collect in hollows.",
+      "a": "T",
+      "why": "第二段说明冷却的空气沿坡下流并积聚于洼地。"
+    },
+    {
+      "s": "Historians consider flowering dates more reliable than harvest totals when reconstructing past frost events.",
+      "a": "NG",
+      "why": "末段列出两类材料，但未比较其可靠性。"
+    }
+  ]
+}

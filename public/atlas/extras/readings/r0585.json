@@ -1,0 +1,48 @@
+{
+  "id": "r0585",
+  "ids": [
+    "snowbound",
+    "oversight",
+    "kerosene",
+    "temporal",
+    "redundant",
+    "righteous",
+    "lenient",
+    "oblong",
+    "jeopardise",
+    "fluctuate"
+  ],
+  "title": "Recreating a Winter Relief Ledger",
+  "titleZh": "重制冬季救济账簿",
+  "topic": "history",
+  "cefr": 4,
+  "paras": [
+    "Making a museum replica of an 1886 winter relief ledger begins with reconstructing its purpose. In a mountain settlement, [[snowbound|snowbound]] households depended on deliveries of flour and [[kerosene|kerosene]], which a clerk recorded beside recipients’ names. The surviving volume is too fragile for regular handling, so the replica allows visitors to explore how assistance was organised.",
+    "First, conservators photograph every page under cool lighting, then establish the [[temporal|temporal]] sequence of entries from dates, ink changes and overlapping corrections. A seemingly [[redundant|redundant]] list of names is retained because its repetition reveals a second delivery. One [[oversight|oversight]] in an earlier transcription—the omission of a widow’s allowance—is corrected before the images become printing files.",
+    "Next, a papermaker forms [[oblong|oblong]] sheets in a shallow mould, adding linen fibres to approximate the original texture. Since moisture levels [[fluctuate|fluctuate]] during drying, the sheets are pressed between absorbent boards and checked each morning. Artificial stains are applied sparingly: excessive wetting could [[jeopardise|jeopardise]] the paper’s strength. The printed leaves are folded, sewn onto cords and enclosed within cloth-covered boards.",
+    "Finally, the display caption explains the human decisions behind the columns. A [[lenient|lenient]] clerk had accepted late claims despite a rigid deadline; a minister described this as a [[righteous|righteous]] refusal to let procedural rules outweigh hunger. Rather than invent missing conversations, the museum quotes their surviving correspondence. The finished replica therefore reproduces more than an ageing object: its turnable pages make the mechanics—and moral choices—of winter relief tangible."
+  ],
+  "zh": [
+    "制作一本1886年冬季救济账簿的博物馆复制品，首先要还原它当年的用途。在一处山间聚落，被大雪围困的家庭依靠运来的面粉和煤油维持生活，一名办事员将这些物资记在领取者姓名旁。留存至今的原账簿十分脆弱，无法供人经常翻阅，因此，复制品让参观者得以探究当时如何组织救济。",
+    "首先，文物保护人员在低热量灯光下拍摄每一页，再根据日期、墨迹变化和相互叠压的修改痕迹，确定各笔记录的时间顺序。一份看似多余的姓名清单被保留下来，因为重复出现的姓名揭示了第二次物资发放。早期誊本中的一处疏漏——漏记了一名寡妇领取的补助——也在图像制成印刷文件之前得到纠正。",
+    "接下来，造纸师在浅纸模中制作长方形纸张，加入亚麻纤维，使质地接近原件。由于干燥过程中纸张的含水量会波动，纸张被夹在吸水板之间压平，并在每天早晨接受检查。人工做旧的污渍只少量施加，因为过度润湿可能损害纸张的强度。印好的书页经过折叠，缝缀在装订绳上，再装入覆有布面的封皮。",
+    "最后，展品说明解释了账目背后的人为决策。一位宽厚的办事员不拘泥于严格的截止日期，接受了逾期申请；一位牧师称赞这一做法出于正义，不让程序规则凌驾于饥饿之上。博物馆没有编造没有记录的对话，而是引用了他们留存的通信。因此，完成的复制品所重现的不仅是一件历经岁月的物品：可以翻动的书页让冬季救济的运作方式及其道德抉择变得具体可感。"
+  ],
+  "q": [
+    {
+      "s": "The surviving ledger is sturdy enough for regular handling.",
+      "a": "F",
+      "why": "原账簿过于脆弱，不能经常翻阅。"
+    },
+    {
+      "s": "The repeated list of names is retained because it reveals a second delivery.",
+      "a": "T",
+      "why": "第二段明确说明重复名单揭示第二次发放。"
+    },
+    {
+      "s": "The linen used in the replica comes from the region where the ledger originated.",
+      "a": "NG",
+      "why": "文章提到亚麻纤维，但未说明其产地。"
+    }
+  ]
+}

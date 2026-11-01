@@ -1,0 +1,48 @@
+{
+  "id": "r0328",
+  "ids": [
+    "murderer",
+    "channel",
+    "romance",
+    "route",
+    "valuable",
+    "historical",
+    "operation",
+    "trust",
+    "session",
+    "minivan"
+  ],
+  "title": "A Village Behind the Screen",
+  "titleZh": "银幕背后的村庄",
+  "topic": "society",
+  "cefr": 2,
+  "paras": [
+    "Every October, visitors come to Bellara for a film walk led by its residents. A blue [[minivan|minivan]] brings guests from a nearby town, but the village tour is on foot. The [[route|route]] follows places used in films made here, from a stone bridge to a tiny bakery.",
+    "At the bakery, guide Amira shows a photograph of her grandfather. He played a [[murderer|murderer]] in a mystery film, although in village life he was famous for giving children free bread. Next comes the bridge, where a screen [[romance|romance]] began. Amira explains that the lovers were invented, but their clothes were based on [[historical|historical]] records.",
+    "The afternoon [[session|session]] takes place in a small hall. Residents share memories while visitors watch short scenes. This year, an old actor called Tomas joins through a local television [[channel|channel]]. He is resting at home after a knee [[operation|operation]], so his neighbours arranged the broadcast. His stories are especially [[valuable|valuable]] because few written records of the filming survive.",
+    "The event depends on [[trust|trust]]: families lend photographs and open their gardens, expecting guests to treat both with care. At sunset, Amira returns every borrowed picture. Visitors leave knowing more than where a film was made. They have met the people who keep its memory alive."
+  ],
+  "zh": [
+    "每年十月，游客都会来到贝拉拉，参加由居民带领的电影主题步行游。一辆蓝色小型客车把客人从附近的小镇接来，但村里的游览全靠步行。路线串起了曾在本村拍摄的电影取景地，从一座石桥到一家小小的面包店。",
+    "在面包店，导游阿米拉展示了一张祖父的照片。他曾在一部悬疑电影里扮演谋杀犯，但在村里的日常生活中，他却以给孩子们免费送面包而出名。下一站是石桥，一段银幕爱情故事就从这里开始。阿米拉解释说，那对恋人是虚构的，但他们的服装是根据历史资料设计的。",
+    "下午的活动在一间小礼堂举行。居民分享回忆，游客则观看电影片段。今年，一位名叫托马斯的老演员通过当地电视频道参与活动。他做完膝盖手术后正在家中休养，因此邻居们安排了这次连线。他的讲述格外珍贵，因为有关当年拍摄的文字记录留存下来的很少。",
+    "这项活动依靠的是信任：各家各户借出照片、开放花园，相信客人会好好爱护它们。日落时，阿米拉归还了所有借来的照片。游客离开时，了解的不仅仅是电影在哪里拍摄。他们还认识了让这些记忆延续至今的人。"
+  ],
+  "q": [
+    {
+      "s": "Visitors travel around the village's film locations in the minivan rather than on foot.",
+      "a": "F",
+      "why": "小客车负责接人，村内游览则是步行。"
+    },
+    {
+      "s": "Tomas received payment for taking part in the broadcast.",
+      "a": "NG",
+      "why": "文章未提托马斯是否获得报酬。"
+    },
+    {
+      "s": "Amira returns all the borrowed photographs at sunset.",
+      "a": "T",
+      "why": "末段明确说她在日落时归还所有借来的照片。"
+    }
+  ]
+}

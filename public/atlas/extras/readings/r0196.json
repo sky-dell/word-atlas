@@ -1,0 +1,48 @@
+{
+  "id": "r0196",
+  "ids": [
+    "attraction",
+    "bull",
+    "bury",
+    "register",
+    "attach",
+    "respect",
+    "base",
+    "depart",
+    "subtraction",
+    "understanding"
+  ],
+  "title": "Clay Bulls of the Mountain Village",
+  "titleZh": "山村里的泥塑公牛",
+  "topic": "travel",
+  "cefr": 2,
+  "paras": [
+    "In the mountain village of Sarela, the main [[attraction|attraction]] is a small pottery yard behind a bakery. Here, visitors make a clay [[bull|bull]], an animal that once pulled farmers' heavy carts. The workshop begins at ten, but guests must [[register|register]] at the yard's wooden gate before joining.",
+    "Our teacher, Mina, places an old model on the table. Its wide [[base|base]] keeps it steady on the table. We shape the bodies first, then [[attach|attach]] two curved horns to each head. Mina asks us to work slowly, explaining that careful hands show [[respect|respect]] for both the material and the craft.",
+    "Each guest receives 300 grams of clay. Mina uses simple [[subtraction|subtraction]] to work out how much we have used: she weighs the clay left on the table and takes that weight from 300. However, this is not a competition. A tiny animal can have as much character as a large one.",
+    "Before we [[depart|depart]], Mina shows us a broken clay figure beside her bean plants. In spring, some families [[bury|bury]] these old figures in their gardens as a wish for a good harvest. We carry our soft models away in boxes, with a better [[understanding|understanding]] of how a farming memory has become something visitors can hold."
+  ],
+  "zh": [
+    "在山村萨雷拉，最吸引游客的是面包房后面的一个小陶艺院子。游客可以在这里制作泥塑公牛，这种动物曾经为农民拉沉重的货车。体验课十点开始，但客人必须先在院子的木门旁登记，才能参加。",
+    "我们的老师米娜把一个旧模型放在桌上。它宽大的底座使它能稳稳地立在桌上。我们先捏出身体，再给每个牛头装上两只弯角。米娜让我们慢慢做，并解释说，认真细致地动手，体现的是对材料和手艺的尊重。",
+    "每位客人会领到300克陶土。米娜用简单的减法算出我们用了多少：她称一下桌上剩余陶土的重量，再用300克减去这个数。不过，这并不是比赛。小小的泥牛也可以和大泥牛一样富有个性。",
+    "离开前，米娜给我们看了她种的豆子旁边一个破损的泥塑。春天，有些家庭会把这些旧泥塑埋在自家花园里，祈盼丰收。我们用盒子装着尚未变硬的作品离开，也更明白了，一段农耕生活的记忆如何变成了游客可以捧在手里的东西。"
+  ],
+  "q": [
+    {
+      "s": "Visitors can join the pottery session without registering.",
+      "a": "F",
+      "why": "客人必须先在木门旁登记才能参加。"
+    },
+    {
+      "s": "Mina made the old model she places on the table.",
+      "a": "NG",
+      "why": "文章未说明桌上旧模型的制作者。"
+    },
+    {
+      "s": "Some families bury old clay figures in the hope of a good harvest.",
+      "a": "T",
+      "why": "末段明确说有些家庭埋旧泥塑祈盼丰收。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0055",
+  "ids": [
+    "think",
+    "another",
+    "building",
+    "sunny",
+    "swim",
+    "science",
+    "snow",
+    "forget",
+    "slowly",
+    "flat"
+  ],
+  "title": "Snow for the Camera",
+  "titleZh": "镜头里的雪",
+  "topic": "media",
+  "cefr": 0,
+  "paras": [
+    "Mina made short [[science|science]] films for a town website. One morning, she wanted to show how [[snow|snow]] changes into water. She brought some inside and put it in a bowl in her [[flat|flat]]. Then she looked for her camera. But she [[forget|forgot]] where it was. When she found it under a chair, the bowl held only water. She needed [[another|another]] bowl of snow.",
+    "“I [[think|think]] this room is too warm,” she said. She took her camera outside. Behind her [[building|building]] was a small garden with a table. It was a [[sunny|sunny]] day, but the air was cold. Mina put fresh snow in two bowls. She left one in the sun and put the other under the table. Then she started her camera and waited.",
+    "The snow changed [[slowly|slowly]], so Mina had time to film it. While she waited, she watched two ducks [[swim|swim]] across a small pond. After an hour, she checked both bowls. The bowl in the sun had more water. Mina showed both bowls in her film. That evening, she put the film on the website. The first message she received said, “Now I understand. Thank you!”"
+  ],
+  "zh": [
+    "米娜为镇上的一个网站制作科学短片。一天早上，她想展示雪是怎样变成水的。她带了一些雪进屋，放在自己公寓里的一个碗中。然后她去找相机，可她忘了相机放在哪里。等她在椅子下面找到相机时，碗里只剩下水了。她需要再拿一碗雪。",
+    "“我觉得这个房间太暖和了。”她说。她拿着相机来到外面。她住的楼后面有一个小花园，里面有一张桌子。那天天气晴朗，但空气很冷。米娜把新取来的雪放进两个碗里。她把一个碗留在阳光下，另一个放在桌子下面。然后她打开相机，等待着。",
+    "雪变化得很慢，所以米娜有时间拍下来。等待时，她看着两只鸭子游过一个小池塘。一小时后，她查看了两个碗。阳光下的碗里水更多。米娜在短片里展示了两个碗。那天晚上，她把短片放到了网站上。她收到的第一条留言说：“现在我明白了。谢谢你！”"
+  ],
+  "q": [
+    {
+      "s": "The snow in Mina's home became water before she found her camera.",
+      "a": "T",
+      "why": "找到相机时，碗里只剩下水了。"
+    },
+    {
+      "s": "Mina kept both bowls of fresh snow inside her flat.",
+      "a": "F",
+      "why": "她把新取的雪装在两个碗里，放在室外。"
+    },
+    {
+      "s": "The first message about the film came from Mina's neighbour.",
+      "a": "NG",
+      "why": "文章没有说明第一条留言是谁写的。"
+    }
+  ]
+}

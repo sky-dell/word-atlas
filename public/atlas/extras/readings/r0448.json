@@ -1,0 +1,48 @@
+{
+  "id": "r0448",
+  "ids": [
+    "immune",
+    "collapse",
+    "expressway",
+    "dome",
+    "shuttle",
+    "radar",
+    "overhead",
+    "quietness",
+    "affair",
+    "chatty"
+  ],
+  "title": "Behind the Bells of a Sled Race",
+  "titleZh": "雪橇赛铃声背后的故事",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "Beyond the northern [[expressway|expressway]], a small winter festival offers visitors a close look at sled racing. A [[shuttle|shuttle]] runs from the roadside inn to a village hall whose wooden [[dome|dome]] rises above the birch trees. Inside, old racing sleds hang beside photographs of families who once used similar vehicles to deliver food across frozen lakes.",
+    "Outside, preparations are a surprisingly orderly [[affair|affair]]. Leena, a [[chatty|chatty]] race volunteer, explains the coloured ribbons identifying each team while checking visitors’ wristbands. At the veterinary tent, the mood is more serious. No animal is assumed to be [[immune|immune]] to rabies merely because it appears healthy; vaccination records must be checked before dogs can join the event. Visitors watch from behind a rope, leaving handlers room to work.",
+    "Near the starting line, a portable [[radar|radar]] unit measures the teams’ speed by sending out radio waves. Yet the most memorable moment involves no equipment. As the dogs disappear into the forest, their excited barking fades into [[quietness|quietness]]. Snow falls from branches [[overhead|overhead]], and spectators listen for the faint bells that announce a returning team.",
+    "Afterwards, everyone gathers beneath the hall’s curved roof. Leena points to an old photograph of a storage shed that [[collapse|collapsed]] under heavy snow, explaining why roof maintenance remains a winter ritual. Over bowls of fish soup, racing stories become family stories. One visitor asks which lake appears in a photograph, and Leena traces the old delivery route with her finger."
+  ],
+  "zh": [
+    "在北边那条高速公路的另一侧，一场小型冬季节庆让游客有机会近距离了解雪橇赛。接驳车往返于路边旅店和村里的礼堂之间，礼堂的木质穹顶高出白桦树梢。厅内，老式比赛雪橇悬挂在一些家庭照片旁；照片中的人家曾用类似的车辆穿越冰封的湖泊，运送食物。",
+    "屋外的筹备工作井然有序，令人有些意外。健谈的赛事志愿者莉娜一边检查游客的腕带，一边解释用来区分各支队伍的彩色丝带。在兽医帐篷里，气氛则严肃得多。不能仅仅因为动物看上去健康，就认定它对狂犬病具有免疫力；犬只参赛前，必须核查疫苗接种记录。游客站在绳索后观看，为驭犬人员留出工作空间。",
+    "起点附近，一台便携式雷达设备通过发射无线电波测量各支队伍的速度。然而，最令人难忘的一刻却与设备无关。当犬只消失在森林中，兴奋的吠声渐渐远去，四周归于宁静。积雪从头顶的树枝上落下，观众静静聆听远处微弱的铃声，那是队伍返回的信号。",
+    "赛后，大家聚在礼堂弧形的屋顶下。莉娜指着一张旧照片，上面的储物棚曾被厚厚的积雪压塌。她解释说，这就是为什么维护屋顶至今仍是每年冬季的例行事务。喝着一碗碗鱼汤，大家聊起的赛事往事渐渐变成了家庭故事。一位游客问一张照片里的是哪个湖，莉娜便用手指比画出当年的送货路线。"
+  ],
+  "q": [
+    {
+      "s": "Dogs that look healthy can enter the race without having their vaccination documents examined.",
+      "a": "F",
+      "why": "第二段明确说参赛前必须核查接种记录。"
+    },
+    {
+      "s": "The portable radar unit was bought specifically for this year's festival.",
+      "a": "NG",
+      "why": "文章未说明雷达的购置时间或购置目的。"
+    },
+    {
+      "s": "The storage shed in the old photograph collapsed under heavy snow.",
+      "a": "T",
+      "why": "末段明确说照片中的储物棚被积雪压塌。"
+    }
+  ]
+}

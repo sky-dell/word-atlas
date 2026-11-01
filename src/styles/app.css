@@ -1,4 +1,4 @@
-/* Word Atlas — design system
+/* Words & Beyond — design system
    Paper, ink and four field-guide pigments, matched to the illustration palette. */
 
 :root {
@@ -582,8 +582,9 @@ code {
 }
 .logo-text {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
 }
 .logo-text b {
   font: 700 21px/1 "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", serif;
@@ -1980,6 +1981,7 @@ code {
 }
 .filters {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 12px;
   margin-bottom: 22px;
   position: relative;

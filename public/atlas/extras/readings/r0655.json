@@ -1,0 +1,48 @@
+{
+  "id": "r0655",
+  "ids": [
+    "exceedingly",
+    "humanitarian",
+    "pledge",
+    "conspicuous",
+    "gunpowder",
+    "salvage",
+    "roam",
+    "hijack",
+    "periodical",
+    "colonel"
+  ],
+  "title": "A Republic’s Promise on the River",
+  "titleZh": "河上的共和国之诺",
+  "topic": "government",
+  "cefr": 4,
+  "paras": [
+    "In the fictional River Republic, the government made a founding [[pledge|pledge]]: no settlement would be denied food because of political allegiance. Winter floods soon made that promise [[exceedingly|exceedingly]] difficult to honour. Villages were isolated, and several granaries collapsed into the rising water. The supply barge Willow was sent downstream with flour.",
+    "Its [[conspicuous|conspicuous]] yellow canopy distinguished it from military vessels. Although the mission was [[humanitarian|humanitarian]], [[colonel|Colonel]] Amara Sen commanded an armed escort. Her orders prohibited soldiers from exchanging provisions for intelligence. The boatkeeper checked the cargo against his list, keeping the flour separate from the escort's sealed tins of [[gunpowder|gunpowder]]. He also noted which villages had lost their landing stages.",
+    "Downstream, armed deserters attempted to [[hijack|hijack]] the moving barge, hoping to divert its flour to a private warehouse. The crew grounded the vessel on a mudbank rather than surrender it. Nearby residents helped [[salvage|salvage]] the sacks before water reached the hold. A regional [[periodical|periodical]] later credited the escort alone, but the boatkeeper's written account recorded the residents' decisive contribution.",
+    "At the temporary distribution depot, soldiers were forbidden to [[roam|roam]] through neighbouring homes. Residents brought their petitions to the warehouse instead. Several welcomed the flour while disputing the republic's taxes; accepting relief did not mean endorsing its government. The boatkeeper attached their complaints to his delivery record. Beside the final total, he noted that two households were still waiting for their rations."
+  ],
+  "zh": [
+    "在虚构的河川共和国，政府在建国时作出郑重承诺：任何聚落都不会因其政治立场而被拒绝粮食援助。冬季洪水很快使兑现这一承诺变得极其困难。村庄被隔绝，几座粮仓坍塌，落入不断上涨的水中。补给驳船“柳树号”载着面粉驶向下游。",
+    "醒目的黄色顶篷使它有别于军用船只。尽管这是一项人道主义任务，武装护卫队仍由阿玛拉·森上校指挥。她的命令禁止士兵用物资换取情报。管船人按照自己的清单核对货物，将面粉与护卫队装火药的密封铁罐分开放置。他还记下了哪些村庄的码头已经损毁。",
+    "在下游，武装逃兵企图劫持正在行进的驳船，打算把船上的面粉运往一座私人仓库。船员宁可让船搁浅在泥滩上，也不肯交出船只。附近居民赶在水进入货舱之前，帮助抢救出一袋袋面粉。当地一家期刊后来将功劳全部归于护卫队，但管船人的书面记录记载了居民所起的决定性作用。",
+    "在临时配给站，士兵不得在附近民宅中随意走动。居民则把请愿书送到仓库。几位居民欢迎面粉援助，同时对共和国的税收提出异议；接受救济并不意味着支持其政府。管船人把他们的申诉附在交付记录之后。在最终总数旁，他注明仍有两户人家在等待领取配给。"
+  ],
+  "q": [
+    {
+      "s": "The republic promised to distribute food without regard to communities’ political loyalties.",
+      "a": "T",
+      "why": "建国承诺明确不因政治立场拒绝粮食援助。"
+    },
+    {
+      "s": "The regional publication acknowledged the residents' crucial role in saving the supplies.",
+      "a": "F",
+      "why": "期刊只归功于护卫队，居民贡献见于管船人记录。"
+    },
+    {
+      "s": "The government reduced taxes in response to the residents' petitions.",
+      "a": "NG",
+      "why": "文中未交代政府如何回应税务请愿。"
+    }
+  ]
+}

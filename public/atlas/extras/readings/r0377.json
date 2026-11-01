@@ -1,0 +1,48 @@
+{
+  "id": "r0377",
+  "ids": [
+    "dignity",
+    "tactics",
+    "grumble",
+    "flesh",
+    "microscope",
+    "relieved",
+    "introductory",
+    "proceed",
+    "suspect",
+    "principal"
+  ],
+  "title": "A Lagoon Beyond the Lunch Plate",
+  "titleZh": "餐盘之外的潟湖",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "At a shallow lagoon on the Adriatic coast, visitors usually arrive expecting a seafood lunch. However, oyster grower Mira offers a different experience: a morning among the wooden platforms where her family works. Her [[principal|principal]] aim is to show that a beautiful coastal landscape is also a workplace, shaped by generations of careful observation.",
+    "The tour begins with an [[introductory|introductory]] talk beneath a reed roof. Mira asks guests not to photograph workers without permission; their [[dignity|dignity]], she explains, matters more than a memorable holiday image. Some visitors [[grumble|grumble]] about the photography restrictions, but her [[tactics|tactics]] soon win them over: she gives everyone a rope to practise tying a grower's knot.",
+    "Before they [[proceed|proceed]] to the platforms, guests examine lagoon water through a [[microscope|microscope]]. What appeared empty suddenly contains drifting shapes. These tiny organisms help feed the oysters, whose soft [[flesh|flesh]] is hidden inside rough shells. People often [[suspect|suspect]] that clear water must contain little life, Mira says, yet this small sample suggests otherwise. She then explains why pollution upstream can affect the entire harvest.",
+    "On the platform, a child worries that every oyster lifted from the water will be eaten. He looks [[relieved|relieved]] when Mira lowers the demonstration basket back into the lagoon. Lunch is still available at her cousin's kitchen, but it now feels less like the purpose of the visit. The lagoon has become a living place rather than merely a view beside a plate."
+  ],
+  "zh": [
+    "在亚得里亚海沿岸的一处浅潟湖，游客通常是冲着一顿海鲜午餐而来。然而，牡蛎养殖户米拉提供了一种不同的体验：在她家人劳作的木制平台间度过一个上午。她最主要的目的是让人们看到，美丽的海岸风景也是一处工作场所，其面貌凝聚着几代人的细致观察。",
+    "参观从芦苇棚下的一场入门讲解开始。米拉请客人在未经允许的情况下不要拍摄工人。她解释说，工人的尊严比一张令人难忘的度假照片更重要。有些游客抱怨这些拍照限制，但她的方法很快就赢得了他们的好感：她给每个人一根绳子，让大家练习打养殖户常用的绳结。",
+    "前往平台之前，客人们先通过显微镜观察潟湖的水。原本看似空无一物的水中，突然出现了各种漂浮的形体。这些微小生物是牡蛎的部分食物来源，而牡蛎柔软的肉则藏在粗糙的外壳里。米拉说，人们常常以为清澈的水中一定没有多少生命，但这一小份水样却表明并非如此。随后，她解释了为什么上游的污染会影响整批收成。",
+    "到了平台上，一个孩子担心每只被捞出水面的牡蛎都会被吃掉。当米拉把用于展示的篮子放回潟湖时，他露出了放心的神情。她一位堂表亲的厨房仍然供应午餐，但午餐此时似乎已不再是这趟参观的主要目的。潟湖已成为一个充满生命的地方，而不只是餐盘旁的一片风景。"
+  ],
+  "q": [
+    {
+      "s": "Mira began offering tours more than five years ago.",
+      "a": "NG",
+      "why": "文中介绍了参观活动，未说明何时开始。"
+    },
+    {
+      "s": "Visitors examine lagoon water before going to the platforms.",
+      "a": "T",
+      "why": "第三段明确说先观察水样，再前往平台。"
+    },
+    {
+      "s": "Mira keeps the demonstration basket out of the water.",
+      "a": "F",
+      "why": "末段说明她把展示篮放回了潟湖。"
+    }
+  ]
+}

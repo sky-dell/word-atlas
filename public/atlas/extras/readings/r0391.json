@@ -1,0 +1,48 @@
+{
+  "id": "r0391",
+  "ids": [
+    "retail",
+    "canyon",
+    "terminal",
+    "rage",
+    "bullet",
+    "tornado",
+    "instinct",
+    "privilege",
+    "controversial",
+    "insufficient"
+  ],
+  "title": "A Safer Place to Compete",
+  "titleZh": "更安全的比赛场地",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "For thirty years, a small sports club had held shooting competitions beside a [[canyon|canyon]] outside Bellridge. Then a [[tornado|tornado]] damaged its protective barriers, leaving the club without a safe venue six weeks before its annual competition. Repairs would cost far more than its savings. Club secretary Amara, who worked in [[retail|retail]], began searching for another location.",
+    "Her first proposal was [[controversial|controversial]]: move the event to a disused warehouse near several homes. At a public meeting, one resident shook with [[rage|rage]], imagining a stray [[bullet|bullet]] reaching his garden. Amara's first [[instinct|instinct]] was to defend the club's safety record. Instead, she listened. She realised that promises alone were [[insufficient|insufficient]]; any replacement venue needed professional approval and public confidence.",
+    "A retired coach suggested a certified indoor range beyond the airport passenger [[terminal|terminal]]. It belonged to a private association, and weekend access was a [[privilege|privilege]] normally reserved for its members. Amara offered a practical exchange: club volunteers would repaint its reception area and repair its equipment cupboards in return for one competition weekend. After inspecting the proposed work, the association agreed.",
+    "The event went ahead with fewer spectators but every competitor present. Residents from the warehouse neighbourhood were invited to visit beforehand, and several attended. Entry fees covered transport and left a modest sum for the damaged club. More importantly, Amara secured an agreement to share the indoor range each winter, turning an emergency solution into a lasting partnership."
+  ],
+  "zh": [
+    "三十年来，一家小型体育俱乐部一直在贝尔里奇镇外的一处峡谷旁举办射击比赛。后来，一场龙卷风损坏了防护设施，距离年度比赛仅剩六周时，俱乐部却失去了安全的比赛场地。维修费用远远超过了俱乐部的积蓄。从事零售业的俱乐部秘书阿玛拉开始寻找其他地点。",
+    "她的第一个提议引起了争议：把比赛搬到几户住宅附近的一座废弃仓库。在一次公众会议上，一位居民想到流弹可能飞进自家花园，气得浑身发抖。阿玛拉的本能反应是为俱乐部以往的安全记录辩护。但她没有这样做，而是认真倾听。她意识到，仅有承诺是不够的；任何替代场地都需要获得专业认可，并赢得公众的信任。",
+    "一位退休教练推荐了机场航站楼另一侧的一家获得认证的室内射击场。它属于一个私人协会，周末使用场地通常是会员才享有的特权。阿玛拉提出了一项务实的交换方案：俱乐部的志愿者帮助重新粉刷接待区并修理器材柜，以换取一个周末的比赛使用权。协会查看了拟开展的工作后，同意了这个方案。",
+    "比赛如期举行，观众虽然少了些，但所有参赛者都到场了。仓库附近的居民受邀提前参观，其中几人应邀前来。报名费支付了交通费用，并为受损的俱乐部留下了一小笔钱。更重要的是，阿玛拉达成了每年冬季共用这座室内射击场的协议，将一次应急安排变成了长久的合作。"
+  ],
+  "q": [
+    {
+      "s": "The club lacked enough savings to pay for repairs after the storm.",
+      "a": "T",
+      "why": "首段指出维修费用远超俱乐部积蓄。"
+    },
+    {
+      "s": "The association allowed the club to use its range without asking for anything in exchange.",
+      "a": "F",
+      "why": "协会以场地使用权换取粉刷和维修工作。"
+    },
+    {
+      "s": "The winner achieved a higher score than the previous year's champion.",
+      "a": "NG",
+      "why": "文章未提及冠军成绩或往年成绩。"
+    }
+  ]
+}

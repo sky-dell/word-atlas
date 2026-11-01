@@ -1,0 +1,48 @@
+{
+  "id": "r0602",
+  "ids": [
+    "vocal",
+    "elapse",
+    "dishonour",
+    "ominous",
+    "overlap",
+    "volatile",
+    "pertain",
+    "filament",
+    "impart",
+    "depreciate"
+  ],
+  "title": "A Loom Worth Sharing",
+  "titleZh": "一台值得共享的织机",
+  "topic": "economy",
+  "cefr": 4,
+  "paras": [
+    "When Bellwater's last weaving workshop closed, six residents pooled their savings to buy its smallest loom. Their cooperative would produce decorative ribbons for independent dressmakers. Yet orders were irregular and silk prices [[volatile|volatile]]. Mara, a retired bookkeeper, was particularly [[vocal|vocal]] about the danger of mistaking enthusiasm for financial viability.",
+    "Her warning acquired an [[ominous|ominous]] significance when the loom repeatedly snapped a [[filament|filament]], leaving gaps in the ribbon. Two weeks would [[elapse|elapse]] before a replacement component arrived. The members refunded their first customers: they considered the possible [[dishonour|dishonour]] of knowingly selling faulty cloth more damaging than the immediate financial loss.",
+    "During the interruption, weaver Idris used sample strips to [[impart|impart]] techniques that had remained largely undocumented. Members discovered that their abilities could [[overlap|overlap]] without making anyone redundant: two people could inspect ribbons, while others alternated between weaving and packing. Mara separated expenses that [[pertain|pertain]] to production from those associated with teaching. Her calculations suggested that small weekend workshops could cover the rent.",
+    "By autumn, ribbon sales were paying for materials, while workshop fees covered rent and maintenance, with a little left for a reserve. Although the loom would [[depreciate|depreciate]] in their accounts, the knowledge surrounding it was becoming more widely distributed. At the year's final meeting, members voted against buying another machine. Instead, they purchased six adjustable stools."
+  ],
+  "zh": [
+    "贝尔沃特最后一家织造作坊关闭后，六位居民凑出积蓄，买下了其中最小的一台织机。他们的合作社计划为独立制衣师生产装饰丝带。然而，订单时有时无，丝线价格也变化无常。退休簿记员玛拉尤其直言不讳，提醒大家不要把热情误当作财务上能够维持经营的保证。",
+    "当织机反复扯断细丝，导致丝带出现空隙时，她的警告便显出了不祥的意味。替换零件要过两周才能到货。成员们向首批顾客退款：在他们看来，明知布料有瑕疵却仍然出售，可能造成的名誉损失比眼前的经济损失更严重。",
+    "停工期间，织工伊德里斯用样品布条传授此前大多没有文字记录的技艺。成员们发现，技能有所重叠并不意味着谁就成了多余的人：两个人可以检查丝带，其他人则轮流负责织造和包装。玛拉把生产相关开支与教学相关开支分开核算。她的计算表明，小规模的周末课程或许足以支付租金。",
+    "到了秋天，丝带销售收入已能支付材料费，课程收费则能支付租金和维护费用，还能留下一点作为储备金。虽然织机在账面上会逐渐贬值，但与它有关的知识却正被更多人掌握。在当年的最后一次会议上，成员们投票否决了再买一台机器的提议，转而购置了六把可调节高度的凳子。"
+  ],
+  "q": [
+    {
+      "s": "Mara openly questioned whether enthusiasm would ensure the venture's financial viability.",
+      "a": "T",
+      "why": "玛拉公开警告，不应把热情等同于财务可行性。"
+    },
+    {
+      "s": "Idris had taught weaving classes before joining the cooperative.",
+      "a": "NG",
+      "why": "文章未说明伊德里斯加入合作社前是否授过课。"
+    },
+    {
+      "s": "At their final meeting of the year, the members voted to buy another loom.",
+      "a": "F",
+      "why": "年末会议否决了再买一台机器的提议。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0370",
+  "ids": [
+    "radiation",
+    "specialised",
+    "pine",
+    "folk",
+    "discipline",
+    "terrace",
+    "forefinger",
+    "anxiously",
+    "boundary",
+    "rebuild"
+  ],
+  "title": "Making a Village Boundary Sign",
+  "titleZh": "制作村界标牌",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "When a flood destroyed the wooden sign at the village entrance, the council asked a nearby workshop to make its replacement. For local [[folk|folk]], the sign marked more than an administrative [[boundary|boundary]]: its carved heron welcomed them home. Before work began, the maker, Leila, examined old photographs and measured a surviving fragment. These records allowed her to reproduce the original design rather than invent a new one. Meanwhile, neighbours watched [[anxiously|anxiously]] as workers began to [[rebuild|rebuild]] the damaged bridge beside the entrance.",
+    "Leila selected a thick board of [[pine|pine]], rejecting pieces with loose knots that might fall out later. After leaving it indoors to dry, she cut it to shape and transferred the lettering onto its surface with paper templates. Carving required [[discipline|discipline]]: rushing a single curve could split the wood and ruin several hours of work. She guided a small chisel along each outline, then ran her [[forefinger|forefinger]] gently over the sanded letters to check for rough edges. The heron was carved separately and fixed above the village name.",
+    "The final stage took place on a covered [[terrace|terrace]] beside the workshop, where air could circulate freely. Leila brushed on a [[specialised|specialised]] outdoor coating designed to reduce damage from moisture and ultraviolet [[radiation|radiation]]. Each thin layer dried before the next was applied. Once the finish had hardened, council workers secured the sign to two stone posts. The familiar bird stood above the road again."
+  ],
+  "zh": [
+    "一场洪水毁掉了村口的木制标牌，地方议事机构便委托附近的一家作坊制作替代品。对当地人来说，这块标牌不仅标示着行政边界，上面雕刻的苍鹭还迎接着他们归来。开工前，工匠莱拉查看了旧照片，并测量了一块幸存的残片。这些资料让她能够复原原来的设计，而不必另创样式。与此同时，工人开始重建村口旁受损的桥梁，邻居们则忧心忡忡地在一旁看着。",
+    "莱拉挑选了一块厚松木板，剔除了带有松动木节的板材，因为这些木节日后可能脱落。她先把木板放在室内晾干，再将其切割成形，用纸模板把文字描到木板表面。雕刻需要自律：哪怕只是在一道弧线上急于求成，也可能使木头开裂，让数小时的劳动付诸东流。她用小凿子沿着每一道轮廓雕刻，再用食指轻轻摸过打磨后的字面，检查是否还有粗糙的边缘。苍鹭则单独雕刻，随后固定在村名上方。",
+    "最后一道工序在作坊旁有顶棚的露台上进行，那里的空气可以自由流通。莱拉刷上一种专用户外涂料，用于减少潮气和紫外线辐射造成的损伤。每刷完薄薄一层，都要等它干透后再刷下一层。涂层硬化后，地方议事机构的工作人员将标牌牢牢安装在两根石柱上。那只熟悉的鸟再次立在道路上方。"
+  ],
+  "q": [
+    {
+      "s": "Leila invented a new design instead of reproducing the original sign.",
+      "a": "F",
+      "why": "她借助旧照片和残片复原了原设计。"
+    },
+    {
+      "s": "The protective coating was expected to last for at least ten years.",
+      "a": "NG",
+      "why": "文章未说明涂层预计能使用多少年。"
+    },
+    {
+      "s": "Workers attached the sign to stone posts after the finish had hardened.",
+      "a": "T",
+      "why": "涂层硬化后，工作人员才将标牌固定到石柱上。"
+    }
+  ]
+}

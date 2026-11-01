@@ -1,0 +1,48 @@
+{
+  "id": "r0431",
+  "ids": [
+    "firewood",
+    "congestion",
+    "impulse",
+    "handbook",
+    "off-duty",
+    "accurate",
+    "considerable",
+    "respectful",
+    "nuclear",
+    "regulation"
+  ],
+  "title": "The Hidden Cost of Wet Wood",
+  "titleZh": "湿木柴的隐性成本",
+  "topic": "economy",
+  "cefr": 3,
+  "paras": [
+    "At a village bakery, owner Amara noticed that cheap [[firewood|firewood]] did not always produce cheap bread. Some deliveries burned slowly, leaving the oven too cool for the morning batch. Her first [[impulse|impulse]] was to blame the supplier. Instead, she invited Tomas, an [[off-duty|off-duty]] engineer who regularly bought her rolls, to investigate.",
+    "Using a moisture meter and a practical [[handbook|handbook]], they tested logs from three deliveries. For an [[accurate|accurate]] comparison, Tomas split each log and measured its newly exposed centre. The cheapest load contained much more water. Before wet wood can heat an oven efficiently, that water must be heated and evaporated, consuming a [[considerable|considerable]] amount of energy. The principle is the same whether heat comes from burning wood or a [[nuclear|nuclear]] reactor: turning water into vapour requires energy.",
+    "Amara began keeping logs under a roof with open sides. She also arranged smaller deliveries outside the morning rush, reducing [[congestion|congestion]] in the narrow yard shared with neighbouring workshops. A [[respectful|respectful]] conversation with the supplier produced a new agreement: prices would reflect moisture levels, not simply the weight of each load.",
+    "After two months, the bakery was using less wood per batch. Drier fuel also helped it meet a smoke [[regulation|regulation]], although careful control of airflow remained essential. Amara had not found a revolutionary oven or a magical fuel. She had discovered that measuring what she bought could be as valuable as negotiating its price."
+  ],
+  "zh": [
+    "在一家乡村面包店，店主阿玛拉发现，便宜的木柴并不总能降低面包的生产成本。有些批次的木柴燃烧缓慢，导致烤炉温度不足，影响早晨那批面包的烘焙。她的第一反应是责怪供应商。但她没有这样做，而是请经常来买小面包的工程师托马斯利用休息时间帮忙调查。",
+    "他们借助水分测量仪和一本实用手册，检测了三次送来的木柴。为了准确比较，托马斯劈开每根木柴，测量刚刚露出的中心部位。最便宜的那批木柴含水量高得多。湿木柴要有效地加热烤炉，其中的水分必须先被加热并蒸发，这会消耗相当多的能量。无论热量来自燃烧木材还是核反应堆，道理都一样：水变成水蒸气需要能量。",
+    "阿玛拉开始把木柴存放在四面通风的棚子下面。她还安排供应商避开早晨的忙碌时段，每次少送一些，从而缓解了面包店与邻近作坊共用的狭窄院子里的拥堵。她与供应商礼貌地沟通后，双方达成了新协议：定价要考虑木柴的含水量，而不只是每批货的重量。",
+    "两个月后，面包店每烤一批面包所用的木柴减少了。更干燥的燃料也帮助店铺达到了烟尘排放规定的要求，不过，仔细控制进气量仍然必不可少。阿玛拉没有找到革命性的新烤炉，也没有发现神奇的燃料。她发现，测量买来的东西，可能与商议价格同样有价值。"
+  ],
+  "q": [
+    {
+      "s": "Tomas had previously investigated fuel problems at other bakeries.",
+      "a": "NG",
+      "why": "文章未说明托马斯是否调查过其他面包店。"
+    },
+    {
+      "s": "The cheapest delivery contained more water than the other deliveries tested.",
+      "a": "T",
+      "why": "检测发现最便宜的那批木柴含水量高得多。"
+    },
+    {
+      "s": "Using drier wood removed the need to control airflow carefully.",
+      "a": "F",
+      "why": "末段明确说仔细控制进气量仍然必不可少。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0359",
+  "ids": [
+    "mold",
+    "gulf",
+    "eternal",
+    "distinct",
+    "speculate",
+    "existence",
+    "confront",
+    "experimental",
+    "offence",
+    "mistaken"
+  ],
+  "title": "The Fossil That Fooled the Camera",
+  "titleZh": "骗过镜头的化石",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "In a coastal museum beside a narrow [[gulf|gulf]], photographer Leila Haddad prepares two objects for a science magazine. One is a fossil shell; the other was made by pouring liquid plaster into a [[mold|mold]]. Under soft lighting, their surfaces appear almost identical. Yet they have [[distinct|distinct]] histories: one formed millions of years ago, while the other dried last Tuesday.",
+    "The magazine uses these photographs in an [[experimental|experimental]] project exploring how captions influence judgement. Readers who see the label “rare discovery” often [[speculate|speculate]] about the ancient animal’s diet or habitat before examining the image closely. The photograph seems to confirm the creature’s [[existence|existence]], although the object shown could be a modern copy. A convincing image is not necessarily reliable evidence.",
+    "This matters beyond museum displays. Removing fossils from certain protected cliffs is an [[offence|offence]], so photographs may become part of an investigation. However, an investigator would be [[mistaken|mistaken]] to identify a stolen specimen from colour alone. Lighting changes colour, and paint can imitate mineral stains. Measurements, collection records and small surface cracks provide stronger clues when considered together.",
+    "For editors, the challenge is to [[confront|confront]] uncertainty without making every article unreadable. Leila now photographs replicas beside their originals and explains how each image was produced. Neither stone nor digital information is [[eternal|eternal]]: both can eventually disappear. Careful records nevertheless help useful evidence survive, allowing future readers to judge not just what a picture shows, but what it can actually prove."
+  ],
+  "zh": [
+    "在一座坐落于狭长海湾旁的海岸博物馆里，摄影师莱拉·哈达德正为一本科学杂志准备两件拍摄物品。一件是贝壳化石，另一件则是将液态石膏倒入模具制成的。在柔和的光线下，两者的表面看起来几乎一模一样。然而，它们的来历截然不同：一件形成于数百万年前，另一件上周二才晾干。",
+    "杂志将这些照片用于一个实验项目，探究图片说明如何影响判断。看到“罕见发现”这一标签的读者，往往还没仔细观察图片，就开始猜测这种古代动物的食物或栖息环境。照片似乎证实了这种生物的存在，尽管画面中的物件可能只是现代复制品。令人信服的图像并不一定是可靠的证据。",
+    "这不仅关系到博物馆展览。在某些受保护的崖壁采集化石属于违法行为，因此照片可能成为调查材料的一部分。不过，调查人员若仅凭颜色辨认被盗标本，就会犯错。光线会改变颜色，颜料也能模仿矿物留下的斑痕。将尺寸、馆藏记录和细小的表面裂纹结合起来考察，可以提供更有力的线索。",
+    "对编辑而言，难题在于如何正视不确定性，同时又不让每篇文章都变得晦涩难读。如今，莱拉会将复制品放在原件旁一起拍摄，并解释每张图片的制作过程。无论石头还是数字信息，都不是永恒的：两者最终都可能消失。不过，细致的记录有助于保存有用的证据，让未来的读者不仅能判断图片展示了什么，还能判断它究竟能证明什么。"
+  ],
+  "q": [
+    {
+      "s": "Leila made the plaster copy herself.",
+      "a": "NG",
+      "why": "首段说明复制品的制作方法，未说明制作者。"
+    },
+    {
+      "s": "Readers who see the label “rare discovery” often speculate before examining the image closely.",
+      "a": "T",
+      "why": "第二段说读者常在细看图片前就开始猜测。"
+    },
+    {
+      "s": "Colour alone is enough to identify a stolen fossil specimen reliably.",
+      "a": "F",
+      "why": "第三段指出仅凭颜色辨认被盗标本会犯错。"
+    }
+  ]
+}

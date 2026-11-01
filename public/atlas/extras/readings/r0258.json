@@ -1,0 +1,48 @@
+{
+  "id": "r0258",
+  "ids": [
+    "millimetre",
+    "planned",
+    "consist",
+    "annual",
+    "symbol",
+    "painkiller",
+    "select",
+    "connection",
+    "neighboring",
+    "combine"
+  ],
+  "title": "Small Golf, Growing Crowds",
+  "titleZh": "小小高尔夫，吸引越来越多人",
+  "topic": "sport",
+  "cefr": 2,
+  "paras": [
+    "A surprising sports trend is growing in Bellwick: adults are spending Friday evenings playing miniature golf inside an old furniture workshop. The club began with eight members last winter. Now, forty people attend, including visitors from two [[neighboring|neighboring]] villages. Many come for the building work as much as the game.",
+    "The club's evenings [[consist|consist]] of two parts. First, members [[combine|combine]] pieces of wood to build small bridges and slopes. Then they play a round on their new course. Players carefully [[select|select]] a route for each shot. Moving a wooden edge by just one [[millimetre|millimetre]] can change where the ball goes.",
+    "For retired cook Amira, the attraction is the [[connection|connection]] between making things and playing sport. She stopped playing tennis after a knee injury. 'I sometimes needed a [[painkiller|painkiller]] after a match,' she explains. 'Here, I can sit down between turns and still be part of a team.' However, winning remains important: members keep scores on a large board.",
+    "A [[planned|planned]] open evening next month will let visitors try the course for free. The club is also preparing its first [[annual|annual]] competition. Its prize is a tiny wooden bridge, a [[symbol|symbol]] of the friendships built there. In Bellwick, a smaller playing field has created a surprisingly large sporting community."
+  ],
+  "zh": [
+    "贝尔威克正兴起一股令人意外的运动潮流：成年人每周五晚上都会到一间旧家具作坊里打迷你高尔夫。俱乐部去年冬天刚成立时只有八名会员，如今已有四十人参加，其中还有来自两个邻近村庄的人。对许多人来说，动手搭建球道和打球同样有吸引力。",
+    "俱乐部的晚间活动由两部分组成。首先，会员们把木块拼在一起，搭出小桥和斜坡。接着，他们就在新建的球道上打一轮。每次击球前，球员都会仔细选择路线。即使只把木质边缘移动一毫米，也可能改变球的走向。",
+    "对退休厨师阿米拉来说，吸引她的是动手制作与体育运动之间的联系。膝盖受伤后，她就不再打网球了。她解释说：“以前打一场比赛后，我有时得吃止痛药。在这里，我可以在轮到别人打球时坐下来休息，同时仍然是团队的一员。”不过，获胜依然很重要：会员们会把比分记录在一块大板上。",
+    "下个月预先安排好的一场开放夜活动将让访客免费体验球道。俱乐部也正在筹备首届年度比赛。奖品是一座小木桥，象征着大家在这里建立的友谊。在贝尔威克，更小的运动场地却凝聚起了一个规模大得令人意外的运动社群。"
+  ],
+  "q": [
+    {
+      "s": "The club advertises its Friday evenings in a local newspaper.",
+      "a": "NG",
+      "why": "文章未说明俱乐部是否在当地报纸上宣传。"
+    },
+    {
+      "s": "Members play their round before starting the construction work.",
+      "a": "F",
+      "why": "第二段说明先搭建球道，再打球。"
+    },
+    {
+      "s": "Amira can sit down between turns at the club.",
+      "a": "T",
+      "why": "第三段中她说可以在两次轮到自己之间坐下。"
+    }
+  ]
+}

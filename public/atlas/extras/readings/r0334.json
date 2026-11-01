@@ -1,0 +1,48 @@
+{
+  "id": "r0334",
+  "ids": [
+    "transparent",
+    "upbringing",
+    "psychology",
+    "calory",
+    "subheading",
+    "handful",
+    "derive",
+    "fellow",
+    "drip",
+    "shallow"
+  ],
+  "title": "The Bowl Beside the Pool",
+  "titleZh": "泳池边的那只碗",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "At a small swimming club, coach Leila places a [[transparent|transparent]] bowl of dried fruit beside the pool. Through its sides, swimmers can see exactly what remains. After a warm-up swim, each takes a [[handful|handful]]. The snack is ordinary, but the ritual raises an interesting question: how much of sporting nutrition depends on the mind?",
+    "Food provides energy, measured in [[calory|calories]], and swimmers [[derive|derive]] much of their fuel from carbohydrates. Yet knowing this does not automatically produce useful eating habits. Research in [[psychology|psychology]] explores how surroundings and social relationships influence choices. A swimmer's [[upbringing|upbringing]] may also matter: someone taught to avoid eating between meals might initially feel uncomfortable taking a snack before exercise.",
+    "Leila therefore makes the break part of the session rather than an optional extra. While water continues to [[drip|drip]] from their hair, swimmers gather at the [[shallow|shallow]] end and eat with their [[fellow|fellow]] club members. Nobody compares portions. The aim is to make refuelling familiar, not competitive. On the training sheet, a [[subheading|subheading]] reading 'Fuel and recovery' gives the break the same visual importance as the swimming exercises.",
+    "This simple arrangement is not a scientific trial, and it cannot reveal whether the snack improves performance. However, it illustrates a practical principle: information becomes easier to act on when the environment supports it. For these swimmers, learning to care for the body happens not only in the water, but also around a bowl."
+  ],
+  "zh": [
+    "在一家小型游泳俱乐部，教练莱拉把一只装着干果的透明碗放在泳池旁。透过碗壁，游泳者能清楚地看到还剩多少。热身游泳后，大家都会各取一把。零食虽然普通，这个固定环节却引出了一个有趣的问题：运动营养在多大程度上取决于心理？",
+    "食物提供的能量以卡路里计量，而游泳者的运动能量很大一部分来自碳水化合物。然而，知道这一点并不会自动带来有益的饮食习惯。心理学研究探索环境和社会关系如何影响人的选择。一个人的家庭教养也可能产生影响：如果从小被教导不要在两餐之间吃东西，那么最初在运动前吃点零食时，可能会觉得不自在。",
+    "因此，莱拉把这次休息安排为训练的一部分，而不是可有可无的附加环节。头发上的水还在往下滴，游泳者就聚到浅水端，和俱乐部的伙伴们一起吃东西。没有人比较谁吃得多、谁吃得少。这样做是为了让补充能量成为习惯，而不是一场比赛。训练表上，“能量补充与恢复”这一小标题，让这个休息环节在视觉上与游泳练习同样重要。",
+    "这一简单安排并非科学试验，也无法说明零食是否能提高运动表现。不过，它体现了一个实用原则：当环境提供支持时，人们更容易把知识付诸行动。对这些游泳者来说，学习照顾身体不仅发生在水中，也发生在一只碗旁。"
+  ],
+  "q": [
+    {
+      "s": "The bowl's sides prevent swimmers from seeing how much dried fruit is left.",
+      "a": "F",
+      "why": "游泳者能透过碗壁清楚看到剩余量。"
+    },
+    {
+      "s": "The swimmers prefer the dried fruit to fresh fruit.",
+      "a": "NG",
+      "why": "文章未比较游泳者对干果和鲜果的偏好。"
+    },
+    {
+      "s": "Family rules about eating may affect how comfortable swimmers feel about a pre-exercise snack.",
+      "a": "T",
+      "why": "原文指出家庭饮食教导可能影响吃零食的感受。"
+    }
+  ]
+}

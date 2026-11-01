@@ -1,0 +1,48 @@
+{
+  "id": "r0730",
+  "ids": [
+    "fortitude",
+    "impost",
+    "teem",
+    "hereof",
+    "abrogate",
+    "rescind",
+    "fastidious",
+    "hinterland",
+    "continuance",
+    "actuality"
+  ],
+  "title": "Listening Beneath the Reeds",
+  "titleZh": "芦苇下的聆听",
+  "topic": "technology",
+  "cefr": 5,
+  "paras": [
+    "14 September, eastern marsh. Beyond the coastal ridge, the [[hinterland|hinterland]] opens into shallow basins whose apparently lifeless surfaces conceal extraordinary movement. Our submerged camera showed channels [[teem|teeming]] with translucent shrimp, although the acoustic recorder registered mostly rain. In [[actuality|actuality]], the supposed silence was an instrumental limitation: its filter had discarded the faint clicks we had come to document.",
+    "The recorder had arrived late, an import [[impost|impost]] having exhausted our freight allowance. Its deployment permit was scarcely more accommodating: “The provisions [[hereof|hereof]] confer no exclusive access.” Yesterday, the landowner threatened to [[abrogate|abrogate]] our access agreement after finding a cable across his landing place. Only when we rerouted it beneath the boards did he [[rescind|rescind]] his decision to exclude the team.",
+    "By dusk, Amara’s [[fastidious|fastidious]] adjustments had separated shrimp clicks from the rasp of reeds against the housing. Kneeling in cold water to reposition the microphone demanded considerable [[fortitude|fortitude]]; each successful adjustment was undone when the soft sediment swallowed its support. We eventually suspended the instrument between two willow stakes, leaving sufficient slack for the overnight rise in water level.",
+    "At dawn, the recording contained a delicate crackling that intensified wherever the camera revealed shrimp grazing on submerged stems. This correspondence alone cannot establish what each sound means, but it warrants the [[continuance|continuance]] of observations through the autumn. Beside the landing place, our cable was now invisible; beneath it, the marsh had become audible without being asked to change."
+  ],
+  "zh": [
+    "9月14日，东部沼泽。越过海岸山脊，内陆腹地展开为一片片浅水洼地，看似毫无生机的水面下，却隐藏着异常活跃的生命。水下摄像机显示，水道里满是半透明的小虾，然而声学记录仪录到的主要是雨声。实际上，这种所谓的寂静源于仪器的局限：它的滤波器滤掉了我们此行要记录的微弱咔嗒声。",
+    "记录仪姗姗来迟，因为一笔进口税耗尽了我们的货运预算。设备布设许可证也同样苛刻：“本文件所列条款不授予独占进入权。”昨天，土地所有者在自己的靠船处发现一根横穿的电缆后，威胁要正式废止我们的准入协议。直到我们将电缆改道铺到木板下方，他才撤销了禁止团队进入的决定。",
+    "到黄昏时，经过阿玛拉一丝不苟的调试，小虾的咔嗒声终于与芦苇摩擦机壳的沙沙声区分开来。跪在冰冷的水中调整水下传声器的位置，需要极大的坚毅；每次刚调好，松软的泥沙就会吞没支架，使之前的努力付诸东流。最后，我们将仪器悬在两根柳木桩之间，并留出足够余量，以应对夜间水位上涨。",
+    "黎明时，录音里出现了细碎的噼啪声；摄像机拍到小虾在水下茎秆上觅食的地方，这种声音就更强。仅凭这种对应关系，还无法确定每一种声音的含义，但它足以支持我们在整个秋季继续观察。靠船处旁边，我们的电缆已隐而不见；在它下面，沼泽无须作出改变，便已能够被听见。"
+  ],
+  "q": [
+    {
+      "s": "The recorder’s filter initially retained the faint clicks the team wanted to document.",
+      "a": "F",
+      "why": "首段说明滤波器滤掉了这些微弱声响。"
+    },
+    {
+      "s": "Amara had previously used willow stakes to support recording equipment at another wetland.",
+      "a": "NG",
+      "why": "文中未提阿玛拉在其他湿地的工作经历。"
+    },
+    {
+      "s": "The dawn recording contained stronger crackling where the camera showed shrimp feeding on submerged stems.",
+      "a": "T",
+      "why": "末段说明小虾觅食处的噼啪声更强。"
+    }
+  ]
+}

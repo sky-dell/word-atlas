@@ -1,0 +1,48 @@
+{
+  "id": "r0430",
+  "ids": [
+    "panel",
+    "ceramic",
+    "insignificant",
+    "bless",
+    "tragedy",
+    "assembly",
+    "discourage",
+    "resemblance",
+    "spark",
+    "soar"
+  ],
+  "title": "From Clay to Clean Water",
+  "titleZh": "从黏土到净水",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "In a riverside workshop, potters make [[ceramic|ceramic]] water filters that have a strong [[resemblance|resemblance]] to ordinary flowerpots. The project began after a flood brought a [[tragedy|tragedy]]: several residents died from drinking contaminated water. A [[panel|panel]] of engineers and health specialists recommended filters that could be produced with local clay rather than expensive imported equipment.",
+    "First, workers dry the clay, crush it and mix it with finely ground rice husks. The mixture is pressed into a bowl-shaped mould, then left to dry slowly under cloth. Even a seemingly [[insignificant|insignificant]] crack can let untreated water pass through, so damaged bowls are returned to the mixing stage. Careful drying also reduces waste before the costly firing process.",
+    "Inside a wood-fired kiln, the bowls are heated to about 900 degrees Celsius. The husks burn away, leaving tiny connected spaces through which water can pass. A metal screen helps prevent a stray [[spark|spark]] from reaching nearby fuel. During shortages, wood prices can [[soar|soar]], which may [[discourage|discourage]] production; firing a full kiln helps control the cost of each filter.",
+    "After cooling, each bowl is tested for flow rate, and samples undergo laboratory checks for bacterial removal. Successful bowls sit inside covered storage buckets, ready for use with clear instructions about cleaning and replacement. At a community [[assembly|assembly]], a religious elder may [[bless|bless]] the first batch. The ceremony celebrates the work, but scientific testing determines which filters leave the workshop."
+  ],
+  "zh": [
+    "在一间河边作坊里，陶工们制作的陶瓷净水滤器，外形与普通花盆十分相似。这个项目始于一场洪灾引发的悲剧：几名居民因饮用受污染的水而死亡。一个由工程师和卫生专家组成的专家组建议，利用当地黏土制作滤器，而不是依赖昂贵的进口设备。",
+    "首先，工人将黏土干燥、粉碎，再与磨细的稻壳混合。混合料被压入碗状模具，随后盖上布，缓慢干燥。即使一道看似微不足道的裂纹，也可能让未经处理的水穿过滤器，因此，有裂纹的坯体会被送回混料环节。细心控制干燥过程，还能在成本高昂的烧制之前减少浪费。",
+    "在燃木窑内，坯体被加热至约900摄氏度。稻壳燃烧殆尽，留下相互连通的微小孔隙，水可以从中通过。金属防护网有助于阻止飞散的火花接触附近的燃料。木材短缺时，价格可能急剧上涨，这也可能抑制生产；每次装满一窑再烧，有助于控制每个滤器的成本。",
+    "冷却后，每个碗状滤器都要接受流速测试，抽取的样品还需在实验室检测除菌效果。合格的滤器被放入带盖的储水桶中，并配有明确的清洁和更换说明，便可投入使用。在社区集会上，一位宗教长者可能会为第一批产品祈福。仪式是对劳动成果的庆祝，但决定哪些滤器能够出厂的，是科学检测。"
+  ],
+  "q": [
+    {
+      "s": "Bowls with minor cracks are still sent to the kiln for firing.",
+      "a": "F",
+      "why": "有裂纹的坯体会被送回混料环节。"
+    },
+    {
+      "s": "The bowls remain in the kiln for twelve hours.",
+      "a": "NG",
+      "why": "文章给出烧制温度，但未说明烧制时长。"
+    },
+    {
+      "s": "Every bowl is tested for flow rate after cooling.",
+      "a": "T",
+      "why": "末段明确说明冷却后逐个检测流速。"
+    }
+  ]
+}

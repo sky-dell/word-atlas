@@ -1,0 +1,48 @@
+{
+  "id": "r0240",
+  "ids": [
+    "gain",
+    "blanket",
+    "technical",
+    "communication",
+    "darkness",
+    "deal",
+    "odd",
+    "ashtray",
+    "ingredient",
+    "apology"
+  ],
+  "title": "Coffee Waste, Mushroom Dinner",
+  "titleZh": "咖啡渣变成蘑菇晚餐",
+  "topic": "science",
+  "cefr": 2,
+  "paras": [
+    "Behind a small café, mushroom grower Mina is testing a way to turn coffee waste into food. She has made a [[deal|deal]] with the owner: he saves the used coffee grounds, and she collects them each morning. Her aim is to [[gain|gain]] useful knowledge about growing mushrooms in small spaces.",
+    "The process needs care rather than expensive [[technical|technical]] equipment. Mina mixes fresh grounds with clean straw and adds growing material containing oyster mushroom mycelium—the living threads from which mushrooms grow. A thin white [[blanket|blanket]] soon covers the surface of the mixture. These threads take food from the waste. At first, Mina keeps the containers in [[darkness|darkness]]; later, gentle light helps the mushrooms develop.",
+    "One container looks [[odd|odd]]: it is an old glass [[ashtray|ashtray]], carefully washed and no longer used for smoking. Mina compares it with deeper pots. Its mixture dries faster, and fewer mushrooms grow. She needs to repeat the test before she can be sure what caused the difference. Meanwhile, good [[communication|communication]] with the café owner keeps the experiment supplied with fresh grounds.",
+    "Once, a missed collection leaves old grounds smelling unpleasant. Mina offers an [[apology|apology]] and arranges a clearer collection time. She throws that batch away rather than using it. Weeks later, healthy mushrooms from the deeper pots become an [[ingredient|ingredient]] in her soup."
+  ],
+  "zh": [
+    "在一家小咖啡馆后面，蘑菇种植者米娜正在试验一种把咖啡废料变成食物的方法。她与店主达成了协议：店主留下用过的咖啡渣，她每天早晨来收。她的目标是获得在狭小空间里种植蘑菇的实用知识。",
+    "这个过程需要细心，而不是昂贵的技术设备。米娜把新鲜咖啡渣与干净的稻草混合，再加入含有平菇菌丝的培养材料——菌丝是能长出蘑菇的活的丝状体。很快，混合物表面就覆盖了一层薄薄的白色物质。这些丝状体从废料中获取养分。起初，米娜把容器放在黑暗处；之后，柔和的光线有助于蘑菇生长。",
+    "有一个容器看起来很奇怪：那是一个旧玻璃烟灰缸，已经仔细洗净，也不再用于吸烟。米娜把它与较深的盆作比较。烟灰缸里的混合物干得更快，长出的蘑菇也更少。她需要重复试验，才能确定是什么造成了这种差异。同时，她与咖啡馆店主保持良好沟通，确保试验不断有新鲜咖啡渣可用。",
+    "有一次，米娜没能按时收取咖啡渣，放久的咖啡渣散发出了难闻的气味。她向店主道歉，并约定了更明确的收取时间。她把那批咖啡渣扔掉了，没有使用。几周后，较深的盆里长出的健康蘑菇成了她汤中的一种食材。"
+  ],
+  "q": [
+    {
+      "s": "Mina and the café owner put their agreement in writing.",
+      "a": "NG",
+      "why": "文中提到协议，但未说明是否写成书面文件。"
+    },
+    {
+      "s": "The shallow glass container produces more mushrooms than the deeper pots.",
+      "a": "F",
+      "why": "玻璃烟灰缸里长出的蘑菇更少。"
+    },
+    {
+      "s": "Mina throws away the grounds that smell unpleasant.",
+      "a": "T",
+      "why": "她扔掉了散发难闻气味的那批咖啡渣。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0381",
+  "ids": [
+    "pathetic",
+    "situated",
+    "lease",
+    "crawl",
+    "bankruptcy",
+    "drowsy",
+    "intellectual",
+    "rating",
+    "deliberate",
+    "climax"
+  ],
+  "title": "Fresh Air for Recovery",
+  "titleZh": "让康复室重新呼吸",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "When occupational therapist Amira Chen took over a small rehabilitation clinic, she inherited an unexpected problem. The clinic was [[situated|situated]] above a bakery, and patients frequently became [[drowsy|drowsy]] during afternoon appointments. Its previous operator had been forced into [[bankruptcy|bankruptcy]], and Amira herself had little money for improvements. However, her [[lease|lease]] made the building owner responsible for maintaining the ventilation system.",
+    "At first, Amira wondered whether the [[intellectual|intellectual]] effort required by memory exercises was tiring her patients. She compared appointment records and found that even people doing simple hand movements struggled to stay alert. One patient described the airflow as “[[pathetic|pathetic]]”. Rather than dismissing this criticism, Amira borrowed an air monitor and recorded carbon dioxide levels throughout the day.",
+    "The readings rose sharply whenever the waiting room filled. An engineer, Tomas, had to [[crawl|crawl]] beneath a storage platform to inspect the air supply. There he discovered a flap stuck shut inside an air duct. This was not a [[deliberate|deliberate]] attempt to cut costs: a broken handle had left the system drawing almost no fresh air. Under the maintenance agreement, the owner paid for repairs.",
+    "The [[climax|climax]] came during a busy afternoon test: carbon dioxide levels remained within the recommended range. Over the following month, fewer patients reported sleepiness, although Amira continued checking for other causes. The clinic's comfort [[rating|rating]], collected through anonymous feedback cards, rose from two to four out of five. Amira could finally concentrate on recovery rather than keeping windows open."
+  ],
+  "zh": [
+    "职业治疗师阿米拉·陈接手一家小型康复诊所时，也接下了一个意想不到的问题。诊所位于一家面包店楼上，患者在下午就诊时常常昏昏欲睡。前任经营者已被迫破产，而阿米拉自己用于改善条件的资金也十分有限。不过，她的租约规定，楼房业主负责维护通风系统。",
+    "起初，阿米拉怀疑是记忆训练所需的脑力活动让患者感到疲倦。她对比了就诊记录，发现即使只是做简单手部动作的患者，也很难保持清醒。一位患者形容这里的通风“差劲透了”。阿米拉没有忽视这番批评，而是借来一台空气监测仪，记录全天的二氧化碳浓度。",
+    "每当候诊室坐满人，读数就会急剧上升。工程师托马斯不得不爬进一个储物平台下方，检查送风情况。他在那里发现，风管内的一块风阀卡在了关闭位置。这并非有人故意削减成本：一个损坏的手柄导致系统几乎无法引入新鲜空气。根据维护协议，业主支付了维修费用。",
+    "最关键的时刻出现在一个繁忙下午的测试中：二氧化碳浓度始终处于建议范围内。接下来的一个月里，反映困倦的患者减少了，不过阿米拉仍继续排查其他原因。通过匿名反馈卡收集的诊所舒适度评分，也从五分制的两分升至四分。阿米拉终于能专注于患者康复，而不必总操心开窗通风。"
+  ],
+  "q": [
+    {
+      "s": "The lease placed responsibility for ventilation maintenance on Amira rather than the building owner.",
+      "a": "F",
+      "why": "租约规定通风系统由业主负责维护。"
+    },
+    {
+      "s": "A broken handle was responsible for the restricted fresh air supply.",
+      "a": "T",
+      "why": "手柄损坏使系统几乎无法引入新鲜空气。"
+    },
+    {
+      "s": "After the repairs, Amira increased the number of appointments offered each week.",
+      "a": "NG",
+      "why": "文章未提及维修后每周预约数量的变化。"
+    }
+  ]
+}

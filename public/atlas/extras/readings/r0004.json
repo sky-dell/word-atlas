@@ -1,0 +1,46 @@
+{
+  "id": "r0004",
+  "ids": [
+    "quickly",
+    "activity",
+    "town",
+    "without",
+    "picture",
+    "child",
+    "kind",
+    "nothing",
+    "tuesday",
+    "why"
+  ],
+  "title": "A Bread Bag from Willow Town",
+  "titleZh": "柳树镇的面包袋",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "In the small [[town|town]] of Willow, people carry bread home in cloth bags. Visitors can paint a bag at Mira's kitchen table every [[tuesday|Tuesday]]. This [[activity|activity]] starts at ten in the morning. The table is beside a big window. There are clean bags, pots of paint, and small brushes. Today, a visitor named Luis sits beside a young [[child|child]] called Hana.",
+    "Hana paints a yellow sun on her bag. Luis wants a [[picture|picture]] of a bird, but he cannot draw its feet. Mira is [[kind|kind]]. She shows him three short lines for each foot. He [[quickly|quickly]] finishes his bird. Then he asks, “[[why|Why]] do people use these bags?” Mira holds up her old blue bag. “We can carry bread [[without|without]] a new paper bag each day,” she says.",
+    "The lesson costs [[nothing|nothing]], and visitors keep their bags. They leave them by the window while they drink tea. When the paint is dry, Luis walks to the bread shop next door. He buys two small rolls. On his way home, his bag feels warm. His blue bird now has bread to carry."
+  ],
+  "zh": [
+    "在小小的柳树镇，人们用布袋把面包带回家。每周二，游客都可以在米拉家的厨房桌旁给布袋画画。这项活动上午十点开始。桌子在一扇大窗户旁边，上面放着干净的袋子、几罐颜料和小画笔。今天，一位名叫路易斯的游客坐在一个叫哈娜的小女孩旁边。",
+    "哈娜在袋子上画了一个黄色的太阳。路易斯想画一只鸟，却不会画鸟的脚。米拉很热心。她教他每只脚都用三条短线来画。他很快就画好了鸟。接着，他问：“人们为什么用这些袋子？”米拉举起自己的旧蓝布袋，说：“这样我们每天带面包回家，就不用一个新的纸袋了。”",
+    "这节课不收费，游客还可以带走自己的袋子。他们喝茶时，把袋子放在窗边。颜料干了以后，路易斯走到隔壁的面包店，买了两个小面包。在回家的路上，他的袋子摸起来暖暖的。他的蓝色小鸟现在有面包可以带了。"
+  ],
+  "q": [
+    {
+      "s": "The activity starts at eleven in the morning.",
+      "a": "F",
+      "why": "活动上午十点开始，不是十一点。"
+    },
+    {
+      "s": "This is Luis's first picture of a bird.",
+      "a": "NG",
+      "why": "文中未说明路易斯以前是否画过鸟。"
+    },
+    {
+      "s": "Luis buys two small rolls.",
+      "a": "T",
+      "why": "文中明确说他买了两个小面包。"
+    }
+  ]
+}

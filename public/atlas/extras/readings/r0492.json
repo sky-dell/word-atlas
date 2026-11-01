@@ -1,0 +1,48 @@
+{
+  "id": "r0492",
+  "ids": [
+    "presumably",
+    "coordination",
+    "infect",
+    "thread",
+    "beloved",
+    "carpentry",
+    "impractical",
+    "mechanical",
+    "compound",
+    "kidnap"
+  ],
+  "title": "The Science Behind Radio Footsteps",
+  "titleZh": "广播脚步声背后的科学",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "When a radio audience hears boots crossing a frozen field, the performer may actually be squeezing a bag of salt. Listeners [[presumably|presumably]] connect its sharp crunch with memories of winter. In a small studio, sound designer Amara Singh uses such ordinary materials to build convincing worlds for a [[beloved|beloved]] weekly adventure series.",
+    "One episode involves criminals planning to [[kidnap|kidnap]] a scientist from an isolated cabin. Recording in a real snowy forest would be [[impractical|impractical]]: wind could hide dialogue, and conditions would change between takes. Instead, Amara's [[carpentry|carpentry]] skills produce a miniature wooden door. A length of sewing [[thread|thread]] attached to its handle allows her to open it without placing her hand near the microphone.",
+    "The illusion depends on careful [[coordination|coordination]]. As an actor announces an arrival, one assistant crunches coarse salt while another moves the door. Salt's main ingredient is sodium chloride, a chemical [[compound|compound]] whose crystals produce brief cracking sounds under pressure. A loose hinge adds a [[mechanical|mechanical]] squeak. Heard separately, these noises seem ordinary; combined with dialogue, they suggest a complete location.",
+    "Not every traditional technique is retained. Each performer has a separate whistle because shared mouthpieces can carry bacteria that may [[infect|infect]] users. Before recording, the team also tests each effect without explaining its source. If listeners identify a bag rather than snow, Amara adjusts the rhythm. Success comes when the equipment disappears from the audience's imagination, leaving only the story."
+  ],
+  "zh": [
+    "当广播听众听到靴子踏过冰冻原野的声音时，表演者实际上可能正在挤压一袋盐。据推测，听众会将这种清脆的嘎吱声与冬日的记忆联系起来。在一间小录音室里，音效设计师阿玛拉·辛格利用这些普通材料，为一档深受喜爱的每周冒险剧构建逼真的声音世界。",
+    "其中一集讲述罪犯计划从一座偏僻的小木屋绑架一位科学家。到真正的雪林里录音并不可行：风声可能盖过对白，而且每次录制时的环境条件也会变化。因此，阿玛拉运用木工技艺制作了一扇微型木门。她在门把手上系了一根缝纫线，这样就能拉开门，而不必把手伸到麦克风附近。",
+    "这种听觉幻象依赖细致的配合。当演员说有人来了时，一位助手挤压粗盐，另一位则移动木门。盐的主要成分是氯化钠，这是一种化合物，其晶体受压时会发出短促的碎裂声。松动的铰链又增添了一声机械吱呀声。单独听来，这些声音平平无奇；但与对白结合，它们便能让人联想到一个完整的场景。",
+    "不过，并非所有传统手法都会保留下来。每位表演者都有自己的哨子，因为共用吹嘴可能传播细菌，使使用者受到感染。录制前，团队还会测试每种音效，但不解释声音的来源。如果听众听出的是袋子而非积雪，阿玛拉就会调整节奏。当设备从听众的想象中消失，只留下故事时，音效制作才算成功。"
+  ],
+  "q": [
+    {
+      "s": "The weekly adventure series is broadcast in the evening.",
+      "a": "NG",
+      "why": "文中说明每周播出，未说明具体时段。"
+    },
+    {
+      "s": "Recording conditions in a real snowy forest would remain unchanged between takes.",
+      "a": "F",
+      "why": "第二段明确说各次录制间条件会变化。"
+    },
+    {
+      "s": "Each performer is given a separate whistle.",
+      "a": "T",
+      "why": "末段明确说每位表演者都有单独的哨子。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0026",
+  "ids": [
+    "break",
+    "egg",
+    "bookshop",
+    "year",
+    "free",
+    "museum",
+    "shop",
+    "weekend",
+    "sweater",
+    "mother"
+  ],
+  "title": "A Chick Opens Its Shell",
+  "titleZh": "小鸡破壳而出",
+  "topic": "nature",
+  "cefr": 0,
+  "paras": [
+    "Every [[year|year]], a small [[museum|museum]] shows how baby chickens come into the world. This [[weekend|weekend]], Lina visits with her [[mother|mother]]. It is cold outside, and Lina wears a yellow [[sweater|sweater]]. They walk past the [[bookshop|bookshop]] near the door. There is a [[free|free]] talk in a warm room. Inside, six [[egg|eggs]] lie in a box with a glass top.",
+    "The box keeps them warm, like a hen sitting on them. A baby chicken grows inside each one. It gets food from the yellow part. After about three weeks, it is ready to come out. But how can such a small bird [[break|break]] its hard shell? It has a tiny, hard point on its beak. It uses this point to make a hole.",
+    "Lina sees one shell move. A small hole appears, and she hears a soft sound. The chick pushes again. Slowly, the hole gets bigger. At last, the wet chick comes out. It rests in the warm box. Later, its soft feathers dry. Before leaving, Lina finds a picture of a chick in the [[shop|shop]]. Now she knows how its life outside the shell begins."
+  ],
+  "zh": [
+    "每年，一家小博物馆都会展示小鸡是怎样来到这个世界上的。这个周末，莉娜和妈妈一起来参观。外面很冷，莉娜穿着一件黄色毛衣。她们走过门边的书店。一间温暖的房间里有一场免费讲解。房间里，六枚鸡蛋放在一个顶部是玻璃的箱子里。",
+    "箱子让鸡蛋保持温暖，就像母鸡坐在蛋上面一样。每枚蛋里都有一只小鸡在生长。它从蛋黄中获取营养。大约三周后，它就准备出来了。可是，这么小的鸟怎么能打破坚硬的蛋壳呢？它的喙上有一个又小又硬的尖点。它用这个尖点啄出一个洞。",
+    "莉娜看到一枚蛋的壳动了。一个小洞出现了，她还听到了轻轻的叫声。小鸡再次用力顶。慢慢地，洞变大了。最后，湿漉漉的小鸡出来了。它在温暖的箱子里休息。过了一会儿，它柔软的羽毛干了。离开前，莉娜在商店里找到了一张小鸡的图片。现在，她知道小鸡在蛋壳外的生活是怎样开始的了。"
+  ],
+  "q": [
+    {
+      "s": "Visitors do not need to pay to listen to the talk.",
+      "a": "T",
+      "why": "第一段说明讲解是免费的。"
+    },
+    {
+      "s": "Making the first hole takes the chick ten minutes.",
+      "a": "NG",
+      "why": "文中未说明啄出第一个洞需要多久。"
+    },
+    {
+      "s": "The chick is dry when it comes out of the shell.",
+      "a": "F",
+      "why": "小鸡出壳时湿漉漉的，后来羽毛才干。"
+    }
+  ]
+}

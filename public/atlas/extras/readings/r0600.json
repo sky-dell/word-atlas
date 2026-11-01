@@ -1,0 +1,48 @@
+{
+  "id": "r0600",
+  "ids": [
+    "erosion",
+    "scornful",
+    "disadvantageous",
+    "flaunt",
+    "robust",
+    "tacit",
+    "solidify",
+    "crave",
+    "shriek",
+    "cripple"
+  ],
+  "title": "The Quiet Craft of Climbing",
+  "titleZh": "攀岩背后的静默手艺",
+  "topic": "sport",
+  "cefr": 4,
+  "paras": [
+    "At her workshop beneath an abandoned quarry, Samira Velez makes artificial climbing holds whose shallow depressions imitate limestone worn by rain. She studies [[erosion|erosion]] not merely for visual inspiration, but to understand how fingers settle into irregular surfaces. Each Sunday, she photographs the quarry walls, recording channels that manufactured holds, with their exaggerated ridges, rarely reproduce.",
+    "When Velez first offered these subtle shapes to climbing clubs, several coaches were [[scornful|scornful]], dismissing them as unsuitable for serious training. Their smoothness appeared [[disadvantageous|disadvantageous]] to beginners, who could not secure an obvious grip. Yet she suspected that holds requiring careful balance would develop skills overlooked by climbers eager to [[flaunt|flaunt]] their strength. One small club agreed to test twelve prototypes.",
+    "Producing a sufficiently [[robust|robust]] hold took months. Velez mixed mineral powder into resin, then allowed the mixture to [[solidify|solidify]] in flexible moulds overnight. An internal crack, invisible after painting, could [[cripple|cripple]] her tiny business if a hold failed during use. She therefore tested every batch under loads exceeding those expected in climbing, sacrificing several pieces rather than trusting their apparently flawless surfaces.",
+    "During trials, there was a [[tacit|tacit]] agreement that Velez would observe without offering advice. Climbers accustomed to dramatic movements seemed to [[crave|crave]] immediate success; one would occasionally [[shriek|shriek]] with frustration when a foot slipped. Gradually, however, their movements became quieter and more deliberate. When the club ordered another set, its coach requested no brighter colours or deeper edges: only more of the shapes that had taught his strongest climbers to pause."
+  ],
+  "zh": [
+    "在一座废弃采石场下方的工坊里，萨米拉·贝莱斯制作着人造攀岩支点，其表面的浅凹模仿了雨水侵蚀后的石灰岩。她研究侵蚀现象，不仅是为了获取外观设计的灵感，更是为了理解手指如何贴合不规则的表面。每逢周日，她都会拍摄采石场的岩壁，记录那些沟槽；而棱脊刻意突出的人造支点很少再现这些纹理。",
+    "贝莱斯最初向攀岩俱乐部推介这些造型细腻的支点时，几位教练颇为不屑，认为它们不适合严肃的训练。支点表面平滑，似乎对初学者不利，因为他们找不到明显可抓握的位置。然而，她推测，那些需要仔细保持平衡才能使用的支点，能够培养某些技巧，而急于炫耀力量的攀岩者往往忽视了这些技巧。一家小型俱乐部同意试用十二个样品。",
+    "制作出足够结实的支点花了数月时间。贝莱斯将矿物粉末混入树脂，再让混合物在柔性模具中静置一夜，直至凝固。如果支点在使用过程中断裂，一条被涂层遮住的内部裂纹就可能给她的小生意带来毁灭性打击。因此，她对每批产品都进行载荷测试，施加的负荷超过攀岩时预计承受的水平；她宁可损耗几个支点，也不愿仅凭看似完美的表面就认定产品可靠。",
+    "试用期间，双方心照不宣地约定，贝莱斯只观察，不提供建议。习惯了大幅度动作的攀岩者似乎渴望立刻成功；偶尔有人脚下一滑，便会懊恼地尖叫起来。然而，他们的动作渐渐变得更轻、更审慎。当俱乐部再次订购时，教练既没有要求更鲜艳的颜色，也没有要求更深的边缘，只希望多做一些这样的支点——它们让他手下最强壮的攀岩者学会了停顿。"
+  ],
+  "q": [
+    {
+      "s": "Velez uses a waterproof camera to photograph the quarry walls.",
+      "a": "NG",
+      "why": "文中未说明拍摄岩壁所用相机是否防水。"
+    },
+    {
+      "s": "The coaches who initially dismissed the holds considered them suitable for serious training.",
+      "a": "F",
+      "why": "第二段明确说这些教练认为支点不适合训练。"
+    },
+    {
+      "s": "Velez tested each batch with loads greater than those anticipated during climbing.",
+      "a": "T",
+      "why": "第三段说明每批测试载荷超过攀岩预期负荷。"
+    }
+  ]
+}

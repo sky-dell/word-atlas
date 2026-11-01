@@ -1,0 +1,46 @@
+{
+  "id": "r0050",
+  "ids": [
+    "into",
+    "bicycle",
+    "visit",
+    "everyone",
+    "wrong",
+    "problem",
+    "uncle",
+    "key",
+    "speak",
+    "read"
+  ],
+  "title": "Beans in the Old Shop",
+  "titleZh": "旧店铺里的豆苗",
+  "topic": "science",
+  "cefr": 0,
+  "paras": [
+    "Mina wanted to grow food with her neighbours. Her [[uncle|uncle]], Ravi, had an empty shop. He gave her the [[key|key]], and she carried six pots [[into|into]] the shop. On Saturday, she rode her [[bicycle|bicycle]] there with a bag of beans. Four neighbours came to help. They put soil and three beans in each pot. Their small science project was ready.",
+    "They had one [[problem|problem]]: the shop had only one window. Was the dark back room the [[wrong|wrong]] place for beans? They put three pots near the window and three in the back room. Each pot got the same amount of water. Mina made a chart. [[everyone|Everyone]] could [[read|read]] it and write down how tall the plants were. They checked the pots every Sunday.",
+    "After three weeks, the plants by the window were green and strong. Those in the back room were tall but pale. Mina asked more neighbours to [[visit|visit]] the shop. Ravi was happy to [[speak|speak]] about their work and show them the plants. The group moved all six pots to the window. Soon, new green leaves grew. Next month, they planned to try peas."
+  ],
+  "zh": [
+    "米娜想和邻居们一起种些吃的。她的一位叔辈亲属拉维有一间空店铺。他把钥匙给了她，她搬了六个花盆进去。星期六，她骑着自行车，带着一袋豆子来到店铺。四位邻居来帮忙。他们在每个花盆里放了土和三颗豆子。他们的小小科学项目准备好了。",
+    "他们遇到了一个问题：店铺只有一扇窗。后面那间昏暗的屋子是不是不适合种豆子呢？他们把三个花盆放在窗边，另外三个放在后面的屋子里。每盆浇的水都一样多。米娜做了一张记录表。每个人都能看懂，还能记下植物的高度。他们每个星期日都来查看这些花盆。",
+    "三周后，窗边的豆苗又绿又壮。后面屋子里的豆苗很高，颜色却很淡。米娜请更多邻居来参观店铺。拉维很高兴地介绍他们做的事，给大家看这些豆苗。大家把六个花盆都移到了窗边。很快，新的绿叶长出来了。他们打算下个月试着种豌豆。"
+  ],
+  "q": [
+    {
+      "s": "Mina's uncle had an empty shop.",
+      "a": "T",
+      "why": "第一段说米娜的叔辈亲属拉维有一间空店铺。"
+    },
+    {
+      "s": "Mina made the chart on Saturday.",
+      "a": "NG",
+      "why": "文章未说明米娜在哪天制作记录表。"
+    },
+    {
+      "s": "After three weeks, the plants in the back room were short.",
+      "a": "F",
+      "why": "原文说后屋豆苗很高，并不矮小。"
+    }
+  ]
+}

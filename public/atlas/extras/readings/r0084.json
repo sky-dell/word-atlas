@@ -1,0 +1,46 @@
+{
+  "id": "r0084",
+  "ids": [
+    "sausage",
+    "organize",
+    "donkey",
+    "wild",
+    "social",
+    "hole",
+    "euro",
+    "bookcase",
+    "rule",
+    "brush"
+  ],
+  "title": "A Camera for Night Visitors",
+  "titleZh": "拍下夜间访客的相机",
+  "topic": "technology",
+  "cefr": 1,
+  "paras": [
+    "What happens in a village garden after dark? A small camera can give some surprising answers. In a mountain village, a baker named Lina decided to [[organize|organize]] a weekend camera project. People met in her old kitchen and shared bread and [[sausage|sausage]] for lunch. Their plan was simple: use an old camera to discover which [[wild|wild]] animals visited the garden at night.",
+    "Lina found the camera on a [[bookcase|bookcase]], behind some travel books. A neighbour cleaned it with a soft [[brush|brush]]. Then they made a [[hole|hole]] in a plastic box for the camera's eye. They sealed a clear cover over the opening to keep rain out. A small device, which cost twelve [[euro|euros]], turned the camera on when something moved nearby. Everyone agreed on one [[rule|rule]]: nobody could leave food outside to bring animals closer.",
+    "The first picture showed a [[donkey|donkey]] from the next farm, but later pictures showed a fox and two mice. The camera also had a [[social|social]] benefit: neighbours who rarely spoke began meeting to look at the pictures. Over the next few weeks, they learned that the fox usually arrived just after midnight. Now, when Lina closes her kitchen each evening, she knows another busy life is beginning beyond the door."
+  ],
+  "zh": [
+    "天黑以后，村里的花园会发生什么？一台小相机能给出一些令人惊讶的答案。在一个山村里，面包师莉娜决定组织一次周末相机拍摄活动。大家在她的旧厨房集合，午餐一起吃了面包和香肠。他们的计划很简单：用一台旧相机，看看哪些野生动物会在夜里来到花园。",
+    "莉娜在书架上几本旅行书的后面找到了相机。一位邻居用软刷子把它清理干净。接着，他们在塑料盒上为相机镜头开了一个孔。他们用一块透明盖板封住孔口，防止雨水进入。一个花了十二欧元的小装置，会在附近有东西移动时启动相机。大家一致同意一条规定：任何人都不能把食物留在外面引动物靠近。",
+    "第一张照片拍到的是隔壁农场的一头驴，但后面的照片拍到了一只狐狸和两只老鼠。这台相机还带来了社交上的好处：平时很少说话的邻居开始聚在一起看照片。在随后的几周里，他们发现，狐狸通常在午夜刚过时出现。现在，莉娜每天晚上关上厨房门时，都知道门外另一番忙碌的生活正要开始。"
+  ],
+  "q": [
+    {
+      "s": "Lina made the bread that people ate for lunch.",
+      "a": "NG",
+      "why": "文章未说明午餐的面包是谁做的。"
+    },
+    {
+      "s": "The group allowed people to put food in the garden to attract animals.",
+      "a": "F",
+      "why": "第二段规定不能在外面留食物吸引动物。"
+    },
+    {
+      "s": "Some neighbours began meeting to look at the camera's pictures.",
+      "a": "T",
+      "why": "原本很少说话的邻居开始聚在一起看照片。"
+    }
+  ]
+}

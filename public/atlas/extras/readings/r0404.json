@@ -1,0 +1,48 @@
+{
+  "id": "r0404",
+  "ids": [
+    "mortgage",
+    "promising",
+    "dent",
+    "dialect",
+    "surgeon",
+    "dynamic",
+    "follow-up",
+    "self-employment",
+    "alongside",
+    "substance"
+  ],
+  "title": "A Workshop Worth Saving",
+  "titleZh": "值得留下的修理工坊",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "When the furniture factory closed, Tomas had enough savings to cover three months of his [[mortgage|mortgage]]. He considered [[self-employment|self-employment]], repairing wooden furniture in his garage, but his first advertisement brought no customers. Although his skills were excellent, most neighbours knew him only as the quiet man who worked night shifts.",
+    "His first opportunity came through Leila, a retired [[surgeon|surgeon]] whose dining table had a deep [[dent|dent]]. Tomas explained that moisture and gentle heat could make the compressed wood expand again. He tested the method underneath before treating the damaged surface. Finally, he applied a protective [[substance|substance]] made from beeswax and oil. Leila was delighted, but Tomas still needed regular work.",
+    "Leila suggested a demonstration at the community hall. A [[dynamic|dynamic]] organiser named Mei arranged six tables, where Tomas worked [[alongside|alongside]] a volunteer who repaired lamps. At first, visitors watched silently. Then an elderly neighbour asked a question in the regional [[dialect|dialect]]. Tomas replied in the same variety, and the conversation soon became lively. People began describing broken drawers and loose chair legs rather than simply watching his tools.",
+    "The results were [[promising|promising]]: nine visitors booked repairs that afternoon. As a [[follow-up|follow-up]], Tomas contacted each customer a month after delivery to check that the repairs had lasted. Two chairs needed minor adjustments, which he made without charge. By winter, recommendations had filled his calendar. His garage remained small, but the income now covered his housing payments and other basic expenses."
+  ],
+  "zh": [
+    "家具厂关闭时，托马斯的积蓄够支付三个月的住房抵押贷款。他考虑自己创业，在车库里修理木制家具，但第一次登广告没有招来任何顾客。尽管手艺精湛，大多数邻居对他的了解仅限于：他是那个上夜班、话不多的人。",
+    "他的第一个机会来自退休外科医生莱拉。她的餐桌上有一道很深的凹痕。托马斯解释说，水分和温和的热量可以让受挤压的木材重新膨胀。他先在桌子底面测试这种方法，再处理受损的表面。最后，他涂上了一层用蜂蜡和油制成的保护材料。莱拉十分满意，但托马斯仍然需要稳定的业务。",
+    "莱拉建议他在社区活动中心做一次演示。一位名叫梅、干劲十足的组织者安排了六张桌子，让托马斯和一位修理灯具的志愿者一起工作。起初，来访者只是安静地观看。随后，一位年长的邻居用当地方言提了个问题。托马斯也用同样的方言回答，交谈很快热闹起来。大家不再只是看他的工具，而是开始说起自家坏掉的抽屉和松动的椅子腿。",
+    "结果令人鼓舞：当天下午，九位来访者预约了维修。为了做好后续服务，托马斯在交付一个月后联系了每位顾客，确认修理过的家具是否依然完好。有两把椅子需要稍作调整，他免费进行了处理。到了冬天，顾客的口碑推荐已经让他的日程排得满满当当。他的车库仍然很小，但收入已足以支付房贷和其他基本开支。"
+  ],
+  "q": [
+    {
+      "s": "Tomas's initial attempt to attract customers through advertising was unsuccessful.",
+      "a": "T",
+      "why": "第一段说明首次广告没有带来顾客。"
+    },
+    {
+      "s": "Leila paid the cost of hiring the community hall.",
+      "a": "NG",
+      "why": "文章未提及场地费用或由谁支付。"
+    },
+    {
+      "s": "Customers had to pay extra for adjustments made after the original repairs.",
+      "a": "F",
+      "why": "末段明确说两把椅子的调整免费。"
+    }
+  ]
+}

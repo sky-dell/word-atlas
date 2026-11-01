@@ -1,0 +1,46 @@
+{
+  "id": "r0172",
+  "ids": [
+    "tenth",
+    "calendar",
+    "comb",
+    "golf",
+    "noisy",
+    "bench",
+    "secret",
+    "rise",
+    "sir",
+    "wind"
+  ],
+  "title": "Small Steps in Willow Garden",
+  "titleZh": "柳树花园里的小小进步",
+  "topic": "health",
+  "cefr": 1,
+  "paras": [
+    "After an illness, Mr Han rarely left his home. The street outside was [[noisy|noisy]], and he felt tired after short walks. His neighbour Amina started a morning exercise group in Willow Garden for him and five other neighbours. She put a [[calendar|calendar]] by the garden gate, with a red circle around every Tuesday. A wooden [[bench|bench]] gave everyone a place to rest.",
+    "At first, the group walked slowly around the flowers. Later, Amina added a simple game of [[golf|golf]]. They used one club to hit balls into holes in a small grass area. Mr Han began to look forward to Tuesdays. Before leaving home, he used a [[comb|comb]] to tidy his hair. In the garden, he enjoyed feeling the [[wind|wind]] on his face.",
+    "For their [[tenth|tenth]] meeting, the group made a [[secret|secret]] plan: a small party to thank Amina. Mr Han offered to bring the food. That morning, he watched the sun [[rise|rise]] while he made sandwiches. At the gate, a young helper asked, \"May I carry those for you, [[sir|sir]]?\" Mr Han smiled and handed him a bag. He still needed help sometimes, but now he could help others too. After the party, everyone agreed to keep meeting."
+  ],
+  "zh": [
+    "一场病后，韩先生很少出门。外面的街道很吵，他走一小段路就觉得累。邻居阿米娜为了他和另外五位邻居，在柳树花园组织了一个晨练小组。她在花园门口贴了一张日历，把每个星期二都用红圈标出来。园里的一张木长凳让大家有地方休息。",
+    "起初，大家沿着花丛慢慢走。后来，阿米娜增加了一个简单的高尔夫球游戏。他们共用一根球杆，把球打进一小片草地上的洞里。韩先生开始盼着星期二到来。出门前，他会用梳子把头发梳整齐。在花园里，他喜欢风吹在脸上的感觉。",
+    "为了第十次聚会，大家做了一个秘密计划：办一场小派对，感谢阿米娜。韩先生主动提出带食物。那天早上，他一边做三明治，一边看着太阳升起。在门口，一位年轻的帮手问：“先生，我帮您拿这些，好吗？”韩先生笑着递给他一个袋子。有时候他仍然需要帮助，但现在他也能帮助别人了。派对结束后，大家都同意继续相聚。"
+  ],
+  "q": [
+    {
+      "s": "Mr Han often went out after his illness, before the group started.",
+      "a": "F",
+      "why": "开头明确说他病后很少出门。"
+    },
+    {
+      "s": "Amina borrowed the golf club from a friend.",
+      "a": "NG",
+      "why": "文中未说明高尔夫球杆的来源。"
+    },
+    {
+      "s": "After the party, everyone agreed to continue meeting.",
+      "a": "T",
+      "why": "末句明确说派对后大家同意继续相聚。"
+    }
+  ]
+}

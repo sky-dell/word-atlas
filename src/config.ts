@@ -1,2 +1,1 @@
-/** Public repository; change this in a fork. */
-export const REPO_URL = "https://github.com/designfuchen/word-atlas";
+export const SITE_TAGLINE = "多懂一个词，多看一点世界。";

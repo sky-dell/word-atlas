@@ -1,0 +1,48 @@
+{
+  "id": "r0459",
+  "ids": [
+    "descent",
+    "core",
+    "signpost",
+    "pump",
+    "vague",
+    "withdraw",
+    "prey",
+    "sincere",
+    "overwhelm",
+    "cane"
+  ],
+  "title": "A Valley’s Quiet Welcome",
+  "titleZh": "山谷里的静静相迎",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "The [[descent|descent]] into the mountain village of Belora begins beside a wooden [[signpost|signpost]] pointing towards a courtyard. Visitors come for the autumn homecoming meal, when families welcome relatives who have moved away. Before leaving the market town above, travellers are advised to [[withdraw|withdraw]] enough cash: the village has neither a bank nor a cash machine.",
+    "My invitation had been [[vague|vague]], mentioning only food and music after sunset. At the courtyard gate, however, a retired carpenter named Tomas greeted me with a [[sincere|sincere]] smile. Leaning on his [[cane|cane]], he showed me an iron [[pump|pump]] where returning villagers traditionally wash their hands. This simple action, he explained, marks the end of the journey.",
+    "Around us, preparations continued without announcements. Children arranged bowls, while a woman sliced pears beneath the vines. Above the roofs, a hawk circled in search of [[prey|prey]]. Tomas said that the emotional [[core|core]] of the gathering was not the meal but the moment people recognised familiar faces. Such reunions can [[overwhelm|overwhelm]] those who have been absent for years, so nobody demands a speech.",
+    "When the first guests arrived, I understood. One woman stood silently beside her brother before taking his hand; another laughed as she touched the courtyard wall. Later, soup passed from person to person, and someone began a quiet song. The visitor’s reward was not a dramatic performance, but a place at a table where silence was also a form of welcome."
+  ],
+  "zh": [
+    "下山前往山村贝洛拉的路，始于一块指向庭院的木制路标旁。游客为秋日的归乡宴而来，村里的家庭会在这一天迎接迁居外地的亲人。离开山上的集镇之前，旅行者会被提醒取足现金：村里既没有银行，也没有自动取款机。",
+    "我收到的邀请说得并不具体，只提到日落后有饭食和音乐。不过，在庭院门口，一位名叫托马斯的退休木匠带着真诚的微笑迎接了我。他拄着手杖，领我看了一台铁制水泵。按照传统，归来的村民会在这里洗手。他解释说，这个简单的动作标志着旅途结束。",
+    "我们周围，准备工作继续进行着，没有人发布通知。孩子们摆放着碗，一名女子在藤架下切梨。屋顶上方，一只鹰盘旋着寻找猎物。托马斯说，这场聚会在情感上最重要的并非吃饭，而是人们认出熟悉面孔的那一刻。这样的重逢可能让离乡多年的人情绪难以自持，因此没有人要求他们讲话。",
+    "第一批客人到来时，我明白了他的意思。一名女子在自己的兄弟身旁默默站了一会儿，才握住他的手；另一名女子抚摸着庭院的墙壁，笑了起来。随后，大家相互传递着汤，有人轻声唱起歌来。游客收获的并非一场富有戏剧性的表演，而是餐桌旁的一个座位。在这里，沉默也是欢迎的一种方式。"
+  ],
+  "q": [
+    {
+      "s": "Visitors can withdraw cash from a cash machine in Belora.",
+      "a": "F",
+      "why": "首段明确说村里没有自动取款机。"
+    },
+    {
+      "s": "People returning after years away are not required to give a speech.",
+      "a": "T",
+      "why": "第三段说明没有人要求他们讲话。"
+    },
+    {
+      "s": "The song performed during the meal was written by Tomas.",
+      "a": "NG",
+      "why": "末段提到有人唱歌，未说明歌曲作者。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0690",
+  "ids": [
+    "expulsion",
+    "par",
+    "irrespective",
+    "incur",
+    "sift",
+    "lumber",
+    "mangrove",
+    "squirt",
+    "reliant",
+    "disregard"
+  ],
+  "title": "Before the Island Landing",
+  "titleZh": "登岛之前",
+  "topic": "travel",
+  "cefr": 4,
+  "paras": [
+    "This gallery presents a fictional account of travellers arriving at Narela, an imagined tropical island, in 1886. Beyond the entrance hangs a harbour notice warning that visitors who [[disregard|disregarded]] quarantine instructions faced [[expulsion|expulsion]] from the island. The restriction applied [[irrespective|irrespective]] of nationality or social position: even wealthy passengers waited offshore until their vessels had been inspected.",
+    "The central display follows one such passenger, the botanical illustrator Leila Sen, whose diary records three days aboard a coastal schooner. Travel remained [[reliant|reliant]] on local pilots, who navigated channels bordered by [[mangrove|mangroves]]. A chart beside her diary marks these narrow passages; its repeated corrections reveal how shifting mudbanks could render yesterday’s safest route dangerous overnight.",
+    "Inspection involved more than examining passengers. At the next case, a wooden sieve illustrates how harbour workers would [[sift|sift]] samples of sandy ballast to expose plant fragments and insects. Visitors can operate a replica pump to [[squirt|squirt]] water through its narrow nozzle, washing grit from the mesh. Nearby, a section of imported [[lumber|lumber]] bears the inspector’s chalk marks. Timber judged below [[par|par]] because of insect damage could not be used to repair landing stages; captains attempting to unload it would [[incur|incur]] additional storage charges.",
+    "The final exhibit is Sen’s first island sketch, made after permission to land finally arrived. Rather than depicting an untouched paradise, it shows a pilot repairing a channel marker while porters carry inspected trunks ashore. Viewed after the inspection equipment, this modest scene becomes a record of the largely invisible labour that made her journey possible."
+  ],
+  "zh": [
+    "本展厅呈现了一个虚构故事，讲述旅客于1886年抵达想象中的热带小岛纳雷拉的经历。入口内侧悬挂着一份港口告示，警告无视检疫规定的访客面临被驱逐出岛的处分。这项规定不因国籍或社会地位而有所区别：即便是富有的乘客，也必须在近海等候，直至所乘船只完成检查。",
+    "中央展区以其中一位乘客——植物插画师莱拉·森——的经历为线索，她的日记记录了在一艘沿海航行的纵帆船上度过的三天。当时的航行仍依赖当地领航员，他们引导船只穿过两岸生长着红树的水道。日记旁的一张海图标出了这些狭窄通道；图上反复修改的痕迹表明，移动的泥质浅滩可能在一夜之间让昨日最安全的路线变得危险。",
+    "检查并不只针对乘客。在下一个展柜中，一只木筛展示了港口工人如何筛分沙质压舱物样本，以找出植物碎片和昆虫。参观者可以操作一台复制的水泵，让水从细小的喷嘴中喷出，冲掉筛网上的砂砾。附近的一段进口木材上留有检查员的粉笔标记。因虫害而被判定不达标的木材不得用于修缮登岸码头；试图卸下这类木材的船长将承担额外的仓储费用。",
+    "最后一件展品是森终于获准登岸后绘制的第一幅岛上速写。画中没有未经人类涉足的天堂，而是一名正在修理航道标志的领航员，以及将检查过的行李箱搬上岸的搬运工。看过那些检查器具后再欣赏这幅朴素的画作，便会发现它记录了那些让她的旅程得以实现、却往往不为人知的劳动。"
+  ],
+  "q": [
+    {
+      "s": "Leila Sen paid her local pilot more than the other passengers did.",
+      "a": "NG",
+      "why": "文中未提及领航员报酬或乘客付款差异。"
+    },
+    {
+      "s": "Insect-damaged timber could be used for landing-stage repairs if an extra storage fee was paid.",
+      "a": "F",
+      "why": "虫害木材禁止用于修缮，缴费并非豁免条件。"
+    },
+    {
+      "s": "Sen's first island sketch depicts a pilot repairing a channel marker.",
+      "a": "T",
+      "why": "末段明确描述了速写中修理航道标志的领航员。"
+    }
+  ]
+}

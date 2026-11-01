@@ -1,0 +1,46 @@
+{
+  "id": "r0006",
+  "ids": [
+    "side",
+    "pretty",
+    "arrive",
+    "london",
+    "too",
+    "glass",
+    "policeman",
+    "or",
+    "once",
+    "sock"
+  ],
+  "title": "A Small Sock Shop",
+  "titleZh": "一家小小的袜子店",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "Mina has a small shop in [[london|London]]. She sells new [[sock|socks]] and fixes old ones. I bring my old pair to her on Monday. There is a [[pretty|pretty]] blue box in the window. Behind the [[glass|glass]], I can see small red socks in the box. People stop outside to look at them. Mina asks me to come back on Tuesday. I leave my socks on her table.",
+    "When I [[arrive|arrive]] on Tuesday, Mina is sitting by the left [[side|side]] of the table. She has a needle and some black thread in her hand. People can bring one [[sock|sock]] [[or|or]] a pair. Today she is fixing a large black pair. A [[policeman|policeman]] brought them to her [[once|once]] before. Now they have another small hole. His shoes are [[too|too]] tight with thick new [[sock|socks]], so he wants to keep these thin ones.",
+    "My socks are ready. Mina shows me her work. There are no holes now, and the new thread is almost the same colour as my socks. She puts them in a paper bag. I pay her and put the bag in my coat pocket. As I leave, another person comes in with a pair of green socks."
+  ],
+  "zh": [
+    "米娜在伦敦有一家小店。她卖新袜子，也修补旧袜子。星期一，我把自己的一双旧袜子带给她。橱窗里有一个漂亮的蓝色盒子。隔着玻璃，我能看到盒子里的红色小袜子。人们在外面停下来看。米娜让我星期二再来。我把袜子留在她的桌上。",
+    "星期二我到达时，米娜正坐在桌子的左侧。她手里拿着一根针和一些黑线。人们可以带来一只袜子，也可以带来一双。今天，她正在修补一双黑色的大袜子。一位男警察以前把它们送来过一次。现在它们又有了一个小洞。他穿上厚厚的新袜子时，鞋子就太紧，所以他想留着这双薄袜子。",
+    "我的袜子已经补好了。米娜把补好的地方给我看。现在没有洞了，新线的颜色也和我的袜子几乎一样。她把袜子放进一个纸袋。我付了钱，把袋子放进外套口袋。我离开时，又有一个人带着一双绿色袜子走进来。"
+  ],
+  "q": [
+    {
+      "s": "Mina bought the blue box on Monday.",
+      "a": "NG",
+      "why": "原文提到蓝盒，但未说明何时购买。"
+    },
+    {
+      "s": "The policeman's shoes are too loose with thick new socks.",
+      "a": "F",
+      "why": "原文说穿厚新袜子时鞋子太紧，而非太松。"
+    },
+    {
+      "s": "Mina puts my socks in a paper bag.",
+      "a": "T",
+      "why": "原文明确说她把补好的袜子放进纸袋。"
+    }
+  ]
+}

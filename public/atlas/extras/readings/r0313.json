@@ -1,0 +1,48 @@
+{
+  "id": "r0313",
+  "ids": [
+    "locker",
+    "worldwide",
+    "lately",
+    "clip",
+    "primary",
+    "obvious",
+    "mop",
+    "baby-sitter",
+    "approve",
+    "presentation"
+  ],
+  "title": "A Safer Cupboard",
+  "titleZh": "更安全的储物柜",
+  "topic": "government",
+  "cefr": 2,
+  "paras": [
+    "Cabinet maker Nadia Chen usually repairs wooden desks for the town council. [[lately|Lately]], however, she has been working on something smaller: a [[locker|locker]] for the council’s family centre. Parents attend meetings there while a [[baby-sitter|baby-sitter]] looks after their children next door. Staff need somewhere secure to leave their bags, keys and phones.",
+    "Nadia’s [[primary|primary]] concern is safety. During her first visit, she noticed a [[mop|mop]] leaning against an open cupboard. Inside were cleaning bottles, beside a box of toys. The danger was [[obvious|obvious]], but the room had little spare space. She measured a narrow corner and drew a tall cabinet with two separately locked sections: one for personal belongings and another for cleaning supplies.",
+    "There is [[worldwide|worldwide]] interest in furniture that saves space, but Nadia wanted a simple design that a local workshop could build. She made a small wooden model, using a metal [[clip|clip]] to hold its paper label. At her [[presentation|presentation]] to council officers, she showed how rounded corners would help prevent injuries. She also explained why both locks were beyond a young child’s reach.",
+    "The officers agreed to [[approve|approve]] the design. Three weeks later, Nadia fitted the finished cabinet into the corner. As the next meeting began, a worker put her bag away and turned the key. Nothing blocked the toys now, and every bottle had a safe home."
+  ],
+  "zh": [
+    "家具木工纳迪娅·陈通常为镇议会修理木书桌。不过，最近她一直在做一件更小的东西：为议会的家庭中心制作一个储物柜。家长们在那里开会时，一名临时保姆会在隔壁照看孩子。工作人员需要一个安全的地方存放包、钥匙和手机。",
+    "纳迪娅最关心的是安全。第一次到访时，她注意到一把拖把靠在敞开的柜子上。柜子里放着清洁剂瓶，旁边就是一箱玩具。危险显而易见，但房间里几乎没有多余空间。她测量了一个狭窄的角落，画出一个高柜的设计图。柜子分成两个分别上锁的区域：一个存放个人物品，另一个存放清洁用品。",
+    "世界各地的人都对节省空间的家具有兴趣，但纳迪娅想要一种当地作坊就能制作的简单设计。她做了一个小木模型，用金属夹子固定纸标签。在向议会官员作演示时，她展示了圆角如何帮助避免受伤。她还解释了为什么两把锁都设在幼儿够不到的高度。",
+    "官员们同意批准这项设计。三周后，纳迪娅把做好的柜子安装在那个角落里。下一次会议开始时，一名工作人员把包放好，转动钥匙锁上柜门。现在，玩具前不再有杂物挡着，每瓶清洁剂也都有了安全的存放处。"
+  ],
+  "q": [
+    {
+      "s": "Children are cared for in a separate room while their parents attend meetings.",
+      "a": "T",
+      "why": "家长开会时，临时保姆在隔壁照看孩子。"
+    },
+    {
+      "s": "Nadia planned to keep cleaning products and workers’ belongings in the same locked section.",
+      "a": "F",
+      "why": "柜子分为两个分别上锁的区域。"
+    },
+    {
+      "s": "The council ordered more cabinets after Nadia installed the first one.",
+      "a": "NG",
+      "why": "文章未提及安装后是否追加订购。"
+    }
+  ]
+}

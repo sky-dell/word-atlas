@@ -1,0 +1,48 @@
+{
+  "id": "r0405",
+  "ids": [
+    "fortunate",
+    "harmful",
+    "mineral",
+    "purely",
+    "significance",
+    "willingness",
+    "technician",
+    "possess",
+    "soy",
+    "decline"
+  ],
+  "title": "A Detour to the Amber Spring",
+  "titleZh": "绕道探访琥珀泉",
+  "topic": "travel",
+  "cefr": 3,
+  "paras": [
+    "On the third morning of our walking holiday, our guide, Leila, suggested a detour to a warm spring above the valley. We were [[fortunate|fortunate]] to arrive before the wind rose: through the still water, orange bands were clearly visible on the stones. I had come [[purely|purely]] to photograph these colours, but stayed to investigate their origin.",
+    "Beside the spring, a [[technician|technician]] named Tomas was checking a temperature sensor. He explained that the bands were communities of tiny organisms, not simply stains left by a [[mineral|mineral]] in the water. Some of these organisms [[possess|possess]] protective substances that help them survive intense sunlight. Their scientific [[significance|significance]], he added, lies partly in what they reveal about life in difficult conditions.",
+    "We ate rice and roasted [[soy|soy]] beans on a dry ledge while Tomas compared his readings with the previous week's records. Water levels had begun to [[decline|decline]], exposing a narrow strip of orange growth. Walking across it could be [[harmful|harmful]], since a single footprint might break the delicate surface. Leila's [[willingness|willingness]] to wait allowed us to watch without stepping closer.",
+    "Before leaving, I photographed the spring from the marked path, including a pale line where water had recently covered the rock. The image was less dramatic than the close view I had imagined. Yet it recorded something more useful: a small living landscape, and the changing boundary on which its survival depended."
+  ],
+  "zh": [
+    "徒步旅行的第三天早晨，向导莱拉建议我们绕道去看看山谷上方的一处温泉。我们很幸运，在起风前就到了：透过平静的泉水，可以清楚地看见石头上的橙色条带。我原本只是来拍摄这些色彩，却留下来探究它们的由来。",
+    "泉边，一位名叫托马斯的技术员正在检查温度传感器。他解释说，这些条带是微小生物聚集形成的群落，并不只是水中某种矿物留下的色斑。其中一些生物具有保护性物质，能帮助它们在强烈的阳光下存活。他补充道，它们的科学意义，部分在于能够揭示生命如何在艰难条件下生存。",
+    "我们坐在一处干燥的岩台上吃米饭和烤黄豆，托马斯则将读数与前一周的记录进行比较。水位已经开始下降，露出了一条狭窄的橙色生物带。踩过这里可能造成损害，因为一个脚印就可能破坏脆弱的表层。莱拉愿意耐心等待，让我们得以不再靠近，静静观察。",
+    "离开前，我站在有标记的小径上拍下了温泉，也把岩石上一道浅色的痕迹摄入画面，那里不久前还被水覆盖。这张照片没有我原先设想的近景那么引人注目，却记录了更有价值的东西：一片小小的、有生命的景观，以及那条不断变化、关系着它存续的边界。"
+  ],
+  "q": [
+    {
+      "s": "The writer originally visited the spring to study the organisms living there.",
+      "a": "F",
+      "why": "最初只是为拍摄色彩，后来才留下探究。"
+    },
+    {
+      "s": "Tomas said that the orange bands were communities of tiny organisms.",
+      "a": "T",
+      "why": "第二段明确说橙色条带是微小生物群落。"
+    },
+    {
+      "s": "The writer later sent Tomas a copy of the photograph.",
+      "a": "NG",
+      "why": "文章未说明作者后来是否给托马斯照片。"
+    }
+  ]
+}

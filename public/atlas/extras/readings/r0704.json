@@ -1,0 +1,46 @@
+{
+  "id": "r0704",
+  "ids": [
+    "hierarchy",
+    "radial",
+    "amplify",
+    "backlog",
+    "clearance",
+    "uprising",
+    "homely",
+    "sophistication"
+  ],
+  "title": "A Bell Beyond the Ward",
+  "titleZh": "让病房外听见铃声",
+  "topic": "health",
+  "cefr": 4,
+  "paras": [
+    "When nurse Amara arrived at a hilltop hospital after the [[uprising|uprising]] of 1912, its administrators were struggling to restore routine care. The organised resistance to the provincial governor had ended, but a [[backlog|backlog]] of minor operations remained. More urgently, patients recovering in distant rooms sometimes waited an hour before anyone heard their handbells.",
+    "The hospital's [[radial|radial]] layout, with six corridors extending from a central hall, appeared convenient on paper. In practice, thick doors muffled calls, while the staff [[hierarchy|hierarchy]] required junior attendants to report requests through a senior nurse. Amara proposed changing both the building's acoustics and the reporting procedure, rather than simply recruiting more attendants to walk the corridors.",
+    "Working with a retired instrument maker, Tomas, she installed speaking tubes whose flared openings helped [[amplify|amplify]] patients' voices. The system's [[sophistication|sophistication]] lay not in elaborate machinery but in carefully tested dimensions: narrow tubes distorted speech, whereas wider ones carried a whispered request clearly. Installation also required the [[clearance|clearance]] of discarded cupboards that blocked access to unused wall channels.",
+    "Amara then authorised attendants to answer routine requests directly, reserving medical decisions for nurses. Curtains and washable cushions gave the altered rooms a [[homely|homely]] atmosphere without obstructing the tubes. Within six weeks, recorded response times had fallen below five minutes. The surgical queue diminished more slowly, but patients no longer needed to shout for water—a modest achievement that made recovery less exhausting."
+  ],
+  "zh": [
+    "1912年的起义结束后，护士阿玛拉来到一家山顶医院，当时医院管理人员正竭力恢复常规诊疗。反抗省长的有组织行动虽已结束，仍有一批小手术积压未做。更紧迫的问题是，在偏远房间里康复的病人摇响手铃后，有时要等上一个小时才有人听见。",
+    "医院采用放射状布局，六条走廊从中央大厅向外延伸，图纸上看起来十分便利。实际使用中，厚重的房门削弱了呼叫声，而工作人员的层级制度又要求初级护理员通过一名资深护士转达病人的请求。阿玛拉提出，与其单纯增派护理员在走廊巡视，不如同时改善建筑的传声效果和请求的上报流程。",
+    "她与退休的仪器制作师托马斯合作，安装了一套传声管，其喇叭形开口有助于放大病人的声音。这套系统的精巧之处不在于复杂的机械，而在于经过反复测试的管道尺寸：细管会使语音失真，较粗的管道却能清晰传递轻声说出的请求。安装时，他们还必须清走废弃的柜子，因为这些柜子挡住了通往闲置墙内管槽的入口。",
+    "随后，阿玛拉授权护理员直接回应日常请求，同时将医疗决策保留给护士。窗帘和可清洗的靠垫使改造后的房间有了家一般的温馨，又不会遮挡传声管。六周内，记录中的响应时间已降至五分钟以下。等待手术的人数减少得较慢，但病人再也不必为了喝水而大声呼喊——这一小小的成果，让康复过程少了几分疲惫。"
+  ],
+  "q": [
+    {
+      "s": "Some patients initially experienced lengthy delays because their calls could not be heard.",
+      "a": "T",
+      "why": "首段指出，有些病人的铃声一小时才被听见。"
+    },
+    {
+      "s": "Tomas had previously installed speaking tubes in another hospital.",
+      "a": "NG",
+      "why": "文中未说明托马斯此前是否安装过医院传声管。"
+    },
+    {
+      "s": "After Amara's changes, attendants were authorised to make medical decisions.",
+      "a": "F",
+      "why": "末段明确将医疗决策保留给护士。"
+    }
+  ]
+}

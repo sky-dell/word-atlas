@@ -1,0 +1,48 @@
+{
+  "id": "r0343",
+  "ids": [
+    "jaw",
+    "rear",
+    "vegan",
+    "seal",
+    "omit",
+    "agricultural",
+    "islam",
+    "tow",
+    "supervisor",
+    "repeatedly"
+  ],
+  "title": "The Dental Clinic on Wheels",
+  "titleZh": "车轮上的牙科诊所",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "Before sunrise, Amara Bello checked the tyres of the small truck outside the dental clinic. It would [[tow|tow]] a trailer to an isolated village, where families otherwise faced a day's journey to the nearest dentist. As the team's [[supervisor|supervisor]], she checked the supplies too. They visited several [[agricultural|agricultural]] communities, but today they had appointments in just one village.",
+    "At the [[rear|rear]] of the trailer, Amara helped an assistant [[seal|seal]] clean instruments inside protective packets. They secured the drawers for the rough journey. A model of the human [[jaw|jaw]] travelled in a padded box. The dentist used it to show patients where a tooth was causing trouble, and children often asked to examine it.",
+    "Once they arrived, Amara reviewed the day's patient records. She did not give everyone identical dietary advice. A [[vegan|vegan]] wanted information about calcium sources without dairy products. A patient who followed [[islam|Islam]] asked about eating schedules during Ramadan. Amara wrote down both questions for the dentist, careful not to [[omit|omit]] details that might affect the advice.",
+    "During one appointment, the dentist [[repeatedly|repeatedly]] asked a nervous child to keep still, then stopped to offer a short break. Outside, the next patient waited beneath a tree. By late afternoon, the waiting area was empty. Amara put the records away and checked every drawer before the driver started the engine."
+  ],
+  "zh": [
+    "日出前，阿玛拉·贝洛检查了牙科诊所外那辆小卡车的轮胎。它将牵引一辆拖车前往一个偏远村庄；那里的家庭若不在流动诊所就诊，就得花上一天时间才能到达最近的牙医诊所。作为团队主管，她也检查了物资。他们为几个农业社区提供巡回服务，但今天的预约都在同一个村庄。",
+    "在拖车后部，阿玛拉帮一名助手把洁净的器械密封在防护袋里。他们固定好抽屉，为颠簸的旅程做好准备。一具人类颌骨模型装在带衬垫的箱子里随车运送。牙医用它向患者展示出问题的牙齿所在的位置，孩子们也常常要求仔细看看它。",
+    "到达后，阿玛拉查看了当天的患者档案。她并没有给所有人相同的饮食建议。一位纯素食者想了解不含乳制品的钙来源。一位信奉伊斯兰教的患者询问斋月期间的进食时间安排。阿玛拉把两个问题都记下来，准备交给牙医，小心地避免遗漏可能影响建议的细节。",
+    "一次诊疗中，牙医反复请一个紧张的孩子保持不动，随后停下来，让孩子稍作休息。外面，下一位患者正在树下等候。到了下午晚些时候，候诊区已经空了。阿玛拉收好档案，在司机启动发动机前检查了每一个抽屉。"
+  ],
+  "q": [
+    {
+      "s": "The travelling clinic reduced the need for rural families to make long trips for dental care.",
+      "a": "T",
+      "why": "流动诊所服务的村民否则需花一天去看牙。"
+    },
+    {
+      "s": "Amara gave every patient the same dietary advice.",
+      "a": "F",
+      "why": "第三段明确说她未给所有人相同饮食建议。"
+    },
+    {
+      "s": "Patients paid less for treatment at the mobile clinic than at other dental practices.",
+      "a": "NG",
+      "why": "文章没有提及诊疗费用或价格比较。"
+    }
+  ]
+}

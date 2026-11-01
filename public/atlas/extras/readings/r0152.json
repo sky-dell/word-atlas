@@ -1,0 +1,46 @@
+{
+  "id": "r0152",
+  "ids": [
+    "whole",
+    "thought",
+    "loudly",
+    "weight",
+    "folder",
+    "steal",
+    "modern",
+    "opinion",
+    "patient",
+    "robot"
+  ],
+  "title": "A Quieter Helper",
+  "titleZh": "更安静的小帮手",
+  "topic": "education",
+  "cefr": 1,
+  "paras": [
+    "At a small hospital, Mira taught new workers how to use a [[modern|modern]] [[robot|robot]]. The machine carried papers from the front desk to the nurses. But during the first lesson, its bell rang [[loudly|loudly]] outside every room. One [[patient|patient]] woke up and covered his ears. Then a blue [[folder|folder]] fell off its tray. Papers went across the floor, and Mira stopped the lesson.",
+    "\"We cannot use this machine like this,\" said Omar, a new worker. In his [[opinion|opinion]], carrying the papers by hand was better. Mira had another [[thought|thought]]: perhaps they could change the tray and the bell. Together, they checked the [[weight|weight]] of the papers. The pile was too heavy for the small tray. Also, anyone passing could take private papers. \"Someone might [[steal|steal]] them,\" Omar said. They needed a safer way to carry them.",
+    "Mira brought a light box with a lid and a lock. They put fewer papers inside and fixed the box to the tray. She also changed the bell to a soft sound. The team tested the [[whole|whole]] route, from the desk to the last room. Nothing fell, and nobody woke up. Omar smiled. For the next lesson, he showed the other workers how to load their quiet helper safely."
+  ],
+  "zh": [
+    "在一家小医院里，米拉教新员工使用一台现代机器人。这台机器负责把文件从前台送到护士那里。但是在第一堂培训课上，它每到一个房间外，铃声都会响得很大。一位病人被吵醒，捂住了耳朵。接着，一个蓝色文件夹从托盘上掉了下来。纸张散落在地板上，米拉停下了培训。",
+    "“我们不能这样使用这台机器。”新员工奥马尔说。他认为，用手拿着文件送过去更好。米拉有另一个想法：也许他们可以改一改托盘和铃声。他们一起检查了文件的重量。这叠文件对小托盘来说太重了。而且，任何路过的人都能拿走这些私人文件。“可能会有人偷走它们。”奥马尔说。他们需要一种更安全的运送方法。",
+    "米拉拿来一个带盖子和锁的轻便盒子。他们往里面少放了一些文件，再把盒子固定在托盘上。她还把铃声调得柔和了些。大家测试了从前台到最后一个房间的整条路线。没有东西掉下来，也没有人被吵醒。奥马尔笑了。下一堂培训课上，他向其他员工演示了如何安全地给这个安静的小帮手装好文件。"
+  ],
+  "q": [
+    {
+      "s": "The machine disturbed someone who was sleeping during the first lesson.",
+      "a": "T",
+      "why": "第一堂课上，铃声吵醒了一位病人。"
+    },
+    {
+      "s": "Mira bought the box from a shop near the hospital.",
+      "a": "NG",
+      "why": "文章只说她拿来盒子，未说明来源。"
+    },
+    {
+      "s": "Some papers fell during the test with the box on the tray.",
+      "a": "F",
+      "why": "装好盒子后测试时，没有东西掉下来。"
+    }
+  ]
+}

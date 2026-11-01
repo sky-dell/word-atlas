@@ -1,0 +1,48 @@
+{
+  "id": "r0626",
+  "ids": [
+    "occurrence",
+    "oceanography",
+    "gauge",
+    "signify",
+    "permeate",
+    "paranoia",
+    "conqueror",
+    "cape",
+    "tinge",
+    "endurance"
+  ],
+  "title": "The Colour Before Breakfast",
+  "titleZh": "早餐前的海水颜色",
+  "topic": "science",
+  "cefr": 4,
+  "paras": [
+    "Before breakfast, marine researcher Leila Varga descends eighty stone steps to collect seawater beneath a ruined fortress. Built by a [[conqueror|conqueror]] who briefly controlled the surrounding islands, it now houses her modest laboratory. For Leila, whose speciality is [[oceanography|oceanography]], this exposed [[cape|cape]] offers something sophisticated research stations sometimes lack: an uninterrupted record of one small stretch of sea.",
+    "Each morning she lowers a white disc into the water to [[gauge|gauge]] its clarity, then fills three glass bottles at different depths. A green [[tinge|tinge]] may [[signify|signify]] an increase in microscopic algae, but colour alone cannot establish the cause. She therefore examines each sample under a microscope, recording even an apparently trivial [[occurrence|occurrence]], such as an unfamiliar organism appearing only once.",
+    "Her interest began with a lighthouse keeper's notebook discovered in the fortress archive. Salt and damp had damaged its pages, yet descriptions of luminous water remained legible. Some entries revealed the keeper's [[paranoia|paranoia]]: without evidence, he believed visiting sailors intended to poison his well. Leila separates these fears from observations supported by dates and weather records, refusing either to trust or dismiss the notebook wholesale.",
+    "Winter demands considerable [[endurance|endurance]], particularly when spray freezes on the steps and the smell of wet wool seems to [[permeate|permeate]] every room. After six years, however, Leila has identified a recurring bloom associated with unusually calm autumns. The keeper's mysterious lights now have a plausible biological explanation. Each evening, she leaves a clean bottle beside the door, ready for the next morning's descent."
+  ],
+  "zh": [
+    "早餐前，海洋研究员莱拉·瓦尔加沿着八十级石阶走下去，在一座城堡废墟下方采集海水。这座城堡由一位曾短暂统治周边岛屿的征服者修建，如今成了她简陋的实验室。莱拉专攻海洋学，对她而言，这处无遮无挡的海角提供了先进研究站有时也缺少的东西：对一小片海域持续不间断的记录。",
+    "每天早晨，她将一个白色圆盘放入水中，以测量海水的清澈程度，然后在不同深度分别装满三个玻璃瓶。海水略带绿色，可能意味着微小藻类数量增加，但仅凭颜色无法确定原因。因此，她会在显微镜下检查每份样本，连看似微不足道的现象也记录下来，例如某种陌生生物仅出现过一次。",
+    "她的兴趣源于在城堡档案中发现的一本灯塔看守人的笔记。盐分和潮气已经损坏了纸页，但有关海水发光的描述仍清晰可辨。部分记录暴露了看守人的被害妄想：没有任何证据，他却认定到访的水手企图在他的井里投毒。莱拉将这些恐惧与有日期和天气记录佐证的观察区分开来，既不全盘相信，也不一概否定这本笔记。",
+    "冬季的工作需要相当强的耐力，尤其当浪花在石阶上结冰、湿羊毛的气味仿佛弥漫每个房间时。然而，经过六年研究，莱拉已经发现，一种反复出现的藻华与异常风平浪静的秋季有关。看守人记述的神秘光亮，如今有了合理的生物学解释。每晚，她都会在门旁放好一个干净瓶子，为第二天清晨走下石阶做好准备。"
+  ],
+  "q": [
+    {
+      "s": "Leila's laboratory is housed in a former fortress.",
+      "a": "T",
+      "why": "首段明确说城堡如今设有她的实验室。"
+    },
+    {
+      "s": "Leila washes the three sampling bottles herself after each use.",
+      "a": "NG",
+      "why": "文中未说明取样瓶由谁清洗。"
+    },
+    {
+      "s": "Leila accepts every entry in the keeper's notebook as reliable.",
+      "a": "F",
+      "why": "她明确拒绝全盘相信这本笔记。"
+    }
+  ]
+}

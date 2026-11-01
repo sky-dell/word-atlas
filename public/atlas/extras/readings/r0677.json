@@ -1,0 +1,48 @@
+{
+  "id": "r0677",
+  "ids": [
+    "heed",
+    "overrule",
+    "entail",
+    "hallmark",
+    "cog",
+    "predisposition",
+    "lament",
+    "decided",
+    "disprove",
+    "imperative"
+  ],
+  "title": "Breath Written on Glass",
+  "titleZh": "写在玻璃上的呼吸",
+  "topic": "science",
+  "cefr": 4,
+  "paras": [
+    "In this fictional account set in 1896, instrument maker Mira Sen builds a machine to measure ceramic workers’ breathing capacity. She makes precision the [[hallmark|hallmark]] of her workshop, but obtaining reliable measurements will [[entail|entail]] more than constructing an elegant machine. Workers must trust its operator. Before testing begins, Sen explains the procedure and invites each worker to inspect the equipment.",
+    "Behind a glass panel, each [[cog|cog]] helps transfer movement from a floating chamber to a needle, which records the volume of exhaled air on paper. An assistant notices that damp paper drags against the needle. Sen chooses to [[heed|heed]] his warning and [[overrule|overrule]] the workshop manager’s decision to continue demonstrations. Replacement rolls produce a [[decided|decided]] improvement in consistency, so she keeps paired traces to document the fault.",
+    "Interpreting the traces proves harder. Some workers have a familial [[predisposition|predisposition]] to asthma; others report breathing difficulties after years of inhaling mineral dust. Distinguishing these influences is [[imperative|imperative]], since a low reading alone cannot establish its cause. Repeated trials also help [[disprove|disprove]] the manager’s claim that the instrument always gives identical results for the same person, regardless of testing conditions.",
+    "In letters to a local doctor, Sen begins to [[lament|lament]] the loss of workers’ medical histories whenever a factory closes. She asks whether the doctor can keep copies of her test records. Until a storage arrangement is agreed, she keeps the paper traces in numbered envelopes, with notes recording the conditions of each test."
+  ],
+  "zh": [
+    "在这个以1896年为背景的虚构故事中，仪器制造者米拉·森造了一台测量陶瓷工人肺活量的机器。她将精确作为工坊的鲜明特征，但要获得可靠的测量结果，远不只是造出一台精巧的机器。工人必须信任操作仪器的人。测试开始前，森解释了操作流程，并邀请每位工人检查设备。",
+    "在玻璃面板后，每个齿轮都帮助将浮动气室的运动传递给指针，由指针在纸上记录呼出的空气量。一名助手发现，受潮的纸会阻碍指针移动。森决定听取他的警告，并否决工坊经理继续演示的决定。更换纸卷后，测量结果的一致性有了明显改善，因此她保留了成对的曲线记录，用来记录这一故障。",
+    "解读这些曲线更为困难。有些工人具有家族性的哮喘易感倾向；另一些人报告说，自己在多年吸入矿物粉尘后出现了呼吸困难。区分这些因素至关重要，因为单凭偏低的读数无法确定其成因。经理声称，无论测试条件如何，仪器对同一个人的测量结果总是完全相同；反复试验也帮助证明了这一说法是错误的。",
+    "在写给当地一位医生的信中，森开始悲叹，每逢工厂关闭，工人的病历也随之遗失。她询问医生能否保管测试记录的副本。在商定保存安排之前，她将曲线记录放在编号的信封里，并附上记录每次测试条件的笔记。"
+  ],
+  "q": [
+    {
+      "s": "Sen had previously worked in a ceramics factory.",
+      "a": "NG",
+      "why": "首段介绍她制造仪器，未说明此前工作经历。"
+    },
+    {
+      "s": "Sen rejected the manager’s decision to continue demonstrations.",
+      "a": "T",
+      "why": "第二段明确说她否决了继续演示的决定。"
+    },
+    {
+      "s": "A low reading alone could establish the cause of a worker’s breathing difficulties.",
+      "a": "F",
+      "why": "第三段明确说单凭低读数不能确定成因。"
+    }
+  ]
+}

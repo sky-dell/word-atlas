@@ -1,0 +1,46 @@
+{
+  "id": "r0069",
+  "ids": [
+    "lot",
+    "grandfather",
+    "dear",
+    "sorry",
+    "ear",
+    "healthy",
+    "laugh",
+    "find",
+    "sell",
+    "walk"
+  ],
+  "title": "Two Cups and a String",
+  "titleZh": "两个杯子和一根线",
+  "topic": "science",
+  "cefr": 0,
+  "paras": [
+    "Mina makes a cup telephone with her [[grandfather|grandfather]]. He is seventy and [[healthy|healthy]], and he likes making things. Mina is very [[dear|dear]] to him. They [[walk|walk]] to his small work room behind the house. There are a [[lot|lot]] of boxes under the table. They [[find|find]] two paper cups in one box. They also need a long piece of string and a small tool for making holes.",
+    "First, he makes a hole in the bottom of each cup. Mina puts one end of the string through each hole. She makes a big knot at each end. The knots keep the string in place. But she pulls too hard and breaks one cup. She feels [[sorry|sorry]]. He smiles and gives her another cup. Soon their telephone is ready to try.",
+    "They stand far apart and keep the string straight and tight. Mina speaks into her cup. He holds his cup to his [[ear|ear]]. Her voice makes the string move, and sound reaches his cup. They [[laugh|laugh]] when he hears her tiny voice. A neighbour sees them and asks to buy the telephone for his son. But Mina wants to keep it, so they do not [[sell|sell]] it. It stays by the window, ready for another happy talk."
+  ],
+  "zh": [
+    "米娜和她的爷爷或外公一起做杯子电话。他七十岁了，身体健康，喜欢动手做东西。他非常疼爱米娜。他们走到屋后他的小工作间。桌子下面有许多箱子。他们在一个箱子里找到两个纸杯。他们还需要一根长线和一个用来打孔的小工具。",
+    "首先，他在每个杯子的底部打一个孔。米娜把线的两端分别穿过两个孔，再在每一端打一个大结。这些结可以固定住线。但是，她拉得太用力，弄破了一个杯子。她感到很抱歉。他笑了笑，又给她一个杯子。很快，他们的电话就做好了，可以试用了。",
+    "他们站得远远的，把线拉直、绷紧。米娜对着她的杯子说话。他把自己的杯子贴在耳朵上。她的声音让线振动，声音就传到了他的杯子里。他听见她细小的声音时，两个人都笑了。一位邻居看见了他们，提出想买下这个电话送给自己的儿子。但是米娜想留下它，所以他们没有卖掉它。它被放在窗边，等着下一次愉快的交谈。"
+  ],
+  "q": [
+    {
+      "s": "The box with the two paper cups is on the table.",
+      "a": "F",
+      "why": "装纸杯的箱子在桌子下面。"
+    },
+    {
+      "s": "Mina breaks a cup because she pulls too hard.",
+      "a": "T",
+      "why": "文中明确说她拉得太用力，弄破了杯子。"
+    },
+    {
+      "s": "They plan to make a second telephone the next day.",
+      "a": "NG",
+      "why": "文章未提到第二天再做一个电话。"
+    }
+  ]
+}

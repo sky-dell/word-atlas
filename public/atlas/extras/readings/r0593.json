@@ -1,0 +1,48 @@
+{
+  "id": "r0593",
+  "ids": [
+    "nameless",
+    "catastrophe",
+    "wreath",
+    "legible",
+    "gracious",
+    "seaman",
+    "arduous",
+    "expressly",
+    "supposition",
+    "thermal"
+  ],
+  "title": "Reading Beneath the Salt",
+  "titleZh": "读出盐渍下的文字",
+  "topic": "work",
+  "cefr": 4,
+  "paras": [
+    "At a maritime archive, conservator Leila Haddad tested whether controlled humidity could recover writing obscured by salt. Her starting point was a letter attributed to a [[nameless|nameless]] [[seaman|seaman]], rescued from a vessel after a harbour fire. The [[catastrophe|catastrophe]] had destroyed three warehouses; beside the letter, a dried [[wreath|wreath]] commemorated the crew members who had died.",
+    "Recovering the text was [[arduous|arduous]] work, since brushing away crystals risked removing ink with them. Rather than experiment on the original, Haddad prepared forty paper samples using historically appropriate ink and seawater. The archive's director, though [[gracious|gracious]] towards visiting researchers, [[expressly|expressly]] prohibited any treatment of the letter until these substitutes had demonstrated that the procedure was safe.",
+    "Half the samples entered a humidity chamber for twenty minutes, while the remainder stayed in ordinary storage conditions. A [[thermal|thermal]] sensor confirmed that neither group became warmer, allowing Haddad to separate moisture effects from heating. Her initial [[supposition|supposition]] was that softened salt would detach cleanly. Under magnification, however, several treated samples showed ink spreading along fibres, although their words initially appeared more [[legible|legible]].",
+    "Two days later, independent readers correctly transcribed fewer words from the treated samples than from the untreated ones. The apparent improvement had therefore concealed progressive damage. Haddad abandoned humidification and commissioned photographs under several wavelengths of light instead. The experiment had not restored a single historical sentence, but it had answered the more important practical question: which promising intervention must never reach the original?"
+  ],
+  "zh": [
+    "在一家海事档案馆，文物修复师莱拉·哈达德测试了控制湿度能否恢复被盐渍遮蔽的字迹。研究缘起于一封据认为出自无名海员之手的信，它是在港口火灾后从一艘船上抢救出来的。那场灾难烧毁了三座仓库；信旁放着一个干花环，用以纪念遇难的船员。",
+    "恢复文字是一项艰苦的工作，因为刷去盐晶时，可能会连同墨迹一起清除。哈达德没有拿原件做实验，而是用符合当时工艺的墨水和海水制作了四十份纸张样本。档案馆馆长虽然对来访研究人员亲切有礼，却明确禁止对这封信进行任何处理，除非这些替代样本证明该方法安全。",
+    "一半样本被放入湿度控制箱二十分钟，其余则保持在普通储存条件下。热传感器确认，两组样本均未升温，因此哈达德能够将湿气的影响与加热的影响区分开来。她最初推测，软化后的盐会干净地脱落。然而，在放大观察下，几个经过处理的样本出现了墨水沿纤维扩散的现象，尽管其文字起初似乎更容易辨认。",
+    "两天后，独立评读人员从处理组样本中正确抄录出的字词，比从未处理组中抄录出的更少。因此，表面上的改善实际上掩盖了持续发展的损伤。哈达德放弃了加湿法，转而委托他人在几种不同波长的光照下拍摄这封信。这项实验没有恢复任何一句历史文字，却回答了一个更重要的实际问题：哪一种看似有前景的干预手段绝不能用于原件？"
+  ],
+  "q": [
+    {
+      "s": "The letter had been stored at the archive for more than a century before Haddad examined it.",
+      "a": "NG",
+      "why": "文中未说明信件在档案馆保存了多久。"
+    },
+    {
+      "s": "The director required evidence from replica materials before permitting treatment of the historical letter.",
+      "a": "T",
+      "why": "馆长要求替代样本先证明处理方法安全。"
+    },
+    {
+      "s": "The humidity treatment made the samples easier to transcribe accurately after two days.",
+      "a": "F",
+      "why": "两天后，处理组被正确抄录的字词更少。"
+    }
+  ]
+}

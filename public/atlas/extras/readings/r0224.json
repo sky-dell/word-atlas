@@ -1,0 +1,48 @@
+{
+  "id": "r0224",
+  "ids": [
+    "definite",
+    "gentle",
+    "comedian",
+    "performance",
+    "dorm",
+    "trend",
+    "valley",
+    "convince",
+    "hallway",
+    "sew"
+  ],
+  "title": "An Old Dorm Finds New Life",
+  "titleZh": "旧宿舍的新生活",
+  "topic": "history",
+  "cefr": 2,
+  "paras": [
+    "A small history museum in the Luma [[valley|valley]] has noticed a surprising [[trend|trend]]: visitors are coming to repair clothes rather than simply look at old objects. The museum was once a [[dorm|dorm]] for young people studying at a nearby farming college. Now, its longest [[hallway|hallway]] holds six wooden tables and a collection of sewing machines.",
+    "The change began when museum worker Amina found a box of shirts from the 1940s. Each had been repaired several times. She wanted to [[convince|convince]] visitors that ordinary clothes could tell important stories. Instead of putting every shirt behind glass, she started Saturday sessions where people could learn to [[sew|sew]] while hearing about the shirts' owners.",
+    "At first, only four people came. Then a local [[comedian|comedian]], Tomas, joined a session and told funny stories about his grandfather's enormous coats. Attendance soon reached twenty. However, the sessions have a [[definite|definite]] rule: historic clothes are only examined, never worn. Amina gives [[gentle|gentle]] help to beginners, guiding their hands without pulling the cloth.",
+    "Visitors also compare the [[performance|performance]] of an old sewing machine with a newer one. They are often surprised that both make equally neat lines. Many now bring damaged clothes from home. The museum's past is no longer just something to see; it offers a useful skill to take away."
+  ],
+  "zh": [
+    "卢马山谷的一家小型历史博物馆注意到一个出人意料的趋势：游客来这里是为了修补衣服，而不只是观看旧物。博物馆所在的建筑曾是附近一所农业学院的青年学生宿舍。如今，馆内最长的走廊摆着六张木桌和一批缝纫机。",
+    "这一变化始于博物馆工作人员阿米娜发现的一箱20世纪40年代的衬衫。每件衬衫都经过多次修补。她想让游客相信，普通衣物也能讲述重要的故事。她没有把所有衬衫都放进玻璃展柜，而是开办了周六活动，让大家一边了解衬衫主人的故事，一边学习缝纫。",
+    "起初只有四个人参加。后来，当地喜剧演员托马斯参加了一次活动，讲了些关于他祖父那些宽大外套的趣事。参加人数很快就达到了二十人。不过，活动有一条明确的规定：历史衣物只能查看，不能试穿。阿米娜耐心轻柔地帮助初学者，引导他们的手部动作，而不去拉扯布料。",
+    "游客还会比较一台旧缝纫机和一台较新缝纫机的性能。他们常常惊讶地发现，两台机器缝出的线迹同样整齐。现在，许多人会从家里带来破损的衣服。博物馆里的历史不再只是供人观看的东西，它还让人们学会了一项可以带走的实用技能。"
+  ],
+  "q": [
+    {
+      "s": "The museum building used to be a dorm for college students.",
+      "a": "T",
+      "why": "原文说该建筑曾是附近农业学院的学生宿舍。"
+    },
+    {
+      "s": "Amina charged a fee for the Saturday sessions.",
+      "a": "NG",
+      "why": "文章未说明周六活动是否收费。"
+    },
+    {
+      "s": "Participants are allowed to try on the historical shirts during the sessions.",
+      "a": "F",
+      "why": "活动明确规定历史衣物只能查看，不能穿。"
+    }
+  ]
+}

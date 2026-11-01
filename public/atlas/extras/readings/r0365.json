@@ -1,0 +1,48 @@
+{
+  "id": "r0365",
+  "ids": [
+    "landfill",
+    "dealer",
+    "verse",
+    "preference",
+    "era",
+    "trait",
+    "gay",
+    "sympathetic",
+    "adolescent",
+    "peacock"
+  ],
+  "title": "Behind the Peacock Costume",
+  "titleZh": "孔雀戏服背后的故事",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "At the centre of this exhibition stands a stage costume shaped like a [[peacock|peacock]], its tail made from hundreds of blue and green fabric scraps. Created in 1983 by theatre worker Mateo Silva, it introduces an [[era|era]] when small theatre workshops relied on skilled hands rather than computer-controlled cutting machines.",
+    "The first display follows Silva's working day. Each morning, he visited a cloth [[dealer|dealer]] near the harbour, searching for damaged material that might otherwise reach a [[landfill|landfill]]. His [[preference|preference]] for worn velvet was practical: under stage lights, its uneven surface gave feathers a convincing depth. Visitors can touch samples and compare their appearance beneath two different lamps.",
+    "Silva entered the workshop as an [[adolescent|adolescent]], initially sweeping floors and sorting buttons. A notebook reveals the personal [[trait|trait]] his colleagues valued most: patience. Beside careful measurements, he copied lines of [[verse|verse]] spoken by the actors, using their rhythm to imagine how a costume should move. Letters also describe his experience as a [[gay|gay]] man whose partner was not always welcome at official theatre events. His supervisor was [[sympathetic|sympathetic]], quietly ensuring that both received invitations to workshop celebrations.",
+    "In the final room, a short film shows the restored costume opening its tail. The mechanism is surprisingly simple: wooden strips, strong thread and a single handle. Look closely at the repairs before leaving. They record not just a spectacular performance, but the ordinary labour that made it possible."
+  ],
+  "zh": [
+    "展览中央陈列着一件孔雀造型的舞台戏服，尾部由数百块蓝色和绿色的碎布拼成。这件戏服由剧院工作人员马特奥·席尔瓦于1983年制作，将观众带回一个小型剧院工坊依靠熟练双手、而非电脑控制的裁剪机器工作的时代。",
+    "第一部分展陈呈现了席尔瓦一天的工作。每天早晨，他都会拜访港口附近的一位布料商，寻找那些若无人利用便可能被送往垃圾填埋场的瑕疵布料。他偏爱旧天鹅绒，是出于实用考虑：在舞台灯光下，它凹凸不平的表面能让羽毛显出逼真的层次感。观众可以触摸布料样品，并比较它们在两种不同灯光下的效果。",
+    "席尔瓦在青少年时期进入工坊，最初负责扫地和整理纽扣。一本笔记本展现了同事们最欣赏他的性格特点：耐心。在精确记录的尺寸旁，他抄下演员念诵的诗句，借助其中的韵律想象戏服应当如何随身体移动。信件还讲述了他作为一名男同性恋者的经历：他的伴侣并不总能受到剧院正式活动的欢迎。他的主管很体谅他，默默安排，让两人都收到工坊庆祝活动的邀请。",
+    "在最后一个展厅，一段短片展示了修复后的戏服展开尾部的过程。其机械结构出人意料地简单：木条、结实的线和一个手柄。离开前，请仔细看看那些修补的痕迹。它们记录的不仅是一场精彩演出，还有让这场演出得以实现的日常劳动。"
+  ],
+  "q": [
+    {
+      "s": "Silva's peacock costume was first worn in a performance at the harbour.",
+      "a": "NG",
+      "why": "文章未说明戏服首次演出的地点。"
+    },
+    {
+      "s": "The uneven surface of worn velvet gave the feathers depth under stage lights.",
+      "a": "T",
+      "why": "第二段明确说明旧天鹅绒的这一灯光效果。"
+    },
+    {
+      "s": "The restored costume's tail mechanism uses two handles.",
+      "a": "F",
+      "why": "末段明确说该装置只有一个手柄。"
+    }
+  ]
+}

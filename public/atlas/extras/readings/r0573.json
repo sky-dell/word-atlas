@@ -1,0 +1,48 @@
+{
+  "id": "r0573",
+  "ids": [
+    "stationer",
+    "microbe",
+    "steamer",
+    "twilight",
+    "entrant",
+    "cardinal",
+    "fallacy",
+    "funnel",
+    "cutting",
+    "procure"
+  ],
+  "title": "A Recipe for Composure",
+  "titleZh": "让心安定的配方",
+  "topic": "emotion",
+  "cefr": 4,
+  "paras": [
+    "By [[twilight|twilight]], the windows of Amira's kitchen were opaque with condensation, yet her sesame buns remained stubbornly flat. As a first-time [[entrant|entrant]] in the harbour's annual cooking competition, she had interpreted each failed batch as evidence of personal inadequacy. Her uncle's [[cutting|cutting]] observation that she lacked her grandmother's touch had made the kitchen feel like a courtroom.",
+    "Her sister Leila, a laboratory technician, challenged the [[fallacy|fallacy]] that culinary skill was simply inherited. Yeast, she explained, was a [[microbe|microbe]] whose activity depended on temperature; Amira's near-boiling water was disabling the very organism needed to raise the dough. Their [[cardinal|cardinal]] rule would therefore be to change one variable at a time, rather than repeatedly abandon the recipe.",
+    "The next morning, Amira visited a [[stationer|stationer]] for index cards on which to record water temperature, resting time and dough height. Leila helped her [[procure|procure]] a kitchen thermometer from a restaurant supplier across the harbour. Using a [[funnel|funnel]], they transferred oil into a narrow measuring bottle, then prepared three small batches before placing the first buns in the [[steamer|steamer]].",
+    "Two batches rose evenly; the third, left beside an open window, developed more slowly. These differences gave Amira something more useful than reassurance: an explanation she could test. On competition day, her hands still trembled, but she consulted her cards instead of imagining her uncle's verdict. She received no prize, yet every bun was light. That evening, she invited him to tea without asking whether she had inherited the family gift."
+  ],
+  "zh": [
+    "暮色降临时，阿米拉厨房的窗户已经蒙上厚厚的水汽，她做的芝麻包却依然瘪塌塌的。第一次参加港口一年一度的烹饪比赛，她把每一批失败的包子都看作自己能力不足的证明。她的一位叔伯舅辈亲属尖刻地说她没有祖母或外祖母的手艺，这更让厨房仿佛变成了审判她的法庭。",
+    "与她是姐妹的莱拉是一名实验室技术员，对烹饪本领只能靠遗传的错误观念提出了质疑。她解释说，酵母是一种微生物，其活性取决于温度；阿米拉用的水接近沸点，恰恰让面团发起所需的微生物失去了活性。因此，她们定下的基本原则是每次只改变一个变量，而不是一次次放弃原来的配方。",
+    "第二天早上，阿米拉到文具商那里买了索引卡，用来记录水温、醒发时间和面团高度。莱拉帮她从港口另一边的一家餐饮用品供应商那里买到了厨房温度计。她们用漏斗把油倒进一个细口量瓶，随后准备了三小批面团，再把第一批包子放进蒸锅。",
+    "其中两批均匀地发了起来；第三批放在敞开的窗户旁，发得慢一些。这些差异给了阿米拉比安慰更有用的东西：一个可以验证的解释。比赛当天，她的双手仍在发抖，但她查看的是记录卡，而不再想象那位亲属会如何评判。她没有获奖，但每个包子都很松软。那天晚上，她邀请他来喝茶，没有再问自己是否继承了家传的天赋。"
+  ],
+  "q": [
+    {
+      "s": "Amira had entered the harbour's cooking competition before.",
+      "a": "F",
+      "why": "首段明确说她是首次参赛。"
+    },
+    {
+      "s": "Leila proposed changing one variable at a time.",
+      "a": "T",
+      "why": "第二段明确提出每次只改变一个变量。"
+    },
+    {
+      "s": "Amira's uncle accepted her invitation to tea after the competition.",
+      "a": "NG",
+      "why": "末段只说她发出邀请，未说他是否接受。"
+    }
+  ]
+}

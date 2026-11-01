@@ -1,0 +1,48 @@
+{
+  "id": "r0548",
+  "ids": [
+    "requisite",
+    "deceit",
+    "suspension",
+    "overrun",
+    "instrumental",
+    "exploitation",
+    "tranquilizer",
+    "prevailing",
+    "lull",
+    "obnoxious"
+  ],
+  "title": "The Fence Beneath the Ferns",
+  "titleZh": "蕨丛下的围栏",
+  "topic": "environment",
+  "cefr": 4,
+  "paras": [
+    "By October, feral pigs had [[overrun|overrun]] the orchid terraces at Kestrel Marsh, uprooting plants that volunteers had cultivated for seven years. Their [[obnoxious|obnoxious]] squeals interrupted dawn bird surveys, but the deeper concern was erosion: every storm carried exposed soil into the breeding pools below. Reserve manager Amara Sen ordered a [[suspension|suspension]] of guided walks while her team investigated the damaged perimeter.",
+    "The [[prevailing|prevailing]] explanation blamed unusually powerful animals. Yet fence posts lifted easily from their sockets, revealing foundations barely ten centimetres deep. Groundskeeper Tomas Ibarra proved [[instrumental|instrumental]] in uncovering the contractor's [[deceit|deceit]]: photographs submitted as evidence of completed work showed a different enclosure. Interviews also exposed the [[exploitation|exploitation]] of seasonal labourers, who had been paid for only half their recorded hours.",
+    "Rather than replace the fence immediately, Amara first needed to remove the animals without driving them towards neighbouring farms. During a [[lull|lull]] in the rain, her team constructed a temporary feeding enclosure on firm ground. Most pigs entered voluntarily; a veterinarian administered a [[tranquilizer|tranquilizer]] to one injured boar before transferring it safely. All were taken to a licensed sanctuary with the [[requisite|requisite]] space and secure fencing.",
+    "Recovered contract payments financed deeper foundations, while an independent adviser helped the labourers claim their missing wages. This time, workers photographed each post beside a measuring rod before concrete concealed it. By spring, sediment in the pools had declined and orchid shoots were emerging. The solution had required more than stronger barriers: it depended on making previously invisible work visible."
+  ],
+  "zh": [
+    "到了十月，野化的猪已大量侵入凯斯特雷尔湿地的兰花台地，将志愿者培育了七年的植株连根拱起。它们刺耳的尖叫打断了清晨的鸟类调查，但更令人担忧的是水土流失：每场暴雨都会把裸露的泥土冲进下方的繁殖水池。保护区负责人阿玛拉·森下令暂停导览活动，由团队调查受损的外围围栏。",
+    "当时普遍的解释是，这些动物力气异常大。然而，围栏立柱很容易就能从孔中拔出，露出的地基深度仅有十厘米左右。场地管理员托马斯·伊瓦拉在揭穿承包商的欺诈行为中起了关键作用：作为完工证明提交的照片，拍的竟是另一处围栏。访谈还揭露了承包商对季节工的剥削：他们拿到的工资只相当于所记录工时的一半。",
+    "阿玛拉没有立即更换围栏，而是需要先把这些动物移走，同时避免将它们赶向邻近的农场。趁着雨势暂歇，团队在坚实的地面上搭建了一处临时投喂围栏。大多数猪自行走了进去；一名兽医给一头受伤的公猪使用了镇静药，随后将其安全转移。所有猪都被送到了一家持有许可证的动物庇护所，那里有必需的空间和牢固的围栏。",
+    "追回的合同款用于修建更深的地基，一位独立顾问则帮助工人追讨欠薪。这一次，在浇筑混凝土将地基遮住之前，工人都把测量尺放在每根立柱旁拍照。到了春天，水池中的泥沙减少了，兰花也冒出了新芽。解决问题所需的不只是更坚固的屏障，还要让过去看不见的工作变得有据可查。"
+  ],
+  "q": [
+    {
+      "s": "Soil washed from the damaged terraces threatened the pools farther downhill.",
+      "a": "T",
+      "why": "首段指出暴雨将裸土冲入下方繁殖水池。"
+    },
+    {
+      "s": "The sanctuary charged the reserve a fee for accepting the pigs.",
+      "a": "NG",
+      "why": "文章未提及庇护所是否收费。"
+    },
+    {
+      "s": "Workers photographed the replacement posts only after concrete had concealed their foundations.",
+      "a": "F",
+      "why": "工人在混凝土遮住地基之前拍照。"
+    }
+  ]
+}

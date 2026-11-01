@@ -1,0 +1,46 @@
+{
+  "id": "r0076",
+  "ids": [
+    "salad",
+    "out",
+    "excited",
+    "invite",
+    "phone",
+    "miss",
+    "travel",
+    "follow",
+    "american",
+    "russian"
+  ],
+  "title": "A Village Kitchen Lesson",
+  "titleZh": "乡村厨房里的一课",
+  "topic": "education",
+  "cefr": 0,
+  "paras": [
+    "In a small village in Russia, visitors can learn to make lunch in a family kitchen. Lena teaches the lessons every Saturday. Today, an [[american|American]] visitor called Rosa is coming. She likes learning about food when she [[travel|travels]]. She is [[excited|excited]] about this lesson. She leaves her little hotel early. She does not want to [[miss|miss]] the start.",
+    "Lena is [[out|out]] when Rosa arrives at her house. Her son calls her on his [[phone|phone]]. She is buying eggs at a shop near the river. Soon, she comes home and [[invite|invites]] Rosa into the kitchen. Rosa washes her hands and puts on a blue apron. On the table are potatoes, carrots, eggs, and a big green bowl.",
+    "They make a cold [[russian|Russian]] [[salad|salad]] together. Lena shows Rosa how to cut the cooked vegetables into small pieces. Rosa works slowly, but Lena smiles. There is no need to hurry here. At noon, Rosa [[follow|follows]] Lena into the garden with the bowl. They eat under an apple tree. Rosa writes the recipe in her book. \"How many eggs do I need?\" she asks Lena, with her pen ready."
+  ],
+  "zh": [
+    "在俄罗斯的一个小村庄里，游客可以在一户人家的厨房里学习做午饭。莉娜每周六都教这门课。今天，一位名叫罗莎的美国游客要来。她喜欢在旅行时了解各地的食物。她对这堂课感到很兴奋。她早早离开了住的小旅馆，不想错过课程的开始。",
+    "罗莎到莉娜家时，莉娜不在家。她的儿子用自己的电话给她打了电话。她正在河边的一家商店买鸡蛋。不久，她回到家，邀请罗莎进厨房。罗莎洗了手，系上一条蓝色围裙。桌上有土豆、胡萝卜、鸡蛋和一个绿色的大碗。",
+    "她们一起做了一道俄罗斯凉沙拉。莉娜教罗莎怎样把煮熟的蔬菜切成小块。罗莎做得很慢，但莉娜微笑着。在这里，不必着急。中午，罗莎端着碗，跟着莉娜走进花园。她们在一棵苹果树下吃饭。罗莎把食谱记在本子上。她拿好笔，问莉娜：“我需要几个鸡蛋？”"
+  ],
+  "q": [
+    {
+      "s": "Rosa does not like learning about food on her trips.",
+      "a": "F",
+      "why": "第一段说她喜欢在旅行时了解食物。"
+    },
+    {
+      "s": "Rosa bought the blue apron at her hotel.",
+      "a": "NG",
+      "why": "文中未说明蓝围裙在哪里买的。"
+    },
+    {
+      "s": "Rosa writes the recipe in her book.",
+      "a": "T",
+      "why": "第三段明确说罗莎把食谱记在本子上。"
+    }
+  ]
+}

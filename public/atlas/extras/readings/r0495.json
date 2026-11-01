@@ -1,0 +1,48 @@
+{
+  "id": "r0495",
+  "ids": [
+    "hedgehog",
+    "memo",
+    "concern",
+    "analyse",
+    "technological",
+    "usage",
+    "compulsory",
+    "mass-media",
+    "chip",
+    "holy"
+  ],
+  "title": "Rest Beyond the Shrine",
+  "titleZh": "圣祠之外的休憩时光",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "Above the mountain village of Valmera, travellers have long visited a [[holy|holy]] spring before resting in a stone guesthouse. Today, the guesthouse offers a three-night stay focused on sleep rather than sightseeing. Its keeper, Mara, serves barley soup at sunset and leaves a small jug of water beside each bed.",
+    "The idea began with a [[memo|memo]] from the night staff: visitors were arriving exhausted, yet staying awake until dawn. Their [[concern|concern]] was not simply noise; some guests seemed unable to stop planning the next day's journey. Mara introduced quiet evenings, although joining the evening garden walk is not [[compulsory|compulsory]]. Guests may read in the kitchen instead.",
+    "Despite its old wooden furniture, the house accepts modest [[technological|technological]] help. A tiny [[chip|chip]] inside each room's meter records electricity [[usage|usage]], allowing Mara to [[analyse|analyse]] when lights are usually switched off. The results cannot prove that anyone sleeps better, but they help her adjust the evening routine. Reports in the [[mass-media|mass media]] have described the house as a retreat from modern life, a label she finds misleading.",
+    "On my final evening, our walk stopped when a [[hedgehog|hedgehog]] appeared beside the herb beds. Nobody hurried it along. We watched it disappear beneath a rosemary bush, then returned indoors without discussing tomorrow's route. The house promised no medical cure, yet this unplanned pause revealed its appeal: a journey could include moments that did not need to be filled."
+  ],
+  "zh": [
+    "在山村瓦尔梅拉上方，旅人们长久以来都会先拜访一处圣泉，再到一间石砌客舍歇脚。如今，客舍推出了三晚住宿体验，重点不是观光，而是睡眠。经营者玛拉在日落时端上大麦汤，并在每张床旁放一小壶水。",
+    "这个想法源于夜班员工的一份内部通知：客人抵达时疲惫不堪，却仍然熬到天亮。员工担心的不只是噪声；有些客人似乎无法停止规划第二天的行程。玛拉于是安排了安静的夜间活动，但并不强制客人参加晚间花园散步。他们也可以选择留在厨房读书。",
+    "尽管屋内摆着古旧的木家具，客舍仍会适度借助科技。每间客房电表中的一枚微型芯片会记录用电量，让玛拉能够分析客人通常何时关灯。这些结果无法证明谁睡得更好了，却能帮助她调整晚间安排。大众传媒的报道将这间客舍称为逃离现代生活的隐居之所，但她认为这种说法容易让人误解。",
+    "在我入住的最后一晚，一只刺猬出现在香草花圃旁，我们的散步因此暂停。没有人催它离开。我们看着它消失在一丛迷迭香下，然后回到屋内，没有讨论明天的路线。客舍并不承诺任何医疗疗效，但这次计划外的停留却展现了它的吸引力：旅途中，也可以有不必用事情填满的片刻。"
+  ],
+  "q": [
+    {
+      "s": "The guesthouse's three-night stay focuses on sightseeing rather than sleep.",
+      "a": "F",
+      "why": "三晚住宿以睡眠而非观光为重点。"
+    },
+    {
+      "s": "Guests can choose whether to join the evening garden walk.",
+      "a": "T",
+      "why": "花园散步并非强制，客人可选择读书。"
+    },
+    {
+      "s": "Media coverage led to an increase in bookings at the guesthouse.",
+      "a": "NG",
+      "why": "文章提到媒体报道，未说明预订量变化。"
+    }
+  ]
+}

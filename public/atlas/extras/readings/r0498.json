@@ -1,0 +1,48 @@
+{
+  "id": "r0498",
+  "ids": [
+    "odds",
+    "cooperation",
+    "fraction",
+    "flexibility",
+    "whip",
+    "criticize",
+    "completion",
+    "nonsense",
+    "academy",
+    "estimate"
+  ],
+  "title": "A Second Act for Stage Props",
+  "titleZh": "舞台道具的第二次登场",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "At a theatrical workshop in the port town of Bellwick, the newest employees spend more time repairing old objects than making new ones. Five years ago, most damaged stage equipment was thrown away. Now, repair orders account for nearly half the workshop's business, improving the [[odds|odds]] that traditional craft skills will survive.",
+    "The change began through [[cooperation|cooperation]] with a nearby drama [[academy|academy]]. Its teachers needed affordable objects for practical lessons, while the workshop had shelves of unwanted materials. One early project involved a leather [[whip|whip]] from an abandoned production. Rather than restore it for use, workers secured it inside a display case to demonstrate historical leatherwork. The project cost only a [[fraction|fraction]] of commissioning a new teaching display.",
+    "Repair work demands considerable [[flexibility|flexibility]]. A chair may look solid until its covering is removed, so staff [[estimate|estimate]] costs only after examining its hidden structure. Customers initially used to [[criticize|criticize]] this cautious approach, wanting an immediate price and a fixed [[completion|completion]] date. Workshop manager Farah Malik calls the idea that every repair follows a standard timetable '[[nonsense|nonsense]]': two identical-looking chairs can require entirely different treatments.",
+    "Unexpectedly, these difficulties have attracted applicants rather than discouraged them. New workers rotate between wood, fabric and metal benches, learning to solve problems together. The workshop now receives more applications for repair positions than for jobs making new props. Objects once considered finished are providing the starting point for new careers."
+  ],
+  "zh": [
+    "在港口小镇贝尔威克的一家舞台道具工坊里，新入职员工花在修复旧物上的时间，比制作新品还多。五年前，大多数损坏的舞台设备都会被丢弃。如今，修复订单已占工坊业务的近一半，也让传统手工技艺有了更大的传承机会。",
+    "这一变化始于工坊与附近一所戏剧学院的合作。学院的教师需要价格实惠的物件用于实践教学，而工坊的架子上堆满了无人需要的材料。早期的一个项目涉及一条皮鞭，它来自一部已被放弃制作的剧目。工人们没有将其修复后重新投入使用，而是把它固定在展示柜里，用来展示过去的皮革工艺。这个项目的费用，仅为委托制作一件新教学展品所需费用的一小部分。",
+    "修复工作需要很强的应变能力。一把椅子在拆掉包覆材料之前，可能看起来十分结实，因此员工只有检查过内部结构之后，才会估算费用。起初，顾客常常批评这种谨慎的做法，希望立即得到报价和明确的完工日期。工坊经理法拉·马利克认为，每次修复都能遵循标准时间表的想法是“无稽之谈”：两把外观相同的椅子，可能需要截然不同的处理方式。",
+    "出人意料的是，这些困难不仅没有让求职者望而却步，反而吸引了他们。新员工轮流在木工、布艺和金属加工工作台之间学习，共同解决问题。如今，工坊收到的修复岗位申请，比制作新道具岗位的申请还多。那些曾被认为已经走到尽头的物件，正在成为新职业生涯的起点。"
+  ],
+  "q": [
+    {
+      "s": "The drama academy approached the workshop first about working together.",
+      "a": "NG",
+      "why": "文中未说明哪一方先提出合作。"
+    },
+    {
+      "s": "The workshop provides repair prices before checking the inside of an item.",
+      "a": "F",
+      "why": "员工检查内部结构后才估算费用。"
+    },
+    {
+      "s": "The workshop receives more applications for repair jobs than for jobs making new props.",
+      "a": "T",
+      "why": "末段明确指出修复岗位收到的申请更多。"
+    }
+  ]
+}

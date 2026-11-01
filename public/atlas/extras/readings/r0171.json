@@ -1,0 +1,46 @@
+{
+  "id": "r0171",
+  "ids": [
+    "curly",
+    "nervous",
+    "practice",
+    "roof",
+    "narrow",
+    "anymore",
+    "ill",
+    "stone",
+    "bristol",
+    "birth"
+  ],
+  "title": "A Blanket Made Together",
+  "titleZh": "大家一起缝的毯子",
+  "topic": "education",
+  "cefr": 1,
+  "paras": [
+    "In [[bristol|Bristol]], six neighbours started a free sewing group in an old [[stone|stone]] building behind a library. Their room was small, with a [[narrow|narrow]] door and one window just below the [[roof|roof]]. Every Tuesday, they met around a long table. Amira, a woman with [[curly|curly]] hair, taught them to make useful things from old clothes. Their first project was a baby blanket. One member, Tomas, wanted to finish it before the [[birth|birth]] of his granddaughter.",
+    "Tomas felt [[nervous|nervous]] because he had never used a needle before. During his first evening, his lines were not straight, and he hurt his finger once. Amira gave him some thick cloth for [[practice|practice]]. He worked slowly for ten minutes each day at home. Then Amira became [[ill|ill]] and missed two meetings. The group did not stop. They followed her paper instructions and helped each other with difficult parts.",
+    "After five weeks, the blanket was ready. It had yellow squares from a shirt and blue squares from a curtain. Tomas was not afraid of making mistakes [[anymore|anymore]]. He gave the blanket to his daughter, who put it beside the baby's bed. The group kept one small square on the wall as a reminder of what they could do together."
+  ],
+  "zh": [
+    "在布里斯托尔，六位邻居在图书馆后面的一座老石屋里办起了免费的缝纫小组。他们的房间很小，门很窄，紧挨着屋顶下方有一扇窗。每周二，他们都围坐在一张长桌旁。阿米拉留着卷发，她教大家用旧衣服制作实用的东西。他们的第一个项目是一条婴儿毯。成员托马斯想在外孙女出生之前把它做好。",
+    "托马斯感到紧张，因为他以前从没用过针。第一天晚上，他缝的线不直，还扎了一次手指。阿米拉给了他一些厚布练习。他每天在家慢慢练上十分钟。后来，阿米拉生病了，两次没能来参加活动。小组没有停下来。大家照着她写在纸上的说明做，遇到困难就互相帮助。",
+    "五周后，毯子做好了。上面有用衬衫剪成的黄色方块，也有用窗帘剪成的蓝色方块。托马斯不再害怕犯错了。他把毯子送给女儿，女儿把它放在宝宝的床边。小组在墙上留了一小块方布，提醒大家他们一起能做些什么。"
+  ],
+  "q": [
+    {
+      "s": "The neighbours had to pay to join the sewing group.",
+      "a": "F",
+      "why": "第一段明确说明缝纫小组免费。"
+    },
+    {
+      "s": "The group continued working while Amira was ill.",
+      "a": "T",
+      "why": "阿米拉生病缺席时，小组没有停止活动。"
+    },
+    {
+      "s": "Tomas's daughter later brought the baby to meet the sewing group.",
+      "a": "NG",
+      "why": "文中未提到女儿带宝宝来见小组成员。"
+    }
+  ]
+}

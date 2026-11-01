@@ -1,0 +1,46 @@
+{
+  "id": "r0082",
+  "ids": [
+    "glove",
+    "complete",
+    "kiss",
+    "space",
+    "pronounce",
+    "ability",
+    "recorder",
+    "along",
+    "madam",
+    "missed"
+  ],
+  "title": "The Island's Evening Song",
+  "titleZh": "小岛的暮色鸟鸣",
+  "topic": "travel",
+  "cefr": 1,
+  "paras": [
+    "12 May, Reed Island. I came here to record the birds that sing at sunset. At the small harbour, a mother [[kiss|kissed]] her little boy before he got into our boat with his father. I nearly [[missed|missed]] the boat because I was buying batteries. “This way, [[madam|madam]],” the boatman called. There was just enough [[space|space]] beside a box of bread for my bag.",
+    "On the island, I walked [[along|along]] a narrow path beside the water. My guide, Lina, showed me a brown bird with a white neck. Its name was hard to [[pronounce|pronounce]], so she said it slowly twice. I put my sound [[recorder|recorder]] on a flat stone. Then I took off one [[glove|glove]] to press the small red button. The cold air quickly made my fingers hurt.",
+    "For twenty minutes, we heard only water and wind. Then the bird began to sing. Its [[ability|ability]] to make different sounds amazed me. One call was like a little bell. Lina smiled but stayed quiet. Before dark, I [[complete|completed]] my notes and drew the bird's white neck. Back on the boat, I played the sound softly. For a moment, the quiet island seemed close again."
+  ],
+  "zh": [
+    "5月12日，芦苇岛。我来到这里，是为了录下日落时分鸟儿的歌声。在小港口，一位母亲亲了亲她的小男孩，然后孩子跟着父亲上了我们这条船。我因为买电池，差点没赶上船。“女士，这边走。”船夫喊道。一箱面包旁边刚好有地方放我的包。",
+    "到了岛上，我沿着水边的一条窄路走。向导莉娜指给我看一只脖子是白色的褐色鸟。它的名字很难读，所以她慢慢说了两遍。我把录音机放在一块平坦的石头上，然后脱下一只手套，按下那个小小的红色按钮。冷空气很快就让我的手指冻得发疼。",
+    "二十分钟里，我们只听见水声和风声。接着，那只鸟开始唱歌。它发出不同声音的本领让我惊叹。其中一声鸣叫像小铃铛。莉娜笑了笑，但没有出声。天黑前，我写完了观察笔记，还画下了鸟的白色脖子。回到船上，我轻轻播放了录下的声音。有那么一会儿，那座安静的小岛仿佛又近在身旁。"
+  ],
+  "q": [
+    {
+      "s": "The writer missed the boat while buying batteries.",
+      "a": "F",
+      "why": "作者只是差点没赶上，实际赶上了船。"
+    },
+    {
+      "s": "Lina learned the bird's name from her father.",
+      "a": "NG",
+      "why": "文章未说明莉娜向谁学会了鸟的名字。"
+    },
+    {
+      "s": "The writer finished the notes before dark.",
+      "a": "T",
+      "why": "作者明确说天黑前写完了笔记。"
+    }
+  ]
+}

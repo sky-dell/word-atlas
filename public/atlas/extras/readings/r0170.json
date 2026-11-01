@@ -1,0 +1,46 @@
+{
+  "id": "r0170",
+  "ids": [
+    "race",
+    "although",
+    "avoid",
+    "entrance",
+    "shy",
+    "lemon",
+    "laptop",
+    "forever",
+    "dentist",
+    "lock"
+  ],
+  "title": "A Little Boat Returns",
+  "titleZh": "小船归来",
+  "topic": "daily",
+  "cefr": 1,
+  "paras": [
+    "Mina Costa makes wooden toy boats in a small shop beside a lake. Each morning, she puts a blue boat outside the [[entrance|entrance]] and makes tea with [[lemon|lemon]]. She is [[shy|shy]], but talking about boats helps her feel comfortable with customers. One Tuesday, a [[dentist|dentist]] named Ravi brings her an old red boat. He played with it as a child. Now he wants his daughter to sail it in Sunday's toy boat [[race|race]].",
+    "The boat has a hole near the front. Mina takes a photo and opens it on her [[laptop|laptop]] to see the damage more clearly. She cuts a small piece of wood to cover the hole. To [[avoid|avoid]] more damage, she works slowly with a little knife. [[although|Although]] Ravi asks for bright new paint, Mina suggests keeping the old red colour. He agrees. Before leaving that evening, she remembers to [[lock|lock]] the shop door.",
+    "On Sunday, the boat crosses the lake without taking in any water. It finishes third, and Ravi's daughter carries it back with a wide smile. 'Will it last [[forever|forever]] now?' she asks. Mina shakes her head. 'No, but dry it after each trip, and you can enjoy it for many more years.'"
+  ],
+  "zh": [
+    "米娜·科斯塔在湖边的一家小店里制作木制玩具船。每天早上，她都会在入口外放一只蓝色小船，再泡一杯柠檬茶。她很害羞，但聊起船时，她和顾客相处就自在多了。一个星期二，一位名叫拉维的牙医带来一只旧的红色小船。他小时候玩过这只船。现在，他想让女儿用它参加星期日的玩具船比赛。",
+    "船头附近有一个洞。米娜拍了一张照片，在笔记本电脑上打开，以便更清楚地查看破损的地方。她切下一小块木头来补洞。为了避免造成更多损坏，她用一把小刀慢慢地操作。虽然拉维想给船重新刷上鲜艳的油漆，米娜却建议保留原来的红色。他同意了。那天晚上离开前，她没忘记锁上店门。",
+    "星期日，小船驶过湖面，一点水也没进。它获得了第三名，拉维的女儿满脸笑容地把它抱了回来。“现在它能一直用下去了吗？”她问。米娜摇摇头。“不能，不过每次玩完后把它擦干，你就还能玩上好多年。”"
+  ],
+  "q": [
+    {
+      "s": "Ravi played with the red boat when he was a child.",
+      "a": "T",
+      "why": "第一段说拉维小时候玩过这只船。"
+    },
+    {
+      "s": "Mina repairs the boat with a tool her father gave her.",
+      "a": "NG",
+      "why": "文章提到小刀，但未说明是谁送的。"
+    },
+    {
+      "s": "The repaired boat wins first place in Sunday's competition.",
+      "a": "F",
+      "why": "最后一段明确说小船获得第三名。"
+    }
+  ]
+}

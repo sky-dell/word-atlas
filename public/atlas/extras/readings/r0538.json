@@ -1,0 +1,48 @@
+{
+  "id": "r0538",
+  "ids": [
+    "blend",
+    "shortage",
+    "wasp",
+    "stroke",
+    "bow",
+    "unwelcome",
+    "oyster",
+    "facility",
+    "pedestrian",
+    "compromise"
+  ],
+  "title": "Making a Coastal Trail Map",
+  "titleZh": "海岸步道地图的制作",
+  "topic": "travel",
+  "cefr": 3,
+  "paras": [
+    "At a coastal heritage park, a raised map helps visitors explore the landscape through touch as well as sight. Its production begins with a walk: designer Mina records distances, slopes and places where a [[pedestrian|pedestrian]] can rest. A [[shortage|shortage]] of reliable measurements means she must survey several paths herself rather than copy older maps.",
+    "Next, she selects landmarks that tell the coast's story. An [[oyster|oyster]] shell represents the former shellfish beds, while a [[bow|bow]] marks a display about traditional hunting. These symbols are simplified into shapes that fingers can recognise. Temporary problems, such as a [[wasp|wasp]] nest beside a bench, go on a separate notice; including them in the permanent design would create [[unwelcome|unwelcome]] confusion after they disappear.",
+    "At a small printing [[facility|facility]], technicians [[blend|blend]] coloured powders into a durable plastic mixture. A machine builds the map in thin layers, leaving paths raised above the background. Mina then invites visitors to test a sample. One tester, whose hand movement remains limited after a [[stroke|stroke]], finds the narrow raised paths difficult to follow. The team widens them and rounds the edges.",
+    "Finally, a [[compromise|compromise]] is reached between the designer, who wants more historical detail, and the park guides, who prefer a simpler layout: the main map shows only essential routes, with stories on nearby panels. Once fixed to a low, sloping stand at the entrance, the finished map gives visitors something valuable before their journey begins—a clear sense of where they can go."
+  ],
+  "zh": [
+    "在一座海岸遗产公园里，一幅凸起的地图让游客既能用眼睛看，也能通过触摸了解这里的地形。制作从实地步行开始：设计师米娜记录距离、坡度以及行人可以休息的地点。由于缺少可靠的测量数据，她必须亲自勘测几条小路，而不能照搬旧地图。",
+    "接下来，她挑选能够讲述海岸历史的地标。牡蛎壳代表过去的贝类栖息区，弓则标示介绍传统狩猎的展区。这些符号被简化成手指能够辨认的形状。长椅旁出现胡蜂巢之类的临时问题会写在单独的告示上；如果把它们放进永久地图，等这些问题消失后，反而会造成不必要的困惑。",
+    "在一家小型打印工坊里，技术人员将彩色粉末混入耐用的塑料混合物中。机器逐层制作地图，使路径高于背景表面。随后，米娜邀请游客试用样品。其中一位体验者中风后手部活动仍然受限，觉得狭窄的凸起路径很难沿着摸清。团队于是加宽这些路径，并将边缘处理得更加圆滑。",
+    "最后，希望增加历史细节的设计师与倾向简洁布局的公园导览员达成折中方案：主地图只显示必要的路线，相关故事则放在旁边的展板上。完成的地图被固定在入口处一个低矮、倾斜的支架上，让游客在出发前就获得一样宝贵的东西——清楚知道自己可以去哪里。"
+  ],
+  "q": [
+    {
+      "s": "Short-term hazards are built into the permanent map.",
+      "a": "F",
+      "why": "第二段说临时问题写在单独的告示上。"
+    },
+    {
+      "s": "The tester who had a stroke had tested other raised maps before.",
+      "a": "NG",
+      "why": "文章未说明这位体验者此前是否测试过地图。"
+    },
+    {
+      "s": "The final design places historical stories on panels beside the main map.",
+      "a": "T",
+      "why": "最终方案将相关故事放在主地图旁的展板上。"
+    }
+  ]
+}

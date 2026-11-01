@@ -1,0 +1,48 @@
+{
+  "id": "r0503",
+  "ids": [
+    "industrial",
+    "procedure",
+    "cope",
+    "recommendation",
+    "cleverness",
+    "gear",
+    "continuous",
+    "tangle",
+    "trace",
+    "locate"
+  ],
+  "title": "Making a River Litter Barrier",
+  "titleZh": "河道垃圾拦截栏的制作",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "At a municipal workshop beside the river, discarded fishing ropes become floating barriers that catch litter before it reaches the harbour. Unlike products made on large [[industrial|industrial]] production lines, each barrier is built to fit a particular stretch of water. The council's small team begins with ropes collected from registered fishing boats.",
+    "The first stage follows a strict [[procedure|procedure]]. Workers check collection records to [[trace|trace]] each rope's origin, then spread it across a long bench. Wearing protective [[gear|gear]], they separate any [[tangle|tangle]] of fibres and examine the material under bright lamps. This allows them to [[locate|locate]] weak sections, which are cut away. Only sound lengths enter the washing tank.",
+    "After drying, the ropes are woven into a broad net. Following an engineer's [[recommendation|recommendation]], the team leaves openings large enough for water to pass through but small enough to retain most bottles. Some [[cleverness|cleverness]] is needed here: a wooden board fitted with evenly spaced pegs keeps the openings uniform without expensive machinery. Sealed floats are then attached along the upper edge, forming a [[continuous|continuous]] line of support.",
+    "Finally, the finished barrier is tested in a shallow channel behind the workshop. Workers increase the flow to check whether its joints can [[cope|cope]] with stronger currents. Once approved, it is secured between two riverside posts. A basket at one end collects the trapped rubbish, ready for removal by the council's river maintenance crew."
+  ],
+  "zh": [
+    "在河边的一间市政工坊里，废弃渔绳被制成漂浮式拦截栏，在垃圾进入港口前将其拦住。与大型工业生产线制造的产品不同，每道拦截栏都是根据特定河段的情况制作的。市政部门的小团队以从登记在册的渔船上收集来的绳索为原料开始制作。",
+    "第一阶段遵循一套严格的操作程序。工人核对收集记录，追溯每条绳索的来源，然后将其铺在长工作台上。他们穿戴防护装备，解开缠成一团的纤维，并在明亮的灯光下检查材料。这样便能找出绳索的薄弱部位，并将其剪掉。只有完好的绳段才会放入清洗槽。",
+    "晾干后，绳索被编织成一张宽大的网。根据一位工程师的建议，团队预留的网孔既要足够大，让水通过，又要足够小，能拦住大多数瓶子。这一步需要一些巧思：在木板上安装间距均匀的木钉，就能保持网孔大小一致，无须使用昂贵的机器。随后，工人沿着网的上缘安装密封浮体，形成一道连续的支撑。",
+    "最后，制成的拦截栏会在工坊后方的一条浅水渠中接受测试。工人加大水流，检查连接处能否承受更强的水流冲击。通过检验后，拦截栏便被固定在河边的两根桩柱之间。一端的收集篮用来汇集拦下的垃圾，等待市政河道养护人员清走。"
+  ],
+  "q": [
+    {
+      "s": "The fishing boats provide their old ropes free of charge.",
+      "a": "NG",
+      "why": "文中说明绳索来源，但未说明是否收费。"
+    },
+    {
+      "s": "Workers remove weak sections before washing the ropes.",
+      "a": "T",
+      "why": "第二段说明剪去薄弱部位后才清洗。"
+    },
+    {
+      "s": "The net openings are designed to let most bottles pass through.",
+      "a": "F",
+      "why": "第三段说明网孔要能拦住大多数瓶子。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0551",
+  "ids": [
+    "reclaim",
+    "pertinent",
+    "snout",
+    "gullible",
+    "scalpel",
+    "sermon",
+    "whereby",
+    "curb",
+    "infinity",
+    "infer"
+  ],
+  "title": "Making a Pamphlet Speak Again",
+  "titleZh": "让旧册子重新开口",
+  "topic": "education",
+  "cefr": 4,
+  "paras": [
+    "At a museum workshop, an educational facsimile begins with a borrowed seventeenth-century pamphlet. Its owner will [[reclaim|reclaim]] it after photography, so the makers must record every feature without loosening the binding. The booklet contains a [[sermon|sermon]] delivered at a harvest service, accompanied by a woodcut of a pig whose elongated [[snout|snout]] points towards a buried chest.",
+    "Before reproduction, a historian selects [[pertinent|pertinent]] details for an accompanying commentary. The preacher condemned travelling sellers who persuaded [[gullible|gullible]] villagers that certain animals could locate treasure. Rather than accepting this account uncritically, readers are invited to [[infer|infer]] the preacher’s attitude from his vocabulary. A border of stars, described in the text as extending into [[infinity|infinity]], supplies a religious contrast to earthly wealth.",
+    "The physical copy is then assembled through a process [[whereby|whereby]] photographic images are transferred onto lightly textured paper. A designer preserves uneven lettering but removes shadows cast by the original binding. Using a [[scalpel|scalpel]], a technician trims the printed sheets against a steel ruler; the sheets are subsequently folded and sewn through three holes. No artificial stains are added, since these might be mistaken for historical evidence.",
+    "Finally, the team adds a clearly dated production note to [[curb|curb]] confusion between replica and original. During trial sessions, participants handle the copy before examining enlarged photographs of the source. They discover that a dark patch resembling spilled ink is actually a printing defect repeated across several pages."
+  ],
+  "zh": [
+    "在一家博物馆的工作室里，制作教学用仿真复制本，首先要借来一本十七世纪的小册子。物主将在拍摄完成后将其取回，因此，制作者必须在不松动装订的情况下记录每一处特征。册子收录了一篇在丰收礼拜中宣讲的布道词，并配有一幅木刻插图：一头猪细长的口鼻部指向一只埋在地下的箱子。",
+    "复制之前，一位历史学者会挑选相关细节，撰写配套解说。布道者谴责那些四处兜售商品的小贩，称他们诱使轻信的村民相信，某些动物能够找到宝藏。解说并不要求读者毫无保留地接受这番说法，而是引导他们根据用词推断布道者的态度。页面边框上的星辰，被文中描述为向无穷延伸，从宗教层面与尘世财富形成对照。",
+    "随后，制作者将拍摄的图像转印到略带纹理的纸张上，开始制作实体复制本。设计师保留了参差不齐的字形，却去除了原件装订处投下的阴影。技术人员用手术刀沿钢尺裁齐印好的纸张，再将纸张折叠，通过三个孔穿线装订。他们不会人为添加污渍，以免这些痕迹被误认为历史证据。",
+    "最后，团队加上一则标明制作日期的说明，以减少复制本与原件混淆的可能。在试用活动中，参与者先拿起复制本翻阅，再查看原件的放大照片。他们发现，一块看似泼洒墨水留下的黑斑，其实是在数页上重复出现的印刷缺陷。"
+  ],
+  "q": [
+    {
+      "s": "The pamphlet's owner charged the museum a fee for borrowing it.",
+      "a": "NG",
+      "why": "文章只说明借用，未提是否收费。"
+    },
+    {
+      "s": "The designer retains the original's uneven lettering in the copy.",
+      "a": "T",
+      "why": "第三段明确说明保留参差不齐的字形。"
+    },
+    {
+      "s": "Trial participants examine the enlarged photographs before handling the copy.",
+      "a": "F",
+      "why": "参与者先接触复制本，再看放大照片。"
+    }
+  ]
+}

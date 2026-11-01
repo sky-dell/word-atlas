@@ -1,0 +1,48 @@
+{
+  "id": "r0263",
+  "ids": [
+    "kayak",
+    "outfit",
+    "closet",
+    "heading",
+    "basis",
+    "biologist",
+    "employ",
+    "cage",
+    "mood",
+    "sight"
+  ],
+  "title": "Making a River Wildlife Guide",
+  "titleZh": "制作河流野生动物指南",
+  "topic": "environment",
+  "cefr": 2,
+  "paras": [
+    "A small river charity makes a wildlife guide for visitors each spring. Its workers [[employ|employ]] Leila, a [[biologist|biologist]], to check the information. Before collecting pictures, she takes her outdoor [[outfit|outfit]] from a [[closet|closet]]: a green jacket, waterproof trousers and a hat. Then she packs a camera in a dry bag.",
+    "Leila travels along the river in a [[kayak|kayak]], moving quietly with a double-ended paddle. She photographs birds from a distance so that they continue feeding. Her notes about their food, colours and movements form the [[basis|basis]] of the guide. She also records where each picture was taken, helping readers know which animals they might find nearby.",
+    "Next, Leila visits a rescue centre to photograph an injured owl inside a large [[cage|cage]]. This allows her to show its eyes clearly without approaching a wild owl. Under the [[heading|heading]] “Hunters After Dark”, she explains how an owl's excellent [[sight|sight]] helps it find food in low light. A keeper checks this page before it is printed.",
+    "Finally, the team arranges the pages and prints a small book on recycled paper. Choosing the cover puts everyone in a cheerful [[mood|mood]]: they pick a photograph of young ducks following their mother. The finished guide fits into a coat pocket, ready to turn a quiet riverside walk into a journey of discovery."
+  ],
+  "zh": [
+    "一家小型河流保护慈善机构每年春天都会为游客制作一本野生动物指南。机构的工作人员雇用生物学家莱拉核查其中的信息。在收集照片之前，她从储藏间取出一套户外服装：绿色夹克、防水长裤和帽子。然后，她把相机装进防水袋。",
+    "莱拉乘皮艇沿河前行，用双头桨轻轻划水。她从远处拍摄鸟类，让它们能够继续进食。她记录下鸟类的食物、颜色和动作，这些笔记构成了指南的基础。她还记下每张照片的拍摄地点，帮助读者了解附近可能有哪些动物。",
+    "接着，莱拉前往一家救助中心，拍摄大笼子里一只受伤的猫头鹰。这样，她不用靠近野生猫头鹰，也能清楚地拍出它的眼睛。在“夜间猎手”这个小标题下，她解释了猫头鹰出色的视力如何帮助它在昏暗的光线下寻找食物。印刷之前，一名饲养员会检查这一页。",
+    "最后，团队编排好页面，用再生纸印成一本小册子。挑选封面时，大家心情愉快：他们选中了一张小鸭子跟着妈妈的照片。完成的指南可以放进外套口袋，随时能让一次安静的河边散步变成一场探索之旅。"
+  ],
+  "q": [
+    {
+      "s": "Leila has worked for the river charity before.",
+      "a": "NG",
+      "why": "文章未说明她此前是否为该机构工作。"
+    },
+    {
+      "s": "Leila photographs the river birds from a distance so they can continue feeding.",
+      "a": "T",
+      "why": "她从远处拍摄，让鸟类继续进食。"
+    },
+    {
+      "s": "The team chooses a photograph of the injured owl for the cover.",
+      "a": "F",
+      "why": "封面选用的是小鸭子跟着妈妈的照片。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0081",
+  "ids": [
+    "burn",
+    "knock",
+    "ski",
+    "sneaker",
+    "bell",
+    "design",
+    "bright",
+    "boss",
+    "violin",
+    "rude"
+  ],
+  "title": "A Mountain Door Bell",
+  "titleZh": "山间小屋的门铃",
+  "topic": "daily",
+  "cefr": 1,
+  "paras": [
+    "In a mountain village, Amira makes wooden door signs with a small metal [[bell|bell]] below each one. People often [[ski|ski]] past her workshop in winter. Inside, pieces of waste wood [[burn|burn]] in a stove. Her [[boss|boss]], Tomas, asks her to [[design|design]] a sign for a holiday house. The family wants visitors to ring rather than [[knock|knock]], because the thick door is hard to hear through.",
+    "First, Amira draws a mountain shape on a smooth board. She cuts along the lines and rubs the edges with rough paper until they feel smooth. A little wood dust falls onto her left [[sneaker|sneaker]]. Next, she paints the mountain white against a [[bright|bright]] blue sky. She leaves a space at the bottom for the family name, which she adds with a thin brush.",
+    "While the paint dries, Tomas plays his [[violin|violin]] in the next room. Amira waits until the music stops before calling him; she thinks shouting over his music would be [[rude|rude]]. Together, they add two metal hooks and hang the bell below the sign. Finally, Amira pulls its string. A clear note fills the workshop. The sign is ready to welcome the family's first guests."
+  ],
+  "zh": [
+    "在一个山村里，阿米拉制作木制门牌，每块门牌下都挂着一个小金属铃。冬天，人们常常滑雪经过她的作坊。屋里，废木料在炉子中燃烧。她的老板托马斯请她为一栋度假小屋设计门牌。这家人希望来客摇铃而不是敲门，因为门太厚，敲门声不容易传进屋里。",
+    "首先，阿米拉在一块光滑的木板上画出山的形状。她沿线切割，再用粗砂纸打磨边缘，直到摸起来光滑。少量木屑落在她左脚的运动鞋上。接着，她画上鲜艳的蓝天和白色的山。她在底部留出一块地方，用细画笔写上这家人的姓氏。",
+    "油漆晾干的时候，托马斯在隔壁房间拉小提琴。阿米拉等音乐停了才叫他；她觉得在他演奏时大声喊叫是不礼貌的。两人一起装上两个金属钩，把小铃挂在门牌下面。最后，阿米拉拉动铃绳，清脆的铃声响彻作坊。门牌做好了，可以迎接这家人的第一批客人了。"
+  ],
+  "q": [
+    {
+      "s": "The family wants visitors to knock rather than ring the bell.",
+      "a": "F",
+      "why": "家人希望客人摇铃，而不是敲门。"
+    },
+    {
+      "s": "Amira paints the sky and mountain before adding the family name.",
+      "a": "T",
+      "why": "她先画天空和山，再写这家人的姓氏。"
+    },
+    {
+      "s": "Tomas learned to play music from his father.",
+      "a": "NG",
+      "why": "文章未提到托马斯向谁学习演奏。"
+    }
+  ]
+}

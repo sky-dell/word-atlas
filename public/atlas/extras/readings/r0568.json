@@ -1,0 +1,48 @@
+{
+  "id": "r0568",
+  "ids": [
+    "cock",
+    "repertoire",
+    "deflection",
+    "blunder",
+    "devaluation",
+    "oscillate",
+    "integral",
+    "contemplate",
+    "baffle",
+    "longing"
+  ],
+  "title": "The Village That Sound Built",
+  "titleZh": "声音构筑的村庄",
+  "topic": "media",
+  "cefr": 4,
+  "paras": [
+    "When an official [[devaluation|devaluation]] made imported recordings prohibitively expensive, a small radio theatre began manufacturing its own rural soundscapes. Its [[repertoire|repertoire]] included six plays set in farming villages, although its studio overlooked a harbour. Producer Amara Sen used this constraint to investigate whether recognisable sounds, rather than geographical accuracy, were [[integral|integral]] to listeners’ sense of place.",
+    "For one scene, a technician imitated a [[cock|cock]] crowing through a cardboard cone, while another made a suspended metal sheet [[oscillate|oscillate]] to suggest distant thunder. An angled wooden panel produced a [[deflection|deflection]] of the crowing sound towards a bare wall, adding an echo. Initially considered a technical [[blunder|blunder]], this exaggerated resonance became the experiment’s central variable.",
+    "Sixty adult volunteers heard either the echoing version or an otherwise identical recording without that reflection. Neither group was told how the effects had been produced. After listening, participants were asked to [[contemplate|contemplate]] the imagined setting before describing it. The results seemed to [[baffle|baffle]] the technicians: forty per cent of those hearing the dry recording described a village, compared with eighty per cent hearing the echo.",
+    "Yet the echo was acoustically implausible for an open farmyard. In subsequent interviews, several listeners associated it with enclosed courtyards remembered from childhood; their accounts conveyed a pronounced [[longing|longing]] for vanished domestic routines. The experiment did not establish that echoes universally signify rural life. Instead, it suggested that radio realism can emerge from an encounter between imperfect studio inventions and the places an audience already carries within."
+  ],
+  "zh": [
+    "一次官方货币贬值使进口录音变得昂贵得难以承受，于是一家小型广播剧团开始自行制作乡村音景。剧团的演出剧目包括六部以农业村落为背景的戏剧，尽管其录音室窗外就是港口。制作人阿玛拉·森利用这一限制展开研究：对于听众形成地方感而言，不可或缺的究竟是容易辨认的声音，还是地理环境的准确还原。",
+    "为制作其中一个场景，一名技术人员对着纸板锥筒模仿公鸡打鸣，另一人则让一块悬挂的金属薄板来回摆动，模拟远处的雷声。一块斜置的木板使鸡鸣声转向一面光秃的墙壁，由此增添了回声。这种夸张的混响起初被认为是一次严重的技术失误，后来却成了实验的核心变量。",
+    "六十名成年志愿者分别听到了带回声的版本，或除此之外完全相同、但没有该反射声的录音。两组都未被告知这些音效是如何制作的。听完之后，参与者被要求先认真思考想象中的场景，再加以描述。结果似乎令技术人员难以理解：听到无回声录音的人中，有百分之四十描述了一个村庄，而听到回声版本的人中，这一比例达到了百分之八十。",
+    "然而，对于露天农家院落而言，这种回声在声学上并不合理。在后续访谈中，几位听众将其与童年记忆中四面围合的院落联系起来；他们的叙述流露出对已逝家庭日常生活的深切怀念。这项实验并未证明回声普遍意味着乡村生活。相反，它表明，广播中的真实感可能源于不完美的录音室创造与听众心中早已留存的地方记忆之间的相遇。"
+  ],
+  "q": [
+    {
+      "s": "All six plays in the theatre’s repertoire were set in a harbour.",
+      "a": "F",
+      "why": "首段明确说这六部剧以农业村落为背景。"
+    },
+    {
+      "s": "The sixty volunteers were recruited through a radio announcement.",
+      "a": "NG",
+      "why": "文中说明志愿者人数，但未说明招募方式。"
+    },
+    {
+      "s": "The proportion describing a village was higher among listeners who heard the echoing version.",
+      "a": "T",
+      "why": "回声组为百分之八十，无回声组为百分之四十。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0302",
+  "ids": [
+    "crown",
+    "crime",
+    "escape",
+    "intermediate",
+    "raw",
+    "fur",
+    "permit",
+    "subtract",
+    "suitable",
+    "jungle"
+  ],
+  "title": "The Sound Behind the Story",
+  "titleZh": "故事背后的声音",
+  "topic": "media",
+  "cefr": 2,
+  "paras": [
+    "Imani Bello makes sounds for radio stories in a small studio above a bakery. Her latest job is a six-part series about [[crime|crime]] in an imaginary kingdom. In the opening scene, a thief steals the queen's [[crown|crown]] and tries to [[escape|escape]] through a [[jungle|jungle]]. Imani must make listeners believe they are following him.",
+    "She begins with footsteps. Breaking [[raw|raw]] carrots produces the sound of dry branches under boots. However, shaking a house plant does not create a [[suitable|suitable]] forest sound: its leaves are too soft. The owners of a nearby indoor garden [[permit|permit]] her to record there before opening time. Among its large plants, she records leaves brushing against her coat.",
+    "Back in the studio, her cat interrupts a recording. A tiny bell on its collar sounds strangely quiet because it is buried in thick [[fur|fur]]. This gives Imani an idea: she wraps a spoon in cloth to create the soft knock of the stolen treasure inside a bag. She then edits the recording. If she needs twelve seconds from a twenty-second clip, she must [[subtract|subtract]] eight seconds.",
+    "On Saturdays, Imani teaches an [[intermediate|intermediate]] course for people who already know basic recording skills. She plays the finished scene before showing her tools. Her learners expect expensive equipment. Instead, she opens a shopping bag and places three carrots on the table."
+  ],
+  "zh": [
+    "伊玛妮·贝洛在一家面包店楼上的小工作室里，为广播故事制作音效。她最近接到的工作，是为一部讲述虚构王国中犯罪活动的六集系列故事配音效。开场时，一个小偷偷走了女王的王冠，试图穿过热带丛林逃走。伊玛妮必须让听众觉得自己正跟在他身后。",
+    "她先制作脚步声。折断生胡萝卜，能发出靴子踩断枯枝的声音。然而，摇动一盆室内植物却无法营造合适的森林音效，因为它的叶子太软了。附近一家室内花园的主人允许她在开门营业前进去录音。在那些高大的植物之间，她录下了树叶擦过自己外套的声音。",
+    "回到工作室后，她的猫打断了一次录音。猫项圈上的小铃铛声音格外轻，因为它埋在了浓密的毛里。这给了伊玛妮一个灵感：她用布裹住一把勺子，模拟被盗宝物在袋中轻轻碰撞的声音。随后，她开始剪辑录音。如果要从一段二十秒的录音中留下十二秒，她就得减去八秒。",
+    "每逢星期六，伊玛妮会给已经掌握基础录音技巧的人教授中级课程。她先播放制作完成的场景，再展示工具。学员们以为会看到昂贵的设备。没想到，她打开一个购物袋，把三根胡萝卜放在了桌上。"
+  ],
+  "q": [
+    {
+      "s": "Imani uses uncooked vegetables to imitate branches breaking beneath someone's feet.",
+      "a": "T",
+      "why": "她折断生胡萝卜来模拟靴子踩断枯枝。"
+    },
+    {
+      "s": "Imani records the sound of her cat's bell three times.",
+      "a": "NG",
+      "why": "文中未说明她录制猫铃声的次数。"
+    },
+    {
+      "s": "Imani's Saturday course is for people with no basic recording skills.",
+      "a": "F",
+      "why": "课程面向已经掌握基础录音技巧的人。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0179",
+  "ids": [
+    "solve",
+    "spoon",
+    "disagree",
+    "zipcode",
+    "author",
+    "soap",
+    "pea",
+    "colourful",
+    "according-to",
+    "throw"
+  ],
+  "title": "From Hand Washing to Machines",
+  "titleZh": "从手洗到机器洗碗",
+  "topic": "technology",
+  "cefr": 1,
+  "paras": [
+    "For a long time, people washed every plate and [[spoon|spoon]] by hand. They used hot water and [[soap|soap]], and the work took time. Plates could also break during washing. In the United States, Josephine Cochrane wanted to [[solve|solve]] this problem. She designed a machine that held dishes safely while water washed them. In 1886, she received official protection for her design. Her machine was large, and its first buyers included hotels and restaurants.",
+    "Over the next hundred years, dishwashers became smaller and easier to use. More families bought them, especially after the middle of the twentieth century. Shops showed machines beside [[colourful|colourful]] kitchen cupboards. Today, if a basket inside a machine breaks, an owner can order a replacement online. An American customer enters an address and [[zipcode|ZIP code]] so the shop knows where to send it. The owner can put the new basket in without taking the machine to a repair shop.",
+    "Learning to use a dishwasher was another part of its history. The [[author|author]] of a home care book might explain where to put cups. Families could [[disagree|disagree]] about the best way to fill the machine. Should they remove every [[pea|pea]] first? [[according-to|According to]] modern instructions, users should [[throw|throw]] large food scraps into a bin. The machine saves work, but people still have a small job to do."
+  ],
+  "zh": [
+    "很长一段时间里，人们用手清洗每一个盘子和每一把勺子。他们使用热水和肥皂，这项工作很费时间。清洗时，盘子还可能被打碎。在美国，约瑟芬·科克伦想解决这个问题。她设计了一台机器，能稳稳地放好餐具，再用水冲洗。1886年，她的设计获得了官方保护。她的机器体积很大，最早的买家中有酒店和餐馆。",
+    "在接下来的一百年里，洗碗机变得更小，也更容易使用。越来越多的家庭购买洗碗机，尤其是在二十世纪中叶以后。商店把机器摆在色彩鲜艳的厨房橱柜旁边。如今，如果机器里的餐具篮坏了，使用者可以在网上订购一个新的。美国顾客输入地址和邮政编码，商店就知道该把它寄到哪里。使用者可以自行放入新餐具篮，不必把机器送到维修店。",
+    "学习使用洗碗机，也是它的发展历史的一部分。一本家务指南的作者可能会说明杯子应该放在哪里。家人之间可能对怎样装入餐具最合适意见不一。他们应该先清掉每一粒豌豆吗？根据现代的使用说明，使用者应该把大块食物残渣扔进垃圾桶。机器节省了劳动，但人们仍有一点小事要做。"
+  ],
+  "q": [
+    {
+      "s": "Cochrane worked on her design for five years.",
+      "a": "NG",
+      "why": "文章未说明她设计机器用了多少年。"
+    },
+    {
+      "s": "Dishwashers became smaller over the next hundred years.",
+      "a": "T",
+      "why": "第二段明确说洗碗机变得更小。"
+    },
+    {
+      "s": "Modern instructions say users should leave large food scraps on plates.",
+      "a": "F",
+      "why": "说明要求把大块食物残渣扔进垃圾桶。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0544",
+  "ids": [
+    "cohesive",
+    "hull",
+    "prospectus",
+    "sonnet",
+    "coeducation",
+    "consul",
+    "manipulation",
+    "concurrent",
+    "flatter",
+    "meddle"
+  ],
+  "title": "A Harbour School's Hidden History",
+  "titleZh": "港口学校的隐秘往事",
+  "topic": "society",
+  "cefr": 4,
+  "paras": [
+    "Beyond the fish stalls of Bellara, a fictional Adriatic port, a former sailmaker’s warehouse houses an unusually intimate museum. Its centrepiece is the [[hull|hull]] of a fishing boat, converted into a reading bench. Here, guide Mira invites visitors to examine how a nineteenth-century harbour school briefly made a divided neighbourhood more [[cohesive|cohesive]], without erasing its differences of language or income.",
+    "The school’s surviving [[prospectus|prospectus]], displayed beneath glass, promised navigation, bookkeeping and poetry to the children of dockworkers and merchants alike. More controversially, it advocated [[coeducation|coeducation]]: boys and girls would share both lessons and equipment. Running two [[concurrent|concurrent]] evening classes increased the number of places available, while a handwritten [[sonnet|sonnet]] beside the timetable reveals that maritime training did not exclude imaginative ambition.",
+    "Yet the letters upstairs complicate this generous vision. A foreign [[consul|consul]], whose duties included assisting visiting sailors, offered money but demanded preferential admission for his acquaintances’ children. The headteacher refused to [[flatter|flatter]] him in public speeches. She also warned wealthy subscribers not to [[meddle|meddle]] in admissions, describing their private pressure as [[manipulation|manipulation]] disguised as charity. Funding subsequently dwindled, although the correspondence establishes no single cause.",
+    "The school closed after eleven years. Before visitors leave, Mira directs them to copies of its final accounts on a table beside the stairs. Several pages are missing, and the surviving entries record payments without explaining why donations declined. Visitors can compare the accounts with the letters, but neither source settles the question of what ultimately forced the school to close."
+  ],
+  "zh": [
+    "在虚构的亚得里亚海港口贝拉拉，穿过鱼摊，便能看到一座设在从前制帆匠的仓库里的小博物馆，馆内有一种少见的亲切感。展厅中央是一艘渔船的船体，如今已改造成阅读长椅。在这里，讲解员米拉邀请游客探究：十九世纪的一所港口学校，如何在保留语言和收入差异的同时，曾短暂地让一个分裂的街区变得更加团结。",
+    "学校留存下来的招生简章陈列在玻璃罩下，承诺向码头工人和商人的子女一视同仁地教授航海、簿记和诗歌。更具争议的是，它提倡男女同校：男孩和女孩共同上课，共用设备。同时开设两个夜间教学班增加了可提供的学位，而课表旁的一首手写十四行诗表明，航海职业训练并未排斥富于想象力的文学追求。",
+    "然而，楼上的书信让这幅慷慨办学的图景变得复杂起来。一位职责包括协助到访水手的外国领事提出捐款，却要求优先录取其熟人的孩子。女校长拒绝在公开演讲中奉承他，也告诫富有的捐助者不要干涉招生，称他们私下施压是披着慈善外衣的操纵。此后，学校经费逐渐减少，但这些书信并不能证明某一个单独的原因。",
+    "学校在办学十一年后关闭。游客离开前，米拉指引他们查看楼梯旁桌上学校最后一段时期的账目副本。其中有几页已经遗失，留存的条目记录了款项支付，却未解释捐款为何减少。游客可以把账目与书信对照，但这两类史料都无法确定究竟是什么迫使学校最终关闭。"
+  ],
+  "q": [
+    {
+      "s": "The prospectus proposed separate lessons for boys and girls.",
+      "a": "F",
+      "why": "简章提倡男女同校，男孩女孩共同上课。"
+    },
+    {
+      "s": "The consul offered enough money to cover a year of school expenses.",
+      "a": "NG",
+      "why": "文章未说明领事拟捐金额及学校年度开支。"
+    },
+    {
+      "s": "The school operated for eleven years before closing.",
+      "a": "T",
+      "why": "末段明确说明学校在办学十一年后关闭。"
+    }
+  ]
+}

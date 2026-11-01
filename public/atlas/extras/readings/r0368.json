@@ -1,0 +1,48 @@
+{
+  "id": "r0368",
+  "ids": [
+    "sneak",
+    "throne",
+    "downside",
+    "escort",
+    "transmit",
+    "identification",
+    "motion",
+    "madness",
+    "unaware",
+    "peer"
+  ],
+  "title": "The Empty Room Alarm",
+  "titleZh": "空展厅里的警报",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "For three nights, an alarm sounded beside a royal [[throne|throne]] in a small palace museum, although the room appeared empty. Conservator Leila suspected a faulty sensor, but her [[peer|peer]], Tomas, argued that replacing equipment without investigating would be [[madness|madness]]. The chair's delicate gold surface made repeated visits by repair teams risky.",
+    "The security system could [[transmit|transmit]] an image whenever it detected [[motion|motion]]. Its [[downside|downside]] was that photographs taken in darkness showed little detail. Leila initially blamed a cleaner, who was [[unaware|unaware]] of the alarms until she questioned him. However, his work record showed that he had left before each incident. Rather than choose another suspect, she drew a timeline of activities in the building.",
+    "Each alarm followed the evening heating cycle. Leila asked a guard to [[escort|escort]] her through the locked galleries after closing. To check whether movement outside the room triggered the alarm, she tried to [[sneak|sneak]] past the doorway while Tomas watched the monitor. Nothing happened. They then waited for the heating to start. A narrow curtain lifted above a warm-air vent, and the alarm sounded.",
+    "The [[identification|identification]] of the likely cause gave them something to test. Leila secured the curtain's lower edge with a discreet clip, leaving the historic fabric undamaged. They watched through another heating cycle without hearing an alarm. No alarm sounded during the following week either."
+  ],
+  "zh": [
+    "一座小型宫殿博物馆里，王座旁的警报连续响了三个晚上，尽管展厅看起来空无一人。文物修复师莱拉怀疑传感器出了故障，但她的同行托马斯认为，不先调查就更换设备，实在太不明智。王座的金色表面十分脆弱，维修人员反复进出会带来风险。",
+    "这套安保系统能够在检测到移动时发送一张图像。它的缺点是，在黑暗中拍摄的照片几乎看不清细节。莱拉起初怀疑一位清洁工，而他直到被询问时才知道警报的事。不过，他的工作记录显示，每次警报响起前，他都已经离开了。莱拉没有转而怀疑其他人，而是画了一条时间线，记录馆内的活动。",
+    "每次警报都发生在晚间供暖启动之后。莱拉请一名保安在闭馆后陪她穿过上锁的展厅。为了检查房间外的移动是否会触发警报，她试着悄悄从门口经过，同时让托马斯观察监控画面。什么也没有发生。随后，他们等着供暖启动。一幅窄窗帘在暖风口上方飘了起来，警报随即响起。",
+    "找出可能的原因后，他们便有了可以检验的对象。莱拉用一个不显眼的夹子固定住窗帘下缘，没有损伤这块历史悠久的织物。他们又观察了一个供暖周期，没有听到警报声。接下来的一周也没有警报响起。"
+  ],
+  "q": [
+    {
+      "s": "Tomas believed the cause should be examined before any equipment was replaced.",
+      "a": "T",
+      "why": "托马斯认为不调查就更换设备极不明智。"
+    },
+    {
+      "s": "The cleaner had worked at the museum for more than a year.",
+      "a": "NG",
+      "why": "文中未说明清洁工在馆内任职多久。"
+    },
+    {
+      "s": "Leila's movement past the gallery entrance activated the alarm.",
+      "a": "F",
+      "why": "莱拉悄悄经过门口时，什么也没发生。"
+    }
+  ]
+}

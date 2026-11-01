@@ -1,0 +1,48 @@
+{
+  "id": "r0214",
+  "ids": [
+    "growth",
+    "tale",
+    "previously",
+    "stain",
+    "previous",
+    "rat",
+    "vegetarian",
+    "tan",
+    "diving",
+    "greet"
+  ],
+  "title": "A Table Full of Stories",
+  "titleZh": "一桌子的故事",
+  "topic": "society",
+  "cefr": 2,
+  "paras": [
+    "At a small seaside café, one long table is changing how neighbours meet. Every Thursday, owner Amara puts an old object beside each plate. The [[growth|growth]] in attendance has surprised her: the first evening attracted six people, but twenty came last week. Many had [[previously|previously]] eaten alone.",
+    "The objects give strangers something to discuss. Last Thursday, a cup with a brown [[stain|stain]] started a lively conversation. Its [[previous|previous]] owner, Pavel, told a [[tale|tale]] about a clever [[rat|rat]] that stole biscuits from his kitchen. Soon, everyone was sharing memories of unexpected animal visitors. Nobody needed to prepare a speech or reveal anything private.",
+    "At the other end, Leila, a [[vegetarian|vegetarian]], passed a bowl of bean soup to Tomas. His [[tan|tan]] came from weeks of outdoor work by the sea, and an old underwater camera encouraged him to talk about [[diving|diving]]. Leila had never tried it, but her questions kept their conversation going long after the soup was finished.",
+    "Why can such simple objects help? A shared point of attention can make starting a conversation feel less difficult. At Amara's table, people can talk about the object before talking about themselves. Now, regular visitors [[greet|greet]] new arrivals and explain the evening's activity. The objects open the conversation; the people give it life."
+  ],
+  "zh": [
+    "在一家海边小咖啡馆里，一张长桌正在改变邻居们相识的方式。每周四，店主阿玛拉都会在每个盘子旁放一件旧物。参加人数的增长让她很意外：第一晚只吸引了六个人，上周却来了二十个。他们当中，许多人以前都是独自吃饭。",
+    "这些物件让陌生人有了可以讨论的话题。上周四，一个带有棕色污渍的杯子引发了热烈的交谈。杯子以前的主人帕维尔讲了一个故事，说有只聪明的大鼠从他家厨房偷饼干。很快，大家都开始分享动物意外来访的往事。谁也不必准备发言，或透露任何私事。",
+    "在桌子的另一端，素食者莱拉把一碗豆汤递给了托马斯。他在海边连续几周从事户外工作，皮肤晒成了棕褐色。一台旧水下相机引出了他关于潜水的话题。莱拉从未尝试过潜水，但她不断提问，两人喝完汤后仍聊了很久。",
+    "为什么这么简单的物件也能起作用？共同关注一样东西，可以让开启交谈变得不那么困难。在阿玛拉的餐桌旁，人们可以先聊物件，再聊自己。现在，常客会主动迎接新来的人，并介绍当晚的活动。物件打开了话题，而人们让交谈变得生动。"
+  ],
+  "q": [
+    {
+      "s": "Guests are expected to plan a talk before joining the table.",
+      "a": "F",
+      "why": "原文说无人需要准备发言。"
+    },
+    {
+      "s": "Tomas had bought the underwater camera when he first learned to dive.",
+      "a": "NG",
+      "why": "文章未说明相机的购买时间。"
+    },
+    {
+      "s": "Regular visitors now welcome people who are new to the gatherings.",
+      "a": "T",
+      "why": "末段说常客现在会迎接新来的人。"
+    }
+  ]
+}

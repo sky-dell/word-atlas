@@ -2,6 +2,7 @@ import { duck } from "./sound";
 
 let current: HTMLAudioElement | null = null;
 let token = 0;
+export const audioGeneration = () => token;
 
 export function stopAudio() {
   token++;
@@ -11,7 +12,12 @@ export function stopAudio() {
 }
 
 /** Play a recording, falling back to the device voice. Resolves when playback ends. */
-export async function play(url: string | null | undefined, text: string, accent: "uk" | "us" = "uk", rate = 1) {
+export async function play(
+  url: string | null | undefined,
+  text: string,
+  accent: "uk" | "us" = "uk",
+  rate = 1,
+) {
   duck(true);
   try {
     return await speak(url, text, accent, rate);
@@ -20,7 +26,12 @@ export async function play(url: string | null | undefined, text: string, accent:
   }
 }
 
-async function speak(url: string | null | undefined, text: string, accent: "uk" | "us", rate: number) {
+async function speak(
+  url: string | null | undefined,
+  text: string,
+  accent: "uk" | "us",
+  rate: number,
+) {
   stopAudio();
   const mine = ++token;
   if (url) {
@@ -33,6 +44,7 @@ async function speak(url: string | null | undefined, text: string, accent: "uk" 
         a.onended = () => r();
         a.onpause = () => r();
       });
+      if (mine !== token) return "stopped" as const;
       return "recorded" as const;
     } catch {
       if (mine !== token) return "stopped" as const;
@@ -43,13 +55,17 @@ async function speak(url: string | null | undefined, text: string, accent: "uk" 
   const u = new SpeechSynthesisUtterance(text);
   u.lang = accent === "uk" ? "en-GB" : "en-US";
   u.rate = rate * 0.95;
-  const voices = speechSynthesis.getVoices().filter((v) => v.lang.replace("_", "-") === u.lang);
-  const best = voices.find((v) => /premium|enhanced|natural|google/i.test(v.name)) || voices[0];
+  const voices = speechSynthesis
+    .getVoices()
+    .filter((v) => v.lang.replace("_", "-") === u.lang);
+  const best =
+    voices.find((v) => /premium|enhanced|natural|google/i.test(v.name)) ||
+    voices[0];
   if (best) u.voice = best;
   await new Promise<void>((r) => {
     u.onend = () => r();
     u.onerror = () => r();
     speechSynthesis.speak(u);
   });
-  return "device" as const;
+  return mine !== token ? ("stopped" as const) : ("device" as const);
 }

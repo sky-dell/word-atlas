@@ -1,0 +1,48 @@
+{
+  "id": "r0047",
+  "ids": [
+    "november",
+    "cafe",
+    "live",
+    "her",
+    "quick",
+    "august",
+    "germany",
+    "bag",
+    "tennis",
+    "cat"
+  ],
+  "title": "A Cool Map for a Small Town",
+  "titleZh": "小镇的清凉地图",
+  "topic": "government",
+  "cefr": 0,
+  "paras": [
+    "In [[august|August]], a small town in [[germany|Germany]] has some very hot days. The town office wants to find cool places for people to rest. Mina works there. She walks around town with a small temperature meter in a cloth [[bag|bag]]. The meter shows how hot or cold a place is.",
+    "First, Mina stops outside a [[cafe|cafe]]. Its owner, Luis, gives [[her|her]] a glass of water. A [[cat|cat]] sleeps under a tree near the door. Mina takes a reading there. Then she checks the sunny path. The ground under the tree is cooler. Tree leaves stop some sunlight from reaching the ground.",
+    "Next, Mina visits a place where people play [[tennis|tennis]]. There are no trees beside the seats. She takes a [[quick|quick]] reading, then sits down. The seat feels hot through her thin trousers. People who [[live|live]] nearby tell Mina they need shade here. She writes this down. She checks each place again at the same time the next day.",
+    "In [[november|November]], the town office uses Mina's map to choose places for new trees. Workers plant three near the hot seats. The trees are small now, so they give little shade. They need water and time to grow. Mina will return with the meter next summer."
+  ],
+  "zh": [
+    "八月，德国的一个小镇有几天天气很热。镇政府想找些凉快的地方，让人们可以休息。米娜在那里工作。她把一个小型测温仪装在布袋里，步行查看小镇各处。这个仪器能显示一个地方有多热或多冷。",
+    "米娜先在一家咖啡馆外停下。店主路易斯给了她一杯水。一只猫在门旁的树下睡觉。米娜在那里测了一次温度。然后，她测了阳光下的小路。树下的地面更凉快。树叶挡住了部分照向地面的阳光。",
+    "接着，米娜来到一个打网球的地方。座椅旁没有树。她迅速测了一次温度，然后坐下。隔着薄裤子，她仍觉得座椅很热。住在附近的人告诉米娜，这里需要遮阴。她把这件事记下来。第二天，她又在相同的时间测量了每个地方。",
+    "十一月，镇政府用米娜的地图来选择种新树的地点。工人在那些很热的座椅附近种了三棵树。现在树还小，所以树荫很少。它们需要水，也需要时间长大。米娜明年夏天会带着测温仪再来。"
+  ],
+  "q": [
+    {
+      "s": "Mina's cloth bag is new.",
+      "a": "NG",
+      "why": "文中未说明布袋是不是新的。"
+    },
+    {
+      "s": "The ground under the tree is cooler than the sunny path.",
+      "a": "T",
+      "why": "测温比较表明树下地面比阳光下的小路凉。"
+    },
+    {
+      "s": "The new trees are big in November.",
+      "a": "F",
+      "why": "十一月种下的新树还很小。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0227",
+  "ids": [
+    "maid",
+    "apologise",
+    "sickness",
+    "firework",
+    "politics",
+    "journalist",
+    "warn",
+    "wipe",
+    "accountant",
+    "comparison"
+  ],
+  "title": "A Banner for the Guesthouse",
+  "titleZh": "为旅馆制作节庆横幅",
+  "topic": "daily",
+  "cefr": 2,
+  "paras": [
+    "Every autumn, Hana makes a cloth banner for the small guesthouse where she works as a [[maid|maid]]. It hangs above the garden gate during the village festival. This year, [[sickness|sickness]] kept her at home for two days, so she had to [[apologise|apologise]] to the owner for starting late.",
+    "First, Hana cuts an old white sheet into a long rectangle. She and the guesthouse [[accountant|accountant]], Omar, make a [[comparison|comparison]] between two designs: red letters with yellow stars, and blue letters with green leaves. They choose the first because it is easier to read from the road. Omar also checks that the paint and string cost less than their small budget.",
+    "Before painting, Hana uses a damp cloth to [[wipe|wipe]] the wooden table. She draws the words 'Welcome to Our Garden' lightly on the sheet, then fills them with red paint. A visiting [[journalist|journalist]], who usually writes about [[politics|politics]], photographs her work for a festival story. Hana paints yellow stars around the words and leaves the cloth flat overnight.",
+    "The next afternoon, Omar helps tie the banner above the gate. They [[warn|warn]] visitors to keep away while the ladder is in use. By evening, the paint is dry and the garden is full. When the first [[firework|firework]] bursts overhead, its golden light makes Hana's yellow stars shine."
+  ],
+  "zh": [
+    "每年秋天，哈娜都会为自己当女佣的小旅馆制作一条布横幅。村里举办节庆活动时，横幅就挂在花园大门上方。今年，她生病在家休息了两天，因此不得不为开工晚了向旅馆主人道歉。",
+    "首先，哈娜把一条旧白床单裁成长方形。她和旅馆的会计奥马尔比较了两种设计：红字配黄星，以及蓝字配绿叶。他们选择了第一种，因为从路上更容易看清。奥马尔还核算了一下，确保颜料和绳子的花费低于他们有限的预算。",
+    "动笔之前，哈娜用湿布擦了擦木桌。她先在布上轻轻描出“欢迎来到我们的花园”几个字，然后填上红色颜料。一位来访的记者平时主要报道政治新闻，这次为一篇节庆报道拍下了她工作的情景。哈娜在文字周围画上黄色星星，再把布平放一夜。",
+    "第二天下午，奥马尔帮忙把横幅系在大门上方。他们提醒来访者，使用梯子时不要靠近。到了晚上，颜料已经干透，花园里也满是人。第一朵烟花在头顶绽放时，金色的光芒映得哈娜画的黄星闪闪发亮。"
+  ],
+  "q": [
+    {
+      "s": "The owner paid Hana while she was ill at home.",
+      "a": "NG",
+      "why": "文中未说明她生病在家期间是否有工资。"
+    },
+    {
+      "s": "Hana and Omar chose the design that was easier to read from the road.",
+      "a": "T",
+      "why": "他们因第一种设计从路上更易看清而选它。"
+    },
+    {
+      "s": "Hana painted green leaves around the words on the banner.",
+      "a": "F",
+      "why": "她在文字周围画的是黄色星星。"
+    }
+  ]
+}

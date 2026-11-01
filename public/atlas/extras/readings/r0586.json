@@ -1,0 +1,48 @@
+{
+  "id": "r0586",
+  "ids": [
+    "observance",
+    "ironical",
+    "outward",
+    "disperse",
+    "fungus",
+    "premise",
+    "purity",
+    "autonomy",
+    "know-how",
+    "brisk"
+  ],
+  "title": "Beneath the Clear Water",
+  "titleZh": "清澈水面之下",
+  "topic": "environment",
+  "cefr": 4,
+  "paras": [
+    "At dawn, our boots left dark crescents beside a woodland spring whose [[outward|outward]] appearance suggested exceptional [[purity|purity]]. Every submerged pebble was visible. Yet our survey rested on a different [[premise|premise]]: transparent water could conceal ecological disturbance. Following three nights of rain, we had returned to examine the pale growth coating alder leaves trapped against a fallen branch.",
+    "Strict [[observance|observance]] of our sampling protocol meant approaching from downstream, so that disturbed sediment would not enter the collection jars. Leila, the field technician, moved with [[brisk|brisk]] efficiency between numbered stakes. Her practical [[know-how|know-how]] mattered more here than elegant laboratory equipment: she could lift a softened leaf without tearing the delicate threads extending from its edges.",
+    "Under a portable microscope, those threads revealed a [[fungus|fungus]] involved in breaking down fallen leaves. Its presence alone did not indicate pollution; indeed, such organisms help sustain stream food webs. However, the unusually dense coating justified further investigation. When a gust sent droplets across our recording sheet, Leila offered an [[ironical|ironical]] compliment: 'Perfect weather for paperwork.' We sheltered beneath the alder and watched tiny fragments [[disperse|disperse]] in the current.",
+    "Our small team had the [[autonomy|autonomy]] to extend the survey rather than leave at noon. By late afternoon, samples from an upstream seep showed a similar coating, weakening our initial suspicion that runoff from a nearby track was responsible. We packed the jars for nutrient analysis. The spring remained visually immaculate, but our notes now described a living system rather than a picture of cleanliness."
+  ],
+  "zh": [
+    "黎明时分，我们的靴子在林间一处泉水旁留下了深色的月牙形脚印。泉水看上去格外纯净，每一颗水下的卵石都清晰可见。然而，我们的调查基于另一项假定：透明的水也可能掩盖生态扰动。连续下了三夜雨后，我们再次来到这里，检查那些被倒下的树枝挡住的桤木落叶上覆盖的浅色生长物。",
+    "严格遵守采样规程意味着必须从下游接近，以免搅起的泥沙进入采样瓶。野外技术员莱拉动作轻快利落，在编号的标桩之间穿行。在这里，她的实操经验比精巧的实验室设备更重要：她能托起一片已经泡软的叶子，同时不扯断叶缘伸出的纤细丝状物。",
+    "在便携式显微镜下，我们发现那些丝状物属于一种参与分解落叶的真菌。它的存在本身并不意味着污染；事实上，这类生物有助于维系溪流食物网。不过，这层异常浓密的覆盖物仍值得进一步调查。一阵风把水滴吹到记录表上，莱拉反讽地赞叹道：“真是做文书工作的好天气。”我们躲到桤木下，看着细小的碎片在水流中散开。",
+    "我们的小团队有权自主决定延长调查，而不是中午就离开。到了傍晚前，从上游一处渗水点取得的样本也呈现出类似的覆盖层，这削弱了我们最初的猜测：附近小路的地表径流是问题的根源。我们收好采样瓶，准备进行营养盐分析。泉水看上去依然纤尘不染，但我们的笔记如今描述的是一个活生生的生态系统，而不再只是一幅洁净的画面。"
+  ],
+  "q": [
+    {
+      "s": "The survey was based on the premise that transparent water could not conceal ecological disturbance.",
+      "a": "F",
+      "why": "调查前提是透明水也可能掩盖生态扰动。"
+    },
+    {
+      "s": "Leila had learned her leaf-sampling technique during a university course.",
+      "a": "NG",
+      "why": "文中描述了采样技能，未交代学习途径。"
+    },
+    {
+      "s": "The similar coating on upstream samples weakened the team's suspicion that runoff from the track was responsible.",
+      "a": "T",
+      "why": "末段明确说明上游样本削弱了径流致因猜测。"
+    }
+  ]
+}

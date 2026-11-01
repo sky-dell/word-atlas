@@ -1,0 +1,48 @@
+{
+  "id": "r0679",
+  "ids": [
+    "oppression",
+    "quay",
+    "mania",
+    "inflammable",
+    "proxy",
+    "restrain",
+    "cartilage",
+    "visualize",
+    "distort",
+    "embody"
+  ],
+  "title": "The Ray Beneath the Ledger",
+  "titleZh": "账簿下的鳐鱼",
+  "topic": "nature",
+  "cefr": 4,
+  "paras": [
+    "At the entrance to the fictional Estuary Museum, a preserved ray hangs above a nineteenth-century harbour ledger. This exhibition follows the animal from the muddy [[quay|quay]] where it was landed to the cabinet where it became a scientific specimen. Together, these objects expose how a collector’s [[mania|mania]] for unusual creatures could obscure the people whose knowledge made discovery possible.",
+    "In the first gallery, visitors encounter the notebooks of naturalist Tomas Vale, alongside petitions from fishing families. Under the harbour concession, guards could [[restrain|restrain]] fishers who refused to surrender unusual catches. Such [[oppression|oppression]] supplied Vale’s collection at considerable human cost. One petition names net-maker Amara Sen as the families’ [[proxy|proxy]], authorised to negotiate compensation while they remained at sea.",
+    "The central display shifts attention to the ray itself. Its skeleton consists of [[cartilage|cartilage]], strong yet flexible tissue, with supporting elements extending into its broad fins. A shallow tank model helps visitors [[visualize|visualize]] its passage through suspended silt. Nearby, an empty preservation jar recalls another practical difficulty: the alcohol used to protect specimens was highly [[inflammable|inflammable]], requiring storage away from lamps.",
+    "The final cabinet places Vale’s published account beside the original ledger, whose payments reveal contributions his narrative omitted. Celebrating him as a solitary discoverer would therefore [[distort|distort]] the historical record. The museum has rewritten the specimen’s label with descendants of the fishing families. To [[embody|embody]] this shared approach, the label now includes extracts from the petitions alongside Vale’s description of the ray."
+  ],
+  "zh": [
+    "在虚构的河口博物馆入口处，一条保存下来的鳐鱼标本悬挂在一本十九世纪的港口账簿上方。本展览追溯了这条鱼从被卸上泥泞码头，到进入陈列柜成为科学标本的历程。这两件展品共同揭示：收藏家对奇异生物的狂热，如何可能掩盖那些凭借自身知识促成科学发现的人。",
+    "在第一展厅，参观者会看到博物学家托马斯·韦尔的笔记，以及渔民家庭提交的请愿书。依据港口特许经营规定，守卫可以限制拒绝交出罕见渔获的渔民的人身自由。这种压迫为韦尔的收藏提供了标本，却让渔民付出了沉重代价。其中一份请愿书指定织网匠阿玛拉·森为各家的代理人，授权阿玛拉在渔民出海期间协商补偿事宜。",
+    "中央展区将注意力转向鳐鱼本身。它的骨架由软骨这种坚韧而富有弹性的组织构成，支撑结构延伸到宽大的鳍中。一个浅水槽模型帮助参观者在脑海中描绘它穿过悬浮泥沙的情景。旁边的一只空标本保存罐则提醒人们注意另一项实际困难：用于保存标本的酒精极易燃烧，必须远离灯火存放。",
+    "最后一个陈列柜将韦尔发表的记述与原始账簿并置，账簿中的付款记录揭示了他在叙述中略去的他人贡献。因此，将他赞颂为独自完成发现的人，会歪曲历史记录。博物馆与渔民家庭的后人共同重写了标本说明。为了体现这种共同参与的做法，说明中如今既有请愿书的节选，也有韦尔对鳐鱼的描述。"
+  ],
+  "q": [
+    {
+      "s": "Fishing families empowered Amara Sen to discuss compensation on their behalf during their absence at sea.",
+      "a": "T",
+      "why": "第二段说明阿玛拉获授权在渔民出海时协商补偿。"
+    },
+    {
+      "s": "The liquid used to preserve specimens could safely be kept beside burning lamps.",
+      "a": "F",
+      "why": "第三段指出保存用酒精易燃，须远离灯火。"
+    },
+    {
+      "s": "The fishing families’ descendants received payment for helping revise the specimen’s label.",
+      "a": "NG",
+      "why": "末段提到后人参与改写，未说明是否获报酬。"
+    }
+  ]
+}

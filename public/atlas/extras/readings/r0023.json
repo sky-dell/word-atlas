@@ -1,0 +1,46 @@
+{
+  "id": "r0023",
+  "ids": [
+    "sweet",
+    "morning",
+    "outside",
+    "pasta",
+    "black",
+    "basketball",
+    "tiger",
+    "christmas",
+    "desk",
+    "tell"
+  ],
+  "title": "A Zoo Keeper’s Food Puzzles",
+  "titleZh": "动物饲养员的食物谜题",
+  "topic": "work",
+  "cefr": 0,
+  "paras": [
+    "At seven in the [[morning|morning]], zoo keeper Amira sits at her [[desk|desk]]. She looks at a food list. Then she goes to the kitchen. She cuts [[sweet|sweet]] apples for the monkeys and cooks a little [[pasta|pasta]] for the parrots. But she does not put all the food in bowls. Some animals need to work for their meals. This keeps their bodies and minds busy.",
+    "Amira puts apple pieces inside small boxes. She takes them [[outside|outside]] and hides them near the monkeys’ trees. The monkeys look, smell, and open the boxes. Next, she puts meat inside a special [[black|black]] ball for a [[tiger|tiger]]. It is as big as a ball used in [[basketball|basketball]], but much stronger. When the animal pushes it, small pieces of meat fall out.",
+    "At [[christmas|Christmas]], visitors can watch Amira make these food puzzles. She will [[tell|tell]] them why each animal gets a different one. A parrot can lift a small lid with its beak. A monkey can use its hands. Finding food is part of life in the wild. At the zoo, a simple puzzle can make mealtime more interesting."
+  ],
+  "zh": [
+    "早晨七点，动物园饲养员阿米拉坐在办公桌前。她看了一份食物清单，然后走进厨房。她给猴子切甜苹果，还给鹦鹉煮了一点意大利面。不过，她没有把所有食物都放进碗里。有些动物需要花点力气才能吃到食物。这样可以让它们的身体和头脑都活动起来。",
+    "阿米拉把苹果块放进小盒子里。她把盒子拿到外面，藏在猴子活动的树木附近。猴子们四处看、闻气味，再打开盒子。接着，她把肉放进一个特制的黑色球里，给一只老虎吃。这个球和篮球运动中用的球一样大，但结实得多。老虎推动它时，小肉块就会掉出来。",
+    "圣诞节期间，游客可以观看阿米拉制作这些取食谜题。她会告诉他们，为什么每种动物得到的谜题都不一样。鹦鹉可以用喙掀开小盖子，猴子可以用手。在野外，寻找食物是生活的一部分。在动物园里，一个简单的谜题可以让吃饭变得更有趣。"
+  ],
+  "q": [
+    {
+      "s": "Amira buys the apples from a shop near the zoo.",
+      "a": "NG",
+      "why": "文章未说明苹果在哪里买。"
+    },
+    {
+      "s": "The tiger’s food ball is as big as a basketball.",
+      "a": "T",
+      "why": "文中说这个球和篮球一样大。"
+    },
+    {
+      "s": "Visitors cannot watch Amira make food puzzles at Christmas.",
+      "a": "F",
+      "why": "文中说圣诞节期间游客可以观看制作。"
+    }
+  ]
+}

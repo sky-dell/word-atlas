@@ -1,0 +1,46 @@
+{
+  "id": "r0139",
+  "ids": [
+    "chess",
+    "kilo",
+    "illness",
+    "headache",
+    "dustbin",
+    "appear",
+    "nowhere",
+    "bee",
+    "barbecue",
+    "invitation"
+  ],
+  "title": "A Holiday Without Going Anywhere",
+  "titleZh": "哪儿也不去的假期",
+  "topic": "travel",
+  "cefr": 1,
+  "paras": [
+    "Visitors to Pine Hill used to spend every day walking in the mountains. But a surprising new holiday is becoming popular: guests travel to a small country hotel, then go [[nowhere|nowhere]] for three days. Last month, twenty people booked this stay. On arrival, each received an [[invitation|invitation]] to do less. There were no tours, and breakfast was available until eleven.",
+    "Hotel owner Amira started the idea after an [[illness|illness]] kept her at home for two weeks. She enjoyed watching the garden change each day. Now her guests play [[chess|chess]] under an apple tree or watch a [[bee|bee]] visit the flowers. One visitor, Pavel, arrived with a [[headache|headache]] after a long drive. He chose a quiet chair beside the pond. Soon, small frogs began to [[appear|appear]] at the water's edge.",
+    "The only planned event is a Friday [[barbecue|barbecue]]. Amira buys one [[kilo|kilo]] of potatoes for every four guests, and everyone helps prepare the meal. Afterwards, they put their rubbish in the [[dustbin|dustbin]] outside the kitchen. Some visitors say they expected to feel bored. Instead, they remember small things, like the frogs and the smell of dinner. Pavel has already booked another visit. This time, he says, he will leave his walking boots at home."
+  ],
+  "zh": [
+    "过去，来松山的游客每天都会去山里徒步。但一种令人意外的新度假方式正变得流行：客人来到一家乡间小旅馆，然后连续三天哪儿也不去。上个月，有二十人预订了这种住宿。每位客人抵达时，都会收到一份邀请，邀他们少安排些活动。这里没有观光行程，早餐一直供应到十一点。",
+    "旅馆主人阿米拉生病在家待了两周后，想出了这个点子。她很喜欢观察花园每天的变化。现在，她的客人会在苹果树下下国际象棋，或者看一只蜜蜂飞到花朵上。一位名叫帕维尔的游客开了很久的车，到达时有些头痛。他在池塘边的安静处挑了一张椅子坐下。不久，小青蛙开始在水边出现。",
+    "唯一安排好的活动是周五的户外烧烤聚餐。阿米拉按每四位客人一公斤的量购买土豆，大家一起帮忙准备食物。饭后，他们把垃圾放进厨房外的垃圾桶。有些游客说，他们原以为自己会觉得无聊。结果，他们记住的却是小事，比如青蛙和晚餐的香味。帕维尔已经预订了下一次住宿。他说，这次他会把登山靴留在家里。"
+  ],
+  "q": [
+    {
+      "s": "Guests on the new holiday stay at the hotel rather than take daily trips.",
+      "a": "T",
+      "why": "客人到旅馆后连续三天不外出。"
+    },
+    {
+      "s": "Amira developed the holiday idea while travelling in the mountains.",
+      "a": "F",
+      "why": "她因病在家两周后想出了这个点子。"
+    },
+    {
+      "s": "Pavel will bring a friend on his next visit.",
+      "a": "NG",
+      "why": "文章只说他再次预订，未提是否带朋友。"
+    }
+  ]
+}

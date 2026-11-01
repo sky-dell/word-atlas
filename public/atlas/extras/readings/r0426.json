@@ -1,0 +1,48 @@
+{
+  "id": "r0426",
+  "ids": [
+    "novelty",
+    "dip",
+    "archaeologist",
+    "republic",
+    "chairman",
+    "donation",
+    "settlement",
+    "bullying",
+    "exaggerated",
+    "evenly"
+  ],
+  "title": "The Press Behind the Posters",
+  "titleZh": "海报背后的印刷机",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "In a story set in the fictional [[republic|republic]] of Varen, a repair team receives a hand-operated printing press from an abandoned workshop. It once produced illustrated notices for markets and theatres. Its [[novelty|novelty]] lay in a simple roller system that spread ink [[evenly|evenly]] across large wooden letters, making bold posters affordable for small businesses.",
+    "Before replacing any parts, the team examines material recovered by an [[archaeologist|archaeologist]] beneath the workshop's collapsed floor. Broken letters show where the wood has worn down. To investigate the damage without wetting the originals, a repairer makes a copy of one letter. She can then [[dip|dip]] a brush into water and test how liquid gathers in its worn surface.",
+    "Among the recovered papers are letters describing repeated [[bullying|bullying]] of apprentices by the workshop manager. The workers appealed to the [[chairman|chairman]] of their trade association, who arranged talks. A written [[settlement|settlement]] required the manager to stop threatening apprentices and established fixed working hours. Later accounts made [[exaggerated|exaggerated]] claims that the dispute closed every workshop in Varen, but payment records show that the others continued operating.",
+    "A private [[donation|donation]] pays for replacement rollers. The team keeps the damaged originals for future study and uses replica letters for the first printing test. When the paper emerges, one corner of the notice is faint. The repairer adjusts the roller and tries again; this time, the whole message is clear."
+  ],
+  "zh": [
+    "在一个以虚构的瓦伦共和国为背景的故事中，一支修复团队收到了一台来自废弃作坊的手动印刷机。它曾为集市和剧院印制图文告示。它的新颖之处在于一套简单的滚筒系统，能够将油墨均匀地涂布在大型木制活字上，让小商户也负担得起醒目海报的印制费用。",
+    "更换任何零件之前，团队先检查了一位考古学家从作坊坍塌的地板下找回的材料。破损的活字显示出木材磨损的位置。为了在不弄湿原件的情况下研究损伤，一名修复人员复制了其中一个活字。这样，她就可以用刷子蘸水，测试液体如何聚集在复制品磨损的表面上。",
+    "找回的文件中有一些信件，描述了作坊经理反复欺凌学徒的行为。工人向行业协会主席求助，主席随后安排了协商。一份书面和解协议要求经理停止威胁学徒，并规定了固定的工作时间。后来的叙述夸大其词，声称这场纠纷导致瓦伦所有作坊停工，但付款记录显示，其他作坊一直在营业。",
+    "一笔私人捐款支付了更换滚筒的费用。团队留下受损的原滚筒供日后研究，并使用复制的活字进行首次印刷测试。纸张出来时，告示的一角印迹很淡。修复人员调整滚筒后再试了一次；这一次，整条信息都清晰可见。"
+  ],
+  "q": [
+    {
+      "s": "The roller system was invented by the workshop's owner.",
+      "a": "NG",
+      "why": "文章介绍了滚筒系统，但未说明发明者。"
+    },
+    {
+      "s": "The settlement allowed the manager to continue threatening apprentices.",
+      "a": "F",
+      "why": "协议要求经理停止威胁学徒。"
+    },
+    {
+      "s": "A private donation covers the cost of replacement rollers.",
+      "a": "T",
+      "why": "末段明确说明私人捐款支付更换滚筒费用。"
+    }
+  ]
+}

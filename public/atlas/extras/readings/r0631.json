@@ -1,0 +1,48 @@
+{
+  "id": "r0631",
+  "ids": [
+    "manipulate",
+    "timidity",
+    "verdict",
+    "aero",
+    "computerization",
+    "provision",
+    "verify",
+    "enumerate",
+    "intimidate",
+    "physique"
+  ],
+  "title": "The Inspector’s Ledger",
+  "titleZh": "检验员的账本",
+  "topic": "work",
+  "cefr": 4,
+  "paras": [
+    "In a courtroom drama set in the fictional Northbank [[aero|aero]] workshop, a cracked turbine blade and an inspector's ledger become crucial evidence. Inspector Leila Sen discovers that a component she rejected has been approved for use. The supervisor who controls her wages also controls the official inspection records, leaving her uncertain how to challenge his decision.",
+    "Leila's slight [[physique|physique]] contrasts with the heavy components she examines, but physical strength is rarely decisive. Before each inspection, she must [[enumerate|enumerate]] the instruments she intends to use on a checklist, so that missing equipment can be identified. She then uses a gauge to [[verify|verify]] a blade's dimensions. The [[provision|provision]] of reliable measuring equipment is essential; without it, she cannot justify accepting or rejecting a part.",
+    "The workshop's [[computerization|computerization]] gives the supervisor an opportunity to [[manipulate|manipulate]] inspection records, concealing defective parts to secure a production bonus. When Leila notices discrepancies, he tries to [[intimidate|intimidate]] her into silence. Her initial [[timidity|timidity]] delays her complaint, although she quietly preserves dated copies of the original measurements in a locked drawer.",
+    "At the trial, a machinist's testimony and an archivist's comparison of records support Leila's account. The court's [[verdict|verdict]] is that the supervisor is guilty of fraud. The damaged blade lies beside the ledger as the dates are read aloud: Leila recorded its rejection before the supervisor entered his approval. What appeared to be conflicting paperwork becomes a sequence the court can follow."
+  ],
+  "zh": [
+    "在一部以虚构的北岸航空维修车间为背景的法庭剧中，一片开裂的涡轮叶片和一本检验员的账本成为关键证据。检验员莱拉·森发现，一个被她判为不合格的零部件竟获准使用。掌握她工资发放权的主管也控制着正式检验记录，这让她不知道该如何质疑他的决定。",
+    "莱拉纤细的体格与她检验的沉重零部件形成鲜明对比，但体力很少是决定性因素。每次检验前，她必须在检查表上逐一列出打算使用的仪器，以便发现缺失的设备。随后，她用量规核查叶片尺寸。提供可靠的测量设备至关重要；没有这些设备，她就无法为接受或拒收某个零件提供依据。",
+    "车间实行计算机化管理，使主管有机会篡改检验记录，隐瞒零件缺陷，以获取生产奖金。莱拉发现记录有出入时，他试图恐吓她，让她保持沉默。起初，胆怯使她迟迟没有投诉，但她悄悄将注明日期的原始测量记录副本保存在一个上锁的抽屉里。",
+    "庭审中，一名机械加工工人的证词和一名档案管理员对记录的比对支持了莱拉的陈述。法庭裁定主管犯有欺诈罪。随着各个日期被逐一宣读，受损叶片就放在账本旁：莱拉记录判定不合格的时间，早于主管录入批准使用决定的时间。看似互相矛盾的文书材料，由此变成了法庭能够梳理清楚的事件顺序。"
+  ],
+  "q": [
+    {
+      "s": "Northbank workshop is a fictional setting.",
+      "a": "T",
+      "why": "首段明确说明该车间是虚构的。"
+    },
+    {
+      "s": "Leila reported the irregularities immediately after discovering them.",
+      "a": "F",
+      "why": "第三段指出，胆怯使她推迟了投诉。"
+    },
+    {
+      "s": "The court ordered the supervisor to repay the production bonus.",
+      "a": "NG",
+      "why": "末段仅说明欺诈罪成立，未提及退还奖金。"
+    }
+  ]
+}

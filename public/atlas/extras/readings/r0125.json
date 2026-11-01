@@ -1,0 +1,46 @@
+{
+  "id": "r0125",
+  "ids": [
+    "neighbourhood",
+    "thin",
+    "print",
+    "permission",
+    "sleepy",
+    "sick",
+    "straight",
+    "housework",
+    "noun",
+    "tablet"
+  ],
+  "title": "The Race Before Breakfast",
+  "titleZh": "早餐前的赛跑",
+  "topic": "sport",
+  "cefr": 1,
+  "paras": [
+    "Twelve women in the Hill Street [[neighbourhood|neighbourhood]] ran together before breakfast. Many did [[housework|housework]] later in the day, so early morning was their free time. Some felt [[sleepy|sleepy]] at first, but talking with friends helped. After a month, they decided to hold a race. Anyone from the nearby streets could join. They wanted a short route where new runners could feel comfortable.",
+    "The women asked for [[permission|permission]] to use a private garden with a long, [[straight|straight]] path. While they waited for an answer, Amara made a notice on her [[tablet|tablet]]. Her son was learning English and helped her write it. He knew 'race' as a verb, but did not know it could also be a [[noun|noun]]. Amara showed him how to use it in the title. When the garden owner agreed, a small shop helped them [[print|print]] fifty notices.",
+    "On race morning, Amara put on a [[thin|thin]] cotton shirt, then reached for a warm coat. She was [[sick|sick]] and could not run that day, but she wanted to help. She sat beside the path and rang a bell when each runner finished. Afterwards, the runners brought their breakfast to her chair. Before they ate, she asked who wanted to help arrange the next race."
+  ],
+  "zh": [
+    "山街街区的十二位女性在早餐前一起跑步。许多人白天晚些时候要做家务，所以清晨是她们的空闲时间。有些人起初觉得困倦，但和朋友聊天会好一些。一个月后，她们决定举办一场赛跑。附近街道的居民都可以参加。她们想找一条短路线，让刚开始跑步的人也能感觉轻松自在。",
+    "她们申请使用一座私人花园，那里有一条又长又直的小路。在等答复的时候，阿玛拉用平板电脑制作了一份通知。她的儿子正在学英语，帮她一起写。他知道race可以作动词，却不知道它也可以作名词。阿玛拉教他怎样在标题里使用这个词。花园主人同意后，一家小店帮她们印了五十张通知。",
+    "比赛那天早晨，阿玛拉穿上一件薄棉衬衫，然后伸手拿了一件暖和的外套。她生病了，那天不能跑步，但她想帮忙。她坐在小路旁，每当一位跑者到达终点，她就摇响铃铛。之后，跑者们把各自的早餐带到她的椅子旁。吃饭前，她问谁愿意帮忙安排下一场赛跑。"
+  ],
+  "q": [
+    {
+      "s": "The women ran together every morning.",
+      "a": "NG",
+      "why": "文中未说明她们是否每天一起跑步。"
+    },
+    {
+      "s": "A small shop helped print fifty notices.",
+      "a": "T",
+      "why": "小店帮她们印了五十张通知。"
+    },
+    {
+      "s": "Amara ran in the race that morning.",
+      "a": "F",
+      "why": "她生病不能跑步，只在路旁摇铃。"
+    }
+  ]
+}

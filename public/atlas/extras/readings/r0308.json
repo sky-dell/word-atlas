@@ -1,0 +1,48 @@
+{
+  "id": "r0308",
+  "ids": [
+    "effective",
+    "frequently",
+    "realize",
+    "cheer",
+    "nowadays",
+    "gum",
+    "population",
+    "charity",
+    "cushion",
+    "remove"
+  ],
+  "title": "A Clear View of the Pond",
+  "titleZh": "让池塘重现眼前",
+  "topic": "work",
+  "cefr": 2,
+  "paras": [
+    "14 May, 7 a.m. Mist covered the pond when I arrived for work. Our [[charity|charity]] cares for this small nature reserve beside a village with a [[population|population]] of about 800. My job today was to clear the wooden bird-watching shelter before its first visitors arrived.",
+    "I put a [[cushion|cushion]] on the floor to protect my knees. Then I began to [[remove|remove]] old [[gum|gum]] stuck beneath a bench. Outside, a pair of ducks moved through the reeds. They came back [[frequently|frequently]] to one corner, carrying dry grass. I stopped cleaning to watch them more closely.",
+    "After ten minutes, I [[realize|realized]] that they were building a nest behind a fallen branch. Last spring, workers had cut all the reeds along this bank. [[nowadays|Nowadays]], we leave several wide strips standing. This simple change seemed [[effective|effective]]: the ducks had found a quiet place, hidden from the path but visible through our narrow window.",
+    "At nine, three village volunteers brought new signs for the shelter. When a duck appeared with a long feather, they began to [[cheer|cheer]]. I raised a finger to my lips, and they quickly fell silent. Before leaving, I added one line to our work book: clean the shelter, but leave the fallen branch. The pond had its own builders."
+  ],
+  "zh": [
+    "5月14日，早上7点。我来上班时，池塘上笼罩着薄雾。我们这家慈善机构负责照管这片小小的自然保护区，旁边的村庄约有800名居民。我今天的任务是在第一批游客到来之前，打扫木制观鸟屋。",
+    "我在地板上放了一个软垫，保护膝盖。然后，我开始清除粘在长凳下面的旧口香糖。屋外，一对鸭子在芦苇间穿行。它们叼着干草，频繁地回到同一个角落。我停下清扫，仔细观察起来。",
+    "十分钟后，我意识到它们正在一根倒下的树枝后面筑巢。去年春天，工作人员曾把这段岸边的芦苇全部割掉。如今，我们会留下几条宽宽的芦苇带。这个简单的改变似乎起了作用：鸭子找到了一处安静的地方，从小路上看不见，但透过我们狭窄的窗户却能看到。",
+    "九点，三位村里的志愿者给观鸟屋送来了新标牌。一只鸭子叼着长羽毛出现时，他们欢呼起来。我把一根手指放在唇边，他们很快安静下来。离开前，我在工作记录本上添了一行：打扫观鸟屋，但留下那根倒下的树枝。池塘也有自己的建筑工。"
+  ],
+  "q": [
+    {
+      "s": "The writer was responsible for preparing the shelter before visitors came.",
+      "a": "T",
+      "why": "作者的任务是在游客到来前打扫观鸟屋。"
+    },
+    {
+      "s": "The volunteers had made the new signs themselves.",
+      "a": "NG",
+      "why": "只提到志愿者送来标牌，未说明谁制作。"
+    },
+    {
+      "s": "The volunteers continued cheering after the writer raised a finger to their lips.",
+      "a": "F",
+      "why": "作者示意安静后，志愿者很快停止出声。"
+    }
+  ]
+}

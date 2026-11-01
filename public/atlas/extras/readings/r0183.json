@@ -1,0 +1,45 @@
+{
+  "id": "r0183",
+  "ids": [
+    "mostly",
+    "musical",
+    "shake",
+    "litre",
+    "haircut",
+    "expect",
+    "pineapple",
+    "bone",
+    "mirror"
+  ],
+  "title": "Why Your Voice Sounds Different",
+  "titleZh": "为什么自己的声音听起来不一样",
+  "topic": "science",
+  "cefr": 1,
+  "paras": [
+    "Mina is making a cooking video at home. She has a new [[haircut|haircut]], so she checks her hair in a [[mirror|mirror]] before she begins. Then she shows how to make one [[litre|litre]] of [[pineapple|pineapple]] juice. While she works, she sings a few [[musical|musical]] notes. Later, she plays the video. Her voice sounds higher than she remembers. She did not [[expect|expect]] this change. Is something wrong with the recording? Probably not. There is a simple reason for the difference.",
+    "Sound comes from things that [[shake|shake]] very quickly. When Mina speaks, small parts inside her throat move like this. The sound travels through the air to her ears. However, it also travels through the [[bone|bones]] in her head. These two paths carry sound differently. The path through her head makes the lower parts of her voice seem stronger. Together, the two paths give her the voice she knows.",
+    "A recording picks up her voice [[mostly|mostly]] through the air. When Mina plays it, she hears something closer to what other people hear. She tries again with the same song. Her recorded voice still seems strange, but now she understands why. Her voice has not changed; the way she hears it has."
+  ],
+  "zh": [
+    "米娜正在家里录制一段烹饪视频。她刚换了新发型，所以开始前先照镜子检查头发。接着，她展示如何制作一升菠萝汁。忙碌时，她还唱了几个音。之后，她播放视频，发现自己的声音比记忆中的更高。她没有料到会有这种变化。是录音出了问题吗？多半不是。这种差异有一个简单的原因。",
+    "声音来自物体快速的振动。米娜说话时，喉咙里的细小部位就会这样运动。声音通过空气传到她的耳朵里。不过，声音也会通过她头部的骨头传播。这两条路径传递声音的方式不同。通过头部传播的声音，会让她觉得自己声音中较低的部分更明显。这两条路径共同形成了她熟悉的声音。",
+    "录音主要收集通过空气传播的声音。米娜播放录音时，听到的声音更接近别人听到的声音。她用同一首歌又试了一次。录下来的声音仍然让她觉得陌生，但现在她明白原因了。她的声音没有变，变的是她听到声音的方式。"
+  ],
+  "q": [
+    {
+      "s": "Mina expected her voice to sound higher in the video.",
+      "a": "F",
+      "why": "她没有预料到录音中的声音会更高。"
+    },
+    {
+      "s": "When Mina speaks, sound also travels through the bones in her head.",
+      "a": "T",
+      "why": "文中说明声音也通过她头部的骨头传播。"
+    },
+    {
+      "s": "Mina sends her second recording to a friend.",
+      "a": "NG",
+      "why": "文章未提到她把第二次录音发给朋友。"
+    }
+  ]
+}

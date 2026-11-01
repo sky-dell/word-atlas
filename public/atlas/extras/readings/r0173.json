@@ -1,0 +1,46 @@
+{
+  "id": "r0173",
+  "ids": [
+    "thai",
+    "suppose",
+    "wood",
+    "private",
+    "million",
+    "silly",
+    "repair",
+    "shut",
+    "myself",
+    "already"
+  ],
+  "title": "A Small Theatre Comes Alive",
+  "titleZh": "小剧场重现生机",
+  "topic": "arts",
+  "cefr": 1,
+  "paras": [
+    "Welcome to our exhibition about a [[thai|Thai]] puppet theatre. Start with the little stage beside the door. Mali, its maker, built it from [[wood|wood]] in 1962. At first, she gave shows in a [[private|private]] room for her family. You may [[suppose|suppose]] the puppets are heavy, but most weigh less than a cup of rice. Their light bodies helped Mali move them easily.",
+    "Look closely at the fishing boat on the stage. One puppet is trying to catch a fish with his hat. His [[silly|silly]] plan makes the other characters laugh. A sign nearby celebrates one [[million|million]] visitors to this museum since it opened. However, the boat almost missed the exhibition. Its side was broken, and a worker had to [[repair|repair]] it before we could show it.",
+    "In the last room, a short film shows Mali at work. She says, 'I taught [[myself|myself]] to make these little people.' By the time the film begins, she has [[already|already]] painted a new face. Watch her add its bright red hat. Before we [[shut|shut]] the museum each evening, we turn on the stage lights for one final show. Stay a little longer and see the fisherman finally catch his dinner."
+  ],
+  "zh": [
+    "欢迎参观我们的泰国木偶剧展览。请先看看门边的小舞台。这个舞台的制作者玛丽于1962年用木材搭建了它。起初，她在一间不对外开放的房间里为家人表演。你可能觉得这些木偶很重，但它们大多比一杯米还轻。轻巧的身体让玛丽能轻松地操纵它们。",
+    "请仔细看看舞台上的渔船。一个木偶正试着用自己的帽子捉鱼。他这个傻主意逗笑了其他角色。旁边的一块牌子庆祝本馆自开馆以来累计接待了一百万人次的参观者。不过，这条船差点没能参加展览。它的一侧破损了，一位工作人员修好了它，我们才得以将它展出。",
+    "最后一个房间里播放着一段短片，展示玛丽工作时的样子。她说：“我自学了制作这些小人的手艺。”短片开始时，她已经画好了一张新面孔。看看她如何给木偶戴上鲜红的帽子。每天晚上闭馆前，我们都会打开舞台灯，进行最后一场表演。不妨再留一会儿，看看渔夫终于捉到自己的晚餐。"
+  ],
+  "q": [
+    {
+      "s": "Mali's family helped her build the stage.",
+      "a": "NG",
+      "why": "只说玛丽搭建舞台，未说家人是否帮忙。"
+    },
+    {
+      "s": "The boat needed repairs before it could be shown.",
+      "a": "T",
+      "why": "船的一侧破损，展出前需要修好。"
+    },
+    {
+      "s": "Mali learned to make puppets from a teacher.",
+      "a": "F",
+      "why": "玛丽在短片中明确说自己是自学的。"
+    }
+  ]
+}

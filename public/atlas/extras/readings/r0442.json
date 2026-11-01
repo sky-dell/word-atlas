@@ -1,0 +1,48 @@
+{
+  "id": "r0442",
+  "ids": [
+    "expiry",
+    "retain",
+    "flee",
+    "freedom",
+    "bore",
+    "veil",
+    "incomplete",
+    "batch",
+    "ray",
+    "worthless"
+  ],
+  "title": "Stitching a Shared Memory",
+  "titleZh": "缝出共同的记忆",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "At a neighbourhood sewing room, a memory quilt begins with a [[batch|batch]] of donated clothes rather than new fabric. Each item carries a story. One family contributes a shirt worn while they had to [[flee|flee]] a flood; another offers a wedding [[veil|veil]]. Pieces that might otherwise seem [[worthless|worthless]] become records of ordinary lives.",
+    "Before cutting begins, the makers record each owner's wishes on a permission form. Contributors have the [[freedom|freedom]] to refuse public display or request the return of unused material. The form also gives an [[expiry|expiry]] date for permission to exhibit the finished quilt. This ensures that giving fabric does not mean losing control of its story forever.",
+    "Next, the cloth is washed and examined against a lamp. A [[ray|ray]] of light passing through a thin patch reveals where extra backing is needed. The makers [[retain|retain]] distinctive details, such as embroidered flowers or a carefully repaired pocket. They arrange the squares on a large table, moving them until the colours appear balanced. An [[incomplete|incomplete]] design may remain there for days before everyone agrees.",
+    "Finally, the squares are stitched onto a cotton backing. Short labels explain their origins without including so much detail that they [[bore|bore]] visitors. At the first exhibition, contributors can recognise their own cloth within the larger pattern. The finished quilt offers both a visible record of individual experiences and a shared object that neighbours have made together."
+  ],
+  "zh": [
+    "在一间社区缝纫室里，制作记忆拼布被的起点不是新布料，而是一批捐赠的衣物。每件衣物都承载着一个故事。一家人捐出了一件逃离洪灾时穿过的衬衫，另一家则拿来了一条婚礼面纱。那些原本可能被视为毫无用处的布片，就这样成了普通人生活的记录。",
+    "开始裁剪之前，制作者会在授权表上记录每位物主的意愿。捐赠者可以自由选择不让衣物公开展出，也可以要求归还未使用的布料。表格还注明了成品拼布被展出授权的到期日。这确保了捐出布料并不意味着永远失去对其背后故事的掌控。",
+    "接下来，布料会经过清洗，并对着灯光接受检查。一束光穿过薄弱的部位，就能显示哪里需要额外加衬。制作者会保留有特色的细节，例如绣花或仔细修补过的口袋。他们将方形布片铺在大桌上，不断调整位置，直到色彩看起来协调。尚未完成的设计可能会在桌上放上好几天，大家才能达成一致。",
+    "最后，方形布片被缝到棉质底布上。简短的标签介绍了它们的来历，又不会因为细节过多而让参观者感到乏味。首次展出时，捐赠者能在整体图案中认出自己的布料。完成的拼布被既让个人经历变得可见，也成为邻里共同制作的一件作品。"
+  ],
+  "q": [
+    {
+      "s": "The memory quilt is made from new fabric rather than donated clothes.",
+      "a": "F",
+      "why": "首段明确说用捐赠衣物而非新布料。"
+    },
+    {
+      "s": "Permission to exhibit the quilt lasts for one year.",
+      "a": "NG",
+      "why": "只提到授权到期日，未说明期限为一年。"
+    },
+    {
+      "s": "The makers preserve distinctive features of the donated cloth.",
+      "a": "T",
+      "why": "制作者保留绣花、修补过的口袋等细节。"
+    }
+  ]
+}

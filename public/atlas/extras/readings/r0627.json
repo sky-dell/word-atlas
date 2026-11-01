@@ -1,0 +1,48 @@
+{
+  "id": "r0627",
+  "ids": [
+    "undermine",
+    "tentacle",
+    "uniformly",
+    "reproduction",
+    "deem",
+    "fellowship",
+    "mourning",
+    "premier",
+    "acceleration",
+    "deviate"
+  ],
+  "title": "Lessons from a Harbour Wall",
+  "titleZh": "港湾石墙上的课堂",
+  "topic": "education",
+  "cefr": 4,
+  "paras": [
+    "When retired diver Hana Mori died, her neighbours converted her harbour workshop into a marine learning room. Their initial [[mourning|mourning]] gradually acquired a practical purpose: teaching adults to observe the tidal life she had documented for decades. A modest research [[fellowship|fellowship]] enabled biologist Samir Okeke to guide twelve residents through a winter survey of sea anemones.",
+    "Rather than distribute specimens [[uniformly|uniformly]] among indoor tanks, Okeke left them on the harbour wall, where differences in shade and water movement provided comparisons. Participants photographed each animal weekly, noting whether a [[tentacle|tentacle]] was extended or withdrawn. Several initially [[deem|deemed]] these observations too elementary for serious research, until their records revealed striking variations between neighbouring colonies.",
+    "An apparent [[acceleration|acceleration]] in colony growth during February prompted claims that warmer water encouraged [[reproduction|reproduction]]. Okeke cautioned that newly visible animals might simply have escaped earlier counts. To prevent enthusiasm from [[undermine|undermining]] the survey's reliability, observers agreed not to [[deviate|deviate]] from their fixed camera positions. Comparing photographs subsequently exposed several counting errors, turning disappointment into a lesson about evidence.",
+    "By spring, the room had attracted a visit from the regional [[premier|premier]], whose office requested a display celebrating the project's discoveries. The residents instead exhibited paired photographs showing how their interpretation had changed. Beside them stood Hana's battered notebook, open at a page of unanswered questions. The exhibition's achievement was not a dramatic biological finding, but a community's growing willingness to distinguish what it suspected from what it could demonstrate."
+  ],
+  "zh": [
+    "退休潜水员森花奈去世后，邻居们把她在港口的工作室改成了一间海洋学习室。最初的哀悼逐渐转化为一项务实的行动：教成年人观察她数十年来一直记录的潮间带生物。一笔数额不大的研究奖助金，使生物学家萨米尔·奥凯克得以指导十二位居民，在冬季开展海葵调查。",
+    "奥凯克没有把标本均匀分配到室内水箱中，而是将它们留在港湾石墙上，利用那里遮阴程度和水流状况的差异进行比较。参与者每周为每只海葵拍照，记录其触手是伸展还是收缩。起初，有几个人认为这些观察过于简单，算不上严肃的研究；直到记录显示，相邻群落之间竟存在显著差异，他们才改变了看法。",
+    "二月份，海葵群落的增长似乎加快了，于是有人提出，水温升高促进了繁殖。奥凯克提醒说，新近出现在照片中的海葵，可能只是先前计数时被遗漏了。为避免热情损害调查的可靠性，观察者们约定不偏离固定的拍摄位置。随后，通过对比照片，他们发现了几处计数错误，把失望化作了一堂关于证据的课。",
+    "到了春天，这间学习室吸引了地区政府首脑前来参观，其办公室要求举办展览，展示并庆祝项目的发现。然而，居民们展出的是一组组对照照片，呈现他们的解释如何发生变化。照片旁放着花奈那本破旧的笔记本，翻开的一页写满了尚未解答的问题。这场展览的成就不在于某项惊人的生物学发现，而在于这个社区越来越愿意区分自己的推测与能够证实的事实。"
+  ],
+  "q": [
+    {
+      "s": "Okeke moved the anemones into indoor tanks for the survey.",
+      "a": "F",
+      "why": "他将海葵留在港湾石墙上，并未移入水箱。"
+    },
+    {
+      "s": "Comparing photographs revealed errors in the participants' counts.",
+      "a": "T",
+      "why": "第三段明确说照片对比暴露了计数错误。"
+    },
+    {
+      "s": "The regional premier offered financial support to expand the learning room.",
+      "a": "NG",
+      "why": "末段只提参观和展览要求，未提扩建资助。"
+    }
+  ]
+}

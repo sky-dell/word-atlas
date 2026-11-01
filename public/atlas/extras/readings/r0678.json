@@ -1,0 +1,48 @@
+{
+  "id": "r0678",
+  "ids": [
+    "obstruction",
+    "excavate",
+    "ultimatum",
+    "resilience",
+    "warfare",
+    "acclaim",
+    "forthcoming",
+    "adorn",
+    "decree",
+    "augment"
+  ],
+  "title": "The Value Beneath the Silt",
+  "titleZh": "淤泥之下的价值",
+  "topic": "economy",
+  "cefr": 4,
+  "paras": [
+    "In 1892, vegetable growers outside the port of Bellara faced an [[ultimatum|ultimatum]]: repay their market loans after the autumn harvest or surrender their leases. Years of [[warfare|warfare]] had left irrigation channels neglected, while a recent [[decree|decree]] prohibited additional withdrawals from the river. Rather than [[augment|augment]] water supplies, accountant Mira Sen proposed testing whether existing water could be used more profitably.",
+    "Sen selected twelve neighbouring plots with similar soils and divided them into pairs according to their previous yields. Within each pair, a coin toss determined which plot would receive drainage repairs. Workers then began to [[excavate|excavate]] the selected channels, removing an [[obstruction|obstruction]] of compacted reeds from each outlet. The remaining plots retained their existing drainage arrangements.",
+    "Throughout the [[forthcoming|forthcoming]] growing season, Sen recorded labour costs, harvest weights and market receipts. Initially, repaired plots produced little additional revenue. After three days of heavy rain, however, their standing water disappeared within hours, whereas untreated plots remained flooded for nearly a week. The resulting difference in crop survival revealed that drainage improved economic [[resilience|resilience]], rather than simply raising yields under favourable conditions.",
+    "Once repair expenses were deducted, the drained plots earned an average of eighteen per cent more than their paired counterparts. Growers used flowers to [[adorn|adorn]] the market scales at a celebration, and Sen received public [[acclaim|acclaim]]. Yet her report stressed that one wet season could not establish typical annual returns. Its narrower conclusion was nevertheless consequential: restoring an overlooked asset could protect income without consuming another drop of river water."
+  ],
+  "zh": [
+    "1892年，贝拉拉港郊外的菜农收到了一份最后通牒：秋收后偿还市场贷款，否则就得交出租地。连年的战争使灌溉渠道失于维护，而最近颁布的一项法令又禁止增加河水取用量。会计师米拉·森没有提议增加供水，而是建议开展试验，检验能否利用现有水量获得更高收益。",
+    "森挑选了十二块土质相近、位置相邻的菜地，并根据以往的产量将它们两两配对。每组通过抛硬币决定哪块地接受排水设施修缮。随后，工人开始挖掘选中的渠道，清除各个出水口处由压实的芦苇形成的堵塞物。其余菜地则保留原有的排水设施。",
+    "在即将到来的整个种植季，森记录了人工成本、收获重量和销售收入。起初，修缮过的菜地几乎没有增加收入。然而，连续三天大雨过后，这些地里的积水在数小时内就排干了，未经处理的菜地却被淹了将近一周。由此产生的作物存活率差异表明，改善排水增强的是抵御经济冲击的能力，而不只是在有利条件下提高产量。",
+    "扣除修缮费用后，排水设施得到改善的菜地，收益平均比各自配对的菜地高出百分之十八。菜农们在庆祝活动中用鲜花装饰市场的秤，森也获得了公众的高度赞誉。不过，她在报告中强调，仅凭一个多雨的种植季，无法确定通常情况下的年收益。尽管结论的适用范围较窄，其意义依然重大：修复一项被忽视的资产，可能有助于在不多取一滴河水的情况下保障收入。"
+  ],
+  "q": [
+    {
+      "s": "The growers’ market loans carried an annual interest rate of ten per cent.",
+      "a": "NG",
+      "why": "首段提到贷款及还款期限，未交代利率。"
+    },
+    {
+      "s": "Plots were assigned drainage repairs on the basis of soil quality.",
+      "a": "F",
+      "why": "土质相近，是否修缮由抛硬币决定。"
+    },
+    {
+      "s": "Sen’s report cautioned that one wet season could not establish typical annual returns.",
+      "a": "T",
+      "why": "末段明确指出一个多雨季不足以确定通常年收益。"
+    }
+  ]
+}

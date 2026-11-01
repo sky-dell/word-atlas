@@ -1,0 +1,46 @@
+{
+  "id": "r0002",
+  "ids": [
+    "use",
+    "minute",
+    "even",
+    "o-clock",
+    "australian",
+    "cut",
+    "remember",
+    "wake",
+    "juice",
+    "really"
+  ],
+  "title": "The Early Fruit Table",
+  "titleZh": "清晨的水果桌",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "On Mill Street, some people go to work very early. They often have no breakfast. Hana wants to help. She asks her [[australian|Australian]] neighbour, Tom, to start a morning fruit table with her. They can [[use|use]] a small room beside a shop for free. The shop owner gives them fruit from his shop. It is good, but it must be eaten soon.",
+    "Every Monday, Hana and Tom [[wake|wake]] at five [[o-clock|o'clock]]. They wash the fruit and [[cut|cut]] it into small pieces. Then they make orange [[juice|juice]]. At six, they open the door. People can sit for ten [[minute|minutes]] or take a cup to work. There is no price, but a small box on the table is for money. This pays for cups.",
+    "At first, only four people come. After a month, twenty people visit each Monday. They [[remember|remember]] Hana and Tom and say hello in the street. [[even|Even]] the busy baker stops for breakfast now. He brings bread for the table. Hana is [[really|really]] happy. Two visitors now help wash the cups, so she and Tom can sit and eat with their new friends."
+  ],
+  "zh": [
+    "米尔街上，有些人很早就去上班。他们常常不吃早餐。哈娜想帮忙。她请澳大利亚邻居汤姆和她一起办一个清晨水果小餐桌。他们可以免费使用商店旁的一间小屋。店主给他们提供店里的水果。水果还很好，但得尽快吃掉。",
+    "每个星期一，哈娜和汤姆五点醒来。他们把水果洗干净，切成小块，然后榨橙汁。六点，他们开门。大家可以坐上十分钟，也可以带一杯果汁去上班。这里的食物和饮料免费提供，但桌上有一个小盒子，供大家放钱。这些钱用来买杯子。",
+    "起初，只有四个人来。一个月后，每个星期一都有二十个人来。他们记得哈娜和汤姆，在街上会向他们问好。现在，连忙碌的面包师也会停下来吃早餐。他还为小餐桌带来面包。哈娜非常高兴。如今有两位来客帮忙洗杯子，所以她和汤姆可以坐下来，和新朋友们一起吃东西了。"
+  ],
+  "q": [
+    {
+      "s": "Hana and Tom do not have to pay for the room.",
+      "a": "T",
+      "why": "第一段说他们可以免费使用小屋。"
+    },
+    {
+      "s": "The cups for the juice are blue.",
+      "a": "NG",
+      "why": "文章提到杯子，但没有说明杯子的颜色。"
+    },
+    {
+      "s": "After a month, only four people come each Monday.",
+      "a": "F",
+      "why": "一个月后每周一有二十人来，而非仅四人。"
+    }
+  ]
+}

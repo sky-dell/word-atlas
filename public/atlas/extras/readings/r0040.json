@@ -1,0 +1,46 @@
+{
+  "id": "r0040",
+  "ids": [
+    "much",
+    "learn",
+    "south",
+    "can",
+    "hey",
+    "cola",
+    "shower",
+    "tree",
+    "build",
+    "man"
+  ],
+  "title": "A Sweet Paint Test",
+  "titleZh": "甜饮料颜料实验",
+  "topic": "arts",
+  "cefr": 0,
+  "paras": [
+    "Mina makes pictures on white tiles. She wants to [[build|build]] a small picture wall in her garden. Her home is in the [[south|south]], where the days are warm. One morning, she sits under a [[tree|tree]] with her friend Ravi. He is a young [[man|man]] who likes making things. They want to [[learn|learn]] which kind of paint stays on a tile after washing.",
+    "Mina puts red clay powder into two cups. She adds water to one and [[cola|cola]] to the other. She does not use [[much|much]] liquid. Then she paints a red fish on each of two tiles. Both fish are the same size. She leaves the tiles outside for two hours. Ravi looks at the dry tiles. “[[hey|Hey]], this fish looks darker!” he says. It is the one made with the sweet drink.",
+    "They take both tiles to the bathroom. Mina holds each under the [[shower|shower]] for ten seconds. Both fish wash away. “That fish looked darker, but now both fish are gone,” she says. “We [[can|can]] try a different paint next time.” She dries the tiles with a towel. Then she starts looking for paint to use outside."
+  ],
+  "zh": [
+    "米娜在白色瓷砖上画画。她想在花园里建一面小小的图画墙。她的家在南方，那里白天天气暖和。一天早上，她和朋友拉维坐在一棵树下。他是个喜欢动手做东西的年轻男子。他们想弄清楚，哪种颜料画在瓷砖上，水洗后还能留下。",
+    "米娜把红色黏土粉放进两个杯子。她往一个杯子里加水，往另一个里加可乐。她没有加很多液体。然后，她在两块瓷砖上各画了一条红鱼。两条鱼一样大。她把瓷砖放在外面两小时。拉维看着干了的瓷砖说：“嘿，这条鱼看起来颜色更深！”那是用甜饮料调出的颜料画的。",
+    "他们把两块瓷砖都拿到浴室。米娜把每块瓷砖放到淋浴喷头下冲十秒。两条鱼都被冲掉了。“那条鱼看起来颜色更深，但现在两条鱼都没了，”她说，“下次我们可以试试另一种颜料。”她用毛巾擦干瓷砖，然后开始寻找能在室外使用的颜料。"
+  ],
+  "q": [
+    {
+      "s": "Mina makes one fish larger than the other.",
+      "a": "F",
+      "why": "文中说两条鱼一样大。"
+    },
+    {
+      "s": "The water used to wash the tiles is cold.",
+      "a": "NG",
+      "why": "文中没有说明冲洗用水的温度。"
+    },
+    {
+      "s": "Both fish wash away under the shower.",
+      "a": "T",
+      "why": "两条鱼在淋浴喷头下都被冲掉了。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0262",
+  "ids": [
+    "dialog",
+    "typewriter",
+    "softly",
+    "permanent",
+    "contest",
+    "host",
+    "agreed",
+    "spare",
+    "diagram",
+    "sunblock"
+  ],
+  "title": "The Swallows of Mill House",
+  "titleZh": "磨坊屋的燕子",
+  "topic": "history",
+  "cefr": 2,
+  "paras": [
+    "18 June, Mill House. This morning, I brought a notebook from 1934 to the old mill garden. Its owner, Ada Bell, had studied the swallows here. She used a [[typewriter|typewriter]] to record her field notes, but added a small [[diagram|diagram]] of the birds' nests by hand. I wanted to see what remained.",
+    "Ada's notes described a bird-counting [[contest|contest]] held in the garden that summer. The [[agreed|agreed]] rule was simple: count nests, not birds. The [[host|host]], a mill worker named Tomas, offered visitors tea and [[spare|spare]] pencils. Ada also recorded a short [[dialog|dialog]] between two children arguing about whether a dark hole contained a nest.",
+    "Before starting my own count, I put on [[sunblock|sunblock]] and walked towards the south wall. My guide, Leila, spoke [[softly|softly]] as a swallow flew above us. Ada had marked six nests under the roof. We found four in exactly that place, although we could not tell how old they were. Two held young birds, whose open mouths appeared whenever a parent returned.",
+    "The wooden seat shown in Ada's drawing was gone, but the stone wall remained. Nothing in a garden is truly [[permanent|permanent]]. Still, as I closed the notebook, another swallow arrived with wet mud. Beneath the old roof, a new nest was taking shape."
+  ],
+  "zh": [
+    "6月18日，磨坊屋。今天早晨，我带着一本1934年的笔记本来到老磨坊的花园。笔记本的主人艾达·贝尔曾在这里观察燕子。她用打字机记录野外观察笔记，又亲手添了一幅标明鸟巢位置的小示意图。我想看看当年的事物还留下了多少。",
+    "艾达的笔记描述了那年夏天在花园里举行的一场数鸟比赛。大家商定的规则很简单：只数鸟巢，不数鸟。招待来客的是一位名叫托马斯的磨坊工人，他为大家准备了茶和备用铅笔。艾达还记下了两个孩子的一小段对话，他们在争论一个黑乎乎的洞里是否有鸟巢。",
+    "开始自己清点之前，我涂上防晒霜，朝南墙走去。一只燕子从我们头顶飞过时，向导莱拉轻声说着话。艾达曾在屋檐下标出六个鸟巢。我们在同一处找到了四个，不过无法判断它们已有多久。其中两个巢里有幼鸟，每当亲鸟回来，就能看到它们张开的小嘴。",
+    "艾达图中画的木椅已经不在了，但石墙依然保留着。花园里没有什么是真正永恒的。不过，当我合上笔记本时，又一只燕子衔着湿泥飞来了。旧屋檐下，一个新巢正在渐渐成形。"
+  ],
+  "q": [
+    {
+      "s": "Participants in the garden competition were required to count individual birds.",
+      "a": "F",
+      "why": "商定的规则是数鸟巢，而不是数鸟。"
+    },
+    {
+      "s": "Leila had visited the mill garden every summer since childhood.",
+      "a": "NG",
+      "why": "文中未提及莱拉童年或历年的到访情况。"
+    },
+    {
+      "s": "The wooden seat in Ada's drawing was no longer there when the writer visited.",
+      "a": "T",
+      "why": "末段明确说图中的木椅已经不在了。"
+    }
+  ]
+}

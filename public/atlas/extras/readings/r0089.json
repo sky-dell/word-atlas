@@ -1,0 +1,46 @@
+{
+  "id": "r0089",
+  "ids": [
+    "correctly",
+    "fair",
+    "vacation",
+    "traveler",
+    "tool",
+    "ankle",
+    "cereal",
+    "insect",
+    "frenchman",
+    "manager"
+  ],
+  "title": "Sandals from the Harbour",
+  "titleZh": "港边手作凉鞋",
+  "topic": "economy",
+  "cefr": 1,
+  "paras": [
+    "In the small harbour town of Bellara, visitors can take home shoes made for their feet. During my [[vacation|vacation]], I visited a sandal shop beside the fish market. At a café next door, I ate [[cereal|cereal]] with milk and watched the shop open. Another [[traveler|traveler]], a [[frenchman|Frenchman]] named Luc, was already waiting outside. He came because his sister loved the sandals she bought there.",
+    "The shop's [[manager|manager]], Amira, welcomed us inside. Shoes hung on the white walls, and pieces of brown leather covered a table. She explained that everyone paid the same price. This seemed [[fair|fair]], especially because each pair took two hours to make. Luc chose blue leather. Amira measured his foot and his [[ankle|ankle]], then showed him how the long straps would fit around his leg.",
+    "Nothing was made by machine. Amira used a small [[tool|tool]] to make holes in the leather. She let me use it on a spare piece of leather and helped me hold the tool [[correctly|correctly]]. For decoration, Luc chose a tiny [[insect|insect]] painted near the toes: a green beetle common in the area. When we left, he wore his new sandals."
+  ],
+  "zh": [
+    "在小港镇贝拉拉，游客可以买到为自己双脚量身制作的鞋子。度假期间，我去了一家鱼市旁的凉鞋店。我在隔壁咖啡馆吃着加牛奶的早餐麦片，看着鞋店开门。另一位旅行者已经在门外等候，他是名叫吕克的法国男子。他来这里，是因为他的姐妹很喜欢她在这家店买的凉鞋。",
+    "店长阿米拉欢迎我们进店。白色墙上挂着鞋子，桌上铺满了棕色皮革。她解释说，所有人都付同样的价格。这似乎很公平，尤其是每双鞋都要花两个小时才能做成。吕克选了蓝色皮革。阿米拉量了他的脚和脚踝，然后向他展示长鞋带会怎样绕在他的腿上。",
+    "店里没有任何东西是机器制作的。阿米拉用一件小工具在皮革上打孔。她让我用它在一块多余的皮革上试试，并帮我正确握住工具。吕克选了一只画在脚趾附近的小昆虫作装饰：那是当地常见的一种绿色甲虫。离开时，他已经穿上了新凉鞋。"
+  ],
+  "q": [
+    {
+      "s": "Luc had visited the sandal shop before.",
+      "a": "NG",
+      "why": "只提到他的姐妹买过鞋，未说他是否来过。"
+    },
+    {
+      "s": "All customers paid the same price for the sandals.",
+      "a": "T",
+      "why": "阿米拉说所有人都付同样的价格。"
+    },
+    {
+      "s": "Amira used a machine to make holes in the leather.",
+      "a": "F",
+      "why": "文中说不用机器，她用小工具打孔。"
+    }
+  ]
+}

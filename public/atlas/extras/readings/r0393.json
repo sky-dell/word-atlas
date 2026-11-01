@@ -1,0 +1,48 @@
+{
+  "id": "r0393",
+  "ids": [
+    "honor",
+    "status",
+    "adequate",
+    "optional",
+    "frequency",
+    "demonstrate",
+    "disapproval",
+    "sane",
+    "concept",
+    "sigh"
+  ],
+  "title": "A Fairer Share of the Kiln",
+  "titleZh": "让窑炉用得更公平",
+  "topic": "economy",
+  "cefr": 3,
+  "paras": [
+    "At a pottery cooperative in a small coastal town, winning a craft prize was a great [[honor|honor]], but it brought an unexpected advantage. Prize winners gained higher [[status|status]] among members and first choice of space in the shared kiln. Newer potters often waited three weeks to fire their bowls, losing customers who needed reliable delivery dates.",
+    "When another order was cancelled, the cooperative's bookkeeper, Amira, [[sigh|sighed]] over the accounts. The kiln had [[adequate|adequate]] capacity for everyone's work, yet some shelves remained empty during firings. She recorded the [[frequency|frequency]] of these gaps for a month. Her figures helped [[demonstrate|demonstrate]] that the problem was not a shortage of equipment but the booking system: senior members reserved entire shelves even when their pots occupied only half the space.",
+    "Amira proposed a simple [[concept|concept]]: members would book measured shelf space rather than whole shelves. A paper chart beside the kiln showed what remained available. Attendance at a short training session was [[optional|optional]], but everyone had to measure their pieces. Several prize winners expressed [[disapproval|disapproval]], arguing that their achievements deserved special treatment. However, buying another kiln would have required a large loan, so they accepted a six-week trial as the only [[sane|sane]] financial choice.",
+    "By the trial's end, average waiting time had fallen to eight days without increasing firing costs. Even the oldest prize winner supported keeping the chart. His smaller orders now fitted into gaps, and the cooperative could finally promise delivery dates with confidence."
+  ],
+  "zh": [
+    "在一个海滨小镇的陶艺合作社里，获得工艺奖是一项莫大的荣誉，但它也带来了一项意想不到的优势。获奖者在社员中的地位随之提高，还能优先挑选共用窑炉里的位置。资历较浅的陶工往往要等上三周才能烧制自己的碗，因此失去了那些需要明确交货日期的顾客。",
+    "又一笔订单被取消后，合作社的记账员阿米拉看着账本叹了口气。窑炉的容量足以满足所有人的烧制需求，但烧窑时仍有部分窑板空着。她用了一个月，记录这类空置情况出现的次数。她的数据有力地表明，问题并非设备不足，而是预约制度不合理：资深社员会预订整块窑板，即使他们的陶器只占一半空间。",
+    "阿米拉提出了一个简单的想法：社员按实际测量的面积预订空间，而不是预订整块窑板。窑炉旁的一张纸质表格会标明剩余可用空间。大家可以自愿参加一次简短的培训，但每个人都必须测量自己的作品。几名获奖者表示反对，认为他们的成就理应得到特殊待遇。然而，购买另一座窑炉需要一大笔贷款，因此他们同意试行六周，认为这是财务上唯一明智的选择。",
+    "试行结束时，平均等待时间已缩短至八天，烧制成本却没有增加。就连年纪最大的获奖者也支持继续使用这张表格。他的小批量订单如今可以利用空余位置烧制，而合作社终于能够有把握地向顾客承诺交货日期了。"
+  ],
+  "q": [
+    {
+      "s": "Craft prize winners had no priority when choosing space in the shared kiln.",
+      "a": "F",
+      "why": "获奖社员可以优先挑选窑炉位置。"
+    },
+    {
+      "s": "Amira's records showed that the booking system was the problem.",
+      "a": "T",
+      "why": "记录表明问题在预约制度，而非设备不足。"
+    },
+    {
+      "s": "The cooperative paid an outside instructor to run the training session.",
+      "a": "NG",
+      "why": "文章未说明培训由谁主持或是否付费。"
+    }
+  ]
+}

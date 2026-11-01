@@ -1,0 +1,48 @@
+{
+  "id": "r0421",
+  "ids": [
+    "headquarters",
+    "gasp",
+    "irregular",
+    "loose",
+    "curve",
+    "union",
+    "stumble",
+    "seaport",
+    "spontaneous",
+    "ounce"
+  ],
+  "title": "Why a Small Noise Startles Us",
+  "titleZh": "小小声响为何让人一惊",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "At the [[headquarters|headquarters]] of a dockworkers' [[union|union]] in a busy [[seaport|seaport]], a safety workshop begins with a familiar question: why can a tiny falling object produce such a powerful fright? A [[loose|loose]] metal fitting weighing barely an [[ounce|ounce]] may strike the floor, making someone [[gasp|gasp]] or even [[stumble|stumble]] backwards. The reaction seems far greater than the danger deserves.",
+    "This [[spontaneous|spontaneous]] response belongs to the body's rapid defence system. A sudden sound activates nerve pathways that prepare muscles for action before the source has been fully identified. Shoulders rise, eyes blink, and breathing briefly changes. These movements help protect vulnerable parts of the body while the brain gathers enough information to decide what happened.",
+    "Fear can then extend the response. The heart beats faster, and breathing may become [[irregular|irregular]], especially if the listener expects danger. On a graph of heart rate over time, the [[curve|curve]] might rise sharply and then fall gradually as the person recognises the harmless fitting. Recovery is not always immediate: the body's chemical signals take time to fade, even after conscious worry has ended.",
+    "Experience also matters. Workers accustomed to predictable machinery noise may barely notice it, yet jump at an unexpected sound in a quiet room. Familiarity helps the brain judge which signals deserve attention. A startle is therefore not simply evidence of nervousness; it is a useful protective response that sometimes acts before accurate judgement is possible."
+  ],
+  "zh": [
+    "在一座繁忙海港城市的码头工人工会总部，一场安全培训以一个常见的问题开场：为什么一个小物件掉落，也能让人受到如此强烈的惊吓？一个重量还不到或仅有一盎司的松动金属配件掉到地上，就可能让人倒吸一口气，甚至踉跄着向后退。与实际危险相比，这种反应似乎强烈得多。",
+    "这种自发反应属于人体的快速防御系统。突然的声响会激活神经通路，在声源尚未被完全辨明之前，就让肌肉做好行动准备。肩膀耸起，眼睛眨动，呼吸也会短暂改变。在大脑收集足够信息、判断发生了什么的同时，这些动作有助于保护身体容易受伤的部位。",
+    "恐惧随后可能使这种反应持续下去。心跳加快，呼吸也可能变得不规律，尤其是在听到声响的人预感到危险时。如果用图表记录心率随时间的变化，曲线可能会先急剧上升，然后随着当事人认出那个无害的配件而逐渐下降。身体并不总能立即恢复平静：即使意识中的担忧已经消失，体内的化学信号仍需要时间才能减弱。",
+    "经验同样重要。习惯了可预期的机器噪声的工人，可能几乎不会留意这些声音，却会被安静房间里突然出现的声响吓一跳。熟悉程度有助于大脑判断哪些信号值得注意。因此，受惊并不只是紧张的表现；它是一种有用的保护性反应，只是有时会在准确判断成为可能之前就先行启动。"
+  ],
+  "q": [
+    {
+      "s": "A sudden noise can cause protective movements before a person has fully recognised its source.",
+      "a": "T",
+      "why": "第二段指出辨明声源前肌肉已准备行动。"
+    },
+    {
+      "s": "The body's fear response always stops as soon as a person realises there is no danger.",
+      "a": "F",
+      "why": "第三段说明担忧消失后化学信号仍需时间减弱。"
+    },
+    {
+      "s": "Experienced dockworkers recover from a fright faster than people in other occupations.",
+      "a": "NG",
+      "why": "文章未比较不同职业人群受惊后的恢复速度。"
+    }
+  ]
+}

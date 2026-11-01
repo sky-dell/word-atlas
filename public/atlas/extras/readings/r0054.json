@@ -1,0 +1,46 @@
+{
+  "id": "r0054",
+  "ids": [
+    "until",
+    "each",
+    "women",
+    "feeling",
+    "bath",
+    "nine",
+    "twelve",
+    "moment",
+    "want",
+    "england"
+  ],
+  "title": "Warm Water, Clean Towels",
+  "titleZh": "热水与干净毛巾",
+  "topic": "health",
+  "cefr": 0,
+  "paras": [
+    "Welcome to our small museum in [[england|England]]. This room shows a bath house from 1900. Many homes had no hot water then. People came here for a warm [[bath|bath]] and clean skin. Look at the clock above the door. The house opened at [[nine|nine]] in the morning. It stayed open [[until|until]] six in the evening, so people could come after work.",
+    "Follow the blue line to the next room. Here, [[women|women]] washed in small rooms with doors. There were [[twelve|twelve]] rooms in all. A worker put a clean towel in [[each|each]] room. She also brought soap and checked the water. Touch the dry towel on this table. It is a copy, but the big white water jug beside it is old.",
+    "Now sit on the wooden seat for a [[moment|moment]]. Listen to a short story about Ada, a worker at the bath house. She liked giving tired visitors a [[feeling|feeling]] of care and comfort. Do you [[want|want]] to see her work bag? It is by the exit. Inside are her lunch box and a small cup. Her day ended with warm tea. Your visit ends here, too."
+  ],
+  "zh": [
+    "欢迎来到我们位于英格兰的小博物馆。这个展厅展示了1900年的一座公共浴室。当时，许多家庭没有热水。人们来这里泡个热水澡，把身体洗干净。请看门上方的时钟。浴室早上九点开门，一直营业到傍晚六点，所以人们下班后也能来。",
+    "沿着蓝线走到下一个展厅。在这里，女性在带门的小房间里洗澡。一共有十二间。工作人员会在每个房间里放一条干净毛巾。她还会送来肥皂，检查洗澡水。摸摸这张桌上的干毛巾。它是复制品，但旁边那个白色的大水壶是旧时留下来的。",
+    "现在，请在木座椅上坐一会儿，听一个关于浴室工作人员艾达的小故事。她喜欢让疲惫的客人感到受关怀、很舒适。你想看看她上班带的包吗？它就在出口旁边，里面有她的饭盒和一个小杯子。她的一天以喝热茶收尾。你的参观也在这里结束。"
+  ],
+  "q": [
+    {
+      "s": "The bath house opened every day.",
+      "a": "NG",
+      "why": "文章给出营业时段，未说明是否每天开放。"
+    },
+    {
+      "s": "There were ten small rooms for women.",
+      "a": "F",
+      "why": "原文说这样的房间一共有十二间。"
+    },
+    {
+      "s": "Ada's work bag is near the exit.",
+      "a": "T",
+      "why": "原文说她的工作包就在出口旁边。"
+    }
+  ]
+}

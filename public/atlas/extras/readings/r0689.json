@@ -1,0 +1,48 @@
+{
+  "id": "r0689",
+  "ids": [
+    "stow",
+    "induction",
+    "vocalist",
+    "lax",
+    "prone",
+    "accustom",
+    "entity",
+    "burdensome",
+    "chronology",
+    "extravagance"
+  ],
+  "title": "The Choir's Quiet Experiment",
+  "titleZh": "合唱团悄然开展的实验",
+  "topic": "society",
+  "cefr": 4,
+  "paras": [
+    "At a neighbourhood choir housed in a converted bakery, coordinator Mira Sen investigated why new volunteers frequently disappeared after their first concert. Although registered as a charitable [[entity|entity]], the choir depended entirely on unpaid labour. Interviews suggested that musical anxiety mattered less than uncertainty about responsibilities, particularly when experienced members gave contradictory instructions.",
+    "Sen therefore devised an experiment involving twenty-four recruits, allocated by lottery to two groups. One received the usual verbal [[induction|induction]]; the other rehearsed practical tasks with a [[vocalist|vocalist]] named Tomas Vidal. These recruits learned where to [[stow|stow]] microphone stands and how to record borrowed equipment. To [[accustom|accustom]] them to unexpected demands, Vidal also simulated a missing cable. Both groups received identical written guidance.",
+    "For six weeks, observers recorded requests for assistance and reconstructed the [[chronology|chronology]] of each equipment failure. The choir's previously [[lax|lax]] record-keeping had made newcomers appear unusually [[prone|prone]] to mistakes, although misplaced objects often predated their arrival. Recruits who had practised the tasks asked fewer procedural questions, yet reported more faults before performances. This distinction mattered: silence was not necessarily evidence of competence, while reporting trouble could indicate growing confidence.",
+    "Practical preparation initially seemed an [[extravagance|extravagance]], since it required hiring the rehearsal room for another evening. However, participants found subsequent duties less [[burdensome|burdensome]], and ten remained after three concerts, compared with six in the other group. The small sample prevented sweeping conclusions, but it challenged a cherished assumption: commitment did not simply precede useful work; clear, manageable work could help commitment develop."
+  ],
+  "zh": [
+    "在一支以改建后的面包房为活动场所的社区合唱团里，协调员米拉·森调查了新志愿者为何常常在首场音乐会后便不再露面。合唱团虽注册为慈善机构，却完全依靠无偿劳动运作。访谈表明，相比对音乐表现的焦虑，职责不明确的影响更大，尤其是当资深成员给出的指示相互矛盾时。",
+    "因此，森设计了一项实验，将二十四名新成员抽签分为两组。一组接受常规的口头入职培训；另一组则与歌手托马斯·维达尔一起演练实际任务。这些新成员学习了麦克风支架应收在哪里，以及如何登记借来的器材。为了让他们习惯应对突发需求，维达尔还模拟了电缆丢失的情况。两组收到的书面指南完全相同。",
+    "在六周内，观察员记录了求助情况，并还原了每次器材故障发生的时间顺序。合唱团以往松懈的记录管理，让新成员显得格外容易出错，尽管物品放错位置往往发生在他们加入之前。演练过任务的新成员提出的流程性问题更少，却在演出前报告了更多故障。这一区别很重要：沉默未必意味着胜任，而报告问题则可能表明信心正在增强。",
+    "实际操作培训起初似乎是一种浪费，因为这需要额外租用排练室一个晚上。然而，参与培训的人觉得后续职责不再那么繁重，三场音乐会后仍有十人留下，而另一组只剩六人。样本较小，无法据此得出普遍结论，但实验挑战了一个备受推崇的假设：投入感并非只会先于有效工作而产生；清晰、可承担的工作也能帮助培养投入感。"
+  ],
+  "q": [
+    {
+      "s": "Sen interviewed every volunteer who had left after their first concert.",
+      "a": "NG",
+      "why": "文章未说明访谈是否涵盖所有离开的志愿者。"
+    },
+    {
+      "s": "Both groups were given the same written guidance.",
+      "a": "T",
+      "why": "第二段明确说两组收到相同的书面指南。"
+    },
+    {
+      "s": "Recruits given practical training reported fewer equipment problems before concerts.",
+      "a": "F",
+      "why": "实际演练组在演出前报告了更多故障。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0290",
+  "ids": [
+    "thunder",
+    "challenge",
+    "teacup",
+    "upload",
+    "tissue",
+    "statement",
+    "bride",
+    "confused",
+    "rarely",
+    "reservation"
+  ],
+  "title": "A Wedding Room for Everyone",
+  "titleZh": "人人都能使用的婚礼茶室",
+  "topic": "society",
+  "cefr": 2,
+  "paras": [
+    "In Bell Lane, many families had little space for celebrations. The old reading room was empty most weekends, and neighbours [[rarely|rarely]] met there. So three residents, led by a baker named Amira, decided to turn it into a low-cost wedding tea room. Their main [[challenge|challenge]] was finding enough furniture without buying anything new.",
+    "Within two weeks, neighbours had provided tables, chairs and sixty cups. Each [[teacup|teacup]] was different, but together they made the tables look cheerful. Amira wrote a simple [[statement|statement]] for the door: \"This room belongs to the neighbourhood. Everyone is welcome.\" Couples could make a [[reservation|reservation]] by calling her, and volunteers cleaned the room before each event.",
+    "The first [[bride|bride]], Lin, arrived on a wet Saturday. As [[thunder|thunder]] shook the windows, a little rain came through the roof. One volunteer looked [[confused|confused]] because the tables had been moved. However, Amira quickly explained the new plan. They placed a bucket under the leak and moved the guests to the dry side. Lin wiped a wet chair with a [[tissue|tissue]], then laughed and sat down.",
+    "After the celebration, Lin offered to [[upload|upload]] her photographs to the neighbourhood website. Other couples soon called. The small fees paid for a roof repair, and by autumn the room had hosted eight weddings. A forgotten building had become a shared place of joy."
+  ],
+  "zh": [
+    "在贝尔巷，许多家庭都没有足够的空间举办庆祝活动。旧阅览室大多数周末都空着，邻居们也很少在那里聚会。因此，以面包师阿米拉为首的三位居民决定，把它改造成一间收费低廉、可举办婚礼茶会的场所。他们面临的主要挑战是，不买任何新家具，却要凑齐足够的桌椅。",
+    "不到两周，邻居们就提供了桌子、椅子和六十只茶杯。每只茶杯都不一样，但摆在一起，让桌面显得喜气洋洋。阿米拉写了一段简短的话贴在门上：“这个房间属于整个社区，欢迎每一个人。”新人可以打电话给她预订，志愿者则会在每场活动前打扫房间。",
+    "第一位新娘林在一个下雨的星期六来到这里。雷声震得窗户发颤，一点雨水从屋顶漏了进来。一位志愿者看到桌子被挪动过，显得很困惑。不过，阿米拉很快解释了新的安排。他们在漏水处下方放了一个桶，并把宾客转移到干燥的一侧。林用纸巾擦了擦一把湿椅子，然后笑着坐了下来。",
+    "庆祝活动结束后，林主动提出把照片上传到社区网站。很快，其他新人也打来了电话。收取的少量费用支付了屋顶维修的开支。到了秋天，这个房间已经举办了八场婚礼。一座被遗忘的建筑，成了大家共享欢乐的地方。"
+  ],
+  "q": [
+    {
+      "s": "The organisers planned to furnish the room without purchasing new furniture.",
+      "a": "T",
+      "why": "主要挑战是不买新家具却凑齐桌椅。"
+    },
+    {
+      "s": "Couples had to book the room at least a month before their wedding.",
+      "a": "NG",
+      "why": "只说明电话预订，未说明须提前多久。"
+    },
+    {
+      "s": "By autumn, the room had hosted only two weddings.",
+      "a": "F",
+      "why": "到秋天已举办八场婚礼，而非仅两场。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0599",
+  "ids": [
+    "devastating",
+    "simultaneous",
+    "desolate",
+    "rodent",
+    "normalization",
+    "consulate",
+    "vainly",
+    "amputate",
+    "feasible",
+    "rig"
+  ],
+  "title": "Rebuilding a Harbour in Miniature",
+  "titleZh": "在微缩模型中重建港城",
+  "topic": "city",
+  "cefr": 4,
+  "paras": [
+    "The harbour model begins not with timber, but with evidence. After a [[devastating|devastating]] earthquake, a coastal museum commissioned a miniature reconstruction of the waterfront as it had appeared before the disaster. Its makers combined insurance plans with photographs recovered from a former [[consulate|consulate]], whose staff had documented nearby streets for visiting citizens.",
+    "Establishing dimensions required [[simultaneous|simultaneous]] comparison of several views: a doorway visible in one photograph supplied the scale for a warehouse in another. Surveyors also entered the now [[desolate|desolate]] dock district, where [[rodent|rodents]] occupied abandoned storerooms. They searched [[vainly|vainly]] for the original clock tower's foundation; eventually, its position was calculated from shadows in a dated aerial photograph.",
+    "Once a reliable plan existed, construction became [[feasible|feasible]]. Technicians cut the shoreline from layered plywood, then cast individual buildings in plaster using silicone moulds. Fine brass wire reproduced the latticework of a drilling [[rig|rig]] once stationed beside the repair quay. Rather than conceal uncertainty, the team left poorly documented structures unpainted, distinguishing verified surfaces from provisional interpretations without interrupting the miniature city's visual continuity.",
+    "The final stage involved making small illuminated panels that connected buildings to personal histories. Beside the hospital, one account described surgeons having to [[amputate|amputate]] a dockworker's injured leg; another recorded his subsequent return to employment. These testimonies prevented the model from presenting reconstruction as merely architectural. When the lights were tested, the harbour emerged as both a lost place and a record of gradual [[normalization|normalization]]: workshops reopened, households returned, and familiar routines acquired substance again."
+  ],
+  "zh": [
+    "这座港口模型的制作并非始于木料，而是始于证据。一场破坏极大的地震过后，一家沿海博物馆委托制作一座微缩模型，再现灾前的滨水街区。制作者将保险档案中的平面图与从一处旧领事馆找回的照片结合起来；当年，领事馆工作人员曾为到访的本国公民拍摄记录周边街道。",
+    "要确定尺寸，就必须同时比对多个视角的影像：一张照片中可见的门洞，为另一张照片里的仓库提供了比例参照。测绘人员还进入了如今荒凉无人的码头区，废弃库房已被啮齿动物占据。他们寻找原钟楼地基的努力未能奏效；最终，团队根据一张标有拍摄日期的航拍照片中的阴影，推算出了钟楼的位置。",
+    "有了可靠的图纸，制作便切实可行了。技术人员用多层胶合板切出海岸线，再用硅胶模具逐栋浇铸石膏建筑。细黄铜丝再现了钻井设备的格构结构，那台设备曾安置在修船码头旁。团队没有掩饰资料上的缺漏，而是让记录不充分的建筑保持未上色状态，在不破坏微缩城市视觉连贯性的前提下，将有证据支持的外观与暂定的复原方案区分开来。",
+    "最后一道工序是制作小型发光展板，将建筑与个人经历联系起来。医院模型旁的一则记述讲到，外科医生不得不为一名码头工人截去受伤的腿；另一则则记录了他后来重返工作岗位的经历。这些亲历叙述使模型不至于把重建仅仅呈现为建筑层面的修复。灯光测试时，港口显现出来：它既是一个已经消逝的地方，也记录着生活逐渐恢复正常的过程——作坊重新开张，住户陆续归来，熟悉的日常再次变得真切。"
+  ],
+  "q": [
+    {
+      "s": "The photographs recovered from the former consulate were all taken by the same staff member.",
+      "a": "NG",
+      "why": "文中未说明这些照片是否由同一人拍摄。"
+    },
+    {
+      "s": "The surveyors failed to find the original clock tower's foundation.",
+      "a": "T",
+      "why": "第二段明确说寻找原钟楼地基未果。"
+    },
+    {
+      "s": "The team painted the poorly documented structures to conceal uncertainty.",
+      "a": "F",
+      "why": "第三段明确说资料不足的建筑未上色。"
+    }
+  ]
+}

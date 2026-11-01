@@ -1,0 +1,48 @@
+{
+  "id": "r0270",
+  "ids": [
+    "invention",
+    "split",
+    "pyramid",
+    "thriller",
+    "overweight",
+    "luxury",
+    "straw",
+    "unable",
+    "congratulation",
+    "decade"
+  ],
+  "title": "Straw Goes to the Film Studio",
+  "titleZh": "麦秆走进电影摄影棚",
+  "topic": "work",
+  "cefr": 2,
+  "paras": [
+    "At a small workshop near a wheat farm, film objects are becoming lighter. For the past [[decade|decade]], the team has built wooden furniture and walls for films. Now, more customers are asking for objects made from [[straw|straw]]. Surprisingly, this cheap farm material can look like stone, gold or expensive wood.",
+    "The change began when a film crew was [[unable|unable]] to move a large wooden tower through a studio door. Workshop owner Mina Patel offered an [[invention|invention]]: a tower built in removable sections from dried wheat stems mixed with glue, pressed into thin boards and covered with paper. Workers could [[split|split]] it into sections and carry them separately. The lighter material also meant fewer [[overweight|overweight]] boxes on delivery trucks.",
+    "One recent order was a golden [[pyramid|pyramid]] for a [[thriller|thriller]] about a stolen treasure. Another was a hotel room designed to suggest [[luxury|luxury]], with wide beds and shiny wall panels. Both were mostly made from farm waste. In the finished scenes, the objects looked like the real thing, although the actors noticed that the furniture felt unusually light.",
+    "After the first film was completed, Mina received [[congratulation|congratulations]] from its director. Her workshop now gets half its orders for the new material. It is not suitable for every job: rain can damage the paper surface. However, inside a dry studio, yesterday's wheat field is becoming tomorrow's palace."
+  ],
+  "zh": [
+    "在一家麦田附近的小作坊里，为电影制作的物件正变得越来越轻。过去十年间，这个团队一直为电影制作木质家具和墙壁。如今，越来越多的客户要求用麦秆制作物件。令人意外的是，这种便宜的农场材料看起来可以像石头、黄金或名贵木材。",
+    "这一变化始于一个剧组无法将一座大型木塔搬过摄影棚的门。作坊老板米娜·帕特尔拿出了一项发明：一座由可拆卸部件搭成的塔，制作时将干麦秆与胶混合，压成薄板，再覆上纸。工人可以把它拆成几部分，分别搬运。这种更轻的材料也让送货卡车上的超重箱子减少了。",
+    "最近的一笔订单是为一部讲述宝藏失窃的惊悚片制作一座金色金字塔。另一笔订单则是布置一间展现奢华享受的酒店客房，里面有宽大的床和闪亮的墙板。两者主要都由农业废料制成。在完成的镜头中，这些物件看起来与实物无异，不过演员们注意到，这些家具感觉格外轻。",
+    "第一部电影拍完后，米娜收到了导演的祝贺。如今，作坊有一半订单要求使用这种新材料。它并非适合所有用途：雨水会损坏表面的纸。不过，在干燥的摄影棚里，昨天的麦田正在变成明天的宫殿。"
+  ],
+  "q": [
+    {
+      "s": "The nearby wheat farm supplies all the straw used by the workshop.",
+      "a": "NG",
+      "why": "文中未说明作坊所用麦秆的供应来源。"
+    },
+    {
+      "s": "The actors noticed that the new furniture felt unusually heavy.",
+      "a": "F",
+      "why": "演员注意到家具感觉格外轻，而非重。"
+    },
+    {
+      "s": "Rain can damage the paper covering on the new objects.",
+      "a": "T",
+      "why": "末段明确说雨水会损坏表面的纸。"
+    }
+  ]
+}

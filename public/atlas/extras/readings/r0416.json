@@ -1,0 +1,48 @@
+{
+  "id": "r0416",
+  "ids": [
+    "kidney",
+    "foresee",
+    "registered",
+    "ashore",
+    "analyze",
+    "vision",
+    "excess",
+    "corporation",
+    "considerate",
+    "footprint"
+  ],
+  "title": "The Purple Sand Photograph",
+  "titleZh": "紫色沙滩照片",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "When a photograph of purple sand appeared on a coastal news website, readers feared pollution. The caption claimed that waste from a nearby [[corporation|corporation]] could damage the [[kidney|kidneys]]. Within hours, the beach café had lost its weekend bookings. Editor Leila Noor had not [[foresee|foreseen]] how quickly an unverified caption could affect the town.",
+    "Leila asked photographer Mateo Silva to find the exact location. One detail helped: a deep [[footprint|footprint]] beside a broken wooden post. They travelled along the coast in a [[registered|registered]] fishing boat and stepped [[ashore|ashore]] near an abandoned salt store. There, purple streaks covered the sand, but only beneath a row of torn sacks.",
+    "Leila sent samples for technicians to [[analyze|analyze]]. She also interviewed a former storekeeper whose poor [[vision|vision]] prevented him from reading the faded labels. He remembered storing [[excess|excess]] powder left over from colouring building materials. Tests identified the same type of powder; streaks beneath the sacks suggested rain had washed it out. The colour alone did not establish that industrial waste was entering the sea.",
+    "The website published a correction explaining the findings. Leila was [[considerate|considerate]] towards the original contributor, explaining the mistake without naming him. She also introduced a rule requiring evidence for health claims. After the sacks were removed and the beach inspected, the café reopened its terrace. Its first busy Sunday offered a practical sign that trust was returning."
+  ],
+  "zh": [
+    "一张紫色沙滩的照片出现在一家海岸新闻网站上后，读者担心这里发生了污染。图片说明声称，附近一家大公司的废弃物可能损害肾脏。几小时内，海滩咖啡馆就失去了周末的预订。编辑莱拉·努尔没有预料到，一条未经核实的图片说明会这么快影响整个小镇。",
+    "莱拉请摄影师马特奥·席尔瓦找出照片的确切拍摄地点。一个细节帮了忙：一根断裂木桩旁有个深深的脚印。他们乘坐一艘已登记的渔船沿海岸寻找，在一座废弃盐仓附近上了岸。那里的沙地上布满紫色条纹，但只出现在一排破袋子的下方。",
+    "莱拉把样本送去供技术人员分析。她还采访了一位以前的仓库管理员。他视力不好，看不清褪色的标签。他记得曾存放给建筑材料着色后剩下的多余粉末。检测鉴定出样本是同一类粉末；袋子下方的条纹则表明，粉末可能是被雨水冲出来的。单凭这种颜色，无法确定有工业废弃物正在进入海洋。",
+    "网站刊登了更正，解释调查结果。莱拉体谅最初的投稿者，解释错误时没有公布他的姓名。她还制定了一项规定，要求涉及健康的说法必须有证据支持。袋子被移走、海滩接受检查后，咖啡馆重新开放了露台。随后迎来的第一个忙碌的星期日，切实表明人们的信任正在恢复。"
+  ],
+  "q": [
+    {
+      "s": "The website's report had a rapid effect on a local business.",
+      "a": "T",
+      "why": "报道发布数小时内，咖啡馆便失去周末预订。"
+    },
+    {
+      "s": "Leila paid for the laboratory tests herself.",
+      "a": "NG",
+      "why": "文中提到送检，但未说明谁支付检测费。"
+    },
+    {
+      "s": "Leila named the original contributor when explaining the mistake.",
+      "a": "F",
+      "why": "文中明确说她解释错误时没有公布他的姓名。"
+    }
+  ]
+}

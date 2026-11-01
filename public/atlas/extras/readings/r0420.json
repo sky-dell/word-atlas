@@ -1,0 +1,46 @@
+{
+  "id": "r0420",
+  "ids": [
+    "hub",
+    "specific",
+    "assume",
+    "unfortunate",
+    "bungalow",
+    "adopt",
+    "sole",
+    "annoyance",
+    "concentration",
+    "authority"
+  ],
+  "title": "A Print from One Block",
+  "titleZh": "一块木版上的版画",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "In the early twentieth century, Provincetown, a small town on the American coast, became a [[hub|hub]] for artists seeking inexpensive rooms and creative company. Around 1915, a distinctive method of making colour woodcuts emerged there. Readers may [[assume|assume]] that a colourful print requires several wooden blocks, one for each colour. However, the Provincetown method used just one. It offered a practical solution to a [[specific|specific]] problem: how to produce coloured images without a large workshop or expensive equipment.",
+    "The artist cut narrow grooves around the shapes in a design, then painted and printed each section separately. The grooves left white lines on the paper, giving the technique its name: white-line woodcut. Artists could [[adopt|adopt]] this approach in a modest domestic space; even a table in a [[bungalow|bungalow]] could serve as a printing station. Yet simplicity did not remove the need for [[concentration|concentration]]. An [[unfortunate|unfortunate]] movement could shift the paper and spoil an image. Keeping the sheet correctly positioned through repeated impressions was therefore essential, and mistakes could cause considerable [[annoyance|annoyance]].",
+    "Unlike workshop traditions that divided designing, cutting and printing among specialists, this method allowed one person to take [[sole|sole]] responsibility for the finished work. The maker retained [[authority|authority]] over every decision, from the depth of a groove to the strength of a colour. Because colours were applied by hand, impressions from the same block could differ. What began as an economical technique thus made variation part of the art itself."
+  ],
+  "zh": [
+    "二十世纪初，美国海滨小镇普罗温斯敦成为艺术家的活动中心，他们来这里寻找廉价住处和志同道合的伙伴。约在1915年，当地出现了一种独特的彩色木刻版画制作方法。读者可能会想当然地认为，一幅色彩丰富的版画需要好几块木版，每种颜色各用一块。然而，普罗温斯敦的这种方法只用一块木版。它为一个特定问题提供了实用的解决办法：如何不依赖大型作坊或昂贵设备制作彩色图像。",
+    "艺术家沿着图案中各个形状的边缘刻出细槽，然后逐个区域上色并印到纸上。细槽在纸上留下白线，这项技法因此得名“白线木刻”。艺术家可以在普通的居家空间里采用这种方法；即使是平房里的一张桌子，也能充当印制工作台。不过，方法简单并不意味着无需专注。一次不巧的移动就可能使纸张错位，毁掉画面。因此，在反复压印过程中保持纸张位置准确至关重要，而失误可能令人相当烦躁。",
+    "有些传统作坊把设计、刻版和印刷分配给不同的专业人员，而这种方法让一个人就能独自负责整件作品。制作者掌握着所有决定的权力，从刻槽的深度到颜色的浓淡，都由自己决定。由于颜色是手工涂上的，同一块木版印出的作品也可能各不相同。于是，一种起初为了节省成本而采用的技法，让变化本身成为艺术的一部分。"
+  ],
+  "q": [
+    {
+      "s": "Most artists arriving in Provincetown rented rooms near the sea.",
+      "a": "NG",
+      "why": "首段提到寻找廉价住处，未说明多数人住在哪里。"
+    },
+    {
+      "s": "Once the block was prepared, careful attention was unnecessary during printing.",
+      "a": "F",
+      "why": "第二段强调印制仍需专注并保持纸张位置。"
+    },
+    {
+      "s": "Prints made from the same wooden block could differ from one another.",
+      "a": "T",
+      "why": "第三段明确说同一木版的印品可能不同。"
+    }
+  ]
+}

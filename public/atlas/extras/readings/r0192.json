@@ -1,0 +1,48 @@
+{
+  "id": "r0192",
+  "ids": [
+    "measure",
+    "hanger",
+    "jewel",
+    "image",
+    "monster",
+    "target",
+    "fluent",
+    "rub",
+    "lighthouse",
+    "response"
+  ],
+  "title": "The Sea Monster's Coat",
+  "titleZh": "海怪的外衣",
+  "topic": "arts",
+  "cefr": 2,
+  "paras": [
+    "In 1926, a small theatre in a fishing village needed a sea [[monster|monster]] for its winter play. There was little money, so the costume maker, Marta, used an old wool coat. Her [[target|target]] was simple: to create something frightening enough to surprise the audience without frightening the youngest children too much.",
+    "First, Marta had to [[measure|measure]] the actor from shoulder to ankle. She then painted green waves across the coat and added one glass eye. A newspaper [[image|image]] of a storm gave her the idea for its colours. Instead of buying a real [[jewel|jewel]], she fixed a bright piece of broken glass above the eye.",
+    "Between performances, the coat rested on a wooden [[hanger|hanger]] beside the stage door. The actor would [[rub|rub]] its sleeves with a dry cloth to remove dust. In the play, his creature lived below a [[lighthouse|lighthouse]] and communicated with passing sailors. Although he was [[fluent|fluent]] in two languages, he used only strange cries for this part.",
+    "The audience's favourite moment came when a sailor asked the creature its name. Its [[response|response]] was a long, musical whistle. The coat appeared every winter for twenty years. When it finally became too weak to wear, the theatre put it in a glass case, with that original glass eye still looking towards the sea."
+  ],
+  "zh": [
+    "1926年，一个渔村的小剧院要为冬季演出准备一只海怪。经费很少，因此服装师玛尔塔用了一件旧羊毛大衣。她的目标很简单：做出一个足以让观众吃惊的可怕形象，但又不至于把最小的孩子吓坏。",
+    "首先，玛尔塔得测量演员从肩膀到脚踝的长度。然后，她在大衣上画出绿色的波浪，并装上一只玻璃眼睛。报纸上一幅暴风雨的图片给了她配色的灵感。她没有购买真正的宝石，而是在眼睛上方固定了一块闪亮的碎玻璃。",
+    "演出间歇，大衣挂在舞台门旁的木衣架上。演员会用干布擦拭袖子，除去灰尘。在剧中，这只怪物住在灯塔下方，会同过往的水手交流。虽然这名演员能流利地说两种语言，但演这个角色时，他只发出奇怪的叫声。",
+    "观众最喜欢的一幕，是水手询问怪物的名字。怪物的回答是一声悠长、悦耳的口哨。这件大衣连续二十年出现在每年的冬季演出中。后来，它终于破旧得无法再穿，剧院便把它放进玻璃展柜，原来那只玻璃眼睛仍然望着大海。"
+  ],
+  "q": [
+    {
+      "s": "Marta had made costumes for this theatre before 1926.",
+      "a": "NG",
+      "why": "首段未说明玛尔塔此前是否为该剧院做过服装。"
+    },
+    {
+      "s": "Marta purchased a valuable stone to decorate the costume.",
+      "a": "F",
+      "why": "她没有买真宝石，而是用了碎玻璃。"
+    },
+    {
+      "s": "The creature answered a question about its name with a whistle.",
+      "a": "T",
+      "why": "末段明确说怪物用口哨回应姓名问题。"
+    }
+  ]
+}

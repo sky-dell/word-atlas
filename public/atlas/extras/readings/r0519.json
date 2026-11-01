@@ -1,0 +1,48 @@
+{
+  "id": "r0519",
+  "ids": [
+    "superb",
+    "supposing",
+    "guarantee",
+    "coincidence",
+    "timber",
+    "unfit",
+    "flush",
+    "vitamin",
+    "altitude",
+    "extract"
+  ],
+  "title": "Why Mountain Snow Turns Pink",
+  "titleZh": "山间积雪为何变成粉红色",
+  "topic": "travel",
+  "cefr": 3,
+  "paras": [
+    "High above a mountain valley, walkers sometimes discover pink patches across an otherwise white snowfield. Against the dark rock, the colour offers a [[superb|superb]] photographic subject. By [[coincidence|coincidence]], a group may arrive just as the colour becomes visible, but this is not an overnight transformation. It is the result of tiny algae multiplying within the melting snow.",
+    "These organisms survive in a surprisingly demanding environment. At high [[altitude|altitude]], sunlight is intense, while temperatures can fall sharply after sunset. During warmer periods, thin films of liquid water form around snow crystals, allowing the algae to grow. They [[extract|extract]] nutrients from their surroundings, and nearby microbes can supply substances such as [[vitamin|vitamins]] needed for growth. Red pigments help protect the cells against strong sunlight.",
+    "[[supposing|Supposing]] several warm, bright days follow a fresh snowfall, will the slopes necessarily turn pink? No: suitable weather cannot [[guarantee|guarantee]] a bloom if too few algae are present. Where large populations develop, however, the darker surface absorbs more solar energy than clean white snow. This speeds up melting, providing additional liquid water that can support further growth.",
+    "Near mountain huts built from [[timber|timber]], visitors may mistake this snow for a convenient water supply. Yet untreated meltwater can be [[unfit|unfit]] for drinking because it may contain microbes and other contaminants. Hut workers may use collected meltwater to [[flush|flush]] toilets instead. For walkers, the pink patches are best appreciated as evidence that even a frozen landscape contains active communities of life."
+  ],
+  "zh": [
+    "在山谷上方的高山地带，徒步旅行者有时会发现，原本洁白的雪地上出现了片片粉红色。在深色岩石的映衬下，这种色彩是绝佳的摄影题材。一支队伍可能碰巧在颜色刚刚显现时到达，但这种变化并非一夜之间发生的。它是微小藻类在融雪中不断繁殖的结果。",
+    "这些生物生活的环境严酷得出人意料。高海拔地区阳光强烈，而日落后气温可能骤降。天气较暖时，雪晶周围会形成薄薄的液态水膜，使藻类得以生长。它们从周围环境中获取养分，附近的微生物还可以提供维生素等生长所需的物质。红色色素有助于保护藻类细胞免受强烈阳光的伤害。",
+    "假如一场新雪过后接连出现几个温暖晴朗的日子，山坡就一定会变成粉红色吗？并不会：如果藻类数量太少，即使天气适宜，也无法保证它们大量繁殖。不过，在藻类形成庞大群体的地方，颜色较深的表面会比洁净的白雪吸收更多太阳能。这会加快融雪，提供更多液态水，进而支持藻类继续生长。",
+    "在木材建造的山间小屋附近，游客可能误以为这些积雪是方便取用的水源。然而，未经处理的融雪水可能不适合饮用，因为其中可能含有微生物和其他污染物。小屋工作人员可以将收集的融雪水用于冲厕所。对徒步旅行者而言，欣赏这些粉红色斑块的最佳方式，是把它们看作一种证明：即使冰封的地貌中，也存在着活跃的生命群落。"
+  ],
+  "q": [
+    {
+      "s": "The change that produces the pink snow happens overnight.",
+      "a": "F",
+      "why": "首段明确说这种变化并非一夜之间发生。"
+    },
+    {
+      "s": "Red pigments help protect the algae's cells from strong sunlight.",
+      "a": "T",
+      "why": "第二段明确说明红色色素的保护作用。"
+    },
+    {
+      "s": "Most mountain huts collect enough meltwater to meet all their toilet-flushing needs.",
+      "a": "NG",
+      "why": "末段未说明多数小屋收集的水量是否足够。"
+    }
+  ]
+}

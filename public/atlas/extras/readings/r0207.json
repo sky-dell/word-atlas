@@ -1,0 +1,48 @@
+{
+  "id": "r0207",
+  "ids": [
+    "smooth",
+    "cheque-check",
+    "container",
+    "ban",
+    "portrait",
+    "tap",
+    "pony",
+    "infinitive",
+    "protection",
+    "suburb"
+  ],
+  "title": "A Village Through Its Newspaper",
+  "titleZh": "报纸里的村庄记忆",
+  "topic": "media",
+  "cefr": 2,
+  "paras": [
+    "Beyond the last [[suburb|suburb]] of Bellwick, a narrow road leads to a village newspaper museum. Visitors come for its old printing room, but guide Leila suggests starting with a photograph. It shows a girl beside a [[pony|pony]], delivering newspapers along the same road in 1932.",
+    "Inside, Leila places a copy of the photograph on a [[smooth|smooth]] wooden table. Beside it lies a [[portrait|portrait]] of the newspaper's first editor, who also wrote a weekly English lesson. One yellow page explains the [[infinitive|infinitive]] with examples such as 'to ride' and 'to read'. Another displays a reader's letter and a [[cheque-check|cheque]] sent to help buy a new printing machine.",
+    "The museum is small enough to explore in an hour. In the workroom, metal letters sit in a shallow [[container|container]], ready for visitors to arrange their names. Afterwards, they wash the black ink from their hands under a brass [[tap|tap]]. For the [[protection|protection]] of the oldest papers, the museum [[ban|bans]] photography in the back room, although visitors can take pictures elsewhere.",
+    "Before leaving, I buy a freshly printed sheet of village news. It lists a bread sale and an evening concert. Outside, the road looks ordinary again, yet the museum has changed it for me: I can almost hear the young newspaper seller arriving."
+  ],
+  "zh": [
+    "出了贝尔威克最外围的住宅区，一条窄路通向一座村庄报纸博物馆。游客们为古老的印刷室而来，但导览员莱拉建议先看一张照片。照片摄于1932年，一个女孩站在一匹小型马旁，当年她就是沿着这条路送报的。",
+    "走进馆内，莱拉把照片的复制品放在一张光滑的木桌上。旁边是一幅报纸首任编辑的肖像，这位编辑当年还每周编写一期英语学习栏目。一张泛黄的报纸用“to ride”和“to read”等例子解释动词不定式。另一张则刊登了一封读者来信，以及读者为资助购买新印刷机而寄来的支票。",
+    "博物馆不大，一个小时就能逛完。在工作间里，金属活字放在一个浅容器中，供游客排出自己的名字。之后，游客可以在黄铜水龙头下洗掉手上的黑色油墨。为了保护年代最久的报纸，博物馆禁止在后面的房间拍照，不过其他地方可以拍摄。",
+    "离开前，我买了一张刚印好的村庄新闻，上面登着面包售卖活动和晚间音乐会的消息。走到外面，那条路看起来又平平无奇，但博物馆已经改变了它在我心中的模样：我仿佛能听见那位年轻的送报女孩正赶来。"
+  ],
+  "q": [
+    {
+      "s": "The reader's cheque was sent to buy a pony rather than a printing machine.",
+      "a": "F",
+      "why": "支票是为资助购买新印刷机而寄来的。"
+    },
+    {
+      "s": "Visitors can take photographs in some parts of the museum.",
+      "a": "T",
+      "why": "后面的房间禁拍，其他地方允许拍照。"
+    },
+    {
+      "s": "The writer went to the evening concert advertised in the village news.",
+      "a": "NG",
+      "why": "文章只说报上有音乐会消息，未说作者参加。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0476",
+  "ids": [
+    "blur",
+    "philosopher",
+    "whoever",
+    "authentic",
+    "perspective",
+    "irritate",
+    "vacuum",
+    "concerned",
+    "sincerely",
+    "scope"
+  ],
+  "title": "Listening Beside the Reed Bed",
+  "titleZh": "芦苇荡边的聆听",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "At 6:40 on Tuesday morning, mist began to [[blur|blur]] the far bank of Willow Marsh. I was recording bird calls for a small study of outdoor rest and mental health. Beside me sat Leila, a retired [[philosopher|philosopher]] who had volunteered to describe her experience of twenty quiet minutes beside the reeds.",
+    "Our instructions were simple: [[whoever|whoever]] occupied the wooden seat should leave notebooks closed until the session ended. We wanted an [[authentic|authentic]] account of the marsh, not a description shaped by our questions. From Leila's [[perspective|perspective]], however, silence was not automatically peaceful. A loose metal gate clicked repeatedly in the breeze, and after five minutes it began to [[irritate|irritate]] her. Meanwhile, two coots pulled wet stems towards a half-built nest.",
+    "I was [[concerned|concerned]] that the gate would dominate her report. Yet when a caretaker secured it, its absence created a brief [[vacuum|vacuum]] in her attention: she had been waiting for each click. Then she noticed water dripping from the coots' nesting material. Afterwards, she [[sincerely|sincerely]] thanked the caretaker, but admitted that the annoying sound had made her more aware of everything that followed.",
+    "The [[scope|scope]] of our study was limited to immediate experiences, rather than lasting medical benefits. One morning could not establish that marsh visits improved health. Still, my final field note recorded a small change: Leila arrived watching the time and left watching a coot swim towards its nest with a reed in its beak."
+  ],
+  "zh": [
+    "星期二早晨六点四十分，薄雾开始让柳树沼泽的对岸变得模糊。我正在录制鸟鸣，为一项关于户外休息与心理健康的小型研究收集资料。坐在我旁边的是退休哲学家莱拉。她自愿参加研究，描述自己在芦苇边安静度过二十分钟的体验。",
+    "我们的要求很简单：无论谁坐在这张木椅上，都要等体验结束后才能打开笔记本。我们想得到参与者对沼泽的真实描述，而不是受我们提问影响的叙述。然而，在莱拉看来，安静并不必然意味着平和。一扇松动的金属门在微风中不断发出咔嗒声，五分钟后，她开始觉得烦躁。与此同时，两只白骨顶鸡正把湿漉漉的茎秆拖向一个搭了一半的巢。",
+    "我担心那扇门会成为她报告的主要内容。然而，当管理员把门固定好后，声音的消失却让她的注意力短暂地失去了着落：她此前一直在等待下一声咔嗒。接着，她注意到水正从白骨顶鸡的筑巢材料上滴落。结束后，她由衷地感谢了管理员，但也承认，那个恼人的声音让她更加留意随后发生的一切。",
+    "我们的研究范围仅限于即时体验，并不涉及长期医疗益处。一个早晨的观察无法证明，到访沼泽能改善健康。不过，我最后一条野外笔记记录了一个小小的变化：莱拉来时盯着时间，离开时却在看一只白骨顶鸡嘴里衔着芦苇游向自己的巢。"
+  ],
+  "q": [
+    {
+      "s": "Participants were asked to wait until their quiet session was over before opening their notebooks.",
+      "a": "T",
+      "why": "要求体验结束后才能打开笔记本。"
+    },
+    {
+      "s": "Leila had met the caretaker before the study session.",
+      "a": "NG",
+      "why": "文章未说明莱拉此前是否见过管理员。"
+    },
+    {
+      "s": "The study examined lasting medical benefits rather than immediate experiences.",
+      "a": "F",
+      "why": "研究仅限即时体验，不涉及长期医疗益处。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0502",
+  "ids": [
+    "restricted",
+    "distraction",
+    "adjustment",
+    "robbery",
+    "reef",
+    "giggle",
+    "dispute",
+    "confusion",
+    "lightly",
+    "secure"
+  ],
+  "title": "Making a Harbour Speak",
+  "titleZh": "让港湾地图发声",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "A talking harbour map begins not with electronics, but with an old sea chart. For a maritime museum, designer Hana draws a simplified coastline, keeping only features essential to one historical voyage. Because space on the display is [[restricted|restricted]], she removes minor bays but retains a dangerous [[reef|reef]] near the harbour entrance.",
+    "Next, a machine cuts the coastline into a wooden panel. Hana sands its edges and attaches raised symbols for a lighthouse, a ship and a warehouse. Beneath each symbol, she installs a pressure sensor connected to a small computer. Visitors press [[lightly|lightly]] to hear a recording, while hidden screws keep the panel [[secure|secure]] even when several hands explore it together.",
+    "The recordings turn historical documents into a short journey. One describes a [[robbery|robbery]] in which armed men threatened the warehouse keeper and stole imported cloth. Another explains a [[dispute|dispute]] between two captains who both claimed ownership of the cargo. Their conflicting accounts are presented separately to prevent [[confusion|confusion]] about who said what. Background music is omitted because it could become a [[distraction|distraction]] from the spoken evidence.",
+    "Finally, volunteers test the finished map. Some [[giggle|giggle]] when a recorded sailor unexpectedly shouts a warning, but they quickly return to exploring. When two recordings start together, Hana makes a small [[adjustment|adjustment]] to the software so that only one can play at a time. The completed exhibit transforms a silent chart into a journey guided by touch and sound."
+  ],
+  "zh": [
+    "制作一张会说话的港湾地图，起点不是电子设备，而是一张古老的海图。设计师哈娜为一家海事博物馆绘制简化的海岸线，只保留对某次历史航行至关重要的地理特征。由于展板空间有限，她删去了较小的海湾，但保留了港口入口附近一处危险的暗礁。",
+    "接下来，机器在木质面板上刻出海岸线。哈娜打磨面板边缘，并装上代表灯塔、船只和仓库的凸起符号。她在每个符号下方安装一个与小型计算机相连的压力传感器。参观者轻轻按压，就能听到录音；隐藏的螺丝则确保面板稳固，即使几双手同时在上面探索也不例外。",
+    "这些录音将历史文献串成一段短途旅程。其中一段讲述了一起抢劫案：武装人员威胁仓库管理员，抢走了进口布料。另一段解释了两位船长之间的争端，他们都声称自己拥有这批货物。两人相互矛盾的陈述被分开播放，以免参观者弄不清各自说了什么。录音没有配背景音乐，因为音乐可能分散人们对口述证据的注意力。",
+    "最后，志愿者测试完成的地图。当录音中的水手突然高声发出警告时，有些人咯咯地笑起来，但很快又继续探索。当两段录音同时响起时，哈娜对软件做了一处小调整，确保每次只能播放一段。最终，这件展品将一张无声的海图变成了一场由触觉和声音引导的旅程。"
+  ],
+  "q": [
+    {
+      "s": "Hana leaves the dangerous reef out of her simplified coastline.",
+      "a": "F",
+      "why": "首段明确说她保留了港口入口附近的危险暗礁。"
+    },
+    {
+      "s": "The pressure sensors were made especially for this museum.",
+      "a": "NG",
+      "why": "文中只说明传感器的安装，未说明是否专门定制。"
+    },
+    {
+      "s": "Hana changes the software to prevent recordings from playing at the same time.",
+      "a": "T",
+      "why": "末段说她调整软件，使每次只能播放一段录音。"
+    }
+  ]
+}

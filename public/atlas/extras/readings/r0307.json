@@ -1,0 +1,48 @@
+{
+  "id": "r0307",
+  "ids": [
+    "congratulate",
+    "dining",
+    "gather",
+    "fortnight",
+    "whatever",
+    "relative",
+    "necessarily",
+    "flow",
+    "trainee",
+    "grab"
+  ],
+  "title": "A Cook’s First Celebration",
+  "titleZh": "一位厨师的首次庆功宴",
+  "topic": "emotion",
+  "cefr": 2,
+  "paras": [
+    "Mina was a young [[trainee|trainee]] cook at a seaside hotel. At the end of her training, her teacher asked her to prepare a dinner for twelve guests. She had a [[fortnight|fortnight]] to plan it. She began to [[gather|gather]] recipes from the other cooks, choosing dishes she had made before. One [[relative|relative]] could attend, and Mina saved a place for her near the window.",
+    "For the guests, [[dining|dining]] at the hotel would be a pleasant evening. For Mina, it was a test. Finishing her training did not [[necessarily|necessarily]] mean she felt ready to work alone. Before the guests arrived, she was nervous, and her hands shook as she checked the soup. Her teacher stood nearby but let her make the decisions.",
+    "Then the water stopped coming from the kitchen tap. Mina wanted to [[grab|grab]] a heavy bucket and run to the bathroom, but her teacher pointed to the closed valve under the sink. She opened it, and water began to [[flow|flow]] again. She remembered his advice: '[[whatever|Whatever]] happens, take one slow breath before you act.'",
+    "The meal went out on time. When the last plate returned empty, her teacher came over to [[congratulate|congratulate]] her. Mina sat down for the first time that evening. She was tired, but now she wanted to hear what the guests had said about her soup."
+  ],
+  "zh": [
+    "米娜是一家海滨酒店的年轻实习厨师。培训结束时，她的老师让她为十二位客人准备一顿晚餐。她有两周时间筹划。她开始向其他厨师搜集食谱，挑选自己以前做过的菜。一位亲属能够出席，米娜为她留了一个靠窗的座位。",
+    "对客人来说，在酒店用餐将是一个愉快的夜晚。对米娜来说，这却是一次考验。完成培训并不一定意味着她觉得自己已经准备好独立工作。客人到来前，她很紧张，查看汤时双手都在发抖。老师站在附近，但让她自己做决定。",
+    "这时，厨房水龙头不出水了。米娜想一把抓起一只沉重的水桶，跑去浴室，但老师指了指水槽下面关闭的阀门。她打开阀门，水又开始流了。她想起了老师的建议：“无论发生什么，行动前先缓缓地呼吸一次。”",
+    "晚餐准时上了桌。当最后一个盘子空着送回来时，老师走过来向她道贺。米娜这才在当晚第一次坐下。她很累，但现在她想听听客人们是怎么评价她做的汤的。"
+  ],
+  "q": [
+    {
+      "s": "Mina had two weeks to plan the dinner.",
+      "a": "T",
+      "why": "首段说她有两周时间筹划晚餐。"
+    },
+    {
+      "s": "Mina felt relaxed before the guests arrived.",
+      "a": "F",
+      "why": "第二段明确说客人到来前她很紧张。"
+    },
+    {
+      "s": "Mina's teacher tasted the soup before it was served.",
+      "a": "NG",
+      "why": "未说明老师是否在上菜前尝过汤。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0667",
+  "ids": [
+    "translucent",
+    "gorge",
+    "indebtedness",
+    "immerse",
+    "veteran",
+    "perpendicular",
+    "saline",
+    "concession",
+    "displacement",
+    "emigrant"
+  ],
+  "title": "A River Held in Glass",
+  "titleZh": "凝于玻璃中的河流",
+  "topic": "arts",
+  "cefr": 4,
+  "paras": [
+    "River Without Banks is an exhibition about a fictional [[emigrant|emigrant]] artist, Leila Varga, who left her homeland permanently. At its entrance, a [[translucent|translucent]] glass panel admits a greenish glow while obscuring the objects behind it. It evokes the narrow [[gorge|gorge]] where her family once operated a glass workshop. Objects and documents trace her story.",
+    "In the first cabinet, a ledger records the workshop’s growing [[indebtedness|indebtedness]] after a flood destroyed its furnace. Beside it, an eviction notice documents the family’s subsequent [[displacement|displacement]]: creditors claimed both their workplace and their home. These papers complicate the image of artistic travel as voluntary adventure, revealing the financial pressures that preceded Varga’s departure for another country.",
+    "The central gallery recreates her adopted coastal studio. Visitors can [[immerse|immerse]] themselves in recordings of grinding wheels while examining tools arranged [[perpendicular|perpendicular]] to the workbench’s front edge. A [[veteran|veteran]] of decorative glassmaking, Mateo Chen, helped Varga adapt her designs for architectural commissions. Their correspondence describes experiments with [[saline|saline]] solutions, whose evaporating droplets left crystal patterns that she copied into etched borders.",
+    "The final window resulted from a [[concession|concession]]: Varga accepted a client’s demand for colourless glass, while the client approved her irregular river motif. Its lines are distributed across glass layers separated by gaps. Viewed from the marked position, they align to form a single channel; one step sideways breaks that alignment. The fragmented view recalls the landscape Varga reconstructed from memory rather than observed from her new home."
+  ],
+  "zh": [
+    "“无岸之河”是一场围绕虚构的移民艺术家莱拉·瓦尔加展开的展览，她永久离开了自己的祖国。展览入口处，一块半透明玻璃板透出淡绿色的光，却让人看不清后面的物体。它令人想起她家曾经营玻璃作坊的那道狭窄峡谷。展览通过物品和文件追溯她的故事。",
+    "第一个展柜中的账簿记录了洪水冲毁熔炉后，作坊日益累积的债务。旁边的一份驱逐通知，则记录了这家人随后被迫迁离的遭遇：债权人收走了他们的作坊和住宅。这些文件让人重新审视那种将艺术家的远行视为主动冒险的想象，揭示出瓦尔加移居他国之前所承受的经济压力。",
+    "中央展厅重现了她在异国海滨的工作室。参观者可以沉浸于砂轮运转的录音，同时观察那些与工作台前缘成直角摆放的工具。装饰玻璃制作老手马特奥·陈曾帮助瓦尔加调整设计，以承接建筑装饰委托。两人的通信描述了用含盐溶液进行的实验：液滴蒸发后留下结晶图案，她便将这些纹样转绘到蚀刻边饰中。",
+    "最后一扇玻璃窗源于一次妥协：瓦尔加接受了客户使用无色玻璃的要求，而客户则认可了她那不规则的河流纹样。线条分布在彼此留有间隙的多层玻璃上。从标记的位置望去，它们恰好对齐，形成一条河道；向旁边迈一步，线条便不再对齐。这个碎片化的景象令人想起瓦尔加凭记忆重构的风景，而非她从新家观察到的景色。"
+  ],
+  "q": [
+    {
+      "s": "Financial difficulties contributed to the circumstances leading to Varga’s move abroad.",
+      "a": "T",
+      "why": "账簿和驱逐通知揭示了出国前的经济压力。"
+    },
+    {
+      "s": "Varga’s final window used coloured glass despite her client’s objections.",
+      "a": "F",
+      "why": "她接受了客户使用无色玻璃的要求。"
+    },
+    {
+      "s": "The final window attracts more visitors than any other exhibit.",
+      "a": "NG",
+      "why": "文中未比较各展品吸引的参观人数。"
+    }
+  ]
+}

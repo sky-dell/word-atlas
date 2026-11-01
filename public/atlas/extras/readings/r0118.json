@@ -1,0 +1,46 @@
+{
+  "id": "r0118",
+  "ids": [
+    "skiing",
+    "password",
+    "postbox",
+    "ending",
+    "support",
+    "helicopter",
+    "untidy",
+    "soccer",
+    "boot",
+    "ring"
+  ],
+  "title": "Tracks Behind the Mountain Hut",
+  "titleZh": "山间小屋后的足迹",
+  "topic": "work",
+  "cefr": 1,
+  "paras": [
+    "Monday, 7 a.m. My winter job is to count animal tracks near a mountain hut. [[skiing|Skiing]] helps me reach places where the snow is deep. Before leaving, I enter a [[password|password]] on the hut's computer and check the weather. Then I put a letter for our office in the village [[postbox|postbox]]. Two people there [[support|support]] my work by sending food and paper maps. Today, I am looking for a fox with one small back foot.",
+    "At nine, a [[helicopter|helicopter]] passes high above the trees, but it does not land. I take off my skis beside a tree. Below me, the snow looks [[untidy|untidy]]: there are bird tracks, fallen sticks and marks from my left [[boot|boot]]. Near a flat field where hut workers play [[soccer|soccer]] in summer, I find the fox's tracks. Three prints are large and one is small. I follow them slowly towards a dark rock, stopping often to listen.",
+    "Beside the rock, a metal [[ring|ring]] hangs from an old wooden gate. Under it, fresh tracks lead into a hole. I wait behind a tree. Soon, the fox comes out and walks across the snow without difficulty. This is a happy [[ending|ending]] to my morning's search. In my notebook, I write: 'Small back foot, but moving well.' Then I leave quietly."
+  ],
+  "zh": [
+    "星期一，早上七点。我冬天的工作是统计山间小屋附近的动物足迹。滑雪能帮助我到达积雪很深的地方。出发前，我在小屋的电脑上输入密码，查看天气。然后，我把一封寄给办公室的信投进村里的邮筒。办公室有两个人给我寄食物和纸质地图，支持我的工作。今天，我要寻找一只狐狸，它有一只后脚偏小。",
+    "九点，一架直升机从树林上方的高空飞过，但没有降落。我在一棵树旁脱下滑雪板。我脚下的雪地看起来很凌乱：有鸟的足迹、掉落的树枝，还有我左脚靴子留下的印子。小屋的工作人员夏天会在一块平地上踢足球，我在那块地附近发现了狐狸的足迹。四个脚印中，三个大，一个小。我沿着它们慢慢走向一块深色岩石，不时停下来听听动静。",
+    "岩石旁边，一扇旧木门上挂着一个金属环。金属环下方，新鲜的足迹通向一个洞。我在一棵树后等待。很快，狐狸出来了，轻松地走过雪地。这让我一上午的寻找有了一个愉快的结局。我在笔记本上写道：“一只后脚偏小，但行走正常。”然后，我悄悄地离开了。"
+  ],
+  "q": [
+    {
+      "s": "The helicopter lands at nine.",
+      "a": "F",
+      "why": "九点直升机从上方飞过，但没有降落。"
+    },
+    {
+      "s": "The hut workers play soccer every week in summer.",
+      "a": "NG",
+      "why": "只说夏天踢足球，未说明是否每周都踢。"
+    },
+    {
+      "s": "The fox walks across the snow without difficulty.",
+      "a": "T",
+      "why": "第三段明确说狐狸轻松地走过雪地。"
+    }
+  ]
+}

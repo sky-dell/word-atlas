@@ -1,0 +1,46 @@
+{
+  "id": "r0014",
+  "ids": [
+    "magazine",
+    "practise",
+    "city",
+    "boring",
+    "finish",
+    "pig",
+    "our",
+    "football",
+    "station",
+    "tomorrow"
+  ],
+  "title": "Why Pigs Lie in Mud",
+  "titleZh": "猪为什么躺在泥里",
+  "topic": "nature",
+  "cefr": 0,
+  "paras": [
+    "There is a small farm in [[our|our]] [[city|city]], near the train [[station|station]]. On hot days, its [[pig|pigs]] lie in wet mud under a tree. Some visitors think these animals have a [[boring|boring]] day. But the mud does an important job. A [[magazine|magazine]] in the farm shop tells us why. It has pictures of the animals in summer and winter.",
+    "When we [[practise|practise]] [[football|football]] on a warm day, we get hot. Water comes out through our skin. This is sweat. As it leaves our skin and goes into the air, it helps us stay cool. Pigs cannot cool their bodies well in this way. They make very little sweat. So they need another way to lose heat. Wet mud helps them do this.",
+    "The water in the mud slowly goes into the air, taking heat away from their bodies. Mud stays wet longer than plain water on their skin. When the animals [[finish|finish]] their mud bath, some dry mud stays on them. This can help keep flies away. Come back [[tomorrow|tomorrow]] if it is hot. You may see another mud bath!"
+  ],
+  "zh": [
+    "我们城市里有一个小农场，就在火车站附近。天气热的时候，农场里的猪会躺在树下的湿泥里。有些游客觉得这些动物的一天很无聊。但泥巴有一个重要作用。农场商店里的一本杂志告诉了我们原因。里面有这些动物在夏天和冬天的照片。",
+    "我们在暖和的日子里练习足球时，身体会发热。水分从皮肤里出来，这就是汗。当汗水离开皮肤、进入空气时，它会帮助我们保持凉爽。猪不能靠这种方式很好地给身体降温。它们出的汗很少，所以需要另一种散热的方法。湿泥能帮助它们。",
+    "泥里的水慢慢进入空气，带走猪身上的热量。与皮肤上只有水相比，泥巴保持湿润的时间更长。动物们结束泥浴后，身上会留下一些干泥。这可以帮助防止苍蝇靠近。如果明天天气热，就再来看看吧。你可能会看到它们又在洗泥浴！"
+  ],
+  "q": [
+    {
+      "s": "A magazine in the farm shop tells us about the pigs.",
+      "a": "T",
+      "why": "农场商店的杂志介绍了猪洗泥浴的原因。"
+    },
+    {
+      "s": "The football practice lasts one hour.",
+      "a": "NG",
+      "why": "文章提到练习足球，但未说明练习时长。"
+    },
+    {
+      "s": "Pigs produce lots of sweat to keep their bodies cool.",
+      "a": "F",
+      "why": "原文说猪出的汗很少。"
+    }
+  ]
+}

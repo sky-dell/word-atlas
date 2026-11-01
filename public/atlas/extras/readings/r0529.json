@@ -1,0 +1,48 @@
+{
+  "id": "r0529",
+  "ids": [
+    "distract",
+    "kitesurfing",
+    "freely",
+    "curse",
+    "serving",
+    "in-store",
+    "survival",
+    "mature",
+    "citizenship",
+    "anchor"
+  ],
+  "title": "Roots Beneath the Bay",
+  "titleZh": "海湾之下的根系",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "Marine researcher Leila Moreno measures her progress in green shoots. In Bellwater Bay, she is testing whether damaged seagrass beds can recover inside small wooden frames. Born abroad, she gained [[citizenship|citizenship]] of her adopted country twelve years ago, but says working beneath its coastal waters first made her feel truly connected to it.",
+    "Each morning, Leila lowers an [[anchor|anchor]] onto bare sand, carefully avoiding the plants. Water must pass [[freely|freely]] through her frames, carrying nutrients without washing young roots away. Bright sails from a nearby [[kitesurfing|kitesurfing]] centre sometimes [[distract|distract]] her while she counts shoots. When tangled measuring lines interrupt the work, she may [[curse|curse]] quietly before patiently separating them.",
+    "At noon, she returns to the harbour for a [[serving|serving]] of bean stew. The fishing shop next door hosts her monthly [[in-store|in-store]] demonstrations, where customers examine living seagrass in glass tanks. She explains that its [[survival|survival]] matters because the underwater leaves shelter young fish and hold loose sediment in place. Several fishers now help her record damaged patches.",
+    "Her most reliable volunteer is seventeen-year-old Tomas, whose [[mature|mature]] response to failed experiments impressed her. Rather than blaming rough weather, he suggested photographing each frame after storms. Those images revealed that lower frames trapped less floating weed. After eighteen months, their best plot has doubled in area. Leila still counts every shoot, but now she also watches tiny fish moving between the leaves: evidence that the restored patch is becoming a habitat."
+  ],
+  "zh": [
+    "海洋研究员莱拉·莫雷诺用新长出的绿芽衡量研究进展。在贝尔沃特湾，她正在测试受损的海草床能否在小木框内恢复。她出生于国外，十二年前取得了现居国家的公民身份，但她说，真正让她对这个国家产生归属感的，是在其沿海水域之下开展研究的经历。",
+    "每天早晨，莱拉都会小心避开海草，把锚放到裸露的沙地上。海水必须能自由流过木框，带来养分，同时又不冲走幼嫩的根。附近一家风筝冲浪中心的鲜艳风筝，有时会让正在数新芽的她分心。当缠在一起的测量绳打断工作时，她可能会低声咒骂几句，然后耐心地把绳子解开。",
+    "中午，她回到港口吃一份炖豆子。隔壁的渔具店每月都会为她举办一次店内演示，顾客可以观察玻璃水箱里活着的海草。她解释说，海草能否存活十分重要，因为水下的叶片能为幼鱼提供庇护，还能固定松散的沉积物。如今，已有几名渔民帮助她记录受损区域。",
+    "她最可靠的志愿者是十七岁的托马斯，他面对实验失败时表现出的成熟态度令她印象深刻。他没有把失败归咎于恶劣天气，而是建议在暴风雨后拍摄每个木框。这些照片显示，较低的木框挂住的漂浮水草更少。十八个月后，恢复得最好的一块试验区面积已经翻了一番。莱拉仍然会数清每一株新芽，但现在，她也会观察穿梭于叶片之间的小鱼：这证明，修复后的区域正逐渐成为一处栖息地。"
+  ],
+  "q": [
+    {
+      "s": "Leila places her boat's anchor away from the seagrass.",
+      "a": "T",
+      "why": "她把锚放在裸沙上，小心避开海草。"
+    },
+    {
+      "s": "Leila gives demonstrations at the fishing shop every day.",
+      "a": "F",
+      "why": "第三段说明店内演示每月举行一次。"
+    },
+    {
+      "s": "Tomas had volunteered on another marine research project before helping Leila.",
+      "a": "NG",
+      "why": "未说明托马斯此前是否参与过其他海洋研究。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0138",
+  "ids": [
+    "sunshine",
+    "engineer",
+    "midday",
+    "bookshelf",
+    "attractive",
+    "view",
+    "finally",
+    "doll",
+    "excuse",
+    "thick"
+  ],
+  "title": "A Better Place for Books",
+  "titleZh": "给书找个更好的位置",
+  "topic": "society",
+  "cefr": 1,
+  "paras": [
+    "At a village meeting room, people could borrow books for free, but few did. The [[bookshelf|bookshelf]] stood beside a window, where bright [[sunshine|sunshine]] fell on the books at [[midday|midday]]. Mina, an [[engineer|engineer]] who helped at the room, wanted to find out why. In her [[view|view]], the corner looked [[attractive|attractive]], but it was too hot for people to stay and choose a book.",
+    "Mina planned a simple experiment over two weeks. During the first week, she left everything in place and counted the books people borrowed. During the second, she hung a [[thick|thick]] curtain across the window. She kept the same books and opening hours. Even the little cloth [[doll|doll]] on the top shelf stayed in its usual place. The curtain let less sunlight into the corner.",
+    "People borrowed nine books in the first week and twenty-three in the second. One visitor said, \"I always gave the same [[excuse|excuse]] for leaving without a book: I had no time. Really, I felt uncomfortable there.\" Mina had [[finally|finally]] found a useful clue. Two weeks could not prove everything, but the result suggested that a cooler corner helped. The curtain stayed, and visitors spent longer looking at books."
+  ],
+  "zh": [
+    "在村里的活动室，人们可以免费借书，但借书的人很少。书架放在窗边，中午时明亮的阳光会照在书上。米娜是一名工程师，平时在活动室帮忙，她想弄清楚这是为什么。在她看来，这个角落虽然好看，却太热了，让人没法安心待着挑书。",
+    "米娜计划做一个为期两周的简单实验。第一周，她让所有东西保持原样，并统计大家借走的书的数量。第二周，她在窗前挂上了一幅厚窗帘。书籍和开放时间都没有变。就连书架顶层的小布娃娃也留在原来的位置。窗帘减少了照进这个角落的阳光。",
+    "第一周，大家借走了九本书，第二周则借走了二十三本。一位来访者说：“每次没借书就离开，我都用同一个借口：我没时间。其实，我是在那里觉得不舒服。”米娜终于找到了一个有用的线索。两周的实验无法证明一切，但结果提示，更凉快的角落可能有助于人们借书。窗帘留了下来，来访者也花更多时间看书了。"
+  ],
+  "q": [
+    {
+      "s": "Mina helped at the meeting room every weekend.",
+      "a": "NG",
+      "why": "文章只说她在那里帮忙，未说明时间。"
+    },
+    {
+      "s": "Mina offered different books during the second week.",
+      "a": "F",
+      "why": "第二周的书籍保持不变。"
+    },
+    {
+      "s": "People borrowed more books in the second week than in the first.",
+      "a": "T",
+      "why": "第一周借出九本，第二周借出二十三本。"
+    }
+  ]
+}

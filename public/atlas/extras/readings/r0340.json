@@ -1,0 +1,48 @@
+{
+  "id": "r0340",
+  "ids": [
+    "accelerate",
+    "ineffective",
+    "bunk",
+    "labor",
+    "naive",
+    "expand",
+    "negotiate",
+    "troop",
+    "steady",
+    "cubic"
+  ],
+  "title": "Voices from a Floating Radio Station",
+  "titleZh": "水上电台传来的声音",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "At the harbour of Bellara, visitors can board a wooden vessel that once carried radio programmes along the coast. Before becoming a floating station, it had served as a [[troop|troop]] transport. Today, its tiny studio tells the story of broadcasters who brought fishing reports, music and family messages to isolated villages.",
+    "Below deck, guide Leila Costa points to a narrow [[bunk|bunk]] beside the recording desk. Presenters slept here between broadcasts, while the [[steady|steady]] noise of the engine entered every microphone. Thick curtains proved [[ineffective|ineffective]] at blocking it. Eventually, an engineer built a cupboard lined with wool, creating a recording space of barely two [[cubic|cubic]] metres.",
+    "The station's founder hoped to [[expand|expand]] its audience by visiting a different harbour each week. However, he was [[naive|naive]] enough to trust a supplier's promise that donated fuel would always be available. When deliveries stopped, he had to [[negotiate|negotiate]] an agreement with fishing crews: weather announcements in exchange for fuel. Their physical [[labor|labor]], carrying heavy cans aboard, kept the programmes on air. Later, a stronger transmitter helped [[accelerate|accelerate]] the station's growth without requiring longer voyages.",
+    "At the end of the tour, visitors put on headphones to hear an evening broadcast preserved on tape. A woman reads tomorrow's sea conditions, then announces a song requested by a lighthouse keeper. Outside, ropes knock against the mast. For a moment, the museum feels less like an exhibit than a neighbour still speaking across the water."
+  ],
+  "zh": [
+    "在贝拉拉港，游客可以登上一艘木船，它曾沿着海岸传播广播节目。在改建为水上电台之前，这艘船曾用于运送士兵。如今，船上小小的播音室讲述着广播工作者的故事：他们为偏远村庄送去渔业信息、音乐和家人之间的口信。",
+    "在甲板下，导游莱拉·科斯塔指着录音桌旁一个狭窄的铺位。播音员在播出间隙就睡在这里，而发动机持续的噪声会传进每一支麦克风。厚窗帘也无法隔绝噪声。最后，一位工程师制作了一个内衬羊毛的柜子，隔出了一个体积勉强达到两立方米的录音空间。",
+    "电台创办人希望每周到访不同的港口，以扩大听众群体。然而，他过于轻信一家供应商，接受了对方会一直捐赠燃料的承诺。供货停止后，他不得不与渔船船员协商，达成以播报天气换取燃料的协议。船员们把沉重的燃料罐搬上船，正是这些体力劳动让节目得以继续播出。后来，一台功率更大的发射机帮助电台加快发展，而不必航行得更远。",
+    "参观结束时，游客戴上耳机，收听一段保存在磁带上的晚间广播。一位女士播报了第二天的海况，接着介绍一首灯塔看守人点播的歌曲。船外，绳索轻轻敲打着桅杆。有那么一瞬间，这座博物馆不像是一件展品，而更像一位仍在隔水传话的邻居。"
+  ],
+  "q": [
+    {
+      "s": "Installing thick curtains successfully blocked the engine noise.",
+      "a": "F",
+      "why": "第二段明确说厚窗帘未能隔绝发动机噪声。"
+    },
+    {
+      "s": "The agreement with the fishing crews lasted for two years.",
+      "a": "NG",
+      "why": "文中说明协议内容，未交代持续时间。"
+    },
+    {
+      "s": "The preserved evening broadcast includes a song request from a lighthouse keeper.",
+      "a": "T",
+      "why": "末段说播音员介绍了灯塔看守人点播的歌曲。"
+    }
+  ]
+}

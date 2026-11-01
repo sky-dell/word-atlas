@@ -1,0 +1,48 @@
+{
+  "id": "r0478",
+  "ids": [
+    "bud",
+    "underestimate",
+    "rotation",
+    "satisfaction",
+    "acrobat",
+    "anxiety",
+    "commitment",
+    "chairwoman",
+    "reasonably",
+    "navigation"
+  ],
+  "title": "Making a Small World of Calm",
+  "titleZh": "制作一个宁静的小世界",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "In a small craft workshop, wooden boxes are made to offer a brief escape from [[anxiety|anxiety]]. Each contains a miniature garden and a moving [[acrobat|acrobat]], whose slow, balanced movements invite the viewer to pause. Leila, the [[chairwoman|chairwoman]] of the craft cooperative, developed the design with makers who wanted to turn familiar hand movements into a quiet, absorbing experience.",
+    "Production begins with a shallow wooden case. A maker cuts a winding channel into its lid, creating a route for a wooden bead. Successful [[navigation|navigation]] from the entrance to the central garden requires gentle finger pressure rather than speed. The surface must be [[reasonably|reasonably]] smooth, so the channel is sanded twice before being sealed with wax.",
+    "Next comes the mechanism beneath the garden. The [[rotation|rotation]] of a small handle drives a wooden wheel, which raises the performer's arms. Beside the figure, a carved flower [[bud|bud]] slowly opens as another part of the wheel pushes its petals upwards. Beginners often [[underestimate|underestimate]] the precision this requires: a difference of one millimetre can prevent the flower from closing.",
+    "Finally, the maker tests the box repeatedly, listening for scraping sounds and adjusting any stiff joints. This stage demands [[commitment|commitment]], since faults may appear only after many turns. The finished object promises no medical benefit. Instead, its appeal lies in the [[satisfaction|satisfaction]] of guiding the bead home, turning the handle, and watching a tiny garden respond predictably to one's touch."
+  ],
+  "zh": [
+    "在一间小型手工作坊里，工匠们制作木盒，让人们暂时摆脱焦虑。每个木盒里都有一座微型花园和一个会动的杂技演员模型。它缓慢而平稳的动作，吸引观看者停下来。手工艺合作社的女主席莱拉与工匠们共同开发了这一设计，希望把熟悉的手部动作变成一种安静而引人投入的体验。",
+    "制作从一个浅木盒开始。工匠在盒盖上刻出一条蜿蜒的凹槽，作为木珠行进的路线。要让木珠顺利地从入口抵达中央花园，需要用手指轻轻推动，而不是追求速度。表面必须相当光滑，因此凹槽要打磨两遍，再涂蜡封护。",
+    "接下来制作花园下方的机械装置。转动一个小手柄，就能带动木轮，使杂技演员模型抬起双臂。在模型旁边，木轮的另一部分将花瓣向上推，使一个雕刻出来的花蕾缓缓绽放。初学者往往低估了这项工作对精度的要求：仅一毫米的偏差，就可能让花朵无法合拢。",
+    "最后，工匠反复测试木盒，留意是否有刮擦声，并调整任何不灵活的连接部位。这个阶段需要耐心投入，因为有些问题只有在转动许多次后才会出现。成品并不承诺任何医疗效果。它的吸引力在于这样一种满足感：引导木珠回到终点，转动手柄，看着小小的花园按照预期回应自己的触碰。"
+  ],
+  "q": [
+    {
+      "s": "Moving the bead successfully requires speed rather than gentle finger pressure.",
+      "a": "F",
+      "why": "原文要求用手指轻推，而非追求速度。"
+    },
+    {
+      "s": "The flower bud is carved from the same material as the wheel.",
+      "a": "NG",
+      "why": "木轮的材质明确，但未交代花蕾的材质。"
+    },
+    {
+      "s": "Some faults may become apparent only after the handle has been turned many times.",
+      "a": "T",
+      "why": "末段说明有些问题多次转动后才可能出现。"
+    }
+  ]
+}

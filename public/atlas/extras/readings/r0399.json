@@ -1,0 +1,48 @@
+{
+  "id": "r0399",
+  "ids": [
+    "manner",
+    "disposal",
+    "isolation",
+    "cheeky",
+    "controversy",
+    "master",
+    "obesity",
+    "fleece",
+    "numb",
+    "observe"
+  ],
+  "title": "Lessons from a Mountain Fleece",
+  "titleZh": "山间羊毛课",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "In the mountain village of Valmera, visitors come to learn something that cannot be packed neatly into a suitcase: patience. At a former shepherd’s house, textile teacher Mara offers three-day courses in turning raw [[fleece|fleece]] into felt. The village’s winter [[isolation|isolation]] once made this skill essential, since families had to produce warm clothing without supplies from the valley.",
+    "On my first morning, Mara asked us to [[observe|observe]] how she spread thin layers of wool across a wooden tray. We then added warm, soapy water and pressed the fibres in a circular [[manner|manner]]. My fingers, still [[numb|numb]] from the walk uphill, gradually warmed. “You’re making cloth, not fighting bread dough,” she said, with a [[cheeky|cheeky]] smile at my energetic efforts.",
+    "It takes longer to [[master|master]] the technique than the demonstration suggests. Between attempts, we learned why wool shrinks and discussed the [[disposal|disposal]] of dirty washing water, which must not flow directly into the village stream. Mara also explained a recent [[controversy|controversy]]: some guesthouses had advertised craft holidays as a treatment for [[obesity|obesity]]. She rejected that claim, presenting her course as cultural learning rather than medical care.",
+    "By the final afternoon, my uneven square had become a small pouch. Its crooked edge recorded exactly where I had rushed. Before leaving, I watched Mara repair an old shepherd’s coat with the same movements she had taught us. The souvenir mattered less than recognising the knowledge behind an ordinary piece of clothing."
+  ],
+  "zh": [
+    "在山村瓦尔梅拉，游客前来学习一种无法整齐装进行李箱的东西：耐心。在一座昔日的牧羊人住宅里，纺织教师玛拉开设了为期三天的课程，教人把未经处理的羊毛制成毛毡。过去，村庄冬季与外界隔绝，这项技艺因而不可或缺，因为家家户户都得在没有山谷物资供应的情况下制作保暖衣物。",
+    "第一天早晨，玛拉让我们仔细观察她如何将薄薄的羊毛一层层铺在木托盘上。接着，我们加入温热的肥皂水，打着圈按压纤维。我的手指上山时冻得发麻，此时渐渐暖和起来。“你是在做布，不是在跟面团打架。”她看着我使劲操作的样子，带着几分俏皮的笑意说道。",
+    "真正掌握这项技艺，比看示范时想象的更费时间。在一次次尝试的间隙，我们了解了羊毛为什么会收缩，还讨论了清洗后的污水该如何处置，因为它不能直接排入村里的溪流。玛拉也解释了最近的一场争议：有些旅馆把手工艺度假宣传为治疗肥胖症的方法。她不认可这种说法，强调自己的课程提供的是文化学习，而非医疗服务。",
+    "到最后一天下午，我那块不平整的方形毛毡已经变成了一个小袋子。歪斜的边缘清楚地记录着我在哪些地方操之过急。离开前，我看着玛拉用教给我们的那些动作修补一件牧羊人的旧外套。相比这件纪念品，更重要的是，我开始懂得一件普通衣物背后蕴含的知识。"
+  ],
+  "q": [
+    {
+      "s": "Mara's felt-making course lasts for one week.",
+      "a": "F",
+      "why": "第一段明确课程为期三天，而非一周。"
+    },
+    {
+      "s": "Mara rejected the claim that craft holidays could treat obesity.",
+      "a": "T",
+      "why": "她不认可治疗肥胖症的宣传说法。"
+    },
+    {
+      "s": "The writer gave the finished wool pouch to a family member.",
+      "a": "NG",
+      "why": "文章未说明作者是否把小袋子送给家人。"
+    }
+  ]
+}

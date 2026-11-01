@@ -1,0 +1,46 @@
+{
+  "id": "r0035",
+  "ids": [
+    "often",
+    "dollar",
+    "it",
+    "baby",
+    "rabbit",
+    "water",
+    "half",
+    "knife",
+    "thanks",
+    "dangerous"
+  ],
+  "title": "A Little Bowl for Garden Animals",
+  "titleZh": "给花园动物的小水盆",
+  "topic": "environment",
+  "cefr": 0,
+  "paras": [
+    "In 1978, Rosa had a small garden behind her house. Summers were hot, and she [[often|often]] saw thirsty animals there. One morning, a [[baby|baby]] [[rabbit|rabbit]] sat near her empty bucket. Rosa brought some [[water|water]] outside in a soup bowl. The little animal drank from [[it|it]]. This gave Rosa an idea. Her garden needed a place where small animals could drink.",
+    "The next day, she bought an old clay bowl for one [[dollar|dollar]]. She put [[half|half]] of the water from her bucket into the bowl. Then she added a flat stone. Deep water could be [[dangerous|dangerous]] for small animals. The stone gave them a place to stand. With a [[knife|knife]], she cut some string and tied a small sign to her gate.",
+    "The sign said, “A drink for our garden friends.” Her neighbour, Kenji, liked the idea. Rosa gave him another bowl. “[[thanks|Thanks]]!” he said. Soon, five gardens on their street had animal drinking bowls. Every morning, people washed the bowls and filled them again. Years later, Rosa's bowl broke. Kenji brought her a new one, and the small garden practice went on."
+  ],
+  "zh": [
+    "1978年，罗莎的屋后有一个小花园。夏天很热，她经常在那里看到口渴的动物。一天早上，一只幼兔坐在她的空水桶旁。罗莎用汤碗盛了些水，端到外面。小兔子喝了碗里的水。这让罗莎有了一个主意。她的花园需要一个能让小动物喝水的地方。",
+    "第二天，她花一元钱买了一个旧陶盆。她把桶里一半的水倒进盆里，然后放入一块扁平的石头。深水对小动物来说可能很危险。这块石头让它们有地方站脚。她用刀切下一段绳子，把一块小牌子绑在自家院门上。",
+    "牌子上写着：“给花园里的朋友们喝点水。”她的邻居健二喜欢这个主意。罗莎送给他另一个盆。“谢谢！”他说。很快，他们街上有五户人家的花园都放了供动物喝水的盆。每天早上，人们都会把盆洗净，再装上水。多年后，罗莎的盆碎了。健二给她送来了一个新的，这个花园里的小习惯就这样延续了下去。"
+  ],
+  "q": [
+    {
+      "s": "The baby rabbit came to Rosa's garden every day.",
+      "a": "NG",
+      "why": "只提到一天早上的幼兔，未说它每天都来。"
+    },
+    {
+      "s": "Rosa put half the water from her bucket into the clay bowl.",
+      "a": "T",
+      "why": "第二段明确说她倒入了桶里一半的水。"
+    },
+    {
+      "s": "Kenji gave Rosa a new bowl before her old bowl broke.",
+      "a": "F",
+      "why": "旧盆先碎了，健二才送来新盆。"
+    }
+  ]
+}

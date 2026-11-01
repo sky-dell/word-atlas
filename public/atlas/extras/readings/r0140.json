@@ -1,0 +1,46 @@
+{
+  "id": "r0140",
+  "ids": [
+    "secretary",
+    "onto",
+    "prize",
+    "popcorn",
+    "speed",
+    "stove",
+    "mango",
+    "pill",
+    "local",
+    "hide"
+  ],
+  "title": "The Missing Prize Envelope",
+  "titleZh": "不见的奖金信封",
+  "topic": "thinking",
+  "cefr": 1,
+  "paras": [
+    "Nadia was the [[secretary|secretary]] of a small cooking club. She arranged its meetings and answered its letters. On Saturday, the club held a competition for [[local|local]] cooks. The [[prize|prize]] was fifty pounds in a red envelope. Nadia put it beside a bowl of [[mango|mango]] pieces. Across the room, Tomas made [[popcorn|popcorn]] on a small [[stove|stove]]. Soon the room was hot, so he turned on a fan.",
+    "Ten minutes before the winner was announced, the envelope was gone. Nadia looked under the bowls and asked everyone to check their pockets. Nobody had it. 'Why would anyone [[hide|hide]] it?' Tomas asked. Nadia had a headache. She sat down and took a [[pill|pill]] with some water. Then she noticed a paper flower moving quickly beside the fan. Perhaps nobody had touched the money at all.",
+    "Nadia asked Tomas about the fan's [[speed|speed]]. He had first used its highest setting. She placed an empty envelope where the red one had been and watched. The air blew it off the table and [[onto|onto]] a lower shelf behind it. There, behind a large blue plate, lay the missing envelope. Everyone laughed with relief. Nadia gave the winner her money, then put a heavy bowl on the remaining papers."
+  ],
+  "zh": [
+    "娜迪娅是一家小型烹饪俱乐部的秘书，负责安排聚会和回复信件。星期六，俱乐部为当地厨师举办了一场比赛。奖金是装在红信封里的五十英镑。娜迪娅把信封放在一碗芒果块旁边。房间另一头，托马斯正在一个小炉灶上做爆米花。屋里很快热了起来，于是他打开了风扇。",
+    "距离宣布获胜者还有十分钟时，信封不见了。娜迪娅查看了碗底下，又请所有人检查自己的口袋。谁都没找到。“为什么会有人把它藏起来呢？”托马斯问。娜迪娅有些头疼。她坐下来，用水服了一片药。随后，她注意到风扇旁的一朵纸花正在快速摆动。也许根本没人碰过那笔钱。",
+    "娜迪娅问托马斯，风扇之前开的是哪档速度。他一开始用的是最高档。她把一个空信封放到原来红信封的位置，然后仔细观察。风把它吹离了桌面，吹到了桌子后方一个比桌面低的架子上。就在那个架子上，一只蓝色大盘子后面，躺着不见的信封。大家都松了口气，笑了起来。娜迪娅把奖金交给获胜者，然后拿了一个沉甸甸的碗，压住剩下的纸张。"
+  ],
+  "q": [
+    {
+      "s": "The cooking competition was for people from the surrounding area.",
+      "a": "T",
+      "why": "第一段说比赛面向当地厨师。"
+    },
+    {
+      "s": "Tomas had won a cooking competition before.",
+      "a": "NG",
+      "why": "文中未提及托马斯以前是否获过奖。"
+    },
+    {
+      "s": "Nadia found that someone had put the money in a pocket.",
+      "a": "F",
+      "why": "她在架子上的蓝色盘子后找到了奖金信封。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0475",
+  "ids": [
+    "pillar",
+    "probability",
+    "halve",
+    "therapy",
+    "sparrow",
+    "nursing",
+    "persuasion",
+    "mechanism",
+    "impact",
+    "ongoing"
+  ],
+  "title": "Learning Care at Willow House",
+  "titleZh": "柳屋里的护理课堂",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "At Willow House, a small fictional [[nursing|nursing]] school, Maya began her first practical lesson beside the stone [[pillar|pillar]] supporting the entrance roof. Through a window she could see the practice beds. They held training models, not real patients, but she still worried about making mistakes in front of her classmates.",
+    "Her tutor, Amara, first asked everyone to watch a [[sparrow|sparrow]] on the garden wall and describe exactly what it did. Maya wrote that it looked hungry, then realised she had guessed rather than observed. Inside, Amara used a bag containing two red counters and eight white ones to explain [[probability|probability]]. Each student drew one without looking to select a practice task; red meant checking the bed.",
+    "Maya drew red. She examined the [[mechanism|mechanism]] that raised the bed's upper section, then collected equipment for a movement exercise used in [[therapy|therapy]]. Her first preparation took ten minutes. Could she [[halve|halve]] that time by placing everything within reach? On her second attempt, she finished in five minutes. Next, a classmate played someone afraid to move. This required patient [[persuasion|persuasion]], not faster hands.",
+    "During the review, Maya described the [[impact|impact]] of switching roles: being hurried had made her reluctant to cooperate. Assessment was [[ongoing|ongoing]], so Amara asked her to repeat the conversation next week. Maya put a reminder beside her equipment plan: ask what worries the person before explaining the exercise."
+  ],
+  "zh": [
+    "在一所虚构的小型护理学校柳屋，玛雅站在支撑入口屋顶的石柱旁，开始了第一堂实践课。透过窗户，她能看到练习用的病床。床上放着训练模型，而不是真正的病人，但她仍然担心在同学面前犯错。",
+    "导师阿玛拉先让大家观察花园围墙上的一只麻雀，准确描述它做了什么。玛雅写道，它看起来饿了，随后意识到自己是在猜测，而不是观察。进屋后，阿玛拉用一个装有两枚红色筹码和八枚白色筹码的袋子讲解概率。每位学生都不看袋内，抽出一枚来决定练习任务；红色表示检查病床。",
+    "玛雅抽到了红色。她检查了抬起床头部分的机械装置，然后收集一种治疗用活动练习所需的器材。第一次准备花了十分钟。把所有东西放在伸手可及的位置，能让她把时间减半吗？第二次尝试时，她五分钟就完成了。接着，一位同学扮演害怕活动的人。这需要耐心劝说，而不是加快手上的动作。",
+    "复盘时，玛雅描述了交换角色带来的影响：受到催促让她不愿配合。考核仍在进行，因此阿玛拉让她下周再练一次这段对话。玛雅在器材安排计划旁写下一条提醒：先询问对方担心什么，再解释练习内容。"
+  ],
+  "q": [
+    {
+      "s": "The practice beds held training models rather than real patients.",
+      "a": "T",
+      "why": "首段明确说明床上是训练模型而非病人。"
+    },
+    {
+      "s": "Maya’s second preparation took more than half as long as her first.",
+      "a": "F",
+      "why": "两次分别用时十分钟和五分钟，恰好减半。"
+    },
+    {
+      "s": "Maya’s next conversation practice would be with the same classmate.",
+      "a": "NG",
+      "why": "末段未说明下周与谁练习对话。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0261",
+  "ids": [
+    "championship",
+    "occasion",
+    "friendship",
+    "efficient",
+    "appearance",
+    "nut",
+    "perfectly",
+    "captain",
+    "canoe",
+    "proper"
+  ],
+  "title": "A New Route Through the Reeds",
+  "titleZh": "芦苇间的新赛道",
+  "topic": "nature",
+  "cefr": 2,
+  "paras": [
+    "Three days before the river [[championship|championship]], Amara took her team out to check the course. As [[captain|captain]], she wanted everyone to know each bend. However, near Willow Island, a fallen tree blocked the narrow channel. Its green leaves gave it a healthy [[appearance|appearance]], but its roots were completely out of the ground.",
+    "Amara stopped her [[canoe|canoe]] beside the bank. While eating a handful of [[nut|nuts]], she noticed a duck swimming under the branches. There was a nest just above the water. On a previous [[occasion|occasion]], the team had removed fallen branches, but cutting this tree would disturb the birds.",
+    "She asked Tomas, a fisherman, about another way around the island. Their [[friendship|friendship]] had begun years earlier, when she helped him find a lost fishing bag. He showed her an old channel hidden behind tall reeds. They needed a [[proper|proper]] safety check before using it, so they measured its depth and searched for rocks.",
+    "The channel was clear and wide enough for two boats. The most [[efficient|efficient]] solution was to move just three course flags rather than remove the tree. During a practice race, the new route worked [[perfectly|perfectly]]. On race day, every team passed safely around the island. Afterwards, Amara returned to the fallen tree and watched six ducklings following their mother through the quiet water."
+  ],
+  "zh": [
+    "河道锦标赛开始前三天，阿玛拉带着队员去检查赛道。作为队长，她希望大家熟悉每一个弯道。然而，在柳树岛附近，一棵倒下的树堵住了狭窄的水道。绿叶让它看起来仍然生机勃勃，但它的树根已经完全露出了地面。",
+    "阿玛拉把划桨小舟停在岸边。她正吃着一把坚果，忽然注意到一只鸭子从树枝下游过。水面上方不远处还有一个鸟巢。以前有一次，队员们曾清理过掉落的树枝，但砍掉这棵树会打扰这些鸟儿。",
+    "她问渔夫托马斯，还有没有别的路可以绕过小岛。几年前，她帮他找回了丢失的钓鱼包，两人从此成了朋友。他带她看了一条藏在高高芦苇后面的旧水道。使用之前需要进行妥当的安全检查，因此他们测量了水深，并查看有没有岩石。",
+    "这条水道没有障碍，也足够宽，可以容纳两艘船。最省时省力的办法是只移动三面赛道旗，而不是移走整棵树。在练习赛中，新路线的使用没有出现任何问题。比赛当天，所有队伍都安全地绕过了小岛。之后，阿玛拉回到倒下的树旁，看着六只小鸭子跟在妈妈身后，游过平静的水面。"
+  ],
+  "q": [
+    {
+      "s": "The fallen tree's roots were still in the ground.",
+      "a": "F",
+      "why": "第一段说树根已完全脱离地面。"
+    },
+    {
+      "s": "Amara's friendship with Tomas began when she helped him find a lost fishing bag.",
+      "a": "T",
+      "why": "第三段明确交代两人友谊由此开始。"
+    },
+    {
+      "s": "Amara's team finished first in the competition.",
+      "a": "NG",
+      "why": "文章未交代阿玛拉队伍的比赛名次。"
+    }
+  ]
+}

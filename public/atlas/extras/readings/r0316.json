@@ -1,0 +1,48 @@
+{
+  "id": "r0316",
+  "ids": [
+    "preposition",
+    "terrified",
+    "row",
+    "earthquake",
+    "tax",
+    "shelter",
+    "fairly",
+    "sense",
+    "tape",
+    "tunnel"
+  ],
+  "title": "Under the Mountain, Above the Fear",
+  "titleZh": "走进山腹，走出恐惧",
+  "topic": "science",
+  "cefr": 2,
+  "paras": [
+    "In the mountain village of Orin, visitors come for painted houses and a small science museum inside an old railway [[tunnel|tunnel]]. A [[row|row]] of yellow lamps leads to its entrance. Part of the village's tourist [[tax|tax]] pays for the museum, so the entrance ticket costs very little.",
+    "Our guide, Laleh, begins beside a wooden table. She explains that an [[earthquake|earthquake]] happens when rocks suddenly move beneath the ground. Visitors then stand on a platform that shakes gently. It is [[fairly|fairly]] easy to keep our balance, but Laleh describes how [[terrified|terrified]] her grandfather felt during a real event many years ago.",
+    "Next, she gives us model houses, paper roofs and sticky [[tape|tape]]. We build different shapes and test them on the platform. My tall house falls first. Using our [[sense|sense]] of touch, we feel how the lower models move less. Beside us, a sign says, 'Get under a strong table.' Laleh points to the [[preposition|preposition]] 'under': this little word tells visitors where to find [[shelter|shelter]] from falling objects.",
+    "Outside, we notice wooden bars joining the walls of older houses. These traditional supports now make more sense to us. At a nearby café, I draw a lower, stronger model on a paper napkin. The village has given me more than a pleasant afternoon: it has changed how I look at buildings."
+  ],
+  "zh": [
+    "在山村奥林，吸引游客的不仅有彩绘房屋，还有一座设在旧铁路隧道里的小型科学博物馆。一排黄色灯具一直延伸到入口。村里征收的旅游税有一部分用于支付博物馆的开支，因此门票很便宜。",
+    "导游拉蕾站在一张木桌旁开始讲解。她解释说，地下岩石突然移动时，就会发生地震。随后，游客们站上一个轻轻晃动的平台。保持平衡还算容易，但拉蕾讲起，多年前她的爷爷或外公经历真正的地震时，曾感到极度恐惧。",
+    "接着，她给我们房屋模型、纸屋顶和胶带。我们搭出不同的形状，再把它们放到平台上测试。我搭的高房子最先倒了。通过触觉，我们感受到较矮的模型晃动得更小。旁边的一块牌子上写着：“躲到结实的桌子下面。”拉蕾指着英语中表示“在……下面”的介词 under：这个小词告诉游客，到哪里可以躲避掉落的物体。",
+    "走到外面，我们注意到老房子的墙壁之间连着木条。现在，我们更能理解这些传统支撑结构的作用了。在附近的一家咖啡馆，我在纸餐巾上画了一个更矮、更牢固的模型。这个村庄带给我的不只是一个愉快的下午，它还改变了我看待建筑的方式。"
+  ],
+  "q": [
+    {
+      "s": "None of the village's tourist tax is used to support the museum.",
+      "a": "F",
+      "why": "旅游税的一部分用于博物馆开支。"
+    },
+    {
+      "s": "Laleh's grandfather was living in Orin when he experienced the earthquake.",
+      "a": "NG",
+      "why": "未说明她的爷爷或外公当时住在哪里。"
+    },
+    {
+      "s": "The narrator's tall model house was the first to fall during the test.",
+      "a": "T",
+      "why": "叙述者明确说自己的高房子最先倒下。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0577",
+  "ids": [
+    "innumerable",
+    "divine",
+    "permissive",
+    "transmission",
+    "thesis",
+    "rejoice",
+    "onset",
+    "fission",
+    "illuminate",
+    "brood"
+  ],
+  "title": "A Notebook for Borrowed Thoughts",
+  "titleZh": "收集思想的笔记本",
+  "topic": "thinking",
+  "cefr": 4,
+  "paras": [
+    "Before searchable archives, European readers often kept a commonplace book: a notebook in which borrowed passages were arranged under headings. Although medieval compilations frequently concerned [[divine|divine]] wisdom, Renaissance readers extended the practice to medicine, politics and household management. Faced with [[innumerable|innumerable]] printed observations, they needed not merely to preserve information but to make it available for thought.",
+    "The page became a small sorting machine. A description of a [[brood|brood]] of swallows might appear under 'Nature', while advice about mourning belonged under 'Sorrow'. Some manuals prescribed elaborate classifications; actual notebooks, however, could be more [[permissive|permissive]], accommodating recipes beside philosophical quotations. Copying also supported the [[transmission|transmission]] of ideas, since a borrowed volume could leave lasting traces after its return.",
+    "By the twentieth century, specialised research files had inherited part of this function. Someone preparing a university [[thesis|thesis]] might collect extracts on atomic structure, then add reports of nuclear [[fission|fission]] following its discovery in 1938. With the [[onset|onset]] of war, such entries acquired unsettling implications: what had seemed an intellectual breakthrough was no longer simply an achievement over which to [[rejoice|rejoice]].",
+    "The commonplace book nevertheless survived alongside more systematic tools because its value exceeded efficient retrieval. Under a lamp positioned to [[illuminate|illuminate]] the open pages, a reader could encounter an old quotation beside a newly added question. Their juxtaposition encouraged associations that a rigid classification might conceal. The notebook's enduring achievement was therefore modest but consequential: it gave borrowed words a place to become fresh thoughts."
+  ],
+  "zh": [
+    "在可检索的档案出现之前，欧洲读者常常使用摘录本：一种将摘抄的段落按主题分类记录的笔记本。尽管中世纪的汇编往往关注神圣的智慧，文艺复兴时期的读者却把这一做法扩展到了医学、政治和家务管理。面对印刷品中数不清的见闻与论述，他们不仅需要保存信息，还需要让这些信息随时可供思考之用。",
+    "书页成了一台小小的分类机器。对一窝幼燕的描述可能归在“自然”之下，而关于哀悼的建议则属于“悲伤”。一些指南规定了繁复的分类方式，但实际使用的笔记本可能更为宽松，食谱可以与哲学引文并列。抄录也促进了思想的传播，因为一本借来的书即使归还了，也能留下长久的痕迹。",
+    "到了二十世纪，专门的研究资料档案继承了摘录本的部分功能。撰写大学学位论文的人可能先收集有关原子结构的摘录，再在1938年核裂变被发现后加入相关报道。随着战争爆发，这类条目带上了令人不安的意味：原本看似智识突破的发现，不再只是值得欣喜的成就。",
+    "然而，摘录本仍与更加系统化的工具并存，因为它的价值超出了高效检索。在一盏照亮摊开书页的灯下，读者可能会看到一段旧引文旁边新添了一个问题。二者的并置能够激发严格分类可能遮蔽的联想。因此，摘录本长久以来的贡献虽不显赫，却意义深远：它让借来的文字有机会化为新的思想。"
+  ],
+  "q": [
+    {
+      "s": "During the Renaissance, commonplace books came to cover a wider range of subjects than many medieval compilations.",
+      "a": "T",
+      "why": "首段指出文艺复兴时期扩展了记录领域。"
+    },
+    {
+      "s": "In practice, commonplace books consistently followed the detailed organisational rules set out in manuals.",
+      "a": "F",
+      "why": "实际分类可能更宽松，并非一律遵循指南。"
+    },
+    {
+      "s": "Twentieth-century researchers preferred handwritten research files to typed ones.",
+      "a": "NG",
+      "why": "文章未比较研究者对手写和打字的偏好。"
+    }
+  ]
+}

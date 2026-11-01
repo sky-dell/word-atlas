@@ -1,0 +1,48 @@
+{
+  "id": "r0535",
+  "ids": [
+    "importer",
+    "presence",
+    "recreation",
+    "insight",
+    "cite",
+    "riverside",
+    "crumb",
+    "steep",
+    "deprive",
+    "deed"
+  ],
+  "title": "Small Comforts by the River",
+  "titleZh": "河畔的小小慰藉",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "While sorting family papers, I found two very different accounts of Leila Haddad's first year abroad. Leila was a tea [[importer|importer]] who had rented a warehouse beside a river. Her account book listed deliveries and payments. Her letters described the [[steep|steep]] steps down to the water, where she often sat alone after work.",
+    "Those letters offer an [[insight|insight]] into difficulties the account book barely mentions. Leila struggled to speak with her neighbours and feared that moving abroad would [[deprive|deprive]] her of friendship. Then a baker invited her to a weekly gathering on the [[riverside|riverside]]. People brought bread and tea, borrowing chairs from nearby shops. It was ordinary [[recreation|recreation]], not a grand celebration.",
+    "When relatives ask why these meetings mattered, I [[cite|cite]] a letter about an evening when Leila hardly spoke. She remembered picking a [[crumb|crumb]] from her sleeve while listening to the others talk. Their quiet [[presence|presence]], she wrote, mattered more than anything they said. By the following week, she was bringing extra cups for anyone who might join them.",
+    "Later, the baker injured his hand and could not work. Leila organised a collection for him, keeping the coins in a small tin box. She described this [[deed|deed]] simply as returning a kindness. In her account book, between two tea deliveries, I found the amount collected and a note confirming that he had received it."
+  ],
+  "zh": [
+    "整理家里的旧文件时，我发现了两种截然不同的记录，都讲述了莱拉·哈达德在国外的第一年。莱拉是一位茶叶进口商，在河边租了一间仓库。她的账本列着送货和收付款记录。她的信则描写了通向水边的陡峭台阶，她常在下班后独自坐在那里。",
+    "这些信让我们深入了解了账本几乎没有提及的困境。莱拉与邻居交谈时感到吃力，担心移居国外会让自己失去友谊。后来，一位面包师邀请她参加每周在河畔举行的聚会。大家带来面包和茶，从附近的店铺借来椅子。这是日常消遣，而非盛大的庆典。",
+    "亲人问起这些聚会为何重要时，我会引用一封信，信里写的是莱拉几乎没有说话的一个晚上。她记得，自己一边听其他人交谈，一边从袖子上拈起一粒面包屑。她写道，比起他们说了什么，更重要的是他们安静地陪伴在身旁。到了下一周，她已开始多带一些杯子，供可能加入的人使用。",
+    "后来，面包师伤了手，无法工作。莱拉为他组织了一次募捐，把硬币放在一个小铁盒里。对于这一善举，她只说是在回报一份善意。在她的账本上，两笔茶叶送货记录之间，我找到了募集的金额，还有一条确认他已经收款的备注。"
+  ],
+  "q": [
+    {
+      "s": "Leila's letters reveal difficulties that her account book barely mentions.",
+      "a": "T",
+      "why": "第二段明确说信件揭示账本几乎未提的困境。"
+    },
+    {
+      "s": "The weekly riverside gatherings were grand celebrations.",
+      "a": "F",
+      "why": "原文说这是日常消遣，而非盛大庆典。"
+    },
+    {
+      "s": "The money collected for the baker covered all his lost earnings.",
+      "a": "NG",
+      "why": "文章未说明募款是否弥补了全部收入损失。"
+    }
+  ]
+}

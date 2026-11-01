@@ -1,0 +1,48 @@
+{
+  "id": "r0419",
+  "ids": [
+    "seminar",
+    "adaptation",
+    "aggressive",
+    "wax",
+    "moan",
+    "renewal",
+    "illustration",
+    "acquire",
+    "aerial",
+    "factual"
+  ],
+  "title": "A Small History of Quiet",
+  "titleZh": "小小耳塞的安静史",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "At a museum [[seminar|seminar]] on hearing protection, the smallest object on the table attracts particular attention: a pair of cotton earplugs coated in [[wax|wax]]. Such simple devices became commercially available in the early twentieth century, although the idea of blocking unwanted sound was much older.",
+    "Ancient Greek literature describes sailors stopping their ears to escape dangerous singing. This is not a [[factual|factual]] account of medical practice, but it shows how early people imagined controlling what they heard. Modern earplugs developed through [[adaptation|adaptation]] to different conditions. Busy streets disturbed sleepers, while factory machinery exposed workers to noise that could permanently damage hearing.",
+    "Early soft plugs could be warmed between the fingers and shaped to fit the ear. Unlike a rigid object, they pressed gently against the skin. Nevertheless, an uncomfortable fit might make a wearer [[moan|moan]] rather than sleep. An [[illustration|illustration]] in a medical publication could explain correct placement, but printed advice did not guarantee careful use. With the growth of [[aerial|aerial]] warfare, protection from powerful engine noise also became increasingly important.",
+    "Museums now [[acquire|acquire]] old packets and instruction sheets to document this modest technology. Even a notice requesting [[renewal|renewal]] of a factory's medical-journal subscription can reveal how advice circulated. At the discussion table, disagreement is lively rather than [[aggressive|aggressive]]. One visitor asks whether providing earplugs could ever replace efforts to make the workplace itself quieter."
+  ],
+  "zh": [
+    "在博物馆一场关于听力保护的研讨会上，桌上最小的物件格外引人注意：一副涂蜡的棉质耳塞。这类简单装置在二十世纪初开始上市销售，不过，阻隔不受欢迎的声音这一想法，出现得要早得多。",
+    "古希腊文学描写过水手堵住耳朵，以躲避危险歌声的情景。这并不是对医疗实践的事实记录，却表明人们很早就设想过控制自己听到的声音。现代耳塞的发展，是不断适应不同环境的过程。繁忙的街道打扰人们睡眠，而工厂机器则让工人暴露在可能永久损伤听力的噪声中。",
+    "早期的软耳塞可以用手指捂暖，再捏成适合耳朵的形状。与硬物不同，它们只是轻轻贴压皮肤。然而，如果佩戴不适，使用者可能会难受得呻吟，而不是安然入睡。医学刊物中的插图可以说明正确的放置方法，但印在纸上的建议并不能保证人们会谨慎使用。随着空战的发展，防范发动机产生的强烈噪声也变得越来越重要。",
+    "如今，博物馆会收集旧包装和使用说明，以记录这项不起眼的技术。即便是一张要求工厂续订医学期刊的通知，也能揭示相关建议是如何传播的。在讨论桌旁，人们争论得热烈，却并不咄咄逼人。一位参观者问，提供耳塞是否有可能替代让工作场所本身变得更安静的努力。"
+  ],
+  "q": [
+    {
+      "s": "The first commercially available earplugs were mainly bought by factory workers.",
+      "a": "NG",
+      "why": "首段未说明最早上市耳塞的主要购买者。"
+    },
+    {
+      "s": "Ancient Greek literature includes an example of people blocking sound from their ears.",
+      "a": "T",
+      "why": "第二段提到水手堵耳以躲避歌声。"
+    },
+    {
+      "s": "Printed instructions ensured that people used earplugs carefully.",
+      "a": "F",
+      "why": "第三段明确说印刷建议不能保证谨慎使用。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0485",
+  "ids": [
+    "slang",
+    "obtain",
+    "emission",
+    "outstanding",
+    "evil",
+    "poker",
+    "suicide",
+    "investigation",
+    "agreeable",
+    "encyclopaedia"
+  ],
+  "title": "Making a City's Past Readable",
+  "titleZh": "让城市往事更易读懂",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "At a small city museum, curator Leila Costa noticed that visitors rarely stopped beside a display of nineteenth-century newspapers. Her [[investigation|investigation]] began with a simple question: were the original headlines too difficult to understand? To [[obtain|obtain]] evidence, she recruited sixty adult volunteers for an experiment involving two versions of the display.",
+    "Both versions contained identical newspaper extracts. These covered factory smoke [[emission|emissions]], a disputed [[poker|poker]] game and complaints about an allegedly [[evil|evil]] landlord who deliberately destroyed tenants' belongings. A separate report concerned [[suicide|suicide]], presented without graphic details. One version retained the original captions; the other explained unfamiliar [[slang|slang]] and supplied brief historical context. Costa checked these explanations against a contemporary [[encyclopaedia|encyclopaedia]], rather than relying entirely on modern definitions.",
+    "The volunteers were randomly divided into two groups, each viewing one version for twelve minutes. Afterwards, they answered questions about the reports and rated their experience. Readers of the revised captions recalled almost twice as many accurate details. However, they did not describe the exhibition as more [[agreeable|agreeable]]: several said that understanding the reports made the suffering described seem closer. Clearer language increased understanding, not necessarily enjoyment.",
+    "One revised caption produced an [[outstanding|outstanding]] result: nearly everyone understood why residents had protested against the factories. Costa therefore kept the explanations but added a warning about sensitive material. The experiment showed that making a city's history accessible need not make it comfortable; sometimes, successful interpretation helps visitors recognise its difficulties."
+  ],
+  "zh": [
+    "在一家小型城市博物馆，策展人莱拉·科斯塔发现，参观者很少在展示十九世纪报纸的展区前停留。她的调查始于一个简单的问题：原来的新闻标题是否太难理解？为了获取证据，她招募了六十名成年志愿者，用两个版本的展览进行实验。",
+    "两个版本采用了完全相同的报纸摘录，内容涉及工厂烟气排放、一场引发争议的扑克游戏，以及对一名据称品行恶劣的房东的投诉——他曾故意毁坏租客的财物。另一篇报道涉及自杀，但没有呈现具体的惨烈细节。一个版本保留了原有的展品说明；另一个版本则解释了陌生的俚语，并简要补充了历史背景。科斯塔参考当时出版的一部百科全书核对这些解释，而不是完全依赖现代释义。",
+    "志愿者被随机分为两组，每组观看其中一个版本，时间为十二分钟。随后，他们回答了有关报道的问题，并评价了参观体验。阅读修改版说明的参观者，能准确回忆起的细节数量几乎是另一组的两倍。然而，他们并不认为展览变得更令人愉快：有几个人表示，读懂报道后，报道中的苦难似乎离自己更近了。更清晰的语言增进了理解，却不一定增加愉悦感。",
+    "其中一则修改后的说明取得了出色的效果：几乎所有人都理解了居民为何抗议那些工厂。因此，科斯塔保留了解释性文字，同时增加了敏感内容提示。实验表明，让一座城市的历史更易于理解，并不意味着让它令人感到舒适；有时，成功的展览解读恰恰能帮助参观者认识其中的艰难与苦痛。"
+  ],
+  "q": [
+    {
+      "s": "Costa recruited the volunteers through advertisements in local newspapers.",
+      "a": "NG",
+      "why": "只说明招募了志愿者，未说明招募方式。"
+    },
+    {
+      "s": "Both versions of the display used the same newspaper extracts.",
+      "a": "T",
+      "why": "原文明确说两个版本的报纸摘录完全相同。"
+    },
+    {
+      "s": "Readers rated the revised display as more enjoyable than the original version.",
+      "a": "F",
+      "why": "原文说他们并未认为展览更令人愉快。"
+    }
+  ]
+}

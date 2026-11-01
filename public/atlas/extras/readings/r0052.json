@@ -1,0 +1,46 @@
+{
+  "id": "r0052",
+  "ids": [
+    "seat",
+    "cup",
+    "film",
+    "america",
+    "monday",
+    "sweden",
+    "else",
+    "portugal",
+    "in",
+    "top"
+  ],
+  "title": "A Small Film About Snails",
+  "titleZh": "一部关于蜗牛的小电影",
+  "topic": "nature",
+  "cefr": 0,
+  "paras": [
+    "A community garden had a small problem. People often walked on its snails. Three neighbours wanted to help. Rosa came from [[portugal|Portugal]], Erik came from [[sweden|Sweden]], and May came from [[america|America]]. They all lived near the garden now. One wet [[monday|Monday]], they met by the gate. They wanted to show everyone the small animals living there.",
+    "May had a camera. She made a short [[film|film]] about the snails. Rosa found one [[in|in]] an old [[cup|cup]] beside the flowers. Erik saw another at the [[top|top]] of a tall plant. They did not move the animals. They waited and watched them eat. What [[else|else]] could they show? That evening, they watched a baby snail come out from under a leaf.",
+    "On Saturday, twelve neighbours came to see their work [[in|in]] Rosa's front room. Each person had a [[seat|seat]] near the white wall. The pictures were big, but the story was simple. Afterwards, the group made a little path through the garden. Now people could walk there safely. A week later, May saw two children use the new path. They stopped to look at a snail, then walked around it."
+  ],
+  "zh": [
+    "一个社区花园遇到了一个小问题。人们常常踩到园里的蜗牛。三位邻居想帮忙。罗莎来自葡萄牙，埃里克来自瑞典，梅来自美国。他们现在都住在花园附近。一个潮湿的星期一，他们在花园门口见面。他们想让大家看看住在这里的小动物。",
+    "梅有一台摄像机。她拍了一部关于蜗牛的短片。罗莎在花旁边的一个旧杯子里找到了一只蜗牛。埃里克在一株高高的植物顶端看到了另一只。他们没有移动这些动物，而是等着，观察它们吃东西。他们还能拍些什么呢？那天傍晚，他们看到一只小蜗牛从叶子下面爬了出来。",
+    "星期六，十二位邻居来到罗莎家的客厅，看他们的作品。每个人在白墙附近都有一个座位。画面很大，故事却很简单。看完之后，大家在花园里修了一条小路。现在，人们可以安全地在园里行走了。一周后，梅看到两个孩子走在新修的小路上。他们停下来看了一只蜗牛，然后绕过它走了。"
+  ],
+  "q": [
+    {
+      "s": "The neighbours put the snails in new places to make their film.",
+      "a": "F",
+      "why": "文中说他们没有移动这些动物。"
+    },
+    {
+      "s": "All twelve visitors on Saturday had cameras at home.",
+      "a": "NG",
+      "why": "文中未说明这十二位观众家里是否有摄像机。"
+    },
+    {
+      "s": "May saw two children walk on the new path.",
+      "a": "T",
+      "why": "一周后，梅看到两个孩子走在新路上。"
+    }
+  ]
+}

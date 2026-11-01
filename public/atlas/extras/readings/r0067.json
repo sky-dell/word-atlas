@@ -1,0 +1,46 @@
+{
+  "id": "r0067",
+  "ids": [
+    "eat",
+    "carrot",
+    "near",
+    "parent",
+    "famous",
+    "just",
+    "birthday",
+    "butter",
+    "college",
+    "close"
+  ],
+  "title": "Small Cakes, More Parties",
+  "titleZh": "蛋糕变小，聚会变多",
+  "topic": "city",
+  "cefr": 0,
+  "paras": [
+    "A small cake shop on Pine Street has a surprising new job. It makes tiny [[birthday|birthday]] cakes. Last May, it sold four a week. This May, it sells thirty a week. The shop is [[near|near]] a [[college|college]], but its new buyers are not all young people. Many are [[parent|parents]] with small children. They want a little party, not a big one.",
+    "The shop is [[famous|famous]] across the city for its large chocolate cakes. Now, its most popular cake has [[carrot|carrots]] in it. Baker Mina puts [[butter|butter]], eggs, and sugar in a bowl. Then she adds the orange vegetable. Each cake is [[just|just]] ten centimetres wide. Four people can [[eat|eat]] one after dinner. It costs less than a large cake, and there is no food left the next day.",
+    "Mina used to [[close|close]] the shop at five. Now she stays until seven because people come after work. On Friday, Omar bought a tiny cake for his mother's seventieth birthday. He put it in his bicycle basket. 'She does not want a big party,' he said. 'But we can still have a sweet evening together.'"
+  ],
+  "zh": [
+    "松树街上的一家小蛋糕店有了一项令人意外的新业务：制作迷你生日蛋糕。去年五月，店里每周卖出四个。今年五月，每周能卖出三十个。店铺在一所学院附近，但新顾客并不都是年轻人。许多顾客是家有小孩的父母。他们想办一场小聚会，而不是大聚会。",
+    "这家店的大巧克力蛋糕在全城都很有名。如今，店里最受欢迎的蛋糕却含有胡萝卜。蛋糕师米娜把黄油、鸡蛋和糖放进碗里，然后加入这种橙色蔬菜。每个蛋糕只有十厘米宽。四个人可以在晚饭后一起吃一个。它比大蛋糕便宜，而且不会有食物留到第二天。",
+    "米娜过去五点关店。现在她一直营业到七点，因为人们会在下班后过来。星期五，奥马尔为母亲的七十岁生日买了一个迷你蛋糕。他把蛋糕放进自行车车篮里。他说：“她不想办大聚会，但我们仍然可以一起度过一个甜蜜的夜晚。”"
+  ],
+  "q": [
+    {
+      "s": "This May, the shop sells thirty tiny cakes a week.",
+      "a": "T",
+      "why": "正文说今年五月每周卖三十个。"
+    },
+    {
+      "s": "The shop's large chocolate cakes are still its most popular cakes.",
+      "a": "F",
+      "why": "现在最受欢迎的是胡萝卜蛋糕。"
+    },
+    {
+      "s": "Omar's mother lives on the same street as the cake shop.",
+      "a": "NG",
+      "why": "文章没有说明奥马尔母亲住在哪里。"
+    }
+  ]
+}

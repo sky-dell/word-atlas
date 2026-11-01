@@ -1,0 +1,48 @@
+{
+  "id": "r0435",
+  "ids": [
+    "intensive",
+    "frost",
+    "precisely",
+    "diagnose",
+    "combination",
+    "immense",
+    "fade",
+    "sharpen",
+    "ozone",
+    "placement"
+  ],
+  "title": "Winter Pictures in a Mountain Cinema",
+  "titleZh": "山间影院里的冬日影像",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "By sunrise, [[frost|frost]] covers the ticket window of a small mountain cinema. Visitors arriving for its winter film weekend find no red carpet: instead, a handwritten programme promises village life on screen. Inside, trainee archivist Leila begins her three-month [[placement|placement]], helping prepare films once carried between remote settlements in wooden boxes.",
+    "The collection reveals an unexpected [[combination|combination]] of entertainment and practical advice. Before a comedy, audiences might have watched a doctor explain how to [[diagnose|diagnose]] an illness from symptoms and laboratory results. Another short film describes [[ozone|ozone]] as a gas with three oxygen atoms in each molecule. These travelling screenings brought scientific knowledge into communities several days from a library.",
+    "Preparing the weekend requires an [[intensive|intensive]] five-day effort. Leila checks each reel while her supervisor adjusts the projector so that its metal teeth fit [[precisely|precisely]] into the holes along the film's edge. Some images have begun to [[fade|fade]], leaving purple skies above pale fields. Yet the pleasure of recognising a familiar doorway can be [[immense|immense]], even when its original colour has disappeared.",
+    "On Saturday evening, the most popular sequence shows a carpenter stopping to [[sharpen|sharpen]] a chisel beside an open window. An elderly viewer recognises the bench, which now stands in her kitchen. Afterwards, travellers gather around her rather than the projector. The cinema has offered more than attractive mountain scenery: it has turned a few seconds of ordinary work into a conversation across generations."
+  ],
+  "zh": [
+    "日出时，一家山间小影院的售票窗口结满了霜。前来参加冬季电影周末活动的游客没有看到红毯，迎接他们的是一份手写节目单，上面预告将放映记录村庄生活的影片。影院里，档案管理员实习生莱拉开始了为期三个月的实习，协助整理那些曾装在木箱里、被带往各个偏远村落放映的影片。",
+    "这批藏片展现了娱乐与实用知识出人意料的结合。看喜剧片之前，观众可能会先看到一位医生讲解如何根据症状和化验结果诊断疾病。另一部短片则介绍了臭氧，说明这种气体的每个分子含有三个氧原子。这些巡回放映将科学知识带进了距离图书馆有数日路程的社区。",
+    "筹备这个周末的活动需要连续五天的高强度工作。莱拉逐卷检查胶片，她的主管则调试放映机，让金属齿准确嵌入胶片边缘的小孔。一些画面已经开始褪色，浅淡的田野上方变成了紫色的天空。然而，即使原本的色彩已经消失，认出一个熟悉的门口仍能带来莫大的喜悦。",
+    "周六晚上，最受欢迎的片段拍的是一位木匠停下手头的活，在敞开的窗边磨凿子。一位年长的观众认出了那张工作台，如今它就摆在她的厨房里。放映结束后，游客们没有围着放映机，而是聚到了她身旁。影院带给人们的不只是迷人的山间风景：它让短短几秒的日常劳作画面，成为跨越几代人的交流契机。"
+  ],
+  "q": [
+    {
+      "s": "Visitors to the winter film weekend are welcomed with a red carpet.",
+      "a": "F",
+      "why": "首段明确说活动没有红毯。"
+    },
+    {
+      "s": "The travelling film programmes combined amusement with educational material.",
+      "a": "T",
+      "why": "巡回放映既有喜剧，也有医学和科学知识。"
+    },
+    {
+      "s": "The elderly viewer learned carpentry from the man shown in the film.",
+      "a": "NG",
+      "why": "只说她认出了工作台，未提向木匠学艺。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0649",
+  "ids": [
+    "hasten",
+    "sprawl",
+    "lubrication",
+    "dogged",
+    "submerge",
+    "prestige",
+    "affiliate",
+    "salution",
+    "painstaking",
+    "missionary"
+  ],
+  "title": "Affection by the Printed Dozen",
+  "titleZh": "批量印出的情意",
+  "topic": "emotion",
+  "cefr": 4,
+  "paras": [
+    "Before commercial greeting cards became familiar, seasonal affection travelled chiefly through handwritten letters. A merchant addressing a distant cousin, or a [[missionary|missionary]] writing home, might spend considerable time choosing an appropriate [[salution|salutation]]. Such correspondence demanded effort; nevertheless, its personal character gave it emotional authority. The subsequent history of the greeting card would turn on whether printed words could retain that intimacy.",
+    "In Britain, cheaper postage helped [[hasten|hasten]] this transition. The celebrated Christmas card commissioned in 1843 showed a family raising glasses around a table, flanked by scenes of charitable giving. Later manufacturers developed elaborate products whose embossed borders and delicate colouring required [[painstaking|painstaking]] work. Their appeal depended partly on the [[prestige|prestige]] of fine printing: a purchased greeting need not look carelessly chosen.",
+    "Behind these tender images stood demanding industrial processes. For engraved designs, workers could [[submerge|submerge]] prepared metal plates in acid, which ate into exposed lines. Printing machinery required regular [[lubrication|lubrication]], while accurate colour registration rewarded [[dogged|dogged]] persistence. As the trade expanded, manufacturers could [[affiliate|affiliate]] with trade associations. The apparently private exchange of affection thus rested on increasingly organised networks of skilled labour.",
+    "By the late nineteenth century, albums allowed recipients to preserve cards rather than discard them. Humorous illustrations might show children who [[sprawl|sprawled]] across a rug, replacing ceremonial dignity with recognisable domestic ease. Yet the printed message rarely eliminated handwriting altogether: a name, a date, or one additional sentence made the object particular. Mass production had not abolished intimacy; it had supplied a new surface on which to inscribe it."
+  ],
+  "zh": [
+    "在商业贺卡普及之前，节日里的情意主要通过手写书信传递。无论是致信远房堂表亲的商人，还是写信回家的传教士，都可能花上不少时间斟酌合适的称呼。这类通信颇费心力，但其私人性质也使它在情感表达上更有分量。此后贺卡的发展，始终围绕着一个问题：印刷文字能否保留这种亲密感。",
+    "在英国，邮资下降加快了这一转变。1843年受委托制作的那张著名圣诞贺卡，描绘了一家人围桌举杯的场景，两侧则是施舍救济的画面。后来的制造商推出了更加精巧的产品，浮雕边框与细腻着色都需要极其细致的制作。这些贺卡的吸引力部分来自精美印刷所享有的声望：买来的祝福，也未必显得是随便挑选的。",
+    "这些温情图像的背后，是要求严苛的工业工序。制作蚀刻图案时，工人可以将处理过的金属版浸入酸液，让酸液腐蚀裸露的线条。印刷机械需要定期润滑，而精确的彩色套印则有赖于坚持不懈的努力。随着行业扩张，制造商可以加入行业协会。由此，看似私密的情感交流，实际上依托着组织日益完善的熟练劳动力网络。",
+    "到了十九世纪末，人们可以将收到的贺卡收入集册，保存下来，而不是丢弃。诙谐的插图可能画着四肢摊开躺在地毯上的孩子，以熟悉的居家自在取代礼仪性的庄重。然而，印好的祝福语很少完全取代手写文字：一个名字、一个日期，或补写的一句话，就能使这件物品变得独一无二。批量生产并没有消除亲密感，而是为人们提供了一个承载它的新载体。"
+  ],
+  "q": [
+    {
+      "s": "The personal nature of early seasonal letters contributed to their emotional significance.",
+      "a": "T",
+      "why": "首段指出书信的私人性质赋予其情感分量。"
+    },
+    {
+      "s": "Cheaper postage slowed the transition to greeting cards in Britain.",
+      "a": "F",
+      "why": "第二段说较低邮资加快了这一转变。"
+    },
+    {
+      "s": "Recipients usually arranged the cards in their albums by date.",
+      "a": "NG",
+      "why": "末段未说明集册中的贺卡如何排序。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0075",
+  "ids": [
+    "fruit",
+    "son",
+    "over",
+    "vegetable",
+    "dictionary",
+    "maybe",
+    "they",
+    "many",
+    "cook",
+    "away"
+  ],
+  "title": "Lunch Under the Grape Leaves",
+  "titleZh": "葡萄叶下的午餐",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "In a small village, visitors can eat lunch in Mira's garden. Green grape leaves grow [[over|over]] the tables. Mira and her [[son|son]], Sami, put out bowls and cups each morning. [[they|They]] also bring two baskets from the house. One holds [[fruit|fruit]], like apples and pears. The other holds [[vegetable|vegetables]], like carrots and beans. The food comes from their garden.",
+    "Guests help to wash the food in a big bowl. There are [[many|many]] words to learn here. A small [[dictionary|dictionary]] sits on a table, beside a red flower. Visitors can look up the names of their lunch foods. Then Mira shows them how to [[cook|cook]] the beans with tomatoes. The apples and pears stay fresh. Sami cuts them into small pieces.",
+    "At noon, everyone sits down together. Mira puts bread beside the hot beans. Guests eat slowly and talk about the garden. Some ask for more bread. Others watch a little bird fly [[away|away]] from the wall. After lunch, Sami gives each guest a pear for the road. \"[[maybe|Maybe]] you can come again tomorrow,\" he says. The visitors leave with their pears and happy faces."
+  ],
+  "zh": [
+    "在一个小村庄里，游客可以在米拉的花园里吃午饭。绿色的葡萄叶长在餐桌上方。米拉和儿子萨米每天早上摆好碗和杯子。他们还从屋里拿出两个篮子。一个装着苹果、梨之类的水果，另一个装着胡萝卜、豆角之类的蔬菜。这些食物都来自他们的花园。",
+    "客人们帮忙在一个大碗里清洗食物。在这里，大家可以学到许多词语。桌上放着一本小词典，旁边有一朵红花。游客可以查一查午餐食材的名称。然后，米拉教他们怎样把豆角和番茄一起煮。苹果和梨仍然很新鲜。萨米把它们切成小块。",
+    "中午，大家一起坐下来。米拉把面包放在热豆角旁边。客人们慢慢吃着，聊起这个花园。有些人想再要些面包，另一些人看着一只小鸟从墙上飞走。午饭后，萨米给每位客人一个梨，让他们带在路上吃。他说：“也许你们明天还能再来。”游客们带着自己的梨，开心地离开了。"
+  ],
+  "q": [
+    {
+      "s": "Mira and Sami put out the bowls in the evening, not the morning.",
+      "a": "F",
+      "why": "文中说两人每天早上摆好碗和杯子。"
+    },
+    {
+      "s": "Mira shows the guests how to cook beans with tomatoes.",
+      "a": "T",
+      "why": "第二段明确说米拉教客人把两者一起煮。"
+    },
+    {
+      "s": "Sami gives the guests pears because he likes pears best.",
+      "a": "NG",
+      "why": "文中未说明赠梨是否因他最喜欢梨。"
+    }
+  ]
+}

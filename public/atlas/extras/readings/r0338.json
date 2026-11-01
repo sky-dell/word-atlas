@@ -1,0 +1,48 @@
+{
+  "id": "r0338",
+  "ids": [
+    "soul",
+    "crystal",
+    "elect",
+    "abundant",
+    "beneath",
+    "overload",
+    "bear",
+    "modest",
+    "activated",
+    "landscape"
+  ],
+  "title": "Why Ancient Tomb Walls Flake",
+  "titleZh": "古墓墙壁为何剥落",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "In some ancient burial traditions, a painted tomb provided a lasting home for the [[soul|soul]] after death. Yet the walls intended to preserve a person's memory can slowly destroy their own decoration. Across a dry desert [[landscape|landscape]], tomb paintings sometimes fall away in tiny flakes, even where rain is rare. The hidden cause is often salt.",
+    "Water moving through rock [[beneath|beneath]] a tomb dissolves salts and carries them into its walls. Although the surface looks dry, moisture can travel through extremely narrow spaces within the stone. When it evaporates, each salt [[crystal|crystal]] left behind can grow as more dissolved salt arrives. Where salts are [[abundant|abundant]], repeated growth presses against the surrounding material until grains loosen and painted surfaces separate.",
+    "Opening a sealed chamber can accelerate this damage. Fresh air changes humidity, while lamps, once [[activated|activated]], may warm nearby walls. These changes affect how quickly moisture evaporates. The stone may [[bear|bear]] this stress for years before damage becomes visible. Adding a hard protective coating can even [[overload|overload]] a weakened surface with extra weight without stopping the process inside it.",
+    "A community conservation group might [[elect|elect]] a coordinator to organise regular photographs and moisture readings. Observers must remain [[modest|modest]] about predicting exactly when a wall will fail. However, these records allow them to compare the condition of particular painted areas across the seasons."
+  ],
+  "zh": [
+    "在一些古代丧葬传统中，绘有壁画的墓室被视为人死后灵魂的永久居所。然而，本想留存逝者记忆的墙壁，却可能慢慢毁掉自身的装饰。在干旱的沙漠地区，即使雨水稀少，墓室壁画有时仍会一小片一小片地脱落。隐藏的原因往往是盐。",
+    "水流经墓室下方的岩石时，会溶解其中的盐，并将其带入墙壁。尽管表面看起来干燥，水分仍能穿过石材内部极其狭窄的空隙。水分蒸发后，留下的每一颗盐晶体都可能随着更多溶解的盐到来而继续生长。在盐分充裕的地方，晶体反复生长，挤压周围材料，直至颗粒松动、彩绘表层剥离。",
+    "打开密封的墓室可能加快这种破坏。新鲜空气会改变湿度，而灯具开启后，可能使附近的墙壁升温。这些变化会影响水分蒸发的速度。石材可能承受这种压力多年，损坏才显现出来。加上一层坚硬的保护涂层，甚至可能让已经脆弱的表层承受过重的额外负荷，却无法阻止内部的变化过程。",
+    "社区文物保护小组可以选举一位协调员，安排定期拍照和测量湿度。观察者在预测墙壁究竟何时会破损时，必须保持谦逊。不过，这些记录能让他们比较特定彩绘区域在不同季节的状况。"
+  ],
+  "q": [
+    {
+      "s": "Tomb paintings can deteriorate even in places that receive very little rainfall.",
+      "a": "T",
+      "why": "首段指出，雨水稀少处壁画也会剥落。"
+    },
+    {
+      "s": "Salt crystals in tomb walls usually double in size within a month.",
+      "a": "NG",
+      "why": "第二段说明晶体会生长，未说明生长速度。"
+    },
+    {
+      "s": "Damage becomes visible as soon as the stone begins to experience pressure from salt growth.",
+      "a": "F",
+      "why": "第三段说，石材可能承压多年才显出损坏。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0397",
+  "ids": [
+    "supportive",
+    "utterly",
+    "democratic",
+    "peninsula",
+    "bound",
+    "submission",
+    "allowance",
+    "smuggle",
+    "astonish",
+    "realistic"
+  ],
+  "title": "Voices Beneath the Floorboards",
+  "titleZh": "地板下的声音",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "Media researcher Leila Haddad spends her mornings examining old newspapers in a former bakery on the Nerin [[peninsula|peninsula]]. Her project explores how fishing communities exchanged news before radio arrived. A small museum provides a monthly travel [[allowance|allowance]], while its [[supportive|supportive]] director helps her arrange interviews with families who still keep papers from that period.",
+    "The collection began with an unusual [[submission|submission]]: a wooden box discovered beneath a cottage floor. Inside were handwritten news sheets from a time when the region lacked [[democratic|democratic]] government and public criticism was forbidden. Boat crews used to [[smuggle|smuggle]] these sheets into villages inside empty flour sacks. Their reports described food prices, damaged harbour walls and demands for elected representatives.",
+    "What continues to [[astonish|astonish]] Haddad is the care taken over apparently ordinary information. One sheet lists every household that needed fresh water after a storm. She had expected political arguments, but this practical detail gave her an [[utterly|utterly]] different understanding of the writers. To share that discovery, she is producing short audio programmes. These use actors rather than original recordings, which do not exist.",
+    "Recreating every issue would take years, so Haddad set a [[realistic|realistic]] goal: six programmes, each following one sheet from writer to reader. Some details are [[bound|bound]] to remain unknown, including the names of several writers. Nevertheless, the final programme ends by reading out the water list. For Haddad, those household names reveal what the secret news service was ultimately protecting."
+  ],
+  "zh": [
+    "媒体研究员莱拉·哈达德每天上午都在内林半岛上一家旧面包店里查阅老报纸。她的项目研究广播出现之前，渔村如何交流消息。一家小博物馆每月为她提供交通津贴，热心支持她的馆长则帮助她联系仍保存着那个年代报纸的家庭，安排访谈。",
+    "这批收藏始于有人送来的一件不同寻常的物品：一个在村舍地板下发现的木箱。里面装着手写的新闻简报。它们诞生的年代，当地尚无民主政体，公开批评也受到禁止。船员们曾把这些简报藏在空面粉袋中，偷偷运进村庄。简报报道食品价格、受损的港口围墙，以及要求选举代表的呼声。",
+    "让哈达德不断感到惊讶的是，编写者对看似普通的信息竟如此用心。一份简报列出了暴风雨后每一个需要淡水的家庭。她原本以为会看到政治争论，这些实用的细节却让她对编写者有了截然不同的理解。为了分享这一发现，她正在制作一系列短音频节目。节目由演员朗读，而非使用原始录音，因为并不存在这样的原始录音。",
+    "重现每一期简报需要多年时间，因此哈达德设定了一个切实可行的目标：制作六期节目，每期追踪一份简报从编写者到读者手中的历程。有些细节注定无法查明，其中包括几位编写者的姓名。不过，最后一期节目将以朗读那份用水名单收尾。在哈达德看来，名单上那些家庭的名字揭示了这项秘密新闻服务最终守护的是什么。"
+  ],
+  "q": [
+    {
+      "s": "Haddad receives regular financial assistance from a museum to cover travel expenses.",
+      "a": "T",
+      "why": "博物馆每月为她提供交通津贴。"
+    },
+    {
+      "s": "Haddad's audio programmes include recordings made when the news sheets were written.",
+      "a": "F",
+      "why": "节目使用演员朗读，原始录音并不存在。"
+    },
+    {
+      "s": "The six programmes will be available in more than one language.",
+      "a": "NG",
+      "why": "文章未说明节目将使用多少种语言。"
+    }
+  ]
+}

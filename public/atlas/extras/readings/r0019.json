@@ -1,0 +1,46 @@
+{
+  "id": "r0019",
+  "ids": [
+    "map",
+    "move",
+    "send",
+    "sixty",
+    "list",
+    "meet",
+    "stay",
+    "food",
+    "music",
+    "fridge"
+  ],
+  "title": "A Classroom on the River",
+  "titleZh": "河上的教室",
+  "topic": "education",
+  "cefr": 0,
+  "paras": [
+    "Lina was a teacher on a blue boat. Her classroom had two long tables and ten chairs. A [[map|map]] beside the door showed six villages along a river. The boat could [[move|move]] from one village to the next. One morning, ten children came to [[meet|meet]] Lina. Many had no books at home, but there were [[sixty|sixty]] books on the boat.",
+    "A [[list|list]] on the wall gave the names of the books. Each child took a book and sat at a table. Lina sat with them and helped them read new words. Then she opened a little box. Inside was a letter from a child in another village. There was a picture of a cat, too. The children could [[send|send]] letters to children in other villages. They began to write. One boy drew his dog at the bottom of his letter.",
+    "After the lesson, Lina played [[music|music]], and everyone sang. Then the children put their books back and went home. Lina could [[stay|stay]] on the boat at night. Behind her chair was a small kitchen. She kept her [[food|food]] in a [[fridge|fridge]] under the shelf. She took out some eggs for dinner. The children's letters were still on the table. After dinner, she put them in her bag to post the next day."
+  ],
+  "zh": [
+    "莉娜是一艘蓝色船上的老师。她的教室里有两张长桌和十把椅子。门旁的地图上标出了河边的六个村庄。这艘船可以从一个村庄开到下一个村庄。一天早上，十个孩子来见莉娜。许多孩子家里没有书，但船上有六十本书。",
+    "墙上的清单列着书名。每个孩子都拿了一本书，在桌旁坐下。莉娜和他们坐在一起，帮助他们读新词。然后，她打开了一个小盒子。里面有一封另一个村庄的孩子寄来的信，还有一张猫的画。孩子们可以给其他村庄的孩子寄信。他们开始写信。一个男孩在自己的信的下方画了他的狗。",
+    "下课后，莉娜播放音乐，大家一起唱歌。然后，孩子们把书放回原处，回家了。莉娜晚上可以住在船上。她的椅子后面是一个小厨房。她把食物放在架子下面的冰箱里。她拿出几个鸡蛋准备做晚饭。孩子们的信还在桌上。晚饭后，她把信放进自己的包里，准备第二天寄出去。"
+  ],
+  "q": [
+    {
+      "s": "The map shows six villages.",
+      "a": "T",
+      "why": "原文明说地图标出了六个村庄。"
+    },
+    {
+      "s": "Children could send letters only to people in their own village.",
+      "a": "F",
+      "why": "孩子们可以给其他村庄的孩子寄信。"
+    },
+    {
+      "s": "Lina's favourite songs were about animals.",
+      "a": "NG",
+      "why": "文章未提及莉娜最喜欢哪些歌曲。"
+    }
+  ]
+}

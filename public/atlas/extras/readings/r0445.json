@@ -1,0 +1,48 @@
+{
+  "id": "r0445",
+  "ids": [
+    "trail",
+    "budget",
+    "fundamental",
+    "invalid",
+    "skincare",
+    "weep",
+    "eliminate",
+    "deadly",
+    "amateur",
+    "grave"
+  ],
+  "title": "A Warning Woven into Cloth",
+  "titleZh": "织进布料的警示",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "Textile researcher Leila Nouri tests her inventions on a mountain [[trail|trail]] above her workshop. Once an [[amateur|amateur]] who dyed cloth for pleasure, she now develops fabric that changes colour under ultraviolet light. Her latest project is a wristband designed to remind outdoor workers about [[skincare|skincare]], especially the need for sun protection.",
+    "The idea began after her father died from skin cancer, a disease that can be [[deadly|deadly]]. Visiting his [[grave|grave]], Leila would sometimes [[weep|weep]], remembering how he had worked outdoors without covering his arms. She could not change his habits now, but she wondered whether a visible warning might influence other people before damage occurred.",
+    "With a small research [[budget|budget]], Leila bought second-hand equipment and rented a single room. Her [[fundamental|fundamental]] challenge was making the colour change reliable after repeated washing. An early safety certificate proved [[invalid|invalid]] because it had been issued by an organisation without official approval. Rather than sell the bands immediately, she paid for fresh testing at an accredited laboratory.",
+    "The resulting band turns purple when exposure reaches a set level. It cannot [[eliminate|eliminate]] the risk of skin damage, and Leila stresses that it does not replace sunscreen or protective clothing. During a trial, twelve vineyard workers wore it for six weeks. Several began taking breaks in the shade when it changed colour. For Leila, those quiet changes mattered more than an impressive display of technology."
+  ],
+  "zh": [
+    "纺织研究员莱拉·努里在工作室上方的一条山间小径上测试自己的发明。她曾是一名以染布为乐的业余爱好者，如今则开发能在紫外线照射下变色的织物。她最新的项目是一款腕带，旨在提醒户外工作者注意皮肤护理，尤其是防晒。",
+    "这个想法源于她父亲因皮肤癌去世的经历，这种疾病可能致命。去父亲墓前探望时，莱拉有时会流泪，想起他过去裸露着双臂在户外干活。如今，她已无法改变父亲的习惯，却开始思考：一种看得见的警示，能否在伤害发生之前影响其他人的行为？",
+    "研究经费有限，莱拉买了二手设备，只租了一个房间。她面临的基本难题，是让织物在反复洗涤后仍能可靠地变色。早期的一份安全证书后来被认定无效，因为颁发证书的机构没有获得官方认可。她没有立刻出售腕带，而是出钱请一家经过认证的实验室重新检测。",
+    "最终制成的腕带会在紫外线暴露达到设定水平时变成紫色。它无法彻底消除皮肤受损的风险，莱拉也强调，它不能替代防晒霜或防护衣物。在一次试用中，十二名葡萄园工人佩戴了六周。几名工人开始在腕带变色时到阴凉处休息。对莱拉来说，这些悄然发生的改变，比令人惊叹的技术展示更有意义。"
+  ],
+  "q": [
+    {
+      "s": "Leila first practised cloth dyeing as a leisure activity.",
+      "a": "T",
+      "why": "首段说明她起初染布是出于爱好。"
+    },
+    {
+      "s": "Leila put the wristbands on sale before arranging replacement safety tests.",
+      "a": "F",
+      "why": "第三段说明她没有立即出售，而是重新检测。"
+    },
+    {
+      "s": "The vineyard workers were paid to take part in the trial.",
+      "a": "NG",
+      "why": "文章未提参与试用的工人是否获得报酬。"
+    }
+  ]
+}

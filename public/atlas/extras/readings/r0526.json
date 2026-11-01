@@ -1,0 +1,48 @@
+{
+  "id": "r0526",
+  "ids": [
+    "united",
+    "linguistics",
+    "riddle",
+    "workaholic",
+    "military",
+    "complicate",
+    "best-seller",
+    "sleepiness",
+    "thrill",
+    "blush"
+  ],
+  "title": "Making a Mystery for the Ear",
+  "titleZh": "制作一部耳边的悬疑剧",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "Turning a printed mystery into an audio drama begins with deciding what listeners must hear. For a six-part adaptation of a [[best-seller|best-seller]] set in an abandoned [[military|military]] radio station, producer Amara brings together actors, a writer and a sound designer. They remain [[united|united]] by one aim: listeners should solve the mystery alongside the main character.",
+    "First, the writer reduces long descriptions to brief exchanges. A specialist in [[linguistics|linguistics]] checks whether clues based on pronunciation will work when spoken aloud. One [[riddle|riddle]], whose answer is 'an echo', becomes the centre of the opening episode. Extra voices would [[complicate|complicate]] this scene, so only two actors perform it, leaving silence for the audience to think.",
+    "Next comes recording. Actor Kenji tends to [[blush|blush]] when he makes mistakes, but the microphone captures only his voice, allowing him to try again without facing an audience. Amara, a self-confessed [[workaholic|workaholic]], schedules regular breaks despite wanting to continue. This prevents [[sleepiness|sleepiness]] from flattening the actors' delivery during long afternoon sessions. Each line is recorded several times, with different levels of urgency.",
+    "Finally, the sound designer adds footsteps, radio static and carefully measured echoes. The [[thrill|thrill]] of the first successful playback comes when a distant reply seems to emerge from behind the listener. Before release, volunteers hear the episode without a script and note any confusing moments. After final adjustments, the team has transformed silent pages into a mystery that exists entirely in sound."
+  ],
+  "zh": [
+    "把纸上的悬疑故事改编成广播剧，首先要确定哪些内容必须让听众听见。制作人阿玛拉准备将一本以废弃军用无线电台为背景的畅销书改编成六集广播剧，为此召集了演员、编剧和音效设计师。他们有着共同的目标：让听众与主角一起解开谜团。",
+    "首先，编剧把冗长的描写压缩成简短的对话。一位语言学专家检查那些依靠发音设置的线索在读出来时是否仍然有效。一则谜底为“回声”的谜语成了第一集的核心。增加说话的人会使这一场景更难理解，因此只由两名演员表演，并留出安静的间隙供听众思考。",
+    "接下来是录音。演员健二出错时容易脸红，但麦克风只记录声音，让他可以不必面对观众，重新尝试。阿玛拉自认是个工作狂，尽管想继续工作，还是安排了定时休息。这能避免演员在漫长的下午录音过程中因困倦而语调平淡。每句台词都会录制几遍，分别表现出不同程度的紧迫感。",
+    "最后，音效设计师加入脚步声、无线电杂音和经过精心控制的回声。第一次成功回放时，一声遥远的回应仿佛从听众身后传来，令人兴奋不已。正式发布前，志愿者在没有剧本的情况下收听这一集，并记下任何令人困惑的地方。经过最后的调整，团队把无声的书页变成了一部完全通过声音呈现的悬疑剧。"
+  ],
+  "q": [
+    {
+      "s": "Additional speakers are introduced to make the opening riddle easier to follow.",
+      "a": "F",
+      "why": "额外人声会增加理解难度，因此只用两名演员。"
+    },
+    {
+      "s": "Kenji has performed in audio dramas before.",
+      "a": "NG",
+      "why": "文中未说明健二此前是否演过广播剧。"
+    },
+    {
+      "s": "Volunteers listen to the episode without a script before its release.",
+      "a": "T",
+      "why": "末段明确说明志愿者在发布前无剧本试听。"
+    }
+  ]
+}

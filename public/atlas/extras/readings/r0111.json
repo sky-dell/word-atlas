@@ -1,0 +1,46 @@
+{
+  "id": "r0111",
+  "ids": [
+    "noticeboard",
+    "pick",
+    "garage",
+    "service",
+    "classmate",
+    "visitor",
+    "kilometer",
+    "death",
+    "pop",
+    "cupboard"
+  ],
+  "title": "A Second Life for Garden Tools",
+  "titleZh": "园艺工具的新生命",
+  "topic": "environment",
+  "cefr": 1,
+  "paras": [
+    "After her uncle's [[death|death]], Mina found many garden tools in his [[garage|garage]]. Some were broken, but she did not want to throw them away. Her uncle had loved growing food and sharing it with neighbours. Mina put a message on the village [[noticeboard|noticeboard]]. She asked for help to start a tool repair [[service|service]], so people could keep using old tools instead of buying new ones.",
+    "Omar, her [[classmate|classmate]] from an evening cooking course, offered to help. He lived one [[kilometer|kilometer]] away and walked over every Saturday. Together, they cleaned the tools and put small parts in a [[cupboard|cupboard]]. Each [[visitor|visitor]] could [[pick|pick]] a tool to borrow for a week. There was no charge. While they worked, Mina played quiet [[pop|pop]] music on her uncle's old radio.",
+    "At first, only three neighbours came. Then a woman borrowed a fork to make a vegetable bed. She returned with fresh beans a month later and told her friends about the project. By autumn, twelve families were borrowing tools. Mina kept a book of names and return dates beside the door. The old building was useful again, and fewer broken tools went into the rubbish."
+  ],
+  "zh": [
+    "一位叔伯或舅辈亲人去世后，米娜在他的车库里发现了许多园艺工具。有些已经坏了，但她不想把它们扔掉。这位亲人生前喜欢种植食物，也喜欢把收获分给邻居。米娜在村里的布告栏上贴了一则消息。她想请人帮忙开办工具维修服务，让大家能继续使用旧工具，而不用购买新的。",
+    "奥马尔是她在晚间烹饪课上的同班同学，他主动提出帮忙。他住在一公里外，每周六都步行过来。他们一起清理工具，把小零件放进一个橱柜里。每位来访者都可以挑选一件工具，免费借用一周。干活时，米娜会用那位亲人的旧收音机小声播放流行音乐。",
+    "起初，只有三位邻居来过。后来，一位女士借了一把园艺叉，准备开辟一块菜地。一个月后，她带着新鲜的豆角回来了，还向朋友们介绍了这个项目。到了秋天，已有十二户家庭在借用工具。米娜在门边放了一本册子，记录姓名和归还日期。这座旧建筑又有了用处，被当作垃圾扔掉的坏工具也减少了。"
+  ],
+  "q": [
+    {
+      "s": "Mina wanted to throw away the broken tools she found.",
+      "a": "F",
+      "why": "第一段明确说她不想扔掉这些工具。"
+    },
+    {
+      "s": "Visitors could borrow a tool for a week without paying.",
+      "a": "T",
+      "why": "第二段说明工具可免费借用一周。"
+    },
+    {
+      "s": "Mina planned to open another tool centre the following year.",
+      "a": "NG",
+      "why": "文章未提及米娜下一年的开办计划。"
+    }
+  ]
+}

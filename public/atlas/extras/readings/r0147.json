@@ -1,0 +1,46 @@
+{
+  "id": "r0147",
+  "ids": [
+    "passport",
+    "cash",
+    "scarf",
+    "shoulder",
+    "refrigerator",
+    "prince",
+    "sailing",
+    "ninth",
+    "nature",
+    "reply"
+  ],
+  "title": "A Bird Hut by the Sea",
+  "titleZh": "海边的观鸟小屋",
+  "topic": "nature",
+  "cefr": 1,
+  "paras": [
+    "On a small island, twelve neighbours wanted to turn an empty boat hut into a place for watching birds. Their aim was to help visitors enjoy [[nature|nature]] without walking near the birds' nests. Mina, a volunteer from another country, joined them in May. She kept her [[passport|passport]] safely in her room and brought some [[cash|cash]] to buy wood for the hut's broken door.",
+    "Each morning, Mina walked to the hut with a bag over her [[shoulder|shoulder]]. A yellow [[scarf|scarf]] kept her neck warm in the sea wind. Inside, Omar cleaned an old [[refrigerator|refrigerator]] so they could keep milk cold for visitors' tea. They also found a photograph of a [[prince|prince]], the king's son, beside a boat. He had visited the island to go [[sailing|sailing]] many years before. They hung the photograph by the new door.",
+    "On the [[ninth|ninth]] day, the hut opened. A child asked why there were no chairs outside. Mina [[reply|replied]], \"We stay inside so the birds feel safe.\" Through small windows, families watched birds carry food to their young. Visitors could use the hut free of charge, but several left coins for repairs. By evening, the neighbours had enough money to fix the roof, their next job."
+  ],
+  "zh": [
+    "在一座小岛上，十二位邻居想把一间闲置的船屋改成观鸟的地方。他们希望游客能欣赏大自然，又不必走到鸟巢附近。五月，来自另一个国家的志愿者米娜加入了他们。她把护照妥善放在自己的房间里，带了些现金去买木料，修理小屋破损的门。",
+    "每天早晨，米娜都肩背着一个包走到小屋。海风吹来，一条黄色围巾让她的脖子保持温暖。屋里，奥马尔清洗了一台旧冰箱，这样他们就能冷藏供游客喝茶用的牛奶。他们还找到了一张照片，照片中一位王子在船旁，他是国王的儿子。很多年前，他曾来岛上进行帆船活动。他们把照片挂在了新门旁边。",
+    "第九天，小屋开放了。一个孩子问，为什么外面没有椅子。米娜回答：“我们待在屋里，鸟儿才会觉得安全。”一家家游客透过小窗，看着鸟儿给幼鸟送食。游客可以免费使用小屋，不过有几个人留下了硬币，用来支持修缮。到了傍晚，邻居们已经筹够了修屋顶的钱，那是他们的下一项工作。"
+  ],
+  "q": [
+    {
+      "s": "The neighbours wanted visitors to walk close to the birds' nests.",
+      "a": "F",
+      "why": "他们希望游客不靠近鸟巢就能欣赏自然。"
+    },
+    {
+      "s": "The refrigerator was for keeping milk cold.",
+      "a": "T",
+      "why": "冰箱用来冷藏供游客喝茶用的牛奶。"
+    },
+    {
+      "s": "The roof repairs would cost more than the new door.",
+      "a": "NG",
+      "why": "文章未比较修屋顶与换门的费用。"
+    }
+  ]
+}

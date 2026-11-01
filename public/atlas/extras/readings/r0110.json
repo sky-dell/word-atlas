@@ -1,0 +1,46 @@
+{
+  "id": "r0110",
+  "ids": [
+    "guide",
+    "metal",
+    "bowl",
+    "weekday",
+    "provide",
+    "mall",
+    "hall",
+    "helpful",
+    "scotland",
+    "disease"
+  ],
+  "title": "Water on an Old Kitchen Bowl",
+  "titleZh": "老厨房里碗外的水珠",
+  "topic": "history",
+  "cefr": 1,
+  "paras": [
+    "In an old house in [[scotland|Scotland]], visitors can learn how people kept food cool before electric fridges. The house now stands beside a busy [[mall|mall]], but its kitchen still looks much as it did two hundred years ago. On a [[weekday|weekday]] morning, a [[guide|guide]] meets a small group in the entrance [[hall|hall]]. She takes them downstairs to see a simple experiment.",
+    "On the kitchen table is a [[metal|metal]] [[bowl|bowl]] filled with ice. Soon, tiny drops of water appear on its outside. Has water passed through its sides? No. The air contains water that we cannot see. Near the cold surface, this water cools and becomes liquid. The drops join together and slowly run down onto the table. A dry cloth is [[helpful|helpful]] for showing how quickly new drops form.",
+    "Long ago, workers cut ice from frozen lakes in winter. Deep rooms could [[provide|provide]] a cold place to store it for months. Families used this ice to cool food. Cold conditions slow the growth of some tiny living things that can cause [[disease|disease]], although cold does not make all food safe. The little drops show something important: even when a container is closed, the air around it can leave water behind."
+  ],
+  "zh": [
+    "在苏格兰的一座老宅里，游客可以了解电冰箱出现以前，人们是怎样让食物保持低温的。如今，老宅旁边是一座热闹的购物中心，但宅内厨房的样子仍与两百年前大致相同。一个工作日的上午，一位导游在入口门厅迎接一小群游客。她带着他们下楼，去看一个简单的实验。",
+    "厨房的桌子上放着一个装满冰块的金属碗。很快，碗的外侧出现了细小的水珠。是水穿过了碗壁吗？不是。空气中含有我们看不见的水分。靠近冰冷的表面时，这些水分冷却下来，变成液态水。水珠汇聚在一起，慢慢流到桌上。用干布擦一下，就很容易看出新的水珠形成得有多快。",
+    "很久以前，工人们在冬天从结冰的湖面上切下冰块。地下深处的房间可以提供一个寒冷的地方，让冰块储存好几个月。人们用这些冰块冷却食物。低温会减慢某些可能引发疾病的微小生物的生长，不过，低温并不能让所有食物都变得安全。这些小水珠说明了一件重要的事：即使容器是封闭的，周围的空气也能在它表面留下水。"
+  ],
+  "q": [
+    {
+      "s": "The kitchen looks almost the same as it did 200 years ago.",
+      "a": "T",
+      "why": "厨房仍与两百年前大致相同。"
+    },
+    {
+      "s": "The ice in the bowl was made in the old house.",
+      "a": "NG",
+      "why": "文章未说明碗里的冰在哪里制成。"
+    },
+    {
+      "s": "Keeping food cold makes all food safe to eat.",
+      "a": "F",
+      "why": "文章明确说低温不能让所有食物安全。"
+    }
+  ]
+}

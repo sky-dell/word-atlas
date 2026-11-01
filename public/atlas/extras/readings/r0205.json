@@ -1,0 +1,48 @@
+{
+  "id": "r0205",
+  "ids": [
+    "court",
+    "impressive",
+    "plenty",
+    "variety",
+    "chew",
+    "hopefully",
+    "christian",
+    "purpose",
+    "pollution",
+    "central"
+  ],
+  "title": "The Bread in the Records",
+  "titleZh": "档案里的面包",
+  "topic": "history",
+  "cefr": 2,
+  "paras": [
+    "Every Tuesday, food researcher Leila Costa visits the old [[court|court]] building in the [[central|central]] square of Bellara. Legal cases are no longer heard there, but its records remain. Leila studies complaints about bread from two hundred years ago. Her [[purpose|purpose]] is to discover what ordinary families actually ate.",
+    "There is [[plenty|plenty]] to learn from these complaints. One baker sold loaves that were too small; another added cheap bean flour. Other papers describe special bread for [[christian|Christian]] holidays. Leila is surprised by the [[variety|variety]]: some recipes contain dried apples, while others use potatoes. One letter even mentions river [[pollution|pollution]], which made the water unsuitable for baking.",
+    "In her small workshop, Leila tests the recipes with clean water and carefully measured ingredients. The results are not always [[impressive|impressive]]. Her first potato loaf was flat, and its thick outside was difficult to [[chew|chew]]. However, after several attempts, she produced a soft loaf with a pleasant taste. She wrote down every change so that others could repeat her work.",
+    "Last month, Leila shared this bread at an exhibition inside the former courtroom. Beside each slice, she placed a copy of an old complaint. Visitors laughed, tasted, and then read more closely. “[[hopefully|Hopefully]], they will remember the people behind these papers,” she said. By evening, only the papers were left."
+  ],
+  "zh": [
+    "每逢星期二，食品研究者莱拉·科斯塔都会到贝拉拉中央广场上的旧法院大楼去。那里已经不再审理案件，但档案仍保存着。莱拉研究的是两百年前人们对面包的投诉。她的目的是了解普通家庭当时究竟吃些什么。",
+    "这些投诉中有大量值得了解的信息。有个面包师出售的面包分量不足，另一个则掺入了廉价的豆粉。其他文件介绍了基督教节日期间食用的特殊面包。面包种类之多让莱拉惊讶：有些配方加入苹果干，另一些则使用土豆。一封信甚至提到了河水污染，导致河水不适合用来制作面包。",
+    "在自己的小工作室里，莱拉用干净的水和仔细称量过的原料试做这些配方。成品并不总是令人赞叹。她做的第一个土豆面包扁扁的，外皮很厚，难以咀嚼。不过，经过几次尝试，她做出了一个松软可口的面包。她记下每一处调整，以便别人也能照着制作。",
+    "上个月，莱拉在旧法庭内举办的一场展览上与大家分享了这种面包。每片面包旁边，她都放了一份旧投诉的复印件。参观者笑着品尝，然后更仔细地阅读起来。“希望他们会记住这些文件背后的人。”她说。到了傍晚，留下来的只有那些纸张。"
+  ],
+  "q": [
+    {
+      "s": "The building Leila visits has stopped being used for legal hearings.",
+      "a": "T",
+      "why": "首段说明那里已不再审理案件。"
+    },
+    {
+      "s": "The outside of Leila's first potato loaf was easy to chew.",
+      "a": "F",
+      "why": "原文明确说首次面包的厚外皮难以咀嚼。"
+    },
+    {
+      "s": "Visitors paid an entrance fee to attend the exhibition.",
+      "a": "NG",
+      "why": "文章未提及展览是否收取门票。"
+    }
+  ]
+}

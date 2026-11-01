@@ -1,0 +1,48 @@
+{
+  "id": "r0675",
+  "ids": [
+    "philosophical",
+    "ramification",
+    "amplifier",
+    "embed",
+    "distortion",
+    "lash",
+    "depletion",
+    "triumphant",
+    "resilient",
+    "misuse"
+  ],
+  "title": "The Hidden Sounds of Thirsty Trees",
+  "titleZh": "干渴树木的隐秘声响",
+  "topic": "city",
+  "cefr": 4,
+  "paras": [
+    "An avenue of mature trees may appear healthy even while drought is disrupting its internal water supply. Beneath the pavement, the [[depletion|depletion]] of soil moisture increases tension in the microscopic columns of water rising through each trunk. An unexpected [[ramification|ramification]] of sealing streets against mud is that rainwater can no longer readily replenish the ground beneath them.",
+    "As this tension intensifies, gas bubbles can form, breaking the continuous water columns and obstructing transport towards the leaves. These events sometimes release ultrasonic pulses. Researchers [[embed|embed]] tiny sensors in the outer wood and connect them to an [[amplifier|amplifier]], which strengthens the electrical signals for recording. However, interpreting these recordings requires caution: several processes within wood can produce acoustic emissions.",
+    "To describe every pulse as a tree's cry would therefore be a [[distortion|distortion]] of the evidence. Whether organisms without nervous systems can experience suffering is a separate [[philosophical|philosophical]] question, not something these recordings settle. Analysts who [[misuse|misuse]] pulse counts as a precise measure of damage may also overlook differences between species, whose internal plumbing varies considerably in structure and vulnerability.",
+    "When storms finally [[lash|lash]] the avenue, recovery is not instantaneous. Water must penetrate the soil, and severely damaged conducting tissue may need to be replaced through growth. Nevertheless, many urban trees are remarkably [[resilient|resilient]], restricting water loss and subsequently producing new vessels. A research team may feel [[triumphant|triumphant]] when fresh leaves emerge, but leaves alone do not establish that water transport has fully recovered. Where conducting tissue has been damaged, new growth may help restore it."
+  ],
+  "zh": [
+    "一条两旁长满成年树木的林荫道，表面上可能依然生机勃勃，但干旱已在扰乱树木内部的供水。在路面之下，土壤水分的消耗使树干内部向上延伸的微小水柱承受越来越大的张力。为避免泥泞而铺设不透水路面，却带来了一个意想不到的后果：雨水不再容易补充下方土壤中的水分。",
+    "随着这种张力增大，气泡可能形成，使连续的水柱断裂，阻碍水分向叶片输送。这些过程有时会释放超声脉冲。研究人员将微型传感器嵌入树干外层的木质部，再连接到放大器上，增强电信号以便记录。不过，解读这些记录必须谨慎，因为木材内部的多种过程都可能产生声发射。",
+    "因此，把每一次脉冲都说成树木的哭喊，会歪曲证据。没有神经系统的生物是否能够感受痛苦，是另一个哲学问题，并不能由这些记录来解答。如果分析人员错误地把脉冲次数当作衡量损伤程度的精确指标，还可能忽视物种之间的差异：不同树种内部的输水系统，在结构和脆弱程度上都有很大区别。",
+    "当暴风雨终于猛烈冲击林荫道时，树木并不会立即恢复。水必须渗入土壤，严重受损的输水组织也可能需要通过生长来替换。尽管如此，许多城市树木的恢复能力仍然十分出色，它们会减少水分流失，随后长出新的导管。看到新叶萌发，研究团队或许会感到胜利的喜悦，但仅凭叶片并不能确定水分输送已完全恢复。如果输水组织已经受损，新生组织可能有助于恢复输水功能。"
+  ],
+  "q": [
+    {
+      "s": "A healthy appearance rules out drought-related disruption of a tree's internal water supply.",
+      "a": "F",
+      "why": "首段说明树木供水受干旱扰乱时仍可能显得健康。"
+    },
+    {
+      "s": "The amplifier strengthens electrical signals from the sensors for recording.",
+      "a": "T",
+      "why": "第二段明确说明放大器增强电信号以便记录。"
+    },
+    {
+      "s": "Fresh leaves emerge within two weeks of the storms.",
+      "a": "NG",
+      "why": "末段提到新叶萌发，但未说明所需时间。"
+    }
+  ]
+}

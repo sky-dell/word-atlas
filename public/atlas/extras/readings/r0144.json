@@ -1,0 +1,46 @@
+{
+  "id": "r0144",
+  "ids": [
+    "create",
+    "organisation",
+    "fit",
+    "normal",
+    "volleyball",
+    "ancient",
+    "amount",
+    "selfie",
+    "pass",
+    "honey"
+  ],
+  "title": "Why Sand Makes Players Work Harder",
+  "titleZh": "为什么沙地让球员更费力",
+  "topic": "sport",
+  "cefr": 1,
+  "paras": [
+    "On a small beach, a sports [[organisation|organisation]] runs a morning [[volleyball|volleyball]] club. Its leader, Amira, uses ropes to [[create|create]] a court on the sand. She checks that it will [[fit|fit]] between two wooden posts and a line of rocks. Before the game, the players walk across the court to check for sharp stones. People on their morning walks [[pass|pass]] the beach and stop to watch.",
+    "After ten minutes, the players are breathing faster. This is [[normal|normal]] when people run and jump, but sand adds extra work. On a hard floor, the ground stays still under a player's feet. Sand moves away, so the legs must work harder to push the body forward. Even a short game can use a large [[amount|amount]] of energy. Amira gives everyone regular breaks and time to drink water.",
+    "During one break, a player named Jun eats bread with [[honey|honey]]. People in [[ancient|ancient]] times also ate this sweet food. Its sugar gives the body energy, although it cannot replace a full meal. Jun takes a [[selfie|selfie]] with his sandy teammates before they return to the court. Their last game is short. They finish tired but smiling, with a better understanding of the soft ground beneath their feet."
+  ],
+  "zh": [
+    "在一片小海滩上，一个体育团体开办了晨间排球俱乐部。负责人阿米拉用绳子在沙地上划出球场。她检查球场的大小，确保它能放得下，不会超出两根木柱和一排岩石之间的空间。比赛前，球员们走遍球场，检查有没有尖利的石头。晨间散步的人经过海滩时，会停下来看球。",
+    "十分钟后，球员们的呼吸加快了。跑跳时出现这种情况很正常，但沙地让运动更费力。在坚硬的地面上，球员脚下的地面不会移动。沙子却会向四周散开，因此双腿必须更加用力，才能推动身体向前。即使是一场短暂的比赛，也可能消耗大量能量。阿米拉定时让大家休息，并留出喝水的时间。",
+    "一次休息时，一位名叫俊的球员吃起了抹着蜂蜜的面包。古代的人也吃这种甜食。蜂蜜中的糖能为身体提供能量，但它不能代替一顿完整的饭。回到球场前，俊和满身沙子的队友们拍了一张自拍照。最后一场比赛很短。结束时，他们虽然疲惫，却面带笑容，也更了解脚下这片松软的地面了。"
+  ],
+  "q": [
+    {
+      "s": "Players pay to join the morning volleyball club.",
+      "a": "NG",
+      "why": "文章未说明参加晨间排球俱乐部是否收费。"
+    },
+    {
+      "s": "Moving on sand takes less effort than moving on a hard floor.",
+      "a": "F",
+      "why": "沙子会移动，双腿必须更加用力。"
+    },
+    {
+      "s": "Jun eats bread with honey during a break.",
+      "a": "T",
+      "why": "第三段明确说俊在休息时吃蜂蜜面包。"
+    }
+  ]
+}

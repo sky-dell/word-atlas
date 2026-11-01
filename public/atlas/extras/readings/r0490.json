@@ -1,0 +1,48 @@
+{
+  "id": "r0490",
+  "ids": [
+    "graceful",
+    "closely",
+    "formula",
+    "unreasonable",
+    "mill",
+    "overwhelming",
+    "minister",
+    "valid",
+    "prohibit",
+    "jellyfish"
+  ],
+  "title": "Recreating a Harbour Chart",
+  "titleZh": "重制一张港湾航海图",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "Making a museum copy of a nineteenth-century harbour chart begins with detective work. The original shows narrow channels, a coastal [[mill|mill]] where wheat became flour, and a small drawing of a [[jellyfish|jellyfish]]. Its [[graceful|graceful]] tentacles curve around the title. Before drawing anything, the maker studies these details [[closely|closely]], separating deliberate marks from stains and damage.",
+    "Next comes the paper. Cotton fibres are beaten in water, lifted onto a flat mesh and pressed into sheets. Once dry, the surface receives a thin coating of starch so that ink will not spread. Demanding an exact match to every ancient stain would be [[unreasonable|unreasonable]]: the aim is to reproduce the chart when new, not its later decay.",
+    "The coastline is transferred using a grid. If the copy is smaller, the maker applies the [[formula|formula]] d = k × D, where D is an original distance and k is the chosen scale factor. Fine pens then build up the channels and depth figures. The [[overwhelming|overwhelming]] number of tiny symbols makes this the slowest stage; rushing could turn a safe passage into an apparent sandbank.",
+    "Finally, the maker reproduces a printed notice signed by the maritime [[minister|minister]]. It explains that harbour rules [[prohibit|prohibit]] anchoring beside the grain landing and that entry permits remain [[valid|valid]] for one month. A discreet modern label identifies the sheet as a reproduction. Framed beside the original, it reveals information that fading ink has almost hidden."
+  ],
+  "zh": [
+    "为博物馆重制一张十九世纪的港湾航海图，首先要做一番侦探般的考察。原图描绘了狭窄的航道、一座将小麦磨成面粉的海岸磨坊，以及一幅小小的水母图案。水母优美的触须弯曲着环绕标题。动笔之前，制作者会仔细研究这些细节，区分原本画出的笔迹与污渍和破损。",
+    "接下来是造纸。将棉纤维放在水中捣打，用平整的网筛捞起，再压成纸张。纸晾干后，表面涂上一层薄薄的淀粉浆，以防墨水洇开。要求连每一处陈年污渍都完全一致并不合理：目标是重现航海图初成时的样貌，而不是它后来老化的状态。",
+    "海岸线借助网格转绘到纸上。如果复制品尺寸较小，制作者就使用公式 d = k × D，其中 D 代表原图上的距离，k 是选定的缩放系数。随后，用细笔逐步画出航道并标注水深数字。数量极大的细小符号使这一阶段最为耗时；稍有赶工，就可能把安全航道画得像沙洲。",
+    "最后，制作者重现了一份由海事大臣签署的印刷告示。告示说明，港口规定禁止在粮食卸货码头旁抛锚，入港许可证的有效期为一个月。一张不显眼的现代标签注明这是一件复制品。装裱后，它被放在原图旁边展示，让那些几乎被褪色墨迹掩去的信息重新清晰可见。"
+  ],
+  "q": [
+    {
+      "s": "The reproduction is intended to include every stain found on the old chart.",
+      "a": "F",
+      "why": "第二段指出目标是重现新图，而非老化痕迹。"
+    },
+    {
+      "s": "The maker chooses a scale factor of 0.5 for the copy.",
+      "a": "NG",
+      "why": "文中解释了缩放系数，未给出选定数值。"
+    },
+    {
+      "s": "The printed notice says that entry permits are valid for one month.",
+      "a": "T",
+      "why": "末段明确说明入港许可证有效期为一个月。"
+    }
+  ]
+}

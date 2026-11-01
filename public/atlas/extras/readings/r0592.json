@@ -1,0 +1,48 @@
+{
+  "id": "r0592",
+  "ids": [
+    "workmanship",
+    "marshal",
+    "pharmaceutical",
+    "bleak",
+    "weary",
+    "mantle",
+    "ceremonial",
+    "lunar",
+    "administer",
+    "combustion"
+  ],
+  "title": "A Ritual Before the Shift",
+  "titleZh": "开工前的仪式",
+  "topic": "emotion",
+  "cefr": 4,
+  "paras": [
+    "In a simulated [[lunar|lunar]] habitat, psychologist Amira Sen investigated whether a shared ritual could protect morale during repetitive work. Twenty-four volunteers spent twelve evenings checking inventories of [[pharmaceutical|pharmaceutical]] supplies. Beyond the windows, a grey [[mantle|mantle]] of artificial dust concealed the warehouse floor, reinforcing the impression of isolation without exposing participants to actual danger.",
+    "By the fourth evening, the volunteers were visibly [[weary|weary]], and several described the remaining schedule as [[bleak|bleak]]. Sen then divided them randomly into two groups. Both received identical wooden lamps, whose meticulous [[workmanship|workmanship]] concealed battery-powered lights; actual [[combustion|combustion]] was prohibited inside the habitat. The lamps had previously served a [[ceremonial|ceremonial]] purpose at the facility's public opening.",
+    "One group simply switched on its lamps before work. The other appointed a different member each evening to [[marshal|marshal]] the group around a table, illuminate the lamps together, and announce the night's shared objective. To [[administer|administer]] the comparison consistently, an observer followed a written protocol, while both groups received equal preparation time. Participants subsequently completed mood scales and inventory tasks, allowing emotional changes to be compared with measurable performance.",
+    "After eight further evenings, the ritual group reported less discouragement, although its inventory accuracy was no higher. Interviews suggested that the coordinated opening made an otherwise mechanical shift feel collectively acknowledged. Because participants knew which procedure they followed, expectation could not be excluded as an explanation. Nevertheless, the experiment offered a modest conclusion: a shared symbolic act might alter how burdensome work feels, without altering how competently it is performed."
+  ],
+  "zh": [
+    "在一个模拟月球栖居舱内，心理学家阿米拉·森研究了共同参与的仪式能否在重复性工作中维持士气。二十四名志愿者用十二个晚上的时间核查药品物资库存。窗外，一层灰色的人造尘土遮住了仓库地面，既强化了与外界隔绝的感觉，又不让参与者面临实际危险。",
+    "到了第四个晚上，志愿者已明显疲惫，有几个人觉得余下的日程令人看不到希望。随后，森将他们随机分为两组。两组都拿到了相同的木灯，精细的制作工艺使电池供电的光源隐藏其中；栖居舱内禁止真正的燃烧。这些灯此前曾用于该设施面向公众举行的启用仪式。",
+    "一组只需在工作前打开灯。另一组则每晚指定一名不同的成员，组织大家围在桌旁，一起点亮灯，并宣布当晚的共同目标。为确保对比程序执行一致，一名观察员依照书面规程行事，两组获得的准备时间也相同。随后，参与者填写情绪量表并完成库存任务，以便将情绪变化与可量化的工作表现进行比较。",
+    "又过了八个晚上，仪式组报告的沮丧程度较低，但库存核查的准确率并未更高。访谈提示，这种协调一致的开场，让原本机械的轮班工作有了被大家共同认可的感觉。由于参与者知道自己遵循的是哪种程序，研究无法排除期待效应这一解释。尽管如此，实验仍提出了一个审慎的结论：共同进行的象征性活动，或许能改变人们对工作负担的感受，却不改变他们实际完成工作的表现。"
+  ],
+  "q": [
+    {
+      "s": "The volunteers carried out their inventory checks on the Moon.",
+      "a": "F",
+      "why": "首段说明地点是仓库中的模拟月球栖居舱。"
+    },
+    {
+      "s": "The wooden lamps were made by volunteers before the experiment began.",
+      "a": "NG",
+      "why": "文章介绍了木灯，但未说明制作者。"
+    },
+    {
+      "s": "After eight further evenings, the ritual group reported less discouragement.",
+      "a": "T",
+      "why": "末段明确说明仪式组报告的沮丧程度较低。"
+    }
+  ]
+}

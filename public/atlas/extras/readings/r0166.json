@@ -1,0 +1,46 @@
+{
+  "id": "r0166",
+  "ids": [
+    "knee",
+    "tie",
+    "including",
+    "spelling",
+    "korean",
+    "indian",
+    "mind",
+    "tiny",
+    "backpack",
+    "quiz"
+  ],
+  "title": "Small Lives Beside the Stream",
+  "titleZh": "溪边的小生命",
+  "topic": "nature",
+  "cefr": 1,
+  "paras": [
+    "At nine this morning, I reached a forest stream with two friends: Hana, a [[korean|Korean]] bird guide, and Dev, an [[indian|Indian]] artist. We wanted to find animals under the stones without hurting them. I put my [[backpack|backpack]] on a dry rock and bent one [[knee|knee]] to get closer to the water. The stream looked empty at first, but Hana asked us to wait and watch.",
+    "Soon, something moved beside a brown leaf. It was a [[tiny|tiny]] water insect, almost the same colour as the sand. We found six kinds of animals, [[including|including]] a small snail with a round shell. Dev drew each one while I wrote notes. I checked the [[spelling|spelling]] of their names in our field book. Hana helped me [[tie|tie]] a string around the book so its loose pages would not blow away.",
+    "Before lunch, Hana gave us a short [[quiz|quiz]] about our morning finds. With my eyes closed, I could still see the snail clearly in my [[mind|mind]]. I remembered its pale shell and slow movements. We gently put every stone back where we had found it. As we left, the stream looked empty again. Now, however, I knew how much life was hiding there."
+  ],
+  "zh": [
+    "今天早上九点，我和两个朋友来到一条林间小溪：哈娜是一位韩国鸟类向导，德夫是一位印度画家。我们想找找石头下面的动物，又不伤害它们。我把双肩背包放在一块干燥的石头上，弯下一侧膝盖，凑近水面。起初，小溪里看起来什么也没有，但哈娜让我们等一等，仔细观察。",
+    "不久，一片褐色叶子旁边有东西动了。那是一只极小的水生昆虫，颜色几乎和沙子一样。我们找到了六种动物，其中有一只长着圆壳的小蜗牛。德夫把它们一一画下来，我则做笔记。我在野外指南中核对了这些动物名称的拼写。哈娜帮我用细绳把书绑好，免得松散的书页被风吹走。",
+    "午饭前，哈娜围绕我们上午的发现，给我们做了一个小测验。闭上眼睛，我的脑海中仍能清楚地浮现出那只蜗牛。我记得它浅色的壳和缓慢的动作。我们轻轻地把每一块石头放回原处。离开时，小溪看起来又像是什么也没有。不过，现在我知道那里藏着多么丰富的生命。"
+  ],
+  "q": [
+    {
+      "s": "The group reached the stream at ten in the morning.",
+      "a": "F",
+      "why": "开头明确说到达时间是早上九点。"
+    },
+    {
+      "s": "Dev used a pencil to draw the animals.",
+      "a": "NG",
+      "why": "文中说德夫画动物，但未说明绘画工具。"
+    },
+    {
+      "s": "Hana gave her friends a quiz before lunch.",
+      "a": "T",
+      "why": "第三段明确说哈娜在午饭前进行了小测验。"
+    }
+  ]
+}

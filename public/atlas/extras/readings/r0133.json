@@ -1,0 +1,46 @@
+{
+  "id": "r0133",
+  "ids": [
+    "hurt",
+    "fortunately",
+    "roll",
+    "quarter",
+    "task",
+    "advice",
+    "excellent",
+    "boil",
+    "sauce",
+    "moustache"
+  ],
+  "title": "The Kitchen Lesson Book",
+  "titleZh": "厨房里的教学本",
+  "topic": "education",
+  "cefr": 1,
+  "paras": [
+    "In 1952, a baker named Emil began teaching cooking in his village hall. He had a thick [[moustache|moustache]] and always wore a white shirt. His first class had six adults who wanted to cook better meals at home. Books were expensive, so Emil wrote each lesson in a large notebook. The first [[task|task]] was simple: make small potato balls for soup.",
+    "Emil cut a cooked potato into four equal pieces and gave a [[quarter|quarter]] to each of four learners. They mixed it with flour and made little balls. One woman, Rosa, watched her ball [[roll|roll]] across the table and caught it before it fell. Next, Emil showed them how to [[boil|boil]] water. Rosa touched the hot pot and [[hurt|hurt]] her finger. [[fortunately|Fortunately]], cold water was close by, and the burn was small.",
+    "After that lesson, Emil added safety [[advice|advice]] to every page. He also left space for learners to write their own ideas. Rosa wrote down how to make an [[excellent|excellent]] tomato [[sauce|sauce]] that everyone enjoyed with the potato balls. Over twenty years, the notebook grew thick with recipes and drawings. When Emil stopped teaching, Rosa took his place. She opened the same book, but now her own notes helped new cooks learn."
+  ],
+  "zh": [
+    "1952年，一位名叫埃米尔的面包师开始在村里的礼堂教人做饭。他留着浓密的小胡子，总穿着一件白衬衫。第一期课有六位成年人，他们希望在家做出更好吃的饭菜。当时书很贵，所以埃米尔把每一课都写在一本大笔记本上。第一个任务很简单：制作放进汤里的小土豆丸子。",
+    "埃米尔把一个煮熟的土豆切成四等份，分给四位学员，每人四分之一。他们把土豆和面粉混合，做成小丸子。一位名叫罗莎的女士看见自己的丸子沿着桌面滚动，在它掉下去之前接住了它。接着，埃米尔教大家怎样把水烧开。罗莎碰到了热锅，烫伤了手指。幸好旁边就有冷水，而且烫伤面积很小。",
+    "那节课后，埃米尔在每一页都加上了安全建议。他还留出空白，让学员写下自己的想法。罗莎写下了一种特别好吃的番茄酱汁的做法，大家都喜欢用它配土豆丸子。二十年间，笔记本里积累了许多食谱和图画，变得厚厚的。埃米尔不再教课后，罗莎接替了他。她打开的还是同一本笔记本，不过现在，她自己的笔记也在帮助新手学习做饭了。"
+  ],
+  "q": [
+    {
+      "s": "Emil used a notebook for his lessons because buying books cost a lot.",
+      "a": "T",
+      "why": "第一段说书很贵，他便把课程写进笔记本。"
+    },
+    {
+      "s": "Rosa's potato ball landed on the floor during the first lesson.",
+      "a": "F",
+      "why": "第二段说罗莎在丸子掉下去前接住了它。"
+    },
+    {
+      "s": "Rosa received money for teaching the cooking classes.",
+      "a": "NG",
+      "why": "文章只说罗莎接替教课，未提是否有报酬。"
+    }
+  ]
+}

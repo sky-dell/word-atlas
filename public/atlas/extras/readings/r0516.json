@@ -1,0 +1,48 @@
+{
+  "id": "r0516",
+  "ids": [
+    "rot",
+    "debit",
+    "outskirt",
+    "patio",
+    "bookkeeper",
+    "unlimited",
+    "assist",
+    "stem",
+    "simplify",
+    "installation"
+  ],
+  "title": "Flowers That Hold a Memory",
+  "titleZh": "留住记忆的花",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "On the [[outskirt|outskirts]] of a small coastal town, paper maker Leila Nasser turns flowers into sheets of writing paper. Customers bring wedding bouquets or flowers from a relative's garden, hoping to preserve a connection with someone important. Leila began this work after discovering that her grandmother's dried roses had started to [[rot|rot]] in a damp cupboard.",
+    "Her workshop opens onto a stone [[patio|patio]], where she removes each flower from its [[stem|stem]] and separates the petals. The petals are dried, then mixed into pale paper pulp. To [[simplify|simplify]] the choices for customers, she offers only three paper sizes. However, she allows [[unlimited|unlimited]] revisions to the short handwritten message that accompanies each order. 'People often know what they feel before they know what to say,' she explains.",
+    "The business requires more than patience with emotions. A part-time [[bookkeeper|bookkeeper]] checks every [[debit|debit]] on the workshop's bank statement, while Leila's cousin comes twice a week to [[assist|assist]] with packing. Last winter, the [[installation|installation]] of a drying cabinet allowed her to work during wet weather. Previously, several days of rain could delay an order by a fortnight.",
+    "Leila does not promise that every flower will keep its original colour. Instead, she sends customers a small sample before making the final sheets. One man initially disliked the grey traces left by his mother's yellow flowers. Later, he ordered more paper: the faded marks reminded him of her gardening coat. For Leila, that unexpected recognition matters more than perfect preservation."
+  ],
+  "zh": [
+    "在一座海滨小镇的郊外，造纸手艺人莱拉·纳赛尔将鲜花制成书写纸。顾客带来婚礼花束，或是亲人花园里的花，希望留住与重要之人的情感联系。莱拉发现祖母的干玫瑰在潮湿的柜子里开始腐烂后，便开始了这项工作。",
+    "她的工作室通向一处铺着石板的庭院，她在那里将每朵花从花茎上取下，再把花瓣分开。花瓣晾干后，被混入浅色纸浆。为了让顾客更容易选择，她只提供三种纸张尺寸。不过，每份订单附带的简短手写留言，都可以不限次数地修改。她解释道：“人们往往先明白自己的感受，之后才知道该如何表达。”",
+    "经营这门生意，所需要的不只是耐心体察他人的情绪。一位兼职记账员核对工作室银行账单上的每笔扣款，莱拉的一位堂亲或表亲则每周来两次，协助包装。去年冬天，安装了一台烘干柜后，她在潮湿天气里也能工作了。在此之前，连续几天下雨就可能让订单延迟两周。",
+    "莱拉不承诺每朵花都能保持原来的颜色。她会在制作最终的纸张前，先寄给顾客一小份样品。一位男士起初不喜欢母亲那些黄花留下的灰色痕迹。后来，他又订了更多纸张：那些褪色的印记让他想起母亲做园艺时穿的外套。对莱拉而言，这种意想不到的情感共鸣，比完美保存花朵更有意义。"
+  ],
+  "q": [
+    {
+      "s": "Leila's grandmother's dried roses had been stored for ten years before they began to rot.",
+      "a": "NG",
+      "why": "首段未说明干玫瑰腐烂前保存了多久。"
+    },
+    {
+      "s": "Customers can change their accompanying message only three times.",
+      "a": "F",
+      "why": "留言修改次数不限，三种指纸张尺寸。"
+    },
+    {
+      "s": "Installing a drying cabinet enabled Leila to work during wet weather.",
+      "a": "T",
+      "why": "第三段说明安装烘干柜后她可在潮湿天气工作。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0203",
+  "ids": [
+    "trophy",
+    "treat",
+    "silk",
+    "deserve",
+    "mental",
+    "screwdriver",
+    "recommend",
+    "deposit",
+    "drown",
+    "section"
+  ],
+  "title": "A Cup for Water Rescuers",
+  "titleZh": "送给水上救援者的奖杯",
+  "topic": "economy",
+  "cefr": 2,
+  "paras": [
+    "In a small workshop near the coast, Amira makes awards for clubs. Her latest order is a [[trophy|trophy]] for a water rescue competition. People can [[drown|drown]] within minutes, so the event tests both swimming skills and quick thinking. The organisers want an award that celebrates this important work.",
+    "First, Amira draws a swimmer holding a rescue rope. The organisers approve the design and pay a [[deposit|deposit]] of thirty coins. This covers the wood and metal she needs to buy. They [[treat|treat]] her as a skilled partner, not just a supplier, and ask for her ideas about the size.",
+    "Amira cuts a round wooden base and shapes a thin metal swimmer. Each [[section|section]] must be smooth, with no sharp edges. She uses a [[screwdriver|screwdriver]] to fix the figure firmly to the base. Then she adds a plate with the competition's name. The tiny letters require steady hands and considerable [[mental|mental]] effort, so she takes short breaks.",
+    "Finally, she lines a box with blue [[silk|silk]] to protect the finished award. She believes the rescuers [[deserve|deserve]] something beautiful as well as useful equipment. At collection, the organisers [[recommend|recommend]] her workshop to another club. One carefully made object has brought her a new customer—and will soon give a proud team a lasting memory."
+  ],
+  "zh": [
+    "在海岸附近的一间小作坊里，阿米拉为俱乐部制作奖品。她最新接到的订单，是为一场水上救援比赛制作奖杯。人可能在几分钟内溺水身亡，因此这项比赛既考验游泳技能，也考验快速思考的能力。主办方想要一件能够表彰这项重要工作的奖品。",
+    "首先，阿米拉画出一个握着救援绳的游泳者形象。主办方认可了设计，并支付了三十枚硬币作为订金。这笔钱足够购买她需要的木料和金属。他们把她当作有手艺的合作伙伴，而不只是供货商，还向她征求有关奖杯尺寸的意见。",
+    "阿米拉切出一个圆形木底座，再用薄金属片做出游泳者的造型。每个部分都必须光滑，不能有锋利的边缘。她用螺丝刀将人形牢牢固定在底座上，然后装上一块写有比赛名称的铭牌。制作这些细小的字需要双手稳定，也很费心神，所以她会不时休息片刻。",
+    "最后，她在盒子里铺上蓝色丝绸，保护做好的奖杯。她认为，救援者除了实用的装备，也值得拥有一件美丽的物品。主办方取货时，把她的作坊推荐给了另一家俱乐部。一件精心制作的物品为她带来了一位新客户，也即将为一支自豪的队伍留下长久的回忆。"
+  ],
+  "q": [
+    {
+      "s": "The water rescue competition takes place every year.",
+      "a": "NG",
+      "why": "文章未说明比赛的举办频率。"
+    },
+    {
+      "s": "The deposit pays for the wood and metal Amira needs.",
+      "a": "T",
+      "why": "第二段说明订金足够购买所需木料和金属。"
+    },
+    {
+      "s": "Amira uses red silk to line the box.",
+      "a": "F",
+      "why": "她在盒子里铺的是蓝色丝绸。"
+    }
+  ]
+}

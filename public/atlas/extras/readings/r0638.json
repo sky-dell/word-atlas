@@ -1,0 +1,48 @@
+{
+  "id": "r0638",
+  "ids": [
+    "swirl",
+    "elicit",
+    "mast",
+    "shapeless",
+    "conform",
+    "appreciably",
+    "dangle",
+    "redundancy",
+    "recapture",
+    "idealism"
+  ],
+  "title": "The Invisible Weather Above a Lake",
+  "titleZh": "湖面上看不见的天气",
+  "topic": "sport",
+  "cefr": 4,
+  "paras": [
+    "On a sunny afternoon, a sailing lake can appear almost windless while narrow bands of ripples advance across its surface. These disturbances can alert sailors to changes in the wind. Uneven heating of land and water can contribute to local air movement, but the ripples alone do not identify what has caused a particular gust.",
+    "Air can [[swirl|swirl]] rather than flow steadily, producing patches of ripples whose outlines are irregular but not entirely [[shapeless|shapeless]]. A ribbon allowed to [[dangle|dangle]] from a boat’s [[mast|mast]] makes changes in the wind visible. Near the shore, the breeze may strengthen [[appreciably|appreciably]], although its direction depends on local conditions and the larger weather system, not simply on the nearest warm patch.",
+    "For sailing instructor Amara, who entered the profession after [[redundancy|redundancy]] ended her employment at a furniture workshop, these patterns provide a practical lesson in observation. She uses questions to [[elicit|elicit]] predictions from trainees about the gusts approaching their boats. Their boats must [[conform|conform]] to racing safety requirements, but their predictions must remain flexible: a gust can shift before reaching them.",
+    "The exercise challenges the [[idealism|idealism]] of sailors who expect flawless technique to guarantee a perfect course. When a sudden sideways gust disrupts their balance, they must adjust the sail and [[recapture|recapture]] control rather than stubbornly preserve its previous angle. Amara asks them to compare each prediction with what they actually felt. A visible patch of ripples is a useful warning, not a promise of a particular wind speed or direction."
+  ],
+  "zh": [
+    "晴朗的午后，一片供帆船运动使用的湖面可能看似几乎无风，却有一道道狭窄的波纹掠过水面。这些扰动可以提醒帆船驾驶者注意风的变化。陆地与水面受热不均可能促成局部空气流动，但仅凭波纹无法判断某一阵风的成因。",
+    "空气可能打旋，而非平稳流动，从而形成一片片轮廓不规则、却并非完全没有形状的波纹。让一条丝带从船的桅杆上松松垂下，就能使风的变化显现出来。岸边附近的风力可能明显增强，不过风向取决于当地条件和更大范围的天气系统，而不只是最近的一块温暖地面。",
+    "帆船教练阿玛拉原本在一家家具作坊工作，岗位被裁撤后才进入这一行业。对她而言，这些现象正好可以用来上一堂实用的观察课。她通过提问，引导学员预测正朝他们的船靠近的阵风。他们的船必须符合竞赛安全要求，但预测却必须保留调整余地：一阵风在抵达他们之前就可能改变方向。",
+    "这项练习挑战了某些帆船运动者的理想主义：他们以为完美的技术必然能保证完美的航线。当突然出现的侧向阵风打破平衡时，他们必须调整船帆，重新控制船只，而不是固执地维持原来的帆角。阿玛拉让他们将每一次预测与实际感受到的情况作比较。看得见的一片波纹是有用的预警，却不能保证某一种风速或风向。"
+  ],
+  "q": [
+    {
+      "s": "Ripples can warn sailors of changes in the wind.",
+      "a": "T",
+      "why": "首段说明波纹可以提醒驾驶者注意风的变化。"
+    },
+    {
+      "s": "Amara received financial support from her former employer to qualify as a sailing instructor.",
+      "a": "NG",
+      "why": "仅提到裁员后转行，未说明培训资助。"
+    },
+    {
+      "s": "Sailors should keep the sail at its previous angle when a sideways gust disrupts their balance.",
+      "a": "F",
+      "why": "末段明确要求调整船帆，而非保持原角度。"
+    }
+  ]
+}

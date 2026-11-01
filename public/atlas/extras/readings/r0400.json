@@ -1,0 +1,48 @@
+{
+  "id": "r0400",
+  "ids": [
+    "outlet",
+    "accessory",
+    "publicity",
+    "suck",
+    "treaty",
+    "stable",
+    "division",
+    "rooster",
+    "competent",
+    "margin"
+  ],
+  "title": "Taking the Waters in Bellara",
+  "titleZh": "贝拉拉的温泉饮水之旅",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "In Bellara, a mountain village known for its mineral springs, the morning drinking ritual begins when a [[rooster|rooster]] calls behind the bathhouse. Visitors collect warm water in narrow ceramic cups, then walk slowly through an orchard. Although the springs have attracted recent [[publicity|publicity]] in travel magazines, the routine remains quiet and surprisingly ordinary.",
+    "Beside the orchard, potter Mira sells the traditional cups through a small [[outlet|outlet]] attached to her workshop. Their most useful [[accessory|accessory]] is a woven carrying strap, which leaves walkers’ hands free. Each cup also has a hollow handle through which drinkers can [[suck|suck]] the water once it has cooled. Mira demonstrates this carefully before letting anyone try.",
+    "The custom has a political history. An old [[treaty|treaty]] between the two countries sharing the valley established the [[division|division]] of spring water between their villages. In the bathhouse archive, a map records the arrangement, with tiny cups drawn in its [[margin|margin]]. According to the accompanying notes, the supply has remained [[stable|stable]] even during several unusually dry summers.",
+    "Yet tradition is not medical evidence. A [[competent|competent]] guide explains the water’s mineral content without promising that it cures disease, and visitors with health concerns are advised to seek medical advice before drinking. For many travellers, the real attraction is simpler: a warm cup, an unhurried walk and a chance to share a village habit. By breakfast, the orchard paths are empty again, but the workshop door stands open."
+  ],
+  "zh": [
+    "贝拉拉是一座以矿泉闻名的山村。浴场后方的公鸡一啼鸣，清晨的饮泉仪式便开始了。游客用细长的陶杯接取温热的泉水，然后在果园里慢慢散步。尽管这些泉水最近受到旅游杂志的关注，这项日常活动依然安静，而且平常得令人意外。",
+    "果园旁，陶艺师米拉通过工作室附设的小店出售传统饮水杯。杯子最实用的配件是一条编织提带，让散步的人能够腾出双手。每只杯子还有一个中空的杯柄，水凉下来后，饮用者可以通过它吸水。米拉会先仔细示范，再让大家尝试。",
+    "这一习俗背后还有一段政治历史。共享这片山谷的两个国家曾签订条约，规定了两国村庄之间的泉水分配方式。在浴场的档案室里，一张地图记录着这项安排，页边空白处还画着小小的杯子。根据随附的说明，即使在几个异常干燥的夏季，泉水供应也始终保持稳定。",
+    "然而，传统并不等于医学证据。一位称职的导游讲解了泉水的矿物质成分，却没有承诺它能够治病；有健康方面顾虑的游客则被建议在饮用前咨询医生。对许多旅行者来说，真正的吸引力更简单：一杯温水、一次悠闲的散步，以及体验村庄日常习惯的机会。到了早餐时间，果园小径又空了下来，但工作室的门依然敞开着。"
+  ],
+  "q": [
+    {
+      "s": "The morning water-drinking routine is now noisy.",
+      "a": "F",
+      "why": "首段明确说这项日常活动依然安静。"
+    },
+    {
+      "s": "The carrying strap is included in the price of each cup.",
+      "a": "NG",
+      "why": "文中未说明杯价是否包含提带。"
+    },
+    {
+      "s": "The archive notes report a stable water supply during several unusually dry summers.",
+      "a": "T",
+      "why": "随附说明记载几个异常干燥的夏季供水仍稳定。"
+    }
+  ]
+}

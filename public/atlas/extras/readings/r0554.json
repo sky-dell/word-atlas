@@ -1,0 +1,48 @@
+{
+  "id": "r0554",
+  "ids": [
+    "chisel",
+    "slack",
+    "occupant",
+    "descendant",
+    "contend",
+    "custodian",
+    "subtle",
+    "plummet",
+    "stereotype",
+    "persistent"
+  ],
+  "title": "The Chair That Kept Its Voice",
+  "titleZh": "留住旧日声音的椅子",
+  "topic": "emotion",
+  "cefr": 4,
+  "paras": [
+    "In her narrow workshop above a bakery, furniture restorer Leila Sen keeps a [[chisel|chisel]] beside a notebook of recorded sounds. Before repairing a chair, she asks its owner what they remember hearing: a scrape across tiles, perhaps, or a [[persistent|persistent]] creak during evening conversations. Such details, she believes, reveal why an ordinary object becomes emotionally irreplaceable.",
+    "One commission arrived from Tomas Vale, a [[descendant|descendant]] of the carpenter who had built an oak rocking chair in 1912. Its previous [[occupant|occupant]], Tomas's grandmother, had rocked in it while shelling peas. Since her death, nobody had used it. The woven seat was [[slack|slack]], and one curved runner had split, making even a cautious movement unsafe.",
+    "Leila rejects the [[stereotype|stereotype]] of restorers as technicians concerned only with flawless surfaces. She would [[contend|contend]] that becoming an object's [[custodian|custodian]], even temporarily, requires attention to its emotional history. Nevertheless, sentiment cannot justify structural weakness. She replaced the damaged runner with seasoned oak, knowing that the chair's market value might [[plummet|plummet]] if collectors judged the intervention too extensive. Tomas approved: he wanted furniture, not a museum specimen.",
+    "The difficult decision concerned a [[subtle|subtle]] clicking sound where the back met the seat. Tests showed that it indicated no dangerous movement, so Leila left it intact. When Tomas collected the chair, he sat down without speaking. Only after several gentle swings did he smile. The repair had not recreated his grandmother's presence; it had made room for a familiar sound within a life that would continue without her."
+  ],
+  "zh": [
+    "家具修复师莱拉·森的狭小工作室位于一家面包店楼上。她把一把凿子放在记录各种声音的笔记本旁。每次修椅子前，她都会问主人记得它发出过什么声音：也许是划过瓷砖的摩擦声，也许是晚间交谈时反复响起的吱呀声。她相信，这些细节揭示了一个普通物件为何会在情感上变得无可替代。",
+    "有一次，托马斯·韦尔送来了一把橡木摇椅。这把椅子由他的木匠先辈于1912年制作。之前使用它的是托马斯的祖母，她曾坐在上面一边摇晃，一边剥豌豆。自她去世后，就再也没有人坐过。编织的椅面已经松弛，一根弧形摇脚也开裂了，哪怕小心移动也不安全。",
+    "莱拉不认同一种刻板印象：修复师只是追求表面完美无瑕的技术人员。她认为，即使只是暂时成为一件物品的守护者，也需要关注它承载的情感经历。不过，感情不能成为保留结构隐患的理由。她用干燥处理过的橡木替换了损坏的摇脚，心里明白，如果收藏者认为修复幅度过大，这把椅子的市场价值可能会骤降。托马斯同意这样做：他想要的是家具，而不是博物馆里的陈列品。",
+    "真正难以决定的，是如何处理椅背与椅面连接处那细微的咔嗒声。测试表明，这声音并不意味着存在危险的松动，因此莱拉保留了它。托马斯来取椅子时，一言不发地坐了下来。轻轻摇了几下后，他才露出笑容。这次修复并没有让祖母重新回到身边，而是在失去她后仍将继续的生活中，为一种熟悉的声音留出了位置。"
+  ],
+  "q": [
+    {
+      "s": "Before repairing a chair, Leila asks its owner about remembered sounds.",
+      "a": "T",
+      "why": "第一段明确说她修椅子前询问声音记忆。"
+    },
+    {
+      "s": "Tomas inherited the rocking chair directly from his grandmother.",
+      "a": "NG",
+      "why": "文中未说明托马斯如何获得这把椅子。"
+    },
+    {
+      "s": "Leila eliminated the clicking sound before returning the chair to Tomas.",
+      "a": "F",
+      "why": "末段明确说测试后她保留了咔嗒声。"
+    }
+  ]
+}

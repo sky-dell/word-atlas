@@ -1,0 +1,48 @@
+{
+  "id": "r0681",
+  "ids": [
+    "civilize",
+    "disuse",
+    "consecutive",
+    "cluster",
+    "tolerable",
+    "filth",
+    "studious",
+    "forfeit",
+    "coil",
+    "derivation"
+  ],
+  "title": "Making Heat from Autumn Leaves",
+  "titleZh": "用秋叶制造热量",
+  "topic": "environment",
+  "cefr": 4,
+  "paras": [
+    "Behind a former estate greenhouse, a [[cluster|cluster]] of brick bays has been rescued from decades of [[disuse|disuse]] to produce compost and capture its heat. An inscription above the gate claims that shared labour can [[civilize|civilize]] people, teaching them courtesy and cooperation. The present gardeners make a narrower claim: properly assembled garden waste can warm young plants without burning fuel.",
+    "Preparation begins with removing plastic, stones and accumulated [[filth|filth]] from the bays. Fallen leaves are then mixed with fresh grass and shredded stems, whose rigid fragments preserve air passages. A [[studious|studious]] apprentice, Leila, consults an old horticultural manual before adjusting the proportions. She notes the [[derivation|derivation]] of “compost” from a term meaning “something put together”: a useful reminder that the mixture matters.",
+    "As the material is stacked, workers [[coil|coil]] a flexible water pipe through its centre, leaving both ends accessible outside. Microbial activity raises the temperature, while water circulating through the pipe carries heat to a greenhouse bench. Readings are recorded on five [[consecutive|consecutive]] mornings; a sudden decline prompts an inspection for excessive dryness or compaction. The earthy smell is [[tolerable|tolerable]], but a sour odour indicates insufficient oxygen.",
+    "Access is conditional: gardeners who dump chemically treated timber [[forfeit|forfeit]] their right to use the shared bays for the season. Once heat production subsides, the pipe is withdrawn and the material matures beneath a breathable cover. Eventually, the dark, crumbly compost returns to the beds whose discarded vegetation supplied it. The installation thus yields two products in sequence: warmth for emerging roots, then nourishment for established ones."
+  ],
+  "zh": [
+    "在一座旧庄园温室后方，一组闲置了数十年的砖砌堆肥池重新投入使用，用于生产堆肥并收集其热量。入口上方的铭文宣称，共同劳动可以使人变得文明有礼，教会人们礼让与合作。如今的园丁则提出了一个更为有限的说法：只要配比和堆放得当，园林废弃物无需燃烧燃料就能为幼苗供暖。",
+    "准备工作首先是清除池中的塑料、石块和积存的污物。随后，将落叶与新割的青草、切碎的茎秆混合，其中坚硬的茎秆碎片能够保留空气流通的通道。勤奋好学的学徒莱拉先查阅一本旧园艺手册，再调整各种材料的比例。她注意到，英语中“堆肥”一词源于一个意为“放在一起的东西”的词语：这个词源恰好提醒人们，混合配比十分重要。",
+    "堆放材料时，工人将一根柔性水管盘绕在堆体中央，并将两端留在外面，便于操作。微生物活动使温度升高，而管内循环的水则把热量输送到温室的育苗台。工作人员连续五天在早晨记录读数；如果温度骤降，就检查材料是否过干或压得过实。泥土般的气味尚可忍受，但酸臭味则说明氧气不足。",
+    "使用这些堆肥池需要遵守规定：倾倒经过化学处理的木材的园丁，将被取消当季使用共用堆肥池的资格。产热减弱后，工人抽出水管，让材料在透气覆盖物下继续腐熟。最终，颜色深暗、质地松散的堆肥被施回花圃，那里正是这些植物废料的来源。因此，这套设施先后提供了两种产物：先为新生根系送去温暖，再为已扎根的植物提供养分。"
+  ],
+  "q": [
+    {
+      "s": "The brick bays had remained in continuous use for decades before the heating project began.",
+      "a": "F",
+      "why": "首段明确说这些砖砌池曾闲置数十年。"
+    },
+    {
+      "s": "Temperature readings are recorded on five successive mornings.",
+      "a": "T",
+      "why": "第三段说明连续五天早晨记录读数。"
+    },
+    {
+      "s": "A gardener has already lost access to the bays for dumping chemically treated timber.",
+      "a": "NG",
+      "why": "文中只列处罚规定，未说已有人受罚。"
+    }
+  ]
+}

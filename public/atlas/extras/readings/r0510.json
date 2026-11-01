@@ -1,0 +1,48 @@
+{
+  "id": "r0510",
+  "ids": [
+    "courtesy",
+    "parachute",
+    "gross",
+    "contribute",
+    "eyelid",
+    "oak",
+    "fluffy",
+    "conquer",
+    "electron",
+    "refreshment"
+  ],
+  "title": "The Museum Where Visitors Rest",
+  "titleZh": "让参观者休息的博物馆",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "A small science and history museum has discovered an unexpected attraction: afternoon rest sessions. Rather than rushing between displays, visitors spend forty minutes sitting quietly in its upstairs gallery. Originally designed for people recovering from illness, the sessions now attract office workers and carers seeking a peaceful break.",
+    "Preparing the gallery takes care. Staff place [[fluffy|fluffy]] cushions on an [[oak|oak]] bench beneath a hanging rescue [[parachute|parachute]], which shades the seats from the skylight. They turn off a flashing model of an [[electron|electron]] and silence recorded battle sounds accompanying a display about attempts to [[conquer|conquer]] a mountain kingdom. With these distractions removed, visitors can settle down. As a matter of [[courtesy|courtesy]], they are asked to avoid conversation. Nobody objects if someone's [[eyelid|eyelids]] begin to close.",
+    "Demand has changed the museum's finances. Tickets for these sessions now provide a tenth of its [[gross|gross]] monthly income, before staffing and heating costs are deducted. Volunteers [[contribute|contribute]] two hours each week to arranging seats and serving [[refreshment|refreshments]] afterwards. According to coordinator Leila Mensah, the attraction is not luxury but permission to stop: visitors need neither buy anything extra nor explain why they are tired.",
+    "The museum does not present the sessions as medical treatment, and it has collected no clinical evidence of health benefits. Nevertheless, repeat bookings suggest that visitors value the experience. A building once judged mainly by how much people learned is finding a second purpose: giving them space to do less."
+  ],
+  "zh": [
+    "一家小型科学与历史博物馆发现了一项出人意料的吸引游客的活动：午后休息时段。参观者不再匆忙穿梭于展品之间，而是在楼上的展厅里安静地坐上四十分钟。这项活动最初是为病后康复者设计的，如今也吸引了想找个清静地方歇一歇的上班族和照护者。",
+    "布置展厅需要细心。工作人员把轻软的靠垫放在一张橡木长凳上，长凳上方悬挂着一顶救援降落伞，为座位遮挡从天窗照进来的光。他们关闭一个闪光的电子模型，并关掉一处有关试图征服山地王国的展览所配的战斗音效录音。消除了这些干扰后，参观者便可以安静地坐下来。出于对他人的礼貌与尊重，参观者被要求避免交谈。即使有人开始合上眼皮，也不会有人介意。",
+    "这项活动的需求改变了博物馆的财务状况。如今，休息时段的门票收入占博物馆每月总收入的十分之一，这还没有扣除人员和供暖成本。志愿者每周投入两小时，帮助摆放座椅，并在活动结束后供应茶点。协调员莱拉·门萨表示，吸引人的并非奢华享受，而是可以安心停下来的机会：参观者既不用额外消费，也无需解释自己为何疲惫。",
+    "博物馆并未将这些活动宣传为医疗手段，也没有收集任何证明其健康益处的临床证据。不过，从重复预约来看，参观者似乎认可这种体验。过去，人们评价这座建筑的价值，主要看自己能学到多少知识；如今，它正在找到第二种用途：给人们一个可以少做一些事的空间。"
+  ],
+  "q": [
+    {
+      "s": "People recovering from illness still make up most of those booking rest sessions.",
+      "a": "NG",
+      "why": "文章未说明如今各类预约者所占比例。"
+    },
+    {
+      "s": "Recorded battle sounds are played during the rest sessions.",
+      "a": "F",
+      "why": "第二段明确说休息时段关闭战斗音效。"
+    },
+    {
+      "s": "Volunteers give two hours a week to help with the sessions.",
+      "a": "T",
+      "why": "第三段说明志愿者每周投入两小时。"
+    }
+  ]
+}

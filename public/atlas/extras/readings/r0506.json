@@ -1,0 +1,48 @@
+{
+  "id": "r0506",
+  "ids": [
+    "costly",
+    "identical",
+    "hospitable",
+    "uninterested",
+    "wag",
+    "equivalent",
+    "distinction",
+    "stabilize",
+    "internship",
+    "ox"
+  ],
+  "title": "Directions Written in a Bee Dance",
+  "titleZh": "蜜蜂舞蹈中的路线信息",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "During a summer [[internship|internship]] at a field station, Mina helped observe honeybees on a small farm. Its [[hospitable|hospitable]] owner offered the researchers tea beneath a tree, while an [[ox|ox]] pulled a cart nearby. Initially [[uninterested|uninterested]] in insects, Mina became curious when she discovered that bees could communicate the location of flowers without leaving their dark hive.",
+    "A returning worker walks across the honeycomb and begins to [[wag|wag]] her abdomen as she moves forward. She then circles back and repeats the movement. The angle of this central run indicates the direction of food relative to the sun. A run pointing straight upwards, for example, directs other bees towards flowers in the sun's direction.",
+    "Distance is communicated differently: longer central runs generally indicate longer journeys. Two runs of [[equivalent|equivalent]] duration therefore suggest roughly equal travel distances, although the dances need not be [[identical|identical]] in every movement. This [[distinction|distinction]] between direction and distance allows followers to gather two kinds of information from one performance. Researchers can study the basic pattern through an observation hive with glass sides, without [[costly|costly]] tracking equipment.",
+    "The system is not a perfect map. Wind and the landscape affect how bees experience a journey, and recruits still use scent to locate the final patch. Nevertheless, sharing discoveries helps a colony exploit brief periods of flowering and [[stabilize|stabilize]] its food supply. By summer's end, Mina saw each dance as a practical response to a landscape that never stopped changing."
+  ],
+  "zh": [
+    "在野外研究站暑期实习期间，米娜协助观察一座小农场里的蜜蜂。热情好客的农场主人在树下请研究人员喝茶，旁边一头役用牛正拉着小车。起初，米娜对昆虫并不感兴趣；但当她发现蜜蜂不用离开黑暗的蜂巢就能传递花朵的位置时，好奇心便被激发了。",
+    "一只返回蜂巢的工蜂在蜂脾上行走，随后一边向前移动，一边来回摆动腹部。接着，它绕回来，重复这一动作。这段中央直行路线的角度，表示食物相对于太阳的方向。例如，直行路线朝正上方，就会引导其他蜜蜂飞向太阳方向上的花朵。",
+    "距离则通过另一种方式传递：中央直行段持续得越久，通常表示路程越远。因此，两段持续时间相等的直行运动意味着飞行距离大致相同，尽管两次舞蹈的动作不必完全一致。方向与距离的这种区别，让跟随的蜜蜂能够从同一场舞蹈中获得两类信息。研究人员利用侧面装有玻璃的观察蜂箱，就能研究这种基本规律，无需昂贵的追踪设备。",
+    "这套系统并不是一张完美的地图。风和地形会影响蜜蜂对路程的感知，而被招来的蜜蜂仍需依靠气味找到最终的花丛。不过，分享发现能帮助蜂群利用短暂的花期，使食物供应更加稳定。到了夏末，米娜已把每一场舞蹈看作蜜蜂对不断变化的周围环境所作的实际回应。"
+  ],
+  "q": [
+    {
+      "s": "Mina's interest in bees developed after she learned about their ability to share flower locations.",
+      "a": "T",
+      "why": "她得知蜜蜂能传递花朵位置后产生好奇。"
+    },
+    {
+      "s": "A returning worker repeats the central run at least ten times in each dance.",
+      "a": "NG",
+      "why": "文章提到重复动作，但未说明重复次数。"
+    },
+    {
+      "s": "Bees following the dance information locate the final flower patch without using scent.",
+      "a": "F",
+      "why": "末段明确说被招来的蜜蜂仍用气味定位。"
+    }
+  ]
+}

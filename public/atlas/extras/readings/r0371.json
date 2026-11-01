@@ -1,0 +1,48 @@
+{
+  "id": "r0371",
+  "ids": [
+    "detergent",
+    "freelance",
+    "horizon",
+    "dimension",
+    "thus",
+    "textile",
+    "craftsman",
+    "emit",
+    "impatience",
+    "organic"
+  ],
+  "title": "The Shop Awning’s Changing Role",
+  "titleZh": "店铺遮阳篷的角色变迁",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "Before electric lighting transformed shopping streets, the shop awning helped traders control their working environment. On east-facing seafront streets, the morning sun rose above the sea’s [[horizon|horizon]] and soon shone into exposed windows. A sheet of heavy cloth stretched over a wooden frame protected goods from fading and made the pavement more comfortable for customers.",
+    "During the nineteenth century, folding metal frames gradually made awnings easier to operate. A [[craftsman|craftsman]] measured each shopfront, while a workshop cut and stitched the [[textile|textile]] to fit. Handles allowed shopkeepers to roll the cloth away in strong winds; [[thus|thus]], a permanent street feature became an adjustable tool. However, awkward mechanisms could still cause [[impatience|impatience]] when sudden rain caught an owner outside.",
+    "Besides providing shade, awnings had a commercial [[dimension|dimension]]: their broad surfaces could display a shop’s name. Unlike illuminated signs, they did not need to [[emit|emit]] light to attract attention. Stripes and lettering made a bakery or repair shop recognisable from a distance. Later, washable synthetic fabrics reduced maintenance, although cleaning still required water, mild [[detergent|detergent]] and careful drying before storage.",
+    "Today, some independent shops commission [[freelance|freelance]] designers to reinterpret old awning patterns. Customers can choose [[organic|organic]] cotton, grown without artificial fertilisers or most synthetic pesticides, although its suitability depends on weather protection and care. The object’s basic purpose remains remarkably stable: it creates a small sheltered space between a private business and the public street, inviting people to pause before stepping inside."
+  ],
+  "zh": [
+    "在电灯改变商业街面貌之前，店铺遮阳篷就已帮助商家调节经营环境。在面朝东方的海滨街道上，清晨的太阳从海平线上升起，很快便照进无遮蔽的橱窗。一块撑在木架上的厚布既能保护商品不因日晒而褪色，也能让顾客在人行道上待得更舒适。",
+    "十九世纪，折叠式金属框架逐渐让遮阳篷更便于操作。工匠测量每家店铺的门面，作坊则按尺寸裁剪、缝制织物。店主可以利用手柄在强风来临时收起篷布；因此，街头一件固定的设施变成了可以调节的工具。然而，当店主在外面突然遇上下雨时，难以操作的机械装置仍会让人焦躁。",
+    "除了遮阳，遮阳篷还有商业层面的用途：它宽大的表面可以展示店名。与发光招牌不同，遮阳篷无须发光也能吸引注意。条纹和文字让人从远处就能认出面包店或修理铺。后来，可水洗的合成面料减轻了养护负担，不过清洁时仍需用水和温和的洗涤剂，收存前还必须仔细晾干。",
+    "如今，一些独立店铺委托自由职业设计师重新演绎老式遮阳篷图案。顾客可以选择种植过程中不使用人工合成肥料及大多数合成农药的有机棉，不过它是否适用，取决于防风雨处理和日常养护。这件物品的基本用途保持得非常稳定：在私人商铺与公共街道之间创造一小片遮蔽空间，邀请人们在迈步进店之前稍作停留。"
+  ],
+  "q": [
+    {
+      "s": "The wooden awning frames were made from locally grown trees.",
+      "a": "NG",
+      "why": "文章提到木架，但未说明木材来源。"
+    },
+    {
+      "s": "Folding frames allowed shopkeepers to adjust their awnings.",
+      "a": "T",
+      "why": "第二段说明折叠框架使遮阳篷可以调节。"
+    },
+    {
+      "s": "Awnings needed to produce light to attract attention.",
+      "a": "F",
+      "why": "第三段明确说遮阳篷无须发光也能吸引注意。"
+    }
+  ]
+}

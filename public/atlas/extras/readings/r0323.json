@@ -1,0 +1,48 @@
+{
+  "id": "r0323",
+  "ids": [
+    "thunderstorm",
+    "architecture",
+    "selfish",
+    "clerk",
+    "device",
+    "express",
+    "coupon",
+    "conditioner",
+    "definition",
+    "standard"
+  ],
+  "title": "Learning to Quiet the Rain",
+  "titleZh": "学习让雨声安静下来",
+  "topic": "education",
+  "cefr": 2,
+  "paras": [
+    "During a [[thunderstorm|thunderstorm]], rain can make a metal roof surprisingly loud. At a science museum, an adult workshop uses this familiar problem to teach [[architecture|architecture]]. The challenge is simple: build a model roof that keeps a room dry and quiet. Before starting, everyone offers a [[definition|definition]] of a comfortable room.",
+    "Participants work in pairs with small wooden boxes. Each pair receives a [[coupon|coupon]] for free materials at the museum's supply desk. A [[clerk|clerk]] records what they choose: cloth, thin metal sheets or empty [[conditioner|conditioner]] bottles collected from a hair salon. Being [[selfish|selfish]] and taking all the soft cloth would leave other pairs without enough, so supplies are shared.",
+    "The bottles are cut into flat pieces to cover the roofs. Then a simple [[device|device]] releases water from a fixed height, copying falling rain. A microphone inside each box measures the sound. To meet the workshop's [[standard|standard]], a roof must let no water through during a two-minute test. Pairs also compare how much noise their roofs allow inside.",
+    "The results give everyone something concrete to discuss. Participants [[express|express]] their surprise when a thin cloth layer beneath metal reduces the noise. They discover that building design is not only about appearance. Sometimes, a tiny change overhead can make life below much more comfortable."
+  ],
+  "zh": [
+    "雷雨来临时，雨点打在金属屋顶上的声音可能大得惊人。在一家科学博物馆里，一场面向成人的工作坊利用这个常见问题来讲授建筑设计。挑战很简单：制作一个屋顶模型，让房间既干燥又安静。开始之前，每个人都说说自己对舒适房间的定义。",
+    "参与者两人一组，用小木箱开展活动。每组都会领到一张赠券，可以在博物馆的材料领取处免费领取材料。一位办事员记录他们选择的物品：布料、薄金属片，或从美发店收集来的护发素空瓶。如果有人只顾自己，拿走所有柔软的布料，其他小组就会不够用，因此大家共同分配材料。",
+    "瓶子被剪成平整的小片，用来覆盖屋顶。随后，一个简单的装置从固定高度放水，模拟降雨。每个箱子里的麦克风会测量声音。要达到工作坊的标准，屋顶必须在两分钟的测试中完全不漏水。各组还会比较各自的屋顶让多少噪声传入箱内。",
+    "实验结果给大家提供了具体的讨论内容。当参与者发现金属下方的一层薄布能降低噪声时，都表达了自己的惊讶。他们发现，建筑设计并不只关乎外观。有时，头顶上一点小小的改变，就能让下面的生活舒适许多。"
+  ],
+  "q": [
+    {
+      "s": "The museum offers this workshop every weekend.",
+      "a": "NG",
+      "why": "文章介绍了工作坊，但未说明举办频率。"
+    },
+    {
+      "s": "Each pair receives a coupon for free materials.",
+      "a": "T",
+      "why": "第二段明确说每组获赠券免费领取材料。"
+    },
+    {
+      "s": "A roof can meet the workshop's standard even if some water leaks through during the test.",
+      "a": "F",
+      "why": "标准要求屋顶在两分钟测试中完全不漏水。"
+    }
+  ]
+}

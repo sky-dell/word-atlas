@@ -1,0 +1,48 @@
+{
+  "id": "r0720",
+  "ids": [
+    "melodious",
+    "eddy",
+    "sullen",
+    "plunder",
+    "tetrad",
+    "abridge",
+    "capitulate",
+    "accede",
+    "odyssey",
+    "thereof"
+  ],
+  "title": "The River Inside the Radio",
+  "titleZh": "收音机里的河流",
+  "topic": "media",
+  "cefr": 5,
+  "paras": [
+    "For a radio documentary about a merchant’s seventeenth-century river [[odyssey|odyssey]], producer Leila Sen faced an acoustic problem: how could listeners distinguish remembered danger from present tranquillity? The merchant’s diary described soldiers who would [[plunder|plunder]] riverside warehouses, yet the surviving landscape offered little beyond birdsong and the [[melodious|melodious]] chime of bells drifting across water on a still September morning.",
+    "Sen’s solution began with a [[tetrad|tetrad]] of microphones, arranged around a narrow inlet. Here, an [[eddy|eddy]] carried bubbles beneath floating branches, generating irregular clicks rather than the continuous murmur usually associated with rivers. Slowing these recordings exposed their intermittent structure; layered beneath the narration, they made an apparently peaceful setting feel unstable without introducing an obviously threatening musical score.",
+    "The script presented another difficulty. Sen had to [[abridge|abridge]] the diary without making its frightened, occasionally vindictive author sound heroic. When an actor delivered every complaint in a [[sullen|sullen]] voice, she requested greater emotional variation. She would not [[capitulate|capitulate]] to the distributor’s demand for a reassuring adventurer, although she did [[accede|accede]] to a formal proposal to clarify unfamiliar trading terms.",
+    "What emerged was neither a historical reconstruction nor a neutral reading. Sound, and the deliberate manipulation [[thereof|thereof]], directed attention towards uncertainties that print could leave unobtrusive. The technique exploits a basic feature of perception: an ambiguous noise acquires significance from its context. In the closing sequence, Sen removed the narration altogether. The same bubbles remained, but after the diary’s account of flight and hunger, their small disturbances no longer sounded innocent."
+  ],
+  "zh": [
+    "制作人莱拉·森正在制作一部广播纪录片，讲述一位十七世纪商人漫长曲折的河上旅程，却遇到了一个声音设计难题：怎样让听众分辨记忆中的危险与当下的宁静？商人的日记记载了士兵抢掠河畔仓库的情景，然而，在一个风平浪静的九月清晨，如今留存的景致几乎只能提供鸟鸣，以及飘过水面的悦耳钟声。",
+    "森的解决方案始于一组四支麦克风，它们被布置在一处狭窄的水湾周围。这里，一股涡流将气泡带到漂浮的树枝下，发出不规则的咔嗒声，而非人们通常联想到的连绵流水声。放慢录音后，声音时断时续的结构便显露出来；将这些声音叠加在旁白之下，无须引入明显带有威胁感的配乐，就能让看似平静的环境显得动荡不安。",
+    "脚本又带来了另一重困难。森必须删节日记，同时避免将这位心怀恐惧、偶尔怀有报复心的作者塑造成英雄。当一名演员用闷闷不乐的语气念出每一句抱怨时，她要求增加情绪变化。发行方要求把主人公塑造成一个令人安心的冒险家，她不肯屈服；不过，对于解释陌生贸易术语的正式提议，她确实表示了同意。",
+    "最终呈现的作品既不是历史场景的重建，也不是不带立场的朗读。声音及其有意的处理，将听众的注意力引向了文字中可能并不显眼的不确定之处。这种手法利用了感知的一项基本特征：含义模糊的声响会从语境中获得意义。在结尾片段中，森完全撤去了旁白。同样的气泡声依然存在，但在听过日记中有关逃亡与饥饿的记述后，那些细微的扰动听起来已不再无害。"
+  ],
+  "q": [
+    {
+      "s": "The merchant’s diary had been published before Sen began making the documentary.",
+      "a": "NG",
+      "why": "文章未说明日记是否已出版。"
+    },
+    {
+      "s": "Sen accepted the distributor’s request to give the central traveller a more reassuring character.",
+      "a": "F",
+      "why": "第三段明确说她拒绝发行方的人物塑造要求。"
+    },
+    {
+      "s": "Sen left the bubble sounds in place when she removed the narration from the closing sequence.",
+      "a": "T",
+      "why": "末段说明旁白撤去后，同样的气泡声仍在。"
+    }
+  ]
+}

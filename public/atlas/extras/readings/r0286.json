@@ -1,0 +1,48 @@
+{
+  "id": "r0286",
+  "ids": [
+    "silent",
+    "enormous",
+    "arrangement",
+    "technique",
+    "lay",
+    "compliment",
+    "refund",
+    "gymnastics",
+    "power",
+    "podcast"
+  ],
+  "title": "Small Steps Beside the Marsh",
+  "titleZh": "沼泽边的小步慢行",
+  "topic": "health",
+  "cefr": 2,
+  "paras": [
+    "Tuesday, 8 a.m. Mist covered the marsh when our walking group reached an [[enormous|enormous]] old tree. I was keeping field notes for a series of gentle nature walks. Beside me, Hana, a [[gymnastics|gymnastics]] coach recovering from a leg injury, remained [[silent|silent]] while she watched two ducks feeding among the brown leaves.",
+    "Our [[arrangement|arrangement]] was simple: walk for ten minutes, then rest and record what we noticed. Anyone who found the walk unsuitable could leave early and receive a full [[refund|refund]]. Our guide, Luis, had the [[power|power]] to change the route if the ground became unsafe. After checking a muddy slope, he chose the flat path beside the water.",
+    "At our first stop, I [[lay|laid]] a waterproof sheet on a dry patch of grass. Hana showed us a breathing [[technique|technique]]: breathe in gently, then breathe out slowly while relaxing the shoulders. We stayed seated as a small bird searched the mud. I noted its yellow legs and the tiny rings spreading across the water.",
+    "By the return journey, Hana was pointing out birds herself. Luis offered a [[compliment|compliment]] on her sharp eye. She laughed and said she had forgotten to hurry. That evening, I recorded these observations for our nature [[podcast|podcast]]. My final note was brief: today, a short distance had given us plenty to notice."
+  ],
+  "zh": [
+    "星期二，早上八点。我们的步行小组走到一棵巨大的老树旁时，薄雾笼罩着沼泽。我正在为一系列轻松的自然漫步活动做实地笔记。在我身边，正在从腿伤中恢复的体操教练哈娜一直没有说话，只是看着两只鸭子在褐色落叶间觅食。",
+    "我们的安排很简单：步行十分钟，然后休息，记录观察到的事物。任何觉得这次步行不适合自己的人，都可以提前离开并获得全额退款。如果地面变得不安全，向导路易斯有权改变路线。他查看了一处泥泞的斜坡后，选择了水边平坦的小路。",
+    "第一次停下来时，我在一块干燥的草地上铺了一张防水垫。哈娜教给我们一种呼吸方法：轻轻吸气，然后慢慢呼气，同时放松肩膀。我们坐着，看一只小鸟在泥地里寻找食物。我记下了它黄色的腿，以及水面上扩散开来的细小波纹。",
+    "返程时，哈娜已经开始主动指给我们看鸟了。路易斯称赞她观察敏锐。她笑着说，自己已经忘了赶路。那天晚上，我把这些观察录成音频，用于我们的自然播客节目。最后一条笔记很简短：今天，短短的一段路让我们留意到了许多事物。"
+  ],
+  "q": [
+    {
+      "s": "Hana talked while watching the ducks when the group reached the tree.",
+      "a": "F",
+      "why": "她看鸭子时一直没有说话。"
+    },
+    {
+      "s": "One member of the group asked for a refund during the walk.",
+      "a": "NG",
+      "why": "文章只说明退款规定，未说有人申请。"
+    },
+    {
+      "s": "Luis praised Hana for her ability to notice birds.",
+      "a": "T",
+      "why": "哈娜指出鸟的位置后，路易斯称赞她眼尖。"
+    }
+  ]
+}

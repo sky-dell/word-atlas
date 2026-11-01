@@ -1,0 +1,48 @@
+{
+  "id": "r0188",
+  "ids": [
+    "employment",
+    "equator",
+    "suncream",
+    "signed",
+    "waterproof",
+    "disabled",
+    "supply",
+    "full-time",
+    "multiply",
+    "request"
+  ],
+  "title": "A Reporter Beyond the Studio",
+  "titleZh": "走出录音室的记者",
+  "topic": "media",
+  "cefr": 2,
+  "paras": [
+    "Lina worked at a small radio station on an island near the [[equator|equator]]. She wanted [[full-time|full-time]] [[employment|employment]] as a reporter, but her manager only gave her indoor tasks. Lina was [[disabled|disabled]] and used a wheelchair. The manager believed that recording stories around the island would be too difficult for her.",
+    "One morning, Lina made a [[request|request]] to report on the island's fishing families. Instead of arguing, she brought a map showing a smooth path to the harbour. She also had a [[signed|signed]] letter from three fish sellers who agreed to speak with her. The manager agreed to try one outdoor report.",
+    "However, the station had little money for equipment. Lina asked a repair shop to [[supply|supply]] a [[waterproof|waterproof]] cover for its old recorder. To plan the budget, she had to [[multiply|multiply]] the taxi fare by four, allowing for two return trips. On recording day, she packed water and [[suncream|suncream]], then left before the strongest midday heat.",
+    "At the harbour, Lina recorded sellers calling out prices and a fishing family describing their working day. Her report explained why fish cost more after storms. Listeners sent warm messages, and several asked for more harbour stories. The following week, the manager offered Lina the reporting job she wanted, with regular outdoor assignments."
+  ],
+  "zh": [
+    "莉娜在赤道附近一座岛上的小电台工作。她想获得一份全职记者工作，但经理只安排她做室内任务。莉娜是一名残疾人，平时使用轮椅。经理认为，在岛上各处采访录音对她来说会太困难。",
+    "一天早上，莉娜提出申请，希望报道岛上的渔民家庭。她没有争辩，而是带来了一张地图，上面标出了一条通往港口的平坦道路。她还带着一封有三位鱼贩签名的信，他们都同意接受采访。经理答应让她试着做一次外出报道。",
+    "然而，电台没有多少经费购买设备。莉娜请一家维修店为电台的旧录音机提供一个防水套。为了安排预算，她得把单程出租车费乘以四，算上两次往返的费用。录音那天，她带上水和防晒霜，在正午最炎热的时候到来之前出发了。",
+    "在港口，莉娜录下了鱼贩吆喝报价的声音，还采访了一个渔民家庭，请他们讲述一天的工作。她的报道解释了为什么暴风雨过后鱼价会上涨。听众纷纷发来热情的留言，还有几个人希望听到更多港口故事。第二周，经理给了莉娜一直想要的记者岗位，并为她安排了定期外出采访的任务。"
+  ],
+  "q": [
+    {
+      "s": "Lina's manager initially doubted her ability to gather stories outside the station.",
+      "a": "T",
+      "why": "经理起初认为外出采访对她太困难。"
+    },
+    {
+      "s": "The repair shop supplied the waterproof cover free of charge.",
+      "a": "NG",
+      "why": "文中未说明维修店是否收取费用。"
+    },
+    {
+      "s": "Lina's new reporting job involved only indoor tasks.",
+      "a": "F",
+      "why": "新岗位包括定期外出采访任务。"
+    }
+  ]
+}

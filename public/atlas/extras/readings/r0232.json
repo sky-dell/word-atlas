@@ -1,0 +1,48 @@
+{
+  "id": "r0232",
+  "ids": [
+    "amusing",
+    "carton",
+    "grateful",
+    "sunrise",
+    "waist",
+    "cyclist",
+    "subtitle",
+    "recover",
+    "nod",
+    "trumpet"
+  ],
+  "title": "A Breakfast Round with a Difference",
+  "titleZh": "不一样的早餐配送",
+  "topic": "work",
+  "cefr": 2,
+  "paras": [
+    "When the village bakery closed, six older residents lost their regular breakfast delivery. A neighbour, Hana, started a small community project in a shared kitchen. At [[sunrise|sunrise]] every Tuesday and Friday, she baked soft rolls while Omar packed each order into a small [[carton|carton]]. The money from sales paid for ingredients and two hours of work for each helper.",
+    "Their first delivery worker was Luis, a keen [[cyclist|cyclist]] who was trying to [[recover|recover]] after a long illness. He wanted to work again, but could only manage short trips. Hana offered him a route with six homes close together. He tied an apron around his [[waist|waist]] before loading the bread, then removed it for the ride.",
+    "To explain the service, Omar made a short film with [[subtitle|subtitles]] so people could understand it without sound. In one [[amusing|amusing]] scene, Hana's brother played a [[trumpet|trumpet]] to announce breakfast, and everyone covered their ears. When Omar asked whether to keep that part, the helpers [[nod|nodded]]. The film brought in twelve new orders.",
+    "After three months, the team added another delivery route. Luis still chose the shorter one, but he no longer needed a rest halfway. He was [[grateful|grateful]] for the chance to earn again. For the residents, the familiar knock at the door became as welcome as the warm bread."
+  ],
+  "zh": [
+    "村里的面包店关门后，六位年长居民失去了固定的早餐配送服务。邻居哈娜在一间共用厨房里发起了一个小型社区项目。每周二和周五日出时分，她烤制松软的小面包，奥马尔则把每份订单装进一个小纸盒。销售收入用来支付食材费用，以及每位帮手两小时的工钱。",
+    "他们的第一位配送员路易斯热爱骑行，当时正处于一场长期疾病后的康复阶段。他想重新工作，却只能应付短途骑行。哈娜给他安排了一条配送路线，沿途的六户人家相距很近。装面包前，他先在腰间系上围裙，出发骑车时再把它脱下。",
+    "为了介绍这项服务，奥马尔制作了一部带字幕的短片，让人们在没有声音的情况下也能看懂。其中有一个有趣的场景：哈娜的一位兄弟吹起小号，宣布早餐到了，大家都捂住了耳朵。奥马尔问是否保留这一段时，帮手们都点头同意。这部短片带来了十二份新订单。",
+    "三个月后，团队增加了一条配送路线。路易斯仍选择较短的那条，但他已不再需要中途休息。他很感激能有机会重新挣钱。对居民们来说，那熟悉的敲门声变得和温热的面包一样令人期待。"
+  ],
+  "q": [
+    {
+      "s": "Luis was given a delivery route covering widely separated homes.",
+      "a": "F",
+      "why": "他的路线包含六户相距很近的人家。"
+    },
+    {
+      "s": "Omar had made advertising films for other community projects before.",
+      "a": "NG",
+      "why": "文章未提及奥马尔此前的拍片经历。"
+    },
+    {
+      "s": "After three months, Luis no longer needed to rest halfway along his route.",
+      "a": "T",
+      "why": "末段明确说他已不再需要中途休息。"
+    }
+  ]
+}

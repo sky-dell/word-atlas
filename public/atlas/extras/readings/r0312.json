@@ -1,0 +1,48 @@
+{
+  "id": "r0312",
+  "ids": [
+    "grill",
+    "ruin",
+    "workshop",
+    "mate",
+    "grocery",
+    "amuse",
+    "citizen",
+    "recipe",
+    "hunger",
+    "fever"
+  ],
+  "title": "A Small Sensor at the Grill",
+  "titleZh": "烤架上的小小传感器",
+  "topic": "technology",
+  "cefr": 2,
+  "paras": [
+    "At a weekend cooking [[workshop|workshop]], Leila puts a thin metal sensor into a piece of chicken. Her [[mate|mate]], Tomas, watches the temperature rise on a small screen. The session welcomes everyone, whether a [[citizen|citizen]] of the country or a visitor. Its aim is simple: to show how technology can make outdoor cooking safer.",
+    "The group has brought [[grocery|groceries]] from a nearby shop. Following a lemon chicken [[recipe|recipe]], they prepare the meat and [[grill|grill]] it over hot charcoal. Soon, the outside looks brown. However, the sensor shows that the centre is still too cool. Colour alone cannot tell a cook whether food is safe to eat.",
+    "Leila explains that harmful bacteria can survive in meat that is not cooked enough. These can cause stomach pain and sometimes a [[fever|fever]]. Yet leaving chicken over strong heat for too long can [[ruin|ruin]] dinner by making it dry and hard. The sensor helps cooks find a safe stopping point without cutting every piece open.",
+    "As everyone's [[hunger|hunger]] grows, Tomas tries to [[amuse|amuse]] the group by calling the sensor his tiny kitchen boss. Finally, the chicken reaches the recommended temperature at its centre. They check several pieces before serving. The little screen cannot add flavour, but it can answer a question that eyes alone cannot."
+  ],
+  "zh": [
+    "在周末的一场烹饪工作坊上，莱拉把一根细细的金属传感器插进一块鸡肉里。她的伙伴托马斯看着小屏幕上的温度不断上升。这场活动欢迎所有人参加，无论是本国公民还是来访的游客。活动的目的很简单：展示技术如何让户外烹饪更安全。",
+    "大家从附近的商店买来了食品杂货。他们按照一份柠檬鸡食谱处理鸡肉，再放到炽热的木炭上烤。很快，鸡肉表面就变成了褐色。然而，传感器显示，肉的中心温度仍然太低。仅凭颜色，厨师无法判断食物是否可以安全食用。",
+    "莱拉解释说，没有充分做熟的肉中可能仍有有害细菌存活。这些细菌可能引起胃痛，有时还可能导致发烧。不过，如果把鸡肉放在高温下烤得太久，也可能让它变得又干又硬，毁掉这顿晚餐。传感器可以帮助厨师找到安全的停火时机，而不必切开每一块肉。",
+    "大家越来越饿，托马斯为了逗大家开心，把传感器称作自己的“小小厨房老板”。终于，鸡肉中心达到了建议的温度。他们检查了好几块肉后才上桌。这个小屏幕不能增添风味，却能回答一个仅凭眼睛无法回答的问题。"
+  ],
+  "q": [
+    {
+      "s": "Tomas has attended a cooking workshop before.",
+      "a": "NG",
+      "why": "文章未说明托马斯以前是否参加过烹饪工作坊。"
+    },
+    {
+      "s": "The chicken's brown surface proves that its centre is hot enough.",
+      "a": "F",
+      "why": "第二段中鸡肉外表变褐，中心仍太凉。"
+    },
+    {
+      "s": "The group checks several pieces of chicken before serving them.",
+      "a": "T",
+      "why": "末段明确说上桌前检查了好几块鸡肉。"
+    }
+  ]
+}

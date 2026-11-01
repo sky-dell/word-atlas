@@ -1,0 +1,46 @@
+{
+  "id": "r0155",
+  "ids": [
+    "guy",
+    "compare",
+    "coloured",
+    "suitcase",
+    "poster",
+    "gift",
+    "blouse",
+    "detail",
+    "perhaps",
+    "bakery"
+  ],
+  "title": "A Birthday Full of Memories",
+  "titleZh": "满载回忆的生日礼物",
+  "topic": "emotion",
+  "cefr": 1,
+  "paras": [
+    "Dario is a quiet [[guy|guy]] who enjoys making things for his family. For his sister Mina's birthday, he makes a [[poster|poster]] about their childhood. He wants this [[gift|gift]] to bring back happy feelings. First, he opens an old [[suitcase|suitcase]]. It once carried their clothes on family trips, but now it holds photographs. He chooses a picture of the [[bakery|bakery]] where they bought warm bread every Saturday.",
+    "Next, Dario puts several photographs on the kitchen table. He [[compare|compares]] two pictures of Mina outside the shop and chooses the clearer one. In it, she wears a yellow [[blouse|blouse]] and holds a bread bag. One small [[detail|detail]] makes him smile: there is flour on her nose. He places [[coloured|coloured]] paper around the photograph, using yellow and brown to match her clothes and the bread.",
+    "Dario adds three more photographs and writes a short sentence under each one. Then he takes a photograph of the whole design and prints it on a large sheet at a print shop. He thinks, '[[perhaps|Perhaps]] Mina will laugh at these old pictures.' He rolls the finished sheet carefully and ties it with string. When Mina opens it, she smiles and points to the little shop. For a moment, they can almost smell the warm bread again."
+  ],
+  "zh": [
+    "达里奥是个安静的小伙子，喜欢为家人动手制作东西。为了给自己的姐妹米娜庆祝生日，他制作了一张关于他们童年的海报。他希望这份礼物能唤起快乐的回忆。首先，他打开一个旧行李箱。以前全家旅行时用它装衣服，如今里面放的是照片。他选出一张面包店的照片，他们过去每个星期六都在那里买热乎乎的面包。",
+    "接着，达里奥把几张照片放在厨房的桌子上。他对比了两张米娜站在店外的照片，选了更清晰的那张。照片里，她穿着黄色女式衬衫，手里拿着面包袋。一个小细节让他笑了：她的鼻子上沾着面粉。他在照片周围放上彩色纸，选用黄色和棕色，与她的衣服和面包相配。",
+    "达里奥又加了三张照片，并在每张下面写了一句简短的话。然后，他把整个设计拍下来，到打印店印在一张大纸上。他想：“也许米娜看到这些老照片会笑出声来。”他小心地把印好的纸卷起来，用绳子系好。米娜打开后，微笑着指向那家小店。有那么一瞬间，他们仿佛又闻到了热面包的香味。"
+  ],
+  "q": [
+    {
+      "s": "The old suitcase was a present from Dario's parents.",
+      "a": "NG",
+      "why": "文章说明了行李箱的用途，未说明它的来源。"
+    },
+    {
+      "s": "Mina has flour on her nose in the photograph Dario chooses.",
+      "a": "T",
+      "why": "所选照片中，米娜鼻子上沾着面粉。"
+    },
+    {
+      "s": "Dario folds the finished sheet into a small square.",
+      "a": "F",
+      "why": "他把成品卷起来，而不是折成小方块。"
+    }
+  ]
+}

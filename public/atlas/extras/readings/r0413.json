@@ -1,0 +1,48 @@
+{
+  "id": "r0413",
+  "ids": [
+    "inquiry",
+    "keyhole",
+    "unite",
+    "interface",
+    "embassy",
+    "meantime",
+    "creep",
+    "motivation",
+    "caution",
+    "colorless"
+  ],
+  "title": "A Small Light in the Garden",
+  "titleZh": "花园里的一束微光",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "An [[inquiry|inquiry]] into snail behaviour began in an [[embassy|embassy]] garden. Each evening, gardener Amara Diallo noticed snails gathering beside a locked greenhouse. Light escaped through the [[keyhole|keyhole]], forming a patch on the path. Were the animals attracted to light, or was something else drawing them there?",
+    "The question helped [[unite|unite]] gardeners and visiting researchers around an experiment. Their [[motivation|motivation]] was practical: snails were damaging young plants nearby. They placed twelve identical shelters along a shaded wall, each containing damp soil and a [[colorless|colorless]] glass window. Lamps illuminated six shelters; the others remained dark. A digital [[interface|interface]] allowed the team to check temperature readings without lifting the shelters and disturbing their occupants.",
+    "The researchers planned to count the snails at dawn. In the [[meantime|meantime]], cameras recorded their movements. The team approached with [[caution|caution]], avoiding sudden shadows and heavy footsteps. Over eight nights, snails could be seen [[creep|creeping]] towards both groups, but more settled in the dark shelters. When the lamps were moved to the opposite group, the newly dark shelters became more popular.",
+    "Further measurements showed that the ground beside the greenhouse stayed wetter than the surrounding path. Moisture might explain the original gathering, but testing that possibility would require another experiment. For now, the results suggested that light alone was unlikely to account for the snails gathering beside the greenhouse."
+  ],
+  "zh": [
+    "一项关于蜗牛行为的探究始于一座大使馆花园。园丁阿玛拉·迪亚洛注意到，每天傍晚都有蜗牛聚集在一座上锁的温室旁。灯光透过钥匙孔，在小径上形成一块光斑。这些动物是被光吸引来的，还是另有原因？",
+    "这个问题让园丁和来访的研究人员围绕一项实验展开合作。他们的动力来自一个实际问题：蜗牛正在损害附近的幼苗。他们沿着一面背阴的墙放置了十二个相同的庇护盒，每个盒子里都有湿润的土壤，并装有一扇无色玻璃窗。六个盒子由灯照亮，另外六个则保持黑暗。研究团队可以通过数字界面查看温度读数，无须掀开盒子、打扰里面的蜗牛。",
+    "研究人员计划在黎明时清点蜗牛数量。在等待期间，摄像机记录了它们的移动情况。团队小心地接近，避免投下突然出现的阴影，也避免脚步过重。连续八个夜晚都能看到蜗牛缓慢爬向两组盒子，但更多蜗牛停留在黑暗的盒子里。将灯移至另一组后，新近变暗的盒子变得更受欢迎。",
+    "进一步测量表明，温室旁的地面比周围的小径更湿润。湿度或许能解释最初的聚集现象，但要检验这种可能性，还需要另做实验。目前的结果表明，仅凭光线不太可能解释蜗牛为何聚集在温室旁。"
+  ],
+  "q": [
+    {
+      "s": "Amara had worked in the embassy garden for five years when she noticed the snails.",
+      "a": "NG",
+      "why": "文中未说明阿玛拉当时已在花园工作多久。"
+    },
+    {
+      "s": "Concern about damage to young plants encouraged the team to investigate the snails.",
+      "a": "T",
+      "why": "第二段指出实验动力是蜗牛损害幼苗。"
+    },
+    {
+      "s": "After the lamps were moved, the snails continued to favour the same shelters as before.",
+      "a": "F",
+      "why": "移灯后，蜗牛更偏爱另一组新变暗的盒子。"
+    }
+  ]
+}

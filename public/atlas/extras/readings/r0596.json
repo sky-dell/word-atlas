@@ -1,0 +1,48 @@
+{
+  "id": "r0596",
+  "ids": [
+    "pioneering",
+    "undertaking",
+    "neutralize",
+    "aspiration",
+    "conception",
+    "conscientiously",
+    "faction",
+    "aboriginal",
+    "offset",
+    "arable"
+  ],
+  "title": "The Maps That Admit Uncertainty",
+  "titleZh": "承认不确定性的地图",
+  "topic": "thinking",
+  "cefr": 4,
+  "paras": [
+    "At a regional mapping archive, an unexpected trend is emerging: land planners increasingly request maps containing deliberate gaps. The archive’s [[pioneering|pioneering]] project replaces apparently definitive boundaries with shaded zones wherever historical accounts disagree. What began as a modest experiment has become a substantial [[undertaking|undertaking]], involving twelve mapmakers and several thousand handwritten records.",
+    "Its director, Mira Sen, says the [[aspiration|aspiration]] is not to make maps less useful, but to challenge the [[conception|conception]] that precision necessarily indicates knowledge. A sharply drawn line can [[neutralize|neutralize]] a reader’s doubts even when its position rests on weak evidence. Staff therefore [[conscientiously|conscientiously]] record why each boundary was drawn, distinguishing surveyed measurements from guesses copied across successive editions.",
+    "One disputed valley illustrates the method. Agricultural registers describe its floor as [[arable|arable]] land, while accounts shared by representatives of [[aboriginal|aboriginal]] communities identify seasonal wetlands and gathering places. Rather than compress these perspectives into a single category, the new map displays separate layers. A [[faction|faction]] within the archive initially opposed this approach, arguing that visible disagreement would undermine professional authority. Yet planners began requesting the layered version because it exposed assumptions before expensive decisions were made.",
+    "The additional research costs more, although fewer revisions may eventually [[offset|offset]] that expense. Visitors now spend longer discussing what the maps cannot establish than admiring what they show. The archive has consequently installed a table where alternative interpretations can be compared."
+  ],
+  "zh": [
+    "一家地区地图档案馆正出现一种意想不到的趋势：土地规划人员越来越多地要求查阅刻意留有空白的地图。档案馆的一项开创性项目，将历史记载存在分歧之处看似确定的边界替换为阴影区域。最初的小规模试验，如今已成为一项浩大的工程，有十二名地图绘制人员参与，涉及数千份手写记录。",
+    "馆长米拉·森表示，项目的志向并非降低地图的实用性，而是挑战“精确必然意味着掌握知识”这一观念。即使一条边界线的位置缺乏充分依据，清晰的线条也可能打消读者的疑虑。因此，工作人员认真负责地记录每条边界的绘制依据，将实地测量结果与在历次版本中沿用的猜测区分开来。",
+    "一处存在争议的山谷说明了这种方法。农业登记资料将谷底描述为可耕地，而原住民社区代表分享的记述则指出，那里有季节性湿地和采集场所。新地图没有将这些视角压缩为单一类别，而是以不同图层分别呈现。档案馆内部的一个派别起初反对这种做法，认为公开分歧会削弱专业权威。然而，规划人员开始要求使用分层版本，因为它能在代价高昂的决策作出之前，揭示其中的假设。",
+    "额外的研究增加了成本，不过，修改次数的减少或许最终能够抵消这笔支出。比起欣赏地图展示的内容，访客如今会花更多时间讨论地图无法确定的事情。因此，档案馆设置了一张桌子，供人们对照不同的解读。"
+  ],
+  "q": [
+    {
+      "s": "Demand is growing for maps that make gaps in historical knowledge visible.",
+      "a": "T",
+      "why": "首段指出规划人员越来越多地索取留白地图。"
+    },
+    {
+      "s": "The staff’s records of boundary decisions are available online.",
+      "a": "NG",
+      "why": "文中说明记录绘制依据，未说是否在网上公开。"
+    },
+    {
+      "s": "Archive staff unanimously welcomed the use of separate layers for conflicting accounts.",
+      "a": "F",
+      "why": "第三段指出馆内一个派别起初反对分层做法。"
+    }
+  ]
+}

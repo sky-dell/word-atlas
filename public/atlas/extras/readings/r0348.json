@@ -1,0 +1,48 @@
+{
+  "id": "r0348",
+  "ids": [
+    "correlation",
+    "filthy",
+    "fuss",
+    "interpret",
+    "literacy",
+    "crumble",
+    "radish",
+    "enquire",
+    "masterpiece",
+    "orphan"
+  ],
+  "title": "The Innkeeper’s Hidden Routes",
+  "titleZh": "客栈主人笔下的隐秘路线",
+  "topic": "travel",
+  "cefr": 3,
+  "paras": [
+    "Travel historian Leila Sen studies journeys that never appeared in official guidebooks. Her latest project began in a closed mountain inn, where she discovered a [[filthy|filthy]] notebook behind a kitchen cupboard. Its pages threatened to [[crumble|crumble]] whenever she turned them, but among the cooking instructions were detailed accounts of travellers crossing the nearby pass.",
+    "The writer was Tomas Vale, an [[orphan|orphan]] who had arrived at the inn aged twelve and later became its owner. Although his early [[literacy|literacy]] was limited, his spelling gradually improved. Leila found a clear [[correlation|correlation]] between longer guest visits and more accurate entries, suggesting that some visitors may have helped him practise writing.",
+    "To [[interpret|interpret]] his unusual route descriptions, Leila walked the paths herself. One instruction, 'turn where the red roots grow', led her to [[enquire|enquire]] at a hillside farm. The farmer showed her an old [[radish|radish]] field beside a narrow track. Following it, she reached a stone shelter overlooked by modern maps, just as the notebook promised.",
+    "Leila calls the notebook a quiet [[masterpiece|masterpiece]] of practical observation rather than elegant prose. When a regional museum proposed an exhibition, she resisted making a [[fuss|fuss]] over its damaged cover; the journeys mattered more than the object. Her display pairs copied pages with photographs taken along the routes. At its centre is a simple invitation: walk one path slowly, and notice what an ordinary innkeeper thought worth recording."
+  ],
+  "zh": [
+    "旅行史研究者莱拉·森研究那些从未出现在正式旅行指南中的旅程。她最近的项目始于一家已停业的山间客栈：她在厨房橱柜后发现了一本脏得不成样子的笔记本。每次翻页，纸张都仿佛随时会碎裂，但在烹饪说明之间，还夹着旅客翻越附近山口的详细记录。",
+    "笔记的作者是托马斯·韦尔。他是个孤儿，十二岁时来到这家客栈，后来成了店主。虽然他起初读写能力有限，但拼写逐渐进步。莱拉发现，客人停留时间越长，笔记中的文字往往越准确，两者存在明显关联。这表明，一些旅客可能曾帮助他练习写作。",
+    "为了理解他那些不同寻常的路线描述，莱拉亲自走上了这些小路。一条指示写着“在长着红色根菜的地方转弯”，于是她到山坡上的一处农场打听。农场主人指给她看，一条狭窄小径旁有块老萝卜地。她沿着小径走去，果然如笔记所述，来到了一处现代地图未曾标出的石头避难所。",
+    "莱拉称这本笔记是一本朴实的杰作，出色之处在于实用而细致的观察，而非优美的文笔。一家地区博物馆提议举办展览时，她反对围绕破损的封面大费周章；比起这件物品本身，那些旅程更重要。她在展览中将笔记页面的复制件与沿途拍摄的照片并列展示。展览的核心是一句简单的邀请：慢慢走过一条小路，留意一位普通客栈主人认为值得记录的事物。"
+  ],
+  "q": [
+    {
+      "s": "The inn had been closed for ten years when Leila found the notebook.",
+      "a": "NG",
+      "why": "首段只说客栈已停业，未说明停业多久。"
+    },
+    {
+      "s": "Tomas had advanced literacy skills from an early age.",
+      "a": "F",
+      "why": "第二段明确说他早期的读写能力有限。"
+    },
+    {
+      "s": "Leila reached a stone shelter by following the track beside the radish field.",
+      "a": "T",
+      "why": "第三段说明她沿萝卜地旁的小径到达避难所。"
+    }
+  ]
+}

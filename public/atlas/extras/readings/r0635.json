@@ -1,0 +1,48 @@
+{
+  "id": "r0635",
+  "ids": [
+    "republican",
+    "contrive",
+    "furnace",
+    "approximation",
+    "thereafter",
+    "alloy",
+    "estuary",
+    "preface",
+    "defective",
+    "decipher"
+  ],
+  "title": "The Afterlife of Printing Type",
+  "titleZh": "铅字的第二次生命",
+  "topic": "technology",
+  "cefr": 4,
+  "paras": [
+    "When revolutionary France abolished its monarchy in 1792, [[republican|republican]] printers faced a practical problem: political change demanded new texts, but producing them still depended on thousands of tiny metal letters. In ports such as Nantes, near the Loire [[estuary|estuary]], presses served maritime commerce as well as political argument. Their essential technology was neither paper nor ink, but reusable type.",
+    "European typefounders had long cast letters from an [[alloy|alloy]] containing lead, antimony and tin. Heated in a [[furnace|furnace]], the mixture had to flow into a small mould yet harden sufficiently to withstand repeated impressions. Temperature was judged through experience rather than precise measurement; a worker’s estimate was necessarily an [[approximation|approximation]]. Nevertheless, skilled founders [[contrive|contrived]] to produce remarkably consistent letters with hand-operated equipment.",
+    "The economy of this system depended on recovery. Once a print run was complete, the letters were redistributed into separate compartments, ready for another composition. A letter used in a royal proclamation might [[thereafter|thereafter]] appear in the [[preface|preface]] to a book defending representative government. Political language could change abruptly, while the material carrying it remained substantially the same for years.",
+    "Reuse, however, had limits. Worn edges blurred the printed image, and [[defective|defective]] pieces were eventually returned to the melting pot. Historians attempting to [[decipher|decipher]] a blurred pamphlet may therefore be confronting not just unfamiliar spelling but evidence of worn type. The surviving page preserves an argument, but may also bear traces of wear on the small metal objects that made its circulation possible."
+  ],
+  "zh": [
+    "1792年，革命中的法国废除了君主制，支持共和政体的印刷者却面临一个实际难题：政治变革需要新的文本，而生产这些文本仍离不开成千上万个微小的金属活字。在卢瓦尔河口附近的南特等港口，印刷机既服务于海上贸易，也用于政治论争。支撑这一切的核心技术既不是纸张，也不是油墨，而是可以反复使用的活字。",
+    "欧洲的铸字工匠早已开始使用含铅、锑和锡的合金来铸造字粒。这种混合物在熔炉中加热后，必须能够流入小巧的铸模，同时在凝固后达到足以承受反复压印的硬度。温度靠经验判断，而非精密测量；工人的估计必然只是近似值。尽管如此，熟练的铸字工匠仍设法用手动设备造出了规格相当一致的字粒。",
+    "这套系统之所以经济实用，关键在于回收利用。一批印刷任务完成后，字粒便被重新分放到各个格子中，等待下一次排版。曾用于印刷王室公告的一枚字粒，此后可能出现在一本为代议制政府辩护的著作的序言里。政治语言可能骤然改变，承载它的材料却可以多年基本不变。",
+    "然而，重复使用也有极限。磨损的边缘会使印出的字迹模糊，有缺陷的字粒最终会被送回熔锅。因此，试图辨认字迹模糊的小册子的历史学家，面对的可能不仅是陌生的拼写方式，还有活字磨损的证据。留存下来的书页保存了一种论述，也可能带有那些使其得以传播的小小金属物件的磨损痕迹。"
+  ],
+  "q": [
+    {
+      "s": "Political printing in Nantes generated more income than commercial printing.",
+      "a": "NG",
+      "why": "首段提到两类印刷用途，未比较收入。"
+    },
+    {
+      "s": "Skilled typefounders produced consistent letters using hand-operated equipment.",
+      "a": "T",
+      "why": "第二段明确说工匠用手动设备铸出规格一致的字粒。"
+    },
+    {
+      "s": "Defective pieces of type were permanently excluded from the melting pot.",
+      "a": "F",
+      "why": "末段说有缺陷的字粒最终被送回熔锅。"
+    }
+  ]
+}

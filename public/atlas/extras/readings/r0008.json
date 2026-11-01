@@ -1,0 +1,46 @@
+{
+  "id": "r0008",
+  "ids": [
+    "pet",
+    "stop",
+    "holiday",
+    "english",
+    "front",
+    "night",
+    "ask",
+    "jacket",
+    "lucky",
+    "jeans"
+  ],
+  "title": "The Cat Behind the Boxes",
+  "titleZh": "箱子后面的猫",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "Mina was on [[holiday|holiday]] in a small town with her [[pet|pet]] cat, Pip. They stayed in a little house near a bread shop. One evening, Mina opened the door to get her bag. Pip ran outside. Mina put on her blue [[jacket|jacket]] and her [[jeans|jeans]]. She went out to look for him, but the street was dark.",
+    "At the [[front|front]] of the bread shop, Mina saw a man with a key. She did not know his language, so she spoke in [[english|English]]. “Did you see a small white cat?” she [[ask|asked]]. The man pointed to a small window. “I heard a cat in there,” he said. He opened the shop and turned on a light. Behind some empty boxes, they found Pip.",
+    "Mina was [[lucky|lucky]] that the man came back that [[night|night]]. He needed his bag from the shop. Pip was afraid and would not come out. Mina sat down and put her coat on the floor. Pip knew its smell and walked onto it. Back at the house, she closed the door to [[stop|stop]] him from running out again. Soon he was asleep beside her."
+  ],
+  "zh": [
+    "米娜带着她的宠物猫皮普在一个小镇度假。他们住在面包店附近的一间小房子里。一天傍晚，米娜打开门去拿包。皮普跑了出去。米娜穿上蓝色夹克和牛仔裤，出门找他，但街上很黑。",
+    "在面包店的前面，米娜看见一个拿着钥匙的男人。她不会说他的语言，就用英语说：“你看见一只白色的小猫了吗？”男人指着一扇小窗户说：“我听见里面有猫叫。”他打开店门，开了灯。他们在几个空箱子后面找到了皮普。",
+    "米娜很幸运，那个男人当晚回来了。他需要拿走放在店里的包。皮普很害怕，不肯出来。米娜坐下来，把外套放在地板上。皮普认得外套的气味，便走到上面。回到房子里后，她关上门，防止他再次跑出去。很快，他就在她身边睡着了。"
+  ],
+  "q": [
+    {
+      "s": "Mina went on holiday with her cat.",
+      "a": "T",
+      "why": "米娜带着宠物猫到小镇度假。"
+    },
+    {
+      "s": "The man learned English at school.",
+      "a": "NG",
+      "why": "未说明男人在哪里学过英语。"
+    },
+    {
+      "s": "Mina left the door open when she got back to the house.",
+      "a": "F",
+      "why": "回到房子后，米娜关上了门。"
+    }
+  ]
+}

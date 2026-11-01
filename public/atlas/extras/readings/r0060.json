@@ -1,0 +1,46 @@
+{
+  "id": "r0060",
+  "ids": [
+    "toothbrush",
+    "table",
+    "join",
+    "useful",
+    "like",
+    "note",
+    "fall",
+    "thirty",
+    "best",
+    "any"
+  ],
+  "title": "Making Cups Together",
+  "titleZh": "一起做杯子",
+  "topic": "emotion",
+  "cefr": 0,
+  "paras": [
+    "Mina makes cups in a small room behind her house. She is [[thirty|thirty]] years old. Her cups are for bathrooms, not for tea. Each one holds a [[toothbrush|toothbrush]] for cleaning teeth. Mina puts a little face on each cup. “I [[like|like]] a happy face in the morning,” she says. But she often feels sad when she works alone all day.",
+    "One Monday, Mina puts a [[note|note]] on her door. It says, “Come and [[join|join]] me. Make something with your hands.” Her neighbour Bo comes on Tuesday. Mina gives him a place at her long [[table|table]]. He has never made a cup before. They use clay that dries in the air. Some wet clay starts to [[fall|fall]] from his hands, but Mina catches it. They laugh and try again.",
+    "The next Tuesday, his cup is dry. Bo asks, “Can I choose [[any|any]] colour?” Mina shows him her paints. He chooses yellow and adds two blue eyes. His cup is not straight, but it is [[useful|useful]]. It holds his brush well. “This is my [[best|best]] cup,” he says. “It is also my first!” Now Bo comes every Tuesday. Mina puts out two chairs, and her room no longer feels so empty."
+  ],
+  "zh": [
+    "米娜在屋后的一间小屋里做杯子。她三十岁了。她做的杯子放在浴室里，不是用来喝茶的。每个杯子都用来放一把刷牙用的牙刷。米娜在每个杯子上画一张小脸。“我喜欢早上看到一张笑脸，”她说。不过，整天独自工作时，她常常觉得难过。",
+    "一个星期一，米娜在门上贴了一张便条，上面写着：“来和我一起做吧。用你的双手做点东西。”星期二，她的邻居博来了。米娜在长桌旁给他安排了一个位置。他以前从没做过杯子。他们用的是能在空气中自然干燥的黏土。一些湿黏土开始从他手中往下掉，米娜接住了。他们笑了起来，然后再试一次。",
+    "下一个星期二，他的杯子干了。博问：“我可以随便选一种颜色吗？”米娜给他看了她的颜料。他选了黄色，又画上两只蓝眼睛。他的杯子有点歪，但很实用，能稳稳地放好他的牙刷。“这是我最好的杯子，”他说，“也是我的第一个！”现在，博每个星期二都来。米娜摆出两把椅子，她的小屋再也不显得那么空荡了。"
+  ],
+  "q": [
+    {
+      "s": "Mina has made cups for ten years.",
+      "a": "NG",
+      "why": "文章只说明她的年龄，未说明制杯年限。"
+    },
+    {
+      "s": "Bo first comes to make a cup on Monday.",
+      "a": "F",
+      "why": "米娜周一贴便条，博周二才来做杯子。"
+    },
+    {
+      "s": "Bo paints two blue eyes on his cup.",
+      "a": "T",
+      "why": "他在杯子上画了两只蓝眼睛。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0027",
+  "ids": [
+    "tired",
+    "spain",
+    "play",
+    "different",
+    "pool",
+    "before",
+    "wonderful",
+    "notebook",
+    "white",
+    "large"
+  ],
+  "title": "A Clock Made of Water",
+  "titleZh": "一座用水做的钟",
+  "topic": "technology",
+  "cefr": 0,
+  "paras": [
+    "In a small town in [[spain|Spain]], visitors can see a clock with no hands. It stands in the garden of a clock museum. It has twelve glass bowls. Each bowl is for one hour. I arrive at ten with my sister, Lina. We want to see how this clock works.",
+    "A guide in a [[white|white]] shirt opens a little door under the clock. Inside is a small machine. Every hour, it sends water into a new bowl through a pipe. The water in the last bowl flows out. The bowls are [[different|different]] sizes. I draw them in my [[notebook|notebook]]. The guide waits while I finish my picture.",
+    "There is a [[large|large]] [[pool|pool]] below the clock. We sit beside it [[before|before]] lunch. Some children [[play|play]] a game near us. They look away and try to name the bowl with water in it. We join them for a few minutes. It is not easy, but we laugh at our wrong answers.",
+    "By two, we are [[tired|tired]], so we find a seat under a tree. A museum worker brings bread and cheese to the garden café. We eat and watch the water go into the next bowl. It is a [[wonderful|wonderful]] way to spend an afternoon. At home, I will show my drawing to our parents."
+  ],
+  "zh": [
+    "在西班牙的一个小镇上，游客可以看到一座没有指针的钟。它立在钟表博物馆的花园里。它有十二个玻璃碗，每个碗代表一个小时。我和莉娜十点到达，莉娜是我的姐妹。我们想看看这座钟是怎样工作的。",
+    "一位穿白衬衫的讲解员打开钟下面的一扇小门。里面有一台小机器。每过一个小时，它就通过管子把水送进另一个碗里。上一个碗里的水则流出去。这些碗大小不一。我把它们画在笔记本上。讲解员等着我画完。",
+    "钟下面有一个大水池。午饭前，我们坐在池边。几个孩子在我们附近玩游戏。他们移开目光，试着说出哪个碗里有水。我们也加入了，玩了几分钟。这并不容易，但答错时，我们都笑了。",
+    "到了两点，我们累了，就在树下找了个座位。一位博物馆工作人员把面包和奶酪送到花园咖啡馆。我们一边吃，一边看着水流进下一个碗。这样度过一个下午真愉快。回家后，我会把画给我们的父母看。"
+  ],
+  "q": [
+    {
+      "s": "The clock has hands.",
+      "a": "F",
+      "why": "第一段明确说这座钟没有指针。"
+    },
+    {
+      "s": "The glass bowls are different sizes.",
+      "a": "T",
+      "why": "第二段明确说这些碗大小不一。"
+    },
+    {
+      "s": "The museum worker makes the bread at home.",
+      "a": "NG",
+      "why": "文中未说明面包在哪里制作。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0552",
+  "ids": [
+    "elated",
+    "solvency",
+    "alpine",
+    "consignment",
+    "primate",
+    "reminiscent",
+    "profound",
+    "delinquent",
+    "stride",
+    "exclusivity"
+  ],
+  "title": "A Bridge Back to Movement",
+  "titleZh": "重返行动的桥梁",
+  "topic": "health",
+  "cefr": 4,
+  "paras": [
+    "At an [[alpine|alpine]] wildlife rehabilitation centre, researcher Leila Okoro designs climbing equipment for injured monkeys. Her workshop smells of steamed timber, and its curved wooden rails are [[reminiscent|reminiscent]] of branches polished by rain. Each structure addresses a particular [[primate|primate]] patient's limitations: a damaged wrist, restricted shoulder movement, or the reluctance to climb that can persist after physical wounds have healed.",
+    "Leila's interest in rehabilitation began during her own troubled adolescence. Described as [[delinquent|delinquent]] after repeatedly vandalising empty buildings, she was assigned supervised work with a furniture restorer. The experience had a [[profound|profound]] effect: someone expected precision from her rather than failure. Now, keepers watching her [[stride|stride]] between enclosures recognise the same purposeful confidence she hopes her equipment will restore to animals.",
+    "Nevertheless, maintaining the workshop's [[solvency|solvency]] requires more than ingenuity. Last winter, a delayed [[consignment|consignment]] of adjustable metal joints left three orders unfinished while loan repayments fell due. A veterinary supplier offered immediate funding in exchange for [[exclusivity|exclusivity]]: only its clinics would be permitted to buy her designs. Leila declined, unwilling to restrict access to equipment intended for widespread therapeutic use.",
+    "Instead, she published one simple design and charged for individually fitted versions. By spring, these commissions had covered the overdue repayments. She was [[elated|elated]], however, by a quieter achievement: an elderly macaque crossed a suspended rail without prompting. The keepers recorded the distance; Leila noted the animal's pause halfway across, when it released one hand to reach for a leaf."
+  ],
+  "zh": [
+    "在一家高山野生动物康复中心，研究员莱拉·奥科罗为受伤的猴子设计攀爬器材。她的工作室里弥漫着蒸过的木材的气味，弯曲的木制扶杆让人想起被雨水打磨光滑的树枝。每一套装置都针对某只灵长类动物患者的具体障碍：手腕受损、肩部活动受限，或身体创伤愈合后仍可能不愿攀爬。",
+    "莱拉对康复的兴趣始于她自己那段问题重重的青春期。她曾多次破坏空置建筑，被视为有不良行为的少年，随后被安排在监督下协助一位家具修复师工作。这段经历对她产生了深远影响：终于有人期待她把事情做得精准，而不是认定她会失败。如今，饲养员看着她大步穿行于各个围栏之间，能感受到她那份目标明确的自信，而她也希望自己的器材能帮助动物重拾这样的信心。",
+    "然而，要维持工作室的偿付能力，仅有巧思还不够。去年冬天，一批可调节金属连接件迟迟未到，导致三份订单无法完成，而贷款也到了还款期限。一家兽医用品供应商提出立即提供资金，但条件是取得独家权：只有它旗下的诊所才能购买她设计的产品。莱拉拒绝了，因为她不愿限制人们获取这些本应广泛用于康复治疗的器材。",
+    "她转而公开了一款简单的设计，并通过提供量身定制的版本收费。到了春天，这些定制订单的收入已足以补上逾期还款。然而，一项更为安静的成就让她欣喜若狂：一只年迈的猕猴在无人引导的情况下走过了一根悬空扶杆。饲养员记录下它走过的距离；莱拉留意到的则是它行至中途时的停顿——它松开一只手，伸向了一片树叶。"
+  ],
+  "q": [
+    {
+      "s": "Leila trained as a veterinarian before joining the rehabilitation centre.",
+      "a": "NG",
+      "why": "文章未说明她是否接受过兽医培训。"
+    },
+    {
+      "s": "Leila accepted financial support that would limit sales to one supplier's clinics.",
+      "a": "F",
+      "why": "她拒绝了附带独家销售条件的资金。"
+    },
+    {
+      "s": "The elderly macaque crossed the suspended rail without prompting.",
+      "a": "T",
+      "why": "末段明确说明猕猴在无人引导下走过扶杆。"
+    }
+  ]
+}

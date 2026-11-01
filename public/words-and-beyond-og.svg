@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><radialGradient id="glow"><stop stop-color="#f7e7c4"/><stop offset="1" stop-color="#f6f1e7"/></radialGradient></defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g fill="none" stroke="#cb922c" opacity=".25"><circle cx="1010" cy="220" r="180"/><circle cx="1010" cy="220" r="230"/><path d="M780 220h460M1010-10v460"/></g>
+  <g transform="translate(92 100)" stroke="#1a2035" fill="none"><circle cx="28" cy="28" r="26" stroke-width="2"/><path d="m28 5 6 23-6 23-6-23Z" fill="#c4573a" stroke-width="1"/></g>
+  <text x="92" y="270" font-size="84" font-family="Songti SC, Noto Serif CJK SC, serif" font-weight="700" fill="#1a2035">词与远方</text>
+  <text x="96" y="340" font-size="34" font-family="Georgia, serif" font-style="italic" fill="#434b65">Words &amp; Beyond</text>
+  <path d="M96 400h96" stroke="#c4573a" stroke-width="3"/>
+  <text x="96" y="465" font-size="30" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#434b65">多懂一个词，多看一点世界。</text>
+</svg>

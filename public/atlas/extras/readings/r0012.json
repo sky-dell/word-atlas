@@ -1,0 +1,46 @@
+{
+  "id": "r0012",
+  "ids": [
+    "mister",
+    "door",
+    "smile",
+    "october",
+    "room",
+    "rest",
+    "aunt",
+    "watch",
+    "exciting",
+    "africa"
+  ],
+  "title": "A Small Bag of Bubbles",
+  "titleZh": "一小袋气泡",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "Bread can teach us about tiny living things. In [[october|October]], Sami visits his [[aunt|aunt]] in Morocco, a country in [[africa|Africa]]. She makes bread every morning. Her friend, [[mister|Mister]] Amrani, is a baker. One day, he comes through her kitchen [[door|door]] with a small bag. There is yeast inside. It looks dry and still, but it is alive. Sami wants to know more.",
+    "They sit in a warm [[room|room]] beside the kitchen. The baker puts warm water, sugar and yeast into a clear bottle. Then he puts a balloon over its top. They [[watch|watch]] the bottle for ten minutes. Small bubbles appear in the water. Slowly, the balloon gets bigger. Sami starts to [[smile|smile]]. This is more [[exciting|exciting]] than looking at a bag of dry yeast.",
+    "The baker explains the change. Yeast uses sugar for food and makes gas. The gas goes up into the balloon. In bread, this gas makes many little holes. These holes help make bread soft and light. They leave the bottle on the table and take a short [[rest|rest]]. Soon, they eat some warm bread. Sami looks at every little hole before his first bite."
+  ],
+  "zh": [
+    "面包能让我们了解微小的生物。十月，萨米去摩洛哥看望一位姑姨辈的亲人。摩洛哥是非洲的一个国家。她每天早晨都做面包。她的朋友阿姆拉尼先生是一位面包师。一天，他提着一个小袋子，从她家的厨房门走进来。袋子里装着酵母。它看起来干干的，一动不动，却是活的。萨米想多了解一些。",
+    "他们坐在厨房旁边一间温暖的房间里。面包师把温水、糖和酵母放进一个透明的瓶子里，然后把一个气球套在瓶口上。他们盯着瓶子看了十分钟。水里出现了小气泡。气球慢慢变大了。萨米开始微笑。这比看着一袋干酵母更让人兴奋。",
+    "面包师解释了这个变化。酵母以糖为食，并产生气体。气体向上进入气球。在面包里，这种气体会形成许多小孔。这些小孔有助于让面包变得松软轻盈。他们把瓶子留在桌上，稍作休息。不久，他们吃起了温热的面包。萨米咬下第一口之前，仔细看了看面包上的一个个小孔。"
+  ],
+  "q": [
+    {
+      "s": "Mister Amrani's bread shop is near Sami's home.",
+      "a": "NG",
+      "why": "只说阿姆拉尼是面包师，未说明店铺位置。"
+    },
+    {
+      "s": "The balloon gets smaller as they watch it.",
+      "a": "F",
+      "why": "第二段明确说气球慢慢变大。"
+    },
+    {
+      "s": "They leave the bottle on the table when they rest.",
+      "a": "T",
+      "why": "第三段说他们把瓶子留在桌上后休息。"
+    }
+  ]
+}

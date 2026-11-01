@@ -1,0 +1,48 @@
+{
+  "id": "r0501",
+  "ids": [
+    "almond",
+    "lad",
+    "disorder",
+    "migrate",
+    "socialist",
+    "lobster",
+    "sector",
+    "burial",
+    "warmth",
+    "watt"
+  ],
+  "title": "Before Naming the Cause",
+  "titleZh": "先别急着下结论",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "At dawn, I returned to the rock pools below our coastal field station. The building had once belonged to a fishing cooperative founded on [[socialist|socialist]] principles: boats were collectively owned and earnings shared equally. An old account book from the fishing [[sector|sector]] now served as our notebook, its unused pages recording changes along the shore.",
+    "Beside the deepest pool, a local [[lad|lad]] named Sami was eating an [[almond|almond]] from his lunch bag. He pointed to a [[lobster|lobster]] beneath a ledge. It barely moved when a shadow crossed its back. Sami suspected a [[disorder|disorder]] affecting its muscles. The previous week, he had helped with the [[burial|burial]] of a dead specimen behind the station, so his concern was understandable.",
+    "However, a familiar explanation is not necessarily the right one. Some coastal animals [[migrate|migrate]] into deeper water as conditions change; those remaining in shallow pools experience considerable temperature variation. Overnight, this pool had cooled sharply. We placed a thermometer beside the ledge and watched without touching the animal. Our lamp, rated at just one [[watt|watt]], lit the scale without noticeably heating the water.",
+    "By late morning, sunlight had brought gentle [[warmth|warmth]] to the pool. The animal began walking, then withdrew into a crack with a quick movement of its tail. This did not establish why it had been inactive, but it weakened our first explanation. Sami crossed out his diagnosis and wrote instead: 'Still at dawn; active after warming. Observe again tomorrow.'"
+  ],
+  "zh": [
+    "黎明时，我再次来到海岸野外观测站下方的岩石潮池。观测站所在的建筑曾属于一家按社会主义原则创办的渔业合作社：船只归集体所有，收入平均分配。如今，一本渔业旧账簿成了我们的观察笔记本，空白页上记录着岸边的变化。",
+    "在最深的潮池旁，当地少年萨米正吃着午餐袋里的一颗扁桃仁。他指向岩石凸缘下的一只龙虾。一道影子掠过它的背部时，它几乎没有动。萨米怀疑它患了影响肌肉功能的疾病。上周，他曾帮忙把一只死去的龙虾埋在观测站后面，因此他的担忧不难理解。",
+    "然而，熟悉的解释未必就是正确的解释。有些海岸动物会随着环境变化迁往更深的水域；留在浅潮池中的动物则会经历相当大的温度波动。一夜之间，这个潮池的水温明显下降。我们在岩石凸缘旁放了一支温度计，只作观察，不去触碰龙虾。我们用一盏额定功率仅为一瓦的灯照亮刻度，它并未使池水明显升温。",
+    "临近中午时，阳光给潮池带来了温和的暖意。龙虾开始爬行，随后尾巴迅速一摆，退进了一条岩缝。这并不能确定它先前为何不活动，却削弱了我们最初解释的说服力。萨米划掉了自己的诊断，改写道：“黎明时不动；水温升高后开始活动。明天继续观察。”"
+  ],
+  "q": [
+    {
+      "s": "The cooperative's boats were individually owned rather than collectively owned.",
+      "a": "F",
+      "why": "首段明确说船只归集体所有。"
+    },
+    {
+      "s": "Sami initially suspected that the lobster had a muscle disorder.",
+      "a": "T",
+      "why": "第二段说萨米怀疑龙虾患有影响肌肉的疾病。"
+    },
+    {
+      "s": "Sami returned to observe the lobster the following day.",
+      "a": "NG",
+      "why": "只记录了次日再观察的计划，未说明是否实行。"
+    }
+  ]
+}

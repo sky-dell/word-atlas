@@ -1,0 +1,48 @@
+{
+  "id": "r0611",
+  "ids": [
+    "tempo",
+    "equivalence",
+    "nostril",
+    "patent",
+    "treason",
+    "truant",
+    "chasm",
+    "reluctance",
+    "grudge",
+    "imperial"
+  ],
+  "title": "Carving a Face for Fear",
+  "titleZh": "雕刻一张恐惧的面孔",
+  "topic": "emotion",
+  "cefr": 4,
+  "paras": [
+    "For a miniature theatre production, puppet maker Amara constructs an [[imperial|imperial]] messenger whose fear must be visible from the back row. Accused of [[treason|treason]], the character escapes across a rope bridge above a rocky [[chasm|chasm]]. A young [[truant|truant]], hiding there during school hours, becomes his unexpected witness. The puppet needs an expression that can shift from official composure to vulnerability.",
+    "Amara begins with a limewood block, hollowing the skull before carving the cheeks. Each [[nostril|nostril]] is cut slightly wider than anatomical accuracy requires: under stage lighting, narrow openings disappear. Yet there is no simple [[equivalence|equivalence]] between enlarged features and stronger emotion. Excessively raised eyebrows suggest surprise rather than fear, so she tests the unfinished head under a stage lamp.",
+    "A wooden lever lowers the jaw while drawing back the upper eyelids. Rather than seeking a [[patent|patent]] for this mechanism, Amara documents it in the theatre's shared notebook. Thin leather hinges introduce slight resistance, allowing the operator to convey [[reluctance|reluctance]] before the messenger steps onto the bridge. A frictionless mechanism would make that hesitation harder to sustain.",
+    "Finally, paint and rehearsal refine the effect. A dark crease beside the mouth hints at a [[grudge|grudge]] against the unseen accuser, while the music increases its [[tempo|tempo]]. Amara adjusts the strings until the head turns towards the child before the body follows. That small delay makes the puppet appear to search for help."
+  ],
+  "zh": [
+    "木偶制作师阿玛拉正在为一部微型剧场作品制作一名帝国信使，要求即使坐在最后一排，观众也能看清他的恐惧。这个角色被控叛国，逃亡途中要穿过一座横跨岩石深谷的绳桥。一个在上课时间躲到那里的逃学孩子，意外目睹了他的遭遇。这个木偶需要一副能从公务在身的镇定转变为脆弱无助的面孔。",
+    "阿玛拉先取一块椴木，在雕刻脸颊之前掏空头部。每个鼻孔都刻得比符合人体结构的尺寸略宽，因为在舞台灯光下，过窄的孔洞会难以辨认。然而，放大五官并不直接等同于增强情绪表现。眉毛抬得过高，传达的会是惊讶而非恐惧，因此她在一盏舞台灯下测试尚未完成的头部。",
+    "一根木制杠杆能在放低下颌的同时向上牵拉上眼睑。阿玛拉没有为这一机构申请专利，而是把它记录在剧场共用的笔记本中。薄皮革制成的铰链带来轻微阻力，让操偶师能够表现信使踏上绳桥前的不情愿。如果机构运转得没有摩擦，那种迟疑反而更难维持。",
+    "最后，上色和排练进一步完善了效果。嘴边一道深色皱纹暗示着他对那位未曾露面的指控者怀有积怨，音乐的速度则逐渐加快。阿玛拉不断调整牵线，直到木偶先将头转向孩子，身体随后才跟着转动。这短暂的延迟让木偶显得像是在寻求帮助。"
+  ],
+  "q": [
+    {
+      "s": "Amara has made an imperial messenger puppet for an earlier production.",
+      "a": "NG",
+      "why": "首段介绍本次制作，未提及此前是否做过。"
+    },
+    {
+      "s": "Amara enlarges the nostrils to keep them visible under stage lighting.",
+      "a": "T",
+      "why": "第二段说鼻孔略加宽，以免灯下难辨。"
+    },
+    {
+      "s": "The puppet's body turns towards the child before its head does.",
+      "a": "F",
+      "why": "末段明确说头先转向孩子，身体随后转动。"
+    }
+  ]
+}

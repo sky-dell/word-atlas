@@ -1,0 +1,48 @@
+{
+  "id": "r0243",
+  "ids": [
+    "trolley",
+    "rush",
+    "accommodation",
+    "treasure",
+    "regret",
+    "knit",
+    "clown",
+    "blueberry",
+    "kindness",
+    "waterfall"
+  ],
+  "title": "An Inn for Travelling Performers",
+  "titleZh": "旅途艺人的老客栈",
+  "topic": "history",
+  "cefr": 2,
+  "paras": [
+    "Beside a [[waterfall|waterfall]] in the mountain village of Bellara stands an inn with a painted red door. A century ago, it offered cheap [[accommodation|accommodation]] to travelling performers. Today, visitors come to explore its small museum and spend a night in rooms named after its former guests.",
+    "My guide, Mina, pushed a wooden [[trolley|trolley]] into the kitchen, carrying bread and jars of [[blueberry|blueberry]] jam. Over breakfast, she showed me an old photograph of a [[clown|clown]] wearing enormous shoes. His name was Pavel, and he stayed here during the winter of 1923, when heavy snow closed the mountain road.",
+    "Pavel had little money, but the owner let him stay. To repay her [[kindness|kindness]], he repaired chairs and entertained her children. Another guest taught him to [[knit|knit]], and the museum displays a pair of uneven socks beside his photograph. Its real [[treasure|treasure]], however, is a silver cup decorated with tiny birds. Pavel sent it to the owner after finding success in a distant city.",
+    "I had planned to [[rush|rush]] through the museum before lunch. Instead, I stayed to read Pavel's letters, which Mina keeps under glass. I did not [[regret|regret]] missing my planned walk. That evening, the sound of falling water filled my room, just as it had filled his a hundred years earlier."
+  ],
+  "zh": [
+    "在山村贝拉拉的一处瀑布旁，坐落着一家漆着红色大门的客栈。一百年前，这里为四处巡演的艺人提供廉价住宿。如今，游客来这里参观小小的博物馆，并在以昔日住客命名的房间里住上一晚。",
+    "我的向导米娜推着一辆木制手推车走进厨房，车上放着面包和几罐蓝莓果酱。吃早餐时，她给我看了一张老照片，照片上是一位穿着特大号鞋子的小丑。他叫帕维尔。1923年冬天，大雪封住了山路，他便住在这里。",
+    "帕维尔没什么钱，但店主仍让他留下。为了报答她的善意，他修理椅子，还逗她的孩子们开心。另一位客人教他针织，博物馆就在他的照片旁展出了一双织得不太平整的袜子。不过，馆里真正的珍宝是一只装饰着小鸟图案的银杯。帕维尔在远方的一座城市取得成功后，把它寄给了店主。",
+    "我原本打算在午饭前匆匆参观完博物馆，却留下来阅读米娜保存在玻璃下面的帕维尔的信件。没能按计划去散步，我并不后悔。那天晚上，瀑布的水声充满了我的房间，正如一百年前充满他的房间一样。"
+  ],
+  "q": [
+    {
+      "s": "The inn no longer offers rooms for overnight stays.",
+      "a": "F",
+      "why": "首段说游客如今仍可在客房过夜。"
+    },
+    {
+      "s": "Pavel sent the owner a silver cup after becoming successful in a distant city.",
+      "a": "T",
+      "why": "原文明确说他在远方城市成功后寄来银杯。"
+    },
+    {
+      "s": "Mina has published a book containing Pavel's letters.",
+      "a": "NG",
+      "why": "只提到信件保存在玻璃下，未提出版。"
+    }
+  ]
+}

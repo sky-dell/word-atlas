@@ -1,0 +1,48 @@
+{
+  "id": "r0253",
+  "ids": [
+    "sudden",
+    "zipper",
+    "charming",
+    "focus",
+    "makeup",
+    "arrival",
+    "face-to-face",
+    "various",
+    "campsite",
+    "arts"
+  ],
+  "title": "A Small Bag for Long Journeys",
+  "titleZh": "陪伴长途旅行的小包",
+  "topic": "travel",
+  "cefr": 2,
+  "paras": [
+    "Before small wash bags became common, wealthy nineteenth-century travellers often carried wooden cases containing brushes, soap and glass bottles. Some cases had a mirror inside the lid. They could be [[charming|charming]] objects, but their weight made them less useful for people who had to carry their own luggage.",
+    "During the twentieth century, lighter cloth bags became a practical choice. The [[zipper|zipper]] helped keep small things together, while materials that resisted water protected clothes from wet brushes. Travellers could pack [[various|various]] items in one place. A [[sudden|sudden]] movement might knock a bottle off a shelf, but a closed bag kept its contents safely inside.",
+    "These bags suited journeys beyond hotels, too. At a [[campsite|campsite]], a traveller could take one to a shared washing area after [[arrival|arrival]]. People travelling to perform at [[arts|arts]] festivals could use similar bags for [[makeup|makeup]]. With everything ready, performers could [[focus|focus]] on preparing for a show rather than searching through a suitcase.",
+    "The wash bag also helped travellers prepare for [[face-to-face|face-to-face]] meetings: a brush and a little soap could make a difference after a dusty journey. Designs have changed, but the basic idea remains simple. What once needed a heavy wooden case now fits into a soft bag tucked beside a spare shirt."
+  ],
+  "zh": [
+    "在小型洗漱包普及之前，19世纪的富裕旅行者常常携带木盒，里面装着刷子、肥皂和玻璃瓶。有些盒盖内侧还装有镜子。这些盒子可能十分精美，但对于必须自己搬运行李的人来说，它们的重量使其实用性打了折扣。",
+    "到了20世纪，更轻的布包成为一种实用的选择。拉链让小物件不易散落，而有一定防水性的材料则能保护衣服，避免被湿刷子弄湿。旅行者可以把各种用品装在一起。一个突然的动作可能会把瓶子从架子上碰下来，但拉好拉链的包能将里面的东西安全地收在一起。",
+    "这些包也适用于不住酒店的旅行。到达露营地后，旅行者可以带着洗漱包去公共洗漱区。前往艺术节演出的人也可以用类似的小包装化妆品。东西都准备妥当后，表演者就能集中精力准备演出，而不用在行李箱里翻找。",
+    "洗漱包也帮助旅行者为面对面的会面做好准备：经过一路风尘，一把刷子和一点肥皂或许就能有所帮助。虽然设计不断变化，但基本想法仍然很简单。过去需要用沉重木盒装的东西，如今放进一个软包，再塞在一件备用衬衫旁边就行了。"
+  ],
+  "q": [
+    {
+      "s": "The weight of wooden cases was a disadvantage for travellers carrying their own bags.",
+      "a": "T",
+      "why": "首段指出木盒太重，不便自行搬运行李。"
+    },
+    {
+      "s": "The lighter bags were useful only for people staying in hotels.",
+      "a": "F",
+      "why": "第三段说明露营者和艺术节表演者也能使用。"
+    },
+    {
+      "s": "Modern wash bags are usually bought as gifts for friends.",
+      "a": "NG",
+      "why": "文章未提及现代洗漱包是否常被用作礼物。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0130",
+  "ids": [
+    "toaster",
+    "yogurt",
+    "recent",
+    "burger",
+    "nearest",
+    "candle",
+    "behavior",
+    "factory",
+    "available",
+    "wish"
+  ],
+  "title": "New Light from Old Wax",
+  "titleZh": "旧蜡变成新烛光",
+  "topic": "environment",
+  "cefr": 1,
+  "paras": [
+    "At Mina's small café, a [[toaster|toaster]] stands beside the bread basket. People come for breakfast or a bean [[burger|burger]] at lunch. But a [[recent|recent]] project has given them another reason to visit. Mina makes a new [[candle|candle]] from old pieces of wax. She collects these pieces in empty [[yogurt|yogurt]] pots near the door. A sign says, “We [[wish|wish]] we could use every last piece. Please bring yours here instead of throwing it away.”",
+    "The work happens on Monday, when the café is closed. First, Mina removes old strings and dirt from the wax. She separates it by colour, then puts one group into a metal bowl over hot water. As the wax slowly melts, she prepares thick glass jars made for candles. These are [[available|available]] at the [[nearest|nearest]] craft shop, just across the road. She fixes a new cotton string in the centre of each jar and carefully pours in the warm wax.",
+    "The jars stand overnight until the wax becomes hard. No large [[factory|factory]] is needed: Mina makes just six at a time. She has noticed a change in customer [[behavior|behavior]], too. More people now save their old wax. On Tuesday evening, the little lights shine on the café tables, ready for another meal."
+  ],
+  "zh": [
+    "米娜的小咖啡馆里，面包篮旁放着一台烤面包机。人们来这里吃早餐，或在午餐时吃一个豆子汉堡。不过，最近开展的一项活动让大家又多了一个来这里的理由。米娜用旧蜡块制作新蜡烛。她在门边放了几个空酸奶盒，用来收集这些蜡块。一块牌子上写着：“真希望每一小块蜡都能用上。请把你的旧蜡带到这里，不要扔掉。”",
+    "制作安排在星期一，那天咖啡馆不营业。首先，米娜去掉蜡里的旧烛芯和脏东西。她按颜色将蜡分开，再把其中一组放入架在热水上方的金属碗中。蜡慢慢融化时，她准备好专门用来装蜡烛的厚玻璃罐。这些罐子在最近的手工用品店就能买到，那家店就在马路对面。她在每个罐子中央固定一根新棉线，然后小心地倒入温热的蜡。",
+    "这些罐子要放上一夜，直到蜡变硬。整个过程不需要大工厂：米娜一次只做六支。她还注意到顾客的行为发生了变化。现在有更多人会留下旧蜡。星期二晚上，小小的烛光在咖啡馆的餐桌上亮起，迎接又一顿饭。"
+  ],
+  "q": [
+    {
+      "s": "Mina makes the candles while the café is open.",
+      "a": "F",
+      "why": "制作在星期一进行，当天咖啡馆不营业。"
+    },
+    {
+      "s": "The craft shop gives Mina a lower price for the glass jars.",
+      "a": "NG",
+      "why": "只说明店里有玻璃罐，未说明是否优惠。"
+    },
+    {
+      "s": "Mina makes six candles at a time.",
+      "a": "T",
+      "why": "第三段明确说她一次只做六支。"
+    }
+  ]
+}

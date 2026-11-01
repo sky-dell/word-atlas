@@ -1,0 +1,48 @@
+{
+  "id": "r0395",
+  "ids": [
+    "warehouse",
+    "fame",
+    "prior",
+    "sewage",
+    "ratio",
+    "poll",
+    "intersection",
+    "surroundings",
+    "unbearable",
+    "filter"
+  ],
+  "title": "Making a Lost Street Reappear",
+  "titleZh": "让消失的街道重现",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "Inside a former [[warehouse|warehouse]], a museum team is building a model of a riverside street as it looked in 1880. The district gained its [[fame|fame]] from pottery, but the exhibition focuses on the workers’ homes rather than their products. A visitor [[poll|poll]] helped the team choose this approach: most respondents wanted to discover how ordinary families lived.",
+    "Before cutting any wood, the makers compare old maps with photographs. This [[prior|prior]] research establishes where buildings stood and how their [[surroundings|surroundings]] changed. They select an [[intersection|intersection]] beside the pottery works as the model’s centre. Using a [[ratio|ratio]] of one to fifty, they turn a ten-metre house front into a piece just twenty centimetres wide. Paper patterns guide the cutting of thin wooden walls.",
+    "Next, the team adds details that attractive photographs often hide. Beneath a removable road surface, narrow pipes show how [[sewage|sewage]] travelled towards the river. Written accounts describe the summer smell as almost [[unbearable|unbearable]], so a label explains the health problems rather than recreating the odour. Above ground, tiny washing lines stretch across yards, while dark paint suggests smoke stains on brickwork.",
+    "Finally, the makers sand the edges, using an extraction unit with a [[filter|filter]] to remove fine dust from the air. They paint doors, attach roof tiles and test the lighting. When the model is complete, visitors can lift the road panel themselves. What first appears to be a charming old street becomes a record of the hidden systems that shaped daily life."
+  ],
+  "zh": [
+    "在一座旧仓库里，一个博物馆团队正在搭建一条河畔街道的模型，呈现它在1880年的样貌。这个街区曾因陶器而闻名，但展览关注的是工人的住宅，而非他们生产的器物。一项观众意见调查帮助团队确定了这个方向：大多数受访者希望了解普通家庭当时如何生活。",
+    "在切割木材之前，制作者先将旧地图与照片进行比对。这项前期研究确定了建筑物的位置，以及周围环境发生过怎样的变化。他们选定陶器作坊旁的一处道路交叉口作为模型的中心，按照一比五十的比例，将十米宽的房屋正面缩成仅二十厘米宽的部件，再以纸样为参照，裁切出薄木板墙面。",
+    "接下来，团队加入了那些漂亮照片往往没有呈现的细节。在可以移开的路面下，细小的管道展示了生活污水如何流向河流。文字记载称，夏日的臭味几乎令人无法忍受，因此团队选择用说明牌解释当时的卫生问题，而不去重现那股气味。地面上，微型晾衣绳横跨院落，砖墙上的深色涂料则模拟出烟熏的痕迹。",
+    "最后，制作者打磨边缘，并使用装有过滤器的抽尘设备清除空气中的细小粉尘。他们给门上色，装上屋瓦，再测试灯光。模型完成后，观众可以亲手掀起路面板。初看只是一条迷人的老街，细看却是一份记录，揭示了那些塑造日常生活的隐蔽系统。"
+  ],
+  "q": [
+    {
+      "s": "The visitor poll was conducted online.",
+      "a": "NG",
+      "why": "文章未说明观众调查采用何种方式。"
+    },
+    {
+      "s": "A ten-metre house front is twenty centimetres wide in the model.",
+      "a": "T",
+      "why": "原文明确给出了这两个对应尺寸。"
+    },
+    {
+      "s": "The exhibition reproduces the unpleasant smell described in historical records.",
+      "a": "F",
+      "why": "团队用说明牌解释问题，并未重现臭味。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0087",
+  "ids": [
+    "jewellery",
+    "plastic",
+    "towards",
+    "broccoli",
+    "protect",
+    "strange",
+    "latest",
+    "snake",
+    "wardrobe",
+    "hometown"
+  ],
+  "title": "The Run to the Village Kitchen",
+  "titleZh": "跑向村庄厨房",
+  "topic": "sport",
+  "cefr": 1,
+  "paras": [
+    "Every spring, Mira returns to her [[hometown|hometown]] in the hills for a special running day. Visitors can join too, so I went with her this year. We stayed in her aunt's house beside the village kitchen. Before the run, Mira put her [[jewellery|jewellery]] in a small box inside the bedroom [[wardrobe|wardrobe]]. Then we walked outside, where runners were waiting with cups made of [[plastic|plastic]].",
+    "The village baker showed us the [[latest|latest]] route map. This year, the run went past the river instead of through the woods. We ran [[towards|towards]] a little stone bridge, with bells ringing behind us. Hearing bells during a race felt [[strange|strange]], but Mira explained that families rang them to welcome the runners. Near the bridge, a [[snake|snake]] lay across the warm path. Everyone stopped to [[protect|protect]] it from our feet. We waited until it moved into the grass.",
+    "There were no prizes for finishing first. At the village kitchen, every runner received rice, eggs and fresh [[broccoli|broccoli]]. We ate together at long wooden tables while the baker collected our cups to wash. I had expected a race, but the best part was lunch. Before leaving, I asked Mira to bring me back next spring."
+  ],
+  "zh": [
+    "每年春天，米拉都会回到山间的家乡，参加一个特别的跑步日活动。游客也可以参加，所以今年我跟她一起去了。我们住在她的一位阿姨家，旁边就是村里的公共厨房。跑步前，米拉把首饰放进卧室衣柜里的一个小盒子。然后我们走到屋外，跑步的人正拿着塑料杯在那里等候。",
+    "村里的面包师给我们看了最新的路线图。今年的路线经过河边，而不是穿过树林。我们朝一座小石桥跑去，身后响起阵阵铃声。在跑步活动中听到铃声，感觉有些奇怪，但米拉解释说，这是村里的家庭在摇铃欢迎大家。桥边，一条蛇横躺在温暖的小路上。所有人都停了下来，免得踩伤它。我们一直等到它爬进草丛。",
+    "第一个到达终点的人也没有奖品。在村里的公共厨房，每位跑步者都领到了米饭、鸡蛋和新鲜的西兰花。我们围坐在长木桌旁吃饭，面包师则收走杯子去清洗。我原本以为这就是一场比赛，没想到最精彩的部分却是午餐。离开前，我请米拉明年春天再带我来。"
+  ],
+  "q": [
+    {
+      "s": "Visitors are not allowed to join the run.",
+      "a": "F",
+      "why": "首段明确说游客也可以参加。"
+    },
+    {
+      "s": "This year's running route went past the river.",
+      "a": "T",
+      "why": "第二段说明今年的路线经过河边。"
+    },
+    {
+      "s": "The vegetables served after the run were grown by Mira's aunt.",
+      "a": "NG",
+      "why": "文章未说明午餐蔬菜由谁种植。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0465",
+  "ids": [
+    "executive",
+    "domestic",
+    "comet",
+    "sacred",
+    "darken",
+    "tease",
+    "ambassador",
+    "shorten",
+    "herb",
+    "qualify"
+  ],
+  "title": "A Darker Night at Cedar Marsh",
+  "titleZh": "雪松沼泽的暗夜",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "At dusk, I joined a government survey at Cedar Marsh, where new lighting rules were being tested. A senior [[executive|executive]] from the national parks agency carried our spare batteries. The reserve attracted mainly [[domestic|domestic]] visitors, and its busiest path crossed a small wetland beside a [[sacred|sacred]] grove still used for religious ceremonies.",
+    "Our task was to count moths before and after the path lamps were switched off. As clouds began to [[darken|darken]] the western sky, ranger Leila placed white sheets beneath three willows. Beside them grew a wild [[herb|herb]] whose crushed leaves smelled of lemon. She began to [[tease|tease]] me gently when I mistook a drifting seed for our first moth.",
+    "At nine, the lamps went out. This did not [[shorten|shorten]] our survey: we continued until midnight, using weak red torches to record insects visiting flowers. Within twenty minutes, pale moths appeared among the leaves. Above the grove, a [[comet|comet]] showed a faint tail. One clear night could not prove the policy effective, but our observations would help the reserve [[qualify|qualify]] for a national dark-sky protection scheme.",
+    "Near midnight, an [[ambassador|ambassador]] representing a neighbouring country arrived with the park director to observe the trial. We asked both visitors to cover their torches while we checked the final sheet. For several minutes, everyone stood quietly. Then a moth settled beside Leila's hand, and she recorded the night's forty-seventh visitor."
+  ],
+  "zh": [
+    "黄昏时，我来到雪松沼泽，参加一项政府调查。这里正在试行新的照明规定。国家公园管理机构的一位高级主管帮我们拿着备用电池。这片保护区吸引的主要是国内游客，最繁忙的步道穿过一小片湿地，旁边是一处至今仍用于举行宗教仪式的神圣林地。",
+    "我们的任务是在步道灯关闭前后清点飞蛾。云层开始让西边的天空变暗时，巡护员莱拉在三棵柳树下铺好了白布。树旁长着一种野生香草，叶片揉碎后会散发出柠檬般的气味。我把一粒飘落的种子误认成了当晚的第一只飞蛾，她便善意地打趣起我来。",
+    "九点钟，灯灭了。这并没有缩短我们的调查时间：我们用微弱的红光手电筒记录访花的昆虫，一直工作到午夜。不到二十分钟，叶丛间便出现了浅色的飞蛾。林地上方，一颗彗星拖着隐约可见的尾巴。仅凭一个晴朗夜晚的记录，还不能证明这项政策有效，但我们的观察结果将帮助保护区满足加入全国暗夜保护计划的条件。",
+    "临近午夜，一位代表邻国的大使与公园负责人一同到来，观摩这次试验。检查最后一块白布时，我们请两位来访者遮住手电筒的光。大家静静地站了几分钟。随后，一只飞蛾停在莱拉的手边，她记下了当晚的第四十七位访客。"
+  ],
+  "q": [
+    {
+      "s": "Most visitors to the reserve came from other countries.",
+      "a": "F",
+      "why": "首段说保护区吸引的主要是国内游客。"
+    },
+    {
+      "s": "The survey continued until midnight after the path lamps went out.",
+      "a": "T",
+      "why": "九点关灯后，调查仍持续到午夜。"
+    },
+    {
+      "s": "The ambassador had visited Cedar Marsh before this trial.",
+      "a": "NG",
+      "why": "末段只描述此次到访，未提此前是否来过。"
+    }
+  ]
+}

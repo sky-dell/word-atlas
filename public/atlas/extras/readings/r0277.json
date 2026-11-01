@@ -1,0 +1,48 @@
+{
+  "id": "r0277",
+  "ids": [
+    "exchange",
+    "satisfied",
+    "stormy",
+    "handout",
+    "sociable",
+    "favor",
+    "wolf",
+    "waterskiing",
+    "reward",
+    "crew"
+  ],
+  "title": "A Club on Wooden Skis",
+  "titleZh": "木滑水板上的俱乐部",
+  "topic": "sport",
+  "cefr": 2,
+  "paras": [
+    "In the summer of 1954, a small club began teaching [[waterskiing|waterskiing]] on a northern lake. Its first members used wide wooden skis and a borrowed fishing boat. The boat’s [[crew|crew]] consisted of a driver and a second person who watched the skier. Their first lesson was simple: hold the rope and keep your knees bent.",
+    "The club began with a [[favor|favor]]. A boat owner, Marta, agreed to pull her neighbour Emil across the lake without payment. Emil was so [[satisfied|satisfied]] with the experience that he invited friends to try. Soon, members began to [[exchange|exchange]] services: one repaired the skis while another cleaned the boat. This kept the new sport affordable.",
+    "On [[stormy|stormy]] days, they met in Marta’s wooden shed instead. Emil prepared a one-page [[handout|handout]] with drawings showing how to stand up safely. One evening, a [[wolf|wolf]] appeared beside the trees outside. It soon disappeared, but its visit gave the club an idea. Members painted a small picture of the animal on their skis.",
+    "By 1960, the club held a summer race. The winner’s [[reward|reward]] was a wooden cup, made by Marta. However, these [[sociable|sociable]] skiers cared as much about the meal afterwards as the result. Faster boats eventually arrived, but the old wooden skis stayed above the shed door, reminding everyone how the club had started."
+  ],
+  "zh": [
+    "1954年夏天，一个小俱乐部开始在北方的一座湖上教授滑水。最初的成员使用宽大的木制滑水板和一艘借来的渔船。船上有两名工作人员：一人驾驶，另一人观察滑水者。他们的第一课很简单：握住绳子，保持膝盖弯曲。",
+    "俱乐部起源于一次帮忙。船主玛尔塔答应免费拉着邻居埃米尔滑过湖面。埃米尔对这次体验非常满意，于是邀请朋友们也来尝试。很快，成员们开始交换服务：一人修理滑水板，另一人则清洁船只。这让这项新运动的费用保持在可负担的水平。",
+    "遇上暴风雨天气，他们就改在玛尔塔的木棚里聚会。埃米尔制作了一张单页讲义，用图画说明如何安全地站起来。一天傍晚，一只狼出现在外面的树林边。它很快就消失了，但这次来访给了俱乐部一个灵感。成员们在各自的滑水板上画了一只小狼。",
+    "到1960年，俱乐部已经举办起了夏季比赛。冠军的奖励是玛尔塔制作的一个木杯。不过，这些爱交际的滑水爱好者既看重比赛结果，也同样看重赛后的聚餐。后来，速度更快的船出现了，但那些旧木滑水板一直挂在木棚门上方，提醒着大家俱乐部最初的模样。"
+  ],
+  "q": [
+    {
+      "s": "During the club’s early lessons, someone besides the driver watched the person skiing.",
+      "a": "T",
+      "why": "首段说明船上另有一人观察滑水者。"
+    },
+    {
+      "s": "Marta charged Emil for his first trip across the lake.",
+      "a": "F",
+      "why": "第二段说明玛尔塔免费帮助埃米尔。"
+    },
+    {
+      "s": "The club’s first summer race attracted more than fifty spectators.",
+      "a": "NG",
+      "why": "文章提到夏季比赛，但未说明观众人数。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0128",
+  "ids": [
+    "nearly",
+    "pyjamas",
+    "century",
+    "score",
+    "cycling",
+    "act",
+    "season",
+    "guess",
+    "timetable",
+    "princess"
+  ],
+  "title": "The Garden Game",
+  "titleZh": "花园里的游戏",
+  "topic": "nature",
+  "cefr": 1,
+  "paras": [
+    "Every spring, Mina ran a nature game in a village garden. A [[princess|princess]] had opened the garden a [[century|century]] earlier, and its tall trees were full of birds. Spring was Mina's favourite [[season|season]]. This year, a [[cycling|cycling]] club planned to visit. Teams would find plants from picture cards, with one point for each correct answer. The team with the highest [[score|score]] would win a basket of pears.",
+    "The night before the visit, heavy rain woke Mina. Still in her [[pyjamas|pyjamas]], she looked outside. Water covered [[nearly|nearly]] all the garden path. She could not [[guess|guess]] where it came from, so she put on boots and took a light outside. Leaves were blocking the small stream beside the gate. Water was running over its banks and into the garden. She needed to [[act|act]] before the flowers went under water.",
+    "Mina called her neighbour, Ravi. Together, they pulled the wet leaves out with long garden tools. Soon the stream was moving freely again. By morning, the path was clear, but some picture cards were wet. Mina changed the day's [[timetable|timetable]]: first, the visitors helped make new cards; then they played. At the end, the winning team shared its pears with everyone, including Ravi."
+  ],
+  "zh": [
+    "每年春天，米娜都会在村里的花园举办一场自然知识游戏。一百年前，一位公主为这座花园揭幕，如今园中的高树上满是鸟儿。春天是米娜最喜欢的季节。今年，一个骑行俱乐部计划来这里游玩。各队要根据图片卡寻找植物，每答对一次得一分。得分最高的队伍将赢得一篮梨。",
+    "活动前一晚，大雨把米娜吵醒了。她还穿着睡衣裤，就向窗外望去。花园里的小路几乎全被水淹了。她猜不出水是从哪里来的，便穿上靴子，带着灯走到外面。树叶堵住了大门旁的小溪，水漫过溪岸，流进花园。她必须在花朵被淹没之前采取行动。",
+    "米娜给邻居拉维打了电话。两人一起用长柄园艺工具把湿树叶捞了出来。很快，溪水又畅通了。到了早晨，小路上的水退了，但一些图片卡被打湿了。米娜调整了当天的时间表：游客们先帮忙制作新卡片，然后再玩游戏。最后，获胜的队伍把梨分给了所有人，拉维也有一份。"
+  ],
+  "q": [
+    {
+      "s": "Teams got one point for each correct answer.",
+      "a": "T",
+      "why": "正文说每答对一次得一分。"
+    },
+    {
+      "s": "It had rained for three hours when Mina woke up.",
+      "a": "NG",
+      "why": "文中未说明米娜醒来前已下了多久的雨。"
+    },
+    {
+      "s": "The visitors played the game before making new cards.",
+      "a": "F",
+      "why": "游客先帮忙制作新卡片，然后才玩游戏。"
+    }
+  ]
+}

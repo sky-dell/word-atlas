@@ -1,0 +1,46 @@
+{
+  "id": "r0095",
+  "ids": [
+    "meaning",
+    "spaghetti",
+    "garlic",
+    "control",
+    "olympics",
+    "supper",
+    "serious",
+    "comfortable",
+    "active",
+    "climbing"
+  ],
+  "title": "From Mountain Huts to Indoor Walls",
+  "titleZh": "从山间小屋到室内岩壁",
+  "topic": "education",
+  "cefr": 1,
+  "paras": [
+    "Imagine a small group learning [[climbing|climbing]] outdoors with more experienced friends, before indoor walls became common. In this story, they stay in a mountain hut in northern Italy. After a day on the rocks, the climbers share [[spaghetti|spaghetti]] with [[garlic|garlic]] for [[supper|supper]]. Around the table, older members explain the [[meaning|meaning]] of calls used on the mountain. A short call can tell a partner to stop or wait.",
+    "In this imagined lesson, careful practice matters because a small mistake could cause a [[serious|serious]] accident. Beginners learn how to tie ropes and keep [[control|control]] of their movements. They practise near the ground before going higher. Indoor walls offer another place to learn these skills. Teachers can give lessons even during heavy rain. Thick mats make the floor safer, and beginners can rest on [[comfortable|comfortable]] seats between turns.",
+    "Indoor walls became more common in the late twentieth century. They helped people stay [[active|active]] without travelling to the mountains. Routes used coloured holds, so a teacher could point out an easy path. The sport reached the [[olympics|Olympics]] at the Tokyo Games in 2021. In an indoor lesson, a teacher can watch a student from the floor and ask them to try a difficult move again on the same route."
+  ],
+  "zh": [
+    "想象一下，在室内岩壁尚未普及的时候，一小群人跟着经验更丰富的朋友在户外学习攀岩。在这个故事中，他们住在意大利北部的一间山间小屋里。在岩石上活动一天后，攀岩者一起吃加了大蒜的意大利细长面条作为晚饭。围坐在桌旁时，年长的成员解释山上所用口令的含义。一句简短的口令就能告诉同伴停下或等待。",
+    "在这堂想象中的课上，认真练习很重要，因为一个小错误就可能造成严重事故。初学者学习如何系绳，以及如何控制自己的动作。他们先在接近地面的地方练习，再向更高处攀爬。室内岩壁为学习这些技能提供了另一个场所。即使下大雨，老师也能上课。厚垫子让地面更加安全，初学者还可以在轮流练习的间隙坐在舒适的座椅上休息。",
+    "二十世纪后期，室内岩壁变得更加常见。人们不用前往山区，也能保持运动。攀爬路线使用彩色的攀岩支点，因此老师可以指出一条容易的路线。这项运动在2021年的东京奥运会上成为比赛项目。在室内课上，老师可以站在地面上观察学生，并让学生在同一条路线上再次尝试一个困难的动作。"
+  ],
+  "q": [
+    {
+      "s": "The climbers in the story pay to sleep in the hut.",
+      "a": "NG",
+      "why": "故事说他们住在小屋里，但未说明是否收费。"
+    },
+    {
+      "s": "Beginners practise near the ground before climbing higher.",
+      "a": "T",
+      "why": "第二段明确说先在近地处练习，再爬高。"
+    },
+    {
+      "s": "Indoor climbing teachers have to cancel lessons when it rains heavily.",
+      "a": "F",
+      "why": "第二段说即使下大雨也能上课。"
+    }
+  ]
+}

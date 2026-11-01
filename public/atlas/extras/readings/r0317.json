@@ -1,0 +1,48 @@
+{
+  "id": "r0317",
+  "ids": [
+    "footpath",
+    "sum",
+    "wallpaper",
+    "spread",
+    "undress",
+    "scene",
+    "passion",
+    "revision",
+    "escalator",
+    "generally"
+  ],
+  "title": "Patterns That Paid the Bills",
+  "titleZh": "靠花样谋生",
+  "topic": "economy",
+  "cefr": 2,
+  "paras": [
+    "Follow the garden [[footpath|footpath]] to the Mill Lane Museum, where our new exhibition tells the story of a family [[wallpaper|wallpaper]] business. In 1912, designer Amina Bell borrowed a small [[sum|sum]] from her uncle to rent a workshop. Her first pattern showed yellow birds among green leaves.",
+    "The first room presents a busy working [[scene|scene]]: long tables, pots of colour and rolls of paper waiting for delivery. Workers [[generally|generally]] printed the light colours first and added darker ones later. Before leaving, they would [[undress|undress]] in separate changing rooms and put on clean clothes. Their work clothes stayed behind for washing.",
+    "Take the [[escalator|escalator]] upstairs to discover how the business grew. News of Amina's designs [[spread|spread]] through customers who invited neighbours to see their newly decorated rooms. Her [[passion|passion]] for drawing flowers helped her win orders, but careful planning kept prices low. A display of bills shows that paper cost more than any other material.",
+    "The final case contains her daughter Mei's notebook. Alongside pages used for [[revision|revision]] before a business examination are drawings of cheaper patterns with fewer colours. Visitors can try printing one of these at the activity table. As you lift the wooden block, notice how a simple design could save money while still bringing beauty into a home."
+  ],
+  "zh": [
+    "沿着花园小径走到磨坊巷博物馆，我们的新展览在这里讲述一家家族墙纸企业的故事。1912年，设计师阿米娜·贝尔向她的一位叔舅辈亲属借了一小笔钱，租下一间作坊。她设计的第一个图案是绿叶间的黄色小鸟。",
+    "第一个展厅呈现了忙碌的工作场景：长桌、一罐罐颜料，还有等待送出的成卷墙纸。工人通常先印浅色，再加上深色。离开前，他们会在分开的更衣室里脱下衣服，换上干净衣物。工作服则留下来清洗。",
+    "乘自动扶梯上楼，了解这门生意如何发展壮大。顾客邀请邻居来欣赏新装饰的房间，阿米娜的设计就这样传开了。她对花卉绘画的热爱帮她赢得了订单，而精打细算则让价格保持低廉。展出的账单显示，纸张的成本比其他任何材料都高。",
+    "最后一个展柜里放着她女儿梅的笔记本。除了为商业考试复习时写下的笔记，里面还有一些成本较低、用色较少的图案。参观者可以在体验桌上尝试印制其中一种。抬起木制印版时，留意一下，一个简单的设计如何既能节省开支，又能为家中增添美感。"
+  ],
+  "q": [
+    {
+      "s": "Amina repaid the money she borrowed within a year.",
+      "a": "NG",
+      "why": "文章未说明她何时还款。"
+    },
+    {
+      "s": "Workers usually printed light colours before darker ones.",
+      "a": "T",
+      "why": "工人通常先印浅色，再加深色。"
+    },
+    {
+      "s": "Another material cost more than paper.",
+      "a": "F",
+      "why": "纸张的成本比其他任何材料都高。"
+    }
+  ]
+}

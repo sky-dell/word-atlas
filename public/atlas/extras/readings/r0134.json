@@ -1,0 +1,46 @@
+{
+  "id": "r0134",
+  "ids": [
+    "uniform",
+    "instruction",
+    "download",
+    "frightened",
+    "surname",
+    "memory",
+    "pillow",
+    "program",
+    "sign",
+    "per"
+  ],
+  "title": "The Quiet Room",
+  "titleZh": "安静的房间",
+  "topic": "health",
+  "cefr": 1,
+  "paras": [
+    "At a small sleep centre, researcher Mina Costa studies how rest helps [[memory|memory]]. She wears a blue [[uniform|uniform]], and her badge shows only her [[surname|surname]], Costa. Her study room looks like a bedroom, with a green chair and a narrow bed. Each visitor gets a clean [[pillow|pillow]]. Mina wants people to feel comfortable because some are [[frightened|frightened]] when they first see the wires beside the bed.",
+    "Before each test, Mina gives one simple [[instruction|instruction]]: remember the six objects on a tray. There is a key, a cup, a shell, a spoon, a toy boat and a stone. Then the visitor rests for twenty minutes. Some visitors sleep; others stay awake. Small pads on their head connect to a computer. A special [[program|program]] records their sleep. Mina can [[download|download]] new versions from the internet, but she always tests them before a visitor arrives.",
+    "Mina sees four visitors [[per|per]] day. After their rest, she asks which objects they remember. Higher scores for those who slept than for those who stayed awake may be a [[sign|sign]] that sleep has helped, but she needs more tests to be sure. One afternoon, a visitor remembers every object. He smiles and says the boat was his favourite. Mina writes down his score, then carefully puts the boat back on the tray."
+  ],
+  "zh": [
+    "在一家小型睡眠中心，研究员米娜·科斯塔研究休息如何帮助记忆。她穿着蓝色制服，胸牌上只写着她的姓氏——科斯塔。她的研究室看起来像一间卧室，里面有一把绿色椅子和一张窄床。每位来访者都会拿到一个干净的枕头。米娜希望大家感到自在，因为有些人第一次看到床边的电线时会害怕。",
+    "每次测试前，米娜都会给出一条简单的指示：记住托盘上的六件物品。托盘里有一把钥匙、一个杯子、一枚贝壳、一把勺子、一艘玩具船和一块石头。然后，来访者休息二十分钟。有些来访者会睡着，另一些则保持清醒。他们头上的小贴片连接着一台电脑。一个专门的计算机程序会记录他们的睡眠情况。米娜可以从网上下载新版本，但她总会在来访者到达之前先进行测试。",
+    "米娜每天接待四位来访者。休息结束后，她会问他们记得哪些物品。如果睡着的人的得分比保持清醒的人高，这可能表明睡眠起到了帮助，但她还需要更多测试才能确定。一天下午，一位来访者记住了所有物品。他笑着说，那艘船是他的最爱。米娜记下他的分数，然后小心地把船放回托盘里。"
+  ],
+  "q": [
+    {
+      "s": "Some visitors feel afraid when they notice the equipment near the bed.",
+      "a": "T",
+      "why": "第一段说有些人初见床边电线时害怕。"
+    },
+    {
+      "s": "Mina can get new versions of the computer program for free.",
+      "a": "NG",
+      "why": "文中说可下载新版本，未说明是否免费。"
+    },
+    {
+      "s": "The visitor who liked the boat best remembered only three objects.",
+      "a": "F",
+      "why": "该来访者记住了全部六件物品，而非三件。"
+    }
+  ]
+}

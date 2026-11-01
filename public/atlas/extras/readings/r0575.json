@@ -1,0 +1,48 @@
+{
+  "id": "r0575",
+  "ids": [
+    "indebted",
+    "din",
+    "telecommunication",
+    "expenditure",
+    "retention",
+    "drudgery",
+    "prosecutor",
+    "regretful",
+    "tenancy",
+    "holding"
+  ],
+  "title": "The Tenant’s Small Book",
+  "titleZh": "租客的小账本",
+  "topic": "society",
+  "cefr": 4,
+  "paras": [
+    "Among the modest documents of nineteenth-century urban life, the rent book carried unusual weight. In industrial towns, where the [[din|din]] of workshops spilled into crowded courtyards, a household’s [[tenancy|tenancy]] might depend on proving that weekly payments had been made. A collector’s dated signature transformed a few paper pages into evidence that a family had met its obligations.",
+    "For owners, each rented dwelling was a [[holding|holding]] expected to produce a reliable income. Their clerks recorded [[expenditure|expenditure]] on repairs alongside receipts, while tenants preserved their own smaller record. Entering identical sums every week was administrative [[drudgery|drudgery]], but the duplication mattered: neither party possessed the only account of what had changed hands. Disagreements could therefore be checked against another document.",
+    "The [[retention|retention]] of these books could become crucial when an owner alleged unpaid rent. A tenant might feel deeply [[indebted|indebted]] to a neighbour who had advised keeping old records. Where falsified entries led to criminal proceedings, a [[prosecutor|prosecutor]] could examine signatures and dates. A [[regretful|regretful]] collector’s admission of error, however, might settle a dispute before it reached that stage.",
+    "During the twentieth century, banking systems and electronic [[telecommunication|telecommunication]] gradually allowed payments to be recorded without a collector’s visit. Yet paper rent books persisted where cash remained customary, and their disappearance was uneven. Their history reveals more than a change in accounting technology: an inexpensive object had given people with little property a portable means of defending their place in the city."
+  ],
+  "zh": [
+    "在十九世纪城市生活中那些不起眼的文件里，租金簿有着非同寻常的分量。在工业城镇，作坊的喧嚣传入拥挤的院落，一家人能否继续租住，可能取决于他们能否证明每周都已缴纳租金。收租人签上姓名和日期，便使薄薄几页纸成为这户人家履行了付款义务的证据。",
+    "对业主而言，每套出租住宅都是一项应当带来稳定收入的资产。他们的文书人员在登记租金收入的同时记录维修支出，而租客则保留自己那本较小的账册。每周填入相同的金额，是单调繁重的文书工作，但这份重复记录十分重要：交易双方都无法独占款项往来的记录。因此，一旦产生分歧，便可用另一份文件加以核对。",
+    "当业主声称租金尚未支付时，保存下来的租金簿可能发挥关键作用。租客也许会由衷感激那位曾劝自己留好旧账簿的邻居。如果伪造记录引发刑事诉讼，公诉人便可查验签名和日期。不过，心怀悔意的收租人若承认错误，也可能使争端在进入这一阶段之前就得到解决。",
+    "二十世纪，银行系统与电子远程通信逐渐使租金入账不再需要收租人登门。然而，在仍习惯使用现金的地方，纸质租金簿继续存在，并未在各地同步消失。它的历史揭示的不只是记账技术的变迁：一件廉价物品，曾让几乎没有财产的人拥有一种可以随身携带的凭据，用来捍卫自己在城市中的栖身之所。"
+  ],
+  "q": [
+    {
+      "s": "Tenants received their rent books free of charge.",
+      "a": "NG",
+      "why": "文章未说明租客获取租金簿是否付费。"
+    },
+    {
+      "s": "Keeping separate payment records allowed landlords’ accounts to be checked against tenants’ records.",
+      "a": "T",
+      "why": "第二段说明双方记录可相互核对。"
+    },
+    {
+      "s": "Electronic payment recording brought paper rent books to an immediate end everywhere.",
+      "a": "F",
+      "why": "末段指出现金常用地区仍保留纸质簿。"
+    }
+  ]
+}

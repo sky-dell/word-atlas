@@ -1,0 +1,48 @@
+{
+  "id": "r0206",
+  "ids": [
+    "wheelchair",
+    "junction",
+    "campaign",
+    "bitter",
+    "overnight",
+    "universe",
+    "background",
+    "direct",
+    "shore",
+    "rescue"
+  ],
+  "title": "A Darker Shore",
+  "titleZh": "让湖岸暗下来",
+  "topic": "environment",
+  "cefr": 2,
+  "paras": [
+    "Lake researcher Amira Das works from a small wooden hut beside Lake Sela. Her [[background|background]] is in insect science, but her latest project concerns light. Amira uses a [[wheelchair|wheelchair]], and a smooth path gives her [[direct|direct]] access to the water. Each evening, she carries a notebook and a flask of [[bitter|bitter]] coffee down to the lake.",
+    "At a road [[junction|junction]] near the [[shore|shore]], three bright lamps shine across the water. Amira noticed that flying insects gathered around them instead of moving towards the lake. Some fell into puddles below. She began to [[rescue|rescue]] these insects with a small brush, but she knew this would not solve the problem.",
+    "For six weeks, Amira left simple insect cameras outside [[overnight|overnight]]. She compared pictures taken with the lamps on and off, with permission from the road owner. On dark nights, more insects reached the water, where fish could feed on them. Her results became the centre of a [[campaign|campaign]] to change the lamps, supported by nearby shop owners.",
+    "The new lamps point downwards and switch off after midnight. Now Amira can study insects without a bright orange sky above her. She sometimes stays late to watch the stars. Her work concerns tiny creatures, yet the darker sky also helps visitors enjoy a clearer view of the [[universe|universe]]."
+  ],
+  "zh": [
+    "湖泊研究员阿米拉·达斯在塞拉湖边的一间小木屋里工作。她有昆虫科学方面的专业背景，但她最近的项目与光有关。阿米拉使用轮椅，一条平坦的小路让她可以直接到达水边。每天傍晚，她都带着笔记本和一保温瓶苦咖啡来到湖边。",
+    "在靠近湖岸的一个道路交叉口，三盏明亮的灯照向水面。阿米拉注意到，飞虫聚集在灯的周围，而不是飞向湖面。有些掉进了下面的水坑里。她开始用一把小刷子救起这些昆虫，但她知道这样无法解决问题。",
+    "连续六周，阿米拉都把简易的昆虫观察相机放在室外过夜。征得道路所有者的同意后，她对比了开灯和关灯时拍下的照片。在黑暗的夜晚，有更多昆虫到达水面，鱼可以在那里捕食它们。她的研究结果成为更换路灯宣传活动的核心依据，这项活动得到了附近店主的支持。",
+    "新灯朝下照明，午夜后就会关闭。如今，阿米拉研究昆虫时，头顶不再是一片明亮的橙色天空。她有时会待到很晚，看看星星。她的工作关注的是微小的生物，但变暗的天空也让游客能够更清楚地欣赏宇宙。"
+  ],
+  "q": [
+    {
+      "s": "Amira has experience in studying insects.",
+      "a": "T",
+      "why": "第一段说明她有昆虫科学背景。"
+    },
+    {
+      "s": "The shop owners paid for Amira's insect cameras.",
+      "a": "NG",
+      "why": "只说店主支持活动，未说明谁支付相机费用。"
+    },
+    {
+      "s": "The new lamps stay on all night.",
+      "a": "F",
+      "why": "末段明确说新灯在午夜后关闭。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0030",
+  "ids": [
+    "add",
+    "fact",
+    "nice",
+    "flower",
+    "cloudy",
+    "important",
+    "house",
+    "lady",
+    "piano",
+    "market"
+  ],
+  "title": "Exercise Behind the Flower Market",
+  "titleZh": "花市后面的健身活动",
+  "topic": "sport",
+  "cefr": 0,
+  "paras": [
+    "A small exercise group is growing behind the [[flower|flower]] [[market|market]] in Bell Lane. People do not go there to run fast or lift heavy things. They move to music from a [[piano|piano]]. Six people came in May. Now thirty people come every Saturday. This [[fact|fact]] surprises Mina, the woman who started the group. There is no special sports room here.",
+    "The group meets outside Mina's [[house|house]], next to the shops. Her friend Omar plays music by an open window. A [[lady|lady]] called Rosa shows everyone what to do. They lift their arms, turn slowly, and take small steps. Each week, they [[add|add]] one new move. Rosa says slow music is [[important|important]] because everyone can follow it. Some people wear work clothes. They join for ten minutes before opening their shops.",
+    "Last Saturday was [[cloudy|cloudy]], but the group still came. After the music stopped, they had tea together. 'It is a [[nice|nice]] way to start work,' said Omar. The group costs nothing, and people can leave at any time. Mina now puts extra cups by her door. After tea, Rosa helps her carry the cups back into the house."
+  ],
+  "zh": [
+    "贝尔巷花市后面的一个小健身小组，参加的人越来越多。大家去那里不是为了快跑或举重物，而是跟着钢琴音乐活动身体。五月时来了六个人，现在每周六都有三十个人来。这个事实让小组的发起人米娜很惊讶。这里并没有专门的健身房。",
+    "大家在米娜家外面集合，旁边就是商店。她的朋友奥马尔在一扇开着的窗户旁弹琴。一位叫罗莎的女士给大家示范动作。他们抬起手臂，慢慢转身，迈小步。每周，他们都增加一个新动作。罗莎说，节奏慢的音乐很重要，因为每个人都能跟得上。有些人穿着工作服，在开店前来活动十分钟。",
+    "上周六是阴天，但大家还是来了。音乐停下后，他们一起喝茶。奥马尔说：“这样开始一天的工作很愉快。”参加小组不用花钱，大家随时可以离开。现在，米娜会在门边多放一些杯子。喝完茶后，罗莎帮她把杯子拿回屋里。"
+  ],
+  "q": [
+    {
+      "s": "Mina started the group in May.",
+      "a": "NG",
+      "why": "只说五月有六人参加，未说明成立月份。"
+    },
+    {
+      "s": "People must change into sports clothes to join.",
+      "a": "F",
+      "why": "文中说有些人穿着工作服参加。"
+    },
+    {
+      "s": "People can join the group for free.",
+      "a": "T",
+      "why": "文中明确说参加小组不用花钱。"
+    }
+  ]
+}

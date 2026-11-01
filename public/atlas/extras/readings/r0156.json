@@ -1,0 +1,46 @@
+{
+  "id": "r0156",
+  "ids": [
+    "serve",
+    "neighbour",
+    "click",
+    "jog",
+    "least",
+    "microwave",
+    "butterfly",
+    "canadian",
+    "congratulations",
+    "reach"
+  ],
+  "title": "The Butterfly Breakfast Cart",
+  "titleZh": "蝴蝶早餐车",
+  "topic": "work",
+  "cefr": 1,
+  "paras": [
+    "In 1988, a [[canadian|Canadian]] baker named Mira began selling breakfast from a wooden cart near a shoe factory. She painted a yellow [[butterfly|butterfly]] on its side so workers could find her easily. Each morning, she left home at five to [[reach|reach]] the factory before the doors opened. She could [[serve|serve]] twenty people before her large pot of coffee was empty.",
+    "At first, Mira sold only bread and hot drinks. A [[neighbour|neighbour]] made a cloth cover to keep the bread warm. Workers with the [[least|least]] time liked her breakfast bags: they could pay, take a bag, and leave quickly. In 1996, Mira moved into a tiny shop beside the factory. She bought a [[microwave|microwave]] to heat bowls of soup for lunch. On opening day, customers brought flowers and offered their [[congratulations|congratulations]].",
+    "Years later, Mira's son Tomas added a simple website. Customers could [[click|click]] on a picture to order breakfast for the next morning. People who liked to [[jog|jog]] along the nearby river also began stopping for a drink. The factory eventually closed, but the shop stayed open. Tomas kept the old cart by the door. Its yellow wings reminded customers how one small breakfast business had begun."
+  ],
+  "zh": [
+    "1988年，一位名叫米拉的加拿大面包师开始在一家鞋厂附近，用木制小推车卖早餐。她在车身一侧画了一只黄色蝴蝶，方便工人们找到她。每天早上，她五点就离开家，要在工厂开门前赶到。她的一大壶咖啡可以供应二十位客人。",
+    "起初，米拉只卖面包和热饮。一位邻居做了一块布罩，帮她给面包保温。时间最紧的工人喜欢她的袋装早餐：付了钱，拿上一袋就能很快离开。1996年，米拉搬进了工厂旁边的一间小店。她买了一台微波炉，午餐时用来加热一碗碗汤。开业那天，顾客们带来鲜花，向她表示祝贺。",
+    "多年后，米拉的儿子托马斯建了一个简单的网站。顾客点击图片，就能预订第二天的早餐。喜欢沿着附近河边慢跑的人，也开始停下来买杯饮料。后来工厂关闭了，但小店依然营业。托马斯把旧推车留在门边。车上那对黄色的翅膀，让顾客们想起这家小小早餐店最初的模样。"
+  ],
+  "q": [
+    {
+      "s": "Mira made the wooden cart herself.",
+      "a": "NG",
+      "why": "文章未说明木推车是谁制作的。"
+    },
+    {
+      "s": "Mira sold soup when she first started her breakfast business.",
+      "a": "F",
+      "why": "起初她只卖面包和热饮，不卖汤。"
+    },
+    {
+      "s": "Customers could use the website to order breakfast for the next morning.",
+      "a": "T",
+      "why": "顾客可点击网站图片预订第二天的早餐。"
+    }
+  ]
+}

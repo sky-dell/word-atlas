@@ -1,0 +1,48 @@
+{
+  "id": "r0048",
+  "ids": [
+    "place",
+    "dress",
+    "mouse",
+    "car",
+    "breakfast",
+    "spell",
+    "catch",
+    "love",
+    "four",
+    "show"
+  ],
+  "title": "The Little Mouse in the Window",
+  "titleZh": "橱窗里的小老鼠",
+  "topic": "city",
+  "cefr": 0,
+  "paras": [
+    "In 1925, a small shop opened on Bell Street. It was a [[place|place]] to buy clothes for children. The owner, Mina, made each [[dress|dress]] by hand. She worked at a table near the window. Every morning, she ate [[breakfast|breakfast]] in the back room. Then she opened the shop at nine.",
+    "One day, Mina saw a [[mouse|mouse]] under her table. She tried to [[catch|catch]] it in a box, but it ran outside. That evening, she made a little cloth animal with a long tail. She put it in the window, next to a red coat. Children stopped to look at it.",
+    "Soon, Mina made [[four|four]] small coats for the cloth animal. On Mondays, it wore a blue one. On other days, she changed its clothes. Children [[love|loved]] this little window friend. Mina called it Pip. She put its name on a card. Young children used the card to learn to [[spell|spell]] its name.",
+    "In 1955, Mina's son took over the shop. He added a small wooden [[car|car]] to the window, with Pip inside. Years later, the shop closed. But this was not the end of Pip's story. The family gave the animal and its clothes to the town museum. Today, workers [[show|show]] them to visitors. A photo beside them helps people find the old shop on Bell Street."
+  ],
+  "zh": [
+    "1925年，贝尔街上开了一家小店。这是一个买童装的地方。店主米娜亲手制作每一条连衣裙。她在靠窗的一张桌子旁工作。每天早上，她在后面的房间里吃早饭，然后九点开门营业。",
+    "一天，米娜看见桌子底下有一只老鼠。她想用盒子抓住它，但它跑到外面去了。那天晚上，她做了一只长尾巴的布艺小动物。她把它放在橱窗里，旁边是一件红色外套。孩子们停下来看它。",
+    "不久，米娜给这只布艺小动物做了四件小外套。每逢星期一，它就穿蓝色的那件。其他日子，她会给它换衣服。孩子们很喜欢这位橱窗里的小朋友。米娜叫它皮普。她把它的名字写在一张卡片上。小孩子们用这张卡片学习拼写它的名字。",
+    "1955年，米娜的儿子接管了小店。他在橱窗里添了一辆小木头汽车，让皮普坐在里面。多年后，小店关门了。但皮普的故事并没有结束。这家人把这只布艺小动物和它的衣服送给了镇上的博物馆。如今，工作人员把它们展示给参观者看。旁边的一张照片帮助人们找到贝尔街上那家老店的位置。"
+  ],
+  "q": [
+    {
+      "s": "Mina ate bread for breakfast.",
+      "a": "NG",
+      "why": "文中只说她吃早饭，未说明吃什么。"
+    },
+    {
+      "s": "Mina caught the mouse in a box.",
+      "a": "F",
+      "why": "米娜想抓住老鼠，但它跑到外面了。"
+    },
+    {
+      "s": "Mina made four small coats for the cloth animal.",
+      "a": "T",
+      "why": "文中明确说她给布艺小动物做了四件外套。"
+    }
+  ]
+}

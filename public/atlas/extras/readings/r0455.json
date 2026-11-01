@@ -1,0 +1,48 @@
+{
+  "id": "r0455",
+  "ids": [
+    "milestone",
+    "approximate",
+    "truly",
+    "assign",
+    "barn",
+    "vapour",
+    "reject",
+    "worship",
+    "superstition",
+    "evaluation"
+  ],
+  "title": "The Science Beneath the Bread Crust",
+  "titleZh": "面包外壳下的科学",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "Before sunrise, baker Leila opens the doors of a converted [[barn|barn]] and checks three bowls of dough. For her small bakery, producing a consistently crisp loaf was a [[milestone|milestone]]. Yet the breakthrough came not from an expensive oven, but from understanding what happens when water meets hot air.",
+    "A dial gives the oven's [[approximate|approximate]] temperature, but heat alone does not determine the crust. During the first minutes of baking, water [[vapour|vapour]] settles on the cooler dough, keeping its surface flexible while the loaf expands. Later, dry heat helps the outside become brown and crisp. Leila [[assign|assigns]] one assistant the task of recording when steam enters and leaves the oven.",
+    "Bread also carries meanings beyond chemistry. In some religious traditions, it forms part of [[worship|worship]]; elsewhere, household customs include handling a loaf in a particular way to prevent bad luck. Leila respects the former but treats the latter as [[superstition|superstition]] when no evidence supports the claimed effect. She does not automatically [[reject|reject]] old baking advice, however: a practical rule may work even if its original explanation was mistaken.",
+    "To discover which methods [[truly|truly]] improve her bread, she compares loaves made from the same dough under different steam conditions. Her [[evaluation|evaluation]] includes crust colour, loaf height and the sound of the first slice. Customers taste samples without knowing how they were baked. By breakfast, a familiar daily food has become a small experiment—one whose results can be eaten."
+  ],
+  "zh": [
+    "日出前，面包师莱拉打开一座由谷仓改建而成的烘焙坊，检查三盆面团。对她的小店来说，能够稳定地烤出外壳酥脆的面包，是一个重要的里程碑。然而，这一突破并非来自昂贵的烤箱，而是来自对水遇到热空气时所发生变化的理解。",
+    "仪表盘显示烤箱的大致温度，但决定面包外壳的并不只有热量。烘烤开始后的几分钟里，水蒸气在较凉的面团表面凝结，使表面在面包膨胀时保持柔韧。随后，干热使外层变得焦黄酥脆。莱拉安排一名助手，专门记录蒸气进入和排出烤箱的时间。",
+    "面包还承载着化学之外的意义。在一些宗教传统中，面包是礼拜仪式的一部分；而在其他地方，家庭习俗包括用某种特定方式处理面包，以避免厄运。莱拉尊重前者，但如果没有证据支持后者声称的效果，她就会将其视为迷信。不过，她不会一概拒绝传统的烘焙建议：即使最初的解释有误，一条实用的经验法则仍可能有效。",
+    "为了找出哪些方法真正改善了面包品质，她使用相同的面团，在不同蒸气条件下烤制面包并进行比较。她的评估包括外壳颜色、面包高度，以及切下第一片时的声音。顾客在不知道烘焙方式的情况下品尝样品。到了早餐时间，一种熟悉的日常食物已经变成了一场小实验——而它的实验成果还可以吃下去。"
+  ],
+  "q": [
+    {
+      "s": "Leila bought a new oven when she opened her bakery.",
+      "a": "NG",
+      "why": "文中未说明开店时是否购买新烤箱。"
+    },
+    {
+      "s": "Leila gives an assistant responsibility for recording when steam enters and leaves the oven.",
+      "a": "T",
+      "why": "第二段明确说她指派助手记录蒸气进出时间。"
+    },
+    {
+      "s": "Customers know how the samples were baked when they taste them.",
+      "a": "F",
+      "why": "末段明确说顾客品尝时不知道烘焙方式。"
+    }
+  ]
+}

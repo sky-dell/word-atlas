@@ -1,0 +1,48 @@
+{
+  "id": "r0653",
+  "ids": [
+    "animate",
+    "tentative",
+    "chronological",
+    "probe",
+    "nuance",
+    "smuggling",
+    "proportional",
+    "statesman",
+    "enact",
+    "bi"
+  ],
+  "title": "The Cabinet of Uncertain Conclusions",
+  "titleZh": "尚无定论的档案柜",
+  "topic": "thinking",
+  "cefr": 4,
+  "paras": [
+    "Mara was editing an archive catalogue when she encountered accusations of [[smuggling|smuggling]] against the [[statesman|statesman]] Adrian Vale. Gaps in an 1886 customs ledger had prompted the allegations. Her assignment was to [[probe|probe]] the evidence, not to defend Vale's reputation. She began with invoices, harbour sketches and letters found inside a writing desk.",
+    "She arranged the documents in [[chronological|chronological]] order, marking each [[tentative|tentative]] interpretation in blue. On her chart, column heights were directly [[proportional|proportional]] to recorded cargo weights. The apparent decline in trade was striking, but missing figures could not safely be treated as zero. She left those spaces blank rather than invent measurements.",
+    "Reading aloud helped [[animate|animate]] the correspondence, although any hesitation in her voice was an interpretation, not historical evidence. One letter urged parliament to [[enact|enact]] stricter inspection rules; another criticised the way existing checks were administered. Mara wanted to preserve that [[nuance|nuance]]. A colleague suggested describing Vale as [[bi|bi]], citing romantic letters addressed to men and women. She retained the suggestion as a tentative interpretation, noting that Vale had not used the term himself.",
+    "A repair bill finally established that the harbour scales had been unusable for six weeks. A separate register supplied weights for several shipments missing from the ledger during that period. Together, these records weakened the accusation without resolving every allegation. Mara's revised catalogue entry cited both documents and left the remaining gaps unexplained."
+  ],
+  "zh": [
+    "玛拉在编辑一份档案目录时，看到了指控资深政治家阿德里安·韦尔走私的材料。一本1886年的海关账簿中的缺漏引发了这些指控。她的任务是深入核查证据，而不是维护韦尔的名誉。她从发票、港口草图和一张书桌内发现的信件入手。",
+    "她按时间顺序整理文献，用蓝色标出每项暂定解释。在她的图表上，柱形的高度与记录的货物重量成正比。贸易量表面上的下降十分显著，但不能贸然把缺失的数字当作零。她将这些位置留空，而没有编造测量值。",
+    "朗读有助于让信件变得生动，不过，她声音中的任何犹疑都属于演绎，而非历史证据。一封信敦促议会通过更严格的查验规定；另一封则批评现有检查的执行方式。玛拉想保留这一细微区别。一位同事援引写给男性和女性的情书，建议将韦尔描述为双性恋者。她将这一建议保留为暂定解释，并注明韦尔本人未曾使用这个词。",
+    "一张维修账单最终证实，港口的秤曾有六周无法使用。另一本登记簿提供了这段时间内账簿漏记的几批货物的重量。两份记录结合起来削弱了指控的依据，却没有解决所有指控。玛拉修订后的目录条目引用了这两份文献，其余缺漏则仍未得到解释。"
+  ],
+  "q": [
+    {
+      "s": "Mara had previously catalogued Vale's private papers.",
+      "a": "NG",
+      "why": "文中未说明她此前是否整理过韦尔的私人文献。"
+    },
+    {
+      "s": "Mara left missing measurements blank on her chart.",
+      "a": "T",
+      "why": "她将缺失数据的位置留空，没有编造数值。"
+    },
+    {
+      "s": "The newly located records resolved every allegation against Vale.",
+      "a": "F",
+      "why": "末段明确说记录未能解决所有指控。"
+    }
+  ]
+}

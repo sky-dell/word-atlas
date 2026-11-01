@@ -1,0 +1,46 @@
+{
+  "id": "r0070",
+  "ids": [
+    "as",
+    "run",
+    "light",
+    "look",
+    "first",
+    "expensive",
+    "language",
+    "busy",
+    "write",
+    "spanish"
+  ],
+  "title": "Morning Notes from the Sand",
+  "titleZh": "沙地上的清晨笔记",
+  "topic": "media",
+  "cefr": 0,
+  "paras": [
+    "Monday, six in the morning. I am at the beach with Ines. I work [[as|as]] a writer for a small nature paper. Today we are here to watch little birds on the sand. The [[first|first]] bird comes out from behind a stone. In the soft morning [[light|light]], its legs are pink. We sit down and [[look|look]] at it.",
+    "The beach is quiet, but the birds are [[busy|busy]]. They find small things to eat near the water. I count the birds and [[write|write]] the number in my book. Ines draws their feet and long beaks. We do not need an [[expensive|expensive]] camera. A boy starts to [[run|run]] towards the birds. We ask him to walk slowly. He stops beside us, and the birds stay.",
+    "At eight, we have a page of notes and three pictures. Our paper uses simple [[language|language]], so young children can read it too. Ines adds a few lines in [[spanish|Spanish]] for some of our readers. The boy asks to see her drawings. Then he points to the sand. There are tiny bird marks beside his big shoe marks. Ines draws those too. Now our page is ready."
+  ],
+  "zh": [
+    "星期一，早上六点。我和伊内斯在海滩上。我是一份小型自然报的撰稿人。今天我们来这里观察沙地上的小鸟。第一只鸟从一块石头后面走出来。在柔和的晨光中，它的腿是粉红色的。我们坐下来，看着它。",
+    "海滩很安静，但鸟儿们很忙。它们在水边寻找小东西吃。我数了数鸟儿，并在本子上记下数量。伊内斯画下它们的脚和长长的喙。我们不需要昂贵的相机。一个男孩开始向鸟儿们跑去。我们请他慢慢走。他停在我们旁边，鸟儿们也没有离开。",
+    "八点时，我们有了一页笔记和三幅画。我们的报纸使用简单的语言，小孩子也能读懂。伊内斯为我们的一些读者加了几行西班牙语。男孩想看看她的画。随后，他指向沙地。在他的大鞋印旁边，有小小的鸟爪印。伊内斯也把这些画了下来。现在，我们的这一页内容准备好了。"
+  ],
+  "q": [
+    {
+      "s": "The writer is at home at six on Monday morning.",
+      "a": "F",
+      "why": "星期一早上六点，作者在海滩上。"
+    },
+    {
+      "s": "The writer uses a blue pen to write in the book.",
+      "a": "NG",
+      "why": "文中未说明记录时用的笔或颜色。"
+    },
+    {
+      "s": "Ines adds some Spanish to the page.",
+      "a": "T",
+      "why": "伊内斯在这一页加了几行西班牙语。"
+    }
+  ]
+}

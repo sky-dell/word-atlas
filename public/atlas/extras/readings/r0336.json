@@ -1,0 +1,48 @@
+{
+  "id": "r0336",
+  "ids": [
+    "forbid",
+    "superior",
+    "astonishment",
+    "leak",
+    "modification",
+    "auction",
+    "blade",
+    "stubborn",
+    "armour",
+    "buck"
+  ],
+  "title": "Opening a Small Metal Fortress",
+  "titleZh": "打开一座小小的金属堡垒",
+  "topic": "economy",
+  "cefr": 3,
+  "paras": [
+    "When canned food entered the market in the early nineteenth century, buying it was easier than opening it. Early containers were made from thick metal, offering protection rather like a soldier’s [[armour|armour]]. A hammer and chisel might be needed to reach the meat inside. Any [[leak|leak]], however, could allow the contents to spoil, turning an expensive purchase into waste.",
+    "As production expanded, thinner cans reduced costs but created a demand for suitable opening tools. A cautious kitchen manager might [[forbid|forbid]] workers to attack them with ordinary knives, which could slip. By the 1850s, specialist openers were appearing. Some had a pointed [[blade|blade]] that pierced the lid and then cut around its edge through repeated movements.",
+    "The important [[modification|modification]] came with designs using a cutting wheel. Later versions added a second wheel to grip the rim, producing a [[superior|superior]] tool that required less effort. Yet a [[stubborn|stubborn]] cook might still prefer a familiar knife. For someone accustomed to fighting every lid, the smooth progress of a well-designed opener could inspire genuine [[astonishment|astonishment]]. Convenience had become something manufacturers could sell.",
+    "Today, an old opener may appear at an [[auction|auction]] beside other kitchen equipment. A collector might joke that it once cost only a [[buck|buck]], although its value now depends on age, condition and rarity. Such humble objects record a significant commercial change: preserved food became truly convenient only when opening the package stopped being a separate job."
+  ],
+  "zh": [
+    "十九世纪初，罐头食品进入市场时，购买比打开容易。早期的罐头容器用厚金属制成，提供的保护颇像士兵的盔甲。要吃到里面的肉，人们可能得动用锤子和凿子。然而，任何漏处都可能导致内容物变质，让一笔昂贵的购买变成浪费。",
+    "随着生产规模扩大，更薄的罐头降低了成本，却也带来了对合适开罐工具的需求。谨慎的厨房主管可能会禁止工人用普通刀具猛撬罐头，因为刀具可能打滑。到十九世纪五十年代，专门的开罐器开始出现。有些配有尖头刀片，可以刺穿罐盖，再通过反复操作沿着边缘切开。",
+    "重要的改进来自采用切割轮的设计。后来的版本增加了第二个轮子，用来夹住罐沿，使工具性能更好，也更加省力。不过，固执的厨师可能仍然偏爱用惯了的刀。对于习惯了与每个罐盖较劲的人来说，设计精良的开罐器能顺畅地工作，确实可能令人惊讶。便利已经成为制造商可以出售的东西。",
+    "如今，旧开罐器可能会与其他厨房用具一起出现在拍卖会上。收藏者或许会开玩笑说，它当年只值一美元，不过现在的价值取决于年代、保存状况和稀有程度。这些不起眼的物件记录了一项重要的商业变化：只有当打开包装不再是一项单独的工作时，罐头食品才真正变得方便。"
+  ],
+  "q": [
+    {
+      "s": "Early canned meat was more expensive than fresh meat.",
+      "a": "NG",
+      "why": "首段称罐头昂贵，但未与鲜肉比较价格。"
+    },
+    {
+      "s": "Adding a second wheel made the opener require more effort to use.",
+      "a": "F",
+      "why": "第三段明确说增加第二个轮子后更省力。"
+    },
+    {
+      "s": "The condition of an old opener is one factor affecting its value today.",
+      "a": "T",
+      "why": "末段明确将保存状况列为价值影响因素。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0661",
+  "ids": [
+    "parameter",
+    "macroeconomics",
+    "inconsistency",
+    "articulate",
+    "freight",
+    "engulf",
+    "starvation",
+    "civic",
+    "sampling",
+    "ascend"
+  ],
+  "title": "The Grain Behind the Numbers",
+  "titleZh": "数字背后的粮食",
+  "topic": "history",
+  "cefr": 4,
+  "paras": [
+    "In the fictional port of Veyra, historian Leila Sen studies a winter remembered chiefly for empty bread stalls. An [[articulate|articulate]] researcher trained in [[macroeconomics|macroeconomics]], she initially expected national harvest figures to explain the crisis. Yet inside the [[civic|civic]] archive, a warehouse register revealed an [[inconsistency|inconsistency]]: grain deliveries had increased precisely when accounts of [[starvation|starvation]] became most frequent.",
+    "Rather than dismiss either source, Sen reconstructed the movement of [[freight|freight]] between the harbour and six inland warehouses. Her principal [[parameter|parameter]] was the number of days separating a shipment's arrival from its release for sale. Through systematic [[sampling|sampling]] of receipts, selecting every tenth entry, she discovered that this interval had lengthened from four days to nineteen during the coldest month.",
+    "The explanation emerged from a faded engineering notebook. When storm water threatened to [[engulf|engulf]] the lower storehouses, merchants moved their grain uphill. Loaded carts had to [[ascend|ascend]] a steep lane where only one vehicle could pass at a time. Although the port possessed ample supplies, its distribution network could not deliver them quickly enough; aggregate figures had concealed a devastating local bottleneck.",
+    "Sen turned her findings into a tabletop reconstruction, using wooden carts and brass tokens to represent grain. Visitors could widen the lane or stagger departures, then observe how waiting times changed. She resisted presenting the model as a complete explanation of the winter's suffering. Its achievement was narrower but important: it restored a neglected street to a history previously told almost entirely through prices and harvest totals."
+  ],
+  "zh": [
+    "在虚构的港口城市韦拉，历史学者莱拉·森正在研究一个冬天，人们对它的记忆主要是空空如也的面包摊。这位表达清晰、受过宏观经济学训练的研究者，起初以为全国收成数据足以解释这场危机。然而，在市政档案馆里，一本仓库登记簿揭示了一处矛盾：有关严重饥饿的记载最为密集之时，粮食到货量却恰恰增加了。",
+    "森没有否定任何一方的资料，而是重建了港口与六座内陆仓库之间的货物流转情况。她采用的主要参数，是每批货物抵达后到投放市场销售之间的天数。她对收据进行系统抽样，每十条选取一条，结果发现，在最寒冷的那个月，这一间隔从四天延长到了十九天。",
+    "一本字迹褪色的工程笔记揭示了原因。当暴雨积水可能淹没地势较低的仓库时，商人们便把粮食搬到了高处。满载货物的货车必须沿一条陡峭的小巷上坡，而那里一次只能容纳一辆车通过。尽管港口储粮充足，其配送网络却无法及时把粮食送达；汇总数据掩盖了一个后果严重的局部瓶颈。",
+    "森将研究成果制作成桌面复原模型，用木制货车和黄铜筹码代表车辆与粮食。参观者可以拓宽小巷，或错开发车时间，再观察等候时长如何变化。她没有把这个模型说成对那个冬天所有苦难的完整解释。它的贡献更为有限，却十分重要：在一段过去几乎完全由物价和收成总量讲述的历史中，它让一条被忽视的街道重新获得了位置。"
+  ],
+  "q": [
+    {
+      "s": "Sen first thought that nationwide agricultural statistics would account for Veyra's food crisis.",
+      "a": "T",
+      "why": "首段说她起初期待全国收成数据解释危机。"
+    },
+    {
+      "s": "Sen's investigation showed that grain reached the market more rapidly during the coldest month.",
+      "a": "F",
+      "why": "第二段说等待时间从四天增至十九天。"
+    },
+    {
+      "s": "Sen received funding from a maritime museum to construct her tabletop model.",
+      "a": "NG",
+      "why": "末段介绍了模型，但未提及资金来源。"
+    }
+  ]
+}

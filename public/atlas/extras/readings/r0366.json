@@ -1,0 +1,48 @@
+{
+  "id": "r0366",
+  "ids": [
+    "entirely",
+    "parade",
+    "beneficial",
+    "classic",
+    "snore",
+    "digest",
+    "motto",
+    "endure",
+    "dam",
+    "sake"
+  ],
+  "title": "A Pause Before the Parade",
+  "titleZh": "游行前的片刻休息",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "In a village beside a river [[dam|dam]], an annual lantern [[parade|parade]] brings neighbours together. However, preparing the lanterns often leaves volunteers exhausted. For the [[sake|sake]] of these helpers, community organiser Leila Chen tested whether a short afternoon rest could improve both their work and their experience.",
+    "Thirty adults attended two Saturday workshops, making paper lanterns to recordings of [[classic|classic]] jazz albums. On the first Saturday, they returned to work immediately after lunch. On the second, they spent twenty minutes resting in chairs before continuing. Leila kept the lunch, music and tasks the same. Her [[motto|motto]] was simple: “Change one thing, then look carefully.”",
+    "The rest period was not [[entirely|entirely]] silent: one participant began to [[snore|snore]], while several others whispered. Nevertheless, fewer volunteers reported having to [[endure|endure]] heavy eyelids during the later session. They also produced eighteen per cent fewer lanterns with loose joints. Some believed that sitting quietly had helped them [[digest|digest]] their meal, although the experiment included no medical measurements to establish this.",
+    "The findings suggested that a pause could be [[beneficial|beneficial]], but Leila recognised a weakness: everyone had already practised the task the previous week. Better results might therefore reflect experience rather than rest alone. She planned another trial with two separate groups. Meanwhile, the volunteers requested that the chairs remain available. Whatever explained the stronger lanterns, a less tiring afternoon had made them more willing to help again."
+  ],
+  "zh": [
+    "在一座河坝旁的村庄里，一年一度的灯笼游行让邻里相聚。然而，制作灯笼常常让志愿者疲惫不堪。为了让这些帮手轻松一些，社区活动组织者莉拉·陈做了一项试验，看看下午短暂休息能否同时改善他们的工作表现和参与体验。",
+    "三十名成年人参加了连续两个星期六的手工活动，一边听经典爵士专辑的录音，一边制作纸灯笼。第一个星期六，他们午饭后立即继续工作。第二次，他们先坐在椅子上休息二十分钟，然后再继续。莉拉让两次活动的午餐、音乐和任务保持一致。她的格言很简单：“只改变一件事，然后仔细观察。”",
+    "休息期间并非一片寂静：一名参与者开始打鼾，另有几个人在低声交谈。尽管如此，在随后的工作时段，表示自己不得不强忍困意的志愿者减少了。他们制作的灯笼中，连接处松动的数量也减少了百分之十八。一些人认为，安静地坐着帮助他们消化了午餐，不过试验没有进行医学测量来证实这一点。",
+    "结果表明，暂停片刻可能有益，但莉拉也意识到一个不足：所有人都在前一周练习过这项任务。因此，表现改善可能源于经验，而不只是休息。她计划另设两个小组，再做一次试验。与此同时，志愿者要求继续提供这些椅子。不论灯笼变得更牢固的原因是什么，一个不那么累的下午让他们更愿意再次来帮忙。"
+  ],
+  "q": [
+    {
+      "s": "All thirty adults had made paper lanterns before the first workshop.",
+      "a": "NG",
+      "why": "文章未说明首次活动前是否有制作经验。"
+    },
+    {
+      "s": "Medical tests confirmed that the break improved the volunteers’ digestion.",
+      "a": "F",
+      "why": "第三段明确说未进行医学测量来证实。"
+    },
+    {
+      "s": "Leila planned to use two separate groups in another trial.",
+      "a": "T",
+      "why": "末段明确提出用两个独立小组再做试验。"
+    }
+  ]
+}

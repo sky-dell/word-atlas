@@ -1,0 +1,46 @@
+{
+  "id": "r0162",
+  "ids": [
+    "traffic",
+    "toward",
+    "planet",
+    "traditional",
+    "software",
+    "shall",
+    "basket",
+    "thief",
+    "web",
+    "employee"
+  ],
+  "title": "Shopping for a View of Stars",
+  "titleZh": "逛商店，也看星星",
+  "topic": "city",
+  "cefr": 1,
+  "paras": [
+    "In Bell Lane, a busy shopping street, more people are visiting shops after dark. They are not coming to buy things. They want to see the stars from shop roofs. Below them, the [[traffic|traffic]] moves slowly past bright windows. Above, visitors turn their eyes [[toward|toward]] the sky. Six shops now offer these free evenings, although only one offered them last winter.",
+    "The idea began at a [[traditional|traditional]] hat shop. One quiet evening, an [[employee|employee]] named Mina asked the owner, “[[shall|Shall]] we invite people onto the roof?” Now, every Friday, Mina puts warm blankets in a large [[basket|basket]] beside the roof door. Visitors use a small telescope to look at Saturn, a [[planet|planet]] famous for its rings. Simple [[software|software]] on the shop computer helps Mina find it.",
+    "At first, the owner worried that a [[thief|thief]] might enter while everyone was upstairs. However, visitors always stay with a guide, and the shop floor stays locked. Mina shares the evening times on the [[web|web]], and places fill quickly. Some visitors return to buy hats, but many just come for the view. The owner is happy: his little shop is now a place where neighbours meet, not just a place to spend money."
+  ],
+  "zh": [
+    "贝尔巷是一条热闹的购物街，越来越多的人在天黑后到这里的商店来。他们不是来买东西的，而是想在商店屋顶上看星星。在他们下方，车辆缓缓驶过明亮的橱窗；在屋顶上，来访者抬眼望向天空。现在有六家商店提供这种免费的夜间活动，而去年冬天只有一家。",
+    "这个主意最初来自一家传统帽子店。一个安静的晚上，名叫米娜的店员问店主：“我们邀请大家到屋顶上来，好吗？”现在，每到星期五，米娜都会把保暖的毯子放进屋顶门旁的一个大篮子里。来访者用一架小型望远镜观察土星，这颗行星以它的环而闻名。店里电脑上的简单软件帮助米娜找到它。",
+    "起初，店主担心大家都在楼上时，会有小偷进来。不过，来访者始终有向导陪同，楼下店面也一直锁着。米娜在网上公布活动时间，名额很快就满了。有些来访者会回来买帽子，但很多人只是来看夜空。店主很高兴：他的小店如今成了邻居们见面的地方，而不只是花钱购物的地方。"
+  ],
+  "q": [
+    {
+      "s": "The six shops offering free evenings have the same owner.",
+      "a": "NG",
+      "why": "文章未说明这六家店是否属于同一位店主。"
+    },
+    {
+      "s": "Saturn has no rings.",
+      "a": "F",
+      "why": "第二段明确说土星以它的环闻名。"
+    },
+    {
+      "s": "Visitors always stay with a guide during the evening visits.",
+      "a": "T",
+      "why": "第三段明确说来访者始终有向导陪同。"
+    }
+  ]
+}

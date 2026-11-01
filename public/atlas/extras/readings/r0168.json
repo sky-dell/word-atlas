@@ -1,0 +1,46 @@
+{
+  "id": "r0168",
+  "ids": [
+    "human",
+    "peace",
+    "wave",
+    "hit",
+    "lift",
+    "appointment",
+    "penny",
+    "jam",
+    "normally",
+    "pound"
+  ],
+  "title": "Jam Jars for the Dunes",
+  "titleZh": "一罐果酱，守护沙丘",
+  "topic": "environment",
+  "cefr": 1,
+  "paras": [
+    "On a small British island, people sell [[jam|jam]] to help save their beach. Behind the beach are low hills of sand called dunes. These protect houses when big [[wave|waves]] [[hit|hit]] the shore. But [[human|human]] feet can damage the grass that holds the sand together. People [[normally|normally]] walk straight across the dunes because it is the shortest way to the sea.",
+    "One morning, baker Mina has an [[appointment|appointment]] with a scientist called Ravi at the beach. He shows her two boxes of sand. One has grass growing in it; the other has none. They [[lift|lift]] one end of each box and pour water over the sand. Much more sand leaves the box without grass. The roots help keep the other box's sand in place.",
+    "Mina sells each jar for one [[pound|pound]] at her bakery. Every [[penny|penny]] from the sales goes towards a wooden path over the dunes. Some neighbours want to close the beach, while others want it open. The path brings [[peace|peace]] between the two groups: people can reach the water without stepping on the grass. By summer, new green leaves are growing beside the path. A small change is giving the dunes a chance to recover."
+  ],
+  "zh": [
+    "在英国的一座小岛上，人们靠卖果酱来帮助保护海滩。海滩后方有一些低矮的沙丘。当大浪拍打海岸时，它们能保护房屋。然而，人们的踩踏会损坏那些固定沙土的草。人们通常直接穿过沙丘，因为这是通往海边最近的路。",
+    "一天早晨，面包师米娜与科学家拉维约好在海滩见面。他给她看了两箱沙土。一箱长着草，另一箱没有。他们把每个箱子的一端抬高，然后往沙土上倒水。没有草的箱子流失的沙土多得多。草根帮助另一箱里的沙土留在原处。",
+    "米娜在自己的面包店里以每罐一英镑的价格出售果酱。销售所得的每一便士都用于修建一条跨越沙丘的木质步道。有些邻居想关闭海滩，另一些则希望继续开放。这条步道让两方和睦相处：人们不用踩草就能走到水边。到了夏天，步道旁长出了新的绿叶。一个小小的改变，正给沙丘带来恢复的机会。"
+  ],
+  "q": [
+    {
+      "s": "More than a hundred people visit the island's beach each day.",
+      "a": "NG",
+      "why": "第一段未说明海滩每天的游客数量。"
+    },
+    {
+      "s": "In Ravi's test, the box with grass lost more sand.",
+      "a": "F",
+      "why": "第二段说没有草的箱子流失的沙土更多。"
+    },
+    {
+      "s": "Mina sells each jar of jam for one pound.",
+      "a": "T",
+      "why": "第三段明确说每罐果酱售价一英镑。"
+    }
+  ]
+}

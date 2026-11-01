@@ -1,0 +1,48 @@
+{
+  "id": "r0719",
+  "ids": [
+    "leninism",
+    "disposition",
+    "redound",
+    "exoneration",
+    "peruse",
+    "pyrite",
+    "malaise",
+    "intersperse",
+    "paraphernalia",
+    "alga"
+  ],
+  "title": "Making a Mine Speak",
+  "titleZh": "让矿山开口说话",
+  "topic": "environment",
+  "cefr": 5,
+  "paras": [
+    "An environmental exhibition begins not with a spectacular specimen but with a disputed stream. For a display about an abandoned sulphur mine, curator Nara first assembles the documentary [[paraphernalia|paraphernalia]] of extraction: drainage maps, laboratory notebooks and stained inspection cards. She must [[peruse|peruse]] these alongside workers’ accounts, distinguishing measured contamination from recollections of an unexplained [[malaise|malaise]] that once unsettled the neighbouring village.",
+    "The exhibition’s central object is then constructed: a transparent channel through which water passes over sealed replicas of fractured rock. Actual [[pyrite|pyrite]], whose oxidation can generate acidic drainage, remains in a separate dry case. A magnified photograph of an [[alga|alga]] collected downstream introduces the biological evidence; its caption explains why a single organism cannot establish the condition of an entire watercourse.",
+    "To give this chemistry a human chronology, Nara [[intersperse|intersperses]] photographs of sampling sites among reproductions of administrative records. One training booklet invokes [[leninism|Leninism]] to justify party leadership over industrial production; another document records the official [[exoneration|exoneration]] of a technician accused of falsifying water tests. Neither is presented as an explanation sufficient, by itself, to account for the stream’s deterioration.",
+    "Finally, the labels are tested with visitors, whose questions expose ambiguities invisible to their authors. Nara’s patient [[disposition|disposition]] proves useful when a retired miner objects to the arrangement: she adjusts the sequence without suppressing uncomfortable evidence. Such revisions may [[redound|redound]] to the museum’s credit, but their immediate purpose is more exacting: to make a damaged landscape intelligible without manufacturing a conveniently innocent past."
+  ],
+  "zh": [
+    "一场环境展览的起点并非一件引人注目的标本，而是一条存在争议的溪流。为了筹备关于一座废弃硫矿的展览，策展人娜拉首先搜集与开采有关的整套文书资料：排水图、实验室记录本，以及污渍斑斑的检查卡。她必须将这些资料与工人的叙述对照细读，区分实测的污染情况与人们的回忆；后者讲述的是一种原因不明、曾令邻村人心不安的身体不适。",
+    "随后，展览的核心展品开始制作：一条透明水槽，水从封有保护层的碎裂岩石模型上流过。真正的黄铁矿仍放在另一个干燥的展柜中；这种矿物氧化时可能产生酸性排水。一张在下游采集的藻类的放大照片引出了生物学证据；图片说明解释了为什么仅凭一个生物个体，无法判定整条水道的状况。",
+    "为了给这些化学过程补上人类活动的时间线，娜拉将采样点的照片穿插在行政档案的复制件之间。一本培训手册援引列宁主义，为党领导工业生产提供理论依据；另一份文件则记载，一名曾被指控伪造水质检测结果的技术员获得了官方无罪认定。展览并未将其中任何一份材料当作足以单独解释溪流恶化的依据。",
+    "最后，展品说明交由参观者试读，他们提出的问题暴露出撰写者未曾察觉的歧义。一位退休矿工对展品编排提出异议时，娜拉耐心的性格发挥了作用：她调整了顺序，却没有隐去令人不安的证据。这类修改或许有助于提升博物馆的声誉，但其直接目的更为严格：让人们理解一片遭到破坏的土地，同时不编造一个仿佛无人有责的过去。"
+  ],
+  "q": [
+    {
+      "s": "Nara obtained the laboratory notebooks from former mine workers.",
+      "a": "NG",
+      "why": "文章列出记录本，但未说明其提供者。"
+    },
+    {
+      "s": "The genuine pyrite is kept separately from the channel carrying water.",
+      "a": "T",
+      "why": "水槽内为岩石模型，黄铁矿另置干燥展柜。"
+    },
+    {
+      "s": "Nara removed uncomfortable evidence when revising the display sequence.",
+      "a": "F",
+      "why": "末段明确说她调整顺序但未隐去证据。"
+    }
+  ]
+}

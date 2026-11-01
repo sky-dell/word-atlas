@@ -1,0 +1,48 @@
+{
+  "id": "r0512",
+  "ids": [
+    "shift",
+    "slavery",
+    "explosive",
+    "root",
+    "subscription",
+    "rapid",
+    "goddess",
+    "siren",
+    "recite",
+    "pessimistic"
+  ],
+  "title": "Morning Notes beside the Mill",
+  "titleZh": "磨坊旁的晨间观察笔记",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "Each morning, I record the plants beside an abandoned sugar mill before opening its small garden to visitors. Today, I [[shift|shifted]] my stool into the shade of a stone [[goddess|goddess]], once worshipped as a protector of the harvest. Behind her, a display explains how the estate depended on [[slavery|slavery]]. The garden is peaceful, but its history is not.",
+    "My main subject this week is a patch of balsam beside the drainage ditch. A botany journal, which arrives through my monthly [[subscription|subscription]], describes its [[explosive|explosive]] seed release. At nine, I touched a swollen capsule with a pencil. It burst, scattering seeds across my notebook. The movement was too [[rapid|rapid]] for me to follow, although three seeds remained on the page.",
+    "The ditch had been dry for eleven days, and yesterday I was [[pessimistic|pessimistic]] about the smaller plants surviving. This morning, however, one exposed [[root|root]] still looked firm and pale beneath a loose brick. Moisture had collected there overnight. I replaced the brick carefully, leaving the narrow shelter as I had found it rather than disturbing the soil further.",
+    "At noon, the workshop's test [[siren|siren]] sounded beyond the wall. My colleague Amira arrived to [[recite|recite]] a short harvest poem she was preparing for the weekend tour. While she practised, another capsule burst behind us. I added a final line to my notes: even on a quiet morning, listening can reveal what the eye misses."
+  ],
+  "zh": [
+    "每天早晨，在这座废弃糖厂的小花园向游客开放之前，我都会记录厂房旁的植物。今天，我把凳子挪到一尊石雕女神像的阴影里。人们曾把她奉为收获的守护神。她身后的一块展板介绍了这座庄园过去如何依赖奴隶制度运转。花园宁静，但它的历史并不平静。",
+    "这周，我主要观察排水沟旁的一片凤仙花。我按月订阅的一本植物学期刊介绍了它爆裂散播种子的方式。九点钟，我用铅笔碰了一下一个鼓胀的蒴果。它突然裂开，种子撒落在我的笔记本上。这个过程快得让我看不清，不过有三粒种子留在了纸页上。",
+    "排水沟已经干了十一天，昨天我还对那些较小植株能否存活感到悲观。然而，今天早晨，在一块松动的砖下面，一条露出的根看起来依然结实，颜色浅淡。那里在夜间积聚了水分。我小心地把砖放回原处，让这个狭小的庇护处保持原样，没有再扰动土壤。",
+    "中午，墙外响起了车间测试警报器的声音。同事阿米拉来了，朗诵了一首她为周末导览准备的收获短诗。她练习时，我们身后又有一个蒴果爆开。我在观察笔记的最后添了一行：即使在安静的早晨，倾听也能发现眼睛错过的事物。"
+  ],
+  "q": [
+    {
+      "s": "Visitors can learn about the estate's reliance on enslaved labour from information in the garden.",
+      "a": "T",
+      "why": "花园内的展板介绍了庄园对奴隶制度的依赖。"
+    },
+    {
+      "s": "The garden pays for the observer's botany journal subscription.",
+      "a": "NG",
+      "why": "文章未说明期刊订阅费由谁支付。"
+    },
+    {
+      "s": "The observer was able to watch the entire movement of the seeds clearly.",
+      "a": "F",
+      "why": "种子散出的速度太快，观察者没能看清。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0398",
+  "ids": [
+    "pearl",
+    "chill",
+    "rake",
+    "recreational",
+    "threat",
+    "resolve",
+    "pursuit",
+    "atomic",
+    "brainstorm",
+    "vocational"
+  ],
+  "title": "A Pearl Returned to Daily Life",
+  "titleZh": "让珍珠重回日常",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "Before opening her jewellery workshop, Mara Okeke clears the courtyard with a wooden [[rake|rake]]. On winter mornings, the [[chill|chill]] follows her indoors until the small stove warms up. Her first task is usually to examine something ordinary but precious to its owner: a broken necklace or a loose [[pearl|pearl]] from an everyday ring.",
+    "Mara discovered jewellery repair on a [[recreational|recreational]] weekend course, then completed two years of [[vocational|vocational]] training. She now specialises in pearls, whose delicate surfaces require particular care. During her training, she studied how their mineral layers form, even looking at diagrams of their [[atomic|atomic]] structure. That knowledge explains why she avoids acidic cleaning liquids, which pose a [[threat|threat]] to the surface.",
+    "One recent customer brought in a ring that repeatedly caught on her apron. Rather than simply polish it, Mara invited her apprentice to [[brainstorm|brainstorm]] possible changes. They drew six designs on brown paper before choosing a lower setting with a rounded edge. To [[resolve|resolve]] the problem without replacing the original band, Mara spent an afternoon shaping a tiny silver support beneath the gem.",
+    "Her [[pursuit|pursuit]] of durability is not always visible in the finished object. Customers often notice only that a familiar piece feels comfortable again. Mara nevertheless photographs each repair and keeps notes about its construction. When the apron-wearing customer returned a month later, she reported that she had almost forgotten the ring was there. For Mara, that was evidence of success."
+  ],
+  "zh": [
+    "每天打开珠宝修理工作室之前，玛拉·奥凯克都会用一把木耙清扫院子。冬日清晨，寒意一路跟着她进屋，直到小火炉暖起来才渐渐消退。她的第一项工作通常是检查一件平常却被主人珍视的物品：一条断了的项链，或是一枚日常佩戴的戒指上松动的珍珠。",
+    "玛拉在一次休闲性质的周末课程中接触到了珠宝修理，随后完成了两年的职业技能培训。如今，她专门修理珍珠饰品，因为珍珠细腻的表面需要格外小心地处理。培训期间，她学习了珍珠的矿物层如何形成，甚至研究过其原子结构示意图。这些知识让她明白了为什么要避开酸性清洁液：它们可能损伤珍珠表面。",
+    "最近，一位顾客带来了一枚总是勾住围裙的戒指。玛拉没有只做简单的抛光，而是请学徒一起集思广益，寻找改进办法。他们在牛皮纸上画了六种设计，最后选定了一个边缘圆滑、位置更低的镶座。为了在不更换原有戒圈的情况下解决问题，玛拉花了一个下午，在宝石下方制作了一个小小的银托。",
+    "她对耐用性的追求，并不总能从成品的外观上看出来。顾客往往只会注意到，熟悉的首饰又戴得舒服了。不过，玛拉仍会为每件修好的首饰拍照，并记录其结构。一个月后，那位戴围裙的顾客再次登门，说自己几乎忘了手上还戴着那枚戒指。对玛拉而言，这就是修理成功的证明。"
+  ],
+  "q": [
+    {
+      "s": "Mara's morning routine includes tidying an outdoor space before she starts work.",
+      "a": "T",
+      "why": "她开门营业前会用木耙清扫院子。"
+    },
+    {
+      "s": "Mara paid for her vocational training herself.",
+      "a": "NG",
+      "why": "文中未说明职业培训费用由谁承担。"
+    },
+    {
+      "s": "Mara replaced the ring's original band during the repair.",
+      "a": "F",
+      "why": "原文明确说她未更换原有戒圈。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0241",
+  "ids": [
+    "harbour",
+    "written",
+    "blank",
+    "leisure",
+    "prepared",
+    "entry",
+    "review",
+    "highway",
+    "survey",
+    "require"
+  ],
+  "title": "Why the Harbour Glows",
+  "titleZh": "港湾为何发光",
+  "topic": "media",
+  "cefr": 2,
+  "paras": [
+    "In a short nature film, a quiet [[harbour|harbour]] turns blue at night. Each wave leaves a line of light beside the boats. The opening scene looks almost unreal, but the film explains a natural event: tiny living things in the water produce light when the water around them moves.",
+    "These flashes may help protect them from animals that eat them. A sudden light can surprise an attacker or attract a larger animal that might eat it. However, seeing this display can [[require|require]] patience. Bright lights along the nearby [[highway|highway]] make the blue flashes harder to notice, so the camera team waits for a dark night.",
+    "The team is [[prepared|prepared]] for a long wait, with warm clothes and food. They have [[written|written]] permission for [[entry|entry]] to a boat yard after dark. At first, their camera screen seems [[blank|blank]]. Then a wave breaks against a rope, and blue light appears. Several people spending their [[leisure|leisure]] time fishing stop to watch.",
+    "A magazine [[review|review]] praises the film for explaining the science without hiding the beauty. In a small audience [[survey|survey]], many viewers say they had thought the colour came from lamps under the water. The final scene shows a boat moving slowly away, leaving a blue path that disappears as the water becomes still."
+  ],
+  "zh": [
+    "在一部自然短片中，宁静的港湾在夜晚变成了蓝色。每一道波浪都在船边留下一条光带。开场画面看起来几乎不像真的，但影片解释的是一种自然现象：水中微小的生物会在周围的水流动时发光。",
+    "这些闪光可能有助于保护它们，使它们免遭其他动物捕食。突然出现的光可能吓到捕食者，也可能引来可能吃掉捕食者的更大动物。不过，想看到这番景象可能需要耐心。附近公路上的明亮灯光让蓝色闪光更难被发现，因此拍摄团队要等待一个漆黑的夜晚。",
+    "团队带着保暖衣物和食物，已经做好了长时间等待的准备。他们拿到了书面许可，可以在天黑后进入一处船场。起初，摄像机屏幕上似乎空无一物。随后，一道波浪拍上一根绳索，蓝光便出现了。几个利用闲暇时间钓鱼的人停下来观看。",
+    "一篇杂志影评称赞这部影片既解释了科学原理，又保留了自然之美。在一项小型观众调查中，许多观众表示，他们原以为这种颜色来自水下的灯。最后一个镜头中，一艘船缓缓驶离，留下一条蓝色的轨迹；随着水面恢复平静，这条轨迹也消失了。"
+  ],
+  "q": [
+    {
+      "s": "Movement in the water causes the tiny organisms to give off light.",
+      "a": "T",
+      "why": "首段说明周围的水流动时，微小生物会发光。"
+    },
+    {
+      "s": "The lights beside the road help the team see the blue flashes more clearly.",
+      "a": "F",
+      "why": "第二段说公路灯光使蓝色闪光更难被看见。"
+    },
+    {
+      "s": "Most people who answered the audience survey were watching a nature film for the first time.",
+      "a": "NG",
+      "why": "文中未提调查对象以前是否看过自然影片。"
+    }
+  ]
+}

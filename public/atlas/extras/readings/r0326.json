@@ -1,0 +1,48 @@
+{
+  "id": "r0326",
+  "ids": [
+    "intend",
+    "squash",
+    "sore",
+    "push-up",
+    "prediction",
+    "figure",
+    "diamond",
+    "stewardess",
+    "cassette",
+    "jar"
+  ],
+  "title": "A Box for a Voice",
+  "titleZh": "装下声音的盒子",
+  "topic": "emotion",
+  "cefr": 2,
+  "paras": [
+    "Glass artist Leila Haddad makes small boxes for objects that people cannot throw away. She began after finding a [[cassette|cassette]] of her grandmother describing her first flight as a [[stewardess|stewardess]]. Leila no longer had a machine to play it, but she still remembered the warm voice it held.",
+    "She [[intend|intended]] to make a glass box that would protect the recording without hiding it. Using a tool with a tiny [[diamond|diamond]] at its tip, she cut six clear pieces. Her hands were [[sore|sore]] that morning after too many [[push-up|push-ups]], so she worked slowly. She kept the smallest pieces in a wide [[jar|jar]] with a blue lid.",
+    "Inside the box, she placed the recording on soft cloth. She was careful not to [[squash|squash]] the yellow ribbon tied around it. When visitors saw the finished work, several asked for similar boxes. Her brother's [[prediction|prediction]] was that she would sell only two that year. By December, the actual [[figure|figure]] was eighteen.",
+    "Yet Leila measures success differently. One customer brought a bent key from her childhood home. When she collected its box, she held it quietly before smiling. Leila understood: the glass did not make an ordinary object more expensive. It gave a private memory a place where it could be seen."
+  ],
+  "zh": [
+    "玻璃手艺人莱拉·哈达德制作小盒子，用来存放人们舍不得扔掉的物品。她开始做这件事，是因为找到了一盘磁带，里面录着祖母讲述自己当空姐时第一次飞行的经历。莱拉已经没有能播放它的机器了，但她依然记得磁带里那个温暖的声音。",
+    "她打算做一个玻璃盒，既能保护这盘录音带，又不会把它遮起来。她用尖端带有一小颗金刚石的工具，切出了六块透明玻璃。那天早晨，她的双手因做了太多俯卧撑而酸痛，因此干得很慢。她把最小的玻璃片放进一个带蓝色盖子的广口瓶里。",
+    "她在盒子里铺上软布，再放上录音带。她小心翼翼，不让系在磁带上的黄色丝带被压扁。来访的人看到成品后，有几个人也想要类似的盒子。她的兄弟预测，她那一年只能卖出两个。到了十二月，实际售出的数量却是十八个。",
+    "然而，莱拉衡量成功的方式不同。一位顾客带来了一把弯曲的钥匙，那是她儿时住处的钥匙。来取装好钥匙的盒子时，她静静地捧了一会儿，然后露出了笑容。莱拉明白：玻璃并没有让一件普通物品变得更值钱，而是给一段私人的回忆找到了一个可以被看见的地方。"
+  ],
+  "q": [
+    {
+      "s": "A recording of a family member inspired Leila to start making memory boxes.",
+      "a": "T",
+      "why": "她找到祖母的录音带后开始制作盒子。"
+    },
+    {
+      "s": "Leila bought her glass-cutting tool at a local shop.",
+      "a": "NG",
+      "why": "文章介绍了工具，但未说明购买地点。"
+    },
+    {
+      "s": "Leila sold fewer boxes than her brother had expected.",
+      "a": "F",
+      "why": "她的兄弟预测卖两个，实际卖了十八个。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0086",
+  "ids": [
+    "anywhere",
+    "flag",
+    "marry",
+    "seventh",
+    "natural",
+    "gardening",
+    "surfing",
+    "user",
+    "metro",
+    "save"
+  ],
+  "title": "Fog in the Roof Garden",
+  "titleZh": "屋顶花园里的雾",
+  "topic": "city",
+  "cefr": 1,
+  "paras": [
+    "From a roof garden on the [[seventh|seventh]] floor, Lina watches white fog enter her seaside city. Soon, the beach and the [[metro|metro]] entrance below disappear. Only the blue [[flag|flag]] of the garden club is easy to see nearby. Lina enjoys [[gardening|gardening]] here every morning. Her brother plans to [[marry|marry]] his partner in this garden on Saturday, so the family hopes for a clear day.",
+    "This fog is a [[natural|natural]] cloud near the ground. It forms when warm, wet air moves over cold sea water. The air cools, and some of its water becomes tiny drops. Wind carries these drops towards the buildings. Fog can appear [[anywhere|anywhere]] along this coast when conditions are right. People who enjoy [[surfing|surfing]] sometimes leave the beach because they cannot see the waves clearly.",
+    "Every [[user|user]] of the roof garden can notice another effect. Small drops collect on leaves and flowers, making them wet even without rain. This extra water can help [[save|save]] young plants from drying out, although Lina still checks the soil. Later, sunshine warms the air, and the fog slowly disappears. The beach returns to view. On the roof, a few bright drops remain on the flowers prepared for Saturday."
+  ],
+  "zh": [
+    "莉娜站在七楼的屋顶花园里，看着白色的雾涌入她所在的海滨城市。很快，下方的海滩和地铁入口都看不见了。附近只有园艺俱乐部的蓝色旗帜还清晰可见。莉娜喜欢每天早晨在这里种花养草。她的一位兄弟打算星期六在这座花园里和伴侣结婚，所以全家都盼着那天晴朗。",
+    "这种雾是贴近地面的天然云。当温暖潮湿的空气经过冷海水上方时，雾就形成了。空气冷却，其中的一部分水分变成微小的水滴。风把这些水滴吹向楼房。只要条件合适，这段海岸的任何地方都可能起雾。喜欢冲浪的人有时会离开海滩，因为他们看不清海浪。",
+    "每一位使用屋顶花园的人都能注意到雾的另一个影响。小水滴聚集在叶片和花朵上，即使没有下雨，也会让它们变湿。这些额外的水分可以帮助幼苗避免干枯，不过莉娜仍然会检查土壤。后来，阳光让空气暖和起来，雾慢慢散去。海滩重新出现在眼前。屋顶上，为星期六准备的花朵上还留着几颗晶亮的水珠。"
+  ],
+  "q": [
+    {
+      "s": "Lina's brother has chosen the roof garden for his wedding.",
+      "a": "T",
+      "why": "第一段说莉娜的兄弟打算在这座花园结婚。"
+    },
+    {
+      "s": "Fog appears along this coast every week.",
+      "a": "NG",
+      "why": "文中只说条件合适时会起雾，未说明频率。"
+    },
+    {
+      "s": "The fog gets thicker as sunshine warms the air later that day.",
+      "a": "F",
+      "why": "末段说阳光使空气变暖，雾慢慢散去。"
+    }
+  ]
+}

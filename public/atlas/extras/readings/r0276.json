@@ -1,0 +1,48 @@
+{
+  "id": "r0276",
+  "ids": [
+    "edge",
+    "transportation",
+    "via",
+    "improvement",
+    "define",
+    "rail",
+    "idiot",
+    "courage",
+    "canoeing",
+    "handle"
+  ],
+  "title": "Can a Canal Carry Lunch?",
+  "titleZh": "运河能运送午餐吗？",
+  "topic": "city",
+  "cefr": 2,
+  "paras": [
+    "At the [[edge|edge]] of a busy city market, a narrow canal runs behind the food shops. Most visitors see it as a place for [[canoeing|canoeing]], not work. However, boat builder Amira sees another possibility: using small boats for the [[transportation|transportation]] of bread, fruit and vegetables.",
+    "Her idea connects two parts of a food journey. Boxes arrive in the city by [[rail|rail]], then travel to the market [[via|via]] a quiet canal beside an old mill. For a week, her team compared boat deliveries with van deliveries. They recorded journey times and counted damaged fruit. They [[define|define]] a successful delivery as one that arrives on time with every item in good condition.",
+    "The first morning required [[courage|courage]]. Amira had never carried such a heavy load on water. When the boat leaned sideways, she whispered, “Don't be an [[idiot|idiot]]—slow down.” She soon learned to [[handle|handle]] the extra weight by placing the boxes lower and spreading them evenly. After that, the boat felt much steadier.",
+    "By Friday, there was a clear [[improvement|improvement]] in loading times: loading took ten minutes instead of twenty. The boats were not faster than vans on every trip, but fewer peaches arrived with dark marks. For soft fruit, a quiet journey on water may offer something that speed alone cannot."
+  ],
+  "zh": [
+    "在一座城市繁忙的市场边缘，一条狭窄的运河从食品店后方流过。大多数游客把这里看作划独木舟的地方，而不是工作的场所。不过，造船师阿米拉看到了另一种可能：用小船运输面包、水果和蔬菜。",
+    "她的想法把食物运输的两个环节连接起来。货箱先通过铁路运抵城市，再经由一座旧磨坊旁的安静运河送到市场。她的团队用一周时间比较了小船送货和货车送货。他们记录运输时间，并清点受损的水果。他们将成功的配送定义为准时到达，而且每件货物都完好无损。",
+    "第一天早上需要一些勇气。阿米拉从未在水上运过这么重的货物。船身向一侧倾斜时，她低声说：“别犯傻，慢一点。”她很快学会了如何应付增加的重量：把箱子放得更低，并且均匀摆放。这样一来，船就稳多了。",
+    "到星期五，装货用时明显改善：装货只需十分钟，而不是二十分钟。小船并非每次都比货车快，但送达的桃子中，出现深色痕迹的更少。对于柔软的水果来说，一段平静的水上旅程或许能带来单靠速度无法实现的好处。"
+  ],
+  "q": [
+    {
+      "s": "Amira's team pays for the train journey into the city.",
+      "a": "NG",
+      "why": "文章未说明由谁支付进城的铁路运费。"
+    },
+    {
+      "s": "Amira made the boat more stable by putting the boxes higher up.",
+      "a": "F",
+      "why": "她把箱子放低并均匀摆放，使船更稳。"
+    },
+    {
+      "s": "By Friday, loading took half as long as before.",
+      "a": "T",
+      "why": "装货用时由二十分钟缩短为十分钟。"
+    }
+  ]
+}

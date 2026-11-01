@@ -1,0 +1,46 @@
+{
+  "id": "r0020",
+  "ids": [
+    "website",
+    "china",
+    "telephone",
+    "question",
+    "village",
+    "news",
+    "word",
+    "dark",
+    "see",
+    "potato"
+  ],
+  "title": "One Potato, One Evening Walk",
+  "titleZh": "为一个土豆，走一段晚路",
+  "topic": "health",
+  "cefr": 0,
+  "paras": [
+    "A small [[village|village]] in [[china|China]] has a surprising new habit. People walk to a farm shop each evening to buy just one [[potato|potato]]. They do not need much food. They want a reason to leave their chairs and walk. At first, only Mei and her father went. Now twenty people make the ten-minute trip after dinner. Some bring their children too.",
+    "The shop has a [[website|website]] with pictures of the walkers. The [[word|word]] at the top is “Walk!” The [[news|news]] soon reached people in nearby homes. Shop owner Lin also answers his [[telephone|telephone]] each afternoon. Many callers ask the same [[question|question]]: “Can I come without buying anything?” His answer is yes. The walk is free, and nobody has to buy food at his shop.",
+    "It is often [[dark|dark]] when the group arrives. Lin puts a lamp outside, so everyone can [[see|see]] the path. There is a long seat by the door. People rest and talk there before walking home together. Mei's father now looks forward to every evening. One small vegetable has made his days less lonely and more active."
+  ],
+  "zh": [
+    "中国的一个小村庄有了一个令人意外的新习惯。人们每天傍晚步行去一家农场小店，只买一个土豆。他们并不需要很多食物，只是想找个理由离开椅子，出去走走。起初，只有梅和她的父亲去。现在，有二十个人在晚饭后走这段十分钟的路。有些人还带着孩子。",
+    "这家小店有一个网站，上面放着步行者的照片。网页顶部写着一个词：“步行！”这个消息很快传到了附近的住户那里。店主林每天下午也会接电话。很多打电话的人都问同一个问题：“不买东西也能来吗？”他的回答是可以。散步不收费，也没有人必须在他的店里买食物。",
+    "这群人到达时，天往往已经黑了。林在外面放了一盏灯，让大家都能看清小路。门边有一条长凳。人们在那里休息、聊天，然后一起走回家。梅的父亲现在每天都盼着傍晚到来。一个小小的土豆，让他的生活少了些孤独，多了些活动。"
+  ],
+  "q": [
+    {
+      "s": "More people take the evening walk now than at the start.",
+      "a": "T",
+      "why": "起初只有两人，现在有二十人。"
+    },
+    {
+      "s": "Lin took the pictures on the shop's website.",
+      "a": "NG",
+      "why": "文章未说明网站上的照片是谁拍的。"
+    },
+    {
+      "s": "People must buy something at the shop to join the walk.",
+      "a": "F",
+      "why": "店主说不买东西也可以来。"
+    }
+  ]
+}

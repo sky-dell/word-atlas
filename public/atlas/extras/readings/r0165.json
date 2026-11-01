@@ -1,0 +1,46 @@
+{
+  "id": "r0165",
+  "ids": [
+    "type",
+    "adjective",
+    "skin",
+    "decide",
+    "painful",
+    "theirs",
+    "playground",
+    "loud",
+    "shout",
+    "beside"
+  ],
+  "title": "Soft Shoes, Better Sales",
+  "titleZh": "柔软的鞋，更好的生意",
+  "topic": "economy",
+  "cefr": 1,
+  "paras": [
+    "Amira made children's shoes and sold them at a small market. Her table stood [[beside|beside]] a [[playground|playground]], so many families passed it. However, few people stopped to buy anything. Other sellers used [[loud|loud]] voices to bring people over. Amira tried to [[shout|shout]] too, but she felt tired after an hour. She needed a better way to show families why her shoes were worth buying.",
+    "One morning, a father stopped at her table. His daughter had red [[skin|skin]] on her heels because her new shoes were too hard. Walking was [[painful|painful]] for her. Amira showed them a [[type|type]] of shoe made from soft cloth. The girl tried a pair and smiled. This helped Amira [[decide|decide]] what to put on her sign. She chose one simple [[adjective|adjective]]: 'soft'.",
+    "The next day, Amira put a soft cloth shoe under her new sign. She invited parents to feel it and let their children try a pair. Two brothers ran a few steps, then asked if the shoes could be [[theirs|theirs]]. Their mother bought both pairs. By evening, Amira had sold twelve pairs, enough to pay for her market space and more cloth. She went home tired but happy, without a sore throat."
+  ],
+  "zh": [
+    "阿米拉制作童鞋，在一个小市场里出售。她的摊桌就在儿童游乐场旁边，因此有很多家庭经过。然而，很少有人停下来买东西。其他摊主大声吆喝，招揽顾客。阿米拉也试着喊了起来，但一个小时后就觉得累了。她需要找到更好的办法，让家长们明白她的鞋为什么值得买。",
+    "一天早上，一位父亲在她的摊桌前停下。他女儿的新鞋太硬，磨红了脚后跟的皮肤，走路也疼。阿米拉给他们看了一种用软布做的鞋。小女孩试穿了一双，露出了笑容。这让阿米拉决定了招牌上该写什么。她选了一个简单的形容词：“柔软的”。",
+    "第二天，阿米拉在新招牌下面放了一只柔软的布鞋。她邀请家长摸一摸，也让孩子们试穿。一对兄弟跑了几步，然后问这些鞋能不能归他们所有。妈妈给他们每人买了一双。到了傍晚，阿米拉已经卖出了十二双鞋，赚的钱足够支付摊位费，还能再买些布。她疲惫却开心地回家了，嗓子也没有疼。"
+  ],
+  "q": [
+    {
+      "s": "Amira's table was far from the playground.",
+      "a": "F",
+      "why": "文中说她的摊桌就在游乐场旁边。"
+    },
+    {
+      "s": "The girl smiled when she tried Amira's soft shoes.",
+      "a": "T",
+      "why": "女孩试穿了一双软布鞋，露出了笑容。"
+    },
+    {
+      "s": "Amira planned to make twelve more pairs the next day.",
+      "a": "NG",
+      "why": "文中未说明她次日计划制作多少双鞋。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0121",
+  "ids": [
+    "basic",
+    "public",
+    "boarding-card",
+    "rubbish",
+    "restroom",
+    "midnight",
+    "bar",
+    "choice",
+    "return",
+    "properly"
+  ],
+  "title": "Why a Doorway Can Change Memory",
+  "titleZh": "为什么走过门口会影响记忆",
+  "topic": "thinking",
+  "cefr": 1,
+  "paras": [
+    "Have you ever entered a room and forgotten why you went there? This common experience tells us something about memory. One [[basic|basic]] job of the brain is to connect actions with places. Imagine a traveller called Hana at an airport near [[midnight|midnight]]. She sits in a [[public|public]] waiting area and puts her [[boarding-card|boarding card]] beside her cup. She plans to pick it up after putting some [[rubbish|rubbish]] in a bin.",
+    "Then Hana sees a sign for the [[restroom|restroom]] and walks through its door. Inside, she forgets about the card. Her brain has not simply stopped working [[properly|properly]]. A new room brings new sights and sounds. The brain may treat this as the start of a new event. Information from the last place can become harder to reach. This sometimes happens when people pass through doorways, although it does not happen every time.",
+    "When Hana comes out, she has a [[choice|choice]]: go straight to the drinks [[bar|bar]] or [[return|return]] to her seat. She goes back. Seeing the cup helps her remember the card. The old place offers a useful clue. Our memories are not kept like objects in separate boxes. What we see around us can help us find them again."
+  ],
+  "zh": [
+    "你有没有走进一个房间后，忘了自己为什么要进去？这种常见的经历能让我们了解记忆的一个特点。大脑的一项基本工作，是把行动与地点联系起来。想象一下，一位名叫哈娜的旅客在接近午夜时待在机场。她坐在公共候机区，把登机牌放在杯子旁边。她打算先把一些垃圾扔进垃圾桶，再拿起登机牌。",
+    "接着，哈娜看见了洗手间的标志，便走了进去。进门后，她忘记了登机牌的事。这并不意味着她的大脑不再正常工作了。新的房间带来了新的景象和声音。大脑可能把这看作一件新事情的开始。这样一来，与上一个地方有关的信息就可能变得更难想起。人们穿过门口时，有时会出现这种情况，但并不是每次都会发生。",
+    "哈娜出来后，可以选择直接去饮品吧台，也可以回到座位。她回去了。看到杯子，让她想起了登机牌。原来的地方提供了一条有用的线索。我们的记忆并不像物品那样，分别存放在一个个盒子里。周围看到的东西，可以帮助我们重新找回记忆。"
+  ],
+  "q": [
+    {
+      "s": "Hana plans to put some rubbish in a bin before picking up her boarding card.",
+      "a": "T",
+      "why": "第一段说她打算扔完垃圾再拿登机牌。"
+    },
+    {
+      "s": "Walking through a doorway always makes information harder to remember.",
+      "a": "F",
+      "why": "第二段明确说这种情况并非每次都会发生。"
+    },
+    {
+      "s": "Hana orders a cold drink after finding her card.",
+      "a": "NG",
+      "why": "文章未提及她找到登机牌后是否点饮料。"
+    }
+  ]
+}

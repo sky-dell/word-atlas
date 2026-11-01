@@ -1,0 +1,48 @@
+{
+  "id": "r0058",
+  "ids": [
+    "pay",
+    "old",
+    "italy",
+    "mistake",
+    "repeat",
+    "welcome",
+    "strawberry",
+    "sixteen",
+    "week",
+    "seventeen"
+  ],
+  "title": "Pink Cups for the Garden Table",
+  "titleZh": "花园餐桌上的粉红酸奶杯",
+  "topic": "health",
+  "cefr": 0,
+  "paras": [
+    "Every [[week|week]], Rosa makes fruit and yogurt cups at a small health centre in [[italy|Italy]]. She is an [[old|old]] woman with strong hands and a bright smile. People [[pay|pay]] one coin for a cup. The money buys fruit for the next visit. Today, two new helpers come to learn how to make the cups.",
+    "Rosa [[welcome|welcomes]] them into the kitchen. First, they wash their hands and clean the table. Then they wash [[sixteen|sixteen]] large [[strawberry|strawberries]] in cold water. Rosa takes off the green leaves. The helpers cut the fruit into small pieces. They put these pieces in a wide bowl and press them with a fork.",
+    "Next, Rosa adds plain yogurt to the fruit. She does not add sugar. One helper makes a [[mistake|mistake]]: he puts a little water in the bowl. The mix is now too thin. Rosa adds more yogurt. She slowly turns her spoon through the pink mix. The helpers [[repeat|repeat]] this action until the mix looks smooth.",
+    "They put [[seventeen|seventeen]] small cups on a tray. Rosa fills each cup with the pink yogurt. There is enough for everyone at the garden table. The cups go into the fridge for an hour. After lunch, the helpers carry them outside. People sit together in the warm sun. Rosa eats a spoonful, smiles, and thanks her new kitchen team."
+  ],
+  "zh": [
+    "每周，罗莎都会在意大利的一家小型健康中心制作水果酸奶杯。她是一位老妇人，双手有力，笑容灿烂。大家付一枚硬币就能买一杯。收到的钱用来买下次所需的水果。今天，两位新帮手来学习如何制作酸奶杯。",
+    "罗莎热情地迎接他们走进厨房。首先，他们洗手并擦干净桌子。然后，他们用冷水洗了十六颗大草莓。罗莎摘掉绿叶。帮手们把水果切成小块，放进一个宽口碗里，再用叉子压碎。",
+    "接着，罗莎把原味酸奶加入水果中。她不加糖。一位帮手出了个小差错：他往碗里加了一点水。现在，混合物太稀了。罗莎又加了一些酸奶。她用勺子慢慢搅动粉红色的混合物。帮手们重复这个动作，直到混合物看起来细腻顺滑。",
+    "他们把十七个小杯子放在托盘上。罗莎给每个杯子装入粉红色酸奶，足够花园餐桌旁的每个人享用。杯子放进冰箱冷藏一小时。午饭后，帮手们把它们端到外面。大家一起坐在温暖的阳光下。罗莎吃了一勺，露出微笑，并感谢她的新厨房团队。"
+  ],
+  "q": [
+    {
+      "s": "People pay two coins for one cup.",
+      "a": "F",
+      "why": "文中说每杯只需一枚硬币。"
+    },
+    {
+      "s": "The new helpers have made yogurt cups at home before.",
+      "a": "NG",
+      "why": "未说明新帮手以前是否在家做过酸奶杯。"
+    },
+    {
+      "s": "The cups stay in the fridge for one hour.",
+      "a": "T",
+      "why": "文中明确说杯子冷藏一小时。"
+    }
+  ]
+}

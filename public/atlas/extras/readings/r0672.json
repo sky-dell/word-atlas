@@ -1,0 +1,48 @@
+{
+  "id": "r0672",
+  "ids": [
+    "gush",
+    "feudal",
+    "prose",
+    "streamline",
+    "facet",
+    "ramble",
+    "velocity",
+    "intrinsic",
+    "extinguish",
+    "dwindle"
+  ],
+  "title": "Thinking Through Water",
+  "titleZh": "借水思考",
+  "topic": "thinking",
+  "cefr": 4,
+  "paras": [
+    "In her hillside workshop, historical researcher Amara Sen builds wooden models of irrigation gates to investigate how practical knowledge becomes written explanation. Her principal source is a seventeenth-century estate manual whose dense [[prose|prose]] describes a [[feudal|feudal]] arrangement: farming families received plots in exchange for maintaining channels and serving the landowner. Yet its instructions repeatedly omit crucial movements.",
+    "Sen suspects these omissions reveal an overlooked [[facet|facet]] of expertise: experienced workers may find familiar actions almost impossible to describe. To test this, she asks present-day woodworkers to assemble miniature gates, then dictate instructions without touching their models. Although she initially hoped to [[streamline|streamline]] transcription with a standard questionnaire, its rigid sequence concealed the hesitations she wanted to examine.",
+    "The models themselves expose what language leaves uncertain. When a gate rises too abruptly, water [[gush|gushes]] into a collecting tray. Sen estimates surface [[velocity|velocity]] by timing floating wood chips over a marked distance. She argues that such feedback is [[intrinsic|intrinsic]] to learning a physical task, rather than merely an illustration added afterwards. Between trials, she likes to [[ramble|ramble]] beside abandoned channels, noticing bends that the estate's neatly ruled diagrams exclude.",
+    "As daylight begins to [[dwindle|dwindle]], Sen compares recordings with damp sketches pinned above her bench. Before leaving, she must [[extinguish|extinguish]] the small oil flame used to soften sealing wax. Her eventual edition will pair each translated instruction with a sequence of hand drawings. The aim is not to correct the anonymous writer, she explains, but to restore the gestures that once made his sentences sufficient."
+  ],
+  "zh": [
+    "在山坡上的工作室里，历史研究者阿玛拉·森制作木制灌溉闸门模型，探究实践知识如何转化为文字说明。她的主要资料是一部十七世纪的庄园手册，其中晦涩的文字描述了一种封建制度下的安排：农户获得土地，作为交换，他们须维护水渠并为领主服役。然而，手册中的操作说明却一再省略关键动作。",
+    "森怀疑，这些省略揭示了专业技能中一个被忽视的方面：经验丰富的劳动者可能觉得，熟悉的动作几乎无法用语言描述。为检验这一点，她请当代木工组装微型闸门，然后在不触碰模型的情况下口述操作步骤。她起初希望借助标准化问卷提高转录效率，但问卷僵化的顺序反而掩盖了她想要研究的那些迟疑。",
+    "模型本身暴露出语言表述不清的地方。闸门升起过猛时，水便涌入集水盘。森通过测量漂浮木片经过一段标定距离所需的时间，估计表层水流的速度。她认为，这类反馈是学习实际操作不可分割的一部分，而不只是事后添加的示范。在试验间隙，她喜欢沿着废弃水渠漫步，留意那些庄园手册中工整绘制的示意图所没有呈现的弯道。",
+    "天光渐暗时，森将录音与钉在工作台上方的潮湿草图进行对照。离开前，她必须熄灭用来软化封蜡的小油灯。她最终编成的版本将为每条译出的操作说明配上一组手绘图。她解释说，目的并非纠正那位无名作者，而是重现那些曾让他的文字足以传达操作要领的手势。"
+  ],
+  "q": [
+    {
+      "s": "The estate manual was intended for newly hired workers.",
+      "a": "NG",
+      "why": "文章未说明手册是否面向新雇用的工人。"
+    },
+    {
+      "s": "Sen found that a fixed questionnaire made the workers' moments of uncertainty easier to detect.",
+      "a": "F",
+      "why": "固定问卷顺序反而掩盖了她关注的迟疑。"
+    },
+    {
+      "s": "Sen plans to accompany every translated instruction with a sequence of drawings.",
+      "a": "T",
+      "why": "末段说明每条译出的操作说明都将配图。"
+    }
+  ]
+}

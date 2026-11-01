@@ -1,0 +1,48 @@
+{
+  "id": "r0471",
+  "ids": [
+    "circumstance",
+    "random",
+    "pickle",
+    "willingly",
+    "gorilla",
+    "comprehensive",
+    "increasingly",
+    "drag",
+    "stale",
+    "statistical"
+  ],
+  "title": "Why Expedition Cabbage Turned Sour",
+  "titleZh": "考察队的卷心菜为何变酸",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "Before portable refrigerators, forest expeditions depended on foods that could survive long journeys. Imagine a nineteenth-century camp in central Africa, where a naturalist hopes to observe a [[gorilla|gorilla]]. Porters [[drag|dragged]] heavy supply boxes over muddy ground, only to discover that the bread was [[stale|stale]]. Yet a barrel of salted cabbage remained edible. This contrast illustrates the natural process behind many traditional provisions.",
+    "A [[pickle|pickle]] owes its survival to conditions that discourage harmful microbes. When cabbage is packed beneath salty water, certain useful bacteria convert its sugars into lactic acid. The liquid becomes [[increasingly|increasingly]] acidic, making it difficult for many competing organisms to grow. One crucial [[circumstance|circumstance]] is whether the vegetables remain submerged: exposure to air allows surface moulds to develop.",
+    "The transformation may once have seemed [[random|random]], since one barrel succeeded while another spoiled. However, differences in salt concentration, temperature and cleanliness help explain these outcomes. Travellers might [[willingly|willingly]] eat sour cabbage because it offered variety alongside dried provisions, without understanding the microscopic activity that preserved it. Its sharp flavour was evidence of chemical change, not necessarily decay.",
+    "Today, a [[comprehensive|comprehensive]] investigation would measure acidity, identify microbes and record storage temperatures. A [[statistical|statistical]] comparison of many batches could reveal which conditions produce reliable results. Such research explains why an old preservation method worked, while also showing its limits: fermentation does not make every food safe. The successful barrel was not simply lucky; its tiny inhabitants had found the right environment."
+  ],
+  "zh": [
+    "在便携式冰箱出现之前，森林考察队依赖能够经受长途运输的食物。不妨想象十九世纪中非的一处营地，一位博物学家希望在那里观察大猩猩。搬运工将沉重的补给箱拖过泥泞的地面，却发现面包已经不新鲜了。然而，一桶盐渍卷心菜仍然可以食用。这种反差说明了许多传统储备食品背后的自然过程。",
+    "腌菜之所以能够保存下来，是因为其所处的条件抑制了有害微生物。当卷心菜被压入盐水中时，某些有益细菌会将其中的糖转化为乳酸。液体的酸性越来越强，使许多与之竞争的生物难以生长。一个关键条件是蔬菜是否始终浸没在水中：接触空气会让表面滋生霉菌。",
+    "这种变化过去可能看起来毫无规律，因为有的桶腌制成功，另一些却腐坏了。不过，盐浓度、温度和清洁程度的差异有助于解释这些结果。旅行者可能乐意吃酸卷心菜，因为它能在干粮之外提供口味上的变化，即使他们并不了解使它得以保存的微观活动。其酸味是化学变化的迹象，并不一定意味着腐败。",
+    "如今，一项全面的研究会测量酸度、鉴定微生物，并记录储存温度。对许多批次进行统计比较，可以揭示哪些条件能够带来稳定可靠的结果。这类研究既解释了古老保存方法为何有效，也揭示了它的局限：发酵并不能让所有食物都变得安全。那桶成功保存的卷心菜并非只是运气好，而是其中的微小生物找到了合适的环境。"
+  ],
+  "q": [
+    {
+      "s": "The liquid becomes less acidic as bacteria convert the cabbage's sugars into lactic acid.",
+      "a": "F",
+      "why": "第二段明确说液体的酸性越来越强。"
+    },
+    {
+      "s": "A sour flavour does not necessarily mean that the cabbage has decayed.",
+      "a": "T",
+      "why": "第三段说明酸味不一定意味着腐败。"
+    },
+    {
+      "s": "Modern experiments have established the exact temperature used for cabbage in nineteenth-century expedition camps.",
+      "a": "NG",
+      "why": "文章未提及实验确定了旧时营地的储存温度。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0433",
+  "ids": [
+    "default",
+    "sparkling",
+    "reverse",
+    "grant",
+    "deputy",
+    "rash",
+    "remains",
+    "stump",
+    "vomit",
+    "revolution"
+  ],
+  "title": "The Secret Light of Old Timber",
+  "titleZh": "旧木材发光的秘密",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "During the French [[revolution|Revolution]], religious buildings were often taken over and their contents removed. Imagine a damp cellar in such a building, with the wooden [[remains|remains]] of shelves slowly decaying. This is a hypothetical scene, not a documented event. Under suitable conditions, such timber could glow faintly. Unlike [[sparkling|sparkling]] crystals reflecting a lantern, it could give off light in complete darkness.",
+    "The explanation lies in certain fungi that grow through dead wood. Their fine threads release substances that break down its tough structure, allowing nutrients to be absorbed. A chemical reaction within the fungus also releases energy as greenish light. Outdoors, the same process can turn a rotting [[stump|stump]] into a dim natural lamp, especially on warm, damp nights.",
+    "To investigate this phenomenon, a museum might use a research [[grant|grant]] to recreate cellar conditions. Its scientific director and [[deputy|deputy]] could compare timber samples at different temperatures. A camera's automatic [[default|default]] may produce images too dark to reveal the glow, so longer exposures are needed. Drying the wood can reduce fungal activity; restoring moisture may [[reverse|reverse]] that decline if the fungus is still alive.",
+    "Yet glowing timber is not an invitation to taste what grows on it. It would be [[rash|rash]] to assume that a natural light signals safety: eating unidentified fungi can cause people to [[vomit|vomit]] or become seriously ill. For historians, the glow offers something safer—a physical explanation for strange lights that earlier visitors might have understood as signs of a haunting."
+  ],
+  "zh": [
+    "法国大革命期间，宗教建筑常被接管，其中的物品也被搬走。请设想这样一座建筑里有一个潮湿的地窖，木架的残余部分正在慢慢腐烂。这是假设的场景，并非有史料记载的事件。在适宜的条件下，这类木材可能发出微光。与反射灯笼光线、闪闪发亮的晶体不同，它即使在完全黑暗的环境中也可能发光。",
+    "原因在于某些生长在枯死木材中的真菌。它们细密的菌丝释放出一些物质，分解木材坚韧的结构，从而吸收养分。真菌体内的一种化学反应还会以淡绿色光的形式释放能量。在户外，同样的过程能把腐烂的树桩变成一盏昏暗的天然灯，尤其是在温暖潮湿的夜晚。",
+    "为了研究这一现象，博物馆可以利用研究拨款重现地窖环境。科学研究主管及其副手可以比较不同温度下的木材样本。相机自动采用的默认设置可能会使照片太暗，无法显示微光，因此需要延长曝光时间。使木材干燥可以降低真菌的活性；如果真菌仍然存活，恢复湿度可能让其活性重新提高。",
+    "不过，发光的木材并不是在邀请人们品尝上面生长的东西。贸然认为天然的光意味着安全，是轻率的：食用未经辨认的真菌可能导致呕吐或严重疾病。对于历史研究者而言，这种微光提供了更安全的收获——它从物理层面解释了那些奇异的光，而过去的访客可能曾把它们理解为闹鬼的迹象。"
+  ],
+  "q": [
+    {
+      "s": "Decaying wood can give off light without an external light source.",
+      "a": "T",
+      "why": "首段指出木材在完全黑暗中也能发光。"
+    },
+    {
+      "s": "The fungi obtain nutrients without changing the structure of the wood.",
+      "a": "F",
+      "why": "第二段说明真菌分解木材结构以吸收养分。"
+    },
+    {
+      "s": "Most visitors to abandoned religious buildings believed the green light brought good luck.",
+      "a": "NG",
+      "why": "文章未提多数访客是否认为绿光带来好运。"
+    }
+  ]
+}

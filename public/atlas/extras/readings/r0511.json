@@ -1,0 +1,48 @@
+{
+  "id": "r0511",
+  "ids": [
+    "absolute",
+    "tracking",
+    "universal",
+    "joint",
+    "hold-up",
+    "spokesman",
+    "orbit",
+    "bacterium",
+    "outbreak",
+    "prosperous"
+  ],
+  "title": "The Harbour Picture That Sparked Panic",
+  "titleZh": "引发恐慌的港口图片",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "For decades, the fishing town of Bellhaven had been [[prosperous|prosperous]], supplying shellfish to restaurants along the coast. Then a regional news website published a satellite image showing green water near its harbour. The headline warned of a possible disease [[outbreak|outbreak]], and buyers cancelled orders. Within hours, the fish market stood almost empty.",
+    "Radio producer Mina Okafor noticed that the report offered no laboratory evidence. Its author had assumed that a satellite in [[orbit|orbit]] could identify a dangerous [[bacterium|bacterium]] simply by photographing the sea. Mina contacted marine researcher Pavel Duran, who explained that such images showed broad changes in water colour, not individual microorganisms. The green patch could have several explanations.",
+    "They began a [[joint|joint]] investigation, comparing the image with records from a water-quality [[tracking|tracking]] programme. A broken laboratory pump caused a two-day [[hold-up|hold-up]], so Mina broadcast what was known without promising [[absolute|absolute]] certainty. Meanwhile, the harbour association's [[spokesman|spokesman]] arranged access to sampling boats. Tests eventually identified harmless algae, while repeated checks found no evidence of the disease mentioned in the headline.",
+    "Mina presented the findings in a short radio documentary, letting listeners hear how samples were collected and tested. Acceptance was not [[universal|universal]]: some restaurant owners waited another week before buying shellfish again. However, the website corrected its report and linked to the test results. By the following month, orders had recovered, and its editors had introduced a rule requiring scientific claims to be checked before publication."
+  ],
+  "zh": [
+    "几十年来，渔业小镇贝尔黑文一直十分富裕，为沿海的餐馆供应贝类海鲜。后来，一家地区新闻网站刊登了一张卫星图片，显示港口附近的海水呈绿色。新闻标题警告说，当地可能暴发疾病，买家纷纷取消订单。几个小时内，鱼市就几乎空无一人。",
+    "电台制作人米娜·奥卡福注意到，这篇报道没有提供任何实验室证据。作者想当然地认为，在轨运行的卫星只需拍摄海面，就能识别出危险的细菌。米娜联系了海洋研究员帕维尔·杜兰，他解释说，这类图片显示的是水体颜色的大范围变化，而不是单个微生物。那片绿色水域可能有多种成因。",
+    "两人展开联合调查，将图片与一项水质跟踪监测计划的记录进行比较。实验室的一台水泵损坏，使检测延误了两天。于是，米娜先播报了已知情况，没有承诺结论绝对可靠。与此同时，港口协会的男发言人安排了采样船供他们使用。检测最终鉴定出了无害的藻类；多次检查也没有发现新闻标题所提疾病的证据。",
+    "米娜用一部简短的广播纪录片介绍了调查结果，让听众了解样本的采集和检测过程。并非所有人都立即接受了结论：一些餐馆老板又等了一周才重新购买贝类海鲜。不过，那家网站更正了报道，并附上检测结果的链接。到下个月，订单量已经恢复，网站编辑也制定了一条规定，要求涉及科学的说法必须经过核实才能发表。"
+  ],
+  "q": [
+    {
+      "s": "The online report caused an immediate fall in demand for Bellhaven's shellfish.",
+      "a": "T",
+      "why": "报道发布后买家取消订单，鱼市迅速冷清。"
+    },
+    {
+      "s": "Mina waited until the laboratory tests were complete before broadcasting any information.",
+      "a": "F",
+      "why": "检测延误期间，米娜已播报了已知情况。"
+    },
+    {
+      "s": "The website paid compensation to the fishing businesses affected by its report.",
+      "a": "NG",
+      "why": "文章仅提及更正报道，未说明是否赔偿。"
+    }
+  ]
+}

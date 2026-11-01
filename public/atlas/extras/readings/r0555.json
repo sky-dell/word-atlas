@@ -1,0 +1,48 @@
+{
+  "id": "r0555",
+  "ids": [
+    "groove",
+    "plank",
+    "commonwealth",
+    "erect",
+    "relish",
+    "inhibit",
+    "pawn",
+    "imperialism",
+    "essayist",
+    "dwarf"
+  ],
+  "title": "Chessboards Beside the Harbour",
+  "titleZh": "港湾边的棋盘作坊",
+  "topic": "work",
+  "cefr": 4,
+  "paras": [
+    "Visitors to Pelara usually climb towards the fortress, whose walls [[dwarf|dwarf]] the waterfront workshops. Yet the island’s working history is more readily discovered below, where Mara Venn makes folding chessboards. Before opening her shutters each morning, she selects a walnut [[plank|plank]] and examines its grain, judging whether it will remain straight through the humid summer.",
+    "Her workshop occupies a former customs room of the island’s short-lived [[commonwealth|commonwealth]], a political community once administered by elected harbour delegates. Merchants played chess here while awaiting cargo inspections. Later, overseas [[imperialism|imperialism]] brought a foreign governor and new trading restrictions; an anonymous [[essayist|essayist]] described the room as a place where commerce and argument shared one table.",
+    "Mara’s boards preserve that association between skilled work and conversation. She cuts a shallow [[groove|groove]] along each folding edge to accommodate the hinge, then invites visitors to sand a single wooden [[pawn|pawn]]. Although spectators sometimes [[inhibit|inhibit]] her concentration, she refuses to replace these encounters with demonstrations behind glass. Customers, she argues, understand the price differently after feeling how slowly rough timber becomes smooth.",
+    "During the autumn harbour fair, neighbouring craftspeople [[erect|erect]] a canvas shelter outside, and Mara carries out a board reserved for public games. She [[relish|relishes]] the moment when a stranger challenges a boatbuilder still wearing his work apron. There is no sales speech: as evening gathers, the pieces pass between hands accustomed to entirely different tasks, and the workshop’s old conversation resumes."
+  ],
+  "zh": [
+    "到访佩拉拉的游客通常会向山上的堡垒攀登，高大的城墙让滨水作坊显得格外矮小。然而，要了解岛上的劳动历史，山下反而是更好的去处：玛拉·文恩就在这里制作折叠棋盘。每天早晨打开窗板之前，她都会挑选一块厚实的胡桃木板，仔细察看纹理，判断它能否在潮湿的夏季保持平直。",
+    "她的作坊设在一间旧海关办公室里，那是岛上短暂存在的共和国留下的建筑。这个政治共同体曾由选举产生的港口代表管理。过去，商人们等待货物查验时，会在这里下棋。后来，海外帝国扩张带来了外国总督和新的贸易限制；一位匿名随笔作家曾将这间屋子形容为商业与争论共用一张桌子的地方。",
+    "玛拉制作的棋盘延续了精湛手艺与交谈之间的联系。她沿着两侧折叠边缘各刻出一道浅槽来安装铰链，然后邀请游客打磨一枚木制的兵。虽然围观者有时会妨碍她集中注意力，她仍不愿把这些互动换成隔着玻璃的演示。她认为，顾客亲手感受过粗糙木料变得光滑是多么缓慢的过程之后，就会以不同的眼光看待价格。",
+    "秋季港口集市期间，邻近的手艺人会在屋外搭起帆布棚，玛拉则搬出一副专供大家对弈的棋盘。每当有陌生人向仍系着工作围裙的造船匠挑战，她都格外享受那一刻。这里没有推销词：暮色渐浓，棋子在习惯于从事截然不同工作的双手之间传递，作坊里古老的交谈又继续了。"
+  ],
+  "q": [
+    {
+      "s": "Visitors to Pelara usually avoid climbing towards the fortress.",
+      "a": "F",
+      "why": "首段说游客通常会向堡垒攀登。"
+    },
+    {
+      "s": "Mara invites visitors to sand a wooden chess piece.",
+      "a": "T",
+      "why": "第三段说她邀请游客打磨一枚木制的兵。"
+    },
+    {
+      "s": "The autumn harbour fair provides Mara with most of her annual income.",
+      "a": "NG",
+      "why": "文章未提集市收入占全年收入的比例。"
+    }
+  ]
+}

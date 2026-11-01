@@ -1,0 +1,48 @@
+{
+  "id": "r0582",
+  "ids": [
+    "ideology",
+    "taboo",
+    "fortify",
+    "trench",
+    "incinerator",
+    "supreme",
+    "boldness",
+    "analytic",
+    "discrepancy",
+    "amplification"
+  ],
+  "title": "Listening Beneath the Ash",
+  "titleZh": "灰烬之下的声音",
+  "topic": "science",
+  "cefr": 4,
+  "paras": [
+    "In 1932, the fictional industrial town of Bellmarsh treated factory expansion as its [[supreme|supreme]] priority. Its civic [[ideology|ideology]] equated visible smoke with collective prosperity, while a powerful social [[taboo|taboo]] discouraged questions about damage beneath factory floors. Engineer Amara Sen encountered this reluctance when investigating repeated settlement around the municipal [[incinerator|incinerator]]. Officials wanted a quick repair, not an inquiry that might interrupt operations.",
+    "Contractors proposed thicker masonry to [[fortify|fortify]] the furnace foundations against further damage. Sen's [[boldness|boldness]] lay in asking them to postpone work until she had investigated the cause. From a narrow [[trench|trench]] beside the building, she installed instruments to record ground vibrations. She also marked cracks in the walls so that any further movement could be measured rather than merely remembered.",
+    "Electronic [[amplification|amplification]] made faint sensor signals strong enough to register on paper, but did not eliminate unwanted noise. Sen's [[analytic|analytic]] approach combined these traces with crack measurements, furnace schedules and rainfall records. A [[discrepancy|discrepancy]] challenged the assumption that furnace operation explained the damage: new settlement followed heavy rain even during a shutdown. This did not establish a cause, but it gave her a reason to inspect the drainage system.",
+    "Excavation revealed a fractured drain leaking into the soil beneath the foundations. After repairs, monitoring through several wet weeks recorded no further settlement. A structural inspection also found that the proposed rebuilding was unnecessary. The furnace returned to service, while Sen kept the monitoring instruments in place to check whether the improvement lasted."
+  ],
+  "zh": [
+    "1932年，虚构的工业城镇贝尔马什将工厂扩张视为头等大事。当地的社会思想将肉眼可见的烟雾等同于共同繁荣，而一种根深蒂固的社会禁忌使人们不愿追问工厂地板下的损害。工程师阿玛拉·森在调查市政焚烧炉周围反复发生的沉降时，就遇到了这种抵触。官员们想要的是迅速修好，而不是开展一项可能中断运行的调查。",
+    "承包商提议加厚砌体，加固焚烧炉地基，防止进一步损坏。森的勇气体现在，她要求他们推迟施工，等她先查明原因。她在建筑旁的一条狭窄沟槽中安装了仪器，用来记录地面振动。她还在墙壁裂缝处做了标记，以便测量任何进一步的位移，而不是仅凭记忆判断。",
+    "电子信号放大技术使传感器传来的微弱信号足以记录在纸上，但并不能消除杂波。森采用的分析方法是结合这些记录曲线、裂缝测量数据、焚烧炉运行时间表和降雨记录进行研究。一处不一致使她质疑损害由焚烧炉运行引起的假设：即使在停炉期间，大雨后也出现了新的沉降。这并不能确定原因，但给了她检查排水系统的理由。",
+    "挖掘发现，一条破裂的排水管正向地基下的土壤渗漏。修复后，连续数个多雨星期的监测未记录到进一步沉降。结构检查也发现，原先提议的重建并无必要。焚烧炉恢复运行，而森将监测仪器留在原处，以检查改善是否持续。"
+  ],
+  "q": [
+    {
+      "s": "The contractors had previously repaired the furnace foundations.",
+      "a": "NG",
+      "why": "文中只提加固提议，未交代此前维修经历。"
+    },
+    {
+      "s": "Amplification eliminated unwanted noise from the sensor signals.",
+      "a": "F",
+      "why": "第三段明确说放大信号并未消除杂波。"
+    },
+    {
+      "s": "Monitoring recorded no further settlement during several wet weeks after the repairs.",
+      "a": "T",
+      "why": "末段明确记载修复后数个多雨星期无新沉降。"
+    }
+  ]
+}

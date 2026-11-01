@@ -1,0 +1,46 @@
+{
+  "id": "r0423",
+  "ids": [
+    "blockage",
+    "advisor",
+    "ultimately",
+    "commonly",
+    "rebellion",
+    "extreme",
+    "steward",
+    "aid",
+    "rag",
+    "contrary"
+  ],
+  "title": "The Night of the Floating Tables",
+  "titleZh": "水上餐桌之夜",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "Visitors to the hill town of Velora are [[commonly|commonly]] told to arrive before sunset for its autumn canal supper. Along the narrow waterway, wooden platforms carry tables set with blue bowls and candles. The custom recalls a [[rebellion|rebellion]] against a ruler who seized the town’s grain two centuries ago. Families secretly sent food along the canal, providing [[aid|aid]] to those hiding beyond the walls. Today, neighbours share pumpkin soup while visitors listen to this history.",
+    "On the afternoon I arrived, however, a [[blockage|blockage]] beneath a stone bridge had stopped the water. In the [[extreme|extreme]] heat, volunteers struggled to remove branches trapped around a broken cartwheel. Mira, a festival [[steward|steward]], guided arriving guests towards the shaded courtyard while wiping dusty seats with a [[rag|rag]]. Some residents wanted to move the supper indoors. The festival’s historical [[advisor|advisor]], Tomas, held a [[contrary|contrary]] view: eating beside the canal mattered more than seeing the tables float. He suggested placing them along the bank instead.",
+    "The volunteers [[ultimately|ultimately]] freed the wheel, but there was too little time to launch every platform safely. Half the tables remained on shore, where strangers passed bowls between them and the floating diners. A small group played flutes from the bridge, pausing whenever someone began a story. The arrangement was less elegant than the pictures in the visitor leaflet, yet it made the evening’s meaning unusually clear: the canal supper celebrated not perfect scenery, but people finding ways to feed one another."
+  ],
+  "zh": [
+    "来到山城维洛拉的游客通常会被告知，要参加秋季运河晚宴，就得在日落前抵达。狭窄的水道上，木制浮台托着餐桌，桌上摆着蓝色碗和蜡烛。这一习俗是为了纪念两百年前反抗一位统治者的起义，当时他没收了镇上的粮食。各家各户偷偷沿运河运送食物，救助藏在城墙外的人。如今，邻里们分享南瓜汤，游客则聆听这段历史。",
+    "然而，我到达的那天下午，一座石桥下的堵塞物阻断了水流。酷热中，志愿者费力地清理缠在一个破车轮周围的树枝。节庆服务人员米拉引导陆续到来的客人前往阴凉的庭院，同时用抹布擦去座椅上的灰尘。一些居民想把晚宴搬到室内。节庆的历史顾问托马斯却持相反意见：比起看餐桌漂浮在水上，在运河边用餐更有意义。他建议改把餐桌摆在岸边。",
+    "志愿者最终清出了车轮，但已没有足够时间将所有浮台安全下水。一半餐桌留在岸上，素不相识的人们把一碗碗食物传递给彼此，也递给水上用餐的人。一小群人在桥上吹奏长笛，每当有人开始讲故事，他们便暂停演奏。这样的布置不如旅游宣传册上的图片精致，却让这个夜晚的意义格外清晰：运河晚宴庆祝的不是完美的景致，而是人们想方设法让彼此吃上饭的情谊。"
+  ],
+  "q": [
+    {
+      "s": "The ruler gave grain to the town rather than taking it away.",
+      "a": "F",
+      "why": "首段说统治者夺走了镇上的粮食。"
+    },
+    {
+      "s": "Tomas suggested putting the tables along the canal bank.",
+      "a": "T",
+      "why": "第二段说他建议将餐桌摆在岸边。"
+    },
+    {
+      "s": "The flute players received payment for performing at the supper.",
+      "a": "NG",
+      "why": "末段提到长笛演奏，未说明是否付酬。"
+    }
+  ]
+}

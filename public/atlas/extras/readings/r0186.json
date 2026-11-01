@@ -1,0 +1,48 @@
+{
+  "id": "r0186",
+  "ids": [
+    "rope",
+    "pour",
+    "awesome",
+    "comic",
+    "content",
+    "dozen",
+    "development",
+    "currently",
+    "freezing",
+    "fitness"
+  ],
+  "title": "A Sailor’s Morning on Dry Land",
+  "titleZh": "陆地上的水手清晨",
+  "topic": "history",
+  "cefr": 2,
+  "paras": [
+    "How hard was life aboard a sailing ship? A small history museum is [[currently|currently]] testing activities described in a sailor’s diary from 1842. Its staff wanted to discover whether practical experience helped visitors understand the diary’s [[content|content]] better than reading alone. They invited a [[dozen|dozen]] adults to join a morning experiment.",
+    "First, everyone read a page about cleaning the ship. Six people then answered questions immediately. The other six went outside, where they pulled a wet [[rope|rope]] across the yard and carried wooden buckets. They had to [[pour|pour]] water into a narrow opening without spilling it. The weather was [[freezing|freezing]], although the activity lasted only twenty minutes.",
+    "Afterwards, the second group answered the same questions. They remembered more details about the work and gave fuller explanations of the sailor’s tiredness. One visitor called the experience “[[awesome|awesome]], but much harder than expected”. Another made a [[comic|comic]] attempt to walk like a tired sailor, which made everyone laugh. However, several people said their own [[fitness|fitness]] had affected how difficult they found the tasks.",
+    "The experiment was small, so it could not prove that activities always improve learning. Still, it supported the [[development|development]] of a new museum programme. Visitors would read the diary, try one safe task, and then return to the page. The sailor’s ordinary words now carried greater meaning."
+  ],
+  "zh": [
+    "帆船上的生活有多辛苦？一家小型历史博物馆目前正在测试一本1842年水手日记中描述的活动。工作人员想了解，与单纯阅读相比，亲身体验是否能帮助参观者更好地理解日记内容。他们邀请了十二名成年人参加一场上午进行的实验。",
+    "首先，所有人都阅读了一页关于清洗船只的日记。随后，六人立即回答问题。另外六人则来到室外，拉着一根湿绳穿过院子，并搬运木桶。他们必须把水倒进一个狭窄的开口，不能洒出来。天气非常冷，不过活动只持续了二十分钟。",
+    "之后，第二组回答了相同的问题。他们记住了更多工作细节，对水手为何疲惫也给出了更完整的解释。一位参观者称这次体验“棒极了，但比预想的难得多”。另一位参观者滑稽地模仿疲惫水手走路的样子，把大家都逗笑了。不过，有几个人表示，他们自身的体能影响了他们对任务难度的感受。",
+    "这次实验规模很小，因此无法证明实践活动总能改善学习效果。不过，它为博物馆一项新活动方案的开发提供了支持。参观者将先阅读日记，再尝试一项安全的任务，最后重新阅读那一页。水手平凡的文字如今有了更深的意义。"
+  ],
+  "q": [
+    {
+      "s": "Some of the invited adults had worked on sailing ships.",
+      "a": "NG",
+      "why": "文章未说明受邀者是否有帆船工作经历。"
+    },
+    {
+      "s": "The participants who did the physical work recalled fewer details than the other group.",
+      "a": "F",
+      "why": "实践组记住了更多工作细节。"
+    },
+    {
+      "s": "The new programme would ask visitors to read the diary again after trying a task.",
+      "a": "T",
+      "why": "新方案安排体验任务后重新阅读日记。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0415",
+  "ids": [
+    "prohibited",
+    "scrape",
+    "anger",
+    "relief",
+    "gradual",
+    "pave",
+    "classify",
+    "enquiry",
+    "masculine",
+    "tickle"
+  ],
+  "title": "Mud Beneath the Meadow",
+  "titleZh": "草甸下的淤泥",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "Welcome to Mud Beneath the Meadow, an exhibition tracing the recovery of a riverside wetland once used for dumping building waste. Begin beside the glass case of muddy boots. These belonged to residents who opposed a plan to [[pave|pave]] the riverbank for a storage yard. Their letters express [[anger|anger]] at the loss of reeds where birds nested.",
+    "The next room follows the wetland's [[gradual|gradual]] recovery over twelve years. Photographs show volunteers using wooden tools to [[scrape|scrape]] mud from stones recovered from the waste. Removing living plants was [[prohibited|prohibited]] under the restoration rules, so workers carefully marked each patch before starting. One recorded interview captures a resident's [[relief|relief]] when frogs returned to a pool that had remained silent for years.",
+    "At the central table, visitors can [[classify|classify]] replica river insects by counting their legs and examining their wings; colour alone is not a reliable guide. Nearby, a label answers a child's [[enquiry|enquiry]] about a recorded speaker. Her deep, [[masculine|masculine]] voice had led the child to mistake this volunteer for a man. Beside the speaker is a copy of the reed brush she used to clean stones. Its soft tips [[tickle|tickle]] your palm when you try it.",
+    "Finish at the window overlooking the restored meadow. The narrow raised walkway allows floodwater to flow beneath it. From here, visitors can see both the cleared riverbank and the patches of reeds the volunteers protected."
+  ],
+  "zh": [
+    "欢迎参观“草甸下的淤泥”。本展览追溯了一片河畔湿地的恢复历程，这里曾被用来倾倒建筑垃圾。请从陈列着沾泥靴子的玻璃展柜开始参观。这些靴子的主人是附近居民，他们曾反对将河岸铺成硬质地面、用作堆料场的计划。他们的信件表达了愤怒：供鸟类筑巢的芦苇丛遭到了破坏。",
+    "下一个展厅展示了湿地在十二年间逐步恢复的过程。照片中，志愿者用木制工具刮去从废料中取出的石头上的泥。修复规定禁止移除活着的植物，因此工作人员在动工前仔细标出了每一处植物生长的位置。一段采访录音记录了一位居民如释重负的心情：多年寂静无声的水池终于又有青蛙回来了。",
+    "在中央展台，参观者可以通过数足和观察翅膀，将河流昆虫模型分类；单凭颜色并不可靠。附近的一块说明牌回答了一个孩子关于录音中说话者的询问。她低沉、带有男性特征的声音让孩子误以为这位志愿者是男性。扬声器旁放着她曾用来清理石头的芦苇刷的复制品。试用时，柔软的刷尖会让你的掌心发痒。",
+    "最后，请来到窗前，俯瞰修复后的草甸。狭窄的高架步道让洪水可以从下方流过。从这里，参观者既能看到清理过的河岸，也能看到志愿者保护下来的片片芦苇丛。"
+  ],
+  "q": [
+    {
+      "s": "The boots on display were owned by people who resisted a proposed change to the riverbank.",
+      "a": "T",
+      "why": "靴子的主人曾反对将河岸改作堆料场。"
+    },
+    {
+      "s": "Visitors are advised to sort the insect models primarily according to their colours.",
+      "a": "F",
+      "why": "原文建议数足、观察翅膀，颜色并不可靠。"
+    },
+    {
+      "s": "The raised walkway was paid for through donations from nearby residents.",
+      "a": "NG",
+      "why": "原文未提及高架步道的资金来源。"
+    }
+  ]
+}

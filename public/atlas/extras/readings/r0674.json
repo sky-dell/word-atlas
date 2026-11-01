@@ -1,0 +1,48 @@
+{
+  "id": "r0674",
+  "ids": [
+    "successor",
+    "spectrum",
+    "registrar",
+    "refuge",
+    "gaudy",
+    "prolific",
+    "meadow",
+    "loom",
+    "supersonic",
+    "liability"
+  ],
+  "title": "A Shelter Beyond the Airfield",
+  "titleZh": "机场外的小小避雨所",
+  "topic": "government",
+  "cefr": 4,
+  "paras": [
+    "When Merewick’s village clerk retired, her [[successor|successor]], Amira Das, inherited an unusual petition: residents wanted a disused airfield observation hut reopened as a walkers’ shelter. Built when [[supersonic|supersonic]] aircraft were tested offshore, the concrete building stood beside a public [[meadow|meadow]]. Its ownership, however, had become obscured by decades of administrative reorganisation, leaving nobody authorised to hand over the keys.",
+    "The district [[registrar|registrar]] eventually located a deed confirming that the village council owned the hut, but ownership brought legal complications. Before volunteers could begin repairs, the council had to establish its [[liability|liability]] for injuries inside. A survey identified loose roof panels rather than structural failure, allowing a modest repair scheme instead of the demolition initially proposed by an insurer.",
+    "Consultation revealed a [[spectrum|spectrum]] of preferences, from preserving every military fitting to painting the exterior orange. Tomas Varga, a [[prolific|prolific]] local muralist, submitted six designs, although several residents considered his striped proposal too [[gaudy|gaudy]] for the landscape. Amira negotiated a quieter alternative: pale walls bearing a narrow illustrated band of coastal plants, with the original observation window left unobstructed.",
+    "By October, walkers could watch storm clouds [[loom|loom]] above the abandoned runway while taking [[refuge|refuge]] beneath the repaired roof. The council published maintenance accounts on a noticeboard, and volunteers checked the hut each Friday. At the opening, the former clerk placed the recovered deed in a display case."
+  ],
+  "zh": [
+    "米尔威克村的村务员退休后，接任者阿米拉·达斯接手了一份不同寻常的请愿书：居民希望重新开放一座废弃的机场观察小屋，为步行者提供遮风避雨之处。这座混凝土建筑建于近海开展超音速飞机试飞的年代，坐落在一片公共草地旁。然而，数十年的行政机构调整使其产权归属变得模糊，以至于无人有权交出钥匙。",
+    "区登记员最终找到了一份契据，确认小屋归村议会所有，但产权也带来了法律上的复杂问题。在志愿者开始修缮之前，议会必须明确自己对屋内人员受伤所承担的法律责任。勘查发现，问题在于屋顶板松动，而非建筑结构失效，因此可以采用规模较小的修缮方案，不必按一家保险机构最初的提议将其拆除。",
+    "征求意见时，居民的偏好呈现出很大的跨度：有人希望保留所有军用装置，也有人主张将外墙刷成橙色。当地创作颇丰的壁画家托马斯·瓦尔加提交了六份设计，不过几位居民认为，他的条纹方案过于花哨，与周围景观不协调。阿米拉协商出一种更素雅的替代方案：浅色墙面配上一条绘有海滨植物的窄饰带，同时保留原有观察窗，不作遮挡。",
+    "到了十月，步行者已经可以在修好的屋顶下避雨，望着暴风雨云在废弃跑道上空阴沉地浮现。议会将维护账目公布在告示板上，志愿者则每周五检查小屋。开放当天，前任村务员把找回的契据放进展示柜。"
+  ],
+  "q": [
+    {
+      "s": "Uncertainty about who owned the hut initially prevented anyone from authorising access.",
+      "a": "T",
+      "why": "首段指出产权不明，无人有权交出钥匙。"
+    },
+    {
+      "s": "Tomas had previously painted murals for the village council.",
+      "a": "NG",
+      "why": "文中未说明托马斯此前是否为村议会作画。"
+    },
+    {
+      "s": "The volunteers checked the reopened hut only once a month.",
+      "a": "F",
+      "why": "末段明确说明志愿者每周五检查小屋。"
+    }
+  ]
+}

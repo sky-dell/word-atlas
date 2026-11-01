@@ -1,0 +1,48 @@
+{
+  "id": "r0309",
+  "ids": [
+    "theme",
+    "refer",
+    "separately",
+    "temporary",
+    "criminal",
+    "dinosaur",
+    "attract",
+    "bother",
+    "battle",
+    "unnecessary"
+  ],
+  "title": "The Labels That Changed a Museum",
+  "titleZh": "让博物馆焕然一新的说明牌",
+  "topic": "society",
+  "cefr": 2,
+  "paras": [
+    "When a broken pipe flooded Bell Street Museum, its three small rooms had to close. Manager Leila moved the dry objects into a hall offered by a neighbour. This [[temporary|temporary]] museum opened on Saturday, but visitors looked confused. Without clear signs, a toy [[dinosaur|dinosaur]] stood beside a soldier’s boot and an old police notebook.",
+    "Leila wanted to [[attract|attract]] families, but she could not afford new display cases. She asked a retired printer, Tomas, for help. Their [[theme|theme]] became “The Stories Objects Tell”. Instead of placing everything [[separately|separately]] around the hall, they arranged three tables showing different parts of the town’s past: play, war and police work.",
+    "Tomas wrote short labels. One explained that the boot belonged to a soldier who had survived a [[battle|battle]] in 1916. Another described how the notebook recorded [[criminal|criminal]] cases. He made sure each label stood close to its object, so readers knew what it [[refer|referred]] to. Leila removed [[unnecessary|unnecessary]] dates and long names that made the stories hard to follow.",
+    "They did not want to [[bother|bother]] visitors with long talks, so they left question cards on each table. By the following weekend, children were asking about old toys while adults shared family memories. The museum had lost its rooms, but it had found a better way to tell its stories."
+  ],
+  "zh": [
+    "贝尔街博物馆的一根水管破裂，馆内进了水，三个小展室只好关闭。馆长莱拉把没有弄湿的物品搬进了邻居提供的一间大厅。这座临时博物馆周六开放了，但参观者看起来很困惑。馆内没有清晰的标牌，一只玩具恐龙摆在一只士兵的靴子和一本旧警察笔记本旁边。",
+    "莱拉想吸引家庭前来参观，却买不起新的展柜。她向退休印刷工托马斯求助。他们把展览主题定为“物品讲述的故事”。他们没有把所有东西分散摆放在大厅各处，而是布置了三张桌子，分别展示小镇过去生活的不同方面：玩乐、战争和警察工作。",
+    "托马斯写了一些简短的说明牌。其中一块解释说，那只靴子的主人是一名在1916年的一场战役中幸存的士兵。另一块介绍了那本笔记本如何记录刑事案件。他确保每块说明牌都紧挨着对应的物品，让读者知道它指的是什么。莱拉删去了不必要的日期，以及那些让故事难以读懂的长名字。",
+    "他们不想用冗长的讲解打扰参观者，于是在每张桌子上放了提问卡。到了下一个周末，孩子们开始询问旧玩具的故事，大人们则分享起家族往事。博物馆虽然失去了展室，却找到了一种更好的方式来讲述自己的故事。"
+  ],
+  "q": [
+    {
+      "s": "The museum's three rooms stayed open after the flood.",
+      "a": "F",
+      "why": "水管破裂导致进水，三个展室只好关闭。"
+    },
+    {
+      "s": "Leila and Tomas arranged three tables about different parts of the town's past.",
+      "a": "T",
+      "why": "三张桌子分别展示玩乐、战争和警察工作。"
+    },
+    {
+      "s": "Visitors donated enough money to repair the museum’s damaged rooms.",
+      "a": "NG",
+      "why": "文章未提及参观者捐款或展室维修费用。"
+    }
+  ]
+}

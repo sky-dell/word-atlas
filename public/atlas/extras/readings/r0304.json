@@ -1,0 +1,48 @@
+{
+  "id": "r0304",
+  "ids": [
+    "sunscreen",
+    "carbon",
+    "honestly",
+    "childhood",
+    "complicated",
+    "thumb",
+    "client",
+    "lane",
+    "aloud",
+    "thermometer"
+  ],
+  "title": "Drawing with the Valley's Trees",
+  "titleZh": "用山谷里的树木作画",
+  "topic": "education",
+  "cefr": 2,
+  "paras": [
+    "Visitors to Willow Valley usually come for the mountain views, but I came for a drawing lesson. Our bus followed the left [[lane|lane]] of a road beside the river. At a small wooden house, artist Amira welcomed six travellers and reminded us to put on [[sunscreen|sunscreen]] before our outdoor class.",
+    "First, she showed us how she made charcoal from fallen branches. Wood contains [[carbon|carbon]], and heating it with very little air leaves a black material useful for drawing. A [[thermometer|thermometer]] beside her special oven showed its temperature. The process sounded [[complicated|complicated]], but Amira explained each step using pictures pinned to a board.",
+    "Under a pear tree, we tried drawing the valley. Amira held a piece of charcoal between her [[thumb|thumb]] and first finger, then made a soft grey line. She spoke about her [[childhood|childhood]], when her grandfather had taught her to draw with burnt sticks. Her first paying [[client|client]] had later asked her to draw that same tree.",
+    "At the end, we read our picture titles [[aloud|aloud]]. Mine was 'A Rather Crooked Mountain'. I admitted [[honestly|honestly]] that drawing was harder than I had expected. Amira smiled and pointed to the dark dust on my fingers. I had not simply seen the valley, she said; I was taking a little of it home."
+  ],
+  "zh": [
+    "游客来到柳树谷，通常是为了欣赏山景，而我是来上一堂绘画课的。我们的巴士沿着河边公路的左侧车道行驶。在一座小木屋前，画家阿米拉迎接了我们六位旅行者，并提醒大家在户外课开始前涂好防晒霜。",
+    "首先，她向我们展示了如何用掉落的树枝制作木炭。木材含有碳，在空气很少的条件下加热后，会留下一种可以用来绘画的黑色材料。她的专用炉旁有一支温度计，显示着炉子的温度。这个过程听起来很复杂，但阿米拉借助钉在板上的图片，逐步进行了讲解。",
+    "在一棵梨树下，我们试着画出山谷。阿米拉用拇指和食指夹住一块木炭，画出一条柔和的灰色线条。她谈起自己的童年，那时她的爷爷或外公教她用烧过的树枝画画。后来，她的第一位付费客户请她画的，正是这棵梨树。",
+    "课程结束时，我们出声读出各自画作的标题。我的标题是《一座有点歪的山》。我坦诚地承认，画画比我想象的更难。阿米拉笑着指了指我手指上的黑色粉末。她说，我不只是看过了这座山谷，还要把它的一小部分带回家。"
+  ],
+  "q": [
+    {
+      "s": "The writer came to Willow Valley for the mountain views rather than a drawing lesson.",
+      "a": "F",
+      "why": "作者明确说自己是来上绘画课的。"
+    },
+    {
+      "s": "Amira bought her special oven in a nearby town.",
+      "a": "NG",
+      "why": "文章未说明专用炉在哪里买的。"
+    },
+    {
+      "s": "The writer found drawing harder than expected.",
+      "a": "T",
+      "why": "作者承认画画比自己原先想象的更难。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0388",
+  "ids": [
+    "acid",
+    "proportion",
+    "sniff",
+    "faithfully",
+    "furnish",
+    "farewell",
+    "glitter",
+    "flock",
+    "generator",
+    "pesticide"
+  ],
+  "title": "An Electronic Nose in the Orchard",
+  "titleZh": "果园里的电子鼻",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "Before orchard workers could rely on an electronic nose, engineer Leila Haddad needed to discover what might confuse it. Her team borrowed an empty farm cabin and [[furnish|furnished]] it with two tables and several chairs. A small [[generator|generator]] supplied electricity to six experimental sensors, designed to detect traces of [[pesticide|pesticide]] drifting through the air during spraying.",
+    "For six weeks, technician Tomas Silva [[faithfully|faithfully]] carried out the same routine each morning. He placed a sensor beside a collection tube, recorded the wind speed and sent the captured air to a laboratory. Nobody was asked to [[sniff|sniff]] the samples: the laboratory measured their chemical contents directly. The key question was what [[proportion|proportion]] of the sensor's warnings matched the laboratory results.",
+    "Initially, only half did. Surprisingly, many false warnings appeared after the cabin floor had been washed. The cleaner contained a mild [[acid|acid]], whose vapour triggered the device. After Leila adjusted its software using additional laboratory data, correct warnings rose to nine out of ten. Rain caused fewer difficulties: even when droplets [[glitter|glittered]] on the sensor's cover, its readings remained stable.",
+    "On the final afternoon, a [[flock|flock]] of starlings settled beyond the cabin while the team packed its equipment. Their [[farewell|farewell]] to the farm was brief, but the experiment had changed the design. The electronic nose could provide useful early warnings, provided it learned to distinguish agricultural chemicals from ordinary cleaning products. It was not yet a replacement for laboratory testing."
+  ],
+  "zh": [
+    "在果园工人能够依靠电子鼻之前，工程师莱拉·哈达德需要弄清哪些因素可能干扰它。她的团队借用了一间空置的农场小屋，添置了两张桌子和几把椅子。一台小型发电机为六个实验用传感器供电，这些传感器旨在检测喷洒作业时飘散在空气中的微量农药。",
+    "连续六周，技术员托马斯·席尔瓦每天早晨都尽职尽责地执行同样的操作。他把一个传感器放在采样管旁，记录风速，再将收集到的空气送往实验室。团队没有让任何人用鼻子闻样本，而是由实验室直接测定其中的化学成分。关键问题在于，传感器发出的警报中，有多大比例与实验室检测结果相符。",
+    "起初，只有一半的警报与检测结果相符。令人意外的是，许多误报出现在小屋地板清洗之后。清洁剂含有一种温和的酸，其蒸气触发了设备。莱拉利用更多实验室数据调整软件后，正确警报的比例上升到了十分之九。雨水造成的麻烦反而较少：即使传感器外罩上的水珠闪闪发光，读数依然稳定。",
+    "最后一天下午，团队收拾设备时，一群椋鸟落在了小屋外不远处。他们与农场的告别很简短，但这次实验已经改变了设备的设计。只要电子鼻学会区分农用化学品和普通清洁用品，就能提供有用的早期预警。不过，它还不能取代实验室检测。"
+  ],
+  "q": [
+    {
+      "s": "The experimental sensors were powered by batteries instead of a generator.",
+      "a": "F",
+      "why": "首段明确说小型发电机为传感器供电。"
+    },
+    {
+      "s": "The laboratory analysed each air sample on the day it arrived.",
+      "a": "NG",
+      "why": "文中未说明实验室何时分析收到的样本。"
+    },
+    {
+      "s": "The sensor's readings remained stable when rain droplets were on its cover.",
+      "a": "T",
+      "why": "第三段说外罩有雨滴时读数仍保持稳定。"
+    }
+  ]
+}

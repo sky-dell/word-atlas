@@ -1,0 +1,48 @@
+{
+  "id": "r0264",
+  "ids": [
+    "install",
+    "historian",
+    "annoy",
+    "further",
+    "check-up",
+    "stressed",
+    "enjoyable",
+    "series",
+    "sweat",
+    "particular"
+  ],
+  "title": "Bringing Old Sounds Back to Life",
+  "titleZh": "让旧日声音重现",
+  "topic": "media",
+  "cefr": 2,
+  "paras": [
+    "What did a busy kitchen sound like a century ago? Radio producer Mina wanted listeners to hear the answer. For a new [[series|series]] about everyday life in the past, she invited [[historian|historian]] Tomas to cook a meal using old tools. Their first dish was bread, made entirely by hand.",
+    "Before recording, the team had to [[install|install]] small microphones around a wooden table. One captured the soft fall of flour; another recorded hands hitting the dough. However, a clock began to [[annoy|annoy]] Mina because its loud ticks covered quieter sounds. Tomas moved it into the next room rather than stopping it.",
+    "Making bread was harder than Mina expected. Soon, [[sweat|sweat]] appeared on her face, and she felt [[stressed|stressed]] when the dough stuck to everything. She remembered her recent [[check-up|check-up]], when a nurse had suggested taking more exercise. This was certainly physical work, although one busy morning could not replace a regular exercise habit.",
+    "Later, Mina explored the recordings [[further|further]] with Tomas. They chose one [[particular|particular]] moment: the crack of the warm bread as he broke it open. Test listeners found this especially [[enjoyable|enjoyable]]. Several said they could almost smell the bread. The programme showed how carefully chosen sounds can make the past feel close, even without a single picture."
+  ],
+  "zh": [
+    "一百年前，忙碌的厨房里会有什么声音？广播节目制作人米娜想让听众亲耳听到答案。为了制作一套讲述过去日常生活的新系列节目，她邀请历史学家托马斯用老式工具做一顿饭。他们首先制作的是面包，全程手工完成。",
+    "录音前，团队需要在一张木桌周围安装小型麦克风。一个用来捕捉面粉轻轻落下的声音，另一个则录下双手拍打面团的声音。然而，一只时钟开始让米娜感到烦躁，因为响亮的滴答声盖住了较轻的声音。托马斯没有让时钟停下来，而是把它搬到了隔壁房间。",
+    "做面包比米娜想象的更费力。很快，她的脸上冒出了汗，而面团到处粘，让她感到焦虑。她想起了最近一次体检，当时一位护士建议她多运动。这确实是体力活，不过，一个忙碌的上午并不能代替规律运动的习惯。",
+    "后来，米娜和托马斯进一步研究了这些录音。他们选中了一个特定的瞬间：托马斯掰开温热面包时发出的脆响。试听者觉得这段声音尤其令人愉快。几个人说，他们仿佛都闻到了面包的香味。这个节目表明，即使没有一张图片，精心挑选的声音也能让遥远的过去变得亲近。"
+  ],
+  "q": [
+    {
+      "s": "Tomas had taken part in radio programmes before Mina invited him.",
+      "a": "NG",
+      "why": "文章未提托马斯此前是否参加过广播节目。"
+    },
+    {
+      "s": "Tomas solved the noise problem by making the clock stop ticking.",
+      "a": "F",
+      "why": "他把时钟搬到隔壁，并未让它停下。"
+    },
+    {
+      "s": "Some test listeners said they could almost smell the bread.",
+      "a": "T",
+      "why": "几位试听者说，他们仿佛闻到了面包香味。"
+    }
+  ]
+}

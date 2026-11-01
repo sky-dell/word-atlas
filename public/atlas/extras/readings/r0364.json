@@ -1,0 +1,48 @@
+{
+  "id": "r0364",
+  "ids": [
+    "debate",
+    "porch",
+    "harvest",
+    "found",
+    "calcium",
+    "economically",
+    "fort",
+    "shrub",
+    "academic",
+    "polish"
+  ],
+  "title": "A Table for Returning Home",
+  "titleZh": "一桌归乡饭",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "On an autumn evening in the mountain village of Arven, visitors gather beneath the [[porch|porch]] of a former [[fort|fort]]. A flowering [[shrub|shrub]] leans against its stone wall, and the smell of warm bread escapes through the doorway. Inside, villagers [[polish|polish]] long wooden tables for a supper marking the end of the apple [[harvest|harvest]].",
+    "The meal began twelve years ago, when baker Leila decided to [[found|found]] a cultural association for people who had moved away. Many returned only briefly, feeling strangely like guests in their birthplace. Her idea caused considerable [[debate|debate]]: some residents wanted a formal ceremony, while others preferred an ordinary meal. The second group eventually persuaded the first.",
+    "Today, each family brings something connected to a personal memory. Beside the bread stands a bowl of fresh cheese, rich in [[calcium|calcium]], made using Leila's grandmother's recipe. Although an [[academic|academic]] study might classify such food as cultural heritage, the explanations offered around the table are simpler: 'My father always cut it this way.' Travellers can reserve a place, and their payments help make the gathering [[economically|economically]] sustainable without charging returning villagers.",
+    "There are no speeches after dinner. Instead, people exchange small stories while washing dishes in the old kitchen. A visitor may arrive expecting a colourful village tradition, yet leave remembering someone's quiet pleasure at being recognised. For one evening, returning home becomes less a journey backwards than an invitation to sit down."
+  ],
+  "zh": [
+    "秋日的一个傍晚，在山村阿尔文，游客聚集在一座旧堡垒的门廊下。一丛开花的灌木倚着石墙，温热面包的香气从门口飘出。屋内，村民们正把长木桌擦得光亮，准备以一顿晚餐庆祝苹果收获季的结束。",
+    "这顿聚餐始于十二年前。当时，面包师莱拉决定为那些已经搬离村庄的人创立一个文化协会。许多人只是短暂返乡，却奇怪地觉得自己在故乡成了客人。她的想法引起了不少讨论：一些居民希望举行正式仪式，另一些则更愿意吃顿家常饭。最终，后者说服了前者。",
+    "如今，每家都会带来一样与个人回忆有关的食物。面包旁摆着一碗富含钙的新鲜奶酪，是按莱拉的祖母或外祖母的配方制作的。学术研究或许会将这样的食物归为文化遗产，但餐桌旁的人给出的解释更简单：“我父亲一直这样切奶酪。”旅行者可以预订座位，他们支付的费用帮助聚餐在经济上维持下去，也让返乡村民无需付费。",
+    "晚餐后没有致辞。大家一边在老厨房里洗碗，一边交换生活中的小故事。游客到来时，或许期待的是多姿多彩的乡村传统，离开时记住的却可能是某个人被认出来时那份安静的喜悦。在这一晚，返乡与其说是一段回溯往昔的旅程，不如说是一声请你坐下的邀请。"
+  ],
+  "q": [
+    {
+      "s": "Residents agreed from the start that the gathering should be an ordinary meal.",
+      "a": "F",
+      "why": "起初有人要正式仪式，有人偏好家常饭。"
+    },
+    {
+      "s": "The cheese served at the gathering is made from milk produced in Arven.",
+      "a": "NG",
+      "why": "文中介绍了奶酪配方，未说明奶的产地。"
+    },
+    {
+      "s": "People share stories while washing dishes after dinner.",
+      "a": "T",
+      "why": "末段明确说大家洗碗时交换小故事。"
+    }
+  ]
+}

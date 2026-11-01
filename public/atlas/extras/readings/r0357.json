@@ -1,0 +1,48 @@
+{
+  "id": "r0357",
+  "ids": [
+    "sue",
+    "electronics",
+    "conduct",
+    "newly",
+    "certainty",
+    "damn",
+    "counsellor",
+    "marine",
+    "remedy",
+    "recognition"
+  ],
+  "title": "Rebuilding a Ship’s Infirmary",
+  "titleZh": "重建船上的医务室",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "Making a museum reconstruction of a nineteenth-century ship’s infirmary begins with evidence rather than timber. At a coastal history centre, researchers [[conduct|conduct]] interviews with sailors’ descendants and examine medical notebooks. A [[newly|newly]] discovered photograph shows where medicine bottles stood, although the team cannot establish with [[certainty|certainty]] what every bottle contained.",
+    "Carpenters then build a narrow room with wooden bunks, using the photograph to position its shelves. Specialists in [[marine|marine]] history check details such as the raised edges that prevented equipment from sliding onto the floor. Each replica [[remedy|remedy]] receives a label explaining its historical purpose, but none contains active medicine. The display describes old treatments without recommending them to visitors.",
+    "The next stage is producing the audio guide. One notebook records a sailor’s plan to [[sue|sue]] a shipowner after an untreated injury. Other accounts [[damn|damn]] the company’s refusal to provide fresh food. Editors preserve this criticism while distinguishing personal claims from confirmed events. Because some family memories remain painful, a [[counsellor|counsellor]] helps contributors discuss their experiences before recording begins. They may withdraw their recordings before the exhibition opens.",
+    "Finally, a technician uses [[electronics|electronics]] to link quiet speakers to buttons beside the bunks. During testing, an elderly contributor’s immediate [[recognition|recognition]] of her grandfather’s face in an enlarged photograph provides an unexpected check on its identification. The completed room combines carefully measured woodwork with recorded voices, allowing visitors to encounter both the practical limits of medical care at sea and the people who lived with them."
+  ],
+  "zh": [
+    "在博物馆里复原一间十九世纪船舶医务室，首先需要的不是木材，而是证据。在一座海岸历史中心，研究人员采访水手的后代，并查阅医疗笔记。一张新近发现的照片显示了药瓶的摆放位置，不过团队无法完全确定每个瓶子里装的是什么。",
+    "随后，木匠建造一间配有木制铺位的狭窄房间，并参照照片确定架子的位置。海洋史专家核查各种细节，例如用来防止器具滑落到地板上的凸起边缘。每件仿制药品都贴有标签，说明其历史用途，但其中均不含有效药物成分。展览介绍过去的治疗方法，却不会建议参观者使用。",
+    "下一步是制作语音导览。一份笔记记载，一名水手因受伤后未得到治疗，打算起诉船主。其他记述则严厉谴责公司拒绝提供新鲜食物。编辑保留这些批评，同时区分个人说法与已证实的事件。由于某些家庭记忆至今仍令人痛苦，一位心理咨询师在录音开始前帮助参与者谈论自己的经历。他们可以在展览开幕前撤回自己的录音。",
+    "最后，技术人员运用电子技术，将低音量扬声器连接到铺位旁的按钮上。测试期间，一位年长的参与者立即认出了放大照片中她祖父或外祖父的面孔，意外地为照片人物身份的确认提供了佐证。完工的房间将尺寸精确的木工作品与录制的人声结合起来，让参观者既了解当年海上医疗条件的局限，也接触到那些亲历这些局限的人。"
+  ],
+  "q": [
+    {
+      "s": "The team knows exactly what every medicine bottle contained.",
+      "a": "F",
+      "why": "首段明确说无法确定每个药瓶的内容物。"
+    },
+    {
+      "s": "None of the replica remedies contains active medicine.",
+      "a": "T",
+      "why": "第二段明确说仿制药品均不含有效药物。"
+    },
+    {
+      "s": "The counsellor receives payment for each contributor who completes a recording.",
+      "a": "NG",
+      "why": "文中未提及心理咨询师的报酬方式。"
+    }
+  ]
+}

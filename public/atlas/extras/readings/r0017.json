@@ -1,0 +1,48 @@
+{
+  "id": "r0017",
+  "ids": [
+    "restaurant",
+    "bus",
+    "father",
+    "foot",
+    "airplane",
+    "french",
+    "him",
+    "p-m",
+    "beginning",
+    "dirty"
+  ],
+  "title": "Lunch Behind the Blue Door",
+  "titleZh": "蓝门后的一顿午餐",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "A blue door stands open on a small street in a [[french|French]] village. Behind it is a [[restaurant|restaurant]] with six tables. I visit it with my [[father|father]] on our first day in France. We arrive by [[airplane|airplane]] in the morning. Then a [[bus|bus]] brings us to the village. We are hungry after our long trip.",
+    "It is one [[p-m|p.m.]] when we sit down. My left [[foot|foot]] hurts, so I am happy to rest. A man called Luc brings us water. His shoes are [[dirty|dirty]] from his garden. He grows food there for his kitchen. A little green leaf is still on one shoe. We all laugh when he sees it.",
+    "At the [[beginning|beginning]] of our meal, Luc puts bread on the table. I ask [[him|him]] about a large pot near the window. It holds bean soup. His mother makes this soup every morning. Today, she adds carrots from the garden. We have two bowls. The soup is hot, and the bread is soft inside.",
+    "After lunch, Luc shows us the garden behind the house. There are beans, carrots and red flowers. His mother waves from the kitchen door. We thank her for our meal. Before we leave, she gives us two carrots for tomorrow. We put the carrots in our bags."
+  ],
+  "zh": [
+    "一个法国村庄的小街上，一扇蓝色的门敞开着。门后是一家只有六张桌子的餐馆。这是我们到法国的第一天，我和爸爸一起来这里。我们早上乘飞机抵达，然后坐公共汽车来到村里。经过长途旅行，我们都饿了。",
+    "我们坐下时是下午一点。我的左脚疼，所以能歇一歇让我很高兴。一个叫吕克的男人给我们端来水。他的鞋子沾着花园里的泥土，很脏。他在花园里种菜，供厨房使用。一只鞋上还粘着一片小绿叶。他看见叶子时，我们都笑了。",
+    "刚开始用餐时，吕克把面包放在桌上。我问他窗边的一口大锅里是什么。里面是豆汤。他妈妈每天早上都做这种汤。今天，她加了花园里种的胡萝卜。我们喝了两碗。汤热乎乎的，面包里面很松软。",
+    "午饭后，吕克带我们看屋后的花园。那里有豆子、胡萝卜和红色的花。他妈妈在厨房门口向我们挥手。我们感谢她做的饭。离开前，她送给我们两根胡萝卜，让我们明天吃。我们把胡萝卜放进包里。"
+  ],
+  "q": [
+    {
+      "s": "The bus ride to the village takes one hour.",
+      "a": "NG",
+      "why": "文章未说明到村里的车程有多长。"
+    },
+    {
+      "s": "They sit down at one p.m.",
+      "a": "T",
+      "why": "文中明确说他们下午一点坐下。"
+    },
+    {
+      "s": "Luc shows them the garden before lunch.",
+      "a": "F",
+      "why": "吕克是在午饭后带他们看花园的。"
+    }
+  ]
+}

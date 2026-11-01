@@ -1,0 +1,46 @@
+{
+  "id": "r0169",
+  "ids": [
+    "goal",
+    "disappear",
+    "push",
+    "theatre",
+    "scientist",
+    "denmark",
+    "eighth",
+    "luckily",
+    "lovely",
+    "exit"
+  ],
+  "title": "Rain Inside a Wooden Box",
+  "titleZh": "木箱里的雨声",
+  "topic": "media",
+  "cefr": 1,
+  "paras": [
+    "Mina Costa makes sound boxes for radio stories in [[denmark|Denmark]]. She works in a small room behind an old [[theatre|theatre]]. Her [[goal|goal]] is to make rain sounds without using water. Real water can damage the recording equipment. Each morning, she puts dry peas inside different wooden boxes. When she turns a box slowly, the peas fall and sound like rain on a roof.",
+    "One Tuesday, a [[scientist|scientist]] who studies storms visits her room. He listens to seven boxes, but they all sound too loud. Mina brings out her [[eighth|eighth]] box. It has small wooden steps inside. She asks him to [[push|push]] a handle on its side to tilt the box. The peas move down the steps, making a soft, [[lovely|lovely]] sound. He smiles and says it sounds like light rain falling on leaves.",
+    "During the recording, the handle breaks. The box falls, and its lid opens. Peas roll across the floor and [[disappear|disappear]] through a hole beside the [[exit|exit]]. [[luckily|Luckily]], Mina has another bag of peas. She repairs the handle and finishes before lunch. That evening, her rain is part of a radio story about a forest. Mina listens at home with her eyes closed. Her little wooden box seems to fill the room with trees."
+  ],
+  "zh": [
+    "米娜·科斯塔在丹麦为广播故事制作音效箱。她在一座老剧院后面的小房间里工作。她的目标是不使用水就能制造雨声，因为真的水可能损坏录音设备。每天早上，她把干豌豆放进不同的木箱里。当她慢慢转动箱子时，豌豆落下来，发出像雨点打在屋顶上的声音。",
+    "一个星期二，一位研究暴风雨的科学家来到她的房间。他听了七个箱子发出的声音，但都觉得太响了。米娜拿出第八个箱子，里面装着小木台阶。她请他推一下箱子侧面的把手，让箱子倾斜。豌豆沿着台阶往下滚，发出轻柔悦耳的声音。他笑着说，这听起来就像小雨落在树叶上。",
+    "录音时，把手断了。箱子掉了下来，盖子也打开了。豌豆滚过地板，从出口旁边的一个洞里掉了下去，不见了。幸好，米娜还有一袋豌豆。她修好了把手，在午饭前完成了录音。那天晚上，她制作的雨声出现在一个关于森林的广播故事里。米娜在家闭着眼睛收听。她的小木箱仿佛让整个房间长满了树。"
+  ],
+  "q": [
+    {
+      "s": "Mina avoids real water because it could harm her recording equipment.",
+      "a": "T",
+      "why": "第一段说真的水可能损坏录音设备。"
+    },
+    {
+      "s": "The visitor thinks the first seven boxes make sounds that are too quiet.",
+      "a": "F",
+      "why": "第二段说他觉得前七个箱子的声音太响。"
+    },
+    {
+      "s": "Mina receives payment for her forest rain recording that evening.",
+      "a": "NG",
+      "why": "末段提到当晚播放录音，未提及报酬。"
+    }
+  ]
+}

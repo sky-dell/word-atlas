@@ -1,0 +1,48 @@
+{
+  "id": "r0539",
+  "ids": [
+    "maximize",
+    "tuition",
+    "tile",
+    "pinch",
+    "satisfactorily",
+    "catching",
+    "undergo",
+    "tanker",
+    "cramp",
+    "motive"
+  ],
+  "title": "A Harbour Inside Your Head",
+  "titleZh": "脑海中的港湾",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "A familiar place can become a surprisingly useful memory tool. Imagine a harbour worker, Leila, taking an evening course in marine science. Her [[motive|motive]] is practical: having saved for months to pay the [[tuition|tuition]], she wants to [[maximize|maximize]] what she remembers. Instead of repeatedly reading her notes, she turns her daily walk along the waterfront into an imaginary storage system.",
+    "At the harbour entrance, she pictures a giant roof [[tile|tile]] covered in tiny sea creatures. This image reminds her of the hard surfaces where marine life settles. Further along, an oil [[tanker|tanker]] appears to [[undergo|undergo]] a strange transformation: its metal sides become transparent, revealing layers of warm and cold water. The impossible ship represents differences in ocean temperature.",
+    "To make another image memorable, she imagines a crab trying to [[pinch|pinch]] her finger beside a drinking fountain. This reminds her to review how animals control water and salt. She avoids imagining a painful leg [[cramp|cramp]], however; an image needs to be distinctive, not distressing. Her enthusiasm proves [[catching|catching]], and a colleague starts building a similar route through his kitchen.",
+    "This technique, often called a memory palace, links new information to places already stored in memory. Yet vivid pictures alone do not guarantee understanding. To check whether the method works [[satisfactorily|satisfactorily]], Leila must explain each scientific idea without looking at her notes. The harbour provides the hooks; careful thought still supplies what hangs on them."
+  ],
+  "zh": [
+    "熟悉的地方可以成为一种出人意料地实用的记忆工具。想象一位名叫莱拉的港口工作人员，她正在参加海洋科学夜校课程。她的动机很实际：为了支付学费，她攒了几个月的钱，因此希望尽可能多地记住所学内容。她没有一遍遍地阅读笔记，而是把每天沿着水边散步的路线变成了一个想象中的信息储存系统。",
+    "在港口入口处，她想象着一块巨大的屋顶瓦片，上面布满了微小的海洋生物。这个画面让她想起海洋生物栖居的坚硬表面。再往前走，一艘油轮似乎正在经历奇特的变化：金属船身变得透明，露出一层层冷暖不同的海水。这艘现实中不可能存在的船，代表着海洋中的温度差异。",
+    "为了让另一个画面更容易记住，她想象一只螃蟹在饮水台旁试图夹住她的手指。这提醒她复习动物如何调节体内的水分和盐分。不过，她不会想象腿部疼痛抽筋的情景；画面需要鲜明独特，却不必令人难受。她的热情很有感染力，一位同事也开始沿着自家厨房中的路线构建类似的记忆系统。",
+    "这种技巧通常被称为“记忆宫殿”，它把新信息与已经储存在记忆中的地点联系起来。然而，生动的画面本身并不能保证理解。为了检验这种方法是否达到了预期效果，莱拉必须在不看笔记的情况下解释每一个科学概念。港湾提供了挂钩，而挂在上面的内容，仍然需要认真思考来填充。"
+  ],
+  "q": [
+    {
+      "s": "Leila's employer contributes to the cost of her evening course.",
+      "a": "NG",
+      "why": "只说她攒钱付学费，未说明雇主是否资助。"
+    },
+    {
+      "s": "The imaginary tanker represents differences in ocean temperature.",
+      "a": "T",
+      "why": "第二段明确说这艘船代表海洋温度差异。"
+    },
+    {
+      "s": "Vivid mental pictures alone guarantee that Leila understands the scientific ideas.",
+      "a": "F",
+      "why": "末段明确说生动画面本身不能保证理解。"
+    }
+  ]
+}

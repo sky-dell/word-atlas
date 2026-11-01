@@ -1,0 +1,46 @@
+{
+  "id": "r0150",
+  "ids": [
+    "share",
+    "tram",
+    "envelope",
+    "parrot",
+    "windsurfing",
+    "cross",
+    "stage",
+    "forward",
+    "colleague",
+    "mess"
+  ],
+  "title": "One Day at the Bay News",
+  "titleZh": "《海湾新闻》的一天",
+  "topic": "media",
+  "cefr": 1,
+  "paras": [
+    "One summer morning in 1982, Mina left the office of the Bay News, a small seaside newspaper. At seven, she took a [[tram|tram]] to the beach to watch a [[windsurfing|windsurfing]] race. Her [[colleague|colleague]], Luis, met her there with his camera. Mina had a notebook ready for the winners' names, but Luis soon saw something else to photograph.",
+    "A green [[parrot|parrot]] flew towards the crowd and landed on a race winner's head. It belonged to a man who sold ice cream near the beach. Luis stepped [[forward|forward]] and took a photograph before the man called his bird back. Mina spoke to the winner, who was laughing. The two reporters decided to [[share|share]] the work: Mina would write about the race, and Luis would write a short report about the bird.",
+    "That evening, Luis brought the photographs to the office in a brown [[envelope|envelope]]. Papers and cups covered the desk in a [[mess|mess]]. Mina had to [[cross|cross]] the room to find a clear space where they could look at the pictures. At this final [[stage|stage]], they checked every name and chose the front page. They put the bird's photograph above the race results. Under it, Mina added the winner's name, so readers would know the name of the winner in the picture."
+  ],
+  "zh": [
+    "1982年夏天的一个早晨，米娜离开了《海湾新闻》的办公室。这是一家海边的小报社。七点，她乘有轨电车去海滩看一场帆板比赛。她的同事路易斯带着相机在那里与她碰面。米娜准备好了笔记本，要记下获胜者的姓名，但路易斯很快就发现了别的拍摄对象。",
+    "一只绿色鹦鹉朝人群飞来，落在一位比赛获胜者的头上。它属于一名在海滩附近卖冰淇淋的男子。路易斯向前迈了一步，赶在那名男子把鸟唤回之前拍下了一张照片。米娜和那位正笑着的获胜者聊了聊。两名记者决定分担工作：米娜写比赛报道，路易斯则写一篇关于这只鸟的短报道。",
+    "那天晚上，路易斯把照片装在一个棕色信封里，带到了办公室。桌上堆满纸张和杯子，乱糟糟的。米娜只好走到房间另一边，找个空地方，好让两人一起看照片。在这最后一个阶段，他们核对了每个人的姓名，并选定了头版内容。他们把鸟的照片放在比赛结果上方。米娜在照片下面加上了那位获胜者的姓名，这样读者就能知道照片中的获胜者叫什么名字。"
+  ],
+  "q": [
+    {
+      "s": "Mina's tram ticket cost one pound.",
+      "a": "NG",
+      "why": "首段提到乘电车，但未说明票价。"
+    },
+    {
+      "s": "Mina took the photograph of the bird on the winner's head.",
+      "a": "F",
+      "why": "第二段明确说照片是路易斯拍的。"
+    },
+    {
+      "s": "The bird's photograph appeared above the race results.",
+      "a": "T",
+      "why": "末段说他们把鸟的照片放在比赛结果上方。"
+    }
+  ]
+}

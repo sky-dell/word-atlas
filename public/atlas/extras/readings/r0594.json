@@ -1,0 +1,48 @@
+{
+  "id": "r0594",
+  "ids": [
+    "differentiate",
+    "sluggish",
+    "embroider",
+    "papercut",
+    "homogeneous",
+    "morality",
+    "uncap",
+    "consensus",
+    "mistress",
+    "hideous"
+  ],
+  "title": "Behind the Parlour Curtain",
+  "titleZh": "客厅帘幕之后",
+  "topic": "society",
+  "cefr": 4,
+  "paras": [
+    "This exhibition reconstructs the social life of Willow Court, a courtyard shared by six households in 1890. Although their matching doorways suggest a [[homogeneous|homogeneous]] community, the objects inside reveal considerable differences in income and influence. As you enter, use the household inventories to [[differentiate|differentiate]] between possessions displayed for visitors and those reserved for private use.",
+    "In the first room, a silk collar rests beside a faded [[papercut|papercut]] depicting two cranes. The papercut's maker, Lin Yue, earned money by teaching neighbours to [[embroider|embroider]] ceremonial clothing. Her account book records a [[sluggish|sluggish]] apprentice whose slow stitching delayed an important order. Yet the same worker produced the intricate collar displayed here, complicating any easy equation of speed with skill.",
+    "The central cabinet explores reputation and [[morality|morality]] through letters concerning a merchant’s [[mistress|mistress]], Mara Varga, who rented the smallest dwelling. One neighbour called her crimson curtains '[[hideous|hideous]]'; another praised her generosity during a winter food shortage. These conflicting judgements demonstrate that there was no [[consensus|consensus]] about her place in the courtyard, despite later accounts presenting its residents as united in disapproval.",
+    "At the final desk, visitors may [[uncap|uncap]] a replica ink bottle and examine its stained rim before writing a label for an ordinary brass key. Was it evidence of ownership, employment or trust? No surviving document identifies its holder. Rather than supplying a reassuring answer, the exhibition ends with this modest uncertainty: a shared address could contain lives whose meanings were never entirely shared."
+  ],
+  "zh": [
+    "本展览重现了1890年柳庭六户人家共居一院的社会生活。虽然整齐划一的门面让人以为这里的居民背景相近，屋内的物品却揭示出他们在收入和影响力上的显著差异。入场时，请借助各户的财物清单，辨别哪些物品用于向访客展示，哪些仅供私人使用。",
+    "第一个房间里，一件丝绸衣领放在一幅已经褪色的双鹤剪纸旁。剪纸的制作者林悦靠教邻居在礼服上刺绣挣钱。她的账本记载了一名动作迟缓的学徒，此人因缝制缓慢而耽误了一笔重要订单。然而，这里展出的精美衣领恰恰出自这名学徒之手，说明不能简单地将速度与技艺画上等号。",
+    "中央展柜通过一批涉及商人情妇玛拉·瓦尔加的书信，探讨名声与道德观念。她租住在院内最小的房屋里。一位邻居称她的深红色窗帘“丑陋不堪”，另一位却赞扬她在某个冬季粮食短缺时慷慨助人。这些相互冲突的评价表明，居民对她在院中的地位并无共识，尽管后来的记述将他们描述为一致排斥她。",
+    "在最后一张书桌前，参观者可以取下一只仿制墨水瓶的瓶盖，观察瓶口的墨渍，然后为一把普通的黄铜钥匙撰写展签。它象征着所有权、雇佣关系，还是信任？没有留存下来的文献能够确认它的持有者。展览没有给出一个令人安心的答案，而是以这个小小的悬念结束：同一个住址之下，可以容纳意义从未完全相通的人生。"
+  ],
+  "q": [
+    {
+      "s": "The household inventories were compiled by the residents themselves.",
+      "a": "NG",
+      "why": "文中未说明各户财物清单由谁编制。"
+    },
+    {
+      "s": "The neighbours were unanimous in their negative opinion of Mara Varga.",
+      "a": "F",
+      "why": "原文明确指出居民对她的评价并无共识。"
+    },
+    {
+      "s": "No surviving document identifies who held the brass key.",
+      "a": "T",
+      "why": "末段明确说留存文献无法确认钥匙持有者。"
+    }
+  ]
+}

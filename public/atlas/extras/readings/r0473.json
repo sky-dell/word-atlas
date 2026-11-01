@@ -1,0 +1,48 @@
+{
+  "id": "r0473",
+  "ids": [
+    "innovation",
+    "bid",
+    "doubtful",
+    "distinguish",
+    "saturn",
+    "medication",
+    "weed",
+    "swallow",
+    "specifically",
+    "cuisine"
+  ],
+  "title": "A Harbour Town on Film",
+  "titleZh": "胶片里的港口小镇",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "Visitors to the harbour town of Bellara often come for its seafood, but a former cinema offers another way to discover local culture. Every Friday evening, its screen lights up with films made by residents between the 1930s and 1970s. Together, these short recordings reveal a town rarely described in guidebooks.",
+    "The project began when archivist Leila Costa found dusty film boxes beneath the stage. Several specialist workshops [[bid|bid]] for the restoration contract, although she was initially [[doubtful|doubtful]] that the damaged material could be saved. The main [[innovation|innovation]] was a scanning method that recovered images without pulling the fragile film through a projector. Now viewers can [[distinguish|distinguish]] individual fishing boats in scenes once hidden by scratches.",
+    "The programme moves beyond the harbour. In one film, a gardener removes a [[weed|weed]] from a herb bed; in another, a pharmacist explains why patients should [[swallow|swallow]] their [[medication|medication]] with water. A later recording shows an astronomy club building a model of [[saturn|Saturn]], its rings cut from cardboard. Such ordinary subjects make the collection unexpectedly intimate: visitors hear regional accents and notice how kitchens, clothes and shop interiors have changed.",
+    "After each screening, a nearby café serves a menu created [[specifically|specifically]] for the event, drawing on the town's older [[cuisine|cuisine]]. Guests might taste bean soup seen bubbling in a black-and-white kitchen only minutes earlier. The films therefore offer more than a view of the past: they give travellers something of it to carry into the evening."
+  ],
+  "zh": [
+    "来到港口小镇贝拉拉的游客往往是冲着海鲜来的，但一座旧电影院提供了另一种了解当地文化的方式。每逢周五晚上，银幕上就会播放居民在20世纪30年代至70年代拍摄的影片。这些短片共同展现了一个旅游指南中鲜少描述的小镇。",
+    "这个项目始于档案管理员莱拉·科斯塔在舞台下发现的几箱积满灰尘的胶片。几家专业工作室竞标了修复合同，不过她起初并不确定这些受损的材料还能否挽救。主要的创新是一种扫描方法，无须让脆弱的胶片穿过放映机，就能恢复影像。如今，观众可以在那些曾被划痕遮蔽的画面里辨认出一艘艘渔船。",
+    "放映内容并不限于港口。一部影片中，园丁正在拔掉香草种植区里的一株杂草；另一部里，药剂师解释了患者为什么应当用水送服药物。一段年代稍晚的录像展示了天文俱乐部制作土星模型的过程，土星环是用硬纸板剪成的。这些日常题材让这批影像出人意料地显得亲切：游客听得到地方口音，也能注意到厨房、服饰和店铺内部陈设的变化。",
+    "每次放映结束后，附近一家咖啡馆都会供应专为这项活动设计的餐点，菜式取材于小镇过去的烹饪传统。几分钟前，观众才在黑白画面中的厨房里看见豆汤咕嘟冒泡，随后就可能亲口尝到它。因此，这些影片不仅让人看见过去，也让旅行者带着一份往日的滋味，继续享受夜晚。"
+  ],
+  "q": [
+    {
+      "s": "Residents used cameras borrowed from the cinema to make the earliest films.",
+      "a": "NG",
+      "why": "首段未说明居民的摄影机来自何处。"
+    },
+    {
+      "s": "Costa initially had doubts about whether the damaged films could be saved.",
+      "a": "T",
+      "why": "第二段明确说她起初怀疑能否修复。"
+    },
+    {
+      "s": "The café serves the special menu before each screening rather than afterwards.",
+      "a": "F",
+      "why": "末段明确说特别餐点在放映后供应。"
+    }
+  ]
+}

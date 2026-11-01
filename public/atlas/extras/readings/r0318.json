@@ -1,0 +1,48 @@
+{
+  "id": "r0318",
+  "ids": [
+    "pile",
+    "flashlight",
+    "handkerchief",
+    "automatic",
+    "keen",
+    "shell",
+    "ink",
+    "expression",
+    "string",
+    "profit"
+  ],
+  "title": "A Cool Corner for Snails",
+  "titleZh": "蜗牛的清凉角落",
+  "topic": "nature",
+  "cefr": 2,
+  "paras": [
+    "Mina grew plants to sell, but snails often ate the leaves. Buying new plants reduced her [[profit|profit]], so she was [[keen|keen]] to find a cheap solution. She wondered whether a cool hiding place could draw snails away from her plants without hurting them.",
+    "She placed two wooden boxes beside a [[pile|pile]] of stones where snails lived. Each box contained the same amount of cabbage. One had a dry cloth roof; the other had a wet one. She used [[string|string]] to hold the roofs in place and wrote labels in waterproof [[ink|ink]]. An [[automatic|automatic]] watering system kept the wet roof damp.",
+    "For six evenings, Mina checked both boxes with a [[flashlight|flashlight]]. Before counting, she wiped her warm face with a [[handkerchief|handkerchief]]. She counted only snails whose whole [[shell|shell]] was inside a box. After each check, she returned them to the stones. She also exchanged the boxes' positions each evening to reduce the possible effect of location on the results.",
+    "The damp box attracted three times as many snails as the dry one. Mina's quiet cheer was an [[expression|expression]] of delight, but she knew this was only a small test. It showed that a damp shelter attracted snails; it did not prove that her plants were safer. Next, she would test the shelter beside her growing beds."
+  ],
+  "zh": [
+    "米娜种植植物出售，但蜗牛经常啃食叶片。购买新植物会减少她的利润，因此她很想找到一个成本低的解决办法。她想知道，一个凉爽的藏身处能否在不伤害蜗牛的情况下，把它们从植物旁引开。",
+    "她在蜗牛栖息的一堆石头旁放了两个木箱。每个箱子里都放了等量的卷心菜。一个箱子盖着干布，另一个盖着湿布。她用细绳固定布盖，并用防水墨水写了标签。一套自动浇水装置让湿布盖一直保持湿润。",
+    "连续六个晚上，米娜都用手电筒查看两个箱子。清点前，她用手帕擦了擦发热的脸。只有整个壳都进入箱内的蜗牛才会被计入。每次查看后，她都把蜗牛放回石堆。她还每晚交换两个箱子的位置，以减少摆放位置可能对结果产生的影响。",
+    "湿箱吸引的蜗牛数量是干箱的三倍。米娜轻声欢呼，表达自己的喜悦，但她知道这只是一次小规模试验。结果表明，潮湿的藏身处能吸引蜗牛，却不能证明她的植物因此更安全。接下来，她会把这个藏身处放到种植畦旁进行测试。"
+  ],
+  "q": [
+    {
+      "s": "Mina sold most of her plants to local shops.",
+      "a": "NG",
+      "why": "文章未说明植物主要卖给谁。"
+    },
+    {
+      "s": "Mina left each box in the same position throughout the experiment.",
+      "a": "F",
+      "why": "她每晚都交换两个箱子的位置。"
+    },
+    {
+      "s": "The damp box attracted more snails than the dry box.",
+      "a": "T",
+      "why": "湿箱吸引的蜗牛数量是干箱的三倍。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0670",
+  "ids": [
+    "destine",
+    "surpass",
+    "mount",
+    "utilize",
+    "transistor",
+    "exquisite",
+    "embankment",
+    "incompatible",
+    "refined",
+    "senate"
+  ],
+  "title": "Making a River Speak",
+  "titleZh": "让河流开口说话",
+  "topic": "society",
+  "cefr": 4,
+  "paras": [
+    "In a riverside district, a neighbourhood workshop is making a listening plaque [[destine|destined]] for an old stone [[embankment|embankment]]. Rather than commemorate a single official, it will preserve the voices of residents whose homes once flooded. Its central recording comes from a retired boatbuilder describing how neighbours shared food while pressure for stronger flood defences began to [[mount|mount]].",
+    "Production begins with the archive. Volunteers compare personal recollections with newspaper reports and a transcript of a [[senate|senate]] debate concerning the river. They do not attempt to make these accounts agree: memories of the same night can be [[incompatible|incompatible]], and the final script identifies such disagreements. Editors [[utilize|utilize]] brief pauses and overlapping voices to suggest a conversation, without altering what individual speakers meant.",
+    "The physical object requires equal care. A metalworker cuts a faceplate from [[refined|refined]] copper, then etches an [[exquisite|exquisite]] pattern based on the river's branching channels. Behind this decorative surface, an amplifier containing a [[transistor|transistor]] strengthens the recorded signal sufficiently to drive a small loudspeaker. Although the prototype sounded impressive indoors, its clarity must [[surpass|surpass]] that initial standard to remain intelligible beside wind and moving water.",
+    "Finally, the assembly is enclosed in a weatherproof housing, with drainage slots beneath the speaker grille. Residents test a full-sized model, checking whether the button can be reached from a wheelchair and whether each account is audible. Once installed, the plaque offers neither a complete history nor an authoritative verdict, but something deliberately smaller: a public place where private memories can be heard."
+  ],
+  "zh": [
+    "在一处滨河街区，一间社区工坊正在制作一块预定安装于古老石砌堤岸上的有声铭牌。它并非为了纪念某位官员，而是要保存家园曾遭洪水侵袭的居民的声音。核心录音来自一位退休造船匠：他讲述了当要求加强防洪设施的呼声开始高涨时，邻居们如何分享食物。",
+    "制作从整理档案开始。志愿者将个人回忆与报纸报道，以及一份有关这条河流的参议院辩论记录相互比对。他们并不试图让这些叙述完全一致：对于同一个夜晚，人们的记忆可能相互矛盾，最终文稿会明确指出这些分歧。编辑利用短暂的停顿和交叠的人声营造对话感，同时不改变每位讲述者的原意。",
+    "实体装置的制作同样需要精心处理。金属工匠用精炼铜切出面板，再以河道分汊的形态为灵感，蚀刻出精美的图案。在这一装饰性表面背后，含有晶体管的放大器将录音信号增强到足以驱动小型扬声器的程度。虽然原型在室内的音效令人赞叹，但要在风声和流水声中依然清晰可辨，其清晰度必须超过最初的水平。",
+    "最后，整套组件被装入防风雨外壳，扬声器格栅下方留有排水槽。居民试用一个全尺寸模型，检查坐轮椅的人能否够到按钮，以及每段讲述是否都能听清。安装完成后，这块铭牌呈现的既不是完整的历史，也不是权威的定论，而是一个刻意保持有限规模的成果：一处让私人记忆得以被听见的公共空间。"
+  ],
+  "q": [
+    {
+      "s": "The editors remove conflicting memories to produce a consistent account of the flood.",
+      "a": "F",
+      "why": "第二段明确说保留分歧，并在文稿中指出。"
+    },
+    {
+      "s": "The copper faceplate costs more to manufacture than the electronic components.",
+      "a": "NG",
+      "why": "文章未比较铜面板与电子组件的制作成本。"
+    },
+    {
+      "s": "Residents test whether the model's button is reachable from a wheelchair.",
+      "a": "T",
+      "why": "末段明确说明居民检查轮椅使用者能否够到按钮。"
+    }
+  ]
+}

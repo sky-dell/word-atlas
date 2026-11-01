@@ -1,0 +1,12 @@
+NODE_ENV=production
+PORT=80
+HTTPS_PORT=443
+PUBLIC_ORIGIN=https://43.133.166.184
+APP_ORIGINS=https://43.133.166.184
+ACCOUNTS_ENABLED=1
+ACCOUNTS_DB=/var/lib/word-atlas/accounts.sqlite
+ACCOUNT_QUOTA_BYTES=41943040
+CLOUD_QUOTA_BYTES=536870912
+ACME_ROOT=/var/lib/word-atlas/acme
+TLS_CERT=/etc/word-atlas/tls/fullchain.pem
+TLS_KEY=/etc/word-atlas/tls/privkey.pem

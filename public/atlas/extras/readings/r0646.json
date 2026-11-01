@@ -1,0 +1,48 @@
+{
+  "id": "r0646",
+  "ids": [
+    "manhole",
+    "intangible",
+    "evoke",
+    "prospective",
+    "mover",
+    "constituent",
+    "metropolitan",
+    "amidst",
+    "conversant",
+    "phonetics"
+  ],
+  "title": "Learning to Hear a City",
+  "titleZh": "学会聆听一座城市",
+  "topic": "education",
+  "cefr": 4,
+  "paras": [
+    "At a converted warehouse in the fictional city of Bellwick, adult learners begin an unusual evening course by listening to a street recording. A loose [[manhole|manhole]] cover clicks beneath passing tyres; nearby, a [[mover|mover]] drags a wardrobe across a delivery ramp. Before anyone sees a photograph, the tutor asks them to reconstruct the scene from its acoustic clues.",
+    "The course introduces [[phonetics|phonetics]], the study of speech sounds, through the wider experience of listening. Its designer, Leila Mensah, argues that becoming [[conversant|conversant]] with unfamiliar accents requires noticing distinctions that habitual listening suppresses. Participants first compare metallic clicks, then examine how the tongue produces different consonants. The exercise does not equate machinery with language; rather, it makes selective attention available for conscious inspection.",
+    "Recordings from across the [[metropolitan|metropolitan]] area also reveal how sound carries social meaning. A market seller's call may [[evoke|evoke]] childhood for one listener while signalling noise to another. Such associations form an [[intangible|intangible]] archive of urban experience. In one classroom discussion, a [[constituent|constituent]] describes asking her elected representative to preserve a neighbourhood bell whose significance was absent from official maps.",
+    "For [[prospective|prospective]] participants, no musical training is required: curiosity is the only entry condition. The final assignment involves identifying a familiar voice [[amidst|amidst]] overlapping conversations, then explaining which features made recognition possible. Although the course cannot eliminate misunderstanding, it offers a modest corrective to careless hearing. The city, initially encountered as a jumble of interruptions, becomes something its listeners can interpret with greater precision."
+  ],
+  "zh": [
+    "在虚构城市贝尔威克一座改建的仓库里，成人学员通过聆听一段街头录音，开始了一门不同寻常的晚间课程。汽车轮胎驶过，松动的检修孔盖发出咔嗒声；附近，一名搬家工人正拖着衣柜经过卸货坡道。在展示任何照片之前，教师请学员根据这些声音线索还原现场。",
+    "这门课程借助更广泛的聆听体验，介绍研究言语声音的语音学。课程设计者莱拉·门萨认为，要熟悉陌生口音，就必须留意那些被习惯性聆听所忽略的差别。学员先比较金属碰撞的咔嗒声，再探究舌头如何发出不同的辅音。这项练习并非把机器声等同于语言，而是让人们能够有意识地审视自己的选择性注意。",
+    "来自整个都市圈的录音也揭示了声音如何承载社会意义。集市商贩的叫卖声可能唤起一个人的童年回忆，却让另一个人觉得是噪声。这些联想构成了一份记录城市生活体验的无形档案。在一次课堂讨论中，一位选区居民讲述了自己如何请求民选代表保留社区的一口钟，而这口钟的意义在官方地图上并未得到体现。",
+    "对于有意报名的人来说，无须接受过音乐训练：好奇心就是唯一的入门条件。最后一项作业是在相互交叠的谈话声中辨认出熟悉的嗓音，再解释哪些特征帮助自己完成了辨认。尽管这门课程无法消除误解，却能在一定程度上纠正漫不经心的聆听习惯。起初听来杂乱纷扰的城市，逐渐成为聆听者能够更加准确理解的对象。"
+  ],
+  "q": [
+    {
+      "s": "Learners see a photograph of the street before being asked to reconstruct the scene.",
+      "a": "F",
+      "why": "教师在展示任何照片之前就要求还原现场。"
+    },
+    {
+      "s": "Leila Mensah taught phonetics at a university before designing this course.",
+      "a": "NG",
+      "why": "文中未交代门萨此前的大学教学经历。"
+    },
+    {
+      "s": "The final assignment asks participants to explain how they recognised a familiar voice.",
+      "a": "T",
+      "why": "末段要求解释哪些特征使嗓音辨认成为可能。"
+    }
+  ]
+}

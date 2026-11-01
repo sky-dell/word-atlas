@@ -1,0 +1,48 @@
+{
+  "id": "r0482",
+  "ids": [
+    "apiece",
+    "considerably",
+    "note-taking",
+    "democracy",
+    "chaos",
+    "magnet",
+    "stack",
+    "sophisticated",
+    "herbal",
+    "tenant"
+  ],
+  "title": "A Room for Better Decisions",
+  "titleZh": "让决策更明智的小屋",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "When a shared courtyard became a source of arguments, eight residents of Willow Court started a small decision-making project. Each [[tenant|tenant]] paid two coins [[apiece|apiece]] for materials, and a retired carpenter, Amira, offered her workshop for meetings. Their aim was simple: to think more clearly together before spending the courtyard's limited gardening budget.",
+    "The first meeting ended in [[chaos|chaos]]. Suggestions overlapped, nobody recorded prices, and three people believed their ideas had been approved. For the next session, Amira placed a [[stack|stack]] of blank cards beside a pot of [[herbal|herbal]] tea. Each proposal went on a separate card, held against a metal board with a [[magnet|magnet]]. A volunteer handled [[note-taking|note-taking]], recording both supporting arguments and practical objections.",
+    "The group also read a short booklet about [[democracy|democracy]], including how citizens choose their leaders. Although their courtyard meetings were not a government, residents borrowed the principle of electing someone to chair discussions. They agreed that the chair would guide conversation rather than decide the result. No [[sophisticated|sophisticated]] software was needed: the board made competing ideas visible, while the written record prevented old misunderstandings from returning.",
+    "After six weeks, meetings were [[considerably|considerably]] shorter, and the residents chose raised planting beds instead of an expensive fountain. By autumn, the beds supplied mint and beans for shared meals. More importantly, the group kept its cards: rejected proposals had become useful evidence of how their thinking had changed."
+  ],
+  "zh": [
+    "柳庭公寓的共用庭院引发争执后，八位住户发起了一个小型决策项目。每位租客各出两枚硬币购买材料，退休木匠阿米拉则提供自己的工作间作为开会地点。他们的目标很简单：在动用庭院有限的园艺预算之前，一起把问题想清楚。",
+    "第一次会议以一片混乱告终。大家同时提出建议，没有人记录价格，还有三个人以为自己的想法已经获得通过。下次开会时，阿米拉在一壶花草茶旁放了一叠空白卡片。每项提议单独写在一张卡片上，再用磁铁固定在金属板上。一位志愿者负责记笔记，把支持理由和实际层面的反对意见都记录下来。",
+    "小组还读了一本介绍民主的小册子，其中包括公民如何选举领导人。虽然庭院会议并不是政府，但住户们借鉴了选举的原则，推选一人主持讨论。他们约定，主持人的职责是引导交流，而不是决定结果。整个过程不需要复杂先进的软件：展示板让不同方案一目了然，文字记录则避免了旧有误解再次出现。",
+    "六周后，会议时间明显缩短，住户们也决定采用高架种植床，而不是建造昂贵的喷泉。到了秋天，种植床产出的薄荷和豆子已经可以用于大家的聚餐。更重要的是，小组保留了那些卡片：被否决的提议成了有用的记录，展现出他们的想法是如何改变的。"
+  ],
+  "q": [
+    {
+      "s": "At the initial meeting, some participants mistakenly thought their suggestions had been accepted.",
+      "a": "T",
+      "why": "首次会议中，三人误以为自己的想法已获通过。"
+    },
+    {
+      "s": "The elected chair was expected to serve for a full year.",
+      "a": "NG",
+      "why": "文章说明了主持人的职责，未说明任期。"
+    },
+    {
+      "s": "The residents chose an expensive fountain rather than raised planting beds.",
+      "a": "F",
+      "why": "居民选择了种植床，而非昂贵的喷泉。"
+    }
+  ]
+}

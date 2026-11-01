@@ -1,0 +1,46 @@
+{
+  "id": "r0021",
+  "ids": [
+    "my",
+    "later",
+    "soon",
+    "umbrella",
+    "after",
+    "around",
+    "by",
+    "smell",
+    "grandparent",
+    "friendly"
+  ],
+  "title": "The Bread Shop Map",
+  "titleZh": "面包店里的地图",
+  "topic": "travel",
+  "cefr": 0,
+  "paras": [
+    "Last May, I went to a small seaside town with one of [[my|my]] [[grandparent|grandparents]], Grandpa Chen. We wanted to visit a little boat museum. [[my|My]] paper map showed a short walk from our room. We left [[after|after]] breakfast, but rain started in the street. We had no [[umbrella|umbrella]]. The map got wet, and I could not read the street names.",
+    "We stood under a tree. There were small shops [[around|around]] a square, but we could not see the museum. Then a warm [[smell|smell]] of bread came from an open door. We went inside the bread shop. A [[friendly|friendly]] woman called Ada gave us two chairs. I showed her the wet map. She smiled and found a clean paper bag.",
+    "A new map was drawn [[by|by]] Ada on the bag. She put a star next to the museum and showed us the way. [[soon|Soon]], the rain stopped. Ten minutes [[later|later]], we found the museum behind a blue house. Grandpa loved the little wooden boats. On our way back, we bought bread from Ada. I kept her paper bag as a happy memory of our trip."
+  ],
+  "zh": [
+    "去年五月，我和我的祖父（或外祖父）陈先生去了一个海边小镇。我们想参观一家小小的船舶博物馆。我的纸质地图显示，从我们住的房间走一小段路就能到。我们吃过早饭后出门了，但走在街上时下起了雨。我们没有雨伞。地图淋湿了，我看不清街道名称。",
+    "我们站在一棵树下。一个广场周围有几家小店，但我们看不到博物馆。接着，一股暖暖的面包香从一扇开着的门里飘了出来。我们走进面包店。一位名叫艾达的亲切女士给了我们两把椅子。我给她看了那张湿地图。她笑了笑，找来一个干净的纸袋。",
+    "艾达在纸袋上画了一张新地图。她在博物馆旁边画了一颗星星，告诉我们该怎么走。不久，雨停了。十分钟后，我们在一座蓝色房子后面找到了博物馆。老人家很喜欢那些小木船。回去的路上，我们在艾达那里买了面包。我留下了她的纸袋，作为这次旅行的美好纪念。"
+  ],
+  "q": [
+    {
+      "s": "The visitors had an umbrella.",
+      "a": "F",
+      "why": "原文明确说他们没有雨伞。"
+    },
+    {
+      "s": "Ada drew a map on a paper bag.",
+      "a": "T",
+      "why": "艾达在纸袋上画了一张新地图。"
+    },
+    {
+      "s": "The museum tickets cost five pounds each.",
+      "a": "NG",
+      "why": "文中没有说明博物馆门票的价格。"
+    }
+  ]
+}

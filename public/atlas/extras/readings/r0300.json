@@ -1,0 +1,48 @@
+{
+  "id": "r0300",
+  "ids": [
+    "booklet",
+    "hunting",
+    "novel",
+    "wise",
+    "priest",
+    "negative",
+    "consumer",
+    "marriage",
+    "tournament",
+    "pregnant"
+  ],
+  "title": "A Year in a Small Book",
+  "titleZh": "小册子里的一年",
+  "topic": "history",
+  "cefr": 2,
+  "paras": [
+    "For centuries, European families bought almanacs: small books that helped them plan the year. Each [[booklet|booklet]] usually contained a calendar, weather predictions and practical advice. Unlike a [[novel|novel]], it was not meant to be read from beginning to end. People opened it when they needed an answer.",
+    "Early printed almanacs mixed useful facts with beliefs about the stars. They suggested dates for planting crops, going [[hunting|hunting]] or holding a [[marriage|marriage]] ceremony. A village [[priest|priest]] might check the dates of religious holidays, while a farmer looked for signs of rain. Some editions even offered advice to [[pregnant|pregnant]] women, although this was not always based on sound medical knowledge.",
+    "During the eighteenth and nineteenth centuries, publishers added more material to attract buyers. A [[consumer|consumer]] could choose a cheap edition with farming tips or a larger one with stories and jokes. Some local editions listed fairs and sporting events, such as a chess [[tournament|tournament]]. Advice from supposedly [[wise|wise]] writers appeared beside advertisements for soap or tools.",
+    "However, wrong weather predictions could have a [[negative|negative]] effect on readers who trusted them too much. As newspapers and specialist guides spread, the almanac gradually lost its central place in many homes. Yet surviving copies remain valuable: their worn pages show what ordinary people wanted to know before beginning another year."
+  ],
+  "zh": [
+    "几个世纪以来，欧洲家庭都会购买年鉴这种帮助他们安排一年生活的小书。每本小册子通常包含日历、天气预测和实用建议。它与长篇小说不同，并不是供人从头到尾阅读的。人们需要寻找答案时，才会翻开它。",
+    "早期印刷的年鉴把实用信息与有关星象的观念混在一起。它们会建议适合种庄稼、狩猎或举行婚礼的日期。村里的神父可能用它查询宗教节日的日期，农民则会寻找下雨的迹象。有些版本甚至为孕妇提供建议，不过这些建议并不总是以可靠的医学知识为依据。",
+    "在十八和十九世纪，出版商增加了更多内容来吸引买家。消费者可以选择附有农耕窍门的廉价版本，也可以买内容更多、包含故事和笑话的版本。一些地方版本会列出集市和体育赛事，例如国际象棋锦标赛。那些据说很有智慧的作者所写的建议，就刊登在肥皂或工具的广告旁边。",
+    "然而，错误的天气预测可能给过分信任它们的读者带来不利影响。随着报纸和专业指南的普及，年鉴逐渐失去了在许多家庭中的核心地位。不过，保存至今的年鉴仍然很有价值：那些磨损的书页展示了普通人在新的一年开始前想要了解什么。"
+  ],
+  "q": [
+    {
+      "s": "Almanacs were cheaper to buy than novels.",
+      "a": "NG",
+      "why": "首段比较了阅读方式，未比较价格。"
+    },
+    {
+      "s": "Advice for pregnant women in early almanacs was always based on reliable medical knowledge.",
+      "a": "F",
+      "why": "第二段明确说这些建议并非总有可靠医学依据。"
+    },
+    {
+      "s": "Buyers could choose larger almanacs containing stories and jokes.",
+      "a": "T",
+      "why": "第三段说明有包含故事和笑话的较大版本。"
+    }
+  ]
+}

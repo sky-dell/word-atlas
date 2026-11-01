@@ -1,0 +1,46 @@
+{
+  "id": "r0149",
+  "ids": [
+    "tidy",
+    "wool",
+    "purse",
+    "sunset",
+    "notice",
+    "united-kingdom",
+    "probably",
+    "cloth",
+    "transport",
+    "drop"
+  ],
+  "title": "A New Job for an Old Purse",
+  "titleZh": "旧零钱包的新用途",
+  "topic": "environment",
+  "cefr": 1,
+  "paras": [
+    "Mina grew small plants for sale in the [[united-kingdom|United Kingdom]]. During [[transport|transport]] to a nearby market, the soil often became dry. She wanted to save water without buying plastic covers. One morning, she found an old [[wool|wool]] [[purse|purse]] while making her work table [[tidy|tidy]]. It had a large hole, but most of the material was still good. Could this keep water in the soil? She decided to try a small experiment before her next market day.",
+    "Mina filled four small pots with the same amount of soil. She cut two circles from the thick [[cloth|cloth]] and put them over the soil in two pots. She left the other two pots uncovered. Each pot received fifty millilitres of water. Then she placed all four beside the same sunny window. There were no plants in them, so plants could not take up any water. She weighed each pot at noon and again at [[sunset|sunset]].",
+    "Mina [[notice|noticed]] that the weight of the uncovered pots had [[drop|dropped]] more. They had lost more water. The covers would [[probably|probably]] help her market plants, too. Her next test would include plants and a market journey. For now, the old material had earned a place on her table."
+  ],
+  "zh": [
+    "米娜在英国种植小型植物出售。运往附近市场时，盆里的土常常会变干。她想节约用水，又不想购买塑料盖子。一天早上，她在整理工作台时发现了一个旧羊毛零钱包。包上有个大洞，但大部分材料还完好。这种材料能留住土里的水分吗？她决定在下次赶集之前做一个小实验。",
+    "米娜在四个小花盆里装入等量的土。她从厚布料上剪下两个圆片，盖在其中两盆的土上，另外两盆不盖。她给每盆倒入五十毫升水，然后把四个花盆都放在同一扇阳光充足的窗户旁。盆里没有植物，因此不会有植物吸收水分。她在中午称了每个花盆的重量，日落时又称了一次。",
+    "米娜注意到，没有盖子的花盆重量下降得更多，说明它们流失了更多水分。这些盖片很可能也能帮助她要带到市场的盆栽保水。她打算在下一次测试中加入植物，并把它们运到市场。目前，这块旧材料已经值得在她的工作台上占有一席之地了。"
+  ],
+  "q": [
+    {
+      "s": "The journey to the market took Mina half an hour.",
+      "a": "NG",
+      "why": "文中未说明运往市场需要多长时间。"
+    },
+    {
+      "s": "There were no plants in the pots during the first test.",
+      "a": "T",
+      "why": "第二段明确说实验的盆里没有植物。"
+    },
+    {
+      "s": "Mina planned to leave plants out of her next test.",
+      "a": "F",
+      "why": "末段明确说下次测试会加入植物。"
+    }
+  ]
+}

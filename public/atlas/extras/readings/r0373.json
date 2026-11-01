@@ -1,0 +1,48 @@
+{
+  "id": "r0373",
+  "ids": [
+    "applause",
+    "medieval",
+    "guidance",
+    "entrepreneur",
+    "bribe",
+    "remarkable",
+    "making",
+    "blunt",
+    "linen",
+    "cutter"
+  ],
+  "title": "How Microbes Release Linen Fibres",
+  "titleZh": "微生物如何释放亚麻纤维",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "At a craft demonstration beside a [[medieval|medieval]] European watermill, a worker pulls long, pale fibres from a bundle of flax stems. The audience responds with [[applause|applause]], but the most important work happened earlier, inside a soaking tank. The [[making|making]] of [[linen|linen]] depends on a [[remarkable|remarkable]] natural process: microorganisms break down the substances that hold plant tissues together.",
+    "Flax fibres lie beneath the stem's outer surface, bound to surrounding tissues by materials including pectin. When harvested stems are submerged in water, bacteria multiply and release enzymes that attack these binding materials. This treatment, called retting, loosens the fibres without immediately destroying them. Temperature matters: warm water generally encourages faster bacterial activity, while cold conditions slow the process.",
+    "Under an experienced worker's [[guidance|guidance]], beginners learn to test a stem rather than follow a fixed timetable. If fibres separate easily, the flax is removed and dried. Left too long, it may become weak. Afterwards, a wooden blade with a [[blunt|blunt]] edge helps scrape away broken woody fragments. Unlike a sharp [[cutter|cutter]], it is intended to clean the long fibres rather than slice through them.",
+    "A display at the mill also explains the environmental cost. Retting water contains organic waste whose decomposition can consume oxygen in rivers. An [[entrepreneur|entrepreneur]] opening a workshop must therefore budget for wastewater treatment; dishonest operators might instead [[bribe|bribe]] inspectors to overlook harmful discharges. Understanding the microbes reveals both the skill behind the cloth and why managing the leftover water matters."
+  ],
+  "zh": [
+    "在一座中世纪欧洲水磨坊旁的手工艺演示中，一名工人从一捆亚麻茎中抽出浅色的长纤维。观众报以掌声，但最关键的工作早已在浸泡池里完成。亚麻布的制作依赖一个非凡的自然过程：微生物分解将植物组织黏合在一起的物质。",
+    "亚麻纤维位于茎的外表层之下，由包括果胶在内的物质与周围组织黏合在一起。收割后的茎浸入水中，细菌便会繁殖，并释放分解这些黏合物质的酶。这种处理称为沤麻，能使纤维松开，而不会立即将其破坏。温度十分重要：温水通常能加快细菌活动，寒冷条件则会减慢这一过程。",
+    "在熟练工人的指导下，初学者学会通过检查茎来判断进度，而不是遵循固定的时间表。如果纤维很容易分离，就将亚麻取出并晾干。浸泡过久，纤维可能会变得脆弱。随后，工人用边缘较钝的木刮板刮去破碎的木质残片。与锋利的切割工具不同，它的作用是清理长纤维，而非将其切断。",
+    "磨坊里的一块展板还解释了这一工艺的环境代价。沤麻水含有有机废物，其分解过程可能消耗河流中的氧气。因此，开办作坊的创业者必须为废水处理预留资金；不诚实的经营者则可能向检查人员行贿，让他们对有害排放视而不见。了解这些微生物，既能让人看到布料背后的技艺，也能说明为何妥善处理剩余的水如此重要。"
+  ],
+  "q": [
+    {
+      "s": "Microorganisms perform an essential task before the fibres are pulled out during the demonstration.",
+      "a": "T",
+      "why": "关键分解过程此前已在浸泡池中完成。"
+    },
+    {
+      "s": "Beginners are taught to determine soaking time by a set schedule rather than by examining the stems.",
+      "a": "F",
+      "why": "初学者通过检查茎判断，而非依照固定时间表。"
+    },
+    {
+      "s": "The mill display compares the prices of several wastewater treatment systems.",
+      "a": "NG",
+      "why": "文章未提展板比较废水处理系统的价格。"
+    }
+  ]
+}

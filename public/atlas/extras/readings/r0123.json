@@ -1,0 +1,46 @@
+{
+  "id": "r0123",
+  "ids": [
+    "ant",
+    "raise",
+    "set",
+    "feed",
+    "pancake",
+    "except",
+    "still",
+    "fresh",
+    "comma",
+    "destroy"
+  ],
+  "title": "The Invisible Road to Lunch",
+  "titleZh": "通往午餐的隐形道路",
+  "topic": "nature",
+  "cefr": 1,
+  "paras": [
+    "At a picnic beside a stone wall, Mina notices a moving line on the ground. She has [[set|set]] her plate on the grass, and a piece of [[fresh|fresh]] [[pancake|pancake]] has fallen beside it. One [[ant|ant]] finds the food first. Soon, many more arrive to [[feed|feed]] on it. Their narrow line curves like a [[comma|comma]] on a page. How do they all find the same small piece of food?",
+    "The first visitor leaves a smell on the ground as it returns home. Other members of its group follow this smell. They collect food and leave more of the same smell behind. Together, they [[raise|raise]] the strength of the signal, making the route easier to follow. Almost everything about this road is hidden from Mina [[except|except]] the insects themselves. They do not need to see the food from far away.",
+    "Mina lifts her plate, but the insects are [[still|still]] following their road. Moving the plate does not remove the smell. Heavy rain, however, can [[destroy|destroy]] the route by washing the signal away. Without new food trips, the smell also slowly disappears. Mina carries her lunch to a bench, leaving the tiny travellers to finish their meal."
+  ],
+  "zh": [
+    "在石墙旁野餐时，米娜注意到地面上有一条移动的队伍。她把盘子放在草地上，一小块新鲜的薄煎饼掉在了旁边。一只蚂蚁最先发现了食物。不久，更多蚂蚁赶来进食。它们排成的细长队伍弯弯的，像纸上的一个逗号。它们怎么都能找到同一小块食物呢？",
+    "第一只找到食物的蚂蚁在回家的路上，会在地面留下气味。同一群体的其他蚂蚁会沿着这种气味前进。它们收集食物，并留下更多相同的气味。它们共同增强了信号，让这条路线更容易辨认。除了蚂蚁本身，米娜几乎看不到这条道路的任何部分。蚂蚁不需要从远处看见食物。",
+    "米娜拿起盘子，但蚂蚁仍然沿着它们的道路前进。移走盘子并不会清除气味。不过，大雨能冲走气味信号，毁掉这条路线。如果蚂蚁不再来回搬运食物，气味也会慢慢消失。米娜带着午餐走向一张长椅，让这些小小的旅行者继续吃完它们的一餐。"
+  ],
+  "q": [
+    {
+      "s": "Many ants find the fallen food before the first ant arrives.",
+      "a": "F",
+      "why": "原文说一只蚂蚁先发现，随后更多蚂蚁到来。"
+    },
+    {
+      "s": "Other ants follow the smell left by the first ant.",
+      "a": "T",
+      "why": "第二段明确说其他蚂蚁沿它留下的气味前进。"
+    },
+    {
+      "s": "The ants finish the food before Mina leaves the picnic area.",
+      "a": "NG",
+      "why": "文章未说明蚂蚁吃完时米娜是否已离开。"
+    }
+  ]
+}

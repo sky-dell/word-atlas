@@ -1,0 +1,48 @@
+{
+  "id": "r0284",
+  "ids": [
+    "dislike",
+    "lecture",
+    "filling",
+    "admire",
+    "condition",
+    "separate",
+    "pure",
+    "yawn",
+    "chilli",
+    "ripe"
+  ],
+  "title": "Before Breakfast in the Garden",
+  "titleZh": "早餐前的花园观察",
+  "topic": "daily",
+  "cefr": 2,
+  "paras": [
+    "At six this morning, I took my notebook into the kitchen garden. I [[yawn|yawned]] as I opened the gate, but the wet leaves soon caught my attention. During yesterday's [[lecture|lecture]] at the village hall, gardener Amara had suggested watching snails before breakfast. I [[admire|admire]] her patience: she can spend an hour studying one small creature.",
+    "Beside a [[ripe|ripe]] tomato, I found three snails under a broken pot. Their shells were in good [[condition|condition]], with no cracks that I could see. I drew each snail on a [[separate|separate]] page so that I would not mix up my notes. One had a pale line across its shell.",
+    "As the sun rose, that snail moved towards the shade. It seemed to [[dislike|dislike]] the dry edge of the path, turning back when it reached the dusty stones. I put a little [[pure|pure]] water, with nothing added, on the soil nearby. However, it continued towards the pot rather than towards the water.",
+    "At seven, I sat on the step with a sandwich. Its [[filling|filling]] was cheese and a little chopped [[chilli|chilli]] from the garden. While I ate, the marked snail disappeared beneath the pot. Yesterday, I had thought this corner was empty. Now I knew where to look tomorrow, and why I needed to arrive early."
+  ],
+  "zh": [
+    "今天早上六点，我带着笔记本走进菜园。开门时，我打了个哈欠，但湿漉漉的叶子很快吸引了我的注意。在昨天村礼堂的讲座上，园艺师阿玛拉建议大家在早餐前观察蜗牛。我很钦佩她的耐心：她可以花一个小时研究一只小生物。",
+    "在一个成熟的番茄旁边，我发现一只破花盆下面有三只蜗牛。它们的壳状况良好，我没有看到裂纹。我把每只蜗牛分别画在不同的页面上，以免弄混记录。其中一只的壳上有一道浅色的线。",
+    "太阳升起时，那只蜗牛朝阴凉处爬去。它似乎不喜欢小路干燥的边缘，爬到满是灰尘的石头上就掉头了。我在附近的土壤上倒了一点没有添加任何东西的纯净水。然而，它继续朝花盆爬去，而不是朝有水的地方爬。",
+    "七点，我拿着一个三明治坐在台阶上。三明治的夹心是奶酪和一点从菜园里摘来切碎的辣椒。我吃东西时，那只有浅色标记的蜗牛消失在花盆下面。昨天，我还以为这个角落空无一物。现在，我知道明天该去哪里观察，也知道为什么需要早点来了。"
+  ],
+  "q": [
+    {
+      "s": "The writer's early visit followed advice given at a village talk.",
+      "a": "T",
+      "why": "作者按村里讲座的建议，在早餐前观察蜗牛。"
+    },
+    {
+      "s": "The snail with the pale line was the largest of the three.",
+      "a": "NG",
+      "why": "文章未比较三只蜗牛的大小。"
+    },
+    {
+      "s": "The snail with the pale line changed direction to reach the water.",
+      "a": "F",
+      "why": "它继续朝花盆爬，而非朝水爬。"
+    }
+  ]
+}

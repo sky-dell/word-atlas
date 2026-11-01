@@ -1,0 +1,48 @@
+{
+  "id": "r0202",
+  "ids": [
+    "lecturer",
+    "rate",
+    "overcoat",
+    "lifestyle",
+    "weigh",
+    "limited",
+    "footbridge",
+    "temple",
+    "sunlight",
+    "swan"
+  ],
+  "title": "Measuring Winter at the Pond",
+  "titleZh": "池塘边的冬日测量",
+  "topic": "science",
+  "cefr": 2,
+  "paras": [
+    "12 January, 7:30 a.m. The pond behind the old [[temple|temple]] was partly covered with ice. I met Mira, a university [[lecturer|lecturer]] who studies water plants, beside the wooden [[footbridge|footbridge]]. Wearing a thick [[overcoat|overcoat]], she carried a small set of scales. We had come to measure how quickly floating plants grew during winter.",
+    "Mira's [[lifestyle|lifestyle]] follows the seasons: early mornings outside in summer, shorter visits in winter, and quiet afternoons recording results. Today, our time was [[limited|limited]] because heavy rain was expected by ten. We lifted three baskets from the water. Each held the same kind of plant, but one basket stood in shade while the others received morning [[sunlight|sunlight]].",
+    "We let the water drain away for two minutes before we began to [[weigh|weigh]] the plants. The shaded group had gained only two grams in a week. The other groups had gained six and seven grams. Their [[rate|rate]] of growth was higher, although Mira warned that one week's results could not explain the whole winter.",
+    "As we returned the baskets, a [[swan|swan]] approached and pulled at a leaf through the wire. We checked that all three covers were secure. Back on the bank, I added a final note: changes in weight might not be caused by growth alone. Birds taking leaves could affect our measurements too."
+  ],
+  "zh": [
+    "1月12日，上午7点30分。古寺后面的池塘有一部分结了冰。我在木制人行桥旁见到了研究水生植物的大学讲师米拉。她穿着厚厚的长大衣，带着一台小秤。我们此行是为了测量水面上的漂浮植物在冬天长得有多快。",
+    "米拉的生活方式随着季节变化：夏天清早出门，冬天缩短户外观察时间，下午则安静地记录结果。今天，我们的时间有限，因为预计十点前会下大雨。我们从水中提起三个篮子。每个篮子里都是同一种植物，但其中一个放在阴处，另外两个能照到早晨的阳光。",
+    "我们让水沥了两分钟，才开始给植物称重。阴处的那组一周只增加了两克，另外两组则分别增加了六克和七克。它们的生长速度更快，不过米拉提醒说，一周的结果还不足以说明整个冬天的情况。",
+    "我们把篮子放回去时，一只天鹅游了过来，隔着金属网拉扯一片叶子。我们检查了一下，确保三个篮盖都盖牢了。回到岸上，我补上了最后一条记录：重量的变化未必全是生长造成的。鸟类叼走叶子也可能影响我们的测量结果。"
+  ],
+  "q": [
+    {
+      "s": "Ice covered the whole pond when the writer arrived.",
+      "a": "F",
+      "why": "首段说池塘只有一部分结了冰。"
+    },
+    {
+      "s": "Mira had made the three baskets herself.",
+      "a": "NG",
+      "why": "文中未说明三个篮子由谁制作。"
+    },
+    {
+      "s": "Both groups receiving morning sunlight gained more weight than the shaded group.",
+      "a": "T",
+      "why": "向阳两组增重六克和七克，均超过阴处的两克。"
+    }
+  ]
+}

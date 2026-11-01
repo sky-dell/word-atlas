@@ -1,0 +1,48 @@
+{
+  "id": "r0320",
+  "ids": [
+    "drug",
+    "alcoholic",
+    "grain",
+    "unfair",
+    "careless",
+    "detective",
+    "hundredth",
+    "sweep",
+    "proof",
+    "rocket"
+  ],
+  "title": "The Other Launch-Day Crowd",
+  "titleZh": "发射日的另一群人",
+  "topic": "environment",
+  "cefr": 2,
+  "paras": [
+    "On a beach near a space centre, a surprising habit is growing. People still arrive to watch a [[rocket|rocket]] rise into the sky, but some now bring rubbish bags instead of cameras. Last month, the beach cleaning group welcomed its [[hundredth|hundredth]] member, just one year after it began.",
+    "The founder, Mara Silva, is a retired [[detective|detective]]. After one launch, she noticed birds pulling at a bag of [[grain|grain]] left by visitors who had fed them. Nearby were bottles from [[alcoholic|alcoholic]] drinks and an empty packet that had contained a [[drug|drug]] for headaches. She began collecting the rubbish before the sea could carry it away.",
+    "At first, Mara blamed [[careless|careless]] visitors for everything. However, the cleaners soon found [[proof|proof]] that this was [[unfair|unfair]]: dated photographs showed that much of the waste arrived with the sea before the crowds appeared. Fishing rope and old food boxes were common. The group now records where each type of rubbish is found, rather than guessing who dropped it.",
+    "On launch days, members [[sweep|sweep]] the wooden beach steps and search the sand. They stop working for the flight, then share tea while they count their bags. Several say the cleaning has become their main reason for coming. The flight lasts minutes; the difference on the beach remains after everyone has gone."
+  ],
+  "zh": [
+    "在一处航天中心附近的海滩上，一种出人意料的习惯正逐渐流行。人们依然会来观看火箭升空，但有些人现在带的是垃圾袋，而不是相机。上个月，这个海滩清洁小组迎来了第一百名成员，而它成立才刚满一年。",
+    "发起人玛拉·席尔瓦是一名退休警探。一次发射结束后，她注意到几只鸟正啄扯一袋谷物，那是游客喂鸟后留下的。旁边还有酒瓶，以及一个曾装过头痛药的空药盒。她开始捡拾这些垃圾，以免它们被海水带走。",
+    "起初，玛拉认为所有垃圾都是粗心的游客留下的。然而，清洁人员很快找到了证据，说明这种指责并不公平：标有日期的照片显示，在人群出现之前，许多垃圾就已随海水漂来。渔绳和旧食品盒很常见。如今，小组会记录每类垃圾的发现地点，而不再猜测是谁丢弃的。",
+    "发射当天，成员们会清扫通往海滩的木台阶，并在沙滩上寻找垃圾。火箭升空时，他们停下手中的活，之后一边喝茶，一边清点装好的垃圾袋。有几个人说，清洁海滩已经成为他们来这里的主要原因。飞行只持续几分钟，而所有人离开后，海滩上的变化仍然留存。"
+  ],
+  "q": [
+    {
+      "s": "The cleaning group reached 100 members within about a year of starting.",
+      "a": "T",
+      "why": "小组成立刚满一年便迎来第一百名成员。"
+    },
+    {
+      "s": "Mara worked as a detective in the town near the space centre.",
+      "a": "NG",
+      "why": "只说明她是退休警探，未交代工作地点。"
+    },
+    {
+      "s": "The group's evidence confirmed that visitors caused all the rubbish on the beach.",
+      "a": "F",
+      "why": "照片显示，许多垃圾在人群到来前随海水漂来。"
+    }
+  ]
+}

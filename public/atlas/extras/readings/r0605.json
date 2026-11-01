@@ -1,0 +1,48 @@
+{
+  "id": "r0605",
+  "ids": [
+    "toad",
+    "inflict",
+    "duplicate",
+    "methodology",
+    "farmhand",
+    "portfolio",
+    "enlighten",
+    "pore",
+    "magnitude",
+    "irony"
+  ],
+  "title": "The Trouble with Waterproof Shelters",
+  "titleZh": "防水庇护所的问题",
+  "topic": "environment",
+  "cefr": 4,
+  "paras": [
+    "When ceramicist Leila Nasser designed shelters for the [[toad|toads]] inhabiting a dry orchard, she assumed that waterproof walls would offer the best protection. Her [[portfolio|portfolio]] featured elegant glazed domes, but a [[farmhand|farmhand]], Mateo Silva, questioned whether they would remain cool. Their disagreement prompted an experiment examining how ceramic surfaces influence the conditions beneath these miniature refuges.",
+    "The [[methodology|methodology]] involved twelve pairs of shelters positioned beneath equally shaded trees. Each glazed dome had an unglazed [[duplicate|duplicate]], identical in dimensions and clay composition. Temperature and humidity sensors recorded conditions every ten minutes. Before sunrise, Silva applied equal quantities of water to every dome; cameras monitored animal visits without requiring researchers to capture or handle their subjects.",
+    "Over eighteen rainless days, the unglazed shelters remained, on average, three degrees Celsius cooler during the afternoon. Water entered microscopic [[pore|pores]] in the exposed clay and subsequently evaporated, removing heat. Glazing blocked this process. Although excessive heat can [[inflict|inflict]] physiological damage on amphibians, the experiment measured shelter conditions and occupancy rather than injury. Animals occupied the unglazed domes almost twice as frequently.",
+    "The [[magnitude|magnitude]] of the temperature difference surprised Nasser, though she acknowledged that one orchard could not establish universal design rules. The [[irony|irony]] was unmistakable: the finish intended to improve protection had weakened a valuable cooling mechanism. To [[enlighten|enlighten]] other makers, she exhibited paired domes alongside the sensor records. Her next collection retained the sculptural curves but abandoned the waterproof exterior, turning an attractive object into a more effective refuge."
+  ],
+  "zh": [
+    "陶艺师莱拉·纳赛尔为一座干旱果园里的蟾蜍设计庇护所时，以为防水的外壁能提供最好的保护。她的作品集中有一些精巧的上釉穹顶，但农场雇工马特奥·席尔瓦怀疑它们能否保持凉爽。这场分歧促成了一项实验，探究陶瓷表面如何影响这些微型庇护所内部的环境。",
+    "研究采用的方法是在遮阴程度相同的树下放置十二对庇护所。每个上釉穹顶都配有一个未上釉的复制品，两者的尺寸和黏土成分完全一致。温湿度传感器每十分钟记录一次环境状况。每天日出前，席尔瓦都给每个穹顶浇上等量的水；摄像机则监测动物的到访情况，无须研究人员捕捉或接触它们。",
+    "在连续十八个无雨的日子里，未上釉庇护所的午后温度平均低三摄氏度。水进入裸露黏土中一个个微小的孔隙，随后蒸发并带走热量，而釉层阻断了这一过程。尽管过热可能对两栖动物造成生理损伤，这项实验测量的是庇护所的环境条件和动物使用情况，而非伤害程度。动物栖身于未上釉穹顶的频率几乎是上釉穹顶的两倍。",
+    "温差之大令纳赛尔意外，不过她也承认，仅凭一座果园的实验无法确立普遍适用的设计原则。其中的讽刺意味十分明显：原本旨在增强保护作用的表面处理，反而削弱了一种宝贵的降温机制。为了让其他制作者了解这一发现，她将成对的穹顶与传感器记录一同展出。她的下一组作品保留了富有雕塑感的曲线，却舍弃了防水外层，让美观的物件成为更有效的庇护所。"
+  ],
+  "q": [
+    {
+      "s": "Nasser had designed shelters for amphibians before starting the orchard project.",
+      "a": "NG",
+      "why": "文中未说明她此前是否设计过两栖动物庇护所。"
+    },
+    {
+      "s": "The paired shelters matched in dimensions and clay composition.",
+      "a": "T",
+      "why": "第二段明确说明两者尺寸和黏土成分相同。"
+    },
+    {
+      "s": "The experiment measured injuries suffered by animals using the shelters.",
+      "a": "F",
+      "why": "第三段明确说明测量环境和使用情况，而非伤害。"
+    }
+  ]
+}

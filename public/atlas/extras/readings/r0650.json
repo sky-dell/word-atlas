@@ -1,0 +1,48 @@
+{
+  "id": "r0650",
+  "ids": [
+    "prominence",
+    "explicit",
+    "finite",
+    "slit",
+    "clamp",
+    "quota",
+    "arouse",
+    "thrust",
+    "patron",
+    "solvent"
+  ],
+  "title": "The Last Breath of an Organ",
+  "titleZh": "风琴的最后一口气",
+  "topic": "work",
+  "cefr": 4,
+  "paras": [
+    "In a converted bakery beside the harbour, organ restorer Leila Haddad repairs instruments that have fallen silent. Her rise to [[prominence|prominence]] began with a theatre organ abandoned after a roof collapse. Rather than replace its damaged bellows entirely, she rebuilt them using surviving wooden components, preserving tool marks left by their makers.",
+    "On her bench, a brass [[clamp|clamp]] holds a leather patch over a narrow [[slit|slit]] in a bellows covering. Her instructions to assistants are [[explicit|explicit]]: never [[thrust|thrust]] a blade into a resistant seam. A sudden movement can destroy evidence of earlier repairs, whereas patient separation reveals which materials previous craftspeople used.",
+    "Such patience has an economic cost. The workshop remains [[solvent|solvent]] partly because a private [[patron|patron]] pays for repairs to instruments owned by small performance halls. Under their agreement, Leila accepts a monthly [[quota|quota]] of two subsidised commissions, leaving other bench time for commercial work. Since her supply of suitable leather is [[finite|finite]], she measures each piece carefully before cutting. New leather must be flexible enough to move with the bellows.",
+    "Visitors sometimes expect these battered mechanisms to [[arouse|arouse]] only nostalgia. Leila instead demonstrates how sealing a leak with a patch scarcely wider than a fingernail helps the bellows maintain steady air pressure. When the theatre organ finally returned to service, she sat behind the audience, listening for uneven notes that might indicate a remaining leak."
+  ],
+  "zh": [
+    "在港口旁一间由面包房改建的工作室里，风琴修复师莱拉·哈达德修理着那些已经沉寂的乐器。她声名渐起，源于一架在屋顶坍塌后被遗弃的剧院风琴。她没有将受损的风箱全部更换，而是利用残存的木制部件将其重建，保留了制作者留下的工具痕迹。",
+    "在她的工作台上，一只黄铜夹具将一块皮革补片固定在风箱蒙皮的一道狭缝上。她给助手的指示十分明确：绝不可将刀片猛插进难以分开的接缝。突然用力可能毁掉此前修补留下的痕迹，而耐心地剥离则能揭示前辈工匠使用了哪些材料。",
+    "这样的耐心有其经济代价。工作室能够维持偿债能力，部分得益于一位私人赞助人出资，为小型演出厅拥有的乐器支付修理费用。按照双方协议，莱拉每月承接两项受资助的修复委托，其余工作时间则留给商业项目。由于适用的皮革存量有限，她会在裁剪前仔细测量每一块。新皮革必须足够柔韧，才能随风箱一起运动。",
+    "来访者有时以为，这些破旧的机械装置只能唤起怀旧之情。莱拉却向他们演示，用一块不比指甲宽多少的补片封住漏气处，如何帮助风箱保持稳定的气压。当那架剧院风琴终于重新投入使用时，她坐在观众后方，留意是否有不平稳的音符，因为那可能意味着仍有漏气之处。"
+  ],
+  "q": [
+    {
+      "s": "Leila became known for rebuilding an organ's bellows with some of their surviving components.",
+      "a": "T",
+      "why": "首段说明她利用残存木制部件重建风箱并成名。"
+    },
+    {
+      "s": "Leila's assistants had trained at another restoration workshop before joining her.",
+      "a": "NG",
+      "why": "文中未说明助手此前在哪里接受培训。"
+    },
+    {
+      "s": "The agreement requires Leila to accept four subsidised commissions each month.",
+      "a": "F",
+      "why": "协议规定每月两项受资助委托，而非四项。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0119",
+  "ids": [
+    "heating",
+    "smoke",
+    "recording",
+    "non-smoking",
+    "postcode",
+    "blonde",
+    "lend",
+    "sandal",
+    "interest",
+    "dead"
+  ],
+  "title": "The Saturday Shoe Table",
+  "titleZh": "周六修鞋桌",
+  "topic": "society",
+  "cefr": 1,
+  "paras": [
+    "In 1974, a small village hall became home to a Saturday shoe table. The idea came from Anika, a [[blonde|blonde]] woman who made shoes for farm workers. Many families could not buy new shoes every year, so she offered cheap repairs. The hall had no modern [[heating|heating]]. A stove burned wood from [[dead|dead]] trees, and [[smoke|smoke]] sometimes came into the room when its door was opened.",
+    "At first, Anika worked alone. Then she began to [[lend|lend]] her tools to neighbours and show them simple repairs. One boy brought a [[sandal|sandal]] with a broken strap. After fixing it himself, he developed an [[interest|interest]] in making shoes. By 1996, people were sending shoes from other villages. Anika put the hall's address and [[postcode|postcode]] on small cards so that parcels could reach her easily.",
+    "The table changed with the hall. Electric heaters replaced the stove, and the whole building became [[non-smoking|non-smoking]]. When Anika stopped working in 2018, her neighbours made a [[recording|recording]] of her telling the table's story. They still play it at the hall's summer party. The boy with the broken shoe now leads the Saturday repairs. He keeps his old shoe on a shelf, beside Anika's first box of tools."
+  ],
+  "zh": [
+    "1974年，一个小村庄的公共礼堂里有了一张周六修鞋桌。这个主意来自阿妮卡，一位为农场工人做鞋的金发女子。许多家庭无法每年都买新鞋，所以她提供便宜的修鞋服务。礼堂没有现代化的供暖系统。炉子里烧的是枯树的木柴，打开炉门时，烟有时会飘进屋里。",
+    "起初，阿妮卡独自干活。后来，她开始把工具借给邻居，并教他们做简单的修补。一个男孩带来一只带子断了的凉鞋。他自己修好后，对做鞋产生了兴趣。到了1996年，其他村庄的人也在寄鞋过来。阿妮卡把礼堂的地址和邮政编码写在小卡片上，方便包裹顺利寄到。",
+    "修鞋桌随着礼堂一起发生了变化。电暖器取代了炉子，整栋建筑也开始禁止吸烟。2018年，阿妮卡不再工作时，邻居们录下了她讲述修鞋桌故事的声音。他们至今仍在礼堂的夏日聚会上播放这段录音。当年那个鞋子坏了的男孩，如今负责周六的修鞋活动。他把自己的旧鞋放在架子上，旁边就是阿妮卡最早使用的工具箱。"
+  ],
+  "q": [
+    {
+      "s": "Anika learned to make shoes from her mother.",
+      "a": "NG",
+      "why": "文中未说明阿妮卡向谁学习做鞋。"
+    },
+    {
+      "s": "By 1996, people were sending shoes to Anika from other villages.",
+      "a": "T",
+      "why": "第二段明确说到1996年已有外村人寄鞋。"
+    },
+    {
+      "s": "A wood stove replaced the electric heaters in the hall.",
+      "a": "F",
+      "why": "是电暖器取代了炉子，而非相反。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0705",
+  "ids": [
+    "avenge",
+    "bestow",
+    "deplore",
+    "splint",
+    "infantry",
+    "staphylococcus",
+    "depute",
+    "wreathe",
+    "vortex",
+    "preclude"
+  ],
+  "title": "Casting a Field Hospital in Miniature",
+  "titleZh": "微缩野战医院的铸造",
+  "topic": "arts",
+  "cefr": 5,
+  "paras": [
+    "A bronze relief depicting a nineteenth-century field hospital begins not with metal, but with a dispute about remembrance. Sculptor Mara Sen rejects a commissioner's proposal to celebrate soldiers who [[avenge|avenged]] their comrades. Instead, her clay design places an exhausted nurse above wounded [[infantry|infantry]], allowing the finished work to [[deplore|deplore]] warfare without reducing its participants to anonymous victims.",
+    "To establish anatomical credibility, Sen [[depute|deputes]] her assistant to consult surgical illustrations before modelling a wooden [[splint|splint]] beneath one patient's forearm. Beside the nurse, she introduces an enlarged cluster of spheres representing [[staphylococcus|staphylococcus]], a bacterium that can cause wound infections. This symbolic detail makes otherwise invisible danger legible; its scale follows narrative importance rather than optical realism.",
+    "Once the clay is approved, technicians take a silicone mould and produce a hollow wax replica. Ceramic slurry and fine sand are applied repeatedly, creating a refractory shell. Heating removes the wax; molten bronze then enters through channels positioned to [[preclude|preclude]] a [[vortex|vortex]] that could entrain air and compromise the casting. Vapours [[wreathe|wreathe]] the extraction hood while the filled shell cools; the bronze surface remains enclosed within the shell, inaccessible to inspection.",
+    "After breaking away the shell, Sen removes the channels, repairs minor pits, and darkens the bronze with a controlled chemical patina. Selective polishing brings the nurse's hands into relief. At the unveiling, the commissioning guild will [[bestow|bestow]] a medal on the sculptor, yet the object itself distributes honour differently: its brightest passage belongs not to a weapon, but to fingers tightening a bandage."
+  ],
+  "zh": [
+    "一幅描绘十九世纪野战医院的青铜浮雕，其制作并非始于金属，而是始于一场关于如何纪念往事的争论。雕塑家玛拉·森否决了委托人赞颂为战友复仇的士兵的提议。她在泥稿中将一位筋疲力尽的护士置于受伤步兵的上方，让最终的作品既能强烈谴责战争，又不至于将身处其中的人简化为无名的受害者。",
+    "为使人体造型真实可信，森委派助手先查阅外科医学插图，再塑造一名伤员前臂下方的木制夹板。她在护士身旁加入一组放大的球体，代表葡萄球菌，一种可能引发伤口感染的细菌。这一象征性细节让原本不可见的危险变得可以辨认；其尺寸取决于叙事上的重要性，而非视觉上的写实要求。",
+    "泥稿获批后，技师翻制硅胶模具，再制出中空的蜡质复制品。随后反复涂覆陶瓷浆料和细砂，形成耐火型壳。加热脱蜡后，熔融青铜经浇道流入；浇道的位置经过设计，以防形成可能卷入空气、损害铸件质量的涡流。填满金属的型壳逐渐冷却，蒸气缭绕着抽风罩，而铸件表面仍藏在型壳内，尚无人能够检查。",
+    "敲除型壳后，森切去浇道，修补细小凹坑，再通过可控的化学着色使青铜表面变暗。局部抛光让护士的双手更加突出。揭幕时，委托制作的行会将向雕塑家授予奖章，然而作品本身却以另一种方式分配荣誉：其中最明亮的一处并不属于武器，而属于正在收紧绷带的手指。"
+  ],
+  "q": [
+    {
+      "s": "Sen accepts the commissioner's proposal to celebrate soldiers who avenged their comrades.",
+      "a": "F",
+      "why": "首段明确说森拒绝了赞颂复仇士兵的提议。"
+    },
+    {
+      "s": "The scale of the bacterial forms reflects their narrative importance rather than realistic proportions.",
+      "a": "T",
+      "why": "第二段明确说明尺寸依据叙事重要性而非写实。"
+    },
+    {
+      "s": "The bronze casting takes more than twelve hours to cool before the shell is removed.",
+      "a": "NG",
+      "why": "文章提到冷却，但未说明所需时间。"
+    }
+  ]
+}

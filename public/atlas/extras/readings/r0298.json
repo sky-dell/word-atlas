@@ -1,0 +1,48 @@
+{
+  "id": "r0298",
+  "ids": [
+    "skip",
+    "guard",
+    "underline",
+    "stream",
+    "ballet",
+    "disappointment",
+    "workout",
+    "angel",
+    "loss",
+    "farming"
+  ],
+  "title": "The Small Theatre's Hidden Economy",
+  "titleZh": "小剧院背后的经济账",
+  "topic": "economy",
+  "cefr": 2,
+  "paras": [
+    "Beside a narrow [[stream|stream]], an old village hall has found a new purpose. For years, families earned most of their money from [[farming|farming]]. Now, on Saturday evenings, visitors arrive for [[ballet|ballet]] performances. Above the stage, an old painting shows an [[angel|angel]], a winged messenger from God, looking down at the dancers.",
+    "Running this tiny theatre involves more than selling tickets. Before each show, manager Amina checks her notebook and [[underline|underlines]] the bills that must be paid first. These include electricity and the wages of a [[guard|guard]] who protects the building at night. Even when sales are low, she cannot simply [[skip|skip]] these payments.",
+    "At first, the empty seats caused great [[disappointment|disappointment]]. Amina then tried afternoon shows, allowing visitors to return home before dark. Ticket sales rose. Nearby food sellers benefited too: people bought soup before the performance and bread afterwards. This illustrates a simple economic idea: money spent in one place can support several other businesses.",
+    "However, a full theatre does not always mean a profit. A dancer's morning [[workout|workout]], for example, requires a warm room even before visitors arrive. A broken heater once caused the [[loss|loss]] of a whole day's ticket income. Amina now saves a little from every ticket for repairs. The hall's future depends as much on careful counting as on beautiful dancing."
+  ],
+  "zh": [
+    "一条狭窄的小溪旁，一座古老的村礼堂有了新用途。多年来，这里的家庭主要靠务农挣钱。如今，每逢星期六晚上，游客会来这里观看芭蕾舞演出。舞台上方的一幅旧画中，一位天使正低头望着舞者。这位长着翅膀的天使是上帝的信使。",
+    "经营这家小剧院，可不只是卖票那么简单。每场演出前，经理阿米娜都会查看笔记本，在必须优先支付的账单下面画线。其中包括电费，以及夜间守护这座建筑的警卫的工资。即使门票卖得不好，她也不能干脆不付这些钱。",
+    "起初，空荡荡的座位让阿米娜十分失望。后来，她尝试安排下午场，让观众能在天黑前回家。门票销量随之上升。附近的食品摊贩也受益了：人们演出前买汤喝，演出后买面包。这说明了一个简单的经济道理：在一个地方花的钱，可以带动其他几家生意。",
+    "然而，剧院座无虚席，并不总意味着有利润。例如，舞者早晨锻炼时需要温暖的房间，这时观众还没有到来。有一次，暖气设备坏了，导致剧院损失了整整一天的门票收入。现在，阿米娜会从每张票的收入中留出一点钱，用于维修。礼堂的未来既依靠优美的舞蹈，也依靠精打细算。"
+  ],
+  "q": [
+    {
+      "s": "Amina can skip electricity payments when ticket sales are low.",
+      "a": "F",
+      "why": "即使销量低，她也不能不付包括电费在内的费用。"
+    },
+    {
+      "s": "The food sellers earned more from bread than from soup.",
+      "a": "NG",
+      "why": "只提到购买汤和面包，未比较两者收入。"
+    },
+    {
+      "s": "Amina sets aside some money from each ticket for repairs.",
+      "a": "T",
+      "why": "她从每张票的收入中留出一点钱用于维修。"
+    }
+  ]
+}

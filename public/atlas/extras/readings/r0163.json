@@ -1,0 +1,46 @@
+{
+  "id": "r0163",
+  "ids": [
+    "railway",
+    "description",
+    "pot",
+    "kilometre",
+    "milkman",
+    "flight",
+    "cause",
+    "knowledge",
+    "order",
+    "ground"
+  ],
+  "title": "From Milk Rounds to Mountain Races",
+  "titleZh": "从送奶路到山地赛道",
+  "topic": "sport",
+  "cefr": 1,
+  "paras": [
+    "When Arun Das stopped running races, his daughter helped him put his old photographs into a book. The first picture showed him at work as a [[milkman|milkman]] in 1962. He lived in a small hill town. Every morning, he walked six [[kilometre|kilometres]] with heavy bottles before breakfast. The old [[railway|railway]] brought milk from farms outside town. His daughter wrote a short [[description|description]] below the picture: he often ran up the last hill with the empty bottles.",
+    "Arun also found a notebook from the year of his first mountain race. One page showed a large cooking [[pot|pot]]. He used it to make rice for himself and two friends after training. Another page gave the [[cause|cause]] of a problem during one practice run: he had eaten too little. After that, he used his [[knowledge|knowledge]] of food to plan simple meals before long runs. His daughter copied one of these meals into the book.",
+    "They put the remaining pictures in date [[order|order]]. In 1965, Arun took his first [[flight|flight]] to enter a race across the sea. One photograph showed him sitting on the [[ground|ground]], tying his shoes at the start. Another showed him finishing beside his two friends. On the back, Arun had written, 'We were too tired to cook that night, so we went out for rice.'"
+  ],
+  "zh": [
+    "阿伦·达斯不再参加赛跑后，他的女儿帮他把旧照片整理成一本相册。第一张照片拍的是他在1962年当送奶工时工作的样子。他住在一个山间小镇。每天早饭前，他都提着沉重的奶瓶走六公里。牛奶由旧铁路从镇外的农场运来。他的女儿在照片下面写了一小段描述：他常常带着空奶瓶跑上最后一个山坡。",
+    "阿伦还找到了一本参加第一场山地赛跑那年用的笔记本。其中一页画着一口大锅。训练后，他用这口锅给自己和两个朋友煮米饭。另一页记着一次练习跑中出现问题的原因：他吃得太少了。此后，他运用自己掌握的食物知识，为长跑前安排简单的饭菜。他的女儿把其中一顿饭的内容抄进了相册。",
+    "他们把剩下的照片按日期顺序排好。1965年，阿伦第一次乘飞机，去参加大海另一边的一场比赛。一张照片中，他坐在起点的地面上系鞋带。另一张照片中，他和两个朋友一起跑到了终点。阿伦在照片背面写道：“那天晚上我们累得没法做饭，就出去吃了米饭。”"
+  ],
+  "q": [
+    {
+      "s": "Milk reached Arun's town by train from farms outside town.",
+      "a": "T",
+      "why": "第一段说牛奶由铁路从镇外农场运来。"
+    },
+    {
+      "s": "Arun cooked only for himself after training.",
+      "a": "F",
+      "why": "第二段说他给自己和两个朋友煮饭。"
+    },
+    {
+      "s": "Arun received a cash prize at the race overseas.",
+      "a": "NG",
+      "why": "第三段提到海外比赛，但未提奖金。"
+    }
+  ]
+}

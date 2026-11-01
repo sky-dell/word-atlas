@@ -1,0 +1,48 @@
+{
+  "id": "r0351",
+  "ids": [
+    "foul",
+    "gigantic",
+    "tide",
+    "vital",
+    "past-due",
+    "oval",
+    "cure",
+    "pistol",
+    "jobless",
+    "accounting"
+  ],
+  "title": "A Harbour Office Reopens",
+  "titleZh": "港口旧办公室重开",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "For twelve years, the old harbour office in Bellwick stood empty. Each high [[tide|tide]] pushed seawater through a cracked drain, leaving a [[foul|foul]] smell downstairs. Meanwhile, a [[gigantic|gigantic]] warehouse beside it hid the entrance from the street. When the council proposed selling the building, residents suggested turning it into a small museum instead.",
+    "The council offered a six-month trial but little money. Led by carpenter Leila Chen, eight volunteers repaired the drain and cleared the rooms. Two were [[jobless|jobless]] boat builders who hoped the work would demonstrate their skills. Retired clerk Tomas Silva handled the [[accounting|accounting]]. His first discovery was a folder of [[past-due|past-due]] electricity bills, which the council agreed to settle before work continued.",
+    "Keeping the displays inexpensive was [[vital|vital]]. Residents lent objects, including an [[oval|oval]] brass nameplate and a nineteenth-century [[pistol|pistol]], made permanently unable to fire and secured behind glass. A medicine bottle prompted particular interest: its faded label claimed the contents could [[cure|cure]] fever. Rather than repeat that claim as fact, volunteers explained how sailors once bought treatments with little evidence that they worked.",
+    "By September, the museum was opening three afternoons a week. Admission was free, while donations covered cleaning materials. The council extended the trial for another year after volunteers showed that running costs remained low. The entrance was still difficult to spot, but a painted wooden sign now guided visitors around the warehouse. A neglected public building had become a place where neighbours could tell their harbour's story."
+  ],
+  "zh": [
+    "贝尔威克的旧港务办公室已空置十二年。每逢涨潮，海水就会从一条破裂的排水管涌入，在楼下留下恶臭。同时，旁边一座巨大的仓库挡住了入口，从街上根本看不到。市政委员会提议出售这栋建筑时，居民们却建议将它改成一座小型博物馆。",
+    "市政委员会批准了六个月的试运营期，但几乎没有提供资金。在木匠蕾拉·陈的带领下，八名志愿者修好了排水管，清理了各个房间。其中两人是失业的造船工，希望借这项工作展示自己的手艺。退休文员托马斯·席尔瓦负责会计工作。他首先发现了一整夹逾期未付的电费账单，市政委员会同意先结清欠款，再继续施工。",
+    "控制展陈成本至关重要。居民们借出了各种物品，包括一块椭圆形黄铜铭牌和一把十九世纪的手枪。手枪经过处理，已永久失去击发能力，并被锁在玻璃展柜里。一个药瓶尤其引人关注：褪色的标签声称瓶中的药物可以治愈发烧。志愿者没有把这一说法当作事实转述，而是解释说，过去水手们购买的疗法往往缺乏有效性的证据。",
+    "到了九月，博物馆每周开放三个下午，免费入场，捐款则用于购买清洁用品。志愿者证明运营成本一直很低后，市政委员会将试运营期延长了一年。入口仍然不易发现，但一块彩绘木牌如今能引导游客绕过仓库。这栋被遗忘的公共建筑，终于成了邻里讲述港口故事的地方。"
+  ],
+  "q": [
+    {
+      "s": "The old harbour office had stood empty for only two years.",
+      "a": "F",
+      "why": "原文明确说旧办公室已空置十二年。"
+    },
+    {
+      "s": "The council agreed to settle the overdue electricity bills before work continued.",
+      "a": "T",
+      "why": "委员会同意先结清电费欠款，再继续施工。"
+    },
+    {
+      "s": "Most museum visitors in September came from outside Bellwick.",
+      "a": "NG",
+      "why": "文章未说明九月游客的来源。"
+    }
+  ]
+}

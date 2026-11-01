@@ -1,0 +1,48 @@
+{
+  "id": "r0683",
+  "ids": [
+    "nourish",
+    "ailment",
+    "withstand",
+    "plausible",
+    "ingenuity",
+    "solidarity",
+    "sectional",
+    "regeneration",
+    "defiant",
+    "mane"
+  ],
+  "title": "The Meal Inside the Haybox",
+  "titleZh": "干草箱里的饭菜",
+  "topic": "daily",
+  "cefr": 4,
+  "paras": [
+    "In a neighbourhood kitchen awaiting renovation, Mara wanted to prepare inexpensive meals that would [[nourish|nourish]] the volunteers repairing the building. Fuel costs were consuming their modest budget. She proposed trying a haybox: an insulated chest into which a hot cooking pot could be placed. The proposal formed a small part of a wider [[regeneration|regeneration]] project, rather than a replacement for the kitchen's cooker.",
+    "Building the box required some [[ingenuity|ingenuity]]. Mara, whose thick [[mane|mane]] of hair was tied back beneath a scarf, measured the space around the pot. The container needed to [[withstand|withstand]] repeated heating. She designed a [[sectional|sectional]] lining with removable pieces that fitted together around it, so the team could inspect and clean the interior. A tight lid would limit heat loss.",
+    "One volunteer suggested that gently cooked food might ease almost any minor [[ailment|ailment]]. Mara refused to make that promise. Saving fuel sounded [[plausible|plausible]], but neither medical benefits nor adequate cooking temperatures could simply be assumed. Before serving anything, the team would need reliable guidance on safe temperatures and holding times. Their first trial therefore involved hot water, not anyone's lunch.",
+    "When a neighbour dismissed the effort as pointless, Mara became [[defiant|defiant]]: they could test the idea before rejecting it. Others offered thermometers and time, a practical expression of [[solidarity|solidarity]]. That afternoon, the volunteers recorded temperatures at regular intervals. The readings would help them decide whether to continue testing or spend their limited funds elsewhere."
+  ],
+  "zh": [
+    "在一间等待翻修的社区厨房里，玛拉想做些便宜的饭菜，为修缮这栋楼的志愿者提供营养。燃料费用正不断消耗他们有限的预算。她提议试用一个干草保温箱：一种可以放入热锅的隔热箱。这个提议是更大规模的社区更新项目中的一个小环节，而不是要取代厨房的炉灶。",
+    "制作这个箱子需要一些巧思。玛拉用头巾把浓密的长发束在脑后，测量了锅周围的空间。容器必须经得起反复加热。她设计了组合式内衬，可拆卸的各块能够拼合在锅的周围，方便团队检查和清洁箱子内部。严密的盖子可以减少热量流失。",
+    "一名志愿者提出，慢慢煮熟的食物或许能缓解几乎任何小病。玛拉拒绝作出这样的承诺。节省燃料听起来是可信的，但不能想当然地认定它有医疗益处，也不能认定烹饪温度足够高。在端出任何食物之前，团队需要获得有关安全温度和保温时长的可靠指导。因此，他们第一次试验用的是热水，而不是谁的午餐。",
+    "一位邻居认为这番努力毫无意义，玛拉对此毫不服气：他们可以先测试这个想法，再决定是否放弃。其他人提供了温度计，也投入了时间，用实际行动表达相互支持。当天下午，志愿者每隔固定时间记录一次温度。这些读数将帮助他们决定，是继续测试，还是把有限的资金用在别处。"
+  ],
+  "q": [
+    {
+      "s": "The local council provided the kitchen's renovation budget.",
+      "a": "NG",
+      "why": "文中提到翻修和预算，未说明资金来源。"
+    },
+    {
+      "s": "Mara's lining consisted of removable pieces fitted together around the pot.",
+      "a": "T",
+      "why": "第二段明确说明内衬由可拆卸的各块拼合。"
+    },
+    {
+      "s": "Mara promised that food cooked in the box would relieve minor illnesses.",
+      "a": "F",
+      "why": "第三段明确说玛拉拒绝作出治病的承诺。"
+    }
+  ]
+}

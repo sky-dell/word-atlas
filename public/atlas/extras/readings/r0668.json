@@ -1,0 +1,48 @@
+{
+  "id": "r0668",
+  "ids": [
+    "precede",
+    "soluble",
+    "diaphragm",
+    "numerate",
+    "concerted",
+    "prairie",
+    "mighty",
+    "opium",
+    "falcon",
+    "boycott"
+  ],
+  "title": "The Museum That Turned Down Fear",
+  "titleZh": "让恐惧安静下来的博物馆",
+  "topic": "emotion",
+  "cefr": 4,
+  "paras": [
+    "At a small museum on the Canadian [[prairie|prairie]], the most popular evening attraction is no longer a simulated tornado. Visitors increasingly choose a quiet exhibition about fear, where handwritten accounts [[precede|precede]] scientific explanations. Attendance has doubled since the museum removed its dramatic soundtrack, challenging the assumption that powerful emotions require equally powerful sensory stimulation.",
+    "The change began when regular visitors threatened to [[boycott|boycott]] an exhibition whose sudden crashes overwhelmed its historical material. In a [[concerted|concerted]] response, curator Amara Voss and her colleagues replaced startling effects with objects requiring patient attention: a [[falcon|falcon]] feather, a photograph of a [[mighty|mighty]] storm, and an empty medicine bottle once labelled as containing [[opium|opium]]. Each introduces a different relationship between danger and reassurance.",
+    "One popular activity asks visitors to write a worry on paper using [[soluble|soluble]] ink, then lower it into water. Nearby, a breathing demonstration explains how the [[diaphragm|diaphragm]] contracts during inhalation; it offers no promise that anxiety will disappear. Staff describe these activities as invitations to observe feelings, rather than treatments. Visitors can keep their written worries private.",
+    "The museum's evaluation is deliberately modest. Even reasonably [[numerate|numerate]] volunteers initially confused longer visits with improved wellbeing, so researchers now separate attendance figures from anonymous emotional reports. These suggest that visitors value control over the experience more than excitement. Requests for another spectacular storm display have declined; meanwhile, the quiet room's chairs are rarely empty."
+  ],
+  "zh": [
+    "在加拿大大草原上的一家小型博物馆里，最受欢迎的夜间项目已不再是模拟龙卷风。越来越多的参观者选择一个以恐惧为主题的安静展览，在这里，手写的个人经历呈现在科学解释之前。自博物馆撤掉富有戏剧性的配乐以来，参观人数翻了一番，这对一种假设提出了挑战：强烈的情绪必须依靠同样强烈的感官刺激才能激发。",
+    "这场改变始于一些常客的抵制威胁：一个展览中突如其来的轰响盖过了其中的历史内容。策展人阿玛拉·沃斯与同事协力应对，用需要耐心观看的物件取代了惊吓效果：一根隼的羽毛、一张猛烈风暴的照片，以及一个标签上曾注明含有鸦片的空药瓶。每件物品都引出了危险与安心之间一种不同的关系。",
+    "一项受欢迎的活动请参观者用可溶于水的墨水在纸上写下一件烦心事，再将纸放入水中。附近的呼吸演示解释了横膈膜如何在吸气时收缩，却不承诺焦虑会消失。工作人员将这些活动描述为观察自身感受的邀请，而非治疗方法。参观者可以不向他人透露自己写下的烦恼。",
+    "博物馆在评估效果时刻意保持审慎。即使是具备一定计算能力的志愿者，起初也把停留时间更长误当成了身心状态改善，因此研究人员现在将参观数据与匿名情绪反馈分开处理。这些反馈表明，相比刺激感，参观者更看重对参观体验的自主掌控。要求再办一场壮观风暴展的声音减少了，而安静展室里的椅子却很少空着。"
+  ],
+  "q": [
+    {
+      "s": "Visitor numbers increased after the museum stopped using its dramatic audio accompaniment.",
+      "a": "T",
+      "why": "首段指出撤掉配乐后参观人数翻倍。"
+    },
+    {
+      "s": "The visitors who threatened a boycott met privately with Amara Voss.",
+      "a": "NG",
+      "why": "文中未说明抵制者是否与策展人私下会面。"
+    },
+    {
+      "s": "Museum staff present the worry-writing activity as a treatment for anxiety.",
+      "a": "F",
+      "why": "第三段明确称活动不是治疗。"
+    }
+  ]
+}

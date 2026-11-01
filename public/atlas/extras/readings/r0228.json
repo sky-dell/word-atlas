@@ -1,0 +1,48 @@
+{
+  "id": "r0228",
+  "ids": [
+    "chemical",
+    "range",
+    "mystery",
+    "typist",
+    "guidebook",
+    "spinach",
+    "comfort",
+    "allergic",
+    "link",
+    "flavour"
+  ],
+  "title": "Lessons from a Kitchen Notebook",
+  "titleZh": "厨房笔记里的课程",
+  "topic": "education",
+  "cefr": 2,
+  "paras": [
+    "Imagine a small evening school where a cooking teacher named Mira collects recipes in a notebook. Her learners work in nearby factories and come to class after work. Her aim is simple: to help them prepare a wider [[range|range]] of cheap meals after a long day.",
+    "Mira teaches in a kitchen behind the classroom. The reason why some vegetables lose their colour during cooking is a [[mystery|mystery]] to her learners. Using [[spinach|spinach]], she shows how cooking time changes both colour and [[flavour|flavour]]. She also explains that a cleaning [[chemical|chemical]] must never be stored in a food jar. Each lesson makes a clear [[link|link]] between kitchen knowledge and daily life.",
+    "As the notebook grows, a former learner who works as a [[typist|typist]] offers to prepare neat copies. Together, they turn it into a practical [[guidebook|guidebook]]. They leave wide spaces beside the recipes for readers' notes. One page reminds cooks to ask whether anyone is [[allergic|allergic]] to eggs or other ingredients before preparing a shared meal.",
+    "The little book then moves from the school kitchen into workers' homes. Readers can study its pages in the [[comfort|comfort]] of their own kitchens, without waiting for the next lesson. Beside each recipe, they can record amounts for a larger family or note how long a dish takes on their own stove."
+  ],
+  "zh": [
+    "想象一所小型夜校，那里有位名叫米拉的烹饪老师，把食谱收集在一本笔记本里。她的学员在附近的工厂工作，下班后来上课。她的目的很简单：帮助他们在忙碌一天之后，做出更多种类的便宜饭菜。",
+    "米拉在教室后面的厨房里上课。对学员来说，有些蔬菜为什么会在烹饪过程中褪色，是个难解的谜。她用菠菜演示烹饪时间如何改变颜色和味道。她还解释说，清洁用的化学品绝不能存放在食品罐里。每堂课都把厨房知识与日常生活明确地联系起来。",
+    "随着笔记内容越来越多，一位做打字员的往届学员主动提出把它打成整洁的文稿。两人一起把笔记变成一本实用的指导手册。两人在食谱旁留出宽宽的空白，供读者做笔记。其中一页提醒做饭的人，在准备大家一起吃的饭菜之前，要先问问有没有人对鸡蛋或其他食材过敏。",
+    "随后，这本小书从学校厨房走进了工人们的家。读者可以舒舒服服地待在自家厨房里学习书中的内容，不必等到下一次上课。在每道食谱旁，他们可以记录适合人口更多的家庭的食材用量，或者记下用自家炉灶做一道菜需要多长时间。"
+  ],
+  "q": [
+    {
+      "s": "Mira's learners work eight-hour shifts.",
+      "a": "NG",
+      "why": "文中未说明学员每班工作多长时间。"
+    },
+    {
+      "s": "The guidebook leaves no space for readers' notes.",
+      "a": "F",
+      "why": "食谱旁留有宽宽的空白，供读者记笔记。"
+    },
+    {
+      "s": "Workers can use the book at home between lessons.",
+      "a": "T",
+      "why": "工人可在自家厨房阅读，不必等下次上课。"
+    }
+  ]
+}

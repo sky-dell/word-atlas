@@ -1,0 +1,48 @@
+{
+  "id": "r0536",
+  "ids": [
+    "disturb",
+    "launch",
+    "awkward",
+    "ward",
+    "boost",
+    "indicate",
+    "exceptional",
+    "depth",
+    "icon",
+    "risky"
+  ],
+  "title": "Field Notes from a Hospital Pond",
+  "titleZh": "医院池塘观察笔记",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "April 16, 7 a.m. My first task as the hospital gardener was to inspect the pond outside the recovery [[ward|ward]]. I kept my tools on a cloth so their noise would not [[disturb|disturb]] patients resting beside open windows. Overnight rain had raised the water level, and three frogs sat among the yellow flowers.",
+    "This month, our gardening team will [[launch|launch]] a wildlife recording project. We hope that leaving more plants around the pond will [[boost|boost]] insect numbers. During yesterday's planning meeting, there was an [[awkward|awkward]] silence when I admitted that I could not identify our commonest dragonfly. Today, I photographed its striped body and checked a field guide.",
+    "At the eastern edge, I measured a water [[depth|depth]] of just eighteen centimetres. Small movements beneath the surface seemed to [[indicate|indicate]] that frog eggs had hatched. On my recording tablet, I touched the camera [[icon|icon]] to attach a photograph to the notes. Leaning further out would have been [[risky|risky]]: the bank was soft, and my boots were already sliding.",
+    "By nine, sunlight had reached the pond. The view was [[exceptional|exceptional]]: dozens of tiny tadpoles moved through clear water, their shadows crossing the pale mud below. I marked this shallow corner with two wooden stakes so the maintenance crew would leave it untouched. Then I put away the mower. For this small patch of hospital grounds, the most useful work today was knowing where to stop."
+  ],
+  "zh": [
+    "4月16日，早上7点。我担任医院园丁后的第一项任务，是检查康复病区外的池塘。我把工具放在一块布上，免得工具发出的声音打扰在敞开的窗边休息的病人。夜里的雨使水位上涨，三只青蛙蹲在黄色的花丛中。",
+    "这个月，我们园艺组将启动一项野生动物记录计划。我们希望在池塘周围保留更多植物，以增加昆虫的数量。昨天开筹备会时，我承认自己认不出这里最常见的蜻蜓，现场一度陷入尴尬的沉默。今天，我拍下了它带条纹的身体，并查阅了一本野外识别手册。",
+    "在池塘东侧，我测得水深只有十八厘米。水面下细微的动静似乎表明，蛙卵已经孵化。我点了一下记录用平板电脑上的相机图标，把照片附在观察笔记中。再向外探身就有危险了：岸边的泥土松软，我的靴子已经开始打滑。",
+    "到了九点，阳光照到了池塘。眼前的景象格外精彩：几十只小蝌蚪在清水里游动，影子掠过水底浅色的泥。我用两根木桩标出这个浅水角落，好让养护人员不去动它。随后，我收起了割草机。对于医院里的这一小片绿地，今天最有用的工作，就是知道该在哪里停手。"
+  ],
+  "q": [
+    {
+      "s": "The gardener took steps to reduce noise near patients' windows.",
+      "a": "T",
+      "why": "园丁把工具放在布上，以免噪声打扰病人。"
+    },
+    {
+      "s": "The gardener borrowed the field guide from a colleague.",
+      "a": "NG",
+      "why": "文章未说明野外识别手册的来源。"
+    },
+    {
+      "s": "The gardener found that it was safe to lean further over the pond.",
+      "a": "F",
+      "why": "岸边松软，靴子打滑，继续探身有危险。"
+    }
+  ]
+}

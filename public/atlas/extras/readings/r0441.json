@@ -1,0 +1,48 @@
+{
+  "id": "r0441",
+  "ids": [
+    "drought",
+    "engage",
+    "parliament",
+    "ridiculous",
+    "lump",
+    "discriminate",
+    "negotiation",
+    "coward",
+    "miniature",
+    "ruling"
+  ],
+  "title": "Work Beneath the Dry Grass",
+  "titleZh": "枯草下的调查工作",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "12 June, eastern grassland. After months of [[drought|drought]], the soil had split into narrow channels. Our survey team's job was to count active ant nests before the reserve reopened to visitors. Beside a [[lump|lump]] of hardened clay, I watched six ants drag a beetle wing towards a hole no wider than a pencil.",
+    "Such details soon [[engage|engaged]] our newest paid assistant, Leila, who had previously repaired fishing nets. Through her hand lens, the nest entrance resembled a [[miniature|miniature]] quarry, with workers carrying grains up its steep sides. She marked each active entrance with a numbered wooden stick, taking care not to block the insects' routes.",
+    "At lunch, Leila explained that another survey contractor had refused to employ women. It seemed [[ridiculous|ridiculous]] that careful observers could be rejected without a trial. Employers must not [[discriminate|discriminate]] against applicants because of their gender, our team leader said. A newspaper wrapped around his sandwiches reported that the [[ruling|ruling]] party had brought a bill on fair recruitment before [[parliament|parliament]]. For Leila, however, paid field experience mattered more than speeches.",
+    "By afternoon, our route reached a crumbling bank. I felt like a [[coward|coward]] for refusing to climb down, but Leila found nests along a safer path. After a brief [[negotiation|negotiation]] with the reserve manager, we extended our survey there instead. We finished with forty-three records, eleven from Leila's section: useful evidence gathered without putting anyone at unnecessary risk."
+  ],
+  "zh": [
+    "6月12日，东部草地。数月干旱过后，地面裂开了一道道狭窄的沟缝。我们调查队的任务是在保护区重新向游客开放前，统计仍有蚂蚁活动的蚁巢。在一块硬化的黏土旁，我看到六只蚂蚁正把一片甲虫翅膀拖向一个宽度不超过一支铅笔的洞口。",
+    "这些细节很快吸引了我们新来的带薪助手莱拉。她之前做的是修补渔网的工作。透过她的手持放大镜，蚁巢入口看起来像一座微型采石场，工蚁正沿着陡峭的侧壁向上搬运土粒。她用编号的小木棍标记每个有活动迹象的入口，小心避开蚂蚁的行进路线。",
+    "午饭时，莱拉说，另一家承接调查工作的单位曾拒绝雇用女性。连试工的机会都不给，就把观察细致的人拒之门外，这似乎十分荒谬。队长说，雇主绝不能因为性别而歧视求职者。包着他三明治的一张报纸上报道，执政党已向议会提交了一项关于公平招聘的法案。不过，对莱拉来说，有报酬的实地工作经历比演讲更重要。",
+    "到了下午，我们沿调查路线走到一处土质松散、容易塌落的土坡。我不肯爬下去，觉得自己像个胆小鬼，但莱拉在一条更安全的小路旁发现了蚁巢。与保护区管理员简短协商后，我们改为将调查范围扩展到那里。收工时，我们共记录了四十三处蚁巢，其中十一处来自莱拉负责的区域。这些有用的证据，是在没有让任何人承担不必要风险的情况下收集到的。"
+  ],
+  "q": [
+    {
+      "s": "The reserve had already reopened to visitors when the team carried out its survey.",
+      "a": "F",
+      "why": "调查是在保护区重新开放前进行的。"
+    },
+    {
+      "s": "Leila used numbered wooden sticks to mark active nest entrances.",
+      "a": "T",
+      "why": "第二段明确说明她用编号木棍标记入口。"
+    },
+    {
+      "s": "The reserve manager asked for a written report during the negotiation.",
+      "a": "NG",
+      "why": "文中未说明管理员是否要求书面报告。"
+    }
+  ]
+}

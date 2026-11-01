@@ -1,0 +1,48 @@
+{
+  "id": "r0645",
+  "ids": [
+    "outrage",
+    "plea",
+    "outlaw",
+    "troublesome",
+    "intermittent",
+    "impartial",
+    "divergence",
+    "magnify",
+    "candid",
+    "grieve"
+  ],
+  "title": "Making the Courtyard Gazette",
+  "titleZh": "《庭院小报》的制作",
+  "topic": "media",
+  "cefr": 4,
+  "paras": [
+    "The Courtyard Gazette begins not with a printing press but with a wooden box outside a bakery, where residents leave handwritten reports. This month's edition concerns a fatal fire in a furniture workshop. Among the contributions are expressions of [[outrage|outrage]] over blocked exits and a widow's [[plea|plea]] for safer working conditions.",
+    "Before a page is designed, two volunteer editors separate verifiable details from accusations. They seek an [[impartial|impartial]] account by interviewing workers, the building's owner and a fire inspector, although a substantial [[divergence|divergence]] remains between their explanations. A proposal to [[outlaw|outlaw]] the storage of flammable liquids beneath staircases is identified as a proposed legal measure, not an existing rule.",
+    "Next, the text is arranged in narrow columns beside a photograph of the damaged entrance. The editors are [[candid|candid]] about what their investigation cannot establish. At the bakery's kitchen table, they use a lens to [[magnify|magnify]] a trial print, checking whether small letters remain legible. Uneven ink coverage proves [[troublesome|troublesome]]: too much pressure fills the centres of letters, while too little leaves broken strokes.",
+    "Finally, a hand-operated duplicator transfers the corrected pages onto inexpensive paper. Its [[intermittent|intermittent]] clicking pauses whenever sheets must be realigned, so production occupies an entire evening. The finished copies are folded rather than stapled, with a corrections address beneath the final column. On the back page, a short remembrance gives neighbours space to [[grieve|grieve]]. By morning, the box that collected their accounts holds a publication they can carry home."
+  ],
+  "zh": [
+    "《庭院小报》的制作并非始于印刷机，而是始于面包店外的一个木箱，居民把手写的消息投放在那里。本月的刊物关注一家家具作坊发生的致命火灾。来稿中，有人对被堵塞的出口表示愤慨，也有一位遗孀恳切请求改善工作场所的安全条件。",
+    "在设计版面之前，两位志愿编辑先将可核实的细节与指控分开。他们采访工人、楼房业主和消防检查员，力求作出公正的报道，但各方对事件的解释仍存在显著分歧。对于一项拟从法律上禁止在楼梯下储存易燃液体的提议，编辑明确注明：这只是拟议中的法律措施，并非现行规定。",
+    "接下来，文字被排成窄栏，旁边配上一张受损入口的照片。对于调查无法查明的事情，编辑们坦率地作出说明。在面包店的厨房餐桌上，他们用放大镜查看试印稿，检查小字是否仍然清晰可辨。着墨不均颇为棘手：压力太大会让字母内部的空隙被油墨填满，压力太小则会使笔画断裂。",
+    "最后，一台手动油印机将校正后的版面印到廉价纸张上。每当需要重新对齐纸张时，机器断断续续的咔嗒声便会停下来，因此整个制作过程耗去一整晚。印好的报纸只作折叠，不用订书钉装订，末栏下方印着接收更正意见的地址。末版的一篇简短追思文字，让邻居们得以寄托哀思。到了清晨，那个曾收集他们叙述的木箱里，装着可供他们带回家的刊物。"
+  ],
+  "q": [
+    {
+      "s": "Residents' handwritten reports play no part in producing the Gazette.",
+      "a": "F",
+      "why": "首段说明小报制作始于居民投入的手写来稿。"
+    },
+    {
+      "s": "The editors identify the ban on storing flammable liquids beneath staircases as a proposal.",
+      "a": "T",
+      "why": "第二段明确注明这项禁令只是提议。"
+    },
+    {
+      "s": "The bakery pays for the paper used to produce the Gazette.",
+      "a": "NG",
+      "why": "文中提到廉价纸张，未说明谁出资。"
+    }
+  ]
+}

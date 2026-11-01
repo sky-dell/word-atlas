@@ -1,0 +1,48 @@
+{
+  "id": "r0249",
+  "ids": [
+    "native",
+    "prison",
+    "boarding",
+    "opera",
+    "complex",
+    "chase",
+    "storey",
+    "width",
+    "employer",
+    "incredibly"
+  ],
+  "title": "Birdsong Behind the Walls",
+  "titleZh": "高墙后的鸟鸣",
+  "topic": "arts",
+  "cefr": 2,
+  "paras": [
+    "12 May, six in the morning. Before [[boarding|boarding]] began, I checked my recording equipment beside the small boat. My [[employer|employer]], a theatre beside the harbour, needed island sounds for a new [[opera|opera]]. Its story takes place near my [[native|native]] town, where I spent my childhood listening to seabirds from the kitchen window.",
+    "The island's old [[prison|prison]] has been empty for forty years. Today, birds nest where people were once locked up. I climbed to the second [[storey|storey]] and sat beside a broken window. Below me, two white birds began to [[chase|chase]] a third across the yard. Their sharp cries filled the roofless rooms.",
+    "At first, the sounds seemed too [[complex|complex]] to separate: wings, calls, wind and waves all arrived together. Then I noticed a pattern. Whenever a wave struck the wall, the birds paused their calls briefly. The yard's [[width|width]] was about twenty metres, and calls travelled clearly between its stone sides. I moved my microphone closer to the window.",
+    "For ten minutes, the wind dropped and the recording became [[incredibly|incredibly]] clear. I could even hear young birds calling softly inside a pipe. Back at the boat, I wrote one final note: use the quiet calls, not only the loud ones. The music needed to show that this empty building was full of life."
+  ],
+  "zh": [
+    "5月12日，早上六点。登船开始前，我在小船旁检查了录音设备。我的雇主是一家海港边的剧院，他们需要为一部新歌剧录制岛上的声音。歌剧的故事发生在我的故乡附近。小时候，我常在那里的厨房窗边听海鸟鸣叫。",
+    "岛上的旧监狱已经空置四十年了。如今，鸟儿在曾经关押犯人的地方筑巢。我爬上二楼，坐在一扇破窗旁。下方，两只白鸟开始追赶第三只鸟，飞过院子。它们尖锐的叫声回荡在没有屋顶的房间里。",
+    "起初，这些声音似乎太复杂，难以分辨：振翅声、鸟叫声、风声和海浪声混在一起。随后，我发现了一个规律。每当海浪拍打墙壁，鸟儿就会短暂停下鸣叫。院子大约二十米宽，叫声在两侧石墙之间传得很清楚。我把麦克风移到更靠近窗户的位置。",
+    "有十分钟，风小了下来，录音变得极其清晰。我甚至能听到幼鸟在一根管子里轻声鸣叫。回到船边，我写下最后一条笔记：要用那些轻柔的叫声，而不只是响亮的叫声。音乐需要表现出，这座空荡荡的建筑其实充满了生命。"
+  ],
+  "q": [
+    {
+      "s": "The writer checked the recording equipment after boarding the boat.",
+      "a": "F",
+      "why": "作者在登船开始前检查了设备。"
+    },
+    {
+      "s": "The birds briefly stopped calling when a wave hit the wall.",
+      "a": "T",
+      "why": "第三段明确说海浪拍墙时鸟鸣短暂停止。"
+    },
+    {
+      "s": "The theatre used the quiet calls in the opera's opening scene.",
+      "a": "NG",
+      "why": "只提议使用轻柔叫声，未说明用于哪一幕。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0562",
+  "ids": [
+    "temperament",
+    "dub",
+    "amends",
+    "ignite",
+    "witty",
+    "veto",
+    "wail",
+    "adverbial",
+    "bust",
+    "syndrome"
+  ],
+  "title": "The Quarry After Climbing",
+  "titleZh": "攀岩结束后的采石场",
+  "topic": "sport",
+  "cefr": 4,
+  "paras": [
+    "18 September, dusk. Above the abandoned marble quarry, climbing ropes hung motionless while we counted bats emerging from a fissure. Our instructor, Leila, whose cautious [[temperament|temperament]] usually restrained the group, had noticed fewer animals this autumn. Beneath a weathered [[bust|bust]] of the quarry’s founder, she laid out last year’s records: forty-three departures on a comparable evening, against tonight’s eleven.",
+    "The discrepancy did not establish disease. White-nose [[syndrome|syndrome]], associated with a fungus that disrupts hibernation, required specialist investigation; temperature and counting conditions also mattered. Nevertheless, the reserve ecologist exercised her [[veto|veto]] over a proposed night-climbing event. She also stopped a photographer preparing to [[ignite|ignite]] a smoke pellet: the visual effect did not justify exposing the crevice to fumes.",
+    "We had reasons to make [[amends|amends]]. During our previous visit, a novice had begun to [[wail|wail]] after trapping his fingers, and our rescue had involved shouting below the roost. Whether that disturbance explained the reduced count remained unknown. Leila now moved everyone behind the quarry wall, abandoning her normally [[witty|witty]] commentary as more silhouettes appeared.",
+    "For our club’s conservation film, I recorded the emergence without narration. Volunteers would [[dub|dub]] interviews elsewhere in the film into Mandarin. My notebook’s [[adverbial|adverbial]] phrases—“after sunset”, “above the eastern ledge”—would become captions specifying when and where we filmed. By full darkness, twenty-seven bats had left the fissure. This was not proof of recovery. We coiled our unused ropes and left."
+  ],
+  "zh": [
+    "9月18日，黄昏。废弃的大理石采石场上方，攀岩绳索静静垂着，我们则在清点从一道岩缝中飞出的蝙蝠。教练莱拉性情谨慎，平时总会约束大家的行动；她注意到，今年秋天蝙蝠变少了。在采石场创办人那尊饱经风化的半身像下，她摊开去年的记录：一个条件相近的傍晚，共有四十三只蝙蝠飞出，而今晚目前只有十一只。",
+    "数量上的差异并不能证明蝙蝠患病。白鼻综合征与一种干扰冬眠的真菌有关，需要专业人员调查确认；气温和清点时的条件同样重要。不过，保护区生态学家仍行使了否决权，叫停一场拟议中的夜间攀岩活动。她还制止了一名准备点燃烟雾弹的摄影师：这种视觉效果不足以成为让烟气侵入岩缝的理由。",
+    "我们确实有理由作出补偿。上次来访时，一名新手夹住手指后开始痛苦地大叫，而救援过程中，我们就在栖息处下方高声呼喊。那次干扰是否造成了数量下降，仍不得而知。此时，莱拉把所有人带到采石场围墙后面；随着更多剪影出现，她收起了平日里风趣的解说。",
+    "为制作俱乐部的保护宣传片，我录下了蝙蝠飞出的过程，没有配上旁白。志愿者之后会把影片其他部分的访谈译配成普通话。我笔记中充当状语的短语——“日落之后”“东侧岩架上方”——将成为字幕，注明我们拍摄的时间和地点。天色全黑时，已有二十七只蝙蝠离开岩缝。这并不能证明种群正在恢复。我们盘起未曾使用的绳索，离开了。"
+  ],
+  "q": [
+    {
+      "s": "The initial count during this visit exceeded last year’s count on a comparable evening.",
+      "a": "F",
+      "why": "此次起初十一只，少于去年的四十三只。"
+    },
+    {
+      "s": "The reserve ecologist had previously investigated disease at this roost.",
+      "a": "NG",
+      "why": "文中未说明生态学家此前是否在此调查疾病。"
+    },
+    {
+      "s": "By full darkness, the observers had counted twenty-seven bats leaving the fissure.",
+      "a": "T",
+      "why": "末段明确记录天全黑时已有二十七只飞出。"
+    }
+  ]
+}

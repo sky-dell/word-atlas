@@ -1,0 +1,46 @@
+{
+  "id": "r0042",
+  "ids": [
+    "chair",
+    "never",
+    "middle",
+    "cool",
+    "september",
+    "easy",
+    "thing",
+    "mouth",
+    "study",
+    "anything"
+  ],
+  "title": "Flowers You Can Eat",
+  "titleZh": "可以吃的花",
+  "topic": "work",
+  "cefr": 0,
+  "paras": [
+    "Welcome to our small cake museum. This room shows the work of a cake maker called Lila. She made flowers from sugar for forty years. In the [[middle|middle]] of the room is her work table. Her low [[chair|chair]] is beside it. The blue [[thing|thing]] on the table is a small flower box. She used it to carry her sugar flowers to shops.",
+    "Lila started work early. Her room was [[cool|cool]], so the sugar did not get too soft. She made each flower by hand. It looks [[easy|easy]] in the film on the wall, but one flower took twenty minutes. Watch her fingers make a small red rose. She would [[never|never]] put a flower in its box before it was dry. New workers came to [[study|study]] her way of making roses.",
+    "Our flower room opens every [[september|September]]. Please do not touch [[anything|anything]] on the old work table. You can make your own sugar flower at the new table near the door. A guide will help you. Then put it in your [[mouth|mouth]] and taste it. Your visit ends with something sweet!"
+  ],
+  "zh": [
+    "欢迎来到我们的小小蛋糕博物馆。这个房间展示了一位名叫莉拉的蛋糕师的工作。她做了四十年的糖花。房间中央是她的工作台，旁边放着她的矮椅子。桌上那个蓝色的东西是一个小花盒。她过去用它把糖花送到店里。",
+    "莉拉很早就开始工作。她的工作间很凉爽，所以糖不会变得太软。每朵花都是她亲手做的。墙上播放的影片里，做花看起来很容易，但做一朵要花二十分钟。看看她的手指怎样做出一朵小红玫瑰。花没有干之前，她绝不会把它放进盒子里。新来的工人会来学习她做玫瑰的方法。",
+    "我们的糖花室每年九月开放。请不要触摸旧工作台上的任何物品。你可以在门边的新桌子上做自己的糖花。一位讲解员会帮助你。然后，把糖花放进嘴里尝一尝。你的参观就在这份甜蜜中结束！"
+  ],
+  "q": [
+    {
+      "s": "Lila made the blue flower box herself.",
+      "a": "NG",
+      "why": "只说莉拉使用花盒，未说是谁制作的。"
+    },
+    {
+      "s": "It took Lila five minutes to make one sugar flower.",
+      "a": "F",
+      "why": "文中说制作一朵糖花要花二十分钟。"
+    },
+    {
+      "s": "Visitors can make a sugar flower near the door.",
+      "a": "T",
+      "why": "文中说访客可在门边的新桌子上做糖花。"
+    }
+  ]
+}

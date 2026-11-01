@@ -1,0 +1,48 @@
+{
+  "id": "r0406",
+  "ids": [
+    "puncture",
+    "unconscious",
+    "inevitably",
+    "shovel",
+    "ignorant",
+    "acquaintance",
+    "apparent",
+    "frustration",
+    "proverb",
+    "transition"
+  ],
+  "title": "When the Obvious Problem Distracts",
+  "titleZh": "当显眼的问题分散注意力",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "At a mountain rescue training centre, a broken equipment cart becomes a lesson in attention. Its tyre has a visible [[puncture|puncture]], and a [[shovel|shovel]] lies beside a pile of gravel. Beyond the cart, a training dummy represents an [[unconscious|unconscious]] walker. The volunteers must decide what deserves their attention first.",
+    "The damaged wheel offers an [[apparent|apparent]] problem with a familiar solution. However, repairing it is not the immediate goal: assessing the walker and requesting appropriate help are more urgent. Volunteers who are [[ignorant|ignorant]] of the exercise's purpose may spend valuable minutes examining the tyre. Once they start, [[frustration|frustration]] can make stopping surprisingly difficult. Time spent on the wheel [[inevitably|inevitably]] leaves less time for the simulated rescue.",
+    "Psychologists call the tendency to stick with one approach mental fixation. Knowledge is not always enough to prevent it. An [[acquaintance|acquaintance]] who repairs bicycles might confidently offer advice about the tyre, strengthening the group's focus on the wrong task. Meanwhile, the old [[proverb|proverb]] 'Look before you leap' takes on a practical meaning: examine the whole situation before committing to a solution.",
+    "To encourage the [[transition|transition]] from narrow attention to broader thinking, trainers pause the exercise and ask each volunteer to describe the main goal without mentioning equipment. This simple question separates the desired outcome from the object attracting attention. When the exercise resumes, the wheel has not changed, but its importance has."
+  ],
+  "zh": [
+    "在一处山地救援训练中心，一辆损坏的装备推车成了注意力训练的教具。它的轮胎上有一个清晰可见的刺孔，一把铁锹放在一堆碎石旁。推车后面，一个训练假人扮演失去知觉的徒步者。志愿者必须决定，首先应该关注什么。",
+    "损坏的车轮呈现出一个显而易见的问题，也让人想到熟悉的解决办法。然而，修好它并不是眼下的目标：评估徒步者的状况并请求适当的援助更为紧迫。不了解演练目的的志愿者可能会花上宝贵的几分钟检查轮胎。一旦动手，懊恼的情绪反而可能让他们难以停下来。在车轮上花费时间，必然会减少用于模拟救援的时间。",
+    "心理学家把这种坚持采用同一种方法的倾向称为思维固着。仅有知识并不总能避免它。一位会修自行车的熟人可能自信地提出修理轮胎的建议，使整个小组更加专注于错误的任务。与此同时，古老的谚语“三思而后行”也有了实际意义：在决定采用某个解决办法之前，先审视整个局面。",
+    "为了促使志愿者从狭窄的关注范围转向更全面的思考，培训人员会暂停演练，请每个人在不提及装备的情况下描述主要目标。这个简单的问题把希望实现的结果与吸引注意力的物品区分开来。演练重新开始时，车轮没有变化，但它的重要性已经不同了。"
+  ],
+  "q": [
+    {
+      "s": "Volunteers need to fix the cart before attending to the walker.",
+      "a": "F",
+      "why": "第二段指出评估徒步者和求助更紧迫。"
+    },
+    {
+      "s": "The acquaintance who repairs bicycles has taken a mountain rescue course.",
+      "a": "NG",
+      "why": "文中未说明这位熟人是否参加过救援课程。"
+    },
+    {
+      "s": "During the pause, volunteers are asked to describe the main goal without mentioning equipment.",
+      "a": "T",
+      "why": "末段明确说明暂停时要求不提装备描述目标。"
+    }
+  ]
+}

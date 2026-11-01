@@ -1,0 +1,48 @@
+{
+  "id": "r0358",
+  "ids": [
+    "additional",
+    "cooperating",
+    "overdose",
+    "affordable",
+    "layout",
+    "slight",
+    "convert",
+    "shipping",
+    "grasshopper",
+    "expire"
+  ],
+  "title": "Making a Medicine Return Box",
+  "titleZh": "制作废旧药品回收箱",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "At a small workshop beside a community pharmacy, discarded wooden cabinets become medicine return boxes. The aim is to offer an [[affordable|affordable]] way to collect unwanted medicines before they enter household rubbish or drains. A painted [[grasshopper|grasshopper]] on each box links the project to its wider purpose: protecting the living environment.",
+    "Carpenters begin by removing shelves and checking the wood for damage. They then [[convert|convert]] each cabinet into a secure container by fitting a locked inner bin and a narrow opening. With pharmacy staff [[cooperating|cooperating]] on the design, they adjust the [[layout|layout]] so that visitors can read the instructions before reaching the opening. An [[additional|additional]] metal plate prevents anyone from reaching inside.",
+    "Next comes the information panel. It asks people to return medicines when they [[expire|expire]] or are no longer needed, while directing needles to a separate collection service. One short warning explains that keeping unnecessary drugs at home can increase the risk of an accidental [[overdose|overdose]]. The lettering is printed on a waterproof sheet, and a [[slight|slight]] curve in its cover helps rain run off during delivery.",
+    "Finally, the finished box is tested with empty medicine packets. For [[shipping|shipping]], its corners are protected with reusable cloth pads rather than plastic foam. Once installed inside the pharmacy, it is emptied by trained staff, who arrange specialist disposal of the contents. An object once used to store household possessions now helps keep unwanted chemicals out of streams."
+  ],
+  "zh": [
+    "在一家社区药房旁的小作坊里，废弃的木柜被制成药品回收箱。这个项目旨在以经济实惠的方式收集不再需要的药品，避免它们进入生活垃圾或下水道。每个箱子上都画着一只蚱蜢，体现了这个项目更长远的目标：保护自然生态。",
+    "木匠首先拆掉搁板，检查木材是否受损。随后，他们装入带锁的内桶，并开出一个狭窄的投入口，将每个木柜改造成安全的容器。药房工作人员参与设计，木匠据此调整布局，让使用者在走到投入口前就能看到说明。此外，他们还加装了一块金属板，防止有人把手伸进箱内。",
+    "接下来制作说明面板。面板提醒人们将过期或不再需要的药品送来回收，同时说明针头须交由另一项专门服务收集。一条简短的警示指出，在家中留存不必要的药品可能增加意外用药过量的风险。文字印在防水材料上，其保护罩略带弧度，有助于在配送途中让雨水滑落。",
+    "最后，制作者用空药盒测试成品。运输时，箱角用可重复使用的布垫保护，而非泡沫塑料。回收箱安装在药房内后，由受过培训的工作人员清空，并安排专业机构处理其中的药品。一件曾经用来存放家居物品的旧家具，如今帮助阻止废弃化学物质流入溪流。"
+  ],
+  "q": [
+    {
+      "s": "The workshop uses newly purchased cabinets rather than discarded ones to make the return boxes.",
+      "a": "F",
+      "why": "首段说回收箱由废弃木柜制成。"
+    },
+    {
+      "s": "The carpenters and pharmacy staff spent two weeks agreeing on the design.",
+      "a": "NG",
+      "why": "文中未说明双方商定设计所花的时间。"
+    },
+    {
+      "s": "Reusable cloth pads protect the box's corners during shipping.",
+      "a": "T",
+      "why": "末段说明运输时用可重复使用的布垫保护箱角。"
+    }
+  ]
+}

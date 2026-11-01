@@ -1,0 +1,45 @@
+{
+  "id": "r0543",
+  "ids": [
+    "illustrate",
+    "glorious",
+    "checklist",
+    "straightforward",
+    "scratch",
+    "greenhouse",
+    "efficiency"
+  ],
+  "title": "Beyond the Bowling Green",
+  "titleZh": "草地滚球场之外",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "Visitors to the coastal village of Bellwick often stop at its small bowling club, where a wooden gate opens onto a square of closely cut grass. Although photographs inside celebrate the club’s [[glorious|glorious]] championship victories, the attraction for travellers is less competitive: anyone can join the Sunday afternoon introduction to lawn bowls.",
+    "Before play, volunteer coach Amira follows a handwritten [[checklist|checklist]]: inspect the grass, count the bowls and put out flat shoes for guests. The basic aim seems [[straightforward|straightforward]]—roll your bowl closer to a small white ball than your opponent does. However, bowls are shaped to follow a curved path. To [[illustrate|illustrate]] this, Amira sends one around a wooden block, surprising several visitors who expected it to travel straight.",
+    "Between rounds, players gather beside a [[greenhouse|greenhouse]], where flowers are grown for the borders surrounding the green. Retired gardener Tomas manages both spaces. He has improved watering [[efficiency|efficiency]] by sending collected roof rainwater through narrow pipes directly to plant roots. While explaining the system, he pauses to [[scratch|scratch]] his wrist, irritated by a woollen sleeve, then proudly points out that no drinking water was needed last month.",
+    "Tea is served outside as the final bowls cross the grass. Nobody records the beginners’ scores; instead, experienced members discuss a well-judged curve or an unexpectedly accurate roll. For the visitor, the afternoon reveals a sporting culture sustained not simply by winning, but by careful preparation and shared pleasure."
+  ],
+  "zh": [
+    "来到海滨村庄贝尔威克的游客，常会在当地的小型草地滚球俱乐部停留。推开木门，眼前是一块修剪整齐的方形草坪。虽然室内的照片记录着俱乐部赢得冠军的辉煌时刻，但吸引旅行者的活动并没有那么强的竞技色彩：任何人都可以参加周日下午的草地滚球入门体验。",
+    "比赛开始前，志愿教练阿米拉会按一份手写检查表逐项准备：查看草坪、清点滚球，并为客人摆好平底鞋。基本目标似乎很简单——让自己的球比对手的球更靠近一颗白色小球。不过，滚球的形状设计会使它沿弧线前进。为了说明这一点，阿米拉让一颗球绕过木块，令几位原以为球会直线滚动的游客惊讶不已。",
+    "每轮比赛的间隙，球员们会聚到一座温室旁，里面培育的花卉用于装点球场四周的花坛。退休园丁托马斯负责照料这两处地方。他将收集的屋顶雨水通过细管直接送至植物根部，提高了浇水效率。讲解这套系统时，他停下来挠了挠被羊毛袖口弄得发痒的手腕，随后自豪地指出，上个月浇水完全没有用到饮用水。",
+    "最后几颗球滚过草坪时，茶点也在户外摆好了。没有人记录初学者的得分；经验丰富的会员们聊的，是一次判断精准的弧线球，或一次出乎意料的准确投球。对游客而言，这个下午展现了一种体育文化：维系它的不只是胜利，还有精心的准备与共同的快乐。"
+  ],
+  "q": [
+    {
+      "s": "The Sunday introductory activity is closed to visitors who are not club members.",
+      "a": "F",
+      "why": "首段明确说明任何人都可参加入门体验。"
+    },
+    {
+      "s": "Amira demonstrates that a bowl can follow a curved path.",
+      "a": "T",
+      "why": "第二段中阿米拉让球沿弧线绕过木块。"
+    },
+    {
+      "s": "Tomas paid for the rainwater collection system himself.",
+      "a": "NG",
+      "why": "文章未说明雨水收集系统由谁出资。"
+    }
+  ]
+}

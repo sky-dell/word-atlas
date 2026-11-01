@@ -1,0 +1,48 @@
+{
+  "id": "r0622",
+  "ids": [
+    "screech",
+    "mimic",
+    "elaborate",
+    "mechanics",
+    "tradesman",
+    "heroic",
+    "fiddle",
+    "utilise",
+    "deplete",
+    "strategic"
+  ],
+  "title": "Building a Bird from Stormwood",
+  "titleZh": "用风暴遗木制作海鸟",
+  "topic": "nature",
+  "cefr": 4,
+  "paras": [
+    "At a coastal nature reserve, a wooden seabird is being made for an exhibition about life on exposed cliffs. Its wings will rise when visitors turn a handle, while a concealed device will [[mimic|mimic]] its call. The figure commemorates a warden whose [[heroic|heroic]] rescue of two stranded walkers became part of the reserve’s history.",
+    "Construction begins with timber recovered after winter storms. By choosing fallen wood rather than cutting living trees, the makers avoid practices that could [[deplete|deplete]] the woodland bordering the cliffs. A local [[tradesman|tradesman]], skilled in cabinetmaking, splits the timber and leaves it to dry. This apparently modest decision is [[strategic|strategic]]: properly seasoned components should withstand years of handling in the damp visitor centre.",
+    "Inside the hollow body, an [[elaborate|elaborate]] arrangement of wooden wheels and connecting rods translates rotation into the slow lifting of wings. The design draws on [[mechanics|mechanics]], particularly the relationship between leverage and effort. Before carving feathers, the makers test whether a child can operate the handle comfortably. They [[utilise|utilise]] small brass weights to balance the wings, reducing strain on the narrow joints without concealing how the mechanism works.",
+    "The voice requires a different craft. Drawing inspiration from a folk musician’s [[fiddle|fiddle]], the team fits a rosined wheel against a taut string above a resonating chamber. Too much pressure makes it [[screech|screech]]; careful adjustment produces the rough, wavering note of a seabird. Finally, the unpainted figure is installed beside a window overlooking the colony, connecting its visible machinery with the living birds beyond."
+  ],
+  "zh": [
+    "在一处海岸自然保护区，人们正在制作一只木海鸟，用于展示无遮蔽海崖上的生命。参观者转动手柄时，它的翅膀便会抬起，内部隐藏的装置则会模拟海鸟的叫声。这件作品纪念一位保护区管理员：这位管理员曾英勇救出两名受困的徒步者，这段事迹后来成为保护区历史的一部分。",
+    "制作从收集冬季风暴过后留下的木材开始。制作者选用倒木，而非砍伐活树，从而避免可能大量消耗海崖边林地资源的做法。一名擅长制作橱柜的当地男工匠将木材劈开，放置晾干。这个看似不起眼的决定着眼于长远：经过充分干燥的部件，应当能够经受住潮湿游客中心里多年的操作使用。",
+    "中空的鸟身内部，一套由木轮和连杆精密组合而成的装置，将旋转运动转化为翅膀缓缓抬起的动作。设计运用了力学原理，尤其是杠杆作用与所需用力之间的关系。在雕刻羽毛之前，制作者会测试儿童能否轻松转动手柄。他们利用小型黄铜配重来平衡翅膀，减轻细窄关节承受的负荷，同时不遮挡装置的运作过程。",
+    "制作鸟鸣装置则需要另一门技艺。团队从民间音乐家演奏的小提琴中获得灵感，在共鸣腔上方架设一根绷紧的琴弦，再使涂有松香的轮子与琴弦接触。压力过大会使它发出刺耳声；经过细致调节，它便能奏出海鸟那种粗粝、颤动的鸣声。最后，这只未经涂漆的木鸟被安置在一扇俯瞰海鸟群落的窗边，将清晰可见的机械结构与窗外鲜活的鸟儿联系起来。"
+  ],
+  "q": [
+    {
+      "s": "The makers cut down living trees to obtain timber for the bird.",
+      "a": "F",
+      "why": "第二段明确说选用倒木，而非砍伐活树。"
+    },
+    {
+      "s": "Ten children took part in testing the bird’s handle.",
+      "a": "NG",
+      "why": "文中未说明儿童操作测试的参与人数。"
+    },
+    {
+      "s": "Excessive pressure in the sound mechanism produces a screech.",
+      "a": "T",
+      "why": "末段明确说压力过大会使装置发出刺耳声。"
+    }
+  ]
+}

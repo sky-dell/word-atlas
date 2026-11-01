@@ -1,0 +1,48 @@
+{
+  "id": "r0016",
+  "ids": [
+    "correct",
+    "animal",
+    "thirsty",
+    "pen",
+    "leave",
+    "window",
+    "ride",
+    "leg",
+    "tomato",
+    "try"
+  ],
+  "title": "A Healthy Morning by the Sea",
+  "titleZh": "海边的健康早晨",
+  "topic": "health",
+  "cefr": 0,
+  "paras": [
+    "In the small seaside village of Mira, visitors can spend a morning with a village cook. Her name is Hana. She makes simple food and takes her guests to a garden. I meet her at eight, beside a blue door. Before we [[leave|leave]], she gives me water. “You will be [[thirsty|thirsty]] in the sun,” she says.",
+    "We [[ride|ride]] bicycles to the garden. The road is flat, and the sea is beside us. We stop once to watch a small [[animal|animal]] near a wall. It is a cat, asleep in the warm light. At the garden, we walk slowly between green plants. My left [[leg|leg]] feels tired, so Hana finds a seat for me.",
+    "Hana picks a red [[tomato|tomato]] and washes it. Then we go into the garden kitchen. An open [[window|window]] lets in cool air. She cuts our fresh food at a wooden table. I [[try|try]] to make her cold soup with the tomato, bread, water, and a little oil. In Mira, families often eat this soup on hot days. It tastes fresh and sweet.",
+    "After lunch, I take out a [[pen|pen]] and write down the soup recipe. Hana reads it to check that it is [[correct|correct]]. I ask how much bread I need. She shows me a small piece, and I add a note on my paper."
+  ],
+  "zh": [
+    "在海边的小村米拉，游客可以和村里的一位厨师共度一个上午。她叫哈娜。她做简单的饭菜，也带客人去菜园。我八点在一扇蓝色的门旁见到她。出发前，她给了我水。她说：“在太阳底下，你会口渴的。”",
+    "我们骑自行车去菜园。道路平坦，大海就在身旁。我们停了一次，看看墙边的一只小动物。那是一只猫，在温暖的阳光下睡着了。到了菜园，我们在绿色的植物之间慢慢走。我的左腿有些累，哈娜便给我找了个座位。",
+    "哈娜摘下一个红番茄，把它洗干净。然后，我们走进菜园的厨房。凉爽的空气从一扇开着的窗户吹进来。她在木桌上切好新鲜食材。我试着用这个番茄、面包、水和少许油做她的冷汤。在米拉，天气炎热时，人们家里常喝这种汤。它喝起来清爽香甜。",
+    "午饭后，我拿出一支笔，记下汤的做法。哈娜读了一遍，检查我是否记得准确。我问需要多少面包。她拿一小块给我看，我便在纸上补了一条说明。"
+  ],
+  "q": [
+    {
+      "s": "The visitor meets Hana at nine.",
+      "a": "F",
+      "why": "作者说与哈娜见面的时间是八点。"
+    },
+    {
+      "s": "Hana learned to make the soup from her mother.",
+      "a": "NG",
+      "why": "文章未说明哈娜向谁学做这种汤。"
+    },
+    {
+      "s": "Hana checks the visitor's soup recipe.",
+      "a": "T",
+      "why": "午饭后哈娜阅读并核对作者记下的做法。"
+    }
+  ]
+}

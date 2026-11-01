@@ -1,0 +1,48 @@
+{
+  "id": "r0491",
+  "ids": [
+    "miracle",
+    "establish",
+    "criteria",
+    "interact",
+    "superstitious",
+    "congress",
+    "panic",
+    "cement",
+    "severe",
+    "function"
+  ],
+  "title": "The Marsh That Came Back",
+  "titleZh": "重获新生的盐沼",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "When green shoots appeared behind Bellwater Bay's broken sea wall, some residents called it a [[miracle|miracle]]. For decades, the ground had been dry and almost bare. A few [[superstitious|superstitious]] fishers linked its recovery to a lucky stone uncovered by the waves. Yet coastal scientist Amara Sen suspected a simpler explanation: seawater was returning to an ancient marsh.",
+    "The opening had appeared during a [[severe|severe]] winter storm, causing [[panic|panic]] among families whose gardens bordered the shore. Builders proposed sealing it with blocks joined using [[cement|cement]]. Sen suggested waiting. Salt marshes have an important [[function|function]]: their dense stems slow waves, while their roots hold muddy ground together. Repairing the wall immediately might prevent this natural protection from developing.",
+    "With permission from landowners, Sen helped [[establish|establish]] a monitoring programme. Her team used three [[criteria|criteria]] to judge recovery: plant cover, soil height and the number of young fish entering tidal pools. Monthly meetings allowed researchers to [[interact|interact]] with residents, who contributed photographs taken from their windows. These images revealed where water remained longest after each tide, helping the team choose suitable planting sites.",
+    "After two growing seasons, vegetation covered much of the sheltered ground, although exposed corners remained bare. The findings reached a committee in the national [[congress|congress]], which was reviewing coastal protection law. For Bellwater's residents, however, the most persuasive evidence was closer: small fish now sheltered among stems where only cracked earth had been."
+  ],
+  "zh": [
+    "当贝尔沃特湾破损海堤后方冒出绿芽时，一些居民称之为奇迹。几十年来，那片土地一直干燥，几乎寸草不生。几位迷信的渔民认为，这次复苏与海浪冲出的一块幸运石有关。然而，海岸科学家阿玛拉·森猜测，原因其实更简单：海水正在重新流入一片古老的盐沼。",
+    "海堤上的缺口是在一场猛烈的冬季风暴中出现的，引发了花园紧邻海岸的那些家庭的恐慌。建筑工人提议用水泥黏合砌块，堵住缺口。森建议再等等。盐沼有一个重要作用：密集的植物茎秆可以减缓海浪，而根系则能固定泥泞的地面。立即修复海堤，可能会阻碍这种天然防护的形成。",
+    "获得土地所有者的许可后，森协助建立了一项监测计划。她的团队采用三项标准评估恢复情况：植被覆盖程度、土壤高度，以及进入潮汐水塘的幼鱼数量。每月的会议让研究人员能够与居民交流，居民还提供了从自家窗户拍摄的照片。这些照片显示了每次潮汐过后哪些地方积水时间最长，帮助团队选择合适的种植地点。",
+    "两个生长季过后，植被覆盖了大部分有遮蔽的地面，不过迎风浪的角落仍然光秃秃的。研究结果送到了国家议会的一个委员会，该委员会当时正在审议海岸保护法。不过，对贝尔沃特的居民来说，最有说服力的证据就在身边：过去只有龟裂泥土的地方，如今已有小鱼在植物茎秆间栖身。"
+  ],
+  "q": [
+    {
+      "s": "One of the fishers was the first person to find the lucky stone.",
+      "a": "NG",
+      "why": "文中未说明谁最先发现幸运石。"
+    },
+    {
+      "s": "Sen suggested delaying repairs to the sea wall.",
+      "a": "T",
+      "why": "工人提议封堵缺口，森建议再等等。"
+    },
+    {
+      "s": "Vegetation covered all the exposed corners after two growing seasons.",
+      "a": "F",
+      "why": "两个生长季后，迎风浪的角落仍然光秃。"
+    }
+  ]
+}

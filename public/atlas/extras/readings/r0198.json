@@ -1,0 +1,48 @@
+{
+  "id": "r0198",
+  "ids": [
+    "cheating",
+    "stress",
+    "absent",
+    "poet",
+    "essential",
+    "whale",
+    "economics",
+    "pond",
+    "delighted",
+    "microphone"
+  ],
+  "title": "An Ocean on the Radio",
+  "titleZh": "广播里的海洋",
+  "topic": "technology",
+  "cefr": 2,
+  "paras": [
+    "In this fictional story, a small radio team enters a competition with a programme about the ocean. The rules require every sound to be made live. Playing an earlier recording counts as [[cheating|cheating]], so the team needs ways to create waves and animal calls inside a room.",
+    "Hana, the team leader, studies [[economics|economics]] at college and keeps a record of their spending. She borrows a wooden box and fills it with small stones. Tilting it gently makes a sound like water moving over a beach. Careful testing is [[essential|essential]]: with the [[microphone|microphone]] too close, every stone can be heard separately. They practise beside a garden [[pond|pond]], where they can compare their effects with real splashes.",
+    "For a [[whale|whale]] call, they try blowing across the top of a large empty bottle. It produces a low note, though nobody thinks it sounds exactly like the real animal. On competition day, their sound operator is [[absent|absent]] because of illness. This adds to Hana's [[stress|stress]]. Luis, the [[poet|poet]] who wrote the opening lines, takes over after a short practice.",
+    "During the broadcast, Hana points to each sound instruction while Luis watches her hand. Afterwards, the team is [[delighted|delighted]] to receive messages from listeners. Several ask which beach they recorded on. Hana writes back with a photograph of their box and bottle."
+  ],
+  "zh": [
+    "在这个虚构的故事里，一个小型广播团队带着一档海洋主题节目参加比赛。规则要求每一种声音都必须现场制作。播放事先录好的声音算作弊，因此团队需要想办法在房间里制造海浪声和动物叫声。",
+    "团队负责人哈娜在大学学习经济学，并记录团队的开支。她借来一个木箱，装入小石子。轻轻倾斜箱子，发出的声音就像海水漫过沙滩。仔细测试必不可少：麦克风放得太近，就能听清每颗石子的声音。他们在花园的池塘旁练习，这样便能将自己的音效与真实的溅水声作比较。",
+    "为了模仿鲸的叫声，他们试着对着一个大空瓶的瓶口吹气。这样能发出低沉的声音，不过没有人认为它与真正的鲸声完全一样。比赛当天，音效操作员因病缺席。这让哈娜的精神压力更大了。创作开场诗句的诗人路易斯经过短暂练习后，接手了这项工作。",
+    "播出时，哈娜逐一指向音效提示，路易斯则看着她的手。之后，团队收到听众发来的消息，非常高兴。几位听众问他们是在哪片海滩录制的。哈娜回信时附上了他们的木箱和瓶子的照片。"
+  ],
+  "q": [
+    {
+      "s": "The competition offers a cash prize.",
+      "a": "NG",
+      "why": "文章未说明比赛是否设有现金奖励。"
+    },
+    {
+      "s": "The team thinks the bottle sounds exactly like a real whale.",
+      "a": "F",
+      "why": "没有人认为瓶子发出的声音与真鲸完全一样。"
+    },
+    {
+      "s": "Some listeners think the programme was recorded on a beach.",
+      "a": "T",
+      "why": "几位听众询问节目是在哪片海滩录制的。"
+    }
+  ]
+}

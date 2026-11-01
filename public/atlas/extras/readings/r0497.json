@@ -1,0 +1,48 @@
+{
+  "id": "r0497",
+  "ids": [
+    "furthermore",
+    "briefing",
+    "dense",
+    "desirable",
+    "helpless",
+    "inevitable",
+    "brighten",
+    "tribe",
+    "highlight",
+    "bold"
+  ],
+  "title": "Colour After the Rain",
+  "titleZh": "雨后的色彩",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "At a mountain weaving house, visitors usually arrive hoping to take home something beautiful. Yet during my stay, the most memorable lesson concerned disappointment. Our host, Amara, belonged to a [[tribe|tribe]] whose families had woven patterned cloth for generations. She welcomed six travellers with tea and a short [[briefing|briefing]] on the afternoon's dyeing workshop.",
+    "Outside, [[dense|dense]] clouds gathered above the drying courtyard. Amara explained that sunshine was [[desirable|desirable]], but not essential: damp cloth simply needed longer under the covered roof. Then rain blew sideways through the doorway, soaking our freshly coloured threads. A delay became [[inevitable|inevitable]]. Watching purple water run across the stones, I felt strangely [[helpless|helpless]]; hours of careful work seemed to be disappearing.",
+    "Amara, however, brought out a basket of yellow thread. Rather than hide the faded areas, she suggested using them as part of the design. Her [[bold|bold]] proposal was to weave irregular yellow lines through the purple, like sunlight crossing wet fields. These would [[brighten|brighten]] the cloth; [[furthermore|furthermore]], their uneven shape would make each piece distinctive. She used an older hanging to [[highlight|highlight]] how unexpected colour changes could give a pattern character.",
+    "By evening, our cloth was still too wet to pack. We agreed to collect it the following morning and stayed to share soup around the workshop table. I had come for a finished souvenir. Instead, I would remember the moment when a disappointing afternoon became an invitation to look again."
+  ],
+  "zh": [
+    "来到山间这间织坊的游客，通常都希望带走一件美丽的物品。然而，我停留期间最难忘的一课，却与失望有关。接待我们的阿玛拉来自一个部落，那里的许多家庭世代织造带有纹样的布料。她用茶招待我们六位旅客，并简要介绍了下午染色体验活动的安排。",
+    "屋外，晾晒院子上空浓云聚集。阿玛拉解释说，有阳光固然好，但并非必不可少：湿布只需在有顶棚的地方多晾一会儿。随后，风裹着雨斜斜地吹进门口，淋湿了我们刚染好的线。延误已不可避免。看着紫色的水流过石板，我竟感到一种无助：几个小时的细致劳动似乎正在付诸东流。",
+    "阿玛拉却拿出了一篮黄色的线。她建议，不要遮掩褪色的部分，而应将它们融入设计。她大胆提出，在紫色中织入不规则的黄色线条，仿佛阳光掠过湿润的田野。这些线条会让布料的色彩更明亮；此外，不规则的形状也会让每件作品各具特色。她拿出一幅旧挂毯，向我们着重展示意料之外的色彩变化如何赋予纹样独特的韵味。",
+    "到了傍晚，我们的布料仍然湿得无法装进行李。大家约好第二天早上再来取，随后留下来，围坐在织坊的桌旁一起喝汤。我原本是为一件做好的纪念品而来。然而，真正让我记住的，却是一个令人失望的下午转变为一次重新观察的契机的那一刻。"
+  ],
+  "q": [
+    {
+      "s": "The six travellers had visited Amara's weaving house before.",
+      "a": "NG",
+      "why": "文中未说明六位旅客此前是否来过。"
+    },
+    {
+      "s": "Amara suggested making the faded areas part of the design.",
+      "a": "T",
+      "why": "她建议把褪色部分融入设计。"
+    },
+    {
+      "s": "The visitors agreed to collect their cloth that evening.",
+      "a": "F",
+      "why": "他们约好第二天早上取布料。"
+    }
+  ]
+}

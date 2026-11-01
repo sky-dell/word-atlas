@@ -1,0 +1,48 @@
+{
+  "id": "r0659",
+  "ids": [
+    "outcast",
+    "negotiable",
+    "proficient",
+    "pamper",
+    "blaze",
+    "devour",
+    "haven",
+    "tyranny",
+    "dodge",
+    "summon"
+  ],
+  "title": "Bread from the Refuge Bakery",
+  "titleZh": "避难面包坊的面包",
+  "topic": "economy",
+  "cefr": 4,
+  "paras": [
+    "In Meret, a former sail warehouse became a [[haven|haven]] for bakers fleeing the [[tyranny|tyranny]] of a neighbouring kingdom. Their cooperative produced barley loaves for dockworkers, employing anyone whom the established guilds treated as an [[outcast|outcast]]. Affordable bread required more than charity: each batch began with calculations of grain costs and demand.",
+    "Before dawn, the purchasing clerk would [[summon|summon]] the miller's representative to inspect the flour. Although delivery charges were [[negotiable|negotiable]], the cooperative refused flour containing grit. Bakers mixed barley flour with wheat flour for elasticity, then added water, salt and yesterday's fermented dough. Workers [[proficient|proficient]] in kneading adjusted each mixture by touch until it resisted the palm without cracking.",
+    "While the dough rose beneath damp cloths, an oven keeper built a [[blaze|blaze]] inside the brick chamber. Heat penetrated the masonry; once the wood had burned down, embers were raked out and the floor swept. Assistants sometimes had to [[dodge|dodge]] the long wooden peel as the keeper turned towards another loaf. Steam briefly kept the surface soft, allowing the dough to expand.",
+    "The loaves cooled on slatted racks before being weighed and priced. There was little money to [[pamper|pamper]] customers with upholstered seats or complimentary tea, but a sheltered counter offered warmth. Labourers would [[devour|devour]] a small roll before carrying larger loaves aboard ship. The refugees had secured both an income and a recognised place in the port."
+  ],
+  "zh": [
+    "在梅雷特，一座昔日的船帆仓库成了面包师的避难所，他们为逃离邻国的暴政而来到这里。他们的合作社为码头工人制作大麦面包，也雇用那些遭到老牌行会排斥的人。要做出价格实惠的面包，光有善意还不够：每批面包开工前，都得计算谷物成本和需求量。",
+    "天亮之前，采购员会请磨坊主的代表前来检查面粉。运费虽然可以商议，合作社却不接受含有砂粒的面粉。面包师将大麦粉与能增加面团弹性的小麦粉混合，再加入水、盐和前一天留下的发酵面团。揉面熟练的工人凭触感调整每份面团，直到按下去有阻力却不开裂。",
+    "面团盖着湿布发酵时，看炉人会在砖砌炉膛内燃起大火。热量渗入砖体；待木柴燃尽，余烬便被扒出，炉底也被扫净。看炉人转向另一个面团时，助手有时得闪开，避让长长的木制面包铲。蒸汽会让表面暂时保持柔软，使面团能够膨胀。",
+    "面包先放在板条架上冷却，再称重定价。店里没有多少余钱用软座或免费茶水来优待顾客，但有遮蔽的柜台能让人暖和片刻。工人们往往狼吞虎咽地吃掉一个小面包，再带着较大的面包上船。这些难民既获得了收入，也在港口赢得了认可。"
+  ],
+  "q": [
+    {
+      "s": "The cooperative rented the former sail warehouse from the town council.",
+      "a": "NG",
+      "why": "文中未说明仓库的产权或租赁安排。"
+    },
+    {
+      "s": "The cooperative rejected flour that contained grit.",
+      "a": "T",
+      "why": "第二段明确说合作社拒收含砂粒的面粉。"
+    },
+    {
+      "s": "The loaves were weighed before they were left to cool.",
+      "a": "F",
+      "why": "末段说面包先冷却，再称重定价。"
+    }
+  ]
+}

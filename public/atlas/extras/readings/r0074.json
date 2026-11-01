@@ -1,0 +1,46 @@
+{
+  "id": "r0074",
+  "ids": [
+    "young",
+    "photo",
+    "everybody",
+    "orange",
+    "cinema",
+    "match",
+    "dining-room",
+    "need",
+    "hungry",
+    "ago"
+  ],
+  "title": "A Small World on an Orange",
+  "titleZh": "橙子上的小世界",
+  "topic": "arts",
+  "cefr": 0,
+  "paras": [
+    "Ten days [[ago|ago]], Mina, a [[young|young]] artist, came home after a football [[match|match]]. She was [[hungry|hungry]], so she went into the [[dining-room|dining-room]] for some fruit. One [[orange|orange]] had a small green spot on its skin. She did not eat it. She took a [[photo|photo]] of it. The spot looked like a tiny green island in a big sea.",
+    "This green spot was mould. Mould is a living thing that can grow on food. Its tiny parts move through the air. They are too small for our eyes to see. They [[need|need]] food and water to grow. A soft, wet fruit can be a good home for them. As they grow, they can make green or white patches.",
+    "Mina put the fruit in a clear jar and kept it closed. Each day, she took another picture through the glass. The green island grew bigger. She made a short film from her pictures. A small [[cinema|cinema]] showed it before a long film. Now [[everybody|everybody]] in the room could see ten days of change in one minute. A tiny spot had become a moving picture of nature."
+  ],
+  "zh": [
+    "十天前，一场足球比赛结束后，年轻的艺术家米娜回到家。她饿了，就走进饭厅找些水果吃。一个橙子的皮上有一小块绿色斑点。她没有吃它，而是给它拍了一张照片。那个斑点看起来像大海中的一座绿色小岛。",
+    "这个绿色斑点是霉菌。霉菌是一种能在食物上生长的生物。它的微小颗粒会在空气中飘动。它们太小了，我们的眼睛看不见。它们需要食物和水才能生长。柔软、湿润的水果可以成为它们的好住所。随着它们生长，水果上可能会出现绿色或白色的斑块。",
+    "米娜把水果放进一个透明罐子里，并一直盖好盖子。每天，她都隔着玻璃再拍一张照片。那座绿色小岛越来越大。她用这些照片做了一部短片。一家小电影院在一部长片开始前播放了它。这样，放映厅里的每个人都能在一分钟内看到十天的变化。一个小小的斑点变成了一幅展现自然的动态图画。"
+  ],
+  "q": [
+    {
+      "s": "Mina photographed the fruit instead of eating it.",
+      "a": "T",
+      "why": "米娜没有吃那个橙子，而是给它拍了照。"
+    },
+    {
+      "s": "Mina used her phone to take the photo.",
+      "a": "NG",
+      "why": "文中未说明米娜用什么设备拍照。"
+    },
+    {
+      "s": "Mould can grow without water.",
+      "a": "F",
+      "why": "第二段说明霉菌需要食物和水才能生长。"
+    }
+  ]
+}

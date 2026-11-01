@@ -1,0 +1,46 @@
+{
+  "id": "r0159",
+  "ids": [
+    "usual",
+    "method",
+    "square",
+    "bottom",
+    "crocodile",
+    "clap",
+    "noon",
+    "discussion",
+    "wedding",
+    "blood"
+  ],
+  "title": "Why Dreams Mix Our Memories",
+  "titleZh": "梦为什么会混合我们的记忆",
+  "topic": "thinking",
+  "cefr": 1,
+  "paras": [
+    "At [[noon|noon]], Mina lies down for her [[usual|usual]] short sleep after lunch. Soon, she dreams of a [[wedding|wedding]] beside a river. The guests [[clap|clap]] as a [[crocodile|crocodile]] comes out of the water wearing a white hat. This strange scene feels real while she sleeps. Dreams can bring together things that do not belong together in daily life. Why does the sleeping mind make such surprising pictures?",
+    "During sleep, the brain does not simply turn off. The heart still sends [[blood|blood]] around the body, and parts of the brain remain busy. Memories and feelings can become part of dreams. The day before, Mina watched a film about river animals. Later, she had a [[discussion|discussion]] with her sister about a family celebration. Her dream may have mixed these two memories into one new story.",
+    "A simple [[method|method]] of exploring dreams is to write them down after waking. Mina draws a [[square|square]] on a page and puts her dream picture inside it. At the [[bottom|bottom]], she notes what happened the day before. Not every detail has a clear source, and dreams do not always have a special message. However, her drawing helps her find links between her dream and the day before."
+  ],
+  "zh": [
+    "中午，米娜躺下来，像往常一样在午饭后小睡一会儿。很快，她梦见河边正在举行一场婚礼。一条戴着白帽子的鳄鱼从水里出来，宾客们纷纷鼓掌。这个奇怪的场景在她睡着时感觉很真实。梦能把日常生活中毫不相干的事物放在一起。睡眠中的大脑为什么会创造出这样令人惊讶的画面呢？",
+    "睡觉时，大脑并不会完全停止工作。心脏仍然把血液输送到全身，大脑的某些部分也依然活跃。记忆和感受可能成为梦的一部分。前一天，米娜看了一部关于河中动物的影片。后来，她和她的姐妹讨论了一次家庭庆祝活动。她的梦可能把这两段记忆混合成了一个新故事。",
+    "探索梦境的一个简单方法，就是醒来后把梦记下来。米娜在纸上画了一个正方形，把梦里的画面画在里面。在底部，她记下前一天发生的事情。并非每个细节都有明确的来源，梦也不总是包含特殊的信息。不过，这幅画帮助她找到了梦境与前一天之间的联系。"
+  ],
+  "q": [
+    {
+      "s": "The strange scene feels unreal to Mina while she sleeps.",
+      "a": "F",
+      "why": "第一段明确说这个场景在她睡着时感觉真实。"
+    },
+    {
+      "s": "Some parts of the brain keep working during sleep.",
+      "a": "T",
+      "why": "第二段说睡眠中大脑的某些部分依然活跃。"
+    },
+    {
+      "s": "Mina records her dreams every morning.",
+      "a": "NG",
+      "why": "文章描述她记录这次梦，未提记录频率。"
+    }
+  ]
+}

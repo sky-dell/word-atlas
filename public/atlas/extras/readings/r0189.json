@@ -1,0 +1,48 @@
+{
+  "id": "r0189",
+  "ids": [
+    "recycle",
+    "conference",
+    "roast",
+    "hero",
+    "chop",
+    "olive",
+    "sadness",
+    "cab",
+    "chapter",
+    "update"
+  ],
+  "title": "Morning Notes from the Kitchen Garden",
+  "titleZh": "厨房菜园晨间笔记",
+  "topic": "daily",
+  "cefr": 2,
+  "paras": [
+    "12 May, 7 a.m. Before breakfast, I checked the old [[olive|olive]] tree beside our kitchen garden. Yesterday's wind had broken a branch, and I felt [[sadness|sadness]] when I saw a bird's nest on the ground. However, two adult birds were still carrying grass into the tree. They seemed to be starting again.",
+    "Our gardener, Dalia, arrived in a [[cab|cab]] after an early train journey. She had attended a [[conference|conference]] about garden wildlife. We watched from the kitchen window as one bird disappeared into a thick part of the tree. Dalia asked me to [[update|update]] our garden notebook with the time and the bird's movements.",
+    "While we waited, I began to [[chop|chop]] carrots and [[roast|roast]] them in the oven for lunch. Dalia showed me how to [[recycle|recycle]] yesterday's newspaper by soaking it, breaking it into a soft mixture, and pressing it into small plant pots. We worked indoors so the birds could build without anyone nearby.",
+    "By noon, both birds were visiting the same hidden spot. I opened a [[chapter|chapter]] on nesting birds in our garden guide and compared its pictures with my notes. Dalia is something of a [[hero|hero]] to me: she notices small lives that others miss. Today, her best advice was simple—leave the fallen branch alone and give the birds space."
+  ],
+  "zh": [
+    "5月12日，早上7点。早餐前，我查看了厨房菜园旁的那棵老橄榄树。昨天的风吹断了一根树枝，看到地上的鸟巢时，我感到很难过。不过，两只成年鸟仍在往树上衔草。它们似乎正在重新筑巢。",
+    "我们的园丁达莉娅一早乘火车赶路，随后坐出租车来到这里。她刚参加了一场关于花园野生动物的研讨会。我们从厨房窗户向外观察，看见一只鸟钻进了枝叶茂密的地方。达莉娅让我在花园观察本上补记时间和鸟的活动。",
+    "等待时，我开始切胡萝卜，放进烤箱烤，准备午餐。达莉娅教我如何回收利用昨天的报纸：先浸湿，再弄成柔软的纸浆，最后压成小花盆。我们在室内干活，这样鸟儿就能在没有人靠近的情况下筑巢。",
+    "到了中午，两只鸟都在出入同一个隐蔽的位置。我翻开花园指南中介绍鸟类筑巢的一章，将书里的图片与自己的笔记作比较。对我来说，达莉娅是个值得敬佩的人：她会留意那些被别人忽视的小生命。今天，她最好的建议很简单——别动那根掉落的树枝，给鸟儿留些空间。"
+  ],
+  "q": [
+    {
+      "s": "The branch had been broken by snow.",
+      "a": "F",
+      "why": "原文明确说树枝是被昨天的风吹断的。"
+    },
+    {
+      "s": "Dalia asked the writer to record the time and the bird's movements.",
+      "a": "T",
+      "why": "达莉娅要求在观察本上补记这两项信息。"
+    },
+    {
+      "s": "Dalia had written part of the garden guide used by the writer.",
+      "a": "NG",
+      "why": "文中未说明花园指南的作者是谁。"
+    }
+  ]
+}

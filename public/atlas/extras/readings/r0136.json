@@ -1,0 +1,46 @@
+{
+  "id": "r0136",
+  "ids": [
+    "lunchtime",
+    "winner",
+    "mathematics",
+    "egyptian",
+    "fear",
+    "prefer",
+    "cucumber",
+    "wifi",
+    "beauty",
+    "nearby"
+  ],
+  "title": "When Lunch Became a Competition",
+  "titleZh": "当午餐变成比赛",
+  "topic": "emotion",
+  "cefr": 1,
+  "paras": [
+    "Mona, an [[egyptian|Egyptian]] cook, noticed that some people became quiet during games at her café. She wanted to learn whether their [[fear|fear]] of losing took away the fun. At [[lunchtime|lunchtime]] on Tuesday, she invited twelve workers from a [[nearby|nearby]] flower shop to try a small experiment. They sat around one long table in the garden behind her café.",
+    "Each person received a plate and twenty [[cucumber|cucumber]] slices. The task used simple [[mathematics|mathematics]]: they had to make four equal groups, then arrange them into a flower. Mona used the café's [[wifi|wifi]] to open an online clock on her computer. For the first round, she promised a free meal to the [[winner|winner]]. For the second, everyone could eat their plate of food, and nobody would judge the [[beauty|beauty]] of the flowers. Both rounds lasted five minutes.",
+    "After each round, the workers wrote down how worried they felt, from one to five. In the first round, eight people chose four or five. In the second, only two did. Ten said they would [[prefer|prefer]] another game without a prize. Mona could not learn everything from one small test, but the result gave her an idea. Her next lunch game would have no prizes, just food to share."
+  ],
+  "zh": [
+    "埃及厨师莫娜注意到，有些人在她的咖啡馆里玩游戏时会变得沉默。她想了解，对失败的恐惧是否让他们失去了游戏的乐趣。星期二午餐时间，她邀请了附近一家花店的十二名员工参加一个小实验。他们围坐在咖啡馆后面花园里的一张长桌旁。",
+    "每个人都拿到了一个盘子和二十片黄瓜。任务用到了简单的数学知识：他们要把黄瓜片分成数量相同的四组，再摆成一朵花。莫娜用咖啡馆的无线网络，在电脑上打开了一个在线时钟。第一轮，她承诺给获胜者提供一顿免费餐。第二轮，每个人都可以吃掉自己盘里的食物，而且没有人会评判这些花是否美丽。两轮都持续五分钟。",
+    "每轮结束后，员工们都用一到五的数字写下自己的担忧程度。第一轮中，八个人选了四或五。第二轮中，只有两个人这样选。十个人表示，如果再玩一次，他们更愿意玩没有奖品的游戏。一次小实验无法让莫娜了解所有情况，但结果给了她一个想法。她下次的午餐游戏将不设奖品，只有供大家分享的食物。"
+  ],
+  "q": [
+    {
+      "s": "Six workers took part in Mona's experiment.",
+      "a": "F",
+      "why": "参加实验的是十二名员工，不是六名。"
+    },
+    {
+      "s": "Mona paid to use the online clock.",
+      "a": "NG",
+      "why": "文章未说明使用在线时钟是否付费。"
+    },
+    {
+      "s": "Mona decided to have no prizes in her next lunch game.",
+      "a": "T",
+      "why": "结尾明确说下一次午餐游戏不设奖品。"
+    }
+  ]
+}

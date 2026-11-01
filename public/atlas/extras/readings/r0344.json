@@ -1,0 +1,48 @@
+{
+  "id": "r0344",
+  "ids": [
+    "unsuitable",
+    "positively",
+    "plot",
+    "adoption",
+    "evidence",
+    "stitch",
+    "largely",
+    "faith",
+    "energetic",
+    "drastic"
+  ],
+  "title": "When Costume Repairs Take Centre Stage",
+  "titleZh": "当戏服修补成为舞台主角",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "At a small theatre in the coastal town of Bellhaven, the most requested performance this season involves neither famous actors nor elaborate scenery. Instead, audiences watch two costume makers repair old stage clothes. Jackets once judged [[unsuitable|unsuitable]] for performance now attract visitors interested in the stories hidden in their damaged fabric.",
+    "The idea began when costume maker Amara Okeke discovered a sailor’s coat with three different colours of thread inside its collar. Studying it [[stitch|stitch]] by stitch, she wondered whether it had been repaired several times, though the repairers were unknown. She built a short [[plot|plot]] around an imaginary coat travelling between actors over fifty years. Audiences responded [[positively|positively]], asking to see more repairs rather than a finished display.",
+    "The theatre’s [[adoption|adoption]] of this format has brought a surprising change: tickets for repair evenings now sell faster than those for several conventional plays. Booking records provide [[evidence|evidence]] that the audience is [[largely|largely]] new to the venue. Some visitors are amateur dressmakers; others simply enjoy watching skilled hands at work. An [[energetic|energetic]] presenter explains each decision while a camera projects tiny details onto the back wall.",
+    "This is not a [[drastic|drastic]] rejection of traditional theatre. Repair performances occupy only two evenings a month, and the main programme continues unchanged. However, their success has strengthened the director’s [[faith|faith]] in quiet, practical subjects. Next season, a faded wedding dress will take the leading role—not because it looks perfect, but because it does not."
+  ],
+  "zh": [
+    "在海滨小镇贝尔黑文的一家小剧院里，本季最受欢迎的演出既没有名演员，也没有精美的布景。观众看的却是两位戏服师修补旧戏服。那些曾被认为不宜再用于演出的夹克，如今吸引了许多访客，他们对破损布料里隐藏的故事充满兴趣。",
+    "这个创意始于戏服师阿玛拉·奥科克的一次发现：一件水手外套的衣领内侧有三种不同颜色的缝线。她逐针查看，猜想这件外套是否曾被修补过数次，不过修补者的身份不明。她由此编了一个简短的故事，想象一件外套在五十年间辗转于不同演员手中。观众反应积极，希望看到更多修补过程，而不只是修补完成后的展示。",
+    "剧院采用这种形式后，出现了一个令人意外的变化：修补之夜的门票，如今比好几部传统戏剧卖得还快。订票记录显示，观众大多是第一次来这家剧院。有些访客是业余制衣爱好者，另一些则只是喜欢观看熟练的手艺人操作。一位充满活力的主持人解释每一步操作的理由，同时摄像机将细小的局部投映到后方的墙面上。",
+    "这并不是对传统戏剧的彻底否定。修补演出每月只占两个晚上，主要演出安排仍保持不变。不过，这类演出的成功增强了剧院总监的信心，让其更加相信安静而实用的题材也能吸引观众。下个演出季，一件褪色的婚纱将担任主角——不是因为它看上去完美，而恰恰是因为它并不完美。"
+  ],
+  "q": [
+    {
+      "s": "Audiences asked for more opportunities to watch repairs being carried out.",
+      "a": "T",
+      "why": "第二段明确说观众要求看更多修补过程。"
+    },
+    {
+      "s": "The presenter previously worked as a costume maker.",
+      "a": "NG",
+      "why": "文章介绍了主持人的工作，未提其从业经历。"
+    },
+    {
+      "s": "The repair performances have replaced the theatre’s main programme.",
+      "a": "F",
+      "why": "末段明确说主要演出安排保持不变。"
+    }
+  ]
+}

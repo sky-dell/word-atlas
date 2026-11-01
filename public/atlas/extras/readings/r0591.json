@@ -1,0 +1,48 @@
+{
+  "id": "r0591",
+  "ids": [
+    "prophecy",
+    "swift",
+    "doctrine",
+    "elevate",
+    "tranquil",
+    "thrive",
+    "stimulus",
+    "deft",
+    "culminate",
+    "touchy"
+  ],
+  "title": "The Dark Lines Inside Wood",
+  "titleZh": "木材内部的黑色纹路",
+  "topic": "arts",
+  "cefr": 4,
+  "paras": [
+    "Inside a wooden bowl, winding black lines can resemble rivers on an imaginary map. A carver might jokingly interpret them as a [[prophecy|prophecy]] of journeys yet to come, but their origin is biological rather than supernatural. Known as spalting, this transformation occurs when fungi colonise timber, turning an apparently [[tranquil|tranquil]] piece of fallen wood into a territory contested by competing organisms.",
+    "Fungi [[thrive|thrive]] where moisture, oxygen and suitable temperatures coincide. Their microscopic threads penetrate the wood, releasing enzymes that break down its components. Contact with a rival colony can provide the [[stimulus|stimulus]] for defensive boundaries: dense, often darkly pigmented barriers that restrict an opponent’s advance. Successive encounters may [[culminate|culminate]] in the intricate network revealed when a log is sliced open.",
+    "For bowl makers, however, beautiful markings and structural weakness develop together. Some craftspeople follow a workshop [[doctrine|doctrine]] that favours naturally altered timber over applied decoration, yet even they must interrupt decay. They may [[elevate|elevate]] promising logs on racks to improve airflow before drying them. Once the desired pattern appears, [[swift|swift]] action matters: continued fungal activity can leave the material too fragile to turn.",
+    "A [[deft|deft]] turner therefore adjusts each cut to the wood’s uneven resistance, exposing patterns without tearing weakened fibres. Makers can become [[touchy|touchy]] when these markings are dismissed as mere damage, since their appeal depends on careful selection and timing. Drying suppresses fungal growth, preserving the traces of an invisible struggle. The finished bowl records a process that its maker guided but never fully controlled."
+  ],
+  "zh": [
+    "木碗内部蜿蜒的黑色线条，宛如一幅想象中的地图上的河流。雕刻者或许会开玩笑地把它们解读为对未来旅程的预言，但这些纹路的成因属于生物学，而非超自然力量。这种变化被称为真菌纹理化，发生于真菌侵入木材之时：一块看似静谧的倒木，就这样变成了不同生物争夺的领地。",
+    "当水分、氧气和适宜的温度同时具备时，真菌便会旺盛生长。它们微小的菌丝深入木材，释放分解木材成分的酶。接触到竞争菌落时，真菌可能受到刺激，形成防御性边界：这些致密且往往带有深色色素的屏障，可以限制对手推进。接连发生的交锋最终可能形成错综复杂的网络，直到原木被切开才显露出来。",
+    "然而，对木碗制作者而言，美丽纹理与结构弱化却在同步发展。一些手工艺人遵循一种工坊信条，偏爱自然变化形成的木材，而非后期添加的装饰，但即使如此，他们也必须阻止腐朽继续。他们可能把有潜力的原木架高，以改善空气流通，再进行干燥处理。理想纹理一旦出现，迅速采取行动就至关重要：真菌若持续活动，木材可能变得过于脆弱，无法进行车削。",
+    "因此，技艺娴熟的木工会根据木材各处不同的阻力调整每一次切削，在展现纹路的同时避免撕裂已弱化的纤维。当这些纹路被贬为不过是损伤时，制作者可能会感到不快，因为它们的魅力离不开精心挑选与时机把握。干燥能抑制真菌生长，保存这场无形争斗留下的痕迹。成品木碗记录了一个过程：制作者曾引导它，却从未完全掌控它。"
+  ],
+  "q": [
+    {
+      "s": "The black lines in spalted wood have a supernatural origin.",
+      "a": "F",
+      "why": "首段明确说成因是生物性的，而非超自然的。"
+    },
+    {
+      "s": "Competition between fungal colonies can contribute to the dark patterns inside timber.",
+      "a": "T",
+      "why": "第二段指出菌落交锋可形成深色边界。"
+    },
+    {
+      "s": "Bowls with fungal markings command higher prices than bowls made from unaltered timber.",
+      "a": "NG",
+      "why": "文章未比较两类木碗的售价。"
+    }
+  ]
+}

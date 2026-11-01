@@ -1,0 +1,46 @@
+{
+  "id": "r0306",
+  "ids": [
+    "costume",
+    "rare",
+    "dough",
+    "porter",
+    "lack",
+    "failure",
+    "deaf",
+    "doubt",
+    "unwell",
+    "original"
+  ],
+  "title": "A Story Without Sound",
+  "titleZh": "无声的故事",
+  "topic": "arts",
+  "cefr": 2,
+  "paras": [
+    "At a small theatre, director Amara tested whether a short play could tell its story without sound. Such performances were [[rare|rare]] in her town, and she had some [[doubt|doubt]] about the idea. She invited twelve adults, including four who were [[deaf|deaf]], to watch. In the story, a hotel [[porter|porter]], whose job was to carry guests' bags, helped a baker who felt [[unwell|unwell]] finish an order of bread.",
+    "For the first performance, each actor wore a simple [[costume|costume]], but most information came through speech. The baker talked about his illness while mixing real [[dough|dough]]. Afterwards, only five viewers could explain why the other man helped him. Amara did not treat this as a complete [[failure|failure]]. Their answers suggested that a [[lack|lack]] of clear movement had hidden an important part of the story.",
+    "Amara then changed the [[original|original]] scene. The baker stopped working and held his head. His helper put down two heavy bags, offered him a chair, and began making bread. No one spoke. After this version, eleven viewers explained the reason for the man's actions correctly. Watching the same story twice may have helped, so Amara planned another test with new viewers. Still, the result suggested that clear actions could make a stage story easier to follow."
+  ],
+  "zh": [
+    "在一家小剧院里，导演阿玛拉做了一次实验，想看看一部短剧能否不靠声音讲清故事。这类演出在她所在的小镇很少见，她对这个想法也有些怀疑。她邀请了十二位成年人来观看，其中四位是聋人。故事中，一名负责搬运客人行李的酒店搬运工，帮助一位身体不适的面包师完成了一批面包订单。",
+    "第一次演出时，每位演员都穿着简单的戏服，但大部分信息是通过台词传达的。面包师一边搅拌着真正的面团，一边说自己的病情。演出后，只有五位观众能解释另一个人为什么帮助他。阿玛拉没有把这看作一次彻底的失败。观众的回答提示，缺少清晰的动作可能使故事中的一个重要内容没有被表现出来。",
+    "随后，阿玛拉修改了原来的场景。面包师停下手里的活，抱住了头。帮忙的人放下两个沉重的行李包，给他搬来一把椅子，然后开始做面包。全程没有人说话。看完这个版本后，十一位观众正确解释了那个男人这样做的原因。同一个故事看了两遍，可能也有帮助，因此阿玛拉计划再邀请一批新观众进行测试。不过，这次结果仍然提示，清晰的动作可能让舞台故事更容易理解。"
+  ],
+  "q": [
+    {
+      "s": "The twelve invited adults had watched Amara's plays before.",
+      "a": "NG",
+      "why": "未说明受邀成年人以前是否看过她的戏。"
+    },
+    {
+      "s": "Most viewers understood the helper's reason after the first performance.",
+      "a": "F",
+      "why": "第一次只有十二人中的五人理解原因。"
+    },
+    {
+      "s": "Amara planned to test the play again with new viewers.",
+      "a": "T",
+      "why": "末段明确说她计划请新观众再次测试。"
+    }
+  ]
+}

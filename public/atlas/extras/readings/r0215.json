@@ -1,0 +1,46 @@
+{
+  "id": "r0215",
+  "ids": [
+    "brochure",
+    "ladybird",
+    "sleeve",
+    "signal",
+    "examination",
+    "cardboard",
+    "responsible",
+    "electronic",
+    "fahrenheit",
+    "approximately"
+  ],
+  "title": "Small Books for Country Walks",
+  "titleZh": "乡间漫步的小手册",
+  "topic": "travel",
+  "cefr": 2,
+  "paras": [
+    "During the early twentieth century, walking holidays became popular in Britain. Visitors wanted more than fresh air: they also wanted to understand the countryside. A hotel might offer a small [[brochure|brochure]] describing nearby paths, flowers and birds. Such booklets were easy to carry, but their thin paper often suffered in the rain. Some walkers protected them with covers made from [[cardboard|cardboard]], although these were not waterproof either.",
+    "Organised walking groups gave these simple books a new purpose. A guide was [[responsible|responsible]] for keeping everyone together and explaining what they saw. A raised arm could serve as a [[signal|signal]] to stop at a narrow bridge. Further along, a [[ladybird|ladybird]] resting on someone's [[sleeve|sleeve]] might become a brief lesson about insects. The walk was not an [[examination|examination]]: nobody needed to remember every name. Instead, guides encouraged visitors to notice small details that a map could not show.",
+    "Later, improved printing brought colour photographs and stronger covers. A booklet could describe a route of [[approximately|approximately]] five miles and include advice about weather. For overseas visitors, temperatures might appear on both Celsius and [[fahrenheit|Fahrenheit]] scales. Today, [[electronic|electronic]] guides can provide sounds and moving pictures. Yet the little printed walking book survives: it needs no battery, and its worn pages can hold memories of a particular journey."
+  ],
+  "zh": [
+    "二十世纪初，徒步度假在英国流行起来。游客想要的不只是新鲜空气，还想了解乡间的自然环境。旅馆可能会提供一本小册子，介绍附近的小路、花卉和鸟类。这类手册便于携带，但薄薄的纸张常常被雨水打湿。有些徒步者用硬纸板做封套来保护它们，不过这些封套也不防水。",
+    "有组织的徒步团队让这些简单的手册有了新的用途。向导负责让大家保持在一起，并讲解沿途所见。走到狭窄的桥边时，举起一只手臂就可以作为停下的信号。继续往前走，一只停在某人袖子上的瓢虫，可能就成了一堂简短昆虫课的主角。徒步不是考试，谁也不必记住每一个名称。相反，向导鼓励游客留意地图无法呈现的细节。",
+    "后来，印刷技术的进步带来了彩色照片和更结实的封面。一本手册可以介绍一条约五英里长的路线，并提供应对天气的建议。为了方便海外游客，温度可能同时用摄氏和华氏温标标示。如今，电子导览可以提供声音和动态画面。然而，小小的纸质徒步手册依然存在：它不需要电池，磨旧的书页还可以留存某次旅途的回忆。"
+  ],
+  "q": [
+    {
+      "s": "Hotels charged visitors for their walking brochures.",
+      "a": "NG",
+      "why": "文中未说明旅馆提供手册是否收费。"
+    },
+    {
+      "s": "Guides encouraged walkers to notice details that maps could not show.",
+      "a": "T",
+      "why": "第二段明确说向导鼓励游客留意这些细节。"
+    },
+    {
+      "s": "Printed walking books need batteries to work.",
+      "a": "F",
+      "why": "末段明确说纸质徒步手册不需要电池。"
+    }
+  ]
+}

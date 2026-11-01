@@ -1,0 +1,48 @@
+{
+  "id": "r0483",
+  "ids": [
+    "manual",
+    "expertise",
+    "competitive",
+    "summit",
+    "spirit",
+    "wealth",
+    "reduction",
+    "vary",
+    "mid-term",
+    "obligation"
+  ],
+  "title": "Keeping Mountain Time",
+  "titleZh": "守护山间时光",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "In the mountain village of Bellara, visitors climb a narrow staircase to watch a clock being wound. Its iron gears fill a room above the bakery, while its face looks towards a snowy [[summit|summit]]. Built when wool brought [[wealth|wealth]] to the valley, the clock still requires [[manual|manual]] winding every second morning.",
+    "Clockmaker Leila Haddad welcomes travellers during her technical college's [[mid-term|mid-term]] break, when she pauses teaching to return to the village. Her [[expertise|expertise]] allows her to identify worn parts simply by listening. Repair costs [[vary|vary]] according to the damage, but she refuses to replace the mechanism with an electric motor. For her, preserving its original movement is a professional [[obligation|obligation]], not merely a preference.",
+    "Yet this is not a story of rejecting technology. A small electronic sensor now records changes in the clock's rhythm. Its data helped Leila achieve a substantial [[reduction|reduction]] in unexpected breakdowns by revealing when the gears needed attention. In a [[competitive|competitive]] tourism market, the village offers something unusual: a chance to see old machinery supported, rather than replaced, by new tools. Visitors can watch the readings appear on a screen beside the swinging pendulum.",
+    "One morning, a guest struggles with the heavy winding handle but shows enough [[spirit|spirit]] to try again under Leila's guidance. When the bells interrupt his questions, she waits. Once they stop, she points to the screen and explains the latest readings."
+  ],
+  "zh": [
+    "在山村贝拉拉，游客沿着狭窄的楼梯向上攀登，观看给大钟上弦的过程。面包房上方的一间屋子里满是铁制齿轮，钟面则朝向一座白雪覆盖的山峰。这座钟建于羊毛为山谷带来财富的年代，至今仍需要每隔一天早晨手动上弦。",
+    "钟表匠莱拉·哈达德在她任教的技术学院放期中假时接待游客。这期间，她暂时放下教学工作，回到村里。凭借专业技能，她仅靠聆听就能辨认出磨损的零件。修理费用因损坏情况而异，但她拒绝用电动机替换这套机械装置。对她而言，保留大钟原有的机芯是一份职业责任，而不仅仅是个人偏好。",
+    "然而，这并不是一个拒绝技术的故事。如今，一个小型电子传感器会记录大钟运行节奏的变化。它提供的数据能显示齿轮何时需要维护，帮助莱拉大幅减少了意外故障。在竞争激烈的旅游市场中，这个村庄提供了一种不同寻常的体验：亲眼看看新工具如何辅助旧机械，而非将其取代。游客可以在摆动的钟摆旁，看着屏幕上显示出各项读数。",
+    "一天早晨，一位客人费力地转动沉重的上弦手柄，但并不气馁，在莱拉的指导下再次尝试。钟声打断他的提问时，她便等着。钟声一停，她就指着屏幕解释最新的读数。"
+  ],
+  "q": [
+    {
+      "s": "The village clock winds itself automatically.",
+      "a": "F",
+      "why": "首段明确说明大钟仍需手动上弦。"
+    },
+    {
+      "s": "Leila considers preserving the original clock movement a professional duty.",
+      "a": "T",
+      "why": "她将保留原有机芯视为职业责任。"
+    },
+    {
+      "s": "Visitors pay an additional fee to turn the winding handle.",
+      "a": "NG",
+      "why": "文中提到客人上弦，未说明是否另收费。"
+    }
+  ]
+}

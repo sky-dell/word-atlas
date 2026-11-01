@@ -1,0 +1,48 @@
+{
+  "id": "r0250",
+  "ids": [
+    "perfume",
+    "swing",
+    "invest",
+    "engineering",
+    "unhealthy",
+    "scientific",
+    "preparation",
+    "penguin",
+    "alarm",
+    "certificate"
+  ],
+  "title": "A Seaside Memory in a Bottle",
+  "titleZh": "装在瓶中的海边记忆",
+  "topic": "emotion",
+  "cefr": 2,
+  "paras": [
+    "For Leila, making [[perfume|perfume]] begins with a happy memory. As a child, she visited a seaside garden with her grandfather. Now she wants to turn its flowers and fresh air into a smell people can wear. Her aunt agrees to [[invest|invest]] in the small business, hoping to earn money from future sales.",
+    "[[preparation|Preparation]] starts with cleaning glass bottles and weighing the ingredients. Leila has a [[certificate|certificate]] showing that she completed a course in making scented products. She follows a [[scientific|scientific]] method: she changes just one ingredient in each test and records the results. Because breathing strong fumes can be [[unhealthy|unhealthy]], she keeps the work area well ventilated.",
+    "Next, she mixes flower oils with alcohol and water. A friend with experience in [[engineering|engineering]] has built a machine whose trays [[swing|swing]] gently from side to side, mixing several sealed bottles at once. An [[alarm|alarm]] sounds when the mixing time ends. Leila then leaves the liquid in a cool, dark cupboard for three weeks.",
+    "Finally, she filters the liquid and fills the little bottles. Each label shows a [[penguin|penguin]], the black-and-white seabird on her grandfather's favourite postcard. The picture cannot explain the smell, but it tells part of her story. When Leila tries the finished product on her wrist, that seaside afternoon feels close again."
+  ],
+  "zh": [
+    "对莱拉来说，制作香水始于一段快乐的回忆。小时候，她曾和爷爷或外公去过一座海边花园。如今，她想把那里的花香和清新空气变成人们可以喷在身上的香气。她的一位姑姨辈亲属同意投资这家小企业，希望从今后的销售中获得收益。",
+    "准备工作从清洗玻璃瓶和称量原料开始。莱拉有一张证书，证明她完成了香氛产品制作课程。她采用科学的方法：每次试验只改变一种原料，并记录结果。由于吸入浓烈的气体可能有害健康，她让工作区保持良好通风。",
+    "接着，她将花卉精油与酒精和水混合。一位有工程技术经验的朋友造了一台机器，机器上的托盘会轻轻地左右摆动，同时混合几个密封瓶中的液体。混合时间一到，警报器就会响起。随后，莱拉将液体放进阴凉、避光的柜子里，静置三周。",
+    "最后，她过滤液体，将其装入小瓶。每张标签上都有一只企鹅，也就是当年陪她游园的那位老人最喜欢的明信片上那种黑白相间的海鸟。图画无法说明香气，却讲述了她故事的一部分。当莱拉把成品涂在手腕上试闻时，海边的那个下午仿佛又回到了眼前。"
+  ],
+  "q": [
+    {
+      "s": "Leila changes several ingredients together in each test.",
+      "a": "F",
+      "why": "每次试验只改变一种原料。"
+    },
+    {
+      "s": "Leila paid her friend to build the mixing machine.",
+      "a": "NG",
+      "why": "只说朋友制造了机器，未提是否付费。"
+    },
+    {
+      "s": "Every bottle label has a picture of a penguin.",
+      "a": "T",
+      "why": "最后一段明确说每张标签上都有企鹅。"
+    }
+  ]
+}

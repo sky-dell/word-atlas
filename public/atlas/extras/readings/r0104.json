@@ -1,0 +1,46 @@
+{
+  "id": "r0104",
+  "ids": [
+    "yard",
+    "printer",
+    "land",
+    "businessman",
+    "glad",
+    "shine",
+    "pear",
+    "day-off",
+    "comedy",
+    "immediately"
+  ],
+  "title": "Small Wings Behind the Council Office",
+  "titleZh": "议会办公室后的小小翅膀",
+  "topic": "government",
+  "cefr": 1,
+  "paras": [
+    "12 July, 7 p.m. I spent my [[day-off|day off]] watching insects in the [[yard|yard]] behind our village council office. The council wanted to cover this small piece of [[land|land]] with stones. Before making a decision, they asked people to record its wildlife. Inside, a [[printer|printer]] was making copies of our record sheet. Beside it were bright yellow posters for a [[comedy|comedy]] show in the village hall.",
+    "I put half a [[pear|pear]] on an old wooden table and sat quietly nearby. Mr Karim, a [[businessman|businessman]] with a shop across the road, came to help me count. At first, we saw only two flies. Then the evening light began to [[shine|shine]] on the wet fruit. A brown butterfly landed on it. I [[immediately|immediately]] wrote down the time. It stayed for eleven minutes, slowly opening and closing its wings.",
+    "By nine, we had counted six kinds of insects around the table and nearby flowers. Mr Karim was [[glad|glad]] that we had stayed so long. We left our sheet at the office. Three days later, the council agreed to keep the flowers and grass. On my next visit, a small sign stood beside the table: 'Please leave this corner for wildlife.'"
+  ],
+  "zh": [
+    "7月12日，晚上7点。我利用休息日在村议会办公室后面的院子里观察昆虫。议会想把这小块地铺上石子。在作出决定前，他们请大家记录这里的野生生物。屋内，一台打印机正在打印我们的记录表。旁边放着鲜黄色的海报，宣传将在村礼堂上演的一场喜剧。",
+    "我把半个梨放在一张旧木桌上，安静地坐在附近。卡里姆先生是一位商人，在马路对面开了一家店，他过来帮我计数。起初，我们只看到了两只苍蝇。接着，傍晚的阳光开始照在湿润的果肉上。一只棕色蝴蝶落在了上面。我立刻记下时间。它停留了十一分钟，缓缓地张开又合上翅膀。",
+    "到九点时，我们在桌子和附近的花丛周围数到了六种昆虫。卡里姆先生很高兴我们待了这么久。我们把记录表留在了办公室。三天后，议会同意保留这些花草。下次去时，我看到桌旁立着一块小牌子，上面写着：“请把这个角落留给野生生物。”"
+  ],
+  "q": [
+    {
+      "s": "The council asked people to record wildlife before it decided what to do with the land.",
+      "a": "T",
+      "why": "议会作决定前请大家记录野生生物。"
+    },
+    {
+      "s": "The brown butterfly had visited the yard before.",
+      "a": "NG",
+      "why": "文章未说明这只蝴蝶以前是否来过。"
+    },
+    {
+      "s": "By nine, they had counted only two kinds of insects.",
+      "a": "F",
+      "why": "到九点时，他们已数到六种昆虫。"
+    }
+  ]
+}

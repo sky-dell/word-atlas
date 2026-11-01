@@ -1,0 +1,46 @@
+{
+  "id": "r0065",
+  "ids": [
+    "difficult",
+    "pencil",
+    "somebody",
+    "person",
+    "street",
+    "include",
+    "radio",
+    "post-office",
+    "ice",
+    "evening"
+  ],
+  "title": "A Voice in the Kitchen",
+  "titleZh": "厨房里的声音",
+  "topic": "technology",
+  "cefr": 0,
+  "paras": [
+    "Welcome to our small kitchen from 1952. Its main object is a brown [[radio|radio]] on a wooden table. A family used it every [[evening|evening]] after dinner. There was no television in their home. The things on the table [[include|include]] a cup, a [[pencil|pencil]], and a little book. In the book, you can see the times of music shows.",
+    "One winter day, the sound stopped. Fixing the machine was [[difficult|difficult]]. The family took it to a shop on their [[street|street]], next to the [[post-office|post office]]. Look at the photo above the table. The [[person|person]] by the shop door is Mina, the shop owner. She opened the back and found a broken part. After two days, the family could hear music again.",
+    "Now press the green button beside the table. You will hear a short weather message: there is [[ice|ice]] on the roads tonight. Then a song begins. Imagine the family sitting here, warm and safe at home. Years later, [[somebody|somebody]] gave this machine to our museum but left no name. We cannot thank them in a letter, but their gift still brings voices into this kitchen."
+  ],
+  "zh": [
+    "欢迎来到这间来自1952年的小厨房。这里的主要展品是木桌上的一台棕色收音机。一家人过去每天晚上吃完饭后都会听它。他们家里没有电视。桌上的物品包括一个杯子、一支铅笔和一本小册子。在小册子里，你可以看到音乐节目的播放时间。",
+    "一个冬日，收音机突然没有声音了。修好它并不容易。这家人把它送到了自己所住街道上的一家店，就在邮局旁边。请看桌子上方的照片。站在店门边的人是店主米娜。她打开收音机的后盖，发现了一个坏掉的零件。两天后，这家人又能听到音乐了。",
+    "现在请按桌子旁边的绿色按钮。你会听到一条简短的天气消息：今晚路面有冰。接着，一首歌响了起来。想象一下，这家人坐在这里，待在温暖又安全的家中。多年后，有人把这台机器送给了我们博物馆，却没有留下姓名。我们无法写信向这位捐赠者道谢，但这份礼物依然让这间厨房充满声音。"
+  ],
+  "q": [
+    {
+      "s": "The family paid ten pounds for the radio.",
+      "a": "NG",
+      "why": "文中没有说明收音机的价格。"
+    },
+    {
+      "s": "Mina's shop was next to the post office.",
+      "a": "T",
+      "why": "修理店就在邮局旁边，米娜是店主。"
+    },
+    {
+      "s": "The person who gave the radio to the museum left their name.",
+      "a": "F",
+      "why": "文中明确说捐赠者没有留下姓名。"
+    }
+  ]
+}

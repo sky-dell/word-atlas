@@ -1,0 +1,48 @@
+{
+  "id": "r0024",
+  "ids": [
+    "course",
+    "beach",
+    "below",
+    "wife",
+    "there",
+    "drive",
+    "face",
+    "teacher",
+    "road",
+    "hot"
+  ],
+  "title": "A Little Room on Wheels",
+  "titleZh": "车轮上的小房间",
+  "topic": "society",
+  "cefr": 0,
+  "paras": [
+    "About 250 years ago, some British beaches had little wooden rooms on wheels. People called them bathing machines. Each room had a door and steps. It stood on the [[beach|beach]], sometimes [[below|below]] high cliffs. It was not a boat. It was a place to change clothes before going into the sea.",
+    "A visitor went into the room and put on clothes for swimming. Then a horse pulled the room into the water. The visitor opened the back door and walked down the steps. A man and his [[wife|wife]] often used different rooms. Other people could not easily see them change. Many visitors felt comfortable [[there|there]].",
+    "These rooms were useful on a [[hot|hot]] summer day, but they were heavy. Moving them was hard work. By the early 1900s, beach life was changing. More people changed their clothes in small buildings on land. Some old bathing machines lost their wheels and became beach huts. These huts stayed in one place.",
+    "Today, people can [[drive|drive]] along a seaside [[road|road]] and see rows of bright huts. Families keep towels and chairs inside. A child washes sand off her [[face|face]] and feet. On a history [[course|course]], a [[teacher|teacher]] may show pictures of the old machines. The wheels look strange, but the idea is familiar: a little private room beside the sea."
+  ],
+  "zh": [
+    "大约250年前，英国的一些海滩上有装着轮子的小木屋。人们称它们为洗浴车。每间小屋都有门和台阶。它立在海滩上，有时就在高高的悬崖下方。它不是船，而是人们下海前换衣服的地方。",
+    "游客走进小屋，换上游泳时穿的衣服。然后，一匹马把小屋拉进水里。游客打开后门，走下台阶。丈夫和妻子经常使用不同的小屋。其他人不容易看到他们换衣服。许多游客在那里感到很自在。",
+    "在炎热的夏日，这些小屋很有用，但它们很重。移动它们是件费力的事。到了20世纪初，海滩生活发生了变化。越来越多的人在陆地上的小建筑里换衣服。一些旧洗浴车拆掉了轮子，变成了海滩小屋。这些小屋固定在一个地方。",
+    "今天，人们可以沿着海边公路开车，看到一排排色彩鲜艳的小屋。家庭把毛巾和椅子放在里面。一个女孩洗去自己脸上和双脚上的沙子。在历史课上，老师可能会展示旧洗浴车的图片。那些轮子看起来很奇怪，但这个想法很熟悉：在海边拥有一间私密的小屋。"
+  ],
+  "q": [
+    {
+      "s": "The bathing machines had red doors.",
+      "a": "NG",
+      "why": "文章提到门，但未说明门的颜色。"
+    },
+    {
+      "s": "The bathing machines were boats.",
+      "a": "F",
+      "why": "文中明确说这种小屋不是船。"
+    },
+    {
+      "s": "Some old bathing machines became huts that stayed in one place.",
+      "a": "T",
+      "why": "一些旧洗浴车变成了固定不动的海滩小屋。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0066",
+  "ids": [
+    "everything",
+    "west",
+    "brother",
+    "mountain",
+    "than",
+    "warm",
+    "future",
+    "german",
+    "all",
+    "come"
+  ],
+  "title": "Toys at the Town Hall",
+  "titleZh": "市政厅里的玩具",
+  "topic": "government",
+  "cefr": 0,
+  "paras": [
+    "More people now [[come|come]] to Pine Town Hall with broken toys. They do not need new papers or help with town rules. They need a small wheel or a new arm for a doll. The town is in the [[west|west]], near a high [[mountain|mountain]]. Last month, its toy repair room had more visitors [[than|than]] its main office.",
+    "The room opened in January. It is [[warm|warm]], and there is a big table by the window. Mina and her [[brother|brother]], Ravi, work there on Saturdays. Their help is free. They put [[all|all]] the broken toys on the table. Then they look for the right parts in old boxes. Last week, they fixed a [[german|German]] wooden train for a little girl. She watched them work and smiled when its wheels moved again.",
+    "They cannot fix [[everything|everything]]. Some toys have too many broken parts. But people still enjoy their visits. They drink tea and learn how to make small repairs. The town pays for the room and lights. In the [[future|future]], it plans to open the room on Wednesdays too. The repair room was once an office. Now children can sit there and watch people fix their toys."
+  ],
+  "zh": [
+    "现在，越来越多的人带着坏玩具来到松树镇市政厅。他们不是来办新文件，也不是来咨询镇里的规定。他们需要一个小轮子，或是娃娃的一只新胳膊。这个小镇位于西部，靠近一座高山。上个月，玩具修理室的访客比主办公室还多。",
+    "这间修理室一月份开始开放。屋里很暖和，窗边有一张大桌子。米娜和她的兄弟拉维每周六在这里干活。他们免费帮忙。他们把所有坏玩具放在桌上，然后在旧盒子里找合适的零件。上周，他们为一个小女孩修好了一辆德国木制火车。她看着他们干活，看到车轮又转起来时，便笑了。",
+    "他们没法修好所有东西。有些玩具坏掉的零件太多了。但人们仍然很喜欢来这里。他们喝喝茶，学习怎样做简单的修理。镇里支付房间和照明的费用。以后，镇里还计划每周三开放这个房间。修理室以前是一间办公室。现在，孩子们可以坐在那里，看着人们修理他们的玩具。"
+  ],
+  "q": [
+    {
+      "s": "The repair room opened on January 10.",
+      "a": "NG",
+      "why": "只说一月份开放，没有说明具体日期。"
+    },
+    {
+      "s": "Families must pay Mina and Ravi to repair their toys.",
+      "a": "F",
+      "why": "第二段明确说他们免费帮忙。"
+    },
+    {
+      "s": "The town plans to open the repair room on Wednesdays too.",
+      "a": "T",
+      "why": "末段明确说计划增加周三开放。"
+    }
+  ]
+}

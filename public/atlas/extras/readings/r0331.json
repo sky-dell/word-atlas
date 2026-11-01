@@ -1,0 +1,48 @@
+{
+  "id": "r0331",
+  "ids": [
+    "motivate",
+    "irritation",
+    "pit",
+    "philosophy",
+    "errand",
+    "stunning",
+    "syrup",
+    "forecast",
+    "puff",
+    "trademark"
+  ],
+  "title": "The Sugar Works Weather Room",
+  "titleZh": "糖厂里的气象室",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "Begin your visit beside the brick [[pit|pit]] beneath the gallery floor. Once deep enough to hold a factory boiler, it now contains a model showing how steam powered the sugar works. Press the brass button: a small [[puff|puff]] of steam escapes, and wheels begin turning behind a protective glass screen.",
+    "The next display follows technician Amara Sen, whose morning [[errand|errand]] was to collect weather readings from instruments in the courtyard. Her daily [[forecast|forecast]] helped workers decide when to boil the [[syrup|syrup]], a thick mixture of sugar and water. Damp air could leave the finished sweets sticky, causing considerable [[irritation|irritation]] among packers. A handwritten chart records several batches that had to be melted down and made again.",
+    "Above the chart hangs a [[stunning|stunning]] blue-and-gold sweet tin. Its crane symbol was the factory's registered [[trademark|trademark]], legally protecting the design from commercial copying. Nearby, a prize certificate shows how managers tried to [[motivate|motivate]] employees to suggest improvements. Visitors can test one proposal using a handle that adjusts airflow around a tray of imitation sweets; a coloured light indicates whether conditions are suitable.",
+    "The final case takes an unexpected turn towards [[philosophy|philosophy]], the study of knowledge, existence and moral values. Sen's notebook asks: when an instrument disagrees with an experienced worker, which deserves belief? The exhibition offers no simple answer. Instead, it invites you to compare their evidence before leaving through the old packing room, where a single empty tin recalls the products behind these experiments."
+  ],
+  "zh": [
+    "请从展厅地板下方的砖砌深坑旁开始参观。这里曾深到足以容纳一台工厂锅炉，如今则放置着一座模型，展示蒸汽如何为糖厂提供动力。按下黄铜按钮，一小团蒸汽便会喷出，防护玻璃后面的轮子随即转动起来。",
+    "下一处展区介绍技术员阿玛拉·森的工作。她每天早晨都要跑一趟院子，记录仪器上的气象读数。她每日提供的天气预报帮助工人决定何时熬煮糖浆，也就是糖和水混合而成的黏稠液体。潮湿的空气可能使做好的糖果发黏，让包装工十分烦躁。一张手写图表记录了几批不得不重新熔化制作的糖果。",
+    "图表上方悬挂着一个令人惊艳的蓝金双色糖果罐。罐上的鹤形标志是工厂的注册商标，其设计受到法律保护，不得被商业仿冒。旁边的一张获奖证书展示了管理人员如何设法激励员工提出改进建议。参观者可以转动手柄，调节一盘仿真糖果周围的气流，测试其中一项建议；彩色指示灯会显示条件是否适宜。",
+    "最后一个展柜出人意料地转向了哲学，即对知识、存在及道德价值的研究。森在笔记本中问道：当仪器读数与经验丰富的工人判断不一致时，哪一方更值得相信？展览没有给出简单的答案，而是邀请你比较双方的依据，再从旧包装间离开。那里一个空空的糖果罐，让人想起这些实验背后曾经生产的产品。"
+  ],
+  "q": [
+    {
+      "s": "The pit was once deep enough to hold a factory boiler.",
+      "a": "T",
+      "why": "首段明确说深坑曾深到足以容纳工厂锅炉。"
+    },
+    {
+      "s": "The batches recorded on the handwritten chart were discarded rather than made again.",
+      "a": "F",
+      "why": "图表记录的是必须重新熔化制作的批次。"
+    },
+    {
+      "s": "Sen's notebook was donated to the museum by her family.",
+      "a": "NG",
+      "why": "文章未说明笔记本由谁捐赠。"
+    }
+  ]
+}

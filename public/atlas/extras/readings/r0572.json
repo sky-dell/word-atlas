@@ -1,0 +1,48 @@
+{
+  "id": "r0572",
+  "ids": [
+    "notwithstanding",
+    "dishonorable",
+    "meticulous",
+    "fluorescent",
+    "tertiary",
+    "concur",
+    "protracted",
+    "stagnation",
+    "afflict",
+    "fulfillment"
+  ],
+  "title": "When Repairs Become the Exhibition",
+  "titleZh": "当修复本身成为展览",
+  "topic": "arts",
+  "cefr": 4,
+  "paras": [
+    "At the small Bellweather Gallery, damaged paintings are attracting larger audiences than pristine ones. [[notwithstanding|Notwithstanding]] a decade of declining attendance, its Thursday conservation sessions now require advance booking. Visitors come not to admire finished masterpieces but to watch conservator Leila Haddad examine cracked varnish beneath [[fluorescent|fluorescent]] lamps, with each intervention projected onto a wall.",
+    "The unexpected demand has altered the gallery's exhibition policy. Previously, repairs disappeared behind carefully matched pigments; now, selected works retain narrow windows through which earlier damage remains visible. Haddad's [[meticulous|meticulous]] records accompany them. Concealing restoration is not inherently [[dishonorable|dishonorable]], she explains, although deliberately selling a heavily reconstructed picture as untouched would be. Transparency, rather than accusation, drives the display.",
+    "Several [[tertiary|tertiary]] institutions have begun sending conservation lecturers to observe the sessions, but specialists do not universally [[concur|concur]] that public access improves practice. Some fear that an audience encourages theatrical gestures where patient restraint is needed. A [[protracted|protracted]] debate over one portrait's discoloured background consequently became part of the exhibition: visitors followed six weeks of testing before treatment began.",
+    "For a gallery once associated with cultural [[stagnation|stagnation]], uncertainty has proved unexpectedly productive. The financial pressures that [[afflict|afflict]] small collections have not vanished, and ticket revenue barely covers materials. Yet volunteers report greater [[fulfillment|fulfillment]] from explaining a difficult decision than from directing visitors towards celebrated signatures. The most popular exhibit is now an unfinished seascape, beside which a handwritten notice states precisely what the conservators still do not know."
+  ],
+  "zh": [
+    "在小小的贝尔韦瑟画廊，受损画作吸引的观众比完好无损的作品还多。尽管参观人数已连续十年下滑，画廊每周四举办的修复活动如今却需要提前预约。观众前来并非为了欣赏修复完成的杰作，而是观看修复师莱拉·哈达德在荧光灯下检查开裂的清漆层；每一步修复操作都会投影到墙上。",
+    "这股意料之外的需求改变了画廊的展览方针。过去，修复痕迹会被精心调配的颜料掩盖；如今，部分作品会保留狭窄的观察区域，让人仍能看到先前的损伤。哈达德一丝不苟的修复记录也会随画展出。她解释说，隐藏修复痕迹本身并不意味着不光彩，但如果故意把经过大量重建的画作当作从未修复的作品出售，那就另当别论了。展览的出发点是公开信息，而不是指责他人。",
+    "几所高等院校已开始派遣文物修复专业的讲师前来观摩，但专家们并不一致认同公众参与能改善修复实践。有些人担心，在需要耐心克制的时候，观众的存在反而会促使修复者采取戏剧化的操作。因此，围绕一幅肖像画背景变色问题展开的漫长争论，也成了展览的一部分：正式修复开始之前，观众追踪观看了长达六周的检测过程。",
+    "对于一家曾与文化停滞联系在一起的画廊而言，不确定性竟然带来了意想不到的活力。困扰小型收藏机构的财务压力并未消失，门票收入也仅够支付材料费用。然而，志愿者表示，相较于引导观众去看名家作品，解释一个艰难决定更能让他们获得成就感。如今最受欢迎的展品是一幅尚未完成的海景画，旁边的一张手写告示清楚列出了修复师仍然不知道的事项。"
+  ],
+  "q": [
+    {
+      "s": "The gallery's conservation events have become popular despite a long-term fall in visitor numbers.",
+      "a": "T",
+      "why": "参观人数下滑十年，修复活动却需预约。"
+    },
+    {
+      "s": "The institutions pay the gallery for their lecturers to observe the sessions.",
+      "a": "NG",
+      "why": "仅说院校派讲师观摩，未说明是否付费。"
+    },
+    {
+      "s": "Ticket revenue comfortably exceeds the cost of materials.",
+      "a": "F",
+      "why": "原文说门票收入仅勉强支付材料费用。"
+    }
+  ]
+}

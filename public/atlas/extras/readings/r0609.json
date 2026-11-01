@@ -1,0 +1,48 @@
+{
+  "id": "r0609",
+  "ids": [
+    "whirl",
+    "composite",
+    "flora",
+    "hawk",
+    "manifesto",
+    "footing",
+    "mirage",
+    "ultrasound",
+    "orientation",
+    "carnivore"
+  ],
+  "title": "A Safer Return to Flight",
+  "titleZh": "更安全的重返蓝天之路",
+  "topic": "health",
+  "cefr": 4,
+  "paras": [
+    "At a desert wildlife clinic, veterinarian Samira received a [[hawk|hawk]] that could fly but repeatedly fell when landing. The rescue team had found it beside a road where a [[mirage|mirage]] made the hot tarmac resemble water. Whether that illusion explained its injury remained unknown; the immediate problem was its inability to maintain secure [[footing|footing]] on a branch.",
+    "During his [[orientation|orientation]], new keeper Mateo initially attributed the falls to weakness. Samira, however, noticed that the bird gripped firmly with one foot while barely closing the other. Using [[ultrasound|ultrasound]] to examine the underlying soft tissue, she detected a damaged tendon. Rest alone would not suffice: rehabilitation required controlled exercise without the repeated impact of unsuccessful landings.",
+    "Mateo constructed a low perch from a [[composite|composite]] material combining cork and natural rubber, which yielded slightly under pressure. Positioned above deep sand, it allowed safe gripping practice. To prevent sudden movements that made the bird [[whirl|whirl]] around and lose balance, he screened the enclosure from visitors. He also planted native shrubs, drawing on a survey of the valley’s [[flora|flora]].",
+    "The clinic’s volunteers had recently published a [[manifesto|manifesto]] promising that animal welfare would take precedence over public entertainment; closing the enclosure became its first practical test. Over six weeks, the injured [[carnivore|carnivore]] progressed from gripping the low perch to landing on higher branches. Before release, Samira required ten consecutive stable landings. On the final morning, the bird completed all ten, then departed towards the cliffs without looking back."
+  ],
+  "zh": [
+    "在一家沙漠野生动物诊所，兽医萨米拉接收了一只鹰。它能够飞行，却在落下时屡屡跌倒。救援队在一条公路旁发现了它，当时海市蜃楼使灼热的柏油路看起来像一片水面。这种幻象是否导致了它受伤，尚不得而知；眼前的问题是，它无法在树枝上站稳。",
+    "新饲养员马特奥在入职指导期间，起初将这些跌倒归因于身体虚弱。然而，萨米拉注意到，这只鹰的一只脚抓得很牢，另一只脚却几乎无法合拢。她用超声检查脚部深层的软组织，发现一条肌腱受损。仅靠休息并不足以康复：它需要有控制的锻炼，同时避免落地失败带来的反复冲击。",
+    "马特奥用软木与天然橡胶结合而成的复合材料，制作了一根低矮的栖木。这种材料受压时会略微下陷。栖木架在厚厚的沙层上方，让鹰能够安全地练习抓握。为防止突然的动作使鹰猛然转身、失去平衡，他用屏障隔开了围舍与游客区。他还参考了一份山谷植物群调查报告，种下了本地灌木。",
+    "诊所的志愿者近期发表了一份宣言，承诺将动物福利置于公众娱乐之上；关闭围舍、不再供人参观，成了这一承诺的首次实际检验。六周内，这只受伤的食肉动物从抓握低矮栖木，逐步进展到能落在更高的树枝上。放归之前，萨米拉要求它连续十次平稳落下。最后一天早晨，它完成了全部十次，随后朝悬崖飞去，没有回头。"
+  ],
+  "q": [
+    {
+      "s": "The hawk was unable to fly when it arrived at the clinic.",
+      "a": "F",
+      "why": "首段明确说鹰能飞，只是在落下时反复跌倒。"
+    },
+    {
+      "s": "Samira detected a damaged tendon using ultrasound.",
+      "a": "T",
+      "why": "第二段明确说明超声检查发现了肌腱损伤。"
+    },
+    {
+      "s": "The clinic fitted the bird with a tracking device before releasing it.",
+      "a": "NG",
+      "why": "末段描述放归条件，未提及安装追踪装置。"
+    }
+  ]
+}

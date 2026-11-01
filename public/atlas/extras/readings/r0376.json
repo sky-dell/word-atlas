@@ -1,0 +1,48 @@
+{
+  "id": "r0376",
+  "ids": [
+    "ceramics",
+    "conservation",
+    "emigrate",
+    "hearing",
+    "integrate",
+    "curved",
+    "shutter",
+    "marking",
+    "admission",
+    "exclusive"
+  ],
+  "title": "Listening to the Potter’s Kiln",
+  "titleZh": "听窑辨温",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "An old workshop notebook inspired an unusual experiment at a coastal history museum. Written by a potter who later [[emigrate|emigrated]] to Argentina, it described judging a kiln’s temperature by sound. Researchers studying [[ceramics|ceramics]] wanted to discover whether this method could be taught, or whether it depended on years of experience.",
+    "They built a small kiln with a [[curved|curved]] roof, following the notebook’s drawings. Beside it stood a wooden shelter with a single [[shutter|shutter]], which participants closed to block their view of the flames. Twelve adult volunteers received [[admission|admission]] to the normally private workshop. None had professional pottery experience, and all passed a basic [[hearing|hearing]] test before taking part.",
+    "During three practice sessions, volunteers learnt to connect changes in the kiln’s low whistle with readings from a temperature sensor. The team tried to [[integrate|integrate]] historical knowledge with modern measurement rather than replace one with the other. In the final test, participants estimated temperatures from sound alone. Two researchers did the [[marking|marking]] independently, comparing each written answer with the sensor record. Nine volunteers were accurate enough to identify when the clay was ready.",
+    "The results suggested that this skill was not [[exclusive|exclusive]] to master potters. However, wind sometimes altered the sound, making the technique unreliable outdoors. The museum’s woodland [[conservation|conservation]] adviser also noted that better timing might reduce unnecessary burning of firewood. An experiment about a forgotten craft had therefore raised a practical question about saving resources."
+  ],
+  "zh": [
+    "一本古老的作坊笔记启发了某海滨历史博物馆的一项特别实验。笔记的作者是一位后来移居阿根廷的陶工，他在其中描述了通过声音判断窑温的方法。研究陶瓷制作的人员想弄清楚，这种方法能否通过教学掌握，还是必须依靠多年的经验。",
+    "他们按照笔记中的图样，建造了一座带弧形窑顶的小窑。窑旁有一间木棚，窗户上装着一块窗板，参与者将它关上，就看不到火焰了。十二名成年志愿者获准进入这间通常不对外开放的作坊。他们都没有专业制陶经验，并且在参加实验前通过了基础听力测试。",
+    "在三次练习中，志愿者学习将窑内低沉哨声的变化与温度传感器的读数联系起来。研究团队希望将历史知识与现代测量技术结合起来，而不是用一方取代另一方。在最后的测试中，参与者仅凭声音估计温度。两名研究人员独立评分，将每份书面答案与传感器记录进行比较。九名志愿者的判断足够准确，能够辨别陶坯何时烧制到位。",
+    "结果提示，这项技能可能并非只有制陶大师才能掌握。不过，风有时会改变声音，使这种方法在户外不太可靠。博物馆的林地保护顾问还指出，更准确地把握烧制时间，或许能够减少不必要的薪柴燃烧。因此，一项关于被遗忘的技艺的实验，也引出了一个有关节约资源的实际问题。"
+  ],
+  "q": [
+    {
+      "s": "Some of the volunteers had professional pottery experience.",
+      "a": "F",
+      "why": "十二名志愿者都没有专业制陶经验。"
+    },
+    {
+      "s": "Each practice session lasted one hour.",
+      "a": "NG",
+      "why": "只说明练习有三次，未说明每次时长。"
+    },
+    {
+      "s": "Wind sometimes changed the sound produced by the kiln.",
+      "a": "T",
+      "why": "末段明确说明风有时会改变声音。"
+    }
+  ]
+}

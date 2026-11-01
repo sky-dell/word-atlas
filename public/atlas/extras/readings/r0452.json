@@ -1,0 +1,48 @@
+{
+  "id": "r0452",
+  "ids": [
+    "lean",
+    "exhaustion",
+    "bulletin",
+    "workload",
+    "characteristic",
+    "agency",
+    "provided",
+    "wholesaler",
+    "relatively",
+    "homestay"
+  ],
+  "title": "The Orchard Beyond the Wall",
+  "titleZh": "墙外的老果园",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "14 September. Behind the ruined abbey, several pear trees [[lean|lean]] over a dry stone wall. I arrived before sunrise to record their fruit and the insects visiting it. A village [[bulletin|bulletin]] had announced the discovery of an orchard account book from 1892, which brought me here to compare its descriptions with the surviving trees.",
+    "My [[homestay|homestay]] was arranged by a small travel [[agency|agency]], and my host, Mira, keeps a copy of the book. One entry records deliveries to a fruit [[wholesaler|wholesaler]] in the nearest port. Another describes a pear with rough brown skin, a [[characteristic|characteristic]] still visible on three trees beside the wall. The notes suggest that these trees may be descendants of the commercial orchard.",
+    "By midday, my [[workload|workload]] had grown: each tree needed a photograph, a fruit sample and a count of fallen pears. The slope was [[relatively|relatively]] gentle, but repeated climbs with equipment brought me close to [[exhaustion|exhaustion]]. Mira allowed me to collect fruit [[provided|provided]] I left the branches untouched. Beneath one tree, I watched a beetle disappear into a split pear while wasps fed along its edge.",
+    "At dusk, I placed the samples beside the old descriptions. None could establish the trees' exact age, yet the match in skin and shape deserved further study. The orchard no longer supplied the port, but its fallen harvest still supported a busy community beneath the wall."
+  ],
+  "zh": [
+    "9月14日。修道院废墟后，几棵梨树斜伸到一道干砌石墙上方。我在日出前赶来，记录树上的果实和前来造访果实的昆虫。村里的一则公告称，人们发现了一本1892年的果园账簿。我因此来到这里，将账簿中的描述与现存的树木进行比较。",
+    "一家小型旅行服务机构为我安排了当地家庭寄宿，房东米拉保存着账簿的副本。其中一条记录写着向最近港口的一家水果批发商供货的情况。另一条描述了一种表皮粗糙、呈褐色的梨，墙边三棵树的果实至今仍有这一特征。这些记录表明，这几棵树可能是当年商业果园中树木的后代。",
+    "到了中午，我的工作量增加了：每棵树都需要拍照、采集一个果实样本，并清点落梨。山坡比较平缓，但带着器材反复攀爬，仍让我几乎筋疲力尽。米拉允许我采集果实，条件是不碰树枝。在一棵树下，我看着一只甲虫钻进裂开的梨中，几只黄蜂则沿着裂口取食。",
+    "黄昏时，我把样本放在旧时的描述旁边。它们都无法确定这些树的准确年龄，但果皮和形状的吻合值得进一步研究。果园不再向港口供货，但落下的果实仍在养活石墙下一个忙碌的生物群落。"
+  ],
+  "q": [
+    {
+      "s": "News of a nineteenth-century record prompted the writer's visit to the orchard.",
+      "a": "T",
+      "why": "作者因公告中发现的1892年账簿而来。"
+    },
+    {
+      "s": "Mira received her copy of the account book from the travel agency.",
+      "a": "NG",
+      "why": "文中未说明米拉从何处取得账簿副本。"
+    },
+    {
+      "s": "The writer was permitted to cut branches when collecting fruit.",
+      "a": "F",
+      "why": "米拉要求采果时不能碰树枝。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0339",
+  "ids": [
+    "videotape",
+    "houseboat",
+    "moped",
+    "hopeless",
+    "anonymous",
+    "ally",
+    "civilian",
+    "truthful",
+    "boarding-school",
+    "low-risk"
+  ],
+  "title": "When the River Runs Backwards",
+  "titleZh": "河水为何倒流",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "An old [[videotape|videotape]], donated by an [[anonymous|anonymous]] resident, shows a surprising scene: a wave travelling upstream past a [[houseboat|houseboat]]. Behind it, the river appears to run backwards. The recording was made beside a former [[boarding-school|boarding school]] on a broad estuary. Although the images look unusual, they provide a [[truthful|truthful]] record of a natural event called a tidal bore.",
+    "A bore forms when a rising sea tide pushes into a river that becomes narrower and shallower inland. Water entering from the sea is squeezed into a smaller space, forcing its leading edge upwards. If the incoming tide is strong enough to overcome the river's outward flow, this edge develops into a moving wave. A large difference between high and low tide makes the process more likely.",
+    "During an early survey, a naval team gained an unexpected [[ally|ally]]: a [[civilian|civilian]] researcher who knew the riverside paths. Travelling by [[moped|moped]], she reached several observation points before the wave arrived. Timing mattered because searching for a bore on an ordinary tide could be [[hopeless|hopeless]]; the necessary conditions might simply be absent. Her notes helped explain why some tides produced impressive waves while others barely disturbed the surface.",
+    "Watching from a raised bank at a safe distance is generally a [[low-risk|low-risk]] way to observe this powerful movement. Entering the water is not. Beneath the visible wave, strong currents can drag swimmers upstream. The river's brief reversal is therefore both a remarkable sight and a reminder of the sea's reach inland."
+  ],
+  "zh": [
+    "一位匿名居民捐赠的旧录像带记录了令人惊讶的一幕：一道波浪逆流而上，经过一艘船屋。波浪后方的河水似乎正在倒流。这段影像拍摄于一处宽阔河口旁，附近曾有一所寄宿学校。画面虽然不同寻常，却如实记录了一种被称为涌潮的自然现象。",
+    "当上涨的海潮涌入一条向内陆逐渐变窄、变浅的河流时，就可能形成涌潮。来自海洋的水被挤进更小的空间，迫使水流前缘向上隆起。如果涌入的潮水足够强，能够抵住河流向外的水流，这个前缘就会发展成一道移动的波浪。高潮与低潮之间的水位差越大，这一过程就越有可能发生。",
+    "在一次早期调查中，一支海军小队得到了一位意想不到的支持者的帮助：一名熟悉河边小路的非军方研究人员。她骑着轻便摩托车，在波浪到来之前赶到几个观测点。把握时间十分重要，因为在普通潮汐期间寻找涌潮可能毫无希望；形成涌潮所必需的条件可能根本不存在。她的笔记帮助解释了为什么有些潮汐会形成壮观的波浪，而另一些几乎不会扰动水面。",
+    "站在高处的河岸上，保持安全距离观看，通常是观察这种强大水流的一种低风险方式。下水则不然。在看得见的波浪下方，强劲的水流可能将游泳者拖向上游。因此，河水短暂倒流既是一道奇观，也提醒着人们，海洋的力量可以深入内陆。"
+  ],
+  "q": [
+    {
+      "s": "The donated recording shows an artificial wave rather than a natural event.",
+      "a": "F",
+      "why": "首段明确说录像如实记录了自然涌潮。"
+    },
+    {
+      "s": "A large difference between high and low tide makes a tidal bore more likely.",
+      "a": "T",
+      "why": "第二段指出，高潮与低潮水位差大更利于形成。"
+    },
+    {
+      "s": "The researcher received payment from the naval team for her assistance.",
+      "a": "NG",
+      "why": "文中未提及研究人员是否获得报酬。"
+    }
+  ]
+}

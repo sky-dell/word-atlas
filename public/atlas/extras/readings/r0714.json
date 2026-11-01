@@ -1,0 +1,48 @@
+{
+  "id": "r0714",
+  "ids": [
+    "delectable",
+    "repute",
+    "modish",
+    "bespectacled",
+    "tyrannical",
+    "unaccommodating",
+    "herein",
+    "disgustful",
+    "mackintosh",
+    "goad"
+  ],
+  "title": "Who Fed the Rowers?",
+  "titleZh": "谁为赛艇手供餐？",
+  "topic": "sport",
+  "cefr": 5,
+  "paras": [
+    "At the fictional Merebank Rowing Club in 1896, sporting [[repute|repute]] depended partly on work seldom acknowledged in victory speeches: feeding twelve athletes before dawn. Steward Tomas Varga kept a notebook of purchases, recipes and complaints. A recipe for a [[delectable|delectable]] plum tart occupied one page; the following pages concerned meals that nobody remembered with pleasure.",
+    "Tomas was a [[bespectacled|bespectacled]] man whose [[modish|modish]] checked waistcoat rarely escaped a dusting of flour. Each morning he hung his [[mackintosh|mackintosh]] beside the wet delivery baskets and checked their contents against his orders. When training began earlier, an [[unaccommodating|unaccommodating]] supplier refused to change delivery times. Tomas had to plan breakfast around ingredients already in the kitchen rather than depend on fresh arrivals.",
+    "The captain imposed a [[tyrannical|tyrannical]] regime: injured rowers were denied supper, while kitchen assistants lost wages for questioning portions. Tomas copied a complaint into his notebook, adding a formal heading: ‘The meals described [[herein|herein]] require urgent attention.’ Below it, a rower called one broth ‘[[disgustful|disgustful]]’ and reported that it smelled sour before it reached the table.",
+    "Rather than [[goad|goad]] exhausted teammates into further effort, the crew submitted a collective petition demanding reliable meals and an end to punitive rationing. The committee minutes record acceptance of both demands, though no subsequent race result survives. In his next order, Tomas requested enough bread for all twelve rowers, including those unable to train."
+  ],
+  "zh": [
+    "在虚构的米尔班克赛艇俱乐部，1896年的体育声誉部分有赖于一项在获胜致辞中鲜被提及的工作：在黎明前让十二名运动员吃上饭。伙食管理员托马斯·瓦尔加用一本笔记记录采购、食谱和投诉。一页上记着美味李子馅饼的做法；接下来的几页则涉及谁都不愿回味的饭菜。",
+    "托马斯戴着眼镜，他那件时髦的格纹马甲几乎总会沾上一层面粉。每天早晨，他把雨衣挂在湿漉漉的送货篮旁，再对照订单清点篮中的物品。训练时间提前后，一名不肯通融的供应商拒绝调整送货时间。托马斯只好用厨房里已有的食材安排早餐，而不能指望新送来的东西。",
+    "队长实行一套专横的制度：受伤的赛艇手被剥夺晚餐，厨房助手则因质疑配餐分量而遭扣薪。托马斯将一份投诉抄进笔记，并加上正式的标题：“本文所述饭菜问题亟待处理。”标题下方，一名赛艇手称有一道汤“令人作呕”，并报告说，汤还没端上桌就闻着发酸。",
+    "队员们没有激将疲惫的同伴继续加倍努力，而是提交了一份集体请愿书，要求稳定供餐，并停止以削减口粮作为惩罚。委员会会议记录表明，两项要求均获接受，但此后的比赛成绩没有保存下来。在下一份订单中，托马斯要求供应足够十二名赛艇手吃的面包，包括那些无法参加训练的人。"
+  ],
+  "q": [
+    {
+      "s": "Tomas learned the plum tart recipe from a club member.",
+      "a": "NG",
+      "why": "首段记有馅饼食谱，但未交代其来源。"
+    },
+    {
+      "s": "The supplier agreed to deliver earlier when training times changed.",
+      "a": "F",
+      "why": "供应商明确拒绝调整送货时间。"
+    },
+    {
+      "s": "The committee accepted the crew’s request to end punitive rationing.",
+      "a": "T",
+      "why": "会议记录表明请愿中的两项要求均获接受。"
+    }
+  ]
+}

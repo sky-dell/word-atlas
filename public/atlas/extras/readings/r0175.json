@@ -1,0 +1,46 @@
+{
+  "id": "r0175",
+  "ids": [
+    "ordinary",
+    "gun",
+    "care",
+    "finger",
+    "worry",
+    "fashion",
+    "ship",
+    "slipper",
+    "badly",
+    "count"
+  ],
+  "title": "Soft Shoes for Sailors",
+  "titleZh": "给水手的软鞋",
+  "topic": "work",
+  "cefr": 1,
+  "paras": [
+    "Mina made shoes in a small town by the sea. Her workshop looked like an [[ordinary|ordinary]] house, but it stood beside a hospital. Sailors from a [[ship|ship]] in the harbour went to the hospital for [[care|care]] when they were ill or hurt. One morning, a sailor called Ben came to Mina's door. His foot still hurt after an accident. Before the accident, he had worked beside a large [[gun|gun]] on his boat. Now he needed help just to cross a room.",
+    "Mina showed him a soft [[slipper|slipper]] and asked him to sit down. Her shoes were not about [[fashion|fashion]]: she made them wide enough for sore feet. A shoe that fitted [[badly|badly]] could make walking painful. She put one [[finger|finger]] inside each shoe to check for hard places. Ben began to [[worry|worry]] when she asked him to stand, so she moved a chair close to him. He took two slow steps, then sat down again.",
+    "The left shoe felt comfortable, but the right one was too tight. Mina changed it while Ben rested. He watched her [[count|count]] the finished pairs on her shelf: twelve pairs in several sizes. When he tried his shoes again, both fitted. Mina wrote his name in her notebook and put his old boots in a bag for him."
+  ],
+  "zh": [
+    "米娜在海边的一个小镇做鞋。她的作坊看起来像一座普通的房子，但紧挨着一家医院。港内一艘船上的水手生病或受伤时，会到那家医院接受照料。一天早上，一位名叫本的水手来到米娜门口。一次事故之后，他的脚仍然疼痛。事故发生前，他在船上的一门大炮旁工作。现在，他就连走到房间另一头也需要帮助。",
+    "米娜给他看了一只柔软的室内便鞋，请他坐下。她做鞋并不追求时尚，而是把鞋做得足够宽，让疼痛的脚能穿得下。不合脚的鞋可能让人走路时疼痛。她把一根手指伸进每只鞋里，检查有没有硬的地方。当她请本站起来时，本开始担心，于是她把一把椅子移到他身旁。他慢慢走了两步，又坐了下来。",
+    "左鞋穿着舒服，右鞋却太紧。本休息时，米娜修改了右鞋。他看着她数架子上做好的鞋：一共十二双，有好几种尺码。他再次试穿时，两只鞋都合脚了。米娜在笔记本里写下他的名字，又把他的旧靴子装进袋子交给他。"
+  ],
+  "q": [
+    {
+      "s": "Mina's workplace was next to a place where sick sailors received help.",
+      "a": "T",
+      "why": "作坊紧挨着为生病或受伤水手提供照料的医院。"
+    },
+    {
+      "s": "Mina designed her shoes mainly to follow popular clothing styles.",
+      "a": "F",
+      "why": "鞋子不追求时尚，而是为了让水手走得舒服。"
+    },
+    {
+      "s": "Mina received the same payment for every pair of shoes.",
+      "a": "NG",
+      "why": "文章提到鞋的数量和名字，未提及报酬。"
+    }
+  ]
+}

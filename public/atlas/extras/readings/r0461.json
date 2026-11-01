@@ -1,0 +1,48 @@
+{
+  "id": "r0461",
+  "ids": [
+    "consequently",
+    "gulp",
+    "primitive",
+    "despair",
+    "monitor",
+    "treadmill",
+    "conserve",
+    "correspondent",
+    "widow",
+    "hilarious"
+  ],
+  "title": "Walking Towards Company",
+  "titleZh": "在步行中走近彼此",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "Could exercising beside a stranger make conversation easier? A neighbourhood association tested this idea in an unused furniture workshop. Its exercise room was [[primitive|primitive]]: four second-hand walking machines, plain walls and a table with water jugs. Nevertheless, twenty-four residents who lived alone volunteered for a six-week experiment.",
+    "Participants attended twice weekly, walking on a [[treadmill|treadmill]] either alone or beside another volunteer. Everyone experienced both arrangements, in a randomly chosen order. Researchers used brief questionnaires to [[monitor|monitor]] mood before and after each session and recorded how long conversations continued afterwards. To [[conserve|conserve]] energy for the full thirty minutes, walkers were asked to maintain a comfortable pace rather than compete.",
+    "Among them was Amara, a [[widow|widow]] who described occasional feelings of [[despair|despair]] since losing her husband. Initially, she would finish walking, [[gulp|gulp]] a glass of water and leave. During paired sessions, however, her partner Tomas told [[hilarious|hilarious]] stories about his unsuccessful attempts at bread-making. She began staying to talk. A health [[correspondent|correspondent]] visiting the workshop noticed the change, although the researchers warned against treating one person's experience as proof.",
+    "The overall results supported a modest conclusion. Paired walking produced slightly better mood scores, but its strongest effect was on conversation: participants stayed an average of eleven minutes longer. Several arranged to meet outside the workshop; [[consequently|consequently]], the association kept the paired sessions running after the experiment. The machines had not removed loneliness, but they had provided an easy reason to return."
+  ],
+  "zh": [
+    "在陌生人身旁锻炼，能否让交谈变得更容易？一个社区协会在一间闲置的家具作坊里检验了这个想法。这里的健身房十分简陋：四台二手步行机、光秃秃的墙壁，以及一张放着水壶的桌子。尽管如此，仍有二十四名独居居民自愿参加了这项为期六周的实验。",
+    "参与者每周来两次，或独自在跑步机上步行，或与另一名志愿者并排走。每个人都体验了这两种安排，先后顺序随机决定。研究人员通过简短问卷监测每次活动前后的情绪，并记录活动结束后交谈持续的时间。为了保留体力、走完全程三十分钟，参与者被要求保持舒适的速度，而不是相互竞争。",
+    "参与者中有一位名叫阿玛拉的丧偶女性，她说自从丈夫去世后，自己偶尔会感到绝望。起初，她走完后会大口喝下一杯水，随即离开。然而，在结伴步行时，她的搭档托马斯会讲起自己尝试做面包却失败的经历，让人捧腹大笑。她开始留下来聊天。一位到访作坊的健康专题记者注意到了这种变化，不过研究人员提醒，不能将一个人的经历当作证据。",
+    "总体结果支持了一个较为有限的结论。结伴步行使情绪评分略有提高，但最明显的效果体现在交谈上：参与者平均多停留了十一分钟。有几个人还约好在作坊外见面；因此，实验结束后，协会继续开展结伴步行活动。这些机器并没有消除孤独，却给了人们一个轻松自然的理由，让他们愿意再次回来。"
+  ],
+  "q": [
+    {
+      "s": "The association recruited volunteers through a local newspaper advertisement.",
+      "a": "NG",
+      "why": "首段未说明协会通过何种方式招募志愿者。"
+    },
+    {
+      "s": "Each volunteer tried walking both independently and with a partner.",
+      "a": "T",
+      "why": "第二段说明每个人都体验了两种安排。"
+    },
+    {
+      "s": "The researchers found that paired walking affected mood more strongly than conversation.",
+      "a": "F",
+      "why": "末段指出最明显的效果是促进交谈。"
+    }
+  ]
+}

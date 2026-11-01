@@ -1,0 +1,40 @@
+{
+  "id": "r0732",
+  "ids": [
+    "fatuous",
+    "mien",
+    "pharmaceutist",
+    "profess"
+  ],
+  "title": "The Pharmacy Window After Dark",
+  "titleZh": "夜幕下的药房橱窗",
+  "topic": "city",
+  "cefr": 5,
+  "paras": [
+    "At the corner of a narrow cobbled street, a century-old pharmacy has become an unlikely laboratory for urban ecology. Its proprietor, Leila Haddad, a [[pharmaceutist|pharmaceutist]] whose reassuring [[mien|mien]] rarely alters even during the evening rush, noticed moths repeatedly striking her illuminated window. Rather than dismissing them as a seasonal nuisance, she invited an insect researcher to investigate whether the shop could remain conspicuous to customers without becoming a navigational hazard for wildlife.",
+    "The resulting experiment challenged the [[fatuous|fatuous]] assumption that brighter streets necessarily constitute better streets. For six weeks, the researchers alternated between an exposed lamp and the same lamp fitted with a downward-facing shield, leaving its electrical output unchanged. A camera recorded insect approaches, while a pavement sensor measured illumination below. With the shield attached, fewer moths approached the glass, although the pavement remained comparably illuminated. The distinction matters: nocturnal insects can become disoriented near artificial lights, so where light travels may be as consequential as how much is emitted.",
+    "Shopkeepers often [[profess|profess]] enthusiasm for protecting urban nature, yet hesitate when conservation appears to threaten visibility. Here, the intervention required neither darkness nor an expensive replacement system: the shield was folded from aluminium. Haddad retained it after the trial. Her window still announces that the pharmacy is open; it simply broadcasts that message less indiscriminately into the surrounding night."
+  ],
+  "zh": [
+    "在一条狭窄的鹅卵石街道转角处，一家百年药房成了意想不到的城市生态实验室。店主莱拉·哈达德是一名药剂师，即使在傍晚最忙碌的时候，她那令人安心的神情也很少改变。她注意到，飞蛾不断撞向灯光明亮的橱窗。她没有把它们当作季节性的烦扰而置之不理，而是邀请一位昆虫研究者来调查：药房能否在保持醒目、方便顾客辨认的同时，不再成为野生动物辨向时的危险源。",
+    "随后的实验挑战了一种愚蠢而自以为是的假设：街道越亮，就必然越好。研究人员连续六周交替使用两种照明方式：一盏无遮挡的灯，以及同一盏装有向下遮光罩的灯，期间保持电功率不变。摄像机记录昆虫靠近的情况，人行道上的传感器则测量下方的照度。安装遮光罩后，靠近玻璃的飞蛾减少了，人行道的照明水平却基本相当。这一区别十分重要：夜行昆虫可能在人工光源附近迷失方向，因此，光照向何处，可能与发出多少光同样关键。",
+    "店主们常常公开宣称自己热衷于保护城市自然环境，但当保护措施似乎会影响店铺的醒目程度时，又会犹豫。在这里，干预措施既不需要让店面陷入黑暗，也不需要昂贵的替代系统：遮光罩只是用铝片折成的。试验结束后，哈达德保留了它。她的橱窗仍然传递着药房正在营业的信息，只是不再那么不加区分地将这一信息散播到周围的夜色中。"
+  ],
+  "q": [
+    {
+      "s": "The insect researcher Haddad invited had previously studied lighting in pharmacies.",
+      "a": "NG",
+      "why": "文中未交代该研究者此前的研究经历。"
+    },
+    {
+      "s": "The researchers reduced the lamp's electrical output when they fitted the shield.",
+      "a": "F",
+      "why": "实验期间灯的电功率保持不变。"
+    },
+    {
+      "s": "Haddad kept the shield after the experiment ended.",
+      "a": "T",
+      "why": "末段明确说她在试验后保留了遮光罩。"
+    }
+  ]
+}

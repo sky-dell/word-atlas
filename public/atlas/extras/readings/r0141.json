@@ -1,0 +1,46 @@
+{
+  "id": "r0141",
+  "ids": [
+    "awake",
+    "noise",
+    "stick",
+    "irish",
+    "common",
+    "kettle",
+    "judo",
+    "opposite",
+    "female",
+    "imagine"
+  ],
+  "title": "A Quiet Timer for Morning Training",
+  "titleZh": "晨练用的静音计时器",
+  "topic": "technology",
+  "cefr": 1,
+  "paras": [
+    "Niamh is an [[irish|Irish]] maker who builds small electronic tools. Her latest project is for a [[female|female]] [[judo|judo]] coach who trains at home early in the morning. The coach is [[awake|awake]] before her family and needs to time each exercise. However, she does not want the [[noise|noise]] of an alarm. Niamh decides to make a timer that uses light instead of sound. It will stand beside the kitchen [[kettle|kettle]].",
+    "First, Niamh chooses a small wooden box. These boxes are [[common|common]] in craft shops and are easy to paint. She makes two holes on [[opposite|opposite]] sides: one for a button and one for a small light. Then she uses a thin wooden [[stick|stick]] to spread glue around the light's edge. Inside, she connects the button and light to a tiny computer and a battery. No wall electricity is needed.",
+    "Next, Niamh sets the computer to turn the light green after three minutes. She tries to [[imagine|imagine]] the coach using it with wet hands, so she adds a wide plastic cover over the button. Finally, she tests the timer ten times. Each time, the light changes without a sound. The finished tool lets the coach train while the rest of the house sleeps."
+  ],
+  "zh": [
+    "妮芙是一位爱尔兰制作者，专门制作小型电子工具。她最近的项目是为一位清晨在家训练的女柔道教练制作工具。这位教练比家人醒得早，需要为每项练习计时。不过，她不希望闹铃发出响声。妮芙决定制作一个用灯光而不是声音提示的计时器。它将放在厨房的烧水壶旁边。",
+    "首先，妮芙挑选了一个小木盒。这种盒子在手工用品店很常见，也容易上色。她在盒子相对的两侧各开一个孔：一个装按钮，另一个装小灯。接着，她用一根细木棍沿着灯的边缘涂胶。在盒子里面，她把按钮和灯连接到一台微型电脑和一节电池上。这个装置不需要接入墙上的电源。",
+    "随后，妮芙设置好电脑，让灯在三分钟后变成绿色。她试着想象教练双手湿着使用它的情景，因此在按钮上加了一个宽大的塑料罩。最后，她测试了十次计时器。每次灯光都安静地变换颜色。做好的工具让教练能够在家里其他人睡觉时训练。"
+  ],
+  "q": [
+    {
+      "s": "Niamh decides to make a timer that uses sound instead of light.",
+      "a": "F",
+      "why": "她决定用灯光而不是声音提示。"
+    },
+    {
+      "s": "Niamh puts the button and the light on opposite sides of the box.",
+      "a": "T",
+      "why": "两个孔位于相对两侧，分别装按钮和灯。"
+    },
+    {
+      "s": "The coach asks Niamh to make another timer after trying the first one.",
+      "a": "NG",
+      "why": "文章未提到教练试用后要求再做一个。"
+    }
+  ]
+}

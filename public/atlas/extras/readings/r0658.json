@@ -1,0 +1,48 @@
+{
+  "id": "r0658",
+  "ids": [
+    "deception",
+    "obscure",
+    "insider",
+    "invalidate",
+    "dramatize",
+    "computation",
+    "potent",
+    "ripple",
+    "strait",
+    "blindfold"
+  ],
+  "title": "The Wave That Exposed a Trick",
+  "titleZh": "一道水波揭穿的骗局",
+  "topic": "science",
+  "cefr": 4,
+  "paras": [
+    "At a coastal science museum, a shallow glass tank introduces a fictional investigation into an [[obscure|obscure]] claim: that distant storms can be detected without looking at the sea. A single [[ripple|ripple]] crosses the water beside a black silk [[blindfold|blindfold]]. The tank and blindfold are props in a story devised by museum staff, not historical artefacts.",
+    "The story follows an investigator working beside a [[strait|strait]], where currents complicate the interpretation of waves. His apparent success attracts shipping agents seeking earlier storm warnings. During demonstrations, he announces approaching disturbances while an assistant records water levels. What audiences witness, however, is [[deception|deception]]: the assistant, an [[insider|insider]] familiar with the testing schedule, supplies signals by tapping the wooden platform beneath his chair.",
+    "A visiting mathematician becomes suspicious and insists that the assistant leave. The predictions immediately deteriorate. Subsequent [[computation|computation]] shows that forecasts made without signals correspond poorly with harbour measurements. The discovery of concealed signalling is sufficient to [[invalidate|invalidate]] his certificate from a maritime testing association. Within the story, its withdrawal delivers a [[potent|potent]] blow to his reputation.",
+    "Museum staff [[dramatize|dramatize]] this investigation in a twelve-minute performance. Initially, spectators hear the taps without recognising their significance; later, the scene is repeated with the mechanism exposed. Beside the exit, visitors can generate waves themselves. They write down predictions before each trial, then compare them with measurements rather than relying on their memory of what they expected."
+  ],
+  "zh": [
+    "在一座海滨科学博物馆里，一个浅玻璃水槽引出了一场虚构的调查，调查对象是一种鲜为人知的说法：不看海面也能探测到远方的风暴。一道细小的波纹掠过水面，旁边放着一条黑色丝绸眼罩。水槽和眼罩都是博物馆工作人员编写的故事中的道具，并非历史文物。",
+    "故事围绕一位在海峡旁工作的研究者展开，那里的水流使波浪的解读变得复杂。他看似成功的预测吸引了希望更早获得风暴预警的航运代理人。演示期间，他会宣布即将到来的波动，同时由一名助手记录水位。然而，观众看到的其实是一场骗局：这名助手是熟悉测试安排的内部人士，通过敲击研究者椅子下方的木台传递信号。",
+    "一位来访的数学家起了疑心，坚持要求助手离开。预测的准确性立刻下降。随后的计算表明，没有信号提示时作出的预报与港口测量数据吻合程度很低。发现有人暗中传递信号，足以使一家海事检测协会颁发给他的证书作废。在故事中，证书被撤销使他的声誉受到沉重打击。",
+    "博物馆工作人员将这场调查改编成一段十二分钟的戏剧表演。起初，观众听得到敲击声，却不明白它的意义；随后，同一场景再次上演，这一次，幕后机制被揭示出来。出口旁，参观者可以亲手制造波浪。他们在每次试验前写下预测，再将预测与测量结果进行比较，而不是凭记忆回想自己原先的预期。"
+  ],
+  "q": [
+    {
+      "s": "The tank and blindfold are historical artefacts used by a real investigator.",
+      "a": "F",
+      "why": "首段明确说它们是虚构故事的道具，并非历史文物。"
+    },
+    {
+      "s": "The visiting mathematician had previously worked for the maritime testing association.",
+      "a": "NG",
+      "why": "文中未说明数学家是否曾在该协会任职。"
+    },
+    {
+      "s": "Visitors can record predictions before comparing them with wave measurements.",
+      "a": "T",
+      "why": "末段说明参观者先写预测，再与测量结果比较。"
+    }
+  ]
+}

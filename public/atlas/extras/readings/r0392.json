@@ -1,0 +1,48 @@
+{
+  "id": "r0392",
+  "ids": [
+    "viewing",
+    "dim",
+    "intelligence",
+    "triangular",
+    "tutorial",
+    "stroll",
+    "plentiful",
+    "psychologist",
+    "trunk",
+    "literary"
+  ],
+  "title": "The Puzzle Beneath the Oak",
+  "titleZh": "橡树下的谜题",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "When a small science centre prepared an exhibition on animal [[intelligence|intelligence]], researcher Leila Chen designed a simple experiment. She attached a wooden box to the [[trunk|trunk]] of an oak tree. To reach the nuts inside, squirrels had to lift a [[triangular|triangular]] lid. Food was [[plentiful|plentiful]] nearby, so the animals were free to ignore the puzzle rather than approach it out of hunger.",
+    "After two weeks, the recordings seemed disappointing. During an evening [[viewing|viewing]] of the footage, Leila counted only three successful attempts. A visiting [[psychologist|psychologist]], Tomas Bello, questioned whether the experiment really measured learning. The images were [[dim|dim]], and several squirrels disappeared behind the box just before the lid moved. Perhaps the camera, not the animals, was failing.",
+    "Tomas gave Leila and her two assistants a short [[tutorial|tutorial]] on recording behaviour consistently. They added a second camera and marked individual squirrels by their distinctive fur patterns. Meanwhile, visitors attending a [[literary|literary]] festival at the centre could [[stroll|stroll]] along a path overlooking the oak. A small sign asked them not to feed the animals or approach the equipment.",
+    "The new recordings revealed that several squirrels had learned to open the lid from behind. One completed the task faster over five successive visits, although this alone could not explain how it learned. Leila rebuilt the exhibition around the two camera angles. Visitors could now compare the evidence themselves: an apparent failure had become a practical lesson in careful observation."
+  ],
+  "zh": [
+    "一家小型科学中心筹备动物智力展览时，研究员蕾拉·陈设计了一个简单的实验。她把一个木箱固定在一棵橡树的树干上。松鼠必须掀起一个三角形的盖子，才能吃到里面的坚果。附近食物充足，因此它们完全可以不理会这个机关，而不必因饥饿前来尝试。",
+    "两周后，录像似乎令人失望。一天晚上观看录像时，蕾拉只数到三次成功的尝试。来访的心理学家托马斯·贝洛质疑，这个实验是否真的测出了学习能力。画面昏暗，而且有几只松鼠恰好在盖子移动前消失在箱子后面。也许出问题的是摄像机，而不是动物。",
+    "托马斯给蕾拉和她的两名助手上了一堂简短的辅导课，讲解如何用一致的方法记录行为。他们增加了一台摄像机，并根据松鼠各自独特的毛色花纹进行标记。与此同时，到中心参加文学节的游客可以沿着一条能望见橡树的小路悠闲散步。一块小告示牌提醒他们不要投喂动物，也不要靠近设备。",
+    "新的录像显示，有几只松鼠已经学会从后面打开盖子。其中一只在连续五次来访中完成任务的速度越来越快，不过，仅凭这一点还无法解释它是如何学会的。蕾拉围绕两个拍摄角度重新布置了展览。游客现在可以亲自比较证据：一次看似失败的实验，变成了一堂关于细致观察的实践课。"
+  ],
+  "q": [
+    {
+      "s": "The squirrels had access to food without solving the box puzzle.",
+      "a": "T",
+      "why": "第一段说明附近有充足食物。"
+    },
+    {
+      "s": "Tomas had studied squirrels before visiting the centre.",
+      "a": "NG",
+      "why": "未说明托马斯此前是否研究过松鼠。"
+    },
+    {
+      "s": "The sign encouraged visitors to feed the squirrels.",
+      "a": "F",
+      "why": "告示要求游客不要投喂动物。"
+    }
+  ]
+}

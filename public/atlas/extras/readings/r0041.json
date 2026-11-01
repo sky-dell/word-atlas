@@ -1,0 +1,46 @@
+{
+  "id": "r0041",
+  "ids": [
+    "early",
+    "these",
+    "favourite",
+    "adult",
+    "clock",
+    "downstairs",
+    "information",
+    "blackboard",
+    "party",
+    "meal"
+  ],
+  "title": "Music Before Dinner",
+  "titleZh": "晚餐前的音乐",
+  "topic": "emotion",
+  "cefr": 0,
+  "paras": [
+    "Mina wanted to know if music could make people feel happy before dinner. She asked eight [[adult|adults]] to come to her house for an [[early|early]] evening test. At five, they went [[downstairs|downstairs]] to a room with a big table. It was not a [[party|party]]. There were no games or gifts. Mina had a small [[clock|clock]] and some cards ready.",
+    "First, everyone sat quietly for five minutes. Then Mina said, “Please use [[these|these]] cards to show how you feel.” Each card had a sad face, a straight face, or a happy face. She put this [[information|information]] on a [[blackboard|blackboard]]. Next, she played a song for five minutes. It was a [[favourite|favourite]] song of everyone in the room. They listened and chose cards again.",
+    "At first, only three people chose a happy face. After the music, seven people did. Mina then gave everyone a hot [[meal|meal]] of rice and fish. They talked about the song as they ate. The test was small, but most people felt happier after listening. They asked Mina to play the song once more. This time, she sat and enjoyed it too."
+  ],
+  "zh": [
+    "米娜想知道，音乐能不能让人在晚餐前感到开心。她请了八位成年人来家里，在傍晚较早的时候做一个测试。五点钟，他们下楼，来到一间放着大桌子的房间。这不是聚会，没有游戏，也没有礼物。米娜准备好了一个小时钟和一些卡片。",
+    "首先，大家安静地坐了五分钟。然后米娜说：“请用这些卡片表示你们的心情。”每张卡片上画着一张脸，或是难过的表情，或是没有表情，或是笑脸。她把这些信息记在黑板上。接着，她放了五分钟的歌。这是房间里每个人最喜欢的歌曲之一。他们听完后，又选了一次卡片。",
+    "起初，只有三个人选了笑脸。听完音乐后，有七个人选了笑脸。随后，米娜给每个人端上了热乎乎的米饭和鱼。大家一边吃，一边聊这首歌。测试规模虽小，但大多数人听完歌后更开心了。他们请米娜再放一遍。这一次，她也坐下来欣赏这首歌。"
+  ],
+  "q": [
+    {
+      "s": "The eight adults lived near Mina's house.",
+      "a": "NG",
+      "why": "文中未说明八位成年人的住处。"
+    },
+    {
+      "s": "People chose cards before Mina played the song.",
+      "a": "T",
+      "why": "大家静坐后先选卡片，随后米娜放歌。"
+    },
+    {
+      "s": "Mina gave everyone a cold meal.",
+      "a": "F",
+      "why": "文中明确说米娜给大家的是热饭菜。"
+    }
+  ]
+}

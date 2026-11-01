@@ -1,0 +1,48 @@
+{
+  "id": "r0505",
+  "ids": [
+    "slap",
+    "showroom",
+    "landslide",
+    "firm",
+    "descend",
+    "purchase",
+    "dispose",
+    "volume",
+    "toss",
+    "absence"
+  ],
+  "title": "When Running Trails Give Way",
+  "titleZh": "当山间跑道突然滑塌",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "After heavy rain, a mountain running trail can fail even when its surface looks unchanged. A [[landslide|landslide]] begins when the forces pulling soil downhill become stronger than those holding it in place. For runners, understanding this hidden change matters more than owning shoes with an excellent grip.",
+    "One outdoor equipment [[firm|firm]] explains the process using a model hillside in its [[showroom|showroom]]. Visitors who come to [[purchase|purchase]] running equipment can watch water being poured over a tray of sand and stones. In the [[absence|absence]] of the usual guide, a recorded explanation describes what happens beneath the surface. The model reveals a process that is normally invisible on a real mountainside.",
+    "Initially, much of the water fills tiny spaces between the grains. As the [[volume|volume]] of water increases, the slope becomes heavier. If water cannot escape quickly enough, pressure builds and reduces friction between particles. Eventually, part of the slope may [[descend|descend]] as a single mass before breaking apart. During one demonstration, a visitor [[slap|slapped]] the wet sand with an open hand, expecting it to become firmer. Afterwards, water remained trapped beneath the surface.",
+    "At the end, visitors may [[toss|toss]] small pebbles onto the model to see how loose material travels. Staff then [[dispose|dispose]] of muddy wastewater appropriately. The lesson is simple: a familiar trail is not a fixed structure. Rain can transform the ground beneath it long before a runner notices any movement."
+  ],
+  "zh": [
+    "大雨过后，山间跑道即使表面看起来毫无变化，也可能发生滑塌。当把土壤拉向坡下的力量超过将其固定在原处的力量时，山体滑坡就开始了。对跑步者来说，了解这种隐蔽的变化，比拥有抓地力出色的跑鞋更重要。",
+    "一家户外装备公司在商品展厅里用山坡模型解释这一过程。前来购买跑步装备的顾客，可以观看水被倒在装有沙石的托盘上。如果平时负责讲解的工作人员不在，录音就会介绍地表下发生的变化。这个模型揭示了真实山坡上通常无法看见的过程。",
+    "起初，大部分水会填入颗粒之间的微小空隙。随着水量增加，山坡也变得更重。如果水无法及时排出，压力便会积聚，使颗粒之间的摩擦力减小。最终，一部分坡体可能先整体下滑，随后分裂散开。在一次演示中，一位参观者张开手掌拍打湿沙，以为这样能让它更结实。拍打之后，沙子表面下仍有积水。",
+    "演示最后，参观者可以将小石子轻抛到模型上，观察松散物料如何移动。之后，工作人员会妥善处理泥水。这个演示传达的道理很简单：熟悉的跑道并非永远稳固不变。早在跑步者察觉到任何移动之前，雨水就可能已经改变了脚下的地面。"
+  ],
+  "q": [
+    {
+      "s": "A mountain trail may become unstable without an obvious change in its appearance.",
+      "a": "T",
+      "why": "首段指出，表面看似未变的跑道也可能滑塌。"
+    },
+    {
+      "s": "The visitor's slap released all the water trapped beneath the sand's surface.",
+      "a": "F",
+      "why": "第三段指出，拍打之后沙子表面下仍有积水。"
+    },
+    {
+      "s": "Staff filter the muddy wastewater before disposing of it.",
+      "a": "NG",
+      "why": "末段只说妥善处理泥水，未说明是否过滤。"
+    }
+  ]
+}

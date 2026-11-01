@@ -1,0 +1,46 @@
+{
+  "id": "r0094",
+  "ids": [
+    "clearly",
+    "swedish",
+    "curry",
+    "nurse",
+    "fan",
+    "vase",
+    "saw",
+    "trainer",
+    "till",
+    "divorced"
+  ],
+  "title": "Small Repairs, New Connections",
+  "titleZh": "小修补，新联系",
+  "topic": "daily",
+  "cefr": 1,
+  "paras": [
+    "On Friday evenings, a small kitchen becomes a repair club. Its owner, Liv, is a [[swedish|Swedish]] [[nurse|nurse]] who works at a hospital during the day. She is [[divorced|divorced]] and lives alone, but her kitchen is often full of neighbours. They bring broken things and share a vegetable [[curry|curry]] before work begins. Liv is a [[fan|fan]] of old wooden toys. Tonight, she wants to mend a toy boat with a broken seat.",
+    "Why can an evening like this feel so good? Working with our hands gives our attention a clear job. We look closely, make small movements, and watch something change. Karim, a woodwork [[trainer|trainer]], explains each step [[clearly|clearly]]. He shows Liv how to hold a small [[saw|saw]] safely. Then she cuts a new seat herself. Across the table, another neighbour puts glue on the broken handle of a [[vase|vase]]. Nobody needs to hurry.",
+    "The club stays open [[till|till]] nine. There is no test, and people can ask for help at any time. A finished repair offers something simple: a problem has become smaller because of their own work. Before everyone leaves, Liv floats her boat in the sink. It carries its tiny wooden passenger again, and the whole kitchen cheers."
+  ],
+  "zh": [
+    "每周五晚上，一间小厨房就变成了修理俱乐部。厨房的主人莉芙是一名瑞典护士，白天在医院工作。她已经离婚，独自生活，但厨房里常常坐满邻居。大家带来坏掉的东西，动手前先一起吃一份蔬菜咖喱。莉芙喜欢老式木制玩具。今晚，她想修好一艘座位坏了的玩具船。",
+    "为什么这样的夜晚会让人感觉这么好呢？动手做事能让我们的注意力有一个明确的目标。我们仔细观察，做出细小的动作，看着东西发生变化。木工培训师卡里姆把每个步骤都讲得很清楚。他教莉芙如何安全地握住一把小锯子。然后，她自己锯出了一个新座位。桌子对面，另一位邻居正在花瓶断掉的把手上涂胶水。谁也不必着急。",
+    "俱乐部一直开放到九点。这里没有考试，大家随时都可以寻求帮助。完成一次修理带来的收获很简单：通过自己的努力，一个问题变小了。大家离开前，莉芙把小船放进水槽里，让它浮在水面上。它又能载着那个小小的木头乘客了，整个厨房里的人都欢呼起来。"
+  ],
+  "q": [
+    {
+      "s": "The neighbours eat their curry after they finish the repairs.",
+      "a": "F",
+      "why": "大家在开始修理前吃咖喱，而非修完后。"
+    },
+    {
+      "s": "Karim learned woodwork from his father.",
+      "a": "NG",
+      "why": "只说卡里姆是培训师，未说明他向谁学木工。"
+    },
+    {
+      "s": "The repair club stays open until nine.",
+      "a": "T",
+      "why": "第三段明确说俱乐部开放到九点。"
+    }
+  ]
+}

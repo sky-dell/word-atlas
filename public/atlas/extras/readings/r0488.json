@@ -1,0 +1,48 @@
+{
+  "id": "r0488",
+  "ids": [
+    "instruct",
+    "urban",
+    "announcer",
+    "flatten",
+    "invoice",
+    "scholarship",
+    "media",
+    "commander",
+    "fury",
+    "portable"
+  ],
+  "title": "The Market That Moved Upstairs",
+  "titleZh": "搬上楼的市场",
+  "topic": "economy",
+  "cefr": 3,
+  "paras": [
+    "For twelve years, Noura had repaired sewing machines in an [[urban|urban]] clothing market. Her earnings supported her daughter, whose [[scholarship|scholarship]] covered tuition but not accommodation. Then a river flood filled the market's ground floor with mud. When the building owner demanded rent as usual, Noura felt a sudden [[fury|fury]]: she could not earn anything behind a locked door.",
+    "An army rescue team was still working nearby. Its [[commander|commander]] inspected the building and confirmed that the upper floor was accessible by an outside staircase. He [[instruct|instructed]] his soldiers to keep this route clear while traders carried equipment upstairs. However, with no customers and little electricity, simply moving their businesses would not be enough.",
+    "Noura proposed a shared repair day. A neighbour lent her a [[portable|portable]] generator, while other traders cleaned tables and used heavy boards to [[flatten|flatten]] pieces of bent metal for temporary signs. They agreed to record every job on a numbered [[invoice|invoice]], allowing them to divide fuel costs fairly. A radio [[announcer|announcer]] described the event, and other local [[media|media]] soon spread the practical details: where to enter, what to bring and when repairs would begin.",
+    "By Saturday afternoon, customers were queuing on the stairs with broken fans, lamps and sewing machines. The traders earned enough to cover fuel and begin replacing damaged tools. More importantly, their records showed the owner that the temporary market could survive. He agreed to postpone rent payments until the ground floor reopened."
+  ],
+  "zh": [
+    "十二年来，努拉一直在城里的一家服装市场修理缝纫机。她用收入供养女儿，女儿的奖学金只够支付学费，不包括住宿费。后来，河水泛滥，市场一楼灌满了淤泥。当楼主仍要求照常交租时，努拉顿时怒火中烧：店门紧锁，她根本无法挣钱。",
+    "一支军队救援队当时仍在附近作业。指挥官检查了大楼，确认可以经由室外楼梯到达楼上。他命令士兵在商户搬运设备上楼期间保持这条通道畅通。然而，没有顾客，电力供应也十分有限，仅仅搬个地方还远远不够。",
+    "努拉提议共同举办一次维修日活动。一位邻居借给她一台便携式发电机，其他商户则擦洗桌子，用厚木板压平弯曲的金属片，制作临时指示牌。他们约定把每笔维修业务都记在带编号的付款清单上，以便公平分摊燃料费用。一位电台播音员介绍了这次活动，其他当地媒体也很快传播了具体信息：从哪里进入、带什么物品，以及维修何时开始。",
+    "到了星期六下午，顾客们带着坏掉的风扇、灯具和缝纫机，在楼梯上排起了队。商户们赚的钱足够支付燃料费用，并开始添置工具，替换受损的那些。更重要的是，他们的业务记录让楼主看到，这个临时市场能够维持经营。他同意将租金的支付时间推迟到一楼重新开放时。"
+  ],
+  "q": [
+    {
+      "s": "Noura's daughter received financial support for her studies, but it did not pay for her housing.",
+      "a": "T",
+      "why": "第一段说明奖学金涵盖学费，不含住宿费。"
+    },
+    {
+      "s": "The traders divided the fuel bill into equal shares.",
+      "a": "NG",
+      "why": "只说公平分摊，未说明各人承担的比例。"
+    },
+    {
+      "s": "After the repair day, the owner refused to postpone rent payments.",
+      "a": "F",
+      "why": "末段说明楼主同意延期收租。"
+    }
+  ]
+}

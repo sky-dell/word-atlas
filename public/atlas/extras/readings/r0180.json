@@ -1,0 +1,46 @@
+{
+  "id": "r0180",
+  "ids": [
+    "nasty",
+    "explain",
+    "possibly",
+    "silver",
+    "copy",
+    "travelling",
+    "differently",
+    "officer",
+    "panda",
+    "experience"
+  ],
+  "title": "A Small Badge, A Long Story",
+  "titleZh": "小徽章里的长故事",
+  "topic": "government",
+  "cefr": 1,
+  "paras": [
+    "Mira Das repairs old metal objects for a city museum. The city pays her to save things from its public buildings. She has twelve years of [[experience|experience]], but one small police badge was a new challenge. It was made of [[silver|silver]] and showed a [[panda|panda]] holding a leaf. A retired [[officer|officer]] brought it to her workshop in a blue box. He had worn it while working near the city zoo.",
+    "The badge was almost black, and its box had a [[nasty|nasty]] smell after years in a wet cupboard. Mira did not wash everything in the same way. She treated the metal and the cloth inside the box [[differently|differently]]. First, she used a soft, dry brush on the cloth. Then she cleaned the badge slowly. An old photograph helped her understand its shape. She kept a [[copy|copy]] beside her work table.",
+    "Mira enjoys [[travelling|travelling]], and this time her work took her to the zoo to learn about the badge. A worker said it was [[possibly|possibly]] designed for the zoo's opening day, but nobody knew for sure. Mira wrote a short note to [[explain|explain]] this mystery. Now the clean badge sits beside its blue box in the museum. Visitors can see both the bright metal and its unfinished story."
+  ],
+  "zh": [
+    "米拉·达斯为一家城市博物馆修复旧金属物品。市政府付钱请她保存公共建筑里的老物件。她有十二年的经验，但一枚小小的警察徽章给她带来了新的挑战。徽章是银制的，上面是一只拿着叶子的大熊猫。一位退休警官把它装在蓝色盒子里，带到了她的工作室。他过去在城市动物园附近工作时，曾佩戴这枚徽章。",
+    "徽章几乎全黑了，盒子在潮湿的柜子里放了多年，散发着难闻的气味。米拉没有用同一种方法清洗所有东西。她用不同的方法处理金属和盒内的布。首先，她用柔软的干刷子轻刷那块布。然后，她慢慢清洁徽章。一张老照片帮助她了解徽章原来的样子。她在工作台旁放了一份照片的复制件。",
+    "米拉喜欢旅行，这次她因工作来到动物园，了解这枚徽章的故事。一位工作人员说，它可能是为动物园开园那天设计的，但谁也不能确定。米拉写了一段简短的文字，说明这个谜团。如今，清洁后的徽章和蓝色盒子一起陈列在博物馆里。游客既能看到闪亮的金属，也能了解它尚未讲完的故事。"
+  ],
+  "q": [
+    {
+      "s": "The retired officer had worked near the zoo for twenty years.",
+      "a": "NG",
+      "why": "文章未说明警官在动物园附近工作了多久。"
+    },
+    {
+      "s": "Mira cleaned the cloth and the badge using the same method.",
+      "a": "F",
+      "why": "第二段说她用不同方法处理金属和布。"
+    },
+    {
+      "s": "The zoo worker was not sure whether the badge was designed for the zoo's opening day.",
+      "a": "T",
+      "why": "工作人员说可能是，但谁也不能确定。"
+    }
+  ]
+}

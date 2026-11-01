@@ -1,0 +1,46 @@
+{
+  "id": "r0071",
+  "ids": [
+    "dog",
+    "wine",
+    "talk",
+    "office",
+    "pants",
+    "friend",
+    "sure",
+    "very",
+    "dancing",
+    "more"
+  ],
+  "title": "From Garden Grapes to Wine",
+  "titleZh": "从园中葡萄到葡萄酒",
+  "topic": "nature",
+  "cefr": 0,
+  "paras": [
+    "Mara makes [[wine|wine]] from the grapes in her garden. In autumn, the grapes turn dark purple. She tastes one to be [[sure|sure]] it is sweet. Then she puts on old [[pants|pants]] and takes a basket outside. Her [[friend|friend]] Luis comes to help. They [[talk|talk]] as they pick the fruit. Her [[dog|dog]] sits by the gate and watches them work.",
+    "First, they take the leaves out of the baskets. They put the grapes in a large, clean bowl. Mara presses the fruit with a wooden tool. The juice is [[very|very]] dark. She pours it into a clean tank and adds yeast. Yeast changes the sugar in the juice into alcohol. Small bubbles rise in the tank. Mara leaves space at the top for [[more|more]] bubbles.",
+    "After some weeks, the bubbles stop. Mara moves the liquid into another tank. It stays there for several months. She writes the dates in a book in her small [[office|office]]. When it is ready, she fills glass bottles and closes them. At the end of the year's work, there is music and [[dancing|dancing]] in the garden. The empty baskets wait for next autumn."
+  ],
+  "zh": [
+    "玛拉用自家花园里的葡萄酿葡萄酒。秋天，葡萄变成深紫色。她尝了一颗，确认葡萄已经甜了。然后，她穿上旧裤子，拿着篮子走到外面。她的朋友路易斯来帮忙。他们一边摘葡萄，一边聊天。她的狗坐在门边，看着他们干活。",
+    "首先，他们把篮子里的叶子挑出来，再把葡萄放进一个干净的大盆里。玛拉用木制工具压碎葡萄。果汁的颜色很深。她把果汁倒进一个干净的罐子，并加入酵母。酵母把果汁中的糖变成酒精。小气泡在罐子里升起。玛拉在罐子顶部留出空间，容纳更多气泡。",
+    "几周后，气泡不再冒出来。玛拉把液体转移到另一个罐子里，存放几个月。她在自己的小办公室里，把日期记在本子上。酒酿好后，她把酒装进玻璃瓶，封好瓶口。一年的工作结束时，花园里响起音乐，大家跳起舞来。空篮子等待着下一个秋天。"
+  ],
+  "q": [
+    {
+      "s": "Luis has made wine before.",
+      "a": "NG",
+      "why": "文章未说明路易斯以前是否酿过酒。"
+    },
+    {
+      "s": "They take out the leaves before Mara presses the grapes.",
+      "a": "T",
+      "why": "他们先挑出叶子，玛拉随后压葡萄。"
+    },
+    {
+      "s": "The liquid stays in the second tank for only one day.",
+      "a": "F",
+      "why": "液体在第二个罐子里存放了几个月。"
+    }
+  ]
+}

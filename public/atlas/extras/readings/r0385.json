@@ -1,0 +1,48 @@
+{
+  "id": "r0385",
+  "ids": [
+    "punch",
+    "dine",
+    "knot",
+    "drift",
+    "adapt",
+    "temptation",
+    "cigar",
+    "mutual",
+    "goodness",
+    "charcoal"
+  ],
+  "title": "A Seat at the Harbour",
+  "titleZh": "港湾边的一席之地",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "At her workshop beside the harbour, upholsterer Amara Sen repairs the cushions of fishing boats. Customers sometimes [[punch|punch]] a finished cushion to test its firmness, but she prefers to sit on it. A chair, she says, reveals more about comfort when treated as furniture rather than an opponent.",
+    "Her most unusual commission began with six chairs from a closed sailors’ dining room. One had a dark burn left by a [[cigar|cigar]]; another had a leg secured with a complicated [[knot|knot]]. Instead of hiding every trace of use, Amara drew the damage in [[charcoal|charcoal]] before deciding what to preserve. She resisted the [[temptation|temptation]] to make the chairs look new: their differences recorded the lives of their owners.",
+    "The repaired chairs now surround a long table where retired harbour workers [[dine|dine]] together every Thursday. Through the windows, they watch empty wooden crates [[drift|drift]] across the sheltered water. Amara had to [[adapt|adapt]] her designs for this group, raising two seats and adding broad armrests. The changes emerged from [[mutual|mutual]] respect: the workers explained their difficulties, while she asked them to test unfinished pieces.",
+    "Neighbours often describe the project as evidence of Amara’s [[goodness|goodness]], but she considers it practical craft. A beautiful chair that nobody can comfortably use has failed, she argues. On Thursdays, she joins the meal, listening for complaints. So far, the only regular argument concerns who gets the chair with the old burn."
+  ],
+  "zh": [
+    "在港湾旁的工坊里，家具软包工匠阿玛拉·森修补着渔船上的坐垫。顾客有时会用拳头猛击完工的坐垫，测试它的软硬程度，但她更喜欢坐上去试试。她说，把椅子当作家具而非对手，才能更好地判断它坐着是否舒服。",
+    "她最特别的一项委托，是修复一间已关闭的海员餐厅里的六把椅子。其中一把留有雪茄烫出的深色痕迹，另一把的椅腿则用打着复杂绳结的绳子固定着。阿玛拉没有掩盖所有使用痕迹，而是先用木炭画下损坏的地方，再决定保留哪些。她抵住了把椅子修得焕然一新的诱惑：它们之间的差异记录着主人的生活。",
+    "修好的椅子如今摆在一张长桌周围，退休的港口工人每周四都会在那里聚餐。透过窗户，他们看着空木箱在避风的水面上缓缓漂流。为了满足这群人的需要，阿玛拉不得不调整设计，升高其中两把椅子的座面，并加装宽大的扶手。这些改动源于彼此的尊重：工人们说明使用时遇到的困难，她则请他们试坐尚未完工的椅子。",
+    "邻居们常说，这个项目体现了阿玛拉的善良，但她认为这只是务实的手艺。她主张，一把漂亮的椅子，如果谁坐着都不舒服，那就是失败的作品。每逢周四，她都会加入聚餐，听听大家有什么不满。目前，大家唯一经常争论的，是谁能坐上那把留有旧烫痕的椅子。"
+  ],
+  "q": [
+    {
+      "s": "Amara favours sitting on a cushion over striking it when assessing comfort.",
+      "a": "T",
+      "why": "首段说她更喜欢坐上去判断舒适度。"
+    },
+    {
+      "s": "Amara aimed to remove all signs of previous use from the six chairs.",
+      "a": "F",
+      "why": "第二段说她决定保留部分使用痕迹。"
+    },
+    {
+      "s": "The retired harbour workers pay Amara a monthly fee for maintaining the chairs.",
+      "a": "NG",
+      "why": "文中未提工人是否支付每月维护费。"
+    }
+  ]
+}

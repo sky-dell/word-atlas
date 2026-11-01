@@ -1,0 +1,48 @@
+{
+  "id": "r0418",
+  "ids": [
+    "assemble",
+    "undoubtedly",
+    "norm",
+    "sting",
+    "reluctant",
+    "prospect",
+    "inspire",
+    "gang",
+    "pregnancy",
+    "theory"
+  ],
+  "title": "Learning at the Hive",
+  "titleZh": "蜂箱旁的课堂",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "At a community garden behind a library, adult learners [[assemble|assemble]] wooden beehives before they ever handle a bee. The site once stood empty after a [[gang|gang]] damaged its greenhouse. Now, a weekly beekeeping course is turning it into an outdoor classroom, where learning through practical tasks is the [[norm|norm]] rather than the exception.",
+    "Course leader Farah begins with a simple question: why does a hive need empty space? Participants measure gaps between wooden frames, then compare their designs with a working hive. The activity introduces a [[theory|theory]] of learning: people understand unfamiliar ideas more readily when they connect them to physical actions. A badly spaced frame makes an abstract measurement immediately meaningful.",
+    "Not everyone welcomes the [[prospect|prospect]] of working beside thousands of insects. Bees can [[sting|sting]], so protective clothing and calm movements are essential. One participant, Mei, was initially [[reluctant|reluctant]] to approach the hives. During her [[pregnancy|pregnancy]], she chose to record observations from behind a screened window instead. Her notes on bees visiting nearby flowers helped the group identify which flowers received the most visits.",
+    "The course does not turn every participant into a beekeeper, nor does it promise that practical work always beats reading. Yet the shared hive is [[undoubtedly|undoubtedly]] more than a box of insects: it gives each lesson a visible purpose. For Farah, its greatest value is its power to [[inspire|inspire]] further questions. By autumn, participants are no longer simply asking how to keep bees, but how their neighbourhood feeds them."
+  ],
+  "zh": [
+    "在图书馆后方的一处社区花园里，成人学习者还没开始接触蜜蜂，就先动手组装木制蜂箱。这里的温室曾遭一个犯罪团伙破坏，此后场地一度闲置。如今，每周一次的养蜂课程正把它变成露天教室。在这里，通过实际操作来学习是常态，而非例外。",
+    "课程负责人法拉先提出一个简单的问题：蜂箱里为什么需要留出空隙？参与者测量木制巢框之间的间距，再将自己的设计与一个正在使用的蜂箱进行比较。这项活动引出了一种学习理论：当人们把陌生概念与身体动作联系起来时，就更容易理解这些概念。一个间距不当的巢框，能让抽象的测量数据立刻变得具体而有意义。",
+    "并非人人都乐于接受与成千上万只昆虫近距离相处的可能性。蜜蜂可能蜇刺，因此防护服和平稳的动作必不可少。一位名叫梅的参与者起初不愿靠近蜂箱。怀孕期间，她选择隔着装有纱网的窗户记录观察结果。她对蜜蜂访问附近花卉的记录，帮助大家找出了哪些花得到的访问次数最多。",
+    "这门课程并不会把每位参与者都培养成养蜂人，也不保证实际操作总比阅读更有效。不过，这个大家共同照料的蜂箱无疑不只是一箱昆虫：它让每堂课都有了看得见的目标。在法拉看来，它最大的价值是能激励人们继续提问。到了秋天，参与者问的已不再只是如何养蜂，还包括他们所在的社区如何为蜜蜂提供食物。"
+  ],
+  "q": [
+    {
+      "s": "Participants handle bees before assembling their wooden hives.",
+      "a": "F",
+      "why": "首段说明先组装蜂箱，再接触蜜蜂。"
+    },
+    {
+      "s": "Mei recorded her observations every day during her pregnancy.",
+      "a": "NG",
+      "why": "文中未说明梅是否每天记录观察结果。"
+    },
+    {
+      "s": "By autumn, participants are asking how the neighbourhood provides food for bees.",
+      "a": "T",
+      "why": "末句明确提到秋季时参与者提出这一问题。"
+    }
+  ]
+}

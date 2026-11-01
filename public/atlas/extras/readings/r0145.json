@@ -1,0 +1,46 @@
+{
+  "id": "r0145",
+  "ids": [
+    "southeast",
+    "programme",
+    "shorts",
+    "bracelet",
+    "board",
+    "speaker",
+    "sunglasses",
+    "niece",
+    "make-up",
+    "concert"
+  ],
+  "title": "A Rainbow Beside the Waterfall",
+  "titleZh": "瀑布旁的彩虹",
+  "topic": "science",
+  "cefr": 1,
+  "paras": [
+    "Every summer, a park in the [[southeast|southeast]] runs a science [[programme|programme]] beside a small waterfall. One sunny morning, Hana takes her [[niece|niece]], Lila, there before a [[concert|concert]] in the park. Lila wears blue [[shorts|shorts]] and a [[bracelet|bracelet]] with seven different coloured beads. Near the water, they see a bright rainbow in the wet air. Its colours remind Lila of her beads, but nobody has put any colour into the water.",
+    "The [[speaker|speaker]] at the waterfall explains the reason. Sunlight looks white, but it contains many colours. When light enters a tiny drop of water, it bends. It then bounces inside the drop and bends again as it leaves. The colours bend by different amounts, so they separate. The woman draws the path of the light on a wooden [[board|board]]. Unlike paint or [[make-up|make-up]], the rainbow adds no coloured material to anything.",
+    "To see it clearly, Hana and Lila stand with the sun behind them. Lila takes off her [[sunglasses|sunglasses]] for a moment, keeping her eyes on the waterfall. When they walk around to the other side, the rainbow disappears. The drops are still there, but the light no longer reaches their eyes in the same way. As music begins nearby, they walk back to their first spot. Lila looks at the waterfall once more. Her rainbow has returned."
+  ],
+  "zh": [
+    "每年夏天，东南部的一座公园都会在一处小瀑布旁开展科学活动。一个阳光明媚的早晨，哈娜带着她的侄女或外甥女莉拉，在公园里的音乐会开始前来到这里。莉拉穿着蓝色短裤，戴着一条串有七种不同颜色珠子的手链。在水边，她们看见潮湿的空气中有一道明亮的彩虹。那些颜色让莉拉想起了自己的珠子，可是没有人往水里添加任何颜色。",
+    "瀑布旁的讲解员解释了原因。阳光看起来是白色的，但其中包含许多种颜色。光进入一颗小水滴时会发生弯折，随后在水滴内部反射，离开时再次弯折。不同颜色的光弯折程度不同，因此会分开。讲解员在一块木板上画出了光的路线。与颜料或化妆品不同，彩虹不会给任何东西添上有颜色的物质。",
+    "为了看清彩虹，哈娜和莉拉背对太阳站着。莉拉摘下太阳镜看了一会儿，目光始终朝着瀑布。当她们绕到另一侧时，彩虹消失了。水滴仍然在那里，但光不再以同样的方式进入她们的眼睛。附近响起音乐时，她们走回最初站的位置。莉拉又看了一眼瀑布。她的彩虹又回来了。"
+  ],
+  "q": [
+    {
+      "s": "The park offers its science activities during the summer.",
+      "a": "T",
+      "why": "第一段说公园每年夏天开展科学活动。"
+    },
+    {
+      "s": "All the colours in sunlight bend by the same amount inside water drops.",
+      "a": "F",
+      "why": "第二段说不同颜色的光弯折程度不同。"
+    },
+    {
+      "s": "Lila takes a photograph when the rainbow appears again.",
+      "a": "NG",
+      "why": "末段提到彩虹重现，但未提及拍照。"
+    }
+  ]
+}

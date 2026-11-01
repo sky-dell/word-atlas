@@ -1,0 +1,46 @@
+{
+  "id": "r0120",
+  "ids": [
+    "duck",
+    "mean",
+    "dream",
+    "regular",
+    "stairs",
+    "accept",
+    "abroad",
+    "attend",
+    "take-away",
+    "candy"
+  ],
+  "title": "A Small Bird for the Journey",
+  "titleZh": "伴你远行的小糖鸟",
+  "topic": "travel",
+  "cefr": 1,
+  "paras": [
+    "Mina Costa makes [[candy|candy]] birds in a small shop near a harbour. Travellers often stop there before their boat leaves. Her best-known bird is a yellow [[duck|duck]] with a wide, flat bill. The idea came from a [[dream|dream]]: one night, she saw yellow birds flying over a blue sea while she slept. Now she makes each bird by hand and puts it in a little paper box.",
+    "Every Friday, Mina holds a [[regular|regular]] class above the shop. Visitors climb the wooden [[stairs|stairs]] to watch her work. Only six people can [[attend|attend]] each class because the room is small. First, Mina warms the sugar. Then she shapes a bird with two small tools. Visitors can try too. After class, some buy warm rolls from the bakery next door to [[take-away|take away]] and eat beside the boats.",
+    "Last spring, a visitor asked Mina to teach a class [[abroad|abroad]]. She decided to [[accept|accept]] the invitation, although she had never left her country. Before the journey, she packed her tools and six yellow birds. What did these birds [[mean|mean]] to her? They were a little piece of home. At her first class across the sea, she put them on the table and began to smile."
+  ],
+  "zh": [
+    "米娜·科斯塔在港口附近的一家小店里制作糖鸟。旅客们常在开船前到她的店里逛逛。她最有名的作品是一只黄色的小鸭子，长着宽宽扁扁的嘴。这个点子来自一个梦：一天夜里，她梦见黄色的小鸟飞过蓝色的大海。如今，她亲手做好每只糖鸟，再装进一个小纸盒。",
+    "每周五，米娜都会在店铺楼上定期开课。游客们沿着木楼梯上楼，看她制作糖鸟。因为房间很小，每堂课只能有六个人参加。米娜先把糖加热，再用两件小工具捏出一只鸟。游客们也可以试一试。课后，有些人会到隔壁的面包店买些热面包卷带走，在船边吃。",
+    "去年春天，一位游客邀请米娜到国外教一堂课。虽然她从未离开过自己的国家，但她还是决定接受邀请。出发前，她把工具和六只黄色糖鸟装进行李。这些小鸟对她意味着什么呢？它们是随身带着的一小片家乡。到了海那边，第一次上课时，她把它们摆在桌上，脸上露出了笑容。"
+  ],
+  "q": [
+    {
+      "s": "Mina opened her shop ten years ago.",
+      "a": "NG",
+      "why": "文中未说明米娜何时开店。"
+    },
+    {
+      "s": "Mina teaches her weekly class in a large room.",
+      "a": "F",
+      "why": "原文说房间很小，每次只能六人参加。"
+    },
+    {
+      "s": "Mina had never been abroad before she accepted the invitation.",
+      "a": "T",
+      "why": "她接受邀请时，此前从未离开过自己的国家。"
+    }
+  ]
+}

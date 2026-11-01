@@ -1,0 +1,48 @@
+{
+  "id": "r0698",
+  "ids": [
+    "abide",
+    "telegraph",
+    "quantify",
+    "reed",
+    "industrious",
+    "foster",
+    "tremor",
+    "physician",
+    "jeopardize",
+    "clarification"
+  ],
+  "title": "The Marsh Listening Hut",
+  "titleZh": "沼泽听音小屋",
+  "topic": "nature",
+  "cefr": 4,
+  "paras": [
+    "At the edge of Bellwater Marsh, an abandoned [[telegraph|telegraph]] hut became the headquarters of a modest wildlife project. Twelve residents wanted to establish whether cutting narrow channels through the [[reed|reeds]] would attract more waterbirds. Rather than clearing vegetation immediately, they agreed to [[abide|abide]] by a seasonal timetable devised with a wetland ecologist, leaving nesting areas untouched until autumn.",
+    "To [[quantify|quantify]] any change, the volunteers counted birds from the same window every Sunday before sunrise. Their most [[industrious|industrious]] recorder, retired [[physician|physician]] Leila Sen, also noted rainfall and water depth, since a rising count might reflect wetter weather rather than improved habitat. She requested [[clarification|clarification]] whenever observers wrote vague descriptions such as 'several ducks', gradually producing a surprisingly consistent dataset.",
+    "In October, a minor [[tremor|tremor]] cracked the hut's chimney, forcing the group to suspend indoor observations. Repairing it would consume most of their funding and could [[jeopardize|jeopardize]] the channel work. Carpenter Mateo Ruiz instead proposed a sheltered viewing screen beside the building. Constructed from salvaged boards, it preserved the original sightline without requiring anyone to enter the damaged structure.",
+    "By the following spring, counts showed little increase in total birds, although two previously absent species had begun feeding along the channels. The group resisted presenting this as proof of success. To [[foster|foster]] wider participation without weakening their methods, they paired newcomers with experienced counters. Their achievement was therefore less dramatic than transforming the marsh: they had created a durable practice of watching it carefully, and a reason to return."
+  ],
+  "zh": [
+    "贝尔沃特沼泽边缘一间废弃的电报小屋，成了一个小型野生动物项目的活动基地。十二位居民想弄清楚，在芦苇丛中开辟狭窄的水道，是否能吸引更多水鸟。他们没有立即清除植被，而是同意遵守与湿地生态学家共同制定的季节性作业安排，在秋天到来之前不扰动鸟类的筑巢区域。",
+    "为了量化可能发生的变化，志愿者每周日都在日出前从同一扇窗户清点鸟类。其中最勤勉的记录员是退休内科医生莉拉·森，她还记录降雨量和水深，因为鸟类数量上升可能源于天气更加湿润，而非栖息地得到改善。每当观察者写下“几只鸭子”这类含糊的描述时，她都会要求进一步说明，逐渐整理出一套一致性高得出人意料的数据。",
+    "十月，一次轻微地震震裂了小屋的烟囱，迫使团队暂停室内观察。维修将耗去大部分资金，并可能危及水道开辟工作。木匠马特奥·鲁伊斯于是提议，在建筑旁搭建一面带遮棚的观鸟挡板。挡板用回收木板制成，既保留了原有的观察视线，又让大家不必进入受损的建筑。",
+    "到了次年春天，统计结果显示鸟类总数几乎没有增加，不过，此前未曾出现的两个物种已经开始沿水道觅食。团队没有将此宣称为成功的证据。为了在不降低方法严谨性的前提下鼓励更多人参与，他们让新成员与经验丰富的计数员结对。因此，他们的成就并不像改造整片沼泽那样引人注目：他们建立了一种能够长期坚持的细致观察习惯，也有了不断重返这里的理由。"
+  ],
+  "q": [
+    {
+      "s": "The residents postponed disturbing nesting sites until the autumn.",
+      "a": "T",
+      "why": "第一段说明筑巢区域到秋天前保持不动。"
+    },
+    {
+      "s": "Leila Sen had recorded wildlife data before joining the project.",
+      "a": "NG",
+      "why": "文中未说明她参与项目前是否记录过野生动物数据。"
+    },
+    {
+      "s": "By the following spring, the total bird count had increased substantially.",
+      "a": "F",
+      "why": "末段明确说鸟类总数几乎没有增加。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0115",
+  "ids": [
+    "lie",
+    "tower",
+    "stupid",
+    "ever",
+    "happiness",
+    "granddaughter",
+    "passenger",
+    "article",
+    "homepage",
+    "percent"
+  ],
+  "title": "The Walk to the Clock Tower",
+  "titleZh": "走向钟楼",
+  "topic": "health",
+  "cefr": 1,
+  "paras": [
+    "After a knee operation, Arun spent most afternoons on his sofa. He would [[lie|lie]] there and watch people outside. Before the operation, he had walked to the old clock [[tower|tower]] every morning. Now he went everywhere as a [[passenger|passenger]] in his daughter's car. “Will I [[ever|ever]] enjoy walking again?” he asked. His [[granddaughter|granddaughter]], Leila, missed their morning walks together, but she knew that his knee needed time.",
+    "One Saturday, Leila found an [[article|article]] about walking after knee operations on the hospital's [[homepage|homepage]]. It explained that people should ask their health worker about a safe exercise plan. Arun had wanted to walk all the way to the clock that day. “That would be a [[stupid|stupid]] plan without advice,” he said. At his next appointment, his nurse suggested a short, flat route with places to rest. Leila found one that was fifty [[percent|percent]] shorter than his old route.",
+    "They began with five minutes each morning, following the nurse's plan. Leila carried a small folding chair, so Arun could rest when needed. Over several weeks, they slowly walked further. Finally, they reached the clock together. Arun sat beneath it with a smile of quiet [[happiness|happiness]]. This time, he had arrived on his own feet."
+  ],
+  "zh": [
+    "膝盖手术后，阿伦大多数下午都待在沙发上。他会躺在那里，看着外面的人。手术前，他每天早晨都会步行去那座老钟楼。现在，他无论去哪儿，都坐女儿开的车。“我还能再次享受走路的乐趣吗？”他问道。他孙辈中的女孩莱拉很怀念两人一起晨间散步的时光，但她知道，他的膝盖需要时间恢复。",
+    "一个星期六，莱拉在医院网站的主页上找到了一篇关于膝盖手术后步行的文章。文章说，人们应该向医护人员咨询，制定安全的锻炼计划。阿伦原本想在那天一路走到钟楼。“不先听听专业建议就这样做，太欠考虑了。”他说。下次复诊时，护士建议他选择一条短而平坦、途中有地方休息的路线。莱拉找到了一条，比他以前走的路线短百分之五十。",
+    "他们按照护士的计划，从每天早晨走五分钟开始。莱拉带着一把小折叠椅，让阿伦需要时可以坐下休息。几周里，他们慢慢地越走越远。终于，他们一起走到了钟楼。阿伦坐在钟楼下，脸上带着平静而幸福的微笑。这一次，他是靠自己的双脚走来的。"
+  ],
+  "q": [
+    {
+      "s": "Arun used to visit the clock tower on foot each morning.",
+      "a": "T",
+      "why": "第一段说他手术前每天早晨步行去钟楼。"
+    },
+    {
+      "s": "The new walking route was longer than Arun's previous one.",
+      "a": "F",
+      "why": "新路线比原来的路线短百分之五十。"
+    },
+    {
+      "s": "Leila bought the folding chair from a shop near the hospital.",
+      "a": "NG",
+      "why": "文章只说莱拉带了折叠椅，未提购买地点。"
+    }
+  ]
+}

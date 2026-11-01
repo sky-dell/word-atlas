@@ -1,0 +1,48 @@
+{
+  "id": "r0587",
+  "ids": [
+    "polymer",
+    "idiomatic",
+    "supersede",
+    "census",
+    "nickel",
+    "infringement",
+    "enrich",
+    "astronomical",
+    "disreputable",
+    "vicious"
+  ],
+  "title": "When Language Lessons Began to Speak",
+  "titleZh": "语言课程开始发声之时",
+  "topic": "media",
+  "cefr": 4,
+  "paras": [
+    "At the turn of the twentieth century, recorded language lessons offered something a printed phrasebook could not: a voice that would repeat itself without impatience. In cities where [[census|census]] figures revealed expanding immigrant populations, publishers recognised a market for practical speech. Their cylinders promised not merely correct grammar but [[idiomatic|idiomatic]] expressions suitable for workshops, shops and rented rooms.",
+    "Early recordings were fragile, and producing replacements could be expensive. As discs began to [[supersede|supersede]] cylinders, manufacturers developed processes in which [[nickel|nickel]] provided durable metal surfaces for reproducing grooves. Later, vinyl, a synthetic [[polymer|polymer]], made lighter, less brittle records possible. These material changes helped transform the recorded lesson from an intriguing luxury into a reproducible domestic teaching tool.",
+    "The voices themselves also changed. Instead of reciting isolated words, performers acted out miniature encounters designed to [[enrich|enrich]] the learner’s understanding: bargaining over cloth, reporting lost luggage, or warning a neighbour about a [[vicious|vicious]] dog. Yet the business attracted [[disreputable|disreputable]] sellers who promised fluency almost overnight. For workers on modest wages, the price of some elaborate courses remained [[astronomical|astronomical]].",
+    "Copying created another difficulty: an unauthorised pressing could constitute copyright [[infringement|infringement]], even when its label concealed the original publisher. Nevertheless, recorded instruction endured through successive formats, from discs to magnetic tape and digital files. Its lasting innovation was not a particular machine but a new relationship with speech: learners could pause, listen again, and rehearse a conversation before risking one beyond their own room."
+  ],
+  "zh": [
+    "十九世纪末二十世纪初，录音语言课程提供了纸质会话手册无法提供的东西：一个能够不厌其烦地重复说话的声音。在人口普查数据显示移民人口不断增长的城市，出版商看到了实用口语的市场。他们推出的录音圆筒不仅承诺教授正确的语法，还提供适用于车间、商店和租住房间等场景的地道表达。",
+    "早期录音载体十分脆弱，制作替换品的成本也可能很高。随着唱片开始取代录音圆筒，制造商开发出利用镍制成耐用金属表面、用于复制声槽的工艺。后来，作为合成聚合物的乙烯基材料使更轻、更不易碎的唱片成为可能。这些材料上的变化，推动录音课程从一种新奇的奢侈品变成了可以批量复制的家庭教学工具。",
+    "录音中的声音也发生了变化。表演者不再只是朗读孤立的单词，而是演绎简短的情境对话，以丰富学习者的理解：例如买布时讨价还价、报告行李遗失，或提醒邻居提防一只凶猛的狗。然而，这门生意也吸引了名声不佳的商家，他们承诺学习者几乎一夜之间就能流利表达。对于收入微薄的工人来说，一些设计繁复的课程依然贵得惊人。",
+    "复制又带来了另一重难题：未经授权压制的唱片，即使标签隐去了原出版商的信息，也可能构成版权侵犯。尽管如此，录音教学仍历经唱片、磁带和数字文件等载体的更迭而延续下来。它留下的持久创新并非某一种机器，而是人与口语之间的一种新关系：学习者可以暂停、重听，并在走出自己的房间、真正尝试交谈之前，先排练一遍。"
+  ],
+  "q": [
+    {
+      "s": "Publishers paid for the census surveys that revealed growing immigrant populations.",
+      "a": "NG",
+      "why": "首段未说明人口普查由谁出资。"
+    },
+    {
+      "s": "Vinyl made records lighter and less brittle.",
+      "a": "T",
+      "why": "第二段明确指出这两项材料优势。"
+    },
+    {
+      "s": "No sellers promised that learners could become fluent almost overnight.",
+      "a": "F",
+      "why": "第三段明确提到有商家作出这种承诺。"
+    }
+  ]
+}

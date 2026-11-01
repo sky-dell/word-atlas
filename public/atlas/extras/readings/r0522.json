@@ -1,0 +1,48 @@
+{
+  "id": "r0522",
+  "ids": [
+    "grip",
+    "vacancy",
+    "mode",
+    "summarize",
+    "neutral",
+    "primarily",
+    "anthem",
+    "crow",
+    "appendix",
+    "counselor"
+  ],
+  "title": "A Town Hall Under Pressure",
+  "titleZh": "危机中的市政厅",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "When Mara began a school project on Bellwater Town Hall, she expected to find council speeches. Instead, she found a photograph of blankets drying below a [[crow|crow]] on the roof. In October 1932, flooding had forced eighty families from their homes. The hall, used [[primarily|primarily]] for council meetings, had become an emergency shelter.",
+    "A notice advertised a [[vacancy|vacancy]] for a temporary records clerk to register families and record food requests. Mara compared the clerk's notes with residents' letters. The notes [[summarize|summarize]] their losses but leave out emotional details. For her presentation, she chose an audio [[mode|mode]] on her computer, recording herself reading a letter followed by the corresponding note.",
+    "Coal deliveries caused particular difficulty. Two neighbourhoods competed for limited supplies, and the chairperson instructed officials to remain [[neutral|neutral]]. Meetings opened with the town's [[anthem|anthem]], yet arguments followed. An [[appendix|appendix]] to the emergency report listed every coal delivery. Mara used it to check whether the amounts promised in meeting records had actually arrived.",
+    "The archivist also showed her a wooden stamp once used to approve supply orders. Its broad handle was difficult for Mara to [[grip|grip]]. Before finishing, she read an interview recorded fifty years after the flood with a disaster-support [[counselor|counselor]]. The counselor explained that official records could miss people's distress. Mara placed one resident's letter beside the coal figures in her presentation so her classmates could examine both."
+  ],
+  "zh": [
+    "玛拉开始做一个有关贝尔沃特市政厅的学校课题时，以为会找到议会演讲稿。结果，她找到了一张照片：一只乌鸦站在屋顶上，下方晾着毯子。1932年10月，洪水迫使八十户家庭离开家园。主要用于召开议会会议的市政厅成了紧急避难所。",
+    "一则启事招聘临时档案文员，负责登记各户家庭的信息和食物需求。玛拉把文员的笔记与居民的信件作了比较。笔记概括了他们的损失，却省略了情感细节。为了准备课堂展示，她选择了电脑上的音频模式，录下自己先读一封信、再读对应笔记的声音。",
+    "煤炭运送尤其棘手。两个街区争取有限的供应，会议主席要求官员保持中立。会议以镇歌开场，随后却出现了争论。应急报告的一份附录列出了每一笔煤炭交付记录。玛拉利用这份附录核查会议记录中承诺的数量是否确实送达。",
+    "档案管理员还给她看了一枚木制印章，以前用来批准物资调拨单。宽大的手柄让玛拉很难握牢。结束前，她读了一份访谈文字记录，受访者是一位灾后援助咨询师，访谈录制于洪灾五十年后。这位咨询师解释说，官方记录可能遗漏人们的痛苦。玛拉在展示材料中把一位居民的信放在煤炭数据旁边，让同学们能够查看两者。"
+  ],
+  "q": [
+    {
+      "s": "All eighty families stayed in the town hall during the flood.",
+      "a": "NG",
+      "why": "未说明八十户家庭是否全住进市政厅。"
+    },
+    {
+      "s": "The clerk's notes included the emotional details of residents' losses.",
+      "a": "F",
+      "why": "第二段明确说笔记省略了情感细节。"
+    },
+    {
+      "s": "Mara checked the coal delivery appendix against promises in meeting records.",
+      "a": "T",
+      "why": "她用附录核查会议承诺的煤炭是否送达。"
+    }
+  ]
+}

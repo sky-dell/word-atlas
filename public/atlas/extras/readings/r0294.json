@@ -1,0 +1,48 @@
+{
+  "id": "r0294",
+  "ids": [
+    "nap",
+    "slightly",
+    "licence",
+    "eagle",
+    "diploma",
+    "discovery",
+    "process",
+    "entertainment",
+    "wonder",
+    "addition"
+  ],
+  "title": "A Quiet Change at the Bird Centre",
+  "titleZh": "鸟类救护中心的悄然变化",
+  "topic": "government",
+  "cefr": 2,
+  "paras": [
+    "In the small county of Belden, an unusual trend is changing a council bird centre. More residents are applying for a [[licence|licence]] to care for injured wild birds. Last year, there were only six applications; this year, there have been twenty-three. Surprisingly, most applicants are office workers rather than farmers.",
+    "The change began with a [[discovery|discovery]] during an open day. Visitors came expecting [[entertainment|entertainment]], perhaps a flying show. Instead, they watched an [[eagle|eagle]] taking a [[nap|nap]] after treatment for a broken wing. A worker explained that quiet rest was an important part of its recovery. Several visitors began to [[wonder|wonder]] how they could help.",
+    "The council then offered a practical course. Getting permission is a careful [[process|process]]: applicants attend lessons, pass a test and prepare a suitable space at home. They receive a [[diploma|diploma]] when they finish the course, but their home space must also be checked before they can accept birds. The [[addition|addition]] of evening lessons has allowed more people with full-time jobs to join.",
+    "The centre is now [[slightly|slightly]] quieter because some smaller birds recover in private homes. However, the eagle remains with trained staff. Course leader Amara Cole says the biggest surprise is what attracts people: not the chance to watch birds perform, but the patient work of helping them return to the sky."
+  ],
+  "zh": [
+    "在贝尔登这个小县，一股不同寻常的潮流正在改变当地议会管理的一家鸟类救护中心。越来越多的居民申请照顾受伤野生鸟类的许可证。去年只有六份申请，今年已经有二十三份。令人意外的是，申请者大多是办公室职员，而不是农民。",
+    "这一变化始于一次开放日上的发现。参观者原本期待看到娱乐活动，也许是一场飞行表演。然而，他们看到的却是一只翅膀骨折的鹰，在接受治疗后打盹。一名工作人员解释说，安静休息是它康复的重要环节。几位参观者开始琢磨自己能如何帮忙。",
+    "随后，议会开设了一门实践课程。获得许可需要经过一套严谨的程序：申请者要上课、通过考试，并在家中准备合适的空间。他们完成课程后会获得课程证书，但家中的空间也必须经过检查，才能接收鸟类。增设晚间课程后，更多有全职工作的人得以参加。",
+    "救护中心现在略微安静了一些，因为部分较小的鸟正在居民家中康复。不过，那只鹰仍由受过训练的工作人员照顾。课程负责人阿玛拉·科尔说，最令人意外的是吸引人们的原因：不是观看鸟类表演的机会，而是耐心帮助它们重返天空的工作。"
+  ],
+  "q": [
+    {
+      "s": "The centre charged visitors an entrance fee on the open day.",
+      "a": "NG",
+      "why": "文章未说明开放日是否收取门票。"
+    },
+    {
+      "s": "Completing the course is the only requirement for taking birds home.",
+      "a": "F",
+      "why": "完成课程之外，家中空间还须接受检查。"
+    },
+    {
+      "s": "Evening lessons have enabled more people with full-time jobs to join the course.",
+      "a": "T",
+      "why": "文中明确说晚课让更多全职工作者参加。"
+    }
+  ]
+}

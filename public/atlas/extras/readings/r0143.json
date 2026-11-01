@@ -1,0 +1,46 @@
+{
+  "id": "r0143",
+  "ids": [
+    "arrange",
+    "popular",
+    "fix",
+    "bin",
+    "grilled",
+    "across",
+    "behave",
+    "malaysia",
+    "parking-lot",
+    "post"
+  ],
+  "title": "From Car Park to Night Market",
+  "titleZh": "从停车场到夜市",
+  "topic": "city",
+  "cefr": 1,
+  "paras": [
+    "In a small town in [[malaysia|Malaysia]], a night market began with a simple plan. In 1978, a cook named Farid wanted a place to sell his evening meals. A shop owner offered him a [[parking-lot|parking lot]] behind her shop after six. Farid helped [[arrange|arrange]] the first market with five other sellers. He sent invitations by [[post|post]] to friends in nearby towns, asking them to come.",
+    "At first, each seller brought a table and an oil lamp. Farid sold [[grilled|grilled]] fish with rice, while his neighbour sold sweet cakes. The smell brought people [[across|across]] the road from the houses opposite. Soon, the market became [[popular|popular]] with families. There were problems, too. After a table leg broke one evening, the sellers learned to [[fix|fix]] their own tables and keep spare wood nearby.",
+    "As the market grew, the shop owner put a large [[bin|bin]] beside the entrance for rubbish. Parents asked their children to [[behave|behave]] well and not run between the tables with hot pans on them. Years later, electric lights replaced the oil lamps, and more sellers joined. But one thing stayed the same: every evening, the cars left, the sellers set up their tables, and a quiet space became a place to eat together."
+  ],
+  "zh": [
+    "在马来西亚的一个小镇上，一处夜市始于一个简单的计划。1978年，一位名叫法里德的厨师想找个地方卖晚餐。一位店主让他在晚上六点后使用她店后的露天停车场。法里德和另外五位摊主一起筹备了第一次夜市。他通过邮寄的方式向附近城镇的朋友发出邀请，请他们来逛逛。",
+    "起初，每位摊主都带来一张桌子和一盏油灯。法里德卖烤鱼配米饭，旁边的摊主则卖甜糕。香味吸引了马路对面住宅里的人们，他们穿过马路来到夜市。很快，夜市就受到了许多家庭的欢迎。不过，也有一些问题。一天晚上，一条桌腿断了。此后，摊主们学着自己修桌子，并在附近备些木料。",
+    "随着夜市规模扩大，店主在入口旁放了一个大垃圾桶。家长们叮嘱孩子要守规矩，不要在摆着热锅的桌子之间奔跑。多年后，电灯取代了油灯，也有更多摊主加入。但有一件事没有改变：每天晚上，车子离开，摊主们摆好桌子，一处安静的空地就变成了大家一起吃饭的地方。"
+  ],
+  "q": [
+    {
+      "s": "Farid paid the shop owner to use the parking lot.",
+      "a": "NG",
+      "why": "只说店主提供场地，未说明法里德是否付费。"
+    },
+    {
+      "s": "Farid worked with other sellers to prepare the first market.",
+      "a": "T",
+      "why": "首段说法里德与另外五位摊主共同筹备。"
+    },
+    {
+      "s": "Electric lights were used at the market from the beginning.",
+      "a": "F",
+      "why": "起初使用油灯，多年后才换成电灯。"
+    }
+  ]
+}

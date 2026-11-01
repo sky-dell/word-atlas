@@ -1,0 +1,48 @@
+{
+  "id": "r0408",
+  "ids": [
+    "aisle",
+    "ancestor",
+    "possessive",
+    "motivated",
+    "odour",
+    "soften",
+    "breakthrough",
+    "convention",
+    "approval",
+    "memorable"
+  ],
+  "title": "Bringing a Town’s Records Back",
+  "titleZh": "让小镇档案重获新生",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "In the public records office of a small coastal town, a musty [[odour|odour]] once greeted anyone entering the narrow [[aisle|aisle]] between shelves. After a winter flood, hundreds of handwritten documents had dried into stiff, folded shapes. Among them were fishing licences that could help residents trace an [[ancestor|ancestor]] who had worked at sea.",
+    "The town needed official [[approval|approval]] to move these public documents into a temporary conservation room. Once permission arrived, a [[motivated|motivated]] team led by paper specialist Leila Mensah began testing a simple treatment. They placed damaged sheets above, but never directly in, a shallow tray of water inside a closed chamber. Moisture gradually helped [[soften|soften]] the paper fibres, allowing the sheets to be opened without tearing.",
+    "The [[breakthrough|breakthrough]] came when the team found a moisture level that relaxed the paper without making the ink spread. Each sheet still required careful monitoring; there was no single safe treatment for the whole collection. By [[convention|convention]], visitors had previously handled original records. Now, digital copies would answer most enquiries, while fragile originals remained protected. Some long-serving clerks were initially [[possessive|possessive]] about the collection and disliked sharing responsibility with outside specialists.",
+    "Their doubts faded during a particularly [[memorable|memorable]] visit. An elderly resident recognised her grandfather’s signature on a restored licence and explained a nickname written beside it. The project had recovered more than readable pages: it had created space for family knowledge to become part of the town’s public history."
+  ],
+  "zh": [
+    "在一座海滨小镇的公共档案馆里，过去，任何走进档案架间狭窄通道的人，都会闻到一股霉味。一场冬季洪水过后，数百份手写文件干结成了僵硬、折叠的形状。其中一些捕鱼许可证，可以帮助居民追溯曾在海上谋生的祖先。",
+    "小镇需要获得正式批准，才能将这些公共文件移入临时修复室。许可一到，由纸张修复专家莱拉·门萨带领的一支干劲十足的团队便开始试验一种简单的处理方法。他们在密闭箱内放置一个盛水的浅盘，将受损纸页置于水面上方，但绝不让纸张直接浸入水中。水分逐渐使纸张纤维变软，从而让纸页能够被展开而不撕裂。",
+    "当团队找到一个既能使纸张舒展、又不会让墨迹晕开的湿度时，重大突破出现了。每张纸仍需仔细监测；没有一种处理方式能安全地用于整批藏品。按照以往的惯例，来访者可以直接翻阅原始档案。如今，大多数查询将通过数字副本完成，脆弱的原件则得到妥善保护。一些任职多年的档案员起初对这些藏品有很强的占有欲，不愿与外来的专家共同负责。",
+    "在一次特别难忘的来访期间，他们的疑虑逐渐减退。一位年长居民在修复后的许可证上认出了自己祖父或外祖父的签名，并解释了旁边写着的一个绰号。这个项目找回的不只是可以阅读的纸页：它还为家族记忆融入小镇的公共历史创造了空间。"
+  ],
+  "q": [
+    {
+      "s": "The town received permission to move the documents within a week of applying.",
+      "a": "NG",
+      "why": "文中未说明申请到获批用了多长时间。"
+    },
+    {
+      "s": "Before the restoration project, visitors were normally restricted to viewing copies of records.",
+      "a": "F",
+      "why": "文中说以往惯例允许访客直接翻阅原件。"
+    },
+    {
+      "s": "An elderly visitor explained a nickname written on a restored licence.",
+      "a": "T",
+      "why": "末段明确说她解释了许可证上的绰号。"
+    }
+  ]
+}

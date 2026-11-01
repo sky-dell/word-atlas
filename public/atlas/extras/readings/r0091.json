@@ -1,0 +1,46 @@
+{
+  "id": "r0091",
+  "ids": [
+    "invent",
+    "discover",
+    "designer",
+    "stadium",
+    "pupil",
+    "lost",
+    "thousand",
+    "god",
+    "part-time",
+    "certainly"
+  ],
+  "title": "Small Tickets, Big Stories",
+  "titleZh": "小小门票，大大故事",
+  "topic": "history",
+  "cefr": 1,
+  "paras": [
+    "Old sports tickets are becoming a surprising favourite at Bellford's history museum. Visitors once came mainly to see silver cups. Now many ask to see small paper tickets from the town's first [[stadium|stadium]], which opened in 1924. The museum has nearly a [[thousand|thousand]] of them. Some were found inside books; others came from family boxes. People are interested in the names and messages written on their backs, not just the games.",
+    "The change began when a [[part-time|part-time]] museum worker, Hana, [[discover|discovered]] a ticket inside an old coat. On its back were the words, 'May [[god|God]] keep you safe, my son.' Hana put it beside a family photograph. Soon, visitors brought in more tickets. One belonged to a [[designer|designer]] who had [[invent|invented]] a special wooden ticket holder. Another carried a map that a father drew for his young son, a [[pupil|pupil]], so he would not get [[lost|lost]] after a match.",
+    "The museum now holds a ticket afternoon every month. Visitors sit together and share family stories over tea. Hana says these little pieces of paper [[certainly|certainly]] tell people more than match dates. Next month, the museum will open a larger ticket room. Its silver cups will stay, but ordinary families will have more space too."
+  ],
+  "zh": [
+    "在贝尔福德历史博物馆，旧体育比赛门票正出人意料地受到欢迎。过去，游客主要是来看银奖杯的。现在，许多人却想看看小小的纸质门票，它们来自镇上第一座体育场。这座体育场于1924年开放。博物馆收藏了近一千张这样的门票。有些是在书里找到的，另一些则来自家中的箱子。人们不仅关心比赛，也对门票背面写下的名字和留言感兴趣。",
+    "这一变化始于博物馆兼职员工哈娜的一次发现。她在一件旧外套里找到了一张门票，背面写着：“愿上帝保佑你平安，我的儿子。”哈娜把它放在一张家庭照片旁边展出。不久，游客们带来了更多门票。其中一张属于一位设计师，这位设计师曾发明过一种特别的木制门票夹。另一张上面画着地图，是一位父亲为年幼、还在上学的儿子画的，免得他在比赛结束后迷路。",
+    "如今，博物馆每月都会举办一次门票主题下午聚会。游客们围坐在一起，喝茶、分享家庭故事。哈娜说，这些小纸片告诉人们的显然不只是比赛日期。下个月，博物馆将开放一个更大的门票展室。银奖杯仍会保留，但普通家庭的故事也将拥有更多展示空间。"
+  ],
+  "q": [
+    {
+      "s": "Visitors used to come mainly for the cups, but now many want to see tickets.",
+      "a": "T",
+      "why": "过去主要看银奖杯，现在许多人想看门票。"
+    },
+    {
+      "s": "Hana found the ticket with the message to a son inside a book.",
+      "a": "F",
+      "why": "带有给儿子留言的门票是在旧外套里找到的。"
+    },
+    {
+      "s": "Visitors pay an extra fee to join the monthly ticket afternoon.",
+      "a": "NG",
+      "why": "文章未提参加每月聚会是否需要额外付费。"
+    }
+  ]
+}

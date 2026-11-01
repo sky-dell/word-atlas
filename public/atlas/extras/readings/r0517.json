@@ -1,0 +1,48 @@
+{
+  "id": "r0517",
+  "ids": [
+    "bias",
+    "reproduce",
+    "thigh",
+    "deadline",
+    "slave",
+    "depression",
+    "stimulate",
+    "corporate",
+    "supplier",
+    "finding"
+  ],
+  "title": "Daylight in the Conservation Workshop",
+  "titleZh": "文物修复室里的日光",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "In a document conservation workshop, bright sunlight is an enemy: it fades ink and damages paper. Yet the people repairing those documents need daylight. While preparing a letter about a [[slave|slave]] on a plantation for an exhibition, a conservator may spend hours under weak lamps. As the exhibition [[deadline|deadline]] approaches, opportunities to step outside can disappear.",
+    "The problem involves the body's internal clock. Light reaching the eyes helps [[stimulate|stimulate]] signals that keep this clock aligned with the day. Weak daytime light can leave people sleepy at work and less ready for sleep at night. In some individuals, seasonal changes in light are also associated with [[depression|depression]], although this condition has multiple causes and requires appropriate care.",
+    "To investigate workplace lighting, researchers can ask conservators to wear a light meter near the shoulder and an activity sensor on the [[thigh|thigh]]. Together, these record light exposure and periods of sitting or moving. A lamp [[supplier|supplier]] might provide equipment, but [[corporate|corporate]] support must not create [[bias|bias]] in favour of that business. Independent teams should be able to [[reproduce|reproduce]] the results before recommendations are widely accepted.",
+    "One important [[finding|finding]] from research on human body clocks is that the timing of light matters, not simply its brightness. For conservators, a practical response is a morning break outdoors rather than stronger lamps above fragile pages. Protecting old documents and supporting the people who preserve them need not be opposing goals."
+  ],
+  "zh": [
+    "在文献修复室里，强烈的阳光是个敌人：它会使墨迹褪色，损伤纸张。然而，修复这些文献的人却需要日光。为了展览，修复师在处理一封关于种植园里一名奴隶的信件时，可能会在昏暗的灯光下工作数小时。随着展览筹备截止日期临近，到户外去的机会也可能随之消失。",
+    "这个问题与人体的生物钟有关。进入眼睛的光线有助于激活相关信号，使生物钟与昼夜节律保持同步。白天光线不足，可能让人工作时困倦，晚上却不容易入睡。对某些人来说，光照的季节性变化也与抑郁症有关，不过这种疾病有多种成因，需要适当的照护。",
+    "为了研究工作场所的照明，研究人员可以请修复师在肩部附近佩戴光照测量仪，并在大腿上佩戴活动传感器。两者结合，可以记录光照接触情况以及坐着或活动的时段。灯具供应商或许会提供设备，但企业的支持不能导致研究偏袒这家公司。在相关建议被广泛接受之前，独立团队应当能够重复得出同样的结果。",
+    "人体生物钟研究的一项重要发现是，光照的时间很重要，而不只是亮度。对修复师而言，一个切实可行的做法是上午到户外休息片刻，而不是在脆弱的书页上方安装更亮的灯。保护古老文献与照顾保存它们的人，并不一定是相互冲突的目标。"
+  ],
+  "q": [
+    {
+      "s": "An approaching exhibition date can reduce conservators' chances to go outdoors.",
+      "a": "T",
+      "why": "首段指出截止日期临近可能使外出机会消失。"
+    },
+    {
+      "s": "The passage identifies seasonal light changes as the only cause of depression.",
+      "a": "F",
+      "why": "第二段明确说明抑郁症有多种成因。"
+    },
+    {
+      "s": "The activity sensors used in lighting research are more expensive than the light meters.",
+      "a": "NG",
+      "why": "第三段介绍仪器用途，未比较价格。"
+    }
+  ]
+}

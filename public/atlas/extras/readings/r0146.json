@@ -1,0 +1,46 @@
+{
+  "id": "r0146",
+  "ids": [
+    "joining",
+    "greeting",
+    "half-price",
+    "sadly",
+    "report",
+    "crossing",
+    "cover",
+    "baseball",
+    "clever",
+    "everywhere"
+  ],
+  "title": "A Second Life for Gloves",
+  "titleZh": "旧手套的新生",
+  "topic": "economy",
+  "cefr": 1,
+  "paras": [
+    "Mina Costa repairs sports gloves in a small shop beside a pedestrian [[crossing|crossing]]. After [[joining|joining]] a group of market sellers last spring, she began getting more customers. Each Saturday, she stands outside with a friendly [[greeting|greeting]] for people walking past. One morning, a boy brought her his old [[baseball|baseball]] glove. He looked at its broken fingers [[sadly|sadly]]. A new glove cost more than his family could spend.",
+    "Mina had a [[clever|clever]] idea. She could use leather from another damaged glove to [[cover|cover]] the holes. There were old gloves [[everywhere|everywhere]] in her workroom: on shelves, under chairs and inside wooden boxes. She chose a brown one with a large tear in its side. Its fingers were still strong. Two hours later, the boy's glove was ready. Mina offered him a [[half-price|half-price]] repair because he had helped sort her boxes.",
+    "At the end of the month, Mina wrote a short [[report|report]] for the sellers' group. She had repaired twenty gloves and earned enough to pay her shop rent. Now she keeps a box outside for unwanted gloves. The boy visits on Saturdays to help her. Last week, he caught the final ball in a match with the glove they had saved."
+  ],
+  "zh": [
+    "米娜·科斯塔在一家人行横道旁的小店里修理运动手套。去年春天加入一个集市商贩小组后，她的顾客渐渐多了起来。每个星期六，她都会站在店外，友好地向路人打招呼。一天早上，一个男孩带来了他的旧棒球手套。他难过地看着手套破损的手指部分。一只新手套的价格超出了他家的承受范围。",
+    "米娜想到了一个好办法。她可以用另一只破手套上的皮革盖住这些洞。她的工作间里到处都是旧手套：架子上、椅子底下，还有木箱里面。她挑了一只侧面有一道大裂口的棕色手套。它的手指部分仍然很结实。两个小时后，男孩的手套修好了。因为男孩帮她整理了箱子，米娜提出给他半价修理。",
+    "月底，米娜为商贩小组写了一份简短的报告。她修好了二十只手套，挣的钱足够付店租。现在，她在店外放了一个箱子，收集大家不要的手套。男孩每周六都来帮忙。上周，在一场比赛中，他用他们一起救回来的那只手套接住了最后一个球。"
+  ],
+  "q": [
+    {
+      "s": "More people started using Mina's repair service after she became a member of the sellers' group.",
+      "a": "T",
+      "why": "第一段说她加入商贩小组后顾客增多。"
+    },
+    {
+      "s": "Mina bought the damaged brown glove from another market seller.",
+      "a": "NG",
+      "why": "文中未说明那只棕色破手套的来源。"
+    },
+    {
+      "s": "Mina earned too little from the twenty repairs to pay her shop rent.",
+      "a": "F",
+      "why": "末段明确说修理收入足够付店租。"
+    }
+  ]
+}

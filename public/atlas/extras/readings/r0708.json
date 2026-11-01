@@ -1,0 +1,48 @@
+{
+  "id": "r0708",
+  "ids": [
+    "burgeon",
+    "mincer",
+    "reactionary",
+    "madden",
+    "vanquish",
+    "lexicographer",
+    "insolent",
+    "adjudicate",
+    "jeer",
+    "loth"
+  ],
+  "title": "The Mincer at the Common Table",
+  "titleZh": "公共餐桌上的绞肉机",
+  "topic": "society",
+  "cefr": 5,
+  "paras": [
+    "In this fictional neighbourhood, a shared kitchen begins with a borrowed [[mincer|mincer]] clamped to a table. Mara, the cook, uses it to prepare meat for patties while six households divide the cost of supper. As requests for places begin to [[burgeon|burgeon]], she asks the committee for another pair of hands, not another machine.",
+    "The kitchen's supporters are sometimes [[loth|loth]] to admit that their project challenges established family arrangements. They call it economical housekeeping. Yet one [[reactionary|reactionary]] landlord, who wants household authority returned exclusively to husbands, objects when wives collect their own wages for kitchen shifts. Their refusal to hand over those earnings seems to [[madden|madden]] him more than the noise of the evening queue.",
+    "Soon the committee must [[adjudicate|adjudicate]] disputes that machinery cannot resolve. The landlord claims a larger portion because he lent the mincer; Mara insists that the loan conferred no such entitlement. He calls her [[insolent|insolent]]. When supper is delayed by their argument, several diners [[jeer|jeer]] at both of them. The committee records the loan terms and assigns equal portions to everyone who has paid.",
+    "Ada, a retired [[lexicographer|lexicographer]], helps draft the kitchen rules, insisting that 'contribution' distinguish money, labour and loans. Mara does not expect shared dining to [[vanquish|vanquish]] every disagreement about domestic work. For tomorrow, she needs a rota. Ada puts down her pen and volunteers for the mincer; the landlord declines a shift but accepts his ordinary portion."
+  ],
+  "zh": [
+    "在这个虚构的街区里，一间共享厨房从一台固定在桌边的借来的绞肉机起步。厨师玛拉用它准备做肉饼的肉，六户人家则分摊晚餐费用。随着申请加入的人迅速增多，她向委员会要求增派一个人手，而不是再添一台机器。",
+    "厨房的支持者有时不愿承认，他们的项目挑战了既有的家庭安排。他们称这只是节约开支的家务安排。然而，一位极端保守、希望家庭权力重新完全归丈夫所有的房东，在妻子们领取自己在厨房轮班工作的工资时提出了异议。她们拒绝交出这些收入，这似乎比傍晚排队人群的喧闹更令他恼怒。",
+    "很快，委员会就必须裁决机器无法解决的争端。房东声称，绞肉机是他借出的，因此他应该分到更多饭菜；玛拉坚持认为，借出机器并不赋予他这种权利。他斥责她傲慢无礼。他们的争论耽误了晚餐，几位食客便对两人一起发出嘲笑。委员会记录了借用条款，并规定所有已付费的人均分饭菜。",
+    "退休的词典编纂者艾达帮忙起草厨房规则，坚持要求在“贡献”这一项下区分钱款、劳动和借出的物品。玛拉并不指望共享用餐能消除所有关于家务劳动的分歧。眼下，为了明天，她需要一份轮班表。艾达放下笔，自愿负责绞肉机；房东拒绝轮班，但接受了自己那份普通分量的饭菜。"
+  ],
+  "q": [
+    {
+      "s": "The six households had previously shared the cost of other meals.",
+      "a": "NG",
+      "why": "文中未说明六户此前是否分摊过其他餐费。"
+    },
+    {
+      "s": "The kitchen's supporters are always willing to admit that their project challenges established family arrangements.",
+      "a": "F",
+      "why": "支持者有时不情愿承认，并非始终愿意。"
+    },
+    {
+      "s": "The committee decides that everyone who has paid should receive an equal portion.",
+      "a": "T",
+      "why": "第三段明确规定已付费者均分饭菜。"
+    }
+  ]
+}

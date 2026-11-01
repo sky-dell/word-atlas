@@ -1,0 +1,46 @@
+{
+  "id": "r0083",
+  "ids": [
+    "gold",
+    "pronunciation",
+    "training",
+    "slice",
+    "diet",
+    "dutch",
+    "less",
+    "army",
+    "broken",
+    "forest"
+  ],
+  "title": "Making a Museum Memory Game",
+  "titleZh": "制作博物馆记忆游戏",
+  "topic": "thinking",
+  "cefr": 1,
+  "paras": [
+    "At a small museum, Lena makes a memory game from pictures of old objects. The game helps visitors remember what they see. First, she chooses twelve objects and takes clear photographs. They include a ring made of [[gold|gold]], an [[army|army]] hat, and a [[broken|broken]] cup. She puts each object on white paper before taking its picture. This keeps the photographs simple, so players can notice small details.",
+    "Next, Lena makes a second card for each picture. These cards carry short facts instead of photographs. For an old lunch box, she writes about its owner's daily [[diet|diet]]: bread, cheese, and apples. She adds a drawing of a [[slice|slice]] of bread. A wooden shoe has a card about its [[dutch|Dutch]] maker. Lena checks the [[pronunciation|pronunciation]] of his name with a language teacher, then records it for visitors to hear.",
+    "Finally, she prints the cards, cuts them out, and covers them with clear plastic. She uses [[less|less]] plastic by leaving only a narrow edge around each card. The box cover shows the [[forest|forest]] beside the museum. Staff have a short [[training|training]] session before trying the game. They turn over two cards at a time, looking for matching pictures and facts. One player remembers all three foods on the lunch box card."
+  ],
+  "zh": [
+    "在一家小博物馆里，莉娜用老物件的图片制作一套记忆游戏。这个游戏帮助参观者记住所见的东西。首先，她挑选十二件物品，拍下清晰的照片。其中有一枚金戒指、一顶军帽和一个破碎的杯子。拍照前，她把每件物品放在白纸上。这样照片的背景就很简洁，玩家也能注意到细小的特征。",
+    "接着，莉娜为每张图片制作另一张卡片。这些卡片上没有照片，而是写着简短的相关信息。对于一个旧午餐盒，她写下主人日常吃的食物：面包、奶酪和苹果。她还添了一幅画，画的是一片面包。一只木鞋对应的卡片介绍了制作它的荷兰工匠。莉娜向一位语言老师确认了这位工匠姓名的读音，然后录下来供参观者听。",
+    "最后，她打印出卡片，剪好，再覆上透明塑料膜。她只在每张卡片周围留一圈窄边，以减少塑料的用量。盒子封面画着博物馆旁边的森林。工作人员接受简短培训后，便开始试玩。他们每次翻开两张卡片，寻找相互对应的图片和信息。一名玩家记住了午餐盒卡片上的全部三种食物。"
+  ],
+  "q": [
+    {
+      "s": "Lena takes the photographs with her phone.",
+      "a": "NG",
+      "why": "文章未说明她使用什么设备拍照。"
+    },
+    {
+      "s": "Visitors can listen to a recording of the shoe maker's name.",
+      "a": "T",
+      "why": "莉娜录下工匠姓名的读音供参观者听。"
+    },
+    {
+      "s": "Staff try the game before their training session.",
+      "a": "F",
+      "why": "工作人员先接受培训，再试玩游戏。"
+    }
+  ]
+}

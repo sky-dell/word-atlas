@@ -1,0 +1,48 @@
+{
+  "id": "r0077",
+  "ids": [
+    "weather",
+    "twice",
+    "sing",
+    "university",
+    "give",
+    "shirt",
+    "britain",
+    "giraffe",
+    "behind",
+    "cheap"
+  ],
+  "title": "A Song on the Animal Walk",
+  "titleZh": "动物园步道上的歌声",
+  "topic": "health",
+  "cefr": 0,
+  "paras": [
+    "In a small town in [[britain|Britain]], visitors can start Sunday with a healthy walk. The walk goes through an animal park near the sea. It is [[cheap|cheap]]: each person pays one pound. On this Sunday, the [[weather|weather]] is warm and sunny. Twelve people wait by a blue gate. Some carry water in small bags.",
+    "Their guide is Amira. She works at a [[university|university]] nearby and leads this walk [[twice|twice]] a month. Today, she wears a yellow [[shirt|shirt]] with little birds on it. She has a simple plan. The group will walk slowly, stop for water, and look at the animals. It is not a race.",
+    "First, they see a [[giraffe|giraffe]] eating leaves. A small one stands [[behind|behind]] it. The walkers stop and smile. Near the animal house, Amira opens her bag. She [[give|gives]] each visitor a small apple from her garden. They sit on a long seat to eat. One visitor, Bao, says his legs feel good after the walk.",
+    "At the last stop, the sea is below them. Amira starts to [[sing|sing]] an old song about boats. People in her town often share this song at summer meals. She teaches the group two short lines. Soon, everyone joins in. Then they walk back to the gate together. Bao leaves with an apple seed in his pocket and a new song in his head."
+  ],
+  "zh": [
+    "在英国的一个小镇，游客可以用一次有益健康的散步开始周日。这条步行路线穿过海边的一座动物园。费用很低：每人付一英镑。这个周日，天气温暖晴朗。十二个人在一扇蓝色大门旁等候。有些人的小包里装着水。",
+    "他们的向导叫阿米拉。她在附近的一所大学工作，每个月带领大家散步两次。今天，她穿着一件印有小鸟图案的黄色衬衫。她的计划很简单。大家会慢慢走，停下来喝水，看看动物。这不是比赛。",
+    "首先，他们看到一只长颈鹿在吃树叶。一只小长颈鹿站在它后面。散步的人们停下来，露出笑容。在动物馆附近，阿米拉打开包，给每位游客一个自家花园里种的小苹果。他们坐在长椅上吃苹果。一位叫鲍的游客说，走过这一段路后，他的双腿感觉很舒服。",
+    "到了最后一站，大海就在他们下方。阿米拉开始唱一首关于船的老歌。镇上的人常在夏天聚餐时一起唱这首歌。她教大家两句简短的歌词。很快，所有人都跟着唱起来。然后，他们一起走回大门。鲍离开时，口袋里装着一颗苹果籽，脑海里留着一首新学的歌。"
+  ],
+  "q": [
+    {
+      "s": "The animal park is open every day.",
+      "a": "NG",
+      "why": "文中只写周日游园，未说明是否每天开放。"
+    },
+    {
+      "s": "Amira leads the walk twice a month.",
+      "a": "T",
+      "why": "原文明确说她每月带队散步两次。"
+    },
+    {
+      "s": "Amira sings a new song, not an old one.",
+      "a": "F",
+      "why": "原文说她唱的是一首老歌。"
+    }
+  ]
+}

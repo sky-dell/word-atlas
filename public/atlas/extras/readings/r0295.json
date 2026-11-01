@@ -1,0 +1,46 @@
+{
+  "id": "r0295",
+  "ids": [
+    "deliver",
+    "dusty",
+    "frozen",
+    "occur",
+    "rafting",
+    "merry",
+    "inform",
+    "eyebrow",
+    "discount",
+    "ghost"
+  ],
+  "title": "The Ice House by the River",
+  "titleZh": "河边的冰库",
+  "topic": "city",
+  "cefr": 2,
+  "paras": [
+    "Welcome to the River Street Ice House, once the coldest building in the city. Before most homes had electric fridges, workers stored river ice here and used carts to [[deliver|deliver]] it to shops. In the first room, a [[dusty|dusty]] wooden cart stands beside a photograph from 1924. Its driver, Tomas Vale, has one [[eyebrow|eyebrow]] raised, as if surprised by the camera.",
+    "Follow the blue line into the store room. In winter, workers cut blocks from the [[frozen|frozen]] river and packed them between layers of dry grass. Sudden accidents could [[occur|occur]] when the ice was thin, so a bell was used to [[inform|inform]] the cutting teams of danger. Listen to the recording beside the bell: it explains why three quick rings meant everyone must return to land. A shop sign nearby offers a small [[discount|discount]] to customers who collected their own ice.",
+    "Upstairs, the exhibition turns to summer. Families enjoyed [[rafting|rafting]] beyond the city bridge, while boat races brought [[merry|merry]] crowds to the riverbank. Yet children avoided the ice house after dark. They believed the [[ghost|ghost]] of an old boatman walked inside. Open the final wooden door to discover the likely source of their story: wind passing through a narrow hole makes a sound surprisingly like a human cry."
+  ],
+  "zh": [
+    "欢迎来到河街冰库，这里曾是全城最冷的建筑。在大多数家庭还没有电冰箱的时候，工人们在这里储存河冰，再用手推车把冰送到商店。第一个展厅里，一辆布满灰尘的木制手推车停在一张摄于1924年的照片旁。照片中的车夫托马斯·韦尔扬起一边眉毛，仿佛对相机感到惊讶。",
+    "沿着蓝线走进储冰间。冬天，工人们从结冰的河面切下冰块，将它们放在一层层干草之间。冰层较薄时，意外可能突然发生，因此人们用钟声提醒采冰队注意危险。请听钟旁边的录音：它会解释，为什么连续三声急促的钟响意味着所有人都必须返回岸上。附近的一块商店招牌写着，自己来取冰的顾客可以享受小额折扣。",
+    "楼上的展览转向了夏日生活。一家家人在城里那座桥的另一边享受漂流的乐趣，划船比赛则吸引了欢乐的人群来到河岸。然而，孩子们在天黑后都躲着冰库。他们相信，一位老船夫的鬼魂会在里面游荡。打开最后一扇木门，你就会发现这个故事可能的来源：风穿过一个狭窄的小孔时，发出的声音竟然很像人的哭喊。"
+  ],
+  "q": [
+    {
+      "s": "The ice house supplied shops with ice before electric fridges became common in homes.",
+      "a": "T",
+      "why": "首段说明家用电冰箱普及前，工人从这里送冰到商店。"
+    },
+    {
+      "s": "The shop sign says customers collecting their own ice must pay the full price.",
+      "a": "F",
+      "why": "招牌说明自行取冰的顾客可享折扣。"
+    },
+    {
+      "s": "The summer boat races attracted visitors from other cities.",
+      "a": "NG",
+      "why": "文中只说比赛吸引人群，未提他们来自哪里。"
+    }
+  ]
+}

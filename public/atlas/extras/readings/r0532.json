@@ -1,0 +1,48 @@
+{
+  "id": "r0532",
+  "ids": [
+    "hardness",
+    "expectancy",
+    "convenience",
+    "editing",
+    "fleet",
+    "functional",
+    "feast",
+    "plump",
+    "applicant",
+    "disagreement"
+  ],
+  "title": "Lessons from a Wooden Harbour",
+  "titleZh": "木船港湾里的课堂",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "On a small island off Croatia, visitors can spend a week learning how wooden fishing boats are repaired. The course takes place beside a working harbour, where a [[fleet|fleet]] of six boats supplies the island's kitchens. Each [[applicant|applicant]] must explain their interest in traditional crafts, but no previous woodworking experience is required.",
+    "On the first morning, an air of [[expectancy|expectancy]] fills the workshop as tutor Mira lays out unfamiliar tools. Participants compare the [[hardness|hardness]] of oak and pine by pressing a metal point into sample boards. Their first project is a [[functional|functional]] storage box, not a decorative model. For [[convenience|convenience]], all the necessary tools hang above each bench, within easy reach.",
+    "The lessons also reveal that preserving a craft involves choices. A [[disagreement|disagreement]] arises when one visitor suggests replacing a wooden joint with a metal bracket. Mira explains that either solution might work, but only one teaches the method used by earlier island boatbuilders. In the afternoons, participants record these discussions, then practise [[editing|editing]] their notes for a small illustrated harbour guide that future visitors can borrow.",
+    "On the final evening, the boat crews prepare a [[feast|feast]] of grilled fish, bread and [[plump|plump]] tomatoes from nearby gardens. The new boxes serve as seats around the long table. By then, the visitors understand why the course ends here rather than in a classroom: the objects they have made already belong to the island's daily life."
+  ],
+  "zh": [
+    "在克罗地亚近海的一座小岛上，游客可以用一周时间学习如何修理木制渔船。课程就在仍然繁忙运作的港口旁进行，那里一支由六艘船组成的船队为岛上的厨房供应渔获。每位申请人都须说明自己为何对传统手工艺感兴趣，但不需要有木工经验。",
+    "第一天早晨，指导老师米拉摆出陌生的工具，工坊里弥漫着期待的气氛。参与者将金属尖头压入木板样品，比较橡木与松木的硬度。他们的第一个作品是实用的收纳箱，而非装饰模型。为了方便取用，每张工作台上方都挂着所需的全部工具，伸手就能够到。",
+    "课程也让大家看到，传承手艺意味着作出选择。一位游客提出用金属支架替代木制接头，由此引发了意见分歧。米拉解释说，两种办法或许都可行，但只有其中一种能让大家学会岛上老一辈造船人的做法。下午，参与者记录这些讨论，然后练习整理编辑笔记，将其编入一本配有插图的港口小指南，供今后的游客借阅。",
+    "最后一天晚上，船员们用烤鱼、面包以及附近菜园里圆鼓鼓的番茄准备了一顿盛宴。新做好的箱子摆在长桌周围，充当座椅。此时，游客们已经明白，课程为何在这里而不是教室里结束：他们亲手制作的物件，已经融入了岛上的日常生活。"
+  ],
+  "q": [
+    {
+      "s": "Applicants must have previous woodworking experience.",
+      "a": "F",
+      "why": "原文明示不要求已有木工经验。"
+    },
+    {
+      "s": "Mira bought the workshop tools from a local supplier.",
+      "a": "NG",
+      "why": "文章未说明工具由谁购买或从何处购得。"
+    },
+    {
+      "s": "The boxes made during the course are used as seats at the final meal.",
+      "a": "T",
+      "why": "最后一晚，新做的箱子在餐桌周围充当座椅。"
+    }
+  ]
+}

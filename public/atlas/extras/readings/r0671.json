@@ -1,0 +1,48 @@
+{
+  "id": "r0671",
+  "ids": [
+    "coherent",
+    "rectify",
+    "above-mentioned",
+    "queer",
+    "nautical",
+    "disclose",
+    "exasperation",
+    "discord",
+    "inclusive",
+    "happening"
+  ],
+  "title": "Making a Harbour Memory Map",
+  "titleZh": "制作一张港湾记忆地图",
+  "topic": "travel",
+  "cefr": 4,
+  "paras": [
+    "A walking map of the fictional harbour of Bellhaven begins not with street names, but with sailors’ notebooks. In a workshop overlooking the former customs quay, cartographer Mira assembles a [[coherent|coherent]] account of how travellers once entered the town. Her materials include [[nautical|nautical]] charts, warehouse photographs and handwritten descriptions of inns that have long since disappeared.",
+    "Each source is checked against surviving landmarks before anything is drawn. One notebook records a “[[queer|queer]] procession” of lanterns moving inland after a ship arrived at midnight; a newspaper identifies this [[happening|happening]] as a welcome for returning fishermen. To [[rectify|rectify]] errors in the [[above-mentioned|above-mentioned]] charts, Mira measures the old harbour steps, whose position has remained unchanged despite extensive rebuilding nearby.",
+    "Interviews then supply details that official records omit. Families sometimes [[disclose|disclose]] the former locations of private landing places, although [[discord|discord]] can arise when two households claim the same waterside building. Rather than allowing repeated contradictions to provoke [[exasperation|exasperation]], Mira prints disputed names in grey. This convention preserves competing memories without presenting either version as established historical fact.",
+    "The final stage transforms research into an [[inclusive|inclusive]] travel object. Broad paths indicate routes suitable for wheelchair users, raised dots identify resting places, and short captions explain unfamiliar maritime terms. A printer applies these tactile features after the coloured layers have dried, then folds each sheet along lines that avoid important symbols. Tested outdoors in sea wind, the finished map offers visitors both a practical route and a carefully qualified portrait of the harbour’s past."
+  ],
+  "zh": [
+    "为虚构的贝尔黑文港制作一张步行地图，起点不是街道名称，而是水手的笔记。在一间俯瞰旧海关码头的工作室里，制图师米拉整理材料，条理清晰地呈现昔日旅人如何进入这座小镇。她使用的资料包括航海图、仓库照片，以及对早已消失的客栈的手写描述。",
+    "动笔绘图之前，每份资料都要与现存地标核对。一本笔记记载，某艘船午夜抵港后，一支“古怪的灯笼队伍”向内陆行进；一份报纸则说明，这件事其实是迎接归来的渔民。为了纠正上述海图中的错误，米拉测量了港口的旧台阶。尽管附近经历了大规模重建，这些台阶的位置始终未变。",
+    "随后，访谈补充了官方记录遗漏的细节。一些家庭有时会透露私人登岸点原来的位置，不过，当两户人家都声称同一座水边建筑归自家所有时，也可能产生争执。米拉没有因反复出现的矛盾而恼怒，而是将有争议的名称印成灰色。这种标注方式保留了相互冲突的记忆，却不把任何一方的说法当作已获证实的历史事实。",
+    "最后一步是将研究成果转化为兼顾不同人群需要的旅行用品。宽线标示适合轮椅使用者的路线，凸点标出休息处，简短的说明文字则解释陌生的航海术语。待各层彩色油墨干燥后，印刷师再加上这些触觉标记，随后沿避开重要符号的折线折叠每张地图。经过户外海风环境的测试，成品既为游客提供了实用路线，也以审慎、不轻下定论的方式描绘了港湾的往昔。"
+  ],
+  "q": [
+    {
+      "s": "Mira borrowed the sailors’ notebooks from a local museum.",
+      "a": "NG",
+      "why": "文章未说明水手笔记从何处获得。"
+    },
+    {
+      "s": "The position of the harbour steps has survived major changes to the surrounding area.",
+      "a": "T",
+      "why": "附近虽大规模重建，台阶位置仍未改变。"
+    },
+    {
+      "s": "Mira resolves conflicting family accounts by selecting one as historically accurate.",
+      "a": "F",
+      "why": "她保留争议，不认定任何一方属实。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0210",
+  "ids": [
+    "annoyed",
+    "developing",
+    "graduate",
+    "advertising",
+    "research",
+    "turning",
+    "dormitory",
+    "chain",
+    "tiring",
+    "structure"
+  ],
+  "title": "A Clinic on Two Wheels",
+  "titleZh": "两个轮子上的诊所",
+  "topic": "health",
+  "cefr": 2,
+  "paras": [
+    "At the centre of this exhibition stands a blue bicycle with a wooden medicine box. In 1982, nurse Amina Das, a recent university [[graduate|graduate]], used it to visit villages in a [[developing|developing]] country. Her journey began each morning outside a clinic, where she shared a [[dormitory|dormitory]] with five other nurses.",
+    "Look closely at the bicycle’s [[chain|chain]] and the map beside it. A red arrow marks the [[turning|turning]] towards the village of Sela. The road beyond it was steep, so the ride was [[tiring|tiring]], especially with a full box. Amina sometimes felt [[annoyed|annoyed]] when a loose wheel delayed her, but she always carried tools for small repairs.",
+    "The next display explains the [[structure|structure]] of her medicine box. Thin wooden walls divided the inside into spaces for bottles, bandages and soap. There was no [[advertising|advertising]] on the bicycle: people learned about her visits through neighbours. Her notebook records simple [[research|research]] into stomach illnesses. By comparing visits, she noticed that fewer people became ill after families began boiling drinking water.",
+    "Before leaving, lift the model box beside the exit. It weighs as much as Amina’s box did on a busy morning. Visitors cannot ride her bicycle, but this small activity helps them understand the effort behind each visit—and why a familiar blue bicycle could bring such relief."
+  ],
+  "zh": [
+    "展厅中央摆着一辆蓝色自行车，车上装着一个木制药箱。1982年，刚大学毕业的护士阿米娜·达斯骑着它，走访一个发展中国家的村庄。每天清晨，她都从一家诊所出发。在那里，她与另外五名护士住在同一间集体寝室。",
+    "请仔细看看自行车的链条和旁边的地图。一个红色箭头标出了通往塞拉村的岔路口。岔路口之后的路坡度很陡，因此骑行十分累人，尤其是在药箱装满的时候。车轮松动耽误行程时，阿米娜有时会感到恼火，不过她总是随身带着工具，以便进行简单维修。",
+    "下一个展区介绍了她的药箱构造。薄木板将箱内分隔成几个空间，用来放瓶子、绷带和肥皂。自行车上没有任何广告宣传，人们通过邻居得知她来访的消息。她的笔记本记录了对肠胃疾病的简单研究。通过比较多次走访的记录，她发现，在各家开始将饮用水煮沸后，生病的人减少了。",
+    "离开前，请提一提出口旁的药箱模型。它的重量与阿米娜在忙碌的早晨所带的药箱一样。参观者不能骑她的自行车，但这个小体验能帮助大家理解每次走访背后的辛劳，以及为什么一辆熟悉的蓝色自行车能带来如此大的安心。"
+  ],
+  "q": [
+    {
+      "s": "Amina attended university in the country where she visited villages.",
+      "a": "NG",
+      "why": "文章未说明她上大学的国家。"
+    },
+    {
+      "s": "Messages promoting Amina’s visits were displayed on her bicycle.",
+      "a": "F",
+      "why": "第三段明确说自行车上没有广告。"
+    },
+    {
+      "s": "The model box weighs the same as Amina’s box did on a busy morning.",
+      "a": "T",
+      "why": "末段明确说模型与忙碌早晨的药箱等重。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0278",
+  "ids": [
+    "defend",
+    "audience",
+    "emergency",
+    "sportswear",
+    "revise",
+    "lid",
+    "graduation",
+    "cashier",
+    "bargain",
+    "emotional"
+  ],
+  "title": "Why Sweat Cools Us",
+  "titleZh": "汗水为什么能让人凉快",
+  "topic": "science",
+  "cefr": 2,
+  "paras": [
+    "At a science centre, an [[audience|audience]] watches a guide place water on a metal [[lid|lid]] and turn on a fan. As the water dries, the metal becomes cooler. This simple experiment shows how sweat helps [[defend|defend]] our bodies against heat. Water needs energy to change into gas, and it takes that energy from the surface below.",
+    "Our skin produces sweat when we get hot. However, sweat only cools us effectively when it leaves the skin as gas. On wet summer days, the air already contains plenty of water, so this change happens more slowly. Even light [[sportswear|sportswear]] cannot completely solve this problem. If the body becomes dangerously hot, the situation can become a medical [[emergency|emergency]].",
+    "Heat is not the only reason we sweat. [[emotional|Emotional]] pressure can make our hands wet too. Someone waiting to speak at a [[graduation|graduation]] ceremony may notice this. So may people who [[revise|revise]] for an important examination, even while sitting in a cool room.",
+    "Before leaving, a visitor buys a small fan from the centre's [[cashier|cashier]]. At half its usual price, it seems a [[bargain|bargain]]. The guide explains that a fan does not usually lower the room temperature. Instead, moving air helps sweat dry faster. The visitor now understands why a little breeze can feel so pleasant."
+  ],
+  "zh": [
+    "在一家科学中心，观众看着讲解员在一个金属盖子上放些水，然后打开风扇。随着水慢慢变干，金属也变凉了。这个简单的实验展示了汗水如何帮助身体抵御高温。水变成气体需要能量，而这些能量来自它下方的表面。",
+    "我们感到热时，皮肤就会出汗。不过，只有当汗水变成气体离开皮肤时，它才能有效地让我们降温。在潮湿的夏日，空气中已经含有大量水分，因此这个变化会更慢。即使穿着轻薄的运动服，也无法彻底解决这个问题。如果体温升高到危险程度，就可能出现需要紧急救治的情况。",
+    "高温并不是出汗的唯一原因。情绪压力也会让我们的手变湿。等待在毕业典礼上发言的人可能会注意到这一点。为重要考试复习的人也可能如此，即使他们正坐在凉爽的房间里。",
+    "离开前，一位游客在科学中心的收银员那里买了一台小风扇。价格只有平时的一半，看起来很划算。讲解员解释说，风扇通常不会降低室温，而是通过流动的空气帮助汗水更快地变干。游客现在明白了，为什么一丝微风也能让人感到如此舒服。"
+  ],
+  "q": [
+    {
+      "s": "Water takes energy from the metal surface as it turns into gas.",
+      "a": "T",
+      "why": "第一段说明水变成气体时从下方表面吸收能量。"
+    },
+    {
+      "s": "People sweat more when revising alone than when revising with others.",
+      "a": "NG",
+      "why": "文章未比较独自复习和共同复习时的出汗量。"
+    },
+    {
+      "s": "The guide says that a fan usually lowers the room temperature.",
+      "a": "F",
+      "why": "讲解员说风扇通常不会降低室温。"
+    }
+  ]
+}

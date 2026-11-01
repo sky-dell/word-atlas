@@ -1,0 +1,46 @@
+{
+  "id": "r0045",
+  "ids": [
+    "together",
+    "saturday",
+    "brown",
+    "spend",
+    "autumn",
+    "help",
+    "high",
+    "soup",
+    "choose",
+    "movie"
+  ],
+  "title": "A Little Bear Makes Lunch",
+  "titleZh": "小熊做午饭",
+  "topic": "arts",
+  "cefr": 0,
+  "paras": [
+    "On [[saturday|Saturday]], Mina and her dad make a short [[movie|movie]] at home. They work [[together|together]] at the kitchen table. First, they [[choose|choose]] a story about a bear. It makes hot [[soup|soup]] for a friend in [[autumn|autumn]]. They [[spend|spend]] two pounds on paper at a small shop. They already have a camera, some pens, and a big white board at home.",
+    "Mina draws a [[brown|brown]] bear and cuts it out. Dad makes a paper pot and three orange carrots. He also makes a tall tree for the garden behind the bear's house. Red and yellow paper leaves lie under it. Mina puts these things on the board. Her dad holds the camera [[high|high]] above them. He can [[help|help]] her take clear pictures.",
+    "They take one picture, then move the bear a little. They do this many times. The bear goes into its garden and gets the carrots. Then it puts them in the pot. At the end, a second bear comes for lunch. Dad puts the pictures on a computer. The computer shows them quickly, one after another. The bears look like they are moving. Mina watches the story and smiles."
+  ],
+  "zh": [
+    "星期六，米娜和爸爸在家制作一部短片。他们一起在厨房的桌边忙碌。首先，他们选了一个关于熊的故事。故事里，一只熊在秋天为朋友做热汤。他们在一家小店花了两英镑买纸。家里已经有一台相机、几支笔和一块大白板。",
+    "米娜画了一只棕色的熊，把它剪下来。爸爸用纸做了一口锅和三根橙色的胡萝卜。他还做了一棵高高的树，放在熊屋后的花园里。树下铺着红色和黄色的纸树叶。米娜把这些东西放到白板上。爸爸把相机高高举在它们上方。他能帮她拍出清晰的照片。",
+    "他们拍一张照片，再把熊挪动一点。他们这样做了很多次。熊走进花园，拿到胡萝卜，然后把它们放进锅里。最后，另一只熊来吃午饭。爸爸把照片传到电脑上。电脑快速地一张接一张显示照片。熊看起来像是在动。米娜看着这个故事，笑了。"
+  ],
+  "q": [
+    {
+      "s": "Mina and her dad spend five pounds on paper.",
+      "a": "F",
+      "why": "他们买纸花了两英镑，不是五英镑。"
+    },
+    {
+      "s": "Mina draws a brown bear.",
+      "a": "T",
+      "why": "第二段明确说米娜画了一只棕色的熊。"
+    },
+    {
+      "s": "Mina sends the finished film to her grandmother.",
+      "a": "NG",
+      "why": "文中未提到她把短片发给祖母或外祖母。"
+    }
+  ]
+}

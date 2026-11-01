@@ -1,0 +1,46 @@
+{
+  "id": "r0158",
+  "ids": [
+    "through",
+    "equipment",
+    "trouble",
+    "glue",
+    "argue",
+    "safe",
+    "tasty",
+    "behaviour",
+    "stamp",
+    "unfortunately"
+  ],
+  "title": "The Village Postcard Walk",
+  "titleZh": "村庄明信片之旅",
+  "topic": "travel",
+  "cefr": 1,
+  "paras": [
+    "Visitors to Bell Bay usually stopped for lunch and then left. Mina, who owned a small guest house, wanted them to see more of the village. She started a postcard walk with five neighbours. Their route went [[through|through]] an old apple garden and ended at the post office. At three stops, visitors could collect small pictures to put on a postcard with [[glue|glue]].",
+    "The group kept their [[equipment|equipment]] in a wooden box at Mina's house. However, there was [[trouble|trouble]] before the first walk. Two neighbours began to [[argue|argue]] about taking visitors near the beach. [[unfortunately|Unfortunately]], winter waves had broken some steps there. Mina suggested using the garden path instead because it was [[safe|safe]]. Everyone agreed. They also made a sign about [[behaviour|behaviour]]: visitors should close gates and leave flowers for others to enjoy.",
+    "On the first Saturday, twelve visitors joined the walk. At the last picture stop, baker Tomas offered [[tasty|tasty]] apple cakes. Each visitor then bought a [[stamp|stamp]] at the post office and sent their finished card to someone at home. One visitor wrote, 'We planned to stay an hour, but we stayed all afternoon.' By summer, the neighbours were running the walk twice a week, and Mina's wooden box was rarely on its shelf."
+  ],
+  "zh": [
+    "来到贝尔湾的游客通常吃过午饭就离开了。米娜经营着一家小旅馆，她希望游客能多看看村子。她和五位邻居一起发起了明信片步行游。他们的路线穿过一座老苹果园，终点是邮局。游客可以在沿途的三个停靠点收集小图片，用胶水贴在明信片上。",
+    "大家把活动器材放在米娜家里的一个木箱中。然而，第一次步行游开始前就遇到了麻烦。两位邻居为了是否带游客去海滩附近争吵起来。遗憾的是，冬天的海浪损坏了那里的几级台阶。米娜建议改走果园小路，因为那里安全。大家都同意了。他们还制作了一块提醒游客注意举止的牌子：请随手关上园门，留下鲜花供其他人欣赏。",
+    "第一个星期六，十二位游客参加了步行游。在最后一个领取图片的地方，面包师托马斯为大家提供了美味的苹果蛋糕。随后，每位游客都在邮局买了一枚邮票，把做好的明信片寄给家乡的某个人。一位游客写道：“我们原本打算待一个小时，结果待了整整一下午。”到了夏天，邻居们每周组织两次步行游，米娜的木箱也很少闲放在架子上了。"
+  ],
+  "q": [
+    {
+      "s": "Mina wanted visitors to see more of Bell Bay.",
+      "a": "T",
+      "why": "米娜希望游客多看看村子。"
+    },
+    {
+      "s": "Mina bought all the equipment for the walk.",
+      "a": "NG",
+      "why": "只说明器材存放地点，未说明谁购买。"
+    },
+    {
+      "s": "By summer, the neighbours were running the walk every day.",
+      "a": "F",
+      "why": "到夏季每周组织两次，并非每天。"
+    }
+  ]
+}

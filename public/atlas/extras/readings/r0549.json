@@ -1,0 +1,48 @@
+{
+  "id": "r0549",
+  "ids": [
+    "droop",
+    "haste",
+    "perspire",
+    "irrigation",
+    "designate",
+    "diminish",
+    "midst",
+    "cosmos",
+    "lurk",
+    "enforce"
+  ],
+  "title": "The Forecast That Wasn't",
+  "titleZh": "一场并不存在的预报",
+  "topic": "media",
+  "cefr": 4,
+  "paras": [
+    "In the [[midst|midst]] of a July heatwave, a farming radio station received an alarming recording: an astronomer apparently predicted six weeks without rain. Growers began reducing [[irrigation|irrigation]], hoping to conserve their reservoirs. Within days, cucumber leaves started to [[droop|droop]]. Producer Leila Mensah suspected that the recording, circulating without a date, had acquired an authority its contents did not justify.",
+    "The station [[designate|designated]] Leila to investigate before its evening bulletin. In her [[haste|haste]], she initially searched weather interviews, finding nothing. Then a faint reference to the [[cosmos|cosmos]] suggested a different archive. Listening inside a windowless storeroom, where the broken ventilation made her [[perspire|perspire]], she located a programme about an observatory in a desert.",
+    "The astronomer had described conditions at that distant site, not forecast weather for the farming district. Two sentences identifying the location had been removed. Leila could not establish who had edited the clip, but she found anonymous advertisers who would [[lurk|lurk]] in growers' discussion forums, waiting to promote expensive water-saving powders whenever anxiety rose. Simply broadcasting a denial, she realised, would leave listeners dependent on another unsupported assertion.",
+    "Instead, the station played the original passage beside the shortened version and published the dated transcript. As the geographical distinction became audible, calls expressing alarm began to [[diminish|diminish]]. The editor also introduced a rule requiring source details for submitted recordings and assigned a producer to [[enforce|enforce]] it. By Friday, growers had resumed watering according to soil measurements rather than a displaced desert description."
+  ],
+  "zh": [
+    "七月热浪来袭期间，一家农业广播电台收到了一段令人不安的录音：一位天文学家似乎预测，未来六周都不会下雨。种植户开始减少灌溉，希望节省蓄水池中的水。没过几天，黄瓜叶就开始下垂。制作人莱拉·门萨怀疑，这段没有标明日期、四处流传的录音获得了其内容本不应具有的权威性。",
+    "电台指派莱拉在晚间新闻播出前展开调查。她匆忙之中先搜索了天气访谈，却一无所获。随后，录音中隐约提到宇宙的一句话，让她想到应该查找另一类档案。她在一间没有窗户的储藏室里听录音，坏掉的通风设备让她汗流浃背。最终，她找到了一期介绍沙漠天文台的节目。",
+    "那位天文学家描述的是那个遥远地点的环境，而不是在预报这片农业区的天气。交代地点的两句话被删掉了。莱拉无法确定是谁剪辑了录音，但她发现，一些匿名广告商会潜伏在种植户的讨论论坛里，等大家焦虑起来，就推销昂贵的节水粉剂。她意识到，如果只是广播一则辟谣声明，听众仍然只能依赖另一种缺乏证据支持的说法。",
+    "因此，电台将原始片段与删减版对照播放，并公布了标明日期的文字稿。当听众能从录音中听清两地的区别后，表达恐慌的来电开始减少。编辑还制定了一项规定，要求提交录音时附上来源信息，并安排一位制作人负责落实。到了星期五，种植户已经恢复根据土壤测量结果浇水，不再听信那段被张冠李戴的沙漠描述。"
+  ],
+  "q": [
+    {
+      "s": "Growers increased irrigation after hearing the alarming recording.",
+      "a": "F",
+      "why": "首段明确说种植户开始减少灌溉。"
+    },
+    {
+      "s": "The astronomer was describing a distant observatory rather than forecasting local weather.",
+      "a": "T",
+      "why": "第三段说明他描述远方地点，并非预报当地天气。"
+    },
+    {
+      "s": "The station's new verification procedure was later adopted by other broadcasters.",
+      "a": "NG",
+      "why": "文章未提其他广播机构采用该程序。"
+    }
+  ]
+}

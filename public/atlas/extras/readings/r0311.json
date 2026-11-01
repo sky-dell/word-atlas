@@ -1,0 +1,48 @@
+{
+  "id": "r0311",
+  "ids": [
+    "differ",
+    "general",
+    "fog",
+    "blame",
+    "surely",
+    "secondary",
+    "underneath",
+    "permitted",
+    "spotted",
+    "monument"
+  ],
+  "title": "The Dog That Memory Invented",
+  "titleZh": "记忆凭空变出的狗",
+  "topic": "thinking",
+  "cefr": 2,
+  "paras": [
+    "On a winter morning, photographer Mina took a picture of a stone [[monument|monument]] built to honour the town's first rescue team. Thick [[fog|fog]] hid the distant houses, but a bench was clearly visible nearby. Later, this ordinary photograph became the centre of a small experiment about memory.",
+    "Mina's friend Tomas, a [[secondary|secondary]] school science teacher, invited twelve adults to an evening workshop. They were [[permitted|permitted]] to study the photograph for twenty seconds. Then he covered it and asked them to describe the scene. Their accounts began to [[differ|differ]]: some remembered two benches, while others remembered only one.",
+    "Next, Tomas asked half the group, “[[surely|Surely]] you noticed the [[spotted|spotted]] dog resting [[underneath|underneath]] the bench?” He asked the others simply what they had seen near the bench. There was actually no dog. However, several people who heard the first question later included one in their descriptions. Nobody in the other group mentioned an animal.",
+    "It would be easy to [[blame|blame]] poor attention, but the activity showed a more [[general|general]] feature of memory. Remembering is not exactly like playing a film: later information can change the picture we build in our minds. This small workshop was not enough to prove a scientific theory. Still, when Mina revealed the photograph again, the missing dog gave everyone something worth remembering."
+  ],
+  "zh": [
+    "一个冬日的早晨，摄影师米娜拍下了一座石制纪念碑，它是为纪念镇上第一支救援队而建的。浓雾遮住了远处的房屋，但附近的一张长椅仍清晰可见。后来，这张普通的照片成了一个记忆小实验的核心。",
+    "米娜的朋友托马斯是一名中学科学教师，他邀请了十二名成年人参加晚间活动。他们可以用二十秒观察照片。随后，他把照片盖住，请大家描述刚才的场景。他们的说法开始出现差异：有人记得有两张长椅，有人却只记得一张。",
+    "接着，托马斯问其中一半人：“你们想必注意到了那只在长椅下面休息的斑点狗吧？”他只是简单地问另一半人，在长椅附近看到了什么。实际上，照片里根本没有狗。然而，听到第一个问题的几个人后来在描述中提到了一只狗。另一组则没有人提到动物。",
+    "人们很容易把这归咎于注意力不集中，但这个活动展示了记忆的一种更普遍的特点。回忆并不完全像播放电影：后来获得的信息可能改变我们在脑海中构建的画面。这次小活动不足以证明一个科学理论。不过，当米娜再次展示照片时，那只并不存在的狗给每个人都留下了一件值得记住的事。"
+  ],
+  "q": [
+    {
+      "s": "Mina took the photograph for a local newspaper.",
+      "a": "NG",
+      "why": "文章未说明米娜是否为当地报纸拍照。"
+    },
+    {
+      "s": "The adults had twenty seconds to study the photograph.",
+      "a": "T",
+      "why": "第二段明确说观察照片的时间为二十秒。"
+    },
+    {
+      "s": "People in both groups reported seeing an animal.",
+      "a": "F",
+      "why": "第三段说另一组无人提到动物。"
+    }
+  ]
+}

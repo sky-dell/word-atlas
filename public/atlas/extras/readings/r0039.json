@@ -1,0 +1,48 @@
+{
+  "id": "r0039",
+  "ids": [
+    "t-shirt",
+    "end",
+    "delicious",
+    "fill",
+    "become",
+    "up",
+    "world",
+    "drink",
+    "mexico",
+    "grey"
+  ],
+  "title": "A Cool Stop After a Walk",
+  "titleZh": "散步后的清凉小憩",
+  "topic": "health",
+  "cefr": 0,
+  "paras": [
+    "In a small town in [[mexico|Mexico]], the morning walk starts at a blue gate. Visitors meet Rosa there at eight. She wears a yellow [[t-shirt|T-shirt]] and carries a bag of oranges. Today, six people join her. They come from different parts of the [[world|world]], but they can all walk together.",
+    "The group walks slowly past white houses. Then they go [[up|up]] a small hill. There are [[grey|grey]] stones beside the path and red flowers near a wall. Rosa stops under a tree. Everyone can rest here. Their faces [[become|become]] hot in the sun, so the cool shade feels good.",
+    "At the [[end|end]] of the path, there is a little garden cafe. Its owner, Luis, puts a large jug on a table. There is water with orange pieces in it. He adds no sugar. The visitors [[fill|fill]] their glasses and [[drink|drink]] slowly. Rosa puts her oranges in a basket by the door.",
+    "Luis cuts one orange for each visitor. The fruit is sweet and [[delicious|delicious]]. He also brings small bowls of beans and warm bread. People sit at one long table and learn each other's names. This morning walk is not a race. It is a gentle way to move, share food and meet people. Before they leave, the visitors help Luis carry the empty bowls inside."
+  ],
+  "zh": [
+    "在墨西哥的一个小镇上，晨间散步从一扇蓝色大门前开始。游客们八点在那里与罗莎见面。她穿着一件黄色T恤衫，提着一袋橙子。今天有六个人和她一起走。他们来自世界各地，但大家可以结伴散步。",
+    "一行人慢慢走过白色的房子，然后走上一座小山。小路旁有灰色的石头，墙边开着红花。罗莎在一棵树下停下来。大家可以在这里休息。他们的脸在阳光下变得热热的，所以凉爽的树荫让人感到很舒服。",
+    "小路尽头有一家小小的花园咖啡馆。店主路易斯把一个大水壶放在桌上，里面是加了橙子块的水。他没有加糖。游客们倒满各自的杯子，慢慢地喝水。罗莎把带来的橙子放进门边的篮子里。",
+    "路易斯为每位游客切一个橙子。橙子又甜又好吃。他还端来小碗装的豆子和温热的面包。大家围坐在一张长桌旁，了解彼此的名字。这次晨间散步不是比赛，而是一种轻松活动身体、分享食物和认识他人的方式。离开前，游客们帮路易斯把空碗拿进屋里。"
+  ],
+  "q": [
+    {
+      "s": "The visitors meet Rosa at nine.",
+      "a": "F",
+      "why": "原文说游客八点与罗莎见面。"
+    },
+    {
+      "s": "Luis adds no sugar to the orange water.",
+      "a": "T",
+      "why": "原文明确说他没有加糖。"
+    },
+    {
+      "s": "The visitors pay for the food before they leave.",
+      "a": "NG",
+      "why": "原文没有说明游客是否付了餐费。"
+    }
+  ]
+}

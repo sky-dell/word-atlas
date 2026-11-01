@@ -1,0 +1,48 @@
+{
+  "id": "r0032",
+  "ids": [
+    "true",
+    "television",
+    "back",
+    "gray",
+    "anyone",
+    "beautiful",
+    "tooth",
+    "relax",
+    "summer",
+    "group"
+  ],
+  "title": "Old Toys Bring New Business",
+  "titleZh": "旧玩具带来新生意",
+  "topic": "economy",
+  "cefr": 0,
+  "paras": [
+    "On River Street, old toys are bringing money to a small shop. Last [[summer|summer]], Mina started fixing toy animals there. At first, she had only two customers a week. Now, a [[group|group]] of people waits outside every Saturday. They bring animals with broken legs, lost ears, and dirty coats.",
+    "One customer, Pavel, brings a [[gray|gray]] toy horse. It has one white [[tooth|tooth]] in its open mouth. There is a hole in its [[back|back]], too. Mina puts new cloth over the hole. The horse is not [[beautiful|beautiful]], but Pavel smiles. His father gave it to him when he was six.",
+    "A story on [[television|television]] helped the shop find more customers. The report said people were paying to keep old toys, not buy new ones. This is [[true|true]] at Mina's shop. A small repair costs five pounds. A new toy often costs more. However, some customers bring toys from their family, like Pavel.",
+    "On Sundays, [[anyone|anyone]] can come to a free toy repair hour. Mina puts cloth and little tools on a long table. People sit, talk, and [[relax|relax]] while they work. They buy tea, but the help costs nothing. Mina now sells enough tea to pay for the cloth. Her little shop earns money by helping old things stay at home."
+  ],
+  "zh": [
+    "在河街上，旧玩具正为一家小店带来收入。去年夏天，米娜开始在那里修理玩具动物。起初，她每周只有两位顾客。现在，每到星期六，都有一群人在店外等候。他们带来的玩具动物有的腿断了，有的耳朵掉了，还有的外衣脏了。",
+    "一位名叫帕维尔的顾客带来了一匹灰色玩具马。它张开的嘴里有一颗白色的牙齿，背上也有一个洞。米娜用新布补上了那个洞。这匹马并不漂亮，但帕维尔笑了。这是他六岁时父亲送给他的。",
+    "电视上的一则报道帮助这家店吸引了更多顾客。报道说，人们正花钱留下旧玩具，而不是购买新玩具。在米娜的店里，情况确实如此。小修一次要五英镑，新玩具通常更贵。不过，有些顾客和帕维尔一样，带来的是家人送的玩具。",
+    "星期天，任何人都可以来参加一小时的免费玩具修理活动。米娜把布料和小工具放在一张长桌上。大家坐下来，一边干活，一边聊天放松。他们会买茶喝，但修理指导不收费。米娜现在卖茶赚的钱足够支付布料费用。她的小店靠帮助人们把旧物留在家中来赚钱。"
+  ],
+  "q": [
+    {
+      "s": "Mina had only two customers a week when she first started fixing toys.",
+      "a": "T",
+      "why": "文章明确说起初每周只有两位顾客。"
+    },
+    {
+      "s": "Pavel's father bought the toy horse on River Street.",
+      "a": "NG",
+      "why": "文中只说父亲送他玩具马，未说购买地点。"
+    },
+    {
+      "s": "People must pay Mina for help at the Sunday repair hour.",
+      "a": "F",
+      "why": "星期天修理活动中的指导是免费的。"
+    }
+  ]
+}

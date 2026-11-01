@@ -1,0 +1,46 @@
+{
+  "id": "r0193",
+  "ids": [
+    "solar",
+    "access",
+    "unlike",
+    "argument",
+    "ashamed",
+    "income",
+    "outdoors",
+    "favour",
+    "nightmare",
+    "underwear"
+  ],
+  "title": "From Dreams to Paper",
+  "titleZh": "把梦写在纸上",
+  "topic": "thinking",
+  "cefr": 2,
+  "paras": [
+    "People have written down dreams for thousands of years. In ancient Egypt, some dream books connected dream images with possible future events. However, these books were not personal diaries. [[unlike|Unlike]] a private notebook, they offered meanings that different readers could apply to their own dreams. Few people had [[access|access]] to written books, so recording dreams was not an everyday practice.",
+    "As paper became cheaper and more people learned to write, private dream notebooks became easier to keep. By the nineteenth century, a person with a modest [[income|income]] could buy a small notebook. An entry might describe a [[nightmare|nightmare]] about walking [[outdoors|outdoors]] wearing only [[underwear|underwear]]. Another might record a dream of a bitter [[argument|argument]] with a friend. The writer could feel [[ashamed|ashamed]] on waking, although the quarrel had never happened. Such details made each notebook deeply personal.",
+    "Later, dream recording became part of the study of the mind. Instead of asking only what a dream predicted, writers asked how it related to daily life. Today, someone who has just installed [[solar|solar]] panels might dream about a roof covered in them. A friend might do the writer a [[favour|favour]] by listening and noticing repeated events. A notebook beside the bed still serves a simple purpose: catching a strange experience before it disappears."
+  ],
+  "zh": [
+    "几千年来，人们一直在记录梦境。在古埃及，一些解梦书把梦中的景象与未来可能发生的事情联系起来。不过，这些书并不是个人日记。与私人笔记本不同，它们提供了一些解释，不同的读者可以用这些解释来理解自己的梦。当时很少有人有机会阅读书籍，因此记录梦境并不是日常习惯。",
+    "随着纸张变得更便宜，学会写字的人越来越多，记私人梦境笔记也变得更容易。到了十九世纪，收入不高的人也能买一本小笔记本。其中一篇可能描述这样一个噩梦：自己只穿着内衣走在户外。另一篇可能记录梦中与朋友激烈争吵的情景。醒来时，记录者也许会感到羞愧，尽管这场争吵从未真正发生。这些细节使每本笔记都带有鲜明的个人色彩。",
+    "后来，记录梦境成为研究心理活动的一部分。记录者不再只问梦预示着什么，也开始思考它与日常生活有什么联系。如今，刚安装了太阳能板的人可能会梦见铺满太阳能板的屋顶。朋友可以帮个忙，听记录者讲述，并留意反复出现的事件。床边的一本笔记本仍发挥着一个简单的作用：在一段奇特的经历消失之前，把它留住。"
+  ],
+  "q": [
+    {
+      "s": "Ancient Egyptian dream books could provide interpretations for more than one reader.",
+      "a": "T",
+      "why": "第一段说不同读者可用书中解释理解自己的梦。"
+    },
+    {
+      "s": "Keeping a private dream notebook became harder as paper prices fell.",
+      "a": "F",
+      "why": "第二段说纸张变便宜使记录梦境更容易。"
+    },
+    {
+      "s": "Modern dream writers usually share their notebooks with family members.",
+      "a": "NG",
+      "why": "文章未说明现代记录者是否常与家人分享笔记。"
+    }
+  ]
+}

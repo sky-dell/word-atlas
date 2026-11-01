@@ -1,0 +1,46 @@
+{
+  "id": "r0122",
+  "ids": [
+    "northwest",
+    "runner",
+    "pork",
+    "drama",
+    "surprise",
+    "case",
+    "spider",
+    "pepper",
+    "allow",
+    "camping"
+  ],
+  "title": "Voices Along the River",
+  "titleZh": "河边的声音",
+  "topic": "technology",
+  "cefr": 1,
+  "paras": [
+    "In the [[northwest|northwest]] of Bellwick, a village group made an audio walk beside the river. Visitors could borrow small music players from the village shop for free. Each player held six short recordings about places along the path. Hana, a [[runner|runner]], tested the route every morning. She found safe places where people could stop and listen without blocking the narrow path.",
+    "The recordings shared village life through sounds and stories. Beside the old kitchen, listeners heard a cook explain how to prepare [[pork|pork]] with salt and [[pepper|pepper]]. Near the bridge, a [[drama|drama]] club performed a story about a lost dog. All the voices belonged to village people, not paid actors. In one recording, a teacher described a [[spider|spider]] building its web. The biggest [[surprise|surprise]] came when she changed her voice and spoke as the spider.",
+    "During the first test, rain nearly reached a player inside its cloth [[case|case]]. A simple plastic bag kept it dry. The group also asked a farmer to [[allow|allow]] visitors to cross his field. He agreed and offered space for [[camping|camping]] near the final listening point. By summer, twelve families had tried the walk. Money from their tent fees bought two more players, so the little project could continue."
+  ],
+  "zh": [
+    "在贝尔威克村的西北部，一个村民小组在河边设计了一条有声步行路线。游客可以从村里的商店免费借用小型音乐播放器。每台播放器里都有六段简短录音，介绍沿途的地点。跑步爱好者哈娜每天早晨都会试走这条路线。她找到了几处安全的地方，让人们可以停下来听录音，又不会挡住狭窄的小路。",
+    "这些录音通过声音和故事介绍村里的生活。在老厨房旁，游客能听到一位厨师讲解如何用盐和胡椒粉烹制猪肉。在桥附近，一个戏剧社表演了一个关于走失小狗的故事。所有声音都来自村民，而不是付费请来的演员。在一段录音中，一位教师描述了一只蜘蛛织网的情景。最让人意外的是，她变换了嗓音，以蜘蛛的口吻说起话来。",
+    "第一次测试时，雨水差点淋到布套里的播放器。一个简单的塑料袋让它保持了干燥。小组还请求一位农民允许游客穿过他的田地。他同意了，还在最后一个收听点附近提供了露营的地方。到夏天，已有十二个家庭体验了这条步行路线。他们支付的帐篷营位费又买来了两台播放器，让这个小项目得以继续。"
+  ],
+  "q": [
+    {
+      "s": "Visitors did not have to pay to borrow a music player.",
+      "a": "T",
+      "why": "第一段说游客可以免费借用播放器。"
+    },
+    {
+      "s": "The recording about the lost dog lasted three minutes.",
+      "a": "NG",
+      "why": "文中未说明走失小狗故事的录音时长。"
+    },
+    {
+      "s": "The farmer refused to let visitors cross his field.",
+      "a": "F",
+      "why": "末段明确说农民同意游客穿过他的田地。"
+    }
+  ]
+}

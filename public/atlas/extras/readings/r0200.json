@@ -1,0 +1,48 @@
+{
+  "id": "r0200",
+  "ids": [
+    "cutlery",
+    "nor",
+    "contact",
+    "woollen",
+    "prevent",
+    "mad",
+    "jail",
+    "disadvantage",
+    "familiar",
+    "marvellous"
+  ],
+  "title": "Quiet Meals Behind Thick Walls",
+  "titleZh": "厚墙里的安静晚餐",
+  "topic": "city",
+  "cefr": 2,
+  "paras": [
+    "In the city of Bellwick, a surprising dining trend is growing: people are paying to eat in silence. Three small restaurants now offer quiet evenings. The newest, Stone Table, opened in a former [[jail|jail]] last autumn. Its thick walls, once designed to keep prisoners inside, now keep street noise outside.",
+    "Inside, the food is [[familiar|familiar]]: vegetable soup, fresh bread and apple cake. However, the tables look slightly different. Soft [[woollen|woollen]] mats lie beneath the plates, and the [[cutlery|cutlery]] rests on folded cloths. These details help [[prevent|prevent]] sudden noises. Music is not played, [[nor|nor]] are loud conversations allowed. Guests speak softly when ordering.",
+    "Owner Leila Costa says the idea came from a neighbour who was [[mad|mad]] about noise from the building's previous restaurant. Instead of closing earlier, she changed the whole dining experience. The main [[disadvantage|disadvantage]] is that large groups rarely book. Yet people who work in busy shops have become regular visitors. Some keep in [[contact|contact]] with Leila by email to reserve the same table each week.",
+    "On Friday, every seat was taken, but the room remained peaceful. Baker Tomas Reed described his meal as “[[marvellous|marvellous]]—for once, I could hear the bread break.” Leila is now adding a second quiet evening. A building once known for punishment has become somewhere people choose to find peace."
+  ],
+  "zh": [
+    "在贝尔威克市，一种令人意外的用餐潮流正在兴起：人们花钱享用安静的晚餐。如今，已有三家小餐馆推出安静用餐之夜。最新的一家名叫“石桌”，去年秋天在一座旧监狱里开业。这里的厚墙过去是为了关住囚犯，如今却将街上的噪声挡在了外面。",
+    "餐馆里的食物都是熟悉的家常味道：蔬菜汤、新鲜面包和苹果蛋糕。不过，餐桌看起来略有不同。盘子下面铺着柔软的羊毛垫，刀叉匙则放在折好的布巾上。这些细节有助于避免突然发出声响。餐馆不播放音乐，也不允许大声交谈。客人点餐时都轻声细语。",
+    "店主莱拉·科斯塔说，这个主意源于一位邻居，这位邻居曾因这里上一家餐馆的噪声而十分生气。她没有选择提早打烊，而是改变了整个用餐体验。主要的缺点是，很少有大群客人预订。不过，在繁忙商店工作的人已经成了常客。有些人通过电子邮件与莱拉保持联系，每周预订同一张桌子。",
+    "周五，餐馆座无虚席，屋里却依旧安静。面包师托马斯·里德形容这顿饭“妙极了——我总算能听见掰开面包的声音了”。莱拉现在正准备每周再增加一个安静用餐之夜。这座曾以惩罚闻名的建筑，如今成了人们主动前来寻找宁静的地方。"
+  ],
+  "q": [
+    {
+      "s": "Stone Table's walls help protect diners from sounds outside.",
+      "a": "T",
+      "why": "第一段说厚墙如今将街道噪声挡在外面。"
+    },
+    {
+      "s": "Leila bought the woollen mats from a local shop.",
+      "a": "NG",
+      "why": "文章未说明羊毛餐垫的购买地点。"
+    },
+    {
+      "s": "Leila solved the noise problem by ending dinner service earlier.",
+      "a": "F",
+      "why": "第三段说她没有提早打烊，而是改变用餐体验。"
+    }
+  ]
+}

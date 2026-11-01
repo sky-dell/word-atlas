@@ -1,0 +1,48 @@
+{
+  "id": "r0567",
+  "ids": [
+    "obligate",
+    "chronic",
+    "secluded",
+    "dissatisfy",
+    "deduction",
+    "equilibrium",
+    "monumental",
+    "ply",
+    "fidelity",
+    "curt"
+  ],
+  "title": "When a Quiet Lake Breathes",
+  "titleZh": "静湖的呼吸",
+  "topic": "environment",
+  "cefr": 4,
+  "paras": [
+    "Each autumn, a [[secluded|secluded]] woodland lake can acquire the smell of rotten eggs, although no new waste has entered it. Boat operators who [[ply|ply]] its narrow length sometimes offer a [[curt|curt]] explanation: “Just the mud.” Such answers [[dissatisfy|dissatisfy]] visitors seeking an account of the change, because the apparent disturbance actually begins far above the lake bed, at the cooling surface.",
+    "During summer, sunlight warms the upper water while the depths remain cold. Since warmer freshwater is less dense, it floats above the colder layer, restricting vertical mixing. Below this boundary, decomposing leaves consume oxygen that cannot readily be replaced. The resulting [[chronic|chronic]] oxygen shortage allows certain microbes to produce hydrogen sulphide, the gas responsible for the distinctive smell.",
+    "The decisive change arrives when autumn nights cool the surface. Its increasing density weakens the lake’s layered stability until wind can mix water through much of its depth. The [[deduction|deduction]] that pollution must have increased is therefore often mistaken: previously trapped substances are simply being redistributed. What seems a [[monumental|monumental]] disruption is, in many lakes, a seasonal transition towards a different [[equilibrium|equilibrium]].",
+    "Researchers distinguish this natural turnover from contamination by measuring temperature, oxygen and sulphide at successive depths. Sampling permits may [[obligate|obligate]] them to report hazardous readings, while [[fidelity|fidelity]] to their scientific duty requires explaining what those readings actually establish. A smell alone proves little. As mixing replenishes deep oxygen, sulphide production declines and existing sulphide is oxidised; the lake’s brief, unpleasant breath can thus accompany its renewal."
+  ],
+  "zh": [
+    "每到秋季，一座僻静的林间湖泊可能会散发出臭鸡蛋的气味，尽管并没有新的废物进入湖中。定期驾船沿狭长湖面往返的船工，有时会生硬地解释一句：“不过是淤泥罢了。”这样的回答无法令想要了解变化原因的游客满意，因为这种看似异常的扰动，实际上始于远离湖底的地方——正在冷却的水面。",
+    "夏季，阳光使上层湖水升温，而深处依然寒冷。由于较暖的淡水密度较低，它会浮在较冷的水层之上，限制水体的垂直混合。在这条分界线以下，腐烂的树叶不断消耗氧气，而氧气又难以及时得到补充。由此形成的长期缺氧环境，使某些微生物能够产生硫化氢，这种气体正是特殊臭味的来源。",
+    "当秋夜使湖面降温时，决定性的变化便出现了。表层湖水密度增大，削弱了湖水分层结构的稳定性，直到风能够使水体在很大的深度范围内混合。因此，认定污染必然加重的推断往往是错误的：先前被困在深处的物质，只是在重新分布而已。看似巨大的扰动，在许多湖泊中，其实是向另一种平衡状态过渡的季节性过程。",
+    "研究人员通过逐层测量不同深度的水温、氧气和硫化氢含量，将这种自然翻转与污染区分开来。采样许可可能要求他们必须报告表明存在危险的读数，而忠于科学职责，则要求他们解释这些读数究竟能够证明什么。单凭气味，几乎无法得出结论。随着水体混合为深层补充氧气，硫化氢的生成减少，已有的硫化氢也被氧化；因此，湖泊短暂而难闻的“呼吸”，可能恰恰伴随着它的更新。"
+  ],
+  "q": [
+    {
+      "s": "The lake can develop an unpleasant autumn odour only if additional waste enters it.",
+      "a": "F",
+      "why": "首段指出没有新废物进入也可能出现臭味。"
+    },
+    {
+      "s": "Summer temperature differences restrict vertical mixing in the lake.",
+      "a": "T",
+      "why": "第二段说明温差形成分层，限制垂直混合。"
+    },
+    {
+      "s": "Researchers take measurements more frequently in autumn than in summer.",
+      "a": "NG",
+      "why": "文章未比较秋季与夏季的测量频率。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0513",
+  "ids": [
+    "coursework",
+    "crucial",
+    "demolish",
+    "consultant",
+    "operate",
+    "companion",
+    "furious",
+    "pierce",
+    "footstep",
+    "clay"
+  ],
+  "title": "Lessons in a Kiln Wall",
+  "titleZh": "砖窑墙上的自然课",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "14 May, 8:10 a.m. At the abandoned brick kiln, my [[companion|companion]], Leila, stopped beside a sunny wall. We were recording solitary bees for the [[coursework|coursework]] component of an evening ecology course. Each [[footstep|footstep]] raised pale dust, but close to the wall the ground remained damp. Small bees were carrying pellets of [[clay|clay]] into gaps between the bricks.",
+    "Our tutor had asked us to distinguish nesting activity from simple sheltering. This detail was [[crucial|crucial]]: a bee entering a hole once proved little, whereas repeated deliveries suggested a nest under construction. I learned to [[operate|operate]] a camera with a close-focus lens while Leila timed the visits. In twenty minutes, one female returned six times, always landing on the same chipped corner.",
+    "Beyond the fence stood a notice announcing plans to [[demolish|demolish]] the kiln. Leila was [[furious|furious]] when she read it; she had assumed the building was protected. However, the site manager explained that a paid wildlife [[consultant|consultant]] would inspect it before any work began. We offered our records rather than arguing. Meanwhile, a bee used her pointed jaws to [[pierce|pierce]] the thin mud seal of an old cavity, scattering grains onto the ledge.",
+    "By noon, our map showed eleven active entrances, mostly along the warmer eastern wall. We sent photographs and timings to the manager. The kiln's future remained uncertain, but our field notes now had a purpose beyond assessment: they made a small, easily overlooked community visible."
+  ],
+  "zh": [
+    "5月14日，上午8点10分。在废弃砖窑旁，我的同伴莱拉在一面向阳的墙边停了下来。我们正在记录独居蜂的活动，这是夜间生态学课程的一项作业。每走一步，脚下都会扬起浅色的尘土，但靠近墙面的地面仍然潮湿。小小的蜂正把一粒粒黏土搬进砖缝。",
+    "导师要求我们区分筑巢行为和单纯躲藏的行为。这个细节至关重要：蜂只进入洞中一次，并不能说明什么，而反复运送材料则表明它可能正在筑巢。我学习操作一台配有近摄镜头的相机，莱拉则记录蜂往返的时间。二十分钟内，一只雌蜂返回了六次，每次都落在同一个缺角处。",
+    "围栏外立着一块告示，宣布了拆除砖窑的计划。莱拉读后十分愤怒；她原以为这座建筑受到保护。不过，场地负责人解释说，施工开始前，会有一位受聘的野生动物顾问前来检查。我们没有争辩，而是提出提供记录。与此同时，一只蜂用尖锐的上颚刺穿了一个旧洞穴的薄泥封口，泥粒散落在墙沿上。",
+    "到中午时，我们的地图上已标出十一处有蜂活动的洞口，大多位于较温暖的东墙。我们把照片和时间记录发给了负责人。砖窑的未来仍未确定，但我们的野外笔记已有了超越课程考核的用途：它们让一个微小而容易被忽视的生物群落进入了人们的视野。"
+  ],
+  "q": [
+    {
+      "s": "The ecology course for which the observers were collecting records was a daytime course.",
+      "a": "F",
+      "why": "首段明确说这是夜间生态学课程。"
+    },
+    {
+      "s": "According to the manager, a wildlife consultant would inspect the kiln before any work began.",
+      "a": "T",
+      "why": "负责人说顾问会在任何施工开始前检查。"
+    },
+    {
+      "s": "The bees recorded on the eastern wall remain in their nests throughout winter.",
+      "a": "NG",
+      "why": "末段记录洞口位置，未提蜂的越冬行为。"
+    }
+  ]
+}

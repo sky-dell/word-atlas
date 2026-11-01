@@ -1,0 +1,48 @@
+{
+  "id": "r0664",
+  "ids": [
+    "preach",
+    "meek",
+    "accompaniment",
+    "logistics",
+    "perceptible",
+    "adept",
+    "pretentious",
+    "peripheral",
+    "deterioration",
+    "alienation"
+  ],
+  "title": "Lunch Beyond the Chapel Door",
+  "titleZh": "礼拜堂门外的午餐",
+  "topic": "daily",
+  "cefr": 4,
+  "paras": [
+    "In a hillside village on Madeira, visitors following the smell of baked onions may discover a communal lunch behind a whitewashed chapel. Its apparent simplicity conceals considerable [[logistics|logistics]]: bread arrives by handcart, vegetables come from scattered terraces, and two neighbours carry folding tables down a staircase too narrow for vehicles.",
+    "Before lunch, travellers can hear a retired fisherman [[preach|preach]] to the congregation about generosity, while his sister provides a restrained harmonium [[accompaniment|accompaniment]] for their singing. Although her manner initially seems [[meek|meek]], she firmly rejects any attempt to hurry the final verse. The transition from worship to conversation is barely [[perceptible|perceptible]]; a whispered greeting becomes an invitation to stay.",
+    "In the kitchen, Celina is [[adept|adept]] at stretching a pot of bean stew without making late arrivals feel inconvenient. She dismisses as [[pretentious|pretentious]] a visitor's suggestion that the meal deserves an elaborate tasting menu. Recipes, she explains, are almost [[peripheral|peripheral]] to the undertaking: what matters is that nobody eats alone. Nevertheless, she insists on warming every bowl, even when the afternoon sun has already heated the courtyard.",
+    "The building shows signs of [[deterioration|deterioration]], including flaking plaster beneath a window, yet the gathering resists another kind of decline. For residents whose relatives have moved overseas, laying an extra place offers a modest defence against [[alienation|alienation]]. Travellers leave with no certificate of cultural discovery, only the memory of passing bread along a crowded table—and, perhaps, a different understanding of what makes an ordinary lunch worth a journey."
+  ],
+  "zh": [
+    "在马德拉岛的一个山坡村庄里，循着烤洋葱香气而来的游客，或许会在一座刷白的礼拜堂后面发现一场邻里聚餐。看似简单的午餐，背后却需要周密的后勤安排：面包由手推车送来，蔬菜采自分散的梯田，两位邻居则把折叠桌沿着一段车辆无法通行的狭窄楼梯搬下来。",
+    "午餐前，游客可以听一位退休渔民向会众讲道，谈论慷慨待人的意义；大家唱诗时，他的姐妹用簧风琴轻柔地伴奏。她起初显得温顺，却坚决拒绝任何催促大家唱完最后一节的举动。从礼拜到闲谈的过渡几乎难以察觉，一声低语的问候，就变成了留下用餐的邀请。",
+    "厨房里的塞莉娜很擅长让一锅炖豆子供更多人享用，同时又不让迟到的人觉得自己添了麻烦。一位游客提议，这顿饭值得配上一份精心设计的品鉴菜单，她却认为这种做法故作高雅。她解释说，菜谱在这件事中几乎只是次要的，重要的是没有人独自吃饭。尽管如此，她仍坚持把每只碗预热，哪怕午后的阳光早已晒暖了庭院。",
+    "这座建筑已显露破损的迹象，其中一扇窗下的灰泥正在剥落，但这场聚餐却在抵御另一种衰退。对于亲人移居海外的居民而言，多摆一副餐具，便是抵挡疏离感的一种朴素方式。游客离开时，没有任何证明自己发现了当地文化的证书，只有在拥挤餐桌旁传递面包的记忆——或许，还有对一顿普通午餐为何值得专程前来的一番新理解。"
+  ],
+  "q": [
+    {
+      "s": "The staircase used to carry the tables is wide enough for vehicles.",
+      "a": "F",
+      "why": "首段明确说楼梯太窄，车辆无法通行。"
+    },
+    {
+      "s": "The fisherman's sister learned to play the harmonium as a child.",
+      "a": "NG",
+      "why": "文中未说明她何时学习簧风琴。"
+    },
+    {
+      "s": "Celina insists on warming every bowl even when the courtyard is already warm.",
+      "a": "T",
+      "why": "第三段说庭院已被晒暖，她仍坚持暖碗。"
+    }
+  ]
+}

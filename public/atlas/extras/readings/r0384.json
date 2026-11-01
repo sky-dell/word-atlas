@@ -1,0 +1,48 @@
+{
+  "id": "r0384",
+  "ids": [
+    "hostage",
+    "overlapping",
+    "abnormal",
+    "enhance",
+    "percussion",
+    "compensate",
+    "commit",
+    "devote",
+    "self",
+    "dental"
+  ],
+  "title": "The Sound Behind the Curtain",
+  "titleZh": "幕后的声音",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "In a narrow workshop above a theatre, sound designer Leila Haddad builds instruments for puppet performances. Her latest commission is a wooden box that must suggest footsteps, rain and a prison door. In the play, a merchant is held as a [[hostage|hostage]] by thieves who [[commit|commit]] a robbery and demand money for his release.",
+    "Leila creates these effects with [[percussion|percussion]], using objects that performers can strike or shake. Inside the box, [[overlapping|overlapping]] strips of thin metal produce a convincing storm when a handle turns. She uses a small [[dental|dental]] mirror to inspect the hidden joints. An [[abnormal|abnormal]] clicking noise during testing reveals a loose screw, which she replaces before adjusting the strips to [[enhance|enhance]] their deeper tones.",
+    "Although the audience never sees her, Leila considers each instrument an expression of her [[self|self]]: practical, curious and slightly playful. She used to repair furniture, but decided to [[devote|devote]] her working life to theatrical sound after making a thunder sheet for a neighbour. That first experiment damaged a borrowed drum, and she sold two chairs to [[compensate|compensate]] its owner.",
+    "Now she tests every device on a padded bench before taking it into rehearsal. During the final run of the new play, the puppeteer turns the handle too slowly. Rather than interrupt, Leila listens: the storm becomes gentle rain. She adds a second speed mark beside the handle, preserving a useful discovery that no drawing had predicted."
+  ],
+  "zh": [
+    "在剧院楼上一间狭窄的工作室里，音效设计师莱拉·哈达德为木偶表演制作乐器。她最近接到的委托是制作一个木箱，用来模拟脚步声、雨声和牢门的声音。剧中，一伙盗贼实施抢劫，并将一名商人扣为人质，要求交钱才肯放人。",
+    "莱拉利用可以敲击或摇晃的物件，通过打击乐制造这些音效。木箱内，部分重叠的薄金属片在手柄转动时，能发出逼真的暴风雨声。她用一面小小的牙科检查镜查看隐蔽的连接处。测试时，一阵异常的咔嗒声暴露了一颗松动的螺丝。她先更换螺丝，再调整金属片，让低沉的音色更加饱满。",
+    "虽然观众看不到她，莱拉却认为每件乐器都体现了她的自我：务实、好奇，又带着几分俏皮。她以前修理家具，但在为邻居制作了一块模拟雷声的金属板后，便决定将自己的职业生涯投入戏剧音效制作。第一次尝试损坏了一面借来的鼓，她卖掉了两把椅子，赔偿鼓的主人。",
+    "如今，她会先在铺有软垫的工作台上测试每件装置，再将其带到排练现场。新剧最后一次连排时，木偶师把手柄转得太慢了。莱拉没有打断，而是仔细倾听：暴风雨变成了轻柔的细雨。她在手柄旁添上第二个速度标记，保留了这个任何设计图都未曾预料到的实用发现。"
+  ],
+  "q": [
+    {
+      "s": "Leila was given a month to complete the wooden box.",
+      "a": "NG",
+      "why": "首段介绍了委托，但未说明制作期限。"
+    },
+    {
+      "s": "Leila compensated the drum's owner without selling any furniture.",
+      "a": "F",
+      "why": "她卖掉两把椅子来赔偿鼓的主人。"
+    },
+    {
+      "s": "Leila added another speed mark after hearing the gentler rain sound.",
+      "a": "T",
+      "why": "末段说明她听到细雨声后加了第二个速度标记。"
+    }
+  ]
+}

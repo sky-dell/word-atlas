@@ -1,0 +1,48 @@
+{
+  "id": "r0322",
+  "ids": [
+    "hug",
+    "historic",
+    "immediate",
+    "rainbow",
+    "tin",
+    "assignment",
+    "chemist",
+    "vowel",
+    "amazed",
+    "value"
+  ],
+  "title": "A Voice Along a String",
+  "titleZh": "沿着细绳传来的声音",
+  "topic": "daily",
+  "cefr": 2,
+  "paras": [
+    "After a rainy lunch, a [[rainbow|rainbow]] appeared above Leila's garden. Inside, her grandson Sami was opening a box of old objects. Leila, a retired [[chemist|chemist]], had an unusual weekend [[assignment|assignment]] from a village museum: build a simple telephone that visitors could try. She picked up an empty [[tin|tin]] that had once held beans.",
+    "Her plan needed two metal containers and a long string. Leila made a small hole in the bottom of each container, passed the string through, and tied knots at both ends. She covered the sharp edges with tape. Then Sami walked across the kitchen, pulling the string tight while Leila spoke softly into her end.",
+    "The result was [[immediate|immediate]]: Sami could hear her voice. He was [[amazed|amazed]] that it sounded so clear. Leila explained that speech makes the metal bottom shake. These movements travel along the tight string to the other end. To compare sounds, they tried each [[vowel|vowel]] in turn. When the string hung loosely, the voice became much harder to hear.",
+    "The museum would place their device beside a display about the [[historic|historic]] first telephone call. Their homemade version had little financial [[value|value]], but it made an invisible process easy to explore. Before leaving, Sami [[hug|hugged]] his grandmother. A bean container had given them something better than another quiet afternoon."
+  ],
+  "zh": [
+    "午饭时下着雨，饭后蕾拉家的花园上空出现了一道彩虹。屋里，她的一个孙辈，名叫萨米，正在打开一盒旧物。蕾拉是一位退休化学家，她从村里的博物馆接到了一项不同寻常的周末任务：制作一部供参观者体验的简易电话。她拿起一个曾经装过豆子的空金属罐。",
+    "她的方案需要两个金属容器和一根长绳。蕾拉在每个容器底部打了一个小孔，将绳子穿过去，再在两端打结。她用胶带盖住锋利的边缘。随后，萨米走到厨房另一头，把绳子拉紧，蕾拉则对着自己这头的罐子轻声说话。",
+    "效果立刻就出现了：萨米能听见她的声音。他十分惊讶，声音竟然如此清晰。蕾拉解释说，说话会使金属罐底振动。这些振动沿着绷紧的绳子传到另一端。为了比较不同的声音，他们依次试着发出每个元音。当绳子松垂下来时，说话声就难听清多了。",
+    "博物馆打算把他们的装置放在介绍具有历史意义的首次电话通话的展板旁。这件自制装置不值多少钱，却让一个看不见的过程变得容易探索。离开前，萨米给了蕾拉一个祖孙间的拥抱。一个豆子罐，让他们度过了一个比平静的午后更有意思的下午。"
+  ],
+  "q": [
+    {
+      "s": "Leila's museum assignment was to build a telephone that visitors could only look at.",
+      "a": "F",
+      "why": "任务是制作供参观者亲自体验的电话。"
+    },
+    {
+      "s": "The string Leila used was three metres long.",
+      "a": "NG",
+      "why": "只说使用长绳，未说明具体长度。"
+    },
+    {
+      "s": "The voice became harder to hear when the string was loose.",
+      "a": "T",
+      "why": "第三段明确说绳子松垂时声音更难听清。"
+    }
+  ]
+}

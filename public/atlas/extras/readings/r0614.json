@@ -1,0 +1,48 @@
+{
+  "id": "r0614",
+  "ids": [
+    "insulation",
+    "clench",
+    "acquaint",
+    "weld",
+    "serenity",
+    "colloquial",
+    "construe",
+    "transcend",
+    "pry",
+    "outset"
+  ],
+  "title": "A Shelter Without Questions",
+  "titleZh": "一间不问私事的旅舍",
+  "topic": "travel",
+  "cefr": 4,
+  "paras": [
+    "At the [[outset|outset]] of their walking-route project, six residents of Bellwater village proposed converting an abandoned weighing hut into an overnight shelter. The route crossed a limestone plateau where accommodation was scarce, although hikers had long admired its [[serenity|serenity]]. Rather than attract larger crowds, the group wanted existing visitors to stay long enough to encounter village life.",
+    "Restoration revealed why nobody lingered inside: wind entered through the roof, making volunteers [[clench|clench]] their teeth against the cold. Builder Hana installed sheep’s-wool [[insulation|insulation]], while retired mechanic Tomas agreed to [[weld|weld]] a broken stove bracket. With two sleeping platforms and a table recovered from a bakery, the hut became habitable without losing the rough character that distinguished it from commercial lodgings.",
+    "To [[acquaint|acquaint]] guests with the surrounding landscape, resident Leila compiled a handwritten booklet combining route sketches with villagers’ recollections. Its deliberately [[colloquial|colloquial]] language preserved expressions such as “the hill that steals your breakfast”. However, contributors could omit names and personal histories. Leila warned volunteers not to [[construe|construe]] a visitor’s silence as dissatisfaction: hospitality offered no licence to [[pry|pry]] into why someone was travelling alone.",
+    "During the first autumn, forty-three walkers stayed, and several added drawings or practical corrections to the booklet. One identified a spring that disappeared after prolonged dry weather, prompting a revised water warning. Such modest exchanges helped the project [[transcend|transcend]] its initial purpose as cheap accommodation. By winter, the hut held not merely beds but a growing record of attention: to the terrain, to strangers, and to the boundaries between them."
+  ],
+  "zh": [
+    "在步行线路项目启动之初，贝尔沃特村的六位居民提议，将一间废弃的称重小屋改造成可供过夜的旅舍。这条线路穿过一片石灰岩高原，沿途住宿稀少，但徒步者一直很欣赏那里宁静的氛围。小组并不想招来更多人，而是希望已经来到这里的游客能多停留一阵，接触村里的生活。",
+    "修缮工作揭示了为何没人愿意在屋内久留：风从屋顶灌入，冻得志愿者咬紧牙关。建筑工人哈娜铺设了羊毛保温层，退休机械师托马斯则答应焊好一个断裂的炉具支架。添上两个睡铺，再放入一张从面包房收来的桌子，小屋便可以住人了，同时仍保留着有别于商业旅宿的质朴特色。",
+    "为了让客人熟悉周边地貌，村民莱拉编写了一本手写小册子，将路线草图与村民的回忆汇集在一起。她刻意采用口语化的语言，保留了诸如“那座偷走你早餐的山”之类的说法。不过，提供材料的人可以隐去姓名和个人经历。莱拉提醒志愿者，不要把访客的沉默理解为不满：热情待客并不意味着有权打探别人独自旅行的原因。",
+    "第一个秋天，共有四十三位徒步者入住，其中几人在小册子里添了图画，或作出了实用的修正。一位访客指出，有一处泉水会在长期干旱后断流，促使大家更新了用水提示。这些不起眼的交流，使项目超越了提供廉价住宿的最初目的。入冬时，小屋里不只有床铺，还有一份不断充实的记录，见证着人们对地形、对陌生人以及彼此之间界限的关注。"
+  ],
+  "q": [
+    {
+      "s": "The villagers aimed to extend visitors’ stays rather than increase visitor numbers.",
+      "a": "T",
+      "why": "首段说希望现有游客多停留，而非吸引更多人。"
+    },
+    {
+      "s": "Leila spent three months compiling the handwritten booklet.",
+      "a": "NG",
+      "why": "文章未说明莱拉编写小册子用了多久。"
+    },
+    {
+      "s": "The booklet’s water warning remained unchanged after the walker reported the unreliable spring.",
+      "a": "F",
+      "why": "末段明确说泉水断流的信息促使用水提示更新。"
+    }
+  ]
+}

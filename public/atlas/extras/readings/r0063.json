@@ -1,0 +1,46 @@
+{
+  "id": "r0063",
+  "ids": [
+    "toy",
+    "so",
+    "climb",
+    "bird",
+    "game",
+    "single",
+    "park",
+    "boy",
+    "chicken",
+    "milk"
+  ],
+  "title": "Wooden Birds on the Hill",
+  "titleZh": "山上的木鸟",
+  "topic": "travel",
+  "cefr": 0,
+  "paras": [
+    "On Sunday, I visit a small hill town with my aunt. We [[climb|climb]] the stone steps to a [[park|park]] at the top. There are flowers beside the steps. A [[boy|boy]] called Ravi walks with us. He carries a wooden [[toy|toy]] in his hand. It has red wings and a yellow head. “My grandfather made this,” he says. “Come and see his table.”",
+    "Under a tree, Ravi’s grandfather makes wooden [[bird|birds]]. His hands move slowly over the wood. I watch him paint a [[chicken|chicken]] with a little red head. Near his feet, a real one looks for food in the grass. Ravi shows me a [[game|game]]. We each roll a small ball and try to hit a [[single|single]] wooden egg. My aunt hits it first.",
+    "After the game, we sit beside the table. Ravi’s grandmother brings warm [[milk|milk]] in blue cups. The morning air is [[so|so]] cold that I hold my cup with both hands. She tells us that families meet here every Sunday to make things and play. Before we leave, I buy the red bird. At home, it sits by my window and brings back our morning on the hill."
+  ],
+  "zh": [
+    "星期天，我和一位姑姑或姨妈来到一座山上的小镇。我们沿着石阶爬到山顶的公园。石阶旁开着花。一个叫拉维的男孩和我们一起走。他手里拿着一个木制玩具。它有红色的翅膀和黄色的头。“这是我爷爷或外公做的，”他说，“来看看他的桌子吧。”",
+    "树下，拉维的爷爷或外公正在制作木鸟。他的双手在木头上缓缓移动。我看着他给一只长着小红头的木鸡上色。他脚边有一只真鸡，正在草地里找吃的。拉维教我玩一个游戏。我们各滚出一个小球，试着击中那唯一的一枚木蛋。和我同行的姑姑或姨妈先击中了它。",
+    "游戏结束后，我们坐在桌边。拉维的奶奶或外婆用蓝色杯子端来温牛奶。早晨的空气冷得让我用双手捧着杯子。她告诉我们，每个星期天，各家人都会来这里一起做东西、玩游戏。离开前，我买下了那只红色的木鸟。在家里，它摆在我的窗边，让我想起我们在山上的那个早晨。"
+  ],
+  "q": [
+    {
+      "s": "Ravi's wooden toy has a blue head.",
+      "a": "F",
+      "why": "玩具的头是黄色的，不是蓝色的。"
+    },
+    {
+      "s": "A real chicken looks for food near the grandfather.",
+      "a": "T",
+      "why": "老人脚边有一只真鸡在草地里找食物。"
+    },
+    {
+      "s": "The writer pays two coins for the red bird.",
+      "a": "NG",
+      "why": "文章只说买了木鸟，未提价格。"
+    }
+  ]
+}

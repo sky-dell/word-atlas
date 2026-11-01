@@ -1,0 +1,46 @@
+{
+  "id": "r0265",
+  "ids": [
+    "hunt",
+    "lead",
+    "ignore",
+    "regularly",
+    "babysitter",
+    "urgent",
+    "fasten",
+    "role",
+    "survive",
+    "balance"
+  ],
+  "title": "Mira’s Quiet Evening Work",
+  "titleZh": "米拉安静的晚间工作",
+  "topic": "daily",
+  "cefr": 2,
+  "paras": [
+    "At six each evening, bird researcher Mira Das leaves her daughter with a [[babysitter|babysitter]] and walks to a small bird centre behind her house. There, she studies how injured owls learn to [[hunt|hunt]] again before returning to the wild. Her [[role|role]] is to record their progress, not to make them comfortable around people. She checks their wings [[regularly|regularly]] and watches them through a narrow window.",
+    "One autumn, a young owl called Ash arrived after a storm. He could fly, but often lost his [[balance|balance]] when landing on a branch. Mira placed thick branches close to the ground so he could practise safely. She did not [[ignore|ignore]] his small improvements: each successful landing went into her blue notebook. One evening, an [[urgent|urgent]] call from a neighbour interrupted her work. A fallen tree had damaged the centre’s outer fence. Before going outside, Mira stopped to [[fasten|fasten]] the owl room’s door securely.",
+    "Over the following weeks, Ash grew stronger. Mira used pieces of food to [[lead|lead]] him towards higher branches. Later, she watched him catch mice without help, an important sign that he could [[survive|survive]] outside. On his final evening, she opened a wooden box beside the woods. Ash flew straight onto a high branch. For once, Mira left her notebook closed and simply watched."
+  ],
+  "zh": [
+    "每天傍晚六点，鸟类研究员米拉·达斯把女儿交给临时保姆照看，然后步行前往屋后的一家小型鸟类中心。在那里，她研究受伤的猫头鹰如何在重返野外之前重新学会捕猎。她的职责是记录它们的恢复进展，而不是让它们习惯与人相处。她定期检查它们的翅膀，并透过一扇狭窄的窗户观察它们。",
+    "一年秋天，一只名叫阿什的小猫头鹰在暴风雨后被送到了中心。他能够飞行，但落到树枝上时常常失去平衡。米拉在靠近地面的地方放置了粗树枝，让他能够安全地练习。她没有忽视他一点一滴的进步：每次成功落稳，她都会记在蓝色笔记本里。一天晚上，邻居打来的一通紧急电话打断了她的工作。一棵倒下的树砸坏了中心的外围围栏。出去之前，米拉先停下来，把猫头鹰房间的门牢牢扣好。",
+    "接下来的几周里，阿什变得更强壮了。米拉用小块食物引导他飞向更高的树枝。后来，她观察到他不需要帮助就能捉到老鼠，这是他能够在野外生存的重要迹象。在阿什离开的那个傍晚，她在树林旁打开了一个木箱。阿什径直飞到了一根高高的树枝上。这一次，米拉没有翻开笔记本，只是静静地看着。"
+  ],
+  "q": [
+    {
+      "s": "Mira studies how injured owls learn to hunt again before returning to the wild.",
+      "a": "T",
+      "why": "她研究受伤猫头鹰在重返野外前重新学会捕猎。"
+    },
+    {
+      "s": "Mira recorded only major changes in Ash’s ability to land.",
+      "a": "F",
+      "why": "她将每次成功落稳都记入笔记本。"
+    },
+    {
+      "s": "Mira saw Ash again a week after releasing him.",
+      "a": "NG",
+      "why": "文章未说明放飞一周后米拉是否再见到阿什。"
+    }
+  ]
+}

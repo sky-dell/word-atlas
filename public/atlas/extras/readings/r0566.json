@@ -1,0 +1,48 @@
+{
+  "id": "r0566",
+  "ids": [
+    "flick",
+    "literate",
+    "watertight",
+    "embryo",
+    "misrepresent",
+    "miser",
+    "oxidize",
+    "compute",
+    "rouse",
+    "subsidize"
+  ],
+  "title": "The Sleeping Life in Seed Jars",
+  "titleZh": "种子罐中沉睡的生命",
+  "topic": "history",
+  "cefr": 4,
+  "paras": [
+    "In historical accounts of grain storage, a merchant who refused to sell his oldest seed might appear to be a [[miser|miser]], hoarding potential income. Yet this judgement can [[misrepresent|misrepresent]] a practical precaution: reserves protected the next sowing against a failed harvest. The remarkable fact is that a dry seed can remain alive while displaying almost no outward activity.",
+    "Inside each seed lies an [[embryo|embryo]], whose growth is suspended when moisture is scarce. Drying greatly slows the chemical reactions that sustain life but also gradually damage living tissues. Oils can [[oxidize|oxidize]], and essential cellular structures deteriorate. Cool, dry storage delays these processes; it does not stop time. Different species therefore retain their capacity to germinate for markedly different periods.",
+    "Successful storage depended on small, repeated acts of care. A keeper might [[flick|flick]] dust from a jar’s rim before fitting its lid, ensuring a close seal. A [[watertight|watertight]] vessel excluded rain, although sealing damp seeds inside could encourage destructive mould. During a night storm, leaking roofs might [[rouse|rouse]] a sleeping keeper: even an excellent container offered little protection once opened beneath dripping rafters.",
+    "Where a [[literate|literate]] steward recorded harvest dates and quantities, an estate could [[compute|compute]] how much seed remained available and [[subsidize|subsidize]] replacement purchases after losses. Such records documented management rather than explaining dormancy. Nevertheless, the jars themselves embodied a sound biological principle: restrict moisture during storage, then restore it at sowing. What appeared lifeless could then resume growth, turning yesterday’s harvest into tomorrow’s field."
+  ],
+  "zh": [
+    "在历史上的粮食储藏记述中，一个不肯卖掉陈年种粮的商人，可能会被视为守着潜在收益不放的吝啬鬼。然而，这种评价可能歪曲了一项务实的防备措施：储备种粮，可以避免一次歉收危及下一季的播种。令人惊叹的是，一粒干燥的种子，几乎不显露任何活动迹象，却仍能保持生命。",
+    "每粒种子内部都有一个胚，水分不足时，它的生长便会暂停。干燥会大幅减缓维持生命的化学反应，而这些反应也会逐渐损伤活体组织。油脂可能发生氧化，重要的细胞结构也会退化。凉爽、干燥的储藏环境可以延缓这些过程，却无法让时间停止。因此，不同物种的种子能够保持发芽能力的时间差异很大。",
+    "成功储藏有赖于反复进行的细致照料。看守人可能会先轻轻拂去罐口的灰尘，再盖上盖子，以确保密封严实。不漏水的容器能挡住雨水，但若把潮湿的种子密封在里面，反而可能助长有害霉菌。夜间暴雨时，漏水的屋顶可能惊醒熟睡的看守人：即使容器再好，一旦在滴水的椽子下打开，也难以提供多少保护。",
+    "如果有识字的管事记录收获日期和数量，庄园便能计算还有多少种粮可用，并在出现损失后补贴购入替代种粮的费用。这些记录反映的是管理工作，而非对休眠现象的解释。不过，那些储藏罐本身体现了一条可靠的生物学原理：储藏时限制水分，播种时再补回水分。看似没有生命的种子，随后便能恢复生长，将昨日的收获化作明日的田野。"
+  ],
+  "q": [
+    {
+      "s": "Keeping seed rather than selling it could safeguard planting after a poor harvest.",
+      "a": "T",
+      "why": "第一段指出储备种粮可保障歉收后的播种。"
+    },
+    {
+      "s": "Keepers preferred clay jars to wooden containers for storing seed.",
+      "a": "NG",
+      "why": "文中未比较看守人对两种容器的偏好。"
+    },
+    {
+      "s": "The stewards’ records explained the biological mechanism of seed dormancy.",
+      "a": "F",
+      "why": "末段明确说记录反映管理而非解释休眠。"
+    }
+  ]
+}

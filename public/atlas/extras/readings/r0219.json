@@ -1,0 +1,48 @@
+{
+  "id": "r0219",
+  "ids": [
+    "performer",
+    "chimney",
+    "length",
+    "recognize",
+    "shock",
+    "baby-sit",
+    "sticky",
+    "symptom",
+    "honeymoon",
+    "translate"
+  ],
+  "title": "Why the Pavement Feels Sticky",
+  "titleZh": "人行道为什么黏黏的",
+  "topic": "city",
+  "cefr": 2,
+  "paras": [
+    "On a warm June morning, a street [[performer|performer]] opened her violin case beneath a city tree. Nearby, smoke rose from a bakery [[chimney|chimney]]. A couple on their [[honeymoon|honeymoon]] stopped to listen, but felt drops landing on their arms. There were no clouds. For the musician, finding her case covered in [[sticky|sticky]] spots was an unpleasant [[shock|shock]].",
+    "The cause was above their heads. Tiny insects called aphids were feeding on the tree. Most were only a few millimetres in [[length|length]], so people below could hardly see them. Aphids drink the liquid inside plants. This contains more sugar than they need, and they release the extra sugar in watery drops. This sweet liquid, called honeydew, falls onto anything below.",
+    "People sometimes mistake these drops for a [[symptom|symptom]] of a dangerous tree disease. However, a little honeydew does not mean a tree is seriously ill. Once people [[recognize|recognize]] the signs, they know why benches and bicycles feel sticky. Warm weather can increase insect numbers, making the effect more noticeable.",
+    "A nearby gardener put up a sign explaining the drops. Her neighbour, who often came to [[baby-sit|baby-sit]] her daughter, helped [[translate|translate]] it for visitors. The musician moved her case beyond the branches. After the next shower washed the pavement clean, only the sign reminded visitors of the tiny creatures overhead."
+  ],
+  "zh": [
+    "六月一个温暖的早晨，一位街头表演者在城里的一棵树下打开了小提琴盒。附近，一家面包店的烟囱正冒着烟。一对度蜜月的夫妇停下来听她演奏，却感觉有水滴落在手臂上。天空中并没有云。对这位乐手来说，发现琴盒上布满黏黏的斑点，实在让她大吃一惊。",
+    "原因就在他们头顶上。叫作蚜虫的小昆虫正在树上取食。它们大多只有几毫米长，因此树下的人几乎看不见。蚜虫吸食植物体内的汁液，其中的糖分超过了它们的需要，于是它们将多余的糖分以水滴的形式排出。这种被称为蜜露的甜液体，会落到下方的任何东西上。",
+    "人们有时误以为这些水滴是树木患上严重疾病的症状。然而，少量蜜露并不意味着一棵树病得很重。人们一旦认出了这些迹象，就会明白长椅和自行车为什么摸起来黏黏的。温暖的天气可能使昆虫数量增加，让这种现象更加明显。",
+    "附近一位园丁立起了一块牌子，解释这些水滴的来历。她的邻居经常来帮她临时照看女儿，这次又帮忙翻译了牌子上的文字，方便游客阅读。乐手把琴盒移到了树枝覆盖范围之外。下一场阵雨把人行道冲洗干净后，就只剩那块牌子提醒游客注意头顶上的微小生物了。"
+  ],
+  "q": [
+    {
+      "s": "There were clouds in the sky when the couple felt drops on their arms.",
+      "a": "F",
+      "why": "第一段明确说天空中没有云。"
+    },
+    {
+      "s": "A little honeydew does not necessarily mean that a tree is seriously ill.",
+      "a": "T",
+      "why": "第三段明确说少量蜜露不意味着树木病重。"
+    },
+    {
+      "s": "The gardener paid her neighbour for translating the sign.",
+      "a": "NG",
+      "why": "文章提到邻居帮忙翻译，未说明是否付费。"
+    }
+  ]
+}

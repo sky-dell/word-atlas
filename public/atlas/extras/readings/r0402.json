@@ -1,0 +1,48 @@
+{
+  "id": "r0402",
+  "ids": [
+    "bitterly",
+    "fragment",
+    "abolish",
+    "bamboo",
+    "rap",
+    "shepherd",
+    "striking",
+    "copyright",
+    "disgust",
+    "accomplish"
+  ],
+  "title": "The Sound Behind a Broken Bowl",
+  "titleZh": "碎碗背后的声音",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "At a small museum of rural life, researcher Leila Sen tested whether background sounds changed people's emotional responses to damaged objects. Twenty-four adult volunteers examined the same [[fragment|fragment]] of a painted bowl. First, in silence, they wrote a short account of how it might have broken and rated their feelings towards it.",
+    "A week later, they returned and were randomly assigned to three groups. One heard a [[bamboo|bamboo]] flute, another listened to [[rap|rap]], and the third worked in silence again. Both recordings were original compositions, and their creators retained [[copyright|copyright]] while permitting their use in the experiment. Each participant had ten minutes to [[accomplish|accomplish]] the same writing task, with sound played at a comfortable volume.",
+    "The most [[striking|striking]] change concerned the stories rather than the emotion ratings. With music, more volunteers imagined relationships between people. Tomas, a retired [[shepherd|shepherd]], described an owner complaining [[bitterly|bitterly]] after a family argument ended with the bowl being dropped. Previously, he had simply described an accident. Another volunteer's initial [[disgust|disgust]] at the bowl's dirty surface became curiosity about who had used it.",
+    "However, average emotion ratings differed little between groups, and the sample was too small to establish whether either musical style had a distinct effect. The museum nevertheless decided to [[abolish|abolish]] its long-standing silence-only rule for storytelling sessions, while keeping quiet sessions available. Music had not reliably made the object more pleasant; it had offered some visitors another route into its possible human history."
+  ],
+  "zh": [
+    "在一家小型乡村生活博物馆，研究员莱拉·森测试了背景声音是否会改变人们对破损物品的情绪反应。二十四名成年志愿者观察了同一块彩绘碗的碎片。首先，他们在安静的环境中简短描述了这只碗可能如何破碎，并对自己面对它时的感受进行了评分。",
+    "一周后，他们再次来到博物馆，被随机分成三组。一组听竹笛音乐，一组听说唱音乐，第三组则仍在安静的环境中完成任务。两段录音均为原创作品，创作者保留版权，同时允许实验使用。每位参与者都有十分钟完成同样的写作任务，声音的播放音量让人感觉舒适。",
+    "最显著的变化体现在故事中，而非情绪评分上。伴随着音乐，更多志愿者想象出了人与人之间的关系。退休牧羊人托马斯描写道，一场家庭争吵以碗掉落告终，随后碗的主人愤愤地抱怨。此前，他只是描述了一次意外。另一位志愿者最初对碗上脏污表面的厌恶，则变成了对其使用者的好奇。",
+    "不过，各组的平均情绪评分差别很小，而且样本量不足以确定两种音乐风格是否各自具有独特效果。尽管如此，博物馆还是决定取消故事创作活动长期以来必须保持安静的规定，同时继续提供安静场次。音乐并未稳定地使这件物品变得更讨人喜欢，却为一些参观者提供了另一条路径，去探索它背后可能存在的人间往事。"
+  ],
+  "q": [
+    {
+      "s": "The musicians were paid equal amounts for allowing their recordings to be used.",
+      "a": "NG",
+      "why": "只提到授权使用，未说明报酬。"
+    },
+    {
+      "s": "Tomas's first account described the bowl being broken deliberately.",
+      "a": "F",
+      "why": "他最初描述的是一次意外。"
+    },
+    {
+      "s": "The museum continued to offer quiet storytelling sessions after changing its rule.",
+      "a": "T",
+      "why": "末段明确说明更改规定后仍保留安静场次。"
+    }
+  ]
+}

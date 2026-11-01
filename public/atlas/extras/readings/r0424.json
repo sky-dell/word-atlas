@@ -1,0 +1,48 @@
+{
+  "id": "r0424",
+  "ids": [
+    "cabinet",
+    "perfection",
+    "hitchhike",
+    "peak",
+    "aroma",
+    "vaccinate",
+    "contribution",
+    "undersea",
+    "blizzard",
+    "household"
+  ],
+  "title": "Packing for an Imaginary Journey",
+  "titleZh": "为一场想象中的旅行打包",
+  "topic": "travel",
+  "cefr": 3,
+  "paras": [
+    "At a small travel museum, researcher Leila Chen tested whether sensory displays helped visitors remember practical advice. She recruited forty adults, with only one person from each [[household|household]], and randomly divided them into two groups. Both groups planned the same imaginary journey, from a tropical island to a snowy mountain [[peak|peak]].",
+    "The first group read a leaflet. The second explored a room containing objects linked to the journey. A wooden [[cabinet|cabinet]] held swimming equipment beside photographs of [[undersea|undersea]] caves. Nearby, the [[aroma|aroma]] of roasted coffee introduced a story about a mountain shelter during a [[blizzard|blizzard]]. A clinic card reminded travellers that a nurse might need to [[vaccinate|vaccinate]] them before departure. Another display explained why visitors should not [[hitchhike|hitchhike]] along isolated roads where passing vehicles were rare.",
+    "A week later, participants listed the preparations they remembered and packed a bag using twenty available items. The display group recalled more advice, averaging eight points out of twelve, compared with five for leaflet readers. However, neither group achieved [[perfection|perfection]]: several people remembered the coffee but forgot the warm clothing associated with the shelter. Attractive details sometimes distracted attention from essential instructions.",
+    "Leila concluded that sensory displays could make a useful [[contribution|contribution]] to travel preparation, but only when their purpose was clear. The museum therefore placed a woollen jacket beside the coffee pot. In a smaller follow-up test, fewer visitors overlooked warm clothing, suggesting that the jacket might have helped convey the message."
+  ],
+  "zh": [
+    "在一家小型旅行博物馆里，研究员莱拉·陈测试了感官展示是否有助于参观者记住实用建议。她招募了四十名成年人，每户只选一人，并将他们随机分成两组。两组都要为同一场想象中的旅行做计划：从热带岛屿前往白雪覆盖的山峰。",
+    "第一组阅读了一份宣传单。第二组则探索了一个摆放着旅途相关物品的房间。一个木制储物柜里放着游泳装备，旁边是海底洞穴的照片。附近，烘焙咖啡的香气引出了一个关于暴风雪中山间避难所的故事。一张诊所卡片提醒旅行者，出发前可能需要由护士为他们接种疫苗。另一处展示解释了为什么游客不应在偏僻的道路上搭便车，因为那里很少有车辆经过。",
+    "一周后，参与者列出自己记得的准备事项，并从二十件可用物品中挑选东西装进背包。看过展示的一组记住了更多建议，十二个要点中平均记住八个，而阅读宣传单的一组平均记住五个。不过，两组都没有做到尽善尽美：有几个人记住了咖啡，却忘记了与避难所相关的保暖衣物。引人入胜的细节有时会分散人们对重要指示的注意力。",
+    "莱拉得出结论：感官展示可以对旅行准备起到有益的促进作用，但前提是展示目的明确。因此，博物馆在咖啡壶旁放了一件羊毛外套。在一次规模较小的后续测试中，忽略保暖衣物的参观者减少了，这提示那件外套可能有助于传达这条信息。"
+  ],
+  "q": [
+    {
+      "s": "Participants chose which of the two groups to join.",
+      "a": "F",
+      "why": "首段明确说参与者被随机分成两组。"
+    },
+    {
+      "s": "The leaflet read by the first group was four pages long.",
+      "a": "NG",
+      "why": "文中未说明宣传单的页数。"
+    },
+    {
+      "s": "Fewer visitors overlooked warm clothing in the follow-up test.",
+      "a": "T",
+      "why": "末段明确报告后续测试中忽略保暖衣物者减少。"
+    }
+  ]
+}

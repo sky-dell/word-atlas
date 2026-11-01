@@ -1,0 +1,46 @@
+{
+  "id": "r0246",
+  "ids": [
+    "injure",
+    "pianist",
+    "complain",
+    "profession",
+    "yoga",
+    "roundabout",
+    "bay",
+    "react",
+    "hook",
+    "rough"
+  ],
+  "title": "Before the Evening Concert",
+  "titleZh": "晚间音乐会之前",
+  "topic": "daily",
+  "cefr": 2,
+  "paras": [
+    "Welcome to the small home of [[pianist|pianist]] Mira Sen, who lived here from 1962 to 1988. This exhibition follows an ordinary day in her life, rather than her famous performances. Begin at the kitchen window, which looks across the [[bay|bay]]. Each morning, Mira watched fishing boats return while she ate breakfast. The road below now has a [[roundabout|roundabout]], but an old photograph shows the quiet corner she knew.",
+    "In the next room, a blue mat lies beside the piano. Mira practised [[yoga|yoga]] here before playing, using slow movements and careful breathing. Her [[profession|profession]] required hours of practice, so she took regular breaks. Notice the [[rough|rough]] edge of the wooden music stand. A loose piece could [[injure|injure]] a finger, and Mira covered it with soft cloth. The original cloth is displayed in the glass case, beside her practice notebook.",
+    "Listen to the recording near the door to hear how neighbours would [[react|react]] to her music. Some opened their windows; others would [[complain|complain]] when she repeated one difficult part. Mira therefore stopped practising at six every evening. Finally, look at the brass [[hook|hook]] holding her concert coat. Before leaving for a performance, she hung her kitchen apron there instead: a small exchange that marked the end of her working day at home."
+  ],
+  "zh": [
+    "欢迎来到钢琴家米拉·森的小屋，她于1962年至1988年间住在这里。本展览呈现的是她平凡的一天，而非那些著名的演出。请先来到厨房窗前，从这里可以望向海湾。每天早晨，米拉一边吃早餐，一边看着渔船归来。如今，下方的道路上建起了环岛，但一张老照片仍保留着她熟悉的那个安静街角。",
+    "隔壁房间里，钢琴旁铺着一张蓝色垫子。米拉弹琴前会在这里练习瑜伽，动作舒缓，并注意控制呼吸。她的职业需要长时间练琴，因此她会定时休息。请留意木制乐谱架粗糙的边缘。松脱的木片可能弄伤手指，所以米拉用软布包住了它。当年使用的那块布陈列在玻璃展柜中，旁边放着她的练习笔记本。",
+    "请听门边的录音，了解邻居们听到她弹琴时会有什么反应。有些人会打开窗户；另一些人则会在她反复练习某个难点时抱怨。因此，米拉每天傍晚六点就停止练琴。最后，请看看挂着演出外套的黄铜挂钩。出门演出前，她会取下外套，把厨房围裙挂到那里：这个小小的交换，标志着她一天居家工作的结束。"
+  ],
+  "q": [
+    {
+      "s": "Mira owned the house where she lived from 1962 to 1988.",
+      "a": "NG",
+      "why": "只说明她住在这里，未说明房屋归属。"
+    },
+    {
+      "s": "Mira never practised yoga before playing the piano.",
+      "a": "F",
+      "why": "第二段明确说她弹琴前会练习瑜伽。"
+    },
+    {
+      "s": "Mira stopped practising at six every evening.",
+      "a": "T",
+      "why": "末段明确给出每天傍晚六点停止练琴。"
+    }
+  ]
+}

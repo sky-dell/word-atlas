@@ -1,0 +1,48 @@
+{
+  "id": "r0533",
+  "ids": [
+    "productive",
+    "misery",
+    "elder",
+    "consequence",
+    "ornament",
+    "fabulous",
+    "warrior",
+    "literally",
+    "detection",
+    "shipment"
+  ],
+  "title": "The Colours That Made Potters Ill",
+  "titleZh": "让陶工生病的色彩",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "Begin your visit beside the small blue horse in the entrance case. This ceramic [[ornament|ornament]] once stood in the workshop of potter Tomas Vale and his [[elder|elder]] sister, Ines. Our exhibition follows their working lives through objects recovered from the pottery, revealing how beautiful surfaces could conceal a serious threat to health.",
+    "The first gallery recreates a [[productive|productive]] morning in 1912, when the workshop completed forty painted figures. A mounted [[warrior|warrior]], carrying a tiny shield, was the most popular design. Ines described its blue finish as '[[fabulous|fabulous]]' in a letter displayed nearby. Yet a newly arrived [[shipment|shipment]] of glaze powder contained lead, which workers unknowingly swallowed when dusty fingers touched their food.",
+    "In the second gallery, the heading 'Poisoned Colours' must be understood [[literally|literally]]: the materials themselves were poisonous. A doctor's notebook records the [[misery|misery]] of repeated stomach pain and exhaustion. One [[consequence|consequence]] was that Tomas could no longer work full days. The [[detection|detection]] of lead in workshop dust eventually connected these symptoms with the powder used to coat the figures.",
+    "The final case shows changes introduced after the discovery: covered powder containers, separate eating areas and a less harmful glaze. Visitors can compare two blue tiles under a lamp; the safer one is slightly paler. Before leaving, look back at the horse. Its colour now tells a story not just of skilled hands, but of the people those hands belonged to."
+  ],
+  "zh": [
+    "请从入口展柜中的蓝色小马开始参观。这件陶瓷装饰品曾摆在陶工托马斯·韦尔和姐姐伊内斯的作坊里。本展览通过从陶坊中找回的物件，追溯他们的工作生活，揭示美丽的外表如何可能隐藏着严重的健康威胁。",
+    "第一展厅重现了1912年一个成果丰硕的上午，当时作坊完成了四十件彩绘人物陶像。其中最受欢迎的造型是一位骑马的战士，手持小小的盾牌。旁边展出的一封信中，伊内斯称赞它的蓝色表面“美妙极了”。然而，新到的一批釉粉含有铅，工人们用沾满粉尘的手指接触食物时，便在不知不觉中将铅吞入腹中。",
+    "第二展厅的标题“有毒的色彩”需要按字面意思理解：这些材料本身就有毒。一本医生的笔记记录了反复腹痛和疲惫带来的痛苦。其中一个后果是托马斯再也无法全天工作。后来，人们在作坊粉尘中检测出了铅，终于将这些症状与涂覆陶像所用的粉末联系起来。",
+    "最后一个展柜展示了发现问题后采取的改变：带盖的粉末容器、独立的用餐区域，以及危害较小的釉料。参观者可以在灯下比较两块蓝色瓷砖；较安全的那块颜色略浅。离开前，请回头再看看那匹小马。如今，它的色彩所讲述的，不仅是精巧手艺的故事，更是那些巧手背后的人的故事。"
+  ],
+  "q": [
+    {
+      "s": "Ines made the blue horse displayed at the entrance.",
+      "a": "NG",
+      "why": "只说小马曾在作坊里，未说明制作者。"
+    },
+    {
+      "s": "The workshop completed forty painted figures on the morning recreated in the first gallery.",
+      "a": "T",
+      "why": "第一展厅重现完成四十件陶像的上午。"
+    },
+    {
+      "s": "The safer blue tile is darker than the other tile.",
+      "a": "F",
+      "why": "原文明确说较安全的那块颜色略浅。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0417",
+  "ids": [
+    "livestock",
+    "unjust",
+    "confess",
+    "socialism",
+    "span",
+    "lung",
+    "existing",
+    "significant",
+    "overall",
+    "partially"
+  ],
+  "title": "Morning Notes from the Shared Meadow",
+  "titleZh": "共用草甸的清晨笔记",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "At six each morning, I walk the same route around a village meadow before the [[livestock|livestock]] arrive. Today, cold air filled my [[lung|lungs]] as I knelt beside a shallow pool. Within a [[span|span]] of ten minutes, three beetles crossed its surface, while a frog remained [[partially|partially]] hidden beneath a fallen willow leaf.",
+    "My notebook rests in an old herder’s shelter. Inside, a faded booklet describes [[socialism|socialism]] as a system favouring public ownership of land and other productive resources. It was printed when this meadow belonged to a state farm. The farm has gone, but villagers still share the grass, following the [[existing|existing]] grazing rules: cattle enter after sunrise and leave before dusk.",
+    "Several neighbours blame the cattle for every bare patch beside the pool. That seems [[unjust|unjust]]: yesterday I watched heavy rain wash soil from an ungrazed bank. I must also [[confess|confess]] that I stepped beyond the marked path last week and crushed a small patch of young reeds. This morning, I placed a thin stake beside it so I could track its recovery without stepping there again.",
+    "The most [[significant|significant]] change this month is the return of clear water after weeks of cloudiness. My [[overall|overall]] impression is encouraging, although one bright morning proves little. As the first cow approached, the frog slipped beneath the leaf. I closed my notebook and left the pool to its quieter observers."
+  ],
+  "zh": [
+    "每天早晨六点，我都会在牲畜到来之前，沿着同一条路线绕村里的草甸走一圈。今天，我跪在一个浅水塘边，冷空气充满了双肺。十分钟内，三只甲虫掠过水面，一只青蛙则躲在一片落下的柳叶底下，身体仍有一部分露在外面。",
+    "我的笔记本平时放在一间旧牧人棚屋里。屋内有一本褪色的小册子，将社会主义描述为一种主张土地及其他生产资源公有的制度。它印刷于这片草甸仍属于国营农场的年代。农场已不复存在，但村民们依然共用这片草地，并遵守现有的放牧规定：牛群日出后进入，黄昏前离开。",
+    "几位邻居把水塘边每一处裸地都归咎于牛群。这似乎有失公允：昨天，我亲眼看见大雨从一处没有放牧的岸坡上冲走了泥土。我也必须坦白，上周我走出了标记好的小路，踩坏了一小片嫩芦苇。今天早晨，我在旁边插了一根细木桩，以便观察它的恢复情况，而不再踩进那里。",
+    "本月最显著的变化，是浑浊了数周的塘水重新变得清澈。我的总体印象令人振奋，不过，仅凭一个晴朗的早晨还说明不了什么。第一头牛走近时，青蛙滑到了叶片底下。我合上笔记本，把水塘留给那些更安静的观察者。"
+  ],
+  "q": [
+    {
+      "s": "The writer begins the morning walk after the livestock arrive.",
+      "a": "F",
+      "why": "作者在牲畜到来之前巡看草甸。"
+    },
+    {
+      "s": "Villagers continue to share the meadow's grass.",
+      "a": "T",
+      "why": "第二段明确说村民依然共用这片草地。"
+    },
+    {
+      "s": "The writer has received professional training in monitoring water quality.",
+      "a": "NG",
+      "why": "文章未提及作者是否受过水质监测培训。"
+    }
+  ]
+}

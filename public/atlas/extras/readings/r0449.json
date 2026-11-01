@@ -1,0 +1,48 @@
+{
+  "id": "r0449",
+  "ids": [
+    "antique",
+    "lasting",
+    "multiple",
+    "spectacular",
+    "resident",
+    "gamble",
+    "inhabit",
+    "rehearse",
+    "fringe",
+    "craziness"
+  ],
+  "title": "When Electricity Took the Stage",
+  "titleZh": "当电走上舞台",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "At Spark Hall, a school drama group is preparing a play about a travelling electrical show. The story is fictional, but the equipment includes an [[antique|antique]]: a glass machine once turned by hand to produce static electricity. It will remain behind glass; a photograph of it will appear on stage. The group hopes that even brief demonstrations can leave a [[lasting|lasting]] impression.",
+    "The play takes place on the [[fringe|fringe]] of a coastal town. One [[resident|resident]], a baker named Tomas Vale, watches a performer set two metal balls apart. Spectators [[gamble|gamble]] on whether a spark will cross the gap, hoping to double their coins. Their excitement turns into dangerous [[craziness|craziness]] as they push towards the equipment. The scene ends with the performer ordering everyone back.",
+    "The students [[rehearse|rehearse]] with the lights off and a recorded crackling sound. For the science demonstration after the play, their teacher checks [[multiple|multiple]] connections on a modern machine. It produces [[spectacular|spectacular]] purple flashes behind a protective screen. A diagram compares these with lightning: both involve electricity moving through air, though on very different scales.",
+    "The teacher then shows a short film of fish that [[inhabit|inhabit]] muddy rivers and generate electrical signals. Some use these to locate nearby objects where visibility is poor. Through a speaker, the audience hears recorded signals converted into sound. The students practise waiting until the recording ends before coming forward to answer questions."
+  ],
+  "zh": [
+    "在火花厅，一个学校戏剧小组正在准备一部有关巡回电学表演的戏剧。故事是虚构的，但设备中包括一件古董：一台曾靠手摇产生静电的玻璃机器。它会一直放在玻璃后面，舞台上将展示它的照片。小组希望，即使是短暂的演示，也能留下长久的印象。",
+    "戏剧的背景是一座海滨小镇的边缘地带。一位名叫托马斯·韦尔的面包师是镇上的居民，他看着表演者将两个金属球分开放置。观众拿钱打赌，猜火花是否会跨过间隙，希望把自己的钱翻倍。他们兴奋地挤向设备，场面变得疯狂而危险。这一幕以表演者命令所有人退后结束。",
+    "学生们关着灯，配合录下的噼啪声排练。戏剧结束后还有科学演示，老师为此检查现代机器上的多处连接。机器在防护屏后产生绚丽的紫色闪光。一张图将这些闪光与闪电作比较：两者都涉及电在空气中的移动，不过规模相差很大。",
+    "接着，老师播放了一段短片，介绍栖息在浑浊河流中、能够产生电信号的鱼类。有些鱼利用这些信号，在能见度低的地方确定附近物体的位置。观众通过扬声器听到由记录下来的电信号转换而成的声音。学生们练习等录音结束后，再走上前回答问题。"
+  ],
+  "q": [
+    {
+      "s": "The antique machine was donated by a former pupil.",
+      "a": "NG",
+      "why": "文章未说明这台古董机器的来源。"
+    },
+    {
+      "s": "In the play, spectators push towards the equipment.",
+      "a": "T",
+      "why": "第二段明确写到观众挤向设备。"
+    },
+    {
+      "s": "The diagram shows that the machine's flashes and lightning occur on the same scale.",
+      "a": "F",
+      "why": "图解说明两者的规模相差很大。"
+    }
+  ]
+}

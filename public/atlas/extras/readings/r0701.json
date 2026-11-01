@@ -1,0 +1,48 @@
+{
+  "id": "r0701",
+  "ids": [
+    "patriotic",
+    "vulgar",
+    "illiterate",
+    "obsessive",
+    "negation",
+    "fermentation",
+    "elimination",
+    "alienate",
+    "hover",
+    "proficiency"
+  ],
+  "title": "An Island Heard Through Its Radio",
+  "titleZh": "在广播中听见一座岛",
+  "topic": "media",
+  "cefr": 4,
+  "paras": [
+    "Visitors to the island of Narela usually photograph its blue kilns; I came for a radio programme broadcast from a former bakery. Each Saturday, presenter Leila Moreno plays recordings gathered around the harbour. One elderly potter's [[patriotic|patriotic]] account of rebuilding the national fleet is followed by a fish seller's remarkably accurate imitation of gulls that [[hover|hover]] above the quay.",
+    "The archive began with Leila's grandfather, an [[illiterate|illiterate]] fisherman who could neither sign his name nor decipher a newspaper, but understood the microphone's possibilities. His tapes challenge the assumption that cultural authority depends on literacy. Leila calls them 'a [[negation|negation]] of the claim that only written records preserve history', although she resists presenting every remembered incident as established fact.",
+    "When I visited, she was editing an interview about the [[fermentation|fermentation]] of millet batter, whose sour fragrance once filled the bakery. Her almost [[obsessive|obsessive]] concern with preserving voices made the work slow: she replayed one hesitation twelve times. Technical [[proficiency|proficiency]], she explained, allowed the [[elimination|elimination]] of electrical interference without removing breaths, pauses or the scrape of a wooden spoon.",
+    "Not everything survives unchanged. A [[vulgar|vulgar]] joke was cut because broadcasting it would [[alienate|alienate]] the family whose kitchen had welcomed the recorder. Yet Leila retained an argument over whether the batter needed another night. Walking back past the silent kilns, I realised that the island's most revealing souvenir was neither picturesque nor permanent: it was the sound of people disagreeing about breakfast."
+  ],
+  "zh": [
+    "来到纳雷拉岛的游客通常会拍摄岛上的蓝色窑炉；我却是为一档从旧面包房播出的广播节目而来。每逢星期六，主持人莱拉·莫雷诺都会播放在港口一带采集的录音。一位年迈陶工满怀爱国之情，讲述重建国家船队的往事；紧接着，一名鱼贩惟妙惟肖地模仿起在码头上空盘旋的海鸥。",
+    "这份声音档案始于莱拉的祖父。他是个不识字的渔民，既不会签名，也读不懂报纸，却明白麦克风能带来怎样的可能。他留下的录音带挑战了一种观念：文化话语权取决于识字能力。莱拉称这些录音“否定了只有文字记录才能保存历史的说法”，但她并不愿把每一件记忆中的往事都当作确凿事实来呈现。",
+    "我到访时，她正在剪辑一段关于小米面糊发酵的访谈；这种面糊的酸香曾经弥漫在整间面包房里。她对保留人声细节近乎执着，因此进展缓慢：仅一处迟疑，她就反复播放了十二遍。她解释说，娴熟的技术能让她彻底去除电流杂音，同时保留呼吸、停顿以及木勺刮擦的声音。",
+    "并非所有内容都会原样保留。一则粗俗的笑话被删去了，因为播出它会让那户曾敞开厨房欢迎录音者的人家心生疏远。不过，莱拉保留了一场关于面糊是否还需再放一晚的争论。回去时走过寂静的窑炉，我意识到，最能展现这座岛的纪念品既不如画般悦目，也无法长久留存：那就是人们为早餐争论的声音。"
+  ],
+  "q": [
+    {
+      "s": "Leila's Saturday programme is repeated on Sunday evenings.",
+      "a": "NG",
+      "why": "只说明周六播出，未交代是否周日晚重播。"
+    },
+    {
+      "s": "Leila's grandfather was unable to read newspapers.",
+      "a": "T",
+      "why": "第二段明确说祖父读不懂报纸。"
+    },
+    {
+      "s": "Leila removes breaths and pauses when eliminating electrical interference.",
+      "a": "F",
+      "why": "她去除电流杂音时保留呼吸和停顿。"
+    }
+  ]
+}

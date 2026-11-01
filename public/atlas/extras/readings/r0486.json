@@ -1,0 +1,46 @@
+{
+  "id": "r0486",
+  "ids": [
+    "paraphrase",
+    "alliance",
+    "ecology",
+    "fin",
+    "postal",
+    "aside",
+    "unsatisfactory",
+    "equip",
+    "slum",
+    "outdated"
+  ],
+  "title": "A River Club’s Second Life",
+  "titleZh": "河畔泳社的新生",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "When Bellwater's river swimming club reopened in 2004, former members brought letters and photographs to the new hut. One photograph showed its wooden predecessor in 1932. It had served a nearby [[slum|slum]], where overcrowded homes rarely had bathrooms. Factory workers formed an [[alliance|alliance]] with swimming coaches to offer affordable lessons. A [[postal|postal]] campaign raised enough money to [[equip|equip]] the hut with benches, towels and a rescue rope.",
+    "Among the objects they brought was a rubber swimming [[fin|fin]]. Its broad, flat shape helped swimmers move through the water, although early users found the fit [[unsatisfactory|unsatisfactory]]. One former member set it [[aside|aside]] while recalling coach Mina Okafor. Rather than repeat technical instructions, she would [[paraphrase|paraphrase]] them in everyday language: “Push the water behind you.” Her pupils practised the movement at the shallow edge before swimming further out.",
+    "The club closed in 1968, when river pollution made its swimming area unsafe. Its volunteers had collected rubbish along the bank, but that could not remove industrial chemicals from the water. The club's safety rules were also [[outdated|outdated]], with no procedure for checking water quality. Decades later, researchers studying river [[ecology|ecology]] worked with former members to record returning insects and fish. These records alone could not establish whether swimming was safe. Before reopening, the club arranged water tests; regular testing remained part of its routine afterwards."
+  ],
+  "zh": [
+    "贝尔沃特的河畔泳社于2004年重新开放时，老成员们带着信件和照片来到新木屋。一张照片展示了1932年的旧木屋。它曾为附近一处贫民窟的居民提供服务，那里住房拥挤，很少有浴室。工厂工人与游泳教练结成联盟，提供价格低廉的游泳课程。一次邮寄募款活动筹到了足够的钱，为木屋添置长凳、毛巾和救生绳。",
+    "他们带来的物件中有一只橡胶游泳脚蹼。它宽而扁平的形状能帮助游泳者在水中前进，不过早期使用者觉得它不够合脚。一位老成员把它放到一旁，回忆起教练米娜·奥卡福。她不会反复照念技术动作指令，而是用日常语言改述：“把水推到你身后去。”她的学生先在岸边浅水处练习这个动作，再游向更远的地方。",
+    "泳社于1968年关闭，当时河流污染使游泳区不再安全。志愿者此前一直沿岸捡拾垃圾，但这无法去除水中的工业化学物质。泳社的安全规定也已过时，没有检查水质的程序。几十年后，研究河流生态学的科研人员与泳社老成员合作，记录重新出现的昆虫和鱼类。仅凭这些记录，还无法确定游泳是否安全。重新开放之前，泳社安排了水质检测；此后，定期检测仍是日常工作的一部分。"
+  ],
+  "q": [
+    {
+      "s": "Most donations to the postal campaign came from factory owners.",
+      "a": "NG",
+      "why": "未说明捐款者的身份或各类捐款的比例。"
+    },
+    {
+      "s": "Okafor repeated technical instructions without changing their wording.",
+      "a": "F",
+      "why": "她用日常语言改述技术指令。"
+    },
+    {
+      "s": "Researchers and former members recorded insects and fish returning to the river.",
+      "a": "T",
+      "why": "研究人员与老成员合作记录回归的昆虫和鱼。"
+    }
+  ]
+}

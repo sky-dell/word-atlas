@@ -1,0 +1,48 @@
+{
+  "id": "r0648",
+  "ids": [
+    "exert",
+    "recollect",
+    "condolence",
+    "dormant",
+    "vocation",
+    "invert",
+    "precipitate",
+    "cynical",
+    "prevail",
+    "anthropology"
+  ],
+  "title": "The Black Border of Remembrance",
+  "titleZh": "寄托哀思的黑色边框",
+  "topic": "arts",
+  "cefr": 4,
+  "paras": [
+    "In nineteenth-century Britain, a black border could transform an ordinary sheet of paper into an announcement of loss. Sent to relatives and acquaintances, mourning stationery invited expressions of [[condolence|condolence]] while sparing families repeated explanations. Its visual restraint belonged to a broader culture in which elaborate rules concerning dress, correspondence and visiting continued to [[prevail|prevail]] among respectable households.",
+    "Producing such stationery required more than choosing dark ink. A compositor arranged metal type in reverse, while decorative blocks supplied borders of varying thickness. To print a folded design correctly, workers sometimes had to [[invert|invert]] one section of the layout. The press then had to [[exert|exert]] even pressure: an uneven black frame could make an otherwise dignified sheet appear careless.",
+    "For printers who regarded their craft as a [[vocation|vocation]], these commissions demanded particular tact. An unexpected death could [[precipitate|precipitate]] an urgent order, leaving little time for corrections. A [[cynical|cynical]] observer might interpret expensive borders as advertisements of family status; nevertheless, surviving letters show that formal conventions also gave bereaved writers a structure within which to [[recollect|recollect]] a shared meal or a final conversation.",
+    "During the twentieth century, changing habits of communication reduced the everyday visibility of black-bordered paper, although the convention never disappeared entirely. Some decorative blocks lay [[dormant|dormant]] in printers' drawers until later craftspeople brought them back into use. For researchers in [[anthropology|anthropology]], such objects reveal how societies give grief a material form. For the printer, their lesson remains equally concrete: even the narrowest margin can carry a considerable emotional weight."
+  ],
+  "zh": [
+    "在十九世纪的英国，一圈黑色边框就能将普通信纸变成传递噩耗的通知。丧事信笺被寄给亲友，既让他们得以表达哀悼，也免去了家属反复说明的需要。这种克制的视觉风格属于一种更广泛的文化：在体面人家中，关于服饰、通信和拜访的繁复规矩仍然普遍存在。",
+    "制作这种信笺，并非选用深色油墨那么简单。排字工将金属活字反向排列，再用装饰印版印出粗细不同的边框。为了让折叠后的图文位置正确，工人有时必须把版面的一部分上下倒置。随后，印刷机还必须均匀施压：黑框若印得不匀，原本庄重的信纸便可能显得制作草率。",
+    "对于将这门手艺视为志业的印刷工而言，此类委托尤其需要谨慎体贴。一场突如其来的死亡可能突然带来紧急订单，几乎不给修改留下时间。怀疑他人动机的旁观者或许会把昂贵的边框看作炫耀家族地位的手段；然而，留存下来的书信表明，这些正式惯例也为丧亲者提供了一种表达框架，让他们得以追忆一顿共进的饭，或最后一次交谈。",
+    "二十世纪，通信习惯的变化使黑边信纸在日常生活中逐渐少见，但这一惯例并未彻底消失。一些装饰印版闲置在印刷工的抽屉里，直到后来的手艺人重新启用它们。对于人类学研究者，这类物件揭示了社会如何赋予悲伤以物质形式。对于印刷工，它们传达的道理同样具体：即使最窄的一道边，也能承载沉重的情感。"
+  ],
+  "q": [
+    {
+      "s": "Families usually sent mourning stationery before the funeral took place.",
+      "a": "NG",
+      "why": "文章未交代信笺寄出与葬礼的先后关系。"
+    },
+    {
+      "s": "Printing mourning stationery required no special care beyond selecting the ink.",
+      "a": "F",
+      "why": "第二段还提到排版倒置和均匀施压。"
+    },
+    {
+      "s": "The use of black-bordered paper did not disappear entirely during the twentieth century.",
+      "a": "T",
+      "why": "末段明确说这一惯例并未彻底消失。"
+    }
+  ]
+}

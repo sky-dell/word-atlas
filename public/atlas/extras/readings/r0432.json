@@ -1,0 +1,46 @@
+{
+  "id": "r0432",
+  "ids": [
+    "elegant",
+    "shield",
+    "hint",
+    "alter",
+    "gambler",
+    "anticlockwise",
+    "congested",
+    "ultimate",
+    "regulate",
+    "seldom"
+  ],
+  "title": "Reading the Wind in Sand",
+  "titleZh": "从沙中读懂风",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "At dawn, coastal researcher Leila Haddad walks across the dunes of Meret Bay, where she studies how sand moves around plants. She carries an [[elegant|elegant]] wooden wind vane, built in her small workshop. Its arrow can turn clockwise or [[anticlockwise|anticlockwise]] as the wind changes direction. A metal [[shield|shield]] protects the bearing beneath the arrow. Leila records the wind direction, then measures sand levels against fixed posts beside patches of grass. She [[seldom|seldom]] finishes her morning round before midday.",
+    "A fall in the sand level can offer a [[hint|hint]] that sand has blown away, but Leila compares several days of measurements before drawing conclusions. Her father, once a regular [[gambler|gambler]] who bet money on horse races, taught her an unexpected lesson: a convincing pattern does not guarantee a predictable result. She therefore refuses to [[alter|alter]] her methods after a single unusual reading. Instead, she photographs each patch and records changes after windy weather.",
+    "In summer, the narrow paths through the dunes become [[congested|congested]] with visitors heading towards the beach. The bay's conservation trust uses Leila's findings to [[regulate|regulate]] access, requiring walkers to remain on marked routes near vulnerable plants. Her [[ultimate|ultimate]] aim, however, is not to keep people away. Beside one path, she displays photographs of exposed roots and installs a second wind vane so visitors can compare its direction with the movement of loose sand."
+  ],
+  "zh": [
+    "黎明时分，海岸研究员莱拉·哈达德穿行于梅雷特湾的沙丘之间，研究沙粒如何在植物周围移动。她带着一只在自己的小工作室里制作的雅致木制风向标。随着风向变化，箭头可以顺时针或逆时针转动。一块金属防护板保护着箭头下方的轴承。莱拉先记录风向，再以草丛旁固定的标杆为参照，测量沙面高度。她很少能在中午之前完成上午这一轮观测。",
+    "沙面降低可能意味着沙子被风吹走了，但莱拉会对照几天的测量结果后再下结论。她的父亲曾是一名经常花钱赌马的赌徒，却教会了她一个意想不到的道理：看似可信的规律，并不保证结果可以预测。因此，她不会仅因一次异常读数就改变研究方法。相反，她会拍下每块样地，并记录大风天气之后的变化。",
+    "夏季，前往海滩的游客挤满沙丘间的狭窄小径，通行变得困难。海湾的自然保护基金会利用莱拉的研究结果管理人员出入，要求步行者在脆弱植物附近沿标示路线行走。然而，她的最终目标并不是把人们拒之门外。她在一条小径旁展示根系裸露的照片，并安装了第二只风向标，让游客可以把它指示的方向与松散沙粒的移动方向进行比较。"
+  ],
+  "q": [
+    {
+      "s": "Leila paid for the materials used to build her wind vane herself.",
+      "a": "NG",
+      "why": "文章未说明制作风向标的材料由谁出资。"
+    },
+    {
+      "s": "Leila changes her methods whenever she gets one unusual reading.",
+      "a": "F",
+      "why": "她明确拒绝仅因一次异常读数就改变方法。"
+    },
+    {
+      "s": "Walkers must stay on marked routes near vulnerable plants.",
+      "a": "T",
+      "why": "保护基金会要求游客在这些植物附近沿标线行走。"
+    }
+  ]
+}

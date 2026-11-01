@@ -1,0 +1,48 @@
+{
+  "id": "r0428",
+  "ids": [
+    "massive",
+    "stall",
+    "breeze",
+    "appreciate",
+    "formal",
+    "mitten",
+    "meditation",
+    "plaster",
+    "spotlight",
+    "dusk"
+  ],
+  "title": "The Market That Turned Down the Volume",
+  "titleZh": "把音量调低的集市",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "At [[dusk|dusk]] on Thursdays, an old warehouse in Bellwick fills with shoppers. This evening market is unusually quiet. Beneath [[massive|massive]] wooden beams, sellers display handmade goods without music or shouted offers. Visitors queue outside before the doors open.",
+    "The experiment began when potter Mina Das rented a [[stall|stall]] beside the entrance. Tired of competing with loudspeakers at other markets, she proposed a quiet trading hour. There was no [[formal|formal]] agreement at first: six sellers simply switched off their speakers. Within a month, neighbouring traders had joined, and the quiet period covered the whole evening.",
+    "The atmosphere is practical rather than strictly silent. Customers can ask how a woollen [[mitten|mitten]] was knitted or whether a bowl is made from clay or [[plaster|plaster]]. A [[spotlight|spotlight]] above each table makes small details visible, while open windows admit a cool [[breeze|breeze]]. Some visitors compare the experience to [[meditation|meditation]], although nobody is expected to sit still or follow breathing exercises.",
+    "Sales records suggest that customers buy fewer objects but choose more expensive pieces. Several makers report receiving more repair orders, too. 'People notice the stitching and ask who did it,' says textile seller Pavel Novak. 'I [[appreciate|appreciate]] the organisers giving us time to explain.' He now keeps examples of different stitches beside his goods so that customers can compare them."
+  ],
+  "zh": [
+    "每逢周四黄昏，贝尔威克的一座旧仓库便挤满了购物者。这个晚间集市格外安静。巨大的木梁下，摊主们陈列着手工制品，既不播放音乐，也不高声叫卖。开门之前，访客就已在外面排队。",
+    "这项尝试始于陶艺师米娜·达斯在入口旁租下一个摊位的时候。她厌倦了在其他集市上与扩音器争抢声音，于是提议设置一个安静的营业时段。起初并没有正式协议，只是六位摊主关掉了音箱。一个月内，邻近的商贩也加入进来，安静时段覆盖了整个晚上。",
+    "这里的氛围注重实际需要，而不是要求绝对安静。顾客可以询问一只羊毛连指手套是怎样编织的，或者一个碗由黏土还是石膏制成。每张桌子上方的一盏聚光灯让细微之处清晰可见，敞开的窗户则送来凉爽的微风。有些访客将这种体验比作冥想，不过这里并不要求任何人静坐或进行呼吸练习。",
+    "销售记录提示，顾客购买的物品数量减少了，却会选择价格更高的作品。几位手工艺人还表示，他们接到的修补订单也增加了。“人们会留意针脚，问是谁缝的，”纺织品摊主帕维尔·诺瓦克说，“我很感激组织者给我们时间解释。”他如今在商品旁放着不同针法的样品，方便顾客比较。"
+  ],
+  "q": [
+    {
+      "s": "The quiet trading arrangement spread beyond the small group that started it.",
+      "a": "T",
+      "why": "最初六位摊主参与，随后邻近商贩也加入。"
+    },
+    {
+      "s": "The organisers bought the spotlights from a local supplier.",
+      "a": "NG",
+      "why": "文章未说明聚光灯的购买者或来源。"
+    },
+    {
+      "s": "Visitors are required to practise controlled breathing while browsing.",
+      "a": "F",
+      "why": "文中明确说不要求访客进行呼吸练习。"
+    }
+  ]
+}

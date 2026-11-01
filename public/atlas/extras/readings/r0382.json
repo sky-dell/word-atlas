@@ -1,0 +1,48 @@
+{
+  "id": "r0382",
+  "ids": [
+    "circular",
+    "toll",
+    "sexual",
+    "participation",
+    "fascinate",
+    "axis",
+    "statistics",
+    "storage",
+    "conjunction",
+    "meditate"
+  ],
+  "title": "Sketching the Grebes",
+  "titleZh": "速写鸊鷉",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "18 April, Willow Marsh. After paying the bridge [[toll|toll]], I reached the hide before sunrise with sculptor Mira Sen. Her latest project explores [[sexual|sexual]] attraction between people through paired figures, but today she wanted to observe movement rather than human bodies. Two grebes were facing each other beyond a [[circular|circular]] patch of floating reeds.",
+    "Their display began with slow head turns, followed by sudden, matching bows. Such precise movements never fail to [[fascinate|fascinate]] me. Mira sketched each bird as a shape turning around an upright [[axis|axis]], marking the changing position of its head. My [[participation|participation]] was practical: I recorded the time of each display while she drew. Neither of us spoke when the birds approached the hide.",
+    "By eight, our notebook contained [[statistics|statistics]] from twelve displays, including their duration and estimates of the distance between the birds. These figures would not explain the behaviour, but used in [[conjunction|conjunction]] with the sketches, they could help Mira avoid relying entirely on memory. We placed the finished sketches in a waterproof tube for [[storage|storage]], leaving her notebook open for any final observations.",
+    "Before leaving, we sat quietly to [[meditate|meditate]] for five minutes, listening to water against the wooden posts. Then one grebe disappeared behind the reeds, and its partner followed. Mira closed her notebook. Her sculpture, she decided, needed space between its figures: the empty water had been as important as the birds."
+  ],
+  "zh": [
+    "4月18日，柳树沼泽。付过桥梁通行费后，我与雕塑家米拉·森在日出前抵达观鸟棚。她最新的项目通过成对的人物形象探索人与人之间的性吸引力，但今天她想观察的是动作，而非人体。在一片圆形的漂浮芦苇的另一侧，两只鸊鷉正面对着彼此。",
+    "它们先缓缓转头，随后突然做出一致的低头动作。这般精确的动作总能让我着迷。米拉把每只鸟速写成绕着竖直轴线转动的形体，标出其头部不断变化的位置。我则参与实际的记录工作：她画画时，我记下每次展示行为发生的时间。当鸟儿靠近观鸟棚时，我们谁也没有说话。",
+    "到了八点，笔记本上已有十二次展示行为的统计数据，包括持续时间以及两只鸟之间距离的估计值。这些数字无法解释这种行为，但结合速写使用，可以帮助米拉避免完全依赖记忆。我们把画好的速写放进防水筒中保存，让她的笔记本保持打开，以便记下最后可能观察到的情况。",
+    "离开前，我们静坐冥想了五分钟，听着水拍打木桩的声音。随后，一只鸊鷉消失在芦苇后面，另一只也跟了过去。米拉合上笔记本。她决定在雕塑的两个人物之间留出空间：那片空荡荡的水面，与鸟儿本身同样重要。"
+  ],
+  "q": [
+    {
+      "s": "The writer drew the birds while Mira recorded the display times.",
+      "a": "F",
+      "why": "米拉画鸟，作者记录展示行为的时间。"
+    },
+    {
+      "s": "Mira later entered the display statistics into a computer.",
+      "a": "NG",
+      "why": "文中未说明后来是否将数据输入电脑。"
+    },
+    {
+      "s": "Mira decided that the figures in her sculpture needed space between them.",
+      "a": "T",
+      "why": "末段明确说她决定在人物之间留出空间。"
+    }
+  ]
+}

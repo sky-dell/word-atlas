@@ -1,0 +1,48 @@
+{
+  "id": "r0590",
+  "ids": [
+    "perish",
+    "transferable",
+    "vice",
+    "airway",
+    "compel",
+    "displace",
+    "lure",
+    "cruiser",
+    "lieutenant",
+    "accumulation"
+  ],
+  "title": "A Laboratory on the Floodwater",
+  "titleZh": "洪水上的实验室",
+  "topic": "health",
+  "cefr": 4,
+  "paras": [
+    "When seasonal floods began to [[displace|displace]] families along the fictional River Saren, respiratory researcher Amara Dube converted an ageing [[cruiser|cruiser]] into a floating laboratory. Its sleeping cabin accommodated two technicians, while its sheltered deck became an examination room. A former naval [[lieutenant|lieutenant]], Dube could navigate submerged orchards as confidently as she could interpret a lung-function chart.",
+    "Her investigation concerned the [[accumulation|accumulation]] of soot inside temporary shelters, where damp wood burned inefficiently. Although residents often blamed coughing on cold air, Dube suspected that fine particles were inflaming the [[airway|airways]]. Floodwater could [[compel|compel]] people to cook indoors for weeks; opening a window was hardly practical when rain entered horizontally and bedding was already wet.",
+    "Rather than [[lure|lure]] volunteers aboard with promises of treatment, she explained that her measurements might yield no immediate benefit. She also rejected the suggestion that smoky cooking was a personal [[vice|vice]]: families were using the only fuel available. With their permission, she compared soot readings before and after fitting raised stove hoods, recording wind direction beside every measurement.",
+    "The first hoods leaked smoke at the joints, allowing it to escape into the shelters. Dube redesigned them with a village tinsmith whose seedlings had begun to [[perish|perish]] in the flooded garden. The finished units were [[transferable|transferable]] between shelters, so another evacuation would not erase the improvement. By the following wet season, one family was carrying its hood ashore on returning home."
+  ],
+  "zh": [
+    "当季节性洪水开始迫使虚构的萨伦河沿岸居民离开家园时，呼吸系统研究员阿玛拉·杜贝将一艘老旧的舱式游艇改造成了水上实验室。船上的卧舱可容纳两名技术人员，有遮蔽的甲板则成了检查室。杜贝曾任海军上尉，驾船穿过被淹没的果园，对她而言就像解读肺功能图表一样得心应手。",
+    "她研究的是临时住所内烟灰的积聚问题，因为潮湿的木柴在那里往往燃烧不充分。居民常把咳嗽归咎于冷空气，杜贝却怀疑是细微颗粒引发了呼吸道炎症。洪水可能迫使人们连续数周在室内做饭；当风雨横扫进屋、被褥早已湿透时，开窗通风几乎不切实际。",
+    "她没有以提供治疗为承诺来吸引志愿者上船，而是说明这些测量可能不会带来即时益处。她也不赞同将浓烟中做饭视为个人恶习的说法：这些家庭用的已是唯一能找到的燃料。征得他们同意后，她比较了加装高架炉罩前后的烟灰读数，并在每次测量时记录风向。",
+    "第一批炉罩的接缝处漏烟，烟气逸入了住所。杜贝与村里的一位白铁匠重新设计了炉罩；这位工匠种的幼苗已开始在被淹的园子里枯死。成品可以在不同住所之间转移，因此再次撤离也不会让这项改善付诸东流。到了下一个雨季，一个返家的家庭正把自家的炉罩搬上岸。"
+  ],
+  "q": [
+    {
+      "s": "Dube had military experience before establishing her floating research facility.",
+      "a": "T",
+      "why": "第一段说明她曾任海军上尉。"
+    },
+    {
+      "s": "Some volunteers had previously participated in respiratory research.",
+      "a": "NG",
+      "why": "未说明志愿者此前是否参加过呼吸研究。"
+    },
+    {
+      "s": "The finished stove hoods had to remain in the shelters where they were first installed.",
+      "a": "F",
+      "why": "末段明确说成品可在不同住所间转移。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0345",
+  "ids": [
+    "sword",
+    "tolerate",
+    "imitate",
+    "soundtrack",
+    "wound",
+    "overflow",
+    "terror",
+    "feeding",
+    "progressive",
+    "approach"
+  ],
+  "title": "Making Fear from Everyday Sounds",
+  "titleZh": "用日常声音制造恐惧",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "In a small film studio, sound designer Amira builds a scene of [[terror|terror]] without recording anything dangerous. On screen, a traveller enters an empty castle and discovers a broken [[sword|sword]] beside a fireplace. The images are quiet; her task is to create a [[soundtrack|soundtrack]] that makes the audience expect trouble before anything happens.",
+    "First, she watches the scene without music and marks each movement on a timeline. To [[imitate|imitate]] the traveller's footsteps, she walks slowly across a wooden tray covered with sand. A damp leather glove produces the soft rubbing sound of a hand examining a [[wound|wound]]. She also records water beginning to [[overflow|overflow]] from a metal bowl, creating a disturbing drip somewhere beyond the camera.",
+    "Next comes selection. Amira will not [[tolerate|tolerate]] electrical noise beneath a delicate recording, so she switches off the room's refrigerator. Yet some imperfect sounds are useful. A recording of a rabbit's [[feeding|feeding]], for example, becomes a mysterious scratching when slowed down. Her [[approach|approach]] depends less on expensive equipment than on listening carefully and testing unexpected combinations.",
+    "The studio has a [[progressive|progressive]] employment policy: paid training opens this specialised work to people who could not afford unpaid placements. During the final mix, a trainee suggests removing the music just before the door opens. Amira tries it. The sudden silence makes the next small click seem enormous, and the scene is complete: ordinary objects have produced an extraordinary feeling."
+  ],
+  "zh": [
+    "在一间小型电影工作室里，声音设计师阿米拉无需录制任何危险的事物，就能打造出令人惊恐的场景。银幕上，一位旅人走进空荡荡的城堡，在壁炉旁发现了一把断剑。画面悄无声息；她的任务是制作一条声轨，让观众在任何事情发生之前，就预感到危险将至。",
+    "首先，她在没有音乐的情况下观看这段场景，并在时间轴上标出每个动作。为了模仿旅人的脚步声，她在铺着沙子的木托盘上缓缓行走。一只潮湿的皮手套，能制造出手检查伤口时发出的轻微摩擦声。她还录下水开始从金属碗中溢出的声音，营造出画面之外某处令人不安的滴水声。",
+    "接下来是筛选。阿米拉无法容忍细微的录音中夹杂电器噪声，因此她关掉了房间里的冰箱。不过，有些不完美的声音也很有用。例如，一段兔子进食的录音在放慢后，就变成了神秘的抓挠声。她的方法，与其说依赖昂贵设备，不如说依赖仔细聆听和尝试出人意料的声音组合。",
+    "这间工作室实行支持社会进步的用人政策：带薪培训让那些负担不起无薪实习的人，也有机会进入这一专业领域。在最终混音时，一位培训生建议去掉开门前的音乐。阿米拉试了一下。突如其来的寂静让接下来轻轻的一声咔嗒显得格外响亮，场景就这样完成了：普通物品创造出了一种非同寻常的感受。"
+  ],
+  "q": [
+    {
+      "s": "Amira wants viewers to feel no sense of danger before trouble begins.",
+      "a": "F",
+      "why": "她要让观众在事情发生前就预感到危险。"
+    },
+    {
+      "s": "Amira switches off the refrigerator to avoid unwanted noise in her recordings.",
+      "a": "T",
+      "why": "第三段说她为避免录入电器噪声而关掉冰箱。"
+    },
+    {
+      "s": "The trainee previously worked on several historical films.",
+      "a": "NG",
+      "why": "末段未提培训生此前的工作经历。"
+    }
+  ]
+}

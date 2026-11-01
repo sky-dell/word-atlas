@@ -1,0 +1,48 @@
+{
+  "id": "r0223",
+  "ids": [
+    "old-fashioned",
+    "vanilla",
+    "recycled",
+    "clue",
+    "dime",
+    "truth",
+    "fountain",
+    "pirate",
+    "bald",
+    "simply"
+  ],
+  "title": "Moths Replace Pirate Stories",
+  "titleZh": "飞蛾取代了海盗故事",
+  "topic": "nature",
+  "cefr": 2,
+  "paras": [
+    "At a small coastal museum, evening visitors once came to hear about a [[pirate|pirate]] who attacked ships two centuries ago. Now, surprisingly, many come for the moths. The museum's [[old-fashioned|old-fashioned]] garden has become a place to watch these night insects, and its Friday walks regularly attract twenty people.",
+    "The change began when gardener Mira Chen noticed moths near an outdoor cake stall. Their interest in a bottle of [[vanilla|vanilla]] gave her a [[clue|clue]]. Could a sweet smell bring them closer? She mixed sugar, fruit and a little of the flavouring, then painted the mixture onto wooden boards beside the [[fountain|fountain]]. By sunset, several moths had arrived.",
+    "Today, visitors carry cards made from [[recycled|recycled]] paper to record what they see. One common moth is no wider than a Canadian [[dime|dime]]. Omar, the museum's cheerful, [[bald|bald]] guide, helps people compare wing patterns without touching the insects. He explains that the [[truth|truth]] about moths is more interesting than their dull image: some have pink wings, while others look exactly like dry leaves.",
+    "The museum has not bought special lights or built insect houses. It has [[simply|simply]] left part of the garden wild and offered a little food. Visitors still pass the old sea captain's portrait, but now their favourite discoveries are alive outside."
+  ],
+  "zh": [
+    "在一座海边的小博物馆里，晚间游客过去是来听一位两百年前袭击船只的海盗的故事的。如今，令人意外的是，许多人是为飞蛾而来。博物馆的老式花园已经成了观察这些夜间昆虫的地方，每周五的夜游通常能吸引二十人参加。",
+    "这一变化始于园丁米拉·陈的一次发现：一个露天蛋糕摊附近出现了飞蛾。它们对一瓶香草精的兴趣给了她一条线索。甜香能把它们引到更近的地方吗？她将糖、水果和少量香草精混合，然后涂在喷泉旁的木板上。太阳落山时，已经有几只飞蛾飞来了。",
+    "现在，游客带着再生纸制成的卡片，记录自己的发现。一种常见飞蛾的宽度不超过一枚加拿大十分硬币。博物馆的导览员奥马尔性格开朗，头顶光秃，他帮助大家在不触碰昆虫的情况下比较翅膀上的图案。他解释说，有关飞蛾的事实远比人们印象中灰暗单调的形象有趣：有些长着粉红色的翅膀，另一些则看起来完全像干枯的树叶。",
+    "博物馆没有购买特殊的灯具，也没有建造昆虫屋。它只是让花园的一部分保持自然生长，并提供了一点食物。游客仍会经过那幅老船长的肖像，但如今，他们最喜欢的发现就在室外，鲜活而生动。"
+  ],
+  "q": [
+    {
+      "s": "Many evening visitors now come to the museum to watch moths.",
+      "a": "T",
+      "why": "首段说明如今许多晚间游客为飞蛾而来。"
+    },
+    {
+      "s": "Visitors touch the moths while comparing wing patterns with Omar.",
+      "a": "F",
+      "why": "奥马尔帮助游客在不触碰昆虫时比较图案。"
+    },
+    {
+      "s": "Volunteers provide the food left for insects in the garden.",
+      "a": "NG",
+      "why": "文中未说明昆虫食物是否由志愿者提供。"
+    }
+  ]
+}

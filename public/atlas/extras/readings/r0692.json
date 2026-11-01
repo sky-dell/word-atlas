@@ -1,0 +1,48 @@
+{
+  "id": "r0692",
+  "ids": [
+    "ambivalent",
+    "competitiveness",
+    "intact",
+    "susceptible",
+    "swerve",
+    "lesser",
+    "err",
+    "subordinate",
+    "heartfelt",
+    "oust"
+  ],
+  "title": "The Robots Learning to Wait",
+  "titleZh": "学会等待的机器人",
+  "topic": "technology",
+  "cefr": 4,
+  "paras": [
+    "In the pottery district of Bellwick, a surprising technological trend is emerging: workshops are buying delivery robots, then deliberately slowing them down. Manufacturers advertise speed as the route to [[competitiveness|competitiveness]], yet potters report that machines which pause frequently are more valuable than those that race between drying racks and kilns.",
+    "The reason lies in the cargo. Unfired porcelain is particularly [[susceptible|susceptible]] to vibration, and a robot that must [[swerve|swerve]] around a misplaced stool can destroy several hours of craftsmanship. At Mina Okafor’s workshop, engineers gave journey time a [[lesser|lesser]] weighting than stability in the navigation software. During a six-week trial, nearly every bowl arrived [[intact|intact]], although average delivery times increased by almost a third.",
+    "Workers were initially [[ambivalent|ambivalent]]. They welcomed relief from carrying heavy trays but feared that automation would eventually [[oust|oust]] experienced assistants from their positions. Okafor therefore assigned the machines a strictly [[subordinate|subordinate]] role: they move objects only after a craftsperson approves the route. Since sensors can [[err|err]] when glossy surfaces reflect their signals, staff also retain the power to halt any journey without explaining their decision to a supervisor.",
+    "Unexpectedly, this restricted autonomy has encouraged wider adoption. Neighbouring workshops have requested the same settings, while one assistant offered [[heartfelt|heartfelt]] thanks after completing a busy firing week without her usual shoulder pain."
+  ],
+  "zh": [
+    "在贝尔威克的制陶区，一种出人意料的技术趋势正在兴起：作坊购入运输机器人后，却故意调慢它们的速度。制造商宣传，速度是提升竞争力的关键；但陶工们表示，与那些在干燥架和窑炉之间飞速穿行的机器相比，经常停下来等候的机器更有价值。",
+    "原因在于所运送的物品。尚未烧制的瓷器尤其容易受到振动损伤，机器人若为了避开摆错位置的凳子而突然转向，就可能毁掉数小时的手工成果。在米娜·奥卡福的作坊里，工程师在导航软件中赋予运输时间的权重低于稳定性。在为期六周的试用中，几乎每只碗都完好无损地抵达目的地，尽管平均运输时间增加了近三分之一。",
+    "工人们起初心情矛盾。他们乐于摆脱搬运沉重托盘的负担，却又担心自动化最终会挤走经验丰富的助手。因此，奥卡福严格限定了机器的辅助地位：只有在工匠批准路线后，它们才会搬运物品。由于光亮表面对信号的反射可能导致传感器判断失误，员工也保留了随时中止运输的权力，无须向主管解释自己的决定。",
+    "出乎意料的是，这种受限的自主性反而促进了更广泛的采用。附近的作坊纷纷要求使用同样的设置，一位助手则在忙碌的烧窑周结束后表达了由衷的感谢，因为她没有再出现往常的肩痛。"
+  ],
+  "q": [
+    {
+      "s": "Some Bellwick potters value robots that stop regularly more highly than faster-moving machines.",
+      "a": "T",
+      "why": "首段指出陶工认为经常停顿的机器更有价值。"
+    },
+    {
+      "s": "Robot repair costs fell during the six-week trial at Okafor’s workshop.",
+      "a": "NG",
+      "why": "试用结果未提及机器人维修费用的变化。"
+    },
+    {
+      "s": "Staff must explain their decision to a supervisor when they halt a robot’s journey.",
+      "a": "F",
+      "why": "第三段明确说中止运输无须向主管解释。"
+    }
+  ]
+}

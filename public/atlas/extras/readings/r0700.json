@@ -1,0 +1,48 @@
+{
+  "id": "r0700",
+  "ids": [
+    "dilute",
+    "inmate",
+    "contempt",
+    "irresistible",
+    "inefficiency",
+    "correspondence",
+    "detest",
+    "betrayal",
+    "cradle",
+    "squeal"
+  ],
+  "title": "A Second Life for Willow Lane",
+  "titleZh": "柳树巷旧物的新生",
+  "topic": "environment",
+  "cefr": 4,
+  "paras": [
+    "When Willow Lane’s residents opened a furniture repair shed, their aim was to reduce the timber entering the village skip. Yet their first substantial donation, a wooden [[cradle|cradle]] with a fractured rocker, exposed a shortage of expertise. Project coordinator Amina Rao therefore began a [[correspondence|correspondence]] with Tomas, an [[inmate|inmate]] at a nearby prison who had previously restored antique furniture.",
+    "Some volunteers initially expressed [[contempt|contempt]] for the arrangement, arguing that accepting his advice would be a [[betrayal|betrayal]] of the trust placed in their neighbourhood project. Amina, who had come to [[detest|detest]] the casual disposal of repairable objects, insisted that his proposals be judged on their merits. With his permission, she pinned his detailed sketches beside the shed’s workbench.",
+    "The drawings revealed why earlier repairs had failed: replacing individual screws could not stabilise the damaged joint, which would [[squeal|squeal]] whenever the cradle rocked. Following Tomas’s instructions, volunteers fitted a new wooden insert and adjusted the rockers. They then learned to [[dilute|dilute]] a concentrated water-based stain to the recommended strength. A shared repair log addressed the [[inefficiency|inefficiency]] of repeatedly purchasing identical materials.",
+    "By autumn, the shed had returned twenty-three pieces to use. At its open afternoon, the restored bed proved [[irresistible|irresistible]] to its original donor, who recognised her grandfather’s carved initials beneath the renewed finish. She took it home rather than buying a replacement. A photograph subsequently sent to Tomas showed another damaged chair already occupying the cradle’s former place in the shed."
+  ],
+  "zh": [
+    "柳树巷的居民开办家具修理棚时，目的是减少村里垃圾斗中的废弃木料。然而，他们收到的第一件像样的捐赠品——一张弧形摇脚断裂的木摇篮——暴露出大家缺乏专业技能的问题。因此，项目协调员阿米娜·拉奥开始与附近监狱的一名服刑人员托马斯通信；他以前曾从事古董家具修复。",
+    "起初，一些志愿者对这一安排表现出轻蔑，认为接受他的建议，会辜负邻里对这个项目的信任。阿米娜早已对随手丢弃尚可修复物品的行为深恶痛绝，她坚持认为，应当依据建议本身的价值来评判。征得托马斯同意后，她把他绘制的详细草图钉在了修理棚的工作台旁。",
+    "这些图纸揭示了此前修理失败的原因：只更换几颗螺丝，并不能加固受损的接合处；每当摇篮摇动时，那里就会发出刺耳的声音。志愿者按照托马斯的指导，装入一块新的木质嵌件，并调整了弧形摇脚。随后，他们学会了将浓缩水性木器着色剂稀释至建议的浓度。一本共用的维修记录则用于应对反复购买相同材料所造成的低效问题。",
+    "到了秋天，修理棚已让二十三件家具重新投入使用。在一个对外开放的下午，修复后的婴儿床深深吸引了原来的捐赠者：她在焕然一新的涂层下认出了她祖父或外祖父姓名首字母的刻痕。她把它带回家，没有再买新的。后来寄给托马斯的一张照片显示，另一把损坏的椅子已经占据了摇篮原先在棚里的位置。"
+  ],
+  "q": [
+    {
+      "s": "The volunteers already had the expertise needed to repair the donated cradle.",
+      "a": "F",
+      "why": "首段明确说摇篮暴露了大家专业技能不足。"
+    },
+    {
+      "s": "Amina exchanged letters with Tomas every week.",
+      "a": "NG",
+      "why": "文中提到通信，但未说明频率。"
+    },
+    {
+      "s": "The original donor took the restored bed home instead of buying a replacement.",
+      "a": "T",
+      "why": "末段明确说捐赠者取回了床，没有另买。"
+    }
+  ]
+}

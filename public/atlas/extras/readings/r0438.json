@@ -1,0 +1,48 @@
+{
+  "id": "r0438",
+  "ids": [
+    "infant",
+    "comparatively",
+    "factor",
+    "expectation",
+    "sensitive",
+    "canvas",
+    "trim",
+    "barely",
+    "confession",
+    "publicly"
+  ],
+  "title": "A Quieter Room for Babies",
+  "titleZh": "让婴儿房更安静",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "At a small childcare centre, researcher Leila Sen tested whether reducing echoes could help babies sleep. Twelve [[infant|infants]] took part during their usual afternoon naps. Staff suspected that sudden noises were a major [[factor|factor]] in waking them, particularly those who seemed [[sensitive|sensitive]] to sound. The team's [[expectation|expectation]] was that a quieter room would mean longer, less interrupted sleep.",
+    "Rather than changing the daily routine, Leila installed sound-absorbing panels covered with thick [[canvas|canvas]], securely fixed high on the walls. A technician had to [[trim|trim]] the cloth to fit each wooden frame. For one week, the babies slept without panels; the following week, the panels were fitted. Room temperature, lighting and nap times remained unchanged, while staff recorded awakenings.",
+    "With the panels, the room was [[comparatively|comparatively]] quiet: a dropped spoon produced a short click instead of a ringing echo. Average sleep time increased by eleven minutes, although three babies [[barely|barely]] changed their sleeping patterns. However, Leila made a [[confession|confession]] at the staff meeting: she had deliberately left out one unusually noisy afternoon from her first calculation because it weakened the result.",
+    "After restoring that afternoon's data, the average gain fell to six minutes. Leila reported the corrected findings [[publicly|publicly]] in the centre's newsletter. She stressed that a two-week trial could not prove the panels caused better sleep. The centre kept them, but planned a longer test before buying panels for its other rooms."
+  ],
+  "zh": [
+    "在一家小型托育中心，研究员莱拉·森测试了减少回声是否能帮助婴儿睡眠。十二名婴儿在平时的午睡时段参与了试验。工作人员怀疑，突发声响是导致他们醒来的一个主要因素，对那些似乎对声音敏感的婴儿尤其如此。研究团队预期，更安静的房间能让婴儿睡得更久，醒来的次数也更少。",
+    "莱拉没有改变日常作息，而是在墙壁高处牢固地安装了包着厚帆布的吸音板。一名技术人员需要修剪布料，使其与每个木框大小相合。第一周，婴儿睡觉时房内没有吸音板；第二周则安装了吸音板。室温、照明和午睡时间保持不变，工作人员同时记录婴儿醒来的情况。",
+    "安装吸音板后，房间相对安静了：勺子掉落时只发出短促的一声，而不会产生响亮的回声。平均睡眠时间增加了十一分钟，不过有三名婴儿的睡眠模式几乎没有变化。然而，莱拉在员工会议上坦白了一件事：她在首次计算时故意排除了一个异常吵闹的下午，因为那天的数据让效果显得不那么明显。",
+    "把那个下午的数据重新纳入后，平均增加的睡眠时间降到了六分钟。莱拉在中心的通讯简报中公开报告了修正后的结果。她强调，为期两周的试验无法证明睡眠改善是吸音板造成的。中心保留了这些吸音板，但计划先进行更长时间的测试，再为其他房间购买。"
+  ],
+  "q": [
+    {
+      "s": "All twelve babies were under six months old.",
+      "a": "NG",
+      "why": "文中只称他们为婴儿，未说明具体月龄。"
+    },
+    {
+      "s": "The lighting was changed when the panels were installed.",
+      "a": "F",
+      "why": "第二段明确说明照明保持不变。"
+    },
+    {
+      "s": "Including the omitted afternoon reduced the average sleep gain to six minutes.",
+      "a": "T",
+      "why": "纳入被排除的下午后，平均增量降为六分钟。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0628",
+  "ids": [
+    "courteous",
+    "reproach",
+    "regime",
+    "duet",
+    "extraction",
+    "mishandle",
+    "waken",
+    "reel",
+    "manor",
+    "conceivable"
+  ],
+  "title": "A Duet in the Dental Chair",
+  "titleZh": "牙科诊椅上的二重奏",
+  "topic": "health",
+  "cefr": 4,
+  "paras": [
+    "In 1964, a rural dental clinic occupied a converted [[manor|manor]] whose former owners had fled under the previous [[regime|regime]]. Its high ceilings amplified every metallic clink. Suspecting that these sounds intensified anxiety, dentist Mira Sen devised an experiment involving forty adults awaiting tooth [[extraction|extraction]], all receiving the same local anaesthetic.",
+    "Half the patients wore headphones playing a gentle violin [[duet|duet]], recorded on a [[reel|reel]] of magnetic tape; the remainder wore identical headphones without sound. Allocation was random. Sen maintained a [[courteous|courteous]] manner throughout and followed a fixed explanatory script, so that differences in reassurance would be less likely to distort the comparison.",
+    "Before treatment, patients reported whether toothache had caused them to [[waken|waken]] during the preceding night, and rated their apprehension. An assistant recorded pulse rates without knowing which recording each patient received. Sen also asked staff not to [[reproach|reproach]] anyone who requested a pause: to [[mishandle|mishandle]] such a request could introduce distress unrelated to either the music or the procedure itself.",
+    "The music group showed a smaller average rise in pulse rate, although its reported pain was almost identical to that of the comparison group. It was [[conceivable|conceivable]] that the music merely masked alarming noises rather than offering benefits specific to the duet. Pulse rates alone could not establish whether patients felt less afraid. Sen retained the recordings as an optional accompaniment to treatment, not as a substitute for anaesthesia."
+  ],
+  "zh": [
+    "1964年，一家乡村牙科诊所设在一座改建的庄园宅邸内，宅邸的原主人在前一个政权统治时期逃离了此地。高高的天花板放大了每一次金属碰撞声。牙医米拉·森怀疑这些声音会加重焦虑，于是设计了一项实验，让四十名等待拔牙的成年人参与，所有人都接受相同的局部麻醉。",
+    "一半患者戴着耳机，聆听录在一卷磁带上的轻柔小提琴二重奏；其余患者戴着相同的耳机，却听不到声音。分组采取随机方式。森始终保持礼貌，并按照固定的说明稿向患者解释，以降低安抚方式的差异干扰比较结果的可能性。",
+    "治疗前，患者报告了前一晚是否曾因牙痛而醒来，并对自己的担忧程度进行评分。一名助手在不知道各位患者被分配到哪种录音条件的情况下记录脉搏。森还要求工作人员不要责备任何提出暂停请求的人：如果处理不当，就可能造成与音乐或治疗操作本身都无关的心理压力。",
+    "音乐组的脉搏平均增幅较小，但其报告的疼痛程度与对照组几乎完全相同。一种可能的解释是，音乐只是遮盖了令人紧张的噪声，而非这首二重奏带来了特有的益处。仅凭脉搏无法确定患者是否感到不那么害怕。森保留了这些录音，供患者在治疗时选择聆听，而不是用来替代麻醉。"
+  ],
+  "q": [
+    {
+      "s": "Patients chose whether they would join the music group or the silent-headphone group.",
+      "a": "F",
+      "why": "第二段明确说明分组是随机的。"
+    },
+    {
+      "s": "The assistant who measured pulse rates had received specialist training in music therapy.",
+      "a": "NG",
+      "why": "第三段仅介绍助手的任务，未提及其培训经历。"
+    },
+    {
+      "s": "Reported pain levels were almost identical in the two groups.",
+      "a": "T",
+      "why": "末段明确说两组报告的疼痛程度几乎相同。"
+    }
+  ]
+}

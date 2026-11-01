@@ -1,0 +1,48 @@
+{
+  "id": "r0508",
+  "ids": [
+    "strand",
+    "cautious",
+    "famine",
+    "attentively",
+    "wisdom",
+    "installment",
+    "exhibit",
+    "kingdom",
+    "crisp",
+    "nitrogen"
+  ],
+  "title": "A Garden Woven from Memory",
+  "titleZh": "用记忆编织的花园",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "Behind an unused mill, twelve residents of Alder Valley created a garden devoted to plants once grown locally. Their starting point was a diary describing a [[famine|famine]] that had struck the surrounding [[kingdom|kingdom]] two centuries earlier. It recorded how families survived by growing peas alongside flax, a plant used for making cloth.",
+    "Project leader Mina Das was [[cautious|cautious]] about treating the diary as a gardening manual. At their first meeting, volunteers listened [[attentively|attentively]] to retired grower Tomas Silva, who explained the practical [[wisdom|wisdom]] behind mixing crops. Bacteria living in nodules on pea roots could capture [[nitrogen|nitrogen]] from the air, helping enrich the soil over time. However, he warned that the diary alone could not establish which planting arrangement worked best.",
+    "The group therefore divided the garden into six narrow beds and compared different arrangements. A small grant covered seeds, while a weekend plant sale paid the first [[installment|installment]] on a water tank. By August, visitors could taste [[crisp|crisp]] young pea pods and watch volunteers separate flax fibres. Holding up a single [[strand|strand]], Mina showed how an apparently ordinary stem could provide material for clothing.",
+    "In autumn, the residents began to [[exhibit|exhibit]] their garden records and handmade thread inside the mill. Their measurements were too limited to prove that one arrangement was superior, but the project achieved something clearer: eight households saved seeds for the following spring. A forgotten account of survival had become a shared, living experiment."
+  ],
+  "zh": [
+    "在一座闲置磨坊后面，奥尔德谷的十二位居民开辟了一处花园，专门种植当地过去栽培过的植物。他们的灵感来自一本日记，其中记载了两个世纪前席卷周边王国的一场饥荒。日记讲述了当时的家庭如何把豌豆与一种用于织布的植物——亚麻——种在一起，借此维持生计。",
+    "项目负责人米娜·达斯并不轻易把这本日记当作园艺指南。第一次开会时，志愿者们专心听退休种植者托马斯·席尔瓦讲解混种作物背后的实用智慧。生活在豌豆根瘤中的细菌能够固定空气中的氮，逐渐提高土壤肥力。不过，他提醒大家，仅凭这本日记无法确定哪种种植布局效果最好。",
+    "于是，小组把花园划分成六块狭长的种植畦，对比不同的布局。一笔小额资助支付了种子费用，而一次周末植物义卖所得则支付了储水箱的首期款。到了八月，来访者既可以品尝脆嫩的豌豆荚，也可以观看志愿者分离亚麻纤维。米娜举起一缕纤维，展示一根看似普通的茎如何成为制作衣物的原料。",
+    "秋天，居民们开始在磨坊里展出花园记录和手工制作的线。他们的测量数据还不足以证明某种布局更优，但项目取得了一项更明确的成果：八户家庭为来年春天留下了种子。一段被遗忘的求生记载，就这样变成了一场共同参与、生机勃勃的实验。"
+  ],
+  "q": [
+    {
+      "s": "According to Tomas, the diary alone could establish which planting arrangement worked best.",
+      "a": "F",
+      "why": "托马斯明确说仅凭日记无法确定最佳布局。"
+    },
+    {
+      "s": "The first installment covered half the price of the water tank.",
+      "a": "NG",
+      "why": "文章未说明首期款占水箱价格的比例。"
+    },
+    {
+      "s": "Eight households saved seeds for the following spring.",
+      "a": "T",
+      "why": "末段明确说八户家庭为来年春天留种。"
+    }
+  ]
+}

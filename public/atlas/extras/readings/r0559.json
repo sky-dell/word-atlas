@@ -1,0 +1,48 @@
+{
+  "id": "r0559",
+  "ids": [
+    "confine",
+    "semiconductor",
+    "deficiency",
+    "scorch",
+    "symmetry",
+    "illiteracy",
+    "calamity",
+    "diplomacy",
+    "transit",
+    "resistant"
+  ],
+  "title": "The Seed Crate That Reports Trouble",
+  "titleZh": "会报告险情的种子箱",
+  "topic": "technology",
+  "cefr": 4,
+  "paras": [
+    "Consider a fictional design trial led by engineer Laila Mensah, whose cooperative exchanges rare bean seeds between mountain nurseries. Rather than [[confine|confine]] precision monitoring to the laboratory, her team puts electronic labels inside wooden crates to record conditions during [[transit|transit]]. The aim is to discover heat exposure that an inspection on arrival might miss.",
+    "Each label uses a [[semiconductor|semiconductor]] temperature sensor and stores readings without continuously transmitting data. This addresses a [[deficiency|deficiency]] in the cooperative's records: a cool crate at delivery reveals little about earlier conditions. Beside a sun-heated lid, temperatures could rise enough to [[scorch|scorch]] seeds even if the crate subsequently cools.",
+    "The proposed display shows two matching leaves. When recorded heat exposure exceeds a chosen threshold, an electronic panel covers one leaf, breaking the pattern's [[symmetry|symmetry]]. After a demonstration, growers could recognise the warning without written instructions or separate equipment. Although [[illiteracy|illiteracy]] was not the team's initial concern, it now influences the design. The casing must also be [[resistant|resistant]] to moisture so that condensation does not disable the label.",
+    "For a nursery holding only a few hundred seeds of a variety, losing a shipment could be a [[calamity|calamity]]. Laila envisages a role for shared records in agricultural [[diplomacy|diplomacy]]: neighbouring countries might use them when negotiating rules for replacement consignments. However, a temperature warning would not prove that seeds had died. In this trial, flagged shipments would be set aside for germination tests rather than automatically discarded."
+  ],
+  "zh": [
+    "设想一项由工程师莱拉·门萨主持的虚构设计试验，她所在的合作社在山地苗圃之间交换珍稀豆类种子。她的团队没有把精密监测局限于实验室，而是将电子标签放入木箱，记录运输过程中的环境状况。目的是发现到货检查可能遗漏的受热情况。",
+    "每个标签使用一个半导体温度传感器，无须持续传输数据即可存储读数。这弥补了合作社记录中的一项不足：交货时箱子温度较低，几乎不能说明此前的状况。在被阳光晒热的箱盖附近，温度可能升高到足以烤伤种子的程度，即便箱子后来又凉了下来。",
+    "拟议中的显示屏呈现两片相互对称的叶子。当记录的受热程度超过选定阈值时，一块电子面板便会遮住其中一片叶子，破坏图案的对称性。看过演示之后，种植者便可不借助文字说明或其他设备识别警告。虽然不识字的问题并非团队最初关注的事项，如今却影响着设计。外壳还必须耐潮湿，以免凝露导致标签失灵。",
+    "对于某一品种仅存几百粒种子的苗圃来说，损失一批货物可能就是一场灾难。莱拉设想共享记录可以在农业外交中发挥作用：邻国在协商补发货物的规则时，或许可以使用这些记录。不过，温度警告并不能证明种子已经死亡。在这项试验中，被标记的货物将被单独留出，用于发芽试验，而不是直接丢弃。"
+  ],
+  "q": [
+    {
+      "s": "In the proposed trial, precision monitoring extends beyond the laboratory.",
+      "a": "T",
+      "why": "首段说明团队将电子标签放入运输箱。"
+    },
+    {
+      "s": "The labels must send information continuously in order to keep track of heat exposure.",
+      "a": "F",
+      "why": "第二段明确说无须持续传输数据即可存储读数。"
+    },
+    {
+      "s": "The neighbouring countries have agreed to divide the cost of replacement shipments equally.",
+      "a": "NG",
+      "why": "只设想协商补发规则，未说明费用分摊。"
+    }
+  ]
+}

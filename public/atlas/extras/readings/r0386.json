@@ -1,0 +1,48 @@
+{
+  "id": "r0386",
+  "ids": [
+    "fragile",
+    "rib",
+    "lonesome",
+    "coffin",
+    "transaction",
+    "catalog",
+    "remote",
+    "dumb",
+    "breed",
+    "nerve"
+  ],
+  "title": "Measuring the Island Saddle",
+  "titleZh": "丈量海岛马鞍",
+  "topic": "travel",
+  "cefr": 3,
+  "paras": [
+    "Every spring, saddle researcher Leila Marin travels by boat to three [[remote|remote]] islands where families still [[breed|breed]] small horses for carrying supplies over rocky paths. She records how island saddles differ from mainland designs. Her luggage contains measuring tapes, a camera and cotton sheets for wrapping [[fragile|fragile]] leather samples borrowed from village workshops.",
+    "Leila began these journeys after returning to her birthplace for her father's funeral. Watching his [[coffin|coffin]] being carried along the harbour road, she realised how little she knew about his work as a saddle maker. His workshop felt painfully [[lonesome|lonesome]] without him. Inside a drawer, however, she found a handwritten [[catalog|catalog]] of designs, with the names of craftspeople on neighbouring islands.",
+    "Those names became her first travel plan. At each workshop, she asks makers to explain a saddle's shape before discussing any purchase. A [[transaction|transaction]] may take minutes, but understanding the object can require days. One maker demonstrated how a misplaced wooden edge could press against a horse's [[rib|rib]], while a tight strap could put pressure on a [[nerve|nerve]]. Leila now records these practical explanations alongside every measurement.",
+    "\"It would be [[dumb|dumb]] to measure everything and listen to nobody,\" she says. This autumn, she will return with waterproof copies of her illustrated guide for the workshops. The guide will not replace practical training, but it will connect knowledge once separated by rough water—and give her father's unfinished notes a useful future."
+  ],
+  "zh": [
+    "每年春天，马鞍研究者莱拉·马林都会乘船前往三座偏远海岛。那里的家庭仍在繁育小型马，用它们沿崎岖的石路运送物资。她记录海岛马鞍与大陆马鞍在设计上的差异。她的行李里装着卷尺、相机，还有用来包裹从村中作坊借来的易损皮革样品的棉布。",
+    "莱拉是在回乡参加父亲的葬礼之后开始这些旅程的。望着父亲的棺材被人沿着港口道路抬走，她意识到，自己对父亲制作马鞍的工作知之甚少。没有了父亲，待在他的作坊里让她感到格外孤寂。不过，她在一个抽屉里发现了一份手写的设计目录，上面还记着邻近岛屿上一些工匠的名字。",
+    "这些名字成了她最初旅行计划的依据。每到一家作坊，她都会先请工匠解释马鞍的形状，再谈购买事宜。一笔交易可能几分钟就能完成，但要理解一件物品，却可能需要好几天。一位工匠向她演示，位置不当的木质边缘会怎样顶住马的肋骨，而过紧的带子又可能怎样压迫神经。如今，莱拉会在每项测量数据旁记下这些实用的解释。",
+    "“只顾测量，却不听任何人的讲解，那就太傻了，”她说。今年秋天，她将带着自己编写的图解指南的防水版本，再次走访这些作坊。这本指南无法取代实践训练，却能把曾被汹涌海水隔开的知识联系起来，也让父亲未完成的笔记在未来继续发挥作用。"
+  ],
+  "q": [
+    {
+      "s": "Leila visits the islands to document differences between island and mainland saddles.",
+      "a": "T",
+      "why": "首段说明她记录两地马鞍的设计差异。"
+    },
+    {
+      "s": "Leila's father had taught her how to make a saddle.",
+      "a": "NG",
+      "why": "文中未说明父亲是否教过她制作马鞍。"
+    },
+    {
+      "s": "Leila discusses a purchase before asking the maker to explain a saddle's shape.",
+      "a": "F",
+      "why": "第三段说她先请工匠解释，再讨论购买。"
+    }
+  ]
+}

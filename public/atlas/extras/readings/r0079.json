@@ -1,0 +1,43 @@
+{
+  "id": "r0079",
+  "ids": [
+    "british",
+    "bed",
+    "same",
+    "video",
+    "during"
+  ],
+  "title": "A Little Bed, a Big Journey",
+  "titleZh": "小床的大旅程",
+  "topic": "emotion",
+  "cefr": 0,
+  "paras": [
+    "Mina is a [[british|British]] girl. She is six. Today, her family is moving to a house by the sea. Her father brings her small yellow [[bed|bed]] from their old house. He puts it in her new room. Mina sits on it and looks out of the window. She can see the water, but she cannot see any of her old friends.",
+    "That evening, Mina and her father make a short [[video|video]] for her friends. She shows them her room. “Here is my bed,” she says. “And here is my star lamp.” She puts the lamp by the window. Then her father sends the video. Mina wants to show her friends the sea too, but it is dark now.",
+    "Mina hears the sea [[during|during]] the night. At her old home, nights were quiet. She feels afraid and calls her father. He sits beside her and sings. It is the [[same|same]] song he sang in their old house. Mina holds his hand. Slowly, she closes her eyes.",
+    "After that first night, Mina puts the star lamp by her window every night. Its warm light helps her feel happy there. In the morning, she looks for boats from her window. She wants to make another video when a boat comes near the house."
+  ],
+  "zh": [
+    "米娜是一个英国女孩。她六岁。今天，她一家要搬到海边的一座房子里。爸爸从旧家带来了她的黄色小床。他把床放在她的新房间里。米娜坐在床上，望向窗外。她能看见海水，却看不见任何一个老朋友。",
+    "那天晚上，米娜和爸爸为她的朋友们录了一段短视频。她给朋友们看自己的房间。“这是我的床，”她说，“这是我的星星灯。”她把灯放在窗边。然后爸爸把视频发了出去。米娜还想给朋友们看看大海，但现在天已经黑了。",
+    "夜里，米娜听见大海的声音。在旧家时，夜晚很安静。她感到害怕，叫来爸爸。他坐在她身边唱歌。他唱的是从前在旧家唱的同一首歌。米娜握着他的手。慢慢地，她闭上了眼睛。",
+    "过了第一晚之后，米娜每晚都把星星灯放在窗边。温暖的灯光让她在那里感到开心。早上，她会从窗口找寻船只。她想等有船靠近房子时再录一段视频。"
+  ],
+  "q": [
+    {
+      "s": "The yellow bed was in Mina's old home.",
+      "a": "T",
+      "why": "爸爸从旧家带来了这张黄色小床。"
+    },
+    {
+      "s": "At night, Mina's father sings a song that is new to her.",
+      "a": "F",
+      "why": "他唱的是在旧家唱过的同一首歌。"
+    },
+    {
+      "s": "Mina's father made the star lamp for her.",
+      "a": "NG",
+      "why": "文章没有说明星星灯是谁制作的。"
+    }
+  ]
+}

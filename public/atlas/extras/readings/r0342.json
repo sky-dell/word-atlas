@@ -1,0 +1,48 @@
+{
+  "id": "r0342",
+  "ids": [
+    "indication",
+    "moss",
+    "acceptance",
+    "arms",
+    "inflation",
+    "interpreter",
+    "spear",
+    "sob",
+    "draft",
+    "mileage"
+  ],
+  "title": "Lessons Along the Route",
+  "titleZh": "沿途的课堂",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "When Mira Das opened her old teaching wagon's logbook, its recorded [[mileage|mileage]] surprised her: nearly 3,000 kilometres. The muddy pages offered another [[indication|indication]] of how hard those journeys had been. Now the wagon stood in a damp courtyard, with [[moss|moss]] growing beneath its rear step. She had come to collect her papers before the roof was repaired.",
+    "Among them was the first [[draft|draft]] of her invitation to village craft workers. She had offered evening lessons in bookkeeping and reading technical drawings. One workshop owner's letter of [[acceptance|acceptance]] specified that lessons must begin after sunset. Mira remembered waiting outside his door with Tomas, the [[interpreter|interpreter]] who translated questions whenever she could not understand a participant's language.",
+    "The wagon had carried [[arms|arms]] before she acquired it. While replacing a floorboard, a carpenter had discovered a broken [[spear|spear]] underneath. Mira remembered that discovery less clearly than a lesson during which a man began to [[sob|sob]] while describing his destroyed workshop. She had put down her chalk and sat beside him.",
+    "Later pages contained chair-making calculations. With [[inflation|inflation]] raising timber prices, Mira had asked participants to compare old and new costs rather than copy yesterday's figures. Two price lists were still folded together. She packed them with the letters, leaving the empty cupboard open for the carpenter to inspect."
+  ],
+  "zh": [
+    "米拉·达斯翻开旧教学车的行车日志时，记录的行驶里程让她吃了一惊：近3000公里。沾着泥的书页也显示出那些旅途有多么艰辛。如今，车停在一个潮湿的院子里，后方踏板下面长着苔藓。她此行是来在修理车顶之前取走自己的文件。",
+    "其中有她写给乡村手艺人的第一份邀请函草稿。她当时提出开设夜间课程，教授记账和技术图纸阅读。一位作坊主的回信表示接受，但明确要求课程必须在日落后开始。米拉记得自己曾和口译员托马斯一起在他的门外等候。每当她听不懂某位学员使用的语言时，托马斯就会翻译对方的问题。",
+    "在她得到这辆车之前，它曾运送武器。一名木匠在更换一块地板时，在下面发现了一支断矛。相比这次发现，米拉更清楚地记得一堂课：一个男人在讲述自己的作坊被毁的经历时，开始抽泣。她放下粉笔，坐到了他身边。",
+    "后面的书页上记着制作椅子的成本计算。通货膨胀使木材价格上涨，米拉便让学员比较新旧成本，而不是照抄之前的数字。两份价目表仍折叠在一起。她把它们和信件一起收好，留下空柜子的门开着，方便木匠检查。"
+  ],
+  "q": [
+    {
+      "s": "Mira had kept the wagon's logbook at home before this visit.",
+      "a": "NG",
+      "why": "文中未说明此次来访前日志存放在哪里。"
+    },
+    {
+      "s": "The workshop owner wanted lessons to begin before sunset.",
+      "a": "F",
+      "why": "作坊主明确要求日落后开始上课。"
+    },
+    {
+      "s": "Mira asked participants to compare earlier costs with current ones.",
+      "a": "T",
+      "why": "末段说她让学员比较新旧成本。"
+    }
+  ]
+}

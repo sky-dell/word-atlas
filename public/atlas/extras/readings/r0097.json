@@ -1,0 +1,46 @@
+{
+  "id": "r0097",
+  "ids": [
+    "church",
+    "firefighter",
+    "palace",
+    "bridge",
+    "eating",
+    "tip",
+    "technology",
+    "path",
+    "system",
+    "northeast"
+  ],
+  "title": "Painting a Waterfall Rainbow",
+  "titleZh": "画下瀑布上的彩虹",
+  "topic": "arts",
+  "cefr": 1,
+  "paras": [
+    "Mira paints pictures in the [[northeast|northeast]] of a small country. Her favourite place is a waterfall below an old [[palace|palace]], once the home of a king. A narrow [[path|path]] leads past a [[church|church]] to a wooden [[bridge|bridge]] over the river. From here, she can see a rainbow above the falling water on sunny mornings. She often brings lunch. For Mira, [[eating|eating]] outdoors also gives her time to watch the light.",
+    "The rainbow appears because the waterfall sends tiny drops of water into the air. Sunlight looks white, but it contains many colours. When light enters a drop, it bends. It then turns back inside the drop and leaves again. Different colours bend by different amounts, so they reach our eyes separately. Millions of drops together make the coloured shape that Mira sees.",
+    "No special [[technology|technology]] makes this happen. The waterfall is a natural [[system|system]]: moving water fills the air with drops, and sunlight brings out their colours. Mira's friend Tomas, a [[firefighter|firefighter]], has seen the same effect when spraying water during training. His useful [[tip|tip]] is to keep the sun behind you. Mira follows his advice and adds a soft band of colour to her painting."
+  ],
+  "zh": [
+    "米拉在一个小国的东北部画画。她最喜欢的地方是一座旧王宫下方的瀑布，那座王宫曾是一位国王的住所。一条狭窄的小路经过一座教堂，通向横跨河流的木桥。在阳光明媚的早晨，她从这里能看见瀑布上方的彩虹。她常常带着午餐来。对米拉来说，在户外吃饭也让她有时间观察光线。",
+    "彩虹的出现，是因为瀑布将细小的水滴送入空中。阳光看起来是白色的，却包含许多种颜色。光进入水滴时会发生弯折，随后在水滴内部折返，再射出来。不同颜色的光弯折的程度不同，因此会分开进入我们的眼睛。数百万颗水滴共同形成了米拉所看见的彩色形状。",
+    "这一现象不需要任何特殊技术。瀑布是一个自然系统：流动的水让空气中充满水滴，而阳光使其中的色彩显现出来。米拉的朋友托马斯是一名消防员，他在训练时喷水，也见过同样的现象。他给出了一条实用建议：让太阳保持在你身后。米拉照着他的建议，在画上添了一道柔和的彩色光带。"
+  ],
+  "q": [
+    {
+      "s": "A king used to live in the building above Mira's favourite waterfall.",
+      "a": "T",
+      "why": "瀑布上方的旧王宫曾是国王的住所。"
+    },
+    {
+      "s": "All the colours in sunlight bend equally when they enter water drops.",
+      "a": "F",
+      "why": "文中说不同颜色的光弯折程度不同。"
+    },
+    {
+      "s": "Tomas learned about rainbows from an art teacher.",
+      "a": "NG",
+      "why": "文中未提托马斯向谁学习彩虹知识。"
+    }
+  ]
+}

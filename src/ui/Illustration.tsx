@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { CLASSIC_ILLUSTRATIONS, useAppearance } from "./Appearance";
 
 const HUES = ["#C4573A", "#7F9B77", "#D9A03A", "#5F7FA3", "#A86B8C", "#4E7C76"];
 
@@ -10,6 +11,7 @@ export function Illustration({
   className = "",
   eager = false,
   alt,
+  variant,
 }: {
   src: string | null;
   word: string;
@@ -17,20 +19,28 @@ export function Illustration({
   className?: string;
   eager?: boolean;
   alt?: string;
+  variant?: 'atlas'|'classic';
 }) {
-  const [state, setState] = useState<"loading" | "ok" | "error">("loading");
-  const showImg = src && state !== "error";
+  const { illus } = useAppearance();
+  const classic = (variant ?? illus) === "classic" ? CLASSIC_ILLUSTRATIONS[word.toLowerCase()] : undefined;
+  const source = classic || src;
+  const [result, setResult] = useState<{ src: string | null; state: "ok" | "error" }>({ src: null, state: "error" });
+  const [failedClassic, setFailedClassic] = useState<string | null>(null);
+  const resolved = classic && failedClassic === classic ? src : source;
+  const resolvedState = result.src === resolved ? result.state : "loading";
+  const showImg = resolved && resolvedState !== "error";
   return (
-    <figure className={`illo ${showImg && state === "ok" ? "is-loaded" : ""} ${className}`}>
+    <figure className={`illo ${showImg && resolvedState === "ok" ? "is-loaded" : ""} ${className}`}>
       {showImg ? (
         <img
-          src={src}
+          key={resolved}
+          src={resolved}
           alt={alt ?? ""}
           loading={eager ? "eager" : "lazy"}
           decoding="async"
           draggable={false}
-          onLoad={() => setState("ok")}
-          onError={() => setState("error")}
+          onLoad={() => setResult({ src: resolved, state: "ok" })}
+          onError={() => { if (classic && resolved === classic && src) setFailedClassic(classic); else setResult({ src: resolved, state: "error" }); }}
         />
       ) : (
         <div className="plate" style={{ "--hue": HUES[topic % HUES.length], "--len": Math.max(4, word.length) } as React.CSSProperties} aria-hidden="true">

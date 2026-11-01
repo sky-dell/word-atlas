@@ -1,0 +1,48 @@
+{
+  "id": "r0350",
+  "ids": [
+    "suspicion",
+    "digestion",
+    "dissatisfaction",
+    "simplicity",
+    "crate",
+    "sprain",
+    "mint",
+    "pail",
+    "ministry",
+    "salute"
+  ],
+  "title": "A Watering System Worth Keeping",
+  "titleZh": "一套值得保留的浇水系统",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "At the Harbour Veterans’ Club, a small herb garden supplied the kitchen with fresh leaves. Members grew [[mint|mint]] for tea, which some drank after meals to help their [[digestion|digestion]]. However, carrying water across the uneven yard became difficult. When a volunteer [[sprain|sprained]] her ankle while lifting a full [[pail|pail]], the club decided to try automatic watering.",
+    "Retired electrician Farid built a system using a rain barrel, narrow pipes and a battery-powered timer. He protected the controls inside an old delivery [[crate|crate]]. His design followed a free water-saving guide published by the agriculture [[ministry|ministry]]. Yet several members viewed the equipment with [[suspicion|suspicion]], believing that a hidden leak might empty the barrel overnight.",
+    "Their early [[dissatisfaction|dissatisfaction]] increased when the timer’s tiny buttons proved difficult to press. Farid therefore invited six members to test a larger control panel made by a nearby repair group. Its main advantage was [[simplicity|simplicity]]: one switch started watering, while a clearly marked dial set the duration. During a four-week trial, members recorded water use and checked the soil each morning. The plants remained healthy, and nobody needed to carry heavy containers.",
+    "At the club’s summer gathering, former naval cook Mei stood beside the garden to [[salute|salute]] Farid, raising her hand formally to her forehead. The gesture brought laughter, but her thanks were serious. The project had succeeded not through advanced equipment, but by making a modest invention comfortable for its users."
+  ],
+  "zh": [
+    "海港退伍军人俱乐部有一座小香草园，为厨房供应新鲜叶片。会员们种薄荷来泡茶，有些人饭后喝薄荷茶，以帮助消化。然而，提着水穿过凹凸不平的院子变得困难起来。一名志愿者在提起满满一桶水时扭伤了脚踝，俱乐部于是决定尝试自动浇水。",
+    "退休电工法里德用一个雨水桶、几根细水管和一个电池供电的定时器搭建了一套系统。他把控制装置放进一个旧运输箱里加以保护。设计参考了农业部发布的一份免费节水指南。不过，几位会员对这套设备心存怀疑，认为某处不易察觉的漏水可能会在一夜之间把桶里的水放光。",
+    "定时器上的小按钮很难按，这进一步加重了他们最初的不满。因此，法里德邀请六位会员试用附近一个维修小组制作的较大控制面板。它的主要优点是操作简单：一个开关启动浇水，一个标识清楚的旋钮设定浇水时长。在为期四周的试用中，会员们记录用水量，并在每天早晨检查土壤。植物一直长得很好，也没有人再需要搬运沉重的容器。",
+    "在俱乐部的夏日聚会上，曾任海军厨师的梅站在花园旁，正式地将手举到额前，向法里德敬礼。这个举动引来一阵笑声，但她的感谢是认真的。项目取得成功，靠的不是先进设备，而是让一项小发明用起来舒适顺手。"
+  ],
+  "q": [
+    {
+      "s": "An injury helped persuade the club to introduce an automatic watering system.",
+      "a": "T",
+      "why": "志愿者扭伤脚踝后，俱乐部决定尝试自动浇水。"
+    },
+    {
+      "s": "Farid downloaded the water-saving guide from the ministry's website.",
+      "a": "NG",
+      "why": "只说明指南免费且由农业部发布，未说明获取方式。"
+    },
+    {
+      "s": "Members found the original timer's buttons easy to press.",
+      "a": "F",
+      "why": "原定时器的按钮很小，难以按动。"
+    }
+  ]
+}

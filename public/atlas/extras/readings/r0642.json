@@ -1,0 +1,48 @@
+{
+  "id": "r0642",
+  "ids": [
+    "seizure",
+    "asymmetric",
+    "permissible",
+    "revive",
+    "cubism",
+    "senator",
+    "drench",
+    "fir",
+    "living-quarter",
+    "redeem"
+  ],
+  "title": "The Return of the Rain Pavilion",
+  "titleZh": "雨亭再度走红",
+  "topic": "history",
+  "cefr": 4,
+  "paras": [
+    "At a small coastal museum, the most requested historical reconstruction is neither a royal bedroom nor a battlefield, but a wooden pavilion designed to [[drench|drench]] its visitors. Built in 1927 for an artists’ retreat, the original structure has unexpectedly attracted a new audience through an exhibition of its surviving maintenance records.",
+    "The pavilion stood beside the artists’ [[living-quarter|living quarters]], beneath mature [[fir|fir]] trees. Its [[asymmetric|asymmetric]] roof channelled rain into a shallow copper basin, which periodically overturned onto willing participants. Sketches reveal an architectural experiment influenced by [[cubism|cubism]]: intersecting planes offered dramatically different silhouettes from each path. A visiting [[senator|senator]] complained that the result resembled several buildings accidentally pushed together, a remark subsequently printed on souvenir cards.",
+    "Rather than merely displaying these documents, curator Leila Moreno decided to [[revive|revive]] the retreat’s weekly rain ceremony. Museum carpenters reproduced the mechanism, although contemporary safety standards required modifications. Only a measured quantity of water is now [[permissible|permissible]], and the platform has a nonslip surface. Proposed flashing lamps, intended to imitate lightning, were abandoned because they could trigger a [[seizure|seizure]] in someone with photosensitive epilepsy. Visitors can [[redeem|redeem]] a numbered exhibition voucher for a waterproof cape and a place beneath the basin.",
+    "Unexpectedly, the sessions attract more bookings than the museum’s painting workshops. Interviews suggest that participants value the opportunity to experience an eccentric historical routine rather than simply inspect its remains."
+  ],
+  "zh": [
+    "在一座海滨小型博物馆里，最受欢迎的历史复原项目既不是王室卧室，也不是战场，而是一座专门把游客淋透的木亭。原亭建于1927年，属于一处艺术家休养地。如今，一场展示其留存维修记录的展览，意外地为它吸引了一批新观众。",
+    "这座亭子原先坐落在艺术家的住处旁，在长成的冷杉树下。不对称的屋顶将雨水导入一个浅铜盆，铜盆每隔一段时间便会翻转，把水倒在自愿参与的人身上。草图表明，这是一项受立体主义影响的建筑实验：彼此交错的平面，使亭子从不同小径望去呈现出截然不同的轮廓。一位到访的参议员抱怨说，它看起来像是几栋建筑意外地挤到了一起。这句话后来被印在了纪念卡上。",
+    "策展人莱拉·莫雷诺不满足于仅仅展示这些文献，而是决定恢复休养地每周举行的雨水仪式。博物馆的木匠重制了装置，不过，为符合当代安全标准，他们必须作出一些调整。如今，每次放水量都有明确限制，平台也采用了防滑表面。原本计划用于模拟闪电的闪光灯被取消了，因为它们可能诱发光敏性癫痫患者发作。游客可以凭带编号的展览兑换券，换取一件防水披肩和一个站在铜盆下体验的名额。",
+    "出人意料的是，这些体验活动的预约量超过了博物馆的绘画工作坊。访谈表明，参与者看重的可能是亲身体验一种古怪的历史惯例的机会，而不只是观看它留下的遗物。"
+  ],
+  "q": [
+    {
+      "s": "The artists paid for the construction of the original pavilion.",
+      "a": "NG",
+      "why": "文中未说明原亭的建造资金由谁提供。"
+    },
+    {
+      "s": "The reconstructed rain ceremony uses flashing lights to imitate lightning.",
+      "a": "F",
+      "why": "模拟闪电的闪光灯方案已被取消。"
+    },
+    {
+      "s": "The rain sessions receive more bookings than the museum's painting workshops.",
+      "a": "T",
+      "why": "末段明确比较预约量，雨水体验更多。"
+    }
+  ]
+}

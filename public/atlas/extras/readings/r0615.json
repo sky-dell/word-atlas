@@ -1,0 +1,48 @@
+{
+  "id": "r0615",
+  "ids": [
+    "offhand",
+    "potluck",
+    "exemplify",
+    "paramount",
+    "chamber",
+    "cellular",
+    "extravagant",
+    "hepatitis",
+    "discreet",
+    "microfilm"
+  ],
+  "title": "What a Harbour Remembers",
+  "titleZh": "港湾记住了什么",
+  "topic": "thinking",
+  "cefr": 4,
+  "paras": [
+    "Visitors to Velora usually photograph its blue doorways; I came for an evening devoted to uncertain memories. In a former customs [[chamber|chamber]], archivist Mara Velez asked twelve residents to bring a dish and a question about the harbour's past. The [[potluck|potluck]] began with lentils, preserved lemons and an argument about a vanished hotel.",
+    "One guest declared [[offhand|offhand]] that the hotel had closed after an outbreak of [[hepatitis|hepatitis]]. Mara threaded [[microfilm|microfilm]] through a reader. Newspaper reports described cancelled bookings, but accounts revealed debts from an [[extravagant|extravagant]] marble dining room. The distinction was [[paramount|paramount]]: illness might explain the final empty season without explaining why the business could no longer survive.",
+    "A retired nurse, Dario Sen, explained that the disease involves inflammation and damage at the [[cellular|cellular]] level, not the mysterious hereditary curse recalled by another guest. Mara remained [[discreet|discreet]] when family names appeared, covering a private address before enlarging an article. Such gestures [[exemplify|exemplify]] her approach: scrutinising evidence while protecting people's privacy. Nobody was required to surrender a memory publicly.",
+    "By dessert, the hotel's story had become less dramatic but more interesting. A photograph showed kitchen workers eating beside the unfinished marble staircase; someone recognised an aunt's embroidered apron. Outside, the harbour bells marked ten. Before leaving, I looked again at the workers in the photograph, wondering what they had known about the hotel's debts."
+  ],
+  "zh": [
+    "来到韦洛拉的游客通常会拍摄那些蓝色门口；我却是为一个探讨模糊记忆的夜晚而来。在昔日海关的一间大厅里，档案管理员玛拉·贝莱斯邀请十二位居民各带一道菜，以及一个关于港口往事的问题。这场聚餐在扁豆、腌柠檬和一场围绕一家已消失旅馆的争论中开始了。",
+    "一位客人不假思索地断言，那家旅馆是在一次肝炎暴发之后关闭的。玛拉将缩微胶片装入阅读器。报纸报道提到了被取消的预订，但账目显示，一间耗资过度的大理石餐厅让旅馆背上了债务。区分这两点至关重要：疾病或许能解释最后一个营业季为何门庭冷落，但这并不等于解释了这家旅馆为何已无力维持经营。",
+    "退休护士达里奥·森解释说，这种疾病涉及细胞层面的炎症与损伤，并非另一位客人记忆中那种神秘的家族诅咒。当家族姓名出现时，玛拉十分谨慎，在放大一篇文章之前先遮住了私人住址。这些举动清楚体现了她的做法：审视证据，同时保护人们的隐私。没有人被要求当众放弃自己的记忆。",
+    "吃到甜点时，旅馆的故事已不那么戏剧化，却变得更有意思。一张照片里，厨房工人正在尚未完工的大理石楼梯旁吃饭；有人认出了一位姑姨辈亲属的那条绣花围裙。外面，港湾的钟声敲响了十点。离开前，我又看了看照片中的工人，心想他们当时对旅馆的债务了解多少。"
+  ],
+  "q": [
+    {
+      "s": "Mara asked the residents to attend without bringing any food.",
+      "a": "F",
+      "why": "首段说玛拉请居民各带一道菜。"
+    },
+    {
+      "s": "Mara concealed a private address before enlarging an article.",
+      "a": "T",
+      "why": "第三段明确说她先遮住私人住址再放大文章。"
+    },
+    {
+      "s": "The embroidered apron in the photograph was made by the person wearing it.",
+      "a": "NG",
+      "why": "文章未说明照片中的绣花围裙由谁制作。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0570",
+  "ids": [
+    "bona-fide",
+    "assassination",
+    "gloom",
+    "sewer",
+    "displeasure",
+    "financier",
+    "contaminate",
+    "envision",
+    "foretell",
+    "testify"
+  ],
+  "title": "Lessons Beneath the Courtyard",
+  "titleZh": "庭院下的课堂",
+  "topic": "education",
+  "cefr": 4,
+  "paras": [
+    "This gallery reconstructs the basement classroom of the fictional port of Selvara, where laboratory teaching began in 1886. Beyond the doorway, allow your eyes to adjust to the [[gloom|gloom]]: apprentices originally examined water samples beneath two oil lamps. The notebooks displayed here are [[bona-fide|bona fide]] classroom records, preserved when the building above them was demolished.",
+    "The school owed its existence to Amara Velez, a [[financier|financier]] who paid for benches, microscopes and evening instruction. Her [[assassination|assassination]], following a bitter campaign for municipal office, interrupted funding but did not close the classroom. A letter beside her portrait records the apprentices’ [[displeasure|displeasure]] at proposals to replace practical investigation with lectures requiring no costly equipment.",
+    "At the central table, follow their investigation of a leaking [[sewer|sewer]] beneath a pottery workshop. Using numbered bottles, the apprentices traced how wastewater could [[contaminate|contaminate]] a nearby well; their instructor insisted that colour alone could not [[foretell|foretell]] whether illness would follow. Visitors can compare replica slides through modern lenses, although the original instruments, whose uneven glass sometimes distorted observations, remain behind protective screens.",
+    "The final case contains a court summons requiring instructor Idris Sen to [[testify|testify]] about the sampling procedure after the workshop owner disputed the findings. His evidence distinguished what the class had measured from what it merely suspected. Before leaving, examine the apprentices’ design for a public testing room. They could [[envision|envision]] education extending beyond a private classroom: knowledge would become useful not through confident assertion, but through methods that others could inspect and repeat."
+  ],
+  "zh": [
+    "本展厅复原了虚构港城塞尔瓦拉的一间地下教室，这里的实验教学始于1886年。跨过门口后，请让双眼逐渐适应昏暗的光线：当年的学徒就在两盏油灯下检验水样。这里陈列的笔记本是真实的课堂记录，在上方建筑被拆除时得以保存。",
+    "这所学校的创办有赖于出资人阿玛拉·贝莱斯，她出资购置实验台、显微镜，并资助夜间授课。在一场争夺市政公职的激烈竞选之后，她遭到暗杀，资助因此中断，但教室并未关闭。肖像旁的一封信记载了学徒们的不满：有人提议，用不需要昂贵设备的讲授课取代实践探究。",
+    "在中央展台，您可以追踪他们对陶器作坊下方一条渗漏污水管道的调查。学徒们使用编号采样瓶，查明废水可能如何污染附近的一口井；他们的教师则坚持指出，仅凭水的颜色无法预判是否会引发疾病。参观者可以通过现代镜片比较复制的载玻片标本，而原有仪器仍保存在防护玻璃后；这些旧仪器的玻璃厚薄不均，有时会使观察结果失真。",
+    "最后一个展柜中存放着一张法院传票。作坊主人对调查结果提出异议后，教师伊德里斯·森被要求出庭，就采样程序作证。他的证词区分了课堂上实际测得的结果与仅仅出于怀疑的推断。离开展厅前，请看看学徒们设计的公共检测室。他们已经能够设想，让教育走出私人教室：知识之所以能发挥作用，并不在于断言时有多么自信，而在于所用方法能否供他人检验和重复。"
+  ],
+  "q": [
+    {
+      "s": "Velez paid the instructors' salaries from her personal savings.",
+      "a": "NG",
+      "why": "文中提到她资助授课，未说明资金是否来自个人积蓄。"
+    },
+    {
+      "s": "The instructor believed that water colour alone could predict whether illness would follow.",
+      "a": "F",
+      "why": "教师明确指出，仅凭颜色无法预判是否会出现疾病。"
+    },
+    {
+      "s": "Sen's evidence separated measured results from the class's suspicions.",
+      "a": "T",
+      "why": "末段明确说明证词区分了实测结果与怀疑。"
+    }
+  ]
+}

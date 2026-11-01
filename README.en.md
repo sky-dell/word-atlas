@@ -1,32 +1,26 @@
 <div align="center">
 
-<a href="https://0xlei.tech/words/"><img src="docs/assets/cover-v2.jpg" alt="词光 · Word Atlas — an illustrated world of words" width="100%"></a>
+<a href="https://43.133.166.184/"><img src="public/words-and-beyond-og.png" alt="词与远方 · Words &amp; Beyond" width="100%"></a>
 
-# Word Atlas · 词光
+# Words & Beyond · 词与远方
 
-**See the word. Hear it. Make it yours.**
+**Every word opens up a little more of the world.**
 
 7,298 IELTS words · Original illustrations · UK & US audio · Spaced repetition
 
-[**Try Word Atlas ↗**](https://0xlei.tech/words/)　 /　 [48-second film](docs/assets/launch.mp4)　 /　 [Get the dataset](data/)　 /　 [简体中文](README.md)
+[**Try Words & Beyond ↗**](https://43.133.166.184/)　 /　 [Upstream historical film](docs/assets/launch.mp4)　 /　 [Get the dataset](data/)　 /　 [简体中文](README.md)
 
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-17283B?style=flat-square)](LICENSE)
 [![Dataset: CC BY 4.0](https://img.shields.io/badge/Dataset-CC_BY_4.0-AD5038?style=flat-square)](CONTENT_LICENSE.md)
 [![Follow on X](https://img.shields.io/badge/X-@yangleiocx3-17283B?style=flat-square&logo=x&logoColor=white)](https://x.com/yangleiocx3)
 
-<br>
-
-<a href="https://0xlei.tech/words/"><img src="https://0xlei.tech/words/beta/banner.png" alt="Word Atlas iOS beta — scan with WeChat to join the beta group" width="100%"></a>
-
-**The Word Atlas iOS app is in development.** Scan the code with WeChat to join the beta group. If the code has expired, open the [website](https://0xlei.tech/words/) and tap 「内测」 in the top bar to add the author on WeChat.
-
 </div>
 
 ---
 
-Word Atlas is an illustrated IELTS vocabulary app for Chinese-speaking learners. Connect words with scenes and pronunciation, practise active recall, and return to them with FSRS spaced repetition. No account required. Learning progress stays on your device.
+Words & Beyond is an illustrated IELTS vocabulary app for Chinese-speaking learners. Connect words with scenes and pronunciation, practise active recall, and return to them with FSRS spaced repetition. No account required. Learning progress stays on your device.
 
-> **Version scope:** This repository contains the open-source foundation of Word Atlas and its dataset. The hosted website evolves separately and may have different features. The code and dataset here remain available under their respective MIT and CC BY 4.0 licenses.
+> **Version scope:** This repository contains the open-source foundation of Words & Beyond and its dataset. The hosted website evolves separately and may have different features. The code and dataset here remain available under their respective MIT and CC BY 4.0 licenses.
 
 [Preview](#preview) · [Learning loop](#learning-loop) · [Quick start](#quick-start) · [Open dataset](#open-dataset) · [Contributing](#contributing)
 
@@ -55,7 +49,7 @@ Explore 19 topic groups, rotate and zoom the galaxy, and select a star to open i
 <details>
 <summary><b>Watch the 48-second introduction</b></summary>
 
-<a href="docs/assets/launch.mp4"><img src="docs/assets/launch-preview.webp" alt="Watch the Word Atlas introduction" width="100%"></a>
+<a href="docs/assets/launch.mp4"><img src="docs/assets/launch-preview.webp" alt="Watch the Words & Beyond introduction" width="100%"></a>
 
 [Play the full film with sound](docs/assets/launch.mp4)
 
@@ -143,4 +137,4 @@ Please include the **word ID, reproduction steps and expected result** when repo
 
 Made by [@designfuchen](https://github.com/designfuchen). Follow the build on [X · @yangleiocx3](https://x.com/yangleiocx3).
 
-If Word Atlas helps you, consider starring the repository or sharing it with another learner.
+If Words & Beyond helps you, consider starring the repository or sharing it with another learner.

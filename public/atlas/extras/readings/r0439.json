@@ -1,0 +1,48 @@
+{
+  "id": "r0439",
+  "ids": [
+    "accessible",
+    "rust",
+    "overcast",
+    "portion",
+    "twig",
+    "log",
+    "dresser",
+    "observation",
+    "wealthy",
+    "upgrade"
+  ],
+  "title": "The Wood Beneath the Paint",
+  "titleZh": "漆面之下的木头",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "The Wood Beneath the Paint traces how artist Mara Okoye turned discarded furniture into woodland scenes. The gallery is fully [[accessible|accessible]] by ramp, and visitors may touch the sample materials beside each display. A photograph shows Mara’s workshop: even on an [[overcast|overcast]] afternoon, its broad windows provided enough light for detailed carving.",
+    "The central exhibit is a blue [[dresser|dresser]], once used to store clothes in a [[wealthy|wealthy]] merchant’s home. When Mara acquired it, two drawers were missing and [[rust|rust]] covered its iron handles. Rather than hide this damage, she made it part of a forest design. A narrow [[portion|portion]] of the painted surface was removed to reveal the pale wood underneath, suggesting a stream between dark banks.",
+    "Look closely at the drawer fronts. Each carved [[twig|twig]] follows a shape recorded during hours of [[observation|observation]] in nearby woods. On the lowest drawer, a fallen [[log|log]] becomes a shelter for tiny wooden beetles. The accompanying sketches show how Mara simplified natural forms without making them unrecognisable. Her tools, displayed on the right, include a small knife with a handle repaired several times.",
+    "In the final room, a short film explains why the museum chose to [[upgrade|upgrade]] the lighting rather than repaint the cabinet. Adjustable lamps now reveal marks previously lost in shadow. Visitors can return to the cabinet to compare these marks with the lines in Mara’s sketches."
+  ],
+  "zh": [
+    "“漆面之下的木头”展览呈现艺术家玛拉·奥科耶如何将废弃家具变成林地景象。参观者可经坡道无障碍进入展厅，也可以触摸每件展品旁的材料样本。一张照片展示了玛拉的工作室：即使在阴沉的午后，宽大的窗户仍能提供充足的光线，供她进行精细雕刻。",
+    "中央展品是一只蓝色抽屉柜，曾放在一位富有商人的家中，用来存放衣物。玛拉得到它时，已有两个抽屉不见了，铁把手也布满铁锈。她没有掩饰这些损伤，而是将它们融入森林主题的设计中。她去掉了一小条表面油漆，露出下方浅色的木材，让人联想到两侧幽暗河岸之间的一道溪流。",
+    "请仔细看抽屉的正面。每根雕刻出的细枝，都依据玛拉在附近树林中长时间观察时记录的形态。最下方的抽屉上，一段倒下的原木成了小木甲虫的藏身之所。旁边的草图展示了她如何简化自然形态，同时保留其可辨识的特征。右侧陈列着她的工具，其中有一把刀柄修补过多次的小刀。",
+    "最后一个展厅播放的短片解释了博物馆为何选择改进照明，而非重新给柜子上漆。如今，可调节的灯光让此前隐没在阴影中的痕迹清晰可见。参观者可以回到柜子旁，将这些痕迹与玛拉草图中的线条进行比较。"
+  ],
+  "q": [
+    {
+      "s": "Cloudy afternoon conditions did not prevent sufficient natural light from reaching Mara’s work area.",
+      "a": "T",
+      "why": "首段说明阴天下午窗户仍提供充足光线。"
+    },
+    {
+      "s": "Mara concealed the cabinet’s defects before creating her woodland design.",
+      "a": "F",
+      "why": "第二段指出她将损伤融入设计，而非掩盖。"
+    },
+    {
+      "s": "The museum hired an overseas specialist to install the new lighting.",
+      "a": "NG",
+      "why": "末段只介绍照明改进，未说明安装者。"
+    }
+  ]
+}

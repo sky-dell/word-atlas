@@ -1,0 +1,46 @@
+{
+  "id": "r0160",
+  "ids": [
+    "wallet",
+    "according",
+    "bowling",
+    "crowd",
+    "oven",
+    "worst",
+    "quietly",
+    "cute",
+    "coach",
+    "engine"
+  ],
+  "title": "Finding a Wallet in the Noise",
+  "titleZh": "在嘈杂声中寻找钱包",
+  "topic": "technology",
+  "cefr": 1,
+  "paras": [
+    "Mina often lost her [[wallet|wallet]] at the club where she went [[bowling|bowling]]. Her [[coach|coach]], Tomas, helped her test a small electronic tag. It looked like a [[cute|cute]] rabbit. She clipped it inside her wallet, with its light above the edge. When Mina pressed a button on a remote control, the tag made a sound or flashed a light. They wanted to know which signal was easier to notice in different conditions.",
+    "Tomas put the wallet in the same open box for each test. First, Mina sat [[quietly|quietly]] in the empty club and tried both signals. Next, they repeated the test during a busy evening. A [[crowd|crowd]] was watching a game nearby. In the kitchen, a fan above the [[oven|oven]] was running. Outside the open door, a delivery van's [[engine|engine]] added more noise. Mina timed how long she needed to notice each signal.",
+    "The noisy evening gave the sound its [[worst|worst]] result: Mina needed eighteen seconds to hear it. She noticed the light in just three seconds. In the empty club, both took about two seconds. [[according|According]] to their notes, the light worked better when the room was noisy. Mina chose the flashing setting for use in her open bag, with the wallet in an inside pocket and the light showing. She could still use the sound if something covered the light."
+  ],
+  "zh": [
+    "米娜经常在她打保龄球的俱乐部里找不到钱包。她的教练托马斯帮她测试了一个小型电子标签。它看起来像一只可爱的兔子。她把它夹在钱包里面，让灯露在钱包边缘上方。米娜按下遥控器上的按钮时，标签就会发出声音或闪光。他们想知道，在不同条件下，哪种信号更容易被注意到。",
+    "每次测试，托马斯都把钱包放在同一个敞口盒子里。首先，米娜安静地坐在空无一人的俱乐部里，试了两种信号。接着，他们在一个热闹的晚上重复测试。一群人正在附近观看比赛。厨房里，烤箱上方的风扇正在运转。敞开的门外，一辆送货车的发动机又增添了噪声。米娜记录了自己注意到每种信号所需的时间。",
+    "在那个嘈杂的晚上，声音信号的表现最差：米娜花了十八秒才听到它。而她只用了三秒就注意到了灯光。在空荡荡的俱乐部里，两种信号都只需要大约两秒就能被发现。根据他们的记录，房间嘈杂时，灯光的效果更好。米娜选择在敞开的包里使用闪光模式，把钱包放在包的内侧口袋里，让灯露出来。如果有东西挡住灯，她仍然可以使用声音模式。"
+  ],
+  "q": [
+    {
+      "s": "Mina tested the tag without help from her coach.",
+      "a": "F",
+      "why": "第一段明确说她的教练帮她测试标签。"
+    },
+    {
+      "s": "Some people watching the game noticed the flashing light.",
+      "a": "NG",
+      "why": "文中未说明观看比赛的人是否注意到闪光。"
+    },
+    {
+      "s": "On the noisy evening, Mina noticed the light faster than the sound.",
+      "a": "T",
+      "why": "她三秒注意到灯光，十八秒才听到声音。"
+    }
+  ]
+}

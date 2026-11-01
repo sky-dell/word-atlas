@@ -1,0 +1,46 @@
+{
+  "id": "r0524",
+  "ids": [
+    "heroine",
+    "predator",
+    "necessity",
+    "endless",
+    "investment",
+    "prime",
+    "unwilling",
+    "maintain",
+    "elderly",
+    "isolate"
+  ],
+  "title": "A Smaller Shadow",
+  "titleZh": "让影子小一点",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "At a small puppet theatre beside a fishing harbour, director Mara Chen faced a problem with her new production. Its [[heroine|heroine]], a young mouse called Pip, crossed a forest to rescue her brother. However, whenever an owl appeared, younger audience members became too frightened to follow the story. The bird was meant to be a believable [[predator|predator]], but its enormous shadow covered almost the entire stage. During one preview, three families left before the ending.",
+    "Mara recognised the [[necessity|necessity]] of changing the scene, yet she was [[unwilling|unwilling]] to remove the owl altogether. The [[prime|prime]] challenge was to [[maintain|maintain]] excitement without overwhelming the audience. After seemingly [[endless|endless]] lighting tests, she consulted an [[elderly|elderly]] puppet maker, Tomas Varga. He suggested moving the owl closer to the screen, which would make its shadow smaller. He also advised her to [[isolate|isolate]] its outline from the moving tree shadows, so children could understand exactly where the danger was.",
+    "The adjustment required a second lamp and a separate wooden track. A nearby café owner provided a modest [[investment|investment]] in exchange for a share of future ticket income. At the next preview, the owl remained threatening, but children watched Pip's escape rather than hiding their faces. Nobody left early. By the end of the month, weekend performances were selling out, and the café owner had begun receiving payments. Mara kept the old giant owl shadow only for the final curtain call."
+  ],
+  "zh": [
+    "在渔港旁的一家小型木偶剧场，导演玛拉·陈的新剧遇到了一个问题。剧中的女主角是一只名叫皮普的小老鼠，她要穿过森林去救她的兄弟。然而，每当猫头鹰出现，年幼的观众就会害怕得无法继续关注剧情。这只鸟本应是一个令人信服的捕食者，但它巨大的影子几乎遮住了整个舞台。一次预演中，有三户家庭没等到结局就离开了。",
+    "玛拉意识到必须修改这一幕，却不愿意完全删掉猫头鹰。最主要的挑战是保留紧张感，又不让观众承受过度的惊吓。经过仿佛没完没了的灯光测试后，她请教了一位年长的木偶制作师托马斯·瓦尔加。他建议把猫头鹰移近幕布，这样它的影子就会变小。他还建议将猫头鹰的轮廓与晃动的树影分开，让孩子们能看清危险究竟在哪里。",
+    "这项调整需要增加一盏灯和一条独立的木制轨道。附近一家咖啡馆的老板投入了一小笔资金，以换取未来门票收入的一部分。在下一次预演中，猫头鹰依然具有威胁感，但孩子们没有捂住脸，而是看着皮普逃脱。没有人提前离场。到月底，周末场次的票已场场售罄，咖啡馆老板也开始收到分成。玛拉只在最后谢幕时才让那道旧的巨型猫头鹰影子再次出现。"
+  ],
+  "q": [
+    {
+      "s": "Some audience members missed the conclusion during an early performance.",
+      "a": "T",
+      "why": "一次预演中，三户家庭在结局前离场。"
+    },
+    {
+      "s": "Tomas had worked with Mara on an earlier production.",
+      "a": "NG",
+      "why": "文中未说明两人此前是否合作过。"
+    },
+    {
+      "s": "Some audience members left early at the next preview after the adjustment.",
+      "a": "F",
+      "why": "调整后的下一次预演无人提前离场。"
+    }
+  ]
+}

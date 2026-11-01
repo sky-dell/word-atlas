@@ -1,0 +1,48 @@
+{
+  "id": "r0245",
+  "ids": [
+    "despite",
+    "spaceship",
+    "interrupt",
+    "poem",
+    "solid",
+    "apply",
+    "bite",
+    "instant",
+    "conclusion",
+    "quantity"
+  ],
+  "title": "The Sounds Between the Lines",
+  "titleZh": "诗行之间的声音",
+  "topic": "media",
+  "cefr": 2,
+  "paras": [
+    "A small radio station wanted to discover whether sound effects helped listeners remember a story. Producer Mina invited adults to [[apply|apply]] for places in a listening experiment. Twenty-four people joined. They heard a short [[poem|poem]] about a cook travelling in a [[spaceship|spaceship]], searching for fresh food beyond Earth.",
+    "The team made two recordings with the same reader. One had no added sounds; the other included an engine, kitchen noises and someone taking a [[bite|bite]] from an apple. To create the engine noise, Mina rolled a glass bottle across a [[solid|solid]] wooden table. The [[quantity|quantity]] of spoken material was exactly the same in both recordings.",
+    "Twelve people heard each version through headphones. Nobody was allowed to [[interrupt|interrupt]] them while they listened. The apple sound produced an [[instant|instant]] reaction: several listeners smiled. Afterwards, everyone answered ten questions about the cook's journey. [[despite|Despite]] enjoying the sound effects, that group remembered fewer details, averaging six correct answers compared with eight in the other group.",
+    "Mina's [[conclusion|conclusion]] was that attractive sounds could draw attention away from words. However, this small experiment could not show whether all sound effects caused problems. For the next recording, she kept the engine noise at the beginning but removed it during the reading. The cook's journey would begin with sound, then continue in words."
+  ],
+  "zh": [
+    "一家小电台想了解音效是否有助于听众记住故事。制作人米娜邀请成年人申请参加一项收听实验，共有二十四人参加。他们听了一首短诗，讲述一位厨师乘坐宇宙飞船，在地球之外寻找新鲜食物的故事。",
+    "团队请同一位朗读者录制了两个版本。一个没有添加声音，另一个则加入了引擎声、厨房里的声响，以及有人咬苹果的声音。为了制作引擎声，米娜让一个玻璃瓶在坚实的木桌上滚动。两个版本的朗读材料的量完全相同。",
+    "每个版本各有十二人戴着耳机收听。收听期间，不允许任何人打扰他们。咬苹果的声音立刻引起了反应：几位听众露出了微笑。之后，所有人都回答了十个关于厨师旅程的问题。虽然加入音效那组的听众喜欢这些音效，但他们记住的细节较少，平均答对六题，而另一组平均答对八题。",
+    "米娜得出的结论是，吸引人的声音可能会分散听众对语言内容的注意力。不过，这个小规模实验无法说明是否所有音效都会带来问题。制作下一次录音时，她保留了开头的引擎声，却去掉了朗读过程中的引擎声。厨师的旅程将由声音开启，再由语言延续。"
+  ],
+  "q": [
+    {
+      "s": "All twenty-four participants regularly listened to the radio station.",
+      "a": "NG",
+      "why": "只说明参加人数，未说明平时是否收听该台。"
+    },
+    {
+      "s": "Both recordings contained the same amount of spoken material.",
+      "a": "T",
+      "why": "第二段明确说两版朗读材料的量相同。"
+    },
+    {
+      "s": "The sound-effects group averaged eight correct answers.",
+      "a": "F",
+      "why": "音效组平均答对六题，而非八题。"
+    }
+  ]
+}

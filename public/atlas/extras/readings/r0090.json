@@ -1,0 +1,46 @@
+{
+  "id": "r0090",
+  "ids": [
+    "alone",
+    "competition",
+    "beef",
+    "discuss",
+    "snack",
+    "ketchup",
+    "model",
+    "photocopier",
+    "mail",
+    "weak"
+  ],
+  "title": "What Brought the Ants?",
+  "titleZh": "什么引来了蚂蚁？",
+  "topic": "nature",
+  "cefr": 1,
+  "paras": [
+    "Mina was still [[weak|weak]] after an illness, so she spent her mornings sitting in her garden. One day, she was [[alone|alone]], eating a small [[beef|beef]] sandwich as a [[snack|snack]]. Some [[ketchup|ketchup]] fell onto the table. Soon, ants arrived. They walked past a piece of bread towards the red sauce. Mina wondered which part of her sandwich they liked best. She decided to test this the next morning.",
+    "She put equal amounts of the three foods on separate cards, all the same distance from an ant hole. She watched for twenty minutes and counted the ants at each card every five minutes. To reduce [[competition|competition]] for space, she used large cards. She repeated the experiment on three dry mornings. Her friend Omar came to [[discuss|discuss]] the results. Together, they made a simple [[model|model]] of the garden with paper paths showing where the ants walked.",
+    "The sauce attracted the most ants each morning. However, this only showed what these garden ants chose in that test. Other ants might choose differently. Omar used a [[photocopier|photocopier]] to copy Mina's notes at work. She sent them by [[mail|mail]] to her sister, who had a different garden. Mina's small accident had become an experiment that someone else could try."
+  ],
+  "zh": [
+    "米娜病后身体仍然虚弱，所以每天上午都坐在花园里休息。一天，她独自吃着一个小牛肉三明治作为点心。一些番茄酱掉到了桌上。很快，蚂蚁来了。它们从一块面包旁爬过，朝红色的酱汁爬去。米娜想知道，它们最喜欢三明治里的哪一种食物。她决定第二天上午做个测试。",
+    "她把等量的三种食物分别放在卡片上，每张卡片与蚁穴的距离都相同。她观察了二十分钟，每隔五分钟数一次各张卡片上的蚂蚁。为了减少蚂蚁对空间的争夺，她用了大卡片。她在三个没有下雨的上午重复了这个实验。朋友奥马尔来和她讨论结果。他们一起做了一个简单的花园模型，用纸做的小路表示蚂蚁走过的路线。",
+    "每天上午，番茄酱吸引的蚂蚁都是最多的。不过，这只能说明这个花园里的蚂蚁在那次测试中选择了什么。其他蚂蚁可能会有不同的选择。奥马尔用工作地点的复印机复印了米娜的记录。米娜把记录邮寄给了她的姐妹，对方有另一个花园。米娜的一次小意外，就这样变成了别人也能尝试的实验。"
+  ],
+  "q": [
+    {
+      "s": "Mina had been ill for two weeks.",
+      "a": "NG",
+      "why": "文章只说她病后虚弱，未说明病了多久。"
+    },
+    {
+      "s": "Mina placed one food closer to the ants' home than the others.",
+      "a": "F",
+      "why": "三种食物与蚁穴的距离相同。"
+    },
+    {
+      "s": "The sauce attracted the most ants on each morning of the test.",
+      "a": "T",
+      "why": "文中说每天上午番茄酱吸引的蚂蚁最多。"
+    }
+  ]
+}

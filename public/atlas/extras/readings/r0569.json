@@ -1,0 +1,48 @@
+{
+  "id": "r0569",
+  "ids": [
+    "mobilize",
+    "snag",
+    "superiority",
+    "oath",
+    "drop-off",
+    "rosy",
+    "ridicule",
+    "dimensional",
+    "depreciation",
+    "climactic"
+  ],
+  "title": "The Village Oven's Second Life",
+  "titleZh": "村庄面包炉的新生",
+  "topic": "daily",
+  "cefr": 4,
+  "paras": [
+    "Before sunrise in a mountain village in Georgia, visitors follow the smell of woodsmoke to a communal bakery. Inside, Tamar, whose cheeks are [[rosy|rosy]] from the heat, stamps each household's dough with a distinctive wooden seal. These marks allow neighbours to identify their loaves after they emerge from the same deep clay oven.",
+    "The bakery nearly closed after a [[drop-off|drop-off]] in orders made its winter fuel bill unaffordable. Rather than proclaim the [[superiority|superiority]] of traditional bread, Tamar began to [[mobilize|mobilize]] neighbours around a practical proposal: shared baking mornings, with travellers paying to join. There was one unexpected [[snag|snag]]: the replacement oven would not fit through the doorway, despite the supplier's [[dimensional|dimensional]] drawings suggesting otherwise.",
+    "A mason eventually widened the entrance, while an accountant calculated the new oven's annual [[depreciation|depreciation]] so that lesson fees would cover its eventual replacement. Some villagers initially greeted the enterprise with [[ridicule|ridicule]], calling it theatre for outsiders. Tamar nevertheless retained the bakers' customary [[oath|oath]], a formal promise never to exchange one family's flour for another's. For her, hospitality depended on obligations that visitors might never notice.",
+    "During my visit, the lesson's [[climactic|climactic]] moment came when Tamar lifted a loaf from the oven wall with two slender hooks. Everyone fell silent as its blistered crust appeared. Afterwards, we carried bread to the households whose seals we had learned to recognise. What began as a paid encounter with local culture ended as participation in an ordinary morning, with warm parcels tucked beneath our arms."
+  ],
+  "zh": [
+    "在格鲁吉亚的一个山村，天还没亮，游客便循着柴火烟的气味来到一家公共面包房。屋内，塔玛尔的脸颊被炉火烘得红润，正用各家独有的木印在他们送来的面团上盖章。这样，面包从同一座深深的陶土炉中取出后，邻居们就能认出自家的那一份。",
+    "订单减少后，面包房无力承担冬季的燃料费，险些关门。塔玛尔没有大谈传统面包的优越性，而是开始动员邻居们参与一项务实的计划：在指定的早晨一起烤面包，让游客付费加入。然而，一个意想不到的麻烦出现了：新购置的烤炉无法穿过门口，尽管供应商提供的尺寸图显示本应可以。",
+    "一位石匠最终拓宽了入口，同时，一位会计计算了新炉每年的折旧额，以确保课程收费能够为日后更换烤炉积累资金。起初，一些村民嘲笑这门生意，说它不过是演给外人看的戏。塔玛尔却依然保留着面包师惯常宣读的誓言，郑重承诺绝不将一家人的面粉换成另一家的。对她而言，待客之道建立在恪守责任之上，即使游客可能根本注意不到这些责任。",
+    "我到访那天，课程的高潮出现在塔玛尔用两根细长的钩子从炉壁上取下一只面包时。烤出气泡的面包皮刚一露面，大家便安静下来。随后，我们把面包送到各家各户，那些木印我们已经学会辨认。这场最初需要付费的当地文化体验，最终让我们融入了一个寻常的早晨，臂弯里夹着一包包温热的面包。"
+  ],
+  "q": [
+    {
+      "s": "Tamar carved the wooden seals used to identify the households' bread.",
+      "a": "NG",
+      "why": "文中说明木印的用途，未说明由谁雕刻。"
+    },
+    {
+      "s": "A decline in orders left the bakery unable to afford its winter fuel bill.",
+      "a": "T",
+      "why": "第二段明确说明订单减少使冬季燃料费难以承担。"
+    },
+    {
+      "s": "The replacement oven could fit through the doorway before it was widened.",
+      "a": "F",
+      "why": "新炉无法通过原入口，石匠后来将其拓宽。"
+    }
+  ]
+}

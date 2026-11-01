@@ -1,0 +1,48 @@
+{
+  "id": "r0571",
+  "ids": [
+    "proofreading",
+    "communicative",
+    "null",
+    "lawful",
+    "snobbish",
+    "endeavor",
+    "solitary",
+    "ample",
+    "provocation",
+    "reiterate"
+  ],
+  "title": "Consent in Small Print",
+  "titleZh": "小字里的知情同意",
+  "topic": "health",
+  "cefr": 4,
+  "paras": [
+    "In 1912, in the fictional town of Meret, Leila Haddad printed admission forms for a charitable clinic. Usually [[solitary|solitary]] while working, she became remarkably [[communicative|communicative]] when patients visited her workshop. She recorded their questions in a blue notebook. These conversations gradually changed her understanding of [[proofreading|proofreading]]: correcting words was not enough if readers could not understand what they were signing.",
+    "Initially, Haddad corrected spelling and misplaced figures; later, she questioned what the forms actually authorised. One permitted treatment without specifying its nature. Under the town’s revised medical ordinance, such blanket permission was [[null|null]]: a signature alone could not make an otherwise prohibited procedure [[lawful|lawful]]. She set this document aside and began preparing a replacement.",
+    "A physician objected by letter, dismissing patients who requested explanations as troublesome. His [[snobbish|snobbish]] assumption was that professional standing conferred superior judgement in every matter. He interpreted Haddad’s questions as deliberate [[provocation|provocation]]. In her reply, she promised to [[endeavor|endeavor]] to preserve medical precision while making each obligation intelligible.",
+    "Rearranging the wooden type took hours. Haddad provided [[ample|ample]] space for questions rather than merely enlarging the signature box. When she delivered the forms, she had to [[reiterate|reiterate]] that clearer documents would not eliminate unequal power within the clinic. Later, one form came back bearing three handwritten questions in the space she had created."
+  ],
+  "zh": [
+    "1912年，在虚构的梅雷特镇，莱拉·哈达德为一家慈善诊所印制入院表格。她工作时通常独处，但患者到访她的作坊时，她便变得十分健谈。她把他们的问题记在一本蓝色笔记本里。这些交谈逐渐改变了她对校对工作的理解：如果读者不明白自己签署的内容，仅仅纠正文字是不够的。",
+    "起初，哈达德纠正拼写错误和位置有误的数字；后来，她开始质疑这些表格究竟授权了什么。其中一份允许进行治疗，却没有说明治疗的性质。根据该镇修订后的医疗条例，这种笼统授权不具有法律效力：单凭一个签名，并不能让原本被禁止的医疗操作变得合法。她把这份文件放到一旁，开始准备替代版本。",
+    "一名医生来信表示反对，将要求解释的患者斥为麻烦制造者。他自命不凡地认为，拥有专业地位就意味着在所有事情上都具有更高明的判断力。他把哈达德的提问视为蓄意挑衅。她在回信中承诺，将努力在保持医学表述准确的同时，让每项义务都易于理解。",
+    "重新排列木活字花了好几个小时。哈达德为提问留出了充足的空间，而不只是扩大签名栏。交付表格时，她不得不再次强调，更清晰的文件并不会消除诊所内部的权力不平等。后来，一张表格被送了回来，她留出的空白处写着三个手写问题。"
+  ],
+  "q": [
+    {
+      "s": "Discussions with patients changed Haddad’s view of what checking documents involved.",
+      "a": "T",
+      "why": "首段说明，与患者交谈改变了她对校对的理解。"
+    },
+    {
+      "s": "The revised ordinance allowed a patient’s signature to legitimise any medical procedure.",
+      "a": "F",
+      "why": "第二段指出，签名不能使被禁止的操作合法。"
+    },
+    {
+      "s": "The physician who criticised Haddad eventually apologised to her.",
+      "a": "NG",
+      "why": "文中提及医生的批评，但未交代他后来是否道歉。"
+    }
+  ]
+}

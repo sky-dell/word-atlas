@@ -1,0 +1,46 @@
+{
+  "id": "r0062",
+  "ids": [
+    "money",
+    "agree",
+    "now",
+    "real",
+    "someone",
+    "hear",
+    "please",
+    "hard",
+    "terrible",
+    "feel"
+  ],
+  "title": "A Second Ride",
+  "titleZh": "小木马又能跑了",
+  "topic": "society",
+  "cefr": 0,
+  "paras": [
+    "Mina makes wooden toys in a small shop. Some families near her shop have little [[money|money]] for new toys. She puts a box by her door. A sign says, “Broken toys? Leave them here, [[please|please]]. I can fix them for free.” Her brother thinks this is a good idea. “I [[agree|agree]],” says Mina. “An old toy can make a child happy again.”",
+    "One Monday, [[someone|someone]] leaves a wooden horse in the box. It has three wheels, not four. Its blue paint is old. Mina makes a new wheel from [[hard|hard]] wood. At first, she can [[hear|hear]] a [[terrible|terrible]] sound when she pushes the horse. The wheel rubs against its side. She takes the wheel off and makes it smaller. Then she paints two bright eyes on the horse.",
+    "On Friday, a little boy comes with his father. “My horse!” he says. He pushes it across the floor. It moves well [[now|now]]. “It runs like a [[real|real]] horse!” he says. Mina smiles. She likes to [[feel|feel]] that her work helps people. Before they leave, his father puts another broken toy in the box for her to fix."
+  ],
+  "zh": [
+    "米娜在一家小店里做木制玩具。店铺附近有些家庭没有多少钱买新玩具。她在门边放了一个箱子。牌子上写着：“有坏掉的玩具吗？请放在这里。我可以免费修好。”她的兄弟觉得这个主意很好。“我也这么想，”米娜说，“旧玩具也能让孩子重新开心起来。”",
+    "一个星期一，有人在箱子里放了一匹小木马。它只有三个轮子，而不是四个。它身上的蓝漆已经旧了。米娜用坚硬的木头做了一个新轮子。起初，她推小木马时，能听到一阵难听的声音。轮子蹭到了马身。她把轮子卸下来，改小了一点。然后，她给小木马画上了两只明亮的眼睛。",
+    "星期五，一个小男孩和爸爸一起来了。“我的马！”他说。他推着小木马，让它在地板上跑。现在，它跑得很顺畅。“它跑起来像一匹真马！”他说。米娜笑了。她喜欢那种自己的工作能帮到别人的感觉。离开前，男孩的爸爸又往箱子里放了一个坏玩具，请她修理。"
+  ],
+  "q": [
+    {
+      "s": "Families do not have to pay Mina to repair their toys.",
+      "a": "T",
+      "why": "牌子上说她可以免费修理玩具。"
+    },
+    {
+      "s": "Mina buys wood to make the new wheel.",
+      "a": "NG",
+      "why": "文中未说明制作新轮子的木头是否买来。"
+    },
+    {
+      "s": "The boy comes to the shop alone on Friday.",
+      "a": "F",
+      "why": "星期五男孩是和爸爸一起来的。"
+    }
+  ]
+}

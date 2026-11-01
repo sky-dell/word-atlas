@@ -1,0 +1,48 @@
+{
+  "id": "r0285",
+  "ids": [
+    "stinky",
+    "talented",
+    "jealous",
+    "peanut",
+    "legal",
+    "kit",
+    "farther",
+    "landlady",
+    "hostess",
+    "easy-going"
+  ],
+  "title": "The Smell Before Supper",
+  "titleZh": "晚餐前的异味",
+  "topic": "work",
+  "cefr": 2,
+  "paras": [
+    "Mina rented a small kitchen where she prepared food for parties. One Friday, she had to cook dinner for twelve guests. However, when she opened the door that morning, the room was [[stinky|stinky]]. She checked the fish and vegetables, but everything in the fridge was fresh.",
+    "Her assistant, Tomas, was a [[talented|talented]] cook. Mina sometimes felt [[jealous|jealous]] because he could invent wonderful dishes without a recipe. That morning, however, neither of them could find the source of the smell. They carried the rubbish outside, then moved it [[farther|farther]] from the door. The smell remained.",
+    "Mina called her [[landlady|landlady]], Mrs Chen, who arrived with a repair [[kit|kit]]. Usually [[easy-going|easy-going]], Mrs Chen looked worried when she saw water under the sink. Mina feared an expensive argument about repairs, but Mrs Chen said there was no need for [[legal|legal]] advice: their rental agreement clearly made her responsible for the pipes. She called a repair worker, who found old [[peanut|peanut]] shells blocking a pipe behind the wall.",
+    "By three o'clock, the pipe was clear and the floor was clean. Tomas suggested a simple menu they could finish together. That evening, the party's [[hostess|hostess]], Mrs Silva, thanked them for a lovely meal. Mina smiled at Tomas. She was beginning to see his ability as a gift to their business, not a threat to her own."
+  ],
+  "zh": [
+    "米娜租了一间小厨房，专门为聚会准备食物。一个星期五，她要为十二位客人做晚餐。然而，当天早晨她一开门，就闻到厨房里有股臭味。她检查了鱼和蔬菜，但冰箱里的一切都很新鲜。",
+    "她的助手托马斯是一位很有天赋的厨师。米娜有时会嫉妒他，因为他不用食谱就能创造出美味的菜肴。不过，那天早晨，他们俩谁也找不到异味的来源。他们把垃圾搬到外面，又把它移到离门更远的地方。可臭味仍然没有消失。",
+    "米娜打电话给女房东陈太太，她带着一套维修工具赶来了。平时很随和的陈太太看到水槽下面的积水时，露出了担忧的神情。米娜怕双方会为了维修费用争执不休，但陈太太说，不必寻求法律意见：租赁合同明确规定，管道由她负责。她叫来了一位维修工，维修工发现，墙后的一根管道被陈旧的花生壳堵住了。",
+    "到下午三点，管道通了，地板也擦干净了。托马斯提议做一份简单的菜单，两人可以一起完成。那天晚上，聚会的女主人席尔瓦太太感谢他们准备了美味的一餐。米娜向托马斯微笑。她开始觉得，他的才能是他们生意的宝贵财富，而不是对自己能力的威胁。"
+  ],
+  "q": [
+    {
+      "s": "Some of the food in Mina's fridge had gone bad.",
+      "a": "F",
+      "why": "文中明确说冰箱里的一切都很新鲜。"
+    },
+    {
+      "s": "The rental agreement made Mrs Chen responsible for the pipes.",
+      "a": "T",
+      "why": "合同明确规定管道由陈太太负责。"
+    },
+    {
+      "s": "Mrs Silva had ordered meals from Mina before.",
+      "a": "NG",
+      "why": "文章未提席尔瓦太太以前是否订过餐。"
+    }
+  ]
+}

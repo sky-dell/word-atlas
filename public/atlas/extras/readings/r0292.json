@@ -1,0 +1,48 @@
+{
+  "id": "r0292",
+  "ids": [
+    "cottage",
+    "fond",
+    "exhibition",
+    "difficulty",
+    "steam",
+    "horror",
+    "biography",
+    "bet",
+    "site",
+    "respond"
+  ],
+  "title": "The Mystery Behind the White Cloud",
+  "titleZh": "白雾背后的谜团",
+  "topic": "thinking",
+  "cefr": 2,
+  "paras": [
+    "When a village reading group borrowed an empty [[cottage|cottage]] for a weekend [[exhibition|exhibition]], its members chose an unusual theme: how memories can mislead us. Their main object was a photograph taken in 1954. It showed a white cloud rising behind the village bakery, with several people running towards it.",
+    "Marta, who was [[fond|fond]] of village history, remembered hearing about a terrible fire. She described her [[horror|horror]] when she first saw the picture. However, the group had [[difficulty|difficulty]] finding any written report of a fire. Yusuf was so sure Marta was right that he [[bet|bet]] two pounds on her explanation.",
+    "Instead of voting on the answer, the group looked for evidence. They visited the [[site|site]] of the old bakery and read a [[biography|biography]] of its owner, written by his daughter. One page explained that he had tested a new bread oven that summer. The white cloud was [[steam|steam]], and the people were coming to watch.",
+    "The group wrote to the daughter, who [[respond|responded]] with a dated letter confirming the event. At the exhibition, visitors guessed what the photograph showed before reading the evidence beneath a paper cover. Yusuf paid his two pounds into the project box. Marta laughed at her mistake and suggested their next display: village stories that still needed checking."
+  ],
+  "zh": [
+    "一个村庄的读书小组借用了一间空置的乡间小屋，准备举办周末展览。成员们选了一个不寻常的主题：记忆如何误导我们。核心展品是一张摄于1954年的照片。照片中，村里面包房后方升起一团白雾，几个人正朝它跑去。",
+    "玛尔塔喜欢村庄历史，她记得曾听人说起过一场可怕的火灾。她描述了自己第一次看到这张照片时的惊恐。然而，小组很难找到任何关于火灾的文字报道。优素福非常确信玛尔塔的解释是对的，便押了两英镑，赌她说得没错。",
+    "小组没有通过投票决定答案，而是开始寻找证据。他们去了老面包房的旧址，还读了一本由店主女儿撰写的店主传记。其中一页提到，那年夏天，店主曾测试过一台新的面包烤炉。那团白雾其实是蒸汽，人们是赶来看热闹的。",
+    "小组给店主的女儿写了信，她回了一封注明日期的信，证实了这件事。展览上，参观者先猜照片拍的是什么，再揭开纸盖，阅读下面的证据。优素福把两英镑放进了存放项目资金的盒子。玛尔塔笑着承认自己弄错了，并提议下一次展出那些仍有待核实的村庄故事。"
+  ],
+  "q": [
+    {
+      "s": "People were living in the cottage when the group borrowed it.",
+      "a": "F",
+      "why": "小组借用的是一间空置的小屋。"
+    },
+    {
+      "s": "Marta had been interested in village history since childhood.",
+      "a": "NG",
+      "why": "只说她喜欢村史，未说明兴趣始于何时。"
+    },
+    {
+      "s": "The bakery owner's biography described a test of a new bread oven.",
+      "a": "T",
+      "why": "传记记载店主那年夏天测试了新烤炉。"
+    }
+  ]
+}

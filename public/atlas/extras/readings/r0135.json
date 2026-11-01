@@ -1,0 +1,46 @@
+{
+  "id": "r0135",
+  "ids": [
+    "chemistry",
+    "hang",
+    "especially",
+    "countryside",
+    "health",
+    "mobile",
+    "leaves",
+    "super",
+    "decision",
+    "heat"
+  ],
+  "title": "A Travelling Colour Workshop",
+  "titleZh": "流动的染色工坊",
+  "topic": "arts",
+  "cefr": 1,
+  "paras": [
+    "Visitors to the village of Bellora often come for its old stone houses. But on Saturday mornings, a small blue cart brings another reason to visit. It is a [[mobile|mobile]] art workshop, owned by a cloth artist called Mina. She travels through the [[countryside|countryside]] and shows visitors how to colour cloth with plants. Her yellow scarves are [[especially|especially]] popular, and several shops sell them beside the village bread.",
+    "At ten, Mina opens the cart and puts out bowls, cloth and dry [[leaves|leaves]]. Today, six visitors join her under a tree. She explains a little [[chemistry|chemistry]]: different substances in the water can change the final colour. The [[heat|heat]] from a small stove keeps one pot warm. Mina cares about everyone's [[health|health]], so she gives them gloves and asks them not to taste anything. Soon, white pieces of cloth turn soft brown.",
+    "The visitors [[hang|hang]] their wet cloth on a line between two trees. One boy calls his piece “[[super|super]]” because its dark marks look like birds. Mina asks everyone to make a [[decision|decision]]: take the cloth home or add it to the village's long festival flag. The boy chooses the flag. Next month, he will return to find his birds flying above the square."
+  ],
+  "zh": [
+    "来到贝洛拉村的游客往往是为了看古老的石屋。不过，每到星期六早上，一辆蓝色小推车就会带来另一个值得到访的理由。这是一个流动的艺术工坊，主人是一位名叫米娜的布艺师。她穿行于乡村，向游客展示如何用植物给布染色。她的黄色围巾尤其受欢迎，村里的几家商店都在面包旁边摆着这些围巾出售。",
+    "十点钟，米娜打开小推车，摆出碗、布和干叶子。今天，有六位游客在树下参加她的活动。她讲了一点化学知识：水中不同的物质可能改变最终的颜色。小炉子散发的热量让一口锅保持温热。米娜关心每个人的健康，所以给大家发了手套，并提醒他们不要品尝任何东西。很快，一块块白布变成了柔和的棕色。",
+    "游客们把湿布挂在两棵树之间的绳子上。一个男孩说自己的作品“棒极了”，因为布上的深色印记看起来像鸟。米娜请每个人做一个决定：把布带回家，还是把它接到村里长长的节庆旗上。男孩选择了旗子。下个月，他会回来，寻找自己那些在广场上方飞翔的小鸟。"
+  ],
+  "q": [
+    {
+      "s": "Mina's yellow scarves are not popular.",
+      "a": "F",
+      "why": "原文说她的黄色围巾尤其受欢迎。"
+    },
+    {
+      "s": "Mina gives the visitors gloves.",
+      "a": "T",
+      "why": "米娜为了大家的健康给他们发了手套。"
+    },
+    {
+      "s": "The boy went to the village festival last year.",
+      "a": "NG",
+      "why": "文章未说明男孩去年是否参加过节庆。"
+    }
+  ]
+}

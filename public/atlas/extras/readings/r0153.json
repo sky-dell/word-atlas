@@ -1,0 +1,46 @@
+{
+  "id": "r0153",
+  "ids": [
+    "father-in-law",
+    "leader",
+    "subway",
+    "pleased",
+    "main",
+    "drugstore",
+    "several",
+    "hairdresser",
+    "customer",
+    "collect"
+  ],
+  "title": "Slow Steps Beside the Pond",
+  "titleZh": "池塘边的慢步行走",
+  "topic": "health",
+  "cefr": 1,
+  "paras": [
+    "Tuesday, 8 a.m. The air beside Willow Pond was cool after rain. I came by [[subway|subway]] with my [[father-in-law|father-in-law]], Omar, for our weekly nature walk. He is the [[leader|leader]] of our small walking group. Our [[main|main]] aim is to move our bodies gently and notice small things outside. Before we reached the park, we stopped at a [[drugstore|drugstore]] for water and tissues. Then we followed the narrow path towards the pond.",
+    "Near the water, we met Rosa, a [[hairdresser|hairdresser]], and Mei, a regular [[customer|customer]] at her shop. Rosa spends most of her working day indoors, so she enjoys these quiet mornings. We stopped under a tree to [[collect|collect]] fallen leaves for our nature notebooks. We left living plants alone. I counted [[several|several]] tiny snails on one wet leaf. Mei noticed that they moved more slowly when the sun came out.",
+    "We walked for twenty minutes, then sat on a wooden seat. Omar was [[pleased|pleased]] that everyone could finish without rushing. My shoulders felt less tight, and Rosa said her feet felt better after sitting down. Across the pond, a grey bird stood in the shallow water. We watched it catch a small fish before we closed our notebooks and headed home."
+  ],
+  "zh": [
+    "星期二，上午八点。雨后，柳树池塘边的空气很凉爽。我和配偶的父亲奥马尔乘地铁来参加每周一次的自然散步。他是我们这个小小步行团的带领者。我们的主要目的是让身体做些轻缓的活动，同时留意户外的细小事物。到公园前，我们在一家药店买了水和纸巾，然后沿着窄窄的小路走向池塘。",
+    "在水边，我们遇到了理发师罗莎，以及她店里的常客梅。罗莎一天中大部分工作时间都在室内，所以她很喜欢这样安静的早晨。我们在一棵树下停下来，收集落叶，准备放进自然观察笔记本。我们没有碰还在生长的植物。我在一片湿叶子上数到了几只小蜗牛。梅注意到，太阳出来后，它们爬得更慢了。",
+    "我们走了二十分钟，然后在一张木椅上坐下。大家不用赶路就能走完全程，奥马尔对此很高兴。我的肩膀没那么紧绷了，罗莎说坐下后双脚舒服了一些。池塘对面，一只灰色的鸟站在浅水中。我们看着它捉到一条小鱼，才合上笔记本回家。"
+  ],
+  "q": [
+    {
+      "s": "The writer and Omar walked all the way from home to the park.",
+      "a": "F",
+      "why": "他们乘地铁前来，并非全程步行。"
+    },
+    {
+      "s": "The group collected fallen leaves for their notebooks.",
+      "a": "T",
+      "why": "他们收集落叶，用于自然观察笔记本。"
+    },
+    {
+      "s": "The grey bird stays at the pond during winter.",
+      "a": "NG",
+      "why": "文章未提及这只鸟冬天是否留在池塘。"
+    }
+  ]
+}

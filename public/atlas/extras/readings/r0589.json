@@ -1,0 +1,48 @@
+{
+  "id": "r0589",
+  "ids": [
+    "transact",
+    "consolidate",
+    "manure",
+    "verge",
+    "optimal",
+    "resolutely",
+    "upkeep",
+    "haunt",
+    "comprise",
+    "royalty"
+  ],
+  "title": "Lessons Beneath the Orchard",
+  "titleZh": "果园土层下的课堂",
+  "topic": "education",
+  "cefr": 4,
+  "paras": [
+    "At a former palace orchard, soil researcher Amara Sen teaches apprentice gardeners to read the ground before they learn to [[transact|transact]] business with nurseries. Her outdoor classroom occupies three terraces once reserved for [[royalty|royalty]]. Rather than beginning with botanical terminology, she asks each newcomer to describe the smell and texture of a handful of earth.",
+    "Sen’s teaching beds [[comprise|comprise]] twelve narrow plots, each receiving a different proportion of leaf litter and aged [[manure|manure]]. Apprentices weigh the additions, record rainfall and compare root development in transparent observation boxes. The purpose is not to identify one universally [[optimal|optimal]] mixture, she explains, but to discover why a successful treatment on one terrace may fail several metres downhill.",
+    "The memory of an earlier experiment continues to [[haunt|haunt]] her: after she prescribed identical watering schedules across the orchard, six young pear trees died. On the [[verge|verge]] of abandoning teaching, she began examining the apprentices’ notebooks and noticed observations her instruments had missed. She now [[resolutely|resolutely]] refuses to dismiss descriptions such as ‘soil like cold porridge’, provided their authors investigate what those impressions indicate.",
+    "To [[consolidate|consolidate]] their judgement, apprentices eventually take responsibility for a neglected bed, including its seasonal [[upkeep|upkeep]]. Their final assessment is a conversation beside the roots, not a written examination. Last autumn, one trainee explained how a shallow drainage channel had revived a struggling pear. Sen left the channel uncovered for the next intake: a modest intervention, preserved as evidence that careful attention can become teachable knowledge."
+  ],
+  "zh": [
+    "在一座昔日的宫廷果园里，土壤研究员阿玛拉·森教园艺学徒先读懂脚下的土地，再学习如何与苗圃洽谈业务。她的露天课堂占据了三层曾专供王室使用的梯田。她并不以植物学术语作为教学的起点，而是让每个新来的学徒描述一把泥土的气味与质地。",
+    "森的教学种植区由十二块狭长的小地块组成，每块都施入不同比例的落叶与腐熟粪肥。学徒们称量添加物，记录降雨量，并利用透明观察箱比较根系的发育情况。她解释说，目的不是找出一种普遍适用的最佳配方，而是弄清楚，为什么在某层梯田上有效的处理方法，到了下坡几米远的地方却可能失败。",
+    "一次早期试验的记忆始终困扰着她：她为整个果园制定了相同的浇水计划，此后六棵幼梨树死亡。就在几乎要放弃教学时，她开始翻看学徒的笔记，发现其中记录了一些仪器未能捕捉到的现象。如今，对于“土壤像冷粥”这样的描述，她坚决不予轻视，前提是描述者要探究这些感受究竟说明了什么。",
+    "为了巩固判断能力，学徒最终要负责照料一块疏于管理的种植地，包括各季节的养护工作。他们的结业考核不是笔试，而是在根系旁进行的一场谈话。去年秋天，一名学徒解释了一条浅排水沟如何让一棵长势不佳的梨树恢复生机。森没有盖住那条沟，而是将它留给下一批学徒看：这一小小的改动被保留下来，证明细致的观察能够转化为可传授的知识。"
+  ],
+  "q": [
+    {
+      "s": "Sen introduces apprentices to soil observation before teaching them commercial dealings with plant suppliers.",
+      "a": "T",
+      "why": "首段说明先学观察土壤，再学与苗圃交易。"
+    },
+    {
+      "s": "The experimental plots are intended to reveal a single soil mixture suitable for every terrace.",
+      "a": "F",
+      "why": "第二段明确否认寻找普遍适用的最佳配方。"
+    },
+    {
+      "s": "Apprentices receive payment for maintaining the neglected beds.",
+      "a": "NG",
+      "why": "末段提到养护责任，但未说明是否有报酬。"
+    }
+  ]
+}

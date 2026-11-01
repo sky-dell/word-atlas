@@ -1,0 +1,46 @@
+{
+  "id": "r0515",
+  "ids": [
+    "consciousness",
+    "etiquette",
+    "roar",
+    "fibre",
+    "comparative",
+    "restore",
+    "latter",
+    "cargo",
+    "intense",
+    "innocent"
+  ],
+  "title": "Making Thunder Behind the Curtain",
+  "titleZh": "幕后的雷声制造术",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "Long before recorded sound, European theatres developed ways to make storms audible. By the eighteenth century, workers could roll heavy balls along wooden tracks above the stage, making thunder [[roar|roar]] over the actors. Such effects gave familiar scenes new force: a falsely accused sailor might defend an [[innocent|innocent]] companion while waves threatened their ship. The audience could imagine both the vessel and its [[cargo|cargo]] disappearing into darkness, although neither ever left the painted stage.",
+    "Metal thunder sheets later offered another method. Suspended from a frame, a large, thin sheet produced a deep rumble when shaken. Of these two devices—the wooden track and the metal sheet—the [[latter|latter]] was easier to fit backstage. Its effect could be [[intense|intense]], especially when combined with sudden flashes of light. A heroine might faint during the storm and regain [[consciousness|consciousness]] as it passed. Meanwhile, audience [[etiquette|etiquette]] gradually changed: quiet listening became more expected, making subtle sound effects increasingly useful.",
+    "Today, surviving theatrical sound devices reveal how carefully these illusions were constructed. Conservators who [[restore|restore]] them examine worn edges, frames and suspension ropes; even a single loose [[fibre|fibre]] can suggest that a rope needs closer inspection. [[comparative|Comparative]] tests of old devices and modern recordings help researchers understand their different qualities. A recording repeats exactly, whereas a shaken sheet responds to the operator's hands. This small variation explains part of its continuing appeal: each storm is performed, not merely played back."
+  ],
+  "zh": [
+    "早在录音技术出现之前，欧洲剧院就已想出让观众听见暴风雨的方法。到十八世纪，剧场工作人员可以让沉重的球沿舞台上方的木轨滚动，使雷声在演员头顶轰鸣。这类音效为熟悉的场景增添了力量：当海浪威胁船只时，一名遭到诬告的水手可能正在为无辜的同伴辩护。观众能够想象船和船上的货物一同消失在黑暗中，尽管它们从未离开过布置着彩绘布景的舞台。",
+    "后来，金属雷声板提供了另一种方法。一块又大又薄的金属板悬挂在支架上，摇动时便会发出低沉的隆隆声。在木轨和金属板这两种装置中，后者更容易安置在后台。它的效果可以十分强烈，尤其是在配合突然闪现的灯光时。女主角可能在暴风雨中昏倒，随着风暴消退而恢复知觉。与此同时，观众礼仪也逐渐改变：安静聆听越来越成为一种要求，这让细微的音效日益有用。",
+    "如今，留存下来的剧场音效装置揭示了这些幻象的制作有多么精细。修复它们的文物保护人员会检查磨损的边缘、支架和悬挂绳索；哪怕只有一根松散的纤维，也可能提示绳索需要更仔细的检查。对旧装置与现代录音进行对比测试，有助于研究者理解两者不同的特点。录音每次播放都完全一样，而摇动的金属板则会随操作者的双手而变化。这种细微差异是它至今仍有吸引力的部分原因：每一场风暴都是现场演出的，而不只是播放出来的。"
+  ],
+  "q": [
+    {
+      "s": "The heavy balls used to create thunder were made of iron.",
+      "a": "NG",
+      "why": "首段提到重球，但未说明其材质。"
+    },
+    {
+      "s": "Shaking a suspended metal thunder sheet produced a deep rumble.",
+      "a": "T",
+      "why": "第二段说明悬挂的金属板摇动时发出低沉隆隆声。"
+    },
+    {
+      "s": "A storm recording produces a different sound each time it is played.",
+      "a": "F",
+      "why": "末段明确说录音每次播放都完全一样。"
+    }
+  ]
+}

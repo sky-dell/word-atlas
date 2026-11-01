@@ -1,0 +1,48 @@
+{
+  "id": "r0472",
+  "ids": [
+    "capable",
+    "corresponding",
+    "commentary",
+    "eager",
+    "garment",
+    "delicate",
+    "hell",
+    "modernize",
+    "declaration",
+    "diversity"
+  ],
+  "title": "A Gentler Wash for Historic Cloth",
+  "titleZh": "古老织物的温和清洗实验",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "At a small coastal museum, textile conservator Leila Haddad wanted to [[modernize|modernize]] cleaning methods while reducing water use. Her starting point was a painted [[garment|garment]] once worn in a religious play. Its red figures represented souls in [[hell|hell]], a place of punishment after death in some religious beliefs. The cloth was too [[delicate|delicate]] for ordinary washing, so Leila tested a fine water mist on newly made samples instead.",
+    "Her team prepared twenty cotton squares using the same painting technique. Each received an equal amount of dust and was paired with a [[corresponding|corresponding]] sample carrying the same pigment. One sample from each pair was cleaned with wet cotton pads; the other received mist followed by gentle brushing. Volunteers were [[eager|eager]] to see whether such small quantities of water could remove visible dirt.",
+    "During a public demonstration, a colleague provided live [[commentary|commentary]] as Leila worked beneath a camera. Measurements showed that mist cleaning was [[capable|capable]] of removing nearly as much dust as the pad method while using sixty per cent less water. However, two blue samples lost tiny flakes of paint. This suggested a need to test a greater [[diversity|diversity]] of pigments before drawing conclusions about safety.",
+    "The museum's final [[declaration|declaration]] committed it to reducing cleaning water, but did not promise immediate use on historic objects. Leila recommended further pigment tests first, recording paint loss as well as dust removal for both cleaning methods."
+  ],
+  "zh": [
+    "在一家海滨小博物馆里，纺织品保护员莱拉·哈达德希望在减少用水的同时，让清洁方法实现现代化。她的研究起点是一件曾用于宗教戏剧演出的彩绘服装。衣服上的红色人物代表地狱中的灵魂，地狱在某些宗教信仰中是人死后受罚的地方。这块布料太脆弱，无法进行普通水洗，因此莱拉先在新制作的样布上测试了细水雾清洁法。",
+    "她的团队采用同样的彩绘技法，制作了二十块方形棉布。每块样布都撒上等量灰尘，并与一块涂有相同颜料的样布配对。每组中的一块用湿棉片清洁，另一块则先喷上水雾，再轻轻刷拭。志愿者们迫切想知道，这么少的水是否能够去除肉眼可见的污垢。",
+    "在一次公开演示中，莱拉在摄像机下操作，一位同事则同步进行现场解说。测量结果显示，水雾法去除的灰尘几乎与湿棉片法一样多，用水量却减少了百分之六十。然而，两块蓝色样布都掉落了细小的颜料碎片。这表明，在就安全性得出结论之前，可能需要测试更多种类的颜料。",
+    "博物馆在最终声明中承诺减少清洁用水，但没有保证立即将这种方法用于历史文物。莱拉建议先进一步测试颜料，为两种清洁方法同时记录颜料脱落情况和灰尘去除情况。"
+  ],
+  "q": [
+    {
+      "s": "Leila carried out her initial mist-cleaning tests on the historic garment.",
+      "a": "F",
+      "why": "原服装太脆弱，她改用新制作的样布测试。"
+    },
+    {
+      "s": "The public demonstration was broadcast on the museum's website.",
+      "a": "NG",
+      "why": "文中提到摄像机和现场解说，未说明网上播出。"
+    },
+    {
+      "s": "Leila recommended more pigment tests before using the method on historic objects.",
+      "a": "T",
+      "why": "末段说明她建议先进一步测试颜料。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0453",
+  "ids": [
+    "flap",
+    "directory",
+    "pedal",
+    "merely",
+    "resign",
+    "cannon",
+    "rejection",
+    "craft",
+    "scent",
+    "noble"
+  ],
+  "title": "A Hide Beside the Old Fort",
+  "titleZh": "旧堡旁的观鸟棚",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "At six this morning, the marsh below the old coastal fort smelled of salt and wet grass. A sweeter [[scent|scent]] rose from flowers along the path. From our wooden hide, I watched two herons [[flap|flapping]] low over a channel, their feet almost touching the water. Above them, an iron [[cannon|cannon]] pointed harmlessly towards the sea. The contrast was striking: a place once designed for defence now offered shelter to nesting birds.",
+    "My companion, Leila, had found the hide's builder through a [[directory|directory]] of local makers. He had decided to [[resign|resign]] from his factory job and return to the [[craft|craft]] of weaving reed screens. His first design had met with [[rejection|rejection]] from the reserve manager because its viewing windows were too exposed. The revised hide had narrow openings and a wooden [[pedal|pedal]] that lifted a screen, allowing visitors to look out without sudden movements at eye level.",
+    "By eight, we had recorded eleven bird species. Yet we were not [[merely|merely]] counting birds: we were checking whether the new hide disturbed feeding birds. When Leila raised the screen, a nearby sandpiper continued probing the mud. We repeated the test twice with the same result. Protecting wildlife may sound like a [[noble|noble]] ambition, but here it depended on modest practical choices. Before leaving, I noted one loose board for repair; even a well-designed shelter needs quiet footsteps."
+  ],
+  "zh": [
+    "今早六点，古老海岸堡垒下的湿地散发着海盐和湿草的气息。小径旁的花朵送来一阵更甜美的香气。我从木制观鸟棚里望出去，看见两只苍鹭振翅低飞，掠过一条水道，双脚几乎触及水面。在它们上方，一门铁炮朝着大海，如今已毫无威胁。这种反差十分鲜明：一个曾为防御而建的地方，现在为筑巢的鸟类提供了庇护。",
+    "同伴莱拉通过一份当地手工艺人的通讯名录，找到了这座观鸟棚的建造者。他决定辞去工厂的工作，重新从事编织芦苇屏帘的手艺。他的第一版设计遭到了保护区管理者的否决，因为观察窗过于敞露。修改后的观鸟棚开口狭窄，还装有一块可以抬起屏帘的木踏板，让访客向外观察时，不必在视线高度做出突然的动作。",
+    "到八点时，我们已记录了十一种鸟。不过，清点数量并不是此行的唯一目的：我们还要检查新观鸟棚是否会打扰鸟类觅食。莱拉抬起屏帘时，附近一只鹬仍在泥里探寻食物。我们又试了两次，结果相同。保护野生动物听起来或许是一个崇高的志向，但在这里，它依靠的是一些不起眼的实际选择。离开前，我记下了一块需要修理的松动木板；即使是设计精良的隐蔽观察设施，也需要安静的脚步。"
+  ],
+  "q": [
+    {
+      "s": "The old fort was never intended for defence.",
+      "a": "F",
+      "why": "第一段明确说此处曾为防御而建。"
+    },
+    {
+      "s": "The reserve manager rejected the builder's first hide design.",
+      "a": "T",
+      "why": "初版设计因观察窗过于敞露被否决。"
+    },
+    {
+      "s": "Leila had received formal training in identifying wetland birds before this visit.",
+      "a": "NG",
+      "why": "文中未提莱拉是否接受过辨鸟培训。"
+    }
+  ]
+}

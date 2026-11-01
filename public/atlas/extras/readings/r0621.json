@@ -1,0 +1,48 @@
+{
+  "id": "r0621",
+  "ids": [
+    "propagate",
+    "quantitative",
+    "wordy",
+    "fluff",
+    "stern",
+    "reactor",
+    "massacre",
+    "herald",
+    "disciplinary",
+    "plantation"
+  ],
+  "title": "Making an Economy Fit on Paper",
+  "titleZh": "把经济史装进一本纸册",
+  "topic": "economy",
+  "cefr": 4,
+  "paras": [
+    "At a small museum of economic history, a pocket booklet begins not with writing but with objects: a cotton invoice, an electricity bill and a worker’s wage envelope. Intended to [[propagate|propagate]] reliable knowledge rather than nostalgia, the publication follows one region’s transition from agriculture to industry. Its production requires historians, papermakers and printers to negotiate what deserves a place on paper.",
+    "First, researchers assemble [[quantitative|quantitative]] evidence, converting prices and wages into comparable values. A [[plantation|plantation]] ledger establishes the agricultural starting point; records from a nuclear [[reactor|reactor]] document a later source of electricity. The chronology also acknowledges a [[massacre|massacre]] of unarmed workers, without graphic detail. Editors shorten [[wordy|wordy]] captions, but refuse to erase suffering simply because it interrupts an attractive narrative.",
+    "Meanwhile, discarded cotton cloth is shredded, soaked and beaten into pulp. Loose [[fluff|fluff]] collected during cutting joins the mixture, although synthetic threads must be removed. Sheets lifted on mesh screens are pressed beneath felt and dried against warm metal plates. Their slightly uneven surface gives the finished booklet a tactile connection to the textile economy described inside.",
+    "Before printing, the workshop manager issues a [[stern|stern]] reminder: substituting an unchecked image can trigger [[disciplinary|disciplinary]] action. Each illustration must match its archival reference. Approved pages pass through a small press, then are folded, stitched and trimmed. The first clean impressions [[herald|herald]] the final stage: binding evidence into something visitors can carry away, modest enough for a pocket yet substantial enough to challenge a simplified economic story."
+  ],
+  "zh": [
+    "在一座小型经济史博物馆里，一本口袋读物的制作并非从写作开始，而是从几件实物开始：一张棉花发票、一张电费单和一个工人的工资袋。这本刊物旨在传播可靠的知识，而非唤起怀旧之情，它追溯了一个地区从农业向工业转型的历程。制作过程中，历史研究者、造纸工匠和印刷人员需要共同商议，哪些内容值得印在纸上。",
+    "首先，研究人员汇集定量证据，将物价和工资换算成可以相互比较的数值。一份种植园账簿确立了农业阶段的起点；一座核反应堆的档案则记录了后来出现的一种电力来源。时间线也记载了一场针对手无寸铁的工人的大屠杀，但没有呈现血腥细节。编辑压缩冗长的图注，却不肯仅仅因为苦难破坏了叙事的吸引力，就将其抹去。",
+    "与此同时，废弃棉布被切碎、浸泡，再打成纸浆。裁切过程中收集的松散毛絮也加入其中，不过合成纤维线必须剔除。工匠用网筛抄起纸页，放在毛毡下压榨，再贴着温热的金属板烘干。纸张略微凹凸的表面，让成品读物与书中讲述的纺织经济之间产生了一种可触摸的联系。",
+    "印刷前，车间主管严厉提醒大家：擅自换用未经核查的图片，可能招致纪律处分。每幅插图都必须与其档案出处相符。审核通过的书页经过一台小型印刷机印制，随后折叠、缝订并裁切。第一批清晰的印张宣告了最后阶段的到来：将证据装订成游客可以带走的读物。它小巧得足以放进口袋，内容却足以挑战过度简化的经济史叙述。"
+  ],
+  "q": [
+    {
+      "s": "The booklet follows the region’s transition from industry to agriculture.",
+      "a": "F",
+      "why": "首段说明转型方向是从农业到工业。"
+    },
+    {
+      "s": "The booklet includes an account of the killing of unarmed workers.",
+      "a": "T",
+      "why": "第二段说明时间线记载了对无武装工人的屠杀。"
+    },
+    {
+      "s": "The completed booklet is available for purchase through the museum’s website.",
+      "a": "NG",
+      "why": "文章未说明是否通过博物馆网站销售。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0182",
+  "ids": [
+    "goldfish",
+    "tail",
+    "own",
+    "celebrate",
+    "wooden",
+    "necessary",
+    "suggest",
+    "air-conditioning",
+    "messy",
+    "recently"
+  ],
+  "title": "A Fish Lantern Returns",
+  "titleZh": "重现旧时的鱼灯",
+  "topic": "history",
+  "cefr": 1,
+  "paras": [
+    "Mina Chen makes paper lanterns in a small shop beside a river. She has her [[own|own]] workroom behind the shop. On her desk, a [[goldfish|goldfish]] swims in a glass tank. Mina watches its [[tail|tail]] move before she draws fish on paper. Her grandfather made fish lanterns for the town's summer festival sixty years ago. Mina still keeps his pictures in a [[wooden|wooden]] box.",
+    "Mina [[recently|recently]] found an old photograph inside the box. It showed a huge fish lantern above the river. She decided to make another one to [[celebrate|celebrate]] the festival's hundredth year. Soon, her workroom became [[messy|messy]], with paper and thin sticks across the floor. Careful planning was [[necessary|necessary]] because the lantern had to fit through her narrow door. A neighbour [[suggest|suggested]] making the body and head separately.",
+    "During the hot afternoons, Mina worked in her workroom without [[air-conditioning|air-conditioning]]. She opened the windows, but the wind sometimes blew her paper away. After three weeks, the fish was ready. On festival night, two helpers carried it to the river and joined its parts together. A small electric light shone inside. Mina stood beside the water with her grandfather's photograph. The fish in the picture had returned to the river."
+  ],
+  "zh": [
+    "米娜·陈在河边的一家小店里制作纸灯笼。店铺后面有她自己的工作间。她的桌上放着一个玻璃鱼缸，里面游着一条金鱼。米娜先观察它尾巴的摆动，再在纸上画鱼。六十年前，她的祖父曾为镇上的夏日节庆制作鱼灯。米娜至今仍把他留下的图片保存在一个木盒里。",
+    "米娜最近在木盒里发现了一张老照片，照片上是一盏悬在河面上方的巨大鱼灯。她决定再做一盏，庆祝这项节庆迎来第一百年。很快，她的工作间变得凌乱起来，地板上到处都是纸和细木条。仔细规划很有必要，因为灯笼必须能通过她那扇窄门。一位邻居建议把鱼身和鱼头分开制作。",
+    "炎热的午后，米娜在自己的工作间里工作，没有使用空调。她打开窗户，但风有时会把纸吹走。三周后，鱼灯做好了。节庆当晚，两位帮手把它搬到河边，将各部分拼接起来。鱼灯里的一盏小电灯亮了起来。米娜拿着祖父的照片站在水边。照片里的那条鱼，又回到了河边。"
+  ],
+  "q": [
+    {
+      "s": "Mina watches a living fish before drawing fish on paper.",
+      "a": "T",
+      "why": "她先观察金鱼尾巴的摆动，再画鱼。"
+    },
+    {
+      "s": "Mina's neighbour helped her cut the paper.",
+      "a": "NG",
+      "why": "邻居提出建议，但是否帮忙剪纸未交代。"
+    },
+    {
+      "s": "Mina used air-conditioning while she worked on hot afternoons.",
+      "a": "F",
+      "why": "炎热午后，她工作时没有使用空调。"
+    }
+  ]
+}

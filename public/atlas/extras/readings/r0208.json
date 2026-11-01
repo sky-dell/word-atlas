@@ -1,0 +1,48 @@
+{
+  "id": "r0208",
+  "ids": [
+    "property",
+    "introduction",
+    "ribbon",
+    "pity",
+    "eastern",
+    "scooter",
+    "bunch",
+    "sensible",
+    "confuse",
+    "furry"
+  ],
+  "title": "Ribbons at the Repair Table",
+  "titleZh": "修补桌上的丝带",
+  "topic": "daily",
+  "cefr": 2,
+  "paras": [
+    "On Saturday mornings, visitors to the [[eastern|eastern]] part of Bellara can find a repair table beside the bread market. Here, neighbours bring broken objects instead of throwing them away. For travellers, a morning at the table offers an [[introduction|introduction]] to daily life that no museum ticket can provide.",
+    "Marta, who started the table, ties a coloured [[ribbon|ribbon]] around each object. The colours show which repairs are needed. Names are written on paper labels so that nobody takes another person's [[property|property]]. The system used to [[confuse|confuse]] visitors, so she now hangs a simple colour guide above her chair.",
+    "During my visit, a boy arrived pushing a [[scooter|scooter]] with a loose wheel. While Marta checked it, he noticed a [[furry|furry]] dog resting under the table with a bandage on its leg. He felt [[pity|pity]] for it and offered some bread. Its owner thanked him but explained that the dog needed its own food while getting better.",
+    "By noon, the wheel was secure. Marta suggested a [[sensible|sensible]] rule: check it before every ride. The boy's grandmother returned with a [[bunch|bunch]] of yellow flowers for the table. Repairs cost nothing, but small gifts are welcome. I left with my bag strap repaired."
+  ],
+  "zh": [
+    "每逢星期六早晨，来到贝拉拉东部的游客都能在面包集市旁找到一张修补桌。邻居们把坏掉的物品带到这里，而不是直接扔掉。对旅行者来说，在桌边待上一个上午，就能了解当地的日常生活，这种体验是任何一张博物馆门票都无法提供的。",
+    "玛尔塔是这张修补桌的发起人，她会在每件物品上系一条彩色丝带。颜色表示物品需要哪种修理。纸标签上写着名字，这样就不会有人拿走别人的东西。这套方法以前常让游客感到困惑，所以她现在在椅子上方挂了一张简单的颜色说明表。",
+    "我到访时，一个男孩推着一辆轮子松动的滑板车来了。玛尔塔检查车子时，他注意到桌下躺着一只毛茸茸的狗，腿上缠着绷带。他很同情它，想给它吃点面包。狗的主人谢过他，但解释说，狗在康复期间需要吃自己的食物。",
+    "到了中午，轮子已经固定好了。玛尔塔提出了一条实用的建议：每次骑之前都检查一下。男孩的奶奶或外婆回来时，带了一束黄花放在桌上。修理不收费，但这里欢迎小小的谢礼。我离开时，包带已经修好了。"
+  ],
+  "q": [
+    {
+      "s": "The repair table is closed on Saturday mornings.",
+      "a": "F",
+      "why": "首段说明星期六早晨有修补桌供人送修物品。"
+    },
+    {
+      "s": "The dog had hurt its leg in a road accident.",
+      "a": "NG",
+      "why": "只说狗腿上缠着绷带，未说明受伤原因。"
+    },
+    {
+      "s": "People do not have to pay for repairs at the table.",
+      "a": "T",
+      "why": "末段明确说修理不收费。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0220",
+  "ids": [
+    "cabin",
+    "effort",
+    "boxer",
+    "battery",
+    "goods",
+    "submit",
+    "aged",
+    "current",
+    "shocked",
+    "exhausted"
+  ],
+  "title": "A Better Rhythm for Boxing",
+  "titleZh": "更适合拳击的训练节奏",
+  "topic": "sport",
+  "cefr": 2,
+  "paras": [
+    "Coach Amira ran a small experiment at a mountain boxing club. Its gym was a wooden [[cabin|cabin]] that had once stored [[goods|goods]] for a village shop. She wanted to know whether changing the rest periods in her [[current|current]] training plan would help fighters practise more accurately.",
+    "Twelve club members, [[aged|aged]] eighteen to thirty, took part. Each [[boxer|boxer]] hit marked areas on a heavy bag for six rounds. On Monday, they rested for thirty seconds between rounds. On Thursday, they rested for ninety seconds. The rounds were equally long, and Amira asked everyone to use the same [[effort|effort]]. A small sensor with a fresh [[battery|battery]] counted all hits and recorded how many landed on the marked areas.",
+    "Amira was [[shocked|shocked]] by Monday's results: the percentage of accurate hits in the final round was almost half that in the first. Several fighters were [[exhausted|exhausted]], and one said he could hardly keep his arms up. On Thursday, however, accuracy stayed much closer to its starting level. The fighters also reported feeling less tired, although the session lasted longer.",
+    "Amira decided to [[submit|submit]] a report to the club committee. She explained that the experiment was small, and Thursday's improvement might partly reflect practice. Still, the results suggested that longer breaks could protect the quality of training. The club agreed to test the new rhythm for another month before changing its plan."
+  ],
+  "zh": [
+    "阿米拉教练在一家山区拳击俱乐部开展了一项小实验。俱乐部的训练馆是一间木屋，以前曾用来存放村里一家商店的货物。她想知道，调整现行训练计划中的休息时间，能否帮助拳手在练习中打得更准。",
+    "十二名年龄在十八至三十岁之间的俱乐部成员参加了实验。每位拳手都对着一个大沙袋上的标记区域击打六个回合。周一，他们在回合之间休息三十秒；周四则休息九十秒。两天每个回合的时长相同，阿米拉也要求大家用同样的力气击打。一个装有新电池的小型传感器统计了全部击打次数，并记录其中有多少次打中了标记区域。",
+    "周一的结果让阿米拉十分震惊：最后一个回合的准确命中比例几乎只有第一个回合的一半。几位拳手筋疲力尽，其中一人说，他几乎连胳膊都抬不住了。然而，周四的准确率始终更接近开始时的水平。虽然整场训练的时间更长，拳手们也表示没有那么累。",
+    "阿米拉决定向俱乐部委员会提交一份报告。她解释说，这项实验规模很小，而且周四的进步也可能部分来自练习带来的熟练。不过，结果表明，延长休息时间可能有助于保持训练质量。俱乐部同意再试行一个月的新节奏，然后再决定是否修改计划。"
+  ],
+  "q": [
+    {
+      "s": "The fighters had shorter breaks during Thursday's session than on Monday.",
+      "a": "F",
+      "why": "周四休息九十秒，周一只有三十秒。"
+    },
+    {
+      "s": "The sensor used in the experiment cost less than fifty pounds.",
+      "a": "NG",
+      "why": "文中未交代传感器的价格。"
+    },
+    {
+      "s": "The club agreed to test the new training rhythm for another month.",
+      "a": "T",
+      "why": "末段明确说俱乐部同意再测试一个月。"
+    }
+  ]
+}

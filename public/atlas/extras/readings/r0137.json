@@ -1,0 +1,46 @@
+{
+  "id": "r0137",
+  "ids": [
+    "cost",
+    "tent",
+    "whose",
+    "bacon",
+    "happily",
+    "brain",
+    "crowded",
+    "promise",
+    "unhappy",
+    "matter"
+  ],
+  "title": "A Quiet Break Behind the Kitchen",
+  "titleZh": "厨房后的一次安静休息",
+  "topic": "work",
+  "cefr": 1,
+  "paras": [
+    "Mina ran a breakfast kitchen at a holiday camp. Her team cooked eggs and [[bacon|bacon]] for eighty guests each morning. By ten, the kitchen was hot and [[crowded|crowded]]. Some workers looked [[unhappy|unhappy]], and they often forgot small jobs. Mina wanted to know if a quiet break could help. She borrowed a [[tent|tent]] and put it under a tree behind the kitchen. The [[cost|cost]] of her experiment was only twelve pounds for chairs.",
+    "Six workers tried two different breaks over four mornings. On two mornings, they sat in the kitchen for ten minutes. On the others, they sat outside in the shelter for the same time. Mina [[promise|promised]] to leave them alone during both breaks. Yusuf, [[whose|whose]] job was to check breakfast orders, counted mistakes after each break. Everyone worked the same hours and served the same breakfast.",
+    "After the outdoor breaks, the team made three mistakes in total. After the kitchen breaks, they made nine. Workers also returned from outside smiling and talking [[happily|happily]]. A short rest away from noise might help the [[brain|brain]] work better. Four mornings could not prove this, but the [[matter|matter]] was worth testing further. Mina kept the quiet break for another month."
+  ],
+  "zh": [
+    "米娜在一个度假营地经营早餐厨房。她的团队每天早上为八十位客人做鸡蛋和培根。到了十点，厨房又热又挤。一些员工显得不开心，还常常忘记一些小事。米娜想知道，安静地休息一会儿是否会有帮助。她借来一顶帐篷，搭在厨房后面的一棵树下。这次实验只花了十二英镑，用来买椅子。",
+    "六名员工在四个早晨尝试了两种不同的休息方式。其中两个早晨，他们在厨房里坐十分钟。另外两个早晨，他们在外面的帐篷里坐同样长的时间。米娜承诺，两种休息期间都不会打扰他们。优素福的工作是核对早餐订单，他记录了每次休息后出现的错误次数。所有人的工作时长相同，供应的早餐也一样。",
+    "户外休息后，团队总共犯了三次错误；在厨房休息后，则犯了九次。员工们从外面回来时，还面带笑容，开心地交谈。远离噪声、短暂休息可能有助于大脑更好地工作。四个早晨不足以证明这一点，但这件事值得进一步测试。米娜将这种安静的休息方式又保留了一个月。"
+  ],
+  "q": [
+    {
+      "s": "Mina borrowed the tent from one of the workers.",
+      "a": "NG",
+      "why": "文章只说帐篷是借的，未说明向谁借。"
+    },
+    {
+      "s": "The workers' breaks in the kitchen lasted ten minutes.",
+      "a": "T",
+      "why": "第二段明确说他们在厨房里坐十分钟。"
+    },
+    {
+      "s": "The team made nine mistakes in total after the outdoor breaks.",
+      "a": "F",
+      "why": "户外休息后共犯三次错误，而非九次。"
+    }
+  ]
+}

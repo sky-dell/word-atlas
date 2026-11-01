@@ -1,0 +1,48 @@
+{
+  "id": "r0557",
+  "ids": [
+    "notoriety",
+    "glimmer",
+    "bureaucracy",
+    "reconcile",
+    "plasma",
+    "needless",
+    "skyrocket",
+    "atmospheric",
+    "establishment",
+    "memorandum"
+  ],
+  "title": "Across the Glass Pass",
+  "titleZh": "穿越琉璃山口",
+  "topic": "travel",
+  "cefr": 4,
+  "paras": [
+    "Begin your visit beside the battered copper lantern, whose uneven [[glimmer|glimmer]] once guided travellers towards a stone refuge on Glass Pass. This exhibition traces the transformation of a mountain crossing that acquired [[notoriety|notoriety]] after several poorly equipped expeditions disappeared there. The objects reveal how safer travel depended less on heroic individuals than on carefully organised assistance.",
+    "In the first cabinet, a handwritten [[memorandum|memorandum]] records the [[establishment|establishment]] of the pass's medical station in 1936. Its director, Leila Navarro, had to [[reconcile|reconcile]] merchants' demands for uninterrupted passage with doctors' insistence on rest during severe weather. Permits displayed alongside it show a [[bureaucracy|bureaucracy]] whose detailed procedures could delay departures, but also ensured that missing parties were reported.",
+    "The central display reconstructs the station's treatment room. Sealed containers once held dried [[plasma|plasma]], the liquid component of blood, which could be reconstituted for emergency treatment. A wall chart explains how declining [[atmospheric|atmospheric]] pressure reduced oxygen availability at altitude. Meanwhile, the arrival of commercial climbing parties caused demand for medical supplies to [[skyrocket|skyrocket]], stretching the station's modest storage capacity.",
+    "The route board beside the original door used coloured pegs to indicate full shelters, helping guides avoid [[needless|needless]] journeys. Visitors can move replicas to plan a crossing; a convenient shortcut becomes impossible when one shelter closes. The final photograph shows boots drying above a stove."
+  ],
+  "zh": [
+    "请从这盏斑驳的铜灯旁开始参观。它忽明忽暗的微光，曾引导旅人走向琉璃山口的一处石砌避难所。本展览追溯了这条山间通道的转变：数支装备不足的探险队在此失踪后，它便恶名远扬。这些展品揭示，旅行安全的改善，与其说依靠个人的英雄壮举，不如说有赖于精心组织的援助。",
+    "第一个展柜里，一份手写的内部备忘录记录了山口医疗站于1936年设立的经过。站长莱拉·纳瓦罗必须协调商人要求通行不间断的诉求，与医生坚持恶劣天气期间应当休息的主张。旁边陈列的通行证展示了一套行政体系：其细致的程序可能延误出发，却也能确保失踪队伍的情况得到上报。",
+    "中央展区复原了医疗站的诊疗室。密封容器曾用于存放干燥血浆；血浆是血液中的液体成分，复溶后可用于急救。墙上的图表解释了大气压力下降如何减少高海拔地区可供人体利用的氧气。与此同时，商业登山团队的到来使医疗物资需求猛涨，令医疗站有限的储存空间不堪重负。",
+    "原装门扇旁的路线板曾用彩色标钉标示满员的避难所，帮助向导避免不必要的行程。参观者可以移动复制的标钉来规划穿越路线；一旦某处避难所关闭，一条便利的捷径便会变得不可行。最后一张照片展示了在炉子上方烘干的靴子。"
+  ],
+  "q": [
+    {
+      "s": "The copper lantern was made by a resident of Glass Pass.",
+      "a": "NG",
+      "why": "首段说明灯的用途，未交代制作者。"
+    },
+    {
+      "s": "Administrative procedures helped ensure that missing groups were reported.",
+      "a": "T",
+      "why": "第二段明确说手续确保失踪队伍得到上报。"
+    },
+    {
+      "s": "The arrival of commercial climbing groups reduced pressure on the station's supply storage.",
+      "a": "F",
+      "why": "第三段指出需求猛涨，储存空间吃紧。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0242",
+  "ids": [
+    "attitude",
+    "tend",
+    "seafood",
+    "brand",
+    "tire",
+    "celery",
+    "location",
+    "questionnaire",
+    "tongue",
+    "label"
+  ],
+  "title": "A Taste of the Shore",
+  "titleZh": "海岸的味道",
+  "topic": "nature",
+  "cefr": 2,
+  "paras": [
+    "Food researcher Mina Okafor studies seaweed on a quiet island. Her work began when she noticed that visitors enjoyed local [[seafood|seafood]] but left the green plants on their plates. Their [[attitude|attitude]] interested her: many thought seaweed was only food for fish. Mina wanted to discover whether a simple soup could change their minds. She chose a small kitchen near the beach as the [[location|location]] for her experiment.",
+    "Each morning, Mina collected a little seaweed from an area with clean water. Back in the kitchen, she cooked it with potatoes and [[celery|celery]]. Too much seaweed left a strong salty taste on the [[tongue|tongue]], so she tested several amounts. She invited twelve island residents to taste three small bowls each. People [[tend|tend]] to give less careful answers when they [[tire|tire]], so each visit lasted only twenty minutes. Afterwards, everyone completed a short [[questionnaire|questionnaire]] about taste and smell.",
+    "The favourite soup contained just one spoonful of seaweed per bowl. With a local cook, Mina developed it into a product under their new [[brand|brand]], Shore Spoon. Each jar had a blue [[label|label]] showing the ingredients and where the seaweed grew. For Mina, the best result was not the jars themselves. It was seeing a visitor finish her soup, then ask to see the plants growing along the shore."
+  ],
+  "zh": [
+    "食品研究员米娜·奥卡福在一座宁静的小岛上研究海藻。她发现，游客很喜欢当地的海鲜，却把盘子里的绿色植物剩了下来，她的研究便由此开始。他们的看法引起了她的兴趣：许多人认为海藻只是鱼的食物。米娜想知道，一道简单的汤能否改变他们的想法。她选了海滩附近的一间小厨房作为实验地点。",
+    "每天早晨，米娜都会从一片水质洁净的区域采集少量海藻。回到厨房后，她把海藻与土豆、芹菜一起煮。海藻放得太多，舌头上就会留下很重的咸味，因此她试了几种不同的用量。她邀请了十二位岛上居民，每人品尝三小碗汤。人们疲倦时往往回答得不够认真，所以每次品尝只持续二十分钟。之后，每个人都填写了一份有关味道和气味的简短问卷。",
+    "最受欢迎的汤每碗只放一勺海藻。米娜与一位当地厨师合作，将它开发成产品，使用他们新创立的品牌“海岸一勺”。每个罐子上都贴着一张蓝色标签，注明配料和海藻的生长地点。对米娜来说，最好的成果并不是这些罐装汤本身，而是看到一位游客喝完汤后，提出想去看看生长在岸边的海藻。"
+  ],
+  "q": [
+    {
+      "s": "Mina's research was inspired by visitors avoiding seaweed while enjoying other local food.",
+      "a": "T",
+      "why": "她发现游客喜欢海鲜，却剩下海藻。"
+    },
+    {
+      "s": "The island residents were paid to taste Mina's soups.",
+      "a": "NG",
+      "why": "文章未说明品尝者是否获得报酬。"
+    },
+    {
+      "s": "The labels on the soup jars were red.",
+      "a": "F",
+      "why": "原文明确说罐子上的标签是蓝色的。"
+    }
+  ]
+}

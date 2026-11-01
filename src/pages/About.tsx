@@ -1,6 +1,5 @@
-import { ArrowUpRight, Database, Github, Heart } from "lucide-react";
+import { ArrowUpRight, Database, User, Heart } from "lucide-react";
 import { useAtlas } from "../atlas/context";
-import { REPO_URL } from "../config";
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -11,18 +10,18 @@ export function About() {
       <header className="about-hero">
         <img src={`${BASE}brand/og.webp`} alt="" />
         <div>
-          <p className="eyebrow">关于词光</p>
-          <h1 className="display">一词一画，点亮雅思。</h1>
+          <p className="eyebrow">关于词与远方</p>
+          <h1 className="display">多懂一个词，多看一点世界。</h1>
           <p className="lede">
-            词光把雅思阅读 8000 词整理成 {atlas.count.toLocaleString()} 个词条。每个词一幅原创插画，一句日常例句，一句雅思例句，配英美发音、常用搭配和易混提示。学会一个，就在你的星图上点亮一颗星。
+            词与远方把雅思阅读 8000 词整理成 {atlas.count.toLocaleString()} 个词条。每个词一幅原创插画，一句日常例句，一句雅思例句，配英美发音、常用搭配和易混提示。学会一个，就在你的星图上点亮一颗星。
           </p>
-          <p className="lede">它免费、开源、无需注册。代码用 MIT，词库用 CC BY 4.0，谁都可以拿去用。</p>
+          <p className="lede">支持游客直接学习，也可免费注册账号。代码遵循 MIT，词库遵循 CC BY 4.0。</p>
           <div className="about-actions">
-            <a className="btn btn-primary" href={REPO_URL} target="_blank" rel="noreferrer">
-              <Github size={18} /> 在 GitHub 上查看
+            <a className="btn btn-primary" href="#/account">
+              <User size={18} /> 免费账户
             </a>
-            <a className="btn btn-ghost" href={`${REPO_URL}/tree/main/data`} target="_blank" rel="noreferrer">
-              <Database size={18} /> 下载词库 JSON / CSV
+            <a className="btn btn-ghost" href="#/atlas">
+              <Database size={18} /> 浏览词汇图鉴
             </a>
           </div>
         </div>
@@ -45,7 +44,7 @@ export function About() {
               <b>分数诚实。</b>只算第一次作答。答错的词会换个题型再见一面，但不会抬高正确率。
             </li>
             <li>
-              <b>进度只属于你。</b>没有账号，没有服务器，数据存在你的浏览器里，随时能导出。
+              <b>进度由你掌握。</b>游客记录保存在浏览器中，可随时导出。免费注册后资料按账号隔离，可选择云同步和云端备份。
             </li>
           </ul>
         </section>
@@ -90,18 +89,18 @@ export function About() {
         <section className="panel">
           <h3 className="eyebrow">内容从哪里来</h3>
           <p className="muted">
-            释义、例句、搭配和提示由大语言模型按统一的词典规范重新撰写；插画由图像模型按统一画风逐词绘制；发音和朗读由 ElevenLabs 合成（英音 Alice，美音 Sarah）。所有内容都经过结构和一致性的自动校验，但没有逐条人工审校。看到错的地方，欢迎在 GitHub 提 Issue，或者直接改数据提 PR。
+            释义、例句、搭配和提示由大语言模型按统一的词典规范重新撰写；插画由图像模型按统一画风逐词绘制；发音和朗读由 ElevenLabs 合成（英音 Alice，美音 Sarah）。所有内容都经过结构和一致性的自动校验，但没有逐条人工审校。学习时请结合上下文核对释义与例句。
           </p>
-          <p className="muted">词光不是官方雅思词表，也不承诺提分。它只想把背单词这件事，做得好看一点、扎实一点。</p>
+          <p className="muted">词与远方不是官方雅思词表，也不承诺提分。它只想把背单词这件事，做得好看一点、扎实一点。</p>
         </section>
 
         <section className="panel">
-          <h3 className="eyebrow">给开发者</h3>
+          <h3 className="eyebrow">学习资料与备份</h3>
           <p className="muted">
-            <code>data/word-atlas.json</code> 和 <code>.csv</code> 是完整词库；<code>public/atlas</code> 里是网页用的分块数据、插画和音频。拿去做 Anki 牌组、背词小程序、浏览器插件，或者 AI 应用的评测集，署名即可。
+            游客记录保存在当前浏览器，建议在「我的」中定期导出备份。免费账户登录后资料独立保存，可使用云同步和云端备份。游客身份选择不会长期记住，但不会因此删除已保存的学习资料。
           </p>
-          <a className="link" href={`${REPO_URL}#readme`} target="_blank" rel="noreferrer">
-            阅读文档 <ArrowUpRight size={14} />
+          <a className="link" href="#/me">
+            管理学习数据 <ArrowUpRight size={14} />
           </a>
         </section>
       </div>

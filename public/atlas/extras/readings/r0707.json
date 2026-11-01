@@ -1,0 +1,48 @@
+{
+  "id": "r0707",
+  "ids": [
+    "intimation",
+    "glutinous",
+    "ostentation",
+    "cervix",
+    "assassinator",
+    "bushel",
+    "needful",
+    "prostrate",
+    "characteristical",
+    "penury"
+  ],
+  "title": "The Working Life of Wax",
+  "titleZh": "蜡像背后的修复工作",
+  "topic": "work",
+  "cefr": 5,
+  "paras": [
+    "In a museum conservation workshop, Mara Silva examines a nineteenth-century anatomical model whose translucent surface offers the first [[intimation|intimation]] of trouble: a cloudy crescent beneath the abdomen. The model depicts the uterus and [[cervix|cervix]], but her immediate concern is chemical rather than medical. Something within the wax has migrated towards its surface, obscuring details once used to train midwives.",
+    "Before treatment, Silva consults the maker’s ledger. Between purchases of pigment and a [[bushel|bushel]] of wheat for the workshop kitchen, it records a [[glutinous|glutinous]] adhesive prepared from animal glue. A marginal note calls translucency the wax’s “[[characteristical|characteristical]] virtue”. Such documents reveal what analysis alone cannot: which effects were deliberate, and which alterations would destroy information [[needful|needful]] for understanding the object.",
+    "The same workshop supplied theatrical tableaux. One surviving figure lies [[prostrate|prostrate]] beside a statesman’s desk, representing an [[assassinator|assassinator]] captured after a political murder. Elsewhere, a merchant’s jewelled hands advertise [[ostentation|ostentation]], while a barefoot family embodies [[penury|penury]]. These apparently unrelated commissions depended on the same practical expertise: controlling temperature, colouring translucent mixtures, and making inexpensive matter resemble living tissue under unreliable lamplight.",
+    "Silva therefore tests a fragment already detached from the anatomical model rather than polishing away the cloudiness. Under magnification, crystalline deposits suggest that components of the original mixture have separated; removing them could merely postpone their return. Her eventual intervention is modest: a cooler case and carefully limited lighting. The achievement is not renewed brilliance, but a slower rate of change."
+  ],
+  "zh": [
+    "在一间博物馆修复工作室里，玛拉·席尔瓦正在检查一件十九世纪的解剖模型。模型半透明的表面初露异样：腹部下方出现了一弯浑浊的月牙形痕迹。模型展示的是子宫与子宫颈，但她眼下关注的是化学问题，而非医学问题。蜡内部的某种物质已向表面迁移，遮蔽了那些曾用于培训助产士的细节。",
+    "着手处理之前，席尔瓦查阅了制作者的账簿。在购买颜料和供工作室厨房使用的一蒲式耳小麦的记录之间，账簿记载了一种用动物胶调制的黏稠胶黏剂。页边的一条批注将半透明性称为这种蜡的“典型优点”。这类文献揭示了仅凭分析无法确定的事情：哪些效果是刻意营造的，以及哪些改动会破坏理解这件物品所必需的信息。",
+    "同一家工作室还为戏剧性场景制作蜡像。一尊留存至今的人像俯卧在政治家的书桌旁，表现的是一名在政治谋杀后被擒获的暗杀者。另一处，一位商人戴满珠宝的双手彰显着炫耀之意，而一个赤脚的家庭则体现了赤贫。这些看似毫不相关的订单，依赖的却是同一套实用技艺：控制温度，为半透明混合物着色，以及让廉价材料在不稳定的油灯光线下呈现活体组织的质感。",
+    "因此，席尔瓦没有将浑浊部分抛光去除，而是检测了一块已经从解剖模型上脱落的碎片。放大观察后，结晶沉积物表明，原始混合物中的成分可能已经分离；将其去除，或许也只能延缓它们再次出现。她最终采取的干预措施很克制：温度更低的展柜，以及严格限制的照明。修复的成就不在于重现光彩，而在于让变化发生得更慢。"
+  ],
+  "q": [
+    {
+      "s": "The anatomical model was used to train midwives for more than fifty years.",
+      "a": "NG",
+      "why": "文中说明培训用途，未说明使用年限。"
+    },
+    {
+      "s": "The theatrical figures and anatomical models depended on the same practical expertise.",
+      "a": "T",
+      "why": "第三段明确说这些订单依赖同一套技艺。"
+    },
+    {
+      "s": "Silva polished away the cloudiness before testing the detached fragment.",
+      "a": "F",
+      "why": "她检测脱落碎片，而非抛光去除浑浊。"
+    }
+  ]
+}

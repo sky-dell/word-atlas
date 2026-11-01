@@ -1,0 +1,46 @@
+{
+  "id": "r0177",
+  "ids": [
+    "connect",
+    "receive",
+    "hiking",
+    "blond",
+    "mark",
+    "huge",
+    "flu",
+    "advertisement",
+    "hockey",
+    "accident"
+  ],
+  "title": "A Pocket Map for Pine Valley",
+  "titleZh": "松谷的口袋地图",
+  "topic": "travel",
+  "cefr": 1,
+  "paras": [
+    "Every spring, a small guest house in Pine Valley makes a pocket map for visitors. This year, its usual artist has the [[flu|flu]], so Mira takes his place. She is a [[blond|blond]] woman who enjoys [[hiking|hiking]] in the nearby hills. Before drawing anything, she walks each path with a notebook. She records bridges, gates and places where walkers can stop for water.",
+    "Back at the guest house, Mira draws the valley on a large sheet of paper. Blue lines show streams, and brown lines [[connect|connect]] the village with the hills. A red [[mark|mark]] shows a broken wooden bridge. There was an [[accident|accident]] there last winter, so the map gives walkers a safer route. She also adds the [[huge|huge]] rock beside the lake and the field where people play [[hockey|hockey]].",
+    "Next, Mira makes the drawing smaller on a computer. She adds an [[advertisement|advertisement]] for the guest house on the back, beside useful telephone numbers. A print shop makes two hundred copies. Visitors [[receive|receive]] a free map when they arrive. Each copy folds into four small sections and fits inside a coat pocket. The first family returns that afternoon and tells Mira that her map helped them find the safe route to the lake."
+  ],
+  "zh": [
+    "每年春天，松谷的一家小旅馆都会为游客制作一份口袋地图。今年，平时负责绘图的画师得了流感，于是米拉接替了他的工作。她有一头金发，喜欢在附近的山里徒步。动笔之前，她带着笔记本走遍每条小路，记下桥梁、大门，以及步行者可以停下来取水的地方。",
+    "回到旅馆后，米拉在一张大纸上画出整个山谷。蓝线表示溪流，棕线把村庄和群山连接起来。一个红色记号标出了一座损坏的木桥。去年冬天那里发生过一起事故，所以地图为步行者提供了一条更安全的路线。她还画上了湖边的巨石和人们打曲棍球的场地。",
+    "接着，米拉用电脑缩小图画。她在背面添上旅馆的广告，旁边列出一些有用的电话号码。一家印刷店印了两百份。游客到达时都会收到一份免费地图。每份地图都能折成四个小部分，放进外套口袋里。第一家游客当天下午回来，告诉米拉，她的地图帮助他们找到了通往湖边的安全路线。"
+  ],
+  "q": [
+    {
+      "s": "Mira starts drawing the map before she walks the paths.",
+      "a": "F",
+      "why": "她先走遍每条小路，之后才开始绘图。"
+    },
+    {
+      "s": "A red mark on the map shows the broken wooden bridge.",
+      "a": "T",
+      "why": "第二段明确说红色记号标出损坏的木桥。"
+    },
+    {
+      "s": "The print shop gives the guest house a lower price for the maps.",
+      "a": "NG",
+      "why": "第三段只提到印刷数量，未提价格或折扣。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0305",
+  "ids": [
+    "laundry",
+    "worm",
+    "drunk",
+    "brother-in-law",
+    "miserable",
+    "shame",
+    "willing",
+    "nightlife",
+    "icy",
+    "layer"
+  ],
+  "title": "A Warm Room After Midnight",
+  "titleZh": "午夜过后的温暖小屋",
+  "topic": "health",
+  "cefr": 2,
+  "paras": [
+    "In this fictional story, nurse Mina Das runs a small night shelter near a harbour. Each evening, she checks the beds and sorts a basket of [[laundry|laundry]]. People often arrive cold, wet and [[miserable|miserable]]. There is a wooden bath downstairs, and clean clothes are kept on a shelf beside it.",
+    "The harbour has a busy [[nightlife|nightlife]], with music halls near the water. Some visitors to the shelter are [[drunk|drunk]] and need a safe place to rest. Others have fallen on [[icy|icy]] paths while working late. Mina's [[brother-in-law|brother-in-law]], her sister's husband, repairs the beds. He is also [[willing|willing]] to carry hot water upstairs each evening.",
+    "On each bed, a thick [[layer|layer]] of wool lies beneath a cotton cover. Mina keeps a notebook beside the window. In it, she has written a rule: 'Ask what hurts before asking what happened.' She believes that [[shame|shame]] about an embarrassing mistake can stop people from seeking care. Nobody has to explain their story before receiving help.",
+    "Behind the shelter is a tiny vegetable garden. One morning, while digging, Mina finds a [[worm|worm]] and leaves it in the soil. She cuts a few vegetables for the evening soup, then takes them inside. Her brother-in-law is already at the kitchen table, repairing a broken chair before the next visitors arrive."
+  ],
+  "zh": [
+    "在这个虚构故事中，护士米娜·达斯在海港附近经营一家小型夜间收容所。每天晚上，她都会检查床铺，整理一篮子待洗衣物。人们来到这里时常常又冷又湿，十分难受。楼下有一个木制浴盆，旁边的架子上放着干净的衣服。",
+    "海港的夜生活很热闹，水边有不少音乐厅。有些来到收容所的人喝醉了，需要一个安全的地方休息。另一些人则是在工作到深夜时，在结冰的小路上摔倒了。米娜的一位姻亲，也就是她姐妹的丈夫，负责修理床铺。他也乐意每天晚上把热水提到楼上。",
+    "每张床的棉布床罩下面都铺着一层厚厚的羊毛。米娜在窗边放着一本笔记本。她在里面写了一条原则：“先问哪里疼，再问发生了什么。”她认为，人们因做了令人尴尬的错事而感到羞愧，可能会因此不敢求助。任何人都不必先说明自己的经历才能得到帮助。",
+    "收容所后面有一个小菜园。一天早上，米娜翻土时发现了一条蚯蚓，便把它留在土里。她割了些蔬菜，准备用来做晚上的汤，然后把它们拿进屋。她姐妹的丈夫已经坐在厨房桌旁，赶在下一批来客到达前修理一把坏椅子。"
+  ],
+  "q": [
+    {
+      "s": "Mina buys the shelter's clean clothes with her own money.",
+      "a": "NG",
+      "why": "只说备有干净衣物，未说明购买资金来源。"
+    },
+    {
+      "s": "Mina's brother-in-law repairs the beds.",
+      "a": "T",
+      "why": "第二段明确说他负责修理床铺。"
+    },
+    {
+      "s": "People must explain their story before receiving help.",
+      "a": "F",
+      "why": "原文明确说获得帮助前不必说明经历。"
+    }
+  ]
+}

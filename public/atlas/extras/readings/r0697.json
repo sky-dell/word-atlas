@@ -1,0 +1,48 @@
+{
+  "id": "r0697",
+  "ids": [
+    "sphere",
+    "alight",
+    "trivial",
+    "assurance",
+    "mercury",
+    "latent",
+    "spur",
+    "torment",
+    "ambiguous",
+    "quirk"
+  ],
+  "title": "The Price of a Clear Reflection",
+  "titleZh": "清晰倒影的价格",
+  "topic": "economy",
+  "cefr": 4,
+  "paras": [
+    "At six each morning, the windows of Leila Haddad’s mirror workshop are [[alight|alight]], although the neighbouring warehouses remain dark. On her desk sits a glass [[sphere|sphere]], which she rolls between her palms before calculating a quotation. This [[quirk|quirk]] slows her down, she says, preventing an attractive commission from becoming an expensive mistake.",
+    "Haddad restores nineteenth-century mirrors for small guesthouses whose owners cannot afford museum prices. A damaged corner may appear [[trivial|trivial]], yet repairing it can require several days of skilled labour. More seriously, some early reflective coatings contain [[mercury|mercury]]. She sends these pieces to a specialist facility rather than disturbing the coating herself, and includes that expense explicitly in every estimate.",
+    "Her business emerged from the [[torment|torment]] of watching her father’s workshop close after years of undercharging. Customers had interpreted his [[ambiguous|ambiguous]] promise of a 'complete restoration' differently: some expected structural repairs, others a surface without any trace of age. Haddad therefore offers a written [[assurance|assurance]] that each agreed repair will remain sound for five years, while photographs establish which historical marks will survive.",
+    "Such precision has revealed [[latent|latent]] demand among owners who previously assumed restoration was financially unpredictable. To [[spur|spur]] commissions during quieter months, she allows neighbouring guesthouses to share collection costs, but never discounts skilled hours. Last winter, seven owners joined one collection round, keeping her apprentice employed until spring. The oldest mirror returned with a small dark crescent still visible beneath its frame: not a defect overlooked, but a piece of history its owner had knowingly paid to preserve."
+  ],
+  "zh": [
+    "每天清晨六点，莱拉·哈达德的镜子修复作坊已经灯火通明，邻近的仓库却仍然一片漆黑。她的桌上放着一颗玻璃球，每次计算报价前，她都会把它放在掌心间来回滚动。她说，这个独特习惯能让自己慢下来，避免一笔看似诱人的订单最终变成代价高昂的失误。",
+    "哈达德为无力承担博物馆级修复费用的小旅馆修复十九世纪的镜子。一个破损的边角看似微不足道，修起来却可能需要熟练工匠花上好几天。更棘手的是，一些早期的反光涂层含有汞。遇到这样的镜子，她会将其送往专业机构，而不亲自动手处理涂层，并在每份报价中明确列出这笔费用。",
+    "她创办这门生意，源于目睹父亲的作坊多年收费过低后最终倒闭的痛苦经历。父亲曾含糊地承诺“全面修复”，顾客对此却各有理解：有人期待修好结构，也有人要求表面不留任何岁月痕迹。因此，哈达德提供书面保证，承诺每项商定的修复都能保持完好五年，同时用照片明确哪些历史痕迹将被保留。",
+    "这种精确的约定发掘了部分旅馆业主的潜在需求，他们原先一直觉得修复费用难以预料。为在淡季促进接单，她允许相邻的旅馆分摊取件费用，却从不对技艺工时打折。去年冬天，七位业主参加了一次集中取件，让她的学徒一直有活干到春天。最古老的那面镜子送回时，镜框下仍可见一道暗色月牙：那并非被忽略的瑕疵，而是主人明知其存在、仍愿付费保留的一段历史。"
+  ],
+  "q": [
+    {
+      "s": "Haddad’s habit of handling a glass object helps her avoid pricing decisions that could prove costly.",
+      "a": "T",
+      "why": "她说滚动玻璃球能放慢思考，避免报价失误。"
+    },
+    {
+      "s": "Haddad personally removes hazardous reflective coatings to keep restoration charges low.",
+      "a": "F",
+      "why": "含汞镜子送专业机构处理，费用列入报价。"
+    },
+    {
+      "s": "The apprentice employed through the winter intends to open an independent workshop.",
+      "a": "NG",
+      "why": "文章未提学徒未来是否打算独立开店。"
+    }
+  ]
+}

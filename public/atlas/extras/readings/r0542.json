@@ -1,0 +1,48 @@
+{
+  "id": "r0542",
+  "ids": [
+    "fascination",
+    "kindergarten",
+    "phase",
+    "operator",
+    "marvel",
+    "swear",
+    "overview",
+    "recruitment",
+    "minor",
+    "investigate"
+  ],
+  "title": "Why One Courtyard Turns White",
+  "titleZh": "为什么这座庭院会结霜",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "On clear winter mornings, a city [[kindergarten|kindergarten]] courtyard sometimes turns white while the pavement outside remains dark. The delicate ice patterns inspire [[fascination|fascination]] among children, but they can also make a maintenance machine [[operator|operator]] [[swear|swear]] when a frozen gate delays work. This small urban [[marvel|marvel]] begins with differences in how surfaces lose heat.",
+    "An [[overview|overview]] of frost formation starts after sunset. During the cooling [[phase|phase]], the ground releases heat as infrared radiation. Clouds return some of this energy towards the surface, whereas a clear sky allows more to escape. If a surface falls below freezing, water vapour can change directly into ice, without first becoming liquid.",
+    "To [[investigate|investigate]] the courtyard's unusual appearance, a neighbourhood weather group began the [[recruitment|recruitment]] of volunteers to record temperatures before sunrise. Their measurements revealed that the open courtyard cooled faster than the narrow street. Buildings beside the street released stored daytime heat and reduced its exposure to the sky. Even a [[minor|minor]] temperature difference could determine whether ice crystals appeared.",
+    "The courtyard's grass also helped explain the contrast. Its thin blades stored little heat and cooled quickly, while the thicker pavement retained warmth longer. Moisture from the soil supplied additional water vapour near the grass. By mid-morning, sunlight usually erased the white patterns. Yet their brief appearance offered a visible map of an invisible process: the uneven movement of heat through a sleeping city."
+  ],
+  "zh": [
+    "在晴朗的冬日清晨，城里一所幼儿园的庭院有时会变得雪白，而外面的人行道仍是暗色的。精巧的冰晶图案让孩子们着迷，但如果冻住的大门耽误了工作，也可能让养护机械的操作员忍不住骂脏话。这一小小的城市奇观，源于不同表面散失热量的方式存在差异。",
+    "要概述霜的形成，就得从日落后说起。在降温阶段，地面以红外辐射的形式释放热量。云层会将其中一部分能量送回地表，而晴朗的天空则让更多热量散失。如果某个表面的温度降至冰点以下，水蒸气就可能不经过液态阶段，直接变成冰。",
+    "为了查明庭院出现这种特殊景象的原因，一个社区气象小组开始招募志愿者，在日出前记录温度。测量结果显示，开阔的庭院比狭窄的街道降温更快。街道两侧的建筑释放出白天储存的热量，同时减少了街道直接面向天空的面积。即使温差很小，也可能决定冰晶是否出现。",
+    "庭院里的草也有助于解释这种反差。纤细的草叶储存的热量很少，降温迅速，而较厚的人行道能更长时间地保留热量。土壤中的水分还为草地附近补充了水蒸气。通常到了上午稍晚的时候，阳光便会抹去这些白色图案。然而，它们短暂的出现，却为一个看不见的过程绘出了可见的地图：热量在沉睡的城市中不均匀地流动。"
+  ],
+  "q": [
+    {
+      "s": "Under suitable conditions, frost can form without water vapour passing through a liquid stage.",
+      "a": "T",
+      "why": "第二段指出水蒸气可不经液态直接成冰。"
+    },
+    {
+      "s": "The volunteers used digital thermometers to record temperatures.",
+      "a": "NG",
+      "why": "第三段未说明志愿者使用何种测温设备。"
+    },
+    {
+      "s": "The grass blades retained warmth longer than the pavement.",
+      "a": "F",
+      "why": "第四段指出草叶降温快，路面保温更久。"
+    }
+  ]
+}

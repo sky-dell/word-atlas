@@ -1,0 +1,48 @@
+{
+  "id": "r0598",
+  "ids": [
+    "formality",
+    "tedious",
+    "outlay",
+    "angular",
+    "restock",
+    "feud",
+    "potion",
+    "appraise",
+    "tariff",
+    "sarcastic"
+  ],
+  "title": "Rebuilding a Customs Counter",
+  "titleZh": "重现旧海关柜台",
+  "topic": "government",
+  "cefr": 4,
+  "paras": [
+    "At a government museum overlooking an abandoned harbour, a workshop is constructing a replica customs counter for an exhibition on border taxation. Before cutting timber, conservators [[appraise|appraise]] the surviving drawings and fragments. Official approval is then a [[formality|formality]]: the design has already been checked against the museum’s conservation rules, which prohibit attaching new material to original objects.",
+    "The initial [[outlay|outlay]] covers seasoned oak, glass and metal fittings. Carpenters assemble the counter’s [[angular|angular]] frame with wooden joints, leaving one side open so visitors can examine its construction. Producing the shallow drawers is more [[tedious|tedious]], since each partition must be measured separately to accommodate replica bottles of different sizes without allowing them to roll.",
+    "These bottles reproduce containers once inspected by customs officers. One held a bitter herbal [[potion|potion]], advertised as protection against winter illness; its label is copied from an archived advertisement, not endorsed by the museum. A nearby ledger records the [[tariff|tariff]] charged on imported ingredients. Researchers also reproduce a merchant’s [[sarcastic|sarcastic]] letter thanking officials for their ‘remarkable efficiency’ after a shipment spent six weeks awaiting inspection.",
+    "To complete the scene, designers add documents concerning a prolonged [[feud|feud]] between two importing families, whose accusations repeatedly brought officers to the quay. Staff [[restock|restock]] the workshop’s paper supply before printing the final labels, which distinguish documented events from reconstructed details. Under subdued lighting, the finished counter becomes more than furniture: its drawers, bottles and paperwork reveal how government revenue was collected through countless small encounters."
+  ],
+  "zh": [
+    "在一座俯瞰废弃港湾的政府博物馆里，工坊正在制作一座海关柜台的复制品，用于一场关于边境税收的展览。切割木材之前，文物修复人员先评估留存下来的图纸和残件。随后的正式批准只是例行手续：设计已经过核查，符合博物馆的文物保护规定，其中禁止将新材料附着在原物上。",
+    "初期支出用于购买经过干燥处理的橡木、玻璃和金属配件。木匠以木制接头组装棱角分明的柜台框架，并将一侧敞开，让参观者能够观察内部构造。制作浅抽屉则更为单调乏味，因为每块隔板都必须单独测量，才能容纳大小不一的仿制瓶，同时避免瓶子滚动。",
+    "这些瓶子仿照的是曾经接受海关官员检查的容器。其中一个装过一种苦味草药药剂，广告称它能够预防冬季疾病；瓶上的标签复制自一则存档广告，并不代表博物馆认可其功效。旁边的账簿记录了进口原料所征收的关税。研究人员还复制了一封商人写的讥讽信：一批货物等待查验长达六周后，他在信中感谢官员们“非凡的效率”。",
+    "为了使场景完整，设计人员又加入了一些文件，记录两个进口商家族之间的长期不和；双方相互指控，导致官员一再前往码头。工作人员补充工坊的纸张库存，再打印最后一批说明标签，明确区分有文献依据的事件与复原细节。在柔和的灯光下，完成的柜台不再仅仅是一件家具：抽屉、瓶子和文书共同揭示了政府收入如何通过无数次具体的小规模接触得以征收。"
+  ],
+  "q": [
+    {
+      "s": "The museum’s conservation rules allow new material to be attached to original objects.",
+      "a": "F",
+      "why": "首段明确规定禁止将新材料附着在原物上。"
+    },
+    {
+      "s": "The oak used for the replica was purchased from a local supplier.",
+      "a": "NG",
+      "why": "文中提到橡木支出，未说明供应商所在地。"
+    },
+    {
+      "s": "The merchant’s shipment waited six weeks for inspection.",
+      "a": "T",
+      "why": "第三段明确说该批货物等待查验六周。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0680",
+  "ids": [
+    "enchant",
+    "entirety",
+    "bloc",
+    "bottom-line",
+    "plague",
+    "mingle",
+    "aspire",
+    "indigenous",
+    "reckless",
+    "incineration"
+  ],
+  "title": "Roots Beneath the Quarantine Wall",
+  "titleZh": "检疫墙下的根系",
+  "topic": "history",
+  "cefr": 4,
+  "paras": [
+    "At dawn on Bellweather Island, sea lavender seems to [[enchant|enchant]] even our usually impatient surveyor, who kneels beside its violet flowers. We have come to record the vegetation surrounding a seventeenth-century quarantine station. Its surviving enclosure can be walked in its [[entirety|entirety]] within twenty minutes, although brambles conceal the northern gate and roots have displaced several limestone steps.",
+    "The harbour ledger describes a [[bloc|bloc]] of merchants who financed the station after [[plague|plague]] reached neighbouring ports. Their correspondence reveals [[bottom-line|bottom-line]] calculations: keeping infected vessels offshore promised fewer interruptions to trade. Beside the ruined storehouse, a brick-lined pit served for the [[incineration|incineration]] of contaminated bedding; this morning, its shallow depression holds rainwater and three motionless damselfly larvae.",
+    "Along the eastern wall, [[indigenous|indigenous]] grasses [[mingle|mingle]] with fennel descended, perhaps, from plants once cultivated by the station's attendants. That possibility remains unproven: seeds could equally have arrived with later visitors. It would be [[reckless|reckless]] to pull apart the masonry in search of botanical evidence, since nesting lizards occupy its fissures. Instead, we photograph each patch against a numbered scale.",
+    "By midday, our map shows denser vegetation around the former burning pit than on the exposed courtyard, but soil samples will be needed before we can explain the contrast. We [[aspire|aspire]] to reconstruct how confinement altered this small island without treating every leaf as historical testimony. As we leave, a damselfly settles on the ledger's pencilled copy: the old boundary now shelters lives it was never designed to contain."
+  ],
+  "zh": [
+    "黎明时分，在贝尔韦瑟岛上，就连我们那位平日缺乏耐心的测绘员，似乎也被补血草迷住了，跪下身来细看它紫色的花朵。我们此行是为了记录一座十七世纪检疫站周围的植被。沿着现存围墙走完一圈只需二十分钟，不过，荆棘遮住了北门，树根也顶歪了几级石灰岩台阶。",
+    "港口账簿记载，鼠疫传到邻近港口后，一个商人联盟出资建造了这座检疫站。他们的通信透露出对最终利润的盘算：让染疫船只停留在近海，有望减少贸易中断。在仓库废墟旁，一处砖砌坑曾用于焚烧受污染的寝具；今天早晨，这个浅坑积着雨水，里面有三只一动不动的豆娘幼虫。",
+    "沿着东墙，本土禾草与茴香交错生长；这些茴香或许是当年检疫站工作人员所种植物的后代。但这种可能性尚未得到证实：种子同样可能由后来的访客带来。为了寻找植物学证据而拆动砌石，实属鲁莽，因为石缝中栖居着筑巢的蜥蜴。我们转而在每片植被旁放置带编号的标尺，拍照记录。",
+    "到了中午，我们绘制的地图显示，旧焚烧坑周围的植被比无遮蔽的庭院更加茂密，但要解释这一差异，还需要采集土壤样本。我们希望重建隔离措施改变这座小岛的过程，却不愿把每一片叶子都当作历史证据。离开时，一只豆娘停在用铅笔抄录的账簿副本上：这道古老的边界，如今庇护着当初建造它时从未打算容纳的生命。"
+  ],
+  "q": [
+    {
+      "s": "The merchants expected offshore quarantine to help protect their trading income.",
+      "a": "T",
+      "why": "商人预计近海隔离能减少贸易中断。"
+    },
+    {
+      "s": "The researchers have used genetic testing to investigate the fennel's origins.",
+      "a": "NG",
+      "why": "文中未说明是否用过基因检测。"
+    },
+    {
+      "s": "The map shows denser vegetation in the exposed courtyard than around the former burning pit.",
+      "a": "F",
+      "why": "地图显示焚烧坑周围植被更茂密。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0531",
+  "ids": [
+    "optimistic",
+    "financing",
+    "heritage",
+    "laborer",
+    "objection",
+    "distinctly",
+    "gem",
+    "unpaid",
+    "splendid",
+    "appropriate"
+  ],
+  "title": "The Saturday Jewellery Table",
+  "titleZh": "周六的首饰修复桌",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "When a neighbourhood hall in Bellwick introduced a monthly jewellery repair table, its organiser, Amira Chen, was [[optimistic|optimistic]]. Residents often kept broken necklaces because they carried family memories, yet professional repairs could be expensive. Initial [[financing|financing]] came from a cake sale, which raised enough money for basic tools and a bright lamp.",
+    "Amira regarded everyday jewellery as part of the community’s [[heritage|heritage]], rather than simply decoration. One early visitor was Tomas, a retired [[laborer|laborer]], who brought his mother’s silver ring. He [[distinctly|distinctly]] remembered her wearing it while preparing Sunday meals. Its green [[gem|gem]] was loose, but he wanted the worn silver surface left unchanged.",
+    "His request shaped the project’s approach. Although one volunteer suggested polishing every item until it looked new, Tomas raised an [[objection|objection]]: removing all signs of age might also remove something personal. The group therefore agreed that owners should decide what treatment was [[appropriate|appropriate]]. Six [[unpaid|unpaid]] helpers cleaned chains, replaced simple fastenings and recorded each owner’s wishes. Items requiring specialist skills were returned with advice rather than repaired.",
+    "After three months, the table had handled forty items. The results were not always visually [[splendid|splendid]]; some pieces remained scratched or slightly bent. However, most could be worn again. Tomas returned wearing his mother’s ring on a chain and offered to build a storage box for the tools. What began as a repair service was gradually becoming an exchange of skills and stories."
+  ],
+  "zh": [
+    "贝尔威克的一家社区活动中心开设了每月一次的首饰修复摊位，组织者阿米拉·陈对此抱有希望。居民常常因为项链承载着家庭记忆而保留损坏的项链，但专业维修的费用可能很高。项目最初通过蛋糕义卖筹集资金，所得款项足够购买基本工具和一盏明亮的台灯。",
+    "阿米拉认为，日常佩戴的首饰不仅是装饰品，也是社区文化传承的一部分。早期来访者中有一位退休体力劳动者托马斯，他带来了母亲的银戒指。他清楚地记得母亲戴着它准备周日饭菜的情景。戒指上的绿色宝石松动了，但他希望保留银戒指表面磨损的样子。",
+    "他的要求影响了项目的工作方式。一名志愿者提议把每件首饰都抛光得像新的一样，托马斯却提出了异议：去掉所有岁月痕迹，也可能抹去其中一些个人意义。因此，大家一致同意，由物主决定什么处理方式才合适。六名无偿帮忙的志愿者清洁链条、更换简单的搭扣，并记录每位物主的意愿。对于需要专业技术的物品，他们不进行修复，而是将其退还并提供建议。",
+    "三个月后，摊位已处理了四十件首饰。修复结果在外观上并不总是十分出色，有些首饰依然留有划痕或略微弯曲。不过，大多数都能再次佩戴了。托马斯再次来到摊位时，用链子挂着母亲的戒指，并主动提出做一个工具收纳箱。这个起初只提供维修服务的项目，正逐渐成为人们交流技能与故事的平台。"
+  ],
+  "q": [
+    {
+      "s": "The project's initial funding came from selling jewellery rather than cakes.",
+      "a": "F",
+      "why": "最初资金来自蛋糕义卖，而非出售首饰。"
+    },
+    {
+      "s": "The group agreed that owners should decide how their jewellery should be treated.",
+      "a": "T",
+      "why": "大家同意由物主决定合适的处理方式。"
+    },
+    {
+      "s": "Tomas had previously made storage boxes for other community projects.",
+      "a": "NG",
+      "why": "文章未提及托马斯此前是否为其他项目做过箱子。"
+    }
+  ]
+}

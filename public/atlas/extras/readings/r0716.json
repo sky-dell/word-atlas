@@ -1,0 +1,48 @@
+{
+  "id": "r0716",
+  "ids": [
+    "recompense",
+    "idiosyncrasy",
+    "zealous",
+    "murmur",
+    "rectification",
+    "therewith",
+    "shamble",
+    "yoke",
+    "repudiate",
+    "fortuity"
+  ],
+  "title": "The Weight of an Empty Cart",
+  "titleZh": "一辆空车的分量",
+  "topic": "economy",
+  "cefr": 5,
+  "paras": [
+    "By November, the chestnut growers of Vardek had begun losing money on deliveries to the valley mill. Its proprietor, Mira Sen, attributed their shrinking receipts to wetter shells, an explanation the growers [[repudiate|repudiated]]: their nuts had dried for weeks. Nevertheless, without independent measurements, they could neither substantiate their grievance nor calculate the [[recompense|recompense]] they believed was due.",
+    "The breakthrough arose from a [[fortuity|fortuity]]. Waiting beside the weighbridge, Mira watched an elderly carter [[shamble|shamble]] towards his oxen and lift their wooden [[yoke|yoke]] onto his unloaded wagon. He had an [[idiosyncrasy|idiosyncrasy]]: whenever the animals rested, he removed their harness. “They have earned some comfort,” he [[murmur|murmured]], apparently unaware that she was watching his movements with increasing interest.",
+    "Mira, a [[zealous|zealous]] keeper of accounts, examined the weighing sequence. Loaded wagons were weighed with the harnessed oxen off the platform; empty wagons returned carrying the harness. Subtracting the second reading from the first therefore understated the chestnuts delivered. A recently appointed clerk had followed this inconsistent procedure for six weeks. The apparent deterioration in produce was actually a bookkeeping artefact.",
+    "For [[rectification|rectification]], Mira weighed every harness separately and reconstructed each consignment from the delivery ledger. Each grower received a revised statement and, [[therewith|therewith]], a credit redeemable in cash rather than merely against future milling fees. Thereafter, both weighings required identical equipment aboard. By December, deliveries had recovered; more importantly, the growers could inspect a calculation that no longer asked them to substitute trust for evidence."
+  ],
+  "zh": [
+    "到了十一月，瓦尔德克的栗农开始在向山谷磨坊送货时蒙受损失。磨坊主人米拉·森将他们收入的减少归因于栗壳含水量上升，但栗农坚决不接受这一解释：他们的栗子已经晾晒了数周。然而，没有独立的称重数据，他们既无法证实自己的申诉，也算不出自己认为应得的补偿。",
+    "转机来自一次偶然。米拉在地磅旁等候时，看见一位年迈的车夫拖着脚走向他的牛，将木制牛轭抬到已经卸空的货车上。他有个特别的习惯：只要牲口休息，他就会卸下它们身上的挽具。“它们也该舒服一会儿了。”他低声说道，显然没有察觉米拉正越来越留意他的一举一动。",
+    "米拉一向认真投入账目管理，她仔细检查了称重流程。满载货车过磅时，套着挽具的牛在秤台外；空车返回过磅时，车上却装着挽具。因此，用第一次读数减去第二次读数，就会低估所交付栗子的重量。一名新来的职员已经按这套前后不一致的程序操作了六周。农产品品质看似下降，实则是记账方式制造的假象。",
+    "为了纠正错误，米拉分别称量了每套挽具，并依据送货账簿重新核算每批货物。每位栗农都收到了一份修订后的结算单，以及随单提供的一笔可兑现的补款，而不只是用于抵扣未来加工费的额度。此后，两次称重都要求车上装载相同的器具。到十二月，送货量已恢复；更重要的是，栗农能够亲自核查计算过程，不必再以信任代替证据。"
+  ],
+  "q": [
+    {
+      "s": "The growers disputed Mira’s initial explanation but lacked the evidence needed to establish their losses.",
+      "a": "T",
+      "why": "首段说栗农拒绝解释，却无独立称重数据。"
+    },
+    {
+      "s": "The elderly carter already knew that the weighing procedure was inaccurate.",
+      "a": "NG",
+      "why": "文中未说明车夫是否知道称重程序有误。"
+    },
+    {
+      "s": "The weighing procedure made the recorded weight of the delivered chestnuts greater than their actual weight.",
+      "a": "F",
+      "why": "第三段明确说该流程低估了栗子重量。"
+    }
+  ]
+}

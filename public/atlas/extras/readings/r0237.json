@@ -1,0 +1,48 @@
+{
+  "id": "r0237",
+  "ids": [
+    "impression",
+    "affect",
+    "cathedral",
+    "advantage",
+    "unpleasant",
+    "category",
+    "warmly",
+    "cycle",
+    "capital",
+    "instructor"
+  ],
+  "title": "Notes from an Uncut Lawn",
+  "titleZh": "一片未修剪草地的观察笔记",
+  "topic": "government",
+  "cefr": 2,
+  "paras": [
+    "12 June, 8 a.m. Our team reached the [[cathedral|cathedral]] garden in the [[capital|capital]], where the city council had stopped cutting part of the grass. My first [[impression|impression]] was of a forgotten corner: long stems leaned across the path. However, we were there to discover how this change might [[affect|affect]] the garden's insects.",
+    "The gardener, Amara, greeted us [[warmly|warmly]] and opened a small wooden gate. Our field [[instructor|instructor]], Pavel, showed us how to count insects inside a square frame without catching them. We recorded each one under a broad [[category|category]], such as beetles or butterflies. The same method would be used on the short grass nearby.",
+    "By ten, the heat was [[unpleasant|unpleasant]], but the long grass remained wet near the ground. This gave small insects an [[advantage|advantage]]: they could find cool shelter while feeding close to the flowers. We counted eighteen insects in our first square, compared with five on the cut lawn. These were only early results, not proof of a lasting change.",
+    "Before leaving, we marked three plants to follow through their yearly [[cycle|cycle]] of flowering and producing seeds. The council would use our autumn report when deciding which areas to cut next year. As we closed the gate, a butterfly settled on a flower beside our marker."
+  ],
+  "zh": [
+    "6月12日，上午8点。我们的小组来到首都的大教堂花园，市议会已停止修剪这里的一部分草地。我的第一印象是，这像是一个被遗忘的角落：长长的草茎斜伸到了小路上。不过，我们此行是要了解这一变化可能如何影响花园里的昆虫。",
+    "园丁阿玛拉热情地迎接我们，打开了一扇小木门。我们的野外指导教师帕维尔教我们如何在不捕捉昆虫的情况下，数出一个方形框内的昆虫数量。我们把每只昆虫记在一个大类下，比如甲虫或蝴蝶。附近的短草地也将采用同样的方法进行调查。",
+    "到了十点，天气热得让人难受，但长草靠近地面的地方仍然湿润。这给小昆虫带来了有利条件：它们可以在花朵附近觅食，同时找到凉爽的藏身处。我们在第一个方框内数到了十八只昆虫，而修剪过的草坪上只有五只。这些只是初步结果，并不能证明变化会持续下去。",
+    "离开前，我们给三株植物做了标记，以便跟踪观察它们每年开花、结籽的周期。市议会在决定明年修剪哪些区域时，将参考我们的秋季报告。我们关上门时，一只蝴蝶落在了标记旁的一朵花上。"
+  ],
+  "q": [
+    {
+      "s": "Pavel taught the team to catch insects before counting them.",
+      "a": "F",
+      "why": "帕维尔教他们不捕捉昆虫就进行计数。"
+    },
+    {
+      "s": "The first square of long grass contained more insects than the square on the cut lawn.",
+      "a": "T",
+      "why": "长草地数到十八只，修剪过的草坪五只。"
+    },
+    {
+      "s": "The council had agreed to pay for another survey the following year.",
+      "a": "NG",
+      "why": "只提到明年的修剪决策，未提调查经费。"
+    }
+  ]
+}

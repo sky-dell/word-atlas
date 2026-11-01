@@ -1,0 +1,48 @@
+{
+  "id": "r0187",
+  "ids": [
+    "summary",
+    "statue",
+    "political",
+    "cabbage",
+    "inexpensive",
+    "rug",
+    "agent",
+    "port",
+    "workplace",
+    "intelligent"
+  ],
+  "title": "Nothing Wasted at the Harbour",
+  "titleZh": "港湾里的旧物新生",
+  "topic": "environment",
+  "cefr": 2,
+  "paras": [
+    "Welcome to Harbour House, an exhibition about how a fishing town used its waste. Begin beside the wooden [[statue|statue]] of a woman carrying a basket. The board behind her gives a [[summary|summary]] of life in this small [[port|port]] between 1880 and 1920, when broken objects were usually repaired rather than thrown away.",
+    "In the first room, you enter the [[workplace|workplace]] of boat repairer Tomas Vale. His desk stands on a colourful [[rug|rug]] made from old cloth. These floor coverings were [[inexpensive|inexpensive]], but making them took many hours. Open the drawer to see a letter from an [[agent|agent]] who sold Tomas's repaired boats for him. Even damaged wood could have a second life.",
+    "The next room follows Mei Tan, an [[intelligent|intelligent]] gardener who learned which waste materials helped plants grow. A model shows her putting fish waste into the soil before planting [[cabbage|cabbages]]. However, not everyone welcomed this practice. Newspaper pages describe a [[political|political]] argument: town leaders disagreed about whether gardens near the harbour should be allowed to use fish waste because of the smell.",
+    "Before leaving, visit the courtyard, where the museum grows vegetables using similar methods. Two covered trays beside the path contain soil samples. Lift their lids to compare the samples, and check the labels to find out which waste materials have been added to each."
+  ],
+  "zh": [
+    "欢迎来到港湾之家，这个展览介绍了一座渔镇如何利用废弃物。请从一尊提篮女子的木雕旁开始参观。她身后的展板概述了这座小港口在1880年至1920年间的生活。当时，损坏的物品通常会被修好，而不是丢掉。",
+    "在第一个展室，您将走进修船工托马斯·韦尔的工作场所。他的书桌下面铺着一块用旧布做成的彩色小地毯。这类地毯价格低廉，但制作起来需要花费很多时间。打开抽屉，您可以看到一封代理人写来的信，此人负责替托马斯出售修好的船。即使是破损的木材，也能重新派上用场。",
+    "下一个展室介绍园丁梅·谭的故事。她很聪明，弄清了哪些废弃材料有助于植物生长。一个模型展示了她在种植卷心菜之前，将鱼类废料放入土中的情景。然而，并不是所有人都赞同这种做法。报纸上记载了一场政治争论：由于气味问题，镇上的管理者对是否应允许港湾附近的菜园使用鱼类废料意见不一。",
+    "离开前，请到庭院看看，博物馆在那里采用类似的方法种植蔬菜。小路旁两个带盖的托盘里装着土壤样本。掀开盖子比较这些样本，再查看标签，了解每份样本中添加了哪些废弃材料。"
+  ],
+  "q": [
+    {
+      "s": "People in the town generally tried to fix damaged belongings instead of discarding them.",
+      "a": "T",
+      "why": "第一段说损坏的物品通常会被修好而非丢弃。"
+    },
+    {
+      "s": "The cloth floor coverings in Tomas's room were quick to produce.",
+      "a": "F",
+      "why": "第二段说制作这类地毯需要很多小时。"
+    },
+    {
+      "s": "Vegetables grown in the museum courtyard are sold to visitors.",
+      "a": "NG",
+      "why": "文章只说庭院种植蔬菜，未提及是否出售。"
+    }
+  ]
+}

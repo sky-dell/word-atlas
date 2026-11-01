@@ -1,0 +1,48 @@
+{
+  "id": "r0230",
+  "ids": [
+    "export",
+    "aquarium",
+    "competitor",
+    "breathe",
+    "predict",
+    "mechanic",
+    "entertain",
+    "alcohol",
+    "basement",
+    "sneeze"
+  ],
+  "title": "Fish That Swim Without Water",
+  "titleZh": "不用水也能游动的鱼",
+  "topic": "arts",
+  "cefr": 2,
+  "paras": [
+    "In the [[basement|basement]] of an old bakery, Leila Haddad makes wooden fish that seem to swim through the air. She once worked as a [[mechanic|mechanic]], repairing farm machines. Now she uses small wheels and wires to turn simple pieces of wood into moving works of art.",
+    "Beside her workbench stands an [[aquarium|aquarium]] containing three silver fish. Leila watches their tails before drawing her designs. She cannot always [[predict|predict]] which way they will turn, and this gives her an idea: her wooden fish should occasionally change direction too. Cutting the wood makes her [[sneeze|sneeze]], so she wears a mask and takes breaks outside to [[breathe|breathe]] fresh air.",
+    "Her first moving fish was made to [[entertain|entertain]] her nephew during a long rainy week. Visitors soon began asking to buy one. A [[competitor|competitor]] sells cheaper models made from plastic, but Leila prefers wood from broken furniture. Each piece has different marks, which become part of the fish's pattern.",
+    "This spring, Leila began to [[export|export]] her work to a small shop in another country. To celebrate, she held an evening show, serving fruit juice rather than [[alcohol|alcohol]]. The final fish stopped moving halfway through. Before anyone complained, a child whispered, \"It's sleeping.\" Leila smiled and left it still until the show ended."
+  ],
+  "zh": [
+    "在一家老面包店的地下室里，莱拉·哈达德制作着仿佛能在空中游动的木鱼。她曾是一名机械修理工，负责维修农用机械。如今，她用小轮子和金属丝，把普通的木块变成会动的艺术品。",
+    "她的工作台旁放着一个鱼缸，里面养着三条银色的鱼。莱拉在画设计图之前，会观察它们的尾巴。她并不总能预测它们会转向哪边，这给了她一个灵感：她的木鱼也应该偶尔改变方向。切割木头会让她打喷嚏，所以她戴着口罩，并时不时到外面休息，呼吸新鲜空气。",
+    "她制作第一条会动的木鱼，是为了在漫长的下雨的一周里，给她的一个侄子或外甥解闷。没过多久，来访的人就开始询问能否买一条。一位竞争对手出售更便宜的塑料模型，但莱拉更喜欢用破旧家具上的木料。每块木头都有不同的痕迹，而这些痕迹便成了鱼身花纹的一部分。",
+    "今年春天，莱拉开始把作品出口到另一个国家的一家小店。为了庆祝，她举办了一场晚间展览，提供果汁而非酒类饮品。最后一条鱼在展示到一半时停了下来。还没等有人抱怨，一个孩子便轻声说：“它睡着了。”莱拉笑了，让它一直静静地待到展览结束。"
+  ],
+  "q": [
+    {
+      "s": "Leila repaired agricultural equipment before she started making wooden fish.",
+      "a": "T",
+      "why": "第一段说她以前维修农用机械。"
+    },
+    {
+      "s": "Leila's competitor sells more fish models than she does.",
+      "a": "NG",
+      "why": "只比较了价格和材料，未比较销量。"
+    },
+    {
+      "s": "The final fish kept moving until the evening show ended.",
+      "a": "F",
+      "why": "最后一条鱼中途停下，直到展览结束。"
+    }
+  ]
+}

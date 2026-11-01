@@ -1,0 +1,48 @@
+{
+  "id": "r0632",
+  "ids": [
+    "deafen",
+    "analogue",
+    "franchise",
+    "mechanically",
+    "innovate",
+    "stimulation",
+    "lapse",
+    "utility",
+    "premature",
+    "cavern"
+  ],
+  "title": "The Rise of Underground Repair Clubs",
+  "titleZh": "地下维修俱乐部的兴起",
+  "topic": "society",
+  "cefr": 4,
+  "paras": [
+    "In the limestone town of Bellara, a natural [[cavern|cavern]] once visited mainly by geologists has acquired an unexpected social [[utility|utility]]: it hosts a repair club whose members work almost silently. Since autumn, attendance has doubled, although the organisers offer neither instruction nor entertainment. Participants bring broken household objects and spend two hours restoring them beside strangers.",
+    "Founder Amara Chen describes the club as a practical [[analogue|analogue]] of a reading room: concentration is shared, but conversation remains optional. Components requiring cutting are prepared [[mechanically|mechanically]] in a workshop above ground, where saws can briefly [[deafen|deafen]] anyone without ear protection. Below, only hand tools are permitted; the loudest sound is usually a dropped screw.",
+    "The surprising attraction is not silence alone. Members report that watching another person's careful movements provides sufficient [[stimulation|stimulation]] to sustain their own effort. Potter Yusuf Demir, who repairs lamps here, says a momentary [[lapse|lapse]] of attention is less likely when others are visibly absorbed. Rather than [[innovate|innovate]] through elaborate equipment, the organisers have removed distractions while preserving the reassuring presence of company.",
+    "Commercial interest has followed. One visitor proposed buying a [[franchise|franchise]] to reproduce the club under its existing name in another town. Chen declined, arguing that expansion would be [[premature|premature]] before anyone understood whether the appeal came from the activity, the setting or the members themselves. For now, success is measured more modestly: last Thursday, twelve people carried damaged possessions underground, and ten emerged with something working again."
+  ],
+  "zh": [
+    "在石灰岩小镇贝拉拉，一个过去主要由地质学家探访的天然大洞穴，如今有了意想不到的社会用途：它成为一家维修俱乐部的活动场地，成员们几乎全程安静地工作。自秋季以来，参加人数翻了一番，尽管组织者既不提供指导，也不安排娱乐。参与者带来损坏的家用物品，在陌生人身旁花两个小时修复它们。",
+    "创办人阿玛拉·陈将这家俱乐部形容为阅览室的动手实践版：大家共享专注的氛围，却不必交谈。需要切割的部件会先在地面的工坊里用机器加工，那里的锯子可能让未佩戴护耳装备的人短暂失聪。地下只允许使用手动工具，最响的声音通常不过是一颗螺丝掉落的声响。",
+    "令人惊讶的是，这里的吸引力并不只在于安静。成员们表示，看到别人一丝不苟的动作，就足以获得持续投入自己工作的动力。陶工优素福·德米尔在这里修灯，他说，当周围的人明显专心致志时，自己也更不容易出现片刻的注意力疏忽。组织者并未依靠复杂设备来创新，而是消除干扰，同时保留有人相伴所带来的安心感。",
+    "商业兴趣也随之而来。一位访客提议购买特许经营权，在另一座城镇沿用俱乐部现有名称复制这一模式。陈拒绝了，理由是，在尚未弄清吸引力究竟来自活动、环境，还是成员本身之前，扩张为时过早。目前，衡量成功的标准要朴素得多：上周四，十二个人把损坏的物品带到地下，其中十个人离开时，手中的东西已经恢复了使用功能。"
+  ],
+  "q": [
+    {
+      "s": "Participation has increased despite the absence of organised teaching or entertainment.",
+      "a": "T",
+      "why": "首段说不提供指导或娱乐，人数仍翻倍。"
+    },
+    {
+      "s": "Chen owns the above-ground workshop where components are prepared.",
+      "a": "NG",
+      "why": "文章未说明地面工坊的所有者。"
+    },
+    {
+      "s": "Chen accepted the visitor's proposal to buy a franchise.",
+      "a": "F",
+      "why": "末段明确说陈拒绝了这一提议。"
+    }
+  ]
+}

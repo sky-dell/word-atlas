@@ -1,0 +1,48 @@
+{
+  "id": "r0617",
+  "ids": [
+    "practicable",
+    "degenerate",
+    "thereby",
+    "detriment",
+    "malpractice",
+    "volley",
+    "conclusive",
+    "inertia",
+    "confer",
+    "dwell"
+  ],
+  "title": "The Council’s Flooded Court",
+  "titleZh": "市议会的积水球场",
+  "topic": "government",
+  "cefr": 4,
+  "paras": [
+    "In the fictional town of Merewick, a municipal tennis court became the subject of a dispute that outlasted its brief playing life. A photograph in the council archive shows a player executing a [[volley|volley]], while spectators stand on planks laid across the mud beside the court. The photograph offers an early clue to the trouble recorded in the council’s files.",
+    "The council had promised recreation for families who [[dwell|dwelt]] in crowded streets beside the canal. Its engineer, Mira Sen, proposed raising the ground and installing drains, a [[practicable|practicable]] solution given the available materials. However, the approved contract omitted the drains, [[thereby|thereby]] reducing the initial expense. Over eighteen wet months, the playing surface began to [[degenerate|degenerate]] into a muddy, slippery expanse.",
+    "Discrepancies between Sen’s drawings and the contractor’s invoices prompted allegations of professional [[malpractice|malpractice]]. They were not, however, [[conclusive|conclusive]] evidence of deliberately falsified accounts. Letters show that councillors repeatedly postponed meetings at which they were due to [[confer|confer]] with Sen. This administrative [[inertia|inertia]] prolonged the closure, to the [[detriment|detriment]] of residents whose subscriptions had helped finance construction.",
+    "A petition bearing 347 signatures finally secured an independent inspection. The council subsequently adopted a revised drainage plan, but the court never reopened. Instead, the site became a paved meeting yard. The final invoice in the file lists drainage channels among the work actually completed."
+  ],
+  "zh": [
+    "在虚构的米尔威克镇，一座市政网球场引发了一场争议；球场短暂的使用期结束后，争议仍未平息。市议会档案中的一张照片显示，一名球员正在凌空击球，观众则站在球场旁泥地上铺设的木板上。这张照片为市议会文件中记载的问题提供了一条早期线索。",
+    "市议会曾承诺为居住在运河旁拥挤街区的家庭提供休闲场所。市政工程师米拉·森提出垫高地面并安装排水设施；以当时可用的材料而言，这是一个切实可行的方案。然而，获批的合同省去了排水设施，从而降低了初期支出。在潮湿多雨的十八个月里，球场地面逐渐恶化，变成了一片泥泞湿滑的场地。",
+    "森的图纸与承包商发票之间的出入引发了有关职业失当的指控。不过，这些出入并不是有人蓄意伪造账目的确凿证据。信件显示，议员们一再推迟原定与森协商的会议。这种行政上的拖延延长了球场关闭的时间，损害了曾出资帮助修建球场的居民的利益。",
+    "一份有347人签名的请愿书终于促成了一次独立检查。市议会随后采纳了修订后的排水方案，但球场再也没有开放。场地被改成了铺砌地面的集会庭院。档案中的最后一张发票将排水渠列在实际完成的工程项目之中。"
+  ],
+  "q": [
+    {
+      "s": "The photograph in the archive was taken by a council employee.",
+      "a": "NG",
+      "why": "首段描述了照片，但未说明拍摄者身份。"
+    },
+    {
+      "s": "The approved contract excluded the drains proposed by Sen.",
+      "a": "T",
+      "why": "第二段明确说获批合同省去了排水设施。"
+    },
+    {
+      "s": "The tennis court reopened after the revised drainage plan was adopted.",
+      "a": "F",
+      "why": "末段明确说球场再也没有开放。"
+    }
+  ]
+}

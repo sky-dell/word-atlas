@@ -1,0 +1,48 @@
+{
+  "id": "r0301",
+  "ids": [
+    "mat",
+    "press",
+    "persuade",
+    "racing",
+    "lavatory",
+    "bomb",
+    "vet",
+    "generation",
+    "clinic",
+    "postpone"
+  ],
+  "title": "A Softer Landing for Wetland Birds",
+  "titleZh": "给湿地鸟儿一个柔软的落脚处",
+  "topic": "environment",
+  "cefr": 2,
+  "paras": [
+    "Beside Lake Orin, craftsperson Amara Das turns dry reeds into useful objects. Her newest product is a [[mat|mat]] for injured water birds to stand on while they recover. She collects reeds only after the birds have finished nesting, leaving plenty for insects and other wildlife.",
+    "Amara works in a small lakeside building once used to store boats for [[racing|racing]]. A [[bomb|bomb]] damaged its roof during a war, and it stood empty for years. She [[persuade|persuaded]] the boat club to repair it by explaining how her work could help the lake's birds. The building now has two work tables, a sink and a [[lavatory|lavatory]].",
+    "Each morning, Amara washes the reeds and lays them across a wooden frame. She then [[press|presses]] them firmly together with a flat board and ties them securely with cotton thread. A [[vet|vet]] from a nearby animal [[clinic|clinic]] tested her first pieces. They were too rough for birds' feet, so Amara added a softer top layer. Heavy rain later forced her to [[postpone|postpone]] collecting more reeds until the shore was dry.",
+    "Now her finished pieces are used beneath recovering birds. Damaged, unused mats can be cut up and added to garden compost. Amara also teaches the younger [[generation|generation]] her method at weekend workshops. Her favourite reward is watching a bird leave its soft bed and return to the lake."
+  ],
+  "zh": [
+    "在奥林湖畔，手艺人阿玛拉·达斯把干芦苇做成实用物品。她最新的作品是一种垫子，供受伤的水鸟在康复期间站立。她只在鸟儿的繁殖季结束后才采集芦苇，并为昆虫和其他野生动物留下充足的芦苇。",
+    "阿玛拉在湖边的一栋小屋里工作，这里曾用来存放竞速用的船只。战争期间，一枚炸弹损坏了屋顶，此后小屋空置多年。她向划船俱乐部解释自己的工作如何帮助湖中的鸟儿，说服他们修好了小屋。如今，屋里有两张工作台、一个水槽和一间洗手间。",
+    "每天早晨，阿玛拉洗净芦苇，将它们铺在木框上，然后用一块平板把它们紧紧压在一起，再用棉线绑牢。附近一家动物诊所的兽医试用了她最初做出的几块垫子。对鸟儿的脚来说，垫子太粗糙了，于是阿玛拉加上了更柔软的表层。后来，一场大雨迫使她推迟采集更多芦苇，要等岸边干了才能再去采集。",
+    "现在，她做好的垫子铺在正在康复的鸟儿身下。损坏但尚未使用的垫子可以剪碎，加入花园堆肥中。阿玛拉也在周末的手工课上把自己的方法教给年轻一代。看着鸟儿离开柔软的小床，重返湖中，是她最喜欢的回报。"
+  ],
+  "q": [
+    {
+      "s": "Amara waits until the birds' nesting period is over before gathering reeds.",
+      "a": "T",
+      "why": "第一段说她等鸟儿繁殖季结束才采集芦苇。"
+    },
+    {
+      "s": "The first pieces Amara made were soft enough for the birds without any changes.",
+      "a": "F",
+      "why": "最初的垫子太粗糙，她后来加了柔软表层。"
+    },
+    {
+      "s": "People pay a small fee to attend Amara's weekend workshops.",
+      "a": "NG",
+      "why": "文章提到周末手工课，但未说明是否收费。"
+    }
+  ]
+}

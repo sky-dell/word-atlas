@@ -1,0 +1,48 @@
+{
+  "id": "r0663",
+  "ids": [
+    "coincide",
+    "inattention",
+    "bazaar",
+    "deluge",
+    "stiffen",
+    "paralyse",
+    "linger",
+    "stranding",
+    "patriotism",
+    "refinement"
+  ],
+  "title": "When Cold Seas Immobilise Turtles",
+  "titleZh": "当寒冷海水让海龟动弹不得",
+  "topic": "media",
+  "cefr": 4,
+  "paras": [
+    "The first footage came from a fish [[bazaar|bazaar]] beside a shallow harbour: turtles lay motionless along the tideline after an overnight [[deluge|deluge]]. Shared through regional news broadcasts, the images suggested a mysterious poisoning. Yet this mass [[stranding|stranding]] had a less visible explanation: a sudden collapse in water temperature, rather than contamination of the animals’ food.",
+    "Such events can occur when intense rainfall and strong winds [[coincide|coincide]] with the arrival of exceptionally cold air. Shallow bays lose heat rapidly, leaving turtles little opportunity to reach warmer water. Because their body temperature depends largely on their surroundings, cooling slows their physiological processes. Their flippers may appear to [[stiffen|stiffen]], and severe cold can effectively [[paralyse|paralyse]] them, allowing currents to carry them ashore.",
+    "A turtle that seems dead may therefore remain alive, although prolonged exposure can be fatal. During rescue coverage, [[inattention|inattention]] to this distinction can produce misleading reports of widespread mortality. Camera crews that [[linger|linger]] beside exhausted animals may also obstruct responders. Clear reporting instead explains why rescuers assess breathing carefully and restore warmth gradually, rather than immediately returning every turtle to the sea.",
+    "Where turtles are national wildlife symbols, such broadcasts sometimes appeal to [[patriotism|patriotism]] to encourage public cooperation. Emotion, however, is most useful when paired with precise information. One practical [[refinement|refinement]] is to place recent water temperatures beside rescue totals in each bulletin. This turns dramatic pictures into evidence of a physical process—and helps viewers understand why an apparently lifeless shoreline may still hold animals capable of recovery."
+  ],
+  "zh": [
+    "最早的影像来自一处浅水港旁的鱼市：一夜暴雨过后，海龟沿着潮水线一动不动地躺着。这些画面经地方新闻播出后，让人以为发生了神秘的中毒事件。然而，这次大规模搁浅有一个不那么显而易见的原因：水温骤降，而非海龟的食物受到污染。",
+    "当强降雨和大风与异常寒冷的空气同时到来时，就可能发生此类事件。浅水海湾散热迅速，海龟几乎来不及游到更温暖的水域。由于它们的体温主要取决于周围环境，降温会减缓其生理活动。它们的鳍状肢可能显得僵硬，严寒实际上还可能使它们无法动弹，任由水流将其带上岸。",
+    "因此，看似死去的海龟可能仍然活着，不过长时间暴露在寒冷环境中也会致命。在报道救援行动时，忽视这一差别可能导致有关大批海龟死亡的误导性报道。摄制人员若在精疲力竭的动物旁迟迟不离开，也可能妨碍救援。清晰准确的报道则会解释，为什么救援人员要仔细检查海龟的呼吸，并让它们逐渐恢复体温，而不是立即将每一只都送回海中。",
+    "在海龟被视为国家野生动物象征的地方，这类报道有时会诉诸爱国情感，鼓励公众配合。然而，情感只有与准确信息相结合，才能发挥最大作用。一项切实可行的小改进，是在每次新闻简报中，将近期水温与救援数量并列呈现。这样，震撼的画面便成了某种物理过程的证据，也帮助观众理解：看似毫无生机的海岸上，可能仍有能够康复的动物。"
+  ],
+  "q": [
+    {
+      "s": "Contaminated food caused the mass stranding at the harbour.",
+      "a": "F",
+      "why": "首段明确指出是水温骤降，而非食物污染。"
+    },
+    {
+      "s": "A turtle that appears dead after exposure to cold may still be alive.",
+      "a": "T",
+      "why": "第三段明确说看似死去的海龟可能仍活着。"
+    },
+    {
+      "s": "Bulletins displaying water temperatures attract larger audiences than those showing rescue totals alone.",
+      "a": "NG",
+      "why": "末段提出报道改进，未比较观众数量。"
+    }
+  ]
+}

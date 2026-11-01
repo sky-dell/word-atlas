@@ -1,0 +1,48 @@
+{
+  "id": "r0429",
+  "ids": [
+    "refreshing",
+    "uneasy",
+    "advance",
+    "independence",
+    "scorching",
+    "liquor",
+    "selection",
+    "outwards",
+    "estimation",
+    "tobacco"
+  ],
+  "title": "Making a Runner’s Cooling Wrap",
+  "titleZh": "跑步降温颈巾的制作",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "In a riverside workshop that once stored [[tobacco|tobacco]] and bottles of [[liquor|liquor]], a small team makes cooling wraps for distance runners. On [[scorching|scorching]] days, a damp strip around the neck can provide a [[refreshing|refreshing]] sensation. However, producing a wrap that remains comfortable over several kilometres requires more than simply cutting up a towel.",
+    "The process begins with the [[selection|selection]] of a soft fabric containing tiny channels between its fibres. These carry moisture [[outwards|outwards]] from wetter areas, spreading it across a larger surface where it can evaporate. An initial [[estimation|estimation]] of the required length is made using neck measurements, but extra material is allowed for seams. Workers then cut narrow rectangles with rounded ends, which are less likely to curl against the skin.",
+    "Next, two layers are placed right sides together and stitched, leaving an opening for turning the wrap right side out to hide the rough edges. A recent [[advance|advance]] in the design is a flat fastening tab that runners can adjust with one hand. This gives them greater [[independence|independence]] during a race, since they need not ask someone else to secure it.",
+    "Some runners initially feel [[uneasy|uneasy]] about wearing wet fabric. Before packaging, therefore, each batch is soaked, squeezed and tested for dripping and rubbing. The finished wrap comes with simple instructions: wet it, remove excess water and fasten it loosely. Its success depends on careful construction rather than complicated machinery."
+  ],
+  "zh": [
+    "在一间曾存放烟叶和瓶装烈酒的河畔作坊里，一个小团队正在为长跑者制作降温颈巾。在酷热的日子里，围在脖子上的湿布条能带来清爽提神的感觉。不过，要做出一条跑过数公里后仍然佩戴舒适的颈巾，可不只是把毛巾裁开那么简单。",
+    "制作从挑选柔软的面料开始，这种面料的纤维之间有细小的通道。这些通道让水分从较湿的区域向外扩散，分布到更大的表面上，以便蒸发。工人根据颈部尺寸初步估算所需长度，同时为接缝留出额外的布料。随后，他们将布料裁成长条形，并把两端剪成圆角，这样布料就不容易卷起贴在皮肤上。",
+    "接下来，将两层布正面相对放好并缝合，留一个口，以便将颈巾翻至正面朝外，把粗糙的布边藏在里面。设计上最近的一项改进是增加了扁平的固定搭片，跑者可以单手调节。这让他们在比赛中更加自主，无须请别人帮忙系好颈巾。",
+    "有些跑者起初对佩戴湿布感到不安。因此，在包装之前，每批颈巾都会经过浸湿、拧水以及滴水和摩擦测试。成品随附简单的使用说明：打湿，挤去多余水分，再松松地系好。它的良好效果靠的是精细制作，而非复杂的机器。"
+  ],
+  "q": [
+    {
+      "s": "The fabric's channels keep moisture from spreading out of the wetter areas.",
+      "a": "F",
+      "why": "通道使水分从较湿区域向外扩散。"
+    },
+    {
+      "s": "Runners can adjust the new fastening tab with one hand.",
+      "a": "T",
+      "why": "第三段明确说明固定搭片可单手调节。"
+    },
+    {
+      "s": "The wraps are sold mainly through specialist running shops.",
+      "a": "NG",
+      "why": "文章未提及颈巾的销售渠道。"
+    }
+  ]
+}

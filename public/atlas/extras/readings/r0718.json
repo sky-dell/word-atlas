@@ -1,0 +1,48 @@
+{
+  "id": "r0718",
+  "ids": [
+    "short-weight",
+    "axial",
+    "superintend",
+    "elemental",
+    "facsimile",
+    "radium",
+    "throng",
+    "ulcer",
+    "tenacious",
+    "remission"
+  ],
+  "title": "The Balance Behind the Miracle",
+  "titleZh": "“奇迹”背后的天平",
+  "topic": "history",
+  "cefr": 5,
+  "paras": [
+    "In a provincial medical museum, a brass balance stands beside a [[facsimile|facsimile]] of a pharmacist’s ledger dated 1912. Its smallest entries concern [[radium|radium]], the radioactive metal then attracting extraordinary therapeutic expectations. Outside the original dispensary, a [[throng|throng]] sometimes gathered to glimpse luminous preparations; inside, the more consequential spectacle was almost invisible: the weighing of exceptionally expensive material.",
+    "To understand the instrument, conservators examined the [[axial|axial]] alignment of its central pivot. A slight displacement could produce unequal readings, although wear alone would not establish deliberate fraud. Because a dishonest supplier could [[short-weight|short-weight]] customers without visibly altering their purchases, the pharmacist employed an assistant to [[superintend|superintend]] each measurement and enter a second reading in the ledger.",
+    "That procedural caution contrasts sharply with the clinical uncertainty recorded elsewhere. One patient’s persistent skin [[ulcer|ulcer]] reportedly closed after irradiation; another entry describes cancer entering [[remission|remission]], but supplies no subsequent observations. Neither note constitutes a controlled experiment. The distinction is [[elemental|elemental]]: an accurately measured substance is not necessarily an effective treatment, and temporary improvement does not demonstrate a lasting cure.",
+    "A [[tenacious|tenacious]] museum researcher spent months matching these entries with surviving correspondence, finding meticulous invoices but little systematic follow-up. The exhibition therefore places the balance before the glowing advertisements, reversing their original hierarchy of attention. Visitors encounter neither a simple celebration of discovery nor an indictment of every early practitioner, but a material reminder that precision can quantify an intervention long before evidence justifies confidence in it."
+  ],
+  "zh": [
+    "一座地方医学博物馆里，一架黄铜天平旁陈列着一本标注为1912年的药剂师账簿摹本。其中数额最小的几笔记录涉及镭——这种放射性金属当时承载着人们对治疗效果的非凡期待。原来的药房外，有时会聚集一群人，只为看一眼发光的制剂；而屋内更为重要的一幕却几乎不为人所见：称量价格极其昂贵的物质。",
+    "为了解这台仪器，文物修复人员检查了其中央支点的轴向对齐情况。轻微的偏移就可能导致读数不一致，不过，仅凭磨损并不能认定有人蓄意欺诈。不诚实的供应商可能在所售物品外观没有明显变化的情况下缺斤少两，因此，这位药剂师雇了一名助手，负责监督每次称量，并在账簿中记下第二次读数。",
+    "这种操作程序上的审慎，与其他记录中临床判断的不确定性形成鲜明对照。据记载，一位患者顽固的皮肤溃疡在接受照射后愈合；另一条记录称，一名癌症患者的病情进入缓解期，却没有提供后续观察结果。这两条记载都算不上对照实验。其中的区别十分根本：一种物质即使计量准确，也未必能成为有效的疗法，而暂时好转并不能证明已经持久治愈。",
+    "一位坚持不懈的博物馆研究人员花了数月，将这些记录与留存的信件逐一比对，发现发票详尽严谨，系统性的随访资料却寥寥无几。因此，展览将天平置于那些大肆宣扬疗效的广告之前，颠倒了它们当年受到关注的主次顺序。观众看到的，既不是对发现的简单颂扬，也不是对所有早期从业者的指责，而是一件实物带来的提醒：早在证据足以支持人们信赖某项干预措施之前，精密技术就可能已经能够将其量化。"
+  ],
+  "q": [
+    {
+      "s": "The pharmacist left each measurement unsupervised rather than appointing an assistant to check it.",
+      "a": "F",
+      "why": "药剂师雇了助手监督每次称量。"
+    },
+    {
+      "s": "The patient whose skin ulcer closed later received another course of irradiation.",
+      "a": "NG",
+      "why": "文中未说明该患者后来是否再次接受照射。"
+    },
+    {
+      "s": "The researcher found detailed invoices but little systematic follow-up documentation.",
+      "a": "T",
+      "why": "末段明确说发票详尽，系统随访资料很少。"
+    }
+  ]
+}

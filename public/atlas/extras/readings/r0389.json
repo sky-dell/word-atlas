@@ -1,0 +1,48 @@
+{
+  "id": "r0389",
+  "ids": [
+    "hose",
+    "cling",
+    "clash",
+    "counter",
+    "decimal",
+    "liver",
+    "behalf",
+    "jerk",
+    "lens",
+    "sideways"
+  ],
+  "title": "Behind the Market's Brass Scales",
+  "titleZh": "市场铜秤背后的故事",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "Visitors to the hill town of Ravela usually photograph its painted market roof. Yet a small exhibition beneath it reveals something less decorative: how public officials once protected shoppers from dishonest traders. On Saturday mornings, guide Amira leads visitors through the former inspection office before the food stalls become crowded.",
+    "Beside a stone [[counter|counter]], she demonstrates a brass balance used to check traders' weights. A glass [[lens|lens]] enlarges the tiny marks on a reference weight, while a notebook records measurements as a [[decimal|decimal]], such as 2.75, rather than a whole number. Inspectors worked on [[behalf|behalf]] of buyers, although their visits sometimes caused a [[clash|clash]] with sellers who disliked delays.",
+    "The tour continues into the washing courtyard, where a flexible [[hose|hose]] replaced buckets in the last century. Visitors turn [[sideways|sideways]] to enter the narrow doorway; younger children [[cling|cling]] to an adult's hand on the damp steps. Amira warns everyone not to [[jerk|jerk]] the old tap handle, which opens with a gentle turn. Nearby, an illustrated food-safety chart explains how the [[liver|liver]] processes nutrients and removes harmful substances from the blood—a reminder that market regulation also concerned health.",
+    "Outside, the exhibition's purpose becomes clearer. A fruit seller sets her scales where customers can see them, then invites a child to check a purchase. The town's rules are no longer hidden in official notebooks: they survive in this modest daily performance of trust."
+  ],
+  "zh": [
+    "来到山城拉韦拉的游客通常会拍摄市场那彩绘的屋顶。然而，屋顶下的一处小展览呈现了不以装饰性见长的内容：过去，公职人员如何保护顾客免受不诚实商贩的欺骗。每逢周六上午，导游阿米拉都会趁食品摊位还未挤满人，带领游客参观昔日的检查办公室。",
+    "在一张石制柜台旁，她演示了一架用于核验商贩砝码的黄铜天平。一枚玻璃透镜放大了标准砝码上的细小刻度，而一本记录簿则用2.75这样的小数而非整数记下测量结果。检查员代表买家的利益开展工作，但他们的到访有时也会与不愿耽误生意的卖家发生冲突。",
+    "参观继续深入清洗庭院。在上个世纪，一根软管取代了这里的水桶。游客侧身穿过狭窄的门口，年幼的孩子则在潮湿的台阶上紧抓着大人的手。阿米拉提醒大家不要猛扳旧水龙头的把手，轻轻转动就能打开。附近一张图文并茂的食品安全挂图解释了肝脏如何处理营养物质、清除血液中的有害物质，提醒人们市场监管也关乎健康。",
+    "走到外面，展览的意义变得更加清晰。一位水果摊主把秤放在顾客看得见的地方，然后邀请一个孩子核对所购物品的重量。小城的规矩不再藏于官方记录簿中，而是延续在这种朴素的、每天都在上演的信任实践里。"
+  ],
+  "q": [
+    {
+      "s": "Amira worked as a market inspector before becoming a guide.",
+      "a": "NG",
+      "why": "文章介绍了她的导游工作，未提此前职业。"
+    },
+    {
+      "s": "The notebook records measurements as decimals rather than whole numbers.",
+      "a": "T",
+      "why": "第二段明确说记录采用小数而非整数。"
+    },
+    {
+      "s": "Amira tells visitors to open the old tap with a sharp jerk.",
+      "a": "F",
+      "why": "她提醒不要猛扳，轻轻转动即可打开。"
+    }
+  ]
+}

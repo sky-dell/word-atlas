@@ -1,0 +1,48 @@
+{
+  "id": "r0239",
+  "ids": [
+    "stuff",
+    "litter",
+    "pollute",
+    "pumpkin",
+    "cell",
+    "gently",
+    "leaflet",
+    "cultural",
+    "medium-sized",
+    "southern"
+  ],
+  "title": "Pumpkin Cakes for Race Day",
+  "titleZh": "比赛日的南瓜糕",
+  "topic": "sport",
+  "cefr": 2,
+  "paras": [
+    "At a running club in a [[southern|southern]] coastal town, Mei makes small rice cakes for walkers taking part in a long race. Her recipe comes from a [[cultural|cultural]] tradition: families in her village share orange cakes after the autumn harvest. For race day, she makes them small enough to carry in a pocket.",
+    "First, Mei washes a [[medium-sized|medium-sized]] [[pumpkin|pumpkin]], removes the seeds and cuts the flesh into pieces. She keeps all the unwanted [[stuff|stuff]], including the skin, in a bowl for compost. Then she steams the pieces until soft. Heat changes the walls around each plant [[cell|cell]], making the flesh easier to crush with a fork.",
+    "Next, she adds rice flour and a little salt. She mixes everything [[gently|gently]] until it forms a soft dough. Too much flour would make the cakes dry, so she adds only a spoonful at a time. She shapes the dough into flat circles and steams them for fifteen minutes. Before packing them, she lets them cool completely.",
+    "Each cake goes into a folded paper wrapper. A [[leaflet|leaflet]] inside the box explains the recipe and asks walkers not to leave [[litter|litter]] along the route, where waste could [[pollute|pollute]] a stream. On race morning, Mei places the box beside the starting line, ready to share a village taste with the walkers."
+  ],
+  "zh": [
+    "在南部一座海滨小镇的跑步俱乐部里，梅为参加长距离比赛的步行者制作小块米糕。她的食谱源于一种文化传统：秋收后，村里的家家户户都会分享橙色的糕点。为了方便比赛当天携带，她把糕点做得很小，可以装进口袋。",
+    "首先，梅洗净一个中等大小的南瓜，去掉籽，再把瓜肉切成块。她把包括瓜皮在内的所有不要的材料放进碗里，留着做堆肥。然后，她将南瓜块蒸软。加热会改变每个植物细胞周围的细胞壁，使瓜肉更容易用叉子压碎。",
+    "接下来，她加入米粉和少许盐，轻轻搅拌，直到材料形成柔软的面团。米粉太多会让糕点发干，所以她每次只加一勺。她把面团做成扁圆形，蒸十五分钟。包装之前，她会让糕点完全冷却。",
+    "每块糕点都用折好的纸包起来。盒子里放着一张传单，介绍制作方法，并请步行者不要沿途乱扔垃圾，因为这些废弃物可能污染溪流。比赛当天早晨，梅把盒子放在起点线旁，准备与步行者分享家乡的味道。"
+  ],
+  "q": [
+    {
+      "s": "Mei learned the cake recipe from her mother.",
+      "a": "NG",
+      "why": "只说食谱源于村庄传统，未提谁教她。"
+    },
+    {
+      "s": "Mei adds the rice flour one spoonful at a time.",
+      "a": "T",
+      "why": "文中明确说她每次只加一勺米粉。"
+    },
+    {
+      "s": "Mei puts the cakes into their wrappers while they are still hot.",
+      "a": "F",
+      "why": "文中说糕点完全冷却后才包装。"
+    }
+  ]
+}

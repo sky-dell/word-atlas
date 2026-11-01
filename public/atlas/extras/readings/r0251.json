@@ -1,0 +1,46 @@
+{
+  "id": "r0251",
+  "ids": [
+    "dull",
+    "electrical",
+    "explanation",
+    "in-advance",
+    "monthly",
+    "disappointed",
+    "helmet",
+    "turtle",
+    "beyond",
+    "compete"
+  ],
+  "title": "Working Under the Harbour",
+  "titleZh": "港口水下的工作",
+  "topic": "work",
+  "cefr": 2,
+  "paras": [
+    "Before modern diving equipment, repairing a ship below the water was difficult. Workers could hold their breath, but only for short periods. In the nineteenth century, the diving [[helmet|helmet]] changed this work. Made of metal, it had small glass windows and received air through a pipe from above. The [[explanation|explanation]] was simple: a worker could now breathe underwater and stay there longer.",
+    "A diver's day was not always exciting. Searching slowly through harbour mud could be [[dull|dull]], and workers were often [[disappointed|disappointed]] when a lost tool remained hidden. However, there were surprising sights. In warm ports, a [[turtle|turtle]] might swim past while a diver worked. Heavy boots helped the worker stand on the bottom, while a rope connected him to helpers above. The team agreed on rope signals [[in-advance|in advance]], because clear communication could save a life.",
+    "Over time, [[electrical|electrical]] lamps made dark underwater spaces easier to explore. Divers could examine damage [[beyond|beyond]] the harbour wall as well as beneath ships. As diving businesses grew, they had to [[compete|compete]] for repair jobs. Today, equipment is lighter, and some teams carry out [[monthly|monthly]] checks of harbour structures. Yet the basic purpose remains the same: allowing a skilled worker to breathe safely where ordinary tools and human lungs are not enough."
+  ],
+  "zh": [
+    "在现代潜水设备出现之前，要修理船体的水下部分十分困难。工人可以屏住呼吸，但只能坚持很短的时间。十九世纪，潜水头盔改变了这项工作。它由金属制成，带有小玻璃窗，空气通过一根管子从水面上方输送进来。其原理很简单：工人现在可以在水下呼吸，并停留更长时间。",
+    "潜水员的一天并不总是令人兴奋。在港口的淤泥中慢慢搜寻可能很枯燥，而当丢失的工具始终找不到时，工人们往往感到失望。不过，水下也有令人惊喜的景象。在温暖地区的港口，潜水员工作时，身旁可能会游过一只海龟。沉重的靴子帮助工人站稳在水底，一根绳子则将他与上方的帮手连接起来。团队会提前约定拉绳信号，因为清楚的沟通可能救人一命。",
+    "随着时间的推移，电灯让探索黑暗的水下空间变得更加容易。潜水员不仅可以检查船底，还能查看港口防护墙另一侧的损坏情况。随着潜水服务行业的发展，各家企业不得不竞争，以争取维修工作。如今，设备更加轻便，一些团队每月都会检查港口设施。然而，最基本的目的始终没有改变：让熟练的工人能够在仅靠普通工具和人的肺无法工作的地方安全呼吸。"
+  ],
+  "q": [
+    {
+      "s": "The metal diving helmets were expensive to make.",
+      "a": "NG",
+      "why": "首段介绍了头盔构造，未说明制造费用。"
+    },
+    {
+      "s": "Divers and their helpers agreed on rope signals before the work began.",
+      "a": "T",
+      "why": "第二段明确说团队提前约定拉绳信号。"
+    },
+    {
+      "s": "Today's diving equipment is heavier than earlier equipment.",
+      "a": "F",
+      "why": "末段明确说如今的设备更轻。"
+    }
+  ]
+}

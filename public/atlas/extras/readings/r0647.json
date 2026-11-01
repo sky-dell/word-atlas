@@ -1,0 +1,48 @@
+{
+  "id": "r0647",
+  "ids": [
+    "deliberation",
+    "constraint",
+    "propagation",
+    "deter",
+    "shelve",
+    "infest",
+    "characterize",
+    "vicinity",
+    "scant",
+    "precarious"
+  ],
+  "title": "From Cuttings to Lemon Balm Tea",
+  "titleZh": "从插枝到香蜂草茶",
+  "topic": "health",
+  "cefr": 4,
+  "paras": [
+    "Making a dependable lemon balm infusion begins months before any leaves reach a cup. At a small herb nursery, considerable [[deliberation|deliberation]] precedes the selection of parent plants: fragrance matters, but so does vigorous growth. Since heated greenhouse space is the principal [[constraint|constraint]], [[propagation|propagation]] relies on short stem cuttings rooted in covered trays rather than individually potted plants.",
+    "Fine mesh screens [[deter|deter]] flying insects from entering, although workers must still inspect the undersides of leaves for aphids, which can rapidly [[infest|infest]] tender shoots. If an outbreak occurs, the team may [[shelve|shelve]] plans for harvesting an affected section. Clean benches and the removal of weeds in the [[vicinity|vicinity]] reduce potential sources of reinfection without guaranteeing complete protection.",
+    "Once established outdoors, the plants are cut on a dry morning, after surface moisture has evaporated. Soft, strongly scented leaves [[characterize|characterize]] a suitable batch; coarse stalks are discarded. Because fresh leaves bruise easily, workers spread them thinly across drying racks. A rack balanced in a [[precarious|precarious]] position on uneven supports is reset before loading, preventing an entire harvest from sliding onto the floor.",
+    "Filtered air then passes over the leaves at a modest temperature, carrying away moisture while limiting the loss of aromatic compounds. Where airflow is [[scant|scant]], drying becomes uneven, so trays are rotated and samples checked for residual moisture. Finally, the crisp leaves are packed in sealed, opaque pouches. The finished infusion is valued for its gentle aroma, not presented as a substitute for medical treatment."
+  ],
+  "zh": [
+    "要制作品质稳定的香蜂草冲泡茶，准备工作早在叶片进入茶杯的数月前就已开始。在一家小型香草苗圃里，工作人员经过仔细商议才选定母株：香气固然重要，生长旺盛也同样关键。由于可供加温的温室空间是主要制约因素，繁殖采用带盖育苗盘，让短茎插条在其中生根，而不是将每株分别栽入花盆。",
+    "细密的纱网能阻挡飞虫进入，但工作人员仍须检查叶片背面是否有蚜虫，因为它们可能迅速在嫩梢上大量滋生。一旦虫害暴发，团队可能暂缓采收受影响区域的计划。保持工作台清洁并清除周边杂草，可以减少再次感染的潜在来源，但无法保证完全杜绝虫害。",
+    "植株在户外扎根长稳后，工作人员会选一个干燥的早晨，待叶面水分蒸发后进行采割。合格批次的叶片应当柔软且香气浓郁，粗硬的茎则被剔除。由于鲜叶容易碰伤，工作人员将其薄薄地铺在干燥架上。如果架子因支撑不平而放置不稳，就会在装料前重新摆正，以免整批收获物滑落到地上。",
+    "随后，经过过滤的空气以适中的温度吹过叶片，带走水分，同时尽量减少芳香成分的流失。气流不足的地方容易干燥不均，因此工作人员会调换托盘位置，并抽样检查残余水分。最后，将干脆的叶片装入密封、不透光的袋子。成品冲泡后以清柔的香气受到喜爱，但不会被宣传为医疗的替代品。"
+  ],
+  "q": [
+    {
+      "s": "The nursery spends several weeks selecting its parent plants.",
+      "a": "NG",
+      "why": "文章未说明选择母株具体耗时多久。"
+    },
+    {
+      "s": "Workers still need to inspect leaves for aphids despite the mesh screens.",
+      "a": "T",
+      "why": "第二段明确说有纱网仍须检查叶背。"
+    },
+    {
+      "s": "The finished infusion is presented as a replacement for medical treatment.",
+      "a": "F",
+      "why": "末段明确说不将成品作为医疗替代品。"
+    }
+  ]
+}

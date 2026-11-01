@@ -1,0 +1,48 @@
+{
+  "id": "r0325",
+  "ids": [
+    "quotation",
+    "wrist",
+    "adverb",
+    "owe",
+    "whisky",
+    "nation",
+    "perform",
+    "lounge",
+    "deer",
+    "importance"
+  ],
+  "title": "Why the Empty Hall Answers",
+  "titleZh": "空大厅为何会回应",
+  "topic": "arts",
+  "cefr": 2,
+  "paras": [
+    "At a small music hall beside a Scottish forest, visitors sometimes hear their own words return. Outside, [[deer|deer]] feed among the trees. Inside, a guide raises her [[wrist|wrist]] to check her watch, then asks everyone to listen. People from across the [[nation|nation]] come here to hear this strange effect.",
+    "The building was once used to store barrels of [[whisky|whisky]]. When a theatre group bought it, they still [[owe|owed]] the bank money, so they could not cover the stone walls with soft material. Musicians began to [[perform|perform]] there, but their notes seemed to arrive more than once. The bare walls were sending sound back.",
+    "Sound travels through air as waves. When these hit a hard surface, some return towards the listener. In this long hall, the returning sound arrives late enough to become a separate echo. The guide demonstrates with a [[quotation|quotation]] from an old song: \"Walk slowly home.\" The [[adverb|adverb]] \"slowly\" is especially clear when she pauses before the final word.",
+    "In the nearby [[lounge|lounge]], the same words produce no clear echo. Curtains and chairs with soft cushions take in much of the sound instead of sending it back. This shows the [[importance|importance]] of surfaces in shaping what we hear. The hall's answering voice is not a mystery: it is ordinary sound taking a longer journey."
+  ],
+  "zh": [
+    "在苏格兰森林旁的一座小音乐厅里，游客有时会听见自己说的话传回来。外面，鹿在树间觅食。里面，一位导览员抬起手腕看了看表，然后请大家仔细听。全国各地的人来到这里，聆听这种奇特的声响。",
+    "这栋建筑曾用来存放一桶桶威士忌酒。一个剧团买下它时，还欠着银行的钱，因此没有资金用柔软的材料覆盖石墙。音乐家们开始在那里演出，却发现音符似乎不止一次传到耳边。原来，裸露的墙壁把声音反射了回来。",
+    "声音以波的形式在空气中传播。当声波碰到坚硬的表面时，一部分会返回听者的方向。在这座长长的大厅里，返回的声音来得足够晚，因此形成了可以单独听见的回声。导览员引用一首老歌中的歌词来演示：“慢慢走回家。”当她在最后一个词之前停顿时，副词“慢慢”听起来尤其清楚。",
+    "在附近的休息室里，同样的话却不会产生清晰的回声。窗帘和带软垫的椅子吸收了大部分声音，而不是将其反射回来。这说明，物体表面对我们听到的声音有着重要影响。大厅里回应我们的声音并不神秘：它只是普通的声音多走了一段路。"
+  ],
+  "q": [
+    {
+      "s": "People travel from different parts of the country to experience the hall's unusual sound.",
+      "a": "T",
+      "why": "首段说全国各地的人来听这种声音。"
+    },
+    {
+      "s": "The theatre group covered the stone walls before musicians started playing there.",
+      "a": "F",
+      "why": "剧团欠银行钱，无力覆盖石墙。"
+    },
+    {
+      "s": "The lounge curtains are replaced every five years.",
+      "a": "NG",
+      "why": "文章未提窗帘的更换频率。"
+    }
+  ]
+}

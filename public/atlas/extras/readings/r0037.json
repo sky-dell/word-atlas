@@ -1,0 +1,46 @@
+{
+  "id": "r0037",
+  "ids": [
+    "favorite",
+    "tea",
+    "change",
+    "australia",
+    "ready",
+    "idea",
+    "draw",
+    "down",
+    "machine",
+    "get"
+  ],
+  "title": "A Little Bag for Tea",
+  "titleZh": "装茶的小袋子",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "Long ago, people made [[tea|tea]] with loose leaves. They put the leaves in a pot and added hot water. Then they poured the drink into cups. Sometimes small leaves went into the cups too. People wanted an easier way to make their [[favorite|favorite]] hot drink. One [[idea|idea]] was to put the leaves inside a small bag. Water could go through it, but the leaves stayed inside.",
+    "In the early 1900s, people began to use small bags for this drink. Some early bags were made from cloth. Later, makers began to [[change|change]] the bags. They used special paper instead. A [[machine|machine]] could fill many bags in a short time. More people could [[get|get]] them in shops. The bags became common in many countries, including [[australia|Australia]].",
+    "Many bags now have a string and a small paper tag. Makers can [[draw|draw]] pictures on these tags. To make a cup, you put a bag [[down|down]] into it and add hot water. After a few minutes, your drink is [[ready|ready]]. You lift the bag out by its string. This little bag made an old daily job easier."
+  ],
+  "zh": [
+    "很久以前，人们用散茶叶泡茶。他们把茶叶放进茶壶，加入热水，然后把茶倒进杯子。有时，细小的茶叶也会进入杯子。人们想用更简单的方法来泡自己最喜欢的热饮。有一个主意是把茶叶装进小袋子里。水可以穿过袋子，茶叶却留在里面。",
+    "20世纪初，人们开始用小袋子泡茶。有些早期的茶袋是布做的。后来，制作者开始改变茶袋的做法，改用一种特殊的纸。机器能在短时间内装满许多茶袋。更多人能在商店里买到它们。茶袋在许多国家变得常见，其中包括澳大利亚。",
+    "现在，许多茶袋都带有一根线和一个小纸标签。制作者可以在这些标签上画图。泡茶时，把茶袋放进杯子里，再加入热水。几分钟后，茶就泡好了。你拉着线把茶袋提出来。这个小袋子让一件古老的日常小事变得更简单了。"
+  ],
+  "q": [
+    {
+      "s": "Small tea leaves sometimes went into people's cups.",
+      "a": "T",
+      "why": "第一段说细小的茶叶有时会进入杯子。"
+    },
+    {
+      "s": "Tea bag makers changed from paper bags to cloth bags.",
+      "a": "F",
+      "why": "第二段说早期用布，后来改用特殊的纸。"
+    },
+    {
+      "s": "Pictures of flowers are the most popular pictures on tea bag tags.",
+      "a": "NG",
+      "why": "第三段只说可以画图，未提哪种图最受欢迎。"
+    }
+  ]
+}

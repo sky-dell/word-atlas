@@ -1,0 +1,48 @@
+{
+  "id": "r0259",
+  "ids": [
+    "ideal",
+    "alphabetical",
+    "gap",
+    "rowing",
+    "thanksgiving",
+    "nightgown",
+    "powder",
+    "politician",
+    "bucket",
+    "medal"
+  ],
+  "title": "The Midnight Leak",
+  "titleZh": "午夜漏水事件",
+  "topic": "science",
+  "cefr": 2,
+  "paras": [
+    "At a small lakeside research centre, Amira raised young fish for a study of water temperature. The lake provided [[ideal|ideal]] conditions because its water stayed cool through summer. She kept her records in [[alphabetical|alphabetical]] order by species. One night, an alarm warned her that a fish tank was losing water.",
+    "Amira lived beside the centre. Still wearing her [[nightgown|nightgown]], she pulled on boots and hurried outside. Water covered the floor, but she could not see its source. She placed a [[bucket|bucket]] beneath the tank's lowest pipe, then called Tomas, who looked after the equipment.",
+    "Tomas dried the pipe and spread white chalk [[powder|powder]] underneath it. Within seconds, falling drops left dark spots in the chalk. Directly above them was a narrow [[gap|gap]] where two pipes joined. While Tomas repaired it, Amira needed fresh lake water. Her years of [[rowing|rowing]] helped: she took the centre's boat beyond the muddy shore and filled several containers.",
+    "By sunrise, the tank was full and the fish were swimming normally. Amira whispered a prayer of [[thanksgiving|thanksgiving]]. A visiting [[politician|politician]] later suggested giving her a [[medal|medal]] for saving the valuable fish. She laughed and asked for a spare water pump instead. A week later, it arrived, ready for the next emergency."
+  ],
+  "zh": [
+    "在一座湖边的小型研究中心，阿米拉养着一批幼鱼，用于研究水温。湖水整个夏天都保持凉爽，提供了理想的条件。她按照鱼类名称的字母顺序整理研究记录。一天夜里，警报响起，提醒她一个鱼缸正在漏水。",
+    "阿米拉就住在研究中心旁边。她还穿着睡裙，套上靴子便匆匆跑了出去。地板上到处是水，她却看不出水从哪里漏出来。她在鱼缸最下面的管子下放了一个桶，然后打电话给负责维护设备的托马斯。",
+    "托马斯擦干管子，在下面撒了一层白色粉笔粉末。几秒钟后，落下的水滴就在粉末上留下了深色斑点。斑点正上方的两根管子连接处有一道细小的缝隙。托马斯修补管子时，阿米拉需要去取新鲜的湖水。她多年的划船经验派上了用场：她划着研究中心的小船驶离泥泞的岸边，装满了几个容器。",
+    "日出时，鱼缸已经装满水，鱼儿也在正常游动。阿米拉轻声祷告，表达感恩之情。后来，一位来访的政治家提议给她颁发奖牌，表彰她救下了这些珍贵的鱼。她笑了，表示宁愿要一台备用水泵。一周后，水泵送到了，可以随时应对下一次紧急情况。"
+  ],
+  "q": [
+    {
+      "s": "The lake was suitable for Amira's research because it remained cool during the summer.",
+      "a": "T",
+      "why": "首段说明湖水夏季保持凉爽，条件理想。"
+    },
+    {
+      "s": "Amira took off her nightgown before hurrying outside.",
+      "a": "F",
+      "why": "第二段明确说她仍穿着睡裙就赶了出去。"
+    },
+    {
+      "s": "The visiting politician paid for the spare water pump.",
+      "a": "NG",
+      "why": "文章只说水泵送到了，未说明由谁付款。"
+    }
+  ]
+}

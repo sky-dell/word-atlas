@@ -1,0 +1,48 @@
+{
+  "id": "r0266",
+  "ids": [
+    "cheat",
+    "lizard",
+    "departure",
+    "economy",
+    "security",
+    "culture",
+    "personality",
+    "defeat",
+    "shot",
+    "junior"
+  ],
+  "title": "The Tail That Keeps Moving",
+  "titleZh": "不停摆动的尾巴",
+  "topic": "education",
+  "cefr": 2,
+  "paras": [
+    "At a small island museum, a [[junior|junior]] guide named Leila teaches visitors about a surprising natural escape. She places a model [[lizard|lizard]] beside a separate, moving tail. Before their [[departure|departure]], visitors discover why a real animal may leave part of its body behind.",
+    "The lesson begins with a game. Players throw a soft ball at one of two moving targets. Each player gets one [[shot|shot]] and must not [[cheat|cheat]] by crossing the line. Most aim at the target that moves more. This helps explain how a small animal can [[defeat|defeat]] a larger hunter without fighting it.",
+    "When certain lizards are caught, their tails can break at special weak points. Muscles make the lost tail move for a short time. While a bird watches this movement, the animal runs towards the [[security|security]] of a narrow rock gap. The trick does not depend on a brave [[personality|personality]]: it is a feature of the body. However, losing a tail costs energy, and growing another takes time.",
+    "Leila finishes with an island saying: 'Leave a little; save a lot.' Such sayings are part of the island's [[culture|culture]], while wildlife tours support its [[economy|economy]]. Visitors learn not to grab wild animals for a closer look. The moving model offers the same lesson without forcing a living creature to pay the price."
+  ],
+  "zh": [
+    "在一座小岛的博物馆里，初级讲解员莱拉向游客介绍一种令人惊讶的自然逃生方式。她把一只蜥蜴模型放在一条单独摆动的尾巴旁边。游客离开前会了解到，真正的动物为什么有时会舍弃身体的一部分。",
+    "讲解从一个游戏开始。玩家向两个移动的目标中的一个投掷软球。每人只有一次投球机会，而且不能越线作弊。大多数人会瞄准动得更明显的目标。这有助于说明，小动物如何不用搏斗就能战胜体型更大的捕食者。",
+    "某些蜥蜴被抓住时，尾巴会在特定的薄弱部位断开。肌肉会让断掉的尾巴继续活动一小段时间。当鸟盯着这条尾巴时，蜥蜴就跑向狭窄的岩缝，寻找安全的藏身之处。这种本领并不依靠勇敢的性格，而是身体本身的特征。不过，失去尾巴会消耗能量，再长出一条也需要时间。",
+    "莱拉用岛上的一句俗语结束讲解：“舍小保大。”这样的俗语是岛上文化的一部分，而野生动物观赏游则支撑着岛上的经济。游客明白了，不应为了看得更清楚而抓住野生动物。活动的模型能让人学到同样的知识，却不必让活生生的动物付出代价。"
+  ],
+  "q": [
+    {
+      "s": "In the museum game, players usually choose the target with greater movement.",
+      "a": "T",
+      "why": "多数玩家瞄准动得更明显的目标。"
+    },
+    {
+      "s": "A lost tail takes six weeks to grow back.",
+      "a": "NG",
+      "why": "只说再生需要时间，未说明具体周数。"
+    },
+    {
+      "s": "Visitors are taught to grab wild animals to get a closer look.",
+      "a": "F",
+      "why": "末段明确说游客学到不应抓取野生动物。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0046",
+  "ids": [
+    "believe",
+    "train",
+    "paper",
+    "if",
+    "big",
+    "hand",
+    "yellow",
+    "rich",
+    "know",
+    "cousin"
+  ],
+  "title": "A Camera by the Bird Box",
+  "titleZh": "鸟巢箱旁的相机",
+  "topic": "technology",
+  "cefr": 0,
+  "paras": [
+    "Monday, 8 May. My [[cousin|cousin]] Lina and I are in the garden by the railway. We are watching a bird box in an apple tree. A [[rich|rich]] man gave us a small camera last week. Now it sits near the box. It takes a picture [[if|if]] something moves. We can also watch the birds on a phone. The phone shows the view from the camera. We want to [[know|know]] when the birds come home. We sit under another tree and wait.",
+    "At nine, a [[train|train]] goes past the garden. It makes a [[big|big]] noise. A little bird with a [[yellow|yellow]] head flies away from the box. I write the time on a piece of [[paper|paper]]. Lina holds the phone in her left [[hand|hand]]. We can see the hole in the box on its screen. I [[believe|believe]] the bird will come back soon, but Lina is not sure.",
+    "At ten past nine, the bird comes back with food. It stops at the hole and looks inside. Then it goes in. The camera takes three pictures. We look at them together. There is food in the bird's mouth in the first picture. I write down the time again. Then we take our notes and leave quietly."
+  ],
+  "zh": [
+    "5月8日，星期一。我和堂表亲莉娜在铁路旁的花园里。我们正在观察苹果树上的一个鸟巢箱。上周，一位富有的男士送给我们一台小相机。现在，相机就放在鸟巢箱附近。如果有东西移动，它就会拍照。我们也可以用一部手机看鸟。手机显示相机拍到的画面。我们想知道鸟儿什么时候回家。我们坐在另一棵树下等待。",
+    "九点，一列火车从花园旁驶过，发出很大的声响。一只黄色脑袋的小鸟从鸟巢箱飞走了。我把时间写在一张纸上。莉娜左手拿着手机。我们可以在手机屏幕上看到鸟巢箱的洞口。我相信小鸟很快就会回来，但莉娜不太确定。",
+    "九点十分，小鸟带着食物回来了。它停在洞口，朝里面看了看，然后钻了进去。相机拍了三张照片。我们一起查看照片。第一张照片里，小鸟嘴里叼着食物。我又记下了时间。然后我们带着记录悄悄离开。"
+  ],
+  "q": [
+    {
+      "s": "Lina and her cousin bought the camera.",
+      "a": "F",
+      "why": "相机是一位男士送给他们的，不是买的。"
+    },
+    {
+      "s": "The phone belongs to Lina.",
+      "a": "NG",
+      "why": "只说莉娜拿着手机，未说明手机归谁。"
+    },
+    {
+      "s": "The bird comes back at ten past nine.",
+      "a": "T",
+      "why": "第三段明确说小鸟九点十分回来。"
+    }
+  ]
+}

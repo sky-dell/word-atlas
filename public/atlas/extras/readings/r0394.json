@@ -1,0 +1,48 @@
+{
+  "id": "r0394",
+  "ids": [
+    "convinced",
+    "contemporary",
+    "solo",
+    "arabian",
+    "whisper",
+    "gravel",
+    "curriculum",
+    "welfare",
+    "offensive",
+    "territory"
+  ],
+  "title": "Listening at the Desert Spring",
+  "titleZh": "沙漠泉边的聆听",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "At first light, our team reached a spring in the [[arabian|Arabian]] mountains, within Oman's [[territory|territory]]. A narrow path covered with [[gravel|gravel]] ended beside a pool shaded by wild figs. We had come to record how birds used this small water source during the driest month of the year.",
+    "Before leaving camp, I had listened through headphones to a flute [[solo|solo]] by a [[contemporary|contemporary]] composer. Beside the spring, however, the sounds were less predictable: wings brushed leaves, and falling drops struck several different notes. Our guide, Salma, [[whisper|whispered]] that we should sit behind a low rock rather than approach the water. Within minutes, three small birds landed.",
+    "By seven, I was [[convinced|convinced]] that our position mattered more than our recording equipment. Whenever someone stood up, the birds retreated into the branches. Salma wanted this observation included in the [[curriculum|curriculum]] for new field guides. She also explained that the spring supported nearby households. Protecting it therefore concerned human [[welfare|welfare]], not simply wildlife. Leaving food scraps here would be [[offensive|offensive]] to families who regarded the water as a precious shared resource.",
+    "We stayed until sunlight reached the pool's edge, noting each visit without moving closer. On the walk back, our recordings seemed almost empty compared with the music I had heard earlier. They captured brief splashes and wingbeats between long silences, but could not tell us how the birds would have behaved without us there."
+  ],
+  "zh": [
+    "天刚亮，我们的小队便抵达阿曼境内、阿拉伯半岛山区的一处泉水。一条铺着碎石的窄路通向水潭，野生无花果树为潭水遮阴。我们此行是为了记录，在一年中最干旱的月份，鸟类如何利用这处小小的水源。",
+    "离开营地前，我戴着耳机听了一位当代作曲家创作的长笛独奏曲。然而，泉边的声音却难以预料：翅膀擦过树叶，水滴落下，敲出几种不同的音调。向导萨尔玛低声提醒我们，应该坐在一块矮岩石后面，不要靠近水面。几分钟内，三只小鸟便落了下来。",
+    "到七点时，我已经确信，我们所处的位置比录音设备更重要。每当有人站起来，鸟儿就退回枝头。萨尔玛希望把这一观察结果纳入新向导的培训课程。她还解释说，附近的住户也依靠这处泉水生活。因此，保护它不仅关乎野生动物，也关乎人们的福祉。对于那些将泉水视为珍贵共有资源的家庭来说，在这里留下食物残渣会令他们反感。",
+    "我们一直待到阳光照到水潭边缘，记录鸟儿的每一次到访，没有再靠近。回程路上，与我先前听过的音乐相比，这些录音听起来几乎空无一物。录音捕捉到了长长的寂静之间短促的水花声和振翅声，却无法告诉我们，如果我们不在场，鸟儿会如何行动。"
+  ],
+  "q": [
+    {
+      "s": "The team reached the spring after sunset.",
+      "a": "F",
+      "why": "小队在天刚亮时抵达，而非日落后。"
+    },
+    {
+      "s": "The composer of the flute solo had visited the spring.",
+      "a": "NG",
+      "why": "未说明作曲家是否到访过这处泉水。"
+    },
+    {
+      "s": "The birds retreated into the branches whenever someone stood up.",
+      "a": "T",
+      "why": "第三段明确说明有人站起时鸟就退回枝头。"
+    }
+  ]
+}

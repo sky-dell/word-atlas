@@ -1,0 +1,46 @@
+{
+  "id": "r0102",
+  "ids": [
+    "electricity",
+    "product",
+    "zebra",
+    "shampoo",
+    "lab",
+    "surprised",
+    "heater",
+    "lawyer",
+    "store",
+    "wheel"
+  ],
+  "title": "A Zebra in the Shop Window",
+  "titleZh": "商店橱窗里的斑马",
+  "topic": "thinking",
+  "cefr": 1,
+  "paras": [
+    "Mina wanted to know whether a strange picture could help people remember a [[product|product]]. She worked in a small [[lab|lab]] above a food shop. For her experiment, she drew two pictures of a [[store|store]] window. Both showed the same bottle of [[shampoo|shampoo]], with its name clearly written on it. In one picture, a [[zebra|zebra]] stood beside the bottle. The other picture showed only the bottle.",
+    "Twenty-four adults came to take part, including a cook and a [[lawyer|lawyer]]. Mina put twelve people in each group. Each group looked at one picture for twenty seconds. Then everyone spent five minutes reading a simple story about a man fixing a bicycle [[wheel|wheel]]. The room was cold because the [[heater|heater]] was broken, although the lights and other things using [[electricity|electricity]] worked. Both groups sat in this same room.",
+    "Finally, Mina asked everyone to write the name on the bottle without looking back. Nine people who saw the animal remembered it correctly. Only four people in the other group did. Mina was [[surprised|surprised]] by the difference. Her small test suggested that an unusual picture could help a name stay in people's minds. She planned to repeat the test with more people before giving advice to shop owners."
+  ],
+  "zh": [
+    "米娜想知道，一张奇怪的图片是否能帮助人们记住一种产品。她在一家食品店楼上的小实验室工作。为了做实验，她画了两张商店橱窗的图片。两张图上都有同一瓶洗发水，瓶子上清楚地写着名字。其中一张图里，一匹斑马站在瓶子旁边。另一张图上只有瓶子。",
+    "二十四名成年人前来参加实验，其中有一位厨师和一位律师。米娜把他们分成两组，每组十二人。每组看一张图片，时间为二十秒。随后，所有人花五分钟读了一篇简单的故事，内容是一个男人修理自行车车轮。房间里很冷，因为取暖器坏了，不过灯和其他用电设备都能正常工作。两组人都坐在这个房间里。",
+    "最后，米娜请所有人在不回看图片的情况下写出瓶子上的名字。看过动物图片的人中，有九人正确记住了名字。另一组只有四人答对。米娜对这个差别感到惊讶。这个小实验表明，不寻常的图片可能有助于人们记住一个名字。她计划让更多人参加，重复这个实验，然后再向店主们提供建议。"
+  ],
+  "q": [
+    {
+      "s": "Mina used coloured pencils to draw the pictures.",
+      "a": "NG",
+      "why": "文中未说明米娜用什么工具画图。"
+    },
+    {
+      "s": "Mina put twenty-four people in each group.",
+      "a": "F",
+      "why": "共二十四人，每组十二人。"
+    },
+    {
+      "s": "Nine people in the zebra group remembered the name correctly.",
+      "a": "T",
+      "why": "看过动物图片的组有九人正确记住名字。"
+    }
+  ]
+}

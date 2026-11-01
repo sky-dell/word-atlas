@@ -1,0 +1,48 @@
+{
+  "id": "r0229",
+  "ids": [
+    "goose",
+    "informal",
+    "salmon",
+    "turkey",
+    "tape-recording",
+    "unknown",
+    "accent",
+    "windmill",
+    "percentage",
+    "guilty"
+  ],
+  "title": "Why Familiar Sounds Enter Dreams",
+  "titleZh": "熟悉的声音为何进入梦中",
+  "topic": "health",
+  "cefr": 2,
+  "paras": [
+    "During sleep, the brain does not completely shut out the world. Sounds can sometimes enter dreams, but they often appear in surprising forms. A bird calling outside might become a [[goose|goose]] beside a river. The exact reason why one sound enters a dream while another does not is still [[unknown|unknown]].",
+    "Dreams also draw on memories. Imagine someone who spent an afternoon at an old [[windmill|windmill]], where turning sails once powered machines that ground grain. At an [[informal|informal]] lunch nearby, the family shared [[salmon|salmon]] sandwiches while a [[turkey|turkey]] wandered around the garden. That night, pieces of the visit might return, mixed into a new story rather than repeated exactly.",
+    "A familiar voice can provide another link. If a [[tape-recording|tape-recording]] of a grandmother speaking plays near the sleeper, her [[accent|accent]] might become part of a dream conversation. However, there is no fixed [[percentage|percentage]] of outside sounds that everyone includes in dreams. The result depends partly on how deeply the person is sleeping.",
+    "Feelings help shape these night stories too. Someone who knows they are [[guilty|guilty]] of stealing a friend's lunch might dream of being caught. Such a dream does not predict the future. Instead, it shows how the sleeping brain can bring together sounds, memories and worries, creating a private story from ordinary life."
+  ],
+  "zh": [
+    "睡眠时，大脑并不会完全隔绝外界。声音有时会进入梦境，但往往以出人意料的形式出现。窗外的鸟叫声可能变成梦中河边的一只鹅。为什么某个声音会进入梦境，而另一个不会，其确切原因仍然未知。",
+    "梦也会利用记忆。想象一下，有个人在一座古老的风车磨坊度过了一个下午。那里转动的风车叶片曾带动机器磨谷物。一家人在附近轻松地吃午餐，分享着三文鱼三明治，一只火鸡则在花园里四处走动。当晚，这次游玩的片段可能再次出现，却被混合成一个新故事，而不是原样重现。",
+    "熟悉的声音还能建立另一种联系。如果在睡着的人附近播放一位奶奶或外婆说话的磁带录音，她的口音可能会成为梦中对话的一部分。不过，外界声音进入梦境的百分比并没有一个适用于所有人的固定数值。结果部分取决于这个人睡得有多深。",
+    "情绪也会影响这些夜间故事。一个知道自己偷了朋友午餐、做错了事的人，可能会梦见自己被抓住。这样的梦并不是在预测未来。相反，它表明，睡眠中的大脑能够把声音、记忆和忧虑结合起来，用日常生活中的素材编出一个只属于自己的故事。"
+  ],
+  "q": [
+    {
+      "s": "Memories of a daytime outing may appear in dreams in a changed form.",
+      "a": "T",
+      "why": "第二段说游玩片段会混合成新故事。"
+    },
+    {
+      "s": "Every sleeper includes the same proportion of surrounding sounds in their dreams.",
+      "a": "F",
+      "why": "第三段说没有适用于所有人的固定百分比。"
+    },
+    {
+      "s": "Dreams about being caught usually wake people immediately.",
+      "a": "NG",
+      "why": "末段未提及这种梦是否会让人立即醒来。"
+    }
+  ]
+}

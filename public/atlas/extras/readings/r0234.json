@@ -1,0 +1,48 @@
+{
+  "id": "r0234",
+  "ids": [
+    "package",
+    "loan",
+    "brunch",
+    "forbidden",
+    "eventually",
+    "fault",
+    "parcel",
+    "mud",
+    "phrase",
+    "upset"
+  ],
+  "title": "The Guesthouse with Muddy Boots",
+  "titleZh": "沾满泥巴的靴子，成了旅馆的招牌",
+  "topic": "travel",
+  "cefr": 2,
+  "paras": [
+    "A small guesthouse in the hills is attracting visitors for an unusual reason: cleaning walking boots. Owner Amira took out a [[loan|loan]] to repair the building two years ago. She expected guests to enjoy the views, but a simple evening activity has become the main attraction.",
+    "It began when a [[fault|fault]] in the boot dryer left six pairs wet overnight. Some walkers were [[upset|upset]] because they needed dry boots the next morning. Amira brought brushes, cloths and newspaper into the garden room. Everyone worked together, removing [[mud|mud]] and sharing stories. They [[eventually|eventually]] finished after two hours, and several asked to do it again.",
+    "Now guests can send a [[parcel|parcel]] containing their walking boots before their stay. Amira opens each [[package|package]] and puts the boots on a wooden shelf. After a morning walk and a late [[brunch|brunch]], visitors learn to clean and care for them. Strong cleaning chemicals are [[forbidden|forbidden]] because the dirty water is used in a small garden.",
+    "The [[phrase|phrase]] “a holiday for your boots” appears on the guesthouse website. Surprisingly, some visitors book a second stay just for the cleaning sessions. Amira thinks the attraction is not really footwear. Around the table, strangers have something useful to do together, so conversation starts naturally. Clean boots are simply a pleasant extra."
+  ],
+  "zh": [
+    "山里的一家小旅馆正因一个不同寻常的原因吸引游客：清洗徒步靴。店主阿米拉两年前借了一笔贷款来修缮房屋。她本以为客人会喜欢这里的风景，没想到一项简单的晚间活动却成了最大的吸引力。",
+    "事情起源于靴子烘干机的一次故障，六双靴子因此湿了一整夜。一些徒步游客很心烦，因为第二天早上还需要穿干燥的靴子。阿米拉把刷子、布和报纸拿进花园旁的房间。大家一起动手，一边清除泥巴，一边分享故事。两小时后，他们终于忙完了，还有几个人提出想再体验一次。",
+    "现在，客人可以在入住前把徒步靴装进邮包寄来。阿米拉会打开每个包裹，把靴子放在木架上。早晨散步并享用一顿较晚的早午餐后，游客便开始学习如何清洁和保养靴子。这里禁止使用强效化学清洁剂，因为清洗后的水会用来浇灌一个小花园。",
+    "旅馆网站上出现了“让你的靴子度个假”这句话。令人惊讶的是，有些游客再次预订住宿，就是为了参加清洁活动。阿米拉认为，真正吸引人的并不是鞋靴。陌生人围坐在桌旁，一起做些有用的事，交谈便自然而然地开始了。干净的靴子只是一份令人愉快的额外收获。"
+  ],
+  "q": [
+    {
+      "s": "Amira has finished paying back the loan for the building repairs.",
+      "a": "NG",
+      "why": "文中只说她曾贷款，未说明是否还清。"
+    },
+    {
+      "s": "Guests must arrive at the guesthouse before sending their boots there.",
+      "a": "F",
+      "why": "第三段说客人可在入住前寄来靴子。"
+    },
+    {
+      "s": "Some visitors book another stay just to join the cleaning sessions.",
+      "a": "T",
+      "why": "末段说有些游客再次预订就是为了清洁活动。"
+    }
+  ]
+}

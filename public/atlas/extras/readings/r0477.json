@@ -1,0 +1,48 @@
+{
+  "id": "r0477",
+  "ids": [
+    "physicist",
+    "spectator",
+    "sponsor",
+    "prejudice",
+    "disgraceful",
+    "tragic",
+    "drawback",
+    "specialize",
+    "rip",
+    "flexible"
+  ],
+  "title": "Listening at the Reed Bed",
+  "titleZh": "芦苇荡边的聆听",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "At six on Saturday morning, I joined a small sound-recording team beside the salt marsh. We [[specialize|specialize]] in turning wildlife recordings into outdoor musical performances. Our guest, a [[physicist|physicist]] named Leila, placed two microphones among the reeds to measure how their stems scattered sound. A wren sang nearby, its sharp notes rising above the steady rush of water.",
+    "By noon, wind had begun to [[rip|rip]] the paper labels from our cables. The wind also exposed the main [[drawback|drawback]] of recording here: even a light breeze could hide quieter calls. Our timetable was [[flexible|flexible]], so we postponed the performance until evening. The project's [[sponsor|sponsor]], a local pottery workshop, had supplied waterproof covers, which protected the equipment during a brief shower.",
+    "While checking the bank, we found a dead heron tangled in discarded fishing line. It was a [[tragic|tragic]] discovery beside such lively water. Leila called the careless disposal of line [[disgraceful|disgraceful]], and we noted the location for the reserve keeper. The sight challenged my own [[prejudice|prejudice]] against marshes as dull, empty places: every metre held lives I had barely noticed.",
+    "At dusk, our first [[spectator|spectator]] settled on a folding chair above the bank. Others followed quietly. We played a short composition made entirely from that morning's recordings, leaving pauses for live birds to answer. When the speakers fell silent, nobody immediately applauded. A hidden wren delivered three bright phrases, and for a moment the boundary between performance and landscape disappeared."
+  ],
+  "zh": [
+    "周六清晨六点，我在盐沼边加入了一支小型录音队。我们专门将野生动物的录音制作成户外音乐演出。受邀同行的物理学家莱拉把两支麦克风放进芦苇丛，测量苇秆如何散射声音。附近一只鹪鹩正在鸣唱，清脆的音符盖过了持续不断的流水声。",
+    "到了中午，风开始把纸标签从电缆上扯下来。风也暴露了在此录音的主要不利之处：即使微风也可能掩盖较轻的鸟鸣。我们的时间安排可以调整，于是将演出推迟到傍晚。项目的赞助方是一家当地陶艺作坊，他们提供的防水罩在一场短暂的阵雨中保护了设备。",
+    "查看岸边时，我们发现一只死去的苍鹭，身上缠着被丢弃的钓鱼线。在这片生机勃勃的水域旁，这一发现令人悲痛。莱拉说，随意丢弃钓鱼线的行为实在可耻，我们记下了位置，准备告知保护区管理员。眼前的景象动摇了我对沼泽的成见：我曾以为这里单调空旷，实际上，每一米土地上都有我几乎从未留意过的生命。",
+    "黄昏时，第一位观众在岸边高处的一把折叠椅上坐下，其他人也安静地陆续到来。我们播放了一首完全用当天早晨的录音制作的短曲，并在曲中留出停顿，让现场的鸟儿回应。音箱安静下来时，没有人立刻鼓掌。一只隐在视线之外的鹪鹩唱出了三个明亮的乐句。那一刻，演出与自然景观之间的界限消失了。"
+  ],
+  "q": [
+    {
+      "s": "Leila placed the microphones to measure reed growth rather than sound scattering.",
+      "a": "F",
+      "why": "她放置麦克风是为测量苇秆如何散射声音。"
+    },
+    {
+      "s": "The team delayed the performance until evening.",
+      "a": "T",
+      "why": "第二段明确说明演出推迟至傍晚。"
+    },
+    {
+      "s": "Most of the evening audience had attended the team's previous performances.",
+      "a": "NG",
+      "why": "末段未说明观众是否看过该团队此前的演出。"
+    }
+  ]
+}

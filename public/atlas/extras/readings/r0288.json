@@ -1,0 +1,48 @@
+{
+  "id": "r0288",
+  "ids": [
+    "apart",
+    "expert",
+    "alike",
+    "celebration",
+    "triangle",
+    "vinegar",
+    "chart",
+    "chilly",
+    "talent",
+    "bounce"
+  ],
+  "title": "Eggs That Brought Families Together",
+  "titleZh": "让家人团聚的彩蛋",
+  "topic": "emotion",
+  "cefr": 2,
+  "paras": [
+    "By the nineteenth century, rolling coloured eggs down grassy hills was a familiar Easter custom in parts of Britain. It turned an ordinary food into the centre of a spring [[celebration|celebration]]. For relatives who lived far [[apart|apart]], the outing was also a chance to meet after the long winter.",
+    "Preparations began in the kitchen. Families boiled eggs with onion skins to give the shells a warm brown colour. A little [[vinegar|vinegar]] helped the colour stay on. No two eggs looked exactly [[alike|alike]]. Children with a [[talent|talent]] for drawing added patterns, perhaps a leaf or a [[triangle|triangle]], so they could recognise their own eggs on the hill.",
+    "On Easter morning, even [[chilly|chilly]] weather did not always stop the fun. Everyone watched the eggs roll, turn and sometimes [[bounce|bounce]] after hitting a stone. Rules varied from place to place: in some games, the winner's egg travelled furthest; in others, it survived without breaking. A simple [[chart|chart]] could record the results when several families played together.",
+    "Today, a museum [[expert|expert]] may study old photographs of these outings to understand how people spent their holidays. Yet the photographs tell another story too. Behind the eggs are smiling cousins and grandparents sharing food. The game mattered, but being together was often the greater pleasure."
+  ],
+  "zh": [
+    "到了十九世纪，在英国部分地区，让彩蛋沿着草坡滚下已经是一项常见的复活节习俗。它让一种普通食物成了春日庆祝活动的主角。对于住得相距很远的亲人来说，这次出游也是漫长冬季过后的一次团聚机会。",
+    "准备工作从厨房开始。家人把鸡蛋和洋葱皮一起煮，让蛋壳染上温暖的棕色。加一点醋能帮助颜色附着在蛋壳上。没有哪两枚鸡蛋看起来完全一样。有绘画天赋的孩子会添上图案，比如一片叶子或一个三角形，这样到了山坡上，他们就能认出自己的鸡蛋。",
+    "复活节早晨，即使天气有些寒冷，也未必能挡住大家玩耍的兴致。所有人看着鸡蛋滚动、转向，有时撞上石头后还会弹起来。各地的规则不同：有的比谁的鸡蛋滚得最远，有的则看谁的鸡蛋没有破。当几个家庭一起玩时，可以用一张简单的图表记录结果。",
+    "如今，博物馆的专家可能会研究这些出游活动的老照片，了解过去的人们怎样度过节日。不过，照片也讲述着另一个故事：彩蛋后面，是面带笑容的堂表兄弟姐妹，以及分享食物的祖父母。游戏固然重要，但团聚往往带来了更大的快乐。"
+  ],
+  "q": [
+    {
+      "s": "Families boiled the eggs with onion skins for twenty minutes.",
+      "a": "NG",
+      "why": "文章说明用洋葱皮煮蛋，但未提供煮蛋时长。"
+    },
+    {
+      "s": "All the coloured eggs looked exactly the same.",
+      "a": "F",
+      "why": "第二段明确说没有两枚鸡蛋看起来完全一样。"
+    },
+    {
+      "s": "The rules of egg-rolling games differed between places.",
+      "a": "T",
+      "why": "第三段明确说明各地的比赛规则不同。"
+    }
+  ]
+}

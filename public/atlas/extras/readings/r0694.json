@@ -1,0 +1,48 @@
+{
+  "id": "r0694",
+  "ids": [
+    "rampant",
+    "refine",
+    "obsess",
+    "practitioner",
+    "ferocious",
+    "turbulent",
+    "negate",
+    "unanimous",
+    "token",
+    "hiss"
+  ],
+  "title": "Life Behind the Old Laundry",
+  "titleZh": "旧洗衣房后的生机",
+  "topic": "city",
+  "cefr": 4,
+  "paras": [
+    "At dawn, I entered the courtyard behind a disused city laundry, where a leaking pipe sustained a shallow pond. Duckweed was [[rampant|rampant]], sealing almost the entire surface beneath a green film. For three weeks, one question had begun to [[obsess|obsess]] me: how could the dragonfly larvae recorded here last autumn survive in water that appeared so thoroughly suffocated?",
+    "Working with Leila, a [[practitioner|practitioner]] of ecological restoration, I began to [[refine|refine]] my sampling method. Rather than sweeping a net through the vegetation, we lowered clear jars beside individual stems. Above us, nesting gulls would [[hiss|hiss]] whenever we approached their drainpipe; their [[ferocious|ferocious]] defence kept us against the opposite wall, where an unexpected ribbon of open water caught the light.",
+    "The courtyard had endured a [[turbulent|turbulent]] spring: rival owners disputed access, contractors arrived without warning, and proposed demolition dates repeatedly changed. Yet the pipe continued dripping. Our measurements suggested that its modest flow might [[negate|negate]] some effects of the dense plant cover by maintaining a narrow, oxygenated refuge. Within this strip, three larvae clung to submerged brickwork, barely distinguishable from sediment.",
+    "By noon, our four-person survey team was [[unanimous|unanimous]] that clearance should wait until the larvae emerged. Beside the outlet, I found a brass [[token|token]] once used to operate the laundry's washing machines, its value stamped beneath a crust of lime. I placed it beside my ruler for the final photograph. Behind it, a larva climbed towards the air: a small departure from a place still awaiting its future."
+  ],
+  "zh": [
+    "黎明时，我走进城里一间废弃洗衣房后面的院子，一根漏水的管道在这里维持着一汪浅池。浮萍肆意蔓延，几乎给整个水面封上了一层绿膜。三周来，一个问题开始萦绕在我脑中，挥之不去：去年秋天在此记录到的蜻蜓幼虫，怎能在看似如此缺氧的水中存活？",
+    "我与从事生态修复的莱拉合作，开始逐步改进取样方法。我们不再用网扫过水生植物，而是将透明罐子放到一根根茎秆旁边。头顶上筑巢的鸥鸟，每当我们靠近它们占据的排水管，就会发出嘶嘶声；它们凶猛的防卫迫使我们贴着对面的墙行动。正是在那里，一条意想不到的、没有浮萍覆盖的狭长水面映出了亮光。",
+    "这座院子刚经历了一个动荡的春天：相互对立的业主争夺出入权，施工人员不打招呼便突然进场，拟定的拆除日期也一改再改。然而，水管一直滴着水。我们的测量表明，这股微弱的水流或许维持了一条狭窄而富氧的庇护带，从而抵消了部分植物密集覆盖所带来的影响。在这条水带中，三只幼虫紧附在水下的砖面上，几乎与泥沙融为一体。",
+    "到中午，我们四人调查小组一致认为，清理工作应当等到幼虫羽化之后再进行。在出水口旁，我找到了一枚曾用于启动洗衣机的黄铜代币，标明面值的印记藏在一层水垢下面。我把它放在尺子旁，拍下最后一张照片。在它后方，一只幼虫正向水面之上攀爬：一个小小的生命，即将离开这处仍在等待自身未来的地方。"
+  ],
+  "q": [
+    {
+      "s": "At dawn, most of the pond’s surface was free of duckweed.",
+      "a": "F",
+      "why": "首段说浮萍几乎覆盖了整个水面。"
+    },
+    {
+      "s": "Leila had worked in ecological restoration for more than ten years.",
+      "a": "NG",
+      "why": "文章说明莱拉的职业，但未交代从业年限。"
+    },
+    {
+      "s": "All four survey team members agreed that clearance should wait until the larvae emerged.",
+      "a": "T",
+      "why": "末段明确说四人小组对此一致同意。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0093",
+  "ids": [
+    "reader",
+    "education",
+    "career",
+    "lonely",
+    "puppy",
+    "style",
+    "taste",
+    "jump",
+    "record",
+    "assistant"
+  ],
+  "title": "A New Page for Willow Street",
+  "titleZh": "柳树街报的新一页",
+  "topic": "media",
+  "cefr": 1,
+  "paras": [
+    "Mina made a small newspaper for Willow Street. Every Friday, she left fifty copies at the bakery, but few people took one. Her [[assistant|assistant]], Rafael, asked a regular [[reader|reader]] what was wrong. “There are too many dates and notices,” the woman said. “I want to read about the people behind these doors.” Mina decided to try a different [[style|style]]: one page about a neighbour each week.",
+    "Their first visit was to Mr Chen, a retired cook. He felt [[lonely|lonely]] because his family lived far away. At first, he had little to say. Then his new [[puppy|puppy]] tried to [[jump|jump]] onto Rafael's chair, and everyone laughed. Mr Chen began talking about his [[career|career]] in a busy hotel kitchen. His [[education|education]] as a cook began with lessons from his aunt. He still kept a [[record|record]] of her recipes in a brown notebook. He made them soup, and Mina loved its fresh lemon [[taste|taste]].",
+    "With his permission, Mina printed his story and soup recipe. By Friday afternoon, every copy was gone. Three neighbours asked Mr Chen to show them how to make the soup. The next week, they cooked together in his kitchen. Mina had found stories people wanted, and Mr Chen had found company."
+  ],
+  "zh": [
+    "米娜为柳树街制作一份小报。每周五，她都会在面包店放五十份，但很少有人拿走。她的助手拉斐尔问一位经常看报的读者，问题出在哪里。那位女士说：“日期和通知太多了。我想读读这些门后住着的人。”米娜决定尝试一种不同的风格：每周用一页介绍一位邻居。",
+    "他们首先拜访了退休厨师陈先生。他的家人住得很远，所以他感到孤独。起初，他没什么话可说。后来，他新养的小狗想跳上拉斐尔的椅子，大家都笑了。陈先生开始谈起自己在一家繁忙酒店的厨房里工作的职业经历。他最初跟着一位姑姨辈的长辈学做菜。他至今还保留着一本棕色笔记本，里面记录着这位长辈的食谱。他给两人做了汤，米娜很喜欢汤里清新的柠檬味。",
+    "征得陈先生同意后，米娜刊登了他的故事和汤的食谱。到周五下午，报纸全被拿走了。三位邻居请陈先生教他们做这道汤。接下来的一周，他们一起在他的厨房里做饭。米娜找到了大家想看的故事，陈先生也有了陪伴。"
+  ],
+  "q": [
+    {
+      "s": "The woman thought the newspaper had too few notices.",
+      "a": "F",
+      "why": "女读者说日期和通知太多，而非太少。"
+    },
+    {
+      "s": "Mr Chen kept his aunt's recipes in a brown notebook.",
+      "a": "T",
+      "why": "第二段明确说棕色笔记本记录着她的食谱。"
+    },
+    {
+      "s": "The neighbours paid Mr Chen for his cooking lesson.",
+      "a": "NG",
+      "why": "文章未说明邻居是否支付了学费。"
+    }
+  ]
+}

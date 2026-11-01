@@ -1,0 +1,48 @@
+{
+  "id": "r0451",
+  "ids": [
+    "texture",
+    "initial",
+    "carbohydrates",
+    "exterior",
+    "imaginative",
+    "recovery",
+    "elsewhere",
+    "harm",
+    "poultry",
+    "peculiar"
+  ],
+  "title": "A Woodland Patient’s Hidden Dining Room",
+  "titleZh": "林中小病号的隐蔽餐厅",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "When wildlife carer Leila found a young hedgehog trapped beneath a fallen fence, one back leg was injured. She brought it to her woodland rescue centre, where a vet treated the wound. Her [[initial|initial]] concern was the injury, but after two nights, a more urgent problem appeared: the animal was barely eating.",
+    "Leila offered suitable food containing cooked [[poultry|poultry]], rather than bread or sweet foods rich in [[carbohydrates|carbohydrates]]. Yet each morning the dish remained almost full. She changed the [[texture|texture]] by softening the food with water, without success. Further weight loss could cause serious [[harm|harm]] and delay its [[recovery|recovery]], so she installed a small night camera beside the enclosure.",
+    "The recording revealed a [[peculiar|peculiar]] pattern. The hedgehog approached the dish repeatedly but retreated whenever it reached the open feeding area. It moved confidently [[elsewhere|elsewhere]], particularly beneath branches. Leila suspected that the exposed position, rather than the meal itself, was the difficulty. Her [[imaginative|imaginative]] solution was a miniature dining shelter made from a hollow log. She cleaned its interior, left the rough [[exterior|exterior]] unchanged, and placed the dish inside.",
+    "That night, the hedgehog ate most of its meal. Over the following fortnight, it gained weight and began using its injured leg normally. Once the vet approved its release, Leila returned it near the repaired fence. The log shelter remained at the centre."
+  ],
+  "zh": [
+    "野生动物护理员莱拉发现一只小刺猬被困在倒塌的围栏下面时，它的一条后腿已经受伤。她把它带到自己的林地救护中心，请兽医处理了伤口。起初，她担心的是腿伤，但两晚过后，一个更紧迫的问题出现了：这只刺猬几乎不吃东西。",
+    "莱拉提供了含有熟禽肉的合适食物，而不是面包或富含碳水化合物的甜食。然而，每天早上，食盆里的食物几乎都没动。她加水把食物泡软，改变其质地，却依然没有效果。体重继续下降可能造成严重伤害，拖延康复，因此她在围栏内的活动区旁安装了一台小型夜间摄像机。",
+    "录像显示出一种奇怪的行为模式。刺猬反复靠近食盆，却每次一到开阔的喂食区就退了回去。它在其他地方活动自如，尤其是在树枝下面。莱拉怀疑，问题在于食物摆放的位置缺乏遮蔽，而不是食物本身。她想出了一个有创意的办法：用一截空心原木做成微型用餐庇护所。她清理了内部，保留粗糙的外表，然后把食盆放了进去。",
+    "那天晚上，刺猬吃掉了大部分食物。接下来的两周，它体重增加，受伤的腿也开始恢复正常活动。兽医同意放归后，莱拉把它送回修好的围栏附近。原木庇护所留在了救护中心。"
+  ],
+  "q": [
+    {
+      "s": "The hedgehog's failure to eat enough became a more urgent concern than its leg injury.",
+      "a": "T",
+      "why": "两晚后，几乎不进食成了更紧迫的问题。"
+    },
+    {
+      "s": "Making the food softer encouraged the hedgehog to eat.",
+      "a": "F",
+      "why": "文中说加水泡软食物并未奏效。"
+    },
+    {
+      "s": "Leila later built similar feeding shelters for other rescue centres.",
+      "a": "NG",
+      "why": "只提到原木留在中心，未提为其他中心制作。"
+    }
+  ]
+}

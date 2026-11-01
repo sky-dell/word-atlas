@@ -1,0 +1,48 @@
+{
+  "id": "r0056",
+  "ids": [
+    "glasses",
+    "special",
+    "plant",
+    "meat",
+    "swimming",
+    "grass",
+    "teach",
+    "switzerland",
+    "carry",
+    "hair"
+  ],
+  "title": "Plants Come to the Picnic",
+  "titleZh": "带着植物去野餐",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "In a small town in [[switzerland|Switzerland]], people bring something surprising to Sunday picnics: a [[plant|plant]]. The first picnic had four people and four pots. Now about twenty people come each week. They meet on the [[grass|grass]] beside a lake. Their green guests sit with them, but these guests do not eat.",
+    "Mina started this [[special|special]] picnic in May. She has short black [[hair|hair]] and wears red [[glasses|glasses]]. She lives alone, and her room has many pots. \"I wanted to meet people near my home,\" she says. \"So I put a table outside with one green friend. Two women stopped to talk. Next week, they came back with their own pots.\"",
+    "The picnic is not only for people with big gardens. Some visitors have just one small pot by a window. They [[carry|carry]] their pots in bags or boxes. People bring bread, fruit and cold [[meat|meat]] to share. There is no shop at the picnic, and nobody sells anything. The plants are there to help people start talking.",
+    "After lunch, some people enjoy [[swimming|swimming]] in the lake. Others stay on the bank and [[teach|teach]] new friends how to look after their green guests. They show them when to add water. At five, everyone takes their pots home. Mina's table is empty again, but she now has friends to visit during the week."
+  ],
+  "zh": [
+    "在瑞士的一个小镇，人们参加星期日野餐时，会带上一样令人意想不到的东西：一盆植物。第一次野餐只有四个人和四盆植物。现在，每周大约有二十人参加。他们在湖边的草地上相聚。他们的绿色客人也坐在一起，只是这些客人不吃东西。",
+    "米娜在五月发起了这个特别的野餐活动。她留着黑色短发，戴着红色眼镜。她独自生活，房间里有许多盆栽。“我想认识住在附近的人，”她说，“所以我在外面摆了一张桌子，带上了一位绿色朋友。两位女士停下来聊天。第二周，她们带着自己的盆栽回来了。”",
+    "这个野餐活动不只是为有大花园的人准备的。有些来客只有窗边的一盆小植物。他们用袋子或箱子把盆栽带来。大家带来面包、水果和冷肉一起分享。野餐现场没有商店，也没有人卖东西。植物的作用是帮助大家打开话题。",
+    "午饭后，有些人在湖里游泳。其他人留在岸边，教新朋友如何照顾他们的绿色客人。他们向朋友演示什么时候该浇水。五点钟，大家带着盆栽回家。米娜的桌子又空了，但现在，她在一周里的其他日子也有朋友可以去拜访了。"
+  ],
+  "q": [
+    {
+      "s": "About twenty people now come to the picnic each week.",
+      "a": "T",
+      "why": "文章明确说现在每周约有二十人参加。"
+    },
+    {
+      "s": "Mina has ten pots in her room.",
+      "a": "NG",
+      "why": "文章只说她房间里有许多盆栽，未说具体数量。"
+    },
+    {
+      "s": "People sell plants at the picnic.",
+      "a": "F",
+      "why": "文章明确说野餐现场没有人卖东西。"
+    }
+  ]
+}

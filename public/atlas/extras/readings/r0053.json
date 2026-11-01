@@ -1,0 +1,46 @@
+{
+  "id": "r0053",
+  "ids": [
+    "purple",
+    "bottle",
+    "june",
+    "turn",
+    "piece",
+    "pink",
+    "lesson",
+    "garden",
+    "geography",
+    "salt"
+  ],
+  "title": "A Test with Cloth",
+  "titleZh": "一次布料实验",
+  "topic": "history",
+  "cefr": 0,
+  "paras": [
+    "In [[june|June]], Mina visited a small history museum for a [[geography|geography]] [[lesson|lesson]]. The group looked at a map and old clothes from different places. Some clothes had colours made from plants. Mina had a question. Could [[salt|salt]] help these colours stay bright? The teacher did not give her an answer. Instead, they planned a small test with cloth and plant water.",
+    "They got leaves from a red cabbage in the museum [[garden|garden]]. The teacher cooked them in water. The water was [[purple|purple]]. When it was cold, Mina put some in each of two glass [[bottle|bottles]]. She added one spoon of salt to only one. Then she put a white [[piece|piece]] of cloth in each. Both stayed in the water for one hour.",
+    "Mina took the cloth out and put it by a sunny window. Each day, she [[turn|turned]] both bits of cloth so each side got light. After a week, the colour on both was very pale. The salt did not keep the colour bright in this test. Mina wrote about the test in her [[pink|pink]] notebook. She drew the two bottles and put the date under her drawing."
+  ],
+  "zh": [
+    "六月，米娜来到一家小型历史博物馆上一节地理课。大家看了一张地图和来自不同地方的旧衣服。有些衣服的颜色来自植物。米娜有个问题：盐能帮助这些颜色保持鲜艳吗？老师没有回答她的问题，而是和大家一起计划用布和植物煮出的水做一个小实验。",
+    "他们从博物馆的菜园里取来一些紫甘蓝叶子。老师把叶子放进水里煮，水变成了紫色。水凉后，米娜往两个玻璃瓶里分别倒了一些。她只在其中一瓶里加了一勺盐，然后在每个瓶子里放了一块白布。两块布都在水里泡了一个小时。",
+    "米娜取出布，把它们放在一扇有阳光照进来的窗边。她每天都翻动两块布，让每一面都能照到光。一周后，两块布上的颜色都很淡了。在这次实验中，盐没有让颜色保持鲜艳。米娜在她的粉红色笔记本里记录了这个实验。她画了那两个瓶子，并在画的下面写上日期。"
+  ],
+  "q": [
+    {
+      "s": "Mina went to the museum by bus.",
+      "a": "NG",
+      "why": "文章未说明米娜如何去博物馆。"
+    },
+    {
+      "s": "Mina put salt in only one bottle.",
+      "a": "T",
+      "why": "她只在其中一个瓶子里加了一勺盐。"
+    },
+    {
+      "s": "The salt kept the cloth's colour bright in this test.",
+      "a": "F",
+      "why": "原文明说盐在此次实验中未保持颜色鲜艳。"
+    }
+  ]
+}

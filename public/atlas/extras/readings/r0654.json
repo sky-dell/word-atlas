@@ -1,0 +1,48 @@
+{
+  "id": "r0654",
+  "ids": [
+    "esthetic",
+    "inorganic",
+    "desertification",
+    "embark",
+    "cohesion",
+    "conquest",
+    "rivalry",
+    "daze",
+    "criterion",
+    "piggyback"
+  ],
+  "title": "Repairing the Orchard Pump",
+  "titleZh": "修复果园水泵",
+  "topic": "technology",
+  "cefr": 4,
+  "paras": [
+    "Lila's first task with the valley's repair crew was to inspect a wooden pump supplying hillside orchards. Its painted flowers reflected earlier owners' [[esthetic|esthetic]] preferences. With [[desertification|desertification]] threatening nearby farmland, however, the crew prioritised its working parts.",
+    "Before they could [[embark|embark]] on repairs, they had to remove the ceramic cups attached to its chain. Pale deposits of [[inorganic|inorganic]] salts lined their interiors. Lila tested each cleaned cup against one essential [[criterion|criterion]]: could it retain water throughout the ascent? Any cup that leaked was rejected, however attractive its shape. She measured the fittings so replacements would fit the existing chain.",
+    "The repair ledger also contained older accounts of disputes. After the military [[conquest|conquest]] of the valley, access to the main canal had been restricted. [[rivalry|Rivalry]] between orchard owners initially prevented joint repairs. Later entries recorded households sharing timber, rope and labour. To Lila, this suggested growing [[cohesion|cohesion]], though the entries alone could not explain why attitudes had changed. Her grandmother remembered lengthy negotiations over each family's contribution.",
+    "The pump restarted with a sudden clatter that seemed to [[daze|daze]] Lila for a moment. She stepped back while the foreman checked the chain. Her father, watching from the path, recalled giving her a [[piggyback|piggyback]] up that same hill. This time she walked home carrying a cracked cup to show the potter."
+  ],
+  "zh": [
+    "莉拉加入山谷维修队后的第一项任务，是检查一台为山坡果园供水的木制水泵。泵上彩绘的花朵体现了先前所有者的审美偏好。不过，附近农田正受到荒漠化威胁，因此维修队优先关注水泵的运转部件。",
+    "开始维修前，他们必须卸下连接在链条上的陶杯。杯内壁附着着浅色的无机盐沉积物。莉拉按一项必要标准测试每只洗净的杯子：它能否在整个上升过程中盛住水？任何漏水的杯子都会被弃用，无论外形多么美观。她测量了连接部件，以确保替换杯能适配现有链条。",
+    "维修账簿中还记载着早年的纠纷。山谷遭武力征服后，主灌渠的使用受到限制。果园主之间的竞争最初使共同维修无法开展。后来的条目记载了各户共同提供木材、绳索和劳力。在莉拉看来，这表明凝聚力在增强，不过，仅凭这些条目还无法解释态度为何发生变化。她的祖母或外祖母记得，大家曾就每家应承担的份额进行漫长的协商。",
+    "水泵重新启动，突然发出一阵哐当声，似乎让莉拉一时有些发懵。工头检查链条时，她退后了几步。父亲站在小路上观看，回忆起自己曾背着她爬上同一座山坡。这一次，她步行回家，手里拿着一只裂杯，要给陶工看。"
+  ],
+  "q": [
+    {
+      "s": "The pump's flowers were painted by a local potter.",
+      "a": "NG",
+      "why": "文中未交代彩绘花朵出自谁手。"
+    },
+    {
+      "s": "Lila accepted leaking cups if their shapes were attractive.",
+      "a": "F",
+      "why": "所有漏水杯都被弃用，不论外形如何。"
+    },
+    {
+      "s": "Later ledger entries recorded households sharing repair resources.",
+      "a": "T",
+      "why": "后期条目记载各户共同提供木材、绳索和劳力。"
+    }
+  ]
+}

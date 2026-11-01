@@ -1,0 +1,46 @@
+{
+  "id": "r0108",
+  "ids": [
+    "earth",
+    "packet",
+    "skateboard",
+    "motorway",
+    "european",
+    "pain",
+    "definitely",
+    "mile",
+    "windy",
+    "somewhere"
+  ],
+  "title": "Small Wheels, Longer Lives",
+  "titleZh": "小轮子，更长的使用寿命",
+  "topic": "economy",
+  "cefr": 1,
+  "paras": [
+    "On a [[windy|windy]] morning, Mina opens her repair shop in a small [[european|European]] town. The shop is one [[mile|mile]] from a busy [[motorway|motorway]], but most customers come from nearby streets. Today, a boy brings in a [[skateboard|skateboard]] with a wheel that hardly turns. He wants to buy a new board. Mina suggests a cheaper choice: find the problem first. Often, one small part can stop a useful object from working.",
+    "Inside each wheel are little metal balls. These help the wheel turn easily. Water can make them rusty, while sand can stop them moving freely. Mina turns the board over and checks each wheel. She wears gloves because a cut on her finger still causes [[pain|pain]]. Then she opens a [[packet|packet]] of new metal parts. After twenty minutes, the wheel turns smoothly again. There is no need to replace the wooden board.",
+    "Repair shops sell knowledge and time, not just things. They also help protect the [[earth|Earth]] by keeping useful materials out of rubbish bins. Old boards need not sit [[somewhere|somewhere]] in a cupboard for years. The boy tries his board outside and smiles. “It [[definitely|definitely]] feels better,” he says. He leaves with the same board and more money left than if he had bought a new one."
+  ],
+  "zh": [
+    "一个风大的早晨，米娜在一座欧洲小镇打开了修理店的门。店铺距离一条繁忙的高速公路一英里，但大多数顾客都来自附近的街区。今天，一个男孩带来了一块滑板，其中一个轮子几乎转不动了。他想买一块新滑板。米娜提出了一个更省钱的办法：先找出问题所在。很多时候，一个小零件就能让一件有用的物品无法正常工作。",
+    "每个轮子里面都有一些小金属球，它们能帮助轮子轻松转动。水可能让它们生锈，沙子则可能妨碍它们自由滚动。米娜把滑板翻过来，检查每一个轮子。她戴着手套，因为手指上的一道伤口还在疼。然后，她打开一小包新的金属零件。二十分钟后，轮子又能顺畅地转动了，没有必要换掉木质板身。",
+    "修理店出售的不只是物品，还有知识和时间。它们让有用的材料不至于被扔进垃圾桶，也是在帮助保护地球。旧滑板不必在柜子里的某个角落一放就是好几年。男孩到外面试了试滑板，露出了笑容。“用起来确实更好了，”他说。他带着原来的滑板离开了，剩下的钱比买一块新滑板后会剩下的更多。"
+  ],
+  "q": [
+    {
+      "s": "Mina's shop opens every morning.",
+      "a": "NG",
+      "why": "只说当天早晨开门，未说明是否每天早晨营业。"
+    },
+    {
+      "s": "Mina needs to change the wooden part to make the board work again.",
+      "a": "F",
+      "why": "文中明确说无须更换木质板身。"
+    },
+    {
+      "s": "The boy tries his repaired board outside.",
+      "a": "T",
+      "why": "第三段明确说男孩在外面试滑板。"
+    }
+  ]
+}

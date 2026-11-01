@@ -1,0 +1,48 @@
+{
+  "id": "r0474",
+  "ids": [
+    "butt",
+    "idol",
+    "governor",
+    "bead",
+    "spin",
+    "versus",
+    "antonym",
+    "noticeable",
+    "dependent",
+    "humidity"
+  ],
+  "title": "A Day Behind the Kiosk Counter",
+  "titleZh": "报刊亭柜台后的一天",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "Mara Chen opened her coastal-town newspaper kiosk at six each morning. One damp Tuesday, her daughter Lin came to help before school. While sweeping a cigarette [[butt|butt]] from beneath the counter, Lin noticed that two pictures had fallen from the wall. She put them back: a photograph of the state [[governor|governor]] buying a paper, and a larger portrait of singer Tomas Vale, her mother’s [[idol|idol]].",
+    "Business was slow at first. Mara threaded a blue glass [[bead|bead]] onto a customer’s broken necklace; jewellery repairs brought in extra money. Lin worked on her English homework beside her. Asked for an [[antonym|antonym]] of “open”, she glanced at the reversible door sign and wrote “closed”. Then a child arrived with his father, and Mara showed him how to [[spin|spin]] a wooden top while his father chose a newspaper.",
+    "Soon factory workers crowded the counter. Lin had expected the evening to be busier, but Mara explained that morning [[versus|versus]] evening sales varied with the factory timetable. Their earnings were [[dependent|dependent]] on when workers passed the kiosk, not simply on how long it stayed open. Lin put her homework away and helped count change.",
+    "After the queue cleared, Mara checked the papers. Coastal [[humidity|humidity]] could curl their edges, and the damage to the exposed copies was already [[noticeable|noticeable]]. She kept spare newspapers in a tightly closed wooden chest. Before Lin left for school, Mara asked her to shut its lid properly."
+  ],
+  "zh": [
+    "玛拉·陈每天早上六点打开海滨小镇上的报刊亭。一个潮湿的星期二，她的女儿琳上学前来帮忙。琳从柜台下扫出一枚烟蒂时，发现墙上掉下了两张照片。她把照片重新挂好：一张是州长买报纸的照片，另一张更大的肖像照上是歌手托马斯·韦尔，他是母亲的偶像。",
+    "起初生意清淡。玛拉把一颗蓝色玻璃珠穿到顾客断了的项链上；修补首饰能带来额外收入。琳在旁边做英语作业。题目要求写出“open”的反义词，她看了看可以翻面的门牌，写下了“closed”。随后，一个孩子和父亲来到报刊亭。父亲挑选报纸时，玛拉教孩子怎样让木陀螺转起来。",
+    "很快，工厂的工人挤满了柜台前。琳原以为傍晚会更忙，但玛拉解释说，早晨与傍晚的销售情况会随着工厂的作息时间而变化。她们的收入取决于工人何时经过报刊亭，而不只是营业时间有多长。琳收起作业，帮忙数零钱。",
+    "队伍散去后，玛拉检查了报纸。海边的湿气可能使报纸边缘卷曲，而摆在外面的那些报纸已经有了明显的损坏。她把备用报纸存放在盖紧的木箱里。琳去上学前，玛拉请她把箱盖盖好。"
+  ],
+  "q": [
+    {
+      "s": "Newspapers were delivered to Mara’s kiosk before six each morning.",
+      "a": "NG",
+      "why": "文中只说明营业时间，未说明送报时间。"
+    },
+    {
+      "s": "The governor’s photograph is larger than the singer’s portrait.",
+      "a": "F",
+      "why": "文中明确说歌手的肖像照更大。"
+    },
+    {
+      "s": "Mara kept spare newspapers in a tightly closed wooden chest.",
+      "a": "T",
+      "why": "末段明确说明备用报纸存放在盖紧的木箱里。"
+    }
+  ]
+}

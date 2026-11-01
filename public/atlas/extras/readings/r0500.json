@@ -1,0 +1,48 @@
+{
+  "id": "r0500",
+  "ids": [
+    "attendant",
+    "sorrow",
+    "excursion",
+    "disable",
+    "recall",
+    "magnificent",
+    "appreciation",
+    "burden",
+    "sufficiently",
+    "vibrate"
+  ],
+  "title": "A Voice for the Lighthouse",
+  "titleZh": "为灯塔讲述往事",
+  "topic": "travel",
+  "cefr": 3,
+  "paras": [
+    "When Leila booked a boat [[excursion|excursion]] to Grey Rock Lighthouse, she hoped to see the place where her father had worked. Since his death, her [[sorrow|sorrow]] had made opening his old letters difficult. Taking this journey seemed a less painful way to approach his past.",
+    "As the boat left the harbour, an [[attendant|attendant]] named Tomas handed out audio guides. However, rough waves soon caused the loose batteries inside several devices to [[vibrate|vibrate]], interrupting the recorded commentary. The boat's backup speaker worked, but its automatic programme kept playing descriptions of the wrong islands. Tomas decided to [[disable|disable]] the automatic setting rather than confuse his passengers further.",
+    "Without the recording, Tomas could describe the wildlife but knew little about the lighthouse. Leila could still [[recall|recall]] her father's stories: supplies arriving in baskets, winter storms covering the windows, and bread baked beside the lamp room. She offered to share them. Although nervous initially, she spoke [[sufficiently|sufficiently]] clearly for everyone gathered near the cabin to hear. Tomas held up a coastal map while she pointed out the narrow landing steps.",
+    "Beyond the final headland, the lighthouse appeared above a [[magnificent|magnificent]] wall of white cliffs. Several passengers expressed their [[appreciation|appreciation]] for a history no recording could have provided. For Leila, remembering no longer felt entirely like a [[burden|burden]]. On the return journey, she promised Tomas a written collection of her father's memories for future visitors."
+  ],
+  "zh": [
+    "莱拉报名参加前往灰岩灯塔的乘船短途旅行时，希望看看父亲曾经工作的地方。自从父亲去世，她一直沉浸在悲痛中，连打开他的旧信都很困难。踏上这段旅程，似乎是一种痛苦较少的方式，让她能够走近父亲的过去。",
+    "船驶离港口时，一位名叫托马斯的工作人员给大家分发了语音导览器。然而，汹涌的海浪很快让几台设备中松动的电池不断振动，导致录音讲解时断时续。船上的备用扬声器还能使用，但自动播放程序总是在介绍错误的岛屿。托马斯决定关闭自动设置，以免让乘客更加困惑。",
+    "没有了录音，托马斯虽然能介绍野生动物，却对灯塔知之甚少。莱拉仍然记得父亲讲过的故事：用篮子运来的补给、冬季风暴中被遮住的窗户，以及在灯室旁烤制的面包。她主动提出讲给大家听。尽管起初有些紧张，她的讲述仍足够清晰，聚在船舱附近的人都能听见。托马斯举起一张海岸地图，莱拉则指出了那段狭窄的登岸台阶。",
+    "绕过最后一处岬角，灯塔出现在一面壮丽的白色峭壁上方。几位乘客向莱拉表达了感谢，因为她讲述了一段任何录音都无法呈现的往事。对莱拉而言，回忆不再全然是一种负担。返航途中，她答应托马斯，将父亲的回忆整理成文字，留给今后的游客。"
+  ],
+  "q": [
+    {
+      "s": "Leila chose the trip partly because reading her father's letters was emotionally difficult.",
+      "a": "T",
+      "why": "首段说明读信令人痛苦，旅行是较温和的方式。"
+    },
+    {
+      "s": "The audio guides had been repaired before this excursion.",
+      "a": "NG",
+      "why": "文中说明导览器出现故障，未提此前是否维修。"
+    },
+    {
+      "s": "By the end of the visit, remembering still felt entirely like a burden to Leila.",
+      "a": "F",
+      "why": "末段明确说回忆不再全然是一种负担。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0652",
+  "ids": [
+    "nullify",
+    "anatomy",
+    "outright",
+    "unthinkable",
+    "trespass",
+    "viable",
+    "interim",
+    "breeding",
+    "barren",
+    "assault"
+  ],
+  "title": "The Path Around Heron Quarry",
+  "titleZh": "绕过鹭鸟采石场的小径",
+  "topic": "travel",
+  "cefr": 4,
+  "paras": [
+    "When a court [[nullify|nullified]] the walking club's lease because one landowner had never signed it, the village of Bellwick lost its only authorised route to Heron Quarry. Continuing to lead visitors across the disputed meadow would mean encouraging them to [[trespass|trespass]]. For six households earning modest incomes from guided walks, abandoning the project was nevertheless [[unthinkable|unthinkable]].",
+    "An [[interim|interim]] route followed a stone boundary wall across [[barren|barren]] ground, where thin soil supported little beyond moss. Although longer, it avoided the meadow entirely. Retired [[anatomy|anatomy]] lecturer Amara Sen proposed turning the additional distance into an attraction: walkers could examine illustrated comparisons of bird wings and human arms at three sheltered stopping points.",
+    "The club rejected [[outright|outright]] a proposal to enter the quarry itself, since noise could disrupt the [[breeding|breeding]] of birds on its ledges. Instead, carpenter Tomas Varga built viewing screens from donated timber outside the protected area. Following an [[assault|assault]] on a lone volunteer the previous autumn, guides also began working in pairs, with departure and return times recorded at the village bakery.",
+    "A twelve-week trial established whether this arrangement was financially [[viable|viable]]. Small groups paid for guided access, while residents could use the new path freely. Despite accommodating fewer visitors than the original route, the walks covered maintenance and guide payments. By September, the owners of the alternative corridor had granted permanent access. What began as a legal setback had produced a quieter excursion, whose appeal lay not in reaching the quarry floor but in learning to observe it carefully."
+  ],
+  "zh": [
+    "由于一位土地所有者从未在租约上签字，法院裁定徒步俱乐部的租约无效，贝尔威克村因此失去了唯一一条获准通往鹭鸟采石场的路线。若继续带领游客穿过涉及争议的草地，就等于鼓励他们擅闯私人土地。然而，对于依靠徒步导览获得微薄收入的六户家庭而言，放弃这个项目仍然是不可接受的。",
+    "一条临时路线沿着石砌界墙延伸，穿过一片贫瘠的土地，那里土层浅薄，除了苔藓，几乎长不出其他植物。新路线虽然更长，却完全绕开了那片草地。退休的解剖学讲师阿玛拉·森提议，将增加的路程变成一个亮点：在三个有遮蔽的停留点，徒步者可以观看比较鸟类翅膀与人类手臂结构的图解。",
+    "俱乐部断然否决了进入采石场内部的提议，因为噪声可能干扰岩壁凸缘上鸟类的繁殖。木匠托马斯·瓦尔加转而利用捐赠的木料，在保护区域外搭建了观鸟掩体。此前一名独自工作的志愿者曾在上一个秋天遭到人身袭击，因此向导也开始结伴工作，并在村里的面包店登记出发和返回时间。",
+    "为期十二周的试运营检验了这项安排在财务上是否可行。小团游客付费参加导览，村民则可以免费使用新步道。尽管接待的游客少于原路线，徒步活动的收入仍足以支付维护费用和向导报酬。到九月，替代路线沿线的土地所有者已授予永久通行权。一次法律上的挫折，最终促成了一种更为宁静的游览体验；它的吸引力不在于抵达采石场底部，而在于学会细致地观察采石场。"
+  ],
+  "q": [
+    {
+      "s": "The temporary path shortened the walk to the quarry.",
+      "a": "F",
+      "why": "第二段明确说临时路线更长。"
+    },
+    {
+      "s": "Tomas charged the club for his work on the viewing screens.",
+      "a": "NG",
+      "why": "只说明木料来自捐赠，未说明木匠是否收费。"
+    },
+    {
+      "s": "Income from the trial walks covered maintenance costs and guide payments.",
+      "a": "T",
+      "why": "末段明确说明收入足以支付维护费和向导报酬。"
+    }
+  ]
+}

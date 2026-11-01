@@ -1,0 +1,46 @@
+{
+  "id": "r0107",
+  "ids": [
+    "prepare",
+    "swiss",
+    "mug",
+    "sand",
+    "raincoat",
+    "diary",
+    "motorcycle",
+    "hold",
+    "reception",
+    "foreign"
+  ],
+  "title": "A Rain Gauge Behind the Guesthouse",
+  "titleZh": "旅馆后面的雨量计",
+  "topic": "science",
+  "cefr": 1,
+  "paras": [
+    "People have measured rain for hundreds of years. At one small [[swiss|Swiss]] guesthouse, the practice began in 1932 with a glass jar. The owner, Marta, wanted to [[prepare|prepare]] for wet weather before taking visitors into the hills. Each morning, she went outside in her yellow [[raincoat|raincoat]]. She measured the water in the jar, then emptied it. Back inside, she wrote the number in her [[diary|diary]], beside notes about her day and how she felt.",
+    "The jar stood behind the kitchen, away from trees. Marta put [[sand|sand]] around its base to keep it steady. Her son helped her [[hold|hold]] it while she read the marks on its side. In 1938, a [[foreign|foreign]] visitor brought a proper rain gauge from France. Its narrow opening caught rain, and a glass tube showed the amount. Marta kept it beside her tea [[mug|mug]] until they found a safe place outside.",
+    "By the 1950s, a weather worker came by [[motorcycle|motorcycle]] each month to collect copies of the records. After Marta stopped working, her family continued the measurements. They also left a weather book at [[reception|reception]] for guests to read. The simple morning job became a family tradition, and the old jar stayed on a shelf."
+  ],
+  "zh": [
+    "人们测量雨量已有数百年的历史。在瑞士的一家小旅馆，这项工作始于1932年，当时用的是一个玻璃罐。店主玛尔塔想在带游客进山之前，为下雨天做好准备。每天早上，她都穿着黄色雨衣到外面去。她测量罐里的水，然后将水倒掉。回到屋里，她把数字记在日记中，旁边还写着当天的事情和自己的感受。",
+    "玻璃罐放在厨房后面，远离树木。玛尔塔在罐子底部周围铺上沙子，让它保持稳固。她读罐子侧面的刻度时，儿子帮她拿住罐子。1938年，一位外国游客从法国带来了一个正规的雨量计。它通过狭窄的开口收集雨水，再用一根玻璃管显示雨量。在找到安全的室外摆放地点之前，玛尔塔一直把它放在自己的喝茶用的马克杯旁边。",
+    "到了20世纪50年代，每个月都有一名气象工作人员骑摩托车来收取雨量记录的副本。玛尔塔不再工作后，她的家人继续测量雨量。他们还在接待处放了一本天气记录簿，供客人阅读。这项简单的晨间工作成了家庭传统，而那个旧玻璃罐则一直保留在架子上。"
+  ],
+  "q": [
+    {
+      "s": "Marta bought the glass jar in 1932.",
+      "a": "NG",
+      "why": "只说明1932年开始用玻璃罐，未说何时购买。"
+    },
+    {
+      "s": "Marta's son helped her hold the jar.",
+      "a": "T",
+      "why": "第二段明确说儿子帮她拿住玻璃罐。"
+    },
+    {
+      "s": "The family stopped measuring rain when Marta stopped working.",
+      "a": "F",
+      "why": "玛尔塔不再工作后，家人继续测量雨量。"
+    }
+  ]
+}

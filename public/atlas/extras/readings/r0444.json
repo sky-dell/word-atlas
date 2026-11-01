@@ -1,0 +1,48 @@
+{
+  "id": "r0444",
+  "ids": [
+    "tactic",
+    "sensational",
+    "computerize",
+    "nevertheless",
+    "shipwreck",
+    "lick",
+    "sample",
+    "alternative",
+    "sweeten",
+    "fuse"
+  ],
+  "title": "When a Story Changes a Biscuit",
+  "titleZh": "当故事改变饼干的滋味",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "Can a story change the taste of a biscuit? Imagine a maritime museum testing this question beside an exhibition about a nineteenth-century [[shipwreck|shipwreck]]. Visitors receive a small [[sample|sample]] of a plain biscuit, similar to those once carried at sea. Before tasting it, half read a calm description of sailors' meals; the others read a [[sensational|sensational]] account of hunger and survival.",
+    "The museum's [[tactic|tactic]] is simple: keep the food identical while changing its introduction. Visitors first [[lick|lick]] a few crumbs from a spoon, then eat a piece and rate its sweetness. The dramatic story cannot chemically [[sweeten|sweeten]] the biscuit. It may, however, direct attention towards particular sensations or create expectations that influence the final judgement.",
+    "To [[computerize|computerize]] the recording process, the museum could install tasting stations with electronic screens. Yet even a carefully designed experiment needs a practical [[alternative|alternative]]. If a [[fuse|fuse]] breaks the circuit because the equipment draws too much current, paper forms can preserve the responses. This sounds like a minor detail; [[nevertheless|nevertheless]], losing one group's ratings could make the comparison misleading.",
+    "Such a test would not prove that dramatic language always changes flavour. Some visitors might focus on texture, while others simply dislike dry biscuits. Researchers would therefore need many participants and repeated trials. The deeper question is not whether the tongue can be fooled, but how the brain combines a physical sensation with the meaning surrounding it."
+  ],
+  "zh": [
+    "一个故事能改变饼干的味道吗？设想一家海事博物馆，在一个关于十九世纪海难的展览旁测试这个问题。参观者会拿到一小份原味饼干样品，类似于过去出海时携带的那种。品尝前，一半人阅读一段平实介绍水手饮食的文字，另一半人则阅读一段关于饥饿与求生的耸人听闻的叙述。",
+    "博物馆采用的策略很简单：食物保持完全相同，只改变介绍方式。参观者先从勺子上舔几粒饼干屑，再吃一块饼干，然后给甜度打分。戏剧性的故事无法从化学层面让饼干变甜，却可能使人注意某些特定的感觉，或形成影响最终判断的预期。",
+    "为了用计算机管理记录过程，博物馆可以设置配有电子屏幕的品尝台。不过，即使设计周密的实验，也需要切实可行的替代方案。如果设备电流过大，导致保险丝熔断、切断电路，纸质表格仍能保存参观者的回答。这听起来只是一个小细节；然而，丢失其中一组的评分可能会使比较结果产生误导。",
+    "这样的测试并不能证明，戏剧性的语言总会改变人对味道的感受。有些参观者可能更关注口感，另一些则只是讨厌干饼干。因此，研究人员需要大量参与者，并进行重复试验。更深层的问题不是舌头能否被骗，而是大脑如何将身体的感觉与围绕它的意义结合起来。"
+  ],
+  "q": [
+    {
+      "s": "Visitors would be assigned to the two reading groups at random.",
+      "a": "NG",
+      "why": "只说明各有一半人，未说明是否随机分组。"
+    },
+    {
+      "s": "The dramatic story can chemically increase the biscuit's sweetness.",
+      "a": "F",
+      "why": "第二段明确说故事无法从化学层面增甜。"
+    },
+    {
+      "s": "Paper forms could be used to record responses if the electrical equipment stopped working.",
+      "a": "T",
+      "why": "第三段说明断电时可用纸质表格保存回答。"
+    }
+  ]
+}

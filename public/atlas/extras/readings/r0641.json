@@ -1,0 +1,48 @@
+{
+  "id": "r0641",
+  "ids": [
+    "standpoint",
+    "adverse",
+    "orderly",
+    "brandy",
+    "cordial",
+    "rein",
+    "carp",
+    "secretariat",
+    "degrade",
+    "hoist"
+  ],
+  "title": "The Pond Beneath the Paperwork",
+  "titleZh": "档案背后的池塘",
+  "topic": "nature",
+  "cefr": 4,
+  "paras": [
+    "This gallery reconstructs a nineteenth-century estate pond through objects recovered from its abandoned survey hut. From the [[standpoint|standpoint]] of visiting naturalists, the water was an outdoor laboratory; for the estate's workers, it was a reservoir whose changing levels determined whether vegetable beds survived summer. The exhibition follows one unusually dry season, when these interests briefly converged around a stranded population of [[carp|carp]].",
+    "Begin with the cabinet of field equipment. Its [[orderly|orderly]] rows include a thermometer, a stained notebook and an empty [[brandy|brandy]] bottle subsequently used to collect water samples. Beside them lies a leather [[rein|rein]] from the horse that hauled the sampling cart. Such ordinary objects reveal how scientific observation depended on existing routines of agricultural labour rather than specialised equipment alone.",
+    "The central display reproduces correspondence between pond keeper Samira Vale and the regional River Survey Association's [[secretariat|secretariat]], which coordinated investigations across twelve estates. Although their exchanges remained [[cordial|cordial]], Vale challenged the instruction to postpone measurements during [[adverse|adverse]] weather. Heavy rain, she argued, carried sediment from newly ploughed slopes into the pond: avoiding storms would therefore exclude precisely the events most likely to [[degrade|degrade]] its water quality.",
+    "Finally, turn a wheel to [[hoist|hoist]] a replica sampling bucket from a model jetty. Vale's records do not establish whether the fish population recovered. Compare her descriptions of cloudy water with the estate painter's tranquil view of the pond."
+  ],
+  "zh": [
+    "本展厅借助从一座废弃调查小屋中找回的物件，还原了一处十九世纪庄园池塘的面貌。在前来考察的博物学家看来，这片水域是一座露天实验室；而对庄园工人而言，它是一处蓄水池，水位的变化决定着菜地能否熬过夏季。展览围绕一个异常干旱的季节展开：当时，一群受困的鲤鱼让双方的关注点短暂地交汇在一起。",
+    "请先参观野外器材陈列柜。排列整齐的展品包括一支温度计、一本沾有污渍的笔记本，以及一个后来被用于采集水样的白兰地空酒瓶。旁边放着一条皮缰绳，原是拉采样车的马所用的。这些寻常物件揭示出，科学观察不仅依赖专门器材，也依赖农业劳动中已有的日常作业方式。",
+    "中央展区呈现了池塘管理员萨米拉·韦尔与地区河流调查协会秘书处之间的往来书信；该秘书处负责协调十二座庄园的调查工作。尽管双方始终保持友好礼貌，韦尔仍对恶劣天气期间推迟测量的指示提出了质疑。她认为，大雨会将新近翻耕的坡地上的泥沙带入池塘，因此，避开暴风雨恰恰会漏掉最可能使水质恶化的事件。",
+    "最后，请转动轮盘，将一只仿制采样桶从栈桥模型处吊起。韦尔的记录无法确定鱼群是否恢复。请将她对浑浊水体的描述与庄园画家笔下池塘的宁静景象作一番比较。"
+  ],
+  "q": [
+    {
+      "s": "The brandy bottle originally belonged to the pond keeper.",
+      "a": "NG",
+      "why": "文中未说明酒瓶原先属于谁。"
+    },
+    {
+      "s": "The association's secretariat coordinated investigations at twelve estates.",
+      "a": "T",
+      "why": "秘书处负责协调十二座庄园的调查。"
+    },
+    {
+      "s": "Vale's records establish that the fish population recovered.",
+      "a": "F",
+      "why": "记录无法确定鱼群是否恢复。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0634",
+  "ids": [
+    "bout",
+    "renaissance",
+    "hereditary",
+    "epoch",
+    "imperialist",
+    "sly",
+    "ascent",
+    "youthful",
+    "cosmopolitan",
+    "quicken"
+  ],
+  "title": "The Raven in the Margin",
+  "titleZh": "页边的渡鸦",
+  "topic": "thinking",
+  "cefr": 4,
+  "paras": [
+    "At dawn, our [[ascent|ascent]] towards the abandoned mountain observatory was interrupted by a [[bout|bout]] of wing-beating above a ledge. A raven was pulling wool from a sheep carcass, then carrying it uphill. Leila, whose [[youthful|youthful]] enthusiasm survived even the freezing drizzle, immediately proposed nest-building. I wrote her suggestion beside the time, but left a space for alternatives.",
+    "Our [[cosmopolitan|cosmopolitan]] field team had gathered here during a modest [[renaissance|renaissance]] in handwritten natural-history recording. We carried copies of an earlier observer's notebooks, composed during an [[epoch|epoch]] of territorial expansion. Their author, an outspoken [[imperialist|imperialist]], described ravens as thieves occupying land that belonged to finer birds. His political convictions appeared to organise even the smallest details of his observations.",
+    "By midmorning, we could see why he had called the birds [[sly|sly]]: one waited until its neighbour turned away before removing wool from the neighbour's bundle. Yet that label explained little. Nor could a single morning establish whether such behaviour was [[hereditary|hereditary]] or acquired through experience. When sunlight reached the ledge, the birds' movements began to [[quicken|quicken]], and we separated descriptions from interpretations in adjacent columns.",
+    "At noon, Leila located the destination: a deep crack beneath the observatory steps, where pale wool lined an unfinished nest. Her first inference had been correct, although correctness did not make the initial evidence sufficient. Before descending, I crossed out 'cunning' in my notes and substituted the precise sequence of movements. The old notebook remained useful, chiefly because it taught us where observation ended and judgement began."
+  ],
+  "zh": [
+    "黎明时，我们正向废弃的山间天文台攀登，岩架上方突然传来一阵扑翅声，打断了我们的行程。一只渡鸦正在从绵羊尸体上扯下羊毛，再将它衔往山上。莱拉即使面对冰冷的毛毛雨，也依然保持着年轻人特有的热情，立刻提出这些羊毛是用来筑巢的。我在时间记录旁写下她的猜测，同时留出空白，以便记下其他可能的解释。",
+    "我们这支成员来自多个国家的野外考察队聚集于此，恰逢手写自然观察记录小规模复兴之际。我们随身带着一位早期观察者的笔记副本，其写作年代正处于领土扩张时期。作者是一名公开拥护帝国主义的人，他将渡鸦描述成窃贼，说它们占据了本属于更高贵鸟类的土地。他的政治信念似乎连观察记录中最细微的内容都左右着。",
+    "到了上午较晚的时候，我们明白了他为何称这些鸟狡猾：一只渡鸦等到旁边的同伴转过身，才从对方收集的那束羊毛中抽走一些。然而，这样的标签并没有多少解释力。仅凭一个早晨的观察，也无法确定这种行为究竟源于遗传，还是通过经验习得。当阳光照到岩架上时，鸟儿的动作开始加快，而我们将客观描述与主观解释分别记在相邻的两栏里。",
+    "中午，莱拉找到了羊毛的去处：天文台台阶下的一道深缝，里面有一个尚未完工的巢，铺着浅色羊毛。她最初的推断是正确的，但结论正确并不意味着起初的证据就已充分。下山之前，我划掉了笔记中的“狡黠”，改为准确记录鸟儿的一连串动作。那本旧笔记仍然有用，主要是因为它教会了我们辨清观察在哪里结束，判断又从哪里开始。"
+  ],
+  "q": [
+    {
+      "s": "The earlier observer described ravens as the rightful occupants of the land.",
+      "a": "F",
+      "why": "他称渡鸦为窃贼，认为土地属于其他鸟类。"
+    },
+    {
+      "s": "Members of the team had previously studied hereditary behaviour in ravens.",
+      "a": "NG",
+      "why": "文中未交代队员此前是否研究过渡鸦遗传行为。"
+    },
+    {
+      "s": "Leila found an unfinished nest lined with wool beneath the observatory steps.",
+      "a": "T",
+      "why": "末段说她在台阶下深缝中发现铺有羊毛的未完工巢。"
+    }
+  ]
+}

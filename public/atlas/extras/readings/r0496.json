@@ -1,0 +1,48 @@
+{
+  "id": "r0496",
+  "ids": [
+    "embarrassment",
+    "distribution",
+    "rapidly",
+    "fatty",
+    "jury",
+    "challenging",
+    "sparkle",
+    "beware",
+    "venus",
+    "embrace"
+  ],
+  "title": "A Trial Behind the Curtain",
+  "titleZh": "幕布后的审判",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "When a small theatre in Bellwick closed, six neighbours decided to [[embrace|embrace]] a cheaper alternative: shadow puppetry. Led by retired carpenter Amina Das, they created a play about a baker accused of stealing flour. In the fictional courtroom, a [[jury|jury]] had to decide whether the witnesses were telling the truth.",
+    "Building the puppets proved [[challenging|challenging]]. Thin cardboard bent under the lamps, while thicker pieces were difficult to cut. During the first rehearsal, Amina felt considerable [[embarrassment|embarrassment]] when the judge's head fell off. However, the group improved [[rapidly|rapidly]] after a neighbour demonstrated how to strengthen moving joints with small metal rings.",
+    "The first performance took place in a shared courtyard. Volunteers organised the [[distribution|distribution]] of forty free tickets, reserving half for nearby residents. A sign beside the borrowed electrical equipment warned helpers to [[beware|beware]] of loose cables. Food presented another practical problem: [[fatty|fatty]] snacks left greasy marks on the paper scenery, so refreshments were moved to a separate table.",
+    "As evening darkened, [[venus|Venus]] appeared above the rooftops, and tiny mirrors sewn onto the curtain began to [[sparkle|sparkle]] in the lamplight. The audience laughed at the baker's excuses but listened closely to the final evidence. Afterwards, several residents offered materials for another production. Rather than replacing the lost theatre, the project had created something smaller and more participatory: a performance space whose future depended on the people gathered around it."
+  ],
+  "zh": [
+    "贝尔威克的一家小剧场关闭后，六位邻居决定欣然尝试一种成本更低的替代形式：影偶戏。在退休木匠阿米娜·达斯的带领下，他们创作了一出戏，讲述一名面包师被指控偷窃面粉的故事。在虚构的法庭上，陪审团必须判断证人是否说了实话。",
+    "制作影偶颇具挑战。薄纸板在灯光照射下会弯曲，厚一些的纸板却又难以裁剪。第一次排练时，法官影偶的头掉了下来，让阿米娜十分尴尬。不过，一位邻居示范了如何用小金属环加固活动关节后，大家的制作水平迅速提高。",
+    "首场演出在一处共用庭院里举行。志愿者安排分发了四十张免费门票，其中一半留给附近居民。借来的电气设备旁放着一块告示牌，提醒帮忙的人当心松散的电线。食物也带来了一个实际问题：高脂肪零食会在纸制布景上留下油渍，因此茶点被移到了一张单独的桌子上。",
+    "随着暮色渐深，金星出现在屋顶上方，缝在幕布上的小镜片也开始在灯光下闪闪发亮。观众听到面包师的辩解时哈哈大笑，却在最后的证据呈现时凝神倾听。演出结束后，几位居民提出为下一部作品提供材料。这个项目并没有取代已经失去的剧场，而是创造了一个规模更小、参与性更强的演出空间：它的未来，取决于围聚在这里的人们。"
+  ],
+  "q": [
+    {
+      "s": "Shadow puppetry was a more expensive alternative to the theatre that had closed.",
+      "a": "F",
+      "why": "首段明确说影偶戏是更便宜的替代形式。"
+    },
+    {
+      "s": "The group held three rehearsals before the first performance.",
+      "a": "NG",
+      "why": "文章提及首次排练，但未交代排练总次数。"
+    },
+    {
+      "s": "After the performance, several residents offered materials for another production.",
+      "a": "T",
+      "why": "末段明确说几位居民提出为下一部作品供料。"
+    }
+  ]
+}

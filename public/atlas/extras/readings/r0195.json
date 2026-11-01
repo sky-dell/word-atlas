@@ -1,0 +1,48 @@
+{
+  "id": "r0195",
+  "ids": [
+    "schedule",
+    "error",
+    "tyre",
+    "skyscraper",
+    "tiredness",
+    "terribly",
+    "follower",
+    "prayer",
+    "mend",
+    "antarctica"
+  ],
+  "title": "A Harbour Walk with a Difference",
+  "titleZh": "一场特别的海港漫步",
+  "topic": "society",
+  "cefr": 2,
+  "paras": [
+    "Visitors to Bellwater often photograph its newest [[skyscraper|skyscraper]], but I joined a walk through the old harbour streets. Our guide, Leila, gave us a handwritten [[schedule|schedule]]. First came a bicycle workshop, then a small temple, and finally tea with a retired sailor. The whole walk would take three hours.",
+    "At the workshop, Tomas was checking a bicycle [[tyre|tyre]]. An [[error|error]] on our map had placed his shop across the road, so he stood outside to welcome us. Inside, neighbours learned to [[mend|mend]] broken objects rather than throw them away. Tomas was a [[follower|follower]] of a local movement that encouraged people to share repair skills. Visitors could join his lessons too.",
+    "By midday, the narrow streets were [[terribly|terribly]] hot. Leila noticed our [[tiredness|tiredness]] and led us into the temple's cool garden. We waited quietly while a woman finished her [[prayer|prayer]]. Then we sat beside a pool, listening to water fall from a stone fish.",
+    "Our final host, Arun, served mint tea beneath a postcard of [[antarctica|Antarctica]]. He had cooked on a ship that carried researchers there. However, he preferred telling stories about this harbour and its people."
+  ],
+  "zh": [
+    "来到贝尔沃特的游客常常会拍摄这里最新的摩天大楼，但我参加了一场穿行于老港区街巷的徒步活动。导游莱拉给了我们一份手写日程表。第一站是自行车修理铺，接着是一座小寺庙，最后去和一位退休船员喝茶。全程需要三个小时。",
+    "在修理铺，托马斯正在检查一个自行车轮胎。我们的地图有一处错误，把他的店标在了马路对面，因此他站在外面迎接我们。店里，街坊们正在学习修理坏掉的物品，而不是把它们扔掉。托马斯支持当地一项鼓励人们分享修理技能的活动。游客也可以参加他的课程。",
+    "到了中午，狭窄的街道热得厉害。莱拉注意到我们有些疲倦，便带我们走进寺庙凉爽的花园。我们安静地等一位女士祈祷完毕，然后坐在水池边，听水从一条石鱼上流下的声音。",
+    "最后接待我们的是阿伦。他在一张南极洲明信片下方给我们端上薄荷茶。他曾在一艘运送研究人员前往南极洲的船上当厨师。不过，他更喜欢讲这座海港和这里居民的故事。"
+  ],
+  "q": [
+    {
+      "s": "The schedule placed the temple visit before the bicycle workshop.",
+      "a": "F",
+      "why": "日程先安排自行车修理铺，再去寺庙。"
+    },
+    {
+      "s": "Visitors could take repair lessons at Tomas's shop.",
+      "a": "T",
+      "why": "原文明确说游客也能参加他的课程。"
+    },
+    {
+      "s": "Arun had travelled to Antarctica more than once.",
+      "a": "NG",
+      "why": "只提到他曾在船上做饭，未说明次数。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0101",
+  "ids": [
+    "result",
+    "bathtub",
+    "mailbox",
+    "habit",
+    "rock",
+    "driving",
+    "keyboard",
+    "drawer",
+    "rubber",
+    "mix"
+  ],
+  "title": "A Home on Four Wheels",
+  "titleZh": "四个轮子上的家",
+  "topic": "travel",
+  "cefr": 1,
+  "paras": [
+    "Welcome to our exhibition about a very small travelling home. In 1985, Rosa and Karim built this home inside an old van. They wanted to visit mountain villages and paint pictures of life there. The [[result|result]] was a house that could move from place to place. Walk around it first. Notice the thick [[rubber|rubber]] tyres and the little blue [[mailbox|mailbox]] beside the door. Visitors left letters for the couple in this box.",
+    "Now look inside through the open door. There is a bed, a cooking area and even a tiny [[bathtub|bathtub]]. After a day of [[driving|driving]], Karim liked a warm wash. Rosa had a different [[habit|habit]]: she drew the view before dinner every evening. Her pencils are in the top [[drawer|drawer]] under the table. Beside them is a smooth white [[rock|rock]] from their first mountain stop. They used it to keep their paper still on windy days.",
+    "At the final table, you can [[mix|mix]] blue and yellow paint to make the green of their van. A computer nearby shows their route. Use its [[keyboard|keyboard]] to type a village name and find their paintings. Before you leave, look back at the van: this little room carried a whole life of travel."
+  ],
+  "zh": [
+    "欢迎参观我们关于一座小小的移动住宅的展览。1985年，罗莎和卡里姆在一辆旧厢式货车里建起了这个家。他们想去山村旅行，用画笔记录那里的生活。于是，一座可以四处移动的房子就这样诞生了。请先绕着车走一圈，看看厚实的橡胶轮胎和车门旁蓝色的小信箱。来访的人会把写给这对夫妇的信放进这个箱子里。",
+    "现在，请透过敞开的车门看看里面。这里有一张床、一处做饭的地方，甚至还有一个小浴缸。开了一天车后，卡里姆喜欢用温水洗个澡。罗莎则有另一个习惯：每天傍晚吃饭前，她都会画下眼前的景色。她的铅笔放在桌子下面最上层的抽屉里。铅笔旁边有一块光滑的白色石头，来自他们第一次在山里停留的地方。刮风的时候，他们就用它压住画纸。",
+    "在最后一张桌子上，你可以把蓝色和黄色颜料混合，调出他们那辆车的绿色。旁边的一台电脑展示着他们的旅行路线。用键盘输入一个村庄的名字，就能找到他们的画作。离开之前，请再回头看看这辆车：这个小小的房间，承载着他们四处旅行的整个生活。"
+  ],
+  "q": [
+    {
+      "s": "Rosa and Karim paid less than £1,000 for the van.",
+      "a": "NG",
+      "why": "文中未说明购买货车的价格。"
+    },
+    {
+      "s": "Rosa drew the view before dinner every evening.",
+      "a": "T",
+      "why": "文中明确说她每天晚饭前画风景。"
+    },
+    {
+      "s": "The computer does not show the couple’s route.",
+      "a": "F",
+      "why": "文中明确说电脑展示他们的旅行路线。"
+    }
+  ]
+}

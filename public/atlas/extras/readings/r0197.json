@@ -1,0 +1,48 @@
+{
+  "id": "r0197",
+  "ids": [
+    "receipt",
+    "option",
+    "pavement",
+    "dial",
+    "marvelous",
+    "requirement",
+    "continent",
+    "afford",
+    "object",
+    "dizzy"
+  ],
+  "title": "Stories on a Table",
+  "titleZh": "桌上的故事",
+  "topic": "thinking",
+  "cefr": 2,
+  "paras": [
+    "At a small museum, guide Amira tested whether making up a story helped people remember things. She could not [[afford|afford]] special equipment, so she borrowed twelve everyday items. These included a bakery [[receipt|receipt]], a radio with a round [[dial|dial]], and a map showing Africa, the [[continent|continent]] where she was born.",
+    "Twenty adult visitors joined the experiment. While they waited on the [[pavement|pavement]] outside, Amira divided them into two equal groups. Both groups had three minutes to study the items on a table. The first group had one [[requirement|requirement]]: silently repeat the items' names. The second group had the [[option|option]] of inventing a story that connected them instead.",
+    "Most people in the second group chose a story. Tomas imagined buying bread, dropping his proof of payment inside a radio, and sailing to Africa to find it. Another visitor imagined a boat turning so quickly that its passengers felt [[dizzy|dizzy]]. Afterwards, Amira covered every [[object|object]] and asked everyone to write down what they remembered.",
+    "The first group remembered an average of six items; the second remembered nine. 'A [[marvelous|marvelous]] result!' said Tomas. Amira was more careful: twenty people were not enough to prove that stories always worked. Still, the test suggested that strange connections could make ordinary things easier to remember. She planned a larger test."
+  ],
+  "zh": [
+    "在一家小博物馆里，讲解员阿米拉测试了编故事是否能帮助人们记住东西。她买不起专门的设备，于是借来了十二件日常物品，其中包括一张面包店小票、一台带圆形调节旋钮的收音机，以及一张画有非洲的地图。非洲是她出生的那片大陆。",
+    "二十名成年参观者参加了实验。他们在外面的人行道上等候时，阿米拉把他们分成了人数相等的两组。两组都有三分钟时间观察桌上的物品。第一组必须遵守一个要求：默念物品的名称。第二组则可以选择编一个故事，把这些物品联系起来。",
+    "第二组的大多数人选择了编故事。托马斯想象自己买了面包，把付款凭证掉进一台收音机里，然后乘船去非洲寻找它。另一位参观者想象一艘船转得太快，让乘客感到头晕。随后，阿米拉遮住了所有物品，请每个人写下自己记得的东西。",
+    "第一组平均记住了六件物品，第二组则记住了九件。“这个结果太棒了！”托马斯说。阿米拉更加谨慎：二十个人还不足以证明故事总是有效。不过，这次测试表明，奇特的联系可能让普通物品更容易被记住。她计划进行一次规模更大的测试。"
+  ],
+  "q": [
+    {
+      "s": "Amira borrowed the radio from another museum.",
+      "a": "NG",
+      "why": "文章说收音机是借来的，未说明向谁借。"
+    },
+    {
+      "s": "Each group had three minutes to study the items.",
+      "a": "T",
+      "why": "两组都有三分钟观察物品。"
+    },
+    {
+      "s": "Amira thought the experiment proved that stories always helped people remember.",
+      "a": "F",
+      "why": "她认为二十人不足以证明故事总是有效。"
+    }
+  ]
+}

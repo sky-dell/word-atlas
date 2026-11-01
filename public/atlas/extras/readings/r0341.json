@@ -1,0 +1,48 @@
+{
+  "id": "r0341",
+  "ids": [
+    "lord",
+    "resort",
+    "warranty",
+    "expose",
+    "ignorance",
+    "banker",
+    "affection",
+    "outlook",
+    "auto",
+    "tiptoe"
+  ],
+  "title": "Before the Guests Woke",
+  "titleZh": "宾客醒来之前",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "Welcome to Before the Guests Woke, an exhibition about the daily routines of the Seabird Hotel. Opened in 1926 in a small coastal [[resort|resort]], the hotel welcomed visitors ranging from a [[lord|lord]] to a retired [[banker|banker]]. Yet this exhibition follows someone less celebrated: Mina Costa, who prepared its rooms each morning. Her notebook provides the route through the gallery.",
+    "The first display recreates the kitchen at six o'clock. Beside a silver kettle lies its original [[warranty|warranty]], promising free repairs for electrical faults during the first year. Mina carefully saved this document, although she admitted her [[ignorance|ignorance]] of how electricity worked. A photograph shows the delivery [[auto|auto]] outside the kitchen door, its rear seat crowded with boxes of tea and fresh bread.",
+    "In the next room, notice the curtains, which Mina opened only halfway. Direct sunlight would [[expose|expose]] the coloured carpet to damaging rays, so she adjusted them as the morning passed. Her notebook also records small acts of [[affection|affection]]: warming a cup for an elderly guest and placing garden flowers beside a child's breakfast. These details reveal her [[outlook|outlook]]: comfort depended less on expensive furniture than on noticing what people needed.",
+    "Finally, visitors are invited to [[tiptoe|tiptoe]] across a reconstructed bedroom floor, testing which boards creak. The activity recalls Mina's efforts not to wake late sleepers. Before leaving, listen to the recording of her notebook's final line: 'A good morning begins before anyone sees you working.'"
+  ],
+  "zh": [
+    "欢迎参观“宾客醒来之前”，一个讲述海鸟旅馆日常工作的展览。这家旅馆于1926年在一处海滨度假小镇开业，接待过的客人中既有贵族，也有退休的银行家。不过，本展览关注的是一位不那么知名的人物：每天清晨整理客房的米娜·科斯塔。她的笔记本将引领我们走过展厅。",
+    "第一个展区重现了早晨六点的厨房。一只银色水壶旁放着它原来的保修单，承诺在第一年内免费维修电气故障。米娜承认自己不了解电的工作原理，却仔细保存了这份文件。一张照片展示了停在厨房门外的送货汽车，后座堆满了装着茶叶和新鲜面包的箱子。",
+    "在下一个房间，请留意那些只被米娜拉开一半的窗帘。阳光直射会使彩色地毯受到有害光线的照射，因此，她会随着上午时间的推移调整窗帘。她的笔记本还记载了一些关怀之举：为年长的客人温热杯子，在孩子的早餐旁摆上花园里采来的花。这些细节体现了她的生活态度：舒适与否，更多取决于是否留心人们的需要，而非家具是否昂贵。",
+    "最后，参观者可以踮着脚尖走过复原的卧室地板，试试哪些木板会吱吱作响。这项活动让人想起米娜为避免吵醒晚起的客人所做的努力。离开前，请听一听朗读她笔记本最后一句话的录音：“美好的早晨，始于还没有人看见你忙碌的时候。”"
+  ],
+  "q": [
+    {
+      "s": "The retired banker visited the hotel every summer.",
+      "a": "NG",
+      "why": "只提到退休银行家曾入住，未说明频率。"
+    },
+    {
+      "s": "The kettle's warranty covered electrical faults during the first year.",
+      "a": "T",
+      "why": "保修单承诺第一年内免费维修电气故障。"
+    },
+    {
+      "s": "Mina opened the curtains fully in the morning.",
+      "a": "F",
+      "why": "文中明确说她只把窗帘拉开一半。"
+    }
+  ]
+}

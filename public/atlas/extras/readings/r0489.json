@@ -1,0 +1,48 @@
+{
+  "id": "r0489",
+  "ids": [
+    "reign",
+    "bruise",
+    "complication",
+    "paw",
+    "poke",
+    "detach",
+    "relay",
+    "gene",
+    "stare",
+    "mankind"
+  ],
+  "title": "A Gap in the Fence",
+  "titleZh": "围栏上的缺口",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "The woodland around Bellwater House had remained largely unchanged since the [[reign|reign]] of King William IV. Now a nature reserve, it sheltered wildcats rarely seen by visitors. One October morning, ranger Leila found a young cat with its front [[paw|paw]] caught between two wires in an old boundary fence.",
+    "As Leila knelt, she slipped on wet leaves, earning a painful [[bruise|bruise]] on her knee. There was another [[complication|complication]]: a charity [[relay|relay]] was due to pass along the nearby trail within twenty minutes. Runners and spectators would frighten the animal further. She radioed the organisers, who moved the race onto a meadow path while her colleague Tomas brought tools.",
+    "Leila resisted the temptation to [[poke|poke]] a stick through the fence to move the wires. That might tighten them around the trapped foot. Instead, Tomas used cutters to [[detach|detach]] a section from its wooden post. Throughout the operation, the cat continued to [[stare|stare]] at his hands. Once the wire was loose, Leila covered the animal with a blanket and placed it in a carrier.",
+    "At the reserve's clinic, the vet found no broken bones. The clinic also supported research into a [[gene|gene]] linked to disease resistance in wildcats, but treatment took priority over collecting samples. Two days later, the cat returned to the woods. The rescue prompted a survey of every old fence on the estate. In her report, Leila listed abandoned wire among the hazards that [[mankind|mankind]] had introduced into this woodland."
+  ],
+  "zh": [
+    "自威廉四世统治时期以来，贝尔沃特庄园周围的林地基本没有变化。如今，这里已成为自然保护区，为游客难得一见的野猫提供栖息之所。十月的一个早晨，护林员莱拉发现，一只小野猫的前脚掌卡在一道老旧边界围栏的两根铁丝之间。",
+    "莱拉跪下时，在湿树叶上滑了一下，膝盖磕出了一块疼痛的淤青。另一个难题是：二十分钟内，一场慈善接力赛就要经过附近的小径。跑步者和观众会让这只动物更加惊恐。她用对讲机联系了组织者，他们将比赛路线改到了草地上的小路，而她的同事托马斯则带来了工具。",
+    "莱拉忍住了拿木棍伸进围栏、戳动铁丝的冲动。那样可能会让铁丝更紧地缠住被困的脚掌。托马斯改用剪线钳，将一段铁丝网从木桩上拆下。整个过程中，野猫一直盯着他的双手。铁丝一松开，莱拉便用毯子盖住野猫，把它放进了运输箱。",
+    "在保护区的诊所里，兽医检查后发现野猫并没有骨折。诊所还协助开展一项研究，探索一种与野猫抗病能力有关的基因，但治疗比采集样本更为优先。两天后，野猫回到了树林。这次救援促使保护区检查了庄园内所有老旧围栏。在报告中，莱拉将废弃铁丝列为人类给这片林地带来的危险之一。"
+  ],
+  "q": [
+    {
+      "s": "Leila avoided injury when she slipped on the wet leaves.",
+      "a": "F",
+      "why": "她滑倒时膝盖受伤，出现疼痛的淤青。"
+    },
+    {
+      "s": "The race organisers changed the route to reduce disturbance to the trapped cat.",
+      "a": "T",
+      "why": "组织者改道，以免参赛者和观众惊吓野猫。"
+    },
+    {
+      "s": "The clinic's genetic research had received funding from an international charity.",
+      "a": "NG",
+      "why": "文章提到基因研究，但未说明经费来源。"
+    }
+  ]
+}

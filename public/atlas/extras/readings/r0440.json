@@ -1,0 +1,48 @@
+{
+  "id": "r0440",
+  "ids": [
+    "hesitant",
+    "incidentally",
+    "bulb",
+    "thicken",
+    "capacity",
+    "query",
+    "gaze",
+    "sin",
+    "resist",
+    "deck"
+  ],
+  "title": "A Light Above the Reeds",
+  "titleZh": "芦苇上方的一点灯光",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "At dusk on 18 June, I stood on the [[deck|deck]] of our research boat, recording moths above a reed bed. I was [[hesitant|hesitant]] about switching on the collecting lamp. The previous night, several insects had struck its hot cover. My grandmother had considered needless harm to any creature a [[sin|sin]], and her words returned as I reached for the switch.",
+    "Our collecting box had a [[capacity|capacity]] of twelve litres, but space was not the problem. My [[query|query]] concerned the lamp: could a cooler [[bulb|bulb]] attract enough moths for a useful count? Sora, my colleague, fitted a low-powered replacement. [[incidentally|Incidentally]], she had painted a tiny blue circle on its base so we could recognise it among the spares.",
+    "While we waited, I stirred our soup, letting it [[thicken|thicken]] over a small stove. Beyond the window, pale wings began to gather. I went outside to [[gaze|gaze]] at a large moth resting on the collecting sheet, its antennae shaped like delicate feathers. For several minutes it remained still, then lifted away without touching the lamp. My shoulders gradually relaxed.",
+    "By midnight, we had recorded nine species, three fewer than the night before. That difference alone proved little: the air was cooler, too. Still, I decided to [[resist|resist]] pressure from the team to restore the brighter lamp immediately. We would compare both lights under similar conditions. I closed the notebook feeling that concern could guide observation without replacing evidence."
+  ],
+  "zh": [
+    "6月18日黄昏，我站在研究船的甲板上，记录一片芦苇荡上方的飞蛾。对于是否打开诱虫灯，我有些犹豫。前一天夜里，几只昆虫撞上了滚烫的灯罩。祖母曾认为，无谓地伤害任何生灵都是一种罪过。当我伸手去碰开关时，她的话又浮现在脑海中。",
+    "我们的收集箱容量为十二升，但空间并不是问题。我的疑问在于灯：温度更低的灯泡，能否吸引足够多的飞蛾，让统计有参考价值？同事索拉换上了一个低功率灯泡。顺便说一句，她在灯泡底座上画了一个小蓝圈，方便我们从备用灯泡中认出它。",
+    "等待时，我搅动着小炉子上的汤，让它慢慢变稠。窗外，浅色的翅膀开始聚集。我走到外面，凝视着一只停在收集布上的大飞蛾，它的触角形如精巧的羽毛。它静静地停了几分钟，然后振翅离开，没有碰到灯。我的肩膀渐渐放松下来。",
+    "到午夜，我们记录到了九个物种，比前一晚少三个。仅凭这个差异说明不了什么，因为气温也更低了。不过，我还是决定顶住团队要求立即换回更亮灯泡的压力。我们将在相似条件下比较两种灯。我合上笔记本，觉得对生命的关切可以为观察指引方向，却不能代替证据。"
+  ],
+  "q": [
+    {
+      "s": "The observer's reluctance to use the lamp was linked to what had happened to insects the night before.",
+      "a": "T",
+      "why": "前夜昆虫撞上热灯罩，使作者迟疑。"
+    },
+    {
+      "s": "Sora had bought the replacement bulb specifically for this trip.",
+      "a": "NG",
+      "why": "只说明换上并标记灯泡，未交代购买用途。"
+    },
+    {
+      "s": "The observers recorded more moth species that night than on the previous night.",
+      "a": "F",
+      "why": "当晚记录九种，比前夜少三种。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0324",
+  "ids": [
+    "within",
+    "punish",
+    "experiment",
+    "gentleman",
+    "ache",
+    "equal",
+    "donate",
+    "retire",
+    "quote",
+    "explorer"
+  ],
+  "title": "A Map That Makes Walking Easier",
+  "titleZh": "让步行更轻松的地图",
+  "topic": "health",
+  "cefr": 2,
+  "paras": [
+    "After he [[retire|retired]] from repairing clocks, Tomas wanted to walk more. However, his knees began to [[ache|ache]] after ten minutes. The park near his home had benches, but he could never remember where they were. A clear map, he thought, might make exercise feel safer.",
+    "At a community health centre, nurse Leila was planning an [[experiment|experiment]] about walking confidence. Twenty volunteers formed two [[equal|equal]] groups. One received an ordinary park map; the other received a map showing benches and toilets. Everyone walked [[within|within]] the park for up to twenty minutes, choosing their own speed. Nobody would [[punish|punish]] them for stopping early: rest was part of the plan.",
+    "Tomas helped check the new map. Like an [[explorer|explorer]], he followed unfamiliar paths and marked useful places. Other walkers called him a [[gentleman|gentleman]] because he always stepped aside on narrow paths. A neighbour offered to [[donate|donate]] money to print more maps. Soon, each bench appeared as a bright blue circle.",
+    "After two weeks, more people using the new map said they felt confident about walking. This small test could not prove that maps improved health, but it suggested a useful idea. In her report, Leila [[quote|quoted]] Tomas: “I don't need to walk without stopping. I need to know where I can stop.”"
+  ],
+  "zh": [
+    "托马斯退休前从事钟表修理工作，退休后他想多走走路。然而，走上十分钟，他的膝盖就开始隐隐作痛。他家附近的公园里有长椅，但他总是记不住它们的位置。他想，一张清楚的地图或许能让他在锻炼时更有安全感。",
+    "在一家社区健康中心，护士莱拉正在设计一项有关步行信心的试验。二十名志愿者分成了人数相等的两组。一组拿到普通的公园地图，另一组拿到标有长椅和厕所位置的地图。每个人都在公园内按自己的速度步行，最长二十分钟。没有人会因为提前停下而受到惩罚：休息本来就是计划的一部分。",
+    "托马斯帮忙核对新地图。他像探险者一样，沿着陌生的小路行走，标出有用的地点。其他散步的人都说他是位绅士，因为他在狭窄的小路上总会侧身让路。一位邻居主动提出捐钱，多印一些地图。很快，每张长椅都在地图上变成了一个明亮的蓝色圆圈。",
+    "两周后，使用新地图的人中，有更多人表示自己对步行有信心了。这项小规模试验不能证明地图改善了健康，但它提供了一个有用的思路。莱拉在报告中引用了托马斯的话：“我不需要一直走、不停下来。我需要知道自己可以在哪里停下。”"
+  ],
+  "q": [
+    {
+      "s": "A doctor advised Tomas to walk more after he retired.",
+      "a": "NG",
+      "why": "只说托马斯想多走路，未提医生是否建议。"
+    },
+    {
+      "s": "Volunteers were required to complete twenty minutes of walking.",
+      "a": "F",
+      "why": "步行最长二十分钟，也允许提前停下休息。"
+    },
+    {
+      "s": "Tomas helped check the new map.",
+      "a": "T",
+      "why": "第三段明确说托马斯帮忙核对新地图。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0154",
+  "ids": [
+    "frog",
+    "magic",
+    "topic",
+    "horrible",
+    "extra",
+    "against",
+    "smartphone",
+    "exact",
+    "photocopy",
+    "smoking"
+  ],
+  "title": "A Paper Frog Comes Alive",
+  "titleZh": "纸上青蛙活起来了",
+  "topic": "arts",
+  "cefr": 1,
+  "paras": [
+    "In a small art room, Lila makes a paper [[frog|frog]] jump across a table. It looks like [[magic|magic]], but she uses drawings and a camera. Her film is part of a project [[against|against]] [[smoking|smoking]]. This may seem like a strange [[topic|topic]] for a story about a pond. However, Lila wants to share a health message through pictures rather than a long talk.",
+    "First, she draws a green pond and puts a [[photocopy|photocopy]] of her drawing beside the table. This copy helps her keep the background the same. In the story, someone drops a cigarette near the water. The little animal smells the [[horrible|horrible]] smoke and jumps away. Lila moves its paper legs a little, then takes a picture. She checks the [[exact|exact]] position of each leg before moving it again.",
+    "Lila uses a [[smartphone|smartphone]] to take the pictures. She adds [[extra|extra]] pictures to make the jump look smoother. When the pictures appear quickly, one after another, our brains connect them. We see movement, although each picture is still. Her finished film lasts just twenty seconds. At a weekend art show, visitors watch the animal land safely on a leaf. They smile first, then begin talking about keeping the pond and its air clean."
+  ],
+  "zh": [
+    "在一间小画室里，莉拉让一只纸青蛙跳过桌面。这看起来像魔法，但她用的是图画和相机。她的影片是一个反对吸烟的项目的一部分。对于一个关于池塘的故事来说，这似乎是个奇怪的主题。不过，莉拉想通过画面传递健康信息，而不是长篇讲解。",
+    "首先，她画了一个绿色的池塘，并把这幅画的一张复印件放在桌旁。这张复印件帮助她保持背景不变。在故事里，有人在水边丢下一支香烟。小动物闻到难闻的烟味，便跳开了。莉拉把它的纸腿稍微移动一点，然后拍一张照片。再次移动之前，她会检查每条腿的确切位置。",
+    "莉拉用智能手机拍照。她增加了一些照片，让跳跃看起来更流畅。当照片一张接一张地快速出现时，我们的大脑会把它们联系起来。虽然每张照片都是静止的，我们看到的却是运动。她完成的影片只有二十秒。在周末的一场艺术展上，参观者看着小动物安全地落在一片叶子上。他们先是微笑，随后开始讨论如何保持池塘及周围空气的清洁。"
+  ],
+  "q": [
+    {
+      "s": "Lila changes the pond background for every photograph.",
+      "a": "F",
+      "why": "复印件帮助她保持背景不变。"
+    },
+    {
+      "s": "Lila bought her phone especially for this film project.",
+      "a": "NG",
+      "why": "文章未提及她购买手机的原因。"
+    },
+    {
+      "s": "Lila's finished film is twenty seconds long.",
+      "a": "T",
+      "why": "文中明确说成片只有二十秒。"
+    }
+  ]
+}

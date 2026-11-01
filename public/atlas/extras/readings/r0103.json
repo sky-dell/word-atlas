@@ -1,0 +1,46 @@
+{
+  "id": "r0103",
+  "ids": [
+    "item",
+    "receptionist",
+    "salesman",
+    "fantastic",
+    "running",
+    "gate",
+    "title",
+    "platform",
+    "parking",
+    "replace"
+  ],
+  "title": "Two Ways to Time a Runner",
+  "titleZh": "给跑者计时的两种方法",
+  "topic": "technology",
+  "cefr": 1,
+  "paras": [
+    "Our [[running|running]] club meets at a sports centre in an old railway station. Passengers once waited on the [[platform|platform]], but now we use it for short races. On Saturday, I arrived early to help test a new timer. I left my bike in the free [[parking|parking]] area beside the wall and went through the blue [[gate|gate]]. The [[receptionist|receptionist]] gave me a key to the equipment cupboard. Inside, I found our old stopwatch and took it outside.",
+    "Omar, a [[salesman|salesman]], was waiting with the new machine. He sold timers but did not make them. He took each [[item|item]] out of its box and showed us where to put it. There were two beams of light across our path, one at the start and one at the finish. Blocking the first beam started the timer; blocking the second stopped it. We wanted to see whether this machine could [[replace|replace]] our stopwatch.",
+    "I wrote the [[title|title]] 'Saturday's Timing Test' at the top of a sheet of paper. Then Sara ran between the beams while I timed her with the stopwatch. The two results were slightly different. 'Let's try again,' she said. We repeated the test five times and wrote down every result. It was [[fantastic|fantastic]] to get the machine's results without pressing any buttons. But we still needed to check why our times were different before choosing which timer to use."
+  ],
+  "zh": [
+    "我们的跑步俱乐部在一座旧火车站里的体育中心活动。乘客曾在站台上候车，但现在我们用它进行短距离赛跑。星期六，我早早赶来，帮忙测试一台新计时器。我把自行车停在墙边的免费停车区，穿过蓝色大门。接待员给了我一把器材柜的钥匙。我在柜子里找到我们原来的秒表，把它拿到了外面。",
+    "销售员奥马尔正带着新机器等候。他销售计时器，但不制造它们。他把每件物品从盒子里拿出来，告诉我们该放在哪里。两束光横穿我们的跑道，一束在起点，另一束在终点。挡住第一束光会启动计时器，挡住第二束光则会停止计时。我们想看看这台机器能否代替我们的秒表。",
+    "我在一张纸的顶端写下标题《星期六的计时测试》。随后，萨拉从一束光跑向另一束光，我同时用秒表为她计时。两个结果略有不同。“我们再试一次吧。”她说。我们又进行了五次测试，记下了每次的结果。不用按任何按钮就能得到机器的计时结果，真是太棒了。不过，在选择使用哪种计时器之前，我们仍需要查清为什么测出的时间不同。"
+  ],
+  "q": [
+    {
+      "s": "The club uses an old railway platform for short races.",
+      "a": "T",
+      "why": "文中说俱乐部现在用旧站台进行短跑。"
+    },
+    {
+      "s": "Omar made the timers that he sold.",
+      "a": "F",
+      "why": "文中明确说他销售计时器，但不制造。"
+    },
+    {
+      "s": "Sara had used the new machine before Saturday.",
+      "a": "NG",
+      "why": "文中未说明萨拉此前是否用过这台机器。"
+    }
+  ]
+}

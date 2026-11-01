@@ -1,0 +1,48 @@
+{
+  "id": "r0456",
+  "ids": [
+    "violation",
+    "inspection",
+    "leadership",
+    "prominent",
+    "earnings",
+    "waving",
+    "replacement",
+    "conscience",
+    "suspicious",
+    "calorie"
+  ],
+  "title": "The Bakery That Teaches Honesty",
+  "titleZh": "教人诚实的面包坊",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "Behind a small food museum, a [[waving|waving]] yellow flag marks the entrance to an unusual training bakery. Here, new bakers learn more than how to make bread rise. Under the [[leadership|leadership]] of instructor Amara Costa, they investigate how tiny decisions at a kitchen table can affect the people who eventually buy their products.",
+    "One morning, Costa places a [[suspicious|suspicious]] label beside a tray of oat rolls: each roll supposedly contains just 40 calories. A careful [[inspection|inspection]] reveals that the figure describes a much smaller portion. The recipe has not changed, but the rolls have doubled in size. Selling them with the old labels would be a [[violation|violation]] of the bakery's agreement to provide accurate food information.",
+    "The trainees must prepare a [[replacement|replacement]] label rather than throw away perfectly good bread. First, they weigh several rolls and calculate an average. Then they use ingredient data to estimate the energy content. A [[calorie|calorie]], Costa explains, measures energy, not nutritional quality. A [[prominent|prominent]] food scientist who helped design the course insisted that this distinction deserved as much attention as mixing techniques.",
+    "The exercise also raises a harder question: would a baker report the mistake if correcting it reduced that day's [[earnings|earnings]]? Costa cannot measure anyone's [[conscience|conscience]] with kitchen scales. Instead, she asks trainees to explain their choices to one another. By lunchtime, the fresh labels are ready—a modest reminder that professional skill includes knowing when a number can mislead."
+  ],
+  "zh": [
+    "一间小型食品博物馆的后面，一面随风飘动的黄色旗帜标示着一家特别的培训面包坊的入口。在这里，新手面包师学到的不只是如何让面包发起来。在指导老师阿玛拉·科斯塔的带领下，他们探究厨房操作台前的微小决定，会怎样影响最终购买产品的人。",
+    "一天早晨，科斯塔在一盘燕麦面包卷旁放了一张可疑的标签：每个面包卷据称仅含40卡路里。经过仔细检查，大家发现，这个数字对应的其实是小得多的一份。配方没有改变，但面包卷的大小已经翻了一倍。如果仍贴着旧标签出售，就会违反面包坊关于提供准确食品信息的约定。",
+    "学员们必须制作新标签来替换旧标签，而不是扔掉完全可以食用的面包。首先，他们称量几个面包卷，计算平均重量。随后，他们利用配料数据估算能量含量。科斯塔解释说，卡路里衡量的是能量，而不是营养品质。一位参与课程设计的知名食品科学家坚持认为，这一区别值得获得与搅拌技巧同等的重视。",
+    "这项练习还提出了一个更难的问题：如果纠正错误会减少当天的劳动收入，面包师还会报告这个错误吗？科斯塔无法用厨房秤衡量任何人的良心。她转而要求学员们相互解释自己的选择。到了午餐时间，新标签已经准备好了。这件小事提醒大家，专业技能也包括懂得识别一个数字何时会误导他人。"
+  ],
+  "q": [
+    {
+      "s": "The food museum pays for the bakery's training course.",
+      "a": "NG",
+      "why": "首段只交代位置，未说明课程由谁出资。"
+    },
+    {
+      "s": "The trainees are instructed to discard the rolls because their labels are inaccurate.",
+      "a": "F",
+      "why": "第三段要求更换标签，而不是扔掉面包。"
+    },
+    {
+      "s": "Costa asks the trainees to explain their choices to each other.",
+      "a": "T",
+      "why": "末段明确说她要求学员相互解释自己的选择。"
+    }
+  ]
+}

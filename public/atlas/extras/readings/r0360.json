@@ -1,0 +1,48 @@
+{
+  "id": "r0360",
+  "ids": [
+    "telegram",
+    "visible",
+    "unaffordable",
+    "self-employed",
+    "fund-raising",
+    "slam",
+    "license",
+    "trek",
+    "beetle",
+    "strap"
+  ],
+  "title": "The Village Messenger’s Bag",
+  "titleZh": "乡村信使的挎包",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "In the nineteenth century, the electric telegraph changed how news travelled, but wires could not carry paper to a farmhouse door. A [[telegram|telegram]] still needed a person for its final journey. In rural districts, this task helped establish a familiar object: the messenger’s leather shoulder bag.",
+    "Arrangements differed between countries. Some postal services employed delivery boys, while elsewhere a [[self-employed|self-employed]] carrier took messages alongside parcels. Officials could [[license|license]] private operators, bringing their work under formal rules. For isolated households, a private telephone remained [[unaffordable|unaffordable]] well into the next century, so a written message retained its importance. Reaching a distant cottage might involve a difficult [[trek|trek]] over muddy fields rather than a quick walk along a street.",
+    "The bag was simple but practical. Its broad [[strap|strap]] spread the weight across the shoulder, while an overlapping flap protected envelopes from rain. Against pale clothing, the dark leather was clearly [[visible|visible]] from a distance. On rough paths, a messenger might stop to remove a stone—or a [[beetle|beetle]]—from a shoe. At the destination, care mattered: it was better to close a gate gently than [[slam|slam]] it beside a nervous horse.",
+    "Bicycles gradually shortened these journeys. Where money was scarce, community [[fund-raising|fund-raising]] could help purchase shared equipment, including a delivery bicycle. Later, wider telephone ownership reduced demand for hand-delivered messages. Yet the worn messenger’s bag preserves an important detail of communication history: even electrical speed once depended on somebody’s feet."
+  ],
+  "zh": [
+    "19世纪，电报改变了消息传播的方式，但电线无法把纸张送到农舍门口。一封电报的最后一段路，仍然需要有人来完成。在乡村地区，这项工作让一种物品逐渐变得常见：信使的皮革单肩挎包。",
+    "各国的安排并不相同。有些邮政机构雇用男孩送信，另一些地方则由个体经营的递送人员在运送包裹时兼送电报。官员可以向私人经营者发放许可证，将其工作纳入正式规定的管理之下。进入下一个世纪很长一段时间后，偏远家庭仍然负担不起私人电话，因此书面消息依旧十分重要。前往一座偏僻的小屋，可能意味着艰难地长途跋涉，穿过泥泞的田野，而不是沿街快走一小段路。",
+    "这种挎包简单却实用。宽大的背带将重量分散到肩膀上，覆盖包口的翻盖则保护信封不被雨水打湿。深色皮革与浅色衣服形成对比，从远处就能清楚看见。走在崎岖的小路上，信使可能需要停下来，倒出鞋里的石子，甚至是一只甲虫。到达目的地后，也得留心动作：如果旁边有一匹容易受惊的马，轻轻关上院门总比砰地甩上更合适。",
+    "自行车逐渐缩短了这些行程。在资金紧张的地方，社区募捐可以帮助购置共用设备，其中就包括送信用的自行车。后来，电话日益普及，人们对专人递送消息的需求随之减少。然而，磨旧的信使挎包保留了通信史上一个重要的细节：即使是电力带来的速度，也曾经依靠人的双脚。"
+  ],
+  "q": [
+    {
+      "s": "The messengers’ leather bags were made in the villages where they were used.",
+      "a": "NG",
+      "why": "首段介绍皮革挎包，未交代其制作地点。"
+    },
+    {
+      "s": "Rural message carriers worked under the same employment arrangements in every country.",
+      "a": "F",
+      "why": "第二段指出各国安排不同，有雇员也有个体户。"
+    },
+    {
+      "s": "Wider telephone ownership reduced demand for hand-delivered messages.",
+      "a": "T",
+      "why": "末段明确说电话普及减少了人工递送需求。"
+    }
+  ]
+}

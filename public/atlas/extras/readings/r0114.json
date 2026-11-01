@@ -1,0 +1,46 @@
+{
+  "id": "r0114",
+  "ids": [
+    "fight",
+    "extremely",
+    "skateboarding",
+    "lettuce",
+    "ugly",
+    "success",
+    "jumper",
+    "period",
+    "sheet",
+    "liter"
+  ],
+  "title": "The Puppet Club’s First Show",
+  "titleZh": "木偶社的首场演出",
+  "topic": "education",
+  "cefr": 1,
+  "paras": [
+    "Welcome to our exhibition about a small puppet club. In 1982, twelve children met here every Saturday to learn how to tell stories on stage. Their teacher, Mina, kept their first puppets. Look at the boy in the red [[jumper|jumper]]. His head was once a fresh [[lettuce|lettuce]]! It was [[extremely|extremely]] heavy, so the children made a new head from paper. A photo beside this glass box shows the original head.",
+    "During this six-week [[period|period]], the children wrote a play about [[skateboarding|skateboarding]]. Two friends wanted to use the same board. They began to [[fight|fight]], hitting each other until a wheel broke. Then they learned to share. The children painted a street behind the puppets. They used one [[liter|liter]] of blue paint for the sky. An old bed [[sheet|sheet]] became the curtain; you can still see its little yellow flowers.",
+    "The first street painting looked [[ugly|ugly]], with brown clouds and strange square trees. However, the children tried again together. Their second painting is on the wall beside you. On the final Saturday, forty people watched the play. It was a [[success|success]]: everyone could follow the story, and the children felt proud. Before you leave, try moving a puppet behind our small curtain. Can you make it wave goodbye?"
+  ],
+  "zh": [
+    "欢迎参观我们关于一个小木偶社的展览。1982年，十二个孩子每周六在这里聚会，学习如何在舞台上讲故事。他们的老师米娜保存了他们最早制作的木偶。看看那个穿红色套头毛衣的男孩。他的头原先竟是一棵新鲜的生菜！这个头非常重，于是孩子们用纸做了一个新头。这个玻璃箱旁的一张照片展示了原来的头。",
+    "在这六周里，孩子们写了一出关于滑板运动的戏。两个朋友都想用同一块滑板。他们开始打架，互相击打，直到一个轮子坏了。后来，他们学会了分享。孩子们画了一幅街景，放在木偶后面。他们用一升蓝色颜料画天空。一条旧床单成了幕布，你现在还能看见上面的小黄花。",
+    "第一幅街景画很难看，云是棕色的，树是奇怪的方形。不过，孩子们一起重新试了一次。他们的第二幅画就挂在你身旁的墙上。最后一个周六，四十个人观看了演出。演出很成功：每个人都能看懂故事，孩子们也感到很自豪。离开前，不妨在我们的小幕布后面试着操纵一个木偶。你能让它挥手道别吗？"
+  ],
+  "q": [
+    {
+      "s": "Mina made the puppet's red jumper.",
+      "a": "NG",
+      "why": "文中未说明红色毛衣是谁做的。"
+    },
+    {
+      "s": "The club used a new bed sheet as its curtain.",
+      "a": "F",
+      "why": "幕布用的是旧床单，而非新床单。"
+    },
+    {
+      "s": "Forty people watched the play on the final Saturday.",
+      "a": "T",
+      "why": "最后一个周六有四十人观看演出。"
+    }
+  ]
+}

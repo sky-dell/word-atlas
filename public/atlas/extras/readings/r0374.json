@@ -1,0 +1,48 @@
+{
+  "id": "r0374",
+  "ids": [
+    "demanding",
+    "supposedly",
+    "carve",
+    "conceal",
+    "horizontal",
+    "strategy",
+    "motor",
+    "wander",
+    "splash",
+    "extinction"
+  ],
+  "title": "Small Birds, Shared Income",
+  "titleZh": "小木鸟，共同的收入",
+  "topic": "economy",
+  "cefr": 3,
+  "paras": [
+    "In the fishing village of Merrow, winter visitors often [[wander|wandered]] along the harbour but spent little money. A disused boat shed was [[supposedly|supposedly]] too damp for any business. Yet Amira, a retired carpenter, saw an opportunity: a community workshop selling wooden birds made from timber left over after boat repairs.",
+    "Six residents joined her project. Learning to [[carve|carve]] curved wings was [[demanding|demanding]], especially for people accustomed to repairing nets rather than shaping wood. They fixed each piece to a [[horizontal|horizontal]] workbench before cutting it. A small electric [[motor|motor]] powered their polishing wheel, while a curtain helped [[conceal|conceal]] the untidy timber store from customers. During storms, waves could [[splash|splash]] water through the doorway, so finished birds were kept on raised shelves.",
+    "Their sales [[strategy|strategy]] was simple: offer three sizes at clear prices and show visitors how each bird was made. Each purchase included a card describing a coastal species threatened with [[extinction|extinction]]. Amira checked the information with a wildlife charity, although the workshop remained a trading project rather than a fundraising campaign. Income first covered materials and electricity; the remainder was divided according to hours worked.",
+    "By March, the group had sold 180 birds, mostly the smallest model. The earnings were modest, but sufficient to keep the shed open for another season. More importantly, customers began returning with friends. A building once dismissed as unusable had become a reliable source of winter work."
+  ],
+  "zh": [
+    "在渔村梅罗，冬季游客常沿着港口闲逛，却很少花钱。据说，一间废弃的船棚太潮湿，根本不适合做生意。然而，退休木匠阿米拉看到了机会：开办一个社区工坊，利用修船后剩下的木料制作并出售木鸟。",
+    "六位居民加入了她的项目。学习雕刻弯曲的翅膀相当费力，对那些习惯补渔网而非加工木材的人来说尤其如此。他们先把每块木料固定在水平的工作台上，再进行切削。一台小型电动机带动抛光轮，帘子则帮助挡住杂乱的木料储存区，不让顾客看见。暴风雨期间，海浪可能将水溅进门内，因此做好的木鸟都放在加高的架子上。",
+    "他们的销售策略很简单：提供三种尺寸，明码标价，并向游客展示每只木鸟的制作过程。每件商品都附有一张卡片，介绍一种面临灭绝威胁的海岸动物。阿米拉向一家野生动物慈善机构核实了这些信息，不过，工坊仍是经营项目，而非筹款活动。收入先用于支付材料费和电费，剩余部分则按工作时数分配。",
+    "到三月，小组已经售出180只木鸟，其中大多是最小号的。收入虽然不高，却足以让船棚再经营一个季节。更重要的是，顾客开始带着朋友再次光顾。这栋一度被认为毫无用处的建筑，已经成为冬季可靠的工作来源。"
+  ],
+  "q": [
+    {
+      "s": "The workshop used wood remaining from boat repair work.",
+      "a": "T",
+      "why": "首段说明木料来自修船后的剩料。"
+    },
+    {
+      "s": "The wildlife charity charged Amira for checking the information.",
+      "a": "NG",
+      "why": "文章未说明慈善机构是否收取核实费用。"
+    },
+    {
+      "s": "The smallest model accounted for fewer than half the birds sold by March.",
+      "a": "F",
+      "why": "截至三月售出的木鸟大多是最小号。"
+    }
+  ]
+}

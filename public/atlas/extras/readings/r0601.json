@@ -1,0 +1,48 @@
+{
+  "id": "r0601",
+  "ids": [
+    "ultraviolet",
+    "everlasting",
+    "asylum",
+    "parasite",
+    "decompose",
+    "colonialism",
+    "meteorologist",
+    "theatrical",
+    "agitation",
+    "accrued"
+  ],
+  "title": "The Life Inside the Velvet",
+  "titleZh": "天鹅绒里的生命",
+  "topic": "science",
+  "cefr": 4,
+  "paras": [
+    "When microbiologist Samira Voss opened a trunk of [[theatrical|theatrical]] costumes in the abandoned Maren Playhouse, she found green dust along a velvet sleeve. Having received [[asylum|asylum]] after fleeing political persecution abroad, she had initially accepted the archive job simply to support herself. Yet the damaged garment presented a scientific puzzle: why had neighbouring sleeves survived almost intact?",
+    "The costumes dated from an era of [[colonialism|colonialism]], when imported dyes and fabrics advertised the ruling country's wealth. Their makers had pursued the illusion of [[everlasting|everlasting]] colour, mixing metallic salts into brilliant pigments. Samira suspected that these treatments, rather than differences in fabric quality, determined which sections would [[decompose|decompose]]. She mapped each stain before removing samples smaller than rice grains.",
+    "Under [[ultraviolet|ultraviolet]] illumination, several apparently clean patches revealed fluorescent traces of earlier repairs. Laboratory cultures identified a fungus consuming the cloth, not a [[parasite|parasite]] dependent on a living host. Working with [[meteorologist|meteorologist]] Tomas Ibek, Samira compared fungal growth with humidity records from a nearby observation station. Outbreaks coincided with wet winters; damage boundaries followed copper-rich areas. Both patterns suggested links requiring further tests.",
+    "The findings brought little immediate relief: [[accrued|accrued]] storage charges threatened the collection, and the curator's [[agitation|agitation]] became evident whenever another invoice arrived. Rather than promise complete restoration, Samira proposed a cheaper trial: stabilising humidity around one trunk while leaving its pigments untouched. A year later, fresh damage had ceased. The sleeve remained visibly scarred, but its deterioration was no longer inevitable."
+  ],
+  "zh": [
+    "微生物学家萨米拉·沃斯在废弃的马伦剧院打开一箱戏服时，发现一只天鹅绒衣袖上附着绿色粉末。她逃离国外的政治迫害后获得了庇护，起初接受这份档案保管工作，只是为了维持生计。然而，这件受损的衣服提出了一个科学疑问：为什么旁边的衣袖却几乎完好无损？",
+    "这些戏服制作于殖民统治时期，当时进口染料和织物是统治国炫耀财富的工具。制作者将金属盐混入鲜艳的颜料，追求色彩永不褪去的幻象。萨米拉怀疑，决定哪些部位会腐烂的，并非布料质量的差异，而是这些处理工艺。她先绘制出每处污斑的位置，再取下比米粒还小的样本。",
+    "在紫外线照射下，几处看似干净的地方显露出过去修补留下的荧光痕迹。实验室培养结果表明，侵蚀布料的是一种真菌，而不是依赖活体宿主的寄生生物。萨米拉与气象学家托马斯·伊贝克合作，将真菌生长情况与附近观测站的湿度记录进行比较。霉菌暴发的时间与潮湿的冬季相吻合；损伤边界与富含铜的区域边界相对应。这两种规律都提示了有待进一步试验验证的联系。",
+    "这些发现并未立即缓解困境：累积的保管费用使藏品的存续受到威胁，每当又一张账单送来，馆藏主管便显得焦躁不安。萨米拉没有承诺彻底修复，而是提出一项成本较低的试验：稳定其中一只箱子周围的湿度，同时不改动衣料上的颜料。一年后，新的损伤不再出现。衣袖上依然伤痕可见，但继续腐坏已不再是必然的命运。"
+  ],
+  "q": [
+    {
+      "s": "Samira originally took the archive position for financial rather than research reasons.",
+      "a": "T",
+      "why": "首段说她起初接受工作只是为了维持生计。"
+    },
+    {
+      "s": "Samira initially suspected fabric quality rather than chemical treatments determined which sections decayed.",
+      "a": "F",
+      "why": "第二段说她怀疑是处理工艺而非布料质量。"
+    },
+    {
+      "s": "The successful trial led to funding for treating every costume in the collection.",
+      "a": "NG",
+      "why": "末段仅报告试验结果，未提后续资金。"
+    }
+  ]
+}

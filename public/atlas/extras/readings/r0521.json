@@ -1,0 +1,48 @@
+{
+  "id": "r0521",
+  "ids": [
+    "fortune",
+    "archaeology",
+    "explosion",
+    "tension",
+    "manufacture",
+    "tremendous",
+    "trap",
+    "impose",
+    "destiny",
+    "stability"
+  ],
+  "title": "Behind the Brass Clock",
+  "titleZh": "黄铜时钟背后的故事",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "Welcome to the Bellwater Clockworks exhibition. The brass clock beside the entrance once cost a [[fortune|fortune]], yet fifty years later similar clocks stood in ordinary kitchens. This gallery explores the machinery that made that change possible. Our story begins in 1842, when a riverside workshop started to [[manufacture|manufacture]] clock parts using steam power rather than hand tools alone.",
+    "The central model shows how one engine drove thirty cutting machines. Its heavy stone base provided [[stability|stability]], keeping the equipment steady as the cutters worked. Supporting this machinery placed [[tremendous|tremendous]] demands on the building's structure. In 1861, a boiler [[explosion|explosion]] destroyed the eastern wall. The twisted pipe displayed below was recovered during an investigation combining industrial [[archaeology|archaeology]] with research into written records.",
+    "Letters in the next case reveal growing [[tension|tension]] between the owner and the machine operators after the accident. Workers wanted shorter shifts and regular inspections; the owner feared losing orders. Only then did the factory inspector [[impose|impose]] a rule requiring weekly boiler checks. Nearby, a wooden rat [[trap|trap]] offers a quieter reminder of workshop life: animals frequently damaged the leather belts that carried power between machines.",
+    "Before leaving, listen to a reading from a worker's diary. She rejects the idea that dangerous work is the workers' [[destiny|destiny]], beyond their control. Beside her diary stands a redesigned safety valve, labelled with an explanation of how it addressed one of the dangers she described."
+  ],
+  "zh": [
+    "欢迎参观贝尔沃特钟表厂展览。入口旁的黄铜时钟曾经价格极其昂贵，但五十年后，类似的时钟已摆进普通人家的厨房。本展厅将介绍促成这一变化的机械设备。故事始于1842年：当时，一家河边作坊开始利用蒸汽动力生产时钟零件，不再仅仅依靠手工工具。",
+    "中央的模型展示了一台发动机如何带动三十台切割机。沉重的石制底座提供了稳固的支撑，使切割机工作时设备能保持平稳。支撑这些机械对厂房结构提出了极高的要求。1861年，一次锅炉爆炸摧毁了东墙。下方展出的扭曲管道是在一次调查中发现的，该调查结合了工业考古与文献研究。",
+    "下一个展柜里的信件揭示了事故后厂主与机器操作工之间日益紧张的关系。工人希望缩短工时并定期检查设备，厂主却担心订单流失。此后，工厂监察员才强制要求每周检查锅炉。旁边的一只木制捕鼠器则从一个较为平静的角度，让人想起车间的日常生活：动物经常损坏在机器之间传递动力的皮带。",
+    "离开前，请听一段工人日记的朗读。她反对这样一种观念：危险的工作是工人无法掌控的命运。日记旁摆着一个重新设计的安全阀，标签说明了它如何解决她描述的一项危险。"
+  ],
+  "q": [
+    {
+      "s": "The brass clock at the entrance originally belonged to the workshop owner.",
+      "a": "NG",
+      "why": "首段未说明入口时钟原先属于谁。"
+    },
+    {
+      "s": "The boiler explosion destroyed the eastern wall.",
+      "a": "T",
+      "why": "第二段明确说爆炸摧毁了东墙。"
+    },
+    {
+      "s": "Weekly boiler inspections became compulsory before the accident.",
+      "a": "F",
+      "why": "事故后发生争执，此后才强制每周检查。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0470",
+  "ids": [
+    "insert",
+    "marketing",
+    "resume",
+    "aluminum",
+    "teamwork",
+    "static",
+    "oxygen",
+    "trader",
+    "readily",
+    "legend"
+  ],
+  "title": "The Bubbles Beneath Winter Ice",
+  "titleZh": "冬日冰层下的气泡",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "On some northern lakes, winter ice contains towers of white bubbles, stacked like tiny plates. A guide might invent a [[legend|legend]] about a [[trader|trader]] who dropped silver coins into the water, claiming that the pale circles mark his lost treasure. Their real origin, however, lies in the muddy lake bottom, where microscopic organisms break down dead plants.",
+    "Once [[oxygen|oxygen]] in the mud has been used up, certain microbes produce methane, a gas that rises through the water. During freezing weather, bubbles become trapped beneath the growing ice. More bubbles collect below them, creating separate layers as the ice thickens downwards. Although the finished pattern appears [[static|static]], it records a sequence of events. If warmer conditions interrupt freezing, the process can [[resume|resume]] when temperatures fall again.",
+    "Researchers study these layers to understand how much methane lakes release. From a secure working platform, they drill a narrow hole and [[insert|insert]] a sampling tube beneath the ice. An [[aluminum|aluminum]] frame supports their equipment, while careful [[teamwork|teamwork]] keeps the tube steady during collection. The gas escapes [[readily|readily]] once a trapped pocket is opened, so measurements require care.",
+    "Photographs of these frozen patterns now appear in winter-tourism [[marketing|marketing]], attracting visitors to designated lakeside viewpoints. Yet the bubbles are more than an attractive curiosity. When spring melts their icy cover, methane can enter the atmosphere, where it traps heat. What looks like a silent underwater sculpture therefore reveals a connection between lake-bottom life and the wider climate."
+  ],
+  "zh": [
+    "在一些北方湖泊中，冬日的冰层里藏着一柱柱白色气泡，像小碟子一样层层叠起。导游或许会编一个传说，说一位商人把银币掉进了水里，并声称这些淡白色圆斑标示着他遗失财宝的位置。然而，它们真正的源头位于泥泞的湖底，那里有微生物在分解死去的植物。",
+    "泥中的氧气耗尽后，某些微生物便会产生甲烷，这种气体会在水中向上升起。天气严寒时，气泡会被困在不断增厚的冰层下。更多气泡聚集在它们下方，随着冰层向下变厚，形成彼此分开的层次。最终形成的图案虽然看似静止不变，却记录了一连串变化。如果天气转暖使结冰中断，气温再次下降时，这一过程就能继续。",
+    "研究人员通过研究这些气泡层，了解湖泊释放的甲烷量。他们在稳固的作业平台上钻一个小孔，将采样管插到冰层下面。铝制支架支撑着设备，而细致的团队合作则让采样管在收集过程中保持稳定。一旦被困的气团被打开，气体便很容易逸出，因此测量时必须小心。",
+    "如今，这些冰中图案的照片出现在冬季旅游营销材料中，吸引游客前往指定的湖畔观景点。然而，气泡不仅是引人入胜的奇观。春天到来，覆盖气泡的冰层融化后，甲烷便可能进入大气，并在其中留住热量。因此，这片看似寂静的水下雕塑，揭示了湖底生命与更大范围气候之间的联系。"
+  ],
+  "q": [
+    {
+      "s": "The bubbles originate from activity in the mud at the bottom of the lake.",
+      "a": "T",
+      "why": "首段说明气泡源于湖底泥中微生物的活动。"
+    },
+    {
+      "s": "Researchers collect gas samples from the lakes every winter.",
+      "a": "NG",
+      "why": "文中介绍采样方法，未说明是否每年冬天采样。"
+    },
+    {
+      "s": "The trapped gas stays in place when a pocket beneath the ice is opened.",
+      "a": "F",
+      "why": "第三段明确说气团打开后气体容易逸出。"
+    }
+  ]
+}

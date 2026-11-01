@@ -1,0 +1,48 @@
+{
+  "id": "r0354",
+  "ids": [
+    "impossibility",
+    "idle",
+    "institution",
+    "basin",
+    "vertical",
+    "eastward",
+    "commerce",
+    "appoint",
+    "audio-visual",
+    "overlook"
+  ],
+  "title": "Water Against Gravity",
+  "titleZh": "逆重力而上的水",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "Making water climb without a pump may seem an [[impossibility|impossibility]]. At a small research [[institution|institution]] near a coastal farming district, however, a team tested whether cotton strips could supply water to seedlings above a container. The director [[appoint|appointed]] laboratory technician Amara Sen to lead the experiment, which used an [[idle|idle]] greenhouse previously reserved for storage.",
+    "Sen filled a wide plastic [[basin|basin]] with water and placed twelve seedling pots on a shelf twenty centimetres above it. Six pots received cotton strips, each with one end underwater and the other buried in soil. The remaining pots had no connection to the water. The strips followed a nearly [[vertical|vertical]] path. An [[audio-visual|audio-visual]] recording combined hourly photographs with Sen's spoken observations.",
+    "After three days, the connected pots remained damp, while the others were dry. However, Sen refused to [[overlook|overlook]] a possible source of error: the greenhouse windows faced [[eastward|eastward]], so morning sunlight warmed some pots more than others. She repeated the trial, exchanging the groups' positions each morning. The result remained similar, suggesting that the cotton, rather than the position, explained the difference.",
+    "Water had travelled through tiny spaces between the cotton fibres, a process called capillary action. The finding was familiar science, but its practical value interested visitors involved in agricultural [[commerce|commerce]]. Sen stressed that larger trials were needed before recommending the method to growers. For now, the experiment demonstrated a simple principle: a carefully arranged material could do work normally assigned to a machine."
+  ],
+  "zh": [
+    "让水在没有水泵的情况下向上爬，看起来或许是不可能的。然而，在沿海农业区附近的一家小型研究机构，一个团队测试了棉布条能否为容器上方的幼苗供水。主任任命实验室技术员阿玛拉·森负责这项实验，实验地点是一座闲置的温室，此前留作储物之用。",
+    "森在一个宽大的塑料盆里装满水，将十二盆幼苗放在水盆上方二十厘米处的架子上。其中六盆接上棉布条，每根布条的一端浸在水中，另一端埋进土里。其余花盆与水之间没有连接。布条的走向几乎竖直。实验采用视听记录，将每小时拍摄的照片与森的口头观察记录结合起来。",
+    "三天后，接有布条的花盆仍然湿润，其余花盆却已干燥。不过，森没有忽略一个可能的误差来源：温室的窗户朝东，因此有些花盆受到早晨阳光的照射后，比其他花盆更暖。她重复了实验，每天早晨交换两组花盆的位置。结果依然相似，提示造成差异的可能是棉布条，而不是摆放位置。",
+    "水通过棉纤维之间的微小空隙向上移动，这一过程称为毛细作用。这是人们熟悉的科学知识，但它的实用价值引起了从事农业贸易的参观者的兴趣。森强调，在向种植者推荐这种方法之前，还需要开展更大规模的试验。目前，这项实验证明了一个简单的道理：经过精心布置的材料，可以完成通常交给机器的工作。"
+  ],
+  "q": [
+    {
+      "s": "Sen had led other experiments at the institution before this trial.",
+      "a": "NG",
+      "why": "文章未说明森此前是否领导过其他实验。"
+    },
+    {
+      "s": "Changing the positions of the two groups reversed the result of the experiment.",
+      "a": "F",
+      "why": "交换两组位置后，实验结果仍然相似。"
+    },
+    {
+      "s": "Sen said larger trials were needed before recommending the method to growers.",
+      "a": "T",
+      "why": "末段明确说推荐前还需更大规模的试验。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0225",
+  "ids": [
+    "reduce",
+    "journal",
+    "persuading",
+    "lively",
+    "sculpture",
+    "demand",
+    "classical",
+    "coal",
+    "admit",
+    "contents"
+  ],
+  "title": "A Clay Bird for Quiet Moments",
+  "titleZh": "一只带来宁静的陶鸟",
+  "topic": "health",
+  "cefr": 2,
+  "paras": [
+    "At a health centre beside a busy market, potter Amira makes small clay birds for the waiting room. Visitors can hold each smooth [[sculpture|sculpture]] while they wait. The idea came from a nursing [[journal|journal]], which described how pleasant objects might help [[reduce|reduce]] worry. Amira began by [[persuading|persuading]] the centre's manager to try six birds.",
+    "First, she opens a bag of clay and checks its [[contents|contents]] for dry pieces. She adds a little water, then presses the clay until it feels soft and even. Each bird starts as a ball about the size of an egg. She pulls one end into a tail and shapes a short, rounded beak.",
+    "Next, Amira rubs the surface with a wet cloth. She must [[admit|admit]] that her first birds had sharp tails, so she now makes every edge round. After drying, the birds go into an electric oven made for pottery. Unlike older ovens that burned [[coal|coal]], this one produces no smoke in her workshop.",
+    "Finally, she adds a blue coating and heats the birds again. At the centre, [[classical|classical]] music plays softly beside the display. Even on [[lively|lively]] market mornings, visitors pause to choose a bird. As [[demand|demand]] grows, Amira makes more, but each still fits comfortably in one hand."
+  ],
+  "zh": [
+    "在繁忙市场旁的一家医疗中心，陶艺师阿米拉为候诊室制作小陶鸟。来访者可以在等候时把每件光滑的雕塑握在手里。这个想法来自一本护理专业期刊，其中介绍了令人愉悦的物品可能如何帮助减轻焦虑。阿米拉首先说服了中心负责人，同意试用六只陶鸟。",
+    "首先，她打开一袋陶土，检查里面有没有干硬的土块。她加入少量水，然后揉压陶土，直到它变得柔软均匀。每只鸟最初都是一个鸡蛋大小的泥球。她将一端拉成尾巴，再捏出短而圆钝的鸟喙。",
+    "接着，阿米拉用湿布擦拭表面。她不得不承认，最早制作的陶鸟尾巴很尖，所以现在她会把所有边缘都做得圆润。陶鸟晾干后，会被放进专门烧制陶器的电窑。与过去烧煤的窑炉不同，这台电窑不会在她的工作室里产生烟。",
+    "最后，她给陶鸟涂上蓝色涂层，再次烧制。在医疗中心，摆放陶鸟的地方旁边轻轻播放着古典音乐。即使在市场热闹的早晨，来访者也会停下来挑选一只陶鸟。随着需求增加，阿米拉制作了更多陶鸟，但每只仍然能舒舒服服地握在一只手里。"
+  ],
+  "q": [
+    {
+      "s": "Amira first persuaded the manager to try twelve birds.",
+      "a": "F",
+      "why": "最初说服负责人试用的是六只，而非十二只。"
+    },
+    {
+      "s": "Amira heats the birds in an electric oven made for pottery.",
+      "a": "T",
+      "why": "第三段明确说陶鸟放进专用电窑烧制。"
+    },
+    {
+      "s": "Visitors prefer the blue birds to birds of other colours.",
+      "a": "NG",
+      "why": "文章未比较来访者对不同颜色的喜好。"
+    }
+  ]
+}

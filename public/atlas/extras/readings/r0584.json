@@ -1,0 +1,48 @@
+{
+  "id": "r0584",
+  "ids": [
+    "humiliate",
+    "scrutiny",
+    "amphibian",
+    "reinforcement",
+    "fabricate",
+    "sorrowful",
+    "overextend",
+    "sportsmanship",
+    "deviation",
+    "optics"
+  ],
+  "title": "The Pool Beneath the Alder",
+  "titleZh": "桤木下的水潭",
+  "topic": "nature",
+  "cefr": 4,
+  "paras": [
+    "At dusk on 18 April, our survey reached a rain-fed pool beneath a fallen alder. I counted what appeared to be seven newts above the leaf litter. Closer [[scrutiny|scrutiny]], with the surface glare shaded by my clipboard, reduced the number to four: three pale shapes were leaves. A practical lesson in [[optics|optics]] had preceded our first reliable record of an [[amphibian|amphibian]] that evening.",
+    "My companion, Leila, corrected the notebook without comment. Having once organised competitive canoe races, she regarded [[sportsmanship|sportsmanship]] as equally valuable beside a pond: an observer's mistake was not an invitation to [[humiliate|humiliate]] them. We had agreed not to [[overextend|overextend]] ourselves by surveying the entire valley, but to document this single pool thoroughly, including observations that contradicted our expectations.",
+    "One such [[deviation|deviation]] emerged at 21:10. Although the temperature had fallen, two newts moved into shallower water rather than retreating beneath submerged wood. Their movements seemed almost [[sorrowful|sorrowful]] in the torchlight, but that impression belonged to us, not the animals. To assign them grief would be to [[fabricate|fabricate]] an explanation where we had only a change of position.",
+    "Along the lower bank, recent [[reinforcement|reinforcement]] with woven willow branches had slowed the escape of water through a narrow breach. Whether this accounted for the newts' unusual movements remained unresolved; we recorded water depth and left the question open. As we packed away, another pale shape caught my eye. I waited until it swam clear of the leaves before recording its position."
+  ],
+  "zh": [
+    "4月18日黄昏，我们来到一棵倒伏桤木下的雨水潭开展调查。我数到落叶层上方似乎有七只蝾螈。用写字板遮住水面眩光、仔细查看后，数量减为四只：其中三个浅色物体其实是叶片。那晚，在首次可靠记录到两栖动物之前，我们先上了一堂光学实践课。",
+    "同伴莱拉默默修正了笔记。她曾组织过独木舟比赛，认为在水潭边，体育精神同样可贵：观察者犯了错，并不意味着旁人就可以借机羞辱他们。我们事先约定，不勉强自己调查整条山谷，而是详尽记录这一个水潭，包括那些与预期相悖的观察结果。",
+    "21点10分，就出现了这样一项偏离预期的现象。尽管气温已经下降，两只蝾螈却游向了更浅的水域，而没有退到水下的木头底下。在手电光中，它们的动作几乎显得有些悲伤，但这种感受属于我们，而非动物。若认定它们心怀悲痛，就是在仅仅观察到位置变化时，凭空捏造一种解释。",
+    "沿着较低的一侧潭岸，近期用柳枝编织物进行的加固减缓了潭水从一道狭窄缺口流出的速度。这是否能解释蝾螈的异常活动，仍无定论；我们记下水深，暂不作答。收拾器材时，又一个浅色身影引起了我的注意。我等到它游离叶片后，才记下它的位置。"
+  ],
+  "q": [
+    {
+      "s": "Mistaking pale leaves for newts led the observer to overestimate their number initially.",
+      "a": "T",
+      "why": "最初数到七只，其中三个浅色物体实为叶片。"
+    },
+    {
+      "s": "Leila had competed in canoe races before organising them.",
+      "a": "NG",
+      "why": "只提到她组织过比赛，未说明是否参赛。"
+    },
+    {
+      "s": "At 21:10, the two newts retreated beneath submerged wood instead of entering shallower water.",
+      "a": "F",
+      "why": "两只蝾螈游向浅水，并未退到水下木头底下。"
+    }
+  ]
+}

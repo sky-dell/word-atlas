@@ -1,0 +1,48 @@
+{
+  "id": "r0619",
+  "ids": [
+    "condemn",
+    "shipowner",
+    "hail",
+    "firearm",
+    "remuneration",
+    "zinc",
+    "attain",
+    "dew",
+    "suppress",
+    "dumping"
+  ],
+  "title": "The Harbour's Unlikely Champions",
+  "titleZh": "港湾里出人意料的冠军",
+  "topic": "sport",
+  "cefr": 4,
+  "paras": [
+    "Begin beside the narrow rowing boat suspended above this gallery. Built in 1894 for the fictional port of Selwick, it belonged to six dock workers whose sporting ambitions exceeded their means. Their sponsor, a [[shipowner|shipowner]] named Amara Voss, provided timber and a boathouse, but the crew fashioned the vessel themselves after exhausting shifts.",
+    "The case beneath contains their training ledger, its pages recording distances alongside deductions from weekly [[remuneration|remuneration]]. To [[attain|attain]] racing fitness without sacrificing wages, they practised before sunrise, when [[dew|dew]] made the landing steps slippery. A dented cup recalls a session interrupted by [[hail|hail]]; rather than suggesting heroic endurance, the accompanying entry records a sensible retreat to shelter.",
+    "Beyond it, a panel explains why their first regatta became controversial. Imported oars were being sold so cheaply that local craftsmen accused foreign suppliers of [[dumping|dumping]]. Although Voss purchased a set, the crew publicly chose to [[condemn|condemn]] the practice and raced with locally made replacements. Beside their statement stands a bucket coated with [[zinc|zinc]] to resist corrosion, used to bail water from the boat during trials.",
+    "At the final display, listen to an actor reading coxswain Tomas Ibarra's account of race day. He struggled to [[suppress|suppress]] a nervous laugh when the starter raised a [[firearm|firearm]] loaded with a blank cartridge. The crew finished second, not first. Their modest silver medal concludes an exhibition concerned less with victory than with how working people negotiated the material and moral costs of competitive sport."
+  ],
+  "zh": [
+    "请从悬挂在本展厅上方的狭长赛艇开始参观。这艘船于1894年为虚构的塞尔威克港建造，属于六名码头工人；他们的体育抱负远远超出了经济能力。赞助人是一位名叫阿玛拉·沃斯的船主，这位船主提供了木材和船库，但船体是队员们在繁重的轮班工作结束后亲手打造的。",
+    "下方展柜中陈列着他们的训练记录簿，页上既记着划行距离，也记着每周报酬的扣减情况。为了在不损失工资的前提下达到比赛所需的体能水平，他们在日出前训练，此时露水常使下水处的台阶湿滑。一只凹陷的杯子让人想起一次被冰雹打断的训练；旁边的记录并未渲染英勇坚持，而是记述了他们明智地撤往遮蔽处的经过。",
+    "再往前，一块展板解释了他们首次参加的赛艇比赛为何引发争议。进口船桨售价极低，本地工匠因此指责外国供应商低价倾销。尽管沃斯购置了一套进口桨，队员们仍决定公开谴责这种做法，并改用本地制造的船桨参赛。他们的声明旁摆着一只镀锌防腐水桶，试航时曾用于舀出船内积水。",
+    "在最后一处展区，请聆听演员朗读舵手托马斯·伊瓦拉对比赛当天的回忆。当发令员举起装有空包弹的枪时，他努力忍住因紧张而产生的笑意。船队最终获得的是第二名，而非第一名。这枚朴素的银牌为展览画上句号：这里关注的与其说是胜利，不如说是劳动者如何应对竞技体育在物质和道德层面带来的代价。"
+  ],
+  "q": [
+    {
+      "s": "The dock workers constructed their boat using materials supplied by their sponsor.",
+      "a": "T",
+      "why": "船主提供木材，工人亲手造船。"
+    },
+    {
+      "s": "The crew continued their training on the water despite the hailstorm.",
+      "a": "F",
+      "why": "记录显示他们停止训练并撤往遮蔽处。"
+    },
+    {
+      "s": "The crew donated their prize money to the local oar makers.",
+      "a": "NG",
+      "why": "文中未提奖金及其用途。"
+    }
+  ]
+}

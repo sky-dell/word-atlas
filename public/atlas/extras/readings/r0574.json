@@ -1,0 +1,48 @@
+{
+  "id": "r0574",
+  "ids": [
+    "posture",
+    "feeble",
+    "deadlock",
+    "capillary",
+    "maiden",
+    "prosecution",
+    "liberal",
+    "conceive",
+    "laborious",
+    "clarity"
+  ],
+  "title": "Building Evidence in Miniature",
+  "titleZh": "制作微缩证据模型",
+  "topic": "work",
+  "cefr": 4,
+  "paras": [
+    "In a specialist model workshop, Amira builds miniature machines for courtroom demonstrations. Her latest commission, intended for a criminal [[prosecution|prosecution]] concerning an unguarded factory press, begins not with cutting timber but with checking measurements. Photographs establish the operator’s [[posture|posture]], while maintenance drawings reveal which components could move. The model must distinguish documented facts from assumptions without pretending to reproduce the accident itself.",
+    "Before construction, Amira must [[conceive|conceive]] a mechanism that makes the press’s hydraulic action visible. Her [[liberal|liberal]] approach allows technicians to propose unconventional materials, but disagreement over glass and plastic produces a [[deadlock|deadlock]]. They resolve it by testing both: transparent plastic withstands handling better, whereas glass provides a clearer view of the liquid travelling through a narrow [[capillary|capillary]].",
+    "The resulting design combines a plastic housing with a protected glass tube. Assembly is [[laborious|laborious]]: each joint is sealed, left overnight, then inspected under a lamp for leakage. Initially, the tiny pump produces only a [[feeble|feeble]] movement of coloured water. Rather than increase the pressure and distort the demonstration, Amira reduces friction in the miniature piston, allowing the mechanism to operate at the intended setting.",
+    "During its [[maiden|maiden]] demonstration, the finished model is filmed beside a ruler, so reviewers can judge its scale and speed. Labels identify altered dimensions, and a separate diagram explains why miniature fluid systems behave differently from industrial equipment. Such qualifications improve [[clarity|clarity]] rather than weaken the exhibit: the final object shows how the machine works while leaving questions of responsibility to the court."
+  ],
+  "zh": [
+    "在一家专业模型工坊里，阿米拉制作供法庭演示使用的微缩机器。她最新接到的委托涉及一宗刑事起诉，案件与工厂里一台缺少防护装置的压力机有关。制作并非从切割木材开始，而是先核对尺寸。照片用于确定操作人员的姿势，维修图纸则显示哪些部件能够运动。模型必须区分有记录支持的事实与推测，不能佯称自己重现了事故本身。",
+    "动工之前，阿米拉必须构思一种能直观展示压力机液压作用的机制。她思想开放，允许技术人员提出采用非常规材料，但大家在玻璃和塑料的选择上产生分歧，工作陷入僵局。他们通过分别测试两种材料解决问题：透明塑料更经得起搬动，而玻璃能让人更清楚地看到液体流过细窄毛细管的过程。",
+    "最终的设计将塑料外壳与一根受到保护的玻璃管结合起来。组装十分费时费力：每个接头都要密封，静置一夜，再放到灯下检查是否渗漏。起初，微型泵只能让有色水产生微弱的流动。阿米拉没有提高压力，以免演示失真，而是减小微型活塞的摩擦，使机构能够在预定设置下运转。",
+    "首次演示时，工作人员把一把尺子放在成品模型旁边进行录像，以便审核人员判断其比例和运行速度。标签标明经过调整的尺寸，另附的示意图则解释微型流体系统的表现为何不同于工业设备。这些限定说明不仅没有削弱展品的作用，反而使展示更加清晰：最终制成的模型说明了机器如何运作，同时将责任归属问题留给法庭裁决。"
+  ],
+  "q": [
+    {
+      "s": "Amira starts cutting timber before checking the measurements for her latest model.",
+      "a": "F",
+      "why": "首段明确说先核对尺寸，而非切割木材。"
+    },
+    {
+      "s": "The workshop had used transparent plastic in earlier courtroom models.",
+      "a": "NG",
+      "why": "文中未说明此前的法庭模型用过何种材料。"
+    },
+    {
+      "s": "The finished model has labels identifying dimensions that have been altered.",
+      "a": "T",
+      "why": "末段明确说标签标明经过调整的尺寸。"
+    }
+  ]
+}

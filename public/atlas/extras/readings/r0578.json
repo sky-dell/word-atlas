@@ -1,0 +1,48 @@
+{
+  "id": "r0578",
+  "ids": [
+    "relinquish",
+    "muster",
+    "petty",
+    "justification",
+    "limestone",
+    "hemisphere",
+    "pester",
+    "venture",
+    "compile",
+    "vulnerable"
+  ],
+  "title": "Listening to Stone",
+  "titleZh": "倾听石头的声音",
+  "topic": "technology",
+  "cefr": 4,
+  "paras": [
+    "When conservation engineer Amara Dube began testing acoustic sensors on [[limestone|limestone]] carvings, her workshop occupied a disused bakery in the southern [[hemisphere|hemisphere]]. She believed that faint changes in the way stone transmitted sound could reveal internal fractures before they became visible. For museums responsible for [[vulnerable|vulnerable]] objects, such early warnings might prevent irreversible losses during handling or exhibition.",
+    "Her first commercial [[venture|venture]], however, nearly failed over the sensor attachments. Curators refused to permit adhesive on ancient surfaces, while engineers dismissed their objections as [[petty|petty]] concerns about residue. Dube disagreed: there was no [[justification|justification]] for protecting an object's interior by damaging its exterior. She developed a padded clamp that held each sensor against the stone without leaving a trace.",
+    "To assess its reliability, Dube had to [[compile|compile]] records from quarry workers, museum conservators and laboratory technicians. She would [[pester|pester]] suppliers for discarded fragments, then expose these samples to repeated cycles of heating and cooling. When several apparently sound blocks produced misleading signals, she had to [[muster|muster]] the courage to suspend sales and explain the problem to her earliest customers.",
+    "The setback persuaded her to [[relinquish|relinquish]] exclusive control of the testing software, allowing other researchers to examine its assumptions. Their revisions helped distinguish genuine cracks from harmless variations in grain. Two years later, a museum used the improved device to identify a weakened carved doorway before dismantling it. Dube kept a photograph of the safely reassembled doorway above her bench: evidence, she said, that admitting uncertainty could make an instrument more dependable."
+  ],
+  "zh": [
+    "保护工程师阿玛拉·杜贝开始在石灰岩雕刻上测试声学传感器时，她的工作室设在南半球一家废弃的面包房里。她认为，石材传声方式的细微变化，能够在内部裂缝显现之前将其揭示出来。对于负责保管易损文物的博物馆而言，这种预警或许能避免搬运或展览过程中发生不可挽回的损失。",
+    "然而，她的首个商业项目险些因传感器的固定方式而失败。博物馆保管人员不允许在古老物件表面使用黏合剂，工程师却将他们对残留物的顾虑视为无关紧要的小事。杜贝并不认同：为了保护物件内部而损坏其外表，毫无道理可言。她研制了一种带软垫的夹具，将每个传感器紧贴石面，却不会留下痕迹。",
+    "为了评估装置的可靠性，杜贝必须汇编采石工人、博物馆文物保护人员和实验室技术员提供的记录。她不断向供应商索要废弃石块，然后让这些样本反复经历加热和冷却。当几块看似完好的石料发出误导性信号时，她不得不鼓起勇气暂停销售，并向最早的一批客户解释问题所在。",
+    "这次挫折促使她放弃对测试软件的独家控制，让其他研究人员也能审查其中的假设。他们的修改帮助装置区分了真正的裂缝与无害的纹理差异。两年后，一家博物馆利用改进后的设备，在拆卸一座雕花门框前发现了其结构薄弱之处。杜贝把门框安全重装后的照片放在工作台上方。她说，这证明了承认不确定性反而能够让仪器更加可靠。"
+  ],
+  "q": [
+    {
+      "s": "Dube expected acoustic measurements to detect damage inside stone before it could be seen.",
+      "a": "T",
+      "why": "首段说明声音变化可提前揭示内部裂缝。"
+    },
+    {
+      "s": "Dube developed the padded clamp in less than a month.",
+      "a": "NG",
+      "why": "文中未说明研发软垫夹具所需的时间。"
+    },
+    {
+      "s": "After the setback, Dube retained exclusive control of the testing software.",
+      "a": "F",
+      "why": "第四段明确说她放弃了软件的独家控制。"
+    }
+  ]
+}

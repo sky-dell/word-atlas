@@ -1,0 +1,48 @@
+{
+  "id": "r0204",
+  "ids": [
+    "collection",
+    "booking",
+    "medium",
+    "fisherman",
+    "unforgettable",
+    "advertise",
+    "bandage",
+    "coconut",
+    "benefit",
+    "fence"
+  ],
+  "title": "Small Homes from Coconut Shells",
+  "titleZh": "椰壳里的小小家园",
+  "topic": "nature",
+  "cefr": 2,
+  "paras": [
+    "On the island of Nalo, craftsperson Amara Silva turns empty [[coconut|coconut]] shells into homes for small birds. Her workshop stands beside a garden, where a [[collection|collection]] of twelve bird houses hangs along a wooden [[fence|fence]]. Each has a round entrance and tiny holes underneath to let rainwater escape.",
+    "Amara learned to use hand tools from her uncle, a [[fisherman|fisherman]] who repaired his own boat. Her first bird house was too large and moved wildly in the wind. Now she chooses shells of [[medium|medium]] size and ties them firmly to branches. She still remembers cutting her thumb during that first attempt. A clean [[bandage|bandage]] protected it while she worked more carefully.",
+    "The main [[benefit|benefit]] of her work is that birds gain safe places to raise their young. Last spring brought an [[unforgettable|unforgettable]] morning: Amara saw three young birds leave a shell she had hung near her door. She stayed completely still as they tried their wings, then disappeared into the trees.",
+    "Visitors can now make a bird house with her, but a [[booking|booking]] is necessary because her table seats only four. She does not [[advertise|advertise]] the lessons online; a painted sign outside brings enough interest. At every lesson, she asks visitors to leave the finished houses undisturbed. A successful house, she says, belongs to its birds."
+  ],
+  "zh": [
+    "在纳洛岛上，手艺人阿玛拉·席尔瓦把空椰壳做成小鸟的家。她的工作室紧挨着一座花园，十二个鸟屋沿着木栅栏悬挂，构成了她的一组作品。每个鸟屋都有一个圆形入口，底部还有几个小孔，让雨水能够流出去。",
+    "阿玛拉跟家里一位叔辈亲人学会了使用手工工具。这位亲人是个渔民，自己修理自己的船。她做的第一个鸟屋太大，在风中晃得很厉害。现在，她会挑选中等大小的椰壳，并把它们牢牢绑在树枝上。她仍记得第一次尝试时割伤了拇指。她用干净的绷带保护伤口，继续干活时也更加小心。",
+    "她这项工作的主要益处，是让鸟儿有安全的地方养育幼鸟。去年春天的一个早晨令她难忘：阿玛拉看到三只幼鸟飞出了她挂在门边的椰壳。它们试着振翅时，她一动不动地站着，随后它们便消失在树林中。",
+    "如今，游客可以跟她一起制作鸟屋，但必须预约，因为她的桌子只能坐四个人。她不在网上为课程做广告，门外一块手绘招牌就足以吸引人们前来。每次上课，她都会请游客不要打扰已经做好的鸟屋。她说，一个成功的鸟屋属于住在里面的鸟儿。"
+  ],
+  "q": [
+    {
+      "s": "Amara made all twelve houses on the fence in one month.",
+      "a": "NG",
+      "why": "文章未说明制作这十二个鸟屋用了多久。"
+    },
+    {
+      "s": "Amara now selects the largest shells for her bird houses.",
+      "a": "F",
+      "why": "她现在选择中等大小的椰壳。"
+    },
+    {
+      "s": "Visitors must book before taking a lesson with Amara.",
+      "a": "T",
+      "why": "末段明确说明参加课程必须预约。"
+    }
+  ]
+}

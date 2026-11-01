@@ -1,0 +1,48 @@
+{
+  "id": "r0561",
+  "ids": [
+    "transformation",
+    "sheepish",
+    "mythical",
+    "nucleus",
+    "regularity",
+    "glide",
+    "vow",
+    "indifferent",
+    "remnant",
+    "eradication"
+  ],
+  "title": "Life in the Dragon Fountain",
+  "titleZh": "龙形喷泉里的生命",
+  "topic": "city",
+  "cefr": 4,
+  "paras": [
+    "At dawn, the abandoned courtyard fountain resembles a shallow quarry, its cracked basin holding rainwater beneath a [[mythical|mythical]] dragon carved in limestone. During six weeks of observation, I have recorded its [[transformation|transformation]] from a receptacle for windblown litter into a miniature wetland. A [[remnant|remnant]] of blue mosaic remains visible through the submerged leaves, providing a fixed reference point for photographs.",
+    "On Tuesday, caretaker Farid admitted, with a [[sheepish|sheepish]] smile, that he had mistaken a cluster of snail eggs for discarded glue. Previously [[indifferent|indifferent]] to the basin's inhabitants, he now checks the transparent capsules each morning. Their development has become his calendar, although the [[regularity|regularity]] of his visits contrasts with the uneven pace at which the embryos mature in fluctuating temperatures.",
+    "My sampling reveals another scale of occupation. Under a portable microscope, a stained algal cell displays a distinct [[nucleus|nucleus]], while living organisms in an untreated drop repeatedly cross the illuminated field. Above this invisible community, pond skaters [[glide|glide]] between floating seeds. The fountain is not simply collecting species: its sheltered corners and exposed centre offer markedly different conditions within two metres.",
+    "A maintenance notice nevertheless proposes the [[eradication|eradication]] of algae, described as a slipping hazard. Farid's [[vow|vow]] to protect the snail eggs cannot settle that practical concern, so we mark the dry perimeter and photograph where people actually step. By Friday, cleaning is confined to the outer rim. When I return at dusk, a newly hatched snail is grazing on the dragon's submerged claw."
+  ],
+  "zh": [
+    "黎明时分，废弃的庭院喷泉像一座浅浅的采石坑。开裂的池底蓄着雨水，上方是一条用石灰岩雕成的神话巨龙。在六周的观察中，我记录了它从堆积风吹垃圾的容器变成微型湿地的整个过程。透过沉入水中的树叶，仍能看见一小片残存的蓝色马赛克，为拍照提供了固定的参照点。",
+    "星期二，管理员法里德带着难为情的笑容承认，他曾把一簇蜗牛卵误认成丢弃的胶水。他先前对池中的居民漠不关心，如今却每天早晨都来查看这些透明的卵囊。它们的发育成了他的日历，不过，他探访的规律性与胚胎的成长节奏形成了对照：随着温度起伏，胚胎的成熟速度也快慢不一。",
+    "取样让我发现了另一个尺度上的生命活动。在便携式显微镜下，一个染色后的藻类细胞显现出清晰的细胞核；另一滴未经处理的水样中，活着的微生物则不断穿过明亮的视野。在这个肉眼看不见的群落上方，水黾在漂浮的种子之间轻盈滑行。这座喷泉并非只是在聚集物种：短短两米之内，隐蔽的角落与敞露的中央就提供了截然不同的生存条件。",
+    "然而，一张维护告示提出要彻底清除藻类，理由是它们可能让人滑倒。法里德保护蜗牛卵的郑重承诺无法解决这一实际顾虑，于是我们标出干燥的周边区域，并拍照记录人们实际落脚的位置。到了星期五，清洁范围被限定在池子的外缘。黄昏时我再次回来，一只刚孵化的小蜗牛正趴在巨龙浸入水中的爪子上啃食。"
+  ],
+  "q": [
+    {
+      "s": "The surviving blue mosaic is completely hidden from view.",
+      "a": "F",
+      "why": "文中明确说仍能透过水下树叶看见马赛克。"
+    },
+    {
+      "s": "Farid now inspects the snail egg capsules every morning.",
+      "a": "T",
+      "why": "第二段明确说他如今每天早晨查看卵囊。"
+    },
+    {
+      "s": "The portable microscope was purchased specifically for studying the fountain.",
+      "a": "NG",
+      "why": "文章未说明显微镜的购买用途。"
+    }
+  ]
+}

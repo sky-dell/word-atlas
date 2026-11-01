@@ -1,0 +1,46 @@
+{
+  "id": "r0078",
+  "ids": [
+    "great",
+    "rain",
+    "good",
+    "both",
+    "inside",
+    "eraser",
+    "trip",
+    "driver",
+    "one",
+    "writer"
+  ],
+  "title": "Pictures Made with Rain",
+  "titleZh": "用雨画出来的画",
+  "topic": "arts",
+  "cefr": 0,
+  "paras": [
+    "Wet days are busy days at a small art room in Bell Street. People now come to make pictures with [[rain|rain]]. Last month, four people came. This month, twenty people came. They put small drops of paint on paper. Then they put the paper outside for a short time. The rain spreads the paint into little shapes. They take the paper [[inside|inside]] the room and let it dry. Then they draw animals around the shapes.",
+    "Mina runs the art room. She gives each person two sheets of [[good|good]] paper. They use [[both|both]] sheets: the first is for a test, and the second is for a picture. Each person also gets a pencil and an [[eraser|eraser]]. They can change their pencil lines, but the paint marks stay. A round mark can become a cat's head or a bird's body.",
+    "On Sunday, Ravi, a bus [[driver|driver]], made [[one|one]] picture of a fish. His sister, a [[writer|writer]], drew a garden. They made a special [[trip|trip]] to the room from their village. 'This is a [[great|great]] way to spend a wet afternoon,' Ravi said. Mina now puts the pictures by the door. People stop to look, even when the sun comes out."
+  ],
+  "zh": [
+    "下雨天，贝尔街的一间小画室格外忙碌。现在，人们来这里用雨水作画。上个月有四个人来，这个月来了二十个人。他们在纸上点上小滴颜料，然后把纸放在室外一小会儿。雨水使颜料散开，形成小小的形状。他们把纸拿进画室，让它晾干，然后围绕这些形状画动物。",
+    "米娜经营着这间画室。她给每个人两张质量好的纸。两张纸都会用上：第一张用来试画，第二张用来正式画画。每个人还会拿到一支铅笔和一块橡皮擦。他们可以修改铅笔线条，但颜料留下的印迹会保留。一个圆形印迹可以变成猫的头，也可以变成鸟的身体。",
+    "星期天，公交车司机拉维画了一幅鱼的画。他的姐妹是一位作家，画了一座花园。他们专程从村里来到这间画室。拉维说：“这样度过一个下雨的下午，真是太棒了。”现在，米娜把这些画放在门边。即使太阳出来了，人们也会停下来看。"
+  ],
+  "q": [
+    {
+      "s": "People pay to make pictures at the art room.",
+      "a": "NG",
+      "why": "文中未说明来画室作画是否收费。"
+    },
+    {
+      "s": "Each person uses only one sheet of paper.",
+      "a": "F",
+      "why": "每人两张纸都用，一张试画，一张作画。"
+    },
+    {
+      "s": "Ravi made a picture of a fish on Sunday.",
+      "a": "T",
+      "why": "第三段明确说拉维星期天画了一幅鱼。"
+    }
+  ]
+}

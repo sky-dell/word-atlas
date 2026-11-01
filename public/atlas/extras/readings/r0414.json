@@ -1,0 +1,48 @@
+{
+  "id": "r0414",
+  "ids": [
+    "distress",
+    "riot",
+    "propose",
+    "spit",
+    "scale",
+    "plough",
+    "snap",
+    "clumsy",
+    "loosen",
+    "hardware"
+  ],
+  "title": "The Past, Heard Rather Than Seen",
+  "titleZh": "用耳朵发现历史",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "At Millbank Rural Museum, an unexpected trend is changing how agricultural history is presented: visitors are choosing listening sessions over displays of rare objects. Attendance at these sessions has doubled in eighteen months. The [[scale|scale]] of demand surprised curator Leila Chen, who had expected the museum’s recently restored wooden [[plough|plough]] to remain its main attraction.",
+    "The recordings describe village life through sounds and spoken memories. One account recalls the [[distress|distress]] of families facing a failed harvest; another describes a [[riot|riot]] outside a grain warehouse. Less dramatic details are equally popular. A farm worker remembers how his grandfather would [[spit|spit]] into his hands before lifting a heavy sack, a habit absent from official agricultural reports.",
+    "Visitors can also handle inexpensive copies of old tools while listening. Guides show them how to [[loosen|loosen]] a leather strap without damaging it, and explain why a dry wooden handle might [[snap|snap]] under pressure. People who initially feel [[clumsy|clumsy]] often become more confident after several attempts. None of the museum’s original objects is used in these practical activities, although the copies reproduce their weight and shape.",
+    "The success has led Chen to [[propose|propose]] a travelling version for village halls. Rather than buying sophisticated [[hardware|hardware]], her team plans to use basic speakers and a small computer. For Chen, the appeal is clear: hearing a worker pause or laugh makes history feel less distant. The tools explain how farming worked; the voices reveal what it felt like."
+  ],
+  "zh": [
+    "在米尔班克乡村博物馆，一种出人意料的趋势正在改变农业历史的呈现方式：比起观看珍稀物品展览，参观者更愿意参加聆听活动。这些活动的参加人数在十八个月内翻了一番。如此旺盛的需求让策展人莱拉·陈感到惊讶，她原本以为，博物馆最近修复的木犁仍会是最吸引人的展品。",
+    "这些录音通过声音和口述回忆描绘乡村生活。一段讲述回顾了家庭面对歉收时的忧虑，另一段则描述了一座粮仓外发生的骚乱。不那么引人注目的细节同样受欢迎。一位农场工人记得，祖父每次抬起沉重的麻袋前，都会往手上吐唾沫；这样的习惯在正式的农业报告中无从寻觅。",
+    "参观者还可以一边听录音，一边拿起价格低廉的旧农具复制品试用。讲解员会演示如何在不造成损坏的情况下松开皮带，并解释干燥的木柄为什么可能受力后突然折断。起初觉得自己动作笨拙的人，往往尝试几次后就更有信心了。这些动手体验不会使用任何馆藏原物，不过复制品还原了原物的重量和形状。",
+    "活动的成功促使陈提议推出一个可在各村礼堂巡回开展的版本。她的团队不打算购买复杂的计算机硬件，而是计划使用普通扬声器和一台小型电脑。在陈看来，这种活动的吸引力很明显：听到劳动者讲述时的停顿或笑声，历史便不再那么遥远。农具解释了农活是怎样完成的，而声音揭示了干农活是怎样一种感受。"
+  ],
+  "q": [
+    {
+      "s": "The museum charges an extra fee for its listening sessions.",
+      "a": "NG",
+      "why": "文中未说明聆听活动是否另行收费。"
+    },
+    {
+      "s": "Visitors practise handling tools from the museum’s original collection.",
+      "a": "F",
+      "why": "动手活动只用复制品，不用馆藏原物。"
+    },
+    {
+      "s": "Chen’s team plans to use basic speakers for the travelling version.",
+      "a": "T",
+      "why": "末段明确计划使用普通扬声器。"
+    }
+  ]
+}

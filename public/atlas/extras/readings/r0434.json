@@ -1,0 +1,48 @@
+{
+  "id": "r0434",
+  "ids": [
+    "consumption",
+    "long-term",
+    "restless",
+    "upon",
+    "mathematical",
+    "injustice",
+    "bestseller",
+    "renovation",
+    "acre",
+    "formation"
+  ],
+  "title": "Tiles That Keep the Heat Outside",
+  "titleZh": "将热量挡在屋外的瓦片",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "During a summer of unusually hot nights, ceramic researcher Leila Haddad became too [[restless|restless]] to sleep. Her upstairs workshop trapped heat, while the shaded houses across the valley stayed cool. To her, this difference reflected an [[injustice|injustice]]: families with the lowest incomes often occupied the buildings that were most expensive to cool.",
+    "Leila began making roof tiles from clay recovered during the [[renovation|renovation]] of an abandoned pottery. Behind it lay half an [[acre|acre]] of unused ground, where she built two identical test shelters. She placed ordinary tiles [[upon|upon]] one roof and her experimental tiles on the other, then recorded indoor temperatures every afternoon.",
+    "The new tiles contained tiny air pockets. By controlling their [[formation|formation]] during firing, Leila hoped to slow the movement of heat through the roof. A simple [[mathematical|mathematical]] model helped her choose the thickness, but several early batches cracked. After eighteen months, her improved tiles reduced electricity [[consumption|consumption]] for cooling in the experimental shelter by twelve per cent.",
+    "Her illustrated account of the experiments became an unexpected [[bestseller|bestseller]] among home repair guides. However, Leila refused to describe the tiles as a complete solution. Their [[long-term|long-term]] performance still needed testing through wet winters. She used the book income to employ two assistants and extend the trial. On the workshop wall, she kept a broken tile beside a temperature chart: one reminded visitors of the failures, the other of what patient work could achieve."
+  ],
+  "zh": [
+    "在一个夜晚异常炎热的夏季，陶瓷研究员莱拉·哈达德烦躁不安，难以入睡。她楼上的工作室积聚着热气，而山谷对面有遮阴处的房屋却保持凉爽。在她看来，这种差异反映了一种不公：收入最低的家庭，往往住在降温费用最高的房屋里。",
+    "莱拉开始用一座废弃陶器作坊翻修时回收的黏土制作屋顶瓦片。作坊后面有半英亩闲置土地，她在那里搭建了两间完全相同的测试小屋。她在一间屋顶上铺了普通瓦片，在另一间上铺了实验瓦片，随后每天下午记录室内温度。",
+    "新瓦片内部有微小的气孔。莱拉希望通过控制烧制过程中气孔的形成，减缓热量穿过屋顶的速度。一个简单的数学模型帮助她确定瓦片厚度，但最初的几批中有好几批都出现了裂纹。十八个月后，改进后的瓦片使实验小屋的制冷耗电量降低了百分之十二。",
+    "她图文并茂地记录这些实验的书，意外成为家居修缮指南中的畅销书。不过，莱拉不愿将这些瓦片称为彻底的解决方案。它们的长期性能仍需经历潮湿冬季的检验。她用图书收入雇了两名助手，并延长了试验。在工作室的墙上，她把一块碎瓦放在温度图表旁：前者提醒来访者那些失败的尝试，后者则展示耐心钻研能够取得的成果。"
+  ],
+  "q": [
+    {
+      "s": "Leila believed that poorer households often faced higher costs to keep their homes cool.",
+      "a": "T",
+      "why": "首段指出低收入家庭常住在降温费用最高的房屋里。"
+    },
+    {
+      "s": "Building the two test shelters took Leila one week.",
+      "a": "NG",
+      "why": "文章未说明建造两间测试小屋用了多久。"
+    },
+    {
+      "s": "The tiles' long-term performance had already been fully tested through wet winters.",
+      "a": "F",
+      "why": "末段明确说长期性能仍需经历潮湿冬季的检验。"
+    }
+  ]
+}

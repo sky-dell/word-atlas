@@ -1,0 +1,48 @@
+{
+  "id": "r0213",
+  "ids": [
+    "apologize",
+    "foreigner",
+    "engaged",
+    "throughout",
+    "fool",
+    "suit",
+    "time-off",
+    "transfer",
+    "romantic",
+    "dot"
+  ],
+  "title": "The Missing Dot",
+  "titleZh": "漏掉的小圆点",
+  "topic": "work",
+  "cefr": 2,
+  "paras": [
+    "Leila worked in a small print shop beside a flower market. One Monday, an [[engaged|engaged]] couple ordered eighty wedding invitations. Tomas was a [[foreigner|foreigner]] from Poland, while his partner, Mei, had grown up nearby. They wanted a [[romantic|romantic]] design with blue flowers and a simple map to the wedding hall.",
+    "Leila promised to finish by Friday. However, while checking the first copies on Thursday, she noticed a problem. A tiny [[dot|dot]] marking the hall was missing from the map. Without it, guests might go to the restaurant next door. She felt like a [[fool|fool]] because she had already printed forty invitations.",
+    "She called the couple to [[apologize|apologize]] and asked whether Saturday morning would [[suit|suit]] them for collection. Unfortunately, they planned to leave town that morning. Leila had arranged some [[time-off|time off]] on Friday, but her colleague Ravi offered to help. She could [[transfer|transfer]] the corrected design to his computer before leaving.",
+    "They checked the new map together and printed one test copy. Ravi kept this beside him [[throughout|throughout]] Friday's work, comparing each finished invitation with it. By four o'clock, all eighty were ready. When Mei collected them, she pointed at the map and smiled. Leila returned on Monday to find a thank-you card beside her keyboard, signed by both customers."
+  ],
+  "zh": [
+    "莱拉在花市旁的一家小印刷店工作。一个星期一，一对已订婚的情侣订了八十张婚礼请柬。托马斯是来自波兰的外国人，而他的伴侣梅在附近长大。他们想要浪漫的设计，配上蓝色花朵和一张通往婚礼礼堂的简易地图。",
+    "莱拉答应最迟在星期五完成。然而，星期四检查最先印好的请柬时，她发现了一个问题。地图上标记礼堂位置的小圆点不见了。没有这个标记，宾客可能会走到隔壁的餐厅去。她觉得自己真傻，因为她已经印了四十张请柬。",
+    "她打电话向这对情侣道歉，并询问他们星期六早上来取是否方便。可惜，他们打算那天早上离开城里。莱拉原本安排了星期五休假，不过同事拉维主动提出帮忙。她可以在离开前，把修改好的设计文件传到他的电脑上。",
+    "他们一起检查了新地图，并试印了一张。星期五工作时，拉维一直把这张样品放在身边，将每张印好的请柬与它对照。下午四点，八十张请柬全部完成。梅来取时，指着地图笑了。莱拉星期一回来后，发现键盘旁放着一张感谢卡，上面有两位顾客的签名。"
+  ],
+  "q": [
+    {
+      "s": "The couple wanted invitations without a map.",
+      "a": "F",
+      "why": "他们要求设计中包含通往礼堂的地图。"
+    },
+    {
+      "s": "Leila had printed forty invitations when she noticed the missing dot.",
+      "a": "T",
+      "why": "发现圆点缺失时，她已印了四十张。"
+    },
+    {
+      "s": "Ravi received extra pay for completing the invitations on Friday.",
+      "a": "NG",
+      "why": "文中未提及拉维是否获得额外报酬。"
+    }
+  ]
+}

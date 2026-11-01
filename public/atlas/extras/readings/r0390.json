@@ -1,0 +1,48 @@
+{
+  "id": "r0390",
+  "ids": [
+    "deeply",
+    "octopus",
+    "former",
+    "slot",
+    "astronomy",
+    "scold",
+    "circuit",
+    "freshen",
+    "evident",
+    "lottery"
+  ],
+  "title": "Small Museums Behind Glass",
+  "titleZh": "玻璃后面的微型博物馆",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "In the harbour district of Bellwick, an unexpected trend is changing empty shop entrances. Instead of installing cash machines, property owners are offering space to miniature museums built inside [[former|former]] sweet dispensers. Twelve now stand along three streets, attracting visitors who might never enter a conventional gallery.",
+    "The first was created by watch repairer Mina Okafor, who was [[deeply|deeply]] concerned about the disappearance of small neighbourhood exhibitions. She cleaned a machine, repaired its electrical [[circuit|circuit]], and painted the cabinet to [[freshen|freshen]] its appearance. Visitors insert a metal token through a narrow [[slot|slot]], then turn a handle to illuminate an object for thirty seconds. Her opening display featured a preserved [[octopus|octopus]] borrowed from a private collection.",
+    "Other owners soon followed. A bakery installed an [[astronomy|astronomy]] display showing how sailors once used stars to find their position. A tailor offered a monthly [[lottery|lottery]], with numbered paper tickets and a handmade miniature coat as the prize. Although the machines look playful, each object has a carefully researched label. Owners are asked not to [[scold|scold]] children who turn the handles repeatedly; curiosity is considered part of the attraction.",
+    "After six months, the change is [[evident|evident]] outside the shops: people pause, read and discuss rather than simply pass by. Maintenance takes time, and damp weather occasionally damages labels. Nevertheless, two more businesses have requested machines. What began as a way to fill unused corners is giving the district a shared collection—and a reason to linger."
+  ],
+  "zh": [
+    "在贝尔威克的港口区，一股出人意料的潮流正在改变店铺入口处的闲置空间。业主们没有安装自动取款机，而是腾出地方，摆放用旧糖果售卖机改造的微型博物馆。目前，三条街上已有十二台这样的机器，吸引着那些可能从不走进传统展馆的访客。",
+    "第一台机器由钟表修理师米娜·奥卡福改造。社区小型展览日渐消失，让她深感忧虑。她清洗了一台机器，修好电路，又给柜体刷漆，使其焕然一新。访客将金属代币插入一道狭槽，再转动手柄，灯光就会照亮展品三十秒。她的首个展览展示了一只从私人收藏中借来的章鱼标本。",
+    "其他店主很快也加入了进来。一家面包店设置了天文学展览，介绍过去的水手如何利用星星确定位置。一位裁缝每月举办一次抽奖，使用带编号的纸票，奖品是一件手工制作的迷你外套。虽然这些机器看起来充满趣味，但每件展品都配有经过仔细考证的说明。店主们被提醒，不要训斥反复转动手柄的孩子，因为好奇心正是这种展示方式的魅力之一。",
+    "六个月后，店铺外的变化已十分明显：人们不再只是匆匆经过，而会停下来阅读、讨论。维护机器需要花时间，潮湿天气偶尔也会损坏说明标签。尽管如此，又有两家商户提出想要这样的机器。最初只是为了填补闲置角落的尝试，如今正为整个街区带来一批共享藏品，也给了人们驻足的理由。"
+  ],
+  "q": [
+    {
+      "s": "Property owners charge rent for the spaces occupied by the miniature museums.",
+      "a": "NG",
+      "why": "文中说业主提供空间，未说明是否收租。"
+    },
+    {
+      "s": "The octopus in Mina's first display came from a public museum.",
+      "a": "F",
+      "why": "章鱼标本借自私人收藏，而非公共博物馆。"
+    },
+    {
+      "s": "Damp weather sometimes damages the display labels.",
+      "a": "T",
+      "why": "末段明确说潮湿天气偶尔会损坏标签。"
+    }
+  ]
+}

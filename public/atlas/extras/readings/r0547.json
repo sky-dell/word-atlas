@@ -1,0 +1,48 @@
+{
+  "id": "r0547",
+  "ids": [
+    "incense",
+    "freak",
+    "forgery",
+    "brim",
+    "liable",
+    "dispatch",
+    "alignment",
+    "democrat",
+    "malice",
+    "certification"
+  ],
+  "title": "When Replicas Became the Main Attraction",
+  "titleZh": "当复制品成为展览主角",
+  "topic": "history",
+  "cefr": 4,
+  "paras": [
+    "At the Bellwater Museum, visitors increasingly request an object once excluded from display: a nineteenth-century [[forgery|forgery]] of a medieval voting bowl. The reversal began after a [[freak|freak]] storm flooded the basement, forcing conservators to examine neglected acquisitions. Among them was a brass vessel whose [[brim|brim]] bore the names of twelve merchant families.",
+    "Initially, the bowl appeared to illuminate an obscure civic ritual. According to its accompanying manuscript, merchants burned [[incense|incense]] before depositing voting stones inside it. However, the precise [[alignment|alignment]] of the engraved letters suggested machine-guided workmanship. A maker's receipt subsequently found in the archives recorded the bowl's manufacture in 1842, overturning the museum's original assessment of its age.",
+    "Further research traced the vessel to Tomas Varga, a printer and committed [[democrat|democrat]] who campaigned for wider voting rights in the 1840s. His correspondence suggests that, rather than acting from [[malice|malice]], he invented historical evidence to make popular participation seem traditional. He would [[dispatch|dispatch]] illustrated accounts of the supposed discovery to reading clubs across the region.",
+    "The museum now exhibits the bowl beside those pamphlets, explaining that objects lacking credible [[certification|certification]] are [[liable|liable]] to mislead even experienced collectors. Unexpectedly, attendance at its forgery talks has exceeded attendance at lectures on genuine medieval silver. Curators attribute this interest to a shift in historical curiosity: audiences want to understand not merely what survives from the past, but who has reshaped it. The bowl cannot document medieval democracy; it can reveal a later generation's urgent desire to imagine one."
+  ],
+  "zh": [
+    "在贝尔沃特博物馆，越来越多的参观者点名要看一件曾被排除在展览之外的物品：一只十九世纪伪造的中世纪投票碗。这一转变始于一场罕见的暴风雨。雨水淹没了地下室，迫使文物修复人员检查那些长期无人问津的藏品。其中有一只黄铜容器，口沿刻着十二个商人家族的名字。",
+    "起初，这只碗似乎能让人了解一种鲜为人知的城市仪式。根据随附的手稿，商人们会先焚香，再将用于投票的石子放入碗内。然而，刻字排列得过于整齐，显示出机械辅助加工的迹象。随后在档案中发现的一张制作者开具的收据记载，这只碗制作于1842年，推翻了博物馆最初对它年代的判断。",
+    "进一步的研究将这件器物追溯到托马斯·瓦尔加。他是一名印刷工，也是坚定的民主主义者，曾在十九世纪四十年代倡导扩大投票权。他的书信似乎显示，他并非出于恶意，而是通过编造历史证据，让民众参与政治显得有传统依据。他会把介绍这一所谓发现的图文资料寄往该地区各处的读书俱乐部。",
+    "如今，博物馆将这只碗与那些小册子一同展出，并解释说，缺乏可靠认证的物品很可能连经验丰富的收藏家也会误导。出人意料的是，前来听赝品讲座的人数，已超过参加真正的中世纪银器讲座的人数。策展人认为，这种兴趣源于人们对历史的好奇发生了变化：观众不仅想了解过去留下了什么，也想知道是谁重塑了过去。这只碗无法证明中世纪存在民主，却能揭示后世一代人迫切希望想象出这种民主的愿望。"
+  ],
+  "q": [
+    {
+      "s": "An unexpected weather event prompted museum staff to reassess previously overlooked objects.",
+      "a": "T",
+      "why": "罕见暴风雨淹没地下室，促使人员检查旧藏。"
+    },
+    {
+      "s": "The maker's receipt confirmed the museum's initial dating of the bowl.",
+      "a": "F",
+      "why": "收据记载的制作年份推翻了最初的年代判断。"
+    },
+    {
+      "s": "Varga charged reading clubs for the illustrated material he sent them.",
+      "a": "NG",
+      "why": "文章只说他寄送资料，未提是否收费。"
+    }
+  ]
+}

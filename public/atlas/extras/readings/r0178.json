@@ -1,0 +1,46 @@
+{
+  "id": "r0178",
+  "ids": [
+    "speech",
+    "lake",
+    "paragraph",
+    "chance",
+    "sightseeing",
+    "touch",
+    "drawing",
+    "dessert",
+    "canteen",
+    "builder"
+  ],
+  "title": "Making a Map for a Speech",
+  "titleZh": "为演讲制作记忆地图",
+  "topic": "thinking",
+  "cefr": 1,
+  "paras": [
+    "Before giving a [[speech|speech]], Omar makes a memory map. He is a [[builder|builder]], and he wants to thank his team at a special dinner before he leaves his job. Long notes are hard for him to follow. A page of small pictures gives him a [[chance|chance]] to remember his ideas without reading every word. First, he puts a large sheet of paper on his kitchen table.",
+    "In the middle, he makes a [[drawing|drawing]] of the first house his team built. Then he adds three paths leading away from it. Each path stands for one [[paragraph|paragraph]] of his talk. Beside the first, he draws the work [[canteen|canteen]], where everyone ate lunch together. Beside the second, he draws a [[lake|lake]]. This helps him remember a day of [[sightseeing|sightseeing]] with the team after a difficult job.",
+    "The last path ends with a bowl of fruit, his favourite [[dessert|dessert]]. This picture reminds him to thank the cook who is preparing their dinner. He adds a few words under each picture, but no full sentences. To practise, he uses one finger to [[touch|touch]] the pictures in order and speaks aloud. At dinner, the finished map lies beside his plate. One quick look brings back the next story."
+  ],
+  "zh": [
+    "演讲前，奥马尔制作了一张记忆地图。他是一名建筑工人，准备在离职前的一次特别晚宴上感谢自己的团队。太长的笔记让他很难跟上。一页小图画能让他不必逐字读稿，也能记起想说的内容。首先，他在厨房的桌子上放了一大张纸。",
+    "他在纸的中央画出了团队建造的第一栋房子，然后添上三条从房子向外延伸的小路。每条小路代表讲稿中的一个段落。在第一条路旁，他画了工作单位的食堂，大家曾在那里一起吃午饭。在第二条路旁，他画了一个湖。这能帮助他回忆起完成一项艰难的工作后，与团队一起外出游览的那一天。",
+    "最后一条小路的尽头是一碗水果，这是他最喜欢的餐后甜点。这幅图提醒他感谢正在为大家准备晚餐的厨师。他在每幅图下面添了几个词，但没有写完整的句子。练习时，他用一根手指依次触碰这些图画，并大声讲出来。晚宴上，完成的地图就放在他的餐盘旁。只需看一眼，他就能想起下一个故事。"
+  ],
+  "q": [
+    {
+      "s": "Omar finds long notes easy to follow.",
+      "a": "F",
+      "why": "第一段明确说长笔记让他很难跟上。"
+    },
+    {
+      "s": "The cook will serve fruit at the special dinner.",
+      "a": "NG",
+      "why": "只说水果是他最爱的甜点，未提晚宴菜单。"
+    },
+    {
+      "s": "Omar touches the pictures in order when he practises his talk.",
+      "a": "T",
+      "why": "第三段说他练习时用手指依次触碰图片。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0676",
+  "ids": [
+    "legitimate",
+    "collaborate",
+    "eloquent",
+    "pantry",
+    "intrigue",
+    "fanatic",
+    "essence",
+    "pilgrimage",
+    "tiresome",
+    "commonsense"
+  ],
+  "title": "Wrestling Above the Clouds",
+  "titleZh": "云端上的摔跤节",
+  "topic": "sport",
+  "cefr": 4,
+  "paras": [
+    "At the mountain village of Darun, travellers arriving for the autumn wrestling festival share the climbing path with families making a [[pilgrimage|pilgrimage]] to a hilltop shrine. Prayer flags hang above the wrestling ground, but the contests are governed by precise secular rules: a throw is [[legitimate|legitimate]] only if neither competitor has seized the other's clothing.",
+    "This distinction may [[intrigue|intrigue]] visitors expecting an unrestricted test of strength. Before the opening match, Levan, a retired wrestler and an [[eloquent|eloquent]] interpreter of village traditions, explains that restraint is the [[essence|essence]] of the sport. Although guests may join morning practice, the festival competition admits only wrestlers who have completed the village's training programme, regardless of their reputation elsewhere.",
+    "Behind the arena, cooks and competitors [[collaborate|collaborate]] on preparations that receive little applause. In the guesthouse [[pantry|pantry]], sacks of barley stand beside jars of dried apricots; both will supply the communal supper. A wrestling [[fanatic|fanatic]] might consider kitchen duty a distraction, yet every entrant takes a turn. Levan regards this obligation as a reminder that physical distinction confers no exemption from ordinary work.",
+    "By late afternoon, the repeated pauses for sweeping grit from the wrestling mats can seem [[tiresome|tiresome]]. Nevertheless, this [[commonsense|commonsense]] precaution reduces the risk of slipping, and spectators settle patiently along the wall. When the final bout ends, the winner carries benches rather than accepting a victory parade."
+  ],
+  "zh": [
+    "在山村达伦，前来参加秋季摔跤节的旅行者，与前往山顶神庙朝圣的家庭共走一条上山小路。经幡悬挂在摔跤场上方，但比赛遵循的是明确的世俗规则：只有双方都未抓住对手衣物时完成的摔投，才算合乎规则。",
+    "这一差别可能会引起游客的好奇，因为他们原本以为这是一场不受限制的力量较量。首场比赛开始前，退役摔跤手莱万以富有感染力的语言解说村庄传统，指出克制才是这项运动的精髓。尽管来客可以参加晨练，节日期间的正式比赛却只允许完成本村训练课程的摔跤手参加，无论他们在其他地方名气多大。",
+    "赛场后方，厨师与选手协作完成那些鲜获掌声的筹备工作。旅舍的食品储藏室里，一袋袋大麦紧挨着一罐罐杏干，两者都将用于集体晚餐。摔跤狂热爱好者或许觉得厨房杂务会让人分心，但每位参赛者都要轮流值班。莱万认为，这项义务提醒着人们：体能出众，并不意味着可以免做日常劳动。",
+    "到了傍晚前后，为清扫摔跤垫上的砂砾而反复暂停比赛，可能显得令人厌烦。然而，这种合乎常识的预防措施能够降低滑倒的风险，观众也便耐心地沿墙坐定。最后一场较量结束后，获胜者没有接受列队欢庆，而是动手搬起长凳。"
+  ],
+  "q": [
+    {
+      "s": "Wrestlers with established reputations elsewhere can compete without completing local training.",
+      "a": "F",
+      "why": "第二段明确规定，名气再大也须完成本村训练。"
+    },
+    {
+      "s": "Each entrant spends an hour on kitchen duty.",
+      "a": "NG",
+      "why": "文中说明每位选手轮值，但未给出值班时长。"
+    },
+    {
+      "s": "The winner helps carry benches after the final bout.",
+      "a": "T",
+      "why": "末段明确写到最后一场结束后胜者搬长凳。"
+    }
+  ]
+}

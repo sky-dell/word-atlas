@@ -1,0 +1,48 @@
+{
+  "id": "r0352",
+  "ids": [
+    "extraordinary",
+    "overtake",
+    "somewhat",
+    "dominant",
+    "moonlight",
+    "entitle",
+    "slip",
+    "deepen",
+    "infinite",
+    "edition"
+  ],
+  "title": "Lighting the Riverside Path",
+  "titleZh": "照亮河畔步道",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "The latest [[edition|edition]] of a city's walking guide pictured an [[extraordinary|extraordinary]] riverside garden under [[moonlight|moonlight]]. Yet visitors often avoided its narrow path after dark. Researcher Mira Sen wondered whether repositioning electric lights, rather than increasing their brightness, could make walking easier.",
+    "Sen recruited forty adult volunteers in two equal groups. Each received a pass that [[entitle|entitled]] them to enter after closing time. The groups walked the same route in separate sessions on two dry evenings. Initially, one group used tall lamps; the other used low lamps aimed across the ground. They swapped lighting conditions the next evening, reducing the possible advantage of familiarity.",
+    "Under tall lamps, bright river reflections were the [[dominant|dominant]] feature, while several shallow steps remained in shadow. Walkers were [[somewhat|somewhat]] slower, and one began to [[slip|slip]] on a smooth stone but recovered without falling. With low lighting, participants noticed the steps earlier. When asked to [[overtake|overtake]] a slower research assistant, they also left more space between themselves and the river's edge.",
+    "Interviews helped [[deepen|deepen]] Sen's understanding: people valued seeing changes in the path more than distant scenery. The experiment was small, but its lesson was practical. Electricity was not an [[infinite|infinite]] resource, and brighter lighting was not automatically better lighting. The garden manager therefore arranged a longer trial using the existing lamps at lower positions."
+  ],
+  "zh": [
+    "某城市步行指南的最新版刊登了一座月光下格外迷人的河畔花园的照片。然而，游客往往在天黑后避开其中的狭窄步道。研究员米拉·森想知道：调整电灯的位置，而不是提高亮度，能否让步行更轻松。",
+    "森招募了四十名成年志愿者，分成两个人数相等的小组。每人都领到一张通行证，可以在花园闭园后进入。在两个天气干燥的夜晚，两组分时段走过同一条路线。起初，一组使用高处的灯，另一组使用光线横向照过地面的低位灯。第二晚，两组交换照明条件，以减小熟悉路线可能带来的优势。",
+    "使用高处的灯时，河面上明亮的反光最为显眼，而几级较浅的台阶仍处于阴影中。步行者走得稍慢一些，其中一人在光滑的石头上脚下一滑，不过随即恢复了平衡，没有摔倒。使用低位照明时，参与者更早注意到了台阶。当被要求追上并超过一名走得较慢的研究助理时，他们也与河岸边缘保持了更大的距离。",
+    "访谈加深了森的理解：相比远处的景色，人们更看重能否看清路面的变化。实验规模虽小，却带来了实用的启示。电力并非无限的资源，而更亮的照明也不一定是更好的照明。因此，花园管理员安排了一项时间更长的试验，将现有灯具移到较低的位置使用。"
+  ],
+  "q": [
+    {
+      "s": "All volunteers experienced the tall lamps before trying the low lamps.",
+      "a": "F",
+      "why": "一半志愿者先体验了低位照明。"
+    },
+    {
+      "s": "The slower research assistant was a university student.",
+      "a": "NG",
+      "why": "文章未说明这名研究助理是否为大学生。"
+    },
+    {
+      "s": "The garden manager arranged a longer trial with the existing lamps placed lower.",
+      "a": "T",
+      "why": "管理员安排更长的试验，将现有灯具移至低处。"
+    }
+  ]
+}

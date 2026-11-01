@@ -1,0 +1,48 @@
+{
+  "id": "r0248",
+  "ids": [
+    "buffet",
+    "balcony",
+    "documentary",
+    "suffer",
+    "wire",
+    "strongly",
+    "relaxing",
+    "uncertain",
+    "sink",
+    "trade"
+  ],
+  "title": "Lunch Beside an Empty Fish Tank",
+  "titleZh": "鱼缸无鱼，午餐更静",
+  "topic": "health",
+  "cefr": 2,
+  "paras": [
+    "At a small health centre in Bellwick, the most popular lunch table stands beside a fish tank without fish. Instead, green plants grow among pale stones. Staff who [[suffer|suffer]] from stress have started spending their breaks there. The surprising attraction has encouraged three nearby workplaces to try similar tanks.",
+    "The idea came from cook Mina Das, who watched a [[documentary|documentary]] about river plants. She was [[uncertain|uncertain]] whether anyone would enjoy a tank with no animals. However, she moved the lunch [[buffet|buffet]] closer to it and waited. Within a week, the seats beside the glass were filling first, even when the sunny [[balcony|balcony]] was open.",
+    "Keeping the tank healthy takes some work. Mina uses thin [[wire|wire]] to hold plants against small rocks. When she puts them into the water, the rocks [[sink|sink]] to the bottom, carrying the plants with them. A shop involved in the aquarium [[trade|trade]] supplies the plants. Unlike a tank full of fish, this one needs no daily feeding, although its water still requires regular care.",
+    "Nurse Tomas Silva [[strongly|strongly]] supports the experiment. He finds watching the leaves move [[relaxing|relaxing]] after a busy morning. The centre has not measured any health benefits, so it makes no medical claims. Still, lunch breaks have become quieter, and staff now call the once-unwanted corner their little river."
+  ],
+  "zh": [
+    "在贝尔威克的一家小型医疗中心，最受欢迎的午餐桌摆在一个没有鱼的鱼缸旁。缸里没有鱼，却有绿植生长在浅色石头之间。承受压力的员工开始在那里度过休息时间。这处意外受欢迎的小景观，已经促使附近三家工作单位尝试摆放类似的鱼缸。",
+    "这个主意来自厨师米娜·达斯，她看了一部关于河流植物的纪录片。她起初不确定，会不会有人喜欢一个没有动物的鱼缸。不过，她还是把自助餐移到了离鱼缸更近的地方，静观变化。不到一周，玻璃缸旁的座位就成了最先坐满的位置，即使阳光明媚的阳台开放时也是如此。",
+    "维持鱼缸的良好状态需要花些心思。米娜用细金属丝把植物固定在小石头上。她把它们放入水中时，石头就带着植物一起沉到缸底。一家经营水族用品的商店为她提供植物。与养满鱼的鱼缸不同，这个缸不需要每天投食，不过缸里的水仍然需要定期维护。",
+    "护士托马斯·席尔瓦坚定地支持这次尝试。他觉得，忙碌了一上午之后，看着叶片轻轻摆动很令人放松。医疗中心还没有测量过它对健康的益处，因此并不宣称它有医疗效果。不过，午休确实变得更安静了，员工们如今把这个曾经无人问津的角落称为自己的小河。"
+  ],
+  "q": [
+    {
+      "s": "The health centre's unusual tank has inspired other workplaces to introduce similar ones.",
+      "a": "T",
+      "why": "第一段说附近三家单位已尝试类似鱼缸。"
+    },
+    {
+      "s": "The aquarium shop gives Mina a discount on plants.",
+      "a": "NG",
+      "why": "文章只说商店供应植物，未提是否打折。"
+    },
+    {
+      "s": "The centre has measured the tank's health benefits.",
+      "a": "F",
+      "why": "最后一段明确说尚未测量健康益处。"
+    }
+  ]
+}

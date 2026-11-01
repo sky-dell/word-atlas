@@ -1,0 +1,48 @@
+{
+  "id": "r0558",
+  "ids": [
+    "contractual",
+    "commend",
+    "indifference",
+    "contradict",
+    "narrate",
+    "glassware",
+    "provincial",
+    "envisage",
+    "esteem",
+    "judicial"
+  ],
+  "title": "A Crack in the Evidence",
+  "titleZh": "证据中的裂痕",
+  "topic": "thinking",
+  "cefr": 4,
+  "paras": [
+    "When Mara began sorting a box of legal papers, she found a sketch of a cracked measuring jug tucked inside a supply agreement. The papers concerned a workshop that supplied [[glassware|glassware]] to a [[provincial|provincial]] hospital. Together, they [[narrate|narrate]] a dispute between its owner, Tomas Varga, and an inspector who rejected an entire delivery.",
+    "The agreement specified Varga's [[contractual|contractual]] obligation to produce vessels of uniform capacity. The inspector's report recorded substantial variations, but letters from hospital physicians [[commend|commend]] Varga's workmanship. Mara initially thought this [[esteem|esteem]] weakened the inspector's case. On rereading the letters, however, she noticed that none referred to the disputed delivery. Praise for earlier work could not establish the quality of this batch.",
+    "The record of the [[judicial|judicial]] hearing presented another difficulty. Varga's brief replies suggested [[indifference|indifference]] until Mara reached a clerk's note: an interpreter had repeatedly shortened his explanations. Measurements in the workshop ledger also [[contradict|contradict]] the inspector's figures. Neither document, however, included evidence that the equipment used to measure capacity had been accurately calibrated.",
+    "Before opening the final folded sheet, Mara tried to [[envisage|envisage]] an inspection that could distinguish faulty vessels from faulty measuring equipment. She wrote down a proposal to test both sets of equipment against the same reference measure. The court's order was less specific: it required another inspection without assigning blame. Mara placed her proposal beside the order, then searched the remaining papers for the results."
+  ],
+  "zh": [
+    "玛拉开始整理一箱法律文件时，在一份供货协议中发现了一张夹着的带裂痕量杯素描。这些文件涉及一家为地方医院供应玻璃器皿的作坊。它们共同讲述了作坊主人托马斯·瓦尔加与一名检验员之间的纠纷；检验员拒收了整批货物。",
+    "协议明确规定，瓦尔加有合同义务生产容量一致的器皿。检验员的报告记录了明显的容量差异，但医院医生的来信却称赞瓦尔加的工艺。玛拉起初认为，这些敬重之辞削弱了检验员的论据。然而，重读信件后，她注意到，没有一封提及有争议的那批货物。对以往工作的赞扬并不能证明这一批货物的质量。",
+    "庭审记录带来了另一个难题。瓦尔加简短的回答似乎表明他漠不关心，直到玛拉读到书记员的一条注记：一名口译员曾多次缩短他的解释。作坊账簿中的测量数据也与检验员的数据相矛盾。不过，两份文件都没有提供证据，证明用于测量容量的设备经过了准确校准。",
+    "打开最后一张折起的纸之前，玛拉试着设想一种检验方法，以区分究竟是器皿有问题，还是测量设备有问题。她写下一项建议：用同一个标准量器检验双方的设备。法院的命令没有这么具体：它要求重新检验，却没有判定任何一方有责。玛拉把自己的建议放在命令旁边，随后在剩余文件中寻找检验结果。"
+  ],
+  "q": [
+    {
+      "s": "Varga's workshop had supplied the hospital for more than ten years before the dispute.",
+      "a": "NG",
+      "why": "首段提及供货关系，未说明持续年限。"
+    },
+    {
+      "s": "The workshop ledger confirms the inspector's measurements.",
+      "a": "F",
+      "why": "第三段明确说账簿数据与检验员的数据矛盾。"
+    },
+    {
+      "s": "The court ordered another inspection without assigning blame.",
+      "a": "T",
+      "why": "末段明确说明重新检验且未判定责任。"
+    }
+  ]
+}

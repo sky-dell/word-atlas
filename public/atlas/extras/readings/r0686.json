@@ -1,0 +1,48 @@
+{
+  "id": "r0686",
+  "ids": [
+    "turbine",
+    "deficit",
+    "importation",
+    "intent",
+    "arbitrary",
+    "recital",
+    "limp",
+    "tropic",
+    "delude",
+    "fumble"
+  ],
+  "title": "A Mill Finds Its Music",
+  "titleZh": "磨坊重拾乐声",
+  "topic": "arts",
+  "cefr": 4,
+  "paras": [
+    "In a coastal village just south of the [[tropic|Tropic]] of Cancer, twelve residents converted an abandoned rice mill into a concert room. Their [[intent|intent]] was to create an affordable venue for acoustic music, not a tourist attraction. Beneath the floor, a small water-driven [[turbine|turbine]], formerly used to power milling equipment, still supplied electricity to the building.",
+    "The first accounts revealed a [[deficit|deficit]] of nearly six hundred dollars. Although the [[importation|importation]] of specialist acoustic panels had been proposed, carpenter Amara Mensah argued that woven reed screens could soften echoes more cheaply. Rather than position them at [[arbitrary|arbitrary]] intervals, volunteers moved each screen while a violinist repeated the same phrase, recording where harsh reflections diminished.",
+    "For the opening [[recital|recital]], retired cellist Pavel Marin offered a programme of unaccompanied dances. Having injured his ankle while gardening, he had to [[limp|limp]] across the courtyard; once seated, however, he played with remarkable assurance. During the final piece, a loose connection extinguished the lamps. Listeners heard a volunteer [[fumble|fumble]] for the switch, but Pavel continued in the moonlight entering through the loading doors.",
+    "The committee refused to [[delude|delude]] itself that the room was ready. Before another performance, it hired an electrician to repair the wiring and introduced a modest booking fee. By spring, concerts had cleared the debt. The screens remained because visiting musicians preferred the warm, restrained resonance they gave the room."
+  ],
+  "zh": [
+    "在北回归线以南不远处的一座沿海村庄，十二位居民将一间废弃的碾米坊改造成了音乐厅。他们的目的是为原声音乐提供一个价格亲民的演出场所，而不是打造旅游景点。地板下方，一台过去用于驱动碾米设备的小型水轮机仍在为这栋建筑供电。",
+    "首份账目显示，项目出现了近六百美元的赤字。虽然有人提议进口专业吸音板，木匠阿玛拉·门萨却认为，编织的芦苇屏风能以更低的成本减弱回声。志愿者没有随意确定屏风之间的距离，而是在一位小提琴手反复演奏同一乐句时，逐一移动屏风，记录哪些位置能减弱刺耳的反射声。",
+    "退休大提琴手帕维尔·马林为开幕独奏会准备了一套无伴奏舞曲。他在园艺劳作时伤了脚踝，只能一瘸一拐地穿过院子；然而坐定之后，他的演奏却表现得十分沉着。最后一首曲子演奏期间，一处松动的接线导致灯光熄灭。听众听见一位志愿者笨拙地摸索开关，但帕维尔借着从装卸货物的大门照进来的月光继续演奏。",
+    "委员会不愿自欺欺人地认为音乐厅已准备妥当。在下一场演出之前，他们请电工修好了线路，并开始收取少量订票费。到春天，音乐会已使项目还清债务。屏风被保留下来，因为到访的音乐家更喜欢它们为室内带来的温暖而适度的共鸣。"
+  ],
+  "q": [
+    {
+      "s": "The residents prioritised reasonably priced musical performances over attracting tourists.",
+      "a": "T",
+      "why": "首段说明旨在提供平价音乐场所，而非旅游景点。"
+    },
+    {
+      "s": "Amara had previously made reed screens for another music venue.",
+      "a": "NG",
+      "why": "文中未说明阿玛拉此前是否为其他场所制作过屏风。"
+    },
+    {
+      "s": "The reed screens were removed once the debt had been cleared.",
+      "a": "F",
+      "why": "末段说明还清债务后屏风仍被保留。"
+    }
+  ]
+}

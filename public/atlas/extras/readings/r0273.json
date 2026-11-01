@@ -1,0 +1,48 @@
+{
+  "id": "r0273",
+  "ids": [
+    "identify",
+    "fee",
+    "appetite",
+    "headline",
+    "consider",
+    "credit",
+    "mask",
+    "royal",
+    "climate",
+    "uncomfortable"
+  ],
+  "title": "The Woman Behind the Frame",
+  "titleZh": "画框背后的女人",
+  "topic": "thinking",
+  "cefr": 2,
+  "paras": [
+    "When Amira bought a second-hand bookshop, she found a portrait behind a cupboard. It showed a woman holding a small silver tool. A newspaper cutting beside it carried the [[headline|headline]], “Lost Painting of Queen Found?” Amira hoped to sell it to repair the shop roof, but first she needed to [[identify|identify]] the woman.",
+    "An art expert asked for a [[fee|fee]] of two hundred pounds. Amira could not afford that, and she had already bought shelves on [[credit|credit]]. Worry about the leaking roof spoiled her [[appetite|appetite]]. However, before borrowing more money, she decided to [[consider|consider]] what the picture itself could tell her.",
+    "In the town’s wet [[climate|climate]], the wooden frame had become damp. Dust covered its back. Wearing a [[mask|mask]] against the dust, Amira carefully cleaned it. The hot room made her [[uncomfortable|uncomfortable]], so she opened a window. Under the dirt appeared a name: “Elsa, 1894.” Looking again, Amira realised the silver object was a tool for cutting flowers, not a sign of [[royal|royal]] power.",
+    "At the town library, she found Elsa in an old gardening book. Elsa had grown roses for the queen but was not a queen herself. The painting was worth little, yet its story attracted visitors. Amira displayed it beside gardening books, and the extra sales paid for the roof before winter."
+  ],
+  "zh": [
+    "阿米拉买下一家二手书店时，在柜子后面发现了一幅肖像画。画中是一位手拿银色小工具的女子。旁边的一张剪报上，新闻标题写着：“遗失的女王画像找到了？”阿米拉希望卖掉它来修补书店的屋顶，但她首先需要弄清画中的女子是谁。",
+    "一位艺术专家提出收取两百英镑的鉴定费。阿米拉负担不起，而且她已经赊购了书架。对漏水屋顶的担忧让她没了胃口。不过，在借更多钱之前，她决定仔细想想，这幅画本身能提供什么线索。",
+    "在镇上潮湿的气候中，木制画框受潮了。画框背面积满了灰尘。阿米拉戴上口罩防尘，小心地清理背面。房间里很热，让她感到不舒服，于是她打开了一扇窗。污垢下面露出了一行字：“埃尔莎，1894年。”阿米拉再次端详画像，意识到那件银色物品是剪花的工具，并不是王室权力的象征。",
+    "在镇上的图书馆，她从一本旧园艺书中找到了埃尔莎的资料。埃尔莎曾为女王种植玫瑰，但她自己并不是女王。这幅画不值多少钱，它背后的故事却吸引了访客。阿米拉把它摆在园艺书旁边展示，增加的销售收入让她赶在冬天之前付清了修屋顶的费用。"
+  ],
+  "q": [
+    {
+      "s": "The portrait was inside a cupboard when Amira found it.",
+      "a": "F",
+      "why": "她在柜子后面发现画像，而非柜子里面。"
+    },
+    {
+      "s": "Amira had already bought shelves with an arrangement to pay later.",
+      "a": "T",
+      "why": "第二段说明她已经赊购了书架。"
+    },
+    {
+      "s": "Elsa learned to grow roses from her mother.",
+      "a": "NG",
+      "why": "文章未提及埃尔莎向谁学习种玫瑰。"
+    }
+  ]
+}

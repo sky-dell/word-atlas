@@ -1,0 +1,48 @@
+{
+  "id": "r0651",
+  "ids": [
+    "tumour",
+    "fitting",
+    "prophet",
+    "violate",
+    "cultivate",
+    "elaboration",
+    "slender",
+    "placard",
+    "nostalgia",
+    "antagonist"
+  ],
+  "title": "Why Ancient Yews Keep Growing",
+  "titleZh": "古老的紫杉为何生生不息",
+  "topic": "society",
+  "cefr": 4,
+  "paras": [
+    "In an old burial ground, a hollow yew can appear less like a living organism than a monument. Visitors may feel [[nostalgia|nostalgia]] for ceremonies once held beneath its branches, yet its survival requires no supernatural explanation. Although a village legend might credit a [[prophet|prophet]], believed to convey divine messages, the tree's persistence depends on its unusual capacity for renewal.",
+    "As the central wood decays, living tissue beneath the bark can continue transporting water and sugars. Branches touching damp soil may produce roots, while [[slender|slender]] shoots develop into substantial new stems. Calling such a tree a single individual therefore needs [[elaboration|elaboration]]: its original trunk may be disappearing even as connected younger structures extend its life.",
+    "This process complicates human attempts to manage ancient trees. A gardener wishing to [[cultivate|cultivate]] flowers nearby may damage shallow roots through digging, while removing apparently untidy branches can interrupt natural regeneration. A conservationist may consequently become the gardener's [[antagonist|antagonist]], opposing improvements intended to honour the site. Where protective rules apply, even well-meant pruning may [[violate|violate]] them; a prominent [[placard|placard]] can explain why deliberate neglect is sometimes careful management.",
+    "The yew's chemistry offers another reason for respect, though not for casual experimentation. Its poisonous tissues contain compounds from which medicines have been developed to inhibit the growth of a [[tumour|tumour]]. Eating any part is no substitute for medical treatment. It is therefore [[fitting|fitting]] that a tree associated with remembrance should also illuminate biological survival: what looks exhausted from outside may retain remarkable resources for continued life."
+  ],
+  "zh": [
+    "在一处古老的墓地里，一棵中空的紫杉看上去可能更像一座纪念碑，而不是活着的生命。游客或许会因昔日在树荫下举行的仪式而生出怀旧之情，但它的存续并不需要超自然的解释。即使村中的传说可能将其归功于一位被认为能传达神谕的先知，这棵树的长久生命仍取决于它非同寻常的自我更新能力。",
+    "当树干中心的木质部分腐朽时，树皮下的活组织仍能继续输送水分和糖分。接触潮湿土壤的枝条可能生根，细长的新梢则会长成粗壮的新树干。因此，将这样的树称为单一的个体，需要进一步说明：原来的树干可能正在消失，而与之相连的年轻结构却在延续它的生命。",
+    "这一过程使人们管理古树的工作变得复杂。想在附近栽种花卉的园丁可能在挖土时损伤浅层树根，而剪去看似杂乱的枝条则可能阻断自然更新。因此，自然保护者可能成为园丁的反对者，抵制那些本意是向这片场所致敬的改造。在适用保护规定的地方，即使出于善意的修剪也可能违规；一块醒目的告示牌可以解释，为何有意不加干预有时反而是一种细致的管理。",
+    "紫杉的化学特性提供了另一个值得敬重它的理由，却绝不是让人随意尝试的理由。它有毒的组织中含有某些化合物，人们以此为基础开发出了抑制肿瘤生长的药物。食用紫杉的任何部分都不能代替医疗。因此，一种与追思相联系的树也能帮助我们理解生命的延续，实在恰如其分：外表看似衰竭的生命，内部或许仍保有令人惊叹的生存资源。"
+  ],
+  "q": [
+    {
+      "s": "Decay in the centre of a yew's trunk necessarily stops water transport beneath its bark.",
+      "a": "F",
+      "why": "中心腐朽时，树皮下的活组织仍可输送水分。"
+    },
+    {
+      "s": "Removing apparently untidy branches can disrupt an ancient yew's natural regeneration.",
+      "a": "T",
+      "why": "第三段明确指出剪去这些枝条可能阻断更新。"
+    },
+    {
+      "s": "Medicines derived from yew compounds are less expensive than other cancer treatments.",
+      "a": "NG",
+      "why": "末段介绍药用价值，未比较治疗费用。"
+    }
+  ]
+}

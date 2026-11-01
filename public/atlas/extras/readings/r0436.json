@@ -1,0 +1,48 @@
+{
+  "id": "r0436",
+  "ids": [
+    "format",
+    "soviet",
+    "urge",
+    "organizational",
+    "chunk",
+    "moderate",
+    "cooperative",
+    "voluntary",
+    "interfere",
+    "imprison"
+  ],
+  "title": "An Old Recipe, A New Test",
+  "titleZh": "老食谱的新试验",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "At a neighbourhood kitchen, food historian Leila Karim tested whether the [[format|format]] of a recipe could change how people cooked together. She chose a cabbage soup from a [[soviet|Soviet]] cookbook. Its author, a baker later [[imprison|imprisoned]] for distributing banned political writing, had recorded inexpensive meals for shared kitchens. Leila wanted to make one of these neglected recipes useful again.",
+    "Twenty adults joined the experiment on a [[voluntary|voluntary]] basis. Working in pairs, half received the original instructions as one long paragraph; the others received identical information divided into numbered stages. Both versions specified a thick [[chunk|chunk]] of cabbage and a [[moderate|moderate]] amount of salt. Equipment and ingredients were identical, and Leila [[urge|urged]] everyone to read the whole recipe before starting.",
+    "The kitchen's [[organizational|organizational]] rules gave each pair its own work area. Observers recorded questions and mistakes but did not [[interfere|interfere]] in disagreements about who should chop or stir. Although most participants were [[cooperative|cooperative]], pairs using the continuous paragraph repeatedly checked what their partners had already done. Those with numbered instructions divided tasks more quickly and made fewer errors, particularly when adding ingredients at different times.",
+    "The soups tasted similar, according to three judges who did not know which instructions each pair had used. However, the numbered version reduced average preparation time by eight minutes. The small experiment suggested that clearer presentation could ease shared cooking without changing the food itself. Leila printed that version for the kitchen's recipe shelf."
+  ],
+  "zh": [
+    "在一家社区厨房里，饮食史研究者莱拉·卡里姆测试了食谱的编排方式是否会改变人们共同做饭的方式。她从一本苏联食谱中选了一道卷心菜汤。食谱的作者是一位面包师，后来因散发被禁的政治文章而遭到监禁。这位作者曾为共用厨房记录了许多经济实惠的菜肴。莱拉希望让其中一道被忽视的食谱重新发挥作用。",
+    "二十名成年人自愿参加了实验。他们两人一组，一半人拿到的原版说明是一整段长文字，另一半人拿到的信息完全相同，但分成了带编号的步骤。两个版本都要求使用一大厚块卷心菜和适量的盐。设备和食材完全一致，莱拉还力劝所有人在动手前读完整份食谱。",
+    "厨房的管理规定为每组分配了独立的操作区域。观察员记录问题和失误，但不插手参与者关于谁切菜、谁搅拌的争论。虽然大多数参与者都乐于合作，但使用整段文字版食谱的小组反复确认搭档已经做了什么。使用编号说明的小组分工更快，失误也更少，在需要分时加入食材时尤其如此。",
+    "三位评委认为，做出的汤味道相近；他们并不知道各组使用了哪个版本的说明。不过，编号版使平均准备时间缩短了八分钟。这个小型实验提示，更清晰的编排可能让共同做饭更顺畅，而不改变食物本身。莱拉将这个版本打印出来，放到了厨房的食谱架上。"
+  ],
+  "q": [
+    {
+      "s": "The twenty adults were required to take part in the experiment.",
+      "a": "F",
+      "why": "第二段说明二十名成年人是自愿参加的。"
+    },
+    {
+      "s": "The observers had trained as professional cooks.",
+      "a": "NG",
+      "why": "文章未说明观察员是否接受过专业厨师训练。"
+    },
+    {
+      "s": "The numbered recipe reduced average preparation time by eight minutes.",
+      "a": "T",
+      "why": "末段明确说明编号版使平均准备时间缩短八分钟。"
+    }
+  ]
+}

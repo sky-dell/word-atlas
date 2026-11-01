@@ -1,0 +1,48 @@
+{
+  "id": "r0464",
+  "ids": [
+    "rival",
+    "rural",
+    "knowledgeable",
+    "mansion",
+    "pastry",
+    "short-term",
+    "copper",
+    "vein",
+    "coral",
+    "detailed"
+  ],
+  "title": "When Bakeries Become Technology Workshops",
+  "titleZh": "当面包房变成技术工坊",
+  "topic": "technology",
+  "cefr": 3,
+  "paras": [
+    "In a [[rural|rural]] valley better known for fruit pies, small bakeries are becoming unlikely centres of technical design. Six businesses now share a workshop inside a former [[mansion|mansion]], where they build cooling equipment for their kitchens. Surprisingly, each baker works beside a commercial [[rival|rival]], exchanging ideas that would once have remained secret.",
+    "The project began when warmer summers made [[pastry|pastry]] difficult to handle. Butter softened before workers could fold it into the dough, ruining its delicate layers. Buying larger refrigerators offered only a [[short-term|short-term]] answer: they consumed more electricity and occupied valuable floor space. Baker Amara Okeke therefore approached a retired engineer who was [[knowledgeable|knowledgeable]] about industrial cooling.",
+    "Together, they developed a thin worktop containing [[copper|copper]] channels through which chilled water flows. Smaller channels join a larger return pipe, rather like blood entering a [[vein|vein]] on its journey back towards the heart. Beneath the table, a separate structure inspired by branching [[coral|coral]] helps release heat into the air. The team used a basic computer model to compare shapes before building three versions.",
+    "During a month of trials, bakers kept [[detailed|detailed]] records of electricity use and rejected batches. The best design reduced both, although it required careful cleaning. Now the workshop receives more requests for construction drawings than for pies. Its members still compete for customers, but they have discovered that sharing the cost of experimentation can protect the craft they all depend on."
+  ],
+  "zh": [
+    "在一个以水果派闻名的乡村山谷里，小面包房正出人意料地成为技术设计中心。如今，六家店共用一间设在昔日大宅邸内的工坊，为各自的厨房制作冷却设备。令人惊讶的是，每位面包师都与商业竞争对手并肩工作，交流那些过去会被保密的想法。",
+    "这个项目始于夏季气温升高后酥皮面团变得难以处理。工人还没来得及把黄油折入面团，黄油就软化了，破坏了酥皮细腻的层次。购买更大的冰箱只能暂时解决问题：它们耗电更多，还占据宝贵的地面空间。因此，面包师阿玛拉·奥凯凯找到了一位精通工业冷却技术的退休工程师。",
+    "他们共同开发了一种较薄的操作台，内部设有铜制管道，冷水从中流过。较细的管道汇入一根较粗的回流管，就像血液在返回心脏的途中流入静脉一样。操作台下方另有一个借鉴分枝珊瑚形态的结构，帮助向空气中散热。团队先用一个基础计算机模型比较不同形状，再制作出三个版本。",
+    "在为期一个月的试验中，面包师详细记录了用电量和报废批次。效果最好的设计使两者都有所减少，不过它需要仔细清洁。如今，工坊收到的施工图索取请求比水果派订单还多。成员们仍在争取顾客，但他们发现，共同承担试验成本，可以保护大家赖以谋生的手艺。"
+  ],
+  "q": [
+    {
+      "s": "Businesses competing for the same customers cooperate in developing kitchen equipment.",
+      "a": "T",
+      "why": "六家店共用工坊，竞争对手一起研发设备。"
+    },
+    {
+      "s": "The retired engineer had previously worked in a bakery.",
+      "a": "NG",
+      "why": "只说工程师精通工业冷却，未提面包房任职经历。"
+    },
+    {
+      "s": "The best design increased electricity use during the trials.",
+      "a": "F",
+      "why": "最佳设计减少了用电量和报废批次。"
+    }
+  ]
+}

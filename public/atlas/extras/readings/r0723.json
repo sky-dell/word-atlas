@@ -1,0 +1,48 @@
+{
+  "id": "r0723",
+  "ids": [
+    "quagmire",
+    "plenary",
+    "maim",
+    "coefficient",
+    "baroness",
+    "reflexion",
+    "poliomyelitis",
+    "venerate",
+    "herculean",
+    "oscillation"
+  ],
+  "title": "The Bathhouse Beyond the Cure",
+  "titleZh": "浴场的价值，不止于治愈",
+  "topic": "health",
+  "cefr": 5,
+  "paras": [
+    "At the mountain spa of Valdessa, visitors descend beneath a painted ceiling to a pool whose green tiles once guided rehabilitation exercises. A chandelier’s [[reflexion|reflexion]] trembles across the water. Unlike neighbouring establishments advertising rejuvenation, this bathhouse invites travellers to examine a less marketable inheritance: the patient labour of living with permanent physical impairment.",
+    "Its small exhibition centres on a [[baroness|baroness]] who financed residential care for people affected by [[poliomyelitis|poliomyelitis]], a viral disease capable of causing paralysis. Beside her portrait hangs a carpenter’s account of machinery that could [[maim|maim]] an inattentive worker. The juxtaposition challenges the temptation to [[venerate|venerate]] a wealthy benefactor while overlooking the circumstances that made assistance necessary.",
+    "In the exercise gallery, guide Amara demonstrates a suspended wooden seat, its gentle [[oscillation|oscillation]] once used during supervised movement sessions. An engineer’s notebook records the [[coefficient|coefficient]] of friction for alternative floor surfaces: an apparently obscure calculation with immediate consequences for anyone using crutches. Even entering the building, before ramps replaced its marble steps, could demand [[herculean|herculean]] effort from some patients.",
+    "Preserving this uncomfortable history brought the museum’s trustees into a financial [[quagmire|quagmire]]: luxury accommodation promised revenue but required dismantling the exercise gallery. At a [[plenary|plenary]] meeting, every trustee considered an alternative financed through modest bathing fees and guided visits. That arrangement now sustains the building without promising miraculous recovery. Emerging into the courtyard, visitors encounter neither a shrine nor a clinic, but a place where hospitality means making room for bodies that cannot simply be restored."
+  ],
+  "zh": [
+    "在瓦尔德萨山间水疗浴场，游客沿阶而下，穿过彩绘天花板下的空间，来到一座水池旁；池中的绿色瓷砖曾为康复练习提供方位指引。吊灯的倒影在水面上轻轻颤动。与附近那些宣称能让人恢复青春活力的场所不同，这座浴场邀请旅人审视一份不那么容易推销的遗产：伴随永久性身体损伤生活时，那些需要耐心付出的努力。",
+    "馆内的小型展览以一位女男爵为中心，她曾出资为脊髓灰质炎患者提供住宿式照护；这种病毒性疾病可能导致瘫痪。她的肖像旁，挂着一位木匠的记述，讲述机器如何可能使一时疏忽的工人重伤致残。这样的并置提醒人们，不应只顾敬仰富有的恩人，却忽视了使救助成为必需的现实处境。",
+    "在康复训练展厅，导览员阿玛拉演示了一张悬吊式木椅：它轻柔的来回摆动，曾用于有人监督的肢体活动训练。一本工程师的笔记记录着不同备选地面材料的摩擦系数。这项看似晦涩的计算，对使用拐杖的人却有着直接影响。在坡道取代大理石台阶之前，对一些患者而言，甚至进入这栋建筑都可能需要付出极大的努力。",
+    "保存这段令人不安的历史，使博物馆理事们陷入财务困境：改建豪华客房有望带来收入，却意味着必须拆除康复训练展厅。在一次全体会议上，所有理事共同审议了另一项方案，以价格适中的泡浴收费和导览收入维持运营。如今，这一安排支撑着建筑的日常运作，却不许诺奇迹般的康复。走进庭院时，游客所见既非供人膜拜的圣所，也非诊所，而是一个以接纳无法轻易复原的身体来诠释待客之道的地方。"
+  ],
+  "q": [
+    {
+      "s": "The bathhouse promotes rejuvenation in the same way as neighbouring establishments.",
+      "a": "F",
+      "why": "首段明确将浴场与附近宣传恢复青春的场所区分。"
+    },
+    {
+      "s": "Ramps replaced the building's marble entrance steps.",
+      "a": "T",
+      "why": "第三段明确说明坡道取代了大理石台阶。"
+    },
+    {
+      "s": "Most of the museum’s current visitors come from outside the country.",
+      "a": "NG",
+      "why": "文中未说明游客来自哪里或其比例。"
+    }
+  ]
+}

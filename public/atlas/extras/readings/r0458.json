@@ -1,0 +1,48 @@
+{
+  "id": "r0458",
+  "ids": [
+    "tackle",
+    "compartment",
+    "villain",
+    "invade",
+    "classification",
+    "imitation",
+    "barrel",
+    "prevention",
+    "wagon",
+    "broaden"
+  ],
+  "title": "A Kingdom Inside a Wagon",
+  "titleZh": "马车里的王国",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "Puppet maker Samira Voss carries an entire wooden kingdom in a horse-drawn [[wagon|wagon]]. At village fairs, one side folds down into a stage, while each puppet travels in a padded [[compartment|compartment]] beneath it. Her latest production follows a baker who discovers that a neighbouring king plans to [[invade|invade]] her country.",
+    "The king is the obvious [[villain|villain]], but Samira avoids giving him a frightening face. Instead, his movements reveal his character: he takes enormous steps and pushes smaller figures aside. Developing this style required close observation rather than simple [[imitation|imitation]] of other performers. For weeks, she sketched how people moved when carrying heavy bags or claiming space in crowded rooms.",
+    "Behind the stage, the practical work is equally demanding. To [[tackle|tackle]] damage caused by damp weather, Samira tested several protective coatings on spare wooden hands. Moisture [[prevention|prevention]] now begins before each journey, when she checks the roof and dries every storage box. Her [[classification|classification]] of spare parts is based on size, not character, so a baker and a king may share identical replacement feet.",
+    "The show's most surprising object is a small [[barrel|barrel]], which becomes the baker's hiding place, a lookout tower and finally a negotiating table. Samira hopes such transformations will [[broaden|broaden]] audiences' ideas about ordinary materials. After the performance, she lets visitors examine the objects. The kingdom disappears into its boxes, but its possibilities remain visible in a few pieces of wood."
+  ],
+  "zh": [
+    "木偶制作师萨米拉·沃斯用一辆四轮运货马车载着整个木制王国。在乡村集市上，车厢的一侧可以放下来，变成舞台；每个木偶则放在舞台下方带软垫的独立隔层里运输。她的最新剧目讲述了一位女面包师的故事：她发现邻国国王正计划入侵自己的国家。",
+    "国王显然是反派，但萨米拉并没有给他设计一张吓人的脸。相反，他的动作暴露了他的性格：他迈着大步，还会把较小的角色推到一旁。形成这种风格需要细致观察，而不是简单模仿其他表演者。连续几周，她都在速写人们提着沉重袋子或在人群中争占空间时的动作。",
+    "舞台背后的实际工作同样费心。为了应对潮湿天气造成的损坏，萨米拉在备用的木制手掌上测试了几种保护涂层。如今，每次出发前她都会检查车顶，并将每个储物箱弄干，提前做好防潮工作。她按照尺寸而非角色给备用零件分类，因此面包师和国王可能使用完全相同的备用脚。",
+    "剧中最出人意料的道具是一个小圆桶：它先后变成面包师的藏身处、瞭望塔，最后又成了谈判桌。萨米拉希望这些变化能够拓宽观众对普通材料用途的认识。演出结束后，她会让观众仔细查看这些物件。王国被收进箱子里，不见了踪影，但几块木头仍然展现着它蕴含的种种可能。"
+  ],
+  "q": [
+    {
+      "s": "Samira's vehicle serves both to transport her puppets and to present her performances.",
+      "a": "T",
+      "why": "马车运送木偶，车厢一侧可变成舞台。"
+    },
+    {
+      "s": "Samira made her sketches of people's movements in her home town.",
+      "a": "NG",
+      "why": "文中未说明她观察和速写的地点。"
+    },
+    {
+      "s": "Samira organises replacement parts according to the characters they belong to.",
+      "a": "F",
+      "why": "备用零件按尺寸分类，而非按角色。"
+    }
+  ]
+}

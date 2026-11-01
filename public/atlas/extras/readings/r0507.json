@@ -1,0 +1,48 @@
+{
+  "id": "r0507",
+  "ids": [
+    "bathe",
+    "downward",
+    "bundle",
+    "contract",
+    "tomb",
+    "civil",
+    "probable",
+    "flannel",
+    "rehearsal",
+    "setting"
+  ],
+  "title": "A Bathhouse Finds a Second Income",
+  "titleZh": "老浴场的新收入来源",
+  "topic": "economy",
+  "cefr": 3,
+  "paras": [
+    "In the hill town of Darava, visitors usually come to see a merchant’s painted [[tomb|tomb]]. Yet a narrow lane behind the monument leads to another attraction: a nineteenth-century bathhouse where travellers can still [[bathe|bathe]] in deep stone tubs. Its tiled courtyard now provides a [[setting|setting]] for small evening concerts, helping an old business survive.",
+    "For years, the bathhouse faced a [[downward|downward]] trend in earnings as families installed bathrooms at home. Closure seemed the most [[probable|probable]] outcome until its manager, Leila, signed a [[contract|contract]] with a local music association. The agreement gave musicians use of the courtyard twice a week, while reserving the bathing rooms for their original purpose.",
+    "Arriving before the first concert, I watched an assistant carry a [[bundle|bundle]] of freshly washed robes upstairs. Made from thick [[flannel|flannel]], they kept guests warm after their baths. Below, three musicians began their [[rehearsal|rehearsal]], testing how softly they could play beneath the stone arches. Leila explained that the building also hosted [[civil|civil]] wedding ceremonies, although these were held only when the baths were closed.",
+    "The new income pays for roof repairs and supports two laundry jobs. It has also changed how visitors spend their time: instead of leaving after a quick photograph, many stay for tea and music. As the final notes faded that evening, a guest emerged from the bathing rooms in a warm robe. Here, preserving history meant keeping it useful."
+  ],
+  "zh": [
+    "在山城达拉瓦，游客通常是为了一座商人的彩绘陵墓而来。然而，纪念建筑后方的一条窄巷通向另一处景点：一座十九世纪的浴场，旅客至今仍能在深深的石砌浴池中洗澡。如今，铺着瓷砖的庭院成了小型晚间音乐会的场地，帮助这家老店维持经营。",
+    "多年来，随着当地家庭在家中安装浴室，浴场的收入持续下降。停业似乎是最可能的结局，直到经理莱拉与当地一个音乐协会签订了合同。协议允许乐手每周两次使用庭院，同时保留浴室原有的用途。",
+    "第一场音乐会开始前，我来到浴场，看见一名助手把一捆刚洗好的浴袍抱上楼。这些浴袍用厚法兰绒制成，能让客人洗浴后保持温暖。楼下，三位乐手开始排练，试着在石拱下尽可能轻柔地演奏。莱拉解释说，这栋建筑还承办非宗教婚礼仪式，不过只在浴场不营业时举行。",
+    "新增收入用于修缮屋顶，还维持了两个洗衣岗位。这也改变了游客安排时间的方式：许多人不再匆匆拍照后离去，而是留下来喝茶、听音乐。那天晚上，最后几个音符渐渐消散时，一位客人穿着暖和的浴袍从浴室走了出来。在这里，保护历史意味着让它继续发挥作用。"
+  ],
+  "q": [
+    {
+      "s": "The bathhouse's earnings rose during the years when local families were installing bathrooms at home.",
+      "a": "F",
+      "why": "第二段说明这段时期浴场收入呈下降趋势。"
+    },
+    {
+      "s": "Wedding ceremonies are held only when the baths are closed.",
+      "a": "T",
+      "why": "第三段明确说明婚礼只在浴场关闭时举行。"
+    },
+    {
+      "s": "The laundry workers earn more than the musicians who perform at the bathhouse.",
+      "a": "NG",
+      "why": "文章未比较洗衣工与乐手的收入。"
+    }
+  ]
+}

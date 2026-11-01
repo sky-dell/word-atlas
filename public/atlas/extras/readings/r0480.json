@@ -1,0 +1,48 @@
+{
+  "id": "r0480",
+  "ids": [
+    "concrete",
+    "joyful",
+    "virtual",
+    "handling",
+    "hence",
+    "adore",
+    "frustrate",
+    "infection",
+    "cooperate",
+    "strike"
+  ],
+  "title": "The Washboard and the Working Day",
+  "titleZh": "搓衣板与劳动日常",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "Before electric washing machines, a wooden board with a ridged surface helped transform laundry work. During the nineteenth century, manufactured washboards became common in many households. Clothes were soaked, rubbed against the ridges and rinsed. The board was portable, so it could be used beside a river or above a household tub.",
+    "Yet this simple object belonged to a demanding working life. Paid washerwomen carried water, heated it and scrubbed other people's clothing for hours. Careful [[handling|handling]] of dirty linen mattered, particularly when families feared [[infection|infection]]. Bad weather could [[frustrate|frustrate]] workers by leaving clean washing wet for days; [[hence|hence]], earnings depended partly on conditions beyond their control.",
+    "Laundry also brought workers together. In Atlanta in 1881, Black washerwomen organised a [[strike|strike]] to demand better pay. Their ability to [[cooperate|cooperate]] challenged the idea that washing was merely an isolated domestic task. Elsewhere, shared washhouses placed tubs and, later, [[concrete|concrete]] sinks under one roof. Although the work remained exhausting, conversation could turn an ordinary washing day into a more [[joyful|joyful]] social occasion.",
+    "As machines spread during the twentieth century, washboards gradually lost their central place in household routines. Some people nevertheless came to [[adore|adore]] their distinctive sound when played as musical instruments. Today, a museum's [[virtual|virtual]] exhibition can display a worn board beside accounts of laundry workers' lives. Its grooves record more than a cleaning method: they recall labour that was essential but often overlooked."
+  ],
+  "zh": [
+    "在电动洗衣机出现之前，一块表面带有凸起纹路的木板帮助改变了洗衣劳动。19世纪，工厂生产的搓衣板在许多家庭中逐渐普及。人们先浸泡衣物，再将其贴着板上的纹路搓洗，最后漂洗。搓衣板便于携带，因此既能在河边使用，也能架在家中的洗衣盆上使用。",
+    "然而，这件简单的物品背后是繁重的劳动生活。受雇的洗衣妇需要提水、烧水，并连续数小时搓洗别人的衣物。谨慎处理脏衣物十分重要，尤其是在家庭担心感染疾病的时候。恶劣天气可能使洗衣工感到懊恼，因为洗净的衣物会连续几天都晾不干；因此，她们的收入在一定程度上取决于自己无法控制的条件。",
+    "洗衣劳动也把劳动者联系在一起。1881年，亚特兰大的黑人洗衣妇组织了一场罢工，要求提高报酬。她们的协作能力挑战了一种观念，即洗衣不过是各自独立进行的家务劳动。在其他地方，公共洗衣房将洗衣盆集中在同一屋檐下，后来又设置了混凝土洗衣池。尽管工作依然令人筋疲力尽，交谈却能让普通的洗衣日变成更愉快的社交时光。",
+    "随着洗衣机在20世纪逐渐普及，搓衣板慢慢失去了在家庭日常生活中的核心地位。不过，一些人开始非常喜爱它作为乐器演奏时发出的独特声音。如今，博物馆的虚拟展览可以将一块磨损的搓衣板与洗衣工的生活记录一同展示。板上的沟槽记录的不只是一种清洁方法，也让人想起那些不可或缺却常被忽视的劳动。"
+  ],
+  "q": [
+    {
+      "s": "Manufactured washboards were cheaper than household washing tubs in the nineteenth century.",
+      "a": "NG",
+      "why": "首段提到搓衣板和洗衣盆，未比较价格。"
+    },
+    {
+      "s": "Bad weather had no effect on laundry workers' earnings.",
+      "a": "F",
+      "why": "第二段说明收入部分取决于天气条件。"
+    },
+    {
+      "s": "Black washerwomen in Atlanta organised a strike in 1881 to demand better pay.",
+      "a": "T",
+      "why": "第三段明确交代罢工的时间、地点和加薪诉求。"
+    }
+  ]
+}

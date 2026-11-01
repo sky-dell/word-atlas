@@ -1,0 +1,48 @@
+{
+  "id": "r0466",
+  "ids": [
+    "reptile",
+    "congressman",
+    "wicked",
+    "downpour",
+    "insult",
+    "generate",
+    "adequately",
+    "tame",
+    "assistance",
+    "grease"
+  ],
+  "title": "A Turtle Behind the Market",
+  "titleZh": "市场后的一只龟",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "At seven on Tuesday morning, I checked the narrow pond behind Bell Street Market. A sudden [[downpour|downpour]] had washed rubbish from the delivery yard into the water. Beside a drain, a small [[reptile|reptile]] rested on a brick: a freshwater turtle, its shell streaked with cooking [[grease|grease]]. I recorded its position and photographed the oily surface around it.",
+    "The turtle seemed [[tame|tame]], allowing me to approach within half a metre. However, its slow movements could also indicate stress, so I kept my distance. Turtles in this pond usually [[generate|generate]] interest among passing traders, but no one else had stopped that morning. Without specialist [[assistance|assistance]], I could not judge whether this animal needed treatment.",
+    "Market caretaker Amira arrived with a wildlife rescue worker. Someone had deliberately tipped kitchen waste into the drain overnight, she explained. She called the act [[wicked|wicked]], pointing to two dead water beetles trapped in the oil. Yet she refused to [[insult|insult]] the kitchen workers nearby: none had been identified as responsible. While the rescue worker examined the turtle, Amira blocked the drain with absorbent material.",
+    "By midday, the spill had been [[adequately|adequately]] contained, though further cleaning remained necessary. A visiting [[congressman|congressman]], walking through the market with traders, stopped to watch the work. My final note concerned something smaller: after being cleaned and released by the specialist, the turtle climbed onto a dry stone. This time, it slipped into the water as soon as my shadow reached it."
+  ],
+  "zh": [
+    "星期二早上七点，我查看了贝尔街市场后面那个狭长的池塘。一场突如其来的暴雨把卸货区的垃圾冲进了水里。排水口旁，一只小型爬行动物停在一块砖上：那是一只淡水龟，龟壳上沾着一道道烹饪油脂。我记录了它的位置，并拍下了它周围泛着油污的水面。",
+    "这只龟似乎不怕人，让我走到了离它不到半米的地方。不过，它行动迟缓也可能说明它正处于应激状态，因此我没有再靠近。这个池塘里的龟通常会引起路过商贩的兴趣，但那天早上没有其他人停下来。没有专业人员的帮助，我无法判断它是否需要治疗。",
+    "市场管理员阿米拉带着一位野生动物救护员来了。她解释说，有人夜里故意把厨房废弃物倒进了排水口。她指着两只困在油污中死去的水生甲虫，说这种行为十分缺德。但她不肯辱骂附近的厨房工作人员，因为尚未确定谁该为此负责。救护员检查这只龟时，阿米拉用吸油材料堵住了排水口。",
+    "到中午，油污扩散已得到有效控制，不过仍需进一步清理。一位正与商贩们一同逛市场的男性国会议员停下来观看清理工作。我的最后一条记录关注的却是一件更小的事：这只龟经过专业人员清洁并放归后，爬上了一块干燥的石头。这一次，我的影子刚落到它身上，它就滑进了水里。"
+  ],
+  "q": [
+    {
+      "s": "The turtle was resting far from the drain when the observer first found it.",
+      "a": "F",
+      "why": "发现时，龟就在排水口旁的一块砖上。"
+    },
+    {
+      "s": "Amira had personally witnessed someone dumping the kitchen waste.",
+      "a": "NG",
+      "why": "阿米拉说明有人倾倒废物，但未说她亲眼看见。"
+    },
+    {
+      "s": "The spill was adequately contained by midday.",
+      "a": "T",
+      "why": "末段明确说中午前油污已得到有效控制。"
+    }
+  ]
+}

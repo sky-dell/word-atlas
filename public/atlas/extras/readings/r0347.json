@@ -1,0 +1,48 @@
+{
+  "id": "r0347",
+  "ids": [
+    "carrier",
+    "moral",
+    "drill",
+    "respectfully",
+    "clubhouse",
+    "enclose",
+    "astronomer",
+    "changeable",
+    "input",
+    "commute"
+  ],
+  "title": "A Shared Roof for Stargazers",
+  "titleZh": "观星者共用的屋顶",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "In this fictional account, a small astronomy club begins with meetings in members' homes. Members share a telescope because few can afford their own. As the group grows, they rent a permanent [[clubhouse|clubhouse]] with a flat roof suitable for observation. The rooms below offer space for books and somewhere to store instruments safely.",
+    "Preparing the building requires practical work. A [[carrier|carrier]] delivers the telescope in a wooden case, while members prepare its support with a saw and a [[drill|drill]]. Before using the roof, they [[enclose|enclose]] the observing area with a safety barrier that leaves the sky visible. A professional [[astronomer|astronomer]] advises them on where to put the telescope, but members' [[input|input]] also shapes the arrangement of the limited space.",
+    "Access raises questions beyond construction. The members regard sharing scientific knowledge as a [[moral|moral]] duty rather than a privilege of wealth. Experienced observers agree to answer beginners [[respectfully|respectfully]], even when a question seems simple. Evening sessions allow people who [[commute|commute]] to work to attend after returning home. Yet [[changeable|changeable]] weather frequently interrupts plans; a clear sunset does not guarantee a cloudless night.",
+    "When clouds cover the stars, members meet downstairs to compare drawings, repair equipment or discuss earlier observations. After several cloudy weeks, they set aside a cupboard for unfinished repairs so that the main table remains available for studying maps."
+  ],
+  "zh": [
+    "在这个虚构的故事中，一个小型天文俱乐部起初在会员家中聚会。会员们共用一架望远镜，因为很少有人买得起自己的。随着人数增加，他们租下一处固定的会所，其平坦的屋顶适合观测。楼下的房间可以存放书籍，也能安全地收好仪器。",
+    "布置这座建筑需要动手劳动。承运人将装在木箱里的望远镜送来，会员们则用锯子和钻制作支架。使用屋顶之前，他们用安全护栏围住观测区域，护栏不会挡住天空。专业天文学家就望远镜的摆放位置提出建议，但有限空间的布局也采纳了会员们的意见。",
+    "谁能参与其中，带来了建造之外的问题。会员们认为，分享科学知识是一种道德责任，而非富人的特权。经验丰富的观测者同意有礼貌地回答初学者，即使问题看起来很简单。晚间活动让通勤上班的人能够在下班回家后参加。不过，多变的天气常常打乱计划：日落时晴朗，并不保证整夜无云。",
+    "云层遮住星星时，会员们就在楼下聚会，比较绘图、修理设备，或讨论此前的观测。连续几个星期多云之后，他们腾出一个柜子存放尚未修好的物品，这样主要的桌子仍可用来研究星图。"
+  ],
+  "q": [
+    {
+      "s": "The club receives government funding to buy its equipment.",
+      "a": "NG",
+      "why": "首段提及共用望远镜，未说明购买资金来源。"
+    },
+    {
+      "s": "Members contribute ideas about how to share the available space.",
+      "a": "T",
+      "why": "第二段说明空间布局采纳了会员的意见。"
+    },
+    {
+      "s": "Cloudy conditions prevent members from doing useful activities together.",
+      "a": "F",
+      "why": "末段说明阴天仍一起比较绘图、修理设备。"
+    }
+  ]
+}

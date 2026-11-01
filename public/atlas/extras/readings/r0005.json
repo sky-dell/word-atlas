@@ -1,0 +1,48 @@
+{
+  "id": "r0005",
+  "ids": [
+    "hat",
+    "worker",
+    "chips",
+    "keep",
+    "left",
+    "put",
+    "sunday",
+    "rainy",
+    "hotel",
+    "skirt"
+  ],
+  "title": "A Table for the Hotel Team",
+  "titleZh": "旅馆员工的一张餐桌",
+  "topic": "society",
+  "cefr": 0,
+  "paras": [
+    "Welcome to our small museum. This room tells the story of the Blue Door [[hotel|Hotel]]. It had twelve rooms for visitors. In 1952, a [[worker|worker]] called Mina cleaned the rooms here. Her brother, Ravi, cooked in the kitchen. Look at the photo by the door. You can see them with the other people who worked here.",
+    "On the [[left|left]] wall, you can see Mina's blue [[skirt|skirt]] and Ravi's white [[hat|hat]]. They wore these clothes at work. Below them is a small table. Every [[sunday|Sunday]], the team ate a hot meal together at this table. They ate in the kitchen, not in the dining room with the visitors.",
+    "Ravi made fish and [[chips|chips]] for these meals. He [[put|put]] a big plate in the middle of the table. Everyone could take some food. On cold, [[rainy|rainy]] days, he made soup too. There were only four chairs, so two people sat on a long wooden box. You can see that box here today.",
+    "Before you leave, look inside the glass case. This is Mina's little book of meals. She wanted to [[keep|keep]] it after she stopped working. Each page has names and a date. Some pages have food marks too. These simple things tell us about six people who worked hard and shared a warm meal."
+  ],
+  "zh": [
+    "欢迎来到我们的小博物馆。这个房间讲述蓝门旅馆的故事。旅馆有十二间客房。1952年，一位名叫米娜的员工在这里打扫房间。她的兄弟拉维在厨房做饭。请看门边的照片。你可以看到他们和其他在这里工作的人。",
+    "在左边的墙上，你可以看到米娜的蓝裙子和拉维的白帽子。他们工作时穿戴这些衣物。下面有一张小桌子。每个星期日，员工们都围着这张桌子一起吃一顿热饭。他们在厨房吃饭，而不是在餐厅里和客人一起吃。",
+    "拉维为这些聚餐做炸鱼和薯条。他把一个大盘子放在桌子中间。每个人都可以取一些食物。在寒冷的雨天，他还会做汤。当时只有四把椅子，所以有两个人坐在一个长木箱上。今天你可以在这里看到那个箱子。",
+    "离开前，请看看玻璃展柜里面。这是米娜记录聚餐的小本子。她不再工作后，仍想保留它。每一页都写着姓名和日期。有些页面上还有食物留下的污迹。这些简单的物品向我们讲述了六个人的故事：他们辛勤工作，也一起分享热乎乎的饭菜。"
+  ],
+  "q": [
+    {
+      "s": "Mina worked at the hotel for ten years.",
+      "a": "NG",
+      "why": "原文只提到1952年，未说明工作年限。"
+    },
+    {
+      "s": "The team ate their Sunday meal in the kitchen.",
+      "a": "T",
+      "why": "原文明确说员工们周日在厨房聚餐。"
+    },
+    {
+      "s": "Ravi never made soup on cold, rainy days.",
+      "a": "F",
+      "why": "原文说寒冷的雨天他还会做汤。"
+    }
+  ]
+}

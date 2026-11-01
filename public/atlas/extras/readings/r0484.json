@@ -1,0 +1,48 @@
+{
+  "id": "r0484",
+  "ids": [
+    "regard",
+    "moisture",
+    "variable",
+    "statistic",
+    "thoughtful",
+    "terrify",
+    "mediterranean",
+    "prefix",
+    "likelihood",
+    "broadcast"
+  ],
+  "title": "Warnings Without Fear",
+  "titleZh": "让预警不再令人恐惧",
+  "topic": "government",
+  "cefr": 3,
+  "paras": [
+    "In the small coastal town of Bellara, beside the [[mediterranean|Mediterranean]], residents once [[regard|regarded]] official flood warnings as confusing background noise. Weather conditions were highly [[variable|variable]], and urgent messages sometimes arrived after water had entered homes. After one autumn storm, a neighbourhood association persuaded the town council to support a six-month project to make warnings clearer.",
+    "Twelve volunteers began by visiting forty ground-floor homes. They measured [[moisture|moisture]] in walls and asked occupants how they received emergency information. One [[statistic|statistic]] stood out: thirty households depended on a single radio station for updates. However, its dramatic alarm tone could [[terrify|terrify]] some listeners, especially those who had experienced serious flooding. The volunteers therefore proposed a calm spoken introduction instead.",
+    "Working with a council engineer, project leader Amira Chen prepared three short messages describing different levels of flood [[likelihood|likelihood]]. Each included a practical action, such as moving medicines upstairs. A small printed guide explained unfamiliar language, including the [[prefix|prefix]] 'pre-' in 'pre-flood checks'. In a particularly [[thoughtful|thoughtful]] gesture, volunteers offered private practice sessions to residents who felt embarrassed about asking questions at public meetings.",
+    "The radio station agreed to [[broadcast|broadcast]] the revised messages during a winter trial. When heavy rain came in February, volunteers checked whether residents understood the advice. Most could explain what to do, although several requested slower speech. The council funded another year of testing, while the association revised the recordings: clearer warnings, they concluded, required listening as well as speaking."
+  ],
+  "zh": [
+    "贝拉拉是地中海沿岸的一座小镇。过去，居民把官方洪水预警当作令人困惑的背景噪声。当地天气变化很大，紧急通知有时要等到洪水已经进入住宅后才传来。一场秋季暴风雨过后，一个邻里协会说服镇议会支持一项为期六个月的项目，让预警信息更加清晰易懂。",
+    "十二名志愿者首先走访了四十户住在底层的家庭。他们测量墙体中的水分，并询问住户如何获取紧急信息。一项统计数据格外引人注意：三十户家庭依靠同一家广播电台了解最新情况。然而，电台刺耳的警报声可能使一些听众极度恐惧，尤其是那些经历过严重洪灾的人。因此，志愿者建议改用平静的口头说明作为开场。",
+    "项目负责人阿米拉·陈与镇议会的一名工程师合作，编写了三条简短的信息，分别说明洪水发生的不同可能性。每条信息都包含一项具体行动建议，例如把药品搬到楼上。一份小型纸质指南解释了不熟悉的用语，包括“洪水前检查”这一英文表达中表示“在……之前”的前缀“pre-”。一些居民不好意思在公开会议上提问，志愿者便为他们提供单独的练习机会，这一安排尤其体贴。",
+    "广播电台同意在冬季试行期间播送修改后的信息。二月大雨来临时，志愿者检查了居民是否理解这些建议。大多数人能够说清楚该怎么做，不过有几个人希望语速再慢一些。镇议会出资支持再测试一年，协会则继续修改录音。他们得出的结论是：要让预警更清晰，不仅需要说，也需要听。"
+  ],
+  "q": [
+    {
+      "s": "Official flood warnings always reached residents before water entered their homes.",
+      "a": "F",
+      "why": "紧急通知有时在水进入住宅后才到达。"
+    },
+    {
+      "s": "The radio station had more listeners in winter than in summer.",
+      "a": "NG",
+      "why": "文章未比较电台冬夏两季的听众人数。"
+    },
+    {
+      "s": "The council provided funding for another year of testing.",
+      "a": "T",
+      "why": "末段明确说明议会出资支持再测试一年。"
+    }
+  ]
+}

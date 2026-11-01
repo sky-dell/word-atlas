@@ -1,0 +1,48 @@
+{
+  "id": "r0527",
+  "ids": [
+    "contestant",
+    "restrict",
+    "decorator",
+    "inhabitant",
+    "liking",
+    "artistic",
+    "paradise",
+    "heap",
+    "glimpse",
+    "conscious"
+  ],
+  "title": "Ferns Behind Glass",
+  "titleZh": "玻璃后的蕨类植物",
+  "topic": "nature",
+  "cefr": 3,
+  "paras": [
+    "In nineteenth-century Britain, a growing [[liking|liking]] for ferns brought woodland plants into city homes. Yet keeping them alive was difficult: coal smoke polluted the air, while indoor fires dried it. A solution emerged in 1829, when a London doctor noticed a fern growing inside a closed glass container originally used to observe an insect.",
+    "The container offered a [[glimpse|glimpse]] of a miniature water cycle. Moisture rose from the soil, collected on the glass and returned as drops. Glass walls could [[restrict|restrict]] exposure to dirty air without blocking daylight. The fern, an [[inhabitant|inhabitant]] of damp, sheltered places, could therefore survive with little watering. These containers became known as Wardian cases, after the doctor who developed them.",
+    "By the middle of the century, glass cases had become fashionable household objects. A [[decorator|decorator]] could place one beside a window, making its wooden frame part of a room's design. Arranging rocks and leaves became an [[artistic|artistic]] activity, turning a small box into a green [[paradise|paradise]]. At horticultural exhibitions, a [[contestant|contestant]] might display carefully cultivated ferns rather than flowering plants. Their delicate shapes offered a different kind of beauty.",
+    "The fashion also had a darker side. Collectors sometimes removed whole plants from woodland, leaving a [[heap|heap]] of disturbed earth behind. As observers became more [[conscious|conscious]] of this damage, enthusiasm for collecting increasingly faced criticism. Although the Victorian craze eventually faded, its glass gardens helped establish a lasting idea: successful plant care begins with understanding the conditions a plant needs."
+  ],
+  "zh": [
+    "在十九世纪的英国，人们对蕨类植物日益浓厚的喜爱，使这些林地植物进入了城市家庭。然而，要让它们存活并不容易：煤烟污染了空气，室内炉火又使空气变得干燥。1829年，一位伦敦医生发现，一个原本用于观察昆虫的密闭玻璃容器里长出了一株蕨类植物，由此找到了解决办法。",
+    "这个容器让人们得以窥见一个微型水循环。水分从土壤中蒸发，在玻璃上凝结，再化作水滴落下。玻璃壁既能减少植物接触污浊空气的机会，又不会挡住日光。因此，原本生长在潮湿、避风环境中的蕨类植物，无须频繁浇水也能存活。这种容器后来以开发它的医生之名，被称为沃德箱。",
+    "到了十九世纪中叶，玻璃植物箱已成为时髦的家居用品。室内装饰师可以将它摆在窗边，让木制框架融入房间的设计。摆放石块和叶片成了一种艺术活动，把小箱子变成一片绿色乐园。在园艺展览上，参赛者可能会展示精心培育的蕨类植物，而非开花植物。它们纤巧的形态呈现出另一种美。",
+    "这股风潮也有其阴暗面。采集者有时会从林地中挖走整株植物，只留下一堆翻动过的泥土。随着人们逐渐意识到这种破坏，热衷采集植物的行为受到了越来越多的批评。虽然维多利亚时代的这股热潮最终消退了，但这些玻璃花园帮助确立了一个长久适用的理念：成功养护植物，始于了解它所需要的生长条件。"
+  ],
+  "q": [
+    {
+      "s": "The doctor had kept the insect in the container for several weeks before noticing the fern.",
+      "a": "NG",
+      "why": "未说明发现蕨类前昆虫已在容器中多久。"
+    },
+    {
+      "s": "Ferns in Wardian cases could survive with little watering.",
+      "a": "T",
+      "why": "第二段明确说蕨类只需少量浇水即可存活。"
+    },
+    {
+      "s": "Collectors always left whole fern plants in place in the woodland.",
+      "a": "F",
+      "why": "末段说采集者有时会挖走整株植物。"
+    }
+  ]
+}

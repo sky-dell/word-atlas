@@ -1,0 +1,48 @@
+{
+  "id": "r0327",
+  "ids": [
+    "achieve",
+    "humid",
+    "youth",
+    "custom",
+    "fascinating",
+    "daytime",
+    "wherever",
+    "signature",
+    "absolutely",
+    "force"
+  ],
+  "title": "A Second Life for Summer Fans",
+  "titleZh": "让夏日扇子重获新生",
+  "topic": "work",
+  "cefr": 2,
+  "paras": [
+    "During a [[humid|humid]] summer in Willow Bay, a small community project gave broken hand fans a second life. A retired fan maker, Lin, opened a repair table in the market hall with six neighbours. Their aim was to [[achieve|achieve]] something simple: repair fifty fans before the summer festival.",
+    "In her [[youth|youth]], Lin had made fans with her father. She remembered a local [[custom|custom]]: families gave painted fans to relatives at summer meals. The neighbours found her old designs [[fascinating|fascinating]], but learning the work took patience. Too much [[force|force]] could break the thin wooden sticks, so they practised on damaged pieces first.",
+    "The team worked during the [[daytime|daytime]], when light from the hall's windows helped them see small tears. They set up extra tables [[wherever|wherever]] there was enough space. Each owner left a name and [[signature|signature]] on a paper label attached to the fan. This prevented mix-ups, especially when several fans had similar flower patterns.",
+    "At first, Lin was [[absolutely|absolutely]] sure they could finish only thirty repairs. However, by sharing jobs, the team completed fifty-four. Owners paid a small repair fee, which bought materials for another month. At the festival, one woman recognised a fan her grandmother had painted. She opened it carefully, then asked whether she could join the repair team."
+  ],
+  "zh": [
+    "柳湾一个空气潮湿的夏天，一项小型社区计划让破损的手扇重获新生。退休制扇师林师傅与六位邻居在市场大厅里摆起了修扇摊。他们希望通过努力实现一个简单的目标：在夏日节庆前修好五十把扇子。",
+    "年轻时，林师傅曾跟着父亲一起做扇子。她记得当地有个风俗：家人在夏日聚餐时，会把彩绘扇子送给亲戚。邻居们觉得她过去的设计十分迷人，但学习这门手艺需要耐心。用力过大就可能折断细细的木质扇骨，所以他们先用坏掉的零件练习。",
+    "大家在白天干活，因为大厅窗户透进来的光能帮助他们看清细小的裂口。只要地方够大，他们就在那里加摆桌子。每位送修者都在系于扇子上的纸标签上留下姓名和签名。这避免了扇子被弄混，尤其是在几把扇子都有相似花卉图案的时候。",
+    "起初，林师傅十分确信，他们最多只能修好三十把。然而，通过分工合作，团队最终修好了五十四把。送修者支付了一小笔修理费，这些钱买来了够用一个月的材料。节庆当天，一位女士认出了祖母曾经画过的一把扇子。她小心地展开扇子，接着问自己能否加入修扇团队。"
+  ],
+  "q": [
+    {
+      "s": "The project's original goal was to repair thirty fans before the festival.",
+      "a": "F",
+      "why": "最初目标是在节庆前修好五十把扇子。"
+    },
+    {
+      "s": "The neighbours first practised on damaged pieces.",
+      "a": "T",
+      "why": "第二段明确说他们先用损坏的零件练习。"
+    },
+    {
+      "s": "The woman at the festival had previously worked in a fan shop.",
+      "a": "NG",
+      "why": "文章未提及这位女士过去的工作经历。"
+    }
+  ]
+}

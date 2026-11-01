@@ -1,0 +1,48 @@
+{
+  "id": "r0260",
+  "ids": [
+    "source",
+    "stressful",
+    "telescope",
+    "prove",
+    "bubble",
+    "decorate",
+    "stew",
+    "inventor",
+    "manila",
+    "illegal"
+  ],
+  "title": "Dinner Under Dark Skies",
+  "titleZh": "暗夜星空下的晚餐",
+  "topic": "economy",
+  "cefr": 2,
+  "paras": [
+    "On the edge of [[manila|Manila]], a surprising business trend is bringing customers to small rooftop cafés. Instead of bright signs and loud music, these places sell darkness. Visitors pay for a simple dinner and time with a [[telescope|telescope]]. For café owners, the night sky has become a new [[source|source]] of income.",
+    "One owner, retired [[inventor|inventor]] Tomas Reyes, opened his roof to diners last spring. He used to repair kitchen machines, but found the daily rush [[stressful|stressful]]. Now he serves vegetable [[stew|stew]] in a large pot. As the first [[bubble|bubble]] rises to the surface, he checks whether the sky is clear enough for viewing.",
+    "Customers help [[decorate|decorate]] the tables with painted stones rather than candles, which make faint stars harder to see. The business has also changed the street below. Parking on one narrow corner is [[illegal|illegal]], so Tomas gives walking directions from a nearby car park. A neighbouring bakery now stays open later to sell bread to his guests.",
+    "Tomas keeps careful records to [[prove|prove]] that the idea earns money. His notebook shows that food sales have doubled since April, although cloudy evenings remain quiet. Several nearby owners are testing similar dinners. The attraction is not expensive equipment alone: guests say they enjoy having a reason to sit, eat slowly and look up."
+  ],
+  "zh": [
+    "在马尼拉市郊，一股出人意料的商业潮流正把顾客吸引到小型屋顶咖啡馆。这些地方不用明亮的招牌和喧闹的音乐招揽生意，反而把黑暗当作卖点。客人付费享用一顿简单的晚餐，还可以使用望远镜。对咖啡馆老板来说，夜空成了新的收入来源。",
+    "其中一位老板是退休发明家托马斯·雷耶斯，他去年春天开始在自家屋顶接待食客。他过去修理厨房机器，却觉得每天忙忙碌碌令人压力很大。现在，他用一口大锅供应蔬菜炖菜。当第一个气泡浮上汤面时，他会看看天空是否足够晴朗，适合观星。",
+    "顾客帮忙用彩绘石头装饰桌子，而不用蜡烛，因为烛光会让暗淡的星星更难看清。这门生意也改变了楼下的街道。在一处狭窄的街角停车是违法的，因此托马斯会提供从附近停车场步行前来的路线。隔壁的面包店如今也延长了营业时间，向他的客人售卖面包。",
+    "托马斯认真记账，以证明这个点子能赚钱。他的笔记本显示，自四月以来，餐食销售额已经翻了一番，不过多云的夜晚生意依然冷清。附近几位店主也在尝试类似的晚餐。吸引客人的不只是昂贵的设备：客人们说，他们喜欢有这样一个理由，坐下来慢慢吃饭，抬头看看天空。"
+  ],
+  "q": [
+    {
+      "s": "The rooftop cafés offer both a meal and access to equipment for viewing the sky.",
+      "a": "T",
+      "why": "首段说明付费可用餐并使用望远镜。"
+    },
+    {
+      "s": "Tomas learned to make vegetable stew from a family member.",
+      "a": "NG",
+      "why": "文章未说明托马斯向谁学做炖菜。"
+    },
+    {
+      "s": "Parking at the narrow corner mentioned in the passage is allowed by law.",
+      "a": "F",
+      "why": "第三段明确说在该街角停车违法。"
+    }
+  ]
+}

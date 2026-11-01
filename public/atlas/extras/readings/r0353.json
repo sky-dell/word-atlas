@@ -1,0 +1,48 @@
+{
+  "id": "r0353",
+  "ids": [
+    "struggle",
+    "regional",
+    "dependable",
+    "inaccurate",
+    "fabric",
+    "urgently",
+    "oral",
+    "delightful",
+    "strip",
+    "subjective"
+  ],
+  "title": "Behind the Ribbons of a River Race",
+  "titleZh": "河上竞渡彩带背后的故事",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "At dawn in the riverside village of Bellara, visitors gather beside wooden boats painted yellow and green. They have come for a [[regional|regional]] rowing festival, but the preparations are as interesting as the race. Behind the landing stage, retired rower Mara teaches guests to tie the coloured ribbons worn by each crew.",
+    "The ribbons are cut from cotton [[fabric|fabric]], with one narrow [[strip|strip]] fastened around each rower's upper arm. Beginners often [[struggle|struggle]] to make a knot that stays firm without restricting movement. Mara is a [[dependable|dependable]] guide: she tests every knot herself. When a ribbon tears minutes before departure, she calls [[urgently|urgently]] for scissors and replaces it before the crew leaves.",
+    "According to the village's [[oral|oral]] tradition, these colours once helped families recognise their relatives from the riverbank. A printed leaflet claims that they originally indicated competing trades, but Mara says this account is [[inaccurate|inaccurate]]. The oldest photographs show several trades represented in the same boat. Today, crews choose their colours freely, and cousins sometimes race against one another.",
+    "Once the boats disappear around a bend, spectators walk to a meadow where musicians play beside stalls selling pear cakes. It is a [[delightful|delightful]] place to wait, although opinions about the best viewing spot remain [[subjective|subjective]]: some prefer the finish line, others the quiet bend upstream. When the crews return, Mara checks the ribbons again. For her, a successful festival means every visitor takes home both a secure knot and a story."
+  ],
+  "zh": [
+    "黎明时分，在河畔村庄贝拉拉，游客聚集在漆成黄绿两色的木船旁。他们为一场地区性划船节而来，但赛前准备与比赛本身同样有趣。在码头后方，退役划船选手玛拉正教游客系上各支船队佩戴的彩带。",
+    "彩带用棉布裁成，每位划手的上臂都系着一条窄窄的布带。初学者往往费很大劲，才能打出既牢固又不妨碍活动的结。玛拉是一位可靠的指导者：她会亲自检查每一个结。出发前几分钟，一条彩带撕裂了，她急忙喊人拿来剪刀，赶在船队离开前换好了彩带。",
+    "根据村里口耳相传的说法，这些颜色曾帮助岸上的家人认出自己的亲属。一份印刷宣传单声称，彩带最初用于区分参赛的不同行业，但玛拉说这一记载有误。现存最早的照片显示，同一条船上有来自多个行业的选手。如今，各支船队可以自由选择颜色，堂表亲之间有时也会互为对手。",
+    "船只绕过河湾、消失在视野中后，观众便步行前往一片草地，那里有乐手在卖梨子蛋糕的摊位旁演奏。在这里等待十分惬意，不过，哪里最适合观赛仍是见仁见智：有人喜欢终点线，有人偏爱上游安静的河湾。船队返回时，玛拉又检查了一遍彩带。对她来说，一场成功的节庆，意味着每位游客都能带着一个牢固的绳结和一个故事回家。"
+  ],
+  "q": [
+    {
+      "s": "Mara is paid to teach visitors how to tie the ribbons.",
+      "a": "NG",
+      "why": "文章未说明玛拉教游客系彩带是否有报酬。"
+    },
+    {
+      "s": "Mara personally checks that the visitors' knots are secure.",
+      "a": "T",
+      "why": "第二段说明玛拉亲自检查每一个结。"
+    },
+    {
+      "s": "Mara accepts the leaflet's account of the ribbons' original purpose.",
+      "a": "F",
+      "why": "玛拉明确说宣传单上的这一记载有误。"
+    }
+  ]
+}

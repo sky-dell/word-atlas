@@ -1,0 +1,48 @@
+{
+  "id": "r0454",
+  "ids": [
+    "discrimination",
+    "knight",
+    "oceania",
+    "packaging",
+    "imply",
+    "yeast",
+    "interruption",
+    "linguist",
+    "arctic",
+    "marked"
+  ],
+  "title": "The Science of Sounds We Believe",
+  "titleZh": "我们为何相信这些声音",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "In a small radio studio, sound designer Mara Chen squeezes a sheet of recycled [[packaging|packaging]] beside a microphone. Through headphones, its sharp crackle becomes ice breaking beneath an explorer's boots. The programme describes an [[arctic|arctic]] expedition, but nothing in the room is frozen. Such tricks reveal how readily listeners build a scene from incomplete information.",
+    "For another episode, a medieval [[knight|knight]] rides towards a castle. Mara creates the horse's footsteps with wooden blocks, then adds the bubbling of [[yeast|yeast]] in warm sugar water for a nearby brewer's workshop. There is a [[marked|marked]] difference when she removes the bubbling: the street suddenly feels empty. Background sounds can [[imply|imply]] human activity without a narrator mentioning a single resident.",
+    "Yet believable sound involves more than convincing effects. When the team prepares a series of stories from [[oceania|Oceania]], including Australia and several Pacific islands, a [[linguist|linguist]] helps them distinguish regional speech patterns. She also warns that repeatedly giving villains one particular accent can reinforce [[discrimination|discrimination]] against its speakers. An accent identifies neither a person's honesty nor their intelligence, although familiar media habits may encourage listeners to make those connections.",
+    "During editing, Mara leaves a brief [[interruption|interruption]] in an interview: a chair scrapes, and the speaker pauses before laughing. Removing it would make the recording smoother, but less personal. Her craft is therefore not simply about producing perfect audio. It is about choosing which details help an audience imagine a place—and which might quietly distort the people within it."
+  ],
+  "zh": [
+    "在一间小型广播录音室里，音效设计师玛拉·陈在麦克风旁揉捏一张回收的包装材料。透过耳机，清脆的噼啪声变成了探险者靴子下冰层碎裂的声音。节目讲述的是一次北极探险，但房间里没有任何东西结冰。这类技巧表明，听众很容易根据不完整的信息在脑海中构建场景。",
+    "在另一集节目中，一名中世纪骑士策马奔向城堡。玛拉用木块模拟马蹄声，再加入酵母在温糖水中产生的冒泡声，表现附近一家酿酒作坊的动静。去掉冒泡声后，效果明显不同：街道突然显得空荡荡的。背景音能够暗示有人在活动，而无须旁白提到任何一位居民。",
+    "然而，可信的声音并不只是逼真的音效。当团队准备制作一系列来自大洋洲的故事，涵盖澳大利亚及几个太平洋岛屿时，一位语言学家帮助他们区分各地的语言特点。她还提醒说，反复让反派角色使用某一种口音，可能会加剧针对这种口音使用者的歧视。口音既不能说明一个人是否诚实，也不能反映其智力，尽管媒体中常见的做法可能会诱导听众建立这些联系。",
+    "剪辑时，玛拉保留了一段采访中的短暂中断：椅子擦过地面，受访者停顿了一下，然后笑了。删掉这段会让录音更流畅，却少了些人情味。因此，她的工作并不只是制作完美的音频，而是判断哪些细节能帮助听众想象一个地方，哪些细节又可能悄悄扭曲那里的人物形象。"
+  ],
+  "q": [
+    {
+      "s": "Removing the brewing sound makes the street seem more crowded.",
+      "a": "F",
+      "why": "去掉冒泡声后，街道反而显得空荡。"
+    },
+    {
+      "s": "The linguist grew up on one of the Pacific islands featured in the series.",
+      "a": "NG",
+      "why": "文章未提及语言学家的成长地点。"
+    },
+    {
+      "s": "Mara keeps a brief interruption in the interview recording.",
+      "a": "T",
+      "why": "剪辑时，玛拉保留了采访中的短暂中断。"
+    }
+  ]
+}

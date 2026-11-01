@@ -1,0 +1,48 @@
+{
+  "id": "r0579",
+  "ids": [
+    "hectare",
+    "cram",
+    "lofty",
+    "render",
+    "ragged",
+    "notorious",
+    "aimless",
+    "lethal",
+    "counterpart",
+    "impede"
+  ],
+  "title": "Why Marshes Take the Force from Floods",
+  "titleZh": "沼泽为何能削弱洪水冲击",
+  "topic": "government",
+  "cefr": 4,
+  "paras": [
+    "A coastal agency restoring a twelve-[[hectare|hectare]] salt marsh has a [[lofty|lofty]] ambition: to protect an exposed village by allowing the sea onto public land. The inlet is [[notorious|notorious]] for winter storm surges, when strong winds drive seawater inland. Yet the project depends less on excluding water than on changing how it moves.",
+    "Across bare mud, an incoming surge encounters little resistance. Among marsh plants, however, stems [[impede|impede]] the flow, while bending leaves absorb some of its energy. Water follows apparently [[aimless|aimless]] routes between vegetation patches, but these detours increase friction. Compared with its unvegetated [[counterpart|counterpart]], a planted shoreline can therefore experience smaller waves, although the reduction depends on marsh width, water depth and plant density.",
+    "To demonstrate this mechanism, agency researchers suspended strips of [[ragged|ragged]] cotton cloth from stakes along two channels. Their movements revealed differences in current speed; instruments supplied precise measurements. Simply trying to [[cram|cram]] more seedlings into every gap would not necessarily improve protection: excessive crowding can weaken plants through competition, while deep inundation may [[render|render]] even dense vegetation ineffective against large waves.",
+    "The marsh also traps fine sediment, gradually raising its surface as tides repeatedly spread suspended particles among the stems. This upward growth matters because prolonged submergence can be [[lethal|lethal]] to plants that require periodic exposure to air. For the agency, restoration is therefore not a substitute for every flood defence. It is a way of recruiting a living landscape whose protective capacity depends on remaining healthy as the sea rises."
+  ],
+  "zh": [
+    "一家海岸管理机构正在修复一片十二公顷的盐沼，其雄心勃勃的目标是：让海水进入公共土地，以保护一个缺乏天然屏障的村庄。这处海湾因冬季风暴潮而声名狼藉，届时强风会将海水推向内陆。然而，该项目的关键并非将水拒之门外，而是改变水的流动方式。",
+    "涌来的风暴潮在裸露的泥滩上几乎遇不到阻力。但在沼泽植物之间，茎秆会阻碍水流，弯曲的叶片则吸收一部分能量。水流在一片片植被之间沿着看似漫无目的的路线前进，但这些绕行增加了摩擦。因此，与没有植被的同类岸段相比，有植物覆盖的岸线可能遭遇更小的波浪，不过削减幅度取决于盐沼宽度、水深和植物密度。",
+    "为了展示这一机制，该机构的研究人员将破旧的棉布条悬挂在两条水道沿线的木桩上。布条的摆动显示出流速差异，仪器则提供了精确的测量结果。一味将更多幼苗塞进每个空隙，并不一定能增强防护效果：过度拥挤会加剧竞争，使植物衰弱；而积水过深时，即使茂密的植被也可能无法有效抵御大浪。",
+    "盐沼还会截留细小的泥沙。随着潮水反复将悬浮颗粒带入植物茎秆之间，地表便逐渐升高。这种向上的生长十分重要，因为对于需要定期露出水面的植物而言，长期淹没可能致命。因此，对该机构来说，修复盐沼并不意味着取代所有防洪设施，而是借助一片有生命的地貌发挥作用；随着海平面上升，它能否继续提供保护，取决于其能否保持健康。"
+  ],
+  "q": [
+    {
+      "s": "The agency's restoration strategy requires keeping seawater off the public land.",
+      "a": "F",
+      "why": "首段说明该策略允许海水进入公共土地。"
+    },
+    {
+      "s": "Marsh plant stems slow the movement of water.",
+      "a": "T",
+      "why": "第二段明确说植物茎秆会阻碍水流。"
+    },
+    {
+      "s": "The agency expects marsh restoration to cost less than constructing a concrete sea wall.",
+      "a": "NG",
+      "why": "文章未比较盐沼修复与混凝土海堤的费用。"
+    }
+  ]
+}

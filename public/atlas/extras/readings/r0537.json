@@ -1,0 +1,48 @@
+{
+  "id": "r0537",
+  "ids": [
+    "preservation",
+    "steer",
+    "commercial",
+    "casualty",
+    "curiosity",
+    "steel",
+    "abandon",
+    "emperor",
+    "sibling",
+    "alien"
+  ],
+  "title": "Building a Harbour from Memory",
+  "titleZh": "用记忆重建港湾",
+  "topic": "society",
+  "cefr": 3,
+  "paras": [
+    "At a coastal community museum, a model of the old harbour begins with conversations rather than drawings. Its purpose is the [[preservation|preservation]] of memories that photographs alone cannot capture. Former boatbuilders bring sketches, while retired sailors describe how they used to [[steer|steer]] fishing boats through the narrow entrance. Their accounts determine the position of walls and landing places.",
+    "Next, model makers compare these memories with maps and records of [[commercial|commercial]] shipping. Details often awaken visitors’ [[curiosity|curiosity]]: why, for example, did a warehouse display a portrait of an [[emperor|emperor]]? An old photograph confirms that it did, although nobody knows why. Where evidence is missing, the team leaves a space rather than inventing a convincing detail.",
+    "The harbour takes shape on a wooden base. Thin [[steel|steel]] rods support the taller buildings, and painted card becomes stone. Volunteer Amira works beside her [[sibling|sibling]], carefully cutting tiny windows. This delicate work initially feels [[alien|alien]] to her after years of repairing engines, but her practical skills prove useful. Each roof can be lifted off so that damaged parts can be replaced.",
+    "Finally, the team adds labels explaining the harbour’s closure after a severe storm. One records a dockworker who was a [[casualty|casualty]] of the disaster; another explains why families had to [[abandon|abandon]] their waterfront homes permanently. At the opening, residents recognise familiar doorways. The finished model preserves not simply a place, but the lives once built around it."
+  ],
+  "zh": [
+    "在一座沿海社区博物馆里，旧港湾模型的制作不是从绘图开始，而是从交谈开始。它的目的是保存那些仅凭照片无法完整留住的记忆。以前的造船工人带来了草图，退休水手则描述过去如何驾驶渔船穿过狭窄的入口。他们的讲述帮助确定了墙体和靠岸点的位置。",
+    "接下来，模型制作者将这些记忆与地图及商业航运记录相互核对。一些细节常常激起参观者的好奇心：比如，一座仓库为什么会挂着皇帝的画像？一张老照片证实画像确实存在，但没人知道原因。对于缺少证据的地方，团队宁可留白，也不编造看似可信的细节。",
+    "港湾在木制底板上逐渐成形。细钢杆支撑着较高的建筑，上色的卡纸则用来模拟石材。志愿者阿米拉和自己的手足并肩工作，小心翼翼地裁出一扇扇小窗。多年来一直修理发动机的她，起初对这种精细活儿感到陌生，但她的动手技能后来派上了用场。每个屋顶都可以取下，以便更换损坏的部件。",
+    "最后，团队添加了说明标签，介绍港湾在一场强烈风暴之后关闭的经过。其中一块记录了一名在灾难中伤亡的码头工人；另一块解释了为什么一些家庭不得不永久离开水边的家园。展览开幕时，居民们认出了熟悉的门口。完成的模型不仅保存了一个地方，也保存了曾围绕它展开的生活。"
+  ],
+  "q": [
+    {
+      "s": "Work on the harbour model begins with drawings rather than conversations.",
+      "a": "F",
+      "why": "首段明确说制作从交谈而非绘图开始。"
+    },
+    {
+      "s": "An old photograph confirms that the warehouse displayed an emperor's portrait.",
+      "a": "T",
+      "why": "老照片证实仓库确实挂过皇帝画像。"
+    },
+    {
+      "s": "Amira took a model-making course before joining the project.",
+      "a": "NG",
+      "why": "文章未说明阿米拉是否学过模型制作。"
+    }
+  ]
+}

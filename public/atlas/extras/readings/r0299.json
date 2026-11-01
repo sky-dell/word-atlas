@@ -1,0 +1,48 @@
+{
+  "id": "r0299",
+  "ids": [
+    "achievement",
+    "spill",
+    "guesthouse",
+    "sharp",
+    "account",
+    "unkind",
+    "silence",
+    "border",
+    "acceptable",
+    "embarrassing"
+  ],
+  "title": "Making Paper That Can Grow",
+  "titleZh": "制作会发芽的纸",
+  "topic": "nature",
+  "cefr": 2,
+  "paras": [
+    "At a small [[guesthouse|guesthouse]] near the [[border|border]] between two mountain regions, visitors make paper containing flower seeds. Once planted, the paper breaks down and flowers grow. The owner, Mira, uses seeds from nearby fields. Visitors pay for the workshop when booking their rooms, so they need no separate online [[account|account]].",
+    "First, Mira tears old envelopes into small pieces and leaves them in water overnight. The next morning, she mixes the soft pieces into a thick, wet paste. She uses [[sharp|sharp]] scissors to cut fine netting to size, then fixes it across a wooden frame.",
+    "Visitors lift the paste onto the netting with a cup. Beginners sometimes [[spill|spill]] water across the table, which can feel [[embarrassing|embarrassing]]. However, Mira never makes [[unkind|unkind]] remarks. She simply offers a cloth and shows them how to hold the cup lower. They spread the paste evenly, then gently press tiny seeds into its surface.",
+    "After extra water drains away, each sheet is turned onto cotton cloth. Small bumps are [[acceptable|acceptable]], but holes must be filled. The sheets dry slowly indoors, away from strong heat. In the [[silence|silence]] of the workroom, visitors carefully lift their finished paper. For many, this first usable sheet is a real [[achievement|achievement]]: a handmade gift that may later become a patch of flowers."
+  ],
+  "zh": [
+    "在两个山区交界处附近的一家小旅馆里，住客可以制作含有花种的纸。把纸埋进土里后，它会逐渐分解，花便会长出来。旅馆主人米拉使用附近田野里的种子。住客预订房间时就支付了手工体验的费用，因此不需要另外注册网络账号。",
+    "首先，米拉把旧信封撕成小片，放在水里浸泡一夜。第二天早上，她将泡软的纸片搅拌成浓稠的湿纸浆。她用锋利的剪刀把细网剪成合适的尺寸，再将它绷在木框上固定好。",
+    "住客用杯子把纸浆舀到网上。初学者有时会把水洒在桌上，这可能让人感到尴尬。不过，米拉从不说刻薄的话。她只是递上一块抹布，并示范如何把杯子放低一些。他们把纸浆铺匀，然后将细小的种子轻轻按入表面。",
+    "多余的水流走后，每张纸都会被翻扣到棉布上。表面有些小凸起没有关系，但孔洞必须补好。纸张放在室内慢慢晾干，远离高温。在安静的工作室里，住客小心翼翼地揭起做好的纸。对许多人来说，第一张能用的纸是一项实实在在的成就：这份亲手制作的礼物，将来或许会变成一小片鲜花。"
+  ],
+  "q": [
+    {
+      "s": "The paper-making workshop costs less than a night's stay at the guesthouse.",
+      "a": "NG",
+      "why": "文中未比较手工体验与住宿的费用。"
+    },
+    {
+      "s": "Visitors press the seeds into the paste after spreading it evenly.",
+      "a": "T",
+      "why": "第三段先铺匀纸浆，再按入种子。"
+    },
+    {
+      "s": "The sheets are left outdoors to dry.",
+      "a": "F",
+      "why": "末段明确说纸张在室内晾干。"
+    }
+  ]
+}

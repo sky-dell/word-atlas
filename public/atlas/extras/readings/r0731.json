@@ -1,0 +1,48 @@
+{
+  "id": "r0731",
+  "ids": [
+    "subliminal",
+    "deliverance",
+    "excrement",
+    "ruinous",
+    "sneer",
+    "epoch-making",
+    "pliable",
+    "pathos",
+    "meteoric",
+    "mariner"
+  ],
+  "title": "Mapping London's Hidden River",
+  "titleZh": "绘制伦敦的地下河",
+  "topic": "government",
+  "cefr": 5,
+  "paras": [
+    "In nineteenth-century London, the sewer map became an instrument of government. Earlier drains had carried human [[excrement|excrement]] towards the Thames, the same river from which water companies drew supplies. What a [[mariner|mariner]] encountered as a navigable channel, a sanitary engineer increasingly understood as the exposed artery of a dangerously interconnected city.",
+    "The Great Stink of 1858 made that connection politically intolerable. River odours penetrated Parliament, lending urgency to proposals whose expense had previously seemed [[ruinous|ruinous]]. Campaigners could invest accounts of crowded courts and polluted water with considerable [[pathos|pathos]]; opponents could [[sneer|sneer]] at costly engineering ambitions. Yet the smell made postponement harder to defend, and legislation enabled an extensive reconstruction.",
+    "Under Joseph Bazalgette, intercepting sewers redirected waste downstream rather than allowing it to enter the river throughout central London. Progress on their construction was far from [[meteoric|meteoric]]: major works extended across years. Plans translated gradients, brick tunnels and pumping stations into lines on [[pliable|pliable]] paper. Their orderly appearance could have a [[subliminal|subliminal]] reassuring effect, making a contested intervention seem almost inevitable.",
+    "The system offered substantial [[deliverance|deliverance]] from the city's accumulated filth, although moving sewage downstream did not make it disappear. Its [[epoch-making|epoch-making]] significance lay partly in scale: sanitation became a coordinated metropolitan undertaking rather than a patchwork of drains. The map's neat lines thus recorded something larger than buried masonry—the emergence of public responsibility for what households wished merely to flush away."
+  ],
+  "zh": [
+    "在十九世纪的伦敦，下水道地图成为了一种治理工具。早期的排水沟将人类排泄物排向泰晤士河，而供水公司也从这条河中取水。在海员眼中可以通航的水道，在卫生工程师看来，却日益成为一座各部分紧密相连、危险相互传递的城市所暴露在外的动脉。",
+    "1858年的“大恶臭”事件使这种关联在政治上再也无法容忍。河水的臭气侵入议会，使那些此前被认为开支可能造成严重财政损失的方案显得更加紧迫。改革倡导者描述拥挤的院落和受污染的水源，能够唤起强烈的悲悯；反对者则可能嘲讽耗资巨大的工程雄心。然而，臭气让拖延更难自圆其说，随后通过的立法为大规模改建铺平了道路。",
+    "在约瑟夫·巴泽尔杰特的主持下，截流下水道将污水引向下游，而不再任其沿伦敦市中心各处流入河中。工程推进远非突飞猛进：主要工程持续了多年。设计图将坡度、砖砌隧道和泵站转化为柔韧纸张上的线条。这些图纸井然有序的外观，可能在人们未曾察觉时起到安抚作用，让一项备受争议的干预措施显得几乎势在必行。",
+    "这套系统使城市在很大程度上摆脱了积存的污秽，尽管把污水移往下游并不意味着让它消失。其划时代的意义部分在于规模：卫生设施建设不再是零散排水沟的拼凑，而成为整个都市协同推进的事业。因此，地图上整齐的线条记录了超越地下砖石工程的变化——对于住户只想一冲了之的废物，公共责任开始确立。"
+  ],
+  "q": [
+    {
+      "s": "The water companies drawing supplies from the Thames were publicly owned.",
+      "a": "NG",
+      "why": "首段未说明供水公司的所有权归属。"
+    },
+    {
+      "s": "Odours from the river entered Parliament during the Great Stink.",
+      "a": "T",
+      "why": "第二段明确说河水臭气侵入了议会。"
+    },
+    {
+      "s": "The principal sewer construction works were completed in less than a year.",
+      "a": "F",
+      "why": "原文明确说主要工程持续了多年。"
+    }
+  ]
+}

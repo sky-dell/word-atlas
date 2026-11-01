@@ -1,0 +1,46 @@
+{
+  "id": "r0092",
+  "ids": [
+    "vocabulary",
+    "cigarette",
+    "danger",
+    "hardworking",
+    "indoor",
+    "electric",
+    "director",
+    "convenient",
+    "downtown",
+    "war"
+  ],
+  "title": "Wild Flowers Move Inside",
+  "titleZh": "野花搬进了室内",
+  "topic": "environment",
+  "cefr": 1,
+  "paras": [
+    "Wild flowers are becoming popular office plants in Bellwick. Last spring, six businesses bought flower boxes from a small garden centre. This year, the number reached twenty. Most buyers work [[downtown|downtown]], far from fields and woods. They want a little piece of nature near their desks. The centre grows its plants in an old glass house. During the [[war|war]], this building stored food for families in the town.",
+    "The centre's [[director|director]], Amira, says the surprising change began with one empty office shelf. A customer wanted flowers that bees could visit through an open window. Amira's [[hardworking|hardworking]] team tried several local plants before finding three suitable kinds. These [[indoor|indoor]] flower boxes need sunlight, but no [[electric|electric]] lights. Each has a water tray, so caring for it is [[convenient|convenient]]. A small card teaches buyers new plant [[vocabulary|vocabulary]], including the names of roots and leaves.",
+    "There have been problems. One buyer left a burning [[cigarette|cigarette]] in a box and damaged a plant. Now every box carries a warning about the [[danger|danger]] of fire near dry leaves. However, orders keep coming. Amira recently received a photo of a bee on an office flower. Below it, the buyer wrote, 'Our smallest visitor has arrived.'"
+  ],
+  "zh": [
+    "在贝尔威克，野花正成为受欢迎的办公室植物。去年春天，六家企业从一家小型园艺中心购买了花箱。今年，这个数字达到了二十。大多数买家在市中心工作，离田野和树林很远。他们希望办公桌旁也能有一小片自然天地。园艺中心在一座老玻璃温室里种植这些植物。战争期间，这座建筑曾为镇上的家庭储存食物。",
+    "园艺中心负责人阿米拉说，这一令人意外的变化始于办公室里一个空置的架子。一位顾客想要一些花，让蜜蜂能从敞开的窗户飞进来看花。阿米拉勤奋的团队试种了几种本地植物，才找到了三种合适的。这些室内花箱需要阳光，却不需要电灯照明。每个花箱都配有接水盘，因此照料起来很方便。一张小卡片会教买家一些新的植物词汇，包括根和叶子的名称。",
+    "过程中也出现过问题。一位买家把一支燃着的香烟留在花箱里，损伤了一株植物。现在，每个花箱上都有警示，提醒人们干叶附近用火有危险。不过，订单仍不断收到。阿米拉最近收到了一张照片，上面是一只停在办公室花朵上的蜜蜂。照片下方，买家写道：“我们最小的访客到了。”"
+  ],
+  "q": [
+    {
+      "s": "More businesses bought flower boxes this year than last spring.",
+      "a": "T",
+      "why": "购买企业从去年春天的六家增至二十家。"
+    },
+    {
+      "s": "Five people in Amira's team tested the local plants.",
+      "a": "NG",
+      "why": "文章未说明团队中有多少人参与试种。"
+    },
+    {
+      "s": "The flower boxes need electric lights to help the plants grow.",
+      "a": "F",
+      "why": "文章说花箱需要阳光，但不需要电灯。"
+    }
+  ]
+}

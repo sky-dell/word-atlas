@@ -1,0 +1,48 @@
+{
+  "id": "r0274",
+  "ids": [
+    "cave",
+    "explore",
+    "peel",
+    "fiction",
+    "edit",
+    "fully",
+    "policy",
+    "spot",
+    "ought",
+    "napkin"
+  ],
+  "title": "A Robot's First Underground Journey",
+  "titleZh": "机器人的首次地下之旅",
+  "topic": "technology",
+  "cefr": 2,
+  "paras": [
+    "At the entrance to a limestone [[cave|cave]], engineer Amara puts a small robot on the ground. Its six legs look like those of a strange insect from science [[fiction|fiction]]. However, its job is practical: to [[explore|explore]] narrow passages before people enter them. Lights and cameras help it find a safe route through the darkness.",
+    "The robot is not [[fully|fully]] independent. Amara watches its camera pictures on a laptop and chooses which passage it should take. The team's safety [[policy|policy]] requires the machine to stop whenever its connection with the laptop breaks. On this trip, it reaches a muddy [[spot|spot]] where water covers the floor, then waits for instructions.",
+    "During a lunch break outside, Amara begins to [[peel|peel]] an orange. A drop of juice falls onto her screen, and she wipes it away with a clean [[napkin|napkin]]. The tiny accident reminds her of a larger problem underground. Water on a camera can hide important details. 'We [[ought|ought]] to test a clear cover that shakes drops away,' she says.",
+    "Later, the team [[edit|edit]] the day's video, removing long pauses but keeping the difficult moments. These pictures will guide their next design. The robot has travelled only eighty metres. Amara returns to the pictures of the muddy floor to check how clearly she can see the stones beneath the water."
+  ],
+  "zh": [
+    "在一个石灰岩洞穴入口处，工程师阿玛拉把一个小机器人放在地上。它的六条腿看起来像科幻小说里某种奇怪昆虫的腿。不过，它的任务很实际：在人们进入之前，先探查狭窄的通道。灯光和摄像头帮助它在黑暗中找到安全的路线。",
+    "这个机器人并不能完全独立行动。阿玛拉在笔记本电脑上查看它传回的画面，并决定它应该走哪条通道。团队的安全规定要求，只要机器人与电脑的连接中断，它就必须停下来。这次，它来到一处地面积水的泥泞地点，然后等待指令。",
+    "中午在洞外休息时，阿玛拉开始剥橙子。一滴果汁落在屏幕上，她用一张干净的餐巾纸把它擦掉。这个小意外让她想起了地下一个更大的问题：摄像头上的水会遮住重要细节。她说：“我们应该测试一种能通过抖动甩掉水滴的透明保护罩。”",
+    "随后，团队剪辑了当天的视频，删去长时间停顿的部分，但保留了遇到困难的片段。这些画面将为下一次设计提供方向。机器人只走了八十米。阿玛拉重新查看泥泞地面的画面，检查水下的石头能看得有多清楚。"
+  ],
+  "q": [
+    {
+      "s": "The robot must keep moving if it loses contact with Amara's computer.",
+      "a": "F",
+      "why": "第二段规定连接中断时机器人必须停止。"
+    },
+    {
+      "s": "Amara plans to test the clear camera cover the following week.",
+      "a": "NG",
+      "why": "她提出测试保护罩，但未说明测试时间。"
+    },
+    {
+      "s": "The team keeps the difficult moments in the edited video.",
+      "a": "T",
+      "why": "末段明确说明剪辑时保留遇到困难的片段。"
+    }
+  ]
+}

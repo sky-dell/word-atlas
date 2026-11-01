@@ -1,0 +1,48 @@
+{
+  "id": "r0036",
+  "ids": [
+    "message",
+    "sea",
+    "bread",
+    "between",
+    "far",
+    "eighteen",
+    "time",
+    "company",
+    "bathroom",
+    "dance"
+  ],
+  "title": "Small Puppets by the Sea",
+  "titleZh": "海边的小木偶",
+  "topic": "media",
+  "cefr": 0,
+  "paras": [
+    "Mina Costa makes wooden puppets for short films. She lives by the [[sea|sea]] in a small yellow house. Her work table stands [[between|between]] two windows. From her chair, she can see boats on the water. She has [[eighteen|eighteen]] puppets on a shelf. Each one has a name and a little hat.",
+    "Every Monday, a film [[company|company]] sends Mina a [[message|message]]. This week, it asks for a film about a baker. Mina draws a man with a big white hat. Then she makes his head and hands from wood. She cuts a small coat from an old shirt and paints his shoes brown.",
+    "Mina does not go [[far|far]] to make her films. She works at home, in her kitchen. She puts a tiny shop on the table. The puppet stands behind some small loaves of [[bread|bread]]. Mina moves his arms a little, then takes a picture. This work takes a lot of [[time|time]]. At lunch, she washes the paint from her hands in the [[bathroom|bathroom]].",
+    "At the end of the film, the baker starts to [[dance|dance]]. His white hat falls onto a loaf. Mina laughs when she watches the pictures together. On Friday, she sends her film away. That evening, her sister comes to watch it. They eat soup at the kitchen table. The little baker sits beside them, still wearing his white hat."
+  ],
+  "zh": [
+    "米娜·科斯塔制作短片用的木偶。她住在海边的一栋黄色小房子里。她的工作台放在两扇窗户之间。坐在椅子上，她就能看见水上的船。架子上放着她的十八个木偶。每个木偶都有名字，还戴着一顶小帽子。",
+    "每周一，一家电影公司都会给米娜发来消息。这周，公司请她制作一部关于面包师的短片。米娜画了一个戴着白色大帽子的男人。然后，她用木头做出他的头和双手。她用一件旧衬衫裁出一件小外套，又把他的鞋子涂成棕色。",
+    "米娜不用去很远的地方拍片。她就在家里的厨房工作。她把一家小小的商店放在桌上。木偶站在几个小面包后面。米娜把他的手臂移动一点，然后拍一张照片。这项工作很费时间。午饭时，她到卫生间洗掉手上的颜料。",
+    "短片结尾，面包师开始跳舞。他的白帽子掉到了一个面包上。米娜把这些照片连起来看时，笑了起来。星期五，她把短片发了出去。那天晚上，她的姐妹过来看短片。她们坐在厨房的桌边喝汤。小面包师坐在她们旁边，依然戴着他的白帽子。"
+  ],
+  "q": [
+    {
+      "s": "All eighteen puppets have black hats.",
+      "a": "NG",
+      "why": "第一段只说木偶都有帽子，未说明颜色。"
+    },
+    {
+      "s": "Mina makes her films in her bathroom.",
+      "a": "F",
+      "why": "她在厨房拍片，在卫生间洗手。"
+    },
+    {
+      "s": "Mina's sister comes to watch the film on Friday evening.",
+      "a": "T",
+      "why": "她星期五发出短片，当晚姐妹来看短片。"
+    }
+  ]
+}

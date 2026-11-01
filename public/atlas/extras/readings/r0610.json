@@ -1,0 +1,48 @@
+{
+  "id": "r0610",
+  "ids": [
+    "highland",
+    "feat",
+    "warden",
+    "assert",
+    "exile",
+    "symposium",
+    "sceptical",
+    "intervene",
+    "verification",
+    "attentive"
+  ],
+  "title": "The Mountains Hidden in a Tapestry",
+  "titleZh": "织毯中隐藏的群山",
+  "topic": "arts",
+  "cefr": 4,
+  "paras": [
+    "In a small mountain museum, a faded tapestry depicts a procession crossing the [[highland|highlands]] beneath an unusually violet sky. For decades, visitors admired its intricate horses without noticing the tiny flowers woven around their feet. It was the museum’s [[warden|warden]], Leila Haddad, who first wondered whether these apparently decorative details recorded a particular landscape rather than an imaginary one.",
+    "At a [[symposium|symposium]] on historical textiles, Haddad presented enlarged photographs of the border. Several specialists were [[sceptical|sceptical]]: stylised petals, they argued, could hardly identify a geographical location. Yet an [[attentive|attentive]] botanist noticed that three flowers shared distinctive leaf arrangements with species found together in one narrow mountain valley. Reproducing those features in wool would have been a remarkable [[feat|feat]] of observation and craftsmanship.",
+    "The discovery encouraged a curator to [[assert|assert]] that the tapestry’s maker had worked from personal memory. A surviving letter described a weaver from that valley living in political [[exile|exile]], but it contained no reference to this particular object. Before the museum could advertise a lost homeland preserved in thread, its research adviser had to [[intervene|intervene]], insisting that an appealing narrative was not sufficient evidence.",
+    "Further [[verification|verification]] involved comparing the dyes with dated textile fragments and examining how the reverse-side knots were formed. Neither test could establish who had woven the flowers, although both supported the proposed period. The revised display therefore leaves the maker unnamed. Beside the tapestry, magnified images invite visitors to inspect the leaves themselves: uncertainty has become a reason to look more closely, rather than to look away."
+  ],
+  "zh": [
+    "在一座小型山地博物馆里，一幅褪色的织毯描绘了一支队伍穿越高地的情景，头顶的天空呈现出异乎寻常的紫罗兰色。几十年来，参观者欣赏着织工精细的马匹，却没有注意到马蹄周围织入的小花。最先提出疑问的是博物馆管理员莱拉·哈达德：这些看似纯属装饰的细节，记录的是否并非想象中的景色，而是某个真实地方？",
+    "在一次历史纺织品专题研讨会上，哈达德展示了织毯边饰的放大照片。几位专家对此持怀疑态度，认为仅凭经过艺术化处理的花瓣，几乎不可能确定地理位置。然而，一位仔细观察的植物学家发现，其中三种花的叶片排列具有鲜明特征，与某条狭窄山谷中共同生长的植物相符。用羊毛线重现这些特征，想必是观察力与手工技艺上的非凡成就。",
+    "这一发现使一位策展人坚称，织毯制作者依据的是亲身记忆。一封留存至今的信件提到，一位来自那条山谷的织工因政治原因流亡异国，但信中并未提及这件具体作品。在博物馆将其宣传为用线保存下来的失落故乡之前，研究顾问不得不出面干预，强调动人的故事并不等于充分的证据。",
+    "进一步的核实包括将染料与年代已确定的纺织品残片进行比较，以及检查织毯背面绳结的形成方式。两项检验都支持此前推定的年代，却都无法确认是谁织出了这些花。因此，修改后的展览说明仍未注明制作者姓名。织毯旁的放大图像邀请参观者亲自细看那些叶片：不确定性如今成为了更仔细观察的理由，而不是移开目光的原因。"
+  ],
+  "q": [
+    {
+      "s": "For decades, visitors noticed the tiny woven flowers around the horses’ feet.",
+      "a": "F",
+      "why": "首段明确说游客几十年来未注意到这些小花。"
+    },
+    {
+      "s": "The botanist had visited the valley where the three plant species grew together.",
+      "a": "NG",
+      "why": "文中未说明植物学家是否到访过该山谷。"
+    },
+    {
+      "s": "Both verification tests supported the proposed date of the tapestry.",
+      "a": "T",
+      "why": "末段明确说两项检验均支持推定年代。"
+    }
+  ]
+}

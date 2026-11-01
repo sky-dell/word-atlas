@@ -1,0 +1,48 @@
+{
+  "id": "r0236",
+  "ids": [
+    "secondhand",
+    "progress",
+    "poverty",
+    "official",
+    "registration",
+    "guided",
+    "disgusting",
+    "march",
+    "whenever",
+    "reserve"
+  ],
+  "title": "An Easier Way to Book",
+  "titleZh": "更方便的预约方式",
+  "topic": "technology",
+  "cefr": 2,
+  "paras": [
+    "At a small repair centre, Hana helped families living in [[poverty|poverty]] keep their washing machines working. Many owned [[secondhand|secondhand]] machines and could not afford new ones. However, the centre's online [[registration|registration]] form was difficult to complete. People often arrived without appointments, while other repair sessions remained empty.",
+    "One morning, a customer called Tomas [[march|marched]] into the centre carrying a bag of wet clothes. His machine had stopped with dirty water inside, and the smell was [[disgusting|disgusting]]. He had tried three times to [[reserve|reserve]] a repair session online. Each time, the website had asked for information he could not find.",
+    "Hana decided that the booking system needed repair too. With the manager's [[official|official]] approval, she replaced the long form with three large buttons: choose a problem, choose a time, and leave a phone number. She also placed an old computer near the entrance. Visitors could have a short [[guided|guided]] practice session before making their own bookings.",
+    "For a month, Hana checked their [[progress|progress]] every Friday. [[whenever|Whenever]] someone got stuck, she wrote down the reason and improved the instructions. Soon, almost every repair session was filled, and fewer people arrived unexpectedly. Tomas returned with clean, dry clothes and booked another visit, this time to help his neighbour. He needed no help with the buttons."
+  ],
+  "zh": [
+    "在一家小型维修中心，哈娜帮助生活贫困的家庭维护洗衣机，让它们能继续使用。许多家庭用的是二手洗衣机，买不起新的。然而，中心的网上登记表很难填写。人们常常没有预约就来了，而另一些维修时段却无人预约。",
+    "一天早上，一位名叫托马斯的顾客提着一袋湿衣服，大步走进中心。他的洗衣机停了，脏水还留在里面，气味令人作呕。他曾三次尝试在网上预约维修，但网站每次都要求填写一些他找不到的信息。",
+    "哈娜觉得，预约系统也需要修一修。得到经理的正式批准后，她把冗长的表格换成了三个大按钮：选择故障、选择时间、留下电话号码。她还在入口附近放了一台旧电脑。来访者可以先在工作人员指导下简单练习，再自己预约。",
+    "整整一个月，哈娜每周五都会查看来访者学习使用预约系统的进展。每当有人操作遇到困难，她就记下原因，并改进说明。很快，几乎每个维修时段都有人预约，突然来访的人也减少了。托马斯带着干净、干燥的衣服再次来到中心，又预约了一次维修，这次是帮邻居预约。他操作那些按钮时已经不需要帮助了。"
+  ],
+  "q": [
+    {
+      "s": "Some repair times went unused even though people came to the centre seeking help.",
+      "a": "T",
+      "why": "有人未预约就来，但仍有维修时段空着。"
+    },
+    {
+      "s": "The centre bought the old computer from a local school.",
+      "a": "NG",
+      "why": "只提到放置旧电脑，未说明其来源。"
+    },
+    {
+      "s": "Tomas needed help using the buttons when he booked for his neighbour.",
+      "a": "F",
+      "why": "末段明确说他操作按钮不需要帮助。"
+    }
+  ]
+}

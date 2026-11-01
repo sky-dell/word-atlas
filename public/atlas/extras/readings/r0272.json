@@ -1,0 +1,48 @@
+{
+  "id": "r0272",
+  "ids": [
+    "grown-up",
+    "hidden",
+    "membership",
+    "unpack",
+    "studio",
+    "frighten",
+    "photography",
+    "heel",
+    "buyer",
+    "bat"
+  ],
+  "title": "Holidays After Sunset",
+  "titleZh": "日落后的假期",
+  "topic": "travel",
+  "cefr": 2,
+  "paras": [
+    "Visitors to the village of Bellwick once came mainly for sunny walks. Now, a surprising number arrive for its night tours. Their aim is to photograph a [[bat|bat]] leaving an old stone mill. Last autumn, the village's small wildlife club sold more evening tickets than daytime ones for the first time.",
+    "The experience begins in a former artist's [[studio|studio]]. Travellers [[unpack|unpack]] their cameras while guide Amira explains night [[photography|photography]]. Club [[membership|membership]] is not necessary, and beginners are welcome. Children can join with a [[grown-up|grown-up]]. However, everyone must keep lights low because sudden bright light can [[frighten|frighten]] the animals.",
+    "At the mill, visitors wait beside a [[hidden|hidden]] opening beneath the roof. Standing still is harder than expected. One visitor, Luis, had a sore [[heel|heel]] after a long walk, so Amira brought him a chair. Nobody complained about the slow pace. As darkness fell, the first tiny shape appeared, followed by several more. For a moment, even the cameras were forgotten.",
+    "The tours have also created a small market for local pictures. A recent [[buyer|buyer]] ordered twelve prints for a guesthouse dining room. Yet Amira says sales are not the main reward. Visitors who once feared these night animals now ask how to protect them. Many book another evening before they leave the village."
+  ],
+  "zh": [
+    "过去，游客来到贝尔威克村，主要是为了在阳光下散步。如今，来参加夜游的人却出乎意料地多。他们的目标是拍到蝙蝠飞出一座古老石磨坊的瞬间。去年秋天，村里的小型野生动物俱乐部售出的夜游门票数量首次超过了日间门票。",
+    "这项体验从一间昔日的艺术家工作室开始。游客们从包里取出相机，导游阿米拉则讲解夜间摄影的方法。参加者不必是俱乐部会员，初学者也很受欢迎。儿童可以由一位成年人陪同参加。不过，所有人都必须把灯光调暗，因为突然出现的强光可能会吓到这些动物。",
+    "到了磨坊，游客们在屋顶下一个隐蔽的洞口旁等待。站着不动比想象中更难。一位名叫路易斯的游客走了很长一段路，脚后跟疼，于是阿米拉给他搬来一把椅子。没有人抱怨节奏太慢。夜色降临时，第一个小小的身影出现了，随后又有几个飞了出来。有那么一瞬间，大家甚至忘了手中的相机。",
+    "夜游还为本地照片创造了一个小小的市场。最近，一位买家订购了十二张照片，用来装饰一家旅馆的餐厅。不过，阿米拉说，销售收入并不是最大的收获。曾经害怕这些夜行动物的游客，现在会询问如何保护它们。许多人还没离开村子，就预订了另一次夜游。"
+  ],
+  "q": [
+    {
+      "s": "Last autumn was the first time evening ticket sales were higher than daytime ticket sales.",
+      "a": "T",
+      "why": "首段说明去年秋天夜票销量首次超过日票。"
+    },
+    {
+      "s": "Amira spends twenty minutes explaining night photography.",
+      "a": "NG",
+      "why": "文中未说明摄影讲解持续多久。"
+    },
+    {
+      "s": "The recent order for a guesthouse dining room was for twenty prints.",
+      "a": "F",
+      "why": "该订单订购了十二张照片，而非二十张。"
+    }
+  ]
+}

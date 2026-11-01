@@ -1,0 +1,48 @@
+{
+  "id": "r0022",
+  "ids": [
+    "wide",
+    "fly",
+    "cold",
+    "children",
+    "trousers",
+    "farmer",
+    "coffee",
+    "shoe",
+    "bike",
+    "little"
+  ],
+  "title": "A Quiet Moment with Birds",
+  "titleZh": "与鸟儿共享安静时光",
+  "topic": "emotion",
+  "cefr": 0,
+  "paras": [
+    "Some mornings feel too busy. Our heads are full of things to do. But watching birds can help us feel calm. On a small farm, a [[farmer|farmer]] called Rosa has a place for this. A [[wide|wide]] window in her kitchen looks out onto a table for birds.",
+    "It is a [[cold|cold]] morning. Rosa puts on warm [[trousers|trousers]] and goes outside. There is mud on one [[shoe|shoe]], but she does not stop to clean it. She puts seeds on the bird table, not bread. Then she goes inside and makes [[coffee|coffee]]. Soon, three birds [[fly|fly]] down to eat.",
+    "Her two [[children|children]] come into the kitchen. One has a [[little|little]] red [[bike|bike]] and wants to ride it. But first, they sit with Rosa for five minutes. They watch a bird turn a seed in its mouth. Another bird washes in a bowl of water. Nobody speaks. They can hear the birds through the open window.",
+    "Why can this quiet time help? When we watch birds, we look at something outside our busy lives. We see small movements and hear soft sounds. We do not need to finish a job or win a game. Rosa still has work to do. But now she feels ready to start. The birds have their breakfast, and her family has a calm start to the day."
+  ],
+  "zh": [
+    "有些早晨让人觉得太忙了。我们满脑子都是要做的事。但看看鸟儿可以帮助我们平静下来。在一个小农场里，一位叫罗莎的农场主有个适合看鸟的地方。她家厨房有一扇宽阔的窗户，透过窗户可以看到外面的喂鸟台。",
+    "这是一个寒冷的早晨。罗莎穿上暖和的长裤，走到外面。一只鞋上沾了泥，但她没有停下来清理。她在喂鸟台上放了些种子，而不是面包。然后她回屋煮咖啡。不久，三只鸟飞下来吃东西。",
+    "她的两个孩子走进厨房。其中一个有一辆红色的小自行车，想出去骑。不过，他们先和罗莎一起坐了五分钟。他们看着一只鸟在嘴里转动一粒种子。另一只鸟在一碗水里洗澡。没有人说话。透过打开的窗户，他们能听见鸟叫声。",
+    "为什么这段安静的时间会有帮助呢？看鸟时，我们关注的是忙碌生活之外的事物。我们看见小小的动作，听见轻柔的声音。我们不需要完成一项工作，也不需要赢得一场比赛。罗莎仍然有活儿要干，但现在她觉得自己准备好开始了。鸟儿吃到了早餐，她的家人也平静地开启了新的一天。"
+  ],
+  "q": [
+    {
+      "s": "Rosa puts bread on the bird table.",
+      "a": "F",
+      "why": "她放的是种子，而不是面包。"
+    },
+    {
+      "s": "Rosa puts milk in her coffee.",
+      "a": "NG",
+      "why": "文中只说她做咖啡，未说明是否加奶。"
+    },
+    {
+      "s": "The children sit with Rosa for five minutes.",
+      "a": "T",
+      "why": "两个孩子先和罗莎一起坐了五分钟。"
+    }
+  ]
+}

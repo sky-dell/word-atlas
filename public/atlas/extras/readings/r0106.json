@@ -1,0 +1,46 @@
+{
+  "id": "r0106",
+  "ids": [
+    "president",
+    "barber",
+    "asleep",
+    "reporter",
+    "queen",
+    "teaching",
+    "physics",
+    "check-out",
+    "develop",
+    "jogging"
+  ],
+  "title": "A Running Lesson at a Hotel",
+  "titleZh": "酒店里的一堂跑步课",
+  "topic": "sport",
+  "cefr": 1,
+  "paras": [
+    "At a small hill hotel, a weekend running course begins beside two old photographs. One shows a [[queen|queen]] who ruled a nearby country. The other shows a [[president|president]] who stayed here while leading his country. Both visitors enjoyed walking in the gardens. Today, those same paths are used for [[jogging|jogging]]. The guests include Omar, a [[barber|barber]] who cuts men's hair, and Mei, a [[reporter|reporter]] who writes for a village newspaper.",
+    "Their coach, Ana, has ten years of experience in [[teaching|teaching]]. She uses simple [[physics|physics]] to explain running. With each step, a runner pushes against the ground, and the ground pushes back. Ana asks the group to take short, comfortable steps rather than long ones. They practise on a flat path before trying a gentle hill. The aim is to [[develop|develop]] good habits, not to win a race.",
+    "Rest is part of the course too. While people are [[asleep|asleep]], their bodies repair themselves after exercise. Ana therefore ends the evening lesson early. On Sunday morning, Omar finds the hill easier, although he still stops once. Before [[check-out|check-out]], the guests pay their hotel bills and receive a small map of the garden paths. Omar marks the flat path on his map to remember where they first practised."
+  ],
+  "zh": [
+    "在一家山间小酒店里，一门周末跑步课程在两张老照片旁开始了。其中一张是一位曾统治邻国的女王，另一张是一位曾在任内入住这里的总统。两位访客都喜欢在花园里散步。如今，同样的小路成了慢跑的地方。来参加课程的客人包括专为男士剪发的理发师奥马尔，以及为一家乡村报纸写稿的记者梅。",
+    "他们的教练安娜有十年的教学经验。她用简单的物理知识解释跑步。跑步者每迈出一步，都会向地面施力，地面也会反过来给人一个力。安娜让大家迈出舒适的小步，而不是跨大步。他们先在平坦的小路上练习，再尝试一个缓坡。课程的目的是培养好习惯，而不是赢得比赛。",
+    "休息也是课程的一部分。人在睡着时，身体会在运动后进行自我修复。因此，安娜早早结束了晚上的课。星期天早晨，奥马尔觉得上坡轻松了一些，不过他仍然停下来一次。退房前，客人们付清酒店账单，并收到一张花园小路的地图。奥马尔在自己的地图上标出了那条平坦的小路，以便记住他们最初练习的地方。"
+  ],
+  "q": [
+    {
+      "s": "Ana asks the runners to take long steps.",
+      "a": "F",
+      "why": "安娜让大家迈舒适的小步，而非大步。"
+    },
+    {
+      "s": "The group practises on the flat path for thirty minutes.",
+      "a": "NG",
+      "why": "文中未说明在平路上练习了多久。"
+    },
+    {
+      "s": "Omar stops once on the hill on Sunday morning.",
+      "a": "T",
+      "why": "文中明确说他周日早晨仍停下来一次。"
+    }
+  ]
+}

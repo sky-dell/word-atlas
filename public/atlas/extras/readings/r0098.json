@@ -1,0 +1,46 @@
+{
+  "id": "r0098",
+  "ids": [
+    "centimetre",
+    "biology",
+    "painter",
+    "balloon",
+    "successful",
+    "subject",
+    "crazy",
+    "couple",
+    "scared",
+    "lower"
+  ],
+  "title": "A Small Fish for Courage",
+  "titleZh": "带来勇气的小鱼",
+  "topic": "emotion",
+  "cefr": 1,
+  "paras": [
+    "Mina Costa is a [[painter|painter]] who works in a children's hospital. She paints animals on the walls near the waiting room. As a child, she loved [[biology|biology]], and fish are still her favourite [[subject|subject]]. But her work is not just about pretty pictures. She wants to help children who feel [[scared|scared]] before they see a doctor. Before starting each wall, she sits nearby and watches where the children look.",
+    "One morning, a [[couple|couple]] arrived with their young son, Leo. He held a yellow [[balloon|balloon]] but would not enter the waiting room. Mina pointed to a tiny blue fish on the [[lower|lower]] part of the wall. It was only one [[centimetre|centimetre]] long. \"This fish needs a name,\" she said. Leo moved closer. Then he named it Bean and asked Mina to paint a friend for it.",
+    "At first, Mina's brother had called her plan [[crazy|crazy]]. He thought such small pictures would be too hard to see. However, the little fish was [[successful|successful]] in getting Leo to step inside. Now Mina leaves a small animal near every doorway. Leo still looks for Bean when he visits. Last week, he brought Mina a drawing of two fish, both wearing yellow hats."
+  ],
+  "zh": [
+    "米娜·科斯塔是一位在儿童医院工作的画家。她在候诊室附近的墙上画动物。她小时候就喜欢生物学，而鱼至今仍是她最喜欢的绘画主题。但她的工作不只是画出漂亮的图画。她想帮助那些看医生前感到害怕的孩子。每次开始画一面墙之前，她都会坐在附近，观察孩子们的目光落在哪里。",
+    "一天早晨，一对伴侣带着年幼的儿子利奥来到医院。他拿着一只黄色气球，却不肯走进候诊室。米娜指着墙面较低处的一条小蓝鱼。它只有一厘米长。“这条鱼需要一个名字，”她说。利奥走近了一些。接着，他给它起名叫“豆豆”，还请米娜为它画一个朋友。",
+    "起初，米娜的一个兄弟说她的计划很荒唐。他觉得这么小的画会让人很难看清。然而，这条小鱼成功地让利奥走进了候诊室。现在，米娜会在每个门口附近画一只小动物。利奥来医院时，仍然会寻找豆豆。上周，他给米娜带来了一幅画，画上有两条鱼，都戴着黄色帽子。"
+  ],
+  "q": [
+    {
+      "s": "Mina wants her paintings to help children feel less scared at the hospital.",
+      "a": "T",
+      "why": "她想帮助看医生前感到害怕的孩子。"
+    },
+    {
+      "s": "Leo named the blue fish after a pet he had at home.",
+      "a": "NG",
+      "why": "文中说他给鱼起名豆豆，未说明名字来源。"
+    },
+    {
+      "s": "The fish in Leo's drawing had no hats.",
+      "a": "F",
+      "why": "末段明确说画中的两条鱼都戴着黄色帽子。"
+    }
+  ]
+}

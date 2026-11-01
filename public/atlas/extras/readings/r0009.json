@@ -1,0 +1,48 @@
+{
+  "id": "r0009",
+  "ids": [
+    "fire",
+    "sister",
+    "winter",
+    "doctor",
+    "pizza",
+    "pair",
+    "student",
+    "yourself",
+    "price",
+    "last"
+  ],
+  "title": "Notes from the Pond Gate",
+  "titleZh": "池塘门边的观察笔记",
+  "topic": "government",
+  "cefr": 0,
+  "paras": [
+    "Monday, 8 January. I am a [[student|student]], and I watch birds at our town pond. The town council wants to close its gate in [[winter|winter]]. My [[sister|sister]], Hana, comes with me today. She is a [[doctor|doctor]], but today she has no work. We want to see which birds still need this place.",
+    "At nine, the grass is white. I put on a [[pair|pair]] of warm gloves and open my book. There is ice near the gate, but the middle of the pond is clear. Six ducks swim there. A small brown bird sits in a tree. We hear it before we see it.",
+    "At twelve, we go into the little café beside the pond. A [[fire|fire]] burns behind a glass door. We share a [[pizza|pizza]] with cheese and tomatoes. The [[price|price]] is six pounds. Hana looks at my wet coat. “Dry [[yourself|yourself]] before we go out again,” she says. From our table, we can still watch the ducks.",
+    "At two, we make our [[last|last]] visit to the gate that day. Two people are watching the brown bird. I write this in my book, too. On Friday, I take my notes to the council office. A week later, a new sign appears: the pond will stay open. There is also sand on the icy path. I walk in and hear the little bird again."
+  ],
+  "zh": [
+    "1月8日，星期一。我是一名学生，常在镇上的池塘边观察鸟。镇议会想在冬天关闭池塘的大门。今天，我的姐妹哈娜和我一起来。她是一名医生，不过今天不用上班。我们想看看哪些鸟仍然需要这个地方。",
+    "九点，草地上一片白。我戴上一副暖和的手套，打开笔记本。大门附近的水面结了冰，但池塘中央没有结冰。六只鸭子在那里游水。一只棕色的小鸟停在树上。我们先听到了它的声音，才看见它。",
+    "十二点，我们走进池塘旁的小咖啡馆。玻璃门后，炉火正燃烧着。我们分着吃了一张有奶酪和番茄的比萨饼，价格是六英镑。哈娜看看我湿了的外套，说：“把自己弄干了，我们再出去。”坐在桌边，我们仍然能看到鸭子。",
+    "两点，我们当天最后一次来到大门旁。有两个人正在看那只棕色的小鸟。我也把这件事记在本子上。星期五，我把笔记带到镇议会办公室。一周后，一块新告示牌出现了：池塘将继续开放。结冰的小路上也撒了沙子。我走进去，又听见了那只小鸟的叫声。"
+  ],
+  "q": [
+    {
+      "s": "Hana has to work on Monday.",
+      "a": "F",
+      "why": "星期一是当天，文中说哈娜当天不用上班。"
+    },
+    {
+      "s": "There is no ice in the middle of the pond at nine.",
+      "a": "T",
+      "why": "九点时大门附近有冰，但池塘中央没有结冰。"
+    },
+    {
+      "s": "Hana made the new sign at the pond.",
+      "a": "NG",
+      "why": "文中没有说明是谁制作了新告示牌。"
+    }
+  ]
+}

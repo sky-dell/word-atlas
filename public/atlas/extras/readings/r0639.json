@@ -1,0 +1,48 @@
+{
+  "id": "r0639",
+  "ids": [
+    "hydraulic",
+    "gratis",
+    "slowdown",
+    "despatch",
+    "panther",
+    "paradox",
+    "reexport",
+    "restrictive",
+    "lubricate",
+    "magnate"
+  ],
+  "title": "The Panther Powered by Water",
+  "titleZh": "水力驱动的黑豹",
+  "topic": "science",
+  "cefr": 4,
+  "paras": [
+    "Beyond the spice warehouses of the fictional port of Mirava, a tiled courtyard conceals an unusual attraction: a brass [[panther|panther]], its darkened metal coat recalling the black leopard that inspired it. Visitors enter [[gratis|gratis]] each Thursday to watch conservator Leila Nadir wake the creature, whose movements depend not on electricity but on nineteenth-century [[hydraulic|hydraulic]] engineering.",
+    "Commissioned by a shipping [[magnate|magnate]], the animal once entertained merchants who came to import silk and [[reexport|reexport]] it to distant markets. Water descending from a rooftop cistern pushes pistons beneath its shoulders, making its head turn towards arriving guests. Surviving account books record payments to metalworkers, although the identity of the mechanism’s designer remains unknown.",
+    "Before each demonstration, Nadir must [[lubricate|lubricate]] the joints with carefully measured drops of oil. A recent [[slowdown|slowdown]] in the head’s movement initially suggested friction; investigation instead revealed mineral deposits narrowing a supply pipe. Rather than [[despatch|despatch]] the mechanism to a distant workshop, she invited a specialist to examine it in place. The repair became an opportunity for visitors to understand how pressure produces motion.",
+    "Viewing arrangements are deliberately [[restrictive|restrictive]]: only twelve people enter, and nobody touches the brass. Yet this creates a productive [[paradox|paradox]]: limiting access allows a more intimate encounter. Standing in the courtyard, visitors hear water flowing through the supply pipe before the animal stirs. Nadir points out the moving parts beneath its shoulders as its head slowly turns."
+  ],
+  "zh": [
+    "在虚构港城米拉瓦的香料仓库后面，一座铺着瓷砖的庭院藏着一处奇特景观：一只黄铜黑豹。它颜色发暗的金属外皮，让人联想到赋予它创作灵感的黑色花豹。每逢星期四，游客都可免费入内，观看文物修复师莱拉·纳迪尔唤醒这只动物。它的动作并非依靠电力，而是源于十九世纪的水力工程技术。",
+    "这只机械动物由一位航运大亨委托制作，曾用来招待前来进口丝绸、再将其转口销往遥远市场的商人。从屋顶水箱流下的水推动其肩部下方的活塞，使它转头面向到访的客人。留存至今的账簿记载了付给金属工匠的款项，但这套机械装置的设计者究竟是谁，仍不得而知。",
+    "每次演示前，纳迪尔都必须用精确计量的几滴润滑油润滑关节。最近，豹头转动速度减慢，起初似乎是摩擦所致；但检查发现，实际原因是供水管中的矿物质沉积使管道变窄。她没有将装置送往远处的工坊，而是请来一位专家就地检查。这次修理也成为游客了解压力如何产生运动的契机。",
+    "参观安排有意设置了严格限制：每次只允许十二人入内，且任何人都不能触摸黄铜豹。然而，这产生了一种有益的悖论：限制入场人数，反而让人与展品更加亲近。站在庭院里，游客会先听见水流过供水管的声音，然后才看见动物开始活动。豹头缓缓转动时，纳迪尔指给游客看它肩部下方正在运动的零件。"
+  ],
+  "q": [
+    {
+      "s": "Visitors have to pay an entrance fee to watch the Thursday demonstrations.",
+      "a": "F",
+      "why": "首段明确说明星期四可免费入内观看。"
+    },
+    {
+      "s": "Nadir invited a specialist to examine the mechanism where it was installed.",
+      "a": "T",
+      "why": "第三段说明她请专家就地检查装置。"
+    },
+    {
+      "s": "Visitors must reserve their places at least a week before attending a demonstration.",
+      "a": "NG",
+      "why": "末段只说明人数及触摸限制，未提预约时间。"
+    }
+  ]
+}

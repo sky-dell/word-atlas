@@ -1,0 +1,48 @@
+{
+  "id": "r0296",
+  "ids": [
+    "hire",
+    "unemployed",
+    "positive",
+    "drummer",
+    "divide",
+    "recognise",
+    "upper",
+    "fare",
+    "worth",
+    "collar"
+  ],
+  "title": "A New Rhythm for the Race",
+  "titleZh": "赛舟的新节奏",
+  "topic": "sport",
+  "cefr": 2,
+  "paras": [
+    "Three weeks before a river race, the Willow dragon boat team had a problem. Its members were strong, but they moved their paddles at different times. Their captain, Mei, stayed [[positive|positive]]. She suggested using their last £80 to [[hire|hire]] a [[drummer|drummer]] who could help everyone follow the same beat.",
+    "At the riverside café, Mei [[recognise|recognised]] Tomas, an old neighbour, by his bright yellow coat with its wide [[collar|collar]]. He had played music at her sister's wedding. Tomas was now [[unemployed|unemployed]] after the restaurant where he worked closed. He welcomed the offer, although he had never been in a dragon boat.",
+    "For their first practice, Tomas borrowed a drum [[worth|worth]] £200 from his uncle. Mei paid his bus [[fare|fare]] because he lived across town. While the team practised on the water, he watched from the [[upper|upper]] part of the riverbank. He noticed that the team started together but soon lost the beat. He decided to [[divide|divide]] each practice into short sections, with a rest after each one.",
+    "During these sections, Tomas slowly increased the speed of his beat. Soon, the paddles were entering the water together. On race day, the team finished second, its best result ever. They invited Tomas to stay for the summer, and this time there was enough money to pay him every week."
+  ],
+  "zh": [
+    "距离河上赛舟还有三个星期，柳树龙舟队遇到了一个问题。队员们身体强壮，划桨的节奏却不一致。队长梅依然很乐观。她提议用队里最后的80英镑雇一名鼓手，帮助大家跟上同一个节拍。",
+    "在河边的咖啡馆里，梅凭着那件宽领的亮黄色外套，认出了老邻居托马斯。他曾在梅的一位姐妹的婚礼上演奏音乐。托马斯原来工作的餐馆关门了，现在他没有工作。虽然从未坐过龙舟，他还是欣然接受了这份工作。",
+    "第一次训练时，托马斯向他的一位叔舅辈亲属借了一面价值200英镑的鼓。因为他住在城镇的另一头，梅替他付了公交车费。队员们在水上训练时，他在河岸较高的位置观察。他注意到，大家起初动作一致，但很快就跟不上节拍了。他决定把每次训练分成几个短时段，每练完一段就休息一下。",
+    "在这些短时段的训练中，托马斯逐渐加快鼓点。不久，船桨就能同时入水了。比赛当天，队伍获得了第二名，这是他们有史以来最好的成绩。他们邀请托马斯整个夏天都留下来，而且这一次，队里有足够的钱每周付给他报酬。"
+  ],
+  "q": [
+    {
+      "s": "Mei believed that a musician could help the team paddle together.",
+      "a": "T",
+      "why": "梅提议请鼓手帮助大家统一划桨节拍。"
+    },
+    {
+      "s": "Tomas paid his uncle to borrow the drum.",
+      "a": "NG",
+      "why": "只说明借了鼓，未说明是否付费。"
+    },
+    {
+      "s": "The team finished first in the race.",
+      "a": "F",
+      "why": "队伍获得的是第二名，而非第一名。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0662",
+  "ids": [
+    "degradation",
+    "integrity",
+    "hamper",
+    "stipulate",
+    "bonded",
+    "pragmatic",
+    "materialize",
+    "cartridge",
+    "industrialize",
+    "rotary"
+  ],
+  "title": "Why River Foam Lingers",
+  "titleZh": "河面泡沫为何久久不散",
+  "topic": "environment",
+  "cefr": 4,
+  "paras": [
+    "Below a forest waterfall, pale foam sometimes accumulates in ribbons that resemble spilled detergent. Yet its appearance does not necessarily indicate environmental [[degradation|degradation]]. As fallen leaves decompose, they release organic compounds that stabilise the thin films surrounding air bubbles. Turbulence supplies the air; river chemistry determines whether the resulting bubbles vanish immediately or gather along sheltered banks.",
+    "The distinction becomes harder to establish when a catchment begins to [[industrialize|industrialize]]. Factory discharges may introduce synthetic substances with similar effects, while nutrients can stimulate algae whose remains also promote foaming. Colour alone is therefore an unreliable guide. A [[pragmatic|pragmatic]] investigation compares water collected above and below discharge points, rather than treating every white patch as evidence of contamination.",
+    "Such comparisons require reliable equipment, but logistical obstacles can [[hamper|hamper]] fieldwork. At one monitoring station, an imported replacement [[cartridge|cartridge]] containing reagents remained in [[bonded|bonded]] storage pending customs clearance. The supply agreement [[stipulate|stipulated]] delivery before the autumn rains, yet the expected shipment failed to [[materialize|materialize]] on time. Researchers instead preserved samples for laboratory analysis, using a [[rotary|rotary]] mixer to distribute suspended matter evenly before testing.",
+    "Scientific [[integrity|integrity]] mattered as much as technical ingenuity: the team reported the delay and refused to present incomplete measurements as proof of industrial pollution. Subsequent results showed that leaf-derived compounds explained most foam after rainfall, although one tributary contained additional synthetic agents. The river's froth was thus neither an automatic warning nor a guarantee of purity, but a visible consequence of processes requiring careful separation."
+  ],
+  "zh": [
+    "森林瀑布下方，有时会积聚起一条条浅色泡沫，看起来像是洒出的洗涤剂。然而，这种景象未必意味着环境正在恶化。落叶分解时会释放有机化合物，使包裹气泡的薄膜更加稳定。湍流带入空气，而河水的化学性质则决定了这些气泡是立即消失，还是聚集在避风的河岸边。",
+    "当一个流域开始工业化时，要作出这种区分就更加困难。工厂排放可能带来具有类似作用的合成物质，而营养物质则可能促进藻类生长，其残骸也会促使泡沫形成。因此，仅凭颜色并不能可靠地判断泡沫的来源。务实的调查方法是比较排放点上下游采集的水样，而不是把每一片白色泡沫都视为污染证据。",
+    "这样的比较需要可靠的设备，但物流障碍可能妨碍野外工作。在一处监测站，一个进口的替换式试剂盒因等待清关而滞留在保税仓库。供货协议明确规定须在秋雨到来之前交货，但预期的货物并未按时送达。研究人员于是保存水样，留待实验室分析，并在检测前使用旋转式混合器，使悬浮物均匀分布。",
+    "科研诚信与技术上的巧思同样重要：研究团队如实报告了延误，并拒绝将不完整的测量结果当作工业污染的证据。后续结果表明，降雨后的大部分泡沫都可由落叶释放的化合物解释，不过其中一条支流还含有合成物质。因此，河面泡沫既不必然意味着危险，也不能保证水质纯净；它只是多种过程产生的可见结果，而这些过程需要仔细辨别。"
+  ],
+  "q": [
+    {
+      "s": "Naturally occurring substances from decaying vegetation can help river bubbles persist.",
+      "a": "T",
+      "why": "首段指出落叶分解物能稳定气泡膜。"
+    },
+    {
+      "s": "The monitoring station paid an additional fee to obtain customs clearance for the cartridge.",
+      "a": "NG",
+      "why": "文中未说明清关是否支付额外费用。"
+    },
+    {
+      "s": "The team presented incomplete measurements as proof of industrial pollution.",
+      "a": "F",
+      "why": "末段明确说团队拒绝这样做。"
+    }
+  ]
+}

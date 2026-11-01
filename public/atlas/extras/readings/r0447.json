@@ -1,0 +1,48 @@
+{
+  "id": "r0447",
+  "ids": [
+    "inspector",
+    "threaten",
+    "interval",
+    "non-refundable",
+    "shiver",
+    "fighter",
+    "graphics",
+    "feather",
+    "pastime",
+    "province"
+  ],
+  "title": "Behind the Cloth Screen",
+  "titleZh": "布幕背后的世界",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "In a narrow lane in Langzhong, a city in Sichuan [[province|province]], a small shadow theatre offers an unusual evening stop for visitors. Its printed programme has bold [[graphics|graphics]] showing warriors and birds, but the entrance is modest: a wooden door beside a noodle shop. A notice explains that tickets are [[non-refundable|non-refundable]] once the performance begins.",
+    "Inside, theatre owner Lin Mei adjusts a lamp while an [[inspector|inspector]] checks the emergency exit and electrical cables. The audience sits close to a white cloth screen. When the door opens, a cold current of air makes several visitors [[shiver|shiver]], though nobody seems willing to surrender a front-row seat.",
+    "The story concerns a young [[fighter|fighter]] defending a mountain village. Behind the screen, Mei changes her voice to play a bandit, who [[threaten|threatens]] to burn the grain store unless the villagers hand over their silver. A bird then carries a warning across the mountains. Its leather wings are so delicately cut that each [[feather|feather]] appears separate in the light.",
+    "During a short [[interval|interval]], Mei invites visitors behind the screen. She explains that making puppets began as a family [[pastime|pastime]], although performances now provide part of her income. A single raised wrist, she demonstrates, can turn a confident hero into a frightened child. When the audience returns to its seats, the city outside seems farther away. Everyone is watching the shadows, but now they are also imagining the hands."
+  ],
+  "zh": [
+    "在四川省阆中市的一条窄巷里，一家小小的皮影剧场为游客提供了一处别具特色的夜间去处。印制的节目单上，武士与飞鸟的图案十分醒目，入口却很不起眼：一扇木门，就在面馆旁边。一张告示说明，演出开始后，门票概不退款。",
+    "剧场里，主人林梅正在调整灯光，一名检查员则在检查紧急出口和电线。观众紧挨着一块白色布幕而坐。门一打开，一股冷风让几位游客打起了哆嗦，不过似乎没人愿意让出前排座位。",
+    "故事讲述一位年轻战士保卫山村的经历。在布幕后面，林梅变换嗓音扮演强盗，威胁村民说，如果不交出银子，就烧掉粮仓。随后，一只鸟飞越群山传递警讯。它的皮革翅膀雕刻得极为精细，灯光下，每一根羽毛都显得清晰分明。",
+    "短暂的幕间休息时，林梅邀请游客来到布幕后。她解释说，制作皮影最初只是家人的一项消遣，如今演出却已成为她的部分收入来源。她示范道，只需抬起一只手腕，就能让自信的英雄变成惊恐的孩子。观众回到座位后，外面的城市仿佛更遥远了。大家都在看着皮影，但此刻，他们也在想象幕后的双手。"
+  ],
+  "q": [
+    {
+      "s": "Visitors can get their ticket money back after the performance begins.",
+      "a": "F",
+      "why": "告示明确说明演出开始后门票不可退款。"
+    },
+    {
+      "s": "The bird's wings are made of leather.",
+      "a": "T",
+      "why": "第三段明确称鸟翼为皮革翅膀。"
+    },
+    {
+      "s": "Mei learned to make shadow puppets from her grandmother.",
+      "a": "NG",
+      "why": "只提到家庭消遣，未说明由谁传授。"
+    }
+  ]
+}

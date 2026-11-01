@@ -1,0 +1,48 @@
+{
+  "id": "r0199",
+  "ids": [
+    "drum",
+    "magician",
+    "professional",
+    "stir",
+    "major",
+    "arithmetic",
+    "shoot",
+    "pigeon",
+    "industry",
+    "opportunity"
+  ],
+  "title": "A Fair for the Market Roof",
+  "titleZh": "为市场修屋顶的集市",
+  "topic": "government",
+  "cefr": 2,
+  "paras": [
+    "When rain fell through the roof of Bellwick's covered market, the town council faced a [[major|major]] problem. Factory closures had reduced the money it received from local [[industry|industry]], so repairs seemed impossible. Meanwhile, a [[pigeon|pigeon]] had built a nest beside one of the holes. Market cook Amira put buckets below the others.",
+    "At a council meeting, Amira suggested a Saturday fair to raise money. Her brother, a [[professional|professional]] [[magician|magician]], offered a free show. A neighbour could play a [[drum|drum]] to welcome visitors. Using simple [[arithmetic|arithmetic]], Amira worked out that five hundred tickets, together with food sales, could pay for the materials. Council workers would provide the labour.",
+    "The council gave permission but checked each activity first. At one stall, adults could [[shoot|shoot]] at paper targets with air rifles under a trained worker's supervision. This stall stood behind a fence, away from the food and stage. Amira stayed beside her soup pot, stopping to [[stir|stir]] it between serving customers. For market sellers, the fair was also an [[opportunity|opportunity]] to meet new customers.",
+    "By evening, they had sold 543 tickets. Two weeks later, after the young bird had left its nest, workers repaired the roof. During the next storm, Amira served soup without a single bucket beside her stall. A photograph of the fair hung above the council's thank-you note."
+  ],
+  "zh": [
+    "雨水从贝尔威克室内市场的屋顶漏下来，镇议会面临一个大问题。工厂关闭使议会从当地制造业获得的收入减少了，修缮屋顶似乎成了不可能的事。与此同时，一只鸽子在其中一个破洞旁筑了巢。市场厨师阿米拉在其余漏雨处下面放了水桶。",
+    "在一次议会会议上，阿米拉提议举办周六集市来筹款。她的一位兄弟是一名职业魔术师，愿意免费表演。一位邻居可以打鼓迎接来客。通过简单的算术，阿米拉算出，五百张门票的收入加上食品销售收入，足以支付材料费。议会的工人则负责施工。",
+    "议会批准了这个计划，但先检查了每项活动。在一个摊位上，成年人可以在受过培训的工作人员监督下，用气步枪射击纸靶。这个摊位设在围栏后面，远离食品摊和舞台。阿米拉守在汤锅旁，趁给顾客盛汤的间隙搅拌一下。对市场商贩来说，这次集市也是结识新顾客的机会。",
+    "到傍晚，他们卖出了543张门票。两周后，小鸟已经离巢，工人们修好了屋顶。下一场暴雨来临时，阿米拉照常卖汤，摊位旁一个接水桶也不需要放了。议会的感谢信上方挂着一张集市的照片。"
+  ],
+  "q": [
+    {
+      "s": "The loss of local factories made it harder for the council to afford the roof repairs.",
+      "a": "T",
+      "why": "工厂关闭导致议会收入减少，难以支付修缮费。"
+    },
+    {
+      "s": "Amira's brother asked to be paid for his performance at the fair.",
+      "a": "F",
+      "why": "阿米拉的这位兄弟提出免费表演。"
+    },
+    {
+      "s": "The council decided to hold the fair every year.",
+      "a": "NG",
+      "why": "文章未提及是否决定每年举办集市。"
+    }
+  ]
+}

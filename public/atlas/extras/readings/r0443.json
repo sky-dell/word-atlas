@@ -1,0 +1,48 @@
+{
+  "id": "r0443",
+  "ids": [
+    "vaccine",
+    "mainland",
+    "disturbance",
+    "pat",
+    "demonstration",
+    "hive",
+    "receiver",
+    "inland",
+    "guardian",
+    "hardship"
+  ],
+  "title": "Making an Island Listening Trail",
+  "titleZh": "制作海岛声音导览",
+  "topic": "travel",
+  "cefr": 3,
+  "paras": [
+    "On a small island, a walking guide is being made from local voices rather than a narrator's script. Visitors will borrow a pocket [[receiver|receiver]] that picks up signals at marked locations and plays the corresponding recordings. Production begins with a map: the team selects six stops, linking the harbour with an [[inland|inland]] village along a route that takes about ninety minutes.",
+    "Next, sound editor Amara interviews residents beside objects connected with their memories. At the former clinic, a retired nurse describes bringing [[vaccine|vaccines]] from the [[mainland|mainland]] in insulated boxes. Her account explains how winter storms caused [[hardship|hardship]] by delaying essential supplies. Before recording a child's description of the harbour, Amara obtains written permission from the child's [[guardian|guardian]]. Each speaker checks the edited version for accuracy.",
+    "Natural sounds are then collected to give each stop a distinct character. Near an orchard, beekeeper Tomas opens a [[hive|hive]] for a short [[demonstration|demonstration]] while a microphone captures the steady buzzing. To avoid unnecessary [[disturbance|disturbance]], the team records from a fixed position and leaves quickly. In the village workshop, two craft workers [[pat|pat]] the wool padding flat inside seat covers, producing a soft rhythm that introduces their story.",
+    "Finally, the recordings are shortened, numbered and loaded onto the listening devices. Volunteers walk the complete route, checking that instructions match the paths and that speech remains clear in windy conditions. After small adjustments, the guide is ready: a carefully assembled journey in which ordinary island sounds become part of the destination."
+  ],
+  "zh": [
+    "在一座小岛上，人们正在制作一份步行导览，内容来自当地人的讲述，而非旁白解说稿。游客将借用一台便携式接收器，在标记地点接收信号并播放相应的录音。制作从绘制地图开始：团队选定六个停靠点，沿一条步行约需九十分钟的路线，将港口与一座内陆村庄连接起来。",
+    "接下来，声音编辑阿玛拉在与居民各自记忆有关的物件旁采访他们。在旧诊所，一位退休护士讲述了用保温箱从大陆运来疫苗的往事。她的讲述说明，冬季风暴如何延误必需物资的运送，给生活带来困苦。在录制一名儿童对港口的描述之前，阿玛拉先取得了其监护人的书面许可。每位讲述者都会核对剪辑后的版本，确保内容准确。",
+    "随后，团队采集自然环境中的声音，让每个停靠点都有独特的气息。在一片果园附近，养蜂人托马斯打开蜂箱，作了简短示范，麦克风则录下持续的嗡嗡声。为避免不必要的干扰，团队在固定位置录音，随后迅速离开。在村里的作坊中，两名手艺人将座套内的羊毛填料轻轻拍平。轻柔而有节奏的拍打声，成为他们故事的开场。",
+    "最后，录音经过精简、编号，被载入收听设备。志愿者走完整条路线，检查导览指示是否与实际路径一致，以及刮风时语音是否依然清晰。经过小幅调整，导览终于完成：这是一段精心编排的旅程，岛上平凡的声音也成了目的地体验的一部分。"
+  ],
+  "q": [
+    {
+      "s": "Visitors will pay a fee to borrow a receiver.",
+      "a": "NG",
+      "why": "文中未说明借用接收器是否收费。"
+    },
+    {
+      "s": "Amara gets written permission from the child's guardian before recording the child.",
+      "a": "T",
+      "why": "第二段明确说明录音前取得书面许可。"
+    },
+    {
+      "s": "The guide is declared ready without volunteers testing the route.",
+      "a": "F",
+      "why": "志愿者先走完路线测试，调整后才完成。"
+    }
+  ]
+}

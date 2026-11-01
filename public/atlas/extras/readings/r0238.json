@@ -1,0 +1,48 @@
+{
+  "id": "r0238",
+  "ids": [
+    "motel",
+    "sportsman",
+    "load",
+    "messenger",
+    "publish",
+    "humour",
+    "tag",
+    "dive",
+    "charge",
+    "cliff"
+  ],
+  "title": "What Lies Beneath the Harbour?",
+  "titleZh": "港湾水下藏着什么？",
+  "topic": "city",
+  "cefr": 2,
+  "paras": [
+    "Behind a small [[motel|motel]] beside a coastal city's main road, a path leads to the harbour. Cars fill the guest parking spaces, but the water looks empty. Marine researcher Leila knows otherwise. She studies rubbish below the surface, near a [[cliff|cliff]] where seabirds rest.",
+    "Every month, Tomas, a skilled [[sportsman|sportsman]] who also works as a swimming coach, helps her. They [[dive|dive]] beneath the harbour water with special bags, collecting bottles, fishing line and other waste. Before lifting each [[load|load]] onto the boat, they check that no small animals are inside. Safety matters more than speed.",
+    "Back on land, Leila attaches a [[tag|tag]] to each bag, recording its collection place and date. A volunteer acts as a [[messenger|messenger]], carrying a note to the harbour office when the team returns safely. Then the sorting begins. Plastic often lasts much longer than paper, so counting the objects alone cannot show exactly when they entered the sea.",
+    "The team plans to [[publish|publish]] its results in a short magazine. They will not [[charge|charge]] readers for it; the aim is to explain the hidden problem. Tomas adds [[humour|humour]] with drawings of crabs wearing lost sunglasses. Yet the final page has a serious message: a clean-looking harbour can still have a floor covered in waste."
+  ],
+  "zh": [
+    "在一座海滨城市的主干道旁，有一家小汽车旅馆，旅馆后面的一条小路通向港湾。客用停车位停满了汽车，水面却看起来空空荡荡。海洋研究员莱拉知道，水下并非如此。她在海鸟栖息的一处悬崖附近，研究水面下的垃圾。",
+    "每个月，身为游泳教练的运动健将托马斯都会来帮助她。他们带着专用袋子潜入港湾水下，收集瓶子、钓鱼线和其他废弃物。在把每一袋垃圾吊上船之前，他们都会检查里面有没有小动物。安全比速度更重要。",
+    "回到岸上后，莱拉给每个袋子系上标签，记录收集地点和日期。一名志愿者担任送信人，在团队安全返回后，把一张便条送到港口办公室。随后，分类工作开始了。塑料通常比纸张留存得久得多，因此，仅凭物品数量无法准确判断它们是什么时候进入海里的。",
+    "团队计划将研究结果刊登在一本薄薄的杂志上。他们不会向读者收费，目的是说明这个隐藏的问题。托马斯画了几幅螃蟹戴着遗失太阳镜的图画，增添了一点幽默感。不过，最后一页传达的信息很严肃：看似干净的港湾，底部仍可能铺满垃圾。"
+  ],
+  "q": [
+    {
+      "s": "The team lifts each load onto the boat before checking it for small animals.",
+      "a": "F",
+      "why": "他们先检查有无小动物，再把垃圾吊上船。"
+    },
+    {
+      "s": "The harbour office pays the volunteer who delivers the team's note.",
+      "a": "NG",
+      "why": "文中未提港口办公室是否付钱给志愿者。"
+    },
+    {
+      "s": "Readers will be able to get the team's magazine free of charge.",
+      "a": "T",
+      "why": "末段明确说不会向读者收费。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0289",
+  "ids": [
+    "relaxation",
+    "tuna",
+    "landing",
+    "stylish",
+    "national",
+    "flute",
+    "ceiling",
+    "peaceful",
+    "imagination",
+    "unfriendly"
+  ],
+  "title": "Blue Light After Dark",
+  "titleZh": "夜色中的蓝光",
+  "topic": "work",
+  "cefr": 2,
+  "paras": [
+    "Mina works as a night guide in a fishing village. After a beach [[landing|landing]], her guests often stop in surprise: their wet footprints shine blue. It is not their [[imagination|imagination]]. Tiny living things in the seawater produce this light when waves, feet or swimming fish disturb them.",
+    "These tiny creatures are called dinoflagellates. In some conditions, millions gather near the surface. A sudden movement starts a chemical change inside their bodies, creating a brief flash. Scientists think this can help protect them: the flash may surprise a small animal trying to eat them, or attract a larger hunter. Even a passing [[tuna|tuna]] can leave a shining trail.",
+    "Mina checks the bay before each trip. Strong lights make the blue flashes harder to see, so she avoids the village's [[stylish|stylish]] beach café, where lamps cover the [[ceiling|ceiling]]. She also asks guests to switch off torches. This may sound [[unfriendly|unfriendly]], but darkness is essential. A [[national|national]] radio programme recently described her unusual work.",
+    "After the walk, guests return to a [[peaceful|peaceful]] room above the harbour for tea and [[relaxation|relaxation]]. Sometimes Mina's brother plays the [[flute|flute]] there. Yet the evening's strongest memory is usually the sea: water that looked ordinary by day has briefly revealed a hidden world of living light."
+  ],
+  "zh": [
+    "米娜在一个渔村做夜间向导。游客登上沙滩后，常常会惊讶地停下脚步：他们留下的湿脚印竟然闪着蓝光。这并不是他们的想象。海水中的微小生物受到海浪、脚步或游鱼的扰动时，就会发出这种光。",
+    "这些微小生物叫作甲藻。在某些条件下，数以百万计的甲藻会聚集在水面附近。突然的水流扰动会引发它们体内的化学变化，产生短暂的闪光。科学家认为，这可以帮助它们保护自己：闪光可能吓到正要吃它们的小动物，也可能引来更大的捕食者。即使只是一条金枪鱼游过，也能留下一道闪亮的痕迹。",
+    "每次出发前，米娜都会查看海湾的情况。强光会让蓝色闪光更难被看见，因此她会避开村里那家时髦的海滩咖啡馆，那里的天花板上装满了灯。她还会请游客关掉手电筒。这听起来可能不太友好，但黑暗是必不可少的。最近，一档全国性广播节目介绍了她这份不同寻常的工作。",
+    "散步结束后，游客们回到港口上方一间安静的房间，喝茶休息。有时，米娜的兄弟会在那里吹长笛。不过，这一晚最令人难忘的通常还是大海：白天看似普通的海水，曾短暂地展现出一个隐藏着的、充满生命之光的世界。"
+  ],
+  "q": [
+    {
+      "s": "Movement in the water can cause tiny sea creatures to give off light.",
+      "a": "T",
+      "why": "首段说明海浪、脚步或游鱼的扰动可引发光亮。"
+    },
+    {
+      "s": "Mina chooses brightly lit places so guests can see the blue flashes more clearly.",
+      "a": "F",
+      "why": "强光使蓝光更难看清，因此米娜避开灯光。"
+    },
+    {
+      "s": "Mina's brother learned to play his instrument from their father.",
+      "a": "NG",
+      "why": "文章只说她的兄弟有时演奏，未提向谁学习。"
+    }
+  ]
+}

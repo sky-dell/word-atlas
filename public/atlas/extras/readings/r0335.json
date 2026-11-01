@@ -1,0 +1,48 @@
+{
+  "id": "r0335",
+  "ids": [
+    "wink",
+    "graze",
+    "emerge",
+    "humble",
+    "administration",
+    "alcoholism",
+    "hopeful",
+    "clarinet",
+    "dove",
+    "rewarding"
+  ],
+  "title": "Listening for Recovery",
+  "titleZh": "在聆听中寻找康复之路",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "At a rural recovery centre, the morning begins with listening. Beyond an open window, sheep [[graze|graze]] beneath apple trees, while a [[dove|dove]] calls from the roof. Inside, twelve adults receiving treatment for [[alcoholism|alcoholism]] are taking part in a small study exploring whether shared musical activities can support their recovery.",
+    "Researcher Leila Nasser plays three notes on a [[clarinet|clarinet]], then invites the group to copy the rhythm on wooden blocks. When one participant invents a playful variation, she [[wink|winks]] at him and repeats it. The exercise is not a performance test: participants can listen silently or join whenever they feel ready. This freedom matters because fear of making mistakes can discourage participation.",
+    "Over six weeks, patterns begin to [[emerge|emerge]] from interviews and daily mood records. Several participants describe the sessions as [[rewarding|rewarding]], particularly when the group produces a rhythm together. However, Nasser remains [[humble|humble]] about her role. Music accompanies professional care rather than replacing it, and without a comparison group, she cannot know whether music itself explains the reported improvements.",
+    "The centre's [[administration|administration]] involves arranging rooms, staff time and instrument cleaning, so even this simple programme requires planning. Still, the team feels [[hopeful|hopeful]] enough to design a larger trial comparing musical sessions with other shared activities. For now, the most memorable result is modest: people who initially sat apart have begun moving their chairs into a circle before the first note sounds."
+  ],
+  "zh": [
+    "在一家乡村康复中心，一天从聆听开始。敞开的窗外，羊群在苹果树下吃草，一只鸽子在屋顶鸣叫。屋内，十二名正在接受酒精依赖治疗的成年人参与了一项小型研究，探索集体音乐活动能否帮助他们康复。",
+    "研究员莱拉·纳赛尔用单簧管吹出三个音，然后邀请大家敲击木块，模仿其中的节奏。一位参与者即兴加入了一段俏皮的变化，她便向他眨了一下眼，并重复了他的节奏。这项练习并不是演奏测试：参与者可以安静聆听，也可以在觉得准备好时随时加入。这种自由很重要，因为害怕犯错可能会让人不愿参与。",
+    "在六周期间，访谈和每日情绪记录中开始显现出一些规律。几位参与者表示，这些活动让他们很有成就感，尤其是大家一起敲出一段节奏的时候。不过，纳赛尔对自己所起的作用依然保持谦逊。音乐是专业治疗的辅助，而不是替代品；同时，由于没有对照组，她无法确定参与者所报告的改善是否由音乐本身带来。",
+    "中心的管理工作包括安排房间、协调员工时间以及清洁乐器，因此，即使这样一个简单的项目也需要规划。不过，团队仍抱有足够的希望，着手设计一项规模更大的试验，将音乐活动与其他集体活动进行比较。目前，最令人难忘的成果并不大：那些最初分散而坐的人，已经开始在第一个音符响起之前，把椅子围成一圈。"
+  ],
+  "q": [
+    {
+      "s": "The twelve adults have previously taken part in a study of musical activities.",
+      "a": "NG",
+      "why": "首段未说明这十二人是否参加过类似研究。"
+    },
+    {
+      "s": "Participants are allowed to listen without playing an instrument.",
+      "a": "T",
+      "why": "第二段说明参与者可以安静聆听。"
+    },
+    {
+      "s": "Nasser has established that music caused the improvements reported by participants.",
+      "a": "F",
+      "why": "第三段说明没有对照组，无法确定改善原因。"
+    }
+  ]
+}

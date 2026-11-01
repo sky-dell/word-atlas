@@ -1,0 +1,48 @@
+{
+  "id": "r0437",
+  "ids": [
+    "independently",
+    "fluency",
+    "thirst",
+    "oar",
+    "disguise",
+    "exceed",
+    "diplomatic",
+    "hairpin",
+    "participant",
+    "audition"
+  ],
+  "title": "Learning Languages Behind the Curtain",
+  "titleZh": "幕后的语言课堂",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "In a story set at the fictional Maren Academy, a language teacher prepares students for [[diplomatic|diplomatic]] service. She believes that [[fluency|fluency]] requires more than accurate grammar: speakers must also respond calmly when conversations take an unexpected turn. To practise this skill, her students put on a bilingual play about travellers stranded at a riverside inn.",
+    "The teacher holds an [[audition|audition]] to choose actors for the play. Each [[participant|participant]] takes a role in a scene about travellers seeking accommodation after missing a boat, speaking in their second language. Performances cannot [[exceed|exceed]] five minutes. Students must work [[independently|independently]], without suggestions from the teachers watching them, although they can use any of the objects on a nearby table.",
+    "Among these objects are a silver [[hairpin|hairpin]] and a wooden [[oar|oar]]. One student pins back her hair and borrows a coat to [[disguise|disguise]] herself as the innkeeper. Another carries the boat equipment into the scene. Playing a passenger, he complains of [[thirst|thirst]], giving the student who plays the interpreter an immediate problem: requesting water politely while also explaining the delay.",
+    "Later, the class listens to recordings of two performances. The first is grammatically careful but painfully slow; the second sounds more natural, despite several small mistakes. The teacher prefers the second because the interpreter responds promptly to the passenger. Before the next rehearsal, she asks that actor to correct two verb forms without losing the pace of the exchange."
+  ],
+  "zh": [
+    "在一个以虚构的马伦学院为背景的故事中，一位语言教师培养学生，为他们日后从事外交工作做准备。她认为，语言流利不只是语法准确：当交谈出现意想不到的转折时，说话者也必须从容应对。为了练习这项技能，她的学生排演了一部双语戏剧，讲述旅客滞留河边客栈的故事。",
+    "教师举行试演，为这部戏挑选演员。每位参与者都在一个讲述旅客错过船班后寻找住处的场景中承担一个角色，用第二语言说台词。表演不得超过五分钟。学生必须独立完成，观看表演的教师不会提供提示，不过他们可以使用旁边桌上的任何物品。",
+    "这些物品中有一枚银色发针和一支木桨。一名学生用发针把头发别好，又借来一件外套，将自己装扮成客栈老板。另一名学生带着划船用具进入场景。他扮演一名乘客，抱怨口渴，立刻给扮演口译员的学生出了一道难题：既要礼貌地请求饮用水，又要说明延误的情况。",
+    "随后，全班听了两段表演的录音。第一段语法严谨，却慢得令人难受；第二段虽然有几处小错误，听起来却更自然。教师更喜欢第二段，因为口译员及时回应了乘客。在下次排练前，她要求那位演员纠正两处动词形式，同时保持对话的节奏。"
+  ],
+  "q": [
+    {
+      "s": "The students have previously worked as interpreters.",
+      "a": "NG",
+      "why": "文中未说明学生此前是否做过口译工作。"
+    },
+    {
+      "s": "Students must complete their audition scenes without advice from the watching teachers.",
+      "a": "T",
+      "why": "第二段明确要求独立完成，教师不提供提示。"
+    },
+    {
+      "s": "The teacher prefers the slower of the two recorded performances.",
+      "a": "F",
+      "why": "教师更喜欢较自然的第二段，而非缓慢的第一段。"
+    }
+  ]
+}

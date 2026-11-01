@@ -1,0 +1,48 @@
+{
+  "id": "r0581",
+  "ids": [
+    "commonplace",
+    "advantageous",
+    "merciful",
+    "orthodox",
+    "preacher",
+    "stationary",
+    "inclined",
+    "sovereignty",
+    "simulate",
+    "indent"
+  ],
+  "title": "Oars Across a Border",
+  "titleZh": "划过边界的船桨",
+  "topic": "sport",
+  "cefr": 4,
+  "paras": [
+    "This gallery traces the rowing contests of Lake Varda, where fishing crews transformed an everyday journey into a competitive sport. Although informal races were [[commonplace|commonplace]] by the 1880s, the painted oar in the first case records something unusual: a contest between villages separated by a newly recognised frontier. Its inscription celebrates shared water rather than national victory.",
+    "Beside it, a race ledger reveals how political [[sovereignty|sovereignty]] complicated sporting cooperation: each country claimed authority over boats entering its waters. An [[orthodox|Orthodox]] [[preacher|preacher]], Pavel Marin, negotiated a temporary crossing agreement and served as referee. His reputation as a [[merciful|merciful]] official arose when he declined to disqualify a crew whose exhausted youngest rower had accepted water from a spectator.",
+    "The central installation allows visitors to [[simulate|simulate]] the final approach to the finishing buoy while remaining [[stationary|stationary]] on a wooden rowing frame. A projected shoreline responds to each pull, while resistance increases unevenly between the handles. This recreates the crosswind that made the sheltered eastern lane [[advantageous|advantageous]], despite its longer route. Winning required judgement, not merely muscular power.",
+    "Before leaving, examine the handwritten training notes donated by boatbuilder Leila Saran. She was [[inclined|inclined]] to distrust heroic accounts of effortless victories, recording instead missed strokes and repeated adjustments. To distinguish advice from observation, she would [[indent|indent]] every instructional line. The final page contains no finishing times, only a carefully drawn replacement seat: a reminder that this borderland sport depended as much on patient maintenance as on spectacular competition."
+  ],
+  "zh": [
+    "本展厅追溯瓦尔达湖上的赛艇活动。在这里，渔民将日常的水上往来变成了竞技运动。尽管到了19世纪80年代，非正式比赛已十分常见，但第一个展柜中的彩绘船桨记录了一件不寻常的事：一场比赛在两个村庄之间举行，而一道新近获得承认的国界将它们分隔开来。桨上的题字赞颂的是共享的湖水，而非国家的胜利。",
+    "船桨旁的一本赛事登记簿揭示了政治主权如何让体育合作变得复杂：两国都声称对进入本国水域的船只拥有管辖权。东正教布道者帕维尔·马林协商达成了一项临时越境协议，并担任裁判。他曾拒绝取消一支船队的参赛资格，尽管该队最年轻的划手因筋疲力尽接受了观众递来的水。这使他赢得了宽厚裁判的名声。",
+    "展厅中央的装置让参观者坐在原地不动的木制划船架上，模拟接近终点浮标的最后一段赛程。投影中的湖岸会随每次划动而变化，两个手柄的阻力则以不同幅度增加。这重现了当时的侧风条件：尽管东侧航道更长，却因避风而更具优势。取胜需要判断力，而不只是肌肉力量。",
+    "离开展厅前，请仔细看看造船师莱拉·萨兰捐赠的手写训练笔记。她往往不相信那些轻松获胜的英雄式叙述，而是记录失误的划桨动作和反复的调整。为区分建议与观察记录，她会将每行指导性文字的行首缩进。最后一页没有完赛用时，只有一张精细绘制的替换座板图。这提醒我们，这项边境地区的运动既离不开精彩的竞技，也同样依赖耐心的维护。"
+  ],
+  "q": [
+    {
+      "s": "The painted oar was donated to the gallery by a descendant of one of the competitors.",
+      "a": "NG",
+      "why": "首段未交代彩绘船桨的捐赠者。"
+    },
+    {
+      "s": "Pavel Marin helped arrange permission for boats to cross the frontier temporarily.",
+      "a": "T",
+      "why": "第二段明确说他协商达成临时越境协议。"
+    },
+    {
+      "s": "The final page of Saran's notebook lists finishing times.",
+      "a": "F",
+      "why": "末段明确说最后一页没有完赛用时。"
+    }
+  ]
+}

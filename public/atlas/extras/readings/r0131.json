@@ -1,0 +1,46 @@
+{
+  "id": "r0131",
+  "ids": [
+    "furniture",
+    "rose",
+    "button",
+    "easter",
+    "island",
+    "cream",
+    "worried",
+    "careful",
+    "false",
+    "unusual"
+  ],
+  "title": "A Cake Film by the Sea",
+  "titleZh": "海边的蛋糕短片",
+  "topic": "media",
+  "cefr": 1,
+  "paras": [
+    "Every spring, Mara makes a short film for a bakery on a small [[island|island]]. The film shows how its special [[easter|Easter]] cake is made. First, she moves some [[furniture|furniture]] away from the kitchen window. This gives her space for a camera and lets more light reach the work table. She puts the camera near the baker's hands, then presses a red [[button|button]] to start recording.",
+    "The baker, Tomas, cuts a round cake into two layers. He spreads thick [[cream|cream]] between them and puts a pink sugar [[rose|rose]] on top. The flower looks real, but people can eat it. Mara films each step twice. She is [[worried|worried]] that her camera may miss something important. Tomas is especially [[careful|careful]] when he lifts the soft flower with a small knife. Its thin edges can break easily.",
+    "Later, Mara joins the best parts of the film on her computer. She adds short instructions below the pictures. One says the cake takes ten minutes to bake. That is [[false|false]], so she changes it to thirty minutes after checking with Tomas. The finished film has an [[unusual|unusual]] ending: a close view of the sugar flower, followed by Tomas cutting it in half. Now viewers can see that every part is ready to eat."
+  ],
+  "zh": [
+    "每年春天，玛拉都会为一座小岛上的面包店制作一部短片。短片展示店里的特色复活节蛋糕是怎样做成的。首先，她把厨房窗边的几件家具搬开。这样既能腾出放摄像机的位置，也能让更多光线照到操作台上。她把摄像机放在靠近面包师双手的地方，然后按下红色按钮，开始拍摄。",
+    "面包师托马斯把一个圆蛋糕横切成两层。他在两层之间抹上浓稠的奶油，再在顶上放一朵粉色的糖玫瑰。这朵花看起来像真的，但可以吃。玛拉把每个步骤都拍两遍。她担心摄像机会漏掉重要的细节。托马斯用一把小刀托起柔软的糖花时格外小心，因为它薄薄的边缘很容易碎。",
+    "随后，玛拉在电脑上把拍得最好的片段接在一起，并在画面下方加上简短的操作说明。其中一条写着蛋糕需要烤十分钟。这是不对的，所以她向托马斯核实后，把时间改成了三十分钟。完成后的短片有个与众不同的结尾：先给糖花一个特写，接着拍托马斯把它切成两半。现在，观众可以看出，蛋糕的每一部分都可以吃了。"
+  ],
+  "q": [
+    {
+      "s": "The bakery owns the camera Mara uses.",
+      "a": "NG",
+      "why": "文章未说明拍摄用的摄像机归谁所有。"
+    },
+    {
+      "s": "Mara films each step two times.",
+      "a": "T",
+      "why": "第二段明确说每个步骤都拍两遍。"
+    },
+    {
+      "s": "After checking with Tomas, Mara changes the baking time to ten minutes.",
+      "a": "F",
+      "why": "核实后她把十分钟改成了三十分钟。"
+    }
+  ]
+}

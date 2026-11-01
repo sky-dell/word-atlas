@@ -1,0 +1,46 @@
+{
+  "id": "r0142",
+  "ids": [
+    "file",
+    "airline",
+    "suggestion",
+    "seaside",
+    "ourselves",
+    "fried",
+    "offer",
+    "sort",
+    "project",
+    "actress"
+  ],
+  "title": "Notes from Shell Bay",
+  "titleZh": "贝壳湾观察笔记",
+  "topic": "government",
+  "cefr": 1,
+  "paras": [
+    "14 May, Shell Bay. Our town council has started a [[project|project]] to protect birds at the [[seaside|seaside]]. Today was our first morning of counting them. I carried a [[file|file]] of old bird records and a map. My helper, Lina, works for an [[airline|airline]] and watches birds on her days off. At seven, we found twelve small brown birds near a closed food shop.",
+    "There were pieces of [[fried|fried]] fish on the sand below a bin. The birds were pulling at them, but we did not give them any food. We reminded [[ourselves|ourselves]] to keep back and watch quietly. Lina made a [[suggestion|suggestion]]: the council could put a lid on the bin. We wrote this down, then counted another [[sort|sort]] of bird beside the water. These had black heads and bright red legs.",
+    "At nine, an [[actress|actress]] named Amara came from the little theatre across the road. She stopped to [[offer|offer]] us some water. We showed her where the birds were feeding. She agreed to record their numbers each morning before work. By noon, our map had three new bird feeding places marked on it. We left the beach with useful notes and one more pair of eyes to help."
+  ],
+  "zh": [
+    "5月14日，贝壳湾。镇议会启动了一项保护海滨鸟类的计划。今天是我们第一天早上来清点鸟的数量。我带着一个装有旧鸟类记录的文件夹和一张地图。我的助手莉娜在一家航空公司工作，休息日会观察鸟类。七点，我们在一家关着门的食品店附近发现了十二只棕色小鸟。",
+    "垃圾桶下面的沙地上散落着几块炸鱼。鸟儿正啄扯着鱼块，但我们没有给它们喂食。我们提醒自己保持距离，安静观察。莉娜提了个建议：镇议会可以给垃圾桶加一个盖子。我们记下了这个建议，然后清点了水边另一种鸟的数量。这些鸟有黑色的头和鲜红色的腿。",
+    "九点，一位名叫阿玛拉的女演员从马路对面的小剧场走了过来。她停下来，主动提出给我们一些水。我们指给她看鸟儿觅食的地方。她同意每天早上上班前记录鸟的数量。到中午时，我们的地图上新标出了三处鸟类觅食地。离开海滩时，我们不仅带着有用的笔记，还多了一位愿意帮忙的观察者。"
+  ],
+  "q": [
+    {
+      "s": "The two observers gave the birds pieces of fish.",
+      "a": "F",
+      "why": "第二段明确说他们没有给鸟喂食。"
+    },
+    {
+      "s": "Amara had helped count birds before.",
+      "a": "NG",
+      "why": "文中未说明阿玛拉以前是否帮忙数过鸟。"
+    },
+    {
+      "s": "Amara agreed to record bird numbers each morning before work.",
+      "a": "T",
+      "why": "她答应每天早上上班前记录鸟的数量。"
+    }
+  ]
+}

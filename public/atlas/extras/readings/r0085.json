@@ -1,0 +1,46 @@
+{
+  "id": "r0085",
+  "ids": [
+    "proud",
+    "simple",
+    "yet",
+    "jewelry",
+    "distance",
+    "underground",
+    "refuse",
+    "lazy",
+    "scary",
+    "grandson"
+  ],
+  "title": "Why the Cave Walls Shine",
+  "titleZh": "洞壁为什么闪闪发光",
+  "topic": "government",
+  "cefr": 1,
+  "paras": [
+    "The town council keeps a small cave open to visitors. Inside, white crystals cover parts of the walls. They shine like [[jewelry|jewelry]] when a light falls on them. Guide Amara takes her [[grandson|grandson]], Leo, there one morning. The entrance looks [[scary|scary]], but the path is safe. They walk a short [[distance|distance]] from the gate and stop beside an [[underground|underground]] pool. Here, Amara explains how the shining walls form.",
+    "The process is quite [[simple|simple]]. Rain passes through the soil and into cracks in the rock. As it travels, it picks up tiny amounts of minerals. When this water reaches the cave, it can leave some minerals behind. Slowly, these build up into crystals. Some are no bigger than a grain of rice. Others have grown for many years. A wet patch has no crystals [[yet|yet]]. This does not mean nature is [[lazy|lazy]]: crystal growth takes a very long time.",
+    "The council asks visitors not to touch the walls. Oil from hands can dirty the crystals, and thin pieces break easily. Guides [[refuse|refuse]] to let anyone take crystals home. Leo keeps his hands away and explains the rule to another visitor. Amara feels [[proud|proud]] of him. The crystals can keep growing, one tiny drop at a time."
+  ],
+  "zh": [
+    "镇议会管理着一个向游客开放的小洞穴。洞内，一部分岩壁上布满了白色晶体。灯光照上去时，它们像首饰一样闪闪发亮。一天早晨，导游阿玛拉带着她的孙子或外孙利奥来到这里。洞口看起来有些吓人，但小路很安全。他们从入口走了一小段路，在一个地下水池旁停下。阿玛拉在这里解释了这些闪亮的洞壁是怎样形成的。",
+    "这个过程很简单。雨水穿过土壤，流入岩石的裂缝。流动时，水中会溶入极少量的矿物质。当这些水流入洞穴时，可能会留下一些矿物质。慢慢地，它们积累起来，形成晶体。有些晶体不比一粒米大，另一些则已经生长了很多年。有一块潮湿的地方还没有晶体。这并不意味着大自然懒惰：晶体的生长需要很长时间。",
+    "镇议会要求游客不要触摸洞壁。手上的油脂会弄脏晶体，薄薄的晶体也很容易折断。导游不允许任何人把晶体带回家。利奥没有伸手触碰，还向另一位游客解释了这条规定。阿玛拉为他感到自豪。晶体可以继续生长，随着一小滴一小滴的水慢慢积累。"
+  ],
+  "q": [
+    {
+      "s": "Visitors can enter the cave with the town council's permission.",
+      "a": "T",
+      "why": "首段说明镇议会让小洞穴向游客开放。"
+    },
+    {
+      "s": "The crystals form quickly once water enters the cave.",
+      "a": "F",
+      "why": "第二段说明晶体生长需要很长时间。"
+    },
+    {
+      "s": "Leo plans to become a cave guide when he grows up.",
+      "a": "NG",
+      "why": "文中未提到利奥长大后的职业打算。"
+    }
+  ]
+}

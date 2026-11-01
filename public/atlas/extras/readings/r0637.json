@@ -1,0 +1,48 @@
+{
+  "id": "r0637",
+  "ids": [
+    "humanities",
+    "vegetation",
+    "clothe",
+    "marginal",
+    "intellect",
+    "ordeal",
+    "underlying",
+    "deformation",
+    "domain",
+    "pneumonia"
+  ],
+  "title": "The City's Borrowed Clothes",
+  "titleZh": "城市里的借用衣物",
+  "topic": "city",
+  "cefr": 4,
+  "paras": [
+    "In nineteenth-century industrial cities, charitable clothing rooms emerged alongside soup kitchens. Their purpose was not simply to [[clothe|clothe]] people against the cold: a respectable coat could also secure admission to a job interview. For families whose earnings barely covered rent, even a [[marginal|marginal]] increase in household expenses could make replacing worn boots impossible.",
+    "Early clothing rooms depended on donated garments, which volunteers sorted, washed and repaired. A courtyard stripped of [[vegetation|vegetation]] might accommodate drying lines, while an upstairs room became a workshop. Cleaning presented technical difficulties: excessive heat caused shrinkage and [[deformation|deformation]], rendering an otherwise serviceable jacket almost unwearable. What appeared to be simple generosity therefore required considerable practical knowledge.",
+    "Distribution, however, could become an [[ordeal|ordeal]]. Applicants sometimes faced intrusive questions intended to distinguish unavoidable hardship from supposed irresponsibility. A household recovering from [[pneumonia|pneumonia]] might be asked to explain weeks of lost wages. The [[underlying|underlying]] assumption was that assistance required moral supervision; poverty was frequently treated as evidence of defective character, rather than a condition unrelated to [[intellect|intellect]] or effort.",
+    "Over time, clothing assistance increasingly entered the [[domain|domain]] of organised social welfare, although older charitable practices persisted. Surviving account books now interest researchers in the [[humanities|humanities]], because entries recording a skirt or a child's shoes reveal negotiations over dignity as well as material need. The clothing room's history is thus larger than its modest inventory: each repaired seam connected the private vulnerability of a household with the public life of the city."
+  ],
+  "zh": [
+    "在十九世纪的工业城市，出现了与施粥所并存的慈善衣物发放站。它们的目的不仅是为人们提供衣物以抵御寒冷：一件体面的外套还可能让人获得参加求职面试的机会。对于收入仅够支付房租的家庭来说，即使家庭开支略有增加，也可能使他们无力更换已经穿破的靴子。",
+    "早期的衣物发放站依靠捐赠的衣物，由志愿者进行分类、清洗和修补。清除了植被的院子可能被用来架设晾衣绳，楼上的房间则可能成为工作间。清洗也有技术上的难题：温度过高会造成缩水和变形，使一件原本还能穿的夹克几乎无法再用。因此，看似简单的善举，其实需要相当丰富的实用知识。",
+    "然而，领取衣物可能成为一场煎熬。申请者有时必须回答侵犯隐私的问题，以便让发放者区分他们的困境究竟是迫不得已，还是所谓的不负责任所致。一个刚经历肺炎、正在恢复正常生活的家庭，可能被要求解释为何连续数周没有工资收入。其背后的假设是，救助必须伴随道德监督；贫困往往被视为品行有缺陷的证据，而不是一种与智力或努力程度无关的处境。",
+    "随着时间推移，衣物援助日益进入有组织的社会福利领域，尽管旧有的慈善做法仍然存在。如今，留存下来的账簿引起了人文学科研究者的兴趣，因为那些记录一条裙子或一双童鞋的条目，不仅反映物质需求，也揭示了围绕尊严展开的协商。因此，衣物发放站的历史远不止那份简朴的物品清单：每一道修补过的接缝，都将家庭不为外人所见的脆弱与城市的公共生活连接起来。"
+  ],
+  "q": [
+    {
+      "s": "Clothing charities could help recipients pursue employment as well as protect them from low temperatures.",
+      "a": "T",
+      "why": "首段指出体面外套也能帮助获得面试机会。"
+    },
+    {
+      "s": "Preparing donated clothes for reuse required little practical knowledge.",
+      "a": "F",
+      "why": "第二段明确指出需要丰富的实用知识。"
+    },
+    {
+      "s": "Most surviving clothing-room account books are held in university libraries.",
+      "a": "NG",
+      "why": "末段提及留存账簿，但未说明收藏地点。"
+    }
+  ]
+}

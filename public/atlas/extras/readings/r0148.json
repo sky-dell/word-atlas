@@ -1,0 +1,46 @@
+{
+  "id": "r0148",
+  "ids": [
+    "oil",
+    "bean",
+    "fail",
+    "introduce",
+    "dancer",
+    "unlucky",
+    "impossible",
+    "ahead",
+    "luggage",
+    "steak"
+  ],
+  "title": "Bags on the Old Beach Road",
+  "titleZh": "旧海滩路上的行李",
+  "topic": "history",
+  "cefr": 1,
+  "paras": [
+    "At a small history museum, Mina found a picture of travellers carrying bags along a beach in 1850. Their ship used wind, not fuel made from [[oil|oil]]. Why did they carry their [[luggage|luggage]] instead of using a cart? Mina planned an experiment on a nearby beach. She [[introduce|introduced]] Pavel, a local [[dancer|dancer]], to Rosa, a baker. They agreed to help her test two ways of moving the bags.",
+    "Mina put clothes and lunch boxes inside four bags. Each lunch box held cooked [[bean|beans]] and a piece of [[steak|steak]], like the meal described in an old traveller's letter. Each volunteer had to move two bags over fifty metres. Rosa pulled a small wooden cart. Pavel carried his bags and soon moved [[ahead|ahead]]. Rosa was [[unlucky|unlucky]]: one wheel hit a hidden stone. She pulled again, but [[fail|failed]] to move the cart.",
+    "At first, Rosa thought it was [[impossible|impossible]] to finish. Then she lifted the bags and carried them. After lunch, they changed jobs and repeated the test. Again, carrying was faster because the narrow wheels sank into the soft sand. The experiment could not explain every journey in the past, but it gave Mina a useful answer. Beside the picture, she placed a small sign: sometimes, two hands worked better than two wheels."
+  ],
+  "zh": [
+    "在一家小型历史博物馆里，米娜发现了一幅画，画中是1850年沿着海滩提行李的旅客。他们乘坐的船靠风行驶，而不是使用石油制成的燃料。他们为什么提着行李，而不用手推车呢？米娜计划在附近的海滩做一个实验。她把当地的舞者帕维尔介绍给面包师罗莎。他们同意帮她测试两种搬运行李的方法。",
+    "米娜把衣服和饭盒放进四个包里。每个饭盒都装着煮熟的豆子和一块牛排，与一封旧时旅客的信中描述的饭菜相似。每位志愿者都要把两个包搬到五十米外。罗莎拉着一辆小木车。帕维尔提着自己的包，很快就走到了前面。罗莎运气不好：一个车轮撞上了一块藏在沙里的石头。她再次用力拉，却没能拉动车子。",
+    "起初，罗莎觉得不可能完成任务。然后，她拿起包，提着它们走。午饭后，两人交换任务，再做了一次测试。结果仍然是手提更快，因为窄窄的车轮会陷进松软的沙子里。这个实验无法解释过去的每一次旅程，但它给了米娜一个有用的答案。她在画旁放了一块小牌子，上面写着：有时，两只手比两个轮子更管用。"
+  ],
+  "q": [
+    {
+      "s": "The travellers' ship used fuel made from oil.",
+      "a": "F",
+      "why": "船靠风行驶，不使用石油制成的燃料。"
+    },
+    {
+      "s": "Rosa cooked the food in the lunch boxes.",
+      "a": "NG",
+      "why": "文章说明了饭盒里的食物，但未说明谁做的。"
+    },
+    {
+      "s": "Carrying the bags was faster than using the cart in the second test.",
+      "a": "T",
+      "why": "交换任务再次测试后，手提仍然更快。"
+    }
+  ]
+}

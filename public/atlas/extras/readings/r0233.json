@@ -1,0 +1,48 @@
+{
+  "id": "r0233",
+  "ids": [
+    "sandy",
+    "tradition",
+    "atlantic",
+    "whistle",
+    "strength",
+    "tear",
+    "navy",
+    "brief",
+    "pole",
+    "unique"
+  ],
+  "title": "The Flags of Shell Bay",
+  "titleZh": "贝壳湾的旗帜",
+  "topic": "society",
+  "cefr": 2,
+  "paras": [
+    "Visitors usually come to Shell Bay for its [[sandy|sandy]] beach beside the [[atlantic|Atlantic]]. However, on the first Saturday of June, the village offers something different. Families carry small cloth flags down to the water, continuing a [[tradition|tradition]] that began when fishing boats stayed at sea for weeks.",
+    "At a wooden table, a flag maker called Ines welcomes visitors. Each family adds a picture connected to its life: a fish, a garden flower or even a favourite cake. Together, these pictures make every flag [[unique|unique]]. Ines shows me how to [[tear|tear]] old cotton into narrow strips, which we tie around the edges. Nothing needs to look perfect.",
+    "Near the harbour, Tomas, who once served in the [[navy|navy]], gives a [[brief|brief]] welcome. Then he [[whistle|whistles]], and everyone gathers around a long wooden [[pole|pole]]. We tie our flags along it. Lifting it upright takes real [[strength|strength]], so several adults work together while children stand back and watch.",
+    "There is no prize for the prettiest design. Instead, people share bread and tell the stories behind their pictures. Ines explains that the flags once helped returning sailors recognise their families on shore. As mine rises among the others, this small celebration feels less like a show for visitors and more like an invitation to belong."
+  ],
+  "zh": [
+    "游客通常是为了大西洋岸边铺满沙子的海滩而来到贝壳湾。不过，在六月的第一个星期六，村里会有一番不同的景象。各家各户把小布旗带到水边，延续着一项传统。这项传统始于渔船一出海就要待上好几个星期的年代。",
+    "在一张木桌旁，名叫伊内斯的制旗人欢迎游客前来。每家都会在旗上添一个与自家生活有关的图案：一条鱼、一朵花园里的花，甚至是一块最爱的蛋糕。这些图案组合在一起，让每面旗都独一无二。伊内斯教我把旧棉布撕成窄条，再把布条系在旗的边缘。不必样样都做得完美。",
+    "港口附近，曾在海军服役的托马斯简短地致了欢迎词。随后，他吹响口哨，大家便围到一根长木杆旁。我们沿着木杆系上各自的旗帜。把木杆抬起来立直着实需要力气，因此几位大人一起动手，孩子们则退到一旁观看。",
+    "这里不会给最漂亮的图案颁奖。大家一起分享面包，讲述各自图案背后的故事。伊内斯解释说，过去，这些旗帜能帮助归来的水手认出岸上的家人。当我做的旗帜也在其他旗帜间升起时，这场小小的庆祝活动给我的感觉，与其说是给游客看的表演，不如说是一份邀请，邀请我成为他们中的一员。"
+  ],
+  "q": [
+    {
+      "s": "Ines learned how to make flags from her grandmother.",
+      "a": "NG",
+      "why": "文中未提到伊内斯向谁学习制旗。"
+    },
+    {
+      "s": "Tomas used to serve in the navy.",
+      "a": "T",
+      "why": "第三段明确说托马斯曾在海军服役。"
+    },
+    {
+      "s": "The family with the most attractive flag receives an award.",
+      "a": "F",
+      "why": "末段明确说最漂亮的图案也没有奖品。"
+    }
+  ]
+}

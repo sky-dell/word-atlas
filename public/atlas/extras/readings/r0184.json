@@ -1,0 +1,48 @@
+{
+  "id": "r0184",
+  "ids": [
+    "hut",
+    "sour",
+    "currency",
+    "qualification",
+    "issue",
+    "indoors",
+    "amaze",
+    "maker",
+    "solution",
+    "therefore"
+  ],
+  "title": "A Small Card, More Jam Sales",
+  "titleZh": "一张小卡片带动果酱销量",
+  "topic": "economy",
+  "cefr": 2,
+  "paras": [
+    "At a mountain market, Leila sold plum jam from a wooden [[hut|hut]]. Visitors enjoyed its slightly [[sour|sour]] taste, but few bought a jar. Each cost twelve units of the local [[currency|currency]]. Leila wondered whether the real [[issue|issue]] was the price or a lack of trust in an unfamiliar food.",
+    "She had recently earned a [[qualification|qualification]] in food safety. However, customers could not tell this by looking at her jars. With help from Tomas, a basket [[maker|maker]] at the market, she planned a simple experiment. For one weekend, they invited visitors [[indoors|indoors]] to taste the jam, one person at a time.",
+    "They showed every second visitor a card explaining Leila's training. The other visitors saw a card of the same size describing the plums' colour. Both groups received the same amount of jam, and the price stayed unchanged. Tomas recorded whether each person bought a jar. They tested eighty visitors altogether, with forty in each group.",
+    "The results [[amaze|amazed]] Leila: twenty-four people who read about her training bought jam, compared with eleven in the other group. This small test did not prove that training information would always increase sales. It did, however, suggest a cheap [[solution|solution]] to her problem. She [[therefore|therefore]] placed her certificate beside the jars instead of lowering the price."
+  ],
+  "zh": [
+    "在一处山间集市上，莱拉在一间木棚屋里卖李子果酱。游客喜欢它微酸的味道，却很少有人买上一罐。每罐售价为十二个当地货币单位。莱拉想知道，真正的问题究竟是价格，还是大家对这种陌生食品不够信任。",
+    "她最近取得了食品安全资格证书。然而，顾客光看果酱罐子并不知道这一点。在集市上编篮子的托马斯帮助下，她设计了一个简单的实验。他们利用一个周末，邀请游客进入屋内品尝果酱，每次只接待一人。",
+    "他们每隔一位游客，就向下一位展示一张介绍莱拉所受培训的卡片。其余游客看到的卡片大小相同，内容则是描述李子的颜色。两组游客品尝的果酱分量相同，价格也保持不变。托马斯记录了每个人是否购买果酱。他们总共测试了八十位游客，每组四十人。",
+    "结果让莱拉大吃一惊：读过培训介绍的人中，有二十四人买了果酱，而另一组只有十一人购买。这个小实验并不能证明，介绍培训经历总能提高销量。不过，它确实为她的问题提供了一个成本低廉的解决思路。因此，她把证书摆在果酱旁边，而没有降价。"
+  ],
+  "q": [
+    {
+      "s": "At first, each jar of Leila's jam cost twenty units of the local currency.",
+      "a": "F",
+      "why": "文中最初的售价是每罐十二个货币单位。"
+    },
+    {
+      "s": "Leila's food safety training lasted three months.",
+      "a": "NG",
+      "why": "文章提到她取得资格，但未说明培训时长。"
+    },
+    {
+      "s": "After the test, Leila displayed her certificate instead of reducing the price.",
+      "a": "T",
+      "why": "实验后她把证书摆在果酱旁边，没有降价。"
+    }
+  ]
+}

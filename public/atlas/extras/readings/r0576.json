@@ -1,0 +1,48 @@
+{
+  "id": "r0576",
+  "ids": [
+    "convict",
+    "drunkard",
+    "hound",
+    "formulation",
+    "capitalism",
+    "predominance",
+    "thrift",
+    "quiver",
+    "perpetual",
+    "refute"
+  ],
+  "title": "Reading an Island's Ruins",
+  "titleZh": "读懂海岛遗迹",
+  "topic": "travel",
+  "cefr": 4,
+  "paras": [
+    "Visitors arriving on Bellweather Island encounter a settlement apparently suspended outside time: roofless workshops, a narrow prison yard and grass that seems to [[quiver|quiver]] under a [[perpetual|perpetual]] wind. Yet the island's new walking trail treats these ruins not as picturesque scenery but as evidence. Its central question is surprisingly practical: how did an isolated community keep its possessions working?",
+    "Archaeologist Mara Okafor began the [[formulation|formulation]] of the route by comparing excavated objects with nineteenth-century inventories. One ledger lists a [[convict|convict]] assigned to mend boots; another records food supplied for a tracking [[hound|hound]]. A supervisor dismisses a carpenter as a '[[drunkard|drunkard]]', an insult which, the trail explains, reveals the writer's judgement rather than establishing a medical fact about the man.",
+    "The most revealing display contains thirty ceramic bowls, twenty-four repaired with metal staples. This [[predominance|predominance]] of repaired vessels suggests that [[thrift|thrift]] was embedded in daily routines, although objects alone cannot establish whether necessity or personal preference motivated it. Private suppliers operated within expanding industrial [[capitalism|capitalism]], selling manufactured goods to the settlement, but irregular deliveries made replacement costly. Repair therefore connected distant commercial networks with intimate household decisions.",
+    "At the final stop, visitors inspect a building once advertised as an untouched prison kitchen. Modern cement beneath its hearth and dated restoration photographs [[refute|refute]] that claim: much of the structure was rebuilt. Rather than diminishing the journey, this discovery sharpens it. The island becomes interesting not because everything is original, but because careful observation can distinguish survival, adaptation and reconstruction."
+  ],
+  "zh": [
+    "抵达贝尔韦瑟岛的游客，会看到一处仿佛停驻在时间之外的聚落：没有屋顶的作坊、狭窄的监狱院落，以及似乎在永不停歇的风中轻颤的青草。然而，岛上新设的步行游览路线并不把这些遗迹当作如画的风景，而是将其视为证据。路线围绕的问题出人意料地务实：一个与外界隔绝的社区，如何让自己的物品一直保持可用？",
+    "考古学家玛拉·奥卡福在构思这条路线时，首先将出土物品与十九世纪的物资清单进行比对。一本账簿记载了一名被派去修补靴子的服刑犯；另一本则记录了为一只追踪猎犬供应的食物。一名监工将一位木匠贬称为“酒鬼”。游览路线的解说指出，这种侮辱性称呼反映的是记录者的评判，而不能确立有关此人健康状况的医学事实。",
+    "最能说明问题的一组展品包括三十只陶碗，其中二十四只曾用金属锔钉修补过。修补过的器皿占据多数，表明节俭可能已融入日常生活，不过，仅凭器物无法确定其背后的动机是现实需要还是个人偏好。在不断扩张的工业资本主义体系下，私人供应商向聚落出售工业制品，但供货时间不稳定，使更换物品的成本十分高昂。因此，修补行为将远方的商业网络与家庭内部的日常决策联系了起来。",
+    "在最后一站，游客会仔细观察一座曾被宣传为原貌完好的监狱厨房的建筑。炉床下的现代水泥以及标有日期的修复照片推翻了这一说法：建筑的大部分结构都曾重建。这一发现并没有让旅程逊色，反而使游客的认识更加敏锐。海岛之所以有趣，并非因为一切都保持原样，而是因为细致观察能让人分辨哪些是留存，哪些是改造，哪些是重建。"
+  ],
+  "q": [
+    {
+      "s": "The carpenter criticised by the supervisor also repaired boots.",
+      "a": "NG",
+      "why": "文中未说明该木匠是否也是修靴子的服刑犯。"
+    },
+    {
+      "s": "Most of the ceramic bowls in the display had never been repaired.",
+      "a": "F",
+      "why": "三十只陶碗中有二十四只修补过。"
+    },
+    {
+      "s": "Much of the building advertised as an untouched prison kitchen had been rebuilt.",
+      "a": "T",
+      "why": "末段明确说明该建筑的大部分结构曾重建。"
+    }
+  ]
+}

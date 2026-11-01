@@ -1,0 +1,46 @@
+{
+  "id": "r0015",
+  "ids": [
+    "fourth",
+    "today",
+    "plane",
+    "job",
+    "supermarket",
+    "kitchen",
+    "when",
+    "north",
+    "sugar",
+    "husband"
+  ],
+  "title": "An Old Way to Grow Sweets",
+  "titleZh": "让糖果长出来的老方法",
+  "topic": "history",
+  "cefr": 0,
+  "paras": [
+    "Long ago, sweet makers grew little stones of [[sugar|sugar]] in jars. These were not real stones. They were sweet crystals, and people could eat them. [[today|Today]], Hana uses this old way to make sweets. She lives in the [[north|north]], in a small town. Food often comes there by [[plane|plane]]. Her [[job|job]] is selling food at the town's [[supermarket|supermarket]].",
+    "At home, Hana puts a glass jar on her [[kitchen|kitchen]] table. Her [[husband|husband]] helps her. She adds sugar to hot water and mixes it. She adds more, a little at a time. At last, a few grains stay at the bottom. Hot water can hold more sugar than cold water. She pours the sweet water into the jar and leaves those grains behind. Then she hangs a clean string in it, with one end above the water.",
+    "\"[[when|When]] can we eat our sweets?\" her husband asks. \"We must wait,\" Hana says. As the water cools, some of the sugar forms crystals on the string. Water also slowly leaves the jar and goes into the air. By the [[fourth|fourth]] day, they can see small crystals. The crystals grow bigger over time. Each morning, Hana and her husband look into the jar to see how big they are."
+  ],
+  "zh": [
+    "很久以前，做糖果的人会在罐子里培育小小的“糖石头”。这些不是真正的石头，而是可以吃的甜甜的晶体。今天，哈娜用这种老方法做糖果。她住在北方的一个小镇。食物常常由飞机运到那里。她的工作是在镇上的超市卖食品。",
+    "在家里，哈娜把一个玻璃罐放在厨房的桌子上。她的丈夫帮她一起做。她把糖加入热水中并搅拌。她继续加糖，每次加一点。最后，有几粒糖留在底部。热水能溶解的糖比冷水多。她把糖水倒进罐子里，把那几粒糖留在原处。然后，她在罐子里悬挂一根干净的线，让线的一端露在水面上方。",
+    "“我们什么时候能吃糖果？”她的丈夫问。“我们得等一等，”哈娜说。糖水冷却时，一部分糖会在线上形成晶体。水也会慢慢离开罐子，进入空气中。到了第四天，他们就能看见小晶体了。随着时间过去，晶体越来越大。每天早晨，哈娜和她的丈夫都会看看罐子里的晶体有多大了。"
+  ],
+  "q": [
+    {
+      "s": "Hana does not use the old way to make sweets.",
+      "a": "F",
+      "why": "第一段明确说哈娜用这种老方法做糖果。"
+    },
+    {
+      "s": "Hot water can hold more sugar than cold water.",
+      "a": "T",
+      "why": "第二段明确说热水能溶解更多糖。"
+    },
+    {
+      "s": "Hana and her husband eat the crystals after seven days.",
+      "a": "NG",
+      "why": "文章没有说明他们在哪一天吃糖。"
+    }
+  ]
+}

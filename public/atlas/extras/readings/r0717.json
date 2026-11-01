@@ -1,0 +1,48 @@
+{
+  "id": "r0717",
+  "ids": [
+    "strife",
+    "skirmish",
+    "scum",
+    "slithery",
+    "dainty",
+    "contemptuous",
+    "photostatic",
+    "irrevocable",
+    "averagely",
+    "genus"
+  ],
+  "title": "The Marsh Behind the Wall",
+  "titleZh": "堤墙后的湿地",
+  "topic": "nature",
+  "cefr": 5,
+  "paras": [
+    "By August, yellow [[scum|scum]] covered the surface of Merewick Marsh, where [[dainty|dainty]] white flowers once punctuated the reeds. The deterioration intensified longstanding [[strife|strife]] between eel fishers and neighbouring orchard owners, each accusing the other of obstructing drainage. After a brief [[skirmish|skirmish]] between their rival night patrols left two nets torn, ecologist Leila Sen was asked to investigate.",
+    "The orchard spokesman was openly [[contemptuous|contemptuous]] of her proposal to consult estate records: surely pollution required chemical treatment, not antiquarian research. Yet a [[photostatic|photostatic]] copy of an 1891 survey revealed a narrow tidal channel beneath what was now a stone embankment. Its closure, Leila suspected, had deprived the marsh of periodic flushing.",
+    "Before recommending an expensive breach, she installed three experimental tanks beside the sluice. Reeds performed only [[averagely|averagely]] as filters, removing some nutrients but leaving the water cloudy. In another tank, controlled seawater pulses dispersed the surface film. This limited result supported a cautious trial of water exchange, not a prediction of ecological recovery.",
+    "Because demolishing the embankment would be effectively [[irrevocable|irrevocable]], Leila proposed a removable gate within the blocked channel. Fishers supplied a workboat; orchard owners lent lifting equipment, conditional on daily salinity measurements at their wells. By October, tides were clearing stagnant pools; the monitored wells showed no salinity increase. Near the gate, Leila observed [[slithery|slithery]] juvenile eels and shoots of a salt-tolerant [[genus|genus]]. Whether these signs would persist remained uncertain."
+  ],
+  "zh": [
+    "到了八月，黄色浮渣覆盖了米尔威克湿地的水面，而这里的芦苇间曾点缀着小巧秀美的白花。环境恶化加剧了鳗鱼捕捞者与邻近果园主人之间由来已久的纷争，双方都指责对方阻碍排水。两边的夜间巡逻队发生了一场短暂冲突，造成两张渔网破损，此后生态学家莱拉·森受邀前来调查。",
+    "果园方面的发言人对她查阅庄园档案的提议公然表示轻蔑：污染明明需要化学处理，何必钻研故纸堆？然而，一份1891年测绘图的照相复制件显示，如今的石堤下方原有一条狭窄的潮汐水道。莱拉怀疑，水道被封堵后，湿地失去了周期性的水流冲刷。",
+    "在建议花费巨资破堤之前，她先在水闸旁设置了三个实验水槽。芦苇作为过滤介质表现平平，虽去除了一些营养物质，却未能让水变清。在另一个水槽中，受控的间歇性海水注入驱散了水面浮膜。这一有限的结果支持谨慎开展水体交换试验，却不足以预测生态恢复。",
+    "由于拆毁石堤实际上将无法挽回，莱拉建议在被封堵的水道中安装一道可拆卸的闸门。捕鳗者提供了一艘作业船，果园主人则借出了起重设备，条件是每天检测他们井水的盐度。到了十月，潮水正逐渐清除死水潭中的污浊；受监测井水的盐度未见上升。在闸门附近，莱拉观察到了蜿蜒滑行的幼鳗和某个耐盐植物属的嫩芽。这些迹象是否会持续，仍不确定。"
+  ],
+  "q": [
+    {
+      "s": "The dispute between the fishers and orchard owners began only after the marsh deteriorated.",
+      "a": "F",
+      "why": "湿地恶化加剧的是早已存在的纷争。"
+    },
+    {
+      "s": "The reeds removed some nutrients without making the tank water clear.",
+      "a": "T",
+      "why": "第三段说芦苇去除部分营养物质，水仍浑浊。"
+    },
+    {
+      "s": "The orchard owners paid a larger share of the gate’s construction costs than the fishers.",
+      "a": "NG",
+      "why": "末段仅说明提供设备，未比较费用分担。"
+    }
+  ]
+}

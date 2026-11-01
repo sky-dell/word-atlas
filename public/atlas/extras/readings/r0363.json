@@ -1,0 +1,48 @@
+{
+  "id": "r0363",
+  "ids": [
+    "candidate",
+    "encyclopedia",
+    "swollen",
+    "reputation",
+    "refresh",
+    "silky",
+    "housekeeper",
+    "strain",
+    "straighten",
+    "accuracy"
+  ],
+  "title": "Behind the Velvet Curtain",
+  "titleZh": "天鹅绒幕布背后",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "Visitors to the small coastal town of Bellara often photograph its painted theatre ceiling, but few notice the workshop behind the stage. Here, curtain maker Mira Sen repairs the heavy fabrics that frame each performance. The theatre's [[reputation|reputation]] rests partly on these curtains, whose deep colours have survived decades of sea air.",
+    "When I visited, Mira was interviewing a [[candidate|candidate]] for an assistant's job. Tomas had worked as a hotel [[housekeeper|housekeeper]], and his experience handling delicate bed linen interested her. Instead of asking many questions, she invited him to [[straighten|straighten]] a folded strip of velvet without crushing its [[silky|silky]] surface. He moved slowly, supporting the material with both hands rather than pulling it.",
+    "An illustrated [[encyclopedia|encyclopedia]] of textiles lay open beside them. Mira used it to check the [[accuracy|accuracy]] of a replacement pattern, comparing a drawing with the faded flowers along the curtain's edge. With her [[swollen|swollen]] ankle resting on a stool after a recent fall, she explained that lifting such enormous curtains placed considerable [[strain|strain]] on a small team. Hiring help would allow her to concentrate on the finer stitching.",
+    "At noon, we stepped into the courtyard to [[refresh|refresh]] ourselves in the cool sea breeze. Tomas had not yet been offered the position, but Mira asked him to return for another trial. That evening, watching the curtain rise, I found myself looking beyond its flowers to the careful hands that kept them moving."
+  ],
+  "zh": [
+    "来到海滨小镇贝拉拉的游客，常常会拍摄剧院里绘有图案的天花板，却很少注意舞台后面的工作间。在这里，幕布制作师米拉·森修补着每场演出都要用到的厚重帷幕。剧院的声誉有一部分要归功于这些幕布：经历了数十年海风的侵袭，它们依然保留着浓郁的色彩。",
+    "我到访时，米拉正在面试一位应聘助手的求职者。托马斯曾做过酒店客房服务员，他处理精细床品的经验引起了她的兴趣。她没有问太多问题，而是请他把一条折叠的天鹅绒理直，同时不能压坏那丝般柔滑的表面。他动作缓慢，用双手托住布料，而不是用力拉扯。",
+    "一本配有插图的纺织品百科全书摊开放在两人身旁。米拉用它来核对补配图案是否准确，将书中的图画与幕布边缘褪色的花朵作比较。她最近摔了一跤，此时正把肿胀的脚踝搁在凳子上。她解释说，抬起如此巨大的幕布，给这个小团队带来了相当大的负担。雇一名助手，就能让她专注于更精细的缝补工作。",
+    "中午，我们走进院子，在凉爽的海风中恢复精神。托马斯还没有获得这份工作，但米拉请他再来试工一次。那天晚上，看着幕布升起，我发现自己的目光越过了上面的花朵，想到那些让它们不断升降的、细致工作的双手。"
+  ],
+  "q": [
+    {
+      "s": "Mira assessed Tomas mainly through a lengthy series of interview questions.",
+      "a": "F",
+      "why": "她没有多问，而是让他实际整理天鹅绒。"
+    },
+    {
+      "s": "Mira expected an assistant to give her more time for finer stitching.",
+      "a": "T",
+      "why": "第三段说雇助手能让她专注于精细缝补。"
+    },
+    {
+      "s": "Mira asked Tomas to attend his next trial the following morning.",
+      "a": "NG",
+      "why": "只说请他再来试工，未说明具体日期。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0231",
+  "ids": [
+    "treatment",
+    "self-service",
+    "honest",
+    "tractor",
+    "yell",
+    "victim",
+    "damage",
+    "sponge",
+    "arrest",
+    "living"
+  ],
+  "title": "A Garden Worth Returning To",
+  "titleZh": "值得重返的花园",
+  "topic": "emotion",
+  "cefr": 2,
+  "paras": [
+    "For six years, Rosa had opened the village garden every Saturday. Then a man stole a [[tractor|tractor]] from a nearby farm and crashed through its gate. Rosa, a [[victim|victim]] of the crash, needed hospital [[treatment|treatment]] for a broken arm. Police [[arrest|arrested]] the driver that evening, but Rosa remained afraid to return.",
+    "Her neighbours started a small project called Saturday Together. Their aim was not just to repair the [[damage|damage]], but to make the garden feel safe again. Twelve people joined. While some fixed the gate, others saved the [[living|living]] plants under the broken shelves. They asked Rosa to choose flowers from home, without pressing her to visit.",
+    "Three weeks later, Rosa agreed to come for an hour. Amir gave her a [[sponge|sponge]] and a bowl of warm water to clean flowerpots. They worked quietly beside a [[self-service|self-service]] tea table, where visitors poured their own drinks. When Amir asked how she felt, her answer was [[honest|honest]]: she was pleased to see everyone, but sudden engine noises still frightened her.",
+    "The group continued meeting for two months. One morning, Rosa heard a child [[yell|yell]] with delight at the first red tomato. This time, she smiled instead of stepping back. By autumn, she was opening the gate herself again, although she now welcomed having someone beside her."
+  ],
+  "zh": [
+    "六年来，罗莎每周六都会打开村里花园的大门。后来，一名男子从附近的农场偷了一辆拖拉机，撞坏了花园的大门。罗莎是这次撞车事件的受害者，手臂骨折，需要到医院接受治疗。警方当晚逮捕了司机，但罗莎仍然害怕回到花园。",
+    "邻居们发起了一个名为“周六相伴”的小项目。他们不仅想修复损坏的地方，还希望让花园重新成为一个让人安心的地方。十二个人加入了项目。一些人修理大门，另一些人则救出倒塌架子下面还活着的植物。他们请罗莎在家挑选花卉，并不催她来花园。",
+    "三周后，罗莎同意来待一个小时。阿米尔给了她一块海绵和一碗温水，让她清洗花盆。他们在一张自助茶水桌旁安静地干活，来访者可以在那里自己倒饮料。阿米尔问她感觉如何，她如实回答：见到大家很开心，但突然响起的发动机声仍会让她害怕。",
+    "大家持续相聚了两个月。一天早晨，罗莎听见一个孩子看到第一颗红番茄时兴奋地大叫。这一次，她没有后退，而是露出了笑容。到了秋天，她又开始亲自打开花园大门，不过现在，她很乐意有人陪在身边。"
+  ],
+  "q": [
+    {
+      "s": "Rosa stopped being afraid to return to the garden once the driver was arrested.",
+      "a": "F",
+      "why": "司机被捕后，她仍害怕回到花园。"
+    },
+    {
+      "s": "The neighbours asked Rosa to choose flowers while she stayed at home.",
+      "a": "T",
+      "why": "邻居请她在家选花，没有催她到场。"
+    },
+    {
+      "s": "The tea provided at the garden was grown by Amir.",
+      "a": "NG",
+      "why": "文章未说明茶叶由谁种植。"
+    }
+  ]
+}

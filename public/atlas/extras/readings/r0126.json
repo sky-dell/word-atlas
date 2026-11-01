@@ -1,0 +1,46 @@
+{
+  "id": "r0126",
+  "ids": [
+    "toothache",
+    "temperature",
+    "enemy",
+    "snowboarding",
+    "skate",
+    "point",
+    "none",
+    "ocean",
+    "pleasant",
+    "borrow"
+  ],
+  "title": "Life Inside an Ice Station",
+  "titleZh": "冰上科考站里的生活",
+  "topic": "science",
+  "cefr": 1,
+  "paras": [
+    "Our class is reading a story about six scientists at an ice station beside the [[ocean|ocean]]. The station and the people are not real, but we have questions about their daily life. In the first chapter, the outside [[temperature|temperature]] falls to minus forty degrees. One scientist looks at a picture of a mountain famous for [[snowboarding|snowboarding]]. He wants a holiday there. At the station, there are no hills, but the team can [[skate|skate]] on a small area of smooth ice nearby.",
+    "In the next chapter, Pavel has a terrible [[toothache|toothache]]. The team has several medicines, but [[none|none]] can stop the pain completely. His roommate brings him warm soup because eating hard food hurts. Pavel writes a letter home. He makes an important [[point|point]] about their life together: back home, people call his roommate's country the [[enemy|enemy]], but here the two men work together every day. Pavel wants his family to know about his friend's help.",
+    "Our teacher asks us to imagine doing small jobs in the cold. We can [[borrow|borrow]] thick gloves from her and try turning the pages of our books. I turn three pages together by mistake. Then we read about dinner in the station's warm kitchen. It sounds like a [[pleasant|pleasant]] place to eat after working outside. I wonder what Pavel will be able to eat in the next chapter."
+  ],
+  "zh": [
+    "我们班正在读一个故事，讲的是六位科学家在海边一座冰上科考站的生活。科考站和人物都是虚构的，但我们对他们的日常生活有一些疑问。第一章里，室外温度降到零下四十度。一位科学家看着一张图片，图中是一座以单板滑雪运动闻名的山。他想去那里度假。科考站没有山坡，但队员们可以在附近一小片平滑的冰面上滑冰。",
+    "下一章里，帕维尔牙痛得很厉害。队员们有几种药，但没有一种能完全止痛。他的室友给他端来热汤，因为吃硬的食物会让他疼。他写了一封家信。他就他们共同的生活提出了一个重要观点：在家乡，人们把他室友的国家称为敌人，但在这里，两个人每天一起工作。帕维尔想让家人知道朋友对他的帮助。",
+    "老师让我们想象在寒冷中做一些小事。我们可以向她借厚手套，试着翻书页。我不小心一下翻了三页。然后，我们读到大家在科考站温暖的厨房里吃晚饭的情节。在外面工作后，能在那里吃饭，听起来很舒服。我想知道下一章里帕维尔能吃些什么。"
+  ],
+  "q": [
+    {
+      "s": "The six scientists stay at the station for eight months.",
+      "a": "NG",
+      "why": "文中未说明科学家在站里住多久。"
+    },
+    {
+      "s": "The medicines stop Pavel's pain completely.",
+      "a": "F",
+      "why": "没有一种药能完全止住他的牙痛。"
+    },
+    {
+      "s": "The teacher lets students borrow thick gloves.",
+      "a": "T",
+      "why": "学生可以向老师借厚手套。"
+    }
+  ]
+}

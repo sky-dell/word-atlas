@@ -1,0 +1,48 @@
+{
+  "id": "r0494",
+  "ids": [
+    "chief",
+    "indirectly",
+    "halt",
+    "man-made",
+    "absurd",
+    "boom",
+    "migration",
+    "volcanic",
+    "metric",
+    "obese"
+  ],
+  "title": "Lessons Along the Quarry Path",
+  "titleZh": "采石场小径上的课堂",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "In the hillside village of Bellara, a community group turned an abandoned quarry path into an outdoor classroom. Its [[chief|chief]] aim was to help adults understand the landscape beneath their feet. Twelve residents joined the first course, led by retired geography teacher Amira Das, who borrowed rock samples from a regional museum.",
+    "The quarry had supplied dark [[volcanic|volcanic]] stone during a building [[boom|boom]] a century earlier. That expansion had encouraged [[migration|migration]] from nearby farming districts, and several participants discovered their grandparents' names in old employment records. Family stories therefore contributed [[indirectly|indirectly]] to the lessons, helping explain why houses clustered around a deep, [[man-made|man-made]] lake beside the quarry.",
+    "Participants used [[metric|metric]] measurements to draw a scale map of the route. Initially, Amira's plan required everyone to complete two kilometres without resting. Tomas, a baker who was [[obese|obese]] and found steep slopes difficult, called this requirement [[absurd|absurd]]: the purpose was learning, not racing. His objection persuaded the group to add benches and divide the route into short sections. Heavy rain later forced them to [[halt|halt]] outdoor sessions for a fortnight, but mapping continued in the village hall.",
+    "By autumn, the group had installed six illustrated information boards, each combining geological evidence with a resident's memory. At the opening walk, Tomas explained how cooling lava had formed cracks in the stone. The project ended with no examination; instead, participants demonstrated their learning by guiding their neighbours along a path they now understood differently."
+  ],
+  "zh": [
+    "在山坡上的贝拉拉村，一个社区小组把一条废弃的采石场小径变成了户外课堂。项目的首要目标是帮助成年人了解脚下这片土地的地貌。十二位居民参加了第一期课程，由退休地理教师阿米拉·达斯带领。她从一家地区博物馆借来了岩石标本。",
+    "一个世纪前，当地建筑业迅速发展，这座采石场曾为其供应深色火山岩。那次扩张吸引了附近农业地区的人口迁入，几位参与者还在旧雇工记录中发现了祖辈的名字。因此，家庭故事间接丰富了课程内容，帮助大家理解为什么房屋会聚集在采石场旁一个深深的人工湖周围。",
+    "参与者采用公制单位进行测量，绘制路线的比例地图。起初，阿米拉的计划要求每个人中途不休息地走完两公里。面包师托马斯身体肥胖，走陡坡十分吃力，他认为这一要求很不合理：活动是为了学习，而不是赛跑。他的反对意见说服了小组增设长椅，并把路线分成几个短段。后来，大雨迫使他们暂停户外课程两周，但地图绘制工作仍在村里的活动大厅继续进行。",
+    "到秋天，小组已安装了六块图文并茂的解说牌，每一块都将地质证据与一位居民的回忆结合起来。在首次开放的步行活动中，托马斯讲解了熔岩冷却如何在岩石中形成裂缝。项目结束时没有考试；参与者通过带领邻居走过这条小径来展示学习成果，而他们如今对这条路已有了不同的理解。"
+  ],
+  "q": [
+    {
+      "s": "The course was primarily intended to improve adults' understanding of their local landscape.",
+      "a": "T",
+      "why": "首段指出主要目标是帮助成年人了解当地地貌。"
+    },
+    {
+      "s": "The old employment records were kept at the regional museum.",
+      "a": "NG",
+      "why": "文章未说明旧雇工记录保存在哪里。"
+    },
+    {
+      "s": "The group kept the original walking requirement despite Tomas's criticism.",
+      "a": "F",
+      "why": "托马斯反对后，小组增设长椅并分段行走。"
+    }
+  ]
+}

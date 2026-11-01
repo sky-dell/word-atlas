@@ -1,0 +1,48 @@
+{
+  "id": "r0710",
+  "ids": [
+    "defray",
+    "tantalize",
+    "denominate",
+    "pervade",
+    "malleable",
+    "salability",
+    "reportage",
+    "trite",
+    "vernacular",
+    "exhilarate"
+  ],
+  "title": "A Lane Rewrites Its Memory",
+  "titleZh": "一条小巷重写自己的记忆",
+  "topic": "thinking",
+  "cefr": 5,
+  "paras": [
+    "When a bakery wall in Alder Lane was demolished, its vanished inscription continued to [[tantalize|tantalize]] residents: everyone remembered a different sentence, yet no photograph surfaced. Rather than commission a plausible reconstruction, bookbinder Leila Sen proposed a neighbourhood workshop investigating how recollection acquires authority. Twelve residents met above a cobbler’s shop, bringing receipts, sketches and mutually incompatible certainties.",
+    "A weekend repair stall helped [[defray|defray]] the workshop’s expenses. Although several donors lived overseas, treasurer Mateo Varga [[denominate|denominated]] every contribution in euros, making the modest accounts readily comparable. Participants purchased thin copper sheets, sufficiently [[malleable|malleable]] to receive hand-stamped lettering. Their initial plan was to sell commemorative plaques, but disagreements about the inscription soon displaced calculations of [[salability|salability]].",
+    "At first, suspicion [[pervade|pervaded]] the meetings: correcting somebody’s memory seemed tantamount to questioning their belonging. Leila therefore asked each participant to distinguish remembered words from inferred meanings. A retired reporter, Hana Okeke, contributed observational [[reportage|reportage]] from three sessions, recording hesitations as carefully as assertions. Her notes exposed how the [[trite|trite]] phrase 'the heart of our community' had replaced several less polished recollections expressed in the lane’s [[vernacular|vernacular]].",
+    "The eventual plaque reproduced no supposedly definitive sentence. Instead, twelve narrow copper strips bore twelve attributed recollections, with gaps marking what nobody could retrieve. Seeing uncertainty made tangible [[exhilarate|exhilarated]] participants who had previously regarded disagreement as failure. Mounted beside the rebuilt wall, the work attracted fewer buyers than anticipated, but fulfilled a different purpose: residents now paused to compare accounts without demanding that one erase the others."
+  ],
+  "zh": [
+    "奥尔德巷的一面面包店外墙被拆除后，墙上消失的题字仍让居民们心心念念，却始终无法确认原貌：每个人记得的句子都不一样，也没有任何照片出现。装订师莱拉·森没有提议请人复原一个貌似可信的版本，而是建议组织邻里工作坊，探究回忆如何获得权威性。十二位居民聚在一家修鞋铺的楼上，带来了收据、草图，以及彼此矛盾却各自深信不疑的记忆。",
+    "周末开设的维修摊帮助支付了工作坊的开支。虽然几位捐助者住在海外，财务负责人马特奥·瓦尔加仍将每笔捐款统一以欧元计价，使这份金额不大的账目便于比较。参与者买来薄铜片，其延展性足以让他们用手工冲压的方式刻上文字。他们最初打算出售纪念牌，但围绕题字内容的分歧很快取代了对销路的盘算。",
+    "起初，猜疑弥漫在每次聚会中：纠正某人的记忆，似乎就等于质疑其是否真正属于这里。因此，莱拉请每位参与者区分自己记住的字句与后来推断出的含义。退休记者哈娜·奥凯克根据三次聚会的现场观察撰写了报道，对迟疑和断言给予同样细致的记录。她的笔记揭示了一个现象：老套的说法“我们社区的心脏”，已经取代了几段用巷子里的日常话语表达、并不那么精致的回忆。",
+    "最终制成的纪念牌没有复刻任何所谓的确切原句。取而代之的是十二条窄铜片，分别刻着十二段注明讲述者的回忆，空隙则代表无人能够追回的内容。看到不确定性有了具体形态，那些先前将分歧视为失败的参与者感到振奋。这件作品被安装在重建的墙旁，吸引的买家少于预期，却实现了另一种价值：居民如今会停下来比较不同的讲述，不再要求其中一种抹去其他版本。"
+  ],
+  "q": [
+    {
+      "s": "The workshop was intended to examine the credibility of memories rather than simply recreate the missing inscription.",
+      "a": "T",
+      "why": "首段说明工作坊旨在探究回忆如何获得权威。"
+    },
+    {
+      "s": "Most of the money donated to the workshop came from overseas.",
+      "a": "NG",
+      "why": "只说几位捐助者住海外，未说明捐款占比。"
+    },
+    {
+      "s": "The final plaque presented one sentence as the definitive original inscription.",
+      "a": "F",
+      "why": "最终纪念牌没有复刻任何所谓的确定原句。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0007",
+  "ids": [
+    "letter",
+    "bad",
+    "writing",
+    "upstairs",
+    "nose",
+    "postcard",
+    "head",
+    "yesterday",
+    "waitress",
+    "something"
+  ],
+  "title": "Tea, Cake, and Letters",
+  "titleZh": "茶、蛋糕与书信",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "People are coming to a small café on Mill Street for a surprising reason. They want to write a [[letter|letter]], not just drink tea. Six weeks ago, the café started a [[writing|writing]] hour. At first, only two people came. Now, twenty people meet there every Friday. They go [[upstairs|upstairs]] to a quiet room with a long wooden table.",
+    "Mina, a [[waitress|waitress]], puts paper and pens beside the cups. She checks every pen first. “A [[bad|bad]] pen can stop a good story,” she says. People can also choose a [[postcard|postcard]] with a picture of the café. Each card costs one coin. The café sells stamps, too. Some people come with friends, but most sit quietly and write to family members.",
+    "An older man called Luis came for the first time [[yesterday|yesterday]]. His glasses sat low on his [[nose|nose]], and his [[head|head]] was close to the paper. “I wanted to make [[something|something]] for my sister,” he said. “She lives far away.” He filled two pages before his tea was cold. Next Friday, he plans to bring her answer and read it over cake."
+  ],
+  "zh": [
+    "人们来到米尔街的一家小咖啡馆，原因让人意外。他们不只是想喝茶，还想写信。六周前，咖啡馆开设了一个写信时段。起初只有两个人来。现在，每周五都有二十个人在这里相聚。他们上楼，来到一间安静的房间，里面放着一张长木桌。",
+    "女服务员米娜把纸和笔放在杯子旁边。她会先检查每一支笔。她说：“一支不好用的笔，可能会让一个好故事写不下去。”人们也可以选一张印着咖啡馆图片的明信片。每张要一枚硬币。咖啡馆也卖邮票。有些人和朋友一起来，但大多数人都安静地坐着，给家人写信。",
+    "昨天，一位名叫路易斯的老人第一次来到这里。他的眼镜低低地架在鼻子上，头凑近纸面。他说：“我想给我的姐妹做点东西。她住得很远。”茶还没凉，他就写满了两页纸。他打算下周五带着她的回信来，一边吃蛋糕，一边读信。"
+  ],
+  "q": [
+    {
+      "s": "Twenty people now come to the writing hour every Friday.",
+      "a": "T",
+      "why": "文中说现在每周五有二十人来。"
+    },
+    {
+      "s": "Visitors can take a picture card from the café without paying.",
+      "a": "F",
+      "why": "每张明信片需要一枚硬币。"
+    },
+    {
+      "s": "Luis's sister lives near the sea.",
+      "a": "NG",
+      "why": "只说她住得远，未提是否靠海。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0176",
+  "ids": [
+    "situation",
+    "pilot",
+    "continue",
+    "watermelon",
+    "heart",
+    "dry",
+    "van",
+    "handwriting",
+    "round",
+    "festival"
+  ],
+  "title": "A Cooler Place to Celebrate",
+  "titleZh": "换个凉快的地方庆祝",
+  "topic": "society",
+  "cefr": 1,
+  "paras": [
+    "Every August, Mina's village held a fruit [[festival|festival]] beside the river. This year, the weather was hot and the grass was [[dry|dry]]. By ten in the morning, there was no shade near the food tables. Mina was worried about the [[situation|situation]]. Her grandfather had a weak [[heart|heart]], and he could not stay in the sun for long. Several other older visitors wanted to leave too.",
+    "Then Tomas, a retired [[pilot|pilot]], offered to help. He owned a large building nearby where he once kept his small plane. It was empty now, with wide doors and a cool stone floor. Everyone agreed to [[continue|continue]] the celebration there. Mina borrowed a [[van|van]] from her cousin. They loaded it with chairs, fruit boxes and three [[round|round]] tables. The building was only five minutes away, so they soon moved everything.",
+    "Mina wrote a sign for visitors arriving at the river. Her [[handwriting|handwriting]] was small, so Tomas asked her to make the letters bigger. He then stayed beside the sign to explain the change. Inside the building, Mina cut a huge [[watermelon|watermelon]] into slices. Her grandfather took a piece and smiled. Soon, music filled the cool room, and nobody was asking to go home."
+  ],
+  "zh": [
+    "每年八月，米娜的村子都会在河边举办水果节。今年天气炎热，草地也很干燥。到了上午十点，食物桌旁已经没有阴凉的地方了。米娜很担心眼前的情况。她的爷爷或外公心脏不好，不能在太阳下待太久。其他几位年纪较大的游客也想离开了。",
+    "这时，退休飞行员托马斯提出帮忙。他在附近有一座大房子，以前用来停放自己的小飞机。现在里面空着，有宽大的门和凉爽的石头地面。大家都同意去那里继续庆祝。米娜向一位堂亲或表亲借来一辆厢式货车。他们把椅子、几箱水果和三张圆桌装上车。那座房子离这里只有五分钟的路程，所以他们很快就把东西全搬了过去。",
+    "米娜写了一块告示牌，给后来到河边的游客指路。她写的字很小，托马斯便请她把字写大些。随后，他留在告示牌旁，向大家解释地点的变化。在房子里，米娜把一个大西瓜切成片。老人拿了一片，露出了笑容。不一会儿，凉爽的屋子里响起了音乐，再也没有人提出要回家了。"
+  ],
+  "q": [
+    {
+      "s": "The heat made some elderly visitors think about leaving the celebration.",
+      "a": "T",
+      "why": "天气炎热，几位年长游客想离开。"
+    },
+    {
+      "s": "Tomas had kept his plane in the building for ten years.",
+      "a": "NG",
+      "why": "只说以前在那里停飞机，未说明年限。"
+    },
+    {
+      "s": "Tomas asked Mina to make the letters on her sign smaller.",
+      "a": "F",
+      "why": "托马斯请她把字写大些，而非缩小。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0608",
+  "ids": [
+    "restraint",
+    "lark",
+    "dual",
+    "amendment",
+    "canvass",
+    "obliging",
+    "awkwardness",
+    "commotion",
+    "heiress",
+    "fervent"
+  ],
+  "title": "Learning to Leave the Meadow",
+  "titleZh": "学会退出草甸",
+  "topic": "education",
+  "cefr": 4,
+  "paras": [
+    "At six on a May morning, our field course entered the chalk meadow through a gap in the hawthorn hedge. Above us, a [[lark|lark]] climbed on trembling wings, its song continuing long after we lost sight of it. Our tutor, Hana, gave the exercise a [[dual|dual]] purpose: to map nesting territories and to examine how observation itself might disturb them.",
+    "The meadow belonged to an [[heiress|heiress]] who had inherited the surrounding estate and opened its grounds for ecological training. Her [[fervent|fervent]] enthusiasm for outdoor education had initially encouraged unrestricted access. An [[obliging|obliging]] groundskeeper supplied folding stools, but their usefulness diminished when we tried carrying them through knee-high grass. My own [[awkwardness|awkwardness]] sent one stool clattering against a gate, producing a brief [[commotion|commotion]] among the group.",
+    "Hana raised her hand. Twenty metres ahead, a bird stood motionless beside a tuft of fescue, its beak full of insects. Rather than approach for a better view, we practised [[restraint|restraint]], withdrawing to the hedge and waiting without speaking. Only then did it advance towards the tuft. In my notebook, I recorded the delay, not the nest's precise position: information could become an invitation to intrude.",
+    "Over breakfast, Hana began to [[canvass|canvass]] the course organisers for support for an [[amendment|amendment]] to the fieldwork handbook: during breeding season, meadow observations would take place from its margins. That afternoon, we returned without stools and counted feeding journeys from behind the hedge. The lesson had become unexpectedly practical: better knowledge required less ground beneath our feet."
+  ],
+  "zh": [
+    "五月的一个清晨六点，我们的野外课程小组穿过山楂树篱的一处缺口，走进白垩土草甸。头顶上，一只云雀振动双翅，向高处飞去；即使它已消失在视野中，歌声仍久久不绝。导师哈娜为这次练习设定了双重目标：绘制鸟类筑巢领地的分布图，并探究观察行为本身可能如何干扰它们。",
+    "这片草甸属于一位女继承人。她继承了周围的庄园，并开放园地供生态实训使用。出于对户外教育的热忱，她起初允许人们不受限制地进入。一位热心的园地管理员提供了折叠凳，但当我们试着带着凳子穿过齐膝高的草丛时，它们就不那么实用了。我动作笨拙，导致一把凳子撞上了门，发出哐当声，在队伍中引起了一阵短暂的骚动。",
+    "哈娜举起了手。二十米外，一只鸟静静地站在一丛羊茅旁，嘴里衔满了昆虫。我们没有走近看个清楚，而是克制住冲动，退回树篱边，默默等候。直到这时，它才朝那丛草走去。我在笔记本中记下了它耽搁的时间，却没有记录鸟巢的确切位置：这样的信息可能会诱使人们前去打扰。",
+    "吃早餐时，哈娜开始向课程组织者争取支持，提议修订野外实习手册：繁殖季节期间，只能从草甸边缘开展观察。当天下午，我们没有带凳子，回到树篱后面，统计亲鸟往返喂食的次数。这堂课意外地变得十分切实：想获得更好的认识，我们就需要少踏入一些地方。"
+  ],
+  "q": [
+    {
+      "s": "The morning exercise included considering the effects of the observers on the birds.",
+      "a": "T",
+      "why": "练习目标之一是考察观察行为的干扰。"
+    },
+    {
+      "s": "The estate owner personally took part in the field course.",
+      "a": "NG",
+      "why": "只说她开放园地，未说明是否亲自参加课程。"
+    },
+    {
+      "s": "The narrator noted the exact location of the nest for future reference.",
+      "a": "F",
+      "why": "记录了耽搁时间，而非鸟巢确切位置。"
+    }
+  ]
+}

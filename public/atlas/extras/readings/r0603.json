@@ -1,0 +1,48 @@
+{
+  "id": "r0603",
+  "ids": [
+    "hereby",
+    "twinkle",
+    "scarlet",
+    "realm",
+    "gramophone",
+    "swarm",
+    "strive",
+    "yearn",
+    "concede",
+    "conversely"
+  ],
+  "title": "The Orchard After Dark",
+  "titleZh": "夜幕下的果园",
+  "topic": "nature",
+  "cefr": 4,
+  "paras": [
+    "At the entrance to a plum orchard in northern Japan, visitors receive an unusually formal card: “You are [[hereby|hereby]] admitted to the night garden; please leave all lights extinguished.” Beyond the gate, where [[scarlet|scarlet]] ribbons identify the narrow footpath, fireflies [[twinkle|twinkle]] above an irrigation channel. Darkness here is not an inconvenience to be overcome but the principal attraction.",
+    "The orchard belongs to Emi, whose family once welcomed summer guests with tea and a [[gramophone|gramophone]] on the veranda. That machine remains, although its records are played only before the evening walk, never to lure insects. Visitors who [[yearn|yearn]] for an apparently simpler past encounter something less comfortable: maintaining this landscape requires meticulous labour rather than picturesque neglect.",
+    "Emi and her brother [[strive|strive]] to preserve the damp banks where firefly larvae develop, removing invasive weeds by hand. They also leave one hollow plum tree standing after a [[swarm|swarm]] of bees establishes itself inside. Such decisions move hospitality into the [[realm|realm]] of ecology. Even neighbouring growers reluctantly [[concede|concede]] that an orchard need not look immaculate to remain productive.",
+    "For travellers, the evening gradually reverses familiar expectations. A brighter path would make walking easier; [[conversely|conversely]], it would make the insects' delicate signals harder to distinguish. When the final visitors return to the veranda, Emi serves chilled plum tea without restarting the music. The orchard's cultural inheritance survives not through constant performance, but through knowing when to fall silent and let another form of communication occupy the night."
+  ],
+  "zh": [
+    "在日本北部一座李子园的入口处，游客会收到一张措辞格外正式的卡片：“特此准许您进入夜间花园；请勿开启任何照明设备。”走过大门，鲜红的丝带标示着狭窄的小径，萤火虫在灌溉水渠上方闪烁。在这里，黑暗并不是需要克服的不便，而是最主要的看点。",
+    "果园属于惠美。她的家人过去常在夏日用茶水和廊台上的留声机招待客人。那台机器至今仍在，不过唱片只在夜游开始前播放，绝不用来引诱昆虫。渴望追寻一个看似更简单的旧日时代的游客，在这里遇到的现实却不那么轻松：维持这片景观需要细致入微的劳作，而非任其荒芜所呈现的诗意。",
+    "惠美和她的兄弟努力保护萤火虫幼虫生长的潮湿渠岸，用手清除入侵杂草。一群蜜蜂在一棵空心李树内部安家后，他们也将那棵树保留了下来。这些决定让待客之道延伸到了生态学领域。就连邻近的果农也不情愿地承认，果园不必看起来整洁无瑕，也能保持产量。",
+    "对旅行者而言，这个夜晚逐渐颠覆了他们惯常的期待。更明亮的小径固然更方便行走；反过来，它却会让昆虫微弱的光信号更难辨认。最后一批游客返回廊台时，惠美端上冰镇李子茶，却没有重新播放音乐。果园的文化传承并非依靠不间断的表演来延续，而在于懂得何时归于寂静，让另一种交流方式主宰夜晚。"
+  ],
+  "q": [
+    {
+      "s": "The entrance card instructs visitors to keep their lights switched on.",
+      "a": "F",
+      "why": "入园卡要求所有照明保持关闭。"
+    },
+    {
+      "s": "The gramophone records are played only before the evening walk.",
+      "a": "T",
+      "why": "第二段明确说明唱片只在夜游前播放。"
+    },
+    {
+      "s": "Emi and her brother received professional training in habitat conservation.",
+      "a": "NG",
+      "why": "文章提到保护措施，未说明是否受过专业培训。"
+    }
+  ]
+}

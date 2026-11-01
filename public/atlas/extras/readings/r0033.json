@@ -1,0 +1,46 @@
+{
+  "id": "r0033",
+  "ids": [
+    "member",
+    "fish",
+    "daughter",
+    "sheep",
+    "school",
+    "always",
+    "usually",
+    "history",
+    "friday",
+    "feet"
+  ],
+  "title": "Notes from the Small Pond",
+  "titleZh": "小池塘观察笔记",
+  "topic": "nature",
+  "cefr": 0,
+  "paras": [
+    "It is [[friday|Friday]] afternoon. I walk to the small farm pond with my [[daughter|daughter]], Mina, after [[school|school]]. She is a [[member|member]] of our village nature club. We come here every week. We [[always|always]] bring a notebook and sit on the same flat stone. Today the water is clear. We can see five small [[fish|fish]] near a long green leaf.",
+    "Three [[sheep|sheep]] stand near the pond, but they do not go into the water. Mina takes off her shoes and puts her [[feet|feet]] in the soft grass. We [[usually|usually]] see birds here, but at first we do not see any today. Then we hear a little sound. A brown bird is under a bush. It has dry grass in its mouth. We sit very still and watch it.",
+    "Our notebook tells the [[history|history]] of this little pond. On its first page, the pond is dry. That was last summer. Now it has water and animals again. Mina draws the bird and its grass. I write the date below her picture. As we leave, the bird flies back to the bush with more grass. This pond is a home again."
+  ],
+  "zh": [
+    "今天是星期五下午。放学后，我和女儿米娜走到农场的小池塘边。她是我们村自然俱乐部的成员。我们每周都来这里。我们每次都带着一本笔记本，坐在同一块平坦的石头上。今天的水很清。我们能看到一片长长的绿叶旁有五条小鱼。",
+    "三只绵羊站在池塘边，但没有走进水里。米娜脱下鞋，把双脚放在柔软的草地上。我们通常会在这里看到鸟，但今天起初一只也没看见。接着，我们听到一点轻轻的声音。一只棕色的鸟在灌木丛下，嘴里衔着干草。我们静静地坐着，看着它。",
+    "我们的笔记本记录着这个小池塘的历史。在第一页上，池塘是干的。那是去年夏天。现在，池塘又有水和动物了。米娜画下了小鸟和它衔着的草。我在她的画下面写上日期。我们离开时，小鸟又衔着更多的草飞回灌木丛。这个池塘又成了动物的家。"
+  ],
+  "q": [
+    {
+      "s": "Mina is not a member of the village nature club.",
+      "a": "F",
+      "why": "第一段明确说米娜是该俱乐部成员。"
+    },
+    {
+      "s": "The three sheep stay out of the water.",
+      "a": "T",
+      "why": "第二段说三只绵羊没有走进水里。"
+    },
+    {
+      "s": "Mina plans to show her bird picture to her teacher.",
+      "a": "NG",
+      "why": "文中只说米娜画了鸟，未提给老师看。"
+    }
+  ]
+}

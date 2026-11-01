@@ -1,0 +1,46 @@
+{
+  "id": "r0099",
+  "ids": [
+    "coin",
+    "skill",
+    "kite",
+    "action",
+    "built",
+    "depend",
+    "mid-day",
+    "joke",
+    "guest",
+    "screen"
+  ],
+  "title": "The Kite Maker’s Afternoon Wind",
+  "titleZh": "风筝师傅的午后海风",
+  "topic": "work",
+  "cefr": 1,
+  "paras": [
+    "Lina makes and sells flying toys beside the sea. She [[built|built]] her small wooden shop near the beach, where families walk on warm days. A child can buy a paper bird with one [[coin|coin]], but a large [[kite|kite]] costs more. Her work needs [[skill|skill]]: she must make both sides equally heavy. However, a good flight also [[depend|depends]] on the wind.",
+    "On sunny mornings, the air is often still. Around [[mid-day|mid-day]], the beach becomes much warmer than the sea. The air above the sand warms up too and rises. Cooler air then moves from the sea towards the land to take its place. This moving air is a sea breeze. Lina watches a weather report on a small [[screen|screen]], but she also checks a ribbon outside.",
+    "When the ribbon begins to move, Lina takes [[action|action]]. She carries her newest toy down to the sand for a test. Today, her [[guest|guest]], Omar, holds the string. He tells a [[joke|joke]] about asking the wind to pay for its toy. They laugh as the bright paper shape rises. The breeze is not magic: the sun has warmed the land, and moving air now lifts Lina’s careful work."
+  ],
+  "zh": [
+    "莉娜在海边制作并出售会飞的玩具。她在沙滩附近建了一间小木店，天气暖和时，许多家庭会来这里散步。孩子花一枚硬币就能买到一只纸鸟，但大风筝要贵一些。她的工作需要技巧：她必须让两边一样重。不过，飞得好不好也取决于风。",
+    "晴天的早晨，空气常常很平静。到了中午，沙滩变得比海水暖和得多。沙子上方的空气也随之变暖并上升。随后，较凉的空气从海上流向陆地，填补空出来的位置。这股流动的空气就是海风。莉娜会在一块小屏幕上看天气预报，但她也会查看屋外的一条丝带。",
+    "丝带一开始飘动，莉娜就采取行动。她把最新做好的玩具带到沙滩上试飞。今天，她邀请来的客人奥马尔拿着线。他讲了个笑话，说要让风付钱买玩具。鲜艳的纸风筝升起来时，两人都笑了。海风并不是魔法：太阳晒暖了陆地，而流动的空气此刻托起了莉娜精心制作的作品。"
+  ],
+  "q": [
+    {
+      "s": "Lina must make one side of each flying toy heavier than the other.",
+      "a": "F",
+      "why": "第一段说她必须让两边一样重。"
+    },
+    {
+      "s": "The sea breeze described in the passage moves from the sea towards the land.",
+      "a": "T",
+      "why": "第二段明确说空气从海上流向陆地。"
+    },
+    {
+      "s": "Omar has helped Lina test her toys many times before.",
+      "a": "NG",
+      "why": "文中只说今天奥马尔拿着线，未提以往。"
+    }
+  ]
+}

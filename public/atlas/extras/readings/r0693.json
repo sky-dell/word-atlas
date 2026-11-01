@@ -1,0 +1,48 @@
+{
+  "id": "r0693",
+  "ids": [
+    "appraisal",
+    "compatible",
+    "continual",
+    "inventory",
+    "earthworm",
+    "residual",
+    "transcript",
+    "spouse",
+    "hypothesis",
+    "bedsit"
+  ],
+  "title": "Making a Worm Bin for Renters",
+  "titleZh": "为租房者制作蚯蚓堆肥箱",
+  "topic": "government",
+  "cefr": 4,
+  "paras": [
+    "At a municipal repair workshop, a compact worm bin begins not with timber but with an [[appraisal|appraisal]] of domestic constraints. Designers consult a [[transcript|transcript]] of interviews with tenants, including one whose [[spouse|spouse]] objected to keeping food scraps indoors. For someone occupying a [[bedsit|bedsit]], the finished container must function within the same room used for sleeping.",
+    "Before construction, technicians prepare an [[inventory|inventory]] of reclaimed materials: two shallow plastic crates, a lid, mesh and wooden spacers. The crates must be [[compatible|compatible]] in size so that one nests securely above the other. Small holes drilled through the upper base allow liquid to drain; mesh over ventilation openings excludes flies without preventing air exchange.",
+    "The upper crate is then lined with damp, shredded cardboard, which provides shelter for each composting [[earthworm|earthworm]] introduced from an established colony. Drained vegetable peelings are buried beneath this bedding, while the lower crate collects [[residual|residual]] moisture. Because [[continual|continual]] disturbance can expose the animals to light and dry their surroundings, feeding points are rotated rather than the entire contents being stirred.",
+    "Before distributing the design, workshop staff test the [[hypothesis|hypothesis]] that deeper bedding reduces detectable odours by limiting exposed food and absorbing moisture. Otherwise identical bins receive different bedding depths, and assessors record smells at fixed intervals. The resulting measurements determine the fill line printed inside the final version: a modest mark that turns a handmade box into a reproducible household tool."
+  ],
+  "zh": [
+    "在一家市政维修工坊里，制作小型蚯蚓堆肥箱的第一步不是准备木料，而是评估家庭环境的限制。设计人员查阅了租户访谈的文字记录，其中一位租户的配偶反对在室内存放食物残渣。对于住在卧室兼起居室出租房里的人来说，成品必须能够在同一个睡眠空间内正常使用。",
+    "动工前，技术人员先列出回收材料清单：两个浅塑料筐、一个盖子、网布和木质垫块。两个筐的尺寸必须匹配，使其中一个能稳固地叠套在另一个上方。在上层筐底钻出小孔，让液体流下；通风口上的网布则能阻挡苍蝇，同时不妨碍空气流通。",
+    "随后，在上层筐内铺上潮湿的碎纸板，为从成熟种群中引入的堆肥蚯蚓提供栖身之处。沥过水的蔬菜皮埋在这层垫料下方，下层筐则收集残余水分。由于频繁扰动会使蚯蚓暴露在光线下，并导致周围环境变干，因此每次投放食物时都更换位置，而不是翻搅全部内容物。",
+    "在推广这一设计前，工坊人员先检验一个假说：加深垫料可以减少食物外露并吸收水分，从而减轻能被察觉的异味。他们在其他条件相同的箱子中铺设不同深度的垫料，由评估人员按固定间隔记录气味。测量结果决定了最终版本箱内填充线的位置：这一道不起眼的标记，让手工制作的箱子变成了可以按统一规格复制的家用工具。"
+  ],
+  "q": [
+    {
+      "s": "Construction begins before the designers assess tenants’ domestic constraints.",
+      "a": "F",
+      "why": "首段明确说制作从评估家庭环境限制开始。"
+    },
+    {
+      "s": "Food is added at different points in the bedding rather than stirring the entire contents.",
+      "a": "T",
+      "why": "第三段说明轮换投食位置，不翻搅全部内容物。"
+    },
+    {
+      "s": "Residents receive the completed bins without charge.",
+      "a": "NG",
+      "why": "文章未说明成品是否免费提供给居民。"
+    }
+  ]
+}

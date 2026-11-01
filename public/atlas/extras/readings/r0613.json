@@ -1,0 +1,48 @@
+{
+  "id": "r0613",
+  "ids": [
+    "spiral",
+    "exempt",
+    "preside",
+    "diffuse",
+    "bread-earner",
+    "conscientious",
+    "whitewash",
+    "vogue",
+    "grit",
+    "endeavour"
+  ],
+  "title": "Glass That Keeps Its History",
+  "titleZh": "留住历史的玻璃",
+  "topic": "society",
+  "cefr": 4,
+  "paras": [
+    "At her workshop beside the former salt market, glassworker Nura Bell repairs lamps once carried at neighbourhood weddings. Each contains a copper [[spiral|spiral]] supporting coloured panes, whose tiny irregularities [[diffuse|diffuse]] candlelight across the ceiling. For Nura, these objects document the families who commissioned them as precisely as any register of births or marriages.",
+    "When factory closures made her the household’s only [[bread-earner|bread-earner]], she began accepting repairs that fashionable studios rejected. The prevailing [[vogue|vogue]] favoured flawless replacements; she retained scratched glass wherever it remained structurally sound. Nura was [[conscientious|conscientious]] about recording each repair, distinguishing original material from later additions. She even photographed [[grit|grit]] trapped beneath metal rims before cleaning it away.",
+    "Her reputation eventually brought an invitation to [[preside|preside]] over the craft association’s monthly meetings. There, she challenged a rule requiring members to display only immaculate work. Apprentices were already [[exempt|exempt]] from this requirement, but established makers risked losing commissions if they exhibited damaged objects. Nura argued that concealing every repair could [[whitewash|whitewash]] the association’s history, including its former practice of selling weakened frames without warning buyers.",
+    "Her subsequent [[endeavour|endeavour]] was modest: a public cabinet containing one lamp before restoration and another after it, with costs and defects clearly labelled. Visitors began bringing photographs of lamps in family kitchens, supplying names absent from workshop ledgers. The cabinet never became a grand museum; instead, it gave damaged objects, and the people who had depended on them, a place in the neighbourhood’s account of itself."
+  ],
+  "zh": [
+    "在旧盐市旁的工坊里，玻璃工匠努拉·贝尔修复着人们在邻里婚礼上曾经提着的灯。每盏灯内都有一条支撑彩色玻璃片的铜制螺旋线，玻璃上细微的不规则之处让烛光漫射到天花板上。在努拉看来，这些器物记录订制它们的家庭，其准确程度不亚于任何出生或婚姻登记簿。",
+    "工厂接连关闭后，努拉成了家中唯一挣钱养家的人，于是开始承接那些追求时尚的工作室不肯接的修复活。当时的风尚偏爱毫无瑕疵的替换品；她却尽可能保留带有划痕但结构依然牢固的玻璃。努拉认真记录每次修复，区分原有材料与后来添加的部分。她甚至会在清理卡在金属边框下的砂砾之前，先将其拍照记录下来。",
+    "她的声誉最终为她赢得了主持工艺协会月会的邀请。在会上，她质疑一项规定：会员只能展示完美无损的作品。学徒早已获准不受此规定限制，但成熟工匠若展出受损器物，却可能因此失去订单。努拉认为，掩盖每一处修补痕迹，可能会粉饰协会的历史，包括协会过去出售强度不足的灯架、却不提醒买家的做法。",
+    "随后，她进行了一次规模不大的尝试：设置一个公共展柜，放入一盏尚未修复的灯和另一盏修复后的灯，并清楚标明费用与缺陷。参观者开始带来家中厨房里提灯的照片，补充工坊账册中没有记下的姓名。这个展柜始终没有发展成宏大的博物馆；相反，它让受损的器物，以及曾经依靠它们生活的人，在街区对自身历史的讲述中占有了一席之地。"
+  ],
+  "q": [
+    {
+      "s": "Small imperfections in the lamps’ glass help scatter the candlelight.",
+      "a": "T",
+      "why": "首段说明玻璃的细微不规则使烛光漫射。"
+    },
+    {
+      "s": "The association required apprentices to meet the same display standard as experienced makers.",
+      "a": "F",
+      "why": "第三段说明学徒已获豁免，不受该规定限制。"
+    },
+    {
+      "s": "The public display was financed by donations from neighbourhood families.",
+      "a": "NG",
+      "why": "末段介绍了展柜，但未说明资金来源。"
+    }
+  ]
+}

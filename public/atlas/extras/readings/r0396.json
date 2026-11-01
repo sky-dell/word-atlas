@@ -1,0 +1,48 @@
+{
+  "id": "r0396",
+  "ids": [
+    "consume",
+    "numerous",
+    "pace",
+    "dread",
+    "narrative",
+    "eruption",
+    "clause",
+    "subscribe",
+    "beak",
+    "chorus"
+  ],
+  "title": "Listening to a Forest Return",
+  "titleZh": "聆听森林归来",
+  "topic": "environment",
+  "cefr": 3,
+  "paras": [
+    "Five years after a volcanic [[eruption|eruption]] buried part of a coastal forest, biologist Mara Ortiz began recording its recovery. Green shoots were already [[numerous|numerous]], but she wanted to measure something less visible: the return of birds. Their calls could reveal the [[pace|pace]] of recovery more clearly than photographs of young trees.",
+    "Mara fixed small recording boxes to surviving trunks. They [[consume|consume]] little electricity, allowing batteries to last several weeks. Each morning, the devices captured sounds from sunrise onwards. A bird tapping its [[beak|beak]] against dead wood offered a clue: it might be searching for insects beneath the bark. Field observations were needed to check this possibility. Wind sometimes sounded like wings, so every promising recording needed careful checking.",
+    "The project also depended on nearby residents, who still [[dread|dread]] another disaster. A [[clause|clause]] in the team's access agreement required researchers to avoid private gardens during nesting season. In return for their cooperation, residents could [[subscribe|subscribe]] to a free monthly audio report. Rather than presenting only charts, Mara built a [[narrative|narrative]] around one patch of woodland, connecting its changing sounds with observations made on foot.",
+    "For the first report, a musician wrote a short song whose [[chorus|chorus]] named three returning bird species. The tune helped listeners recognise names they had previously forgotten. Yet the recordings offered no simple happy ending: some birds remained absent. That silence mattered too, reminding listeners that a forest can look green long before its living community is fully restored."
+  ],
+  "zh": [
+    "一次火山喷发掩埋了部分海岸森林。五年后，生物学家玛拉·奥尔蒂斯开始记录森林的恢复情况。新芽已经随处可见，但她想测量一种不那么直观的变化：鸟类的回归。与幼树的照片相比，鸟鸣或许能更清楚地揭示森林恢复的速度。",
+    "玛拉把小型录音盒固定在幸存的树干上。这些设备耗电很少，电池可以持续使用数周。每天早晨，设备从日出时便开始收集声音。鸟儿用喙敲击枯木提供了一条线索：它可能正在寻找树皮下面的昆虫。需要通过实地观察来核实这种可能性。风声有时听起来像振翅声，因此，每段看似有价值的录音都需要仔细核查。",
+    "这个项目也依靠附近居民的支持，而他们仍然担忧另一场灾难。团队签订的出入协议中有一项条款，要求研究人员在筑巢季节避开私人花园。作为对居民配合的回馈，他们可以订阅一份免费的月度音频报告。玛拉没有只展示图表，而是围绕一小片林地讲述故事，将那里不断变化的声音与步行观察的记录联系起来。",
+    "一位音乐人为第一期报告创作了一首短歌，副歌中唱出了三种回归鸟类的名字。这段旋律帮助听众认出此前忘记的名字。然而，这些录音并没有带来一个简单圆满的结局：有些鸟类仍未出现。这份寂静同样重要，它提醒听众，森林看起来一片翠绿时，其中的生物群落可能还远未完全恢复。"
+  ],
+  "q": [
+    {
+      "s": "Mara's recording boxes were donated by nearby residents.",
+      "a": "NG",
+      "why": "文章未说明录音设备由谁提供。"
+    },
+    {
+      "s": "The research agreement allowed the team to enter private gardens while birds were nesting.",
+      "a": "F",
+      "why": "协议要求研究人员在筑巢季节避开私人花园。"
+    },
+    {
+      "s": "The song in the first report named three returning bird species in its chorus.",
+      "a": "T",
+      "why": "首期歌曲的副歌唱出了三种回归鸟类的名字。"
+    }
+  ]
+}

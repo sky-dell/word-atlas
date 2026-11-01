@@ -1,0 +1,48 @@
+{
+  "id": "r0684",
+  "ids": [
+    "tonic",
+    "majesty",
+    "stirring",
+    "condemnation",
+    "ensue",
+    "meteorology",
+    "warrant",
+    "panoramic",
+    "martial",
+    "navigable"
+  ],
+  "title": "Weather Behind the War Maps",
+  "titleZh": "战时地图背后的天气记录",
+  "topic": "education",
+  "cefr": 4,
+  "paras": [
+    "At the Riverglass Museum, education researcher Leila Sato designs exhibitions around documents that initially appear insignificant. Her latest project began with a nineteenth-century notebook whose owner, harbour observer Tomas Venn, recorded cloud movements beside reminders to buy a bitter [[tonic|tonic]] for his persistent fatigue. These domestic details complicated the heroic portrait displayed elsewhere in the museum.",
+    "Venn had practised [[meteorology|meteorology]] from a tower overlooking the estuary. Although visitors admired the [[majesty|majesty]] of its limestone cliffs, his [[panoramic|panoramic]] sketches served a practical purpose: they located approaching rain against recognisable landmarks. Combined with depth measurements, his observations helped captains judge whether the upper channel remained [[navigable|navigable]] after storms had shifted its sandbanks.",
+    "During a border conflict, however, the tower acquired [[martial|martial]] significance because it overlooked a naval anchorage. An officer interpreted Venn's coded weather notes as messages to enemy ships; a police search, authorised by a [[warrant|warrant]], [[ensue|ensued]]. Newspaper [[condemnation|condemnation]] preceded any examination of the evidence. Leila discovered that the supposedly secret symbols were ordinary abbreviations reproduced in a contemporary weather manual, although Venn's eventual legal fate remained undocumented.",
+    "Rather than deliver a [[stirring|stirring]] lecture about an unrecognised genius, Leila built a table where visitors compare the notebook, newspaper and manual themselves. A sliding screen conceals each document's origin until they have proposed an interpretation. Her aim is not to replace one uncomplicated reputation with another, but to teach the discipline of withholding judgement. At the exhibition's exit, Venn's clouds appear again, this time accompanied by visitors' carefully qualified conclusions."
+  ],
+  "zh": [
+    "在琉河博物馆，教育研究员莱拉·佐藤围绕一些乍看不起眼的文献设计展览。她最新的项目始于一本十九世纪的笔记，其主人是港口观测员托马斯·文恩。他在记录云层移动的同时，也写下提醒，叫自己购买一种苦味补药，以缓解持续的疲劳。这些日常生活的细节，让博物馆其他展区所呈现的英雄形象变得复杂起来。",
+    "文恩曾在一座俯瞰河口的塔楼里从事气象研究。尽管游客赞叹当地石灰岩峭壁的壮丽，他绘制的全景草图却有实际用途：借助可辨认的地标，标示逐渐逼近的降雨所在的位置。他的观测结合水深测量，帮助船长判断风暴使沙洲移位之后，上游航道是否仍可通航。",
+    "然而，在一次边境冲突期间，这座塔楼因能俯瞰海军锚地而具有了军事意义。一名军官将文恩用符号记录的天气笔记解读为传给敌舰的信息；随后，警方持搜查令进行了搜查。证据尚未经过审查，报纸上就已经出现了强烈谴责。莱拉发现，那些所谓的秘密符号，其实是当时一本气象手册中也收录的普通缩写，但文恩最终受到怎样的法律处置，仍无文献记载。",
+    "莱拉没有就一位未获认可的天才发表激动人心的演讲，而是设置了一张展台，让参观者自行对照笔记、报纸和手册。一块滑动挡板遮住每份文献的来源，直到参观者提出自己的解读后才揭开。她的目的不是用另一种简单化的评价取代原来的评价，而是教人养成暂缓判断的严谨习惯。在展览出口处，文恩笔下的云层再次出现，这一次，旁边附上了参观者措辞审慎、留有余地的结论。"
+  ],
+  "q": [
+    {
+      "s": "The bitter tonic relieved Venn's persistent fatigue.",
+      "a": "NG",
+      "why": "只提到购买补药的提醒，未说明服用效果。"
+    },
+    {
+      "s": "The press criticised Venn only after the evidence against him had been assessed.",
+      "a": "F",
+      "why": "报纸的谴责出现在证据审查之前。"
+    },
+    {
+      "s": "Visitors propose an interpretation before the sources of the documents are revealed.",
+      "a": "T",
+      "why": "挡板遮住文献来源，直到参观者提出解读。"
+    }
+  ]
+}

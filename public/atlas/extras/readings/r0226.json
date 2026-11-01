@@ -1,0 +1,46 @@
+{
+  "id": "r0226",
+  "ids": [
+    "neat",
+    "communicate",
+    "announce",
+    "society",
+    "ad",
+    "open-air",
+    "muscle",
+    "feature",
+    "specially",
+    "dolphin"
+  ],
+  "title": "A Poster for a Seaside Film",
+  "titleZh": "海边电影放映海报的制作",
+  "topic": "media",
+  "cefr": 2,
+  "paras": [
+    "At a small seaside cinema, designer Amara is making a poster for an [[open-air|open-air]] film night. The film follows a fishing village and explores how human [[society|society]] depends on the sea. Her job is to create an [[ad|ad]] that will [[announce|announce]] the event and make people curious. Before drawing anything, she watches the film and writes down three details: blue water, fishing boats and a [[dolphin|dolphin]] swimming close to shore.",
+    "Next, Amara chooses the animal as the main [[feature|feature]] of her design. She studies several photographs so that its curved back and strong tail look right. She follows the outline in the photographs rather than guessing the shape of each [[muscle|muscle]] beneath its skin. She then paints a wide blue shape behind it, using a brush bought [[specially|specially]] for this project. Below the picture, she arranges the date, ticket price and beach address in three [[neat|neat]] lines.",
+    "Finally, Amara prints a small copy and pins it beside the cinema door. A good poster must [[communicate|communicate]] information quickly, so she asks a colleague to read it from several steps away. The address is too small. After making it larger, she prints twenty copies on thick paper. By evening, the finished posters are ready for shop windows along the beach."
+  ],
+  "zh": [
+    "在一家海边小电影院里，设计师阿玛拉正在为一场露天电影之夜制作海报。这部电影记录了一个渔村的生活，探讨人类社会如何依赖海洋。她的任务是制作一则广告，公布活动信息并引起人们的好奇。在动笔之前，她先看了电影，记下三个细节：蓝色的海水、渔船，以及一只在近岸游动的海豚。",
+    "接着，阿玛拉选择这只动物作为设计中最突出的部分。她仔细观察了几张照片，确保海豚弯曲的背部和有力的尾巴画得准确。她依照照片中的轮廓来画，而不是猜测它皮肤下面每块肌肉的形状。随后，她用专门为这个项目购买的画笔，在海豚身后画上一大片蓝色。她把日期、票价和海滩地址排成整齐的三行，放在图片下方。",
+    "最后，阿玛拉打印了一张小样，把它钉在电影院门旁。好海报必须能迅速传达信息，因此她请一位同事站在几步之外试读。地址的字太小了。她把字放大后，用厚纸印了二十张。到了傍晚，完成的海报已经准备好，可以贴到海滩沿线商店的橱窗里了。"
+  ],
+  "q": [
+    {
+      "s": "Amara starts drawing before she watches the film.",
+      "a": "F",
+      "why": "她在动笔之前先观看了电影。"
+    },
+    {
+      "s": "Amara buys the brush from a shop near the cinema.",
+      "a": "NG",
+      "why": "文章只说画笔为项目专购，未说明购买地点。"
+    },
+    {
+      "s": "Amara makes the address larger before printing the twenty copies.",
+      "a": "T",
+      "why": "她先放大地址，再印了二十张海报。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0460",
+  "ids": [
+    "enrol",
+    "reunion",
+    "severely",
+    "rectangular",
+    "agriculture",
+    "mass",
+    "rental",
+    "privacy",
+    "inject",
+    "undergraduate"
+  ],
+  "title": "A Working Holiday in Clay",
+  "titleZh": "与泥土相伴的工作假期",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "In the hill village of Valmera, visitors can [[enrol|enrol]] on a short course in repairing earth-built houses. The workshop occupies a former grain store, a reminder that [[agriculture|agriculture]] once supported almost every household here. Now, several families earn part of their income by teaching travellers skills that ordinary sightseeing rarely reveals.",
+    "My instructor, Leila, begins by dropping a wet [[mass|mass]] of clay onto a wooden table. We press it into [[rectangular|rectangular]] moulds, then carry the fresh blocks into the courtyard to dry. Beside me works Tomas, an architecture [[undergraduate|undergraduate]] whose careful drawings prove less useful than Leila's quick thumb test for moisture. The course fee includes tool [[rental|rental]], but everyone brings old clothes.",
+    "On the third morning, we visit a house [[severely|severely]] damaged by winter rain. Under Leila's supervision, experienced workers [[inject|inject]] a thin lime mixture into narrow cracks using a pressure pump. Beginners prepare materials and watch. Although the owners welcome our help, they request [[privacy|privacy]]: photographs of the repairs are permitted, but pictures of family rooms are not. This is a workplace, not a stage set.",
+    "Our final evening becomes a [[reunion|reunion]] when former trainees arrive for supper, some returning after several years away. They discuss walls they have repaired elsewhere while bread warms in the courtyard oven. Before leaving, I notice our first blocks stacked beneath a shelter. They are uneven, yet ready for use: a modest contribution that will remain after our suitcases disappear."
+  ],
+  "zh": [
+    "在山村瓦尔梅拉，游客可以报名参加修缮土屋的短期课程。工坊设在一座旧粮仓里，让人想起这里曾经几乎家家户户都靠农业维生。如今，几户人家通过向旅行者传授手艺赚取部分收入，而这些手艺是普通观光很难接触到的。",
+    "我的指导老师莱拉先把一大团湿黏土放到木桌上。我们将黏土压进长方形模具，再把刚做好的土坯搬到院子里晾干。在我旁边干活的是建筑学本科生托马斯。他精心绘制的图纸，还不如莱拉用拇指迅速判断湿度的方法实用。课程费用包含工具租赁费，但大家都要自备旧衣服。",
+    "第三天上午，我们来到一座被冬雨严重损坏的房屋。在莱拉的监督下，经验丰富的工人用压力泵将稀石灰浆注入细窄的裂缝。初学者则准备材料并在旁观察。房主虽然欢迎我们帮忙，却也要求保护隐私：可以拍摄修缮过程，但不能拍家人起居的房间。这里是干活的地方，而不是供人观看的布景。",
+    "最后一晚，以前的学员前来共进晚餐，让这个夜晚变成了一场重聚，其中一些人已经多年未归。院子里的烤炉热着面包，他们聊起自己在别处修过的墙。临走前，我注意到我们做的第一批土坯已经堆在棚子下面。它们并不平整，却已可以使用。这份小小的贡献，会在我们带着行李离去之后继续留在这里。"
+  ],
+  "q": [
+    {
+      "s": "Participants must pay a separate charge to hire the workshop's tools.",
+      "a": "F",
+      "why": "第二段明确说课程费用已包含工具租赁费。"
+    },
+    {
+      "s": "The owners of the damaged house paid for the trainees' help.",
+      "a": "NG",
+      "why": "文中未说明房主是否为学员的帮助付费。"
+    },
+    {
+      "s": "Some former trainees returned for supper after several years away.",
+      "a": "T",
+      "why": "末段说明部分往届学员时隔数年回来赴宴。"
+    }
+  ]
+}

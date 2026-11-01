@@ -1,0 +1,48 @@
+{
+  "id": "r0623",
+  "ids": [
+    "repel",
+    "flare",
+    "proprietor",
+    "assimilate",
+    "malnutrition",
+    "infirmary",
+    "kindle",
+    "regretfully",
+    "tranquility",
+    "sterling"
+  ],
+  "title": "What a Mill Kitchen Revealed",
+  "titleZh": "一间纺织厂厨房揭示的往事",
+  "topic": "history",
+  "cefr": 4,
+  "paras": [
+    "In a reconstructed nineteenth-century mill kitchen, the smallest objects tell the largest stories. A cracked soup bowl, a flour scoop and a ledger suggest how industrial employers understood hunger. The mill’s [[proprietor|proprietor]] recorded food expenditure in [[sterling|sterling]], allowing museum researchers to compare the cost of feeding workers with the much larger sums spent maintaining machinery.",
+    "Beside the kitchen stood an [[infirmary|infirmary]], where exhaustion was not always distinguished from [[malnutrition|malnutrition]]. Although bread supplied considerable energy, a diet dominated by flour could leave essential nutrients missing. Researchers examining the menus must therefore [[assimilate|assimilate]] evidence from both medical history and nutritional science: a generous portion was not necessarily an adequate meal, especially for someone working twelve hours.",
+    "Experimental cooking adds another layer of evidence. Demonstrators [[kindle|kindle]] a wood fire beneath an iron cauldron, then watch the flames [[flare|flare]] when a draught enters through the open door. Smoke helps [[repel|repel]] flies, but irritates the cook’s eyes; meanwhile, uneven heat makes thick soup liable to burn. Such practical difficulties explain why apparently simple recipes demanded sustained attention rather than merely cheap ingredients.",
+    "The ledger also records occasions when fresh vegetables were unavailable, noting [[regretfully|regretfully]] that the usual broth had been replaced by bread alone. The apparent [[tranquility|tranquility]] of the restored room contrasts with these entries, which reveal how shortages disrupted the kitchen’s routine."
+  ],
+  "zh": [
+    "在一间复原的十九世纪纺织厂厨房里，最不起眼的物件讲述着最宏大的故事。一只开裂的汤碗、一把面粉铲和一本账簿，透露出工业时代的雇主如何理解饥饿。纺织厂经营者以英镑记录伙食开支，使博物馆研究人员得以将工人的供餐费用与高得多的机器维护费用进行比较。",
+    "厨房旁边设有一间医务室，在那里，疲劳衰竭并不总能与营养不良区分开来。面包虽然能够提供可观的能量，但以面粉为主的饮食可能缺乏必需的营养素。因此，研究菜单的人员必须吸收并理解医学史与营养科学两方面的证据：分量充足的一餐未必营养充足，对每天工作十二小时的人而言尤其如此。",
+    "烹饪实验提供了另一层证据。演示人员在铁制大锅下点起柴火，随后观察气流从敞开的门口涌入时，火焰如何骤然旺盛。烟雾有助于驱赶苍蝇，却会刺激厨师的眼睛；与此同时，受热不均使浓汤容易煳底。这些实际困难解释了为何看似简单的食谱不仅需要廉价食材，还要求厨师始终留神。",
+    "账簿还记载了买不到新鲜蔬菜的情形，并惋惜地注明，平日的汤已被单纯的面包取代。复原房间表面上的宁静与这些记录形成对照，记录揭示了食材短缺如何打乱厨房的日常运作。"
+  ],
+  "q": [
+    {
+      "s": "The proprietor entered food expenses in the ledger every day.",
+      "a": "NG",
+      "why": "首段提到伙食账目，未说明记录频率。"
+    },
+    {
+      "s": "A large meal could still fail to provide adequate nutrition.",
+      "a": "T",
+      "why": "第二段明确指出分量充足未必营养充足。"
+    },
+    {
+      "s": "The smoke from the cooking fire leaves the cook’s eyes unaffected.",
+      "a": "F",
+      "why": "第三段明确说烟雾会刺激厨师的眼睛。"
+    }
+  ]
+}

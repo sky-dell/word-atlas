@@ -1,0 +1,48 @@
+{
+  "id": "r0190",
+  "ids": [
+    "concentrate",
+    "gorgeous",
+    "glance",
+    "embarrass",
+    "tube",
+    "vehicle",
+    "environmental",
+    "starfish",
+    "incredible",
+    "ladder"
+  ],
+  "title": "A Lesson Beside the Rock Pool",
+  "titleZh": "岩石潮池边的一课",
+  "topic": "education",
+  "cefr": 2,
+  "paras": [
+    "Tuesday, 8:10 a.m. At low tide, I joined Mara for my first morning of volunteer training on the coast. We left our [[vehicle|vehicle]] beside the boat shed and carried a notebook towards the rocks. The bay looked [[gorgeous|gorgeous]] in the early light, but our lesson concerned one small pool.",
+    "Mara climbed down a short wooden [[ladder|ladder]] fixed to the harbour wall. I followed and [[glance|glanced]] at the water below. At first, I saw only stones. Then she asked me to [[concentrate|concentrate]] on a dark shape beneath a brown leaf. It was a [[starfish|starfish]], almost the same colour as the rock.",
+    "I called it a plant, which made my face feel hot. Mara did not [[embarrass|embarrass]] me by laughing. Instead, she waited as it crawled over the edge of a rock. Some tiny feet became visible beneath one arm. Through her hand lens, I watched them move. It seemed [[incredible|incredible]] that this still shape was now walking. Mara explained how to record an animal without touching it.",
+    "Before leaving, we noticed a broken plastic [[tube|tube]], once used to carry water from a boat's pump. We removed it for the coastal group's [[environmental|environmental]] survey. My final note was simple: looking quickly had shown me a stone; watching carefully had revealed a living animal."
+  ],
+  "zh": [
+    "星期二，上午8点10分。退潮时，我跟随玛拉来到海边，开始第一天上午的志愿者培训。我们把车停在船棚旁，带着一本笔记本走向岩石。晨光中的海湾美极了，但我们这堂课只关注一个小潮池。",
+    "玛拉沿着固定在港口围墙上的一架短木梯爬下去。我跟在后面，朝下方的水里瞥了一眼。起初，我只看到了石头。随后，她让我集中注意力，观察一片褐色叶子下面的深色物体。那是一只海星，颜色几乎与岩石相同。",
+    "我把它说成了植物，顿时觉得脸上发烫。玛拉没有用笑声让我难堪，而是等着它爬过一块岩石的边缘。它的一条腕足下露出了一些小脚。透过她的手持放大镜，我看着那些小脚活动。这个原本静止的物体如今竟在行走，令人难以置信。玛拉向我讲解了如何在不触碰动物的情况下记录观察结果。",
+    "离开前，我们发现了一截破损的塑料管，它曾用于输送一艘船的水泵抽出的水。我们将它取走，作为海岸保护小组环境调查的一部分。我最后记下的话很简单：匆匆一看，我看到的是石头；仔细观察，我发现的却是一个活生生的动物。"
+  ],
+  "q": [
+    {
+      "s": "The narrator had attended coastal volunteer training before that morning.",
+      "a": "F",
+      "why": "原文说那是作者首次参加这项培训。"
+    },
+    {
+      "s": "Mara had built the wooden ladder beside the harbour wall.",
+      "a": "NG",
+      "why": "文中描述了木梯，但未说明是谁建造的。"
+    },
+    {
+      "s": "Mara and the narrator removed a broken plastic tube.",
+      "a": "T",
+      "why": "末段明确说两人移走了破损的塑料管。"
+    }
+  ]
+}

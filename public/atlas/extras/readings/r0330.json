@@ -1,0 +1,43 @@
+{
+  "id": "r0330",
+  "ids": [
+    "typical",
+    "geometry",
+    "repeated",
+    "atmosphere",
+    "council"
+  ],
+  "title": "The Quiet Puzzle Club",
+  "titleZh": "安静的拼图俱乐部",
+  "topic": "thinking",
+  "cefr": 2,
+  "paras": [
+    "On Thursday evenings, a village hall fills with adults who want to spend an hour moving wooden shapes. There are no prizes, and nobody races against a clock. Surprisingly, this quiet puzzle club has grown from eight members to thirty in six months, without putting up a single poster.",
+    "A [[typical|typical]] meeting begins with seven wooden pieces and a picture of an animal. Members try to copy the animal using every piece. The task involves [[geometry|geometry]], but organiser Leila Khan avoids school language. Instead, she asks questions such as, “What happens if you turn that triangle around?”",
+    "Members say the attraction is not simply finding an answer. Through [[repeated|repeated]] attempts, they begin to notice how they think. Baker Tomas Silva used to force pieces into the wrong spaces. Now he pauses and looks at the whole picture. “I do that at work too,” he says. The friendly [[atmosphere|atmosphere]] also helps: mistakes often lead to laughter rather than embarrassment.",
+    "The village [[council|council]], which manages the hall, first offered the room for four weeks. After seeing the growing attendance, it extended the booking until winter. Leila now keeps a box of unfinished puzzles by the door. Members can return to them later."
+  ],
+  "zh": [
+    "每逢周四晚上，一群成年人就会来到村里的活动厅，花一个小时摆弄木制形状块。这里没有奖品，也没有人计时比赛。令人意外的是，这个安静的拼图俱乐部没有贴过一张海报，成员却在六个月内从八人增加到了三十人。",
+    "一次常规活动会以七块木片和一张动物图片开始。成员们要用上所有木片，拼出图片中的动物。这项任务涉及几何学，但组织者莱拉·汗避免使用课堂上的术语。她会换一种方式提问，比如：“如果把那个三角形转一下，会怎么样？”",
+    "成员们说，吸引他们的不只是找到答案。通过反复尝试，他们开始留意自己的思考方式。面包师托马斯·席尔瓦以前总想把木片硬塞进不合适的位置。现在，他会停下来看看整个图案。“我工作时也会这样做，”他说。友好的氛围也很有帮助：错误往往带来笑声，而不是尴尬。",
+    "负责管理活动厅的村议会起初只提供四周的场地使用时间。看到参加人数不断增加后，议会把预订期限延长到了冬天。现在，莱拉在门边放了一盒尚未完成的拼图。成员们可以以后回来接着拼。"
+  ],
+  "q": [
+    {
+      "s": "Most new members heard about the club from friends.",
+      "a": "NG",
+      "why": "文章未说明新成员通过什么渠道得知俱乐部。"
+    },
+    {
+      "s": "Members can leave out pieces when copying the animal.",
+      "a": "F",
+      "why": "第二段明确要求用上每一块拼片。"
+    },
+    {
+      "s": "The council extended the room booking until winter.",
+      "a": "T",
+      "why": "末段明确说议会将预订延长到了冬天。"
+    }
+  ]
+}

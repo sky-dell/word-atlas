@@ -1,0 +1,48 @@
+{
+  "id": "r0725",
+  "ids": [
+    "mercenary",
+    "haughty",
+    "loll",
+    "diction",
+    "rapture",
+    "delusive",
+    "flabby",
+    "odometer",
+    "exhort",
+    "lexicography"
+  ],
+  "title": "The Collector of Delight",
+  "titleZh": "收集喜悦的人",
+  "topic": "emotion",
+  "cefr": 5,
+  "paras": [
+    "In a fictional archive, dictionary maker Mira Sen's notebooks preserve an unfinished inquiry into happiness. In 1912, dissatisfied with definitions that reduced happiness to mere pleasure, Sen began visiting coastal towns to record its less tractable varieties. Her journey turned [[lexicography|lexicography]], seemingly an exercise in classification, towards feelings that resisted being classified.",
+    "Her bicycle's [[odometer|odometer]] registered 3,806 kilometres. Letters document a less measurable obstacle: a publisher whose [[mercenary|mercenary]] priorities favoured saleable anecdotes over difficult distinctions. His [[haughty|haughty]] replies dismissed fishermen's expressions as unworthy of print. Sen nevertheless preserved their [[diction|diction]], noting that a phrase translated as ‘quiet weather inside’ described neither excitement nor relief, but a happiness without anticipation.",
+    "Between interviews, Sen would [[loll|loll]] on boarding-house couches and sketch. One self-portrait shows her in a sleeveless dress, her [[flabby|flabby]] arms unidealised; beneath it, she mocks the heroic poses of explorers' portraits. Her account of a lantern festival is equally resistant to idealisation. It distinguishes communal [[rapture|rapture]] from the [[delusive|delusive]] conviction that such exhilaration could permanently dissolve private sorrow.",
+    "Sen never completed the dictionary. Instead, her surviving papers contain successive revisions of a single entry: ‘delight’. Marginal instructions [[exhort|exhort]] future editors to retain contradictions rather than manufacture agreement. The last definition sits beside a sketch of an empty chair. Where the earliest version required a present source of pleasure, this one allows for joy sustained by the memory of someone absent."
+  ],
+  "zh": [
+    "在一座虚构的档案馆里，词典编纂者米拉·森的笔记保存着一场尚未完成的幸福探究。1912年，森不满于将幸福简单归结为愉悦的定义，开始走访沿海城镇，记录那些更难以界定的幸福形态。她的旅程让看似只是分类工作的词典编纂，转而关注那些难以归类的情感。",
+    "她自行车上的里程表显示了3806公里。书信记录了另一种更难衡量的阻碍：一位唯利是图的出版商，比起费力辨析词义，更偏爱能卖钱的趣闻。他在傲慢的回信中认定，渔民的表达不值得付印。然而，森仍保留了他们的措辞，并指出，一个被译为“心里的风平浪静”的短语，描述的既不是兴奋，也不是如释重负，而是一种无所期待的幸福。",
+    "访谈间歇，森常懒洋洋地靠在寄宿屋的长沙发上画速写。一幅自画像中的她穿着无袖连衣裙，松弛的手臂未加美化；画下的文字嘲讽了探险家肖像中的英雄式姿态。她对一场灯会的记述同样拒绝美化现实。她将群体的狂喜与一种虚幻的确信区分开来：以为这样的欢腾能够永远消解个人的悲伤。",
+    "森始终没有完成这部词典。她留存的文稿中包含同一个词条“喜悦”的一系列修订稿。页边批注力劝未来的编辑保留矛盾，而不是人为制造一致。最后一个定义写在一张空椅子的速写旁。最早的版本要求愉悦有一个当下存在的来源，而这个版本则容许喜悦由对某个不在身边之人的回忆维系。"
+  ],
+  "q": [
+    {
+      "s": "Sen financed her first coastal visits from her own savings.",
+      "a": "NG",
+      "why": "首段未交代沿海旅行的经费来源。"
+    },
+    {
+      "s": "The publisher considered the fishermen's expressions unfit for publication.",
+      "a": "T",
+      "why": "出版商明确认为渔民的表达不值得付印。"
+    },
+    {
+      "s": "Sen eventually finished the dictionary.",
+      "a": "F",
+      "why": "末段明确说她始终没有完成词典。"
+    }
+  ]
+}

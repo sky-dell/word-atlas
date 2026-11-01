@@ -1,0 +1,48 @@
+{
+  "id": "r0378",
+  "ids": [
+    "oppose",
+    "likewise",
+    "so-called",
+    "graphic",
+    "satellite",
+    "surrender",
+    "analysis",
+    "scarcely",
+    "evaluate",
+    "stool"
+  ],
+  "title": "When a Caption Takes Control",
+  "titleZh": "当图片说明左右判断",
+  "topic": "media",
+  "cefr": 3,
+  "paras": [
+    "At a small media research centre, Leila Mensah designed an experiment to discover whether an attractive news layout could make weak evidence seem convincing. Forty adult volunteers acted as picture editors for an imaginary magazine. Their task was to [[evaluate|evaluate]] a report claiming that a coastal island had lost half its forest within five years.",
+    "Each volunteer sat on a wooden [[stool|stool]] facing a screen. Everyone saw the same two images taken by a [[satellite|satellite]], but half received a plain page, while the others saw polished [[graphic|graphic]] design with a dramatic red headline. The [[so-called|so-called]] proof was misleading: one image showed the whole island, whereas the other showed only its southern tip. A small note explained this difference, but it was [[scarcely|scarcely]] visible beneath the pictures.",
+    "Volunteers could approve the report or [[oppose|oppose]] publication by requesting better evidence. An actor playing the magazine's chief editor then urged anyone who objected to reconsider. Those viewing the plain page usually maintained their objections. Those viewing the polished version were more likely to [[surrender|surrender]] to the editor's demands. They were [[likewise|likewise]] more likely to describe the images as reliable.",
+    "The researchers' [[analysis|analysis]] suggested that presentation influenced both private judgement and willingness to resist pressure. Afterwards, every volunteer compared the southern tip in both images at matching scales. No forest loss was visible there. The volunteers were then asked what further images they would need to assess the claim about the whole island."
+  ],
+  "zh": [
+    "在一家小型媒体研究中心，莱拉·门萨设计了一项实验，想了解吸引人的新闻版式是否会让薄弱的证据显得可信。四十名成年志愿者担任一家虚构杂志的图片编辑。他们的任务是评估一篇报道，该报道声称，一座近海岛屿在五年内失去了一半的森林。",
+    "每名志愿者都坐在木凳上，面对一块屏幕。所有人看到的都是同一颗人造卫星拍摄的两张图片，但其中一半人看到的是朴素的页面，另一半人看到的则是经过精心视觉设计、配有醒目红色标题的版本。这些所谓的证据具有误导性：一张图片展示了整座岛屿，另一张却只展示了岛屿南端。一条小字注释解释了这种差异，但它位于图片下方，几乎看不清。",
+    "志愿者可以批准报道刊登，也可以要求提供更充分的证据，以此反对发表。随后，一名扮演杂志主编的演员会敦促持反对意见的人重新考虑。看到朴素页面的人通常坚持反对意见。看到精美版本的人则更容易屈服于主编的要求。他们也更可能认为这些图片是可靠的。",
+    "研究人员的分析提示，呈现方式可能既影响个人判断，也影响人们抵抗压力的意愿。之后，每名志愿者都在比例尺一致的情况下比较了两张图片中的岛屿南端。该区域看不出森林减少的迹象。随后，研究人员询问志愿者，还需要哪些图片才能评估有关整座岛屿的说法。"
+  ],
+  "q": [
+    {
+      "s": "Some volunteers had previously worked as picture editors.",
+      "a": "NG",
+      "why": "文中未说明志愿者此前是否做过图片编辑。"
+    },
+    {
+      "s": "The two groups were given different satellite photographs.",
+      "a": "F",
+      "why": "两组看到相同的两张卫星图片。"
+    },
+    {
+      "s": "Volunteers viewing the plain page usually continued to object when the editor urged them to reconsider.",
+      "a": "T",
+      "why": "第三段说明朴素页面组通常坚持反对意见。"
+    }
+  ]
+}

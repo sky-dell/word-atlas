@@ -1,0 +1,48 @@
+{
+  "id": "r0372",
+  "ids": [
+    "dismiss",
+    "immigration",
+    "stake",
+    "forth",
+    "volt",
+    "fertilizer",
+    "publication",
+    "beam",
+    "await",
+    "weakness"
+  ],
+  "title": "The Science Beneath the Game",
+  "titleZh": "球场草皮下的科学",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "On a small coastal football ground, groundskeeper Leila Haddad is testing whether healthier grass can make sport safer. Her interest began after [[immigration|immigration]] brought her family to this rainy region. Having helped build the club, they have a personal [[stake|stake]] in its future. Yet winter matches often leave its pitch muddy and dangerously uneven.",
+    "Leila refuses to [[dismiss|dismiss]] damaged grass as merely an inconvenience. Working with soil researcher Tomas Vega, she has divided a training area into twelve strips. Some receive extra [[fertilizer|fertilizer]]; others are watered less frequently. Each week, a wheeled device sends [[forth|forth]] a narrow [[beam|beam]] of red light across the leaves. Powered by a twelve-[[volt|volt]] battery, its sensor measures reflected light, providing clues about plant health without removing any grass.",
+    "The researchers also press a metal foot into each strip to measure the ground's resistance to pressure. This reveals a [[weakness|weakness]] in judging a pitch by colour alone: bright green leaves do not necessarily mean a strong playing surface. Early measurements suggest that heavily fed grass can look impressive while offering relatively poor resistance to pressure.",
+    "The club will [[await|await]] a full winter of results before changing its routine. [[publication|Publication]] of the findings is planned for a groundskeeping journal, including details that other clubs can repeat. For Leila, success would mean fewer bare patches and a surface that survives Saturday's tackles—not simply a prettier field."
+  ],
+  "zh": [
+    "在一座海边的小型足球场上，草坪管理员莱拉·哈达德正在测试，更健康的草是否能让运动更安全。她的兴趣始于全家移居到这个多雨地区之后。由于曾参与创建这家俱乐部，一家人都十分关心它的未来。然而，冬季的比赛常常使球场变得泥泞不平，带来安全隐患。",
+    "莱拉不愿把草坪受损仅仅当作一件麻烦事而置之不理。她与土壤研究员托马斯·维加合作，将一块训练场地划分成十二个条形区域。有些区域增加施肥，另一些则减少浇水频率。每周，一台带轮子的设备都会向草叶投射一道窄窄的红色光束。设备由一块十二伏电池供电，其传感器测量反射光，无须取走任何草，就能获得有关植物健康状况的线索。",
+    "研究人员还把一个金属脚形装置压入每个区域，测量地面对压力的抵抗能力。这揭示了仅凭颜色判断球场状况的不足：鲜绿的叶片并不一定意味着坚实的运动场地。初步测量表明，大量施肥的草可能看上去很漂亮，承受压力的能力却相对较弱。",
+    "俱乐部将等到收集完一整个冬季的结果后，再改变日常养护方式。研究结果计划发表于一本场地养护期刊，其中也会介绍其他俱乐部可以重复采用的具体方法。对莱拉来说，成功意味着裸露的地块更少，草坪能经受住周六比赛中的铲球，而不只是让球场更好看。"
+  ],
+  "q": [
+    {
+      "s": "Leila's family moved to the region because of a job offer.",
+      "a": "NG",
+      "why": "首段未说明她一家移居的原因。"
+    },
+    {
+      "s": "The optical equipment must collect grass samples to assess plant health.",
+      "a": "F",
+      "why": "第二段指出测量时无须取走任何草。"
+    },
+    {
+      "s": "The club plans to wait for a full winter of results before changing its routine.",
+      "a": "T",
+      "why": "末段明确说明收集完整冬季结果后才改变常规。"
+    }
+  ]
+}

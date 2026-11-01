@@ -1,0 +1,48 @@
+{
+  "id": "r0727",
+  "ids": [
+    "metallurgy",
+    "obliterate",
+    "vindicate",
+    "benzene",
+    "exalt",
+    "bosom",
+    "gaily",
+    "turbot",
+    "learned",
+    "annuity"
+  ],
+  "title": "What the Foundry Kept",
+  "titleZh": "铸造厂留下了什么",
+  "topic": "society",
+  "cefr": 5,
+  "paras": [
+    "Begin with the brass fish above the entrance: a [[turbot|turbot]], cast in 1894 for the harbour market. This exhibition follows the families whose labour sustained the neighbouring foundry, rather than the proprietors whom its commemorative plaques [[exalt|exalt]]. Behind the polished object lies a social history that successive renovations threatened to [[obliterate|obliterate]], along with the workshop's soot-blackened walls.",
+    "In the first case, a [[learned|learned]] treatise on [[metallurgy|metallurgy]] stands beside apprentice Rosa Marin's notebook. Whereas the published volume classifies alloys, her pages record cracked crucibles, unpaid hours and headaches after cleaning castings. Recent analysis of a sealed cleaning tin identified [[benzene|benzene]]; the finding helps [[vindicate|vindicate]] her contention that workshop materials, not merely personal frailty, warranted investigation.",
+    "The next display reconstructs the workers' supper room from an inventory and three photographs. Paper garlands hang above mismatched plates; in one image, a fiddler bows [[gaily|gaily]] while a woman holds a sleeping infant against her [[bosom|bosom]]. Such conviviality should not be mistaken for evidence of comfortable wages: the accompanying ledger records contributions to a mutual aid fund, sometimes no greater than a penny.",
+    "At the final case, examine the contract through which that fund purchased an [[annuity|annuity]] for an ageing furnace keeper. Its modest quarterly payments made retirement possible without dependence on his children. The exhibition ends not with another monumental casting but with his receipt for a winter coat: a reminder that industrial achievement can be measured in the ordinary securities which collective effort made attainable."
+  ],
+  "zh": [
+    "请先看入口上方的黄铜鱼：这是一条大菱鲆，于1894年为港口市场铸造。本展览追溯的是那些以劳动维系邻近铸造厂运转的家庭，而非厂内纪念牌所颂扬的业主。在这件光亮的铸件背后，是一段社会史；历次翻修都曾使它面临与车间熏黑的墙壁一同被彻底抹去的危险。",
+    "第一个展柜中，一部学识深厚的冶金学专著与学徒罗莎·马林的笔记本并置。出版的著作对合金进行分类，而她的笔记记录的却是开裂的坩埚、未获报酬的工时，以及清洗铸件后出现的头痛。近期对一个密封清洗剂罐的分析检出了苯；这一发现为她的主张提供了佐证：值得调查的是车间使用的材料，而不能只归咎于个人体弱。",
+    "接下来的展区依据一份物品清单和三张照片，还原了工人的晚餐室。纸花环悬在各不相同的餐盘上方；其中一张照片里，一位提琴手欢快地拉着琴，一名女子则将熟睡的婴儿抱在胸前。这种欢聚气氛不应被误认为工资优厚的证据：旁边的账簿记载了工人向互助基金缴纳的款项，有时不超过一便士。",
+    "在最后一个展柜前，请细看那份合同：互助基金通过它为一位年迈的炉工购买了年金。这笔数额不大、按季度发放的款项，使他得以退休而不必依靠子女。展览并未以另一件宏伟铸件收尾，而是以他购买冬衣的收据结束，提醒我们：衡量工业成就，也可以看集体努力为人们带来了多少日常生活的保障。"
+  ],
+  "q": [
+    {
+      "s": "The exhibition gives greater attention to foundry workers' families than to the business owners.",
+      "a": "T",
+      "why": "首段明确以工人家庭而非业主为主线。"
+    },
+    {
+      "s": "The textbook and Rosa Marin's notebook both concentrate on categorising metal mixtures.",
+      "a": "F",
+      "why": "专著分类合金，笔记记录工作问题。"
+    },
+    {
+      "s": "The retired furnace keeper bought his winter coat from a relative's shop.",
+      "a": "NG",
+      "why": "末段提到购衣收据，未说明商店归属。"
+    }
+  ]
+}

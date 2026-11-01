@@ -1,0 +1,48 @@
+{
+  "id": "r0201",
+  "ids": [
+    "cough",
+    "racket",
+    "similarly",
+    "jug",
+    "fashionable",
+    "cracker",
+    "trick",
+    "advise",
+    "identity",
+    "reality"
+  ],
+  "title": "A Hidden Voice Beside the Court",
+  "titleZh": "球场边隐蔽的声音",
+  "topic": "sport",
+  "cefr": 2,
+  "paras": [
+    "Saturday, 7:30 a.m. I was recording birds beside the village tennis court before my weekly game. Dew covered the grass, and a blackbird was pulling a worm from the ground. I left my [[racket|racket]] on a bench beside a [[jug|jug]] of water and opened my notebook.",
+    "Mina arrived wearing bright orange shoes, which are [[fashionable|fashionable]] at our club this year. As she bent to tie them, I heard someone [[cough|cough]] behind the hedge. Mina called out, but nobody answered. We could not discover the hidden person's [[identity|identity]]. Perhaps another player was playing a [[trick|trick]] on us before the match.",
+    "Then the sound came again. A starling appeared on a branch, its dark feathers shining green in the morning light. It opened its beak and produced the same rough noise. In [[reality|reality]], our mystery visitor was a bird. Another starling nearby behaved [[similarly|similarly]], repeating a short whistle after the first bird. I noted both sounds and the time.",
+    "During our break, Mina offered me a [[cracker|cracker]] with cheese. She wanted to leave some for the birds, but I [[advise|advised]] her to keep human food away from them. Below the hedge, they were already finding insects. We finished our game with two unusual listeners, and my notebook gained a surprising entry."
+  ],
+  "zh": [
+    "星期六，早上七点半。每周例行打球前，我在村里的网球场旁记录鸟类。草地上满是露水，一只乌鸫正从地里拉出一条蚯蚓。我把球拍放在长凳上，旁边是一壶水，然后打开了笔记本。",
+    "米娜穿着亮橙色的鞋来了，这种鞋今年在我们俱乐部很流行。她弯腰系鞋带时，我听到树篱后面有人咳嗽。米娜喊了一声，却没有人回答。我们无法弄清藏着的那个人是谁。也许是另一位球友想在比赛前捉弄我们。",
+    "接着，那个声音又响了起来。一只椋鸟出现在树枝上，深色的羽毛在晨光中泛着绿光。它张开嘴，发出了同样粗哑的声音。原来，这位神秘来客竟是一只鸟。附近另一只椋鸟也有相似的表现，跟着第一只鸟重复了一声短促的口哨。我记下了这两种声音和时间。",
+    "休息时，米娜递给我一块配着奶酪的薄脆饼干。她想留一些给鸟吃，但我建议她不要给它们喂人类的食物。树篱下，它们已经在找虫子吃了。我们在两位不寻常的听众陪伴下打完了球，而我的笔记本里也多了一条意外的记录。"
+  ],
+  "q": [
+    {
+      "s": "The writer began watching birds only after finishing the tennis game.",
+      "a": "F",
+      "why": "作者在打球前就已开始记录鸟类。"
+    },
+    {
+      "s": "A starling made the same rough sound that the writer had heard.",
+      "a": "T",
+      "why": "椋鸟张开嘴，发出了同样粗哑的声音。"
+    },
+    {
+      "s": "Mina had fed birds beside the court on previous visits.",
+      "a": "NG",
+      "why": "文中未提米娜以前是否在球场边喂鸟。"
+    }
+  ]
+}

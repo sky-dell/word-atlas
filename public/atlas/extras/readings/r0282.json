@@ -1,0 +1,46 @@
+{
+  "id": "r0282",
+  "ids": [
+    "laughter",
+    "shave",
+    "bend",
+    "lamb",
+    "pride",
+    "cap",
+    "disaster",
+    "peach",
+    "burglar",
+    "sender"
+  ],
+  "title": "The Orchard After the Flood",
+  "titleZh": "洪水后的果园",
+  "topic": "environment",
+  "cefr": 2,
+  "paras": [
+    "When I helped my grandfather Tomas sort his papers, I found a photograph of his riverside fruit farm after the flood of 1962. He still had the muddy [[cap|cap]] he wore that day. On the morning of the [[disaster|disaster]], he was about to [[shave|shave]] when water appeared under his bathroom door. Within an hour, the river had covered the lower orchard, destroying most of that year's [[peach|peach]] crop.",
+    "Another photograph showed fruit boxes piled on wooden shelves. Their weight had made the shelves [[bend|bend]]. Tomas remembered carrying boxes upstairs before joining his family in one dry room. A neighbour and a frightened [[lamb|lamb]] were there too. He remembered their [[laughter|laughter]] when the little animal climbed onto a bed. That evening, they all moved to a house on higher ground. When the family returned, they found a broken back window. They reported that a [[burglar|burglar]] had entered the house, but nothing had been taken.",
+    "Among the papers was a letter offering twenty young trees. Its [[sender|sender]] was a fruit grower from another valley. Neighbours helped plant the trees, and Tomas spoke with [[pride|pride]] about their shared work. In a photograph taken the following spring, fresh leaves appeared among the broken old trees. I wrote down the names Tomas could remember on the back of the photograph."
+  ],
+  "zh": [
+    "我帮祖父（或外祖父）托马斯整理文件时，发现了一张他那座河畔果园在1962年洪水后的照片。他还留着当天戴的那顶沾满泥土的便帽。灾难发生的那天早晨，他正准备刮胡子，浴室门下却出现了水。不到一小时，河水就淹没了果园的低洼地带，毁掉了当年大部分桃子。",
+    "另一张照片上，装水果的箱子堆在木架上。箱子的重量把架子压弯了。托马斯记得，自己先把箱子搬上楼，再到一个干燥的房间里与家人会合。一位邻居和一只受惊的小羊也在那里。他记得小羊爬上床时大家的笑声。那天傍晚，他们全都转移到地势更高的一所房子里。一家人回来时，发现后窗破了。他们报案说有入室盗贼闯入，但没有东西被拿走。",
+    "那些文件中有一封信，信中提出赠送二十棵小树。寄信人是另一处山谷的果农。邻居们帮忙栽树，托马斯自豪地谈起了大家共同完成的工作。在次年春天拍摄的一张照片中，折断的老树之间长出了新叶。我把托马斯能记起的名字写在了照片背面。"
+  ],
+  "q": [
+    {
+      "s": "Tomas had bought his cap in the village shop.",
+      "a": "NG",
+      "why": "文中未说明托马斯的帽子在哪里买。"
+    },
+    {
+      "s": "The burglar took valuable objects from the house.",
+      "a": "F",
+      "why": "家人报案时说没有东西被拿走。"
+    },
+    {
+      "s": "Neighbours helped plant the new trees.",
+      "a": "T",
+      "why": "末段明确说邻居们帮忙栽树。"
+    }
+  ]
+}

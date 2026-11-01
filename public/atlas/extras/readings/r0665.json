@@ -1,0 +1,48 @@
+{
+  "id": "r0665",
+  "ids": [
+    "indispensable",
+    "negligence",
+    "terrestrial",
+    "starch",
+    "situational",
+    "headlong",
+    "monopoly",
+    "quarry",
+    "wallaby",
+    "hustle"
+  ],
+  "title": "Lessons from a Stone Classroom",
+  "titleZh": "石头课堂里的学问",
+  "topic": "education",
+  "cefr": 4,
+  "paras": [
+    "Beyond a Tasmanian village, a disused [[quarry|quarry]] has become an unusual destination for travellers seeking more than scenery. Here, educator Mara Chen runs weekend workshops in making field journals, combining bookbinding with close observation of the surrounding bush. The exposed sandstone walls serve as a classroom whose lessons depend less on lectures than on what visitors notice.",
+    "At a long wooden bench, Mara heats a paste made from potato [[starch|starch]], explaining why a humble kitchen ingredient remains [[indispensable|indispensable]] to this particular binding method. Participants stitch folded sheets before attaching their covers. She refuses to [[hustle|hustle]] anyone through the drying stage: haste produces warped boards, while [[negligence|negligence]] in cleaning brushes can leave hardened fragments that scratch the paper.",
+    "Once the books are ready, the group follows a path above the stone face. A [[wallaby|wallaby]] emerges beside a rain-filled hollow, prompting a discussion of how [[terrestrial|terrestrial]] animals use temporary water sources. When one visitor rushes [[headlong|headlong]] towards the edge for a better view, Mara calls him back. Outdoor judgement, she observes, is [[situational|situational]]: yesterday's firm ground may become unstable after overnight rain.",
+    "By late afternoon, the journals contain sketches, measurements and questions rather than polished accounts. Mara claims no [[monopoly|monopoly]] on interpretation; a visiting baker recognises a texture in the rock that others have overlooked, comparing it to layers of pastry. Before leaving, everyone records one detail they initially missed."
+  ],
+  "zh": [
+    "在塔斯马尼亚一座村庄的外面，一处废弃采石场成了不同寻常的旅行目的地，吸引着不满足于只看风景的游客。教育工作者玛拉·陈在这里开设周末工作坊，教授野外观察手账的制作，将书籍装订与对周围丛林的细致观察结合起来。裸露的砂岩壁构成了一间课堂，这里的学习与其说依靠讲授，不如说取决于游客自己的发现。",
+    "在一张长木工作台前，玛拉加热用土豆淀粉调制的糨糊，并解释为什么这种不起眼的厨房原料对这一特定装订方法仍然不可或缺。参与者先将折好的纸页缝合，再装上封面。她绝不催促任何人匆忙完成晾干环节：急于求成会使封面纸板翘曲，而清洗刷子时的疏忽，则可能留下会刮伤纸面的硬结碎屑。",
+    "本子做好后，大家沿着岩壁上方的小径前行。一只小袋鼠出现在积满雨水的洼地旁，引出了一场关于陆生动物如何利用临时水源的讨论。一位游客为了看得更清楚，猛地朝边缘冲去，玛拉立刻叫他回来。她指出，户外判断须因情境而变：昨天还坚实的地面，经过一夜降雨，今天就可能变得不稳定。",
+    "到了傍晚，手账里装满了草图、测量数据和问题，而非精心润色的记述。玛拉并不认为解释的权利由她独占；一位来访的面包师注意到岩石中被其他人忽略的纹理，将其比作酥皮点心的层次。离开前，每个人都记下一处最初未曾留意的细节。"
+  ],
+  "q": [
+    {
+      "s": "Mara's weekend workshops are fully booked a month in advance.",
+      "a": "NG",
+      "why": "文中未说明课程的预订情况。"
+    },
+    {
+      "s": "Mara refuses to rush participants through the drying stage.",
+      "a": "T",
+      "why": "第二段明确说她不催促晾干环节。"
+    },
+    {
+      "s": "Mara lets the visitor continue towards the edge without intervening.",
+      "a": "F",
+      "why": "第三段明确说玛拉叫他回来。"
+    }
+  ]
+}

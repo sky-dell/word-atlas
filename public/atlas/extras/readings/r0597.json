@@ -1,0 +1,48 @@
+{
+  "id": "r0597",
+  "ids": [
+    "truce",
+    "exuberant",
+    "oxide",
+    "inscribe",
+    "handicap",
+    "generalization",
+    "transplant",
+    "uphold",
+    "expiration",
+    "conformity"
+  ],
+  "title": "The Greenhouse That Misread Its Soil",
+  "titleZh": "误读土壤的温室",
+  "topic": "technology",
+  "cefr": 4,
+  "paras": [
+    "Six weeks before the [[expiration|expiration]] of their greenhouse lease, a cooperative faced losing its rare alpine seedlings. Although an automated irrigation system reported adequate moisture, roots were drying out. Technician Amara blamed cultivation practices; grower Pavel blamed the sensors. Their temporary [[truce|truce]] allowed an investigation before either demanded the system’s removal.",
+    "The principal [[handicap|handicap]] was unreliable record-keeping: workers had moved trays without updating their locations. Amara [[inscribe|inscribed]] a number on each aluminium tray. Pavel agreed to [[transplant|transplant]] twelve seedlings into identical pots using the same batch of soil. They placed these on the numbered trays and weighed each pot daily, comparing its weight with its own initial weight after watering.",
+    "After nine days, several pots had lost considerable weight but still registered as wet. Amara opened a probe and found a broken seal, moisture inside and an [[oxide|oxide]] deposit on an electrical contact. Her earlier claim that all the seedlings had been watered carelessly was an unjustified [[generalization|generalization]]. Replacing every probe in strict [[conformity|conformity]] with the supplier’s maintenance schedule, however, would exhaust their funds.",
+    "Instead, she cleaned and dried the affected components, replaced damaged seals and added weekly weighing checks to [[uphold|uphold]] the nursery’s standard of evidence-based care. Over the following fortnight, electronic readings agreed with the weighing checks. Pavel’s normally reserved assistant became [[exuberant|exuberant]] when fresh roots emerged through the drainage holes. With the seedlings recovering, the cooperative secured another year’s lease."
+  ],
+  "zh": [
+    "距离温室租约到期还有六周时，一家合作社面临着失去珍稀高山植物幼苗的危机。尽管自动灌溉系统显示水分充足，植株的根系却正在干枯。技术员阿玛拉将问题归咎于栽培方法，种植员帕维尔则认为传感器出了故障。两人暂时休战，得以在任何一方提出拆除系统的要求之前先开展调查。",
+    "主要障碍在于记录不可靠：工人移动育苗盘后，没有更新其位置。阿玛拉在每个铝制育苗盘上刻下编号。帕维尔同意使用同一批土壤，将十二株幼苗移栽到相同的花盆中。他们把花盆放在带编号的育苗盘上，每天逐盆称重，将每盆的重量与其最初浇水后的重量作比较。",
+    "九天后，几个花盆的重量已经明显下降，但读数仍显示湿润。阿玛拉打开一支探头，发现密封件破损、内部有水汽，一个电接点上还沉积了氧化物。她此前声称所有幼苗都未得到细心浇灌，这是一种缺乏依据的笼统论断。然而，如果严格遵照供应商的维护计划更换全部探头，他们的资金就会耗尽。",
+    "于是，她转而清洁并干燥了受影响的部件，更换损坏的密封件，并增加每周称重检查，以维护苗圃以证据为依据的养护标准。在接下来的两周里，电子读数与称重检查结果相符。当新根从排水孔中长出来时，帕维尔那位平日寡言的助手变得兴高采烈。随着幼苗恢复生机，合作社成功续租一年。"
+  ],
+  "q": [
+    {
+      "s": "Amara and Pavel agreed to remove the irrigation system before investigating.",
+      "a": "F",
+      "why": "双方暂时休战，先调查而非先拆除系统。"
+    },
+    {
+      "s": "The twelve transplanted seedlings were given soil from the same batch.",
+      "a": "T",
+      "why": "第二段明确说移栽使用同一批土壤。"
+    },
+    {
+      "s": "The supplier paid for the replacement seals.",
+      "a": "NG",
+      "why": "文中未说明谁支付了更换密封件的费用。"
+    }
+  ]
+}

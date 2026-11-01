@@ -1,0 +1,48 @@
+{
+  "id": "r0410",
+  "ids": [
+    "genetic",
+    "ostrich",
+    "nutrition",
+    "creation",
+    "decay",
+    "maintenance",
+    "mammal",
+    "spiritual",
+    "quarterly",
+    "occupy"
+  ],
+  "title": "The Springs Behind a Running Bird",
+  "titleZh": "奔跑的鸟，腿中的弹簧",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "Watching an [[ostrich|ostrich]] run across open grassland can reveal something surprising about sport: speed depends partly on recycling energy. Although this bird is not a [[mammal|mammal]], its legs share an important feature with those of human runners. Long tendons act like springs, storing energy when the foot lands and releasing it as the body moves forward.",
+    "Muscles [[occupy|occupy]] relatively little space near the bird's feet; much of their mass sits higher up the legs. This arrangement keeps the lower limbs light, so swinging them requires less effort. The bird's [[genetic|genetic]] inheritance guides the development of this body plan. However, good [[nutrition|nutrition]] is also necessary for building strong tissues, especially while a young bird is growing.",
+    "These biological springs require constant [[maintenance|maintenance]]. In living tendons, cells support the [[creation|creation]] of new protein fibres and remove damaged material. Unlike fallen leaves, which gradually [[decay|decay]], healthy tissue is continually renewed. Repair is not instant, however, which helps explain why repeated heavy exercise without enough recovery can injure a human runner's tendons.",
+    "For a runner reading about tendons in a [[quarterly|quarterly]] sports science magazine, this could be a reason to reconsider recovery time between runs. Running may have a [[spiritual|spiritual]] value beyond competition, but even someone seeking that inner peace depends on a physical mechanism shared with a flightless bird: each landing helps power the next stride."
+  ],
+  "zh": [
+    "观察鸵鸟在开阔的草地上奔跑，可以发现一个与运动有关的有趣事实：速度在一定程度上取决于能量的循环利用。虽然鸵鸟不是哺乳动物，但它的腿与人类跑者的腿有一个重要的共同点。长长的肌腱就像弹簧，在脚落地时储存能量，并在身体向前移动时释放能量。",
+    "鸵鸟脚部附近的肌肉占据的空间相对较小，大部分肌肉集中在腿部较高的位置。这种布局使小腿保持轻巧，因此摆动起来更省力。遗传因素引导着这种身体结构的发育。不过，良好的营养摄取也是构建强韧组织的必要条件，尤其是在幼鸟生长期间。",
+    "这些生物弹簧需要持续维护。在活体肌腱中，细胞帮助形成新的蛋白质纤维，并清除受损物质。落叶会逐渐腐烂，而健康的组织则不断更新。然而，修复并非即时完成，这也有助于解释为什么反复进行高强度运动却没有充分恢复，可能损伤人类跑者的肌腱。",
+    "对于在体育科学季刊中阅读肌腱相关内容的跑者来说，这可能成为重新考虑两次跑步之间恢复时间的一个理由。跑步或许具有超越竞技的心灵价值，但即使是寻求这种内心平静的人，也依赖一种与不会飞的鸟类共有的物理机制：每次落地，都在为下一步提供动力。"
+  ],
+  "q": [
+    {
+      "s": "Both ostriches and human runners have tendons that can store and return energy.",
+      "a": "T",
+      "why": "首段说明两者的肌腱都像弹簧储存并释放能量。"
+    },
+    {
+      "s": "Young ostriches need more protein each day than adult ostriches.",
+      "a": "NG",
+      "why": "文章未比较幼鸟与成年鸵鸟的每日蛋白质需求。"
+    },
+    {
+      "s": "Damaged tendon tissue is repaired instantly.",
+      "a": "F",
+      "why": "第三段明确说明修复并非即时完成。"
+    }
+  ]
+}

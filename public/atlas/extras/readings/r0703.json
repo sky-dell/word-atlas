@@ -1,0 +1,48 @@
+{
+  "id": "r0703",
+  "ids": [
+    "brewery",
+    "initiate",
+    "dissertation",
+    "mourn",
+    "bureau",
+    "aviation",
+    "rebate",
+    "valve",
+    "hinge",
+    "flutter"
+  ],
+  "title": "The Factory That Teaches Through Failure",
+  "titleZh": "在故障中学习的工厂",
+  "topic": "education",
+  "cefr": 4,
+  "paras": [
+    "When the last [[brewery|brewery]] in Bellwick closed, residents expected its copper vessels to become restaurant decorations. Instead, the building has acquired an unexpected educational role: teaching experienced professionals how to be beginners again. Evening workshops, initially intended for former factory employees, now attract librarians, accountants and specialists from the [[aviation|aviation]] industry.",
+    "The scheme began when Mara Okafor, researching industrial memory for her [[dissertation|dissertation]], interviewed workers who continued to [[mourn|mourn]] the loss of their shared workplace. Their accounts prompted the regional training [[bureau|bureau]] to [[initiate|initiate]] a practical course led by retired maintenance staff. Participants pay a modest fee, receiving a partial [[rebate|rebate]] after completing six sessions; attendance, rather than successful repairs, determines eligibility.",
+    "Each group receives a deliberately faulty object, such as a leaking [[valve|valve]] or a cupboard with a twisted [[hinge|hinge]]. Instructors withhold diagrams for the first twenty minutes, requiring participants to describe what they observe before proposing solutions. Above one workbench, narrow paper strips [[flutter|flutter]] in escaping air, making an otherwise invisible fault apparent. The exercise rewards precise attention rather than technical vocabulary, which sometimes leaves senior engineers less comfortable than complete novices.",
+    "Unexpectedly, demand has grown fastest among employers seeking better workplace communication, not mechanical expertise. Course organisers report that mixed groups gradually replace confident guesses with questions that others can answer. No formal assessment yet establishes whether these habits survive outside the workshop. Nevertheless, a site once valued for its output is finding a second purpose in the productive uncertainty of learning."
+  ],
+  "zh": [
+    "贝尔威克最后一家啤酒厂关闭时，居民们以为厂里的铜制容器会成为餐厅装饰。没想到，这栋建筑承担起了出人意料的教育功能：教经验丰富的专业人士重新当一回初学者。夜间工作坊原本面向工厂旧员工，如今却吸引了图书馆员、会计师以及航空业的专业人员。",
+    "这一项目源于玛拉·奥卡福为学位论文开展的工业记忆研究。她采访了一些工人，他们仍为失去共同工作的场所而深感悲痛。这些讲述促使地区培训局启动了一门由退休维修人员主讲的实践课程。参与者只需缴纳少量费用，完成六次课程后还能获得部分退款；能否退款取决于出勤情况，而不是维修是否成功。",
+    "每组都会拿到一件被故意设置了故障的物品，比如有泄漏的阀门，或是装有变形合页的柜子。教师在最初二十分钟不提供图纸，要求参与者先描述观察到的现象，再提出解决办法。一张工作台上方，细长的纸条在漏出的气流中飘动，让原本看不见的故障显现出来。这项练习看重的是细致观察，而非技术术语，因此资深工程师有时反而不如毫无经验的新手自在。",
+    "出人意料的是，需求增长最快的客户并不是希望提升机械技能的雇主，而是希望改善职场沟通的雇主。课程组织者表示，背景各异的参与者逐渐不再作出自信的猜测，而是提出别人能够回答的问题。目前尚无正式评估证明，这些习惯能否延续到工作坊之外。不过，这处曾经因产量而受到重视的场所，如今正从学习中富有成效的不确定性里，找到新的用途。"
+  ],
+  "q": [
+    {
+      "s": "The workshops now appeal to a broader range of occupations than originally intended.",
+      "a": "T",
+      "why": "原面向工厂旧员工，现吸引多种职业人士。"
+    },
+    {
+      "s": "Participants must demonstrate successful repair skills to recover part of their course fee.",
+      "a": "F",
+      "why": "退款取决于出勤，而非维修是否成功。"
+    },
+    {
+      "s": "Employers purchasing workshop places receive a discount for larger groups.",
+      "a": "NG",
+      "why": "文章未提及雇主团体报名的折扣。"
+    }
+  ]
+}

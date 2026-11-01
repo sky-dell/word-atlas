@@ -1,0 +1,48 @@
+{
+  "id": "r0255",
+  "ids": [
+    "cattle",
+    "fixed",
+    "spice",
+    "divorce",
+    "pretend",
+    "dirt",
+    "corn",
+    "organization",
+    "hammer",
+    "insist"
+  ],
+  "title": "New Tools at the Old Mill",
+  "titleZh": "老磨坊里的新工具",
+  "topic": "technology",
+  "cefr": 2,
+  "paras": [
+    "Beyond a field of [[cattle|cattle]], a narrow path leads visitors to Mira's watermill. Here, travellers can watch yellow [[corn|corn]] become flour, then taste warm bread with a local [[spice|spice]] called sweet cumin. The wooden wheel still gets its power from the stream, but a small screen beside it shows how fast it turns.",
+    "Mira returned to her home village after her [[divorce|divorce]] six years ago. She joined an [[organization|organization]] that helps owners protect old village buildings. With its support, she opened the mill to visitors. Her aim was not to [[pretend|pretend]] that village life had never changed, but to show how old skills and new tools could work together.",
+    "Inside, a sensor measures the wheel's movement. Unlike a machine with a [[fixed|fixed]] speed, the wheel turns faster after heavy rain. A red light warns Mira when it becomes too fast. Before touching the screen, she wipes the [[dirt|dirt]] from her hands. A [[hammer|hammer]] hangs nearby for simple wooden repairs; technology has not replaced every traditional tool.",
+    "Some guests want to hurry straight to the bread table. However, Mira will [[insist|insist]] that they first listen to the stones turning for a moment, even if they complain. Soon, most become quiet. When they finally taste the bread, the sound of the mill is still in their ears."
+  ],
+  "zh": [
+    "在一片放养着牛群的田地那边，一条窄路将游客引向米拉的水磨坊。在这里，旅行者可以看着金黄的玉米被磨成粉，再品尝加入当地一种名为“甜孜然”的香料制成的热面包。木制水轮依然靠溪水驱动，不过旁边的一块小屏幕会显示它转动的速度。",
+    "六年前离婚后，米拉回到了家乡的村庄。她加入了一个帮助业主保护村中古老建筑的组织。在该组织的支持下，她向游客开放了磨坊。她的目的不是假装乡村生活从未改变，而是展示传统技艺与新工具如何相互配合。",
+    "磨坊内，一个传感器测量着水轮的转动情况。与速度固定的机器不同，水轮在大雨过后会转得更快。当转速过快时，一盏红灯就会提醒米拉。触碰屏幕前，她会擦掉手上的污垢。附近挂着一把锤子，用来做简单的木件修理；技术并没有取代所有传统工具。",
+    "有些客人想直接赶到摆放面包的桌前。然而，即使他们抱怨，米拉也会坚持要求他们先听一会儿磨石转动的声音。很快，大多数人都安静下来。当他们终于尝到面包时，磨坊的声音仍在耳边回响。"
+  ],
+  "q": [
+    {
+      "s": "The mill's wooden wheel is now driven by electricity rather than water.",
+      "a": "F",
+      "why": "木制水轮仍由溪水驱动。"
+    },
+    {
+      "s": "Mira moved back to her village after her marriage legally ended.",
+      "a": "T",
+      "why": "米拉六年前离婚后回到家乡。"
+    },
+    {
+      "s": "Guests pay an extra fee to taste the bread.",
+      "a": "NG",
+      "why": "文章未说明品尝面包是否另行收费。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0604",
+  "ids": [
+    "coherence",
+    "monarch",
+    "bypass",
+    "multitude",
+    "deceased",
+    "resentful",
+    "radical",
+    "diversion",
+    "tack",
+    "reappraisal"
+  ],
+  "title": "The Mill Beneath the Portrait",
+  "titleZh": "君主肖像下的磨坊往事",
+  "topic": "history",
+  "cefr": 4,
+  "paras": [
+    "When residents of Bellwater converted a disused mill office into a history room, their first exhibition lacked [[coherence|coherence]]. Royal portraits, flour sacks and household receipts competed for attention. Although a visiting [[monarch|monarch]] dominated the surviving photographs, coordinator Amara Ndlovu suspected that the building's most consequential story concerned people who had never appeared before a camera.",
+    "Rather than [[bypass|bypass]] the tedious work of cataloguing, six volunteers examined a [[multitude|multitude]] of documents donated by mill families. Among the papers of a [[deceased|deceased]] engineer, they discovered a map showing the [[diversion|diversion]] of a stream in 1893. Beside it lay complaints from washerwomen whose customary washing place had subsequently become a shallow, muddy pool.",
+    "The letters revealed why these women had grown [[resentful|resentful]]: while the mill gained a steadier water supply, they walked an additional kilometre carrying wet linen. This evidence prompted a [[radical|radical]] redesign of the exhibition. The royal visit became a minor episode, while the stream occupied the central wall, its former course traced in blue thread secured by a single brass [[tack|tack]] at each bend.",
+    "Visitors could now follow the water from the millpond to the abandoned washing place, reading contrasting accounts along the way. The resulting [[reappraisal|reappraisal]] did not portray the mill simply as an enemy; wage records also documented its importance to household incomes. At the opening, descendants of both workers and washerwomen added family recollections, turning an assortment of objects into a shared, if still contested, history."
+  ],
+  "zh": [
+    "贝尔沃特的居民将一间闲置的磨坊办公室改成了历史陈列室，但首次展览缺乏清晰的脉络。王室肖像、面粉袋和家庭收据杂陈其间，争夺着观众的注意力。尽管留存下来的照片大多围绕一位到访的君主，项目协调人阿玛拉·恩德洛武却认为，这栋建筑最重要的故事，可能属于那些从未出现在镜头前的人。",
+    "六名志愿者没有绕过繁琐的编目工作，而是查阅了与磨坊有关的家庭捐赠的大量文件。他们在一位已故工程师的文书中发现了一张地图，标明了1893年一条溪流的改道情况。地图旁还有洗衣妇写下的投诉信：她们惯常洗衣的地方后来变成了一处浅浅的泥水潭。",
+    "这些信件揭示了洗衣妇心生怨愤的原因：磨坊获得了更稳定的供水，她们却得提着湿衣物多走一公里。这些证据促使志愿者彻底重新设计了展览。君主来访成了一个次要插曲，而溪流则占据了展厅的中央墙面。蓝线勾勒出它昔日的河道，每处转弯都用一枚黄铜大头短钉固定。",
+    "如今，参观者可以沿着水流的路线，从磨坊蓄水池一路看到废弃的洗衣处，并沿途阅读相互对照的记述。这番重新评价并没有简单地将磨坊描绘成敌人；工资记录也证明了它对家庭收入的重要性。开幕当天，工人和洗衣妇的后代都补充了各自的家族回忆，让一堆原本零散的物件汇成了一段共同的历史，尽管其中仍存在争议。"
+  ],
+  "q": [
+    {
+      "s": "The first exhibition presented its material coherently.",
+      "a": "F",
+      "why": "首段明确指出首次展览缺乏条理。"
+    },
+    {
+      "s": "A professional archivist helped the volunteers catalogue the donated documents.",
+      "a": "NG",
+      "why": "文章未说明是否有专业档案人员协助编目。"
+    },
+    {
+      "s": "The revised exhibition acknowledged the mill's contribution to household incomes.",
+      "a": "T",
+      "why": "末段说明工资记录展示了磨坊对家庭收入的重要性。"
+    }
+  ]
+}

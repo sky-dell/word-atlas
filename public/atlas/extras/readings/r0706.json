@@ -1,0 +1,48 @@
+{
+  "id": "r0706",
+  "ids": [
+    "profuse",
+    "vex",
+    "nicety",
+    "pervert",
+    "pilferage",
+    "virile",
+    "treatise",
+    "surmise",
+    "terminable",
+    "prophesy"
+  ],
+  "title": "The Owl Behind the Ledger",
+  "titleZh": "账本背后的猫头鹰",
+  "topic": "emotion",
+  "cefr": 5,
+  "paras": [
+    "At dusk on 18 May, I returned to the abandoned lime kiln, where [[profuse|profuse]] elder blossom nearly concealed the entrance. An owl had nested above the weighing room. Its calls, which the caretaker claimed could [[prophesy|prophesy]] a death, had begun to [[vex|vex]] me: not because I believed him, but because apprehension was contaminating my observations.",
+    "My notebook described the male's flight as [[virile|virile]], a muscular assertion of ownership. Yet this was precisely the [[nicety|nicety]] my old [[treatise|treatise]] on observational language had neglected: an adjective could disclose more about the observer than the animal. Watching him clip a wing against the lintel, I crossed out the word and recorded the collision instead.",
+    "Inside, someone had removed three brass weights from our equipment shelf. This petty [[pilferage|pilferage]] mattered because our access agreement was [[terminable|terminable]] if anything disappeared. I could only [[surmise|surmise]] who was responsible. The caretaker suggested blaming the owl for carrying off bright objects; to [[pervert|pervert]] a wildlife record merely to protect our tenancy, however, would make the entire season's work suspect.",
+    "By midnight, the female had emerged, delivering a vole whose tail dragged briefly across the stone. I entered the time, prey and direction of approach, leaving the missing weights in a separate incident report. Nothing about the theft was resolved. Nevertheless, as the owlets shuffled overhead, my anxiety subsided: the page no longer required the birds to bear either our superstitions or our excuses. Their small, audible hunger was sufficient."
+  ],
+  "zh": [
+    "5月18日黄昏，我再次来到废弃的石灰窑。繁密的接骨木花几乎遮住了入口。一只猫头鹰在称重室上方筑了巢。看守人声称，它的叫声能够预告死亡；这叫声已开始令我烦恼，并非因为我相信他，而是因为惴惴不安正在干扰我的观察。",
+    "我的笔记将雄鸟的飞行描述为“阳刚强健”，仿佛它正以肌肉力量宣示领地所有权。然而，这恰恰是我先前那部关于观察用语的专论所忽略的微妙之处：一个形容词所揭示的，可能更多是观察者的心态，而非动物的特征。看见它的一侧翅膀擦撞门楣，我划掉了那个词，转而记下这次碰撞。",
+    "屋内，有人从我们的器材架上拿走了三枚黄铜砝码。这起小额失窃事关重大，因为按照场地使用协议，只要有东西丢失，我们的使用权就可能被终止。我只能猜测是谁所为。看守人建议把责任推给猫头鹰，说它叼走了闪亮的物件；然而，仅仅为了保住场地使用权就恶意歪曲野生动物记录，会使整个观测季的工作都变得可疑。",
+    "到午夜时，雌鸟已经现身，送来一只田鼠，鼠尾短暂地拖过石面。我记下时间、猎物和它飞来的方向，把砝码失踪的事留在另一份事件报告中。失窃一事依然毫无着落。然而，听着头顶幼鸟窸窣挪动，我的焦虑渐渐平息：笔记上再也不必让这些鸟替我们的迷信或借口承担责任。它们那轻微而听得见的饥饿，已足够值得记录。"
+  ],
+  "q": [
+    {
+      "s": "The observer believed the caretaker's claim that the owl's calls could predict a death.",
+      "a": "F",
+      "why": "首段明确说观察者并不相信看守人的说法。"
+    },
+    {
+      "s": "The missing brass weights were recovered the following week.",
+      "a": "NG",
+      "why": "文中未交代下一周是否找回砝码。"
+    },
+    {
+      "s": "The observer recorded the missing weights separately from the owl observations.",
+      "a": "T",
+      "why": "末段说明砝码失踪另记在事件报告中。"
+    }
+  ]
+}

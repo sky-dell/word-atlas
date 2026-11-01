@@ -1,0 +1,46 @@
+{
+  "id": "r0164",
+  "ids": [
+    "lorry",
+    "ireland",
+    "hurry",
+    "nail",
+    "stomach",
+    "pie",
+    "form",
+    "attention",
+    "hairstyle",
+    "workbook"
+  ],
+  "title": "Snails After the Rain",
+  "titleZh": "雨后的蜗牛",
+  "topic": "science",
+  "cefr": 1,
+  "paras": [
+    "Tuesday, 8 a.m. — Rain stopped at our small field station in [[ireland|Ireland]]. A [[lorry|lorry]] brought bags of soil for our garden study. When the driver lifted the last bag, I saw a tiny snail underneath. Its shell was smaller than the [[nail|nail]] on my little finger. I called to my partner, Hana, but asked her not to [[hurry|hurry]]. We did not want to step on it.",
+    "Hana put a wet leaf beside the snail. Slowly, it moved onto the leaf, giving us a clear view of its shell. The shell had the [[form|form]] of a spiral, like a line turning round and round. We gave particular [[attention|attention]] to two dark marks near its edge. In my nature course [[workbook|workbook]], I drew the marks and answered an exercise about where small animals find wet places.",
+    "By noon, the wind had made Hana's neat [[hairstyle|hairstyle]] look like a bird's nest. My [[stomach|stomach]] was making noises, so we shared a cheese [[pie|pie]] outside. Before eating, we placed the leaf in a gap under the raised edge of a garden stone. That evening, we found the same marked shell beside the stone. We could not tell whether the snail had left this cool, wet corner and returned. Tomorrow, we would look again without moving its shelter."
+  ],
+  "zh": [
+    "星期二，上午八点——我们位于爱尔兰的小型野外研究站雨停了。一辆货车为我们的花园研究送来了几袋土。司机搬起最后一袋时，我看见下面有一只小蜗牛。它的壳比我小指的指甲还小。我叫来搭档哈娜，但让她别着急。我们可不想踩到它。",
+    "哈娜在蜗牛旁放了一片湿叶子。它慢慢爬上叶子，让我们能看清它的壳。壳呈螺旋形，就像一条一圈圈绕着的线。我们特别留意了壳边缘附近的两处深色斑纹。我在自然课程的练习册里画下这些斑纹，并完成了一道关于小动物在哪里寻找潮湿地方的练习题。",
+    "到中午时，风已经把哈娜原本整齐的发型吹得像个鸟窝。我的肚子咕咕叫了起来，于是我们在外面分吃了一个奶酪派。吃之前，我们把那片叶子放进花园里一块石头翘起的边缘下方的空隙里。当天傍晚，我们在石头旁发现了那个带着相同斑纹的壳。我们无法判断蜗牛是否曾离开这个凉爽潮湿的角落，又回到了这里。明天，我们会再来看看，不搬动它的藏身之处。"
+  ],
+  "q": [
+    {
+      "s": "The writer first noticed the snail beneath a bag of soil.",
+      "a": "T",
+      "why": "司机搬起最后一袋土时，作者看见了蜗牛。"
+    },
+    {
+      "s": "The writer's workbook cost ten euros.",
+      "a": "NG",
+      "why": "文章提到练习册，但未说明价格。"
+    },
+    {
+      "s": "The writer and Hana ate their lunch indoors.",
+      "a": "F",
+      "why": "第三段明确说两人在外面分吃奶酪派。"
+    }
+  ]
+}

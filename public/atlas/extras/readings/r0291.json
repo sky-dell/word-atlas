@@ -1,0 +1,48 @@
+{
+  "id": "r0291",
+  "ids": [
+    "minimum",
+    "announcement",
+    "wing",
+    "horn",
+    "canal",
+    "wildlife",
+    "chest",
+    "naturally",
+    "hardly",
+    "safety"
+  ],
+  "title": "Why Butterflies Gather Beside a Canal",
+  "titleZh": "蝴蝶为何聚集在运河边",
+  "topic": "travel",
+  "cefr": 2,
+  "paras": [
+    "Travellers on a small forest [[canal|canal]] sometimes notice something surprising: dozens of butterflies sitting on wet ground. Each [[wing|wing]] shines blue or yellow in the sunlight, but the insects are not resting. They are drinking water from the mud. This behaviour is common in warm regions, especially after rain.",
+    "Flowers provide butterflies with sugar, but their food contains little salt. Like other [[wildlife|wildlife]], they need a [[minimum|minimum]] of certain minerals to stay healthy. These minerals occur [[naturally|naturally]] in the soil. Rainwater carries them into shallow pools, where butterflies can collect them. The insects take in the water and pass much of it out again, keeping some of the minerals.",
+    "On one boat trip, guide Amara makes an [[announcement|announcement]] before passengers step ashore: keep back from the muddy edge. The water beside it could reach a person's [[chest|chest]], so [[safety|safety]] matters even at this quiet stop. Across the water, a wild buffalo lowers its head, one curved [[horn|horn]] catching the light. Its footprints have left small pools along the bank.",
+    "At first, visitors can [[hardly|hardly]] see the butterflies' thin feeding tubes touching the mud. However, by watching quietly, they discover the reason for this colourful gathering. A wet bank that looks empty can actually be a valuable feeding place."
+  ],
+  "zh": [
+    "沿着一条林间小运河旅行的人，有时会看到令人惊讶的一幕：几十只蝴蝶停在湿地上。每一片翅膀都在阳光下闪着蓝色或黄色的光，但这些昆虫并不是在休息。它们正在吸饮泥中的水。这种行为在温暖地区很常见，尤其是在雨后。",
+    "花朵为蝴蝶提供糖分，但它们的食物含盐很少。和其他野生生物一样，它们需要至少摄取一定量的某些矿物质才能保持健康。这些矿物质天然存在于土壤中。雨水把它们带入浅水洼，蝴蝶便可以在那里获取它们。蝴蝶吸入水分后，会再排出其中的大部分水，留下一些矿物质。",
+    "在一次游船旅行中，导游阿玛拉在乘客上岸前向大家作了提醒：不要靠近泥泞的岸边。岸边的水可能深及人的胸部，因此，即使在这个安静的停靠点，安全也很重要。水对岸，一头野水牛低下头，一只弯角在光线下显得格外醒目。它在岸边留下的脚印里积起了小水洼。",
+    "起初，游客几乎看不清蝴蝶贴着泥面的细长口器。不过，通过安静地观察，他们发现了这场缤纷聚会的原因。一片看似空无一物的湿岸，实际上可能是一处宝贵的觅食地。"
+  ],
+  "q": [
+    {
+      "s": "The butterflies' food contains a lot of salt.",
+      "a": "F",
+      "why": "原文明确说它们的食物含盐很少。"
+    },
+    {
+      "s": "Amara tells passengers to stay away from the muddy edge.",
+      "a": "T",
+      "why": "阿玛拉提醒乘客不要靠近泥泞的岸边。"
+    },
+    {
+      "s": "Most visitors photograph the butterflies before returning to the boat.",
+      "a": "NG",
+      "why": "文中未提及游客是否拍照。"
+    }
+  ]
+}

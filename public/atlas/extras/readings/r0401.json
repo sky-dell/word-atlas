@@ -1,0 +1,46 @@
+{
+  "id": "r0401",
+  "ids": [
+    "virtually",
+    "coldness",
+    "conventional",
+    "fortress",
+    "inadequate",
+    "effectiveness",
+    "pollutant",
+    "reflection",
+    "actual",
+    "occasional"
+  ],
+  "title": "Water Pictures in a Coastal Fortress",
+  "titleZh": "海边堡垒里的水影画",
+  "topic": "arts",
+  "cefr": 3,
+  "paras": [
+    "Visitors entering the old coastal [[fortress|fortress]] of Bellara usually notice the [[coldness|coldness]] of its stone passages before they see any art. Beyond a narrow doorway, however, shallow copper bowls catch light from a high window. Each holds a trembling [[reflection|reflection]] of a painted ceiling: fishing boats, silver fish and women repairing nets. Artist Mara Sen designed the installation to make travellers look down before looking up, reversing the [[conventional|conventional]] experience of viewing a decorated room.",
+    "The bowls contain water collected from the harbour, but its journey into the exhibition is part of the work. When Mara began, the water was so cloudy that the copper beneath it was [[virtually|virtually]] invisible. A cloth filter proved [[inadequate|inadequate]], so she worked with a local laboratory to remove fine particles. Beside the bowls, sealed jars display the [[actual|actual]] material removed, including soot, an airborne [[pollutant|pollutant]] that settles on the sea. Labels explain the [[effectiveness|effectiveness]] of each filtering stage without claiming that the treated water is safe to drink.",
+    "There is no recorded soundtrack. Instead, an [[occasional|occasional]] drop falls from a small brass pipe, briefly breaking the boats into coloured fragments. Visitors often wait for the surface to settle before moving on. Outside, the harbour offers the same boats and working nets, though few people initially recognise them. The exhibition's quiet achievement is to send travellers back towards an ordinary waterfront with a more attentive eye."
+  ],
+  "zh": [
+    "走进贝拉拉古老海岸堡垒的游客，通常还没看到艺术品，就先感受到石砌通道里的寒冷。然而，穿过一道狭窄的门口，便能看见浅铜碗接住高窗投下的光。每只碗里都映着微微晃动的天花板彩绘：渔船、银色的鱼，以及补网的妇女。艺术家玛拉·森设计这件装置，是为了让游客先低头、再抬头，颠倒人们欣赏装饰性房间的常规方式。",
+    "碗中盛着从港口采来的水，而水进入展览前的处理过程也是作品的一部分。玛拉刚开始创作时，水浑浊得几乎看不见水下的铜面。布制滤网的过滤能力不足，于是她与当地一家实验室合作，去除水中的细小颗粒。铜碗旁边，密封罐展示着实际滤出的物质，其中包括烟尘——一种会沉降到海面的空气污染物。说明牌解释了每个过滤阶段的效果，但并未声称处理后的水可以安全饮用。",
+    "展览没有播放录制的配乐。取而代之的是，小黄铜管里偶尔落下一滴水，将船的倒影短暂地打散成彩色碎片。游客常常等到水面恢复平静，才继续参观。走到外面，港口里便能看到同样的船只和仍在使用的渔网，不过起初很少有人认出它们。这个展览不动声色的成就，就是让游客带着更专注的目光，重新走向平凡的海滨。"
+  ],
+  "q": [
+    {
+      "s": "Mara painted the ceiling herself.",
+      "a": "NG",
+      "why": "只说明玛拉设计装置，未说明谁绘制天花板。"
+    },
+    {
+      "s": "Mara needed help from a laboratory after trying a cloth filter.",
+      "a": "T",
+      "why": "布制滤网不足以完成过滤，随后与实验室合作。"
+    },
+    {
+      "s": "A recorded soundtrack accompanies the installation.",
+      "a": "F",
+      "why": "第三段明确说明没有录制的配乐。"
+    }
+  ]
+}

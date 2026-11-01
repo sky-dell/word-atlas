@@ -1,0 +1,48 @@
+{
+  "id": "r0383",
+  "ids": [
+    "anxious",
+    "justify",
+    "fragrance",
+    "genius",
+    "bibliography",
+    "inherit",
+    "squirrel",
+    "aluminium",
+    "spy",
+    "lighting"
+  ],
+  "title": "The Comfort Hidden in Objects",
+  "titleZh": "藏在物件里的慰藉",
+  "topic": "emotion",
+  "cefr": 3,
+  "paras": [
+    "When people [[inherit|inherit]] a house, they receive more than property. A drawer of kitchen tools or a familiar curtain can carry powerful emotional associations. This connection inspired exhibition designer Leila Haddad to create a small room exploring why ordinary possessions sometimes comfort us when we feel [[anxious|anxious]].",
+    "At its centre stands a wooden table beneath soft [[lighting|lighting]]. On it are an [[aluminium|aluminium]] teapot, a faded toy [[squirrel|squirrel]] with a bushy tail, and a novel about a [[spy|spy]] who secretly gathers military information. Visitors choose an object and describe any memory it brings back. Nearby, a covered jar releases the [[fragrance|fragrance]] of dried lavender when opened. Nothing here is valuable, yet each item offers a possible route into someone's past.",
+    "Smell signals reach brain regions involved in emotion and memory through relatively direct pathways. This helps explain why a scent may bring back a vivid childhood scene before we can name it. However, personal history matters: lavender might recall a peaceful garden for one visitor and an unpleasant medicine for another. Such differences [[justify|justify]] offering several objects rather than promising that one scent will relax everyone.",
+    "Haddad includes a short [[bibliography|bibliography]] of memory research beside the exit, making the science available without turning the room into a textbook. 'You don't need to be a [[genius|genius]] to design something meaningful,' she says. 'You need to notice what people notice.'"
+  ],
+  "zh": [
+    "人们继承一所房子时，得到的不只是财产。一抽屉的厨房用具，或一幅熟悉的窗帘，都可能承载强烈的情感联想。这种联系启发了展览设计师莱拉·哈达德。她布置了一个小房间，探索为什么普通物件有时能在人们焦虑时带来慰藉。",
+    "房间中央是一张木桌，笼罩在柔和的灯光下。桌上放着一把铝制茶壶、一只颜色褪去、尾巴蓬松的玩具松鼠，以及一本讲述间谍秘密搜集军事情报的小说。参观者挑选一件物品，描述它唤起的任何记忆。旁边一个带盖的罐子打开后，会散发出干薰衣草的芳香。这里没有贵重物品，但每一件东西都可能成为通往某个人过去的入口。",
+    "气味信号通过相对直接的通路，抵达大脑中参与情绪和记忆活动的区域。这有助于解释，为什么我们还没辨认出一种气味，它就可能唤起一幕鲜活的童年场景。不过，个人经历很重要：薰衣草可能让一位参观者想起宁静的花园，却让另一位想起令人不快的药物。这些差异说明，提供多种物件是有道理的，而不应承诺某一种气味能让所有人放松。",
+    "哈达德在出口旁放了一份简短的记忆研究参考书目，让参观者能够了解相关科学，又不至于把房间变成一本教科书。她说：“设计有意义的东西，不必是天才。你需要留意人们关注的事物。”"
+  ],
+  "q": [
+    {
+      "s": "Haddad inherited the house that inspired her exhibition.",
+      "a": "NG",
+      "why": "首段未说明哈达德本人是否继承过房屋。"
+    },
+    {
+      "s": "Visitors are invited to describe memories associated with an object they choose.",
+      "a": "T",
+      "why": "第二段说明参观者选取物件并描述相关记忆。"
+    },
+    {
+      "s": "Lavender brings back pleasant memories for every visitor.",
+      "a": "F",
+      "why": "第三段指出薰衣草也可能让人想起令人不快的药物。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0212",
+  "ids": [
+    "jet",
+    "crash",
+    "fancy",
+    "protest",
+    "prisoner",
+    "due",
+    "astronaut",
+    "surround",
+    "rely",
+    "salty"
+  ],
+  "title": "Small Adventures for Big Worries",
+  "titleZh": "小冒险，应对大烦恼",
+  "topic": "emotion",
+  "cefr": 2,
+  "paras": [
+    "A surprising trend is growing at a small theatre in Bellwick: adults are paying to act out frightening adventures. The evening club began with six members last spring; it now has thirty. Most do not [[fancy|fancy]] performing for an audience. Instead, they want to practise staying calm when things go wrong.",
+    "Each week, leader Mina Costa prepares a different story. In one, members are passengers on a [[jet|jet]] after a [[crash|crash]] in deep snow. In another, they help an [[astronaut|astronaut]] return from space. Chairs and painted boxes [[surround|surround]] the actors, but there are no screens or loud sound effects. Members must [[rely|rely]] on one another to solve each problem.",
+    "Not every idea has worked. When Mina suggested that one person play a [[prisoner|prisoner]] locked alone in a room, there was a [[protest|protest]] from several members. They wanted shared challenges, not loneliness. Mina changed the story so the whole group had to find a missing key, and nobody was actually locked inside.",
+    "After each adventure, everyone shares bread and warm, slightly [[salty|salty]] soup. They discuss which moments made them nervous and what helped. The monthly fee is [[due|due]] before the first meeting. Member Ravi says the club has not removed his worries, but it has taught him something useful: asking for help can be part of being brave."
+  ],
+  "zh": [
+    "贝尔威克的一家小剧院正兴起一股令人意外的潮流：成年人付费参加表演，演绎惊险的冒险故事。这个晚间俱乐部去年春天成立时只有六名成员，如今已有三十名。大多数人并不想登台面对观众，而是希望练习在事情出错时保持冷静。",
+    "每周，负责人米娜·科斯塔都会准备一个不同的故事。在一个故事中，成员们扮演喷气式飞机在深雪中坠毁后的乘客；在另一个故事中，他们帮助一名宇航员从太空返回。演员四周摆着椅子和彩绘箱子，但没有屏幕，也没有响亮的音效。成员们必须依靠彼此来解决每一个问题。",
+    "并非每个点子都行得通。当米娜提议让一个人扮演独自被锁在房间里的囚犯时，几名成员提出了抗议。他们想要的是共同面对挑战，而不是孤独。于是，米娜修改了故事，让整个小组一起寻找一把丢失的钥匙，而且没有人真的被锁在里面。",
+    "每次冒险结束后，大家都会一起吃面包，喝温热、略带咸味的汤。他们讨论哪些时刻让自己紧张，以及什么方法起了帮助。每月的费用须在当月第一次聚会前缴纳。成员拉维说，俱乐部并没有消除他的忧虑，却教会了他一件有用的事：求助也可以是勇敢的一部分。"
+  ],
+  "q": [
+    {
+      "s": "The club has attracted more members since it started.",
+      "a": "T",
+      "why": "成员从成立时的六人增至三十人。"
+    },
+    {
+      "s": "Mina paints the boxes used in the adventures herself.",
+      "a": "NG",
+      "why": "文中未说明是谁给箱子上色。"
+    },
+    {
+      "s": "Someone was actually locked in a room during the missing-key activity.",
+      "a": "F",
+      "why": "原文明确说没有人真的被锁在里面。"
+    }
+  ]
+}

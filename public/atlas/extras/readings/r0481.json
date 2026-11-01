@@ -1,0 +1,48 @@
+{
+  "id": "r0481",
+  "ids": [
+    "construct",
+    "gender",
+    "bungee",
+    "shrink",
+    "spacecraft",
+    "shady",
+    "bachelor",
+    "vaccination",
+    "self-defence",
+    "cruise"
+  ],
+  "title": "A Workshop for Difficult Journeys",
+  "titleZh": "为艰难旅途打造装备的工坊",
+  "topic": "travel",
+  "cefr": 3,
+  "paras": [
+    "When luggage maker Amara Sen took a coastal [[cruise|cruise]], she noticed that visiting researchers struggled to carry equipment ashore. Their boxes were secure on deck but awkward on narrow paths. Back in her island workshop, Sen, a [[bachelor|bachelor]] of engineering, began designing a case that could become a comfortable backpack.",
+    "She wanted to [[construct|construct]] something repairable with ordinary tools. A wooden frame supported waterproof cloth, while a thick [[bungee|bungee]] held the lid closed. Rather than offering separate models according to [[gender|gender]], she made the straps adjustable for different shoulders and backs. Her first customer, a coastal ecologist, tested the case while collecting shells on remote beaches.",
+    "Preparing for these field trials involved more than packing tools. Sen checked [[vaccination|vaccination]] requirements and attended a [[self-defence|self-defence]] course before travelling alone. On the beaches, she worked in [[shady|shady]] spots beneath trees, measuring how the cloth responded to salt water. One early fabric began to [[shrink|shrink]] after repeated soaking, pulling the frame out of shape. She replaced it rather than simply strengthening the wood.",
+    "The final improvement came from an article about storage inside a [[spacecraft|spacecraft]]: equipment needed to remain accessible in a confined area. Sen added removable inner pockets, each opening towards the person carrying the case. Months later, the ecologist returned with an order for three more. The original case was scratched and stained, but every pocket still opened easily—evidence, Sen felt, of a journey properly served."
+  ],
+  "zh": [
+    "箱包工匠阿玛拉·森在一次沿海乘船旅行中，注意到随船到访的研究人员很难将设备搬运上岸。他们的箱子在甲板上放得稳稳当当，到了狭窄的小路上却很难携带。回到岛上的工坊后，拥有工程学学士学位的森开始设计一种能变成舒适背包的箱子。",
+    "她希望造出一种用普通工具就能修理的装备。木框支撑着防水布，一根粗弹力绳将箱盖牢牢固定。她没有按性别推出不同款式，而是把背带做成可调节的，以适应不同的肩背体形。她的第一位顾客是一名海岸生态学家，在偏远海滩采集贝壳时试用了这个箱子。",
+    "为这些实地测试做准备，不仅仅是收拾工具。独自出行前，森查阅了疫苗接种要求，还参加了一门自卫课程。在海滩上，她在树下的阴凉处工作，测量布料接触盐水后的变化。一种早期选用的面料反复浸水后开始缩水，把框架拉得变了形。她更换了面料，而不是仅仅加固木框。",
+    "最后一项改进的灵感来自一篇介绍航天器内部储物方式的文章：在有限空间内，设备必须便于取用。森加装了可拆卸的内袋，每个袋口都朝向背负箱子的人。几个月后，那位生态学家回来，又订购了三个。原来的箱子已满是划痕和污渍，但每个口袋仍然能轻松打开——在森看来，这说明它真正经受住了旅途的考验。"
+  ],
+  "q": [
+    {
+      "s": "Sen's idea arose from watching researchers encounter difficulties moving their equipment on land.",
+      "a": "T",
+      "why": "首段指出研究人员的箱子在窄路上难以携带。"
+    },
+    {
+      "s": "Sen solved the problem of shrinking fabric by making the wooden structure stronger.",
+      "a": "F",
+      "why": "第三段说她更换面料，而非仅加固木框。"
+    },
+    {
+      "s": "Sen offered the ecologist a discount on the order for three more cases.",
+      "a": "NG",
+      "why": "末段提到追加三个箱子的订单，未说明折扣。"
+    }
+  ]
+}

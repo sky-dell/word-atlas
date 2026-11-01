@@ -1,0 +1,48 @@
+{
+  "id": "r0606",
+  "ids": [
+    "advent",
+    "mediate",
+    "latitude",
+    "relentless",
+    "incline",
+    "analogous",
+    "popularize",
+    "depict",
+    "pasture",
+    "biographer"
+  ],
+  "title": "The Radio Hour That Barely Speaks",
+  "titleZh": "几乎无言的广播时段",
+  "topic": "media",
+  "cefr": 4,
+  "paras": [
+    "At a small radio station on an island at sixty degrees north [[latitude|latitude]], the most requested programme contains almost no speech. Since the [[advent|advent]] of inexpensive weatherproof microphones, producer Leila Varga has broadcast an uninterrupted hour from a hillside [[pasture|pasture]] each evening. Surprisingly, recordings of wind, sheep and distant gates have begun attracting listeners far beyond the island.",
+    "The programme emerged from a dispute: farmers wanted publicity for their work, while residents opposed advertisements interrupting the evening schedule. Asked to [[mediate|mediate]], Varga proposed letting the landscape speak instead. Neither side expected much interest, but letters soon described the broadcasts as a refuge from the [[relentless|relentless]] succession of arguments and announcements elsewhere on the dial.",
+    "Unlike documentaries that [[depict|depict]] rural life through carefully selected scenes, these broadcasts preserve uneventful stretches, including minutes when only rain is audible. Their appeal is [[analogous|analogous]] to that of a window: the view remains familiar, yet never quite identical. Listeners who initially [[incline|incline]] towards conventional storytelling often report discovering patterns, such as the gradual movement of animals towards shelter.",
+    "An island [[biographer|biographer]], Tomas Okeke, helped [[popularize|popularize]] the experiment by describing it in a literary magazine, although he warned against treating it as an accurate portrait of farming. Microphones capture neither accounts nor aching backs. Varga consequently added a brief weekly conversation with a farmer, without shortening the quiet hour. The resulting format offers something unexpected: not an escape from rural reality, but an invitation to hear it before demanding an explanation."
+  ],
+  "zh": [
+    "在北纬六十度一座岛屿上的小型广播电台里，听众最常点播的节目几乎没有人声。自从价格低廉的防风雨麦克风问世以来，制作人莱拉·瓦尔加每晚都会连续播出一小时来自一片山坡牧场的声音。出人意料的是，风声、羊叫声以及远处牧场门的声响，开始吸引远在岛外的听众。",
+    "这个节目源于一场争执：农场主希望宣传自己的工作，居民却反对晚间节目被广告打断。受邀调解的瓦尔加提议，不如让这片土地自己发声。双方都没料到会有多少人感兴趣，但很快，听众来信便将这些广播形容为一处避风港，让人暂时远离其他频道接连不断的争论与公告。",
+    "与那些通过精心挑选的场景描绘乡村生活的纪录片不同，这些广播保留了平淡无事的时段，甚至连续几分钟只能听见雨声。它们的吸引力好比一扇窗：景色依旧熟悉，却从不完全相同。起初偏爱传统叙事的听众常常表示，自己逐渐发现了一些规律，例如动物会慢慢向遮风避雨的地方移动。",
+    "岛上的传记作家托马斯·奥凯克在一本文学杂志上介绍了这项实验，帮助它扩大了知名度，不过他也提醒人们，不要将其视为对农耕生活的准确写照。麦克风既录不下账目，也录不下腰背的酸痛。因此，瓦尔加增加了每周一次与农场主的简短交谈，却没有缩短那一小时的静听时光。最终形成的节目提供了一种意想不到的体验：它并非让人逃离乡村现实，而是邀请人们在急于寻求解释之前，先听一听现实本身。"
+  ],
+  "q": [
+    {
+      "s": "Local farmers paid for the microphones used in Varga's broadcasts.",
+      "a": "NG",
+      "why": "首段提到麦克风，未说明由谁出资购买。"
+    },
+    {
+      "s": "Passages with little activity are removed before listeners hear the broadcasts.",
+      "a": "F",
+      "why": "第三段明确说广播保留了平淡无事的时段。"
+    },
+    {
+      "s": "The weekly farmer conversation was added without reducing the length of the quiet hour.",
+      "a": "T",
+      "why": "末段明确说明增加交谈后未缩短静听时段。"
+    }
+  ]
+}

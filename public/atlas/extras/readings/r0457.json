@@ -1,0 +1,48 @@
+{
+  "id": "r0457",
+  "ids": [
+    "sequence",
+    "extinct",
+    "inferior",
+    "anyhow",
+    "guideline",
+    "walnut",
+    "airy",
+    "recruit",
+    "luxurious",
+    "ease"
+  ],
+  "title": "The Open-Air Rest Cure",
+  "titleZh": "露天休养疗法的往事",
+  "topic": "health",
+  "cefr": 3,
+  "paras": [
+    "In the late nineteenth century, a distinctive daily routine developed in European mountain sanatoriums. Patients with tuberculosis followed a [[sequence|sequence]] of meals, temperature checks and long periods of rest outdoors. Before effective medicines existed, doctors hoped that fresh air, sunlight and regular food would [[ease|ease]] symptoms and help weakened bodies recover.",
+    "The buildings reflected this belief. Long, [[airy|airy]] balconies allowed beds to be wheeled outside, while roofs protected patients from rain. Wealthier guests might enjoy [[luxurious|luxurious]] private rooms, but simpler institutions used shared sleeping areas. These were not necessarily considered [[inferior|inferior]]: access to outdoor air mattered more than expensive furniture. Institutions also had to [[recruit|recruit]] nurses willing to manage blankets, meals and patients through cold winters.",
+    "To picture the boredom of prolonged rest, imagine a fictional patient, Anna. Beside her bed stands a small [[walnut|walnut]] table with an illustrated book about [[extinct|extinct]] animals. She has read it twice, but opens it again while waiting for lunch. One common [[guideline|guideline]] in sanatoriums was to avoid unnecessary physical effort, although details varied between institutions. In this imagined scene, Anna dislikes resting but follows the rule [[anyhow|anyhow]], hoping to recover.",
+    "By the middle of the twentieth century, effective antibiotics had transformed tuberculosis treatment. The balcony cure gradually lost its central medical role, and many sanatoriums closed or found new uses."
+  ],
+  "zh": [
+    "19世纪末，欧洲山区的结核病疗养院形成了一套独特的日常作息。结核病患者按顺序进餐、测量体温，并长时间在户外静卧。在有效药物问世之前，医生希望新鲜空气、阳光和规律饮食能够缓解症状，帮助虚弱的身体恢复。",
+    "建筑也体现了这种观念。宽敞通风的长阳台方便人们将病床推出室外，屋顶则为患者遮雨。富裕的住客或许能享用豪华的单人房，而条件简朴的机构则采用多人寝室。这些设施不一定被认为较差：能接触室外空气比昂贵的家具更重要。疗养院还得招募愿意在寒冬里照料患者、安排饮食并管理被褥的护士。",
+    "要体会长时间静养的乏味，不妨想象一位虚构的患者安娜。她的床旁放着一张核桃木小桌，桌上有一本介绍已灭绝动物的图画书。她已经读过两遍，却在等待午餐时又翻开了它。疗养院的一项常见指导原则是避免不必要的体力消耗，不过各机构的具体规定有所不同。在这个想象的场景中，安娜不喜欢静养，却仍然遵守规定，希望能够康复。",
+    "到20世纪中叶，有效的抗生素已经改变了结核病的治疗方式。阳台静养逐渐失去了在医疗中的核心地位，许多疗养院关闭或改作其他用途。"
+  ],
+  "q": [
+    {
+      "s": "The outdoor resting routine emerged before effective tuberculosis medicines were available.",
+      "a": "T",
+      "why": "首段指出该作息形成于有效药物问世前。"
+    },
+    {
+      "s": "Expensive furnishings were regarded as more important than access to fresh air.",
+      "a": "F",
+      "why": "第二段指出室外空气比昂贵家具更重要。"
+    },
+    {
+      "s": "Most former sanatoriums were converted into hotels.",
+      "a": "NG",
+      "why": "末段仅说改作其他用途，未说明具体用途。"
+    }
+  ]
+}

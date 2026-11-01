@@ -1,0 +1,46 @@
+{
+  "id": "r0127",
+  "ids": [
+    "seem",
+    "shelf",
+    "portuguese",
+    "anyway",
+    "lipstick",
+    "cooker",
+    "clothing",
+    "height",
+    "bake",
+    "gardener"
+  ],
+  "title": "A Better View of the Shop",
+  "titleZh": "让小店里的商品更显眼",
+  "topic": "economy",
+  "cefr": 1,
+  "paras": [
+    "Rosa had a small second-hand shop near a flower market. In March, sales were low, and paying the rent did not [[seem|seem]] possible. A high [[shelf|shelf]] held cups and boxes of unused [[lipstick|lipstick]]. Below it, a long line of [[clothing|clothing]] hid a small electric [[cooker|cooker]]. People often walked past without stopping. Rosa needed to sell more, but she had no money for a bigger window or bright new lights.",
+    "Her neighbour, Amir, suggested moving things. Rosa thought this would make little difference, but she tried it [[anyway|anyway]]. They put the cups at the [[height|height]] of a customer's eyes and moved the clothes to the back. Then they placed the cooking machine beside the window. Its instruction book was in [[portuguese|Portuguese]], which Rosa could read. She wrote a simple sign: 'Tested and working. You can boil soup on top and [[bake|bake]] bread inside.'",
+    "The next morning, a [[gardener|gardener]] named Ewa stopped at the window. She needed something for the little cafe beside her plant beds. Rosa showed her how the machine worked, and Ewa bought it. Other visitors now noticed the cups, too. By Saturday, Rosa had enough money for the rent. She kept the clear window and the new arrangement."
+  ],
+  "zh": [
+    "罗莎在花卉市场附近开了一家小小的二手商店。三月份生意冷清，房租似乎都要付不起了。高处的架子上放着杯子和几盒未使用过的口红。架子下面，一长排衣服挡住了一台小电炉。人们常常直接走过，并不停留。罗莎需要多卖些东西，但她没钱换更大的橱窗，也没钱装明亮的新灯。",
+    "邻居阿米尔建议她挪一挪商品。罗莎觉得这样不会有什么用，但还是试了试。他们把杯子放到与顾客视线齐平的高度，又把衣服移到店铺后面。接着，他们把电炉放到了橱窗旁边。说明书是葡萄牙语的，罗莎能读懂。她写了一块简单的牌子：“已测试，功能正常。上面可以煮汤，里面可以烤面包。”",
+    "第二天早上，一位名叫埃娃的园丁在橱窗前停了下来。她的花圃旁有一家小咖啡馆，正需要一件做饭的设备。罗莎向她演示了电炉的用法，埃娃便买下了它。其他进店的人现在也注意到了那些杯子。到了星期六，罗莎已经赚够了付房租的钱。她保留了整洁通透的橱窗和新的商品摆放方式。"
+  ],
+  "q": [
+    {
+      "s": "Clothes hid the small electric cooker.",
+      "a": "T",
+      "why": "正文明确说一长排衣服挡住了电炉。"
+    },
+    {
+      "s": "Rosa thought moving things would help a lot.",
+      "a": "F",
+      "why": "她原本认为挪动商品不会有多大作用。"
+    },
+    {
+      "s": "The cafe beside Ewa's plant beds opened more than five years ago.",
+      "a": "NG",
+      "why": "文中未说明这家咖啡馆何时开业。"
+    }
+  ]
+}

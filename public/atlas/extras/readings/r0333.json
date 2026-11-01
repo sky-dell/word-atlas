@@ -1,0 +1,46 @@
+{
+  "id": "r0333",
+  "ids": [
+    "reference",
+    "optimism",
+    "principle",
+    "bouquet",
+    "implement",
+    "ensure",
+    "species",
+    "extent",
+    "claw",
+    "dawn"
+  ],
+  "title": "Life Behind the Flower Shop",
+  "titleZh": "花店后院的生机",
+  "topic": "city",
+  "cefr": 3,
+  "paras": [
+    "At [[dawn|dawn]] on 12 May, I entered the courtyard behind a closed flower shop to begin our spring wildlife survey. The previous tenant's notebook contained just one [[reference|reference]] to the garden: “Too much shade for roses.” Beside the door, a dried [[bouquet|bouquet]] still hung from a hook. Yet between the paving stones, small purple flowers were opening, and a bee was already moving among them. The neglected space offered more than its appearance suggested.",
+    "Our guiding [[principle|principle]] was to observe before changing anything. Before we could [[implement|implement]] a planting plan, we needed to measure the [[extent|extent]] of the existing vegetation and identify which animals used it. We marked six observation points to [[ensure|ensure]] that each survey covered the same ground. By nine o'clock, I had recorded three bee [[species|species]]. Above me, a squirrel gripped the wooden fence. I glimpsed a curved [[claw|claw]] hooked into a board before the animal disappeared into the neighbouring chestnut tree.",
+    "These records encouraged cautious [[optimism|optimism]], although a single morning could not reveal whether the courtyard supported wildlife throughout the year. We therefore left most of the paving untouched and added only two shallow water dishes. During the following month, repeated visits showed bees returning to the same purple flowers, even when the shop's front window was replaced. My final note was simple: the most useful improvement had been recognising what was already there."
+  ],
+  "zh": [
+    "5月12日拂晓，我走进一家关着门的花店后面的院子，开始春季野生动物调查。前租户的笔记本里只有一处提到这个花园：“光照不足，不适合种玫瑰。”门旁的挂钩上仍挂着一束干花。然而，铺路石的缝隙间，紫色小花正在绽放，一只蜜蜂已经在花间穿梭。这处无人照料的空间，蕴藏着比外表所显示的更多的生机。",
+    "我们的指导原则是先观察，再做任何改变。在实施种植计划之前，我们需要测量现有植被的覆盖范围，并确定哪些动物会利用这里。我们标出了六个观察点，以确保每次调查都覆盖同一片区域。到九点时，我已经记录了三个蜜蜂物种。在我头顶上，一只松鼠紧抓着木栅栏。我瞥见一个弯曲的爪尖勾在木板上，随后松鼠便消失在隔壁的栗树中。",
+    "这些记录让我们感到谨慎的乐观，不过，仅凭一个早晨的观察，还无法判断这个院子是否全年都能为野生动物提供生存条件。因此，我们保留了大部分铺路石，只添置了两个浅水碟。在接下来的一个月里，多次走访表明，蜜蜂一直回到同一片紫色花丛中，即使店铺临街的橱窗更换期间也不例外。我最后的记录很简单：最有价值的改善，是认识到这里原本就有的东西。"
+  ],
+  "q": [
+    {
+      "s": "The former tenant thought the garden received enough sunlight for roses.",
+      "a": "F",
+      "why": "前租户认为花园过于阴暗，不适合种玫瑰。"
+    },
+    {
+      "s": "The team marked six observation points to keep survey coverage consistent.",
+      "a": "T",
+      "why": "六个观察点用于确保每次覆盖同一区域。"
+    },
+    {
+      "s": "The replacement shop window was designed to prevent birds from hitting it.",
+      "a": "NG",
+      "why": "文章提到更换橱窗，未说明其设计用途。"
+    }
+  ]
+}

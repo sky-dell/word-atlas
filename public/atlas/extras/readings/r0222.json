@@ -1,0 +1,48 @@
+{
+  "id": "r0222",
+  "ids": [
+    "precious",
+    "produce",
+    "economic",
+    "fuel",
+    "paste",
+    "financial",
+    "chin",
+    "partly",
+    "basically",
+    "poisonous"
+  ],
+  "title": "A Second Life for Paper",
+  "titleZh": "废纸的第二次生命",
+  "topic": "economy",
+  "cefr": 2,
+  "paras": [
+    "At a small pottery workshop, rising [[fuel|fuel]] prices had become a serious [[economic|economic]] problem. Owner Leila used a wood stove to warm the room where she shaped cups. Dry wood was becoming almost as [[precious|precious]] as her best clay. She decided to test whether waste paper could [[produce|produce]] useful heat at a lower cost.",
+    "Leila soaked plain paper in water, then mixed it into a thick [[paste|paste]]. She pressed this into blocks and left them to dry for two weeks. She avoided painted wood and plastic, which could release [[poisonous|poisonous]] smoke. Her method was [[basically|basically]] simple, but making twenty blocks took nearly three hours.",
+    "For six mornings, Leila heated the workshop with wood. For another six, she replaced half the wood with paper blocks. She recorded the room temperature and weighed everything she burned. After cleaning the cold stove, she sometimes found black dust on her [[chin|chin]]. The paper mixture kept the room warm, although it left more ash.",
+    "Her [[financial|financial]] records showed that the mixed fires cost a quarter less in materials. However, this success was [[partly|partly]] explained by the free paper. Once she counted her working hours, the saving almost disappeared. Leila kept a few blocks for emergencies but returned to wood: a cheap material did not always mean cheap heat."
+  ],
+  "zh": [
+    "在一家小陶艺作坊里，燃料价格上涨成了严重的经济问题。店主莱拉用烧木柴的炉子给制作杯子的房间取暖。干木柴变得几乎和她最好的陶土一样珍贵。她决定做个试验，看看废纸能否以更低的成本提供实用的热量。",
+    "莱拉把普通纸张泡在水里，然后搅拌成浓稠的糊状物。她把纸糊压成块，晾了两个星期。她没有使用刷过漆的木头或塑料，因为这些材料可能释放有毒的烟。她的方法基本上很简单，但制作二十块纸砖花了将近三个小时。",
+    "有六个早晨，莱拉用木柴给作坊取暖。另外六个早晨，她用纸砖替换了一半木柴。她记录室温，并称量所有烧掉的材料。清理冷却后的炉子后，她有时会发现下巴上沾了黑灰。木柴和纸砖混烧能让房间保持温暖，不过留下的灰更多。",
+    "她的财务记录显示，混烧所需的材料费用少了四分之一。然而，这一成果部分是因为纸张免费。把自己的工作时间算进去后，节省的费用几乎就没有了。莱拉留了几块纸砖备用，但又改回烧木柴：便宜的材料并不总意味着低成本的取暖。"
+  ],
+  "q": [
+    {
+      "s": "Leila bought special equipment to press the paper into blocks.",
+      "a": "NG",
+      "why": "文章未说明压制纸砖的设备或其来源。"
+    },
+    {
+      "s": "The mixed fires left less ash than the wood-only fires.",
+      "a": "F",
+      "why": "文中说混烧留下的灰更多。"
+    },
+    {
+      "s": "The saving almost disappeared when Leila counted her working time.",
+      "a": "T",
+      "why": "计入工作时间后，节省的费用几乎消失。"
+    }
+  ]
+}

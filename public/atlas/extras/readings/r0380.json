@@ -1,0 +1,48 @@
+{
+  "id": "r0380",
+  "ids": [
+    "immoral",
+    "cast",
+    "brake",
+    "prescribe",
+    "landlord",
+    "faint",
+    "insane",
+    "expense",
+    "numerical",
+    "determination"
+  ],
+  "title": "Rehearsal Beside the Reed Bed",
+  "titleZh": "芦苇荡边的排练",
+  "topic": "education",
+  "cefr": 3,
+  "paras": [
+    "14 May, Mill Pond. At six this morning, I met the [[cast|cast]] of a travelling play beside the reed bed. Their summer performance would teach children about wetland life, so they had come to observe the animals they would represent. The meadow's [[landlord|landlord]] had allowed us access, provided we left no equipment behind.",
+    "We pushed our trolley down the slope, then applied its [[brake|brake]] near the water. Transport was our largest [[expense|expense]], but the wooden platform on the trolley would let audiences watch without trampling the bank. A loose wheel made a [[faint|faint]] tapping sound. Nearby, a water bird was feeding beside a stone. Everyone stopped talking.",
+    "I asked the performers to make [[numerical|numerical]] records of the bird's visits rather than guess how often it fed. We counted seven in twenty minutes. One actor suggested moving the nest closer for a better view. Our guide, Amara, called that [[insane|insane]]: the parents might abandon it. She also considered it [[immoral|immoral]] to frighten wildlife merely to improve a show. Instead, we watched through gaps in the reeds.",
+    "Despite an aching knee, Amara stayed until our notebooks were full. Her doctor had [[prescribe|prescribed]] gentle exercise, not hours of standing, so we brought her a stool. Her [[determination|determination]] changed the rehearsal. By noon, the actors were copying the bird's pauses as carefully as its movements."
+  ],
+  "zh": [
+    "5月14日，磨坊池塘。今天早晨六点，我在芦苇荡边与一个巡回剧团的全体演员碰面。他们准备在夏季演出一部向孩子们介绍湿地生物的戏，因此特地来观察自己将要扮演的动物。草地的出租人允许我们进入，条件是不留下任何设备。",
+    "我们推着小车下坡，然后在水边刹住车。运输是我们最大的一笔开支，但车上装载的木制平台能让观众观看表演而不踩坏池岸。一个松动的车轮发出轻微的敲击声。附近，一只水鸟正在石头旁觅食。大家都不再说话了。",
+    "我请演员们用数字记录这只鸟往返的次数，而不是凭感觉估计它觅食的频率。二十分钟内，我们数到了七次。一名演员建议把鸟巢移近一点，以便看得更清楚。向导阿玛拉说这个主意太荒唐了：亲鸟可能会弃巢。她还认为，仅仅为了让演出更精彩就惊扰野生动物，是不道德的。于是，我们改从芦苇的缝隙间观察。",
+    "尽管膝盖疼痛，阿玛拉仍坚持到我们记满笔记才结束。医生建议她做温和运动，而不是一站几个小时，因此我们搬来了一张凳子。她的毅力改变了这次排练。到了中午，演员们模仿水鸟的停顿，已经和模仿它的动作一样认真。"
+  ],
+  "q": [
+    {
+      "s": "Permission to enter the meadow depended on the group taking all its equipment away afterwards.",
+      "a": "T",
+      "why": "出租人允许进入，但要求不留下设备。"
+    },
+    {
+      "s": "A local school paid the group's transport costs.",
+      "a": "NG",
+      "why": "只说明运输开支最大，未说明由谁支付。"
+    },
+    {
+      "s": "Amara supported relocating the nest to make observation easier.",
+      "a": "F",
+      "why": "阿玛拉反对移巢，担心亲鸟弃巢。"
+    }
+  ]
+}

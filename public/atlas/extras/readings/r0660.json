@@ -1,0 +1,48 @@
+{
+  "id": "r0660",
+  "ids": [
+    "bitterness",
+    "entrust",
+    "whaling",
+    "auditorium",
+    "seniority",
+    "substantiate",
+    "monologue",
+    "plateau",
+    "acknowledgment",
+    "traverse"
+  ],
+  "title": "The Shore Beneath the Plateau",
+  "titleZh": "高原之下的旧海岸",
+  "topic": "nature",
+  "cefr": 4,
+  "paras": [
+    "When marine ecologist Nura Demir returned to the island of Veyra, she carried a proposal that senior colleagues had dismissed: abandoned [[whaling|whaling]] records might reveal where whales had once gathered to feed. Her [[bitterness|bitterness]] arose less from rejection than from the assumption that her lack of [[seniority|seniority]] made the idea unworthy of examination.",
+    "The island archive occupied a former signal station on a windswept [[plateau|plateau]]. To reach it, Nura had to [[traverse|traverse]] six kilometres of treeless ground, carrying batteries for a portable scanner. Its elderly custodian eventually agreed to [[entrust|entrust]] her with twelve captains’ notebooks, their margins crowded with sketches of currents and tiny shrimp. These details, overlooked by historians interested in catches, became the foundation of her research.",
+    "To [[substantiate|substantiate]] her claim, Nura compared the notebooks with sediment samples collected from sheltered bays. Layers rich in shrimp remains corresponded closely to the feeding grounds described by the captains, although she cautioned that this association did not prove uninterrupted whale occupation. Crucially, the records suggested that one bay now considered ecologically marginal had supported substantial feeding activity before intensive hunting began.",
+    "Rather than announce her findings through a conventional lecture, Nura collaborated with a puppeteer in the harbour [[auditorium|auditorium]]. A wooden captain delivered a [[monologue|monologue]] assembled from notebook entries, while maps illuminated the changing coastline behind him. The evening ended with an [[acknowledgment|acknowledgment]] of the custodian’s contribution. For Nura, the achievement was not personal vindication, but restoring a forgotten bay to the islanders’ understanding of their sea."
+  ],
+  "zh": [
+    "海洋生态学家努拉·德米尔返回韦拉岛时，带着一项曾被资深同事否定的研究提议：被弃置的捕鲸记录或许能揭示鲸群过去聚集觅食的地点。她的愤懑与其说来自提议遭拒，不如说来自这样一种先入之见：她资历尚浅，因此她的想法根本不值得考察。",
+    "岛上的档案馆设在一座旧信号站里，所在高原劲风吹拂。为了抵达那里，努拉必须携带便携式扫描仪所用的电池，穿过六公里没有树木的地带。年迈的管理员最终同意将十二本船长笔记托付给她，笔记页边密密麻麻地画着洋流示意图和小虾。那些只关注捕获量的历史研究者忽略了这些细节，而它们却成了努拉研究的基础。",
+    "为了给自己的观点提供证据，努拉将笔记与从避风海湾采集的沉积物样本作了比较。富含虾类残骸的沉积层，其分布与船长们描述的觅食区高度吻合，不过她提醒说，这种关联并不能证明鲸鱼一直在此活动。关键在于，这些记录表明，如今被认为生态作用有限的一处海湾，在密集捕猎开始之前，曾是鲸鱼大量觅食的场所。",
+    "努拉没有通过常规讲座公布发现，而是与一位木偶艺人在港口礼堂合作演出。一个木制船长以笔记中的文字串成独白，他身后投映的地图展示着海岸线的变迁。当晚活动以向管理员的贡献致谢收尾。对努拉而言，真正的成就并非证明自己当初是对的，而是让一个被遗忘的海湾重新进入岛民对这片海洋的认知。"
+  ],
+  "q": [
+    {
+      "s": "Nura borrowed the portable scanner from the island archive.",
+      "a": "NG",
+      "why": "文中提到扫描仪，但未说明其来源。"
+    },
+    {
+      "s": "The sediment evidence established that whales had used the bays continuously.",
+      "a": "F",
+      "why": "她明确指出，这不能证明鲸鱼持续活动。"
+    },
+    {
+      "s": "The evening concluded with thanks for the custodian's contribution.",
+      "a": "T",
+      "why": "末段明确说活动以向管理员致谢收尾。"
+    }
+  ]
+}

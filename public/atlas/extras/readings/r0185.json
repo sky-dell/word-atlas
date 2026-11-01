@@ -1,0 +1,48 @@
+{
+  "id": "r0185",
+  "ids": [
+    "routine",
+    "claim",
+    "confidence",
+    "volunteer",
+    "switch",
+    "block",
+    "mild",
+    "hostel",
+    "inch",
+    "sister-in-law"
+  ],
+  "title": "A Darker Welcome for Moths",
+  "titleZh": "给飞蛾一片更暗的夜色",
+  "topic": "nature",
+  "cefr": 2,
+  "paras": [
+    "At a small forest [[hostel|hostel]], evening visitors often found moths flying around the entrance lamp. The owner, Hana, [[claim|claimed]] that a cover above the lamp would keep insects away. Her [[sister-in-law|sister-in-law]], Leila, was interested in nature and suggested an experiment before they changed all the outdoor lights.",
+    "Leila made a wooden cover that reached six [[inch|inches]] beyond the lamp on each side. She stood on a wide [[block|block]] of wood to fit it safely. A [[volunteer|volunteer]] called Tomas helped her count the moths. Their [[routine|routine]] was simple: at nine each evening, Tomas pressed the [[switch|switch]], and they watched the entrance for thirty minutes.",
+    "They tested the lamp for twelve dry nights, using the cover on every second night. They also recorded the temperature, because even [[mild|mild]] changes might affect insect activity. With the cover, they counted an average of eight moths near the door. Without it, the average was twenty-three. However, the covered lamp still gave guests enough light to find their keys.",
+    "The results gave Hana [[confidence|confidence]] in the design, although Leila warned that twelve nights could not tell them what would happen in every season. Hana kept the cover and planned another test in summer. The entrance was quieter, and fewer moths followed guests indoors."
+  ],
+  "zh": [
+    "在一家森林中的小旅舍，晚间到来的客人常常发现飞蛾围着门灯飞舞。店主哈娜声称，在灯上方加一个罩子就能让昆虫远离。她的一位同辈女性姻亲莱拉对大自然很感兴趣，建议先做个实验，再改动所有室外灯。",
+    "莱拉做了一个木制灯罩，两侧各比灯伸出六英寸。她站在一块宽大的木块上，把灯罩安全地装好。一位名叫托马斯的志愿者帮她数飞蛾。他们每天的安排很简单：晚上九点，托马斯按下开关，然后两人观察入口三十分钟。",
+    "他们在十二个没有下雨的夜晚测试了这盏灯，每隔一晚使用一次灯罩。他们还记录了气温，因为即使是轻微的温度变化，也可能影响昆虫的活动。装上灯罩时，他们数到门边平均有八只飞蛾；不装时，平均有二十三只。不过，加了灯罩的灯仍然足够亮，客人可以借着灯光找到钥匙。",
+    "这些结果让哈娜对这个设计有了信心，不过莱拉提醒她，十二晚的观察无法说明每个季节都会发生什么。哈娜保留了灯罩，并计划在夏天再做一次测试。入口处安静了一些，跟着客人飞进室内的飞蛾也减少了。"
+  ],
+  "q": [
+    {
+      "s": "Leila had tested outdoor lights before she suggested this experiment.",
+      "a": "NG",
+      "why": "文中未说明莱拉此前是否测试过室外灯。"
+    },
+    {
+      "s": "Leila and Tomas watched the entrance for thirty minutes each evening.",
+      "a": "T",
+      "why": "第二段明确说每晚观察入口三十分钟。"
+    },
+    {
+      "s": "The lamp cover was used on every night of the experiment.",
+      "a": "F",
+      "why": "实验每隔一晚使用一次灯罩。"
+    }
+  ]
+}

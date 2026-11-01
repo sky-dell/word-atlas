@@ -1,0 +1,46 @@
+{
+  "id": "r0038",
+  "ids": [
+    "but",
+    "red",
+    "conversation",
+    "dinner",
+    "bring",
+    "reason",
+    "asia",
+    "colour",
+    "eye",
+    "afternoon"
+  ],
+  "title": "New Life for Kitchen Aprons",
+  "titleZh": "厨房围裙的新生命",
+  "topic": "work",
+  "cefr": 0,
+  "paras": [
+    "Every Friday, six people cook [[dinner|dinner]] for their neighbours in a village hall. Their aprons are old, [[but|but]] they have little money for new ones. One day, a [[conversation|conversation]] with a cook gives Mina an idea. She can help the kitchen team. She learned to sew when she lived in [[asia|Asia]] with her aunt. Now she wants to share this skill.",
+    "Mina asks the cooks to [[bring|bring]] their aprons to the hall on Sunday [[afternoon|afternoon]]. She puts a table near a big window. Her [[eye|eyes]] get tired in dark rooms. This is the [[reason|reason]] she needs a place with lots of light. Her neighbour Omar comes to help. They cut small squares from an old [[red|red]] shirt and sew them over the holes.",
+    "The cooks like the bright [[colour|colour]]. Omar also makes a big pocket for each apron. A cook can put a small towel in it. By five, all six aprons are ready. The team puts them on for a photo. Mina and Omar stay for soup and bread. Next month, they will help the team mend the kitchen towels, too."
+  ],
+  "zh": [
+    "每个星期五，六个人在村里的活动室为邻居们做晚餐。他们的围裙旧了，但是没有多少钱买新的。一天，米娜与一位厨师的交谈让她有了一个主意。她可以帮助这个厨房小组。她以前和一位姑妈或姨妈住在亚洲时学会了缝纫。现在，她想把这门手艺分享给大家。",
+    "米娜请厨师们在星期天下午把围裙带到活动室。她把一张桌子放在一扇大窗户旁边。在昏暗的房间里，她的眼睛容易疲劳。这就是她需要一个光线充足的地方的原因。邻居奥马尔也来帮忙。他们从一件旧的红衬衫上剪下小方块，缝在破洞上。",
+    "厨师们喜欢这个鲜艳的颜色。奥马尔还为每条围裙做了一个大口袋，厨师可以在里面放一条小毛巾。到五点时，六条围裙都补好了。大家穿上围裙拍了一张照片。米娜和奥马尔留下来喝汤、吃面包。下个月，他们还会帮这个小组修补厨房里的毛巾。"
+  ],
+  "q": [
+    {
+      "s": "Mina learned to sew in Asia.",
+      "a": "T",
+      "why": "她住在亚洲时学会了缝纫。"
+    },
+    {
+      "s": "Omar learned to sew at school.",
+      "a": "NG",
+      "why": "文章未说明奥马尔在哪里学缝纫。"
+    },
+    {
+      "s": "Omar makes a small pocket for each apron.",
+      "a": "F",
+      "why": "他为每条围裙做的是大口袋。"
+    }
+  ]
+}

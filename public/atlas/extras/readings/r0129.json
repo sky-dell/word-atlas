@@ -1,0 +1,46 @@
+{
+  "id": "r0129",
+  "ids": [
+    "gramme",
+    "able",
+    "ham",
+    "garbage",
+    "cleaner",
+    "pc",
+    "degree",
+    "textbook",
+    "leather",
+    "truck"
+  ],
+  "title": "Moss at the Old Mill",
+  "titleZh": "老磨坊里的苔藓",
+  "topic": "history",
+  "cefr": 1,
+  "paras": [
+    "12 May. This morning, I visited the old river mill with Mina, who has a [[degree|degree]] in biology. The mill closed eighty years ago. We wanted to see how plants had changed the place since then. Mina brought a notebook with a [[leather|leather]] cover. It belonged to her grandfather, who once worked here. His notes described small green plants beside the water wheel.",
+    "We were [[able|able]] to find the same spot because his drawing showed a round window above it. Thick moss now covered the stones below the window. Mina checked a picture in her [[textbook|textbook]] and named the moss. We took just one [[gramme|gramme]] for a closer look back at our room. I photographed the wall. Later, we would put these pictures beside old photographs on my [[pc|PC]].",
+    "At noon, we ate bread and [[ham|ham]] outside. A [[truck|truck]] stopped near the gate to collect bags of [[garbage|garbage]]. Tomas, the museum's [[cleaner|cleaner]], came out with the last bag. He told us that birds often pulled moss from the wall for their nests. Before we left, a small bird landed there and carried away a green piece. The old mill was still a useful home."
+  ],
+  "zh": [
+    "5月12日。今天早上，我和拥有生物学学位的米娜一起去了河边的老磨坊。磨坊八十年前就关闭了。我们想看看，从那时起，植物让这里发生了怎样的变化。米娜带来一本皮面笔记本。这本笔记本属于她的祖父或外祖父，他曾在这里工作。他的笔记描述了水车旁的小型绿色植物。",
+    "我们能找到同一个位置，是因为他画的图显示，那处地方上方有一扇圆窗。如今，窗下的石头上长满了厚厚的苔藓。米娜对照课本里的一张图片，说出了这种苔藓的名字。我们只取了一克，准备带回房间仔细观察。我拍下了这面墙。之后，我们会在我的个人电脑上，把这些照片和老照片放在一起对照。",
+    "中午，我们在外面吃面包和火腿。一辆卡车停在门口附近，来收一袋袋垃圾。博物馆的清洁工托马斯提着最后一袋走了出来。他告诉我们，鸟儿常从墙上扯下苔藓筑巢。我们离开前，一只小鸟落在那里，叼走了一小块绿色苔藓。这座老磨坊仍然是个有用的家。"
+  ],
+  "q": [
+    {
+      "s": "The mill closed eight years before the visit.",
+      "a": "F",
+      "why": "磨坊在八十年前关闭，而非八年前。"
+    },
+    {
+      "s": "Mina and the writer took one gramme of moss.",
+      "a": "T",
+      "why": "正文明确说他们只取了一克苔藓。"
+    },
+    {
+      "s": "Tomas had worked at the museum for ten years.",
+      "a": "NG",
+      "why": "文中未提到托马斯在博物馆工作的年数。"
+    }
+  ]
+}

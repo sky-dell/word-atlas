@@ -1,0 +1,48 @@
+{
+  "id": "r0618",
+  "ids": [
+    "marxist",
+    "hateful",
+    "ploy",
+    "aerosol",
+    "palatable",
+    "frantic",
+    "ware",
+    "rigorous",
+    "unwarranted",
+    "renowned"
+  ],
+  "title": "Behind the Market Shutters",
+  "titleZh": "市场卷帘门背后的故事",
+  "topic": "city",
+  "cefr": 4,
+  "paras": [
+    "While researching the fictional city of Bellwater, Lena found a box of records from its covered market’s last month. Among them was a photograph of blue ceramic [[ware|ware]] stacked at a soup stall [[renowned|renowned]] for making inexpensive ingredients [[palatable|palatable]]. The stall’s recipe book recommended toasted barley, sour cream and a surprisingly generous quantity of dill.",
+    "Other papers offered competing accounts of the market’s decline. A [[marxist|Marxist]] analysis published by a neighbourhood printing collective attributed rising rents to concentrated property ownership. An anonymous leaflet made [[hateful|hateful]] accusations against recently arrived traders, claiming they had received preferential rent increases. Lena found that this particular allegation was [[unwarranted|unwarranted]]: the rental documents recorded identical increases for new and established traders, with no discounts for newcomers.",
+    "Merchant Anika Sen’s account described a final midnight sale, a [[ploy|ploy]] intended to attract customers before the market closed permanently. She used an [[aerosol|aerosol]] to spray silver lettering onto cardboard signs. During the sale, she became [[frantic|frantic]] when her young nephew disappeared into the crowd; he was eventually found asleep beneath the counter.",
+    "Lena subjected these accounts to [[rigorous|rigorous]] investigation, comparing interviews with photographs and rental documents. Some details remained unresolved, including how many customers attended the sale. Sen had recorded neither takings nor attendance: after describing the search for her nephew, she had simply noted which boxes still needed packing."
+  ],
+  "zh": [
+    "莉娜在研究虚构城市贝尔沃特时，发现了一箱关于当地室内市场最后一个月的记录。其中一张照片拍下了一家汤摊堆放的蓝色陶瓷器皿；这家摊位以能将廉价食材做得可口而闻名。摊位的食谱建议使用烘烤过的大麦、酸奶油，以及用量大得令人意外的莳萝。",
+    "其他文件对市场衰落提出了不同解释。一家社区印刷合作社发表的马克思主义分析将租金上涨归因于物业所有权集中。一张匿名传单对新来的商贩提出了充满仇恨的指控，声称他们在租金上涨方面受到了优待。莉娜发现，这项具体指控毫无根据：租赁文件记载，新老商贩的租金涨幅相同，新商贩也没有获得折扣。",
+    "商人阿妮卡·森的记录描述了最后一场午夜促销，这是为在市场永久关闭前吸引顾客而想出的计策。她用喷雾罐在纸板招牌上喷出银色字样。促销期间，她年幼的侄子或外甥消失在人群中，她焦急万分；最后，人们发现他在柜台下睡着了。",
+    "莉娜对这些记述进行了严谨的调查，将访谈内容与照片及租赁文件相互核对。有些细节仍未查明，包括有多少顾客参加了促销。森既没有记录营业额，也没有记录到场人数：描述完寻找那个孩子的经过后，她只是记下了哪些箱子还需要打包。"
+  ],
+  "q": [
+    {
+      "s": "The soup stall’s recipe book was written by its owner.",
+      "a": "NG",
+      "why": "首段提到食谱，但未交代作者身份。"
+    },
+    {
+      "s": "New traders received smaller rent increases than established traders.",
+      "a": "F",
+      "why": "租赁文件记载新老商贩的租金涨幅相同。"
+    },
+    {
+      "s": "Sen’s missing nephew was eventually found asleep beneath the counter.",
+      "a": "T",
+      "why": "第三段明确交代孩子在柜台下睡着了。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "r0116",
+  "ids": [
+    "teenager",
+    "direction",
+    "instead",
+    "amazing",
+    "housewife",
+    "owner",
+    "dish",
+    "quite",
+    "gram",
+    "cookie"
+  ],
+  "title": "The Bird in Pieces",
+  "titleZh": "碎片拼成的鸟",
+  "topic": "arts",
+  "cefr": 1,
+  "paras": [
+    "Mina was a [[housewife|housewife]] who painted plates at her kitchen table. For a small art show, she painted a blue bird on a white [[dish|dish]]. Its wings pointed up, and its head turned towards the sun. Mina was [[quite|quite]] pleased with it. But the night before the show, her cat knocked it onto the floor. It broke into seven pieces. Mina sat down and looked at them sadly.",
+    "Her neighbour Tomas, a sixteen-year-old [[teenager|teenager]], came to help. He liked making pictures from old things. They could not make the plate smooth again. “Let's make a wall picture [[instead|instead]],” he said. He found a square piece of wood painted white. Mina moved the broken pieces around until the bird faced a new [[direction|direction]], towards the left. Tomas weighed twenty [[gram|grams]] of special glue, and Mina carefully fixed each piece to the wood.",
+    "By morning, the glue was dry. The spaces between the pieces looked like bright lines around the bird. At the show, the [[owner|owner]] of a little art shop stopped to look. “What an [[amazing|amazing]] idea!” she said. She offered to put the picture in her shop window. Back home, Mina shared a bag of [[cookie|cookies]] with Tomas. Her broken bird had found a new home."
+  ],
+  "zh": [
+    "米娜是一位家庭主妇，平时在厨房的桌子上画装饰盘。为了参加一个小型艺术展，她在一个白盘子上画了一只蓝鸟。鸟的翅膀朝上，头转向太阳。米娜对它相当满意。然而，展览前一天晚上，她的猫把盘子碰到了地上。盘子碎成了七块。米娜坐下来，难过地看着这些碎片。",
+    "她的邻居、十六岁的少年托马斯过来帮忙。他喜欢用旧东西拼画。他们无法让盘子重新变得平整。“不如把它做成一幅挂画吧，”他说。他找来一块涂成白色的方形木板。米娜移动碎片的位置，直到鸟转向一个新的方向——左边。托马斯称出二十克专用胶水，米娜小心地把每块碎片固定在木板上。",
+    "到了早上，胶水干了。碎片之间的空隙看起来像鸟儿周围一道道明亮的线条。在展览上，一家小艺术品店的店主停下来看这幅画。“这个主意真妙！”她说。她提出把画放在自己的商店橱窗里。回家后，米娜和托马斯分享了一袋曲奇饼。她那只破碎的鸟找到了新家。"
+  ],
+  "q": [
+    {
+      "s": "The plate was damaged one evening before the exhibition.",
+      "a": "T",
+      "why": "盘子在展览前一天晚上被猫碰碎。"
+    },
+    {
+      "s": "The special glue cost five pounds.",
+      "a": "NG",
+      "why": "文中说明了胶水用量，未说明价格。"
+    },
+    {
+      "s": "The shop owner offered to put the picture in her home rather than her shop window.",
+      "a": "F",
+      "why": "店主提议放在商店橱窗里，而非家中。"
+    }
+  ]
+}

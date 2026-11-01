@@ -1,0 +1,48 @@
+{
+  "id": "r0269",
+  "ids": [
+    "useless",
+    "carnival",
+    "average",
+    "upside-down",
+    "librarian",
+    "gasoline",
+    "creature",
+    "delete",
+    "starting",
+    "besides"
+  ],
+  "title": "A Smile Behind the Mask",
+  "titleZh": "面具后面的笑容",
+  "topic": "emotion",
+  "cefr": 2,
+  "paras": [
+    "On an [[average|average]] winter afternoon, Bellara's main square is quiet. However, when I arrived for its annual [[carnival|carnival]], paper birds hung above the streets and drums sounded outside every café. I had come alone and felt strangely lonely among so many laughing families.",
+    "At the library, visitors could make masks before joining the evening parade. Amira, the [[librarian|librarian]], gave me a paper plate and some blue paint. My first attempt looked [[useless|useless]]: the eye holes were too low, and I had painted an [[upside-down|upside-down]] bird. I reached for another plate, but Amira stopped me. \"Perhaps your bird is diving,\" she said.",
+    "[[besides|Besides]] paint and paper, the tables held feathers and coloured string. Soon my strange bird had a long yellow tail. Outside, a small truck carrying musicians waited near the parade's [[starting|starting]] point. The smell of [[gasoline|gasoline]] mixed with the sweet smell of cakes. A cat slept beneath a chair, apparently the only [[creature|creature]] in the square that wanted silence.",
+    "Amira took a photograph of me wearing my mask. My first wish was to [[delete|delete]] it because I looked silly. Then I noticed my smile. When the drums began, I followed her into the crowd. I had expected to bring home pictures of beautiful costumes; instead, I kept a picture of myself finally joining in."
+  ],
+  "zh": [
+    "在一个普通的冬日下午，贝拉拉的主广场通常很安静。然而，当我为一年一度的狂欢节来到这里时，街道上方挂满了纸鸟，每家咖啡馆外都响着鼓声。我独自前来，在这么多欢声笑语的家庭中间，竟感到一种奇怪的孤独。",
+    "在图书馆，游客可以先制作面具，再参加晚上的游行。图书馆员阿米拉给了我一个纸盘和一些蓝色颜料。我第一次做出的面具似乎根本没法用：眼孔开得太低，还画了一只上下颠倒的鸟。我伸手想再拿一个纸盘，阿米拉却拦住了我。“也许你的鸟正在向下俯冲呢，”她说。",
+    "除了颜料和纸，桌上还有羽毛和彩色细绳。很快，我那只奇怪的鸟就有了一条黄色的长尾巴。外面，一辆载着乐手的小卡车停在游行起点附近等待。汽油味与蛋糕的甜香混在一起。一只猫睡在椅子下面，似乎是广场上唯一想要安静的动物。",
+    "阿米拉给戴着面具的我拍了一张照片。我首先想到的是删掉它，因为我看起来傻乎乎的。随后，我注意到了自己的笑容。鼓声响起时，我跟着她走进人群。我原本以为自己会带回一些漂亮服装的照片，最后留下的却是一张自己终于融入其中的照片。"
+  ],
+  "q": [
+    {
+      "s": "The writer had visited Bellara before.",
+      "a": "NG",
+      "why": "文中未说明作者以前是否来过贝拉拉。"
+    },
+    {
+      "s": "Amira stopped the writer from taking another paper plate.",
+      "a": "T",
+      "why": "作者想再拿纸盘时，阿米拉拦住了作者。"
+    },
+    {
+      "s": "The writer deleted the photograph of themselves wearing the mask.",
+      "a": "F",
+      "why": "作者最后保留了这张戴面具的照片。"
+    }
+  ]
+}

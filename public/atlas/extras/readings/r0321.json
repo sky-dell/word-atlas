@@ -1,0 +1,48 @@
+{
+  "id": "r0321",
+  "ids": [
+    "pause",
+    "literature",
+    "translation",
+    "unlikely",
+    "windscreen",
+    "voucher",
+    "wrap",
+    "character",
+    "possibility",
+    "neither"
+  ],
+  "title": "Making a Rainy-Day Poetry Recording",
+  "titleZh": "制作一段雨天诗歌录音",
+  "topic": "media",
+  "cefr": 2,
+  "paras": [
+    "Every month, a small library makes an audio programme that brings [[literature|literature]] to people at home. For its autumn edition, producer Amira chooses a short poem about rain. She wants the recording to capture the quiet [[character|character]] of the village where the poet once lived.",
+    "First, Amira works with Pavel, who reads both languages used in the village. During [[translation|translation]], they discuss how to express the poem's meaning without losing its gentle rhythm. Pavel reads each line aloud. Sometimes he [[pause|pauses]] before a difficult phrase, then tries it another way. They record two versions, but [[neither|neither]] version sounds quite natural, so they make a third.",
+    "Next, they collect background sounds. There is a [[possibility|possibility]] of rain that afternoon, so they take their equipment outside. Heavy traffic is [[unlikely|unlikely]] on a narrow road behind the library. Sitting inside a parked car, Amira records drops hitting the [[windscreen|windscreen]]. Afterwards, they [[wrap|wrap]] the recorder in a dry towel before carrying it back through the rain.",
+    "Finally, Amira mixes the voice with the rain, keeping the words easy to hear. Pavel receives a book [[voucher|voucher]] as thanks for his help. The finished programme lasts only six minutes, but its soft sounds give listeners a little space to imagine the village for themselves."
+  ],
+  "zh": [
+    "一家小图书馆每月都会制作一期音频节目，让人们在家中也能欣赏文学作品。为制作秋季这一期，制作人阿米拉选了一首关于雨的短诗。她希望这段录音能展现诗人曾经生活过的村庄那种宁静的特色。",
+    "首先，阿米拉与帕维尔一起工作，他能读懂村里使用的两种语言。在翻译过程中，他们讨论如何在保留诗歌轻柔节奏的同时表达原意。帕维尔逐行朗读，有时会在难读的短语前停顿一下，再换一种方式试读。他们录了两个版本，但两个听起来都不够自然，于是又录了第三个版本。",
+    "接下来，他们收集背景声音。那天下午可能会下雨，因此他们把设备带到了室外。图书馆后面的一条窄路不太可能有很多车辆经过。阿米拉坐在停好的车里，录下雨滴打在挡风玻璃上的声音。之后，他们用干毛巾把录音机包好，再冒雨将它带回去。",
+    "最后，阿米拉把人声和雨声混合起来，同时确保每个字都能听清。帕维尔收到了一张购书代金券，作为对他提供帮助的感谢。完成的节目只有六分钟，但轻柔的声音给听众留出了一点空间，让他们在脑海中描绘那个村庄。"
+  ],
+  "q": [
+    {
+      "s": "The library produces its audio programme only once a year.",
+      "a": "F",
+      "why": "第一段说明节目每月制作一次，而非每年一次。"
+    },
+    {
+      "s": "Amira and Pavel record a third version after the first two sound unnatural.",
+      "a": "T",
+      "why": "前两个版本都不够自然，因此又录了第三个。"
+    },
+    {
+      "s": "Pavel uses his reward to buy a collection of poems.",
+      "a": "NG",
+      "why": "只提到获赠购书券，未说明如何使用。"
+    }
+  ]
+}

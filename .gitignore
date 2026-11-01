@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 dist/
 .local/
 .env
@@ -9,3 +9,15 @@ output/
 .DS_Store
 .playwright-cli/
 *.tsbuildinfo
+
+# Private runtime data and generated test artifacts must never be published.
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+/docs/test-results/

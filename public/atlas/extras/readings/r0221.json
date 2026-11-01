@@ -1,0 +1,48 @@
+{
+  "id": "r0221",
+  "ids": [
+    "enjoyment",
+    "belief",
+    "explode",
+    "community",
+    "intention",
+    "strict",
+    "frightening",
+    "track",
+    "northern",
+    "unless"
+  ],
+  "title": "The Sound Behind the Door",
+  "titleZh": "门后的声音",
+  "topic": "science",
+  "cefr": 2,
+  "paras": [
+    "At a small science centre in a [[northern|northern]] town, Mira noticed that visitors sometimes jumped when popcorn began to pop in the kitchen. Her [[belief|belief]] was that an unknown sound seemed louder than a familiar one. She decided to test this idea with people from the nearby [[community|community]].",
+    "Mira invited twenty adults who regularly used the walking [[track|track]] behind the centre. Her [[intention|intention]] was to compare their reactions to the same noise. She divided them into two groups of ten. Both groups heard a recording of popcorn kernels as they [[explode|exploded]], but only the second group knew what was making the sound. Mira followed a [[strict|strict]] rule: the recording's volume and the room had to remain exactly the same.",
+    "Afterwards, everyone rated how loud and [[frightening|frightening]] the noise seemed. Seven people in the first group described it as scary, compared with only two in the second. However, their scores for loudness were almost equal. Several people in the second group even reported [[enjoyment|enjoyment]], saying the sound reminded them of watching films.",
+    "The results did not support Mira's original idea about loudness. Knowing the source might be linked to less fear, but she could not be sure [[unless|unless]] she did more tests. The centre now puts a simple sign outside its kitchen: 'Popcorn cooking—expect some pops!'"
+  ],
+  "zh": [
+    "在北方一座小镇的科学中心，米拉发现，厨房里的爆米花开始噼啪作响时，参观者有时会吓一跳。她相信，陌生的声音听起来会比熟悉的声音更响。她决定邀请附近的居民来检验这个想法。",
+    "米拉邀请了二十名经常在中心后面的小路上散步的成年人。她的目的是比较他们对同一种声音的反应。她把他们分成两组，每组十人。两组都听了一段玉米粒爆裂的录音，但只有第二组知道是什么在发出声音。米拉严格遵守一条规则：录音音量和所用房间必须完全相同。",
+    "之后，每个人都为声音的响亮程度和吓人程度打了分。第一组有七人觉得声音吓人，而第二组只有两人。不过，两组对响亮程度的评分几乎相同。第二组中甚至有几个人表示听得很开心，说这声音让他们想起了看电影的情景。",
+    "结果并不支持米拉最初关于响亮程度的想法。知道声音的来源可能与较少的恐惧有关，但除非再做些测试，否则她无法确定。现在，中心在厨房外贴了一张简单的告示：“正在做爆米花——会有噼啪声哦！”"
+  ],
+  "q": [
+    {
+      "s": "Mira paid the adults to take part in her test.",
+      "a": "NG",
+      "why": "文中未说明参与实验的成年人是否获酬。"
+    },
+    {
+      "s": "Both groups heard the recording at the same volume.",
+      "a": "T",
+      "why": "实验规则要求两组的录音音量完全相同。"
+    },
+    {
+      "s": "The second group gave much lower scores for loudness than the first.",
+      "a": "F",
+      "why": "两组对响亮程度的评分几乎相同。"
+    }
+  ]
+}

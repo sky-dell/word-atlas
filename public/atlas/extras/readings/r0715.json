@@ -1,0 +1,48 @@
+{
+  "id": "r0715",
+  "ids": [
+    "occident",
+    "pursuant",
+    "distend",
+    "manifold",
+    "catholic",
+    "misconceive",
+    "slay",
+    "cosset",
+    "libertarian",
+    "septic"
+  ],
+  "title": "Samples Without Labels",
+  "titleZh": "没有标签的样本",
+  "topic": "science",
+  "cefr": 5,
+  "paras": [
+    "At the fictional Estuary Institute, a small microbiology laboratory recruits amateur sewage collectors from across the [[occident|Occident]]. Their quarry is the bacteriophage, a virus that infects bacteria. Several collectors, previously dismissed by neighbours as eccentric scavengers, now supply research samples from brewery drains and duck ponds. Each delivery arrives with a record of its collection site.",
+    "Biologist Leila Mensah screens these deliveries for viruses capable of attacking bacteria associated with [[septic|septic]] wounds. During an introductory demonstration, she uses air to [[distend|distend]] a rubber glove, then warns volunteers that living cells are considerably more complex. Phages can [[slay|slay]] bacterial hosts, but enthusiasts sometimes [[misconceive|misconceive]] this destructive ability as proof of immediate medical usefulness. A virus effective in a dish may fail inside human tissue.",
+    "The practical obstacles are [[manifold|manifold]], from contaminated containers to incomplete records. Access to industrial drains is granted only [[pursuant|pursuant]] to written agreements, and every sample receives a traceable code. Researchers welcome unpaid assistance but refuse to [[cosset|cosset]] recruits: volunteers must repeat safety training and accept the rejection of inadequately documented specimens.",
+    "One collector, retired watchmaker Arun Das, describes himself as a [[libertarian|libertarian]] who initially disliked such restrictions. His [[catholic|catholic]] interests encompass pond ecology, fermentation and antique microscopes, but recordkeeping held little attraction. After an unlabelled vial rendered three weeks of work unusable, he became meticulous. He now checks each label against his notebook before packing a sample for delivery."
+  ],
+  "zh": [
+    "在虚构的河口研究所，一间小型微生物实验室从西方各地招募业余污水采集者。他们寻找的是噬菌体，一种感染细菌的病毒。有几名采集者曾被邻居当作古怪的废物搜寻者，如今却从啤酒作坊的排水沟和养鸭池塘中提供研究样本。每批送来的样本都附有采集地点记录。",
+    "生物学家莱拉·门萨筛查这些送来的样本，寻找能够攻击伤口感染相关细菌的病毒。在一次入门演示中，她用空气使一只橡胶手套膨胀，然后提醒志愿者，活细胞要复杂得多。噬菌体能够杀死宿主细菌，但爱好者有时会误把这种杀菌能力当作可以立即用于医疗的证据。在培养皿中有效的病毒，进入人体组织后却可能失效。",
+    "实际操作中的障碍多种多样，从容器污染到记录残缺，不一而足。只有依据书面协议，采集者才能进入工业排水区域，而且每份样本都会获得一个可追溯的编号。研究人员欢迎无偿协助，却不会娇惯新人：志愿者必须反复参加安全培训，并接受记录不充分的样本被拒收。",
+    "采集者之一、退休钟表匠阿伦·达斯自称是自由意志主义者，起初很不喜欢这些限制。他兴趣广泛，涉猎池塘生态、发酵和古董显微镜，却对填写记录提不起兴趣。一只没有标签的小瓶导致三周的工作成果无法使用，此后他便变得一丝不苟。如今，他在包装样本准备送出之前，都会对照笔记核查每张标签。"
+  ],
+  "q": [
+    {
+      "s": "People previously regarded as odd scavengers are now providing research material to laboratories.",
+      "a": "T",
+      "why": "首段指出，他们曾受轻视，如今提供研究样本。"
+    },
+    {
+      "s": "A phage that destroys bacteria in laboratory conditions will necessarily work in human tissue.",
+      "a": "F",
+      "why": "第二段说，培养皿中有效的病毒在人体内可能失效。"
+    },
+    {
+      "s": "Arun Das collects more samples each month than any other volunteer at the institute.",
+      "a": "NG",
+      "why": "末段未比较达斯与其他志愿者的采样数量。"
+    }
+  ]
+}

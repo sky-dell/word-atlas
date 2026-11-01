@@ -1,0 +1,48 @@
+{
+  "id": "r0450",
+  "ids": [
+    "portray",
+    "teller",
+    "bankrupt",
+    "misfortune",
+    "hollow",
+    "imperfect",
+    "indirect",
+    "representative",
+    "seemingly",
+    "wording"
+  ],
+  "title": "When the Harbour Bank Closed",
+  "titleZh": "港口银行关门之时",
+  "topic": "economy",
+  "cefr": 3,
+  "paras": [
+    "For an economics assignment, Nina had to write a newspaper report about the closure of the Harbour Bank. Her teacher supplied fictional documents from a small shipbuilding town. Nina decided to [[portray|portray]] the people behind the accounts, beginning with Anika Das, a [[teller|teller]] who accepted workers' wage deposits and recorded them in a leather book.",
+    "A drawing showed a [[hollow|hollow]] iron safe door, with a gap between its inner and outer panels. Nina first wanted to use it as a symbol of the bank's [[seemingly|seemingly]] secure position. However, the door's construction could not explain the closure. The records offered better evidence: they were [[imperfect|imperfect]], with dates missing from several large loans. After a major borrower failed to repay a loan, the bank could no longer meet its own debts. A court declared it [[bankrupt|bankrupt]].",
+    "For families unable to withdraw their savings, this was a serious [[misfortune|misfortune]]. Nina also traced the [[indirect|indirect]] effects. A boatyard whose money was trapped in the bank reduced its timber orders, leaving a nearby supplier short of business.",
+    "Her report ended with a letter from Mateo Silva, a [[representative|representative]] chosen by the depositors. Its [[wording|wording]] was firm, but it avoided accusing individual employees of dishonesty. Instead, Silva asked when the savings would be returned. Nina checked the remaining documents for a reply; the packet contained none."
+  ],
+  "zh": [
+    "在一次经济学作业中，妮娜需要写一篇关于港口银行倒闭的新闻报道。老师提供了一组来自某个造船小镇的虚构文件。妮娜决定描绘账户背后的人物，首先介绍阿妮卡·达斯。这名银行柜员接收工人存入的工资，并将存款记入一本皮面账簿。",
+    "一幅图画展示了一扇中空的铁制保险库门，内外两层门板之间留有空隙。妮娜起初想用它象征银行看似稳健的经营状况。然而，门的结构无法解释银行倒闭的原因。账目提供了更有用的证据：这些记录并不完善，几笔大额贷款缺少日期。一名主要借款人未能偿还贷款后，银行也无力偿还自己的债务。法院宣布该银行破产。",
+    "对于无法取出积蓄的家庭来说，这是一次严重的不幸。妮娜还追查了间接影响。一家船厂的资金被困在银行里，因此减少了木材订货，使附近一家供应商的生意不足。",
+    "报道以储户推选的代表马特奥·席尔瓦的一封信结尾。信中的措辞坚定，但避免指责个别员工不诚实。席尔瓦只是询问储蓄款何时能够退还。妮娜查看了其余文件，寻找回信；这包材料里没有回信。"
+  ],
+  "q": [
+    {
+      "s": "Anika Das had worked at another bank before joining the Harbour Bank.",
+      "a": "NG",
+      "why": "文章未交代阿妮卡此前的工作经历。"
+    },
+    {
+      "s": "All the large loans in the bank's records had dates.",
+      "a": "F",
+      "why": "第二段明确说几笔大额贷款缺少日期。"
+    },
+    {
+      "s": "Silva's letter asked when depositors would get their savings back.",
+      "a": "T",
+      "why": "末段说明席尔瓦询问储蓄款何时退还。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0315",
+  "ids": [
+    "poison",
+    "code",
+    "slide",
+    "maximum",
+    "saving",
+    "champion",
+    "torch",
+    "crack",
+    "payment",
+    "cheerful"
+  ],
+  "title": "A New Game in an Old Factory",
+  "titleZh": "老工厂里的新运动",
+  "topic": "sport",
+  "cefr": 2,
+  "paras": [
+    "In the mountain town of Bellara, visitors can try curling inside a former cloth factory. Bright cloth once hung from its roof, but some dyes contained [[poison|poison]]. Production ended long ago, and the building was carefully cleaned before becoming an ice hall. A small display by the entrance tells this unusual story.",
+    "I arrived on Saturday evening and made my [[payment|payment]] at a wooden desk. Renting shoes and equipment together offered a [[saving|saving]] of five euros. My ticket carried a six-digit [[code|code]], which opened a locker. Inside the hall, our [[cheerful|cheerful]] guide, Mina, introduced herself as last year's town curling [[champion|champion]].",
+    "Before we began, Mina used a [[torch|torch]] to examine a dark corner beside the ice. She had noticed a [[crack|crack]] in the wooden floor and placed a chair over it. Then she showed us how to [[slide|slide]] a heavy stone towards a painted circle. The [[maximum|maximum]] group size was eight, so everyone had several turns. My first stone stopped far too early; my second reached the circle.",
+    "Afterwards, we drank hot apple juice beneath photographs of factory workers. Mina explained that several workers' families still played here every winter. Looking from their old photographs to the busy ice, I felt that the building had gained a new life without losing its past."
+  ],
+  "zh": [
+    "在山城贝拉拉，游客可以在一座旧布厂里体验冰壶运动。鲜艳的布料曾经悬挂在屋顶下，但一些染料含有有毒物质。工厂早已停产，厂房经过彻底清理后，改成了冰场。入口旁的一个小展区讲述了这段不同寻常的历史。",
+    "我在星期六傍晚到达，在一张木桌前付了钱。鞋子和装备一起租，可以省下五欧元。票上有一个六位数的密码，可以用来打开储物柜。走进冰场，我们那位开朗的教练米娜介绍说，她是去年镇上冰壶比赛的冠军。",
+    "开始前，米娜用手电筒检查了冰面旁一个昏暗的角落。她发现木地板上有一道裂缝，便放了一把椅子挡住那里。接着，她教我们怎样让沉重的冰壶滑向画好的圆圈。每组最多八个人，所以每个人都能练上好几次。我的第一壶停得太早，第二壶则滑进了圆圈。",
+    "活动结束后，我们在工厂工人的照片下喝热苹果汁。米娜说，有几户工人家庭至今仍会在每年冬天来这里玩。我看看那些老照片，又望向热闹的冰场，觉得这座建筑获得了新生，却没有丢掉自己的过去。"
+  ],
+  "q": [
+    {
+      "s": "The factory became an ice hall without being cleaned first.",
+      "a": "F",
+      "why": "厂房先经过仔细清理，才改成冰场。"
+    },
+    {
+      "s": "Renting shoes and equipment together saved five euros.",
+      "a": "T",
+      "why": "原文明确说一起租可省五欧元。"
+    },
+    {
+      "s": "Mina's grandparents worked in the cloth factory.",
+      "a": "NG",
+      "why": "未提米娜的祖父母或外祖父母是否在厂里工作。"
+    }
+  ]
+}

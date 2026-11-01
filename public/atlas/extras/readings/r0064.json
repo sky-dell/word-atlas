@@ -1,0 +1,48 @@
+{
+  "id": "r0064",
+  "ids": [
+    "and",
+    "most",
+    "story",
+    "other",
+    "apple",
+    "chinese",
+    "air",
+    "because",
+    "team",
+    "right"
+  ],
+  "title": "A Village Story on Cloth",
+  "titleZh": "布上的村庄故事",
+  "topic": "thinking",
+  "cefr": 0,
+  "paras": [
+    "In a small [[chinese|Chinese]] village, visitors can find a little house with a blue door. Inside, a woman called Lin makes pictures on cloth. Her pictures tell a [[story|story]] about a girl with a red basket. But visitors must think: which picture comes first? There are no numbers to help them.",
+    "On Saturday, I visit with my sister. The morning [[air|air]] is cool. Lin puts six cloth pictures on a long table. In one, the girl is under an [[apple|apple]] tree. In another, her basket is full. The [[other|other]] pictures show her home, a path, a kitchen [[and|and]] an old man.",
+    "[[most|Most]] visitors start with the picture of the home. My sister does too. I choose the tree [[because|because]] I can see fruit on the ground. We work as a [[team|team]] to put the pictures in a line. Then Lin asks us to look at the girl's basket in each picture. Now we see something new.",
+    "In the kitchen, the girl puts cakes in her basket. At her front door, it is full of cakes, not fruit. So the kitchen comes first. She takes the cakes to the old man. He gives her fruit from his tree. We find the [[right|right]] place for each picture. Lin gives us a small cloth cake. I put it in my pocket. It looks like the cakes in the kitchen picture."
+  ],
+  "zh": [
+    "在一个中国小村庄里，游客可以找到一间有蓝色门的小屋。屋里，一位叫林的女士在布上制作图画。她的画讲述了一个提着红篮子的女孩的故事。不过，游客得想一想：哪幅画排在最前面？画上没有数字提示。",
+    "星期六，我和我的姐姐或妹妹来这里参观。早晨的空气很凉爽。林女士把六幅布画放在一张长桌上。一幅画里，女孩站在一棵苹果树下。另一幅画里，她的篮子满满的。其他几幅画上有她的家、一条小路、一间厨房和一位老人。",
+    "大多数游客把画着家的那幅放在最前面。她也是如此。我选了苹果树那幅，因为我看到了地上的水果。我们组成一个小团队，一起把画排成一行。接着，林女士请我们看看每幅画里女孩的篮子。这时，我们有了新发现。",
+    "在厨房里，女孩把糕点放进篮子。在她家门口，篮子里装满了糕点，而不是水果。所以厨房那幅排在最前面。她把糕点送给老人。老人把自己树上的水果送给她。我们为每幅画找到了正确的位置。林女士送给我们一个布做的小糕点。我把它放进口袋里。它看起来就像厨房那幅画里的糕点。"
+  ],
+  "q": [
+    {
+      "s": "The pictures have numbers to help visitors.",
+      "a": "F",
+      "why": "原文明确说没有数字提示。"
+    },
+    {
+      "s": "The writer visits Lin's house every Saturday.",
+      "a": "NG",
+      "why": "只提到周六这次来访，未说明是否每周都来。"
+    },
+    {
+      "s": "The girl's basket is full of cakes at her front door.",
+      "a": "T",
+      "why": "女孩在家门口时，篮中装满糕点。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "r0271",
+  "ids": [
+    "razor",
+    "involve",
+    "influence",
+    "material",
+    "decoration",
+    "caravan",
+    "management",
+    "tight",
+    "sailor",
+    "well-dressed"
+  ],
+  "title": "The Travelling Harbour Barber",
+  "titleZh": "港口的流动理发师",
+  "topic": "society",
+  "cefr": 2,
+  "paras": [
+    "Welcome to our exhibition about Karim's travelling barber shop. In 1962, Karim bought a small [[caravan|caravan]] and pulled it behind his car between three fishing towns. Inside, he fitted a chair, a mirror and a shelf. This tiny shop became a meeting place for people who spent much of their lives at sea.",
+    "Look at the silver [[razor|razor]] beside the wash bowl. A visit could [[involve|involve]] a haircut, a shave and a conversation about home. In the photograph above it, a young [[sailor|sailor]] is preparing for his wedding. He wanted to look [[well-dressed|well-dressed]], but his collar was so [[tight|tight]] that Karim loosened it before starting work.",
+    "The blue curtain behind the chair is made from [[material|material]] once used for a boat cover. A wooden fish, a gift from a customer, hangs above it as a [[decoration|decoration]]. Karim's daughter, Leila, helped with the [[management|management]] of the business. Her notebook records appointments, costs and even which customers preferred silence.",
+    "The final display explores Karim's [[influence|influence]] on harbour life. He introduced newcomers to regular customers and kept letters for men away at sea. Before you leave, listen to the recordings beside the door. Former customers remember good haircuts, but what they talk about most is the pleasure of finding a familiar face."
+  ],
+  "zh": [
+    "欢迎参观关于卡里姆流动理发店的展览。1962年，卡里姆买了一辆小型拖挂式房车，用汽车拉着它往返于三个渔业小镇之间。他在车里装了一把椅子、一面镜子和一个架子。这家小店成了人们相聚的地方，而这些人一生中有很多时间在海上度过。",
+    "请看洗脸盆旁的那把银色剃刀。来这里一次，可以剪个头发、刮个胡子，再聊聊家里的事。上方的照片中，一名年轻水手正在为自己的婚礼做准备。他希望自己衣着得体，可领口太紧了，卡里姆便先帮他松开领口，再开始理发。",
+    "椅子后面的蓝色帘子，是用一块曾经用来做船罩的布料制成的。一位顾客送的木制鱼形饰物挂在帘子上方，作为装饰品。卡里姆的女儿莱拉帮忙经营这门生意。她的笔记本记录着预约、开销，甚至还记下了哪些顾客更喜欢安静。",
+    "最后一组展品介绍了卡里姆对港口生活的影响。他把新来的人介绍给老顾客认识，还替出海的人保管信件。离开前，请听听门旁的录音。过去的顾客记得他剪头发的好手艺，但他们谈得最多的，还是见到熟悉面孔时的那份喜悦。"
+  ],
+  "q": [
+    {
+      "s": "Karim moved his barber shop from town to town using a car.",
+      "a": "T",
+      "why": "他用汽车拖着房车往返三个渔业小镇。"
+    },
+    {
+      "s": "The cloth behind the barber's chair was bought new for the shop.",
+      "a": "F",
+      "why": "帘子使用的是曾用来做船罩的布料。"
+    },
+    {
+      "s": "The customers received payment for making the recordings.",
+      "a": "NG",
+      "why": "文中未提及录音的顾客是否获得报酬。"
+    }
+  ]
+}

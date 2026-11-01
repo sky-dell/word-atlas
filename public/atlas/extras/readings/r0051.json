@@ -1,0 +1,46 @@
+{
+  "id": "r0051",
+  "ids": [
+    "email",
+    "test",
+    "july",
+    "zero",
+    "again",
+    "hello",
+    "people",
+    "canada",
+    "monkey",
+    "sit"
+  ],
+  "title": "A Cup from the River Market",
+  "titleZh": "来自河边集市的杯子",
+  "topic": "economy",
+  "cefr": 0,
+  "paras": [
+    "In [[july|July]], the river market opens at seven. Small boats bring visitors to a village in Thailand. Mali sells clay cups there. Each cup has a blue fish on it. One morning, Ben arrives from [[canada|Canada]]. He has an [[email|email]] from Mali with a map of her shop. Now he can find it without help. She calls, “[[hello|Hello]]! Come and see my cups.”",
+    "Ben watches Mali work. Some [[people|people]] buy cups, but others pay to make one. This money helps her keep the shop open. Ben pays and starts his cup. Mali asks him to [[sit|sit]] beside her. His first cup falls flat. He tries [[again|again]], more slowly this time. Outside, a [[monkey|monkey]] climbs a tree near the river. Ben makes two small ears on his cup.",
+    "Three days later, Ben returns. His cup is hard and ready. Mali fills it with water for a simple [[test|test]]. They count [[zero|zero]] drops on the table below. The cup works! Ben buys a blue fish cup, too. At home, the two cups will help him remember the river and Mali’s kind smile."
+  ],
+  "zh": [
+    "七月，河边集市七点开门。小船把游客带到泰国的一个村庄。玛丽在那里卖陶杯，每只杯子上都有一条蓝色的鱼。一天早上，来自加拿大的本到了。他收到过玛丽发来的一封电子邮件，里面有她店铺的位置图。现在，他不用别人帮忙就能找到店了。她招呼道：“你好！来看看我的杯子吧。”",
+    "本看着玛丽做陶杯。有些人买杯子，也有人花钱亲手做一个。这些收入帮助她把店开下去。本付了钱，开始做自己的杯子。玛丽请他坐在自己身旁。他做的第一个杯子塌了。他又试了一次，这回慢了一些。外面，一只猴子爬上河边的一棵树。本给杯子做了两只小耳朵。",
+    "三天后，本回来了。他的杯子已经变硬，可以用了。玛丽往里面倒满水，做一个简单的测试。他们数了数，下面的桌上一滴水也没有。杯子能用！本还买了一只蓝色小鱼杯。回家后，这两只杯子会让他想起那条河，还有玛丽亲切的笑容。"
+  ],
+  "q": [
+    {
+      "s": "Ben cannot find Mali's shop without help.",
+      "a": "F",
+      "why": "有了邮件里的地图，他不用帮助就能找到店。"
+    },
+    {
+      "s": "Ben's first cup falls flat.",
+      "a": "T",
+      "why": "文中明确说他做的第一个杯子塌了。"
+    },
+    {
+      "s": "Ben plans to give the blue fish cup to his sister.",
+      "a": "NG",
+      "why": "文章未提到本要把杯子送给谁。"
+    }
+  ]
+}

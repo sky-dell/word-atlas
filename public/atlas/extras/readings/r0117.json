@@ -1,0 +1,46 @@
+{
+  "id": "r0117",
+  "ids": [
+    "missing",
+    "left-hand",
+    "pocket",
+    "total",
+    "soldier",
+    "biscuit",
+    "african",
+    "gallery",
+    "fat",
+    "sale"
+  ],
+  "title": "Little Stars from Home",
+  "titleZh": "来自家的小星星",
+  "topic": "emotion",
+  "cefr": 1,
+  "paras": [
+    "Amina is an [[african|African]] artist who lives far from her family. For a show at a small [[gallery|gallery]], she makes star-shaped [[biscuit|biscuits]] as well as paintings. Her father, a [[soldier|soldier]], often made these sweet stars when he was home. Their smell still makes her feel close to him. She plans to offer them for [[sale|sale]] beside her pictures of the family kitchen.",
+    "First, Amina puts butter and sugar into a bowl. The butter provides the [[fat|fat]] that makes the stars crisp. She mixes them with a wooden spoon, then adds flour a little at a time. Soon she has a soft ball of dough. However, her small star cutter is [[missing|missing]]. After looking under a cloth, she finds it in the [[left-hand|left-hand]] [[pocket|pocket]] of her apron.",
+    "She rolls the dough flat, cuts out the stars and puts them on a metal tray. They bake for twelve minutes, until their edges are brown. The [[total|total]] time for making one tray is about forty minutes. Once the stars are cool, she packs them in paper bags. Each bag carries a little drawing of her father's wooden spoon. At the show, these small stars help her share a happy memory of home."
+  ],
+  "zh": [
+    "阿米娜是一位非洲艺术家，住得离家人很远。为了参加一家小画廊的展览，她除了画画，还制作星形饼干。她的父亲是一名军人，在家时常常做这些甜甜的小星星。如今，闻到它们的香味，她仍然感到与父亲很亲近。她打算把饼干放在描绘自家厨房的画作旁出售。",
+    "首先，阿米娜把黄油和糖放进碗里。黄油提供了让小星星变得酥脆的油脂。她用木勺把它们拌匀，再一点一点地加入面粉。很快，碗里就有了一团柔软的面团。然而，她的小星形模具找不到了。她先在一块布下面找了找，随后在围裙左边的口袋里发现了它。",
+    "她把面团擀平，切出星星形状，放在金属烤盘上。饼干烤十二分钟，直到边缘变成棕色。制作一盘饼干总共需要大约四十分钟。小星星放凉后，她把它们装进纸袋。每个袋子上都有一幅描绘父亲的木勺的小画。在展览上，这些小星星帮助她分享了一段关于家的快乐回忆。"
+  ],
+  "q": [
+    {
+      "s": "Amina lives near her family.",
+      "a": "F",
+      "why": "第一段明确说她住得离家人很远。"
+    },
+    {
+      "s": "Amina adds the flour a little at a time.",
+      "a": "T",
+      "why": "第二段说她一点一点地加入面粉。"
+    },
+    {
+      "s": "Each paper bag contains six stars.",
+      "a": "NG",
+      "why": "第三段未说明每袋装多少块饼干。"
+    }
+  ]
+}

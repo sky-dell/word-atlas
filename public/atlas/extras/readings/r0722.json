@@ -1,0 +1,48 @@
+{
+  "id": "r0722",
+  "ids": [
+    "idyll",
+    "plaintive",
+    "conceptive",
+    "apprise",
+    "eminently",
+    "alchemy",
+    "reverence",
+    "mumps",
+    "urbane",
+    "ostensible"
+  ],
+  "title": "Keeping Repairs Local",
+  "titleZh": "让修理工作留在本地",
+  "topic": "work",
+  "cefr": 5,
+  "paras": [
+    "Visitors described Bellwick as a rural [[idyll|idyll]], but its last instrument repairer, Mara Sen, spent her mornings calculating whether she could afford another apprentice. When the village archive offered her an unused dairy, she proposed a community workshop whose [[ostensible|ostensible]] purpose was to conserve historic tools. More urgently, she wanted paid repair work to remain available locally.",
+    "Her collaborator, the [[urbane|urbane]] retired librarian Idris Vale, persuaded twelve households to contribute small subscriptions. His [[conceptive|conceptive]] gifts helped him devise an exhibition around three benches and a cupboard. Rejecting solemn displays demanding [[reverence|reverence]] for craftsmanship, he proposed demonstrations: visitors would hear a concertina's [[plaintive|plaintive]] wheeze, then watch Mara locate and seal the leaking bellows.",
+    "An inherited notebook complicated matters. Its account of [[alchemy|alchemy]], including attempts to turn lead into gold, attracted more attention than the repairs. Mara considered this curiosity [[eminently|eminently]] useful, provided nobody confused historical speculation with practical instruction. She placed the notebook beside a brass key awaiting restoration, contrasting the elusive promise of transmutation with the measurable achievement of making an ordinary object serviceable again.",
+    "In February, [[mumps|mumps]] obliged one apprentice to stay away; Idris had to [[apprise|apprise]] subscribers of postponed demonstrations. Yet repair orders kept arriving, allowing Mara to pay the apprentice throughout his absence. By autumn, the exhibition occupied only one wall: the remaining space held labelled instruments awaiting collection. Success lay not in a crowded opening ceremony, but in the continuity of paid work."
+  ],
+  "zh": [
+    "游客把贝尔威克的生活形容为田园般的恬静享受，但村里最后一位乐器修理师玛拉·森每天上午都在盘算，自己是否还负担得起再收一名学徒。村档案馆愿意让她使用一间闲置的乳品房，于是她提议开办一个社区工坊，名义上是为了保存历史悠久的工具。更迫切的是，她希望本地还能提供有报酬的修理工作。",
+    "她的合作伙伴伊德里斯·韦尔是一位温文尔雅的退休图书管理员，他说服十二户人家定期缴纳小额资助款。他丰富的构想力帮助他围绕三张工作台和一个柜子策划了一场展览。他不愿采用那种要求观众肃然敬仰手艺的庄重陈列方式，而是提议现场演示：先让参观者听一架六角手风琴发出哀怨的漏气声，再看玛拉找到风箱的漏气处并将其封好。",
+    "一本传下来的笔记让事情变得复杂起来。其中关于炼金术的记述，包括将铅变成黄金的尝试，比修理工作更引人注目。玛拉认为，只要没人把历史上的推想误当作实际操作指南，这种好奇心就极其有用。她将笔记放在一把等待修复的黄铜钥匙旁，让金属嬗变那难以捉摸的许诺，与使一件普通物品重新可用这一可衡量的成果形成对照。",
+    "二月，一名学徒因患流行性腮腺炎不得不请假；伊德里斯只好正式通知资助者，演示活动将延期。不过，修理订单依然不断送来，让玛拉能够在学徒缺勤期间照常付薪。到了秋天，展览只占一面墙，其余空间摆满了贴有标签、等待领取的乐器。成功不在于热闹拥挤的开幕仪式，而在于有偿工作的持续。"
+  ],
+  "q": [
+    {
+      "s": "Beyond preserving old equipment, Mara hoped the project would sustain local earning opportunities.",
+      "a": "T",
+      "why": "首段说明她更希望本地保留有偿修理工作。"
+    },
+    {
+      "s": "The twelve subscribing households all included amateur musicians.",
+      "a": "NG",
+      "why": "文中未说明资助家庭成员是否为业余乐手。"
+    },
+    {
+      "s": "The repair demonstrations generated greater interest than the notebook's descriptions of metal transformation.",
+      "a": "F",
+      "why": "第三段说明炼金术笔记比修理更引人关注。"
+    }
+  ]
+}

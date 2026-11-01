@@ -1,0 +1,46 @@
+{
+  "id": "r0003",
+  "ids": [
+    "japanese",
+    "river",
+    "horse",
+    "lunch",
+    "tall",
+    "also",
+    "coat",
+    "elephant",
+    "fast",
+    "from"
+  ],
+  "title": "A Lunch Room Full of Pictures",
+  "titleZh": "满是图画的午餐室",
+  "topic": "daily",
+  "cefr": 0,
+  "paras": [
+    "Mina helps at a small community room near the [[river|river]]. Ten people come for [[lunch|lunch]] every Tuesday. The food is good, but the white walls look cold. One day, Mina brings a [[japanese|Japanese]] picture book [[from|from]] her home. It has bright pictures of animals. She asks everyone to help make pictures for the room. They all like her idea.",
+    "On Saturday, six people meet there. Luis is [[tall|tall]], so he puts paper high on the wall. He takes off his [[coat|coat]] before he starts. Mina draws a brown [[horse|horse]] in a green field. Asha draws an [[elephant|elephant]] with big ears and a long nose. She [[also|also]] paints a little bird beside it. Everyone shares the paints and brushes.",
+    "Ben is a [[fast|fast]] worker. His picture is ready first, so he helps Asha clean the tables. By four o'clock, twelve pictures are on the walls. The next Tuesday, people stop at the door and smile. After their meal, they talk about the animals. One woman asks to paint next week. Now the room is more than a place to eat. It is their place to make things together."
+  ],
+  "zh": [
+    "米娜在河边的一间小社区活动室帮忙。每周二有十个人来吃午餐。食物很好吃，但白色的墙壁显得冷冰冰的。一天，米娜从家里带来一本日本图画书。书里有色彩鲜艳的动物图画。她请大家一起为活动室画些画。大家都喜欢她的主意。",
+    "星期六，六个人在那里碰面。路易斯个子高，所以由他把纸贴在墙上较高的地方。开始前，他脱下了外套。米娜画了一匹站在绿色田野里的棕色马。阿莎画了一头大象，它有大耳朵和长鼻子。她还在旁边画了一只小鸟。大家共用颜料和画笔。",
+    "本干活很快。他的画最先完成，于是他帮阿莎擦桌子。到四点时，墙上已经挂了十二幅画。下个星期二，人们在门口停下脚步，露出了笑容。饭后，他们聊起了这些动物。一位女士问下周能不能来画画。现在，这间屋子不只是吃饭的地方了，也是大家一起动手创作的地方。"
+  ],
+  "q": [
+    {
+      "s": "Mina brings the picture book from a shop, not her home.",
+      "a": "F",
+      "why": "米娜从家里带来图画书，不是从商店。"
+    },
+    {
+      "s": "The people share the paints.",
+      "a": "T",
+      "why": "文中明确说大家共用颜料和画笔。"
+    },
+    {
+      "s": "The woman who wants to paint is an art teacher.",
+      "a": "NG",
+      "why": "文中没有说明这位女士的职业。"
+    }
+  ]
+}

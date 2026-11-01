@@ -1,0 +1,46 @@
+{
+  "id": "r0105",
+  "ids": [
+    "freezer",
+    "rucksack",
+    "essay",
+    "pub",
+    "kid",
+    "manage",
+    "circus",
+    "tourist",
+    "fork",
+    "waste"
+  ],
+  "title": "A Cold Place for Supper",
+  "titleZh": "为晚餐找个冷藏处",
+  "topic": "city",
+  "cefr": 1,
+  "paras": [
+    "Mina was writing an [[essay|essay]] about life around the city's old square. One afternoon, she visited a small [[circus|circus]] there. Behind the big tent, the cook, Pavel, looked worried. His [[freezer|freezer]] had stopped working. Inside were twelve bags of frozen vegetables for the evening meal. \"I don't want to [[waste|waste]] all this food,\" he said. The nearest food shop was already closed.",
+    "Mina put her notebook into her [[rucksack|rucksack]] and looked across the square. A [[tourist|tourist]] was eating lunch outside a [[pub|pub]], while a [[kid|kid]] beside him tried to pick up a tomato with a [[fork|fork]]. Seeing the meal gave Mina an idea. Perhaps the owner had somewhere cold for Pavel's food. She went inside and asked. The owner, Rosa, had plenty of space in her freezer, but Pavel had no car.",
+    "Rosa offered them a small cart that she used for moving boxes. Mina and Pavel loaded it and pushed it slowly over the stones. Together, they [[manage|managed]] to move every bag before the vegetables became warm. Later, Pavel collected what he needed and cooked supper for twenty hungry performers. He invited Mina and Rosa to eat with them. At the table, Mina opened her notebook and wrote about their trip across the square with the cart."
+  ],
+  "zh": [
+    "米娜正在写一篇短文，介绍城市老广场周围的生活。一天下午，她来到广场上的一个小马戏团。大帐篷后面，厨师帕维尔看起来很发愁。他的冷冻柜坏了，里面放着十二袋准备做晚餐的冷冻蔬菜。“我不想把这些食物都浪费掉，”他说。最近的食品店已经关门了。",
+    "米娜把笔记本放进双肩背包，朝广场对面望去。一位游客正在一家酒馆外吃午饭，旁边的一个孩子正试着用餐叉叉起一个番茄。看到这顿饭，米娜有了主意。也许店主有个凉的地方可以存放帕维尔的食物。她走进去询问。店主罗莎的冷冻柜里有足够的空间，可帕维尔没有汽车。",
+    "罗莎提出把自己用来搬箱子的小推车借给他们。米娜和帕维尔装好车，慢慢推着它走过石头路面。两人合力，终于赶在蔬菜变暖之前把每一袋都运了过去。晚些时候，帕维尔取回需要的食材，为二十位饥肠辘辘的演员做了晚餐。他邀请米娜和罗莎一起吃。在餐桌旁，米娜打开笔记本，记下了他们推着小车穿过广场的经历。"
+  ],
+  "q": [
+    {
+      "s": "Pavel's freezer was working that afternoon.",
+      "a": "F",
+      "why": "文中明确说他的冷冻柜坏了。"
+    },
+    {
+      "s": "Mina and Pavel used a small cart to move the vegetables.",
+      "a": "T",
+      "why": "两人把蔬菜装上小推车并推走。"
+    },
+    {
+      "s": "Pavel served rice with the vegetables at supper.",
+      "a": "NG",
+      "why": "文中未说明晚餐是否配了米饭。"
+    }
+  ]
+}

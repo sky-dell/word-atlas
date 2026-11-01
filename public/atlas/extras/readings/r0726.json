@@ -1,0 +1,48 @@
+{
+  "id": "r0726",
+  "ids": [
+    "illusive",
+    "subsequence",
+    "toddle",
+    "repent",
+    "glycerin",
+    "drowse",
+    "lest",
+    "wring",
+    "misappropriate",
+    "ungainly"
+  ],
+  "title": "Puppets Enter the Compliance Office",
+  "titleZh": "木偶走进企业合规课堂",
+  "topic": "work",
+  "cefr": 5,
+  "paras": [
+    "At a converted bakery, puppet makers who once supplied children's theatres are receiving an unexpected category of commission: corporate ethics films. Their clients want neither polished animation nor reassuring presenters, but visibly handmade figures whose [[ungainly|ungainly]] movements make uncomfortable situations discussable. Workshop owner Amara Sen says orders for these productions now outnumber requests for fairy tales.",
+    "The appeal rests on an apparent contradiction: [[illusive|illusive]] life can expose recognisably human evasions. In one production, a wooden cashier must [[repent|repent]] after choosing to [[misappropriate|misappropriate]] a charity collection entrusted to him. Rather than deliver a speech, he returns the money and requests independent checks on subsequent collections. Viewers discuss whether these actions demonstrate remorse or merely protect his reputation.",
+    "Such scenes require surprisingly exacting labour. Technicians apply [[glycerin|glycerin]] beneath glass eyes to simulate tears, then [[wring|wring]] excess moisture from the cloth used around the joints. Apprentices first make a child figure [[toddle|toddle]] before attempting an exhausted clerk beginning to [[drowse|drowse]]. Every hesitation is recorded; an editor may extract a [[subsequence|subsequence]] of poses, omitting intermediate positions while preserving their original order, to test how little movement conveys intention.",
+    "Sen refuses requests to conceal every string, [[lest|lest]] viewers mistake theatrical persuasion for documentary evidence. The visible mechanism, she argues, invites scrutiny rather than obedience. No controlled study has yet established whether these films reduce misconduct, and clients receive no such guarantee. Nevertheless, repeat commissions suggest a durable niche: craftspeople formerly paid to sustain enchantment are now employed to interrupt it."
+  ],
+  "zh": [
+    "在一间由面包房改建的工坊里，曾经为儿童剧院制作木偶的匠人们，正接到一类意想不到的订单：企业伦理教育短片。客户既不要制作精美的动画，也不要让人安心的讲解员，而是要一眼就能看出手工痕迹的木偶；它们笨拙的动作，让一些令人难堪的情境变得可以公开讨论。工坊主人阿玛拉·森说，这类制作的订单如今已超过童话剧订单。",
+    "这种吸引力建立在一个看似矛盾的现象之上：虚幻的生命感，能够揭露人类那些一看便能认出的逃避行为。在一部作品中，一名木制收银员私吞了交由他保管的慈善募款，之后必须悔过。他没有发表一番宣言，而是归还钱款，并要求今后的募款接受独立核查。观众讨论的是：这些行动究竟体现了悔意，还是仅仅为了维护他的名声。",
+    "这样的场景需要精细得出人意料的制作。技师在玻璃眼珠下方涂上甘油来模拟泪水，再将用于关节周围的布拧去多余水分。学徒先要让一个儿童木偶蹒跚学步，之后才尝试表现一名疲惫职员开始打瞌睡的样子。每一次迟疑都会被记录下来；剪辑师可以从姿态序列中提取一个子序列，略去中间的一些姿态，同时保持原有顺序，以测试究竟少到什么程度的动作仍能传达意图。",
+    "森拒绝了隐藏所有牵线的要求，以免观众把戏剧性的说服手法误当作纪实证据。她认为，让操纵机制清晰可见，会促使人们审视，而非服从。目前尚无对照研究证实这些短片能减少不当行为，客户也得不到这样的保证。不过，持续追加的订单表明，这是一块能够长久立足的小众市场：从前受雇维系幻象的手艺人，如今却靠打破幻象谋生。"
+  ],
+  "q": [
+    {
+      "s": "Sen's first corporate commission came from a former theatre client.",
+      "a": "NG",
+      "why": "首段未说明首个企业订单来自谁。"
+    },
+    {
+      "s": "The cashier demonstrates his response to wrongdoing primarily through a formal address.",
+      "a": "F",
+      "why": "第二段说他没有演说，而是退款并要求核查。"
+    },
+    {
+      "s": "Clients are given no guarantee that the films will reduce misconduct.",
+      "a": "T",
+      "why": "末段明确说客户得不到减少不当行为的保证。"
+    }
+  ]
+}

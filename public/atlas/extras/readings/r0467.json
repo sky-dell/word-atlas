@@ -1,0 +1,48 @@
+{
+  "id": "r0467",
+  "ids": [
+    "carousel",
+    "qualified",
+    "rank",
+    "greatly",
+    "dictate",
+    "combat",
+    "reform",
+    "prescription",
+    "ownership",
+    "calculation"
+  ],
+  "title": "Balance Beyond the Ice",
+  "titleZh": "冰场之外的平衡训练",
+  "topic": "sport",
+  "cefr": 3,
+  "paras": [
+    "At a small skating club beside a seaside fairground, training sometimes begins on a [[carousel|carousel]]. Sitting on its painted horses, adult beginners turn their heads slowly while keeping their eyes on a fixed point. The exercise explores a challenge familiar to skaters: staying balanced when the world appears to move around them.",
+    "Balance depends on information from the eyes, inner ears and muscles. When these signals disagree, dizziness can [[greatly|greatly]] reduce confidence. A [[qualified|qualified]] physiotherapist, Amara Chen, supervises the club's experimental sessions to [[combat|combat]] this problem. Before each ride, participants describe their symptoms and [[dictate|dictate]] a brief entry for an assistant to record in a training diary. Anyone with persistent dizziness is referred for medical assessment; the ride is not a substitute for a [[prescription|prescription]] or other treatment.",
+    "The fairground remains under private [[ownership|ownership]], but its operator allows the club access before opening time. A simple [[calculation|calculation]] based on the ride's speed and duration helps the team keep exposure consistent. Each participant starts with two slow circuits, regardless of their competitive [[rank|rank]]. More experienced skaters are not necessarily less sensitive to rotation.",
+    "The club hopes to [[reform|reform]] its beginner programme by measuring comfort as well as technical progress. However, improvement on a wooden horse does not automatically mean better control on ice. The decisive test comes afterwards: whether a skater can turn, stop and step forward again without gripping the barrier."
+  ],
+  "zh": [
+    "在海边游乐场旁的一家小型滑冰俱乐部，训练有时从旋转木马上开始。成年初学者坐在彩绘木马上，缓缓转动头部，同时注视一个固定点。这项练习探索的是滑冰者熟悉的一项挑战：当周围的世界仿佛在移动时，如何保持平衡。",
+    "平衡依赖眼睛、内耳和肌肉传来的信息。当这些信号不一致时，眩晕可能大大削弱人的信心。具备专业资质的物理治疗师阿玛拉·陈负责指导俱乐部的试验性训练，以应对这一问题。每次乘坐前，参与者都会描述自己的症状，并口述一段简短的内容，由助手记入训练日记。持续眩晕的人会被转介接受医学评估；乘坐旋转木马不能替代处方药或其他治疗。",
+    "游乐场仍归私人所有，但经营者允许俱乐部在营业前使用设施。团队根据旋转木马的速度和乘坐时长进行简单计算，以保持每次训练量一致。每位参与者都从缓慢转两圈开始，不论其竞技排名如何。经验更丰富的滑冰者未必对旋转更不敏感。",
+    "俱乐部希望通过同时评估舒适程度和技术进步，改进初学者训练方案。不过，在木马上有所改善，并不自动意味着在冰上能控制得更好。决定性的检验在之后才会到来：滑冰者能否不紧抓护栏，完成转弯、停步，然后再次向前迈步。"
+  ],
+  "q": [
+    {
+      "s": "Amara Chen has worked with the skating club for five years.",
+      "a": "NG",
+      "why": "文章未说明她在俱乐部工作的时长。"
+    },
+    {
+      "s": "The operator lets the club use the fairground before it opens.",
+      "a": "T",
+      "why": "经营者允许俱乐部在营业前使用设施。"
+    },
+    {
+      "s": "Improvement on the carousel necessarily means better control on the ice.",
+      "a": "F",
+      "why": "文中明确说木马上进步不自动意味着冰上控制更好。"
+    }
+  ]
+}

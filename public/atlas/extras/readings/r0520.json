@@ -1,0 +1,48 @@
+{
+  "id": "r0520",
+  "ids": [
+    "feminine",
+    "debt",
+    "diplomat",
+    "lever",
+    "crust",
+    "outline",
+    "caption",
+    "plunge",
+    "systematic",
+    "archery"
+  ],
+  "title": "Objects That Changed Their Minds",
+  "titleZh": "让人改变看法的物件",
+  "topic": "thinking",
+  "cefr": 3,
+  "paras": [
+    "At a village reading room, retired baker Mina Rao organised a small exhibition about mistaken assumptions. Twelve neighbours each lent an ordinary object and wrote an [[outline|outline]] of its history. Visitors first guessed what each object revealed about its owner, then lifted a card to discover the story beneath.",
+    "The most surprising contribution was a pink glove with delicate stitching. Its apparently [[feminine|feminine]] style led many visitors to imagine a wealthy woman's wardrobe. In fact, it belonged to Tomas, a retired [[diplomat|diplomat]] who had represented his country abroad. He wore it for [[archery|archery]] because it protected his fingers. A photograph showed him wearing it; the [[caption|caption]] explained that his sister had made it from leftover leather.",
+    "Mina contributed a photograph of a metal [[lever|lever]] from her first dough mixer, beside a loaf with a dark [[crust|crust]]. Several visitors assumed she had paid for the machine entirely from savings. Her account instead described the [[debt|debt]] she had taken on to buy it and the slow process of repaying the loan. During a demonstration, she invited a volunteer to [[plunge|plunge]] his hands into sticky dough, showing why mechanical help had mattered.",
+    "The team took a [[systematic|systematic]] approach to recording responses: each visitor completed the same short form before and after reading the cards. By closing day, most were offering several possible explanations rather than one confident guess. The exhibition raised little money, but the reading room kept its central rule: ask about an object's history before deciding what it means."
+  ],
+  "zh": [
+    "在村里的阅览室，退休面包师米娜·拉奥组织了一场关于错误推断的小型展览。十二位邻居各借出一件日常物品，并写下它的简要经历。参观者先猜测每件物品透露了主人的哪些信息，再掀起卡片，了解藏在下面的故事。",
+    "最令人意外的展品是一只缝线精细的粉色手套。它看起来颇具女性气质，许多参观者因此联想到一位富有女士的衣橱。实际上，它属于退休外交官托马斯，他曾在国外代表自己的国家工作。他射箭时戴这只手套，因为它能保护手指。一张照片展示了他戴着手套的样子；图片说明解释道，这是他的姐妹用剩余皮料为他制作的。",
+    "米娜提供了一张照片，拍的是她第一台和面机上的金属操纵杆，旁边放着一个表皮颜色较深的面包。几位参观者以为，她完全用积蓄支付了购机费用。然而，她讲述的却是自己为购买机器而背上的债务，以及慢慢偿还贷款的过程。在一次演示中，她请一位志愿者将双手猛地插进黏稠的面团，让大家明白机械辅助为何如此重要。",
+    "团队采用有条理的方法记录反馈：每位参观者在阅读卡片前后，都填写同一份简短表格。到展览结束时，大多数人不再只给出一个信心十足的判断，而是提出几种可能的解释。展览筹到的钱不多，但阅览室保留了它的核心原则：在判断一件物品意味着什么之前，先问问它的经历。"
+  ],
+  "q": [
+    {
+      "s": "Visitors read each object's history before making their first guess about its owner.",
+      "a": "F",
+      "why": "参观者先猜测，再掀卡片了解故事。"
+    },
+    {
+      "s": "Mina borrowed the money for her mixer from a relative.",
+      "a": "NG",
+      "why": "文章提到购机欠款，未说明向谁借钱。"
+    },
+    {
+      "s": "Visitors completed the same form before and after reading the cards.",
+      "a": "T",
+      "why": "末段说明阅读卡片前后填写同一份表格。"
+    }
+  ]
+}

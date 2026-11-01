@@ -1,0 +1,48 @@
+{
+  "id": "r0346",
+  "ids": [
+    "angle",
+    "occasionally",
+    "persuasive",
+    "pointless",
+    "tighten",
+    "critical",
+    "calf",
+    "uneven",
+    "hesitation",
+    "taxpayer"
+  ],
+  "title": "Building a Calf for the Museum",
+  "titleZh": "为博物馆制作小牛模型",
+  "topic": "work",
+  "cefr": 3,
+  "paras": [
+    "At a rural history museum, model maker Leila is building a life-sized [[calf|calf]] for a display about dairy farming. Before work begins, she presents a small clay version to the museum director. It provides [[persuasive|persuasive]] evidence that the finished animal will look convincing. Since [[taxpayer|taxpayers]] support the museum, the director also requires a clear account of material costs.",
+    "Leila first studies photographs and measurements supplied by a nearby farm. The [[angle|angle]] between each leg and the body is [[critical|critical]]: even a slight error can make the animal appear unstable. She bends steel rods into a supporting frame, then uses a spanner to [[tighten|tighten]] the bolts securing it to a wooden base. Without this internal support, adding detailed surface features would be [[pointless|pointless]].",
+    "Next, blocks of firm foam are attached to the frame and carved into shape. Leila [[occasionally|occasionally]] steps back to compare the outline with her photographs. Any [[uneven|uneven]] areas are sanded before a thin layer of modelling paste is applied. There is a moment of [[hesitation|hesitation]] before she cuts the ears from flexible rubber; their position will strongly influence the animal's expression.",
+    "Finally, she presses short artificial hairs into adhesive spread across the surface, working in the direction of natural hair growth. Dark glass eyes and a softly painted nose complete the model. Once installed beside an old milking stool, it helps visitors imagine the working farm that once occupied the site."
+  ],
+  "zh": [
+    "在一座乡村历史博物馆里，模型制作师莱拉正在为介绍奶牛养殖的展览制作一只与实物等大的小牛。开工前，她先向馆长展示一个小型黏土模型，有力地证明成品能够呈现逼真的效果。由于博物馆由纳税人资助，馆长还要求她提供清晰的材料费用明细。",
+    "莱拉首先研究附近一家农场提供的照片和测量数据。每条腿与身体之间的角度至关重要：即使略有偏差，也可能让小牛看起来站立不稳。她将钢条弯成支撑框架，再用扳手拧紧将框架固定在木质底座上的螺栓。没有这种内部支撑，增添细致的表面特征也毫无意义。",
+    "接下来，她把硬质泡沫块固定在框架上，并雕刻成形。莱拉偶尔会后退几步，将模型的轮廓与照片进行比较。涂上一层薄薄的塑形膏之前，她会把所有不平整的地方打磨光滑。在用柔性橡胶裁出耳朵之前，她犹豫了片刻；耳朵的位置将明显影响小牛的神态。",
+    "最后，她在模型表面涂上黏合剂，顺着毛发自然生长的方向，将短短的人造毛压入其中。深色玻璃眼睛和色彩柔和的鼻子让模型最终成形。模型被安放在一张旧挤奶凳旁，帮助参观者想象这片场地曾经作为农场时的劳作景象。"
+  ],
+  "q": [
+    {
+      "s": "The director tells Leila that no account of material costs is required.",
+      "a": "F",
+      "why": "首段明确说馆长要求提供材料费用明细。"
+    },
+    {
+      "s": "Leila took the photographs supplied by the nearby farm.",
+      "a": "NG",
+      "why": "文章只说农场提供照片，未说明拍摄者。"
+    },
+    {
+      "s": "The completed calf is placed beside an old milking stool.",
+      "a": "T",
+      "why": "末段说明模型安放在旧挤奶凳旁。"
+    }
+  ]
+}

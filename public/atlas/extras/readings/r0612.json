@@ -1,0 +1,48 @@
+{
+  "id": "r0612",
+  "ids": [
+    "leafy",
+    "prosperity",
+    "metallic",
+    "lavish",
+    "versatile",
+    "awaken",
+    "paralysis",
+    "invigilate",
+    "exorbitant",
+    "abrupt"
+  ],
+  "title": "The Quiet Mechanics of Returning to Work",
+  "titleZh": "重返岗位背后的无声机械",
+  "topic": "work",
+  "cefr": 4,
+  "paras": [
+    "Behind a [[leafy|leafy]] courtyard, a small rehabilitation workshop measures [[prosperity|prosperity]] differently: by how many people regain a reliable income. Its latest client, former examination supervisor Amara Okeke, experienced an [[abrupt|abrupt]] interruption to her career after a spinal injury caused [[paralysis|paralysis]] in her legs. She wanted to [[invigilate|invigilate]] again, but the examination hall presented obstacles that determination alone could not remove.",
+    "The workshop's response was neither a [[lavish|lavish]] redesign nor an experimental cure. Engineers fitted her wheelchair with a [[versatile|versatile]] attachment: a narrow tray that could hold papers, support a tablet, or fold vertically beside her seat. A lightweight [[metallic|metallic]] frame carried the load without making the chair too wide for the aisles between desks.",
+    "Such adjustments depend on observing work rather than merely diagnosing disability. During a simulated examination, occupational therapist Mateo Silva noticed that retrieving dropped documents was harder than distributing them. Commercial gripping devices carried [[exorbitant|exorbitant]] prices, so the team adapted a simple mechanical grabber. They also replaced a harsh reminder alarm, loud enough to [[awaken|awaken]] a sleeping colleague, with a discreet vibrating wristband.",
+    "The final trial revealed an important distinction: equipment could extend Amara's reach, but workplace routines also needed revision. Papers were therefore stored at seated height, and another supervisor handled the highest shelves. No single invention restored her former working life unchanged. Instead, several modest alterations made the essential tasks manageable—a reminder that returning to work is often a problem of practical design, not personal resolve."
+  ],
+  "zh": [
+    "在一处绿树成荫的庭院后面，一家小型康复工作坊用不同的标准衡量富足：有多少人重新获得了稳定收入。最近前来求助的阿玛拉·奥凯克曾是一名监考员，脊柱损伤导致双腿瘫痪，使她的职业生涯骤然中断。她希望再次从事监考工作，但考场中存在一些仅凭决心无法消除的障碍。",
+    "工作坊的应对方案既不是奢华的改造，也不是试验性的治疗。工程师为她的轮椅装上了一件多用途配件：一个窄托盘，既能放试卷、支撑平板电脑，也能竖直折叠在座椅旁。轻巧的金属框架承托着重量，同时不会让轮椅宽到无法通过课桌之间的走道。",
+    "这类调整依赖于对工作过程的观察，而不只是对身体障碍的诊断。在一次模拟考试中，作业治疗师马特奥·席尔瓦注意到，捡起掉落的文件比分发文件更困难。市售抓取辅助器具价格高得离谱，因此团队改装了一件简单的机械取物夹。他们还撤掉了刺耳的提醒闹铃——其音量足以吵醒睡着的同事——换成不引人注意的振动腕带。",
+    "最终试用揭示了一个重要区别：设备可以扩大阿玛拉伸手可及的范围，但工作流程也需要调整。因此，试卷被存放在坐姿下能够拿到的高度，最高处架子上的物品则交由另一名监考员处理。没有任何一项发明能让她原封不动地恢复从前的工作生活。相反，是几处小改动让关键任务变得可以完成。这提醒我们，重返岗位往往是实际设计问题，而非个人意志问题。"
+  ],
+  "q": [
+    {
+      "s": "Amara received rehabilitation treatment at the workshop before asking for help with her job.",
+      "a": "NG",
+      "why": "首段未说明她此前是否在此接受康复治疗。"
+    },
+    {
+      "s": "The tray attached to Amara's wheelchair could not be folded.",
+      "a": "F",
+      "why": "第二段明确说托盘可以竖直折叠。"
+    },
+    {
+      "s": "Changes to workplace routines were needed alongside the new equipment.",
+      "a": "T",
+      "why": "末段明确指出工作流程也需要调整。"
+    }
+  ]
+}

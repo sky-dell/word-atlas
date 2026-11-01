@@ -1,0 +1,48 @@
+{
+  "id": "r0546",
+  "ids": [
+    "meticulously",
+    "spherical",
+    "specification",
+    "acute",
+    "ventilate",
+    "microcosm",
+    "retrospect",
+    "facilitate",
+    "recur",
+    "overthrow"
+  ],
+  "title": "The Moss Beneath the Glass",
+  "titleZh": "玻璃罩下的苔藓",
+  "topic": "nature",
+  "cefr": 4,
+  "paras": [
+    "In the spring before a rebellion would [[overthrow|overthrow]] the king of Ordan, palace gardener Mira Sen began an experiment with woodland moss. Collectors reported [[acute|acute]] losses whenever specimens were transported in sealed containers. Sen suspected that the very glass intended to protect these plants was creating conditions in which disease could flourish.",
+    "She commissioned twelve [[spherical|spherical]] glass vessels, each made to a single [[specification|specification]]: thirty centimetres across, with a removable lid and two adjustable openings. After [[meticulously|meticulously]] weighing equal portions of soil and moss, she placed the vessels along a shaded bench. Six remained sealed; the others were opened briefly each morning to [[ventilate|ventilate]] their interiors. All received identical quantities of water.",
+    "Each vessel constituted a [[microcosm|microcosm]] of the forest floor, although it lacked the woodland's insects and seasonal fluctuations. Within eighteen days, pale fungal threads covered much of the moss in five sealed vessels. Only one ventilated vessel developed comparable growth. Sen repeated the trial with fresh material to establish whether the pattern would [[recur|recur]]; it did, despite cooler weather during the second trial.",
+    "The rebellion interrupted further work, but Sen carried her notebook to a provincial nursery. In [[retrospect|retrospect]], she recognised that ventilation might [[facilitate|facilitate]] healthy growth without directly suppressing fungi: reduced surface moisture could be the crucial mechanism. Her experiment had not separated these possibilities. Nevertheless, the nursery adopted adjustable lids, replacing the assumption that protecting a woodland plant meant isolating it completely from moving air."
+  ],
+  "zh": [
+    "奥尔丹国王被一场叛乱推翻之前的那个春天，宫廷园丁米拉·森开始了一项关于林地苔藓的实验。采集者反映，每当用密封容器运输标本时，损失都十分惨重。森怀疑，原本用于保护这些植物的玻璃，恰恰创造了有利于病害滋生的环境。",
+    "她委托工匠制作了十二个球形玻璃容器，全部遵循同一套规格：直径三十厘米，配有可拆卸的盖子和两个可调节的开口。她一丝不苟地称取等量的土壤和苔藓，装入容器后，将它们沿一张背阴的长凳摆放。其中六个始终密封，其余则每天早晨短暂打开，让内部空气流通。所有容器的浇水量完全相同。",
+    "每个容器都构成了森林地表的一个微型世界，尽管其中没有林地里的昆虫，也不存在季节性变化。十八天内，五个密封容器中的苔藓大部分被浅色菌丝覆盖，而通风容器中只有一个出现了类似程度的真菌生长。森用新材料重复实验，以确定这一规律是否会再次出现；尽管第二轮实验期间天气更凉，这一规律仍然重现了。",
+    "叛乱打断了后续研究，但森带着笔记本来到了一家外省苗圃。回顾实验时，她意识到，通风或许并非直接抑制真菌，而是通过其他方式促进植物健康生长：减少表面水分可能才是关键机制。她的实验尚未区分这些可能性。不过，苗圃还是采用了可调节的容器盖，不再认为保护林地植物就意味着让它们与流动的空气完全隔绝。"
+  ],
+  "q": [
+    {
+      "s": "Sen paid for the twelve glass vessels herself.",
+      "a": "NG",
+      "why": "只说明她委托制作容器，未说明谁付费。"
+    },
+    {
+      "s": "The cooler conditions in the second trial prevented the earlier pattern from appearing again.",
+      "a": "F",
+      "why": "第三段说天气更凉，但规律仍然重现。"
+    },
+    {
+      "s": "The provincial nursery adopted adjustable lids.",
+      "a": "T",
+      "why": "末段明确说明苗圃采用了可调节的盖子。"
+    }
+  ]
+}

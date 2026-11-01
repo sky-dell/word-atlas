@@ -1,0 +1,48 @@
+{
+  "id": "r0493",
+  "ids": [
+    "courtyard",
+    "grammatical",
+    "collide",
+    "merchandise",
+    "edible",
+    "disrupt",
+    "instance",
+    "threatened",
+    "howl",
+    "satisfactory"
+  ],
+  "title": "When Shopping Had a Soundtrack",
+  "titleZh": "买东西也有背景声的年代",
+  "topic": "daily",
+  "cefr": 3,
+  "paras": [
+    "Before fixed-price shops became common, street sellers brought everyday shopping to the doorstep. In European cities, their cries announced bread, fish and other [[merchandise|merchandise]]. A seller might enter a shared [[courtyard|courtyard]], where one shout could reach several households. These calls saved customers a journey and helped sellers attract attention without paying for a permanent shop.",
+    "By the seventeenth century, printed pictures of street traders often included their familiar calls. The language was brief rather than complete: [[grammatical|grammatical]] rules mattered less than a clear rhythm and a recognisable product name. For [[instance|instance]], a fish seller could repeat the name of a fresh catch, stretching its vowels into a tune. Claims that goods were fresh or [[edible|edible]], however, were not guarantees of quality.",
+    "Selling by voice required skill. Carts could [[collide|collide]] in narrow streets, while wind might [[howl|howl]] between buildings and drown out a carefully practised call. Heavy rain could [[disrupt|disrupt]] trade altogether. Sellers also needed to judge their audience: a cry loud enough for an open square was not necessarily [[satisfactory|satisfactory]] beneath a bedroom window.",
+    "During the nineteenth and twentieth centuries, expanding shop networks and restrictions on street noise changed this soundscape. As familiar calls became less common, musicians and collectors began treating them as a [[threatened|threatened]] part of urban culture. Written music and, later, sound recordings preserved some examples. What had once been an ordinary invitation to buy became evidence of how a city had listened."
+  ],
+  "zh": [
+    "在明码标价的商店普及之前，街头小贩把日常购物带到了人们家门口。在欧洲城市，他们通过叫卖声推销面包、鱼和其他商品。小贩可能走进一个共用的庭院，在那里，一声吆喝就能让好几户人家听见。这些叫卖声让顾客少跑一趟，也让小贩不必花钱租用固定店面就能吸引注意。",
+    "到了十七世纪，描绘街头商贩的印刷图画常常会配上人们熟悉的叫卖词。这些话简短而非完整：比起语法规则，清晰的节奏和容易辨认的商品名称更重要。例如，鱼贩可以反复喊出刚捕到的鱼的名字，把元音拖长，形成曲调。然而，声称商品新鲜或可以食用，并不等于保证了质量。",
+    "靠声音做买卖需要技巧。手推车可能在狭窄的街道上相撞，风也可能在楼房之间呼啸，淹没精心练习过的叫卖声。大雨甚至会让生意完全中断。小贩还需要判断听众的情况：在开阔广场上足够响亮的叫卖声，到了卧室窗下就未必合适了。",
+    "十九至二十世纪，不断扩大的商店网络和对街头噪声的限制改变了这片城市声景。随着熟悉的叫卖声越来越少，音乐家和收集者开始将其视为城市文化中面临消失威胁的一部分。乐谱以及后来出现的录音保存了其中一些声音。曾经寻常的购物邀请，就这样成了了解一座城市昔日听觉生活的证据。"
+  ],
+  "q": [
+    {
+      "s": "Calling out in a shared residential space allowed a trader to advertise to several homes at once.",
+      "a": "T",
+      "why": "首段指出，庭院里一声吆喝可传到几户人家。"
+    },
+    {
+      "s": "Street sellers valued correct sentence structure more than the rhythm of their calls.",
+      "a": "F",
+      "why": "第二段指出，语法不如清晰的节奏重要。"
+    },
+    {
+      "s": "Collectors paid street sellers to make sound recordings of their calls.",
+      "a": "NG",
+      "why": "末段提到录音保存叫卖声，未提及付费。"
+    }
+  ]
+}

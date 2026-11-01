@@ -1,0 +1,48 @@
+{
+  "id": "r0468",
+  "ids": [
+    "carriage",
+    "ecosystem",
+    "declare",
+    "vivid",
+    "fraud",
+    "faulty",
+    "burrow",
+    "protective",
+    "thickness",
+    "data"
+  ],
+  "title": "What a Burrow Can Teach Builders",
+  "titleZh": "地洞给建筑师的启示",
+  "topic": "science",
+  "cefr": 3,
+  "paras": [
+    "On a disused railway line, an old passenger [[carriage|carriage]] has become an unusual laboratory. Inside, researcher Amara Sen studies how a rabbit's [[burrow|burrow]] stays cool beneath sun-baked ground. Her team hopes that understanding this natural shelter could improve buildings without disturbing the grassland [[ecosystem|ecosystem]] outside. Rather than opening occupied tunnels, they build artificial ones beside the laboratory.",
+    "Each model has a different roof [[thickness|thickness]], ranging from ten to fifty centimetres of soil. Sensors record temperatures above and below ground, while a [[protective|protective]] cover keeps rain away from the electrical equipment. On a computer screen, [[vivid|vivid]] orange and purple bands reveal the contrast between hot surfaces and cooler spaces underneath. The team also measures moisture, since wet soil transfers heat differently from dry soil.",
+    "During an early trial, one shallow tunnel appeared cooler than every deeper model. The result seemed to support a supplier's claim that its special soil mixture provided exceptional insulation. However, Sen would not [[declare|declare]] the product effective on the strength of one reading. Nor would an unsuccessful test alone prove [[fraud|fraud]]: deliberate deception and poor performance are not the same thing.",
+    "Repeated measurements eventually exposed a [[faulty|faulty]] sensor. Once it was replaced, the [[data|data]] showed a more ordinary pattern: deeper soil reduced daytime temperature swings. The finding was less dramatic than the original result, but more useful. For builders seeking reliable ways to limit summer heat, a carefully measured rabbit shelter may offer better guidance than an exciting sales claim."
+  ],
+  "zh": [
+    "在一条废弃的铁路线上，一节旧客车厢变成了一间不同寻常的实验室。研究员阿玛拉·森在里面研究兔子的地洞如何在被太阳晒热的地面下保持凉爽。她的团队希望，通过了解这种天然庇护所，在不干扰外面草地生态系统的前提下改进建筑。他们没有挖开仍有动物居住的地道，而是在实验室旁建造人工地道。",
+    "每个模型上方的覆土厚度各不相同，从十厘米到五十厘米不等。传感器记录地上和地下的温度，防护罩则让电气设备免受雨淋。电脑屏幕上，鲜艳的橙色和紫色条带显示出炎热地表与下方凉爽空间的温差。团队还测量土壤湿度，因为湿土与干土的传热方式不同。",
+    "在早期的一次试验中，一条较浅地道的温度似乎比所有更深的模型都低。这个结果看起来支持了某家供应商的说法：其特殊土壤混合物具有出色的隔热性能。然而，森不会仅凭一次读数就宣布该产品有效。同样，一次失败的测试本身也不足以证明存在欺诈：蓄意欺骗和性能不佳并不是一回事。",
+    "反复测量最终发现，一个传感器出了故障。更换之后，数据显示出一种更常见的规律：更深的覆土能减小白天的温度波动。这一发现没有最初的结果那么引人注目，却更加实用。对于寻找可靠方法来缓解夏季炎热的建筑师而言，对兔子地洞的细致测量，或许比令人心动的销售宣传更有指导价值。"
+  ],
+  "q": [
+    {
+      "s": "The team spent a month building the artificial tunnels.",
+      "a": "NG",
+      "why": "文章未说明建造人工地道用了多久。"
+    },
+    {
+      "s": "Sen accepted a single temperature measurement as sufficient evidence of the product's effectiveness.",
+      "a": "F",
+      "why": "森不愿仅凭一次读数宣布产品有效。"
+    },
+    {
+      "s": "After the sensor was replaced, the measurements showed smaller daytime temperature swings beneath deeper soil.",
+      "a": "T",
+      "why": "更换传感器后，数据显示覆土更深时日间温度波动更小。"
+    }
+  ]
+}

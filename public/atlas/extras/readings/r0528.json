@@ -1,0 +1,48 @@
+{
+  "id": "r0528",
+  "ids": [
+    "homeless",
+    "feedback",
+    "startle",
+    "repay",
+    "grief",
+    "literal",
+    "clarify",
+    "collaboration",
+    "rifle",
+    "outsider"
+  ],
+  "title": "Laughter Between the Lines",
+  "titleZh": "字里行间的笑声",
+  "topic": "history",
+  "cefr": 3,
+  "paras": [
+    "During the First World War, soldiers produced small newspapers close to the fighting. Some were handwritten; others were printed on equipment found in damaged towns. A [[rifle|rifle]] might stand beside a printing machine, an unusual reminder that the men preparing jokes and poems were also expected to fight.",
+    "Making a paper required [[collaboration|collaboration]] among writers, artists and anyone who understood printing. Supplies were limited, so editors sometimes charged a small price to cover paper and ink. Where money had been borrowed, sales could help [[repay|repay]] the debt. Readers offered [[feedback|feedback]] in letters or conversation, encouraging editors to repeat popular features and abandon unsuccessful ones.",
+    "To an [[outsider|outsider]], the humour could seem strangely cheerful. Yet these papers circulated among men living with fear and [[grief|grief]] for dead companions. Their pages might also mention civilians left [[homeless|homeless]] by shelling. A sudden explosion could [[startle|startle]] a writer in the middle of a comic sentence. Humour did not remove suffering; it gave soldiers a way to speak about experiences that ordinary language struggled to express.",
+    "Editors often used irony, praising conditions that were actually miserable. A [[literal|literal]] reading could therefore mistake a complaint for a compliment. Historians must [[clarify|clarify]] references to military routines or familiar officers before modern readers can understand the joke. These fragile newspapers survive as more than curiosities: they preserve the voices of people who briefly turned the machinery of war into a source of shared laughter."
+  ],
+  "zh": [
+    "第一次世界大战期间，士兵们在靠近战场的地方制作小报。有些是手写的，有些则利用在遭到破坏的城镇中找到的设备印刷。印刷机旁可能就立着一支步枪，这种不寻常的景象提醒人们：这些编写笑话和诗歌的人，也需要上阵作战。",
+    "办报需要作者、画手以及懂印刷的人通力合作。物资有限，因此编辑有时会收取少量费用，用来支付纸张和油墨的开销。如果借过钱，卖报的收入也可以帮助偿还债务。读者通过书信或交谈提出意见，促使编辑保留受欢迎的栏目，放弃效果不佳的内容。",
+    "在局外人看来，这些幽默文字可能显得异常欢快。然而，阅读这些报纸的士兵既生活在恐惧之中，也承受着失去战友的悲痛。报纸还可能提到因炮击而无家可归的平民。写作者写到一个诙谐句子的中途，可能就会被突如其来的爆炸吓一跳。幽默无法消除苦难，却让士兵能够谈论那些普通语言难以表达的经历。",
+    "编辑经常运用反讽，赞美实际上十分糟糕的处境。因此，只看字面意思，就可能把抱怨误当成称赞。历史学家必须解释清楚文中提到的军队日常事务或当时大家熟悉的军官，现代读者才能理解笑点。这些脆弱的报纸留存至今，已不只是新奇的旧物：它们保存了这样一群人的声音——他们曾短暂地把战争机器转化为共同欢笑的源泉。"
+  ],
+  "q": [
+    {
+      "s": "Most of the soldiers' newspapers were handwritten.",
+      "a": "NG",
+      "why": "只说有些是手写的，未说明所占比例。"
+    },
+    {
+      "s": "Readers’ suggestions had no influence on which features editors retained.",
+      "a": "F",
+      "why": "第二段说读者意见促使编辑保留热门栏目。"
+    },
+    {
+      "s": "Reading the papers literally could lead readers to mistake criticism for praise.",
+      "a": "T",
+      "why": "末段说按字面理解可能把抱怨误当称赞。"
+    }
+  ]
+}

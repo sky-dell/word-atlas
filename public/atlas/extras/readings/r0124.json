@@ -1,0 +1,46 @@
+{
+  "id": "r0124",
+  "ids": [
+    "professor",
+    "headphone",
+    "improve",
+    "cotton",
+    "relationship",
+    "plus",
+    "jazz",
+    "kilogramme",
+    "onion",
+    "storm"
+  ],
+  "title": "Music at the Onion Stall",
+  "titleZh": "洋葱摊上的音乐实验",
+  "topic": "city",
+  "cefr": 1,
+  "paras": [
+    "Mina sold vegetables at a small city market. Her brother Ravi helped, but they often spoke angrily during busy hours. A [[professor|professor]] who lived nearby asked to try an experiment. Could quiet music [[improve|improve]] the [[relationship|relationship]] between them at work? Mina agreed to test the idea for six mornings. They chose the same hours each day, from eight until eleven.",
+    "For three mornings, they worked without music. For the next three, they listened to soft [[jazz|jazz]]. Each wore a headset with only the left [[headphone|headphone]] over one ear, so they could still hear customers. Mina put some soft [[cotton|cotton]] under the headband because it hurt her head. The researcher sat nearby and counted angry words. She also counted helpful actions, such as carrying a heavy bag together. During every test, one [[kilogramme|kilogramme]] of potatoes [[plus|plus]] one large [[onion|onion]] cost two coins.",
+    "On the music days, the pair used fewer angry words and helped each other more. However, a [[storm|storm]] kept many customers away on two of those mornings. Perhaps less work, not music, made them kinder. The researcher planned another test. Mina smiled: the music had not proved anything yet, but she and Ravi now noticed when they were kind."
+  ],
+  "zh": [
+    "米娜在城里一个小市场卖蔬菜。她的兄弟拉维帮她干活，但忙碌时，两人说话常常带着火气。一位住在附近的教授提出做个实验。轻柔的音乐能改善他们工作时的关系吗？米娜同意用六个上午来试一试。他们每天都选在同一个时段，从八点到十一点。",
+    "前三个上午，他们工作时不听音乐。接下来的三个上午，他们听轻柔的爵士乐。两人都戴着头戴式耳机，但只把左边的听筒放在一只耳朵上，这样仍能听见顾客说话。米娜在耳机头带下面垫了一些柔软的棉花，因为头带压得她头疼。研究人员坐在附近，记录他们说气话的次数。她也记录互相帮忙的行为，比如一起搬一个沉重的袋子。每次测试期间，一公斤土豆加一个大洋葱都卖两枚硬币。",
+    "听音乐的日子里，两人说的气话更少，互相帮忙的次数也更多。不过，其中两个上午，一场暴风雨让许多顾客没有来市场。也许让他们更友善的是工作少了，而不是音乐。研究人员计划再做一次测试。米娜笑了：音乐的效果还没有得到证明，但她和拉维现在会留意彼此友善的举动了。"
+  ],
+  "q": [
+    {
+      "s": "Mina agreed to test the idea for six weeks.",
+      "a": "F",
+      "why": "她同意试六个上午，而不是六周。"
+    },
+    {
+      "s": "Ravi chose the jazz music for the test.",
+      "a": "NG",
+      "why": "文中未说明爵士乐由谁挑选。"
+    },
+    {
+      "s": "There were fewer angry words on the music days.",
+      "a": "T",
+      "why": "文中明确说听音乐时气话更少。"
+    }
+  ]
+}

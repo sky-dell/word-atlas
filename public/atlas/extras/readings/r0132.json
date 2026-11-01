@@ -1,0 +1,46 @@
+{
+  "id": "r0132",
+  "ids": [
+    "app",
+    "lip",
+    "tourism",
+    "kangaroo",
+    "journey",
+    "handbag",
+    "cherry",
+    "heavy",
+    "postman",
+    "chat"
+  ],
+  "title": "A Bag Ready for Another Journey",
+  "titleZh": "修好手袋，再次出发",
+  "topic": "daily",
+  "cefr": 1,
+  "paras": [
+    "Mina Costa repairs bags in a small Australian town. Her shop is beside a fruit stall, and she often eats a [[cherry|cherry]] before starting work. She uses an [[app|app]] to record each repair and its price. Many customers are visitors, so [[tourism|tourism]] brings her useful work. But her favourite jobs come from people who have loved the same bag for years.",
+    "One Tuesday, the [[postman|postman]] brought a box from a farm outside town. Inside was a brown [[handbag|handbag]] with a broken handle. Its owner, Rose, needed it for a train [[journey|journey]] to see her sister. Mina lifted it carefully. It was not [[heavy|heavy]], but the old leather felt dry. She pressed her [[lip|lips]] together as she studied the damage. Then she chose a soft piece of leather for a new handle.",
+    "That afternoon, Rose came to the shop. While Mina finished, they [[chat|chatted]] about life on the farm. Rose described a [[kangaroo|kangaroo]] that sometimes rested near her kitchen window. She also explained that the bag had belonged to her mother. Mina kept the old handle and put it inside the repaired bag. Rose smiled when she saw it. The bag was ready to travel, with a small piece of its past still inside."
+  ],
+  "zh": [
+    "米娜·科斯塔在澳大利亚的一个小镇上修包。她的店在一个水果摊旁边，开工前她常常吃一颗樱桃。她用一个应用程序记录每次维修及其价格。许多顾客是游客，因此旅游业为她带来了不少活儿。不过，她最喜欢接的活儿，是修理那些被主人珍爱了多年的包。",
+    "一个星期二，男邮递员送来了一个箱子，寄自镇外的一座农场。里面是一只棕色手提包，提手断了。包的主人露丝要坐火车去看她的姐妹，需要带上它。米娜小心地拿起包。它并不重，但旧皮革摸起来很干。她抿着嘴唇，仔细查看破损的地方。随后，她选了一块柔软的皮革来做新提手。",
+    "那天下午，露丝来到店里。米娜一边做最后的修整，一边和她聊农场生活。露丝说，有一只袋鼠有时会在她的厨房窗边休息。她还解释说，这个包以前是她母亲的。米娜留下了旧提手，把它放进修好的包里。露丝看到后笑了。包已经可以陪她出发了，里面还留着一小片过去的时光。"
+  ],
+  "q": [
+    {
+      "s": "Mina pays every month to use the app.",
+      "a": "NG",
+      "why": "只说明应用程序的用途，未说明收费情况。"
+    },
+    {
+      "s": "Rose's bag was heavy when Mina lifted it.",
+      "a": "F",
+      "why": "第二段明确说这个包并不重。"
+    },
+    {
+      "s": "Mina put the old handle inside the repaired bag.",
+      "a": "T",
+      "why": "第三段明确说她把旧提手放进修好的包里。"
+    }
+  ]
+}

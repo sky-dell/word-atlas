@@ -1,0 +1,48 @@
+{
+  "id": "r0565",
+  "ids": [
+    "shun",
+    "nomination",
+    "insofar",
+    "molest",
+    "subdivide",
+    "mutation",
+    "disentangle",
+    "indignant",
+    "deficient",
+    "finicky"
+  ],
+  "title": "From Seed Envelopes to Living Archives",
+  "titleZh": "从种子信封到活体档案",
+  "topic": "nature",
+  "cefr": 4,
+  "paras": [
+    "Long before refrigerated seed banks, gardeners preserved unusual plants by exchanging seeds through the post. Botanical societies made this practice more systematic: collectors dried seeds, labelled envelopes and circulated lists. A packet could travel from a mountain valley to a sheltered courtyard hundreds of miles away.",
+    "Successful exchange required more than generosity. Organisers had to [[subdivide|subdivide]] collections by species and origin, while recipients learned to [[disentangle|disentangle]] roots when crowded seedlings were transplanted. Some plants were notoriously [[finicky|finicky]], flourishing only in cool gravel or soil [[deficient|deficient]] in nutrients. Growers therefore enclosed cultivation notes, useful [[insofar|insofar]] as conditions in the receiving garden resembled their own.",
+    "Collecting also raised questions about conduct. Imagine a society whose rules forbid collectors to [[molest|molest]] nesting birds while gathering seeds. A collector who ignores this restriction might keep excellent records, yet still find their [[nomination|nomination]] for committee membership rejected. They might feel [[indignant|indignant]] and choose to [[shun|shun]] the club, but their departure would leave a practical problem: whether to retain their valuable notes while refusing further contributions. An archive could preserve useful information without endorsing its collector's behaviour.",
+    "Meanwhile, genetics changed the interpretation of unusual specimens. A strangely coloured flower might reflect a [[mutation|mutation]], rather than different growing conditions; preserving its seeds did not necessarily preserve its distinctive appearance. Exchanges consequently became exercises in documentation as well as distribution. The envelope's handwritten contents offered not simply cultivation instructions, but evidence of how particular plants had travelled between gardens."
+  ],
+  "zh": [
+    "早在冷藏种子库出现之前，园艺爱好者就通过邮寄交换种子，保存不常见的植物。植物学会使这一做法更加系统化：采集者将种子晾干，给信封贴上标签，并传阅目录。一包种子可以从山谷出发，抵达数百英里外一处避风的庭院。",
+    "成功的交换并非仅凭慷慨就能实现。组织者必须按物种和来源细分种子收藏，接收者则要学会在移栽拥挤的幼苗时理开缠绕的根系。有些植物出了名地难伺候，只有在凉爽的砾石环境或缺乏养分的土壤中才能茁壮生长。因此，种植者会随种子附上栽培说明；这些说明能发挥多大作用，取决于接收种子的花园与原种植地的条件有多相似。",
+    "采集也引出了行为规范问题。设想有一个学会，其规定禁止采集者在收集种子时侵扰正在筑巢繁殖的鸟类。一位无视这一限制的采集者，或许记录做得十分出色，却仍可能被否决委员会成员提名。此人可能愤愤不平，选择避开这个社团，但其离开会留下一个实际问题：是否在拒绝接收其后续材料的同时，保留那些有价值的笔记。档案可以保存有用的信息，而不必认可采集者的行为。",
+    "与此同时，遗传学改变了人们对异常植株的理解。一朵颜色奇特的花，可能源于基因突变，而不是生长条件不同；保存其种子，也未必能保住它独特的外观。因此，种子交换不仅涉及分发，也成为一项记录工作。信封中的手写材料不仅提供栽培指导，也记录了特定植物如何在花园之间流转。"
+  ],
+  "q": [
+    {
+      "s": "Botanical societies helped turn seed swapping into a more organised activity.",
+      "a": "T",
+      "why": "首段指出植物学会使种子交换更加系统化。"
+    },
+    {
+      "s": "The imagined society permits collectors to disturb nesting birds while gathering seeds.",
+      "a": "F",
+      "why": "第三段明确规定采集种子时不得侵扰巢鸟。"
+    },
+    {
+      "s": "Seed exchanges routinely required genetic testing of unusually coloured flowers.",
+      "a": "NG",
+      "why": "末段未说明交换种子是否常规要求遗传检测。"
+    }
+  ]
+}

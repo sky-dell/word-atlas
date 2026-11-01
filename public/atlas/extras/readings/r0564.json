@@ -1,0 +1,48 @@
+{
+  "id": "r0564",
+  "ids": [
+    "authorize",
+    "prudent",
+    "treble",
+    "cunning",
+    "inlet",
+    "flourish",
+    "coarse",
+    "inverse",
+    "brink",
+    "solely"
+  ],
+  "title": "The Price of Slow Salt",
+  "titleZh": "慢制海盐的价值",
+  "topic": "economy",
+  "cefr": 4,
+  "paras": [
+    "Beside a narrow [[inlet|inlet]] on the fictional island of Merava, salt maker Leila Sen inherited six evaporation pans and a business on the [[brink|brink]] of collapse. Her father had sold [[coarse|coarse]] crystals by weight to a single merchant, whose payments barely covered repairs to the clay floors. Leila suspected that producing more would merely deepen their dependence.",
+    "The merchant, a [[cunning|cunning]] negotiator, had concealed rising retail prices behind claims that demand was weakening. Rather than borrow money for additional pans, Leila made the [[prudent|prudent]] decision to examine his invoices against prices displayed in harbour shops. Within a month, she persuaded the island's producers' cooperative to [[authorize|authorize]] her to negotiate directly with three bakeries on its behalf.",
+    "Her advantage rested not [[solely|solely]] on eliminating an intermediary. Recording humidity each morning, she identified an [[inverse|inverse]] relationship between moisture in the air and the rate at which water evaporated from her pans. Instead of promising identical weekly deliveries, she offered seasonal contracts, storing surplus salt in sealed ceramic jars. This arrangement allowed customers to plan purchases without forcing her to harvest immature crystals.",
+    "Over two years, Leila managed to [[treble|treble]] the workshop's annual surplus, although its total output increased only slightly. The business began to [[flourish|flourish]] because buyers paid for dependable quality rather than anonymous bulk. She used the additional income to replace a leaking storehouse roof and hire an apprentice. On his first morning, she handed him a ledger before a rake: understanding a harvest, she explained, also meant knowing what it was worth."
+  ],
+  "zh": [
+    "在虚构的梅拉瓦岛上一处狭长的小海湾旁，制盐师莱拉·森继承了六座蒸发池，以及一家濒临倒闭的作坊。她的父亲一直按重量将粗粒盐卖给同一名商人，所得款项仅够修补池底的黏土层。莱拉怀疑，增加产量只会加深他们对这名商人的依赖。",
+    "这名商人谈判时十分狡猾，声称需求正在减弱，以此掩盖零售价格上涨的事实。莱拉没有借钱增建盐池，而是作出了稳妥的决定：将他的发票与港口商店标示的价格进行对照。不到一个月，她便说服了岛上的生产者合作社，正式授权她代表合作社直接与三家面包坊洽谈。",
+    "她的优势并不仅仅在于省去了中间商。通过每天早晨记录湿度，她发现空气中的水分含量与盐池中水分的蒸发速度呈反向关系。她不再承诺每周提供相同数量的盐，而是提供按季节供货的合同，并把多余的盐储存在密封陶罐中。这种安排让客户能够规划采购，也使她不必在盐晶尚未充分形成时就匆忙采收。",
+    "两年间，莱拉使作坊的年度盈余增至原来的三倍，尽管总产量只略有增加。生意开始兴旺，因为买家愿意为稳定可靠的品质付费，而不再只是购买不具名的大宗盐货。她用增加的收入更换了仓库漏水的屋顶，还雇了一名学徒。学徒上工的第一天早晨，她先递给他一本账簿，而不是盐耙。她解释说，了解一次收获，也意味着知道它的价值。"
+  ],
+  "q": [
+    {
+      "s": "The business owed money to the merchant when Leila inherited it.",
+      "a": "NG",
+      "why": "首段说明经营困难，但未说明是否欠商人的钱。"
+    },
+    {
+      "s": "Leila's seasonal contracts required her to supply an equal quantity of salt every week.",
+      "a": "F",
+      "why": "她用季节合同取代了每周等量供货的承诺。"
+    },
+    {
+      "s": "The workshop's annual surplus reached three times its previous level over two years.",
+      "a": "T",
+      "why": "末段明确说两年间年度盈余增至原来的三倍。"
+    }
+  ]
+}

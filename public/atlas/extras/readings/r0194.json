@@ -1,0 +1,48 @@
+{
+  "id": "r0194",
+  "ids": [
+    "queue",
+    "berry",
+    "lighter",
+    "branch",
+    "nest",
+    "decrease",
+    "comment",
+    "soil",
+    "risk",
+    "handsome"
+  ],
+  "title": "Saturday Work at the Berry Garden",
+  "titleZh": "莓果园里的周六工作",
+  "topic": "work",
+  "cefr": 2,
+  "paras": [
+    "When a small bakery closed in Mill Lane, six neighbours lost their Saturday jobs. One of them, a [[handsome|handsome]] young cook named Ravi, suggested selling jam instead. Behind the community hall was an unused garden where [[berry|berries]] grew along a wall. The hall manager offered them the garden and kitchen for three months.",
+    "Before picking fruit, the team checked the garden. The [[soil|soil]] was dry, so they covered it with old leaves to help hold water. Mei noticed a bird's [[nest|nest]] on a low [[branch|branch]]. Rather than cut it down, they left that corner alone and picked fruit near the gate.",
+    "Inside the kitchen, Ravi used a long [[lighter|lighter]] to light the gas cooker. To reduce the [[risk|risk]] of burns, only two people worked beside the hot jam pots. The others washed jars or wrote labels at a separate table. As everyone learnt their tasks, the time needed to prepare each batch [[decrease|decreased]] from four hours to three.",
+    "On their first market day, a [[queue|queue]] formed before ten. One customer's [[comment|comment]] was especially useful: the jars were too large for people living alone. The following week, the team offered smaller jars. By autumn, sales covered their costs and provided regular paid work. They kept the quiet corner of the garden for the birds."
+  ],
+  "zh": [
+    "米尔巷的一家小面包店关门后，六位邻居失去了周六的工作。其中一位是名叫拉维的英俊年轻厨师，他提议改卖果酱。社区活动中心后面有一座闲置的花园，墙边长着莓果。活动中心的管理员同意让他们使用花园和厨房三个月。",
+    "采摘水果前，大家先检查了花园。土壤很干，于是他们铺上落叶，帮助保持水分。梅发现一根低矮的树枝上有个鸟巢。他们没有砍掉树枝，而是避开那个角落，到大门附近采摘水果。",
+    "在厨房里，拉维用一把长柄点火器点燃了燃气灶。为了降低烫伤的风险，热果酱锅旁只安排两个人工作。其他人在另一张桌子旁清洗罐子或写标签。随着大家逐渐熟悉各自的任务，每批果酱的制作时间从四小时缩短到了三小时。",
+    "第一次赶集卖果酱时，还不到十点，摊位前就排起了队。一位顾客的意见特别有用：对独居的人来说，罐子太大了。第二周，团队推出了小罐装。到了秋天，销售收入已经能够支付成本，并为大家提供稳定的有偿工作。他们把花园里那个安静的角落留给了鸟儿。"
+  ],
+  "q": [
+    {
+      "s": "The jam project was proposed after several neighbours lost their weekend work.",
+      "a": "T",
+      "why": "六位邻居失去周六工作后，拉维提议卖果酱。"
+    },
+    {
+      "s": "The nest Mei noticed contained eggs.",
+      "a": "NG",
+      "why": "文章未说明鸟巢中是否有蛋。"
+    },
+    {
+      "s": "Preparing each batch took longer as the team learnt their tasks.",
+      "a": "F",
+      "why": "制作时间从四小时缩短到三小时。"
+    }
+  ]
+}

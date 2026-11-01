@@ -1,0 +1,48 @@
+{
+  "id": "r0216",
+  "ids": [
+    "corridor",
+    "tick",
+    "hurricane",
+    "bible",
+    "warning",
+    "retell",
+    "loudspeaker",
+    "net",
+    "delivery",
+    "campus"
+  ],
+  "title": "The Island’s Storm Notebook",
+  "titleZh": "海岛上的风暴笔记",
+  "topic": "thinking",
+  "cefr": 2,
+  "paras": [
+    "In 1954, a small island college began keeping a storm notebook. A [[hurricane|hurricane]] had damaged its oldest building, and people disagreed about what had happened first. Some remembered rising water; others remembered the wind. The librarian, Rosa, decided to collect their memories before they changed further.",
+    "She placed a table in the [[corridor|corridor]] outside the library. Each visitor could [[retell|retell]] the experience while she wrote. A fisherman brought a broken fishing [[net|net]] to show the storm’s strength. Another visitor carried a family [[bible|Bible]] with wet pages. These objects helped people remember small details, although their accounts did not always agree.",
+    "Rosa then asked readers to [[tick|tick]] any details they could confirm themselves. A record of a bread [[delivery|delivery]], for example, showed that the road was still open at eight that morning. However, nobody could establish exactly when the first [[warning|warning]] reached the island. Rosa left that question open rather than choosing the most popular answer.",
+    "During the 1960s, the college installed a [[loudspeaker|loudspeaker]] on its main building to share storm information across the [[campus|campus]]. Yet the notebook remained useful. New workers read it during their training, learning both how storms could develop and why memories needed checking. What began as a collection of stories became a practical guide to asking better questions."
+  ],
+  "zh": [
+    "1954年，一所海岛上的小型学院开始记录一本风暴笔记。一场飓风损坏了校内最古老的建筑，而人们对最先发生了什么各有说法。有些人记得水位上涨，另一些人则记得大风。图书管理员罗莎决定，趁这些记忆尚未进一步改变，把它们收集起来。",
+    "她在图书馆外的走廊里放了一张桌子。每位来访者都可以复述自己的经历，由她记录。一位渔民带来了一张破损的渔网，展示风暴的威力。另一位来访者带来了一本家中的《圣经》，书页已经被水浸湿。这些物品帮助人们回想起细节，不过大家的叙述并不总是一致。",
+    "随后，罗莎请读者在自己能够亲自证实的细节旁打钩。例如，一份面包递送记录表明，那天早上八点，道路仍然畅通。然而，没有人能确定第一条警告究竟何时传到岛上。罗莎没有选择最多人认同的答案，而是让这个问题保持悬而未决。",
+    "20世纪60年代，学院在主楼上安装了一个扩音器，向整个校园播报风暴信息。不过，这本笔记依然有用。新员工在培训期间阅读它，既了解风暴可能如何发展，也学习为什么需要核实记忆。最初收集起来的一篇篇故事，最终成了一本指导人们更好地提问的实用手册。"
+  ],
+  "q": [
+    {
+      "s": "Rosa recorded more than twenty people's memories of the storm.",
+      "a": "NG",
+      "why": "文中未说明罗莎记录了多少人的回忆。"
+    },
+    {
+      "s": "Rosa accepted the majority view about when the island received its first alert.",
+      "a": "F",
+      "why": "她保留疑问，没有选择最多人认同的答案。"
+    },
+    {
+      "s": "New workers read the storm notebook during their training.",
+      "a": "T",
+      "why": "末段明确说新员工在培训期间阅读笔记。"
+    }
+  ]
+}

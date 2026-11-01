@@ -1,0 +1,48 @@
+{
+  "id": "r0268",
+  "ids": [
+    "liquid",
+    "tune",
+    "butcher",
+    "seed",
+    "anniversary",
+    "backward",
+    "ceremony",
+    "breathing",
+    "celebrity",
+    "related"
+  ],
+  "title": "The Market's Bottle Band",
+  "titleZh": "市场里的瓶子乐队",
+  "topic": "arts",
+  "cefr": 2,
+  "paras": [
+    "For the tenth [[anniversary|anniversary]] of Willow Market, six shopkeepers formed a band using objects from their stalls. Their aim was to celebrate the sounds of everyday work. Amina, a [[butcher|butcher]], offered clean glass bottles, while Pavel, who sold vegetables, brought dried [[seed|seeds]] to shake inside small wooden boxes.",
+    "The group met behind the flower stall every Tuesday evening. They poured different amounts of [[liquid|liquid]] into the bottles, then tapped them gently with spoons. Each bottle made a different note. After three weeks, they could play a simple [[tune|tune]] that Amina remembered from childhood. Other sounds were [[related|related]] to market life: shaking boxes suggested beans falling into a bowl.",
+    "Movement was harder than music. During practice, one [[backward|backward]] step nearly sent Pavel into a table of flowers. After that, everyone stayed in a half-circle. Amina also taught the players to slow their [[breathing|breathing]] before starting, which helped them feel calmer. They decided not to invite a [[celebrity|celebrity]]; this performance belonged to the people who worked there.",
+    "At the opening [[ceremony|ceremony]], the audience listened quietly at first. Then a little girl began following the beat with her hands, and others joined in. Afterwards, the shopkeepers kept their instruments in a shared cupboard. Their next performance was already planned for the spring flower sale."
+  ],
+  "zh": [
+    "为了庆祝柳树市场成立十周年，六位店主用各自摊位上的物品组建了一支乐队。他们想用日常工作中的声音来庆祝。肉贩阿米娜提供了干净的玻璃瓶，卖蔬菜的帕维尔则带来了干燥的种子，放在小木盒里摇响。",
+    "大家每周二晚上都在花摊后面碰面。他们往瓶子里倒入不同量的液体，再用勺子轻轻敲击。每个瓶子都会发出不同的音。三周后，他们已经能演奏一首阿米娜记得的童年小曲。其他声音也与市场生活有关：摇动木盒的声音让人想到豆子落进碗里的情景。",
+    "动作比音乐更难练。排练时，帕维尔向后迈了一步，差点撞上一张摆满鲜花的桌子。此后，大家都固定站成半圆。阿米娜还教大家在开始前放慢呼吸，这帮助他们平静下来。他们决定不邀请名人，因为这场演出属于在这里工作的人。",
+    "开幕仪式上，观众起初安静地听着。随后，一个小女孩开始用手打拍子，其他人也加入进来。演出结束后，店主们把乐器放进了一个共用的柜子里。他们已经计划好，要在春季鲜花售卖活动中再次表演。"
+  ],
+  "q": [
+    {
+      "s": "The band was formed to celebrate Willow Market's twentieth anniversary.",
+      "a": "F",
+      "why": "首段明确说庆祝市场成立十周年。"
+    },
+    {
+      "s": "Amina had learned the tune from a school teacher.",
+      "a": "NG",
+      "why": "只说她记得童年曲调，未说由谁教会。"
+    },
+    {
+      "s": "The shopkeepers planned to perform again at the spring flower sale.",
+      "a": "T",
+      "why": "末段明确说明下次演出定在春季鲜花售卖时。"
+    }
+  ]
+}

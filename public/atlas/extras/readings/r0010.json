@@ -1,0 +1,46 @@
+{
+  "id": "r0010",
+  "ids": [
+    "listen",
+    "poor",
+    "gym",
+    "reading",
+    "guitar",
+    "toothpaste",
+    "sun",
+    "france",
+    "angry",
+    "aeroplane"
+  ],
+  "title": "A Quiet Room in a Noisy City",
+  "titleZh": "喧闹城市里的一间安静屋",
+  "topic": "city",
+  "cefr": 0,
+  "paras": [
+    "What sounds help us feel good? In a city in [[france|France]], Mina asks people to [[listen|listen]] to their street. She studies sound and health. Her small room is beside a [[gym|gym]]. People can come in for free. Some are [[poor|poor]] and have no quiet place at home. Here, they can sit in soft chairs and tell Mina about their day.",
+    "One man talks about his morning. He puts [[toothpaste|toothpaste]] on his brush. Then a loud [[aeroplane|aeroplane]] flies over his house. He cannot hear his little boy speaking. This makes him [[angry|angry]]. A woman has a different story. Her neighbour plays the [[guitar|guitar]] softly each morning. She likes the music. It helps her start work with a smile. Mina writes down their stories.",
+    "Mina also asks people to try ten quiet minutes. Some enjoy [[reading|reading]]. Others sit in the [[sun|sun]] by the window or close their eyes. Many say they feel better after this short rest. Before they leave, Mina asks, “Do you want to come again?” The man asks if the room is open tomorrow. Mina says yes and writes his name on a new page."
+  ],
+  "zh": [
+    "什么声音能让我们感觉舒服？在法国的一座城市里，米娜请人们倾听街上的声音。她研究声音与健康。她的小房间在一家健身房旁边。人们可以免费进来。有些人很穷，家里没有安静的地方。在这里，他们可以坐在柔软的椅子上，向米娜讲述自己的一天。",
+    "一位男子说起了他的早晨。他把牙膏挤到牙刷上。随后，一架声音很大的飞机从他家上空飞过。他听不见年幼的儿子说话。这让他很生气。一位女士的故事却不同。她的邻居每天早晨轻轻地弹吉他。她喜欢这音乐。音乐让她能带着微笑开始工作。米娜把他们的故事记了下来。",
+    "米娜还请人们试着安静地待十分钟。有些人喜欢阅读。其他人坐在窗边晒太阳，或闭上眼睛。许多人说，短暂休息后感觉好了一些。他们离开前，米娜问：“你们还想再来吗？”那位男子问这间屋子明天是否开放。米娜说开放，并在新的一页上写下他的名字。"
+  ],
+  "q": [
+    {
+      "s": "People must pay to enter Mina's room.",
+      "a": "F",
+      "why": "第一段明确说人们可以免费进入。"
+    },
+    {
+      "s": "An aeroplane flies over the man's house every morning.",
+      "a": "NG",
+      "why": "只提到一个早晨，未说明飞机是否每天经过。"
+    },
+    {
+      "s": "The woman likes her neighbour's music.",
+      "a": "T",
+      "why": "第二段明确说她喜欢邻居弹奏的音乐。"
+    }
+  ]
+}

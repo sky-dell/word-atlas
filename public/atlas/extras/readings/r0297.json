@@ -1,0 +1,48 @@
+{
+  "id": "r0297",
+  "ids": [
+    "injury",
+    "fold",
+    "reliable",
+    "surface",
+    "version",
+    "melt",
+    "widely",
+    "stapler",
+    "first-aid",
+    "joy"
+  ],
+  "title": "The Pond Beneath the Snow",
+  "titleZh": "积雪下的池塘",
+  "topic": "science",
+  "cefr": 2,
+  "paras": [
+    "12 April, mountain pond. At seven this morning, a thin white sheet still covered the water. Our team had returned to record when the ice began to [[melt|melt]]. This date is a simple sign of spring, [[widely|widely]] used by people studying mountain lakes. However, one warm afternoon does not tell the whole story.",
+    "I carried a [[reliable|reliable]] thermometer and a new [[version|version]] of our recording sheet, with extra space for drawings. Before leaving the hut, I used a [[stapler|stapler]] to join the pages. I then [[fold|folded]] them in half so they would fit inside my coat pocket, away from the wet snow.",
+    "Near the bank, I slipped on a stone and cut my hand. The [[injury|injury]] was small, but I stopped to clean it with water from my bottle. From our [[first-aid|first-aid]] bag, my partner Amira took a clean bandage. We moved to a dry rock rather than risk another fall beside the water.",
+    "By noon, a dark circle had opened in the ice. We measured the water temperature there without stepping onto the frozen [[surface|surface]]. Then a small brown frog appeared at the edge of the pond. I felt unexpected [[joy|joy]] as it climbed into the sunlight. Beside our final temperature reading, I drew the frog: a living sign that the pond was waking."
+  ],
+  "zh": [
+    "4月12日，山间池塘。今天早晨七点，水面上仍盖着薄薄的一层白冰。我们的小队再次来到这里，记录冰开始融化的时间。这个日期是春天到来的一个简单标志，研究山间湖泊的人们广泛使用这一指标。不过，仅凭一个温暖的下午，还不能了解全部情况。",
+    "我带了一支可靠的温度计和一份新版记录表，表上增加了画图的空间。离开小屋之前，我用订书机把几页纸订在一起。随后，我把它们对折，放进外套口袋里，免得被湿雪打湿。",
+    "在岸边，我踩上一块石头滑倒了，划伤了手。伤口不大，但我还是停下来，用水瓶里的水清洗伤口。我的搭档阿米拉从我们的急救包里拿出一条干净的绷带。我们转移到一块干燥的岩石上，不再冒险留在水边，以免再次滑倒。",
+    "到了中午，冰层上融出了一个深色的圆洞。我们没有踏上结冰的表面，而是在洞口测量水温。这时，一只棕色的小青蛙出现在池塘边。看着它爬到阳光下，我心中涌起一阵意外的喜悦。我在最后一次水温记录旁画下了这只青蛙：它是池塘正在苏醒的鲜活标志。"
+  ],
+  "q": [
+    {
+      "s": "The pond was free of ice at seven that morning.",
+      "a": "F",
+      "why": "早晨七点，水面仍覆盖着薄冰。"
+    },
+    {
+      "s": "The writer folded the recording sheets to fit them inside a coat pocket.",
+      "a": "T",
+      "why": "作者将记录表对折，以便放进外套口袋。"
+    },
+    {
+      "s": "The frog belonged to the most common frog species in the area.",
+      "a": "NG",
+      "why": "文章未说明青蛙的种类及其当地数量。"
+    }
+  ]
+}

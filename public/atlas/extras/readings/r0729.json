@@ -1,0 +1,48 @@
+{
+  "id": "r0729",
+  "ids": [
+    "superstructure",
+    "antonymous",
+    "coinage",
+    "flagstone",
+    "hoe",
+    "pertinence",
+    "seclude",
+    "inapt",
+    "peroxide",
+    "partake"
+  ],
+  "title": "The Gardener’s Dry Rain",
+  "titleZh": "园丁笔下的“干雨”",
+  "topic": "thinking",
+  "cefr": 5,
+  "paras": [
+    "When conservator Leila Nasser examined a disused botanical pavilion, its iron [[superstructure|superstructure]] appeared sound, yet water repeatedly gathered around one [[flagstone|flagstone]]. Replacing the roof had accomplished nothing. The only surviving maintenance notebook described a phenomenon called “dry rain”, a [[coinage|coinage]] whose apparent absurdity had persuaded successive contractors to disregard the entire document.",
+    "Leila, however, questioned whether the phrase was genuinely [[inapt|inapt]]. Although “dry” and “wet” were [[antonymous|antonymous]], the gardener might have distinguished rainfall from moisture arising indoors. She invited retired horticulturist Tomas Varga to [[partake|partake]] in a reconstruction of the pavilion’s former routine, treating its vocabulary as evidence rather than an obstacle to understanding.",
+    "Rather than [[seclude|seclude]] herself in the archive, she watched Tomas [[hoe|hoe]] the surviving planting beds inside the pavilion. He explained that winter gardeners had watered these beds with warmed water. Suddenly, an overlooked entry acquired [[pertinence|pertinence]]: “Close shutters before heating.” Meanwhile, a specialist’s controlled test with hydrogen [[peroxide|peroxide]] removed a dark organic stain from the troublesome slab, revealing a shallow drainage groove in its surface.",
+    "Leila now proposed that humid air had condensed against the cold roof, producing the gardener’s “dry rain” even under cloudless skies. During a supervised overnight trial, warmed irrigation water and closed shutters reproduced the dripping precisely. The groove, blocked during an earlier repair, had once carried this moisture outside. Once cleared, it kept the floor dry without further roofing work."
+  ],
+  "zh": [
+    "文物修复师莱拉·纳赛尔检查一座废弃的植物展亭时，发现其铁制上部结构似乎完好，但一块铺地石板周围却反复积水。更换屋顶也无济于事。唯一留存的养护笔记描述了一种名为“干雨”的现象。这个新造词看似荒诞，致使先后接手的施工人员都对整本笔记不予理会。",
+    "然而，莱拉怀疑这个说法是否真的不恰当。虽然“干”与“湿”词义相反，但那位园丁也许是在区分天降的雨水和室内产生的水汽。她邀请退休园艺师托马斯·瓦尔加参与重现展亭过去的日常养护流程，将笔记中的用语视为证据，而不是理解上的障碍。",
+    "她没有独自埋首档案，而是观察托马斯用锄头翻松展亭内留存的种植畦。他解释说，冬季园丁曾用加温的水浇灌这些种植畦。一条被忽略的记录突然显出了关联：“加热前关好窗板。”与此同时，一名专业人员在受控测试中用过氧化氢去除了那块问题石板上的深色有机污渍，使石板表面的一道浅排水槽显露出来。",
+    "莱拉据此提出，潮湿空气遇到冰冷的屋顶便凝结成水，即使晴空无云，也会形成园丁所谓的“干雨”。在一次有人监测的夜间试验中，加温的灌溉用水与紧闭的窗板准确重现了滴水现象。那道排水槽原本将水排向室外，却在早先的一次维修中被堵住了。清理后，无须再修屋顶，地面便能保持干燥。"
+  ],
+  "q": [
+    {
+      "s": "Replacing the pavilion’s roof resolved the accumulation of water.",
+      "a": "F",
+      "why": "首段明确说更换屋顶无济于事。"
+    },
+    {
+      "s": "Leila treated the gardener’s unusual terminology as evidence worth examining.",
+      "a": "T",
+      "why": "第二段说她将笔记用语视为证据。"
+    },
+    {
+      "s": "Clearing the drainage channel cost less than the previous roof replacement.",
+      "a": "NG",
+      "why": "文章未比较疏通排水槽与换屋顶的费用。"
+    }
+  ]
+}

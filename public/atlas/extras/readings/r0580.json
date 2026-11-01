@@ -1,0 +1,48 @@
+{
+  "id": "r0580",
+  "ids": [
+    "pompous",
+    "proposition",
+    "quartz",
+    "wharf",
+    "uncalled-for",
+    "preoccupy",
+    "vouch",
+    "jingle",
+    "unify",
+    "periodic"
+  ],
+  "title": "The City's Unfinished Hour",
+  "titleZh": "这座城尚未敲完的钟点",
+  "topic": "city",
+  "cefr": 4,
+  "paras": [
+    "In the harbour city of Velin, visitors usually photograph the clock above the eastern [[wharf|wharf]] without noticing that its hands disagree with those on the fish exchange. These discrepancies once [[preoccupy|preoccupied]] merchant families, whose contracts depended on departure times. Today, they form the subject of an unusual walking tour led by a retired clock repairer, Amara Sen.",
+    "Sen's [[proposition|proposition]] was simple: instead of correcting every clock, the neighbourhood could preserve its competing versions of time. A [[pompous|pompous]] collector, who insisted that only experts could appreciate mechanical heritage, dismissed her idea as entertainment for the ignorant. Sen considered the remark [[uncalled-for|uncalled-for]]; the bakers and porters who worked beneath these clocks could [[vouch|vouch]] for their importance more convincingly than any visiting specialist.",
+    "The route begins inside a narrow workshop, where brass keys [[jingle|jingle]] against Sen's belt as she opens a wooden cabinet. Beside a chipped pendulum sits a modern [[quartz|quartz]] clock, introduced not as a replacement but as a comparison: its mineral oscillator measures seconds with a precision the older mechanism cannot sustain. Yet the latter requires [[periodic|periodic]] winding, a task that has kept neighbours entering this workshop for generations.",
+    "At dusk, the walk ends in a courtyard where three clock faces are visible above the roofs. Their bells sound separately, allowing conversations to resume between each metallic phrase. Sen believes the shared ritual can [[unify|unify]] streets divided by rising rents and changing trades. Nobody adjusts the hands before leaving; for once, the city's failure to agree becomes a reason to linger."
+  ],
+  "zh": [
+    "在港口城市维林，游客通常会拍摄东码头上方的时钟，却没有注意到它的指针与鱼市交易所上的时钟并不一致。这些时间差异曾让商人家庭牵肠挂肚，因为他们的合同履行取决于船只的启航时间。如今，这些差异成了一条别具一格的步行导览路线的主题，带领游客的是退休钟表修理师阿玛拉·森。",
+    "森的提议很简单：街区不必校准每一座钟，而可以保留这些彼此不一的时间版本。一位自命不凡的收藏家坚称，只有专家才懂得欣赏机械遗产，并将她的想法贬为供无知者消遣的玩意儿。森认为这番话毫无道理；在这些钟下工作的面包师和搬运工若为这些钟的重要性作证，会比任何到访专家的说法更有说服力。",
+    "路线从一间狭窄的工作室开始。森打开木柜时，腰带上的黄铜钥匙叮当作响。一只边缘有缺损的钟摆旁放着一座现代石英钟；摆放它不是为了替代老钟，而是为了进行比较：它的矿物振荡器能够精确计量秒数，其精度是旧机械装置无法持续保持的。不过，后者需要定期上弦，而正是这项工作，让一代又一代的街坊不断走进这间工作室。",
+    "黄昏时，步行导览在一处庭院结束，从那里可以望见屋顶上方的三个钟面。钟声先后响起，人们便能在每段金属鸣响的间隙继续交谈。森相信，这项共同的仪式能够让因租金上涨和行业变迁而日渐疏离的街区重新团结起来。离开前，没有人去校准指针；这一次，城市无法达成一致，反倒成了让人流连的理由。"
+  ],
+  "q": [
+    {
+      "s": "Sen proposed correcting every clock in the neighbourhood.",
+      "a": "F",
+      "why": "她提议保留不同的时间，而非校准每座钟。"
+    },
+    {
+      "s": "Sen requires neighbours to complete training before they wind the old clock.",
+      "a": "NG",
+      "why": "文中提到街坊上弦，但未说明是否需培训。"
+    },
+    {
+      "s": "At the end of the walk, the clock bells ring at separate times.",
+      "a": "T",
+      "why": "末段说明钟声先后响起，其间可继续交谈。"
+    }
+  ]
+}

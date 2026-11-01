@@ -1,0 +1,48 @@
+{
+  "id": "r0696",
+  "ids": [
+    "clamor",
+    "amiable",
+    "illegible",
+    "notary",
+    "idleness",
+    "temperate",
+    "herbivorous",
+    "granary",
+    "absurdity",
+    "innocuous"
+  ],
+  "title": "From Grain Chest to Insect Cabinet",
+  "titleZh": "从粮箱到昆虫标本柜",
+  "topic": "science",
+  "cefr": 4,
+  "paras": [
+    "In a fictional village in a [[temperate|temperate]] region, Mara inherits a beetle collection housed in an old grain chest. Her uncle had rescued the chest from a disused [[granary|granary]] and fitted it with shallow trays. Mara wants to offer the collection to a local college, but first she must establish what information has survived alongside the insects.",
+    "An [[amiable|amiable]] letter from another collector records an exchange of specimens, though several accompanying labels are [[illegible|illegible]]. A receipt witnessed by a [[notary|notary]] confirms a later purchase. Neither document guarantees that the beetles were correctly identified. Mara copies only what she can read, leaving gaps rather than supplying plausible locations from memory.",
+    "Her brother jokes about the [[absurdity|absurdity]] of giving each dead beetle a numbered compartment. To him, her hours at the chest look like [[idleness|idleness]], especially amid the [[clamor|clamor]] of the family preparing dinner. Yet the numbers connect specimens to her uncle's field notes. These include observations of feeding, which may help a researcher distinguish [[herbivorous|herbivorous]] beetles from predators; appearance alone would not settle every case.",
+    "While checking a tray, Mara notices an apparently [[innocuous|innocuous]] patch of powder beneath a damaged specimen. Suspecting an insect pest, she photographs it and asks the college for advice before moving anything. Her proposed donation now includes a condition report, transcribed notes and a separate list of questions that the surviving records cannot answer."
+  ],
+  "zh": [
+    "在一个虚构的温带村庄里，玛拉继承了一批装在旧粮箱中的甲虫标本。她的一位父母辈男性亲属曾从一座废弃谷仓里找回这只箱子，并在里面装上浅托盘。玛拉想把这批藏品捐给当地一所学院，但她得先弄清楚，与昆虫一同保存下来的资料还有哪些。",
+    "另一位收藏者寄来的一封友善信件记载了一次标本交换，不过随附的几张标签字迹难以辨认。一张由公证人见证的收据证实了后来的一次购买。这两份文件都不能保证甲虫的鉴定正确。玛拉只抄录自己能读懂的内容，宁可留下空白，也不凭记忆填上看似合理的地点。",
+    "她的兄弟打趣说，给每只死甲虫都安排一个编号格子，实在荒唐。在他看来，她在箱子旁忙上几个小时就像无所事事，尤其是全家正喧喧闹闹地准备晚饭的时候。然而，这些编号把标本与那位亲属的野外笔记联系起来。笔记中包含对取食行为的观察，或许能帮助研究者区分植食性甲虫与捕食性甲虫；仅凭外观并不能判定所有情况。",
+    "检查一个托盘时，玛拉注意到一只受损标本下面有一小片看似无害的粉末。她怀疑有害虫，于是先拍照并向学院征求意见，没有移动任何东西。她拟捐赠的材料如今包括一份保存状况报告、誊录的笔记，以及一份单独列出的、现存记录无法回答的问题清单。"
+  ],
+  "q": [
+    {
+      "s": "Mara's uncle paid for the chest he recovered from the granary.",
+      "a": "NG",
+      "why": "文中未说明那位亲属取得旧箱是否付费。"
+    },
+    {
+      "s": "The notarised receipt guarantees that the beetles were correctly identified.",
+      "a": "F",
+      "why": "第二段明确说两份文件均不保证鉴定正确。"
+    },
+    {
+      "s": "The numbered compartments link the specimens to field notes.",
+      "a": "T",
+      "why": "第三段说明编号将标本与野外笔记关联。"
+    }
+  ]
+}

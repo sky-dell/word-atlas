@@ -1,0 +1,48 @@
+{
+  "id": "r0636",
+  "ids": [
+    "authoritative",
+    "universally",
+    "reticent",
+    "offspring",
+    "firmness",
+    "provoke",
+    "exasperate",
+    "counter-offer",
+    "designation",
+    "vessel"
+  ],
+  "title": "The Ground Beneath the Boundary",
+  "titleZh": "界线之下的土地",
+  "topic": "government",
+  "cefr": 4,
+  "paras": [
+    "When the coastal council proposed selling Reed Island for warehouse construction, soil researcher Leila Sato was asked to produce an [[authoritative|authoritative]] assessment of its stability. Usually [[reticent|reticent]] about her own convictions, she preferred measurements to speeches. For eleven winters, she had crossed the channel aboard a survey [[vessel|vessel]], carrying sample tubes and a brass instrument inherited from her predecessor.",
+    "The island’s apparent [[firmness|firmness]], she discovered, concealed layers of waterlogged peat. Although the ground supported grazing sheep and their [[offspring|offspring]], concentrated building loads could compress it unevenly. Her conclusion was not [[universally|universally]] welcomed: merchants anticipated rental income, while several councillors regarded the sale as essential to repairing the harbour wall. Leila understood their arithmetic but questioned what it excluded.",
+    "Rather than [[provoke|provoke]] a confrontation with dramatic predictions, she arranged a demonstration in the council chamber. Two transparent cylinders held island soil under different weights; by lunchtime, one surface had sunk three centimetres. Her insistence on repeating the experiment began to [[exasperate|exasperate]] the committee chair, yet it also exposed why a single reassuring measurement could misrepresent an unstable landscape.",
+    "When the developer proposed purchasing only the island’s eastern edge, Leila helped draft a [[counter-offer|counter-offer]]: a seasonal lease for equipment storage on an existing stone platform, with no foundations permitted. Revenue would fund harbour repairs and continued monitoring. The subsequent [[designation|designation]] of the remaining land as a protected research reserve preserved more than her sampling sites. It gave the council a boundary justified by evidence rather than convenience."
+  ],
+  "zh": [
+    "当海岸议会提议出售芦苇岛，用于修建仓库时，土壤研究员莱拉·佐藤受邀对岛屿的稳定性作出权威评估。她平时不愿公开谈论自己的信念，比起演说，更愿意用测量结果说话。十一年来，每逢冬季，她都会乘调查船穿过海峡，带着采样管，以及前任留给她的一件黄铜仪器。",
+    "她发现，岛屿看似坚实的地表下，隐藏着层层浸水的泥炭。虽然这片土地足以承载吃草的绵羊及其幼崽，但建筑物集中的荷载却可能使土层发生不均匀压缩。她的结论并未得到所有人的欢迎：商人期待获得租金收入，而几位议员则认为，出售岛屿是修复港口防护墙的必要条件。莱拉理解他们的经济盘算，却质疑其中遗漏了什么。",
+    "莱拉没有用耸人听闻的预测引发冲突，而是在议会会议厅安排了一次演示。两个透明圆筒装着岛上的土壤，分别承受不同的重量；到午餐时间，其中一个圆筒内的土壤表面已下沉三厘米。她坚持重复实验，开始让委员会主席大为恼火，但这也揭示了为什么一次令人安心的测量，可能无法真实反映一片不稳定土地的状况。",
+    "当开发商提议只购买岛屿东缘时，莱拉协助起草了一份反提议：按季节出租一处现有的石砌平台，用于存放设备，但禁止修建地基。所得收入将用于港口维修和持续监测。随后，岛上其余土地被正式划为受保护的研究保留地，保住的不仅是她的采样点。这也让议会划定了一条以证据而非便利为依据的界线。"
+  ],
+  "q": [
+    {
+      "s": "Leila's predecessor had designed the brass instrument she carried.",
+      "a": "NG",
+      "why": "只说仪器由前任传下，未说由谁设计。"
+    },
+    {
+      "s": "Leila found that land capable of supporting sheep would also bear buildings without uneven settlement.",
+      "a": "F",
+      "why": "第二段指出建筑荷载可能导致不均匀压缩。"
+    },
+    {
+      "s": "The proposed seasonal lease prohibited the construction of foundations.",
+      "a": "T",
+      "why": "末段明确规定租赁方案不允许修建地基。"
+    }
+  ]
+}
