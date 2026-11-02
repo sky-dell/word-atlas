@@ -1,0 +1,14 @@
+[Unit]
+Description=Consistent Words & Beyond account database backup
+
+[Service]
+Type=oneshot
+User=word-atlas
+Group=word-atlas
+EnvironmentFile=/etc/word-atlas/environment
+ExecStart=/opt/nodejs/node-v24.22.1-linux-x64/bin/node /data/word-atlas/scripts/admin.mjs backup
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/word-atlas

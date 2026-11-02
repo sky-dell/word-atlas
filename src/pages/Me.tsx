@@ -4,9 +4,10 @@ import { useAtlas } from "../atlas/context";
 import { isMastered } from "../store/srs";
 import { dayKey, exportBackup, importBackup, resetProgress, store, useStore, type Settings } from "../store/store";
 import { toast } from "../ui/Toast";
+import { AppearanceSettings, type AppearanceCapabilities } from "../ui/Appearance";
 import { streakOf } from "./Today";
 
-export function Me({ privateAvailable }: { privateAvailable: boolean }) {
+export function Me({ privateAvailable, appearanceCapabilities }: { privateAvailable: boolean; appearanceCapabilities?: AppearanceCapabilities }) {
   const atlas = useAtlas();
   const progress = useStore((s) => s.progress);
   const settings = useStore((s) => s.settings);
@@ -37,7 +38,7 @@ export function Me({ privateAvailable }: { privateAvailable: boolean }) {
     const blob = new Blob([exportBackup()], { type: "application/json" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = `word-atlas-backup-${dayKey()}.json`;
+    a.download = `words-and-beyond-backup-${dayKey()}.json`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   };
@@ -146,24 +147,8 @@ export function Me({ privateAvailable }: { privateAvailable: boolean }) {
               </button>
             </div>
           </Field>
-          <Field label="外观">
-            <div className="segmented">
-              {(
-                [
-                  ["system", "跟随系统"],
-                  ["light", "浅色"],
-                  ["dark", "深色"],
-                ] as const
-              ).map(([k, l]) => (
-                <button key={k} className={settings.theme === k ? "is-on" : ""} onClick={() => set({ theme: k })}>
-                  {l}
-                </button>
-              ))}
-            </div>
-          </Field>
           <Toggle label="自动播放发音" on={settings.autoplay} set={(v) => set({ autoplay: v })} />
           <Toggle label="界面音效" on={settings.sfx} set={(v) => set({ sfx: v })} />
-          <Toggle label="开屏动画（每天一次）" on={settings.splash} set={(v) => set({ splash: v })} />
           <Toggle label="复习时加入拼写题" on={settings.spell} set={(v) => set({ spell: v })} />
           {privateAvailable && (
             <Field label="词库" hint="私人词库只在本机开发服务器中可用，不会被打包发布。">
@@ -179,9 +164,11 @@ export function Me({ privateAvailable }: { privateAvailable: boolean }) {
           )}
         </section>
 
+        <AppearanceSettings capabilities={appearanceCapabilities} />
+
         <section className="panel">
           <h3 className="eyebrow">数据</h3>
-          <p className="muted">进度只存在这台设备的浏览器里：没有账号，没有服务器。换设备时，导出备份再导入即可。</p>
+          <p className="muted">学习记录优先保存在当前浏览器。免费账户可在右上角账户入口管理云同步；任何进入方式均可随时导出 JSON 备份。HTTP 与 HTTPS 的记录需通过导出、导入迁移。</p>
           {saveError && <p className="warn-text">浏览器拒绝保存（可能是隐私模式或空间已满）。请尽快导出备份。</p>}
           <div className="data-actions">
             <button className="btn btn-ghost" onClick={download}>

@@ -6,7 +6,12 @@ export type Route =
   | { page: "atlas"; topic?: string; level?: string; q?: string; view?: string }
   | { page: "learn" }
   | { page: "practice" }
+  | { page: "read"; tab?: "short" | "books"; id?: string; book?: string; chapter?: string }
+  | { page: "paraphrase"; id?: string }
+  | { page: "confuse"; id?: string }
   | { page: "me" }
+  | { page: "account" }
+  | { page: "admin" }
   | { page: "about" };
 
 export interface Location {
@@ -26,8 +31,20 @@ function parse(hash: string): Location {
   else if (seg[0] === "learn") route = { page: "learn" };
   else if (seg[0] === "practice") route = { page: "practice" };
   else if (seg[0] === "me") route = { page: "me" };
+  else if (seg[0] === "account") route = { page: "account" };
+  else if (seg[0] === "admin") route = { page: "admin" };
   else if (seg[0] === "about") route = { page: "about" };
-  else if (seg[0] === "w" && seg[1]) return { route: { page: "atlas" }, word: decodeURIComponent(seg[1]) };
+  else if (seg[0] === "read" || seg[0] === "books") {
+    const tab = seg[0] === "books" || seg[1] === "books" ? "books" : params.get("tab");
+    route = { page: "read", tab: tab === "short" || tab === "books" ? tab : undefined,
+      id: params.get("id") || undefined, book: params.get("book") || undefined, chapter: params.get("chapter") || undefined };
+  }
+  else if (seg[0] === "paraphrase" || seg[0] === "confuse")
+    route = { page: seg[0], id: params.get("id") || undefined };
+  else if (seg[0] === "w" && seg[1]) {
+    try { return { route: { page: "atlas" }, word: decodeURIComponent(seg[1]) }; }
+    catch { return { route: { page: "atlas" }, word: null }; }
+  }
   return { route, word };
 }
 
@@ -38,6 +55,14 @@ export function href(route: Route, word?: string | null) {
     if (route.level) params.set("level", route.level);
     if (route.q) params.set("q", route.q);
     if (route.view) params.set("view", route.view);
+  }
+  if (route.page === "read" || route.page === "paraphrase" || route.page === "confuse") {
+    if (route.id) params.set("id", route.id);
+    if (route.page === "read") {
+      if (route.tab) params.set("tab", route.tab);
+      if (route.book) params.set("book", route.book);
+      if (route.chapter) params.set("chapter", route.chapter);
+    }
   }
   if (word) params.set("w", word);
   const q = params.toString();

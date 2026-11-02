@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Validate the public Word Atlas dataset: structure, references and media files. */
+/** Validate the public Words & Beyond dataset: structure, references and media files. */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

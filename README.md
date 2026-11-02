@@ -1,32 +1,28 @@
+> 本机增强版已部署： [打开词与远方](https://43.133.166.184/)。开发、测试、内容来源、维护命令和与原站的差异见 [本机部署说明](docs/LOCAL-DEPLOYMENT.md)。
+
 <div align="center">
 
-<a href="https://0xlei.tech/words/"><img src="docs/assets/cover-v2.jpg" alt="词光 Word Atlas — 一词一画，点亮雅思" width="100%"></a>
+<a href="https://43.133.166.184/"><img src="public/words-and-beyond-og.png" alt="词与远方 · Words &amp; Beyond — 多懂一个词，多看一点世界。" width="100%"></a>
 
-# 词光 · Word Atlas
+# 词与远方 · Words & Beyond
 
-**把单词变成画面，让复习有迹可循。**
+**多懂一个词，多看一点世界。**
 
 7,298 个雅思词条 · 原创插画 · 英美发音 · FSRS 间隔复习
 
-[**立即体验 ↗**](https://0xlei.tech/words/)　 /　 [48 秒介绍](docs/assets/launch.mp4)　 /　 [下载词库](data/)　 /　 [English](README.en.md)
+[**立即体验 ↗**](https://43.133.166.184/)　 /　 [上游历史介绍视频](docs/assets/launch.mp4)　 /　 [下载词库](data/)　 /　 [English](README.en.md)
 
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-17283B?style=flat-square)](LICENSE)
 [![Dataset: CC BY 4.0](https://img.shields.io/badge/Dataset-CC_BY_4.0-AD5038?style=flat-square)](CONTENT_LICENSE.md)
 [![Follow on X](https://img.shields.io/badge/X-@yangleiocx3-17283B?style=flat-square&logo=x&logoColor=white)](https://x.com/yangleiocx3)
 
-<br>
-
-<a href="https://0xlei.tech/words/"><img src="https://0xlei.tech/words/beta/banner.png" alt="词光 iOS 首批内测：微信扫码加入内测群" width="100%"></a>
-
-**词光 iOS 正在开发，首批内测招募中。** 微信扫上图二维码进群；二维码过期或群满了，打开 [网站](https://0xlei.tech/words/) 点顶栏「内测」，加作者微信拉你进群。
-
 </div>
 
 ---
 
-词光是一款以插画和语境为核心的雅思背词应用。看画面理解词义，听发音建立联系，再用主动回忆和间隔复习巩固记忆。无需账号，学习进度保存在自己的设备上。
+词与远方是一款以插画和语境为核心的词汇学习应用。看画面理解词义，听发音建立联系，再用主动回忆和间隔复习巩固记忆。支持游客本机学习与免费账户同步备份。
 
-> **版本说明**：这个仓库提供词光的开源基础版及配套数据集。在线网站独立迭代，功能与仓库可能不同；仓库里的代码和内容分别遵循下方的 MIT / CC BY 4.0 授权。
+> **版本说明**：此本机增强版品牌为「词与远方 / Words & Beyond」，源自上游开源项目，保留原作者与内容贡献者署名。历史文档和素材不代表当前品牌。代码和内容分别遵循 MIT / CC BY 4.0 授权。改名不改变数据存储键和旧备份格式。
 
 [产品预览](#产品预览) · [学习方式](#学习方式) · [本地运行](#本地运行) · [开放数据](#开放数据) · [参与贡献](#参与贡献)
 
@@ -55,7 +51,7 @@
 <details>
 <summary><b>看 48 秒宣传片</b></summary>
 
-<a href="docs/assets/launch.mp4"><img src="docs/assets/launch-preview.webp" alt="点击观看词光宣传片" width="100%"></a>
+<a href="docs/assets/launch.mp4"><img src="docs/assets/launch-preview.webp" alt="点击观看词与远方宣传片" width="100%"></a>
 
 [播放完整视频（含声音）](docs/assets/launch.mp4)
 
@@ -92,7 +88,7 @@
 
 | | |
 |---|---|
-| 🎙 **开屏配音** | [「欢迎打开雅思大门」](https://0xlei.tech/words/sfx/splash-voice.mp3)：星尘汇聚成“词光”，大门打开 |
+| 🎙 **开屏配音** | [「欢迎打开雅思大门」](https://0xlei.tech/words/sfx/splash-voice.mp3)：星尘汇聚成“词与远方”，大门打开 |
 | 🌌 **星图配音** | [「这是你的词汇星图。每学会一个词，就点亮一颗星。」](https://0xlei.tech/words/sfx/voice-galaxy-hello.mp3) |
 | 🎵 **星空音乐** | [一段可无缝循环的原创配乐](https://0xlei.tech/words/sfx/amb-stars.mp3)，默认陪你背词 |
 | 🌧 **6 段环境声** | [雨天图书馆](https://0xlei.tech/words/sfx/amb-rain.mp3) · [清晨海岸](https://0xlei.tech/words/sfx/amb-sea.mp3) · [林间早晨](https://0xlei.tech/words/sfx/amb-forest.mp3) · [夜晚壁炉](https://0xlei.tech/words/sfx/amb-fire.mp3) · [远航船舱](https://0xlei.tech/words/sfx/amb-voyage.mp3) · [安静咖啡馆](https://0xlei.tech/words/sfx/amb-cafe.mp3) |
@@ -195,4 +191,4 @@ b2_environment = [w for w in words if w["cefr"] == "B2" and w["topic"] == "envir
 
 由 [@designfuchen](https://github.com/designfuchen) 制作。产品进展与制作过程见 [X · @yangleiocx3](https://x.com/yangleiocx3)。
 
-如果词光对你有用，欢迎 Star，或把它分享给正在学英语的朋友。
+如果词与远方对你有用，欢迎 Star，或把它分享给正在学英语的朋友。

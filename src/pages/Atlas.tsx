@@ -16,7 +16,7 @@ const STATUS: [Status, string][] = [
   ["all", "全部"],
   ["new", "未学"],
   ["learning", "学习中"],
-  ["mastered", "已掌握"],
+  ["mastered", "较熟悉"],
   ["saved", "收藏"],
 ];
 
@@ -47,7 +47,12 @@ export function AtlasPage({
   );
   // Follow the URL when a link switches views while this page is already open.
   useEffect(() => {
-    if (route.view === "grid" || route.view === "list" || route.view === "galaxy") setViewState(route.view);
+    if (
+      route.view === "grid" ||
+      route.view === "list" ||
+      route.view === "galaxy"
+    )
+      setViewState(route.view);
   }, [route.view]);
   const setView = (v: View) => {
     setViewState(v);
@@ -99,12 +104,13 @@ export function AtlasPage({
         <div>
           <p className="eyebrow">图鉴 · {atlas.count.toLocaleString()} 词</p>
           <h1 className="display">
-            每个词，
+            看图学词，
             <br className="br-sm" />
-            都有一幅画。
+            在语境中理解。
           </h1>
           <p className="lede">
-            {atlas.examples.toLocaleString()} 条原创例句 · 英美发音 · 按难度和 {atlas.topics.length} 个雅思话题整理
+            {atlas.examples.toLocaleString()} 条原创例句 · 英美发音 · 按难度和{" "}
+            {atlas.topics.length} 个雅思话题整理
           </p>
         </div>
         <label className="search">
@@ -136,7 +142,7 @@ export function AtlasPage({
                 className={`chip-btn ${!level ? "is-on" : ""}`}
                 onClick={() => setFilter({ level: undefined })}
               >
-                所有难度
+                全部难度
               </button>
               {atlas.cefr.map((l) => (
                 <button
@@ -146,16 +152,19 @@ export function AtlasPage({
                     setFilter({ level: level === l ? undefined : l })
                   }
                 >
+                  {["入门", "基础", "进阶", "中高级", "高级", "熟练"][
+                    atlas.cefr.indexOf(l)
+                  ] ?? ""}{" "}
                   {l}
                 </button>
               ))}
             </div>
-            <div className="chips chips-scroll" role="group" aria-label="主题">
+            <div className="chips chips-scroll" role="group" aria-label="话题">
               <button
                 className={`chip-btn ${!topic ? "is-on" : ""}`}
                 onClick={() => setFilter({ topic: undefined })}
               >
-                所有主题
+                全部话题
               </button>
               {atlas.topics.map(([k, name]) => (
                 <button
@@ -305,7 +314,7 @@ function VirtualGrid({
     Math.floor((width + gap) / ((width < 560 ? 150 : 188) + gap)),
   );
   const cell = (width - gap * (cols - 1)) / cols;
-  const rowH = cell + (width < 560 ? 62 : 74) + gap;
+  const rowH = cell + (width < 560 ? 128 : 74) + gap;
   const rows = Math.ceil(items.length / cols);
   const [a, b] = useWindowRange(box, rowH, rows);
   const visible: React.ReactNode[] = [];
@@ -329,7 +338,12 @@ function VirtualGrid({
               width: cell,
               height: rowH - gap,
             }}
-            onClick={(e) => morphFrom(e.currentTarget.querySelector<HTMLElement>(".illo"), () => openWord(w.id))}
+            onClick={(e) =>
+              morphFrom(
+                e.currentTarget.querySelector<HTMLElement>(".illo"),
+                () => openWord(w.id),
+              )
+            }
           >
             <Illustration
               src={atlas.img(w, "thumb")}

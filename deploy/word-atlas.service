@@ -1,0 +1,28 @@
+[Unit]
+Description=Words & Beyond vocabulary learning application
+After=network.target
+
+[Service]
+Type=simple
+User=word-atlas
+Group=word-atlas
+WorkingDirectory=/data/word-atlas
+ExecStart=/opt/nodejs/node-v24.22.1-linux-x64/bin/node /data/word-atlas/scripts/server.mjs
+Environment=PORT=80
+Environment=NODE_ENV=production
+EnvironmentFile=-/etc/word-atlas/environment
+EnvironmentFile=-/etc/word-atlas/mail.env
+StateDirectory=word-atlas
+StateDirectoryMode=0750
+ReadWritePaths=/var/lib/word-atlas
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

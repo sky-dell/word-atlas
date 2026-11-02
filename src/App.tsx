@@ -1,10 +1,35 @@
-import { BookOpen, ChevronLeft, ChevronRight, Compass, Github, Keyboard, Moon, Search, Sun, User } from "lucide-react";
-import { useCallback, useEffect, useState } from "react";
+import {
+  BookOpen,
+  ChevronLeft,
+  ChevronRight,
+  Compass,
+  Keyboard,
+  Moon,
+  Search,
+  Sun,
+  User,
+} from "lucide-react";
+import {
+  Component,
+  Suspense,
+  lazy,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
 import { AtlasContext, useAtlas, useEntry } from "./atlas/context";
 import { loadOpenAtlas, loadPrivateAtlas } from "./atlas/data";
 import type { Atlas } from "./atlas/types";
-import { REPO_URL } from "./config";
-import { closeWord, currentLocation, go, openWord, useLocation, type Route } from "./lib/router";
+import {
+  closeWord,
+  currentLocation,
+  go,
+  openWord,
+  useLocation,
+  type Route,
+} from "./lib/router";
 import { AtlasPage } from "./pages/Atlas";
 import { About } from "./pages/About";
 import { Learn } from "./pages/Learn";
@@ -19,35 +44,95 @@ import { AmbienceController, AmbiencePicker } from "./ui/Ambience";
 import { Logo } from "./ui/Logo";
 import { Palette } from "./ui/Palette";
 import { Sheet } from "./ui/Sheet";
-import { shouldShowSplash, Splash } from "./ui/Splash";
 import { Toasts } from "./ui/Toast";
+import { useAccount } from "./account/state";
+import { clearGuestEntry, hasGuestEntry, rememberGuestEntry } from "./account/entry";
+import { EntryGate } from "./pages/EntryGate";
+import { SITE_TAGLINE } from "./config";
+import { AccountMenu } from "./ui/AccountMenu";
+import { AdminPage } from "./pages/Admin";
+import {
+  AppearanceController,
+  setAppearance,
+  useAppearance,
+} from "./ui/Appearance";
+
+const Reading = lazy(() =>
+  import("./pages/Reading").then((m) => ({ default: m.Reading })),
+);
+const Drills = lazy(() =>
+  import("./pages/Drills").then((m) => ({ default: m.Drills })),
+);
+
+class PageBoundary extends Component<
+  { children: ReactNode },
+  { error: boolean }
+> {
+  state = { error: false };
+  static getDerivedStateFromError() {
+    return { error: true };
+  }
+  render() {
+    return this.state.error ? (
+      <section className="page panel" role="alert">
+        <h1>页面暂时无法打开</h1>
+        <p>学习记录仍保存在当前浏览器中，请刷新后重试。</p>
+        <button className="btn" onClick={() => location.reload()}>
+          重新加载
+        </button>
+      </section>
+    ) : (
+      this.props.children
+    );
+  }
+}
 
 const NAV: { page: Route["page"]; label: string; icon: typeof Compass }[] = [
   { page: "today", label: "今日", icon: Compass },
   { page: "atlas", label: "图鉴", icon: BookOpen },
+  { page: "read", label: "书房", icon: BookOpen },
   { page: "practice", label: "练习", icon: Keyboard },
   { page: "me", label: "我的", icon: User },
 ];
 
-function useTheme() {
-  const theme = useStore((s) => s.settings.theme);
-  useEffect(() => {
-    const root = document.documentElement;
-    if (theme === "system") root.removeAttribute("data-theme");
-    else root.setAttribute("data-theme", theme);
-    const dark = theme === "dark" || (theme === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
-    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", dark ? "#0D1120" : "#F6F1E7");
-  }, [theme]);
-  return theme;
-}
-
 export default function App() {
+  const account = useAccount();
+  const { route } = useLocation();
+  const [guestEntry, setGuestEntry] = useState(hasGuestEntry);
+  const entryPending = useRef(false);
+  const previousUser = useRef<string | null>(null);
+  // Preserve the signed-in account menu across identity-loading screens.
+  const [accountOpen, setAccountOpen] = useState(route.page === "account");
+  useEffect(() => {
+    if (!account.loading && !account.user && (!guestEntry || route.page === 'account' || route.page === 'admin')) entryPending.current = true;
+  }, [account.loading, account.user?.id, guestEntry, route.page]);
+  useEffect(() => {
+    if (account.user) {
+      clearGuestEntry(); setGuestEntry(false);
+      if (entryPending.current) {
+        entryPending.current = false; setAccountOpen(false);
+        if (currentLocation().route.page === "account") go({ page: "me" }, null, true);
+      }
+    } else if (previousUser.current) {
+      setAccountOpen(false);
+      if (currentLocation().route.page === "account") go({ page: "me" }, null, true);
+    }
+    previousUser.current = account.user?.id ?? null;
+  }, [account.user?.id]);
+  useEffect(() => setAccountOpen(route.page === "account"), [route.page]);
+  const closeAccount = useCallback(() => {
+    setAccountOpen(false);
+    if (currentLocation().route.page === "account") go({ page: "me" }, null, true);
+  }, []);
+  const returnToEntry = useCallback(() => {
+    clearGuestEntry(); setGuestEntry(false); entryPending.current=true; setAccountOpen(false);
+  }, []);
   const [atlas, setAtlas] = useState<Atlas | null>(null);
   const [open, setOpen] = useState<Atlas | null>(null);
   const [priv, setPriv] = useState<Atlas | null>(null);
   const [error, setError] = useState<string | null>(null);
   const dataset = useStore((s) => s.settings.dataset);
-  useTheme();
+  const ready = useStore((s) => s.ready);
 
   useEffect(() => {
     loadOpenAtlas().then(
@@ -77,26 +162,40 @@ export default function App() {
         </button>
       </div>
     );
-  if (!atlas)
+  if (!atlas || !ready || account.loading)
     return (
       <div className="boot" aria-busy="true">
         <Logo />
         <span className="spinner" />
       </div>
     );
+  if (!account.user && (!guestEntry || route.page === 'account' || route.page === 'admin')) return <EntryGate
+    key={route.page === "account" ? "account-entry" : "entry"}
+    initialLogin={route.page === "account"}
+    onGuest={() => {
+      rememberGuestEntry(); entryPending.current = false; setGuestEntry(true); setAccountOpen(false);
+      if (currentLocation().route.page === "account") go({ page: "me" }, null, true);
+      else if (currentLocation().route.page === 'admin') go({page:'today'},null,true);
+    }}
+  />;
   return (
     <AtlasContext.Provider value={atlas}>
-      <Shell privateAvailable={!!priv} />
+      <Shell privateAvailable={!!priv} accountOpen={accountOpen && !entryPending.current} onAccountOpen={() => setAccountOpen(true)} onAccountClose={closeAccount} onEntry={returnToEntry} />
     </AtlasContext.Provider>
   );
 }
 
-function Shell({ privateAvailable }: { privateAvailable: boolean }) {
+function Shell({ privateAvailable, accountOpen, onAccountOpen, onAccountClose, onEntry }: {
+  privateAvailable: boolean;
+  accountOpen: boolean;
+  onAccountOpen: () => void;
+  onAccountClose: () => void;
+  onEntry: () => void;
+}) {
   const { route, word } = useLocation();
   const onboarded = useStore((s) => s.settings.onboarded);
-  const theme = useStore((s) => s.settings.theme);
+  const { theme } = useAppearance();
   const [palette, setPalette] = useState(false);
-  const [splash, setSplash] = useState(shouldShowSplash);
   const focus = route.page === "learn";
 
   useEffect(() => {
@@ -119,65 +218,110 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
     if (!word) window.scrollTo({ top: 0 });
   }, [route.page]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const dark = theme === "dark" || (theme === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
+  const dark =
+    theme === "dark" ||
+    theme === "starlight" ||
+    theme === "aurora" ||
+    (theme === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
 
   return (
     <div className={`app ${focus ? "is-focus" : ""}`}>
+      <AppearanceController />
       {!focus && (
         <header className="topbar">
-          <a className="topbar-logo" href="#/" aria-label="词光 Word Atlas 首页">
+          <a
+            className="topbar-logo"
+            href="#/"
+            aria-label="词与远方 Words & Beyond 首页"
+          >
             <Logo />
           </a>
           <nav className="topnav" aria-label="主导航">
             {NAV.map(({ page, label }) => (
-              <a key={page} href={page === "today" ? "#/" : `#/${page}`} className={route.page === page ? "is-on" : ""} aria-current={route.page === page ? "page" : undefined}>
+              <a
+                key={page}
+                href={page === "today" ? "#/" : `#/${page}`}
+                className={route.page === page ? "is-on" : ""}
+                aria-current={route.page === page ? "page" : undefined}
+              >
                 {label}
               </a>
             ))}
           </nav>
           <div className="topbar-tools">
-            <button className="search-pill" onClick={() => setPalette(true)} aria-label="搜索单词">
+            <button
+              className="search-pill"
+              onClick={() => setPalette(true)}
+              aria-label="搜索单词"
+            >
               <Search size={17} />
               <span>搜索单词</span>
               <kbd>⌘K</kbd>
             </button>
             <AmbiencePicker />
-            <button className="icon-btn" onClick={() => store.settings({ theme: dark ? "light" : "dark" })} aria-label={dark ? "切换到浅色" : "切换到深色"}>
+            <button
+              className="icon-btn"
+              onClick={() =>
+                setAppearance({ theme: dark ? "light" : "starlight" })
+              }
+              aria-label={dark ? "切换到浅色" : "切换到深色"}
+            >
               {dark ? <Sun size={19} /> : <Moon size={19} />}
             </button>
-            <a className="icon-btn hide-sm" href="#/about" aria-label="关于与开源" title="关于与开源">
-              <Github size={19} />
-            </a>
+            <AccountMenu open={accountOpen} onToggle={() => accountOpen ? onAccountClose() : onAccountOpen()} onClose={onAccountClose} onEnter={onEntry} />
           </div>
         </header>
       )}
 
       <main className="main" id="main">
-        {route.page === "today" && <Today />}
-        {route.page === "atlas" && <AtlasPage route={route} />}
-        {route.page === "learn" && <Learn />}
-        {route.page === "practice" && <Practice />}
-        {route.page === "me" && <Me privateAvailable={privateAvailable} />}
-        {route.page === "about" && <About />}
+        <PageBoundary key={route.page}>
+          <Suspense
+            fallback={
+              <div className="boot" aria-busy="true">
+                <span className="spinner" />
+              </div>
+            }
+          >
+            {route.page === "today" && <Today />}
+            {route.page === "atlas" && <AtlasPage route={route} />}
+            {route.page === "learn" && <Learn />}
+            {route.page === "practice" && <Practice />}
+            {(route.page === "me" || route.page === "account") && (
+              <Me
+                privateAvailable={privateAvailable}
+                appearanceCapabilities={{
+                  route: true,
+                  recall: true,
+                  repeatGap: true,
+                  examPlan: true,
+                }}
+              />
+            )}
+            {route.page === "about" && <About />}
+            {route.page === "admin" && <AdminPage />}
+            {route.page === "read" && <Reading />}
+            {route.page === "paraphrase" && <Drills mode="paraphrase" />}
+            {route.page === "confuse" && <Drills mode="confuse" />}
+          </Suspense>
+        </PageBoundary>
       </main>
 
       {!focus && (
         <footer className="footer">
           <Logo compact />
-          <p>
-            一词一画，点亮雅思 · 免费开源 ·{" "}
-            <a href={REPO_URL} target="_blank" rel="noreferrer">
-              GitHub
-            </a>{" "}
-            · <a href="#/about">关于</a>
-          </p>
+          <p>{SITE_TAGLINE}</p>
         </footer>
       )}
 
       {!focus && (
         <nav className="tabbar" aria-label="主导航">
           {NAV.map(({ page, label, icon: Icon }) => (
-            <a key={page} href={page === "today" ? "#/" : `#/${page}`} className={route.page === page ? "is-on" : ""} aria-current={route.page === page ? "page" : undefined}>
+            <a
+              key={page}
+              href={page === "today" ? "#/" : `#/${page}`}
+              className={route.page === page ? "is-on" : ""}
+              aria-current={route.page === page ? "page" : undefined}
+            >
               <Icon size={22} strokeWidth={route.page === page ? 2.1 : 1.7} />
               <span>{label}</span>
             </a>
@@ -187,8 +331,7 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
 
       <WordSheet id={word} />
       <Palette open={palette} onClose={() => setPalette(false)} />
-      {!onboarded && route.page !== "about" && !splash && <Onboarding />}
-      {splash && <Splash onDone={() => setSplash(false)} />}
+      {!onboarded && route.page !== "about" && <Onboarding />}
       <Toasts />
       <AmbienceController />
     </div>
@@ -222,7 +365,12 @@ function WordSheet({ id }: { id: string | null }) {
     return () => window.removeEventListener("keydown", on);
   }, [id, neighbor]);
   return (
-    <Sheet open={!!id} onClose={closeWord} label={ref ? `${ref.word} 词条` : "词条"} wide>
+    <Sheet
+      open={!!id}
+      onClose={closeWord}
+      label={ref ? `${ref.word} 词条` : "词条"}
+      wide
+    >
       {entry ? (
         <EntryView key={entry.id} entry={entry} />
       ) : error ? (
@@ -232,13 +380,23 @@ function WordSheet({ id }: { id: string | null }) {
       )}
       {ref && (
         <nav className="sheet-nav" aria-label="切换词条">
-          <button className="icon-btn" onClick={() => neighbor(-1)} disabled={ref.order === 0} aria-label="上一个">
+          <button
+            className="icon-btn"
+            onClick={() => neighbor(-1)}
+            disabled={ref.order === 0}
+            aria-label="上一个"
+          >
             <ChevronLeft size={20} />
           </button>
           <span>
             {(ref.order + 1).toLocaleString()} / {atlas.count.toLocaleString()}
           </span>
-          <button className="icon-btn" onClick={() => neighbor(1)} disabled={ref.order >= atlas.count - 1} aria-label="下一个">
+          <button
+            className="icon-btn"
+            onClick={() => neighbor(1)}
+            disabled={ref.order >= atlas.count - 1}
+            aria-label="下一个"
+          >
             <ChevronRight size={20} />
           </button>
         </nav>
