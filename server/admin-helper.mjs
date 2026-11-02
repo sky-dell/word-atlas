@@ -65,6 +65,7 @@ export function createHelperServer({
     let operation = null;
     let committed = false;
     let mailAction = false;
+    let result;
     try {
       const declared = Number(req.headers["content-length"] || 0);
       if (declared > 140000) throw { status: 413 };
@@ -152,14 +153,14 @@ export function createHelperServer({
         };
         journal.start(operation);
       }
-      let result;
       if (action === "mail-save") {
         await mailStore(mailFile, normalizedMail);
+        committed = true;
         result = mailStatus(normalizedMail);
       } else {
         result = await manager[method](payload);
+        committed = true;
       }
-      committed = true;
       if (operation) {
         journal.finish(
           operation.id,
@@ -169,6 +170,12 @@ export function createHelperServer({
       }
       send(200, result);
     } catch (error) {
+      if (committed && operation?.action === "mail-save" && result) {
+        // The atomic mail file is authoritative once committed. A later
+        // journal failure must not report the provider change as failed.
+        send(200, result);
+        return;
+      }
       if (operation) {
         try {
           journal.finish(

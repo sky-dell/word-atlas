@@ -2,6 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import http from 'node:http';
 import {createHelperServer} from './admin-helper.mjs';
+import {readMailStore} from './mail-store.mjs';
 import {openOperationJournal} from './operation-journal.mjs';
 import {mkdtemp,rm} from 'node:fs/promises';
 import os from 'node:os';
@@ -125,4 +126,44 @@ test('mail-save records failure without returning the password',async t=>{
   assert.equal(journal.list()[0].action,'mail-save');
   assert.equal(journal.list()[0].state,'failure');
   assert.doesNotMatch(JSON.stringify(journal.list()),new RegExp(password));
+});
+
+test('mail-save stays successful when success journaling throws after the store commits',async t=>{
+  const dir=await mkdtemp(path.join(os.tmpdir(),'wa-mail-helper-committed-'));
+  const realJournal=openOperationJournal(path.join(dir,'operations.sqlite'));
+  const journal={
+    start:operation=>realJournal.start(operation),
+    finish:(id,state,fingerprint)=>{
+      if(state==='success')throw new Error('journal success write failed');
+      realJournal.finish(id,state,fingerprint);
+    },
+    list:()=>realJournal.list(),
+  };
+  const mailFile=path.join(dir,'mail.env');
+  const password='committed-provider-secret';
+  const server=createHelperServer({journal,manager:{},mailFile});
+  await new Promise(r=>server.listen(0,'127.0.0.1',r));
+  t.after(async()=>{await new Promise(r=>server.close(r));realJournal.close();await rm(dir,{recursive:true,force:true});});
+  const response=await fetch('http://127.0.0.1:'+server.address().port,{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      action:'mail-save',
+      payload:{
+        host:'smtp.example.com',
+        port:465,
+        security:'tls',
+        user:'sender@example.com',
+        password,
+        from:'sender@example.com',
+        fromName:'',
+      },
+      context:{operationId:'f'.repeat(32),actorId:'mail-admin'},
+    }),
+  });
+  const responseText=await response.text();
+  assert.equal(response.status,200);
+  assert.doesNotMatch(responseText,new RegExp(password));
+  assert.equal((await readMailStore(mailFile)).password,password);
+  assert.equal(realJournal.list()[0].state,'started');
 });
