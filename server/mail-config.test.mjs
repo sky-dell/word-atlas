@@ -35,7 +35,7 @@ test("normalizes any TLS SMTP provider without exposing the password", () => {
     security: "tls",
     user: "smtp-login@example.com",
     password: secret,
-    from: "sender@xn--fsqu00a.xn--0zwm56d",
+    from: "Sender@xn--fsqu00a.xn--0zwm56d",
     fromName: "邮件发送者",
   });
   assert.deepEqual(Object.keys(config), [
@@ -57,6 +57,15 @@ test("normalizes any TLS SMTP provider without exposing the password", () => {
       return true;
     },
   );
+});
+
+test("preserves sender local-part case while normalizing only the hostname", () => {
+  const config = normalizeMailConfig({
+    ...base,
+    from: "Sender.Name+tag@例子.测试",
+  });
+
+  assert.equal(config.from, "Sender.Name+tag@xn--fsqu00a.xn--0zwm56d");
 });
 
 test("rejects malformed provider fields and CRLF injection", () => {
@@ -205,6 +214,19 @@ test("serializes and re-parses generic SMTP environment configuration", () => {
     () => mailEnvFile(starttls, "not-a-secret"),
     { code: "invalid_mail_config" },
   );
+});
+
+test("round-trips marker-prefixed environment values", () => {
+  const marker = "__atlas_base64__:c2VjcmV0";
+  const config = normalizeMailConfig({
+    ...base,
+    user: marker,
+    password: marker,
+    fromName: marker,
+  });
+  const env = parseEnv(mailEnvFile(config, "c".repeat(64)));
+
+  assert.deepEqual(mailConfigFromEnv(env), config);
 });
 
 test("pins one validated public SMTP address", async () => {

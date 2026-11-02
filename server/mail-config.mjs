@@ -158,7 +158,7 @@ function normalizeFrom(value) {
   ) {
     invalid();
   }
-  const normalized = `${local.toLowerCase()}@${normalizeHost(rawDomain)}`;
+  const normalized = `${local}@${normalizeHost(rawDomain)}`;
   if (normalized.length > FROM_MAX) invalid();
   return normalized;
 }
@@ -195,8 +195,13 @@ export function normalizeMailConfig(input, options = {}) {
 
 function envValue(value) {
   if (value === "") return "";
-  if (/^[^\s#'"\\]+$/u.test(value)) return value;
-  return `${ENV_VALUE_PREFIX}${Buffer.from(value, "utf8").toString("base64")}`;
+  if (
+    value.startsWith(ENV_VALUE_PREFIX) ||
+    !/^[^\s#'"\\]+$/u.test(value)
+  ) {
+    return `${ENV_VALUE_PREFIX}${Buffer.from(value, "utf8").toString("base64")}`;
+  }
+  return value;
 }
 
 function decodeEnvValue(value) {
