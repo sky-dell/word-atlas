@@ -1,1 +1,24 @@
-{"name":"词光 Word Atlas","short_name":"词光","description":"一词一画，点亮雅思","start_url":"./","display":"standalone","background_color":"#F3ECDF","theme_color":"#F3ECDF","icons":[{"src":"favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
+{
+  "name": "词与远方 · Words & Beyond",
+  "short_name": "词与远方",
+  "description": "多懂一个词，多看一点世界。",
+  "start_url": "./app.htm#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080B18",
+  "theme_color": "#080B18",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
