@@ -227,6 +227,12 @@ export function createAccounts({
       "Email code sender requires a persistent secret of at least 32 bytes",
     );
   let currentMailPassword = mailPassword;
+  let mailSaveQueue = Promise.resolve();
+  function serializeMailSave(task) {
+    const job = mailSaveQueue.then(task, task);
+    mailSaveQueue = job.catch(() => {});
+    return job;
+  }
   const emailEnabled = mailConfigured;
   if (
     ![accountQuotaBytes, cloudQuotaBytes].every(
@@ -1032,9 +1038,9 @@ export function createAccounts({
         owner(req, s, true);
         const testing = path.endsWith("/test");
         rate(req, testing ? "mail_test" : "mail_save", 10, 60000, s.user_id);
-        const candidate = mailCandidate(body);
-        const before = publicMailStatus(mailRuntime.status());
         if (testing) {
+          const candidate = mailCandidate(body);
+          const before = publicMailStatus(mailRuntime.status());
           let result;
           try {
             result = publicVerification(await mailRuntime.verify(candidate));
@@ -1057,32 +1063,44 @@ export function createAccounts({
 
         if (!operations)
           fail(503, "mail_operation_failed", "邮件配置服务暂不可用，请稍后重试。");
-        const operationId = randomBytes(16).toString("hex");
-        let stored;
-        try {
-          stored = await operations.request("mail-save", candidate, {
-            operationId,
-            actorId: s.user_id,
-          });
-        } catch {
-          audit(s.user_id, s.user_id, "mail_save_failed", before, {
-            code: "mail_operation_failed",
-          });
-          fail(
-            503,
-            "mail_operation_failed",
-            "邮件配置服务暂不可用，请稍后重试。",
-          );
-        }
-        if (stored?.codeSecret !== undefined) {
-          if (
-            typeof stored.codeSecret !== "string" ||
-            !/^[a-f0-9]{64}$/i.test(stored.codeSecret)
-          ) {
-            audit(s.user_id, s.user_id, "mail_save_failed", before, {
-              code: "mail_code_secret_invalid",
+        return serializeMailSave(async () => {
+          const candidate = mailCandidate(body);
+          const before = publicMailStatus(mailRuntime.status());
+          const operationId = randomBytes(16).toString("hex");
+          let prepared = null;
+          const canPrepare =
+            typeof mailRuntime.prepare === "function" &&
+            typeof mailRuntime.activate === "function";
+          if (canPrepare) {
+            try {
+              prepared = await mailRuntime.prepare(candidate);
+            } catch {
+              audit(s.user_id, s.user_id, "mail_save_prepare_failed", before, {
+                code: "mail_prepare_failed",
+              });
+              fail(
+                503,
+                "mail_prepare_failed",
+                "邮件服务配置未保存，运行时准备失败。",
+              );
+            }
+          }
+          const discardPrepared = () => {
+            if (!prepared || typeof mailRuntime.discard !== "function") return;
+            try {
+              mailRuntime.discard(prepared);
+            } catch {}
+          };
+          let stored;
+          try {
+            stored = await operations.request("mail-save", candidate, {
               operationId,
-              persisted: true,
+              actorId: s.user_id,
+            });
+          } catch {
+            discardPrepared();
+            audit(s.user_id, s.user_id, "mail_save_failed", before, {
+              code: "mail_operation_failed",
             });
             fail(
               503,
@@ -1090,36 +1108,52 @@ export function createAccounts({
               "邮件配置服务暂不可用，请稍后重试。",
             );
           }
-          emailCodeSecret = stored.codeSecret;
-        } else if (!validEmailCodeSecret(emailCodeSecret)) {
-          audit(s.user_id, s.user_id, "mail_save_failed", before, {
-            code: "mail_code_secret_unavailable",
+          currentMailPassword = candidate.password;
+          const persistedInactive = (code) => {
+            discardPrepared();
+            audit(
+              s.user_id,
+              s.user_id,
+              "mail_save_activation_failed",
+              before,
+              {
+                code,
+                operationId,
+                persisted: true,
+                active: false,
+              },
+            );
+            fail(
+              503,
+              "mail_activation_failed",
+              "邮件服务配置已保存，但当前运行时尚未启用，请重试或重启服务。",
+              { persisted: true, active: false },
+            );
+          };
+          if (stored?.codeSecret !== undefined) {
+            if (
+              typeof stored.codeSecret !== "string" ||
+              !/^[a-f0-9]{64}$/i.test(stored.codeSecret)
+            ) {
+              persistedInactive("mail_code_secret_invalid");
+            }
+            emailCodeSecret = stored.codeSecret;
+          } else if (!validEmailCodeSecret(emailCodeSecret)) {
+            persistedInactive("mail_code_secret_unavailable");
+          }
+          try {
+            if (prepared) await mailRuntime.activate(prepared);
+            else await mailRuntime.apply(candidate);
+          } catch {
+            persistedInactive("mail_activation_failed");
+          }
+          const after = publicMailStatus(mailRuntime.status());
+          audit(s.user_id, s.user_id, "mail_save", before, {
+            ...after,
             operationId,
-            persisted: true,
           });
-          fail(
-            503,
-            "mail_operation_failed",
-            "邮件配置服务暂不可用，请稍后重试。",
-          );
-        }
-        currentMailPassword = candidate.password;
-        try {
-          await mailRuntime.apply(candidate);
-        } catch {
-          audit(s.user_id, s.user_id, "mail_save_apply_failed", before, {
-            code: "mail_apply_failed",
-            operationId,
-            persisted: true,
-          });
-          fail(503, "mail_apply_failed", "邮件服务配置已保存，但运行时更新失败。");
-        }
-        const after = publicMailStatus(mailRuntime.status());
-        audit(s.user_id, s.user_id, "mail_save", before, {
-          ...after,
-          operationId,
+          return after;
         });
-        return after;
       }
       if(method==='GET'&&path==='/api/admin/logins'){
         const q=url.searchParams.get('q')||'',page=Number(url.searchParams.get('page')||1),limit=Number(url.searchParams.get('limit')??50);

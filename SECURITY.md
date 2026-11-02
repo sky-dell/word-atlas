@@ -16,7 +16,7 @@ Account login requires HTTPS. Passwords are salted slow hashes, session/reset to
 
 网页运行不需要任何 API key。只有 `scripts/atlas/` 中的内容生成脚本需要调用模型服务，它们从环境变量（`SUB2_BASE_URL`、`SUB2_API_KEY`、`ELEVENLABS_API_KEY`）或仓库外的目录（`ATLAS_SECRETS`）读取凭据，不会写入仓库。
 
-验证码邮件使用126 SMTP TLS，发件地址 `sz_allen@126.com`；客户端授权码与验证码HMAC密钥只放在 `/etc/word-atlas/mail.env`（root所有、0600），由systemd加载，不写入源码、静态包、数据库、日志或聊天。使用交互工具 `scripts/configure-mail.mjs` 隐藏录入；缺少配置时邮箱服务明确不可用，不能使用固定测试验证码作为生产回退。恢复旧数据库后必须执行 `scripts/admin.mjs invalidate-sessions`，同时清除会话、重置凭据及邮箱验证码。
+验证码邮件支持任意符合要求的 SMTP 服务商，只允许隐式 TLS 或 STARTTLS，并强制校验证书与使用 TLS 1.2 以上。SMTP 授权码与验证码 HMAC 密钥只放在 `/etc/word-atlas/mail.env`（root 所有、0600），由 systemd 加载，不写入源码、静态包、数据库、日志或聊天。可通过管理页或交互工具 `scripts/configure-mail.mjs` 隐藏录入；缺少配置时邮箱服务明确不可用，不能使用固定测试验证码作为生产回退。恢复旧数据库后必须执行 `scripts/admin.mjs invalidate-sessions`，同时清除会话、重置凭据及邮箱验证码。
 
 - 不要使用 `VITE_*` 变量存放凭据，它们会被打包进浏览器代码。
 - 公开前运行 `npm run pack:public`，它会按白名单导出并扫描凭据和个人路径。扫描是辅助手段，不能替代人工检查。

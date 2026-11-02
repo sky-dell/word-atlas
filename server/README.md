@@ -46,13 +46,17 @@ instance's pending codes and prevents any late settlement from accessing SQLite.
 It does not wait for or falsely cancel underlying SMTP promises.
 
 `createMailRuntime(initialConfig)` returns a stable runtime with
-`{status,verify,apply,sendCode,sendTest,close}`. `status()` returns only
-non-secret provider fields. `verify(candidate)` and `apply(candidate)` validate
-the complete candidate without returning its authorization credential.
-`apply` replaces the active transport after a successful switch, so the next
-message uses the new provider without restarting the process. A blank
-authorization credential preserves the currently loaded credential only when a
-provider is already configured.
+`{status,verify,prepare,activate,discard,apply,sendCode,sendTest,close}`.
+`status()` returns only non-secret provider fields. `verify(candidate)` checks
+the complete candidate without changing state. `prepare(candidate)` normalizes
+the candidate and resolves its public address before persistence;
+`activate(prepared)` then switches the transport with a bounded synchronous
+step. `discard(prepared)` releases a prepared candidate if persistence fails.
+`apply(candidate)` remains a convenience wrapper around prepare and activate.
+None of these methods return the authorization credential. Activation replaces
+the active transport so the next message uses the new provider without
+restarting the process. A blank authorization credential preserves the
+currently loaded credential only when a provider is already configured.
 
 The environment contract is generic. The browser admin form stores the same
 seven provider fields, with `SMTP_SECURE` representing the security mode:
@@ -92,12 +96,15 @@ reauthentication; each is separately rate limited. Testing performs transport
 verification without changing the active provider. Saving requires the
 restricted root helper at its configured Unix-socket path
 (`/run/word-atlas-admin/control.sock` by default) and its allowlisted
-`mail-save` action. The helper writes the root-private file; only after the
-atomic write succeeds does the web process apply the returned runtime
-configuration. If the helper is unavailable, read-only status still works but
-save returns a generic service error. Provider errors and authorization
-credentials are not returned through HTTP, written to audit records, or placed
-in status responses.
+`mail-save` action. The web process prepares the candidate before persistence,
+serializes the prepare/write/activate transition per account service, and only
+starts the activation after the atomic helper write succeeds. If activation
+fails after the file commit, the response is `503` with
+`code:"mail_activation_failed"`, `persisted:true` and `active:false`; it is not
+reported as an unsaved generic failure. If the helper is unavailable, read-only
+status still works but save returns a generic service error. Provider errors and
+authorization credentials are not returned through HTTP, written to audit
+records, or placed in status responses.
 
 The authorization credential can never be read back. `GET /api/admin/mail`
 returns only `configured`, `host`, `port`, `security`, `user`, `from`,

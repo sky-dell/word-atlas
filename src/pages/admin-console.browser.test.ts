@@ -94,6 +94,7 @@ test(
       }[] = [];
       const storedMailSecret = "stored-mail-secret";
       let mailConfigured = true;
+      let mailActivationFails = false;
       let mailStatus = {
         configured: true,
         host: "smtp.mail.test",
@@ -242,6 +243,16 @@ test(
           );
         if (url.pathname === "/api/admin/mail" && request.method() === "POST") {
           const candidate = body || {};
+          if (mailActivationFails)
+            return reply(
+              {
+                error: "邮件服务配置已保存，但当前运行时尚未启用，请重试或重启服务。",
+                code: "mail_activation_failed",
+                persisted: true,
+                active: false,
+              },
+              503,
+            );
           mailConfigured = true;
           mailStatus = {
             configured: true,
@@ -382,9 +393,12 @@ test(
       await page.getByText("smtp.mail.test:465", { exact: true }).waitFor();
       await page.getByText("邮件服务", { exact: true }).last().waitFor();
       assert.equal(
-        (await page.getByText("mailer@example.test", { exact: true }).count()) >
-          0,
-        true,
+        await mailStatusCard
+          .getByText("登录账号", { exact: true })
+          .locator("xpath=following-sibling::dd")
+          .textContent(),
+        "mailer@example.test",
+        "status summary must show the configured SMTP login account",
       );
       assert.equal(
         (await page.locator("body").innerText()).includes(storedMailSecret),
@@ -437,7 +451,7 @@ test(
       await page
         .getByLabel("管理员密码", { exact: true })
         .fill("FixtureOnly!2");
-      await page.getByRole("button", { name: "测试连接", exact: true }).click();
+      await page.getByRole("button", { name: "验证连接", exact: true }).click();
       await page.getByText("连接成功", { exact: false }).waitFor();
       const mailTestIndex = calls
         .map(
@@ -457,8 +471,8 @@ test(
       });
       assert.equal(
         await page.getByLabel("SMTP 授权码", { exact: true }).inputValue(),
-        "",
-        "authorization code must clear after test",
+        "candidate-auth-code",
+        "successful verification must preserve the tested credential until save",
       );
       assert.ok(
         Math.abs(
@@ -476,8 +490,24 @@ test(
         .fill("FixtureOnly!2");
       assert.equal(
         await page.getByLabel("SMTP 授权码", { exact: true }).inputValue(),
-        "",
+        "candidate-auth-code",
+        "tested credential must still be present when save starts",
       );
+      mailActivationFails = true;
+      await page.getByRole("button", { name: "保存配置", exact: true }).click();
+      await page
+        .getByRole("alert")
+        .filter({ hasText: "已保存，但当前运行时尚未启用" })
+        .waitFor();
+      assert.equal(
+        await page.getByLabel("SMTP 授权码", { exact: true }).inputValue(),
+        "candidate-auth-code",
+        "a persisted but inactive result must keep the credential available for retry",
+      );
+      mailActivationFails = false;
+      await page
+        .getByLabel("管理员密码", { exact: true })
+        .fill("FixtureOnly!2");
       await page.getByRole("button", { name: "保存配置", exact: true }).click();
       await page.getByText("smtp.saved.test:587", { exact: true }).waitFor();
       const mailSaveIndex = calls
@@ -491,10 +521,15 @@ test(
         port: 587,
         security: "starttls",
         user: "tester",
-        password: "",
+        password: "candidate-auth-code",
         from: "tester@example.test",
         fromName: "Saved Sender",
       });
+      assert.equal(
+        await page.getByLabel("SMTP 授权码", { exact: true }).inputValue(),
+        "",
+        "successful save must clear the transient credential",
+      );
       assert.ok(
         calls
           .slice(mailSaveIndex + 1)

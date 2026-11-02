@@ -344,6 +344,8 @@ function mailRuntimeDouble({ configured = true, secret = "existing-provider-secr
   const runtime = {
     calls: [],
     verifyError: null,
+    prepareError: null,
+    activateError: null,
     currentStatus: configured
       ? {
           configured: true,
@@ -365,8 +367,15 @@ function mailRuntimeDouble({ configured = true, secret = "existing-provider-secr
       if (this.verifyError) throw this.verifyError;
       return { ok: true, elapsedMs: 37, tlsProtocol: "TLSv1.3" };
     },
-    async apply(input) {
-      this.calls.push({ type: "apply", input });
+    async prepare(input) {
+      this.calls.push({ type: "prepare", input });
+      if (this.prepareError) throw this.prepareError;
+      return { input };
+    },
+    async activate(prepared) {
+      const input = prepared.input;
+      this.calls.push({ type: "activate", input });
+      if (this.activateError) throw this.activateError;
       this.currentStatus = {
         configured: true,
         host: input.host,
@@ -378,6 +387,12 @@ function mailRuntimeDouble({ configured = true, secret = "existing-provider-secr
         secretConfigured: true,
         password: input.password,
       };
+    },
+    discard(prepared) {
+      this.calls.push({ type: "discard", input: prepared.input });
+    },
+    async apply(input) {
+      await this.activate(await this.prepare(input));
     },
     async sendCode() {},
     close() {},
@@ -507,12 +522,24 @@ test("mail save delegates the complete normalized provider to the restricted hel
   const secret = "existing-provider-secret";
   const runtime = mailRuntimeDouble({ secret });
   const helperCalls = [];
+  const sequence = [];
+  const prepare = runtime.prepare.bind(runtime);
+  const activate = runtime.activate.bind(runtime);
+  runtime.prepare = async (input) => {
+    sequence.push("prepare");
+    return prepare(input);
+  };
+  runtime.activate = async (prepared) => {
+    sequence.push("activate");
+    return activate(prepared);
+  };
   let rejectSave = false;
   const operations = {
     request: async (action, payload, context) => {
       helperCalls.push({ action, payload, context });
       if (action === "events") return { events: [] };
       if (action !== "mail-save") throw new Error("unexpected action");
+      sequence.push("persist");
       if (rejectSave)
         throw Object.assign(new Error(`helper rejected ${secret}`), {
           status: 503,
@@ -572,7 +599,11 @@ test("mail save delegates the complete normalized provider to the restricted hel
   });
   assert.match(save.context.operationId, /^[a-f0-9]{32}$/);
   assert.equal(save.context.actorId, admin.user.id);
-  assert.deepEqual(runtime.calls, [{ type: "apply", input: save.payload }]);
+  assert.deepEqual(runtime.calls, [
+    { type: "prepare", input: save.payload },
+    { type: "activate", input: save.payload },
+  ]);
+  assert.deepEqual(sequence, ["prepare", "persist", "activate"]);
   assert.doesNotMatch(JSON.stringify(response.data), new RegExp(secret));
 
   const auditResponse = await admin.request("/api/admin/audit");
@@ -593,7 +624,10 @@ test("mail save delegates the complete normalized provider to the restricted hel
     post({ ...body, host: "other.example.net" }),
   );
   assert.equal(failed.status, 503);
-  assert.equal(runtime.calls.filter((call) => call.type === "apply").length, 1);
+  assert.equal(
+    runtime.calls.filter((call) => call.type === "activate").length,
+    1,
+  );
   assert.equal(runtime.currentStatus.host, "mail.example.net");
   assert.doesNotMatch(JSON.stringify(failed.data), new RegExp(secret));
   const failedAudit = (
@@ -601,6 +635,188 @@ test("mail save delegates the complete normalized provider to the restricted hel
   ).data.audit.find((row) => row.action === "mail_save_failed");
   assert.ok(failedAudit);
   assert.doesNotMatch(JSON.stringify(failedAudit), new RegExp(secret));
+});
+
+test("mail save preparation failure leaves the persisted configuration untouched", async (t) => {
+  const runtime = mailRuntimeDouble();
+  runtime.prepareError = new Error("candidate resolution failed");
+  let helperCalls = 0;
+  const operations = {
+    request: async (action) => {
+      if (action !== "mail-save") throw new Error("unexpected action");
+      helperCalls++;
+      throw new Error("helper must not be called");
+    },
+  };
+  const f = await fixture(t, {
+    mailRuntime: runtime,
+    mailPassword: "existing-provider-secret",
+    operations,
+    emailCodeSecret: "s".repeat(64),
+  });
+  const admin = await f.admin();
+  await reauthenticate(admin);
+  const before = (await admin.request("/api/admin/mail")).data;
+  const response = await admin.request(
+    "/api/admin/mail",
+    post({
+      host: "unresolved.example.net",
+      port: 465,
+      security: "tls",
+      user: "unresolved@example.net",
+      from: "unresolved@example.net",
+      fromName: "Unresolved Provider",
+    }),
+  );
+
+  assert.equal(response.status, 503);
+  assert.equal(response.data.code, "mail_prepare_failed");
+  assert.equal(helperCalls, 0);
+  assert.deepEqual((await admin.request("/api/admin/mail")).data, before);
+});
+
+test("concurrent mail saves serialize persistence and runtime activation", async (t) => {
+  const secret = "existing-provider-secret";
+  const runtime = mailRuntimeDouble({ secret });
+  const writes = [];
+  let activeWrites = 0;
+  let maxActiveWrites = 0;
+  let releaseFirst;
+  const firstGate = new Promise((resolve) => {
+    releaseFirst = resolve;
+  });
+  let seeFirst;
+  const firstEntered = new Promise((resolve) => {
+    seeFirst = resolve;
+  });
+  const operations = {
+    request: async (action, payload) => {
+      if (action !== "mail-save") throw new Error("unexpected action");
+      activeWrites++;
+      maxActiveWrites = Math.max(maxActiveWrites, activeWrites);
+      writes.push(payload.host);
+      if (payload.host === "first.example.net") {
+        seeFirst();
+        await firstGate;
+      }
+      activeWrites--;
+      return {
+        configured: true,
+        host: payload.host,
+        port: payload.port,
+        security: payload.security,
+        user: payload.user,
+        from: payload.from,
+        fromName: payload.fromName,
+        secretConfigured: true,
+      };
+    },
+  };
+  const f = await fixture(t, {
+    mailRuntime: runtime,
+    mailPassword: secret,
+    operations,
+    emailCodeSecret: "s".repeat(64),
+  });
+  const admin = await f.admin();
+  await reauthenticate(admin);
+  const candidate = (host, user) => ({
+    host,
+    port: 465,
+    security: "tls",
+    user,
+    from: user,
+    fromName: user,
+  });
+
+  const first = admin.request(
+    "/api/admin/mail",
+    post(candidate("first.example.net", "first@example.net")),
+  );
+  await firstEntered;
+  const second = admin.request(
+    "/api/admin/mail",
+    post(candidate("second.example.net", "second@example.net")),
+  );
+  await new Promise((resolve) => setTimeout(resolve, 25));
+  assert.equal(
+    activeWrites,
+    1,
+    "a second save must wait for the first persistence/activation transition",
+  );
+  releaseFirst();
+  const results = await Promise.all([first, second]);
+  assert.deepEqual(
+    results.map((result) => result.status),
+    [200, 200],
+  );
+  assert.equal(maxActiveWrites, 1);
+  assert.deepEqual(writes, ["first.example.net", "second.example.net"]);
+  assert.equal(runtime.currentStatus.host, "second.example.net");
+  assert.equal(runtime.currentStatus.user, "second@example.net");
+});
+
+test("mail save reports persisted but inactive when activation fails after the helper commits", async (t) => {
+  const secret = "new-provider-secret";
+  const runtime = mailRuntimeDouble({ secret: "active-provider-secret" });
+  runtime.activateError = new Error(`activation rejected ${secret}`);
+  let persisted = null;
+  const operations = {
+    request: async (action, payload) => {
+      if (action !== "mail-save") throw new Error("unexpected action");
+      persisted = payload;
+      return {
+        configured: true,
+        host: payload.host,
+        port: payload.port,
+        security: payload.security,
+        user: payload.user,
+        from: payload.from,
+        fromName: payload.fromName,
+        secretConfigured: true,
+      };
+    },
+  };
+  const f = await fixture(t, {
+    mailRuntime: runtime,
+    mailPassword: "active-provider-secret",
+    operations,
+    emailCodeSecret: "s".repeat(64),
+  });
+  const admin = await f.admin();
+  await reauthenticate(admin);
+  const before = (await admin.request("/api/admin/mail")).data;
+  const response = await admin.request(
+    "/api/admin/mail",
+    post({
+      host: "new.example.net",
+      port: 465,
+      security: "tls",
+      user: "new@example.net",
+      password: secret,
+      from: "new@example.net",
+      fromName: "New Provider",
+    }),
+  );
+
+  assert.equal(response.status, 503);
+  assert.equal(response.data.code, "mail_activation_failed");
+  assert.equal(response.data.persisted, true);
+  assert.equal(response.data.active, false);
+  assert.match(response.data.error, /已保存/);
+  assert.doesNotMatch(JSON.stringify(response.data), new RegExp(secret));
+  assert.equal(persisted.host, "new.example.net");
+  assert.deepEqual(
+    (await admin.request("/api/admin/mail")).data,
+    before,
+  );
+  const audit = (await admin.request("/api/admin/audit")).data.audit.find(
+    (row) => row.action === "mail_save_activation_failed",
+  );
+  assert.ok(audit);
+  assert.equal(audit.after.persisted, true);
+  assert.equal(audit.after.active, false);
+  assert.doesNotMatch(JSON.stringify(audit), new RegExp(secret));
 });
 
 test("mail test failure leaves status unchanged", async (t) => {

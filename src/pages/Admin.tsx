@@ -1907,7 +1907,6 @@ function MailPanel() {
       },
       epoch = profileGeneration(),
       life = alive.current;
-    setForm((current) => ({ ...current, password: "" }));
     setAdminPassword("");
     setBusy(action);
     let reauthenticated = false;
@@ -1938,19 +1937,26 @@ function MailPanel() {
           body: candidate,
         });
         if (epoch !== profileGeneration() || life !== alive.current) return;
+        setForm((current) => ({ ...current, password: "" }));
         setFeedback({ tone: "status", text: "配置已保存。" });
         resource.reload();
       }
     } catch (cause) {
-      if (epoch === profileGeneration() && life === alive.current)
+      if (epoch === profileGeneration() && life === alive.current) {
+        const activationFailed =
+          cause instanceof AccountError &&
+          cause.data.code === "mail_activation_failed";
         setFeedback({
           tone: "error",
           text: reauthenticated
             ? action === "test"
               ? "连接验证失败。"
-              : "配置保存失败。"
+              : activationFailed
+                ? "配置已保存，但当前运行时尚未启用，请重试或重启服务。"
+                : "配置保存失败。"
             : accountError(cause),
         });
+      }
     } finally {
       if (epoch === profileGeneration() && life === alive.current)
         setBusy(null);
@@ -1983,6 +1989,10 @@ function MailPanel() {
               <div>
                 <dt>加密方式</dt>
                 <dd>{mailSecurityLabel(resource.data.security)}</dd>
+              </div>
+              <div>
+                <dt>登录账号</dt>
+                <dd>{resource.data.user || "—"}</dd>
               </div>
               <div>
                 <dt>发件地址</dt>
@@ -2117,7 +2127,7 @@ function MailPanel() {
                     disabled={busy !== null}
                     onClick={() => void submit("test")}
                   >
-                    {busy === "test" ? "正在测试…" : "测试连接"}
+                    {busy === "test" ? "正在验证…" : "验证连接"}
                   </button>
                   <button
                     type="button"

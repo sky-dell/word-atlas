@@ -46,9 +46,10 @@ export function createMailRuntime(
   let activeDeliveries = 0;
   let generation = 0;
   let closed = false;
+  const preparedCandidates = new WeakMap();
 
-  async function transportState(candidate) {
-    const target = await resolve(candidate.host);
+  async function transportState(candidate, target) {
+    target ||= await resolve(candidate.host);
     const transport = createTransport(mailerOptions(candidate, target));
     return {
       config: candidate,
@@ -157,6 +158,64 @@ export function createMailRuntime(
     }
   }
 
+  async function prepareCandidate(input) {
+    if (closed) {
+      throw publicMailError(
+        "mail_unavailable",
+        "Email provider update failed",
+      );
+    }
+    try {
+      const candidate = normalizeMailConfig(input, {
+        currentPassword: config?.password,
+      });
+      const target = await resolve(candidate.host);
+      const prepared = Object.freeze({});
+      preparedCandidates.set(prepared, { candidate, target });
+      return prepared;
+    } catch {
+      throw publicMailError("mail_apply_failed", "Email provider update failed");
+    }
+  }
+
+  function activatePrepared(prepared) {
+    if (closed) {
+      throw publicMailError(
+        "mail_unavailable",
+        "Email provider update failed",
+      );
+    }
+    const pending = preparedCandidates.get(prepared);
+    if (!pending) {
+      throw publicMailError("mail_apply_failed", "Email provider update failed");
+    }
+    preparedCandidates.delete(prepared);
+    let next;
+    try {
+      next = {
+        config: pending.candidate,
+        transport: createTransport(
+          mailerOptions(pending.candidate, pending.target),
+        ),
+        pending: 0,
+        closing: false,
+      };
+    } catch {
+      throw publicMailError("mail_apply_failed", "Email provider update failed");
+    }
+
+    const previous = active;
+    generation++;
+    config = next.config;
+    active = next;
+    activePromise = Promise.resolve(next);
+    retire(previous);
+  }
+
+  function discardPrepared(prepared) {
+    preparedCandidates.delete(prepared);
+  }
+
   return {
     status() {
       return statusOf(config);
@@ -179,32 +238,11 @@ export function createMailRuntime(
         );
       }
     },
+    prepare: prepareCandidate,
+    activate: activatePrepared,
+    discard: discardPrepared,
     async apply(input) {
-      if (closed) {
-        throw publicMailError(
-          "mail_unavailable",
-          "Email provider update failed",
-        );
-      }
-      let next;
-      try {
-        const candidate = normalizeMailConfig(input, {
-          currentPassword: config?.password,
-        });
-        next = await transportState(candidate);
-      } catch {
-        throw publicMailError(
-          "mail_apply_failed",
-          "Email provider update failed",
-        );
-      }
-
-      const previous = active;
-      generation++;
-      config = next.config;
-      active = next;
-      activePromise = Promise.resolve(next);
-      retire(previous);
+      activatePrepared(await prepareCandidate(input));
     },
     async sendCode({ email, purpose, code }) {
       if (!config || closed) {
