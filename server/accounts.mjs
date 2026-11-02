@@ -9,6 +9,7 @@ import {
 import { openDatabase, transaction } from "./database.mjs";
 import { hashPassword, verifyPassword, validPassword, validPasswordInput, PASSWORD_ERROR } from "./passwords.mjs";
 import { MAX_BODY, safeTree, validDataset, validSnapshot } from "./schema.mjs";
+import { normalizeMailConfig } from "./mail-config.mjs";
 
 const DAY = 86400000;
 const ACCOUNT_IDLE_MS=120*60000;
@@ -26,6 +27,23 @@ const fail = (status, code, message = code, extra = {}) => {
   throw Object.assign(new Error(message), { status, code, extra });
 };
 const object = (v) => v !== null && typeof v === "object" && !Array.isArray(v);
+function publicMailStatus(value) {
+  if (!value || value.configured !== true)
+    return {
+      configured: false,
+      secretConfigured: value?.secretConfigured === true,
+    };
+  return {
+    configured: true,
+    host: value.host,
+    port: value.port,
+    security: value.security,
+    user: value.user,
+    from: value.from,
+    fromName: value.fromName,
+    secretConfigured: true,
+  };
+}
 // Bound aggregate upload memory, including authenticated users and slow bodies.
 let activeBodies = 0;
 const MAX_ACTIVE_BODIES = 4;
@@ -174,20 +192,43 @@ export function createAccounts({
   cloudQuotaBytes = 512 * 1024 * 1024,
   now = Date.now,
   sendEmailCode,
+  mailRuntime,
+  mailPassword,
   emailCodeSecret,
   operations,
   listGuests=()=>[],
 } = {}) {
   if (
-    sendEmailCode !== undefined &&
-    (typeof sendEmailCode !== "function" ||
+    mailRuntime !== undefined &&
+    (!mailRuntime ||
+      typeof mailRuntime !== "object" ||
+      typeof mailRuntime.status !== "function" ||
+      typeof mailRuntime.verify !== "function" ||
+      typeof mailRuntime.apply !== "function" ||
+      typeof mailRuntime.sendCode !== "function")
+  )
+    throw new Error("Invalid mail runtime");
+  const mailSender = sendEmailCode ?? mailRuntime?.sendCode;
+  if (
+    mailSender !== undefined &&
+    (typeof mailSender !== "function" ||
       typeof emailCodeSecret !== "string" ||
       Buffer.byteLength(emailCodeSecret) < 32)
   )
     throw new Error(
       "Email code sender requires a persistent secret of at least 32 bytes",
     );
-  const emailEnabled = typeof sendEmailCode === "function";
+  let currentMailPassword = mailPassword;
+  const emailEnabled = () => {
+    if (mailRuntime) {
+      try {
+        return mailRuntime.status().configured === true;
+      } catch {
+        return false;
+      }
+    }
+    return typeof mailSender === "function";
+  };
   if (
     ![accountQuotaBytes, cloudQuotaBytes].every(
       (n) => Number.isSafeInteger(n) && n > 0,
@@ -525,7 +566,7 @@ export function createAccounts({
   }
 
   function sendCode(req, body) {
-    if (!emailEnabled)
+    if (!emailEnabled())
       fail(503, "email_unavailable", "Email delivery is not configured");
     fields(body, ["email", "purpose"], ["email", "purpose"]);
     const email = normalizeEmail(body.email),
@@ -597,7 +638,7 @@ export function createAccounts({
           } catch {}
         }, 15000);
         job.timer.unref();
-        await sendEmailCode({ email, purpose, code });
+        await mailSender({ email, purpose, code });
         if (closed || job.expired) return;
         const current = emailUser(email);
         if (
@@ -630,6 +671,33 @@ export function createAccounts({
     return response;
   }
 
+  function mailCandidate(body) {
+    try {
+      return normalizeMailConfig(body, {
+        currentPassword: currentMailPassword || undefined,
+      });
+    } catch {
+      fail(400, "invalid_mail_config", "邮件服务配置无效");
+    }
+  }
+
+  function publicVerification(value) {
+    if (
+      !value ||
+      value.ok !== true ||
+      !Number.isFinite(value.elapsedMs) ||
+      value.elapsedMs < 0
+    )
+      fail(422, "mail_verification_failed", "Email provider verification failed");
+    return {
+      ok: true,
+      elapsedMs: Math.round(value.elapsedMs),
+      ...(typeof value.tlsProtocol === "string" && value.tlsProtocol
+        ? { tlsProtocol: value.tlsProtocol }
+        : {}),
+    };
+  }
+
   async function route(req, res, url) {
     const path = url.pathname.replace(/^\/api\/account\//, "/api/member/"),
       method = req.method;
@@ -638,13 +706,13 @@ export function createAccounts({
       if (!s) {
         rate(req, "anonymous", 100, 3600000);
         const csrfToken = newSession(req, res);
-        return { user: null, csrfToken, enabled: true, emailEnabled };
+        return { user: null, csrfToken, enabled: true, emailEnabled: emailEnabled() };
       }
       return {
         user: s.user ? publicUser(s.user) : null,
         csrfToken: s.csrf,
         enabled: true,
-        emailEnabled,
+        emailEnabled: emailEnabled(),
         idleExpiresAt:s.user?s.idle_expires_at:null,
         serverNow:now(),
       };
@@ -670,7 +738,10 @@ export function createAccounts({
           "/api/auth/reset",
         ].includes(path);
       const certificateWrite=method==='POST'&&/^\/api\/admin\/certificate\/(stage|apply|rollback|automatic)$/.test(path);
-      const adminWrite =certificateWrite||
+      const mailWrite =
+        method === "POST" &&
+        (path === "/api/admin/mail" || path === "/api/admin/mail/test");
+      const adminWrite =certificateWrite||mailWrite||
         method === "POST" &&
         /^\/api\/admin\/users\/[a-f0-9-]{36}\/(membership|status|reset)$/.test(
           path,
@@ -722,7 +793,7 @@ export function createAccounts({
     if (method === "POST" && path === "/api/auth/email-code")
       return sendCode(req, body);
     if (method === 'POST' && path === '/api/auth/register-verify') {
-      if (!emailEnabled) fail(503, 'email_unavailable');
+      if (!emailEnabled()) fail(503, 'email_unavailable');
       const email = codeFields(body);
       rate(req, 'email_verify', 30, 15 * 60000);
       // Keep failed-attempt updates outside the success transaction.
@@ -733,7 +804,7 @@ export function createAccounts({
       return {email, registrationToken, expiresAt:row.expires_at};
     }
     if (method === 'POST' && path === '/api/auth/register' && Object.hasOwn(body, 'registrationToken')) {
-      if (!emailEnabled) fail(503, 'email_unavailable');
+      if (!emailEnabled()) fail(503, 'email_unavailable');
       fields(body, ['email','registrationToken','password'], ['email','registrationToken','password']);
       const email = normalizeEmail(body.email);
       credentials({username:'email_account',password:body.password}, true);
@@ -755,7 +826,7 @@ export function createAccounts({
       (path === "/api/auth/login-code" ||
         (path === "/api/auth/register" && Object.hasOwn(body, "email")))
     ) {
-      if (!emailEnabled)
+      if (!emailEnabled())
         fail(503, "email_unavailable", "Email delivery is not configured");
       const register = path.endsWith("/register"),
         email = codeFields(body, register),
@@ -948,6 +1019,79 @@ export function createAccounts({
     }
     if (path.startsWith("/api/admin/")) {
       const s = admin(req, write);
+      if (method === "GET" && path === "/api/admin/mail") {
+        if (!mailRuntime)
+          fail(503, "mail_unavailable", "邮件服务组件尚未就绪。");
+        return publicMailStatus(mailRuntime.status());
+      }
+      if (
+        method === "POST" &&
+        (path === "/api/admin/mail/test" || path === "/api/admin/mail")
+      ) {
+        if (!mailRuntime)
+          fail(503, "mail_unavailable", "邮件服务组件尚未就绪。");
+        owner(req, s, true);
+        const testing = path.endsWith("/test");
+        rate(req, testing ? "mail_test" : "mail_save", 10, 60000, s.user_id);
+        const candidate = mailCandidate(body);
+        const before = publicMailStatus(mailRuntime.status());
+        if (testing) {
+          let result;
+          try {
+            result = publicVerification(await mailRuntime.verify(candidate));
+          } catch {
+            audit(s.user_id, s.user_id, "mail_test_failed", {}, {
+              code: "mail_verification_failed",
+            });
+            fail(
+              422,
+              "mail_verification_failed",
+              "Email provider verification failed",
+            );
+          }
+          audit(s.user_id, s.user_id, "mail_test", before, {
+            ...publicMailStatus(mailRuntime.status()),
+            ...result,
+          });
+          return result;
+        }
+
+        if (!operations)
+          fail(503, "mail_operation_failed", "邮件配置服务暂不可用，请稍后重试。");
+        const operationId = randomBytes(16).toString("hex");
+        try {
+          await operations.request("mail-save", candidate, {
+            operationId,
+            actorId: s.user_id,
+          });
+        } catch {
+          audit(s.user_id, s.user_id, "mail_save_failed", before, {
+            code: "mail_operation_failed",
+          });
+          fail(
+            503,
+            "mail_operation_failed",
+            "邮件配置服务暂不可用，请稍后重试。",
+          );
+        }
+        try {
+          await mailRuntime.apply(candidate);
+        } catch {
+          audit(s.user_id, s.user_id, "mail_save_apply_failed", before, {
+            code: "mail_apply_failed",
+            operationId,
+            persisted: true,
+          });
+          fail(503, "mail_apply_failed", "邮件服务配置已保存，但运行时更新失败。");
+        }
+        currentMailPassword = candidate.password;
+        const after = publicMailStatus(mailRuntime.status());
+        audit(s.user_id, s.user_id, "mail_save", before, {
+          ...after,
+          operationId,
+        });
+        return after;
+      }
       if(method==='GET'&&path==='/api/admin/logins'){
         const q=url.searchParams.get('q')||'',page=Number(url.searchParams.get('page')||1),limit=Number(url.searchParams.get('limit')??50);
         if(q.length>80||!Number.isInteger(page)||page<1||page>100000||!Number.isInteger(limit)||limit<1||limit>50)fail(400,'invalid_query');

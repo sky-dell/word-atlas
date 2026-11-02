@@ -340,6 +340,50 @@ async function waitFor(check) {
     await new Promise((resolve) => setTimeout(resolve, 1));
   }
 }
+function mailRuntimeDouble({ configured = true, secret = "existing-provider-secret" } = {}) {
+  const runtime = {
+    calls: [],
+    verifyError: null,
+    currentStatus: configured
+      ? {
+          configured: true,
+          host: "smtp.example.com",
+          port: 587,
+          security: "starttls",
+          user: "sender@example.com",
+          from: "sender@example.com",
+          fromName: "Words & Beyond",
+          secretConfigured: true,
+          password: secret,
+        }
+      : { configured: false, secretConfigured: false },
+    status() {
+      return this.currentStatus;
+    },
+    async verify(input) {
+      this.calls.push({ type: "verify", input });
+      if (this.verifyError) throw this.verifyError;
+      return { ok: true, elapsedMs: 37, tlsProtocol: "TLSv1.3" };
+    },
+    async apply(input) {
+      this.calls.push({ type: "apply", input });
+      this.currentStatus = {
+        configured: true,
+        host: input.host,
+        port: input.port,
+        security: input.security,
+        user: input.user,
+        from: input.from,
+        fromName: input.fromName,
+        secretConfigured: true,
+        password: input.password,
+      };
+    },
+    async sendCode() {},
+    close() {},
+  };
+  return runtime;
+}
 const member = (id, action) => `/api/admin/users/${id}/${action}`;
 async function reauthenticate(admin) {
   const response = await admin.request(
@@ -349,6 +393,254 @@ async function reauthenticate(admin) {
   assert.equal(response.status, 200);
   return response;
 }
+
+test("mail status is admin-only and never exposes the secret", async (t) => {
+  const secret = "status-provider-secret";
+  const runtime = mailRuntimeDouble({ configured: false, secret });
+  const f = await fixture(t, {
+    mailRuntime: runtime,
+    mailPassword: secret,
+    emailCodeSecret: "s".repeat(64),
+  });
+  const member = f.client();
+  await member.register("mail_member");
+  assert.equal((await member.request("/api/admin/mail")).status, 403);
+
+  const admin = await f.admin();
+  assert.equal((await admin.bootstrap()).data.emailEnabled, false);
+  runtime.currentStatus = {
+    configured: true,
+    host: "smtp.example.com",
+    port: 465,
+    security: "tls",
+    user: "sender@example.com",
+    from: "sender@example.com",
+    fromName: "Words & Beyond",
+    secretConfigured: true,
+    password: secret,
+  };
+  assert.equal((await admin.bootstrap()).data.emailEnabled, true);
+
+  const response = await admin.request("/api/admin/mail");
+  assert.equal(response.status, 200);
+  assert.deepEqual(response.data, {
+    configured: true,
+    host: "smtp.example.com",
+    port: 465,
+    security: "tls",
+    user: "sender@example.com",
+    from: "sender@example.com",
+    fromName: "Words & Beyond",
+    secretConfigured: true,
+  });
+  assert.doesNotMatch(JSON.stringify(response.data), new RegExp(secret));
+});
+
+test("mail test and save require CSRF and recent reauthentication", async (t) => {
+  const runtime = mailRuntimeDouble();
+  const f = await fixture(t, {
+    mailRuntime: runtime,
+    mailPassword: "existing-provider-secret",
+    emailCodeSecret: "s".repeat(64),
+  });
+  const admin = await f.admin();
+  const candidate = {
+    host: "mail.example.net",
+    port: 465,
+    security: "tls",
+    user: "candidate@example.net",
+    from: "candidate@example.net",
+    fromName: "Candidate Sender",
+  };
+
+  for (const path of ["/api/admin/mail/test", "/api/admin/mail"]) {
+    const response = await admin.request(path, post(candidate));
+    assert.equal(response.status, 403);
+    assert.equal(response.data.code, "reauth_required");
+  }
+
+  await reauthenticate(admin);
+  for (const path of ["/api/admin/mail/test", "/api/admin/mail"]) {
+    const response = await admin.request(path, post(candidate, { noCsrf: true }));
+    assert.equal(response.status, 403);
+    assert.equal(response.data.code, "csrf");
+  }
+  assert.equal(
+    (
+      await admin.request(
+        "/api/admin/mail/test",
+        post(candidate, { headers: { Origin: "https://untrusted.example" } }),
+      )
+    ).status,
+    403,
+  );
+  assert.equal(
+    (
+      await admin.request(
+        "/api/admin/mail/test",
+        post(candidate, { noOwner: true }),
+      )
+    ).status,
+    409,
+  );
+
+  for (let attempt = 0; attempt < 10; attempt++) {
+    const response = await admin.request(
+      "/api/admin/mail/test",
+      post(candidate),
+    );
+    assert.equal(response.status, 200);
+    if (attempt === 0)
+      assert.deepEqual(response.data, {
+        ok: true,
+        elapsedMs: 37,
+        tlsProtocol: "TLSv1.3",
+      });
+  }
+  assert.equal(
+    (await admin.request("/api/admin/mail/test", post(candidate))).status,
+    429,
+  );
+});
+
+test("mail save delegates the complete normalized provider to the restricted helper and audits without the password", async (t) => {
+  const secret = "existing-provider-secret";
+  const runtime = mailRuntimeDouble({ secret });
+  const helperCalls = [];
+  let rejectSave = false;
+  const operations = {
+    request: async (action, payload, context) => {
+      helperCalls.push({ action, payload, context });
+      if (action === "events") return { events: [] };
+      if (action !== "mail-save") throw new Error("unexpected action");
+      if (rejectSave)
+        throw Object.assign(new Error(`helper rejected ${secret}`), {
+          status: 503,
+          code: "mail_operation_failed",
+        });
+      return {
+        configured: true,
+        host: "mail.example.net",
+        port: 465,
+        security: "tls",
+        user: "Candidate@Example.NET",
+        from: "Candidate@example.net",
+        fromName: "Candidate Sender",
+        secretConfigured: true,
+      };
+    },
+  };
+  const f = await fixture(t, {
+    mailRuntime: runtime,
+    mailPassword: secret,
+    operations,
+    emailCodeSecret: "s".repeat(64),
+  });
+  const admin = await f.admin();
+  await reauthenticate(admin);
+
+  const body = {
+    host: " Mail.Example.NET. ",
+    port: 465,
+    security: "tls",
+    user: " Candidate@Example.NET ",
+    from: " Candidate@Example.NET ",
+    fromName: " Candidate Sender ",
+  };
+  const response = await admin.request("/api/admin/mail", post(body));
+  assert.equal(response.status, 200);
+  assert.deepEqual(response.data, {
+    configured: true,
+    host: "mail.example.net",
+    port: 465,
+    security: "tls",
+    user: "Candidate@Example.NET",
+    from: "Candidate@example.net",
+    fromName: "Candidate Sender",
+    secretConfigured: true,
+  });
+
+  const save = helperCalls.find((call) => call.action === "mail-save");
+  assert.deepEqual(save.payload, {
+    host: "mail.example.net",
+    port: 465,
+    security: "tls",
+    user: "Candidate@Example.NET",
+    password: secret,
+    from: "Candidate@example.net",
+    fromName: "Candidate Sender",
+  });
+  assert.match(save.context.operationId, /^[a-f0-9]{32}$/);
+  assert.equal(save.context.actorId, admin.user.id);
+  assert.deepEqual(runtime.calls, [{ type: "apply", input: save.payload }]);
+  assert.doesNotMatch(JSON.stringify(response.data), new RegExp(secret));
+
+  const auditResponse = await admin.request("/api/admin/audit");
+  const savedAudit = auditResponse.data.audit.find(
+    (row) => row.action === "mail_save",
+  );
+  assert.ok(savedAudit);
+  assert.equal(savedAudit.after.operationId, save.context.operationId);
+  assert.doesNotMatch(JSON.stringify(savedAudit), new RegExp(secret));
+  assert.doesNotMatch(
+    JSON.stringify(f.accounts.db.prepare("SELECT * FROM audit").all()),
+    new RegExp(secret),
+  );
+
+  rejectSave = true;
+  const failed = await admin.request(
+    "/api/admin/mail",
+    post({ ...body, host: "other.example.net" }),
+  );
+  assert.equal(failed.status, 503);
+  assert.equal(runtime.calls.filter((call) => call.type === "apply").length, 1);
+  assert.equal(runtime.currentStatus.host, "mail.example.net");
+  assert.doesNotMatch(JSON.stringify(failed.data), new RegExp(secret));
+  const failedAudit = (
+    await admin.request("/api/admin/audit")
+  ).data.audit.find((row) => row.action === "mail_save_failed");
+  assert.ok(failedAudit);
+  assert.doesNotMatch(JSON.stringify(failedAudit), new RegExp(secret));
+});
+
+test("mail test failure leaves status unchanged", async (t) => {
+  const secret = "candidate-verification-secret";
+  const runtime = mailRuntimeDouble({ secret: "active-provider-secret" });
+  runtime.verifyError = new Error(`SMTP rejected ${secret}`);
+  const f = await fixture(t, {
+    mailRuntime: runtime,
+    mailPassword: "active-provider-secret",
+    emailCodeSecret: "s".repeat(64),
+  });
+  const admin = await f.admin();
+  await reauthenticate(admin);
+  const before = (await admin.request("/api/admin/mail")).data;
+  const response = await admin.request(
+    "/api/admin/mail/test",
+    post({
+      host: "mail.example.net",
+      port: 465,
+      security: "tls",
+      user: "candidate@example.net",
+      password: secret,
+      from: "candidate@example.net",
+      fromName: "Candidate Sender",
+    }),
+  );
+  assert.equal(response.status, 422);
+  assert.equal(response.data.code, "mail_verification_failed");
+  assert.doesNotMatch(JSON.stringify(response.data), new RegExp(secret));
+  assert.deepEqual(
+    (await admin.request("/api/admin/mail")).data,
+    before,
+  );
+  assert.equal(runtime.calls.filter((call) => call.type === "apply").length, 0);
+  const audit = (await admin.request("/api/admin/audit")).data.audit.find(
+    (row) => row.action === "mail_test_failed",
+  );
+  assert.ok(audit);
+  assert.doesNotMatch(JSON.stringify(audit), new RegExp(secret));
+});
 
 test("anonymous CSRF is reusable; register rotates hashed session; uniqueness and validation", async (t) => {
   const f = await fixture(t);
