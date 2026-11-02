@@ -28,3 +28,101 @@ test('certificate completion is durably audited even after the caller disconnect
   const deadline=Date.now()+3000;while(journal.list()[0]?.state==='started'&&Date.now()<deadline)await new Promise(r=>setTimeout(r,10));
   assert.equal(journal.list()[0].state,'success');assert.equal(journal.list()[0].fingerprint,'new-certificate');
 });
+
+test('mail-save accepts only normalized SMTP fields and writes through the injected store',async t=>{
+  const dir=await mkdtemp(path.join(os.tmpdir(),'wa-mail-helper-'));
+  const journal=openOperationJournal(path.join(dir,'operations.sqlite'));
+  const mailFile=path.join(dir,'mail.env');
+  const writes=[];
+  const server=createHelperServer({
+    journal,
+    manager:{},
+    mailFile,
+    mailStore:async(file,config)=>{writes.push({file,config});},
+  });
+  await new Promise(r=>server.listen(0,'127.0.0.1',r));
+  t.after(async()=>{await new Promise(r=>server.close(r));journal.close();await rm(dir,{recursive:true,force:true});});
+  const base='http://127.0.0.1:'+server.address().port;
+  const post=data=>fetch(base,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+  const config={
+    host:'SMTP.Example.COM.',
+    port:587,
+    security:'starttls',
+    user:' Sender@example.com ',
+    password:'helper-provider-secret',
+    from:' Sender@Example.com ',
+    fromName:' Words & Beyond ',
+  };
+  const result=await post({
+    action:'mail-save',
+    payload:config,
+    context:{operationId:'d'.repeat(32),actorId:'mail-admin'},
+  });
+  assert.equal(result.status,200);
+  const value=await result.json();
+  assert.doesNotMatch(JSON.stringify(value),/helper-provider-secret/);
+  assert.equal(writes.length,1);
+  assert.equal(writes[0].file,mailFile);
+  assert.deepEqual(writes[0].config,{
+    host:'smtp.example.com',
+    port:587,
+    security:'starttls',
+    user:'Sender@example.com',
+    password:'helper-provider-secret',
+    from:'Sender@example.com',
+    fromName:'Words & Beyond',
+  });
+  assert.deepEqual({...journal.list()[0]},{
+    id:'d'.repeat(32),
+    actorId:'mail-admin',
+    action:'mail-save',
+    state:'success',
+    createdAt:journal.list()[0].createdAt,
+    updatedAt:journal.list()[0].updatedAt,
+    fingerprint:null,
+  });
+  assert.doesNotMatch(JSON.stringify(journal.list()),/helper-provider-secret/);
+
+  const rejected=await post({
+    action:'mail-save',
+    payload:{...config,path:'/etc/shadow'},
+  });
+  assert.equal(rejected.status,400);
+  assert.equal(writes.length,1);
+  assert.equal((await post({action:'shell',payload:{}})).status,400);
+});
+
+test('mail-save records failure without returning the password',async t=>{
+  const dir=await mkdtemp(path.join(os.tmpdir(),'wa-mail-helper-fail-'));
+  const journal=openOperationJournal(path.join(dir,'operations.sqlite'));
+  const password='failure-provider-secret';
+  const server=createHelperServer({
+    journal,
+    manager:{},
+    mailStore:async()=>{throw new Error(`store failed for ${password}`);},
+  });
+  await new Promise(r=>server.listen(0,'127.0.0.1',r));
+  t.after(async()=>{await new Promise(r=>server.close(r));journal.close();await rm(dir,{recursive:true,force:true});});
+  const response=await fetch('http://127.0.0.1:'+server.address().port,{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      action:'mail-save',
+      payload:{
+        host:'smtp.example.com',
+        port:465,
+        security:'tls',
+        user:'sender@example.com',
+        password,
+        from:'sender@example.com',
+        fromName:'',
+      },
+      context:{operationId:'e'.repeat(32),actorId:'mail-admin'},
+    }),
+  });
+  assert.equal(response.status,400);
+  assert.doesNotMatch(await response.text(),new RegExp(password));
+  assert.equal(journal.list()[0].action,'mail-save');
+  assert.equal(journal.list()[0].state,'failure');
+  assert.doesNotMatch(JSON.stringify(journal.list()),new RegExp(password));
+});

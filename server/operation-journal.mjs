@@ -7,7 +7,7 @@ export function openOperationJournal(file,{now=Date.now}={}){
   db.exec(`PRAGMA journal_mode=WAL; PRAGMA synchronous=FULL; PRAGMA busy_timeout=5000; CREATE TABLE IF NOT EXISTS operations(id TEXT PRIMARY KEY,actor_id TEXT NOT NULL,action TEXT NOT NULL,state TEXT NOT NULL,created_at INTEGER NOT NULL,updated_at INTEGER NOT NULL,fingerprint TEXT); UPDATE operations SET state='uncertain' WHERE state='started';`);
   return {
     start({id,actorId,action}){
-      if(!/^[a-f0-9]{32}$/.test(id)||typeof actorId!=='string'||actorId.length>80||!['stage','apply','rollback','automatic','auto-install'].includes(action))throw Error('Invalid operation metadata');
+      if(!/^[a-f0-9]{32}$/.test(id)||typeof actorId!=='string'||actorId.length>80||!['stage','apply','rollback','automatic','auto-install','mail-save'].includes(action))throw Error('Invalid operation metadata');
       db.prepare('INSERT INTO operations VALUES(?,?,?,?,?,?,NULL)').run(id,actorId,action,'started',now(),now());
       db.prepare('DELETE FROM operations WHERE id IN (SELECT id FROM operations ORDER BY updated_at DESC LIMIT -1 OFFSET 2000)').run();
     },
