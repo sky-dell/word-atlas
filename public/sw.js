@@ -36,6 +36,9 @@ self.addEventListener("fetch", (event) => {
   const req = event.request;
   if (req.method !== "GET" || req.headers.has("range")) return;
   const url = new URL(req.url);
+  // Stream large videos through the browser's native media/range stack; never
+  // clone whole lessons into the unbounded application-shell offline cache.
+  if (/\.mp4$/i.test(url.pathname) || req.destination === 'video') return;
   if (/(?:^|\/)api(?:\/|$)/.test(url.pathname)) return;
   if (url.origin !== location.origin || !url.href.startsWith(self.registration.scope)) return;
   const media = /\/atlas\/(img|thumb|audio)\//.test(url.pathname);

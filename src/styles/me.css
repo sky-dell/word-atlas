@@ -1,0 +1,40 @@
+/* Category pages share the same layout for guests and signed-in learners. */
+.page.me { padding-top: 20px; padding-bottom: 28px; }
+.me .page-head { margin-bottom: 18px; }
+.me .page-head .eyebrow { margin-bottom: 6px; }
+.me .page-head .display { font-size: clamp(28px, 3.2vw, 40px); line-height: 1.2; }
+.me-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; padding: 4px; margin-bottom: 20px; max-width: 600px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper-2); }
+.me-tabs [role="tab"] { min-width: 0; min-height: 44px; padding: 8px 10px; border-radius: 10px; color: var(--ink-2); font: 500 13px/1.4 var(--sans); }
+.me-tabs [aria-selected="true"] { background: var(--card); color: var(--ink); box-shadow: 0 2px 6px rgb(26 32 53 / .08); font-weight: 650; }
+.me-tabs [role="tab"]:hover { color: var(--ink); }
+.me-tabs [role="tab"]:focus-visible, .me-content:focus-visible { outline: 2px solid var(--sky); outline-offset: 3px; }
+.me .me-grid { align-items: start; gap: 16px; }
+.me .me-grid .settings { grid-row: auto; }
+.me .panel { padding: 18px; }
+.me .panel > .eyebrow { margin-bottom: 12px; }
+.me .stat-strip { margin-bottom: 16px; }
+.me .stat-strip > div { padding: 14px 18px; }
+.me .stat-strip dd { font-size: 30px; }
+.me .heatmap { max-width: 460px; }
+.me .forecast { height: 170px; }
+.me-content--overview .panel { align-self: stretch; }
+.me-content--overview .muted { font-size: 12px; line-height: 1.7; }
+.me .field { gap: 10px; padding: 11px 0; }
+.me .field > div { min-width: 0; }
+.me .segmented { max-width: 100%; flex-wrap: wrap; }
+.me .appearance-group:first-of-type { margin-top: 0; }
+.me .appearance-group { min-width: 0; }
+.me .me-data { max-width: 800px; }
+.me .me-data .muted { max-width: 66ch; line-height: 1.8; }
+.me .data-actions { flex-wrap: wrap; }
+@media (max-width: 600px) {
+  .page.me { padding-top: 16px; }
+  .me .page-head { margin-bottom: 14px; }
+  .me-tabs { margin-bottom: 16px; gap: 2px; padding: 3px; }
+  .me-tabs [role="tab"] { padding: 8px 2px; font-size: 12px; }
+  .me .panel { padding: 16px; }
+  .me .stat-strip > div { padding: 12px 14px; }
+  .me .stat-strip dd { font-size: 26px; }
+  .me .forecast { height: 130px; }
+  .me .data-actions .btn { flex: 1 1 130px; justify-content: center; }
+}

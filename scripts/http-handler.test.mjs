@@ -6,7 +6,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { createApplication } from './http-handler.mjs';
 
-async function fixture(fn) {
+async function fixture(fn, options={}) {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'atlas-http-'));
   await fs.writeFile(path.join(root, 'index.html'), '<h1>atlas</h1>');
   await fs.mkdir(path.join(root, 'assets'));
@@ -15,11 +15,26 @@ async function fixture(fn) {
   await fs.mkdir(path.join(acmeRoot, '.well-known/acme-challenge'), { recursive: true });
   await fs.writeFile(path.join(acmeRoot, '.well-known/acme-challenge', 'proof'), 'challenge');
   let called = 0;
-  const server = http.createServer(createApplication({root, acmeRoot, secureOrigin: 'https://atlas.test', accounts: {async handle(req,res) {called++;res.writeHead(200);res.end('private');return true;}}}));
+  const server = http.createServer(createApplication({root, acmeRoot, secureOrigin: 'https://atlas.test', accounts: {async handle(req,res) {called++;res.writeHead(200);res.end('private');return true;}}, ...options}));
   await new Promise(r => server.listen(0, '127.0.0.1', r));
   try { await fn(`http://127.0.0.1:${server.address().port}`, () => called, root); }
   finally { await new Promise(r => server.close(r)); await fs.rm(root,{recursive:true,force:true}); }
 }
+
+test('domain-only rejects IP/unknown hosts before static and API routes; domain HTTP redirects, ACME remains available', async()=>fixture(async(base,called)=>{
+  for(const route of ['/','/health','/api/auth/session','/assets/a.mp3']) {
+    const response=await fetch(base+route,{redirect:'manual'});
+    assert.equal(response.status,403,route);
+    assert.equal(response.headers.get('set-cookie'),null);
+  }
+  const request=(route,headers)=>new Promise((resolve,reject)=>{http.get(base+route,{headers},res=>{res.resume();res.on('end',()=>resolve(res));}).on('error',reject);});
+  const redirect=await request('/words/?test=1',{host:'atlas.test'});
+  assert.equal(redirect.statusCode,308);
+  assert.equal(redirect.headers.location,'https://atlas.test/words/?test=1');
+  assert.equal((await fetch(base+'/',{headers:{host:'evil.test','x-forwarded-host':'atlas.test','x-forwarded-proto':'https'},redirect:'manual'})).status,403);
+  assert.equal(await(await fetch(base+'/.well-known/acme-challenge/proof')).text(),'challenge');
+  assert.equal(called(),0);
+},{domainOnly:true}));
 
 test('plain HTTP keeps guest learning but cannot expose password/account APIs', async () => fixture(async(base,called) => {
   assert.equal(await (await fetch(base+'/')).text(), '<h1>atlas</h1>');
@@ -46,4 +61,16 @@ test('encoded traversal and symlink targets outside the static root are not serv
     assert.equal((await fetch(base+'/leak.txt')).status,403);
     assert.equal((await fetch(base+'/.well-known/acme-challenge/%2e%2e%2findex.html')).status,404);
   } finally {await fs.unlink(secret);}
+}));
+
+test('MP4 delivery has browser video MIME, seek ranges and HEAD metadata', async () => fixture(async(base,called,root) => {
+  await fs.writeFile(path.join(root,'assets','video.mp4'),'0123456789');
+  const partial=await fetch(base+'/assets/video.mp4',{headers:{Range:'bytes=3-6'}});
+  assert.equal(partial.headers.get('content-type'),'video/mp4');
+  assert.equal(partial.status,206);
+  assert.equal(partial.headers.get('content-range'),'bytes 3-6/10');
+  assert.equal(await partial.text(),'3456');
+  const head=await fetch(base+'/assets/video.mp4',{method:'HEAD'});
+  assert.equal(head.headers.get('content-length'),'10');
+  assert.equal(await head.text(),'');
 }));

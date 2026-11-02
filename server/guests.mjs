@@ -6,6 +6,7 @@ import {readJsonBody} from './accounts.mjs';
 import {MAX_BODY,validDataset,safeTree} from './schema.mjs';
 
 const DAY=86400000,hash=v=>createHash('sha256').update(v).digest('hex');
+const GUEST_IDLE_MS=240*60000;
 const fail=(status,code,message=code)=>{throw Object.assign(new Error(message),{status,code});};
 const equal=(a,b)=>typeof a==='string'&&typeof b==='string'&&/^[a-f0-9]{64}$/.test(a)&&a.length===b.length&&timingSafeEqual(Buffer.from(a),Buffer.from(b));
 const allowedKey=k=>/^word-atlas:v2:[\w-]{1,80}$/.test(k)||['word-atlas:settings','word-atlas:appearance','word-atlas:reader:v1','word-atlas:reader-position:v1','word-atlas:view','word-atlas:galaxy-hello','word-atlas:splash'].includes(k)||/^word-atlas:extras:v1:[\w:.-]{1,250}$/.test(k)||(k.startsWith('word-atlas:illustration:')&&k.length<=250&&!/[\x00-\x1f\x7f]/.test(k));
@@ -29,35 +30,46 @@ export function createGuests({dbPath,origins,allowInsecureLocal=false,now=Date.n
     CREATE TABLE IF NOT EXISTS guest_states(guest_id TEXT NOT NULL REFERENCES guest_sessions(id) ON DELETE CASCADE,dataset TEXT NOT NULL,version INTEGER NOT NULL,state TEXT NOT NULL,bytes INTEGER NOT NULL,PRIMARY KEY(guest_id,dataset));
     CREATE INDEX IF NOT EXISTS guest_expiry ON guest_sessions(last_active);`);
   const sql=s=>db.prepare(s),expiry=s=>Math.min(s.last_active+DAY,s.created_at+7*DAY);
+  if(!sql('PRAGMA table_info(guest_sessions)').all().some(c=>c.name==='idle_expires_at')){
+    db.exec('BEGIN IMMEDIATE');
+    try{db.exec('ALTER TABLE guest_sessions ADD COLUMN idle_expires_at INTEGER NOT NULL DEFAULT 0; UPDATE guest_sessions SET idle_expires_at=MIN(last_active+14400000,created_at+604800000); COMMIT;');}catch(e){db.exec('ROLLBACK');db.close();throw e;}
+  }
+  if(!sql('PRAGMA table_info(guest_sessions)').all().some(c=>c.name==='last_interaction_at'))db.exec('ALTER TABLE guest_sessions ADD COLUMN last_interaction_at INTEGER; UPDATE guest_sessions SET last_interaction_at=MAX(created_at,idle_expires_at-14400000);');
   let closed=false;const rates=new Map();
   function cleanup(){const n=sql('DELETE FROM guest_sessions WHERE last_active<=? OR created_at<=?').run(now()-DAY,now()-7*DAY).changes;for(const [key,r]of rates)if(r.until<=now())rates.delete(key);return Number(n);}
   cleanup();const timer=setInterval(()=>{try{const deleted=cleanup();if(deleted)console.log(`Guest cleanup: ${deleted} expired identities removed`);}catch{console.error('Guest cleanup failed');}},300000);timer.unref();
   function rate(req,kind,max){const key=kind+':'+req.socket.remoteAddress;let r=rates.get(key);if(!r||r.until<=now()){if(rates.size>=10000)fail(429,'rate_limited');r={until:now()+60000,count:0};rates.set(key,r);}if(++r.count>max)fail(429,'rate_limited','请求过于频繁，请稍后重试。');}
   function token(req){const cookies=(req.headers.cookie||'').split(';').map(v=>v.trim()).filter(v=>v.startsWith('wa_guest='));return cookies.length===1&&/^[a-f0-9]{64}$/.test(cookies[0].slice(9))?cookies[0].slice(9):null;}
   function session(req){const t=token(req);if(!t)return null;const s=sql('SELECT * FROM guest_sessions WHERE token_hash=?').get(hash(t));return s&&expiry(s)>now()?s:null;}
-  const publicSession=s=>({id:s.id,name:s.name,createdAt:s.created_at,expiresAt:expiry(s),hardExpiresAt:s.created_at+7*DAY});
+  const publicSession=s=>({id:s.id,name:s.name,createdAt:s.created_at,expiresAt:expiry(s),hardExpiresAt:s.created_at+7*DAY,idleExpiresAt:Math.min(s.idle_expires_at,expiry(s)),serverNow:now()});
   function cookie(res,value,maxAge){res.setHeader('Set-Cookie',`wa_guest=${value}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${maxAge}${allowInsecureLocal?'':'; Secure'}`);}
-  function authenticate(req){const s=session(req);if(!s)fail(401,'guest_expired','游客身份已过期，请重新进入；正式账户不受影响。');if(req.headers['x-guest-id']!==s.id)fail(409,'guest_changed','游客身份已变化，请重新进入。');if(!equal(req.headers['x-guest-csrf'],s.csrf))fail(403,'csrf','请刷新游客会话后重试。');return s;}
+  function authenticate(req,allowIdle=false){const s=session(req);if(!s)fail(401,'guest_expired','游客身份已过期，请重新进入；正式账户不受影响。');if(req.headers['x-guest-id']!==s.id)fail(409,'guest_changed','游客身份已变化，请重新进入。');if(!equal(req.headers['x-guest-csrf'],s.csrf))fail(403,'csrf','请刷新游客会话后重试。');if(!allowIdle&&Math.min(s.idle_expires_at,expiry(s))<=now())fail(401,'guest_idle','游客登录已闲置240分钟，请重新进入。暂存记录仍保留。');return s;}
   function dataset(url){const d=url.searchParams.get('dataset');if(!validDataset(d))fail(400,'invalid_dataset');return d;}
   async function route(req,res,url){
     const method=req.method,path=url.pathname;
     rate(req,'requests',180);
     if(method==='GET'&&path==='/api/guest/session'){
-      const s=session(req);if(!s){if(token(req))cookie(res,'',0);return {guest:null};}return {guest:publicSession(s),csrfToken:s.csrf};
+      const s=session(req);if(!s){if(token(req))cookie(res,'',0);return {guest:null};}return {guest:publicSession(s),csrfToken:s.csrf,loginRequired:Math.min(s.idle_expires_at,expiry(s))<=now()};
     }
     if(method!=='GET'&&!trusted.has(req.headers.origin))fail(403,'origin');
     if(method==='POST'&&path==='/api/guest/session'){
       if(req.headers['x-guest-request']!=='1')fail(403,'csrf');rate(req,'create',10);
       const body=await readJsonBody(req,1024);if(Object.keys(body).length)fail(400,'invalid_body');
       let s=session(req);
-      if(s){authenticate(req);}else{
+      if(s){authenticate(req,true);sql('UPDATE guest_sessions SET idle_expires_at=?,last_interaction_at=? WHERE id=?').run(Math.min(now()+GUEST_IDLE_MS,s.created_at+7*DAY),now(),s.id);s=session(req);}else{
         if(req.headers['x-guest-id'])fail(401,'guest_expired');cleanup();
         if(sql('SELECT COUNT(*) n FROM guest_sessions').get().n>=10000)fail(503,'guest_capacity');
         const t=randomBytes(32).toString('hex'),id=randomUUID();
         s={id,token_hash:hash(t),csrf:randomBytes(32).toString('hex'),name:'游客_'+randomBytes(5).toString('hex').toUpperCase(),created_at:now(),last_active:now()};
-        sql('INSERT INTO guest_sessions VALUES(?,?,?,?,?,?)').run(s.id,s.token_hash,s.csrf,s.name,s.created_at,s.last_active);cookie(res,t,86400);
+        s.idle_expires_at=now()+GUEST_IDLE_MS;
+        sql('INSERT INTO guest_sessions(id,token_hash,csrf,name,created_at,last_active,idle_expires_at,last_interaction_at) VALUES(?,?,?,?,?,?,?,?)').run(s.id,s.token_hash,s.csrf,s.name,s.created_at,s.last_active,s.idle_expires_at,now());cookie(res,t,86400);
       }
       return {guest:publicSession(s),csrfToken:s.csrf};
+    }
+    if(method==='POST'&&path==='/api/guest/activity'){
+      let s=authenticate(req);const body=await readJsonBody(req,1024);if(Object.keys(body).length)fail(400,'invalid_body');s=authenticate(req);
+      sql('UPDATE guest_sessions SET idle_expires_at=?,last_interaction_at=? WHERE id=?').run(Math.min(now()+GUEST_IDLE_MS,s.created_at+7*DAY),now(),s.id);
+      return {guest:publicSession(session(req))};
     }
     if(path==='/api/guest/session'&&method==='DELETE'){
       const s=authenticate(req);db.exec('BEGIN IMMEDIATE');
@@ -91,7 +103,7 @@ export function createGuests({dbPath,origins,allowInsecureLocal=false,now=Date.n
     s=session(req);cookie(res,token(req),Math.max(0,Math.ceil((expiry(s)-now())/1000)));
     return {version:body.version+1,guest:publicSession(s)};
   }
-  return {cleanup,close(){if(!closed){closed=true;clearInterval(timer);db.close();}},async handle(req,res){
+  return {cleanup,listOnline(){return sql('SELECT id,name AS username,created_at AS loggedInAt,last_interaction_at AS lastActivityAt,MIN(idle_expires_at,last_active+86400000,created_at+604800000) AS idleExpiresAt FROM guest_sessions WHERE idle_expires_at>? AND last_active>? AND created_at>? ORDER BY last_interaction_at DESC LIMIT 1000').all(now(),now()-DAY,now()-7*DAY).map(r=>({...r,nickname:'',kind:'guest',role:'guest',sessionCount:1}));},close(){if(!closed){closed=true;clearInterval(timer);db.close();}},async handle(req,res){
     if(!req.url?.startsWith('/api/guest/'))return false;
     const send=(status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};
     try{

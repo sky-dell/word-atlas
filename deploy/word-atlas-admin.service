@@ -1,0 +1,30 @@
+[Unit]
+Description=Words and Beyond restricted administration component
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=word-atlas
+ExecStart=/opt/nodejs/node-v24.22.1-linux-x64/bin/node /usr/local/lib/word-atlas-admin/scripts/admin-helper.mjs
+RuntimeDirectory=word-atlas-admin
+RuntimeDirectoryMode=0750
+StateDirectory=word-atlas-admin
+StateDirectoryMode=0700
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/etc/word-atlas/tls /var/lib/word-atlas-admin /run/word-atlas-admin
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+TasksMax=64
+MemoryMax=192M
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

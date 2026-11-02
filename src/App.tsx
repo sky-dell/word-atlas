@@ -52,8 +52,7 @@ import { SITE_TAGLINE } from "./config";
 import { AccountMenu } from "./ui/AccountMenu";
 import {beginGuest,flushGuest,suspendGuest,useGuest,guestState} from './guest/state';
 import {temporaryGuestsEnabled} from './store/profileStorage';
-import {GuestNotice} from './guest/GuestNotice';
-import { AdminPage } from "./pages/Admin";
+import {GuestAlerts} from './guest/GuestNotice';
 import {
   AppearanceController,
   setAppearance,
@@ -63,6 +62,7 @@ import {
 const Reading = lazy(() =>
   import("./pages/Reading").then((m) => ({ default: m.Reading })),
 );
+const AdminPage=lazy(()=>import('./pages/Admin').then(m=>({default:m.AdminPage})));
 const Drills = lazy(() =>
   import("./pages/Drills").then((m) => ({ default: m.Drills })),
 );
@@ -102,6 +102,11 @@ export default function App() {
   const account = useAccount();
   const { route } = useLocation();
   const [guestEntry, setGuestEntry] = useState(hasGuestEntry);
+  useEffect(()=>{
+    const expired=()=>{clearGuestEntry();setGuestEntry(false);};
+    window.addEventListener('word-atlas:guest-login-expired',expired);
+    return ()=>window.removeEventListener('word-atlas:guest-login-expired',expired);
+  },[]);
   const guest=useGuest();const restoreAttempted=useRef(false);
   useEffect(()=>{
     if(temporaryGuestsEnabled()&&guestEntry&&!account.loading&&!account.user&&!guest.guest&&!restoreAttempted.current){
@@ -146,24 +151,51 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const dataset = useStore((s) => s.settings.dataset);
   const ready = useStore((s) => s.ready);
+  const isAdmin = account.user?.role === 'admin';
+  const requiresLearning = !account.loading && !isAdmin && !!(account.user || guestEntry);
 
   useEffect(() => {
+    if (isAdmin && location.hash !== '#/admin') go({page:'admin'}, null, true);
+  }, [isAdmin, route]);
+
+  useEffect(() => {
+    if (!requiresLearning) return;
+    let cancelled = false;
     loadOpenAtlas().then(
       (a) => {
+        if (cancelled) return;
         setOpen(a);
-        if (import.meta.env.DEV) loadPrivateAtlas(a).then(setPriv, () => null);
+        if (import.meta.env.DEV) loadPrivateAtlas(a).then(p => { if (!cancelled) setPriv(p); }, () => null);
       },
-      (e: Error) => setError(e.message),
+      (e: Error) => { if (!cancelled) setError(e.message); },
     );
-  }, []);
+    return () => { cancelled = true; };
+  }, [requiresLearning]);
 
   useEffect(() => {
+    if (!requiresLearning) return;
     const next = dataset === "private" && priv ? priv : open;
     if (next && next !== atlas) {
       store.useDataset(next.id);
       setAtlas(next);
     }
-  }, [dataset, open, priv, atlas]);
+  }, [dataset, open, priv, atlas, requiresLearning]);
+
+  if (!account.loading && isAdmin) return <>
+    <AppearanceController forceLight />
+    <PageBoundary><Suspense fallback={<div className="boot" aria-busy="true"><Logo /><span className="spinner" /></div>}><AdminPage /></Suspense></PageBoundary>
+    <Toasts />
+  </>;
+  if (!account.loading && !account.user && (!guestEntry || route.page === 'account' || route.page === 'admin')) return <EntryGate
+    key={route.page === "account" ? "account-entry" : "entry"}
+    initialLogin={route.page === "account"}
+    onGuest={async () => {
+      if(temporaryGuestsEnabled())await beginGuest();
+      rememberGuestEntry(); entryPending.current = false; setGuestEntry(true); setAccountOpen(false);
+      if (currentLocation().route.page === "account") go({ page: "me" }, null, true);
+      else if (currentLocation().route.page === 'admin') go({page:'today'},null,true);
+    }}
+  />;
 
   if (error)
     return (
@@ -182,16 +214,6 @@ export default function App() {
         <span className="spinner" />
       </div>
     );
-  if (!account.user && (!guestEntry || route.page === 'account' || route.page === 'admin')) return <EntryGate
-    key={route.page === "account" ? "account-entry" : "entry"}
-    initialLogin={route.page === "account"}
-    onGuest={async () => {
-      if(temporaryGuestsEnabled())await beginGuest();
-      rememberGuestEntry(); entryPending.current = false; setGuestEntry(true); setAccountOpen(false);
-      if (currentLocation().route.page === "account") go({ page: "me" }, null, true);
-      else if (currentLocation().route.page === 'admin') go({page:'today'},null,true);
-    }}
-  />;
   return (
     <AtlasContext.Provider value={atlas}>
       <Shell privateAvailable={!!priv} accountOpen={accountOpen && !entryPending.current} onAccountOpen={() => setAccountOpen(true)} onAccountClose={closeAccount} onEntry={returnToEntry} />
@@ -237,6 +259,8 @@ function Shell({ privateAvailable, accountOpen, onAccountOpen, onAccountClose, o
     theme === "starlight" ||
     theme === "aurora" ||
     (theme === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
+
+  if(route.page==='admin')return <><AppearanceController forceLight /><PageBoundary><Suspense fallback={<div className="boot" aria-busy="true"><span className="spinner" /></div>}><AdminPage /></Suspense></PageBoundary><Toasts /></>;
 
   return (
     <div className={`app ${focus ? "is-focus" : ""}`}>
@@ -288,7 +312,7 @@ function Shell({ privateAvailable, accountOpen, onAccountOpen, onAccountClose, o
       )}
 
       <main className="main" id="main">
-        <GuestNotice />
+        <GuestAlerts onOpen={focus?undefined:onAccountOpen} />
         <PageBoundary key={route.page}>
           <Suspense
             fallback={
@@ -313,7 +337,6 @@ function Shell({ privateAvailable, accountOpen, onAccountOpen, onAccountClose, o
               />
             )}
             {route.page === "about" && <About />}
-            {route.page === "admin" && <AdminPage />}
             {route.page === "read" && <Reading />}
             {route.page === "paraphrase" && <Drills mode="paraphrase" />}
             {route.page === "confuse" && <Drills mode="confuse" />}

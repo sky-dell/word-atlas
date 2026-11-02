@@ -1,10 +1,11 @@
 import { Logo } from '../ui/Logo';
 import { SITE_TAGLINE } from '../config';
-import { AccountPanel } from './Account';
+import { AccountPanel,downloadAccountBackup } from './Account';
 import '../styles/account.css';
 import '../styles/entry.css';
 import {useState} from 'react';
-import {useGuest} from '../guest/state';
+import {useGuest,exportPausedGuestBackup} from '../guest/state';
+import {AppearanceController} from '../ui/Appearance';
 
 // IDs and meanings verified against public/atlas/index.json; no catalog fetch
 // is needed before the account form becomes usable.
@@ -19,6 +20,7 @@ export function EntryGate({ onGuest }: {
 }) {
   const guest=useGuest(),[error,setError]=useState('');
   return <main className="auth-entry" aria-label="词与远方 · 开始探索">
+    <AppearanceController forceLight />
     <div className="auth-entry__layout">
       <div className="auth-entry__story">
         <Logo />
@@ -57,6 +59,7 @@ export function EntryGate({ onGuest }: {
           <button type="button" className="auth-entry__guest-action" aria-label="以游客身份登录" disabled={guest.loading} onClick={()=>{setError('');void Promise.resolve().then(onGuest).catch(e=>setError(e instanceof Error?e.message:'游客服务暂时不可用'));}}>{guest.loading?'正在准备临时身份…':'以游客身份登录'}<span aria-hidden="true"> →</span></button>
           <p>刷新不丢失已暂存记录。闲置24小时失效，最长保留7天。</p>
           {(error||guest.status==='offline')&&<p role="alert">{error||guest.message}</p>}
+          {guest.recoveryAvailable&&<button type="button" className="auth-entry__guest-action" onClick={()=>downloadAccountBackup(exportPausedGuestBackup(),'guest-recovery')}>导出未暂存的游客记录</button>}
         </div>
       </section>
       <p className="auth-entry__footer">{SITE_TAGLINE}</p>

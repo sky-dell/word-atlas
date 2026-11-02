@@ -9,7 +9,7 @@ const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const root=path.resolve(process.env.STATIC_ROOT||path.join(project,'dist'));
 const port=Number(process.env.PORT||80);
 const host=process.env.BIND_HOST||'0.0.0.0';
-const secureOrigin=process.env.PUBLIC_ORIGIN||'https://43.133.166.184';
+const secureOrigin=process.env.PUBLIC_ORIGIN||'https://west.cloud-ip.cc';
 const allowInsecureLocal=process.env.ALLOW_INSECURE_LOCAL==='1'&&process.env.NODE_ENV!=='production';
 const tlsEnabled=Boolean(process.env.TLS_KEY&&process.env.TLS_CERT);
 const enabled=process.env.ACCOUNTS_ENABLED==='1';
@@ -26,19 +26,29 @@ if(enabled&&allowInsecureLocal&&host!=='127.0.0.1'&&host!=='::1') throw new Erro
 let accounts;
 let guests;
 let mailer;
+const {createOperations}=await import('../server/operations.mjs');
 if(enabled) {
   const {createAccounts}=await import('../server/accounts.mjs');
   const {createMailerFromEnv}=await import('../server/mailer.mjs');
   mailer=createMailerFromEnv(process.env);
-  accounts=createAccounts({dbPath:process.env.ACCOUNTS_DB,origins:(process.env.APP_ORIGINS||secureOrigin).split(',').filter(Boolean),secureCookies:!allowInsecureLocal,allowInsecureLocal,initializeDatabase:process.env.NODE_ENV!=='production',accountQuotaBytes:Number(process.env.ACCOUNT_QUOTA_BYTES||40*1024*1024),cloudQuotaBytes:Number(process.env.CLOUD_QUOTA_BYTES||512*1024*1024),sendEmailCode:mailer.enabled?mailer.sendCode:undefined,emailCodeSecret:process.env.MAIL_CODE_SECRET});
+  const operations=createOperations({helperSocket:process.env.ADMIN_SOCKET,mailEnabled:mailer.enabled,guestEnabled:true,accountsEnabled:true,tlsEnabled,dataPath:project});
+  if(process.env.ADMIN_SOCKET)void operations.request('certificate').then(()=>console.log('Restricted administration component reachable'),()=>console.error('Restricted administration component unavailable; public application remains enabled'));
+  accounts=createAccounts({operations,listGuests:()=>guests?.listOnline()??[],dbPath:process.env.ACCOUNTS_DB,origins:(process.env.APP_ORIGINS||secureOrigin).split(',').filter(Boolean),secureCookies:!allowInsecureLocal,allowInsecureLocal,initializeDatabase:process.env.NODE_ENV!=='production',accountQuotaBytes:Number(process.env.ACCOUNT_QUOTA_BYTES||40*1024*1024),cloudQuotaBytes:Number(process.env.CLOUD_QUOTA_BYTES||512*1024*1024),sendEmailCode:mailer.enabled?mailer.sendCode:undefined,emailCodeSecret:process.env.MAIL_CODE_SECRET});
   const {createGuests}=await import('../server/guests.mjs');
   const guestPath=process.env.GUESTS_DB||path.join(path.dirname(process.env.ACCOUNTS_DB),'guests.sqlite');
   if(path.resolve(guestPath)===path.resolve(process.env.ACCOUNTS_DB))throw Error('Guest and account databases must be separate');
   guests=createGuests({dbPath:guestPath,origins:(process.env.APP_ORIGINS||secureOrigin).split(',').filter(Boolean),allowInsecureLocal});
 }
-const handler=createApplication({root,accounts,guests,acmeRoot:process.env.ACME_ROOT||'/var/lib/word-atlas/acme',secureOrigin,allowInsecureLocal});
+const handler=createApplication({root,accounts,guests,acmeRoot:process.env.ACME_ROOT||'/var/lib/word-atlas/acme',secureOrigin,allowInsecureLocal,domainOnly:process.env.DOMAIN_ONLY==='1'});
 const servers=[http.createServer(handler)];
-if(tlsEnabled) servers.push(https.createServer({key:fs.readFileSync(process.env.TLS_KEY),cert:fs.readFileSync(process.env.TLS_CERT),minVersion:'TLSv1.2'},handler));
+function tlsFiles(){const certificatePath=fs.realpathSync(process.env.TLS_CERT);const keyPath=process.env.TLS_KEY.includes('/current/')?path.join(path.dirname(certificatePath),'privkey.pem'):process.env.TLS_KEY;return {key:fs.readFileSync(keyPath),cert:fs.readFileSync(certificatePath),minVersion:'TLSv1.2'};}
+if(tlsEnabled) servers.push(https.createServer(tlsFiles(),handler));
+if(tlsEnabled)process.on('SIGUSR2',()=>{
+  try{
+    servers[1].setSecureContext(tlsFiles());
+    console.log('HTTPS certificate context reloaded');
+  }catch{console.error('HTTPS certificate context reload rejected; previous context retained');}
+});
 for(const [i,server] of servers.entries()) {
   server.headersTimeout=10000;server.requestTimeout=30000;server.keepAliveTimeout=5000;server.maxRequestsPerSocket=1000;
   server.on('error',error=>{console.error('Words & Beyond listener failed:',error.code||'unknown');process.exit(1);});

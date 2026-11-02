@@ -211,7 +211,7 @@
   .auth-entry .account-auth-heading h3 { font-size: 23px; margin: 6px 0 7px; }
   .auth-entry .account-auth-heading ~ .account-form { margin-top: 14px; }
   .auth-entry .account-auth-heading ~ .account-form fieldset { gap: 12px; }
-  .auth-entry .account-auth-heading ~ .account-form input { min-height: 46px; padding: 11px 14px; }
+  .auth-entry .account-auth-heading ~ .account-form input { min-height: 46px; padding: 11px 14px; font-size: 16px; }
   .auth-entry .account-primary { min-height: 48px; }
   .auth-entry .auth-entry__guest { margin-top: 14px; padding-top: 14px; }
   .auth-entry .auth-entry__guest button { min-height: 44px; }

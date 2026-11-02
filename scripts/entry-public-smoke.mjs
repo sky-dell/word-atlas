@@ -54,7 +54,7 @@ try {
   assert.equal(await page.evaluate(()=>localStorage.getItem('word-atlas:entry-mode')),null);
   assert.equal(await page.evaluate(()=>sessionStorage.getItem('word-atlas:entry-mode')),'guest');
   assert.equal(await page.getByRole('button',{name:'账户菜单',exact:true}).count(),0);
-  await page.getByRole('button',{name:'返回入口',exact:true}).click();await entry.locator('input[name=username]').waitFor();
+  await page.getByRole('button',{name:/^游客账户菜单/}).click();await page.getByRole('button',{name:'退出游客模式',exact:true}).click();await entry.locator('input[name=username]').waitFor();
   assert.equal(await page.evaluate(()=>sessionStorage.getItem('word-atlas:entry-mode')),null);
   assert.equal(await page.evaluate(()=>localStorage.getItem('word-atlas:reader:v1')),'{"size":25}');
   for(const route of ['account','admin']){await page.goto(origin+'/?entry-check='+route+'#/'+route);await entry.locator('input[name=username]').waitFor();assert.equal(await page.locator('.account-dropdown').count(),0);}

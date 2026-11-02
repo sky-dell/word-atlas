@@ -39,7 +39,7 @@ export function stashLocal(text: string) {
 function stopCloud() { clearTimeout(syncTimer); cloud?.stop(); cloud = null; cloudKey = ''; }
 function configureCloud() {
   const s = store.get();
-  const key = state.enabled && state.bootstrapped && !state.loading && state.user && !state.user.disabled && s.ready && !s.saveError && getProfile() === state.user.id ? `${state.user.id}:${s.progress.datasetId}:${profileGeneration()}` : '';
+  const key = state.enabled && state.bootstrapped && !state.loading && state.user && state.user.role !== 'admin' && !state.user.disabled && s.ready && !s.saveError && getProfile() === state.user.id ? `${state.user.id}:${s.progress.datasetId}:${profileGeneration()}` : '';
   if (key === cloudKey) return;
   stopCloud();
   if (!key) { update({ sync: { status: 'idle' } }); return; }
@@ -64,6 +64,12 @@ export function scheduleSync() {
   if (!cloud) return;
   cloud.pending(); clearTimeout(syncTimer);
   syncTimer = setTimeout(() => void cloud?.run(), 1000);
+}
+export async function renewAccountActivity(){
+  const before=state;if(!before.user||before.loading)return;
+  const result=await accountClient.request<{idleExpiresAt:number;serverNow:number}>('/api/auth/activity',{method:'POST',body:{}});
+  if(state.user?.id!==before.user.id||state.csrfToken!==before.csrfToken)return;
+  update({...result,idleReceivedAt:Date.now()});
 }
 export async function syncNow() { if (cloud) await cloud.run(); }
 export function backupConflict() { if (!cloud) throw new Error('云同步未启用。'); return cloud.backupLocal(); }
@@ -102,7 +108,7 @@ export function refreshAccount(invalidate = false): Promise<void> {
         if (epoch !== refreshEpoch) return;
       }
       accountClient.setSession(session.user?.id ?? null, session.csrfToken);
-      update({ ...session, emailEnabled: session.emailEnabled === true, bootstrapped: true, loading: false, error: '', profileKey: `${session.user?.id ?? 'guest'}:${profileGeneration()}:${restoreRevision}` });
+      update({ ...session, idleReceivedAt:Date.now(), emailEnabled: session.emailEnabled === true, bootstrapped: true, loading: false, error: '', profileKey: `${session.user?.id ?? 'guest'}:${profileGeneration()}:${restoreRevision}` });
       configureCloud();
     } catch (e) {
       if (epoch !== refreshEpoch) return;

@@ -42,10 +42,13 @@ try{
     await page.getByLabel('用户名',{exact:true}).fill('explorer');await page.getByRole('button',{name:'下一步',exact:true}).click();
     await page.getByRole('button',{name:'完成注册',exact:true}).waitFor();
     await fit(`${width}x${height}/${theme}/password`,baseline);
-    await page.getByLabel('密码',{exact:true}).fill('registration fixture password');
-    await page.getByLabel('确认密码',{exact:true}).fill('different fixture password');
+    await page.getByLabel('密码',{exact:true}).fill('Registration fixture password 1!');
+    await page.getByLabel('确认密码',{exact:true}).fill('Different fixture password 2!');
     await page.getByRole('button',{name:'完成注册',exact:true}).click();await page.getByRole('alert').waitFor();
     await fit(`${width}x${height}/${theme}/validation`,baseline);
+    await page.getByLabel('密码',{exact:true}).fill('abcdef1!');await page.getByLabel('确认密码',{exact:true}).fill('abcdef1!');
+    await page.getByRole('button',{name:'完成注册',exact:true}).click();await page.getByRole('alert').filter({hasText:'含大写、小写'}).waitFor();
+    await fit(`${width}x${height}/${theme}/password-policy`,baseline);
     await page.screenshot({path:path.join(output,`password-${width}-${height}-${theme}.png`)});
     await page.getByRole('button',{name:'修改',exact:true}).click();await fit(`${width}x${height}/${theme}/back`,baseline);
     assert.equal(await page.getByLabel('用户名',{exact:true}).inputValue(),'explorer');

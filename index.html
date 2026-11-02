@@ -3,32 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#0D1120" />
+    <meta name="theme-color" content="#f6f1e7" />
     <meta name="twitter:title" content="词与远方 · Words &amp; Beyond" />
-    <meta name="twitter:image" content="https://43.133.166.184/words-and-beyond-og.png" />
+    <meta name="twitter:image" content="https://west.cloud-ip.cc/words-and-beyond-og.png" />
     <meta name="twitter:description" content="多懂一个词，多看一点世界。" />
     <title>词与远方 · Words &amp; Beyond</title>
     <meta name="description" content="多懂一个词，多看一点世界。用插画、例句与英美发音理解单词，通过间隔复习积累记忆。支持游客学习和免费账户同步。" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="词与远方 · Words &amp; Beyond" />
     <meta property="og:description" content="多懂一个词，多看一点世界。" />
-    <meta property="og:image" content="https://43.133.166.184/words-and-beyond-og.png" />
+    <meta property="og:image" content="https://west.cloud-ip.cc/words-and-beyond-og.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
     <link rel="apple-touch-icon" href="%BASE_URL%icon-512.png" />
     <link rel="manifest" href="%BASE_URL%manifest.webmanifest" />
-    <link rel="preload" href="%BASE_URL%atlas/index.json" as="fetch" crossorigin="anonymous" />
     <script>
-      // Apply the saved theme (dark by default) before first paint.
+      // Entry always starts in daylight; signed-in profile preferences load later.
       (function () {
-        var t = "starlight";
-        try {
-          var s = JSON.parse(localStorage.getItem("word-atlas:appearance") || "{}");
-          if (s.theme) t = s.theme;
-          document.documentElement.setAttribute('data-font',s.wordFont||'sans');
-        } catch (e) {}
-        if(t==='starlight'||t==='aurora'){document.documentElement.setAttribute('data-skin',t);document.documentElement.setAttribute('data-theme','dark');}
-        else if (t !== "system") document.documentElement.setAttribute("data-theme", t);
+        document.documentElement.setAttribute('data-font','sans');
+        document.documentElement.setAttribute('data-theme','light');
       })();
     </script>
   </head>

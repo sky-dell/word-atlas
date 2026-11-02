@@ -164,20 +164,20 @@ test('registration uses validated fields and free cloud access, password change 
     await page.getByRole('button', { name: '注册', exact: true }).click({ timeout: 3000 });
     await page.getByLabel('用户名', { exact: true }).fill('alice');
     await page.getByLabel('昵称（可选）').fill('Alice');
-    await page.getByLabel('密码', { exact: true }).fill('long-password-123');
-    await page.getByLabel('确认密码', { exact: true }).fill('long-password-123');
+    await page.getByLabel('密码', { exact: true }).fill('Long-password-123!');
+    await page.getByLabel('确认密码', { exact: true }).fill('Long-password-123!');
     await page.getByRole('button', { name: '创建账号' }).click();
     await page.getByRole('button', { name: '创建云端备份' }).waitFor();
     assert.equal(await page.getByRole('button', { name: '创建云端备份' }).isEnabled(), true);
     await page.locator('summary').filter({ hasText: '修改密码' }).click();
-    await page.getByLabel('当前密码').fill('long-password-123');
-    await page.getByLabel('新密码', { exact: true }).fill('new-password-456');
-    await page.getByLabel('确认新密码').fill('new-password-456');
+    await page.getByLabel('当前密码').fill('Long-password-123!');
+    await page.getByLabel('新密码', { exact: true }).fill('New-password-456!');
+    await page.getByLabel('确认新密码').fill('New-password-456!');
     await page.getByRole('button', { name: '修改密码' }).click();
     await page.getByRole('button', { name: '登录账号', exact: true }).waitFor();
     assert.equal(await page.locator('.account-badge').count(), 0);
     assert.equal(calls[0].path, '/api/auth/register'); assert.equal(calls[0].headers['x-csrf-token'], 'csrf');
-    assert.deepEqual(calls[0].data, { username: 'alice', password: 'long-password-123', nickname: 'Alice' });
+    assert.deepEqual(calls[0].data, { username: 'alice', password: 'Long-password-123!', nickname: 'Alice' });
     assert.equal(calls[1].headers['x-account-id'], 'A');
     assert.equal(calls[1].path, '/api/auth/password');
   } finally { await context.close(); }
@@ -197,9 +197,10 @@ test('admin confirms actions with password reauthentication and renders reset to
   try {
     await load(page);
     await page.evaluate(async () => {
-      const panel = await import('/src/pages/Admin.tsx' as string).catch(() => null); if (!panel?.AdminPage) return;
+      const panel = await import('/src/pages/Admin.tsx' as string).catch(() => null); if (!panel?.AdminTools) return;
+      await(await import('/src/account/state.tsx' as string)).refreshAccount();
       const { React, dom } = await import('/account-test-mount.js' as string); const root = document.createElement('div'); document.body.append(root);
-      dom.createRoot(root).render(React.createElement(panel.AdminPage));
+      dom.createRoot(root).render(React.createElement(panel.AdminTools));
     });
     await page.getByRole('button', { name: '禁用账号', exact: true }).click({ timeout: 3000 });
     assert.equal(await page.getByRole('button', { name: /开通|永久|取消会员/ }).count(), 0);
@@ -216,6 +217,15 @@ test('admin confirms actions with password reauthentication and renders reset to
     assert.deepEqual(writes, ['/api/auth/reauth', '/api/admin/users/target-B/status', '/api/auth/reauth', '/api/admin/users/target-B/reset']);
     assert.match(await page.locator('body').innerText(), /历史权限变更/);
   } finally { await context.close(); }
+});
+test('administrator bootstrap and preference changes never initialize learner cloud synchronization',async()=>{
+  const context=await browser.newContext(),page=await context.newPage(),learner=[] as string[];
+  await page.route('**/api/**',route=>{
+    const req=route.request(),path=new URL(req.url()).pathname;if(/\/api\/(account|member)\//.test(path))learner.push(path);
+    return route.fulfill({json:path==='/api/auth/session'?{user:{id:'admin-only',username:'admin',nickname:'',role:'admin',disabled:false,email:null,emailVerified:false},enabled:true,csrfToken:'fixture'}:{version:0,snapshot:null,backups:[]}});
+  });
+  try{await load(page);await page.evaluate(async()=>{const m=await import('/src/account/state.tsx' as string);await m.refreshAccount();(window as any).atlasStore.store.settings({dailyNew:30});m.scheduleSync();await new Promise(r=>setTimeout(r,1600));});assert.deepEqual(learner,[]);}
+  finally{await context.close();}
 });
 
 test('same-origin tabs serialize session bootstrap to avoid competing anonymous CSRF cookies',async()=>{
@@ -459,6 +469,36 @@ test('guest save failure cannot become a successful flush and discard dirty data
   }finally{await context.close();}
 });
 
+test('automatic guest restoration is read-only and cannot renew a retained login',async()=>{
+  const context=await browser.newContext(),page=await context.newPage();let entries=0;
+  await page.route('**/api/guest/**',route=>{
+    const req=route.request();if(req.method()==='POST')entries++;
+    return route.fulfill({json:new URL(req.url()).pathname.endsWith('/state')?{version:0,state:null}:{guest:{id:'retained',name:'游客_测试',createdAt:1,expiresAt:9999999999999,hardExpiresAt:9999999999999},csrfToken:'f'.repeat(64)}});
+  });
+  try{await load(page);await page.evaluate(async()=>{(await import('/src/store/profileStorage.ts' as string)).enableTemporaryGuests();await(await import('/src/guest/state.ts' as string)).beginGuest(true);});assert.equal(entries,0);}
+  finally{await context.close();}
+});
+
+for(const changedElsewhere of [false,true])test(`idle guest re-entry preserves unsaved local study settings${changedElsewhere?' without overwriting a newer server snapshot':''}`,async()=>{
+  const context=await browser.newContext(),page=await context.newPage();let version=0,writes=0;
+  await page.route('**/api/guest/**',route=>{
+    const req=route.request();if(req.method()==='PUT'){writes++;return route.fulfill({status:503,json:{code:'unavailable',error:'offline save'}});}
+    return route.fulfill({json:new URL(req.url()).pathname.endsWith('/state')?{version,state:null}:{guest:{id:'recover',name:'游客_测试',createdAt:1,expiresAt:9999999999999,hardExpiresAt:9999999999999},csrfToken:'f'.repeat(64)}});
+  });
+  try{
+    await load(page);const guarded=await page.evaluate(async()=>{
+      (await import('/src/store/profileStorage.ts' as string)).enableTemporaryGuests();const guest=await import('/src/guest/state.ts' as string);await guest.beginGuest();
+      (window as any).atlasStore.store.settings({dailyNew:30});await guest.flushGuest().catch(()=>{});guest.pauseGuestLogin();
+      return !window.dispatchEvent(new Event('beforeunload',{cancelable:true}));
+    });
+    assert.equal(guarded,true,'Unexported paused data must still warn before refresh');
+    if(changedElsewhere)version=1;const previousWrites=writes;
+    const result=await page.evaluate(async()=>{const g=await import('/src/guest/state.ts' as string);await g.beginGuest();return {daily:(window as any).atlasStore.store.get().settings.dailyNew,status:g.guestState.get().status};});
+    assert.equal(result.daily,30);
+    if(changedElsewhere){assert.equal(result.status,'conflict');assert.equal(writes,previousWrites);}
+  }finally{await context.close();}
+});
+
 test('guest import aborts if the target account changes while the server state is loading',async()=>{
   const context=await browser.newContext(),page=await context.newPage();let held:any,deletes=0,ready!:()=>void;const requested=new Promise<void>(r=>ready=r);
   await page.route('**/api/guest/**',route=>{
@@ -489,6 +529,29 @@ test('disabled email on the authentication page preserves username fallback', as
   const context=await browser.newContext(),page=await context.newPage();
   await page.route('**/api/**',route=>route.fulfill({json:{user:null,enabled:true,emailEnabled:false,csrfToken:'csrf'}}));
   try{await mountAuth(page);await page.getByRole('button',{name:'注册',exact:true}).click();await page.getByRole('button',{name:'邮箱注册',exact:true}).click();assert.equal(await page.getByRole('button',{name:'获取验证码'}).isEnabled(),false);assert.match(await page.locator('.account-panel').innerText(),/邮箱服务尚未启用/);await page.getByRole('button',{name:'用户名注册',exact:true}).click();await page.getByLabel('用户名',{exact:true}).waitFor();}finally{await context.close();}
+});
+
+test('guest header shows its assigned name and mode with a compact account menu', async()=>{
+  const context=await browser.newContext(),page=await context.newPage();page.setDefaultTimeout(4000);
+  await page.route('**/api/**',route=>{const path=new URL(route.request().url()).pathname;return route.fulfill({json:path==='/api/auth/session'?{user:null,enabled:true,emailEnabled:true,csrfToken:'csrf'}:path.endsWith('/state')?{version:0,state:null}:{guest:{id:'visitor',name:'游客_F39D8AF90E',createdAt:1,expiresAt:9999999999999,hardExpiresAt:9999999999999},csrfToken:'f'.repeat(64)}});});
+  try{
+    await mountMenu(page);
+    await page.evaluate(async()=>{await (await import('/src/guest/state.ts' as string)).beginGuest();});
+    const trigger=page.getByRole('button',{name:/^游客账户菜单/});await trigger.waitFor();
+    assert.match(await trigger.innerText(),/游客_F39D8AF90E/);assert.match(await trigger.innerText(),/游客模式/);
+    assert.equal(await page.getByRole('button',{name:'返回入口',exact:true}).count(),0);
+    assert.doesNotMatch(await page.locator('body').innerText(),/不会创建正式账户|闲置24小时|最长保留7天/);
+    await trigger.click();await page.getByRole('button',{name:'个人中心',exact:true}).waitFor();
+    await page.keyboard.press('Escape');assert.equal(await trigger.getAttribute('aria-expanded'),'false');
+    for(const width of [320,390,768,1440]){await page.setViewportSize({width,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);}
+    await trigger.click();await page.getByRole('button',{name:'退出游客模式',exact:true}).click();assert.equal(await page.evaluate(()=>(window as any).accountEntryRequested),1);
+  }finally{await context.close();}
+});
+
+test('guest save errors offer a direct backup when the focused learning view has no account header',async()=>{
+  const context=await browser.newContext(),page=await context.newPage();page.setDefaultTimeout(4000);
+  await page.route('**/api/**',route=>{const req=route.request(),path=new URL(req.url()).pathname;return route.fulfill({status:req.method()==='PUT'?503:200,json:req.method()==='PUT'?{error:'暂存失败'}:path==='/api/auth/session'?{user:null,enabled:true,csrfToken:'csrf'}:path.endsWith('/state')?{version:0,state:null}:{guest:{id:'visitor',name:'游客_TEST',createdAt:1,expiresAt:9999999999999,hardExpiresAt:9999999999999},csrfToken:'f'.repeat(64)}});});
+  try{await mountMenu(page);const status=await page.evaluate(async()=>{(await import('/src/store/profileStorage.ts' as string)).enableTemporaryGuests();const g=await import('/src/guest/state.ts' as string);await g.beginGuest();(window as any).atlasStore.store.settings({dailyNew:30});await g.flushGuest().catch(()=>{});const {React,dom}=await import('/account-test-mount.js' as string);const {GuestAlerts}=await import('/src/guest/GuestNotice.tsx' as string);const root=document.createElement('div');document.body.append(root);dom.createRoot(root).render(React.createElement(GuestAlerts,{}));return g.guestState.get().status;});assert.equal(status,'offline');const alert=page.getByRole('alert');await alert.getByRole('button',{name:'导出游客备份',exact:true}).waitFor();assert.equal(await alert.getByRole('button',{name:'处理暂存问题',exact:true}).count(),0);}finally{await context.close();}
 });
 
 test('anonymous header returns to the entry page without exposing an authentication dropdown', async () => {
@@ -532,6 +595,37 @@ test('account dropdown is anchored, keyboard dismissible and bounded at 390px wi
   } finally { await context.close(); }
 });
 
+test('account registration details omit the storage note and fit without internal scrolling',async()=>{
+  for(const role of ['user','admin']){
+    const context=await browser.newContext(),page=await context.newPage();
+    await page.route('**/api/**',route=>route.fulfill({json:{user:{id:'profile-fit',username:'profile@example.com',nickname:'',email:'profile@example.com',emailVerified:true,role,disabled:false,createdAt:1793491200000},enabled:true,emailEnabled:true,csrfToken:'csrf'}}));
+    try{
+      await mountMenu(page);await page.getByRole('button',{name:'账户菜单',exact:true}).click();await page.getByRole('button',{name:'账户注册信息',exact:true}).click();
+      const panel=page.locator('.account-dropdown');
+      assert.doesNotMatch(await panel.innerText(),/账户完全免费。支持学习快照同步|未完成的答题会话仅保存在本机/);
+      assert.equal(await panel.getByRole('button',{name:'退出账号',exact:true}).count(),0);
+      assert.equal(await panel.getByRole('button',{name:'刷新账户状态',exact:true}).count(),0);
+      for(const theme of ['light','dark'])for(const [width,height]of [[1440,900],[1366,768],[1280,640],[390,844],[390,700],[375,667],[320,640],[320,568]]){
+        await page.setViewportSize({width,height});await page.evaluate(theme=>{document.documentElement.dataset.theme=theme;delete document.documentElement.dataset.skin;},theme);
+        const size=await panel.evaluate(el=>({height:el.clientHeight,scrollHeight:el.scrollHeight,width:el.clientWidth,scrollWidth:el.scrollWidth}));
+        assert.ok(size.scrollHeight<=size.height+1,`${role}/${theme}/${width}x${height}: internal height ${size.scrollHeight}>${size.height}`);
+        assert.ok(size.scrollWidth<=size.width+1,`${role}/${theme}/${width}: horizontal overflow`);
+        assert.equal(await panel.locator('dl > div').count(),6);
+        for(const name of ['返回账户菜单',...(role==='admin'?['管理账号']:[])]){
+          const action=panel.getByRole(name==='管理账号'?'link':'button',{name,exact:true}),box=await action.boundingBox();
+          assert.ok(box&&box.y>=0&&box.y+box.height<=height,`${role}/${width}x${height}: ${name} fully visible`);
+        }
+      }
+      // Extreme windows remain naturally scrollable, rather than hiding data.
+      await page.setViewportSize({width:320,height:300});
+      assert.notEqual(await panel.evaluate(el=>getComputedStyle(el).overflowY),'hidden');
+      await page.setViewportSize({width:390,height:700});
+      await panel.getByRole('button',{name:'返回账户菜单',exact:true}).click();
+      assert.equal(await panel.getByRole('button',{name:'退出登录',exact:true}).isVisible(),true);
+    }finally{await context.close();}
+  }
+});
+
 test('verified email registration and six digit login use CSRF, purpose and cooldown without losing leading zeroes', async () => {
   const context = await browser.newContext(), page = await context.newPage();
   const calls: { path: string; body: any; csrf?: string }[] = [];
@@ -552,8 +646,8 @@ test('verified email registration and six digit login use CSRF, purpose and cool
     assert.equal(await page.getByRole('button', { name: /秒后重发/ }).isDisabled(), true);
     assert.match(await page.locator('.account-panel').innerText(), /5 分钟/);
     await page.getByLabel('六位验证码').fill('012345');
-    await page.getByLabel('密码', { exact: true }).fill('long-password-123');
-    await page.getByLabel('确认密码', { exact: true }).fill('long-password-123');
+    await page.getByLabel('密码', { exact: true }).fill('Long-password-123!');
+    await page.getByLabel('确认密码', { exact: true }).fill('Long-password-123!');
     await page.getByRole('button', { name: '创建账号' }).click();
     // The session refresh remounts this anonymous mock at the login entry.
     await page.getByRole('button', { name: '账户登录', exact: true }).waitFor();
@@ -566,7 +660,7 @@ test('verified email registration and six digit login use CSRF, purpose and cool
     await loginResponse;
     assert.deepEqual(calls.map(c => [c.path, c.body]), [
       ['/api/auth/email-code', { email: 'alice@example.com', purpose: 'register' }],
-      ['/api/auth/register', { email: 'alice@example.com', code: '012345', password: 'long-password-123', nickname: '' }],
+      ['/api/auth/register', { email: 'alice@example.com', code: '012345', password: 'Long-password-123!', nickname: '' }],
       ['/api/auth/email-code', { email: 'alice@example.com', purpose: 'login' }],
       ['/api/auth/login-code', { email: 'alice@example.com', code: '001234' }],
     ]);
@@ -596,12 +690,12 @@ test('email service failure remains honest and does not block username or email 
     await page.getByRole('button', { name: '账户登录', exact: true }).click();
     for (const identifier of ['alice', 'alice@example.com']) {
       await page.getByLabel('用户名或邮箱').fill(identifier);
-      await page.getByLabel('密码', { exact: true }).fill('long-password-123');
+      await page.getByLabel('密码', { exact: true }).fill('Long-password-123!');
       const response = page.waitForResponse(r => new URL(r.url()).pathname === '/api/auth/login');
       await page.getByRole('button', { name: '登录账号' }).click(); await response;
       await page.getByLabel('用户名或邮箱').waitFor();
     }
-    assert.deepEqual(logins, [{ identifier: 'alice', password: 'long-password-123' }, { identifier: 'alice@example.com', password: 'long-password-123' }]);
+    assert.deepEqual(logins, [{ identifier: 'alice', password: 'Long-password-123!' }, { identifier: 'alice@example.com', password: 'Long-password-123!' }]);
   } finally { await context.close(); }
 });
 

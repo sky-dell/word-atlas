@@ -10,6 +10,7 @@ import type { Backup } from '../account/sync';
 import { importGuestProfile } from '../store/store';
 import { profileGeneration } from '../store/profile';
 import '../styles/account.css';
+import {validPassword,PASSWORD_ERROR,PASSWORD_HINT} from '../../shared/password-policy.mjs';
 
 export function downloadAccountBackup(text: string, label = 'local') {
   const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
@@ -17,7 +18,7 @@ export function downloadAccountBackup(text: string, label = 'local') {
   setTimeout(() => URL.revokeObjectURL(url), 2000);
 }
 function validPasswords(password: string, confirmation: string) {
-  if ([...password].length < 12 || [...password].length > 128) throw new Error('密码须为 12–128 个字符。');
+  if (!validPassword(password)) throw new Error(PASSWORD_ERROR);
   if (password !== confirmation) throw new Error('两次密码不一致。');
 }
 export type AccountMode = 'login' | 'register' | 'reset';
@@ -87,11 +88,11 @@ function AuthForms({ initialMode, emailEnabled, preferEmailRegistration, variant
         {mode === 'register' && <label>昵称（可选）<input name="nickname" maxLength={64} autoComplete="nickname" /></label>}
         {!(mode === 'login' && method === 'email') && <label><span className={mode==='login'?'account-visually-hidden':undefined}>密码</span>{variant === 'entry'
           ? <div className="account-password-field">
-              <input name="password" aria-label="密码" type={showPassword ? 'text' : 'password'} required placeholder="请输入密码" minLength={mode === 'login' ? 1 : 12} maxLength={128} autoComplete={mode === 'login' ? 'current-password' : 'new-password'} />
+              <input name="password" aria-label="密码" type={showPassword ? 'text' : 'password'} required placeholder={mode === 'login' ? '请输入密码' : PASSWORD_HINT} title={mode === 'login' ? undefined : PASSWORD_ERROR} minLength={mode === 'login' ? 1 : 8} maxLength={128} autoComplete={mode === 'login' ? 'current-password' : 'new-password'} />
               <button type="button" className="account-password-toggle" aria-pressed={showPassword} aria-label={showPassword ? '隐藏密码' : '显示密码'} onClick={() => setShowPassword(v => !v)}>{showPassword ? '隐藏' : '显示'}</button>
             </div>
-          : <input name="password" type="password" required placeholder="请输入密码" minLength={mode === 'login' ? 1 : 12} maxLength={128} autoComplete={mode === 'login' ? 'current-password' : 'new-password'} />}</label>}
-        {mode !== 'login' && <><small>12–128 个字符，支持粘贴与密码管理器。</small><label>确认密码<input name="confirm" type="password" required minLength={12} maxLength={128} autoComplete="new-password" /></label></>}
+          : <input name="password" type="password" required placeholder={mode === 'login' ? '请输入密码' : PASSWORD_HINT} title={mode === 'login' ? undefined : PASSWORD_ERROR} minLength={mode === 'login' ? 1 : 8} maxLength={128} autoComplete={mode === 'login' ? 'current-password' : 'new-password'} />}</label>}
+        {mode !== 'login' && <><label>确认密码<input name="confirm" type="password" required minLength={8} maxLength={128} autoComplete="new-password" /></label></>}
         <button className="account-primary" type="submit" disabled={method === 'email' && mode !== 'reset' && !emailEnabled}>{busy ? '处理中…' : mode === 'register' ? '创建账号' : mode === 'reset' ? '重设密码' : '登录账号'}<ArrowRight size={16} aria-hidden="true" /></button>
       </fieldset>
     </form>
@@ -113,14 +114,14 @@ export function SignedIn({ user, view = 'all' }: { user: User; view?: 'all' | 'p
   };
   const statuses = { idle: '本机学习', pending: '本机更改待同步', syncing: '正在同步…', synced: '已同步', offline: '离线或云端不可用 · 本机更改待同步', conflict: '本机与云端版本冲突', unavailable: '云同步权限不可用' };
   return <div className="account-stack">
-    {(view === 'all' || view === 'profile') && <><h3 className="account-section-title">账户注册信息</h3><dl className="account-profile-fields"><div><dt>用户名</dt><dd>{user.username}</dd></div><div><dt>昵称</dt><dd>{user.nickname || '未设置'}</dd></div><div><dt>注册邮箱</dt><dd>{user.email || '未绑定邮箱'}</dd></div><div><dt>邮箱状态</dt><dd>{user.email && user.emailVerified ? '已验证' : '未验证'}</dd></div><div><dt>注册时间</dt><dd>{typeof user.createdAt === 'number' && user.createdAt > 0 && Number.isFinite(new Date(user.createdAt).getTime()) ? new Date(user.createdAt).toLocaleDateString('zh-CN', {year:'numeric',month:'2-digit',day:'2-digit'}) : '暂不可用'}</dd></div><div><dt>登录方式</dt><dd>{user.email && user.emailVerified ? '用户名或邮箱＋密码、邮箱验证码' : '用户名＋密码'}</dd></div></dl><p className="muted">账户完全免费。支持学习快照同步与每个词库最多 3 份云端历史备份；未完成的答题会话仅保存在本机。</p>
-    <div className="account-actions"><button className="btn btn-ghost" disabled={busy} onClick={() => void act(() => authAction('logout'))}>退出账号</button><button className="btn btn-ghost" disabled={busy} onClick={() => void act(() => refreshAccount())}>刷新账户状态</button>{user.role === 'admin' && <a className="btn btn-ghost" href="#/admin">管理账号</a>}</div></>}
+    {(view === 'all' || view === 'profile') && <><h3 className="account-section-title">账户注册信息</h3><dl className="account-profile-fields"><div><dt>用户名</dt><dd>{user.username}</dd></div><div><dt>昵称</dt><dd>{user.nickname || '未设置'}</dd></div><div><dt>注册邮箱</dt><dd>{user.email || '未绑定邮箱'}</dd></div><div><dt>邮箱状态</dt><dd>{user.email && user.emailVerified ? '已验证' : '未验证'}</dd></div><div><dt>注册时间</dt><dd>{typeof user.createdAt === 'number' && user.createdAt > 0 && Number.isFinite(new Date(user.createdAt).getTime()) ? new Date(user.createdAt).toLocaleDateString('zh-CN', {year:'numeric',month:'2-digit',day:'2-digit'}) : '暂不可用'}</dd></div><div><dt>登录方式</dt><dd>{user.email && user.emailVerified ? '用户名或邮箱＋密码、邮箱验证码' : '用户名＋密码'}</dd></div></dl>
+    {user.role === 'admin' && <div className="account-actions"><a className="btn btn-ghost" href="#/admin">管理账号</a></div>}</>}
     {(view === 'all' || view === 'data') && <><div className="account-sync"><p role="status">{statuses[a.sync.status]}{a.sync.version !== undefined && ` · v${a.sync.version}`}</p>{a.sync.message && <p className="muted">{a.sync.message}</p>}
       {a.sync.status === 'conflict' ? <><p>请先备份本机记录，再明确选择保留哪个版本。不会自动合并统计。</p><div className="account-actions"><button className="btn btn-ghost" disabled={busy} onClick={() => { try { downloadAccountBackup(backupConflict(), 'before-conflict'); } catch (e) { setMessage(accountError(e)); } }}>备份本机记录</button><button className="btn" disabled={busy || !a.sync.backedUp} onClick={() => void act(() => resolveConflict('local'))}>采用本机版本</button><button className="btn btn-ghost" disabled={busy || !a.sync.backedUp} onClick={() => void act(() => resolveConflict('cloud'))}>采用云端版本</button></div></> : <button className="btn btn-ghost" disabled={busy || a.sync.status === 'syncing'} onClick={() => void act(syncNow)}>立即检查同步</button>}
     </div>
     <div><button className="btn btn-ghost" disabled={busy} onClick={() => setGuestConfirm(!guestConfirm)}>导入游客暂存记录</button>{guestConfirm && <div className="account-confirm"><p>将当前词库的游客记录复制到本账号，替换本账号的本机快照。仅在复制成功后清除已导入的游客记录，其他词库保留至到期。请先下载本账号备份。</p><button className="btn" disabled={busy} onClick={() => void act(async () => { const text = JSON.stringify(readSnapshot()); stashLocal(text); downloadAccountBackup(text, 'before-guest-import'); const result = await (temporaryGuestsEnabled() ? importTemporaryGuest() : importGuestProfile()); if (!result.ok) throw new Error(result.error); setGuestConfirm(false); }, '已复制当前词库的游客记录。')}>备份本账号并确认导入游客记录</button></div>}</div>
     <CloudBackups active={a.enabled && !user.disabled && !a.loading} /></>}
-    {(view === 'all' || view === 'password') && <details open={view === 'password' ? true : undefined}><summary>修改密码</summary><form className="account-form" onSubmit={password}><fieldset disabled={busy}><label>当前密码<input type="password" name="currentPassword" required autoComplete="current-password" /></label><label>新密码<input type="password" name="password" required minLength={12} maxLength={128} autoComplete="new-password" /></label><label>确认新密码<input type="password" name="confirm" required minLength={12} maxLength={128} autoComplete="new-password" /></label><p className="muted">修改后全部设备会话将退出，请重新登录。</p><button className="btn" type="submit">修改密码</button></fieldset></form></details>}
+    {(view === 'all' || view === 'password') && <details open={view === 'password' ? true : undefined}><summary>修改密码</summary><form className="account-form" onSubmit={password}><fieldset disabled={busy}><label>当前密码<input type="password" name="currentPassword" required autoComplete="current-password" /></label><label>新密码<input type="password" name="password" required placeholder={PASSWORD_HINT} title={PASSWORD_ERROR} minLength={8} maxLength={128} autoComplete="new-password" /></label><label>确认新密码<input type="password" name="confirm" required minLength={8} maxLength={128} autoComplete="new-password" /></label><p className="muted">修改后全部设备会话将退出，请重新登录。</p><button className="btn" type="submit">修改密码</button></fieldset></form></details>}
     {message && <p role="status">{message}</p>}
   </div>;
 }

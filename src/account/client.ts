@@ -8,7 +8,7 @@ export interface User {
   /** Legacy response compatibility only; never an authorization signal. */
   membership?: { active: boolean; permanent: boolean; expiresAt: number | string | null };
 }
-export interface Session { user: User | null; csrfToken: string; enabled: boolean; emailEnabled: boolean; secureOrigin?: string }
+export interface Session { user: User | null; csrfToken: string; enabled: boolean; emailEnabled: boolean; secureOrigin?: string; idleExpiresAt?:number|null;serverNow?:number;idleReceivedAt?:number }
 export type RequestOptions = { method?: string; body?: unknown; signal?: AbortSignal };
 /** No readable credential is persisted. Each request captures both identity and generation. */
 export class AccountClient {

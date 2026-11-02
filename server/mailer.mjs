@@ -59,13 +59,15 @@ export function createMailerFromEnv(env = process.env) {
         !/^\d{6}$/.test(code)
       )
         throw new Error("Invalid email challenge");
+      const description = `您${purpose === "register" ? "注册" : "登录"}验证码是 ${code}，5 分钟内有效。请勿向他人透露。如非本人操作，请忽略此邮件。`;
       await deliver({
         to,
         subject:
           purpose === "register"
             ? "词与远方 · 邮箱注册验证码"
             : "词与远方 · 登录验证码",
-        text: `词与远方 · Words & Beyond\n\n你的${purpose === "register" ? "注册" : "登录"}验证码是 ${code}，5 分钟内有效。请勿向他人透露。如非本人操作，请忽略此邮件。\n\n多懂一个词，多看一点世界。`,
+        text: `词与远方 · Words & Beyond\n\n${description}`,
+        html: `<div lang="zh-CN" style="font-family:Arial,'Microsoft YaHei','PingFang SC',sans-serif;color:#1b2034;line-height:1.8;font-size:20px;"><p style="margin:0 0 20px;font-size:22px;line-height:1.8;">词与远方 · Words &amp; Beyond</p><p style="margin:0;font-size:20px;line-height:1.8;">${description}</p></div>`,
       });
     },
     // Trusted local configuration probe only; deliberately not an auth code.

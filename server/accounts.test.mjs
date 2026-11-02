@@ -4,13 +4,107 @@ import { createServer, request as httpRequest } from "node:http";
 import { mkdtemp, rm, stat, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { createHash } from "node:crypto";
+import { createHash, scryptSync } from "node:crypto";
 import { createAccounts } from "./accounts.mjs";
 import { hashPassword, verifyPassword, passwordWork } from "./passwords.mjs";
 import { backupDatabase } from "./backup.mjs";
 
-const PASSWORD = "correct horse battery staple";
-const NEW_PASSWORD = "another strong password here";
+const PASSWORD = "Correct horse battery staple 1!";
+const NEW_PASSWORD = "Another strong password here 2!";
+
+test('public registration cannot claim the reserved administrator name',async t=>{
+  const f=await fixture(t),c=f.client();await c.bootstrap();
+  assert.equal((await c.request('/api/auth/register',post({username:'AdMiN',password:PASSWORD}))).status,409);
+  const advice=await c.request('/api/auth/username-availability',post({username:'admin'}));assert.equal(advice.data.available,false);assert.equal(advice.data.suggestions.length,3);
+});
+
+test('operational routes are admin-only, certificate mutations require reauth and audit never contains key material',async t=>{
+  const calls=[],operations={overview:async()=>({project:{uptimeSeconds:10}}),request:async(action,payload)=>{calls.push({action,payload});return action==='stage'?{stageId:'a'.repeat(32),certificate:{fingerprint256:'test-fingerprint'}}:{mode:'automatic'};}};
+  const f=await fixture(t,{operations}),c=f.client();await c.register();
+  for(const path of ['overview','services','certificate','online','logins'])assert.equal((await c.request('/api/admin/'+path)).status,403);
+  const a=await f.admin();assert.equal((await a.request('/api/admin/overview')).data.project.uptimeSeconds,10);
+  const body={certificatePem:'fixture-public',privateKeyPem:'fixture-SECRET-private-key'};
+  assert.equal((await a.request('/api/admin/certificate/stage',post(body))).status,403);
+  await reauthenticate(a);assert.equal((await a.request('/api/admin/certificate/stage',post(body))).status,200);
+  assert.equal(calls.at(-1).action,'stage');assert.doesNotMatch(JSON.stringify((await a.request('/api/admin/audit')).data),/fixture-SECRET|fixture-public/);
+});
+test('disabled service catalog never calls the operational collector even for an administrator',async t=>{
+  let calls=0;const f=await fixture(t,{operations:{overview:async()=>({}),request:async()=>{calls++;return {services:[]};}}}),a=await f.admin();
+  const r=await a.request('/api/admin/services');assert.equal(r.status,410);assert.equal(r.data.code,'services_disabled');assert.equal(calls,0);
+});
+test('login history page size is bounded and selectable for compact viewports',async t=>{
+  const f=await fixture(t),a=await f.admin();const insert=f.accounts.db.prepare("INSERT INTO login_events(user_id,username,method,result,created_at) VALUES(NULL,'paged','password','failure',?)");for(let i=0;i<12;i++)insert.run(Date.UTC(2026,9,28)+i);
+  const r=await a.request('/api/admin/logins?q=paged&limit=3&page=2');assert.equal(r.data.events.length,3);assert.equal(r.data.pages,4);assert.equal(r.data.events[0].createdAt,Date.UTC(2026,9,28)+8);
+  assert.equal((await a.request('/api/admin/logins?limit=0')).status,400);assert.equal((await a.request('/api/admin/logins?limit=51')).status,400);
+});
+test('login history records successful, failed, logout and timeout without credentials; online deduplicates sessions',async t=>{
+  const f=await fixture(t),a=await f.admin(),c=f.client();await c.register('tracked');
+  await c.request('/api/auth/logout',post({}));await c.login('tracked','Wrong password 1!');await c.login('tracked');
+  const second=f.client();await second.login('tracked');
+  const online=(await a.request('/api/admin/online')).data;
+  const row=online.users.find(u=>u.username==='tracked');assert.equal(row.sessionCount,2);assert.equal(row.active,true);
+  assert.doesNotMatch(JSON.stringify(online),/token_hash|peer_hash|csrf/);
+  let history=(await a.request('/api/admin/logins?q=tracked')).data;assert.ok(history.events.some(e=>e.result==='failure'));assert.ok(history.events.some(e=>e.result==='success'));assert.ok(history.events.some(e=>e.result==='logout'));
+  f.advance(120*60000);await c.bootstrap();await a.login('operator');history=(await a.request('/api/admin/logins?q=tracked')).data;
+  assert.equal(history.events.filter(e=>e.result==='timeout').length,2);assert.doesNotMatch(JSON.stringify(history),/Wrong password|battery|token_hash|csrf/);
+});
+test('failed verified-email logins remain searchable by the canonical account name',async t=>{
+  const f=await fixture(t),a=await f.admin(),c=f.client();await c.register('canonical_name');
+  f.accounts.db.prepare('UPDATE users SET email=?,email_verified=1 WHERE id=?').run('linked@example.com',c.user.id);
+  await c.request('/api/auth/logout',post({}));assert.equal((await c.login('linked@example.com','Wrong password 1!')).status,401);
+  const history=(await a.request('/api/admin/logins?q=canonical_name')).data;assert.ok(history.events.some(e=>e.result==='failure'&&e.username==='canonical_name'));
+});
+
+test('account idle deadline expires at 120 minutes despite polling and keeps learning data',async t=>{
+  const f=await fixture(t),c=f.client();await c.register('idle_owner');
+  const id=c.user.id;
+  await c.request('/api/account/progress?dataset=open',{method:'PUT',body:{version:0,snapshot:snapshot()}});
+  f.advance(119*60000);assert.equal((await c.bootstrap()).data.user.id,id);
+  f.advance(60000);assert.equal((await c.request('/api/account/progress?dataset=open')).status,401);
+  assert.equal((await c.bootstrap()).data.user,null);
+  f.restart();assert.equal((await c.login('idle_owner')).status,200);
+  assert.equal((await c.request('/api/account/progress?dataset=open')).data.version,1);
+});
+
+test('authorized activity renews account idle deadline, invalid CSRF and expired sessions cannot renew',async t=>{
+  const f=await fixture(t),c=f.client();await c.register('active_owner');
+  f.advance(119*60000);
+  assert.equal((await c.request('/api/auth/activity',post({}))).status,200);
+  f.restart();f.advance(119*60000);assert.ok((await c.bootstrap()).data.user);
+  assert.equal((await c.request('/api/auth/activity',post({}, {noCsrf:true}))).status,403);
+  f.advance(60000);
+  assert.ok((await c.request('/api/auth/activity',post({}))).status>=400);
+  assert.equal((await c.bootstrap()).data.user,null);
+});
+
+test('legacy password login and current-password verification still work after policy upgrade',async t=>{
+  const f=await fixture(t),c=f.client();const created=await c.register('legacy_policy');
+  const password='correct horse battery staple',salt='0123456789abcdef0123456789abcdef';
+  const key=scryptSync(password,salt,64,{N:32768,r:8,p:1,maxmem:48*1024*1024});
+  f.accounts.db.prepare('UPDATE users SET password_hash=? WHERE id=?').run(`scrypt$1$32768$8$1$${salt}$${key.toString('hex')}`,created.data.user.id);
+  await c.request('/api/auth/logout',post({}));await c.bootstrap();
+  assert.equal((await c.request('/api/auth/login',post({username:'legacy_policy',password}))).status,200);
+  assert.equal((await c.request('/api/auth/password',post({currentPassword:password,password:'abcdef1!'}))).status,400);
+  assert.equal((await c.request('/api/auth/password',post({currentPassword:password,password:'Abcdef1!'}))).status,200);
+  await c.bootstrap();assert.equal((await c.request('/api/auth/login',post({username:'legacy_policy',password:'Abcdef1!'}))).status,200);
+});
+
+test('username and verified-email registration accept eight-character complex passwords and reject weak passwords',async t=>{
+  const sent=[];const f=await fixture(t,{sendEmailCode:async m=>sent.push(m),emailCodeSecret:'s'.repeat(64)}),c=f.client();await c.bootstrap();
+  for(const password of ['abcdef1!','ABCDEF1!','Abcdefg!','Abcdef12','Abcde1!']){
+    assert.equal((await c.request('/api/auth/register',post({username:'new_policy',password}))).status,400);
+  }
+  const created=await c.request('/api/auth/register',post({username:'new_policy',password:'Abcdef1!'}));assert.equal(created.status,200);
+  await c.request('/api/auth/logout',post({}));await c.bootstrap();
+  const login=await c.request('/api/auth/login',post({identifier:'new_policy',password:'Abcdef1!'}));assert.equal(login.status,200);assert.equal(login.data.user.id,created.data.user.id);
+  const other=f.client();await other.bootstrap();const email='new-policy@example.com';
+  await other.request('/api/auth/email-code',post({email,purpose:'register'}));
+  const verified=await other.request('/api/auth/register-verify',post({email,code:sent.at(-1).code}));assert.equal(verified.status,200);
+  assert.equal((await other.request('/api/auth/register',post({email,registrationToken:verified.data.registrationToken,password:'abcdef12!'}))).status,400);
+  assert.equal((await other.request('/api/auth/register',post({email,registrationToken:verified.data.registrationToken,password:'Zyxwvu2@'}))).status,200);
+  await other.request('/api/auth/logout',post({}));await other.bootstrap();
+  assert.equal((await other.request('/api/auth/login',post({identifier:email,password:'Zyxwvu2@'}))).status,200);
+});
 
 test('two-step registration verifies before password and binds single-use proof to session', async t => {
   const sent=[]; const f=await fixture(t,{sendEmailCode:async m=>sent.push(m),emailCodeSecret:'s'.repeat(64)});
@@ -349,12 +443,14 @@ test("public user retains registration createdAt across later login and session 
 
   f.advance(2 * 86400000);
   f.restart();
-  const session = await c.bootstrap();
+  assert.equal((await c.bootstrap()).data.user,null);
+  const session = await c.login();
   const other = f.client();
   const loggedIn = await other.login();
   f.advance(86400000);
   f.restart();
-  const laterSession = await other.bootstrap();
+  assert.equal((await other.bootstrap()).data.user,null);
+  const laterSession = await other.login();
   for (const response of [registered, session, loggedIn, laterSession]) {
     assert.equal(response.status, 200);
     assert.deepEqual(response.data.user, expectedUser);
@@ -570,7 +666,7 @@ test("v1 migration preserves IDs, password hashes, sessions, progress and backup
   );
   // Remove only v2 additions to reproduce the original v1 schema exactly.
   f.accounts.db.exec(
-    "DROP TABLE email_codes; DROP INDEX users_email; ALTER TABLE users DROP COLUMN email; ALTER TABLE users DROP COLUMN email_verified; PRAGMA user_version=1;",
+    "DROP TABLE email_codes; DROP INDEX users_email; ALTER TABLE users DROP COLUMN email; ALTER TABLE users DROP COLUMN email_verified; ALTER TABLE sessions DROP COLUMN idle_expires_at; ALTER TABLE sessions DROP COLUMN last_activity_at; DROP TABLE login_events; PRAGMA user_version=1;",
   );
   f.restart();
   for (const table of tables) {
@@ -594,7 +690,7 @@ test("v1 migration preserves IDs, password hashes, sessions, progress and backup
   }
   assert.equal(
     f.accounts.db.prepare("PRAGMA user_version").get().user_version,
-    2,
+    4,
   );
   assert.equal((await c.bootstrap()).data.user.id, c.user.id);
   assert.equal(
@@ -1551,7 +1647,7 @@ test("consistent SQLite backup restores sessions, accounts, snapshots and migrat
     );
     assert.equal(
       restored.db.prepare("PRAGMA user_version").get().user_version,
-      2,
+      4,
     );
   } finally {
     restored.close();
@@ -1568,7 +1664,7 @@ test("consistent SQLite backup restores sessions, accounts, snapshots and migrat
     () => createAccounts({ dbPath: target, origins: [f.url] }),
     /version|migration/i,
   );
-  f.accounts.db.exec("PRAGMA user_version=2");
+  f.accounts.db.exec("PRAGMA user_version=4");
   await writeFile(join(f.dir, "corrupt.db"), "not a database");
   assert.throws(() =>
     createAccounts({ dbPath: join(f.dir, "corrupt.db"), origins: [f.url] }),

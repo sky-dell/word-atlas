@@ -27,7 +27,7 @@ test('reading and specialist routes work with real local content and recorded au
       await page.locator('.wa-reading-quiz').waitFor();
       for (const index of [0, 4, 8]) await page.locator('.wa-reading-quiz .wa-choice').nth(index).click();
       assert.match(await page.locator('.wa-result').innerText(), /3 \/ 3/);
-      await page.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor();
+      await page.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor({state:'attached'});
       const histories = await page.evaluate(async () => {
         const session=await (await fetch('/api/guest/session')).json();
         const state=await (await fetch('/api/guest/state?dataset=all',{headers:{'X-Guest-ID':session.guest.id,'X-Guest-CSRF':session.csrfToken}})).json();
@@ -37,7 +37,7 @@ test('reading and specialist routes work with real local content and recorded au
       assert.equal(await page.evaluate(()=>Object.keys(localStorage).some(k=>k.startsWith('word-atlas:extras:v1:'))),false);
       await page.screenshot({ path: '/tmp/word-atlas-reading-desktop.png' });
       await page.getByRole('button', { name: '全部短文', exact: true }).click();
-      await page.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor();await page.reload();
+      await page.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor({state:'attached'});await page.reload();
       await page.locator('.wa-short-card').first().waitFor();
       assert.match(page.url(), /tab=short/);
     });
@@ -70,7 +70,7 @@ test('reading and specialist routes work with real local content and recorded au
         await page.locator('.wa-next-question').click();
       }
       assert.match(await page.locator('.wa-big-score').innerText(), /3\s*\/ 3/);
-      await page.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor();await page.reload();
+      await page.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor({state:'attached'});await page.reload();
       await page.locator('.wa-comparison').waitFor();
       assert.match(await page.locator('.page-head .eyebrow').innerText(), /已通过/);
     });
@@ -90,7 +90,7 @@ test('reading and specialist routes work with real local content and recorded au
       await page.getByRole('button', { name: '暂停朗读', exact: true }).click();
       await page.locator('#wa-chapter').selectOption('4');
       await page.locator('.wa-article h2').filter({ hasText: 'Chapter 4' }).waitFor();
-      await page.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor();await page.reload();
+      await page.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor({state:'attached'});await page.reload();
       await page.locator('.wa-article h2').filter({ hasText: 'Chapter 4' }).waitFor();
       assert.equal(await page.getByLabel('朗读速度', { exact: true }).inputValue(), '1.2');
       await page.setViewportSize({ width: 390, height: 844 });

@@ -11,7 +11,7 @@ import { createApplication } from './http-handler.mjs';
 const dir=await fs.mkdtemp(path.join(os.tmpdir(),'atlas-entry-'));
 let guests,accounts,server,browser;const errors=[],results=[];
 async function check(name,fn){try{await fn();results.push(name);console.log('PASS '+name);}catch(e){for(const c of browser?.contexts()||[])for(const p of c.pages())console.error('Failure state:',p.url(),(await p.locator('body').innerText().catch(()=>'' )).slice(0,1600));throw e;}}
-async function maybeWelcome(p){const w=p.getByRole('dialog',{name:'欢迎',exact:true});try{await w.waitFor({timeout:2000});}catch{if(!await w.isVisible())return;}try{await w.getByRole('button',{name:'出发'}).click({timeout:5000});if(await p.locator('.guest-notice').isVisible())await p.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor();}catch(e){if(await w.isVisible())throw e;}}
+async function maybeWelcome(p){const w=p.getByRole('dialog',{name:'欢迎',exact:true});try{await w.waitFor({timeout:2000});}catch{if(!await w.isVisible())return;}try{await w.getByRole('button',{name:'出发'}).click({timeout:5000});if(await p.locator('.guest-notice').isVisible())await p.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor({state:'attached'});}catch(e){if(await w.isVisible())throw e;}}
 try {
   server=https.createServer({key:await fs.readFile('/etc/word-atlas/tls/privkey.pem'),cert:await fs.readFile('/etc/word-atlas/tls/fullchain.pem')},(req,res)=>handler(req,res));
   await new Promise(r=>server.listen(0,'127.0.0.1',r));const origin='https://127.0.0.1:'+server.address().port;
@@ -33,13 +33,13 @@ try {
   });
   await check('unsigned account deep link can return to guest without reopening the account dialog',async()=>{
     const c=await browser.newContext({ignoreHTTPSErrors:true});await c.addInitScript(()=>localStorage.setItem('word-atlas:settings',JSON.stringify({onboarded:true,splash:true})));
-    try {const p=await c.newPage();await p.goto(origin+'/#/account');await p.getByRole('button',{name:'以游客身份登录',exact:true}).click();await p.locator('main.main').waitFor();await maybeWelcome(p);assert.equal(await p.locator('.account-dropdown').count(),0);assert.equal(new URL(p.url()).hash,'#/me');}finally{await c.close();}
+    try {const p=await c.newPage();await p.goto(origin+'/#/account');await p.getByRole('button',{name:'以游客身份登录',exact:true}).click();await p.locator('main.main').waitFor();await maybeWelcome(p);assert.equal(await p.locator('.account-dropdown:visible').count(),0);assert.equal(new URL(p.url()).hash,'#/me');}finally{await c.close();}
   });
   const second=await ctx.newPage();second.on('pageerror',e=>errors.push(e.message));
   await check('new tab asks again; registration from account entry and existing login bypass the gate',async()=>{
     await second.goto(origin+'/');
     const panel=second.getByRole('region',{name:'账户',exact:true});await panel.getByRole('button',{name:'注册',exact:true}).click();await panel.getByRole('button',{name:'用户名注册',exact:true}).click();
-    await panel.locator('input[name=username]').fill('entry_learner');await panel.getByRole('button',{name:'下一步',exact:true}).click();await panel.locator('input[name=password]').fill('entry fixture password only 2026');await panel.locator('input[name=confirm]').fill('entry fixture password only 2026');
+    await panel.locator('input[name=username]').fill('entry_learner');await panel.getByRole('button',{name:'下一步',exact:true}).click();await panel.locator('input[name=password]').fill('Entry fixture password only 2026!');await panel.locator('input[name=confirm]').fill('Entry fixture password only 2026!');
     await panel.getByRole('button',{name:'完成注册',exact:true}).click();await second.locator('main.main').waitFor();
     await maybeWelcome(second);
     assert.equal(await second.evaluate(()=>sessionStorage.getItem('word-atlas:entry-mode')),null);
@@ -50,19 +50,19 @@ try {
     const c=await browser.newContext({ignoreHTTPSErrors:true});
     await c.addInitScript(()=>localStorage.setItem('word-atlas:settings',JSON.stringify({onboarded:true,splash:true})));
     try {const p=await c.newPage();await p.goto(origin+'/');await p.getByRole('button',{name:'以游客身份登录',exact:true}).click();await p.locator('main.main').waitFor();await maybeWelcome(p);await p.reload();await p.locator('main.main').waitFor();await maybeWelcome(p);
-      assert.equal(await p.locator('.splash').count(),0);await p.locator('.topbar').getByRole('button',{name:'返回入口',exact:true}).click({trial:true});
+      assert.equal(await p.locator('.splash').count(),0);await p.locator('.topbar').getByRole('button',{name:/^游客账户菜单/}).click({trial:true});
     } finally {await c.close();}
   });
   await check('logout returns to entry and existing account can log in again',async()=>{
     await maybeWelcome(second);
     await second.locator('.topbar').getByRole('button',{name:'账户菜单',exact:true}).click();await second.getByRole('button',{name:'退出登录',exact:true}).click();
     
-    await second.locator('input[name=username]').fill('entry_learner');await second.locator('input[name=password]').fill('entry fixture password only 2026');await second.getByRole('button',{name:'登录账号',exact:true}).click();await second.locator('main.main').waitFor();
+    await second.locator('input[name=username]').fill('entry_learner');await second.locator('input[name=password]').fill('Entry fixture password only 2026!');await second.getByRole('button',{name:'登录账号',exact:true}).click();await second.locator('main.main').waitFor();
   });
   await check('account deep-link registration enters learning without stacked dialogs and logout returns to choices',async()=>{
     const c=await browser.newContext({ignoreHTTPSErrors:true});
     try {const p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(origin+'/#/account');await p.getByRole('button',{name:'注册',exact:true}).click();await p.getByRole('button',{name:'用户名注册',exact:true}).click();
-      await p.locator('input[name=username]').fill('deep_link_user');await p.getByRole('button',{name:'下一步',exact:true}).click();await p.locator('input[name=password]').fill('deep link fixture password 2026');await p.locator('input[name=confirm]').fill('deep link fixture password 2026');await p.getByRole('button',{name:'完成注册',exact:true}).click();
+      await p.locator('input[name=username]').fill('deep_link_user');await p.getByRole('button',{name:'下一步',exact:true}).click();await p.locator('input[name=password]').fill('Deep link fixture password 2026!');await p.locator('input[name=confirm]').fill('Deep link fixture password 2026!');await p.getByRole('button',{name:'完成注册',exact:true}).click();
       await p.locator('main.main').waitFor();await maybeWelcome(p);await p.waitForURL('**/#/me');assert.equal(await p.locator('.account-dropdown').count(),0);
       await maybeWelcome(p);
       await p.goto(origin+'/#/account');await p.getByRole('button',{name:'退出登录',exact:true}).click();await p.locator('.auth-entry').waitFor();assert.equal(new URL(p.url()).hash,'#/me');

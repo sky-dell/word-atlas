@@ -99,6 +99,12 @@ test("account and admin API requests always bypass the service worker", () => {
     assert.equal(w.fetch(p).response,undefined);
 });
 
+test("full video requests bypass offline storage even without a Range header", () => {
+  const w=worker();
+  assert.equal(w.fetch('atlas/extras/karoline/karoline-01.mp4').response,undefined);
+  assert.equal(w.fetch('atlas/extras/karoline/karoline-02.mp4?version=1').response,undefined);
+});
+
 test("activation removes previously cached identity responses across application scopes", async () => {
   const w=worker();
   const foreign='word-atlas:https://atlas.test/:v2-shell';

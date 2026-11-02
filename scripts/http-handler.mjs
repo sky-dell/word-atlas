@@ -1,14 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const types = {'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.webmanifest':'application/manifest+json','.svg':'image/svg+xml','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2','.mp3':'audio/mpeg','.ogg':'audio/ogg','.txt':'text/plain; charset=utf-8'};
+const types = {'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.webmanifest':'application/manifest+json','.svg':'image/svg+xml','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2','.mp3':'audio/mpeg','.ogg':'audio/ogg','.mp4':'video/mp4','.txt':'text/plain; charset=utf-8'};
 function json(res,status,value) {
   res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});
   res.end(JSON.stringify(value));
 }
 
-export function createApplication({root,accounts,guests,acmeRoot,secureOrigin='',allowInsecureLocal=false}) {
+export function createApplication({root,accounts,guests,acmeRoot,secureOrigin='',allowInsecureLocal=false,domainOnly=false}) {
   root=path.resolve(root);
+  const canonical=domainOnly?new URL(secureOrigin):null;
+  if(canonical&&canonical.protocol!=='https:')throw Error('Domain-only access requires HTTPS');
   function serve(req,res,file,base,requested,challenge=false) {
     let stat;
     try {
@@ -38,6 +40,19 @@ export function createApplication({root,accounts,guests,acmeRoot,secureOrigin=''
       let requested;
       try {requested=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}
       catch {res.writeHead(400);res.end();return;}
+      // ACME HTTP validation is independent of the application host policy.
+      if(canonical&&!requested.startsWith('/.well-known/acme-challenge/')) {
+        if(req.headers.host?.toLowerCase()!==canonical.host.toLowerCase()) {
+          json(res,403,{error:'请使用 HTTPS 域名访问本站。',code:'domain_required',secureOrigin:canonical.origin});return;
+        }
+        if(!req.socket.encrypted) {
+          // Never copy a user-supplied authority or trust forwarded headers.
+          const target=new URL(canonical.origin);
+          const incoming=new URL(req.url,'http://localhost');
+          target.pathname=incoming.pathname;target.search=incoming.search;
+          res.writeHead(308,{Location:target.href,'Cache-Control':'no-store'});res.end();return;
+        }
+      }
       if(requested==='/api'||requested.startsWith('/api/')) {
         const local=['127.0.0.1','::1','::ffff:127.0.0.1'].includes(req.socket.remoteAddress);
         const available=accounts&&(req.socket.encrypted||(allowInsecureLocal&&local));

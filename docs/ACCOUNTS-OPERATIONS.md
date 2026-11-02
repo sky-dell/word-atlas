@@ -22,7 +22,7 @@ sudo runuser -u word-atlas -- /opt/nodejs/node-v24.22.1-linux-x64/bin/node /data
 sudo runuser -u word-atlas -- /opt/nodejs/node-v24.22.1-linux-x64/bin/node /data/word-atlas/scripts/admin.mjs create-admin --username owner_admin
 ```
 
-用户名可换成未被使用的 3–32 位字母、数字、下划线，密码 12–128 字符。创建后访问 HTTPS 的 `#/account` 登录，再进入 `#/admin`。管理员与会员分开：管理员不会自动获得会员身份，可在管理页给自己开通会员。
+用户名可换成未被使用的 3–32 位字母、数字、下划线，密码为 8–128 字符，须包含大写字母、小写字母、数字和符号。创建后访问 HTTPS 的 `#/account` 登录，再进入 `#/admin`。管理员与会员分开：管理员不会自动获得会员身份，可在管理页给自己开通会员。
 
 管理员忘记密码时，仅在本机执行 `reset-admin --username owner_admin`，交互设置新密码并撤销该管理员的所有会话。不能通过网页重置其他管理员。普通用户重置由管理员生成短期一次性凭据，再通过已有可信渠道手工交付，不自动发短信或邮件。
 

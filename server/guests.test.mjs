@@ -20,6 +20,32 @@ async function fixture(t,options={}){
   return {client,advance:ms=>time+=ms,restart:()=>{guests.close();guests=open();},get guests(){return guests;},dbPath};
 }
 const value={records:{'word-atlas:reader:v1':'{"size":24}','word-atlas:illustration:a priori':'classic'}};
+test('guest login expires at 240 minutes without deleting retained identity and data; explicit re-entry resumes it',async t=>{
+  const f=await fixture(t),a=f.client();const created=await a.request(undefined,'POST',{});
+  await a.request('/api/guest/state?dataset=all','PUT',{version:0,state:value});
+  f.advance(239*60000);assert.deepEqual((await a.request('/api/guest/state?dataset=all')).data.state,value);
+  f.advance(60000);f.restart();
+  const expired=await a.request();assert.equal(expired.data.loginRequired,true);
+  assert.equal(expired.data.guest.id,created.data.guest.id);
+  assert.equal((await a.request('/api/guest/state?dataset=all')).status,401);
+  assert.equal((await a.request('/api/guest/activity','POST',{})).status,401);
+  const resumed=await a.request(undefined,'POST',{});assert.equal(resumed.data.guest.id,created.data.guest.id);
+  assert.deepEqual((await a.request('/api/guest/state?dataset=all')).data.state,value);
+});
+test('guest activity renews only after identity and CSRF validation and never extends retention by reading',async t=>{
+  const f=await fixture(t),a=f.client();await a.request(undefined,'POST',{});
+  f.advance(239*60000);assert.equal((await a.request('/api/guest/activity','POST',{})).status,200);
+  f.advance(239*60000);assert.equal((await a.request('/api/guest/state?dataset=all')).status,200);
+  assert.equal((await a.request('/api/guest/activity','POST',{}, {'X-Guest-CSRF':'bad'})).status,403);
+  f.advance(60000);assert.equal((await a.request('/api/guest/state?dataset=all')).status,401);
+});
+test('guest login deadline remains independent when a subsequent save extends retention',async t=>{
+  const f=await fixture(t),a=f.client();await a.request(undefined,'POST',{});
+  f.advance(23*3600000);await a.request(undefined,'POST',{});
+  await a.request('/api/guest/state?dataset=all','PUT',{version:0,state:value});
+  f.advance(239*60000);assert.equal((await a.request('/api/guest/state?dataset=all')).status,200);
+  f.advance(60000);assert.equal((await a.request('/api/guest/state?dataset=all')).status,401);
+});
 test('guest state survives refresh and restart, CAS prevents stale writes and origin/CSRF isolate guests',async t=>{
   const f=await fixture(t),a=f.client(),b=f.client();assert.equal((await a.request()).data.guest,null);
   const s=await a.request(undefined,'POST',{});assert.equal(s.status,200);assert.match(s.data.guest.name,/^游客_/);
@@ -37,7 +63,7 @@ test('guest queries never extend idle TTL and seven day cap cannot be renewed',a
   const f=await fixture(t);let a=f.client();await a.request(undefined,'POST',{});f.advance(23*3600000);assert.equal((await a.request()).status,200);
   f.advance(3600000);assert.equal((await a.request('/api/guest/state?dataset=all')).status,401);
   a=f.client();await a.request(undefined,'POST',{});
-  for(let version=0;version<7;version++) {f.advance(23*3600000);assert.equal((await a.request('/api/guest/state?dataset=all','PUT',{version,state:value})).status,200);}
+  for(let version=0;version<7;version++) {f.advance(23*3600000);await a.request(undefined,'POST',{});assert.equal((await a.request('/api/guest/state?dataset=all','PUT',{version,state:value})).status,200);}
   f.advance(7*3600000);assert.equal((await a.request('/api/guest/state?dataset=all')).status,401);
   assert.ok(f.guests.cleanup()>=1);
 });

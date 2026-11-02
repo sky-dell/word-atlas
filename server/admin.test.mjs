@@ -18,7 +18,7 @@ test("local bootstrap has no defaults, no web promotion, protects ordinary users
   assert.equal(db.prepare("SELECT COUNT(*) AS n FROM users").get().n, 0);
   const user = await createAdministrator(db, {
     username: "LocalAdmin",
-    password: "a secure local secret",
+    password: "A secure local secret 1!",
     nickname: "Operator",
   });
   assert.equal(user.role, "admin");
@@ -26,7 +26,7 @@ test("local bootstrap has no defaults, no web promotion, protects ordinary users
   assert.equal(user.password_hash, undefined);
   assert.equal(
     await verifyPassword(
-      "a secure local secret",
+      "A secure local secret 1!",
       db.prepare("SELECT password_hash FROM users WHERE id=?").get(user.id)
         .password_hash,
     ),
@@ -35,7 +35,7 @@ test("local bootstrap has no defaults, no web promotion, protects ordinary users
   await assert.rejects(
     createAdministrator(db, {
       username: "localadmin",
-      password: "a secure local secret",
+      password: "A secure local secret 1!",
     }),
   );
   db.prepare(
@@ -43,12 +43,12 @@ test("local bootstrap has no defaults, no web promotion, protects ordinary users
   ).run(user.id);
   await resetAdministrator(db, {
     username: "LOCALADMIN",
-    password: "a different local secret",
+    password: "A different local secret 2!",
   });
   assert.equal(db.prepare("SELECT COUNT(*) AS n FROM sessions").get().n, 0);
   assert.equal(
     await verifyPassword(
-      "a different local secret",
+      "A different local secret 2!",
       db.prepare("SELECT password_hash FROM users WHERE id=?").get(user.id)
         .password_hash,
     ),
@@ -58,7 +58,7 @@ test("local bootstrap has no defaults, no web promotion, protects ordinary users
   await assert.rejects(
     resetAdministrator(db, {
       username: "LocalAdmin",
-      password: "another secure secret",
+      password: "Another secure secret 3!",
     }),
   );
 });
@@ -97,7 +97,7 @@ test('restoring database can invalidate temporary credentials without deleting p
   const dir=await mkdtemp(join(tmpdir(),'wa-restored-'));
   t.after(()=>rm(dir,{recursive:true,force:true}));
   const target=join(dir,'accounts.sqlite'),db=openDatabase(target);
-  const user=await createAdministrator(db,{username:'restore_operator',password:'only a restore test password'});
+  const user=await createAdministrator(db,{username:'restore_operator',password:'Only a restore test password 4!'});
   db.prepare("INSERT INTO sessions(token_hash,user_id,csrf,expires_at,created_at,peer_hash) VALUES('temporary',?,'csrf',9999999999999,1,'test')").run(user.id);
   db.prepare("INSERT INTO reset_tokens(token_hash,user_id,expires_at) VALUES('temporary-reset',?,9999999999999)").run(user.id);
   db.prepare("INSERT INTO progress(user_id,dataset,version,snapshot,updated_at) VALUES(?,'open',1,'kept',1)").run(user.id);db.close();

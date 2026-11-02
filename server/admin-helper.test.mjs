@@ -1,0 +1,30 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import http from 'node:http';
+import {createHelperServer} from './admin-helper.mjs';
+import {openOperationJournal} from './operation-journal.mjs';
+import {mkdtemp,rm} from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+test('restricted helper rejects arbitrary actions, paths and oversized private-key payloads',async t=>{
+  let touched=0;const manager={status:async()=>({mode:'automatic'}),stage:async()=>{touched++;return {};}};
+  const server=createHelperServer({manager,services:async()=>({services:[]})});await new Promise(r=>server.listen(0,'127.0.0.1',r));t.after(()=>new Promise(r=>server.close(r)));
+  const base='http://127.0.0.1:'+server.address().port;
+  const post=data=>fetch(base,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+  assert.equal((await post({action:'shell',payload:{command:'id'}})).status,400);
+  assert.equal((await post({action:'apply',payload:{stageId:'../../etc/passwd'}})).status,400);
+  assert.equal((await post({action:'certificate',payload:{path:'/etc/shadow'}})).status,400);
+  assert.equal((await post({action:'stage',payload:{certificatePem:'x'.repeat(150000),privateKeyPem:'private'}})).status,413);
+  assert.deepEqual(await(await post({action:'certificate',payload:{}})).json(),{mode:'automatic'});assert.equal(touched,0);
+  assert.equal((await post({action:'services',payload:{}})).status,400,'Privileged service collection is disabled');
+});
+test('certificate completion is durably audited even after the caller disconnects',async t=>{
+  const dir=await mkdtemp(path.join(os.tmpdir(),'wa-disconnect-')),journal=openOperationJournal(path.join(dir,'operations.sqlite'));
+  let entered,release;const called=new Promise(r=>entered=r),held=new Promise(r=>release=r);
+  const server=createHelperServer({journal,manager:{apply:async()=>{entered();await held;return {ok:true,certificate:{fingerprint256:'new-certificate'}};}}});
+  await new Promise(r=>server.listen(0,'127.0.0.1',r));t.after(async()=>{release();server.closeAllConnections();await new Promise(r=>server.close(r));journal.close();await rm(dir,{recursive:true,force:true});});
+  const req=http.request({hostname:'127.0.0.1',port:server.address().port,path:'/',method:'POST',headers:{'Content-Type':'application/json'}});req.on('error',()=>{});req.end(JSON.stringify({action:'apply',payload:{stageId:'a'.repeat(32)}}));
+  await called;assert.equal(journal.list()[0]?.state,'started');req.destroy();release();
+  const deadline=Date.now()+3000;while(journal.list()[0]?.state==='started'&&Date.now()<deadline)await new Promise(r=>setTimeout(r,10));
+  assert.equal(journal.list()[0].state,'success');assert.equal(journal.list()[0].fingerprint,'new-certificate');
+});

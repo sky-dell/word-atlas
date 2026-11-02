@@ -7,10 +7,11 @@ import {
   timingSafeEqual,
 } from "node:crypto";
 import { openDatabase, transaction } from "./database.mjs";
-import { hashPassword, verifyPassword, validPassword } from "./passwords.mjs";
+import { hashPassword, verifyPassword, validPassword, validPasswordInput, PASSWORD_ERROR } from "./passwords.mjs";
 import { MAX_BODY, safeTree, validDataset, validSnapshot } from "./schema.mjs";
 
 const DAY = 86400000;
+const ACCOUNT_IDLE_MS=120*60000;
 const digest = (value) => createHash("sha256").update(value).digest("hex");
 const randomToken = () => randomBytes(32).toString("hex");
 const equal = (a, b) =>
@@ -67,6 +68,7 @@ function credentials(body, nickname = false) {
     nickname ? ["username", "password", "nickname"] : ["username", "password"],
     ["username", "password"],
   );
+  if(typeof body.username==='string'&&body.username.toLowerCase()==='admin')fail(409,'username_taken','该名称为系统管理员保留，请选择其他用户名。');
   if (
     typeof body.username !== "string" ||
     !/^[a-zA-Z0-9_]{3,32}$/.test(body.username)
@@ -77,7 +79,7 @@ function credentials(body, nickname = false) {
       "Username must contain 3–32 ASCII letters, digits or underscores",
     );
   if (!validPassword(body.password))
-    fail(400, "invalid_password", "Password must contain 12–128 characters");
+    fail(400, "invalid_password", PASSWORD_ERROR);
   if (
     nickname &&
     body.nickname !== undefined &&
@@ -173,6 +175,8 @@ export function createAccounts({
   now = Date.now,
   sendEmailCode,
   emailCodeSecret,
+  operations,
+  listGuests=()=>[],
 } = {}) {
   if (
     sendEmailCode !== undefined &&
@@ -245,6 +249,7 @@ export function createAccounts({
     ).get(digest(token), now());
     if (!row) return null;
     if (row.user_id) {
+      if(!Number.isSafeInteger(row.idle_expires_at)||row.idle_expires_at<=now())return null;
       const user = userById(row.user_id);
       if (!user || user.disabled) return null;
       row.user = user;
@@ -289,10 +294,17 @@ export function createAccounts({
     return s;
   }
   function cleanup() {
+    sql(`INSERT INTO login_events(user_id,username,method,result,created_at) SELECT s.user_id,u.username,'session','timeout',MIN(s.expires_at,s.idle_expires_at) FROM sessions s JOIN users u ON u.id=s.user_id WHERE s.expires_at<=? OR s.idle_expires_at<=?`).run(now(),now());
+    sql('DELETE FROM sessions WHERE user_id IS NOT NULL AND idle_expires_at<=?').run(now());
     sql("DELETE FROM sessions WHERE expires_at<=?").run(now());
+    sql('DELETE FROM login_events WHERE created_at<?').run(now()-90*DAY);
+    sql('DELETE FROM login_events WHERE id IN (SELECT id FROM login_events ORDER BY id DESC LIMIT -1 OFFSET 10000)').run();
     sql("DELETE FROM reset_tokens WHERE expires_at<=?").run(now());
     sql("DELETE FROM rate_limits WHERE expires_at<=?").run(now());
     sql("DELETE FROM email_codes WHERE expires_at<=?").run(now());
+  }
+  function logLogin(userId,username,method,result){
+    sql('INSERT INTO login_events(user_id,username,method,result,created_at) VALUES(?,?,?,?,?)').run(userId,username.slice(0,254),method,result,now());
   }
   function rate(
     req,
@@ -338,7 +350,7 @@ export function createAccounts({
       if (sql("SELECT COUNT(*) AS n FROM sessions").get().n >= 10000)
         fail(503, "busy", "Session capacity reached");
       sql(
-        "INSERT INTO sessions(token_hash,user_id,csrf,expires_at,created_at,peer_hash) VALUES(?,?,?,?,?,?)",
+        "INSERT INTO sessions(token_hash,user_id,csrf,expires_at,created_at,peer_hash,idle_expires_at,last_activity_at) VALUES(?,?,?,?,?,?,?,?)",
       ).run(
         digest(token),
         userId,
@@ -346,7 +358,10 @@ export function createAccounts({
         now() + duration,
         now(),
         digest(req.socket.remoteAddress || "unknown"),
+        userId?now()+ACCOUNT_IDLE_MS:null,
+        now(),
       );
+      if(userId)logLogin(userId,userById(userId).username,req.url?.startsWith('/api/auth/login-code')?'email-code':req.url?.startsWith('/api/auth/register')?'register':'password','success');
     };
     // Registration already owns a transaction; login/bootstrap need their own.
     if (db.isTransaction) rotate();
@@ -630,6 +645,8 @@ export function createAccounts({
         csrfToken: s.csrf,
         enabled: true,
         emailEnabled,
+        idleExpiresAt:s.user?s.idle_expires_at:null,
+        serverNow:now(),
       };
     }
     const write = ["POST", "PUT", "PATCH", "DELETE"].includes(method);
@@ -649,9 +666,11 @@ export function createAccounts({
           "/api/auth/logout",
           "/api/auth/password",
           "/api/auth/reauth",
+          "/api/auth/activity",
           "/api/auth/reset",
         ].includes(path);
-      const adminWrite =
+      const certificateWrite=method==='POST'&&/^\/api\/admin\/certificate\/(stage|apply|rollback|automatic)$/.test(path);
+      const adminWrite =certificateWrite||
         method === "POST" &&
         /^\/api\/admin\/users\/[a-f0-9-]{36}\/(membership|status|reset)$/.test(
           path,
@@ -674,17 +693,24 @@ export function createAccounts({
       (method === "PUT" && path === "/api/member/progress") ||
       (method === "POST" && path === "/api/member/backups");
     const body = write
-      ? await readBody(req, largeUpload ? MAX_BODY : AUTH_BODY_LIMIT)
+      ? await readBody(req, largeUpload ? MAX_BODY : path==='/api/admin/certificate/stage'?131072:AUTH_BODY_LIMIT)
       : null;
     // A request may have spent time streaming its body while another client
     // revoked this session. Recheck after every asynchronous boundary.
     if (write) csrf(req);
 
+    if(method==='POST'&&path==='/api/auth/activity'){
+      fields(body,[]);const s=requireSession(req);owner(req,s,true);
+      const idleExpiresAt=Math.min(s.expires_at,now()+ACCOUNT_IDLE_MS);
+      sql('UPDATE sessions SET idle_expires_at=?,last_activity_at=? WHERE token_hash=?').run(idleExpiresAt,now(),s.token_hash);
+      return {idleExpiresAt,serverNow:now()};
+    }
+
     if (method === 'POST' && path === '/api/auth/username-availability') {
       fields(body,['username'],['username']);
       if(typeof body.username !== 'string' || !/^[a-zA-Z0-9_]{3,32}$/.test(body.username)) fail(400,'invalid_username','用户名须为3–32位英文字母、数字或下划线');
       rate(req,'username_availability',30,60000);
-      const exists=name=>!!sql('SELECT id FROM users WHERE username=? COLLATE NOCASE').get(name);
+      const exists=name=>name.toLowerCase()==='admin'||!!sql('SELECT id FROM users WHERE username=? COLLATE NOCASE').get(name);
       const available=!exists(body.username), suggestions=[];
       if(!available) for(let attempt=0;attempt<30&&suggestions.length<3;attempt++){
         const name=body.username.slice(0,25)+'_'+randomInt(10000,100000);
@@ -735,7 +761,7 @@ export function createAccounts({
         email = codeFields(body, register),
         purpose = register ? "register" : "login";
       rate(req, "email_verify", 30, 15 * 60000);
-      const challenge = checkCode(email, purpose, body.code);
+      let challenge;try{challenge=checkCode(email,purpose,body.code);}catch(error){if(!register)logLogin(emailUser(email)?.id??null,email,'email-code','failure');throw error;}
       const encoded = register ? await hashPassword(body.password) : null;
       csrf(req);
       return transaction(db, () => {
@@ -778,7 +804,7 @@ export function createAccounts({
         if (identifier.includes("@")) identifier = normalizeEmail(identifier);
         else if (!/^[a-zA-Z0-9_]{3,32}$/.test(identifier))
           fail(400, "invalid_username");
-        if (!validPassword(body.password)) fail(400, "invalid_password");
+        if (!validPasswordInput(body.password)) fail(400, "invalid_password");
       }
       rate(
         req,
@@ -825,8 +851,10 @@ export function createAccounts({
         !current ||
         current.disabled ||
         current.password_hash !== user.password_hash
-      )
+      ){
+        logLogin(current?.id??null,current?.username??identifier,'password','failure');
         fail(401, "invalid_credentials", "Invalid username or password");
+      }
       return {
         user: publicUser(current),
         csrfToken: newSession(req, res, current.id),
@@ -835,6 +863,7 @@ export function createAccounts({
     if (method === "POST" && path === "/api/auth/logout") {
       fields(body, []);
       const s = csrf(req);
+      if(s.user)logLogin(s.user_id,s.user.username,'session','logout');
       sql("DELETE FROM sessions WHERE token_hash=?").run(s.token_hash);
       clearCookie(res);
       return { ok: true };
@@ -850,7 +879,7 @@ export function createAccounts({
         change ? ["currentPassword", "password"] : ["password"],
       );
       if (change && !validPassword(body.password))
-        fail(400, "invalid_password");
+        fail(400, "invalid_password", PASSWORD_ERROR);
       const s = requireSession(req);
       rate(req, change ? "password" : "reauth", 10, 15 * 60000, s.user_id);
       const verified = await verifyPassword(
@@ -883,8 +912,8 @@ export function createAccounts({
     }
     if (method === "POST" && path === "/api/auth/reset") {
       fields(body, ["token", "password"], ["token", "password"]);
+      if (!validPassword(body.password)) fail(400, "invalid_password", PASSWORD_ERROR);
       if (
-        !validPassword(body.password) ||
         typeof body.token !== "string" ||
         !/^[0-9a-f]{64}$/.test(body.token)
       )
@@ -919,6 +948,37 @@ export function createAccounts({
     }
     if (path.startsWith("/api/admin/")) {
       const s = admin(req, write);
+      if(method==='GET'&&path==='/api/admin/logins'){
+        const q=url.searchParams.get('q')||'',page=Number(url.searchParams.get('page')||1),limit=Number(url.searchParams.get('limit')??50);
+        if(q.length>80||!Number.isInteger(page)||page<1||page>100000||!Number.isInteger(limit)||limit<1||limit>50)fail(400,'invalid_query');
+        const total=sql('SELECT COUNT(*) n FROM login_events WHERE instr(lower(username),lower(?))>0').get(q).n;
+        return {events:sql('SELECT id,username,method,result,created_at AS createdAt FROM login_events WHERE instr(lower(username),lower(?))>0 ORDER BY id DESC LIMIT ? OFFSET ?').all(q,limit,(page-1)*limit),page,limit,pages:Math.max(1,Math.ceil(total/limit)),total};
+      }
+      if(method==='GET'&&path==='/api/admin/online'){
+        const rows=sql(`SELECT u.id,u.username,u.nickname,u.role,COUNT(*) AS sessionCount,MAX(s.created_at) AS loggedInAt,MAX(s.last_activity_at) AS lastActivityAt,MAX(MIN(s.expires_at,s.idle_expires_at)) AS idleExpiresAt FROM sessions s JOIN users u ON u.id=s.user_id WHERE u.disabled=0 AND s.expires_at>? AND s.idle_expires_at>? GROUP BY u.id ORDER BY lastActivityAt DESC LIMIT 1000`).all(now(),now());
+        return {users:[...rows.map(row=>({...row,kind:'account',active:row.lastActivityAt>=now()-300000})),...listGuests().map(row=>({...row,active:row.lastActivityAt>=now()-300000}))],sampledAt:now(),activeWindowSeconds:300};
+      }
+      if(method==='GET'&&path==='/api/admin/overview'){
+        if(!operations)fail(503,'operations_unavailable','运行监控组件尚未就绪。');return operations.overview();
+      }
+      if(method==='GET'&&path==='/api/admin/services')fail(410,'services_disabled','系统服务状态采集已停用。');
+      if(method==='GET'&&path==='/api/admin/certificate'){
+        if(!operations)fail(503,'operations_unavailable','运行监控组件尚未就绪。');return operations.request('certificate');
+      }
+      const certificateAction=method==='POST'&&path.match(/^\/api\/admin\/certificate\/(stage|apply|rollback|automatic)$/);
+      if(certificateAction){
+        if(!operations)fail(503,'operations_unavailable','证书组件尚未就绪。');
+        const action=certificateAction[1];
+        if(action==='stage'){fields(body,['certificatePem','privateKeyPem'],['certificatePem','privateKeyPem']);if(typeof body.certificatePem!=='string'||typeof body.privateKeyPem!=='string')fail(400,'invalid_certificate');}
+        else if(action==='apply'){fields(body,['stageId'],['stageId']);if(!/^[a-f0-9]{32}$/.test(body.stageId))fail(400,'invalid_stage');}
+        else fields(body,[]);
+        rate(req,'certificate',10,60000,s.user_id);owner(req,s,true);
+        const operationId=randomBytes(16).toString('hex');
+        audit(s.user_id,s.user_id,'certificate_'+action+'_requested',{}, {operationId});
+        const result=await operations.request(action,body,{operationId,actorId:s.user_id});
+        audit(s.user_id,s.user_id,'certificate_'+action,{}, {fingerprint:result.certificate?.fingerprint256??null});
+        return result;
+      }
       if (method === "GET" && path === "/api/admin/users") {
         const q = url.searchParams.get("q") || "";
         if (q.length > 80) fail(400, "invalid_query");
@@ -930,9 +990,11 @@ export function createAccounts({
             .map(publicUser),
         };
       }
-      if (method === "GET" && path === "/api/admin/audit")
-        return {
-          audit: sql("SELECT * FROM audit ORDER BY id DESC LIMIT 200")
+      if (method === "GET" && path === "/api/admin/audit"){
+        let independent=[],operationWarning='';
+        if(operations)try{const rows=await operations.request('events');independent=(rows.events??[]).map(row=>({id:'tls:'+row.id,actorId:row.actorId,targetId:row.actorId,action:'certificate_'+row.action+'_'+row.state,before:{},after:{operationId:row.id,fingerprint:row.fingerprint,state:row.state},createdAt:row.updatedAt}));}catch{operationWarning='证书独立审计暂不可用；requested 仅表示操作已提交，请检查当前证书确认结果。';}
+        return {operationWarning,
+          audit: [...sql("SELECT * FROM audit ORDER BY id DESC LIMIT 200")
             .all()
             .map((r) => ({
               id: r.id,
@@ -942,8 +1004,9 @@ export function createAccounts({
               before: JSON.parse(r.before_json),
               after: JSON.parse(r.after_json),
               createdAt: r.created_at,
-            })),
+            })),...independent].sort((a,b)=>b.createdAt-a.createdAt).slice(0,200),
         };
+      }
       const match = path.match(
         /^\/api\/admin\/users\/([a-f0-9-]{36})\/(membership|status|reset)$/,
       );

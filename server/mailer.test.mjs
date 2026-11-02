@@ -12,6 +12,31 @@ const env = {
   SMTP_PASS: "fake-local-only",
   MAIL_CODE_SECRET: "a".repeat(64),
 };
+
+test('verification emails contain only the brand and purpose-specific code with large HTML text', async t => {
+  const messages = [];
+  mock.method(nodemailer, 'createTransport', () => ({
+    sendMail: async message => { messages.push(message); },
+    close() {},
+  }));
+  t.after(() => mock.restoreAll());
+  const mailer = createMailerFromEnv(env);
+  try {
+    for (const [purpose, label, code] of [['register', '注册', '294659'], ['login', '登录', '000007']]) {
+      await mailer.sendCode({email:'recipient@example.com',purpose,code});
+      const message = messages.at(-1);
+      const sentence = `您${label}验证码是 ${code}，5 分钟内有效。请勿向他人透露。如非本人操作，请忽略此邮件。`;
+      assert.equal(message.text, `词与远方 · Words & Beyond\n\n${sentence}`);
+      assert.equal(typeof message.html, 'string');
+      assert.match(message.html, /font-size:\s*20px/);
+      assert.match(message.html, /font-size:\s*22px/);
+      assert.match(message.html, /词与远方 · Words &amp; Beyond/);
+      assert.ok(message.html.includes(sentence));
+      assert.equal((message.html.match(/<p\b/g)||[]).length, 2);
+      assert.doesNotMatch(message.text + message.html, /多懂一个词|多看一点世界/);
+    }
+  } finally { mailer.close(); }
+});
 test("mailer disables incomplete configuration without sending", async () => {
   const m = createMailerFromEnv({});
   assert.equal(m.enabled, false);

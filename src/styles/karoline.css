@@ -1,0 +1,30 @@
+.wa-reading>.wa-tabs{max-width:100%;display:inline-flex;flex-wrap:wrap;gap:4px}
+.karoline-library{margin-top:36px}
+.karoline-intro,.karoline-detail-head{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:28px}
+.karoline-intro h2,.karoline-detail-head h2{font-size:clamp(25px,3vw,36px);margin:10px 0;color:var(--ink)}
+.karoline-intro h2 span{font:italic 400 .78em var(--serif);margin-left:10px;color:var(--ink-3)}
+.karoline-intro p:not(.eyebrow){color:var(--ink-3);margin:8px 0;font-size:15px}
+.karoline-count{display:inline-flex;align-items:center;gap:8px;color:var(--ink-3);font-size:13px;flex-shrink:0}
+.karoline-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
+.karoline-card{display:flex;flex-direction:column;min-width:0;text-align:left;padding:0;background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden;color:var(--ink);transition:transform .25s,border-color .25s,box-shadow .25s}
+.karoline-card:hover{transform:translateY(-4px);border-color:var(--ochre);box-shadow:var(--shadow)}
+.karoline-poster{position:relative;display:block;aspect-ratio:16/9;background:var(--card-2);overflow:hidden;width:100%}
+.karoline-poster img{display:block;object-fit:cover;width:100%;height:100%;transition:transform .4s}
+.karoline-card:hover img{transform:scale(1.025)}
+.karoline-number,.karoline-duration{position:absolute;background:rgba(15,20,35,.78);color:#fff;border:1px solid rgba(255,255,255,.18);border-radius:9px;font-variant-numeric:tabular-nums;font-size:12px;line-height:1;padding:7px 9px;backdrop-filter:blur(8px)}
+.karoline-number{top:14px;left:14px;letter-spacing:.1em}.karoline-duration{bottom:14px;right:14px}
+.karoline-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:52px;height:52px;border-radius:50%;display:grid;place-items:center;padding-left:3px;background:rgba(255,255,255,.93);color:#1b2135;box-shadow:0 4px 24px #0003;transition:transform .25s}
+.karoline-card:hover .karoline-play{transform:translate(-50%,-50%) scale(1.08)}
+.karoline-card-copy{padding:23px;display:flex;flex-direction:column;gap:10px;width:100%}.karoline-card-copy .eyebrow{font-size:10px;letter-spacing:.17em;color:var(--ink-3)}
+.karoline-card-copy strong{font-size:21px;font-weight:600}.karoline-card-meta{display:flex;align-items:center;justify-content:space-between;color:var(--ink-3);font-size:12px;margin-top:8px}
+.karoline-silent{display:inline-flex;align-items:center;gap:6px;color:var(--terra-ink)}
+.karoline-detail{max-width:1080px;margin:0 auto}.karoline-detail-head{margin:24px 0}
+.karoline-player{background:#10131c;border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:var(--shadow)}
+.karoline-player video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;max-height:70dvh;background:#10131c}
+.karoline-toolbar{display:flex;flex-wrap:wrap;gap:16px;align-items:center;padding:20px 0;border-bottom:1px solid var(--line);font-size:13px}.karoline-toolbar label{display:flex;align-items:center;gap:10px}.karoline-toolbar select{background:var(--card);color:var(--ink);border:1px solid var(--line-strong);border-radius:10px;padding:8px 12px}.karoline-toolbar>span{margin-left:auto;color:var(--ink-3)}.karoline-toolbar .is-on{color:var(--terra-ink);background:var(--terra-soft)}
+.karoline-pagination{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:28px}.karoline-pagination>span{color:var(--ink-3);font-size:13px}
+.karoline-warning{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:var(--ochre-soft);border-radius:16px;color:var(--ink-2);padding:16px 20px;font-size:13px;line-height:1.7;margin:16px 0}
+.karoline-status{text-align:center;display:flex;align-items:center;flex-direction:column;gap:12px}
+@media(max-width:1000px){.karoline-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
+@media(max-width:600px){.karoline-grid{grid-template-columns:1fr;gap:20px}.karoline-intro{align-items:flex-start;flex-direction:column;gap:10px}.wa-reading>.wa-tabs{border-radius:20px}.wa-reading>.wa-tabs button{font-size:13px;padding:10px 12px}.karoline-toolbar>span{margin-left:0;width:100%}.karoline-player{border-radius:18px}.karoline-pagination .btn{padding-inline:14px}.karoline-library{margin-top:28px}}
+@media(prefers-reduced-motion:reduce){.karoline-card,.karoline-poster img,.karoline-play{transition:none}.karoline-card:hover,.karoline-card:hover img{transform:none}}

@@ -4,7 +4,7 @@ import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { openDatabase, transaction } from "../server/database.mjs";
 import { createAdministrator, resetAdministrator } from "../server/admin.mjs";
-import { validPassword } from "../server/passwords.mjs";
+import { validPassword, PASSWORD_ERROR } from "../server/passwords.mjs";
 import { backupDatabase, backupWithRetention } from "../server/backup.mjs";
 
 const usage =
@@ -93,9 +93,9 @@ export async function main(args = process.argv.slice(2)) {
   if (["create-admin", "reset-admin"].includes(command)) {
     if (!/^[a-zA-Z0-9_]{3,32}$/.test(options["--username"]))
       throw new Error("Invalid username");
-    password = await promptPassword("New password (12–128 characters): ");
+    password = await promptPassword("New password (8–128 characters, uppercase, lowercase, digit and symbol): ");
     if (!validPassword(password))
-      throw new Error("Password must contain 12–128 characters");
+      throw new Error(PASSWORD_ERROR);
     const confirm = await promptPassword("Confirm new password: ");
     if (password !== confirm) throw new Error("Passwords do not match");
   }

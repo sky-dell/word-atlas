@@ -1,5 +1,5 @@
 import { Download, RotateCcw, Upload } from "lucide-react";
-import { useMemo, useRef } from "react";
+import { useId, useMemo, useRef, useState } from "react";
 import { useAtlas } from "../atlas/context";
 import { isMastered } from "../store/srs";
 import { dayKey, exportBackup, importBackup, resetProgress, store, useStore, type Settings } from "../store/store";
@@ -8,6 +8,15 @@ import { AppearanceSettings, type AppearanceCapabilities } from "../ui/Appearanc
 import { streakOf } from "./Today";
 import {useGuest} from '../guest/state';
 import {useAccount} from '../account/state';
+import '../styles/me.css';
+
+const meTabs = [
+  ['overview', '学习概览'],
+  ['learning', '学习设置'],
+  ['appearance', '外观与计划'],
+  ['data', '数据管理'],
+] as const;
+type MeTab = typeof meTabs[number][0];
 
 export function Me({ privateAvailable, appearanceCapabilities }: { privateAvailable: boolean; appearanceCapabilities?: AppearanceCapabilities }) {
   const atlas = useAtlas();
@@ -16,6 +25,12 @@ export function Me({ privateAvailable, appearanceCapabilities }: { privateAvaila
   const settings = useStore((s) => s.settings);
   const saveError = useStore((s) => s.saveError);
   const file = useRef<HTMLInputElement>(null);
+  const [tab, setTab] = useState<MeTab>('overview');
+  const tabId = useId();
+  const selectTab = (next: MeTab) => {
+    setTab(next);
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  };
 
   const stats = useMemo(() => {
     const cards = Object.values(progress.cards);
@@ -51,6 +66,13 @@ export function Me({ privateAvailable, appearanceCapabilities }: { privateAvaila
     toast(r.ok ? `已恢复 ${r.cards} 个词的记忆` : r.error, r.ok ? "ok" : "warn");
   };
   const maxF = Math.max(1, ...stats.forecast);
+  const panel = (key: MeTab, content: React.ReactNode) => (
+    <div className={`me-content me-content--${key}`} role="tabpanel"
+      id={`${tabId}-${key}-panel`} aria-labelledby={`${tabId}-${key}-tab`}
+      tabIndex={tab === key ? 0 : -1} hidden={tab !== key}>
+      {content}
+    </div>
+  );
 
   return (
     <div className="page me">
@@ -59,7 +81,24 @@ export function Me({ privateAvailable, appearanceCapabilities }: { privateAvaila
         <h1 className="display">你的星空</h1>
       </header>
 
-      <section className="stat-strip">
+      <div className="me-tabs" role="tablist" aria-label="我的分类">
+        {meTabs.map(([key, label], index) => (
+          <button key={key} type="button" role="tab" id={`${tabId}-${key}-tab`}
+            aria-controls={`${tabId}-${key}-panel`} aria-selected={tab === key}
+            tabIndex={tab === key ? 0 : -1} onClick={() => selectTab(key)}
+            onKeyDown={(event) => {
+              const next = event.key === 'ArrowRight' ? (index + 1) % meTabs.length
+                : event.key === 'ArrowLeft' ? (index + meTabs.length - 1) % meTabs.length
+                : event.key === 'Home' ? 0 : event.key === 'End' ? meTabs.length - 1 : null;
+              if (next === null) return;
+              event.preventDefault();
+              selectTab(meTabs[next][0]);
+              document.getElementById(`${tabId}-${meTabs[next][0]}-tab`)?.focus({ preventScroll: true });
+            }}>{label}</button>
+        ))}
+      </div>
+      {panel('overview', <>
+      <section className="stat-strip" aria-label="学习统计">
         <div>
           <dt>连续学习</dt>
           <dd>
@@ -111,6 +150,10 @@ export function Me({ privateAvailable, appearanceCapabilities }: { privateAvaila
           </ol>
         </section>
 
+      </div>
+      </>)}
+
+      {panel('learning', <div className="me-grid">
         <section className="panel settings">
           <h3 className="eyebrow">学习设置</h3>
           <Field label="每日新词" hint="复习不设上限，算法只安排快要遗忘的词。">
@@ -167,9 +210,15 @@ export function Me({ privateAvailable, appearanceCapabilities }: { privateAvaila
           )}
         </section>
 
-        <AppearanceSettings capabilities={appearanceCapabilities} />
+        <AppearanceSettings capabilities={appearanceCapabilities} section="learning" />
+      </div>)}
 
-        <section className="panel">
+      {panel('appearance', <div className="me-grid">
+        <AppearanceSettings capabilities={appearanceCapabilities} section="appearance" />
+        <AppearanceSettings capabilities={appearanceCapabilities} section="plan" />
+      </div>)}
+
+      {panel('data', <section className="panel me-data">
           <h3 className="eyebrow">数据</h3>
           <p className="muted">{guest.guest&&!account.user?'游客学习资料仅在服务器限时暂存，闲置24小时失效、最长7天。请以“已暂存”状态为准，离线未保存的变更请先导出备份；注册账户后可明确选择导入。':'学习记录保存在当前账户的浏览器资料中，可在右上角账户入口管理云同步，并随时导出 JSON 备份。HTTP 与 HTTPS 的历史记录需通过导出、导入迁移。'}</p>
           {saveError && <p className="warn-text">浏览器拒绝保存（可能是隐私模式或空间已满）。请尽快导出备份。</p>}
@@ -193,8 +242,7 @@ export function Me({ privateAvailable, appearanceCapabilities }: { privateAvaila
               <RotateCcw size={18} /> 清空记录
             </button>
           </div>
-        </section>
-      </div>
+        </section>)}
     </div>
   );
 }

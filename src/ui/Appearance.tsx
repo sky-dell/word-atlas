@@ -18,7 +18,7 @@ export interface Appearance {
 }
 
 export const DEFAULT_APPEARANCE: Readonly<Appearance> = Object.freeze({
-  theme: "starlight", wordFont: "sans", illus: "atlas", route: "level", routeTopic: "",
+  theme: "light", wordFont: "sans", illus: "atlas", route: "level", routeTopic: "",
   recall: true, repeatGap: 0, examDate: "", targetBand: 6.5, planAuto: false,
 });
 
@@ -118,9 +118,10 @@ export function useAppearance() {
 }
 
 /** Mount once in App. Replaces App's legacy useTheme effect. */
-export function AppearanceController() {
-  const { theme, wordFont, illus } = useAppearance();
-  useEffect(() => { void loadClassicManifest(); }, []);
+export function AppearanceController({forceLight=false}:{forceLight?:boolean}={}) {
+  const { theme:savedTheme, wordFont, illus } = useAppearance();
+  const theme=forceLight?'light':savedTheme;
+  useEffect(() => { if (!forceLight) void loadClassicManifest(); }, [forceLight]);
   useEffect(() => {
     const root = document.documentElement;
     const media = matchMedia("(prefers-color-scheme: dark)");
@@ -155,16 +156,19 @@ function Toggle({ label, value, onChange }: { label: string; value: boolean; onC
 
 /** Standalone settings; reads/writes only word-atlas:appearance. */
 export interface AppearanceCapabilities { route?: boolean; recall?: boolean; repeatGap?: boolean; examPlan?: boolean }
-export function AppearanceSettings({ capabilities = {} }: { capabilities?: AppearanceCapabilities }) {
+export function AppearanceSettings({ capabilities = {}, section = 'all' }: { capabilities?: AppearanceCapabilities; section?: 'all' | 'learning' | 'appearance' | 'plan' }) {
   const s = useAppearance();
   const atlas = useAtlas();
   return <section className="panel settings appearance-settings">
-    <h3 className="eyebrow">外观与学习偏好</h3>
+    <h3 className="eyebrow">{section === 'learning' ? '学习偏好' : section === 'appearance' ? '外观' : section === 'plan' ? '考试计划' : '外观与学习偏好'}</h3>
+    {(section === 'all' || section === 'appearance') && <>
     <Field label="外观"><Choices label="主题" value={s.theme} options={[["dark", "深色"], ["light", "浅色"], ["system", "跟随系统"], ["starlight", "星光"], ["aurora", "极光"]]} onChange={(theme) => setAppearance({ theme })} /></Field>
     <Field label="单词字体" hint="Aa · abandon · 在词卡中预览字体。"><Choices label="单词字体" value={s.wordFont} options={[["sans", "无衬线"], ["serif", "衬线"], ["classic", "经典"]]} onChange={(wordFont) => setAppearance({ wordFont })} /><p className="appearance-font-preview" lang="en">Aa · abandon</p></Field>
     <Field label="插画" hint={classicAvailable ? "经典资源缺失的词会使用图鉴插画。" : "当前使用仓库插画，经典插画资源暂未提供。"}>
       <div className="segmented" role="group" aria-label="插画风格"><button type="button" className={s.illus === "atlas" ? "is-on" : ""} aria-pressed={s.illus === "atlas"} onClick={() => setAppearance({ illus: "atlas" })}>图鉴插画</button><button type="button" disabled={!classicAvailable} className={s.illus === "classic" ? "is-on" : ""} aria-pressed={s.illus === "classic"} onClick={() => setAppearance({ illus: "classic" })}>经典插画{!classicAvailable && " · 暂不可用"}</button></div>
     </Field>
+    </>}
+    {(section === 'all' || section === 'learning') && <>
     <fieldset disabled={!capabilities.route} className="appearance-group"><legend>学习路线{!capabilities.route && " · 尚未接入学习流程"}</legend>
     <Field label="学习路线" hint="按难度循序渐进，或集中学习一个话题。"><Choices label="学习路线" value={s.route} options={[["level", "按难度"], ["topic", "按话题"]]} onChange={(route) => setAppearance({ route, routeTopic: s.routeTopic || atlas.topics[0]?.[0] || "" })} />{s.route === "topic" && <select aria-label="学习话题" value={s.routeTopic || atlas.topics[0]?.[0] || ""} onChange={(e) => setAppearance({ routeTopic: e.target.value })}>{atlas.topics.map(([key, label]) => <option key={key} value={key}>{label}</option>)}</select>}</Field>
     </fieldset>
@@ -174,12 +178,13 @@ export function AppearanceSettings({ capabilities = {} }: { capabilities?: Appea
     <fieldset disabled={!capabilities.repeatGap} className="appearance-group"><legend>重复朗读{!capabilities.repeatGap && " · 尚未接入发音播放"}</legend>
     <Field label="重复朗读" hint="开启后，再次朗读前留出跟读时间。"><Choices label="重复朗读间隔" value={s.repeatGap} options={[[0, "关闭"], [0.5, "间隔 0.5 秒"], [1, "间隔 1 秒"]]} onChange={(repeatGap) => setAppearance({ repeatGap })} /></Field>
     </fieldset>
-    <fieldset disabled={!capabilities.examPlan} className="appearance-group"><legend>考试计划{!capabilities.examPlan && " · 尚未接入每日计划"}</legend>
-    <h3 className="eyebrow appearance-section-title">考试计划</h3>
+    </>}
+    {(section === 'all' || section === 'plan') && <fieldset disabled={!capabilities.examPlan} className="appearance-group"><legend>考试计划{!capabilities.examPlan && " · 尚未接入每日计划"}</legend>
+    {section === 'all' && <h3 className="eyebrow appearance-section-title">考试计划</h3>}
     <Field label="考试日期" hint="可留空，按自己的节奏学习。"><input type="date" aria-label="考试日期" value={s.examDate} onChange={(e) => setAppearance({ examDate: e.target.value })} /></Field>
     <Field label="目标分数"><Choices label="雅思目标分数" value={s.targetBand} options={[5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5].map((n) => [n, String(n)] as const)} onChange={(targetBand) => setAppearance({ targetBand })} /></Field>
     <Toggle label="根据考试计划调整每日新词" value={s.planAuto} onChange={(planAuto) => setAppearance({ planAuto })} />
-    </fieldset>
+    </fieldset>}
     {saveError && <p className="warn-text" role="status">浏览器未能保存偏好，本次设置仅在当前页面有效。</p>}
   </section>;
 }

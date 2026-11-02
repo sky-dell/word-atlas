@@ -1,4 +1,4 @@
-export interface Guest {id:string;name:string;createdAt:number;expiresAt:number;hardExpiresAt:number}
+export interface Guest {id:string;name:string;createdAt:number;expiresAt:number;hardExpiresAt:number;idleExpiresAt?:number;serverNow?:number;idleReceivedAt?:number}
 export class GuestError extends Error {constructor(message:string,public code='',public status=0){super(message);}}
 export class GuestClient {
   private id='';private csrf='';private epoch=0;private requests=new Set<AbortController>();

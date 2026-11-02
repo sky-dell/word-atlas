@@ -3,6 +3,7 @@ import {ArrowLeft,ArrowRight,Check,CheckCircle2,Eye,EyeOff} from 'lucide-react';
 import {AccountError,accountClient} from './client';
 import {accountError,authAction} from './state';
 import {UsernameAvailability} from './UsernameAvailability';
+import {validPassword,PASSWORD_ERROR,PASSWORD_HINT} from '../../shared/password-policy.mjs';
 
 type Proof={email:string;registrationToken:string;expiresAt:number};
 export function RegistrationWizard({emailEnabled,preferEmailRegistration,onLogin}:{emailEnabled:boolean;preferEmailRegistration:boolean;onLogin:()=>void}){
@@ -49,7 +50,7 @@ export function RegistrationWizard({emailEnabled,preferEmailRegistration,onLogin
   };
   const submit=async(e:FormEvent<HTMLFormElement>)=>{
     e.preventDefault();if(busy)return;setError('');setNotice('');
-    if([...password].length<12||[...password].length>128){setError('密码须为12–128个字符。');return;}
+    if(!validPassword(password)){setError(PASSWORD_ERROR);return;}
     if(password!==confirm){setError('两次密码不一致，请重新输入。');return;}
     if(method==='email'&&(!proof||proof.expiresAt<=Date.now())){back();setProof(null);setCode('');setError('验证已过期，请重新获取验证码。');return;}
     setBusy(true);
@@ -74,8 +75,8 @@ export function RegistrationWizard({emailEnabled,preferEmailRegistration,onLogin
     </>:<>
       <div className="registration-identity"><CheckCircle2 size={17} aria-hidden="true"/><span title={method==='email'?normalized:username}><b>{method==='email'?'邮箱已验证':'用户名已确认'}</b><span>{method==='email'?normalized:username}</span></span><button type="button" disabled={busy} onClick={back}>修改</button></div>
       <form className="account-form" onSubmit={submit}><fieldset disabled={busy}>
-        <label><span>设置密码，至少12位</span><div className="account-password-field"><input aria-label="密码" name="password" type={shown?'text':'password'} minLength={12} maxLength={128} required placeholder="请输入12–128个字符" autoComplete="new-password" value={password} onChange={e=>setPassword(e.target.value)}/><button className="account-password-toggle" type="button" aria-label={shown?'隐藏密码':'显示密码'} aria-pressed={shown} onClick={()=>setShown(v=>!v)}>{shown?'隐藏':'显示'}</button></div></label>
-        <label><span>再次输入密码</span><div className="account-password-field"><input aria-label="确认密码" name="confirm" type={confirmShown?'text':'password'} minLength={12} maxLength={128} required placeholder="请再次输入密码" autoComplete="new-password" value={confirm} onChange={e=>setConfirm(e.target.value)}/><button className="account-password-toggle" type="button" aria-label={confirmShown?'隐藏确认密码':'显示确认密码'} aria-pressed={confirmShown} onClick={()=>setConfirmShown(v=>!v)}>{confirmShown?<EyeOff size={17}/>:<Eye size={17}/>}</button></div></label>
+        <label><span>设置密码</span><div className="account-password-field"><input aria-label="密码" name="password" type={shown?'text':'password'} minLength={8} maxLength={128} required placeholder={PASSWORD_HINT} title={PASSWORD_ERROR} autoComplete="new-password" value={password} onChange={e=>setPassword(e.target.value)}/><button className="account-password-toggle" type="button" aria-label={shown?'隐藏密码':'显示密码'} aria-pressed={shown} onClick={()=>setShown(v=>!v)}>{shown?'隐藏':'显示'}</button></div></label>
+        <label><span>再次输入密码</span><div className="account-password-field"><input aria-label="确认密码" name="confirm" type={confirmShown?'text':'password'} minLength={8} maxLength={128} required placeholder="请再次输入密码" autoComplete="new-password" value={confirm} onChange={e=>setConfirm(e.target.value)}/><button className="account-password-toggle" type="button" aria-label={confirmShown?'隐藏确认密码':'显示确认密码'} aria-pressed={confirmShown} onClick={()=>setConfirmShown(v=>!v)}>{confirmShown?<EyeOff size={17}/>:<Eye size={17}/>}</button></div></label>
         <button className="account-primary" type="submit">{busy?'正在创建…':'完成注册'}<ArrowRight size={16} aria-hidden="true"/></button>
       </fieldset></form>
     </>}

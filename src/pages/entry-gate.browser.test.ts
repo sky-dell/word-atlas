@@ -39,7 +39,7 @@ before(async () => {
         s.middlewares.use((req, res, next) => {
           if (req.url?.startsWith('/test-entry')) {
             res.setHeader('Content-Type', 'text/html');
-            res.end('<!doctype html><html lang="zh-CN"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Entry test</title><div id="root"></div><script type="module" src="/entry-test.js"></script></html>');
+            res.end('<!doctype html><html lang="zh-CN" '+(req.url?.includes('darkStart')?'data-theme="dark" data-skin="starlight"':'')+'><meta name="viewport" content="width=device-width,initial-scale=1"><title>Entry test</title><div id="root"></div><script type="module" src="/entry-test.js"></script></html>');
           } else if (/^\/atlas\/thumb\/(explore|journey|horizon)\.webp$/.test(req.url || '')) {
             res.setHeader('Content-Type', 'image/webp');
             void readFile(join(root, 'public', req.url!)).then(data => res.end(data));
@@ -72,6 +72,15 @@ async function open(page: Page, suffix = '', enabled = true) {
   });
 }
 
+test('login entry always uses light mode even on a dark system and with an existing dark skin',async()=>{
+  const page=await browser.newPage({colorScheme:'dark'});
+  try{
+    await open(page,'?darkStart');
+    await page.waitForFunction(()=>document.documentElement.dataset.theme==='light',{},{timeout:1500});
+    assert.equal(await page.evaluate(()=>document.documentElement.dataset.skin),undefined);
+  }finally{await page.close();}
+});
+
 test('two-step email and username registration keep the card stable and password hint inside inputs',async()=>{
   const page=await browser.newPage({viewport:{width:1366,height:768}});
   try{
@@ -85,7 +94,7 @@ test('two-step email and username registration keep the card stable and password
     await page.getByLabel('六位验证码',{exact:true}).fill('123456');
     await page.getByRole('button',{name:'下一步',exact:true}).click();
     await page.getByRole('heading',{name:'最后一步，开启远方。'}).waitFor();
-    assert.equal(await page.getByLabel('密码',{exact:true}).getAttribute('placeholder'),'请输入12–128个字符');
+    assert.equal(await page.getByLabel('密码',{exact:true}).getAttribute('placeholder'),'8位起，含Aa、数字和符号');
     assert.equal(await page.getByText('12–128 个字符，支持粘贴与密码管理器。',{exact:true}).count(),0);
     assert.equal(await page.getByLabel('昵称（可选）').count(),0);
     await page.screenshot({path:'/tmp/registration-password-desktop.png',fullPage:true});
@@ -123,6 +132,25 @@ test('selecting the current registration method preserves a consumed OTP and its
     await page.getByRole('button',{name:'邮箱注册',exact:true}).click();
     assert.equal(await page.getByLabel('六位验证码',{exact:true}).inputValue(),'123456');
     await page.getByRole('button',{name:'下一步',exact:true}).click();await page.getByRole('button',{name:'完成注册',exact:true}).waitFor({timeout:2000});
+  }finally{await page.close();}
+});
+
+test('registration blocks missing password classes locally and submits a valid eight-character password',async()=>{
+  const page=await browser.newPage({viewport:{width:390,height:700}});const registrations:Record<string,unknown>[]=[];
+  try{
+    await page.route('**/api/auth/username-availability',r=>r.fulfill({json:{available:true,suggestions:[]}}));
+    await page.route('**/api/auth/register',r=>{registrations.push(r.request().postDataJSON());return r.fulfill({status:400,json:{error:'Registration transport fixture reached',code:'fixture'}});});
+    await open(page);await page.getByRole('button',{name:'注册',exact:true}).click();await page.getByRole('button',{name:'用户名注册',exact:true}).click();
+    await page.getByLabel('用户名',{exact:true}).fill('password_policy');await page.getByRole('button',{name:'下一步',exact:true}).click();
+    const password=page.getByLabel('密码',{exact:true}),confirm=page.getByLabel('确认密码',{exact:true});
+    assert.equal(await password.getAttribute('minlength'),'8');
+    for(const weak of ['abcdef1!','ABCDEF1!','Abcdefg!','Abcdef12']){
+      await password.fill(weak);await confirm.fill(weak);await page.getByRole('button',{name:'完成注册',exact:true}).click();
+      await page.getByRole('alert').filter({hasText:'含大写、小写、数字和符号'}).waitFor();assert.equal(registrations.length,0);
+    }
+    await password.fill('Abcdef1!');await confirm.fill('Abcdef1!');await page.getByRole('button',{name:'完成注册',exact:true}).click();
+    await page.getByRole('alert').filter({hasText:'Registration transport fixture reached'}).waitFor();
+    assert.equal(registrations.length,1);assert.deepEqual(registrations[0],{username:'password_policy',password:'Abcdef1!'});
   }finally{await page.close();}
 });
 
@@ -190,9 +218,15 @@ test('entry fits desktop and 320/390px short screens in both themes and reduced 
         assert.ok(width > 800 ? card.x > story.x + story.width : card.y >= story.y + story.height, `${theme}/${width}: responsive columns`);
         assert.equal(await page.locator('.auth-entry__atlas').isVisible(), width > 800);
         if (width > 800) {
-          const notesBottom = await page.locator('.auth-entry__word-note').evaluateAll(nodes => Math.max(...nodes.map(node => node.getBoundingClientRect().bottom)));
-          const signature = await page.locator('.auth-entry__signature').boundingBox();
-          assert.ok(signature && signature.y > notesBottom, 'wordcard annotations do not overlap the signature');
+          // Resize/media changes may settle between separate browser calls.
+          // Wait for the actual non-overlap condition, then measure atomically;
+          // a persistent layout overlap still fails rather than being ignored.
+          await page.waitForFunction(()=>{
+            const signature=document.querySelector('.auth-entry__signature');
+            const notes=[...document.querySelectorAll('.auth-entry__word-note')];
+            return !!signature&&notes.length===3&&signature.getBoundingClientRect().top>Math.max(...notes.map(node=>node.getBoundingClientRect().bottom));
+          });
+          assert.equal(await page.evaluate(()=>document.querySelector('.auth-entry__signature')!.getBoundingClientRect().top>Math.max(...[...document.querySelectorAll('.auth-entry__word-note')].map(node=>node.getBoundingClientRect().bottom))),true,'wordcard annotations do not overlap the signature');
         }
         assert.equal(await page.locator('.account-primary').evaluate(el => getComputedStyle(el).transitionDuration), '0s');
         await page.getByRole('button', { name: '以游客身份登录', exact: true }).scrollIntoViewIfNeeded();
@@ -234,6 +268,10 @@ test('login fits the viewport without scrolling or clipped controls at desktop a
         const size=await page.evaluate(()=>({height:document.documentElement.scrollHeight,width:document.documentElement.scrollWidth}));
         assert.ok(size.height<=height+1,`${width}x${height}/${method}: document height ${size.height}`);
         assert.ok(size.width<=width,`${width}x${height}: horizontal overflow`);
+        if(width<=860){
+          const fonts=await page.locator('.auth-entry input:not([type=checkbox])').evaluateAll(inputs=>inputs.map(el=>parseFloat(getComputedStyle(el).fontSize)));
+          assert.ok(fonts.length>0&&fonts.every(size=>size>=16),'Mobile login inputs must retain a readable 16px minimum');
+        }
         for(const control of [page.locator('.account-primary'),page.getByRole('button',{name:/以游客身份登录/})]){
           const rect=await control.boundingBox();assert.ok(rect&&rect.y>=0&&rect.y+rect.height<=height,`${width}x${height}: action fully in viewport`);
         }

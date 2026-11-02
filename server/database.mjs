@@ -26,7 +26,7 @@ export function openDatabase(dbPath, { initialize = true } = {}) {
   try {
     db.exec("PRAGMA busy_timeout=5000; PRAGMA foreign_keys=ON;");
     const version = db.prepare("PRAGMA user_version").get().user_version;
-    if (![0, 1, 2].includes(version))
+    if (![0, 1, 2, 3, 4].includes(version))
       throw new Error(`Unsupported accounts migration version ${version}`);
     if (version === 0) {
       if (!initialize)
@@ -118,12 +118,26 @@ export function openDatabase(dbPath, { initialize = true } = {}) {
       `),
       );
     }
+    if(version<3) transaction(db,()=>db.exec(`
+      ALTER TABLE sessions ADD COLUMN idle_expires_at INTEGER;
+      UPDATE sessions SET idle_expires_at=MIN(expires_at,created_at+7200000) WHERE user_id IS NOT NULL;
+      PRAGMA user_version=3;
+    `));
+    if(version<4)transaction(db,()=>db.exec(`
+      ALTER TABLE sessions ADD COLUMN last_activity_at INTEGER;
+      UPDATE sessions SET last_activity_at=MAX(created_at,COALESCE(idle_expires_at-7200000,created_at));
+      CREATE TABLE login_events(id INTEGER PRIMARY KEY,user_id TEXT REFERENCES users(id) ON DELETE SET NULL,username TEXT NOT NULL,method TEXT NOT NULL,result TEXT NOT NULL,created_at INTEGER NOT NULL) STRICT;
+      CREATE INDEX login_events_time ON login_events(created_at);
+      PRAGMA user_version=4;
+    `));
     db.exec("PRAGMA journal_mode=WAL; PRAGMA synchronous=FULL;");
     // Validate expected tables/columns even for an already-versioned database.
     for (const sql of [
       "SELECT id,password_hash,role,disabled,permanent,expires_at,email,email_verified FROM users LIMIT 0",
       "SELECT email,purpose,nonce,code_hash,user_id,attempts,ready,created_at,expires_at FROM email_codes LIMIT 0",
-      "SELECT token_hash,user_id,csrf,expires_at,reauth_at,peer_hash FROM sessions LIMIT 0",
+      "SELECT token_hash,user_id,csrf,expires_at,idle_expires_at,reauth_at,peer_hash FROM sessions LIMIT 0",
+      "SELECT last_activity_at FROM sessions LIMIT 0",
+      "SELECT id,user_id,username,method,result,created_at FROM login_events LIMIT 0",
       "SELECT token_hash,user_id,expires_at FROM reset_tokens LIMIT 0",
       "SELECT key,count,expires_at FROM rate_limits LIMIT 0",
       "SELECT user_id,dataset,version,snapshot,updated_at FROM progress LIMIT 0",

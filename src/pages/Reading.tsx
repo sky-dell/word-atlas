@@ -8,6 +8,7 @@ import { stopAudio } from '../lib/audio';
 import { chapterText, collection, isBook, isChapter, isReadingArticle, isReadingItem, localAsset, markedText, readPosition, readRecords, readerPreferences, recordExercise, savePosition, saveReaderPreferences, useReaderContent } from '../lib/reader';
 import type { Book, Chapter, Judgment, ReadingArticle, ReadingPosition, TextPiece } from '../lib/reader';
 import '../styles/reading-drills.css';
+import { Karoline } from './Karoline';
 
 const readingIndex = collection('items', isReadingItem);
 const bookIndex = collection('books', isBook);
@@ -17,7 +18,7 @@ function navigate(route: ReadingRoute) { go(route as Parameters<typeof go>[0]); 
 
 export function Reading() {
   const { route } = useLocation(); const r = route as ReadingRoute;
-  const tab = r.book || r.tab !== 'short' && !r.id ? 'books' : 'short';
+  const tab = r.tab === 'karoline' ? 'karoline' : r.book || r.tab !== 'short' && !r.id ? 'books' : 'short';
   const [query, setQuery] = useState(''), [level, setLevel] = useState('all'), [limit, setLimit] = useState(24);
   const atlas = useAtlas();
   const readings = useReaderContent('atlas/extras/readings/index.json', readingIndex);
@@ -30,9 +31,9 @@ export function Reading() {
   const openResume = () => resume && navigate({ page: 'read', ...(resume.kind === 'books' ? { book: resume.id, chapter: resume.chapter } : { id: resume.id, tab: 'short' }) });
   return <div className="page wa-reading">
     <header className="page-head"><p className="eyebrow">Reading room</p><h1 className="display">书房</h1><p className="lede">把学过的词，读进故事里。</p></header>
-    <nav className="segmented wa-tabs" aria-label="书房分类">{(['books', 'short'] as const).map(t => <button key={t} className={tab === t ? 'is-on' : ''} aria-pressed={tab === t} onClick={() => navigate({ page: 'read', tab: t })}>{t === 'books' ? '原版书' : '词与远方短文'}</button>)}</nav>
-    {!r.id && !r.book && resume && <button className="wa-resume panel" onClick={openResume}><BookOpen size={20} /><span>继续上次阅读 <small>{resume.kind === 'books' ? `第 ${resume.chapter} 章` : readings.data?.items.find(a => a.id === resume.id)?.titleZh ?? resume.id}</small></span><ArrowRight size={18} /></button>}
-    {tab === 'books' ? r.book ? book ? <>
+    <nav className="segmented wa-tabs" aria-label="书房分类">{(['books', 'short', 'karoline'] as const).map(t => <button key={t} className={tab === t ? 'is-on' : ''} aria-pressed={tab === t} onClick={() => navigate({ page: 'read', tab: t })}>{t === 'books' ? '原版书' : t === 'short' ? '词与远方短文' : '卡罗琳特辑（Karoline）'}</button>)}</nav>
+    {tab !== 'karoline' && !r.id && !r.book && resume && <button className="wa-resume panel" onClick={openResume}><BookOpen size={20} /><span>继续上次阅读 <small>{resume.kind === 'books' ? `第 ${resume.chapter} 章` : readings.data?.items.find(a => a.id === resume.id)?.titleZh ?? resume.id}</small></span><ArrowRight size={18} /></button>}
+    {tab === 'karoline' ? <Karoline id={r.id} /> : tab === 'books' ? r.book ? book ? <>
       <button className="wa-back" onClick={() => navigate({ page: 'read', tab: 'books' })}><ArrowLeft size={16} /> 全部书籍</button>
       <div className="wa-chapter-select"><label htmlFor="wa-chapter">{book.titleZh} · 章节</label><select id="wa-chapter" value={chapter} onChange={e => navigate({ page: 'read', book: book.id, chapter: Number(e.target.value) })}>{book.chapters.map(c => <option key={c.n} value={c.n}>{c.labelZh} · {c.titleZh}</option>)}</select></div>
       <BookChapter key={`${book.id}-${chapter}`} book={book} number={chapter} />

@@ -9,12 +9,14 @@ import { AccountController } from "./account/state";
 import "./styles/app.css";
 import "./styles/parity.css";
 import {enableTemporaryGuests} from './store/profileStorage';
+import {IdleSessionController} from './session/IdleSessionController';
 
 enableTemporaryGuests();
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <AccountController />
+    <IdleSessionController />
     <App />
   </StrictMode>,
 );
