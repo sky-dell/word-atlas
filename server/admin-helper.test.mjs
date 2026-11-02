@@ -93,6 +93,42 @@ test('mail-save accepts only normalized SMTP fields and writes through the injec
   assert.equal((await post({action:'shell',payload:{}})).status,400);
 });
 
+test('mail-save returns the root-generated code secret without returning the provider password',async t=>{
+  const dir=await mkdtemp(path.join(os.tmpdir(),'wa-mail-helper-secret-'));
+  const journal=openOperationJournal(path.join(dir,'operations.sqlite'));
+  const codeSecret='9f'.repeat(32);
+  const password='helper-provider-password';
+  const server=createHelperServer({
+    journal,
+    manager:{},
+    mailStore:async()=>({codeSecret}),
+  });
+  await new Promise(r=>server.listen(0,'127.0.0.1',r));
+  t.after(async()=>{await new Promise(r=>server.close(r));journal.close();await rm(dir,{recursive:true,force:true});});
+  const response=await fetch('http://127.0.0.1:'+server.address().port,{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      action:'mail-save',
+      payload:{
+        host:'smtp.example.com',
+        port:465,
+        security:'tls',
+        user:'sender@example.com',
+        password,
+        from:'sender@example.com',
+        fromName:'',
+      },
+      context:{operationId:'a'.repeat(32),actorId:'mail-admin'},
+    }),
+  });
+  const text=await response.text();
+  assert.equal(response.status,200);
+  assert.equal(JSON.parse(text).codeSecret,codeSecret);
+  assert.doesNotMatch(text,new RegExp(password));
+  assert.doesNotMatch(JSON.stringify(journal.list()),new RegExp(codeSecret));
+});
+
 test('mail-save records failure without returning the password',async t=>{
   const dir=await mkdtemp(path.join(os.tmpdir(),'wa-mail-helper-fail-'));
   const journal=openOperationJournal(path.join(dir,'operations.sqlite'));

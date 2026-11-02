@@ -194,7 +194,7 @@ export function createAccounts({
   sendEmailCode,
   mailRuntime,
   mailPassword,
-  emailCodeSecret,
+  emailCodeSecret: initialEmailCodeSecret,
   operations,
   listGuests=()=>[],
 } = {}) {
@@ -209,26 +209,25 @@ export function createAccounts({
   )
     throw new Error("Invalid mail runtime");
   const mailSender = sendEmailCode ?? mailRuntime?.sendCode;
-  if (
-    mailSender !== undefined &&
-    (typeof mailSender !== "function" ||
-      typeof emailCodeSecret !== "string" ||
-      Buffer.byteLength(emailCodeSecret) < 32)
-  )
+  if (mailSender !== undefined && typeof mailSender !== "function")
+    throw new Error("Email code sender must be a function");
+  let emailCodeSecret = initialEmailCodeSecret;
+  const validEmailCodeSecret = (value) =>
+    typeof value === "string" && Buffer.byteLength(value) >= 32;
+  const mailConfigured = () => {
+    if (!mailRuntime) return typeof mailSender === "function";
+    try {
+      return mailRuntime.status().configured === true;
+    } catch {
+      return false;
+    }
+  };
+  if (mailConfigured() && !validEmailCodeSecret(emailCodeSecret))
     throw new Error(
       "Email code sender requires a persistent secret of at least 32 bytes",
     );
   let currentMailPassword = mailPassword;
-  const emailEnabled = () => {
-    if (mailRuntime) {
-      try {
-        return mailRuntime.status().configured === true;
-      } catch {
-        return false;
-      }
-    }
-    return typeof mailSender === "function";
-  };
+  const emailEnabled = mailConfigured;
   if (
     ![accountQuotaBytes, cloudQuotaBytes].every(
       (n) => Number.isSafeInteger(n) && n > 0,
@@ -1059,8 +1058,9 @@ export function createAccounts({
         if (!operations)
           fail(503, "mail_operation_failed", "邮件配置服务暂不可用，请稍后重试。");
         const operationId = randomBytes(16).toString("hex");
+        let stored;
         try {
-          await operations.request("mail-save", candidate, {
+          stored = await operations.request("mail-save", candidate, {
             operationId,
             actorId: s.user_id,
           });
@@ -1074,6 +1074,36 @@ export function createAccounts({
             "邮件配置服务暂不可用，请稍后重试。",
           );
         }
+        if (stored?.codeSecret !== undefined) {
+          if (
+            typeof stored.codeSecret !== "string" ||
+            !/^[a-f0-9]{64}$/i.test(stored.codeSecret)
+          ) {
+            audit(s.user_id, s.user_id, "mail_save_failed", before, {
+              code: "mail_code_secret_invalid",
+              operationId,
+              persisted: true,
+            });
+            fail(
+              503,
+              "mail_operation_failed",
+              "邮件配置服务暂不可用，请稍后重试。",
+            );
+          }
+          emailCodeSecret = stored.codeSecret;
+        } else if (!validEmailCodeSecret(emailCodeSecret)) {
+          audit(s.user_id, s.user_id, "mail_save_failed", before, {
+            code: "mail_code_secret_unavailable",
+            operationId,
+            persisted: true,
+          });
+          fail(
+            503,
+            "mail_operation_failed",
+            "邮件配置服务暂不可用，请稍后重试。",
+          );
+        }
+        currentMailPassword = candidate.password;
         try {
           await mailRuntime.apply(candidate);
         } catch {
@@ -1084,7 +1114,6 @@ export function createAccounts({
           });
           fail(503, "mail_apply_failed", "邮件服务配置已保存，但运行时更新失败。");
         }
-        currentMailPassword = candidate.password;
         const after = publicMailStatus(mailRuntime.status());
         audit(s.user_id, s.user_id, "mail_save", before, {
           ...after,

@@ -37,7 +37,7 @@ async function storeFixture(t) {
 test("writes a root-private generic SMTP file atomically", async (t) => {
   const { directory, file } = await storeFixture(t);
 
-  await writeMailStore(file, config);
+  const written = await writeMailStore(file, config);
 
   const info = await lstat(file);
   assert.equal(info.isFile(), true);
@@ -51,6 +51,7 @@ test("writes a root-private generic SMTP file atomically", async (t) => {
   assert.equal(env.SMTP_SECURE, "0");
   assert.equal(env.SMTP_USER, "sender@example.com");
   assert.equal(env.SMTP_FROM, "Sender@example.com");
+  assert.equal(written.codeSecret, env.MAIL_CODE_SECRET);
   assert.match(env.MAIL_CODE_SECRET, /^[a-f0-9]{64}$/);
   assert.deepEqual(
     (await readdir(directory)).filter((name) => name.endsWith(".tmp")),

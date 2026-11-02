@@ -152,4 +152,5 @@ export async function writeMailStore(file, config) {
     await handle?.close().catch(() => {});
     if (!renamed) await unlink(temporary).catch(() => {});
   }
+  return { codeSecret: secret };
 }

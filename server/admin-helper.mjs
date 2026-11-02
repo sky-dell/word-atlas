@@ -22,6 +22,8 @@ const mailKeys = [
   "from",
   "fromName",
 ];
+const validCodeSecret = (value) =>
+  typeof value === "string" && /^[a-f0-9]{64}$/i.test(value);
 
 function mailStatus(config) {
   return {
@@ -154,9 +156,14 @@ export function createHelperServer({
         journal.start(operation);
       }
       if (action === "mail-save") {
-        await mailStore(mailFile, normalizedMail);
+        const stored = await mailStore(mailFile, normalizedMail);
         committed = true;
-        result = mailStatus(normalizedMail);
+        result = {
+          ...mailStatus(normalizedMail),
+          ...(validCodeSecret(stored?.codeSecret)
+            ? { codeSecret: stored.codeSecret }
+            : {}),
+        };
       } else {
         result = await manager[method](payload);
         committed = true;

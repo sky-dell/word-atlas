@@ -642,6 +642,80 @@ test("mail test failure leaves status unchanged", async (t) => {
   assert.doesNotMatch(JSON.stringify(audit), new RegExp(secret));
 });
 
+test("mail-disabled accounts start without a code secret and a later save enables email delivery", async (t) => {
+  const codeSecret = "a1".repeat(32);
+  const runtime = mailRuntimeDouble({ configured: false });
+  runtime.sent = [];
+  runtime.sendCode = async (message) => runtime.sent.push(message);
+  const helperCalls = [];
+  const operations = {
+    request: async (action, payload, context) => {
+      helperCalls.push({ action, payload, context });
+      if (action !== "mail-save") throw new Error("unexpected action");
+      return {
+        configured: true,
+        host: "mail.example.net",
+        port: 465,
+        security: "tls",
+        user: "sender@example.net",
+        from: "sender@example.net",
+        fromName: "Mail Sender",
+        secretConfigured: true,
+        codeSecret,
+      };
+    },
+  };
+  const f = await fixture(t, { mailRuntime: runtime, operations });
+  const anonymous = f.client();
+  const initial = await anonymous.bootstrap();
+  assert.equal(initial.status, 200);
+  assert.equal(initial.data.emailEnabled, false);
+
+  const admin = await f.admin();
+  await reauthenticate(admin);
+  const saved = await admin.request(
+    "/api/admin/mail",
+    post({
+      host: "mail.example.net",
+      port: 465,
+      security: "tls",
+      user: "sender@example.net",
+      password: "first-provider-secret",
+      from: "sender@example.net",
+      fromName: "Mail Sender",
+    }),
+  );
+  assert.equal(saved.status, 200);
+  assert.equal(helperCalls.filter((call) => call.action === "mail-save").length, 1);
+  assert.equal((await admin.bootstrap()).data.emailEnabled, true);
+  assert.equal((await anonymous.bootstrap()).data.emailEnabled, true);
+  assert.doesNotMatch(JSON.stringify(saved.data), new RegExp(codeSecret));
+  assert.doesNotMatch(
+    JSON.stringify(f.accounts.db.prepare("SELECT * FROM audit").all()),
+    new RegExp(codeSecret),
+  );
+
+  const signup = f.client();
+  await signup.bootstrap();
+  const accepted = await signup.request(
+    "/api/auth/email-code",
+    post({ email: "fresh@example.com", purpose: "register" }),
+  );
+  assert.equal(accepted.status, 200);
+  await waitFor(() => runtime.sent.length === 1);
+  assert.match(runtime.sent[0].code, /^\d{6}$/);
+  const registered = await signup.request(
+    "/api/auth/register",
+    post({
+      email: "fresh@example.com",
+      code: runtime.sent[0].code,
+      password: PASSWORD,
+    }),
+  );
+  assert.equal(registered.status, 200);
+  assert.doesNotMatch(JSON.stringify(registered.data), new RegExp(codeSecret));
+});
+
 test("anonymous CSRF is reusable; register rotates hashed session; uniqueness and validation", async (t) => {
   const f = await fixture(t);
   const c = f.client();
