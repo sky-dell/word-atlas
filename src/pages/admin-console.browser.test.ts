@@ -92,6 +92,18 @@ test(
         method: string;
         body: Record<string, unknown> | null;
       }[] = [];
+      const storedMailSecret = "stored-mail-secret";
+      let mailConfigured = true;
+      let mailStatus = {
+        configured: true,
+        host: "smtp.mail.test",
+        port: 465,
+        security: "tls",
+        user: "mailer@example.test",
+        from: "mailer@example.test",
+        fromName: "邮件服务",
+        secretConfigured: true,
+      };
       let role = "user",
         overviewUnavailable = false,
         reauthFails = false,
@@ -222,6 +234,36 @@ test(
               })),
             ],
           });
+        if (url.pathname === "/api/admin/mail" && request.method() === "GET")
+          return reply(
+            mailConfigured
+              ? { ...mailStatus, password: storedMailSecret }
+              : { configured: false, secretConfigured: false },
+          );
+        if (url.pathname === "/api/admin/mail" && request.method() === "POST") {
+          const candidate = body || {};
+          mailConfigured = true;
+          mailStatus = {
+            configured: true,
+            host: String(candidate.host || ""),
+            port: Number(candidate.port || 0),
+            security: String(candidate.security || ""),
+            user: String(candidate.user || ""),
+            from: String(candidate.from || ""),
+            fromName: String(candidate.fromName || ""),
+            secretConfigured: true,
+          };
+          return reply(mailStatus);
+        }
+        if (
+          url.pathname === "/api/admin/mail/test" &&
+          request.method() === "POST"
+        )
+          return reply({
+            ok: true,
+            elapsedMs: 37,
+            tlsProtocol: "TLSv1.3",
+          });
         if (/^\/api\/admin\/users\/[^/]+\/reset$/.test(url.pathname))
           return reply({
             token: "fixture-reset-only",
@@ -323,10 +365,195 @@ test(
         await page.locator('.admin-console a[href="#/me"]').count(),
         0,
       );
+
+      await select("邮件服务");
+      const mailPanel = page.locator(".admin-mail-panel");
+      const mailStatusCard = mailPanel.locator(".admin-mail-status");
+      const mailConfigCard = mailPanel.locator(".admin-mail-config");
+      await page
+        .getByRole("heading", { name: "当前 SMTP 服务", exact: true })
+        .waitFor();
+      assert.equal(
+        await nav
+          .getByRole("button", { name: "邮件服务", exact: true })
+          .count(),
+        1,
+      );
+      await page.getByText("smtp.mail.test:465", { exact: true }).waitFor();
+      await page.getByText("邮件服务", { exact: true }).last().waitFor();
+      assert.equal(
+        (await page.getByText("mailer@example.test", { exact: true }).count()) >
+          0,
+        true,
+      );
+      assert.equal(
+        (await page.locator("body").innerText()).includes(storedMailSecret),
+        false,
+        "stored authorization code must never appear in the page",
+      );
+      for (const label of [
+        "SMTP 主机",
+        "端口",
+        "加密方式",
+        "用户名",
+        "SMTP 授权码",
+        "发件地址",
+        "发件人名称",
+        "管理员密码",
+      ])
+        assert.equal(
+          await page.getByLabel(label, { exact: true }).count(),
+          1,
+          `mail form must expose ${label}`,
+        );
+      assert.equal(
+        await page.getByLabel("SMTP 授权码", { exact: true }).inputValue(),
+        "",
+        "stored authorization code is write-only",
+      );
+      assert.equal(
+        await mailPanel.locator("p").count(),
+        0,
+        "mail panel must not render paragraph-level instructional copy",
+      );
+      const mailStatusHeight = (await mailStatusCard.boundingBox())!.height;
+      const mailConfigHeight = (await mailConfigCard.boundingBox())!.height;
+
+      await page
+        .getByLabel("SMTP 主机", { exact: true })
+        .fill("smtp.test.test");
+      await page.getByLabel("端口", { exact: true }).fill("587");
+      await page
+        .getByLabel("加密方式", { exact: true })
+        .selectOption("starttls");
+      await page.getByLabel("用户名", { exact: true }).fill("tester");
+      await page
+        .getByLabel("SMTP 授权码", { exact: true })
+        .fill("candidate-auth-code");
+      await page
+        .getByLabel("发件地址", { exact: true })
+        .fill("tester@example.test");
+      await page.getByLabel("发件人名称", { exact: true }).fill("Tester");
+      await page
+        .getByLabel("管理员密码", { exact: true })
+        .fill("FixtureOnly!2");
+      await page.getByRole("button", { name: "测试连接", exact: true }).click();
+      await page.getByText("连接成功", { exact: false }).waitFor();
+      const mailTestIndex = calls
+        .map(
+          (call) =>
+            call.path === "/api/admin/mail/test" && call.method === "POST",
+        )
+        .lastIndexOf(true);
+      assert.equal(calls[mailTestIndex - 1].path, "/api/auth/reauth");
+      assert.deepEqual(calls[mailTestIndex].body, {
+        host: "smtp.test.test",
+        port: 587,
+        security: "starttls",
+        user: "tester",
+        password: "candidate-auth-code",
+        from: "tester@example.test",
+        fromName: "Tester",
+      });
+      assert.equal(
+        await page.getByLabel("SMTP 授权码", { exact: true }).inputValue(),
+        "",
+        "authorization code must clear after test",
+      );
+      assert.ok(
+        Math.abs(
+          (await mailConfigCard.boundingBox())!.height - mailConfigHeight,
+        ) < 1,
+        "configuration card height must stay stable after status feedback",
+      );
+
+      await page
+        .getByLabel("SMTP 主机", { exact: true })
+        .fill("smtp.saved.test");
+      await page.getByLabel("发件人名称", { exact: true }).fill("Saved Sender");
+      await page
+        .getByLabel("管理员密码", { exact: true })
+        .fill("FixtureOnly!2");
+      assert.equal(
+        await page.getByLabel("SMTP 授权码", { exact: true }).inputValue(),
+        "",
+      );
+      await page.getByRole("button", { name: "保存配置", exact: true }).click();
+      await page.getByText("smtp.saved.test:587", { exact: true }).waitFor();
+      const mailSaveIndex = calls
+        .map(
+          (call) => call.path === "/api/admin/mail" && call.method === "POST",
+        )
+        .lastIndexOf(true);
+      assert.equal(calls[mailSaveIndex - 1].path, "/api/auth/reauth");
+      assert.deepEqual(calls[mailSaveIndex].body, {
+        host: "smtp.saved.test",
+        port: 587,
+        security: "starttls",
+        user: "tester",
+        password: "",
+        from: "tester@example.test",
+        fromName: "Saved Sender",
+      });
+      assert.ok(
+        calls
+          .slice(mailSaveIndex + 1)
+          .some(
+            (call) => call.path === "/api/admin/mail" && call.method === "GET",
+          ),
+        "save must reload sanitized provider status",
+      );
+
+      mailConfigured = false;
+      await page
+        .getByRole("button", { name: "刷新当前面板", exact: true })
+        .click();
+      await page.getByText("未配置", { exact: true }).waitFor();
+      assert.ok(
+        Math.abs(
+          (await mailStatusCard.boundingBox())!.height - mailStatusHeight,
+        ) < 1,
+        "status card height must stay stable when provider status changes",
+      );
+      for (const [label, value] of [
+        ["SMTP 主机", "new.smtp.test"],
+        ["端口", "465"],
+        ["用户名", "first-user"],
+        ["发件地址", "first@example.test"],
+        ["发件人名称", "First User"],
+        ["管理员密码", "FixtureOnly!2"],
+      ] as const)
+        await page.getByLabel(label, { exact: true }).fill(value);
+      await page.getByLabel("加密方式", { exact: true }).selectOption("tls");
+      const saveCount = calls.filter(
+        (call) => call.path === "/api/admin/mail" && call.method === "POST",
+      ).length;
+      await page.getByRole("button", { name: "保存配置", exact: true }).click();
+      await page.getByRole("alert").filter({ hasText: "授权码" }).waitFor();
+      assert.equal(
+        calls.filter(
+          (call) => call.path === "/api/admin/mail" && call.method === "POST",
+        ).length,
+        saveCount,
+        "first-time blank authorization code must not call the save API",
+      );
+      assert.ok(
+        Math.abs(
+          (await mailConfigCard.boundingBox())!.height - mailConfigHeight,
+        ) < 1,
+        "configuration card height must stay stable after validation feedback",
+      );
+      mailConfigured = true;
+      await page
+        .getByRole("button", { name: "刷新当前面板", exact: true })
+        .click();
+      await page.getByText("已配置", { exact: true }).waitFor();
+
       const sizes = [
         [1366, 768],
         [1280, 640],
         [1440, 900],
+        [768, 900],
         [390, 844],
         [375, 667],
         [320, 568],
@@ -435,6 +662,7 @@ test(
           "登录历史",
           "账号管理",
           "SSL 证书",
+          "邮件服务",
           "安全与审计",
         ]) {
           await select(panel);
@@ -459,6 +687,22 @@ test(
               .getByRole("button", { name: "导入并验证", exact: true })
               .click();
             await fit(`${width}x${height} certificate import`);
+          }
+          if (panel === "邮件服务") {
+            assert.equal(
+              await page.locator(".admin-mail-panel p").count(),
+              0,
+              "mail panel must not render instructional paragraphs",
+            );
+            assert.equal(
+              await page.evaluate(() => {
+                const panel =
+                  document.querySelector<HTMLElement>(".admin-mail-panel");
+                return panel ? panel.scrollWidth > panel.clientWidth + 1 : true;
+              }),
+              false,
+              `${width}x${height}: mail panel must not overflow horizontally`,
+            );
           }
           if (
             ["在线用户", "登录历史", "账号管理", "安全与审计"].includes(panel)

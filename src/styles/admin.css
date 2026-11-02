@@ -691,6 +691,87 @@
   font-size: 10px;
   color: var(--admin-muted);
 }
+.admin-mail-panel {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+.admin-mail-card {
+  border-radius: 8px;
+}
+.admin-mail-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px 12px;
+  min-height: 54px;
+  margin: 0;
+  padding: 10px 12px;
+}
+.admin-mail-summary > div {
+  min-width: 0;
+}
+.admin-mail-summary dt {
+  margin-bottom: 3px;
+  font-size: 10px;
+  color: var(--admin-muted);
+}
+.admin-mail-summary dd {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+.admin-mail-config .admin-form {
+  padding: 10px 12px;
+}
+.admin-mail-config fieldset {
+  gap: 8px;
+}
+.admin-mail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 10px;
+}
+.admin-mail-grid label {
+  gap: 3px;
+}
+.admin-mail-grid :is(input, select) {
+  height: 38px;
+  min-width: 0;
+}
+.admin-mail-grid select {
+  display: block;
+  width: 100%;
+  padding: 0 9px;
+  border: 1px solid #dcd8ce;
+  border-radius: 6px;
+  color: var(--admin-ink);
+  background: #fffefb;
+}
+.admin-mail-feedback {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  min-width: 0;
+}
+.admin-mail-feedback > div {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 8px;
+  font-size: 11px;
+  line-height: 1.4;
+  overflow: auto;
+  overflow-wrap: anywhere;
+}
+.admin-mail-success {
+  border: 1px solid #dce6d6;
+  border-radius: 6px;
+  color: #496342;
+  background: #edf3e9;
+}
+.admin-mail-config .admin-button {
+  height: 34px;
+}
 .admin-confirm {
   border-color: #c6b48f;
 }
@@ -823,6 +904,9 @@
   .admin-certificate-details {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .admin-mail-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 @media (max-width: 760px), (max-height: 440px) {
   .admin-console {
@@ -896,6 +980,9 @@
   .admin-password-grid {
     grid-template-columns: minmax(0, 1fr);
   }
+  .admin-mail-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
   .admin-certificate-details {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 7px 10px;
@@ -932,6 +1019,9 @@
   }
   .admin-password-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .admin-mail-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .admin-confirm {
     display: grid;

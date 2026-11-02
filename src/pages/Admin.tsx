@@ -18,6 +18,7 @@ import {
   LayoutDashboard,
   LockKeyhole,
   LogOut,
+  Mail,
   Menu,
   RefreshCw,
   Search,
@@ -553,6 +554,16 @@ interface StagedCertificate {
   certificate: Certificate;
   expiresAt: Stamp;
 }
+interface MailStatus {
+  configured: boolean;
+  host?: string;
+  port?: number;
+  security?: string;
+  user?: string;
+  from?: string;
+  fromName?: string;
+  secretConfigured: boolean;
+}
 const sections = [
   {
     id: "overview",
@@ -578,6 +589,11 @@ const sections = [
     id: "certificate",
     label: "SSL 证书",
     icon: FileKey2,
+  },
+  {
+    id: "mail",
+    label: "邮件服务",
+    icon: Mail,
   },
   {
     id: "security",
@@ -728,6 +744,7 @@ function AdminConsole({ user }: { user: User }) {
               </>
             )}
             {section === "certificate" && <CertificatePanel />}
+            {section === "mail" && <MailPanel />}
             {section === "security" && <SecurityPanel />}
           </div>
         </main>
@@ -1791,6 +1808,330 @@ function CertificatePanel() {
             </fieldset>
           </form>
         </section>
+      )}
+    </>
+  );
+}
+interface MailFormState {
+  host: string;
+  port: string;
+  security: "tls" | "starttls";
+  user: string;
+  password: string;
+  from: string;
+  fromName: string;
+}
+const emptyMailForm: MailFormState = {
+  host: "",
+  port: "465",
+  security: "tls",
+  user: "",
+  password: "",
+  from: "",
+  fromName: "",
+};
+function mailFormFromStatus(status: MailStatus | null): MailFormState {
+  if (!status?.configured) return { ...emptyMailForm };
+  return {
+    host: status.host || "",
+    port: String(status.port || 465),
+    security: status.security === "starttls" ? "starttls" : "tls",
+    user: status.user || "",
+    password: "",
+    from: status.from || "",
+    fromName: status.fromName || "",
+  };
+}
+function mailSecurityLabel(security: string | undefined) {
+  return security === "tls"
+    ? "隐式 TLS"
+    : security === "starttls"
+      ? "STARTTLS"
+      : "—";
+}
+function MailPanel() {
+  const resource = useAdminResource<MailStatus>("/api/admin/mail");
+  const [form, setForm] = useState<MailFormState>(emptyMailForm),
+    [adminPassword, setAdminPassword] = useState(""),
+    [busy, setBusy] = useState<"test" | "save" | null>(null),
+    [feedback, setFeedback] = useState<{
+      tone: "status" | "error";
+      text: string;
+    } | null>(null);
+  const alive = useRef(0);
+  useEffect(
+    () => () => {
+      alive.current++;
+    },
+    [],
+  );
+  useEffect(() => {
+    setForm(mailFormFromStatus(resource.data));
+  }, [resource.data]);
+  const update = (field: keyof MailFormState, value: string) => {
+    setForm((current) => ({ ...current, [field]: value }));
+  };
+  const submit = async (action: "test" | "save") => {
+    if (!resource.data || busy) return;
+    const host = form.host.trim(),
+      user = form.user.trim(),
+      from = form.from.trim(),
+      fromName = form.fromName.trim(),
+      password = form.password,
+      port = Number(form.port);
+    setFeedback(null);
+    if (!host || !user || !from) {
+      setFeedback({ tone: "error", text: "请填写必填字段。" });
+      return;
+    }
+    if (!Number.isInteger(port) || port < 1 || port > 65535) {
+      setFeedback({ tone: "error", text: "端口须为 1–65535。" });
+      return;
+    }
+    if (!adminPassword) {
+      setFeedback({ tone: "error", text: "请输入管理员密码。" });
+      return;
+    }
+    if (!resource.data.secretConfigured && !password) {
+      setFeedback({ tone: "error", text: "首次配置需填写授权码。" });
+      return;
+    }
+    const candidate = {
+        host,
+        port,
+        security: form.security,
+        user,
+        password,
+        from,
+        fromName,
+      },
+      epoch = profileGeneration(),
+      life = alive.current;
+    setForm((current) => ({ ...current, password: "" }));
+    setAdminPassword("");
+    setBusy(action);
+    let reauthenticated = false;
+    try {
+      await accountClient.request("/api/auth/reauth", {
+        method: "POST",
+        body: { password: adminPassword },
+      });
+      reauthenticated = true;
+      if (epoch !== profileGeneration() || life !== alive.current) return;
+      if (action === "test") {
+        const result = await accountClient.request<{
+          ok: boolean;
+          elapsedMs: number;
+          tlsProtocol?: string;
+        }>("/api/admin/mail/test", {
+          method: "POST",
+          body: candidate,
+        });
+        if (epoch !== profileGeneration() || life !== alive.current) return;
+        setFeedback({
+          tone: "status",
+          text: `连接成功 · ${Math.round(result.elapsedMs)} ms${result.tlsProtocol ? ` · ${result.tlsProtocol}` : ""}`,
+        });
+      } else {
+        await accountClient.request<MailStatus>("/api/admin/mail", {
+          method: "POST",
+          body: candidate,
+        });
+        if (epoch !== profileGeneration() || life !== alive.current) return;
+        setFeedback({ tone: "status", text: "配置已保存。" });
+        resource.reload();
+      }
+    } catch (cause) {
+      if (epoch === profileGeneration() && life === alive.current)
+        setFeedback({
+          tone: "error",
+          text: reauthenticated
+            ? action === "test"
+              ? "连接验证失败。"
+              : "配置保存失败。"
+            : accountError(cause),
+        });
+    } finally {
+      if (epoch === profileGeneration() && life === alive.current)
+        setBusy(null);
+    }
+  };
+  return (
+    <>
+      <ResourceState {...resource} retry={resource.reload} />
+      {resource.data && (
+        <div className="admin-mail-panel">
+          <section
+            className="admin-card admin-mail-card admin-mail-status"
+            aria-label="当前 SMTP 服务"
+          >
+            <div className="admin-card-heading">
+              <h2>当前 SMTP 服务</h2>
+              <Pill tone={resource.data.configured ? "good" : "neutral"}>
+                {resource.data.configured ? "已配置" : "未配置"}
+              </Pill>
+            </div>
+            <dl className="admin-mail-summary">
+              <div>
+                <dt>SMTP 服务器</dt>
+                <dd>
+                  {resource.data.configured
+                    ? `${resource.data.host}:${resource.data.port}`
+                    : "—"}
+                </dd>
+              </div>
+              <div>
+                <dt>加密方式</dt>
+                <dd>{mailSecurityLabel(resource.data.security)}</dd>
+              </div>
+              <div>
+                <dt>发件地址</dt>
+                <dd>{resource.data.from || "—"}</dd>
+              </div>
+              <div>
+                <dt>发件人名称</dt>
+                <dd>{resource.data.fromName || "—"}</dd>
+              </div>
+            </dl>
+          </section>
+          <section
+            className="admin-card admin-mail-card admin-mail-config"
+            aria-label="SMTP 配置"
+          >
+            <div className="admin-card-heading">
+              <h2>SMTP 配置</h2>
+              <Mail size={19} aria-hidden="true" />
+            </div>
+            <form
+              className="admin-form"
+              aria-busy={busy !== null}
+              onSubmit={(event) => {
+                event.preventDefault();
+                void submit("save");
+              }}
+            >
+              <fieldset disabled={busy !== null || resource.loading}>
+                <div className="admin-mail-grid">
+                  <label>
+                    SMTP 主机
+                    <input
+                      value={form.host}
+                      onChange={(event) => update("host", event.target.value)}
+                      maxLength={253}
+                      autoComplete="off"
+                    />
+                  </label>
+                  <label>
+                    端口
+                    <input
+                      value={form.port}
+                      onChange={(event) => update("port", event.target.value)}
+                      type="number"
+                      inputMode="numeric"
+                      min={1}
+                      max={65535}
+                    />
+                  </label>
+                  <label>
+                    加密方式
+                    <select
+                      aria-label="加密方式"
+                      value={form.security}
+                      onChange={(event) =>
+                        update("security", event.target.value)
+                      }
+                    >
+                      <option value="tls">隐式 TLS</option>
+                      <option value="starttls">STARTTLS</option>
+                    </select>
+                  </label>
+                  <label>
+                    用户名
+                    <input
+                      value={form.user}
+                      onChange={(event) => update("user", event.target.value)}
+                      maxLength={320}
+                      autoComplete="off"
+                    />
+                  </label>
+                  <label>
+                    SMTP 授权码
+                    <input
+                      value={form.password}
+                      onChange={(event) =>
+                        update("password", event.target.value)
+                      }
+                      type="password"
+                      maxLength={1024}
+                      autoComplete="new-password"
+                    />
+                  </label>
+                  <label>
+                    发件地址
+                    <input
+                      value={form.from}
+                      onChange={(event) => update("from", event.target.value)}
+                      maxLength={254}
+                      autoComplete="off"
+                    />
+                  </label>
+                  <label>
+                    发件人名称
+                    <input
+                      value={form.fromName}
+                      onChange={(event) =>
+                        update("fromName", event.target.value)
+                      }
+                      maxLength={128}
+                      autoComplete="off"
+                    />
+                  </label>
+                  <label>
+                    管理员密码
+                    <input
+                      value={adminPassword}
+                      onChange={(event) => setAdminPassword(event.target.value)}
+                      type="password"
+                      autoComplete="current-password"
+                    />
+                  </label>
+                </div>
+                <div className="admin-mail-feedback" aria-live="polite">
+                  {feedback && (
+                    <div
+                      className={
+                        feedback.tone === "error"
+                          ? "admin-inline-error"
+                          : "admin-mail-success"
+                      }
+                      role={feedback.tone === "error" ? "alert" : "status"}
+                    >
+                      {feedback.text}
+                    </div>
+                  )}
+                </div>
+                <div className="admin-form-actions">
+                  <button
+                    type="button"
+                    className="admin-button"
+                    disabled={busy !== null}
+                    onClick={() => void submit("test")}
+                  >
+                    {busy === "test" ? "正在测试…" : "测试连接"}
+                  </button>
+                  <button
+                    type="button"
+                    className="admin-button"
+                    disabled={busy !== null}
+                    onClick={() => void submit("save")}
+                  >
+                    {busy === "save" ? "正在保存…" : "保存配置"}
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </section>
+        </div>
       )}
     </>
   );
