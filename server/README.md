@@ -6,28 +6,35 @@ are preserved, but never authorize or deny access. The compatibility response is
 `membership:{active:!disabled,permanent:true,expiresAt:null}`.
 
 Requires Node 24 and the parent's pinned Nodemailer 10.3.0 installation. This
-module does not bind ports, configure secrets, install dependencies or deploy.
+module does not bind ports, install dependencies or deploy. SMTP configuration
+is provider-neutral: any SMTP provider using implicit TLS or STARTTLS is
+supported. HTTP API email providers are not supported.
 
 ## Integration
 
 ```js
 import { createAccounts } from "./server/accounts.mjs";
-import { createMailerFromEnv } from "./server/mailer.mjs";
-const mailer = createMailerFromEnv(process.env);
+import { mailConfigFromEnv } from "./server/mail-config.mjs";
+import { createMailRuntime } from "./server/mailer.mjs";
+import { createOperations } from "./server/operations.mjs";
+const initialMailConfig = mailConfigFromEnv(process.env);
+const mailRuntime = createMailRuntime(initialMailConfig);
+const operations = createOperations({
+  helperSocket: process.env.ADMIN_SOCKET,
+  mailEnabled: () => mailRuntime.status().configured,
+});
 const accounts = createAccounts({
   dbPath: process.env.ACCOUNTS_DB,
   origins: ["https://your-canonical-host"],
   initializeDatabase: false,
-  ...(mailer.enabled
-    ? {
-        sendEmailCode: mailer.sendCode,
-        emailCodeSecret: process.env.MAIL_CODE_SECRET,
-      }
-    : {}),
+  operations,
+  mailRuntime,
+  mailPassword: initialMailConfig?.password,
+  emailCodeSecret: process.env.MAIL_CODE_SECRET,
 });
 // Before serving static files:
 if (await accounts.handle(req, res)) return;
-// On shutdown: drain requests, then accounts.close(); mailer.close();
+// On shutdown: drain requests, then accounts.close(); mailRuntime.close();
 ```
 
 `createAccounts` synchronously opens/migrates the dedicated file-backed SQLite
@@ -38,33 +45,90 @@ background work: synchronous `accounts.close()` cancels its timers, revokes this
 instance's pending codes and prevents any late settlement from accessing SQLite.
 It does not wait for or falsely cancel underlying SMTP promises.
 
-`createMailerFromEnv(env=process.env)` returns `{enabled,sendCode,sendTest,close}`.
-Only complete configuration enables mail:
+`createMailRuntime(initialConfig)` returns a stable runtime with
+`{status,verify,apply,sendCode,sendTest,close}`. `status()` returns only
+non-secret provider fields. `verify(candidate)` and `apply(candidate)` validate
+the complete candidate without returning its authorization credential.
+`apply` replaces the active transport after a successful switch, so the next
+message uses the new provider without restarting the process. A blank
+authorization credential preserves the currently loaded credential only when a
+provider is already configured.
 
-| Key                   | Required value                                              |
-| --------------------- | ----------------------------------------------------------- |
-| SMTP_HOST             | smtp.126.com                                                |
-| SMTP_PORT             | 465                                                         |
-| SMTP_SECURE           | 1 (also accepts true)                                       |
-| SMTP_USER / SMTP_FROM | sz_allen@126.com                                            |
-| SMTP_PASS             | Nonempty SMTP authorization credential                      |
-| MAIL_CODE_SECRET      | 64 hexadecimal characters, generated randomly and persisted |
+The environment contract is generic. The browser admin form stores the same
+seven provider fields, with `SMTP_SECURE` representing the security mode:
 
-The parent manages `/etc/word-atlas/mail.env`, root ownership/mode 0600,
-systemd loading and hidden TTY credential entry. Never copy credentials into
-source, commands, chat or logs. Missing/invalid mail configuration disables mail;
-username registration/login remain available. No default/test code exists.
+| Key              | Required value                                                                                        |
+| ---------------- | ----------------------------------------------------------------------------------------------------- |
+| `SMTP_HOST`      | SMTP provider hostname; public resolution is required and IP literals or `localhost` are rejected     |
+| `SMTP_PORT`      | Integer 1-65535 chosen by the provider (commonly 465 for implicit TLS or 587 for STARTTLS)             |
+| `SMTP_SECURE`    | `1`/`true` for implicit TLS, `0`/`false` for STARTTLS; plaintext SMTP modes are rejected               |
+| `SMTP_USER`      | Nonempty SMTP login account                                                                           |
+| `SMTP_PASS`      | Nonempty provider authorization credential; this value is write-only                                  |
+| `SMTP_FROM`      | Valid sender address                                                                                  |
+| `SMTP_FROM_NAME` | Optional sender display name                                                                          |
+| `MAIL_CODE_SECRET` | 64 hexadecimal characters; generated on first root-private save and preserved across provider changes |
 
-Trusted local CLI callers may invoke `await mailer.sendTest()` once after owner
-configuration. It sends the fixed subject `词与远方邮件服务接入测试` from/to
-`sz_allen@126.com`, explicitly states it is not a login/registration code, and
-contains no OTP. There is no HTTP route for this method. It shares the same
-transport, safe errors, closed/disabled checks and four-send concurrency bound.
+All resolved SMTP addresses must be public; loopback, private, link-local,
+multicast and unspecified results are rejected. Both TLS modes verify
+certificates and require TLS 1.2 or newer. The transport uses the provider
+hostname for TLS server-name validation while connecting to the validated
+address, disables protocol logging and file/URL access, and applies 15-second
+connection, greeting and socket timeouts.
 
-The mailer fixes the sender and TLS host/port, verifies certificates, requires
-TLS 1.2+, disables protocol logging and file/URL access, and sets connection,
-greeting and socket timeouts to 15 seconds. It validates a single ASCII recipient
-and six-digit code before sending; transport failures become generic errors.
+## Mail administration and storage
+
+The parent stores provider configuration in the root-owned, mode `0600` regular
+file `/etc/word-atlas/mail.env`. Its containing directory must also be
+root-owned and not writable by group or other users. The store rejects symlinks
+and unsafe ownership/modes, writes a same-directory temporary file with mode
+`0600`, flushes it, atomically renames it, and preserves `MAIL_CODE_SECRET`
+across updates. Missing or invalid configuration disables email delivery while
+username registration/login remain available.
+
+The browser manager can test and save a candidate provider through the existing
+HTTPS, trusted-Origin and CSRF controls. Both `POST /api/admin/mail/test` and
+`POST /api/admin/mail` require a current administrator password and a recent
+reauthentication; each is separately rate limited. Testing performs transport
+verification without changing the active provider. Saving requires the
+restricted root helper at its configured Unix-socket path
+(`/run/word-atlas-admin/control.sock` by default) and its allowlisted
+`mail-save` action. The helper writes the root-private file; only after the
+atomic write succeeds does the web process apply the returned runtime
+configuration. If the helper is unavailable, read-only status still works but
+save returns a generic service error. Provider errors and authorization
+credentials are not returned through HTTP, written to audit records, or placed
+in status responses.
+
+The authorization credential can never be read back. `GET /api/admin/mail`
+returns only `configured`, `host`, `port`, `security`, `user`, `from`,
+`fromName` and `secretConfigured`. The admin form always starts with an empty
+credential field; leaving it empty after initial configuration preserves the
+stored credential, while a first-time save requires a nonempty credential.
+
+For a provider change, open `邮件服务` in the admin console, enter the complete
+new host/port/security/login/sender shape, leave the credential empty to keep
+the current one when credentials are unchanged, then test the connection and
+save. If the provider issued a new credential, enter it for the test and save.
+No service restart is needed after a successful admin-console save.
+
+As a local fallback, a root operator can run the interactive TTY helper:
+
+```bash
+sudo /usr/local/bin/node /data/word-atlas/scripts/configure-mail.mjs
+```
+
+Passwords cannot be supplied as arguments or piped input. Use `--replace` only
+when intentionally replacing an existing file; leaving the credential empty
+preserves the stored credential. This CLI writes the same root-private file but
+does not signal the running web process, so restart the service after a CLI
+change to load it.
+
+Trusted local callers may invoke `await mailRuntime.sendTest()` after owner
+configuration. It sends the fixed subject `词与远方邮件服务接入测试` to the
+configured sender address, explicitly states it is not a login/registration
+code, and contains no OTP. There is no HTTP route for this method. It shares
+the active transport, generic errors, closed/disabled checks and four-send
+concurrency bound.
 
 ## HTTP contract
 
@@ -97,6 +161,9 @@ cannot collide with valid ASCII username registrations.
 | GET /api/account/backups/:id         | Required owner header                                                                   | `{snapshot,version}`; wrong owner gets 404                    |
 | GET /api/admin/users?q=TEXT          | Admin                                                                                   | `{users}`; maximum 200                                        |
 | GET /api/admin/audit                 | Admin                                                                                   | `{audit}`; newest 200                                         |
+| GET /api/admin/mail                  | Admin                                                                                   | Sanitized mail status; never includes the credential          |
+| POST /api/admin/mail/test            | Complete mail candidate; recent admin reauth                                            | `{ok:true,elapsedMs,tlsProtocol?}`                            |
+| POST /api/admin/mail                 | Complete mail candidate; recent admin reauth; restricted helper                          | Updated sanitized mail status                                 |
 | POST /api/admin/users/:id/status     | `{disabled:boolean}`; recent admin reauth                                               | `{user}`                                                      |
 | POST /api/admin/users/:id/reset      | `{}`; recent admin reauth                                                               | `{token,expiresAt}`; 30 minutes                               |
 | POST /api/admin/users/:id/membership | Legacy admin action; recent reauth                                                      | 410 membership_removed; no changes                            |
