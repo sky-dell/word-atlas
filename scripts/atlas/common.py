@@ -1,4 +1,4 @@
-"""Shared helpers for the Word Atlas content forge.
+"""Shared helpers for the Words & Beyond content forge.
 
 Credentials come from the process environment or from files in the directory
 named by ATLAS_SECRETS (default ~/.config/word-atlas): sub2.env with

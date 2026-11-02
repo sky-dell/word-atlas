@@ -1,6 +1,11 @@
 import { flushSync } from "react-dom";
 
-type VTDocument = Document & { startViewTransition?: (cb: () => void) => { finished: Promise<void> } };
+type VTDocument = Document & {
+  startViewTransition?: (cb: () => void) => {
+    finished: Promise<void>;
+    ready?: Promise<void>;
+  };
+};
 
 const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -11,11 +16,16 @@ export function transition(update: () => void) {
     update();
     return;
   }
-  d.startViewTransition(() => flushSync(update));
+  const t = d.startViewTransition(() => flushSync(update));
+  void t.ready?.catch(() => {});
+  void t.finished.catch(() => {});
 }
 
 /** Morph an element (e.g. a gallery tile's illustration) into the word card. */
-export function morphFrom(el: HTMLElement | null | undefined, update: () => void) {
+export function morphFrom(
+  el: HTMLElement | null | undefined,
+  update: () => void,
+) {
   const d = document as VTDocument;
   if (!el || !d.startViewTransition || reduced()) {
     update();
@@ -26,5 +36,13 @@ export function morphFrom(el: HTMLElement | null | undefined, update: () => void
     el.style.viewTransitionName = "";
     flushSync(update);
   });
-  t.finished.finally(() => (el.style.viewTransitionName = ""));
+  void t.ready?.catch(() => {});
+  void t.finished.then(
+    () => {
+      el.style.viewTransitionName = "";
+    },
+    () => {
+      el.style.viewTransitionName = "";
+    },
+  );
 }

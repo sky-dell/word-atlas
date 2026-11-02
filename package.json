@@ -1,5 +1,5 @@
 {
-  "name": "word-atlas",
+  "name": "words-and-beyond",
   "version": "1.0.0",
   "type": "module",
   "description": "A beautiful, open IELTS vocabulary atlas: 7,000+ illustrated words with UK/US audio, original examples and FSRS spaced repetition.",
@@ -7,7 +7,12 @@
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "test": "node --import tsx --test src/**/*.test.ts",
+    "test": "node --import tsx --test --test-concurrency=1 src/**/*.test.ts",
+    "test:e2e": "node scripts/e2e.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "start": "node scripts/server.mjs",
+    "sync:online": "node scripts/sync-online.mjs",
+    "sync:classic": "node scripts/sync-classic.mjs",
     "check:atlas": "node scripts/check-atlas.mjs",
     "build:atlas": "python3 scripts/atlas/build_atlas.py",
     "render:cards": "node scripts/render-cards.mjs",
@@ -15,8 +20,11 @@
     "format": "prettier --write src vite.config.ts scripts/*.mjs package.json tsconfig.json"
   },
   "dependencies": {
+    "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
     "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.1",
     "lucide-react": "^0.468.0",
+    "nodemailer": "10.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "ts-fsrs": "^5.4.2"

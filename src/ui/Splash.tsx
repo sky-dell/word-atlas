@@ -1,3 +1,4 @@
+import {profileStorage} from '../store/profileStorage';
 import { useEffect, useRef, useState } from "react";
 import { duck, playFile, preloadFiles } from "../lib/sound";
 import { dayKey, store } from "../store/store";
@@ -16,7 +17,7 @@ export function shouldShowSplash() {
   const h = location.hash.replace(/^#\/?/, "");
   if (h && !h.startsWith("?")) return false; // deep links go straight to content
   try {
-    return localStorage.getItem(SEEN_KEY) !== dayKey();
+    return profileStorage.getItem(SEEN_KEY) !== dayKey();
   } catch {
     return true;
   }
@@ -70,15 +71,15 @@ function targets(w: number, h: number, count: number) {
   g.lineTo(cx, cy + R * 0.1);
   g.closePath();
   g.fill();
-  const zh = Math.min(w * 0.3, s * 0.24);
+  const zh = Math.min(w * 0.16, s * 0.18);
   g.font = `700 ${zh}px "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", serif`;
   g.textAlign = "center";
   g.textBaseline = "middle";
-  g.fillText("词光", cx, cy + R + zh * 0.78);
+  g.fillText("词与远方", cx, cy + R + zh * 0.78, w * 0.86);
   const en = Math.max(18, zh * 0.24);
   g.font = `700 ${en}px "Fraunces Variable", Georgia, serif`;
-  g.letterSpacing = `${en * 0.34}px`;
-  g.fillText("WORD ATLAS", cx, cy + R + zh * 1.52);
+  g.letterSpacing = `${en * 0.12}px`;
+  g.fillText("Words & Beyond", cx, cy + R + zh * 1.52, w * 0.86);
   const data = g.getImageData(0, 0, w, h).data;
   // Take every lit pixel, then a random subset: no visible sampling grid.
   const all: [number, number][] = [];
@@ -209,7 +210,7 @@ export function Splash({ onDone }: { onDone: () => void }) {
     if (opening.current) return;
     opening.current = true;
     try {
-      localStorage.setItem(SEEN_KEY, dayKey());
+      profileStorage.setItem(SEEN_KEY, dayKey());
     } catch {
       /* optional */
     }
@@ -244,8 +245,8 @@ export function Splash({ onDone }: { onDone: () => void }) {
       <canvas ref={canvas} className="splash-canvas" aria-hidden="true" />
       {reduce && (
         <div className="splash-static">
-          <b>词光</b>
-          <small>WORD ATLAS</small>
+          <b>词与远方</b>
+          <small>Words & Beyond</small>
         </div>
       )}
       <div className="splash-copy">

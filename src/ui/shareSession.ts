@@ -71,14 +71,14 @@ export async function shareSession(atlas: Atlas, s: ActiveSession) {
     ctx.fillRect(pad, H - 116, W - pad * 2, 2);
     ctx.fillStyle = "#1E2640";
     ctx.font = `600 34px ${SERIF}`;
-    ctx.fillText("词光 · Word Atlas", pad, H - 58);
-    ctx.font = `400 26px ${SANS}`;
+    ctx.fillText("词与远方 · Words & Beyond", pad, H - 62, W - pad * 2);
+    ctx.font = `400 24px ${SANS}`;
     ctx.fillStyle = "#8A8C96";
-    const tag = "一词一画，点亮雅思";
-    ctx.fillText(tag, W - pad - ctx.measureText(tag).width, H - 60);
+    const tag = "多懂一个词，多看一点世界。";
+    ctx.fillText(tag, pad, H - 26, W - pad * 2);
     const blob = await new Promise<Blob | null>((r) => c.toBlob(r, "image/png"));
     if (!blob) throw new Error();
-    const file = new File([blob], `word-atlas-${d.toISOString().slice(0, 10)}.png`, { type: "image/png" });
+    const file = new File([blob], `words-and-beyond-${d.toISOString().slice(0, 10)}.png`, { type: "image/png" });
     if (navigator.canShare?.({ files: [file] })) {
       await navigator.share({ files: [file] }).catch(() => null);
       return;

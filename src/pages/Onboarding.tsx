@@ -20,7 +20,7 @@ export function Onboarding() {
       <div className="onboard-card">
         <img className="onboard-art" src={`${import.meta.env.BASE_URL}brand/hero.webp`} alt="" />
         <div className="onboard-body">
-          <p className="eyebrow">欢迎来到词光</p>
+          <p className="eyebrow">欢迎来到词与远方</p>
           <h1 className="display">
             {atlas.count.toLocaleString()} 颗星，
             <br />
@@ -51,7 +51,7 @@ export function Onboarding() {
           <button className="btn btn-primary btn-xl" onClick={finish}>
             出发 <ArrowRight size={20} />
           </button>
-          <p className="muted">不用注册。进度只留在这台设备上，随时可以在「我的」里修改。</p>
+          <p className="muted">可以直接以游客身份学习；通过右上角账户入口免费注册后，即可跨设备同步。设置随时可以修改。</p>
         </div>
       </div>
     </div>

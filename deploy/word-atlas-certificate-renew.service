@@ -1,0 +1,10 @@
+[Unit]
+Description=Renew Words & Beyond IP HTTPS certificate
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/word-atlas-certbot/bin/certbot renew --quiet --config-dir /etc/word-atlas-acme --work-dir /var/lib/word-atlas-acme --logs-dir /var/log/word-atlas-acme --deploy-hook /usr/local/sbin/word-atlas-install-certificate
+PrivateTmp=true
+UMask=0077

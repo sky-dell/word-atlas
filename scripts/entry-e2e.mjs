@@ -1,0 +1,89 @@
+import {createGuests} from '../server/guests.mjs';
+import assert from 'node:assert/strict';
+import https from 'node:https';
+import fs from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import { chromium } from 'playwright';
+import { createAccounts } from '../server/accounts.mjs';
+import { createApplication } from './http-handler.mjs';
+
+const dir=await fs.mkdtemp(path.join(os.tmpdir(),'atlas-entry-'));
+let guests,accounts,server,browser;const errors=[],results=[];
+async function check(name,fn){try{await fn();results.push(name);console.log('PASS '+name);}catch(e){for(const c of browser?.contexts()||[])for(const p of c.pages())console.error('Failure state:',p.url(),(await p.locator('body').innerText().catch(()=>'' )).slice(0,1600));throw e;}}
+async function maybeWelcome(p){const w=p.getByRole('dialog',{name:'欢迎',exact:true});try{await w.waitFor({timeout:2000});}catch{if(!await w.isVisible())return;}try{await w.getByRole('button',{name:'出发'}).click({timeout:5000});if(await p.locator('.guest-notice').isVisible())await p.locator('.guest-notice [role=status]').filter({hasText:'已暂存'}).waitFor();}catch(e){if(await w.isVisible())throw e;}}
+try {
+  server=https.createServer({key:await fs.readFile('/etc/word-atlas/tls/privkey.pem'),cert:await fs.readFile('/etc/word-atlas/tls/fullchain.pem')},(req,res)=>handler(req,res));
+  await new Promise(r=>server.listen(0,'127.0.0.1',r));const origin='https://127.0.0.1:'+server.address().port;
+  accounts=createAccounts({dbPath:path.join(dir,'test.sqlite'),origins:[origin],secureCookies:true});
+  guests=createGuests({dbPath:path.join(dir,'guests.sqlite'),origins:[origin]});
+  const handler=createApplication({guests,root:path.resolve('dist'),accounts,secureOrigin:origin});
+  browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+  const ctx=await browser.newContext({ignoreHTTPSErrors:true});
+  await ctx.addInitScript(()=>localStorage.setItem('word-atlas:settings',JSON.stringify({onboarded:true,splash:false,sfx:false})));
+  const page=await ctx.newPage();page.on('pageerror',e=>errors.push(e.message));
+  ctx.on('response',async r=>{if(r.url().includes('/api/auth/')&&r.status()>=400){const v=await r.json().catch(()=>({}));console.error('Auth response',r.status(),v.code);}});
+  await check('entry directly offers auth and guest entry; guest choice is tab-only and preserves records',async()=>{
+    await page.goto(origin+'/#/atlas');
+    await page.locator('.auth-entry').waitFor({timeout:6000});
+    await page.evaluate(()=>localStorage.setItem('word-atlas:reader:v1',JSON.stringify({size:25})));
+    await page.getByRole('button',{name:'以游客身份登录',exact:true}).click();await page.locator('main.main').waitFor();
+    assert.deepEqual(await page.evaluate(()=>({temporary:sessionStorage.getItem('word-atlas:entry-mode'),permanent:localStorage.getItem('word-atlas:entry-mode'),reader:localStorage.getItem('word-atlas:reader:v1')})),{temporary:'guest',permanent:null,reader:'{"size":25}'});
+    await page.reload();await page.locator('main.main').waitFor();assert.equal(await page.locator('.auth-entry').count(),0);
+  });
+  await check('unsigned account deep link can return to guest without reopening the account dialog',async()=>{
+    const c=await browser.newContext({ignoreHTTPSErrors:true});await c.addInitScript(()=>localStorage.setItem('word-atlas:settings',JSON.stringify({onboarded:true,splash:true})));
+    try {const p=await c.newPage();await p.goto(origin+'/#/account');await p.getByRole('button',{name:'以游客身份登录',exact:true}).click();await p.locator('main.main').waitFor();await maybeWelcome(p);assert.equal(await p.locator('.account-dropdown').count(),0);assert.equal(new URL(p.url()).hash,'#/me');}finally{await c.close();}
+  });
+  const second=await ctx.newPage();second.on('pageerror',e=>errors.push(e.message));
+  await check('new tab asks again; registration from account entry and existing login bypass the gate',async()=>{
+    await second.goto(origin+'/');
+    const panel=second.getByRole('region',{name:'账户',exact:true});await panel.getByRole('button',{name:'注册',exact:true}).click();await panel.getByRole('button',{name:'用户名注册',exact:true}).click();
+    await panel.locator('input[name=username]').fill('entry_learner');await panel.getByRole('button',{name:'下一步',exact:true}).click();await panel.locator('input[name=password]').fill('entry fixture password only 2026');await panel.locator('input[name=confirm]').fill('entry fixture password only 2026');
+    await panel.getByRole('button',{name:'完成注册',exact:true}).click();await second.locator('main.main').waitFor();
+    await maybeWelcome(second);
+    assert.equal(await second.evaluate(()=>sessionStorage.getItem('word-atlas:entry-mode')),null);
+    await page.waitForFunction(()=>sessionStorage.getItem('word-atlas:entry-mode')===null);
+    await second.reload();await second.locator('main.main').waitFor();assert.equal(await second.locator('.auth-entry').count(),0);
+  });
+  await check('default guest refresh does not restore the obsolete splash',async()=>{
+    const c=await browser.newContext({ignoreHTTPSErrors:true});
+    await c.addInitScript(()=>localStorage.setItem('word-atlas:settings',JSON.stringify({onboarded:true,splash:true})));
+    try {const p=await c.newPage();await p.goto(origin+'/');await p.getByRole('button',{name:'以游客身份登录',exact:true}).click();await p.locator('main.main').waitFor();await maybeWelcome(p);await p.reload();await p.locator('main.main').waitFor();await maybeWelcome(p);
+      assert.equal(await p.locator('.splash').count(),0);await p.locator('.topbar').getByRole('button',{name:'返回入口',exact:true}).click({trial:true});
+    } finally {await c.close();}
+  });
+  await check('logout returns to entry and existing account can log in again',async()=>{
+    await maybeWelcome(second);
+    await second.locator('.topbar').getByRole('button',{name:'账户菜单',exact:true}).click();await second.getByRole('button',{name:'退出登录',exact:true}).click();
+    await second.locator('input[name=username]').fill('entry_learner');await second.locator('input[name=password]').fill('entry fixture password only 2026');await second.getByRole('button',{name:'登录账号',exact:true}).click();await second.locator('main.main').waitFor();
+  });
+  await check('account deep-link registration enters learning without stacked dialogs and logout returns to choices',async()=>{
+    const c=await browser.newContext({ignoreHTTPSErrors:true});
+    try {const p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(origin+'/#/account');await p.getByRole('button',{name:'注册',exact:true}).click();await p.getByRole('button',{name:'用户名注册',exact:true}).click();
+      await p.locator('input[name=username]').fill('deep_link_user');await p.getByRole('button',{name:'下一步',exact:true}).click();await p.locator('input[name=password]').fill('deep link fixture password 2026');await p.locator('input[name=confirm]').fill('deep link fixture password 2026');await p.getByRole('button',{name:'完成注册',exact:true}).click();
+      await p.locator('main.main').waitFor();await maybeWelcome(p);await p.waitForURL('**/#/me');assert.equal(await p.locator('.account-dropdown').count(),0);
+      await maybeWelcome(p);
+      await p.goto(origin+'/#/account');await p.getByRole('button',{name:'退出登录',exact:true}).click();await p.locator('.auth-entry').waitFor();assert.equal(new URL(p.url()).hash,'#/me');
+    }finally{await c.close();}
+  });
+  await check('every page has no GitHub text, links or icons; footer uses the new tagline',async()=>{
+    for(const route of ['','atlas','me','read','practice','about','paraphrase','confuse','account','admin','learn']) {
+      await second.goto(origin+'/#/'+route);await second.locator('main.main').waitFor();
+      assert.equal(await second.locator('a[href*="github" i],.lucide-github').count(),0,route);
+      assert.doesNotMatch(await second.locator('body').innerText(),/github|会员/i,route);
+      if(route!=='learn')assert.match(await second.locator('footer.footer').innerText(),/多懂一个词，多看一点世界。/);
+    }
+  });
+  await ctx.close();
+  await check('mobile and blocked session storage still allow guest entry',async()=>{
+    const mobile=await browser.newContext({ignoreHTTPSErrors:true,viewport:{width:390,height:844}});
+    await mobile.addInitScript(()=>{localStorage.setItem('word-atlas:settings',JSON.stringify({onboarded:true,splash:false}));Object.defineProperty(window,'sessionStorage',{get(){throw new DOMException('blocked','SecurityError');}});});
+    const p=await mobile.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(origin+'/');
+    await p.getByRole('button',{name:'以游客身份登录',exact:true}).click();await p.locator('main.main').waitFor();await maybeWelcome(p);await p.reload();await p.locator('.auth-entry').waitFor();
+    await p.screenshot({path:path.resolve('.local/implementation/entry-mobile.png')});await mobile.close();
+  });
+  assert.deepEqual(errors,[]);await fs.writeFile('.local/implementation/entry-e2e.json',JSON.stringify({passed:results.length,results,errors},null,2));
+} finally {
+  await browser?.close();if(server)await new Promise(r=>server.close(r));guests?.close();accounts?.close();await fs.rm(dir,{recursive:true,force:true});
+}

@@ -1,4 +1,4 @@
-"""Compile forge output into the public Word Atlas dataset.
+"""Compile forge output into the public Words & Beyond dataset.
 
 Writes:
   public/atlas/index.json            compact list for search, grid and scheduling
@@ -141,7 +141,7 @@ def main():
     meta = {
         "id": "word-atlas-open",
         "version": 1,
-        "name": "Word Atlas Open",
+        "name": "Words & Beyond Open",
         "license": "CC BY 4.0",
         "count": len(index),
         "examples": sum(len(c["ex"]) for c in entries),
