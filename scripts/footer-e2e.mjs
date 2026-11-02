@@ -4,6 +4,13 @@ import { chromium } from 'playwright';
 
 const origin = process.env.TEST_URL || 'http://127.0.0.1:15189';
 const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+async function dismissWelcome(page) {
+  const welcome = page.getByRole('dialog', { name: '欢迎', exact: true });
+  try {
+    await welcome.waitFor({ state: 'visible', timeout: 2000 });
+    await welcome.getByRole('button', { name: '出发', exact: true }).click();
+  } catch {}
+}
 try {
   const context = await browser.newContext();
   await context.addInitScript(() => localStorage.setItem('word-atlas:settings', JSON.stringify({ onboarded: true, splash: false, sfx: false })));
@@ -11,6 +18,10 @@ try {
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
+  await page.goto(origin + '/');
+  await page.getByRole('button', { name: '以游客身份登录', exact: true }).click();
+  await page.locator('main.main').waitFor();
+  await dismissWelcome(page);
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto(origin + '/?footer-width='+width+'#/atlas');
@@ -24,6 +35,7 @@ try {
     await page.waitForFunction(() => document.documentElement.scrollWidth <= innerWidth + 1, undefined, { timeout: 5000 });
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), true);
     assert.equal(await page.getByRole('button',{name:'账户菜单',exact:true}).count(),0);
+    await dismissWelcome(page);
     await leaveGuest(page);
     await page.locator('.auth-entry .account-panel').waitFor();
     console.log(`PASS ${width}px footer is minimal and authentication has its own entry page`);

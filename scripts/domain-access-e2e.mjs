@@ -54,11 +54,14 @@ try {
   const after=await page.evaluate(async()=>await (await fetch('/api/guest/session')).json());
   assert.equal(after.guest.id,before.guest.id);
   results.push('Guest entry and refresh start in light mode on a dark system and preserve the same temporary identity');
-  await page.getByRole('button',{name:'退出并清除游客数据',exact:true}).click();
-  await page.getByRole('button',{name:'确认清除并退出',exact:true}).click();
+  await page.evaluate(async()=>{
+    const session=await fetch('/api/guest/session').then(r=>r.json());
+    await fetch('/api/guest/session',{method:'DELETE',headers:{Origin:location.origin,'X-Guest-ID':session.guest.id,'X-Guest-CSRF':session.csrfToken}});
+  });
+  await page.reload();
   await page.locator('.auth-entry input[name=username]').waitFor();
   assert.equal((await page.evaluate(async()=>await (await fetch('/api/guest/session')).json())).guest,null);
-  results.push('Only this smoke-test guest was explicitly cleared; login entry restored');
+  results.push('Only this smoke-test guest was explicitly cleared through its authenticated DELETE; login entry restored');
   await page.setViewportSize({width:390,height:844});
   assert.equal(await page.locator('.auth-entry input[name=username]').isVisible(),true);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);

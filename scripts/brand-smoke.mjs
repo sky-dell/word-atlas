@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
+import {leaveGuest} from './guest-ui-test-utils.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 const origin=process.env.TEST_URL||'http://127.0.0.1:15189';
@@ -7,6 +8,10 @@ const output=path.resolve(process.env.BRAND_OUTPUT||'.local/rebrand');
 await fs.mkdir(output,{recursive:true});
 const browser=await chromium.launch({args:['--no-sandbox']});
 const results=[],errors=[];
+async function dismissWelcome(page){
+ const welcome=page.getByRole('dialog',{name:'欢迎',exact:true});
+ try{await welcome.waitFor({state:'visible',timeout:2000});await welcome.getByRole('button',{name:'出发',exact:true}).click();}catch{}
+}
 try {
  for(const width of [1440,390,320]) {
   const ctx=await browser.newContext({viewport:{width,height:900}});
@@ -22,7 +27,8 @@ try {
   assert.match(await page.locator('.auth-entry').innerText(),/多懂一个词，多看一点世界。/);
   const manifest=await page.evaluate(()=>fetch('manifest.webmanifest').then(r=>r.json()));
   assert.equal(manifest.name,'词与远方 · Words & Beyond');assert.equal(manifest.short_name,'词与远方');
-  await page.getByRole('button',{name:'暂不登录，先体验（游客进入）',exact:true}).click();await page.locator('main.main').waitFor();
+  await page.getByRole('button',{name:'以游客身份登录',exact:true}).click();await page.locator('main.main').waitFor();
+  await dismissWelcome(page);
   for(const route of ['','atlas','me','read','practice','about','paraphrase','confuse','account','admin']) {
    // Full document navigation ensures we check this route, not the previous
    // page still mounted while a hash-change/lazy module is being processed.
@@ -37,7 +43,8 @@ try {
   assert.ok(saved.bookmarks.includes('abandon'),'Legacy progress namespace must survive rebranding');
   await page.goto(origin+'/#/me');await page.locator('main.main').waitFor();
   assert.equal(await page.getByRole('button',{name:'账户菜单',exact:true}).count(),0);
-  await page.getByRole('button',{name:'返回入口',exact:true}).click();
+  await dismissWelcome(page);
+  await leaveGuest(page);
   const menu=page.locator('.auth-entry');await menu.waitFor();
   assert.doesNotMatch(await menu.innerText(),/词光|word\s+atlas/i);
   await page.screenshot({path:path.join(output,`brand-${width}.png`),animations:'disabled'});
