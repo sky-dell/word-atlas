@@ -207,9 +207,15 @@ await check("learning session grades once and survives reload", async () => {
       : null;
   });
   void correct;
+  const persisted = page.waitForResponse(
+    (response) =>
+      response.request().method() === "PUT" &&
+      new URL(response.url()).pathname === "/api/guest/state",
+    { timeout: 15000 },
+  );
   await page.locator(".option").first().click();
   await page.locator(".feedback").waitFor();
-  await page.waitForTimeout(700);
+  assert.equal((await persisted).status(), 200);
   await page.reload();
   await page.locator(".feedback").waitFor();
   assert.match(await page.locator(".feedback").innerText(), /继续|下一|正确|错误/);
