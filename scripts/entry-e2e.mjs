@@ -103,6 +103,30 @@ try {
     await maySheet.getByText('五月',{exact:true}).waitFor();
     await second.keyboard.press('Escape');
   });
+  await check('personal preferences do not block cloud learning restoration',async()=>{
+    const c=await browser.newContext({ignoreHTTPSErrors:true});
+    try{
+      const p=await c.newPage();
+      let uploads=0;
+      const now=Date.now();
+      const cloud={app:'word-atlas',version:2,progress:{version:2,datasetId:'word-atlas-open',cards:{fixture:{due:now+86400000,s:1,d:5,el:0,sd:0,ls:0,reps:1,lapses:0,st:1,seen:now}},bookmarks:[],days:{},typing:[],session:null,mistakes:[]},settings:{},extras:{}};
+      await p.addInitScript(()=>localStorage.setItem('word-atlas:account:restore_fixture:word-atlas:settings',JSON.stringify({onboarded:true,dailyNew:30})));
+      await p.route('**/api/**',route=>{
+        const req=route.request(),path=new URL(req.url()).pathname;
+        if(path==='/api/auth/session')return route.fulfill({json:{user:{id:'restore_fixture',username:'restore_fixture',nickname:'恢复测试',role:'user',disabled:false,email:null,emailVerified:false},csrfToken:'fixture',enabled:true,emailEnabled:false}});
+        if(path==='/api/account/progress'&&req.method()==='GET')return route.fulfill({json:{version:9,snapshot:cloud}});
+        if(path==='/api/account/progress'&&req.method()==='PUT'){uploads++;return route.fulfill({status:500,json:{}});}
+        return route.fulfill({json:{version:0,snapshot:null,backups:[]}});
+      });
+      await p.goto(origin+'/#/me');
+      await p.locator('.me-tabs').waitFor();
+      await p.waitForFunction(()=>{
+        const row=[...document.querySelectorAll('.stat-strip > div')].find(el=>el.textContent?.includes('已点亮'));
+        return row?.querySelector('dd')?.textContent?.trim()==='1';
+      });
+      assert.equal(uploads,0);
+    }finally{await c.close();}
+  });
   await check('account deep-link registration enters learning without stacked dialogs and logout returns to choices',async()=>{
     const c=await browser.newContext({ignoreHTTPSErrors:true});
     try {const p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(origin+'/#/account');await p.getByRole('button',{name:'注册',exact:true}).click();await p.getByRole('button',{name:'用户名注册',exact:true}).click();

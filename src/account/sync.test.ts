@@ -176,13 +176,44 @@ test('stopping sync prevents late cloud restore and metadata writes', async () =
   assert.equal(applied, false);
 });
 
-test('settings edited before first sync require explicit conflict choice', async () => {
+test('settings edited before first sync do not block cloud learning records', async () => {
   const { CloudSync } = await import('./sync');
+  const cloud = snapshot(['cloud']);
+  let local: any = { ...snapshot(), settings: { ...defaultSettings, dailyNew: 30 } };
   let applied = false;
-  const local: any = { ...snapshot(), settings: { dailyNew: 30 } };
+  const client = new AccountClient(async () => Response.json({ version: 4, snapshot: cloud }));
+  const sync = new CloudSync(client, {
+    read: () => local,
+    apply: value => { applied = true; local = structuredClone(value); },
+    loadMeta: () => null,
+    saveMeta: () => {},
+    stash: () => {},
+  }, () => {});
+  await sync.run();
+  assert.equal(applied, true);
+  assert.equal(sync.get().status, 'synced');
+  assert.deepEqual(local.progress.bookmarks, ['cloud']);
+});
+
+test('local reading and exercise history still blocks an automatic cloud overwrite', async () => {
+  const { CloudSync } = await import('./sync');
+  const local: any = snapshot();
+  local.extras['word-atlas:extras:v1:test'] = {
+    records: [{ id: 'reading-1', score: 4 }],
+  };
+  let applied = false;
   const client = new AccountClient(async () => Response.json({ version: 4, snapshot: snapshot(['cloud']) }));
-  const sync = new CloudSync(client, { read: () => local, apply: () => { applied = true; }, loadMeta: () => null, saveMeta: () => {}, stash: () => {} }, () => {});
-  await sync.run(); assert.equal(applied, false); assert.equal(sync.get().status, 'conflict');
+  const sync = new CloudSync(client, {
+    read: () => local,
+    apply: () => { applied = true; },
+    loadMeta: () => null,
+    saveMeta: () => {},
+    stash: () => {},
+  }, () => {});
+
+  await sync.run();
+  assert.equal(applied, false);
+  assert.equal(sync.get().status, 'conflict');
 });
 
 test('failed offline upload stays pending and retries at the observed cloud version', async () => {

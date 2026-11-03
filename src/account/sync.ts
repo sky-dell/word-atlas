@@ -16,7 +16,20 @@ export async function fingerprint(snapshot: Backup) {
 }
 function hasLearning(b: Backup) {
   const p = b.progress;
-  return Object.keys(p.cards).length || p.bookmarks.length || Object.keys(p.days).length || p.typing.length || p.mistakes.length;
+  const learningExtras = Object.keys(b.extras).some(
+    key =>
+      key !== 'word-atlas:appearance' &&
+      key !== 'word-atlas:reader:v1' &&
+      !key.startsWith('word-atlas:illustration:'),
+  );
+  return Boolean(
+    Object.keys(p.cards).length ||
+    p.bookmarks.length ||
+    Object.keys(p.days).length ||
+    p.typing.length ||
+    p.mistakes.length ||
+    learningExtras,
+  );
 }
 function occupied(b: Backup) {
   return hasLearning(b) || Object.keys(b.extras).length || Object.entries(b.settings).some(([key, value]) => JSON.stringify(value) !== JSON.stringify(defaultSettings[key as keyof Settings]));
@@ -78,8 +91,8 @@ export class CloudSync {
       const cloudHash = await fingerprint(cloud.snapshot);
       if (this.stopped) return;
       if (JSON.stringify(this.local.read()) !== JSON.stringify(current)) { this.conflict(cloud); return; }
-      if (meta && !hasLearning(current)) {
-        if (meta.clear) { await this.upload(cloud, current); return; }
+      if (!hasLearning(current)) {
+        if (meta?.clear) { await this.upload(cloud, current); return; }
         this.local.stash(JSON.stringify(current));
         this.local.apply(cloud.snapshot);
         await this.remember(cloud.version, this.local.read());
