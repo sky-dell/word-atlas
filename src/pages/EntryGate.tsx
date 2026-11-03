@@ -24,6 +24,11 @@ export function EntryGate({ onGuest }: {
     <div className="auth-entry__layout">
       <div className="auth-entry__story">
         <Logo />
+        <div className="auth-entry__intro">
+          <p className="auth-entry__eyebrow">A WORD IS A WAY INTO THE WORLD</p>
+          <h1>多懂一个词，<br /><span>多看一点世界。</span></h1>
+          <p className="auth-entry__description">在插画里遇见单词，在声音里熟悉它。<br />把每一次好奇，变成走向远方的一小步。</p>
+        </div>
         <div className="auth-entry__atlas" aria-hidden="true">
           <svg className="auth-entry__path" viewBox="0 0 600 280" fill="none">
             <path d="M28 200C100 275 155 30 282 80S426 276 572 55" stroke="currentColor" strokeWidth="1.2" strokeDasharray="3 7" />

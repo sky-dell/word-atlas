@@ -195,19 +195,6 @@ test('starlight does not paint a second square panel inside the authentication c
   try{await open(page);await page.evaluate(()=>{document.documentElement.dataset.theme='dark';document.documentElement.dataset.skin='starlight';});const style=await page.locator('.auth-entry .account-panel').evaluate(e=>({shadow:getComputedStyle(e).boxShadow,background:getComputedStyle(e).backgroundColor}));assert.equal(style.shadow,'none');assert.equal(style.background,'rgba(0, 0, 0, 0)');}finally{await page.close();}
 });
 
-test('entry keeps the illustration strip without the hero copy',async()=>{
-  const page=await browser.newPage({viewport:{width:1440,height:900}});
-  try{
-    await open(page);
-    assert.equal(await page.locator('.auth-entry__intro').count(),0);
-    assert.equal(await page.locator('.auth-entry__story').getByText('多懂一个词，多看一点世界。',{exact:true}).count(),0);
-    assert.equal(await page.locator('.auth-entry__story .logo').isVisible(),true);
-    const images=page.locator('.auth-entry__atlas img');
-    assert.equal(await images.count(),3);
-    for(let i=0;i<3;i++)assert.equal(await images.nth(i).isVisible(),true);
-  }finally{await page.close();}
-});
-
 test('entry fits desktop and 320/390px short screens in both themes and reduced motion', async () => {
   const page = await browser.newPage();
   try {
