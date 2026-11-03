@@ -30,6 +30,7 @@ TOPIC_INDEX = {k: i for i, (k, _) in enumerate(TOPICS)}
 CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"]
 PUB = ROOT / "public" / "atlas"
 DATA = ROOT / "data"
+OVERRIDES = json.loads((ROOT / "scripts" / "atlas" / "content-overrides.json").read_text())
 
 
 def slugify(word):
@@ -43,7 +44,7 @@ def clean_entry(e):
         {"pos": (s.get("pos") or "").strip(), "zh": (s.get("zh") or "").strip(), "en": (s.get("en") or "").strip()}
         for s in (e.get("senses") or [])
         if s.get("zh")
-    ][:3]
+    ][:5]
     ex = [
         {"en": (x.get("en") or "").strip(), "zh": (x.get("zh") or "").strip()}
         for x in (e.get("ex") or [])
@@ -93,6 +94,9 @@ def main():
         if slug in seen:
             slug = f"{slug}-{hid}"
         seen.add(slug)
+        for sense in OVERRIDES.get(slug, {}).get("senses", []):
+            if sense not in c["senses"]:
+                c["senses"].append(sense)
         c["id"] = slug
         c["_hid"] = hid
         entries.append(c)
@@ -132,7 +136,8 @@ def main():
         c["m"] = m
         s0 = c["senses"][0]
         zh = f'{s0["pos"]} {s0["zh"]}'.strip()
-        index.append([c["id"], c["w"], zh, c["uk"] or c["us"], CEFR.index(c["cefr"]), TOPIC_INDEX[c["topic"]], m])
+        search = " ".join(f'{s["pos"]} {s["zh"]}'.strip() for s in c["senses"])
+        index.append([c["id"], c["w"], zh, c["uk"] or c["us"], CEFR.index(c["cefr"]), TOPIC_INDEX[c["topic"]], m, search])
 
     for n in range(0, len(entries), 100):
         chunk = [{k: v for k, v in c.items() if not k.startswith("_")} for c in entries[n : n + 100]]
@@ -150,7 +155,7 @@ def main():
         "chunk": 100,
         "topics": TOPICS,
         "cefr": CEFR,
-        "fields": ["id", "word", "zh", "ipa", "cefr", "topic", "media"],
+        "fields": ["id", "word", "zh", "ipa", "cefr", "topic", "media", "search"],
         "words": index,
     }
     (PUB / "index.json").write_text(json.dumps(meta, ensure_ascii=False, separators=(",", ":")))

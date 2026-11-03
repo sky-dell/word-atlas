@@ -1,7 +1,7 @@
 export type Accent = "uk" | "us";
 
 /** Compact row from atlas/index.json: [id, word, zh, ipa, cefr, topic, media]. */
-export type IndexRow = [string, string, string, string, number, number, number];
+export type IndexRow = [string, string, string, string, number, number, number, search?: string];
 
 export interface Sense {
   pos: string;
@@ -46,6 +46,8 @@ export interface WordRef {
   cefr: number;
   topic: number;
   media: number;
+  /** All indexed Chinese senses used by search; display continues to use `zh`. */
+  search?: string;
   /** Position in the learning path. */
   order: number;
 }

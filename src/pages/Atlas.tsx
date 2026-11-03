@@ -9,7 +9,7 @@ import { go, openWord, type Route } from "../lib/router";
 import { isMastered } from "../store/srs";
 import { useStore } from "../store/store";
 import { Illustration } from "../ui/Illustration";
-import { searchAtlas } from "../ui/Palette";
+import { searchAtlas } from "../atlas/search";
 import { Speak } from "../ui/Speak";
 
 type Status = "all" | "new" | "learning" | "mastered" | "saved";

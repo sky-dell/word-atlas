@@ -84,6 +84,21 @@ try {
       }
     }
   });
+  await check('word search finds alternate Chinese senses and prioritizes exact months',async()=>{
+    await second.goto(origin+'/#/me');
+    await second.locator('.me-tabs').waitFor();
+    await second.getByRole('button',{name:'搜索单词',exact:true}).click();
+    const input=second.getByRole('dialog',{name:'搜索单词',exact:true}).locator('input');
+    await input.fill('三月');
+    const march=second.getByRole('option').first();
+    await march.waitFor();
+    assert.match(await march.innerText(),/march/i);
+    assert.match(await march.innerText(),/三月/);
+    await input.fill('一月');
+    await second.waitForFunction(()=>document.querySelectorAll('[role="option"]').length===1);
+    assert.match(await second.getByRole('option').innerText(),/january/i);
+    await input.press('Escape');
+  });
   await check('account deep-link registration enters learning without stacked dialogs and logout returns to choices',async()=>{
     const c=await browser.newContext({ignoreHTTPSErrors:true});
     try {const p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(origin+'/#/account');await p.getByRole('button',{name:'注册',exact:true}).click();await p.getByRole('button',{name:'用户名注册',exact:true}).click();

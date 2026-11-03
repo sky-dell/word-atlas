@@ -28,6 +28,7 @@ export async function loadOpenAtlas(): Promise<Atlas> {
     cefr: r[4],
     topic: r[5],
     media: r[6],
+    search: r[7] || r[2],
     order,
   }));
   const byId = new Map(words.map((w) => [w.id, w]));
@@ -142,6 +143,7 @@ export async function loadPrivateAtlas(open: Atlas | null): Promise<Atlas | null
       cefr: twin?.cefr ?? 2,
       topic: twin?.topic ?? 16,
       media: entries.get(w.id)!.m,
+      search: `${pos} ${zh}`.trim(),
       order,
     };
   });

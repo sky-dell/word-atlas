@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { augmentAtlas } from "./atlas/augment-atlas.mjs";
 const pub = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
   "../public",
@@ -23,6 +24,7 @@ const files = Array.from(
 );
 for (let i = 0; i < files.length; i += 8)
   await Promise.all(files.slice(i, i + 8).map(download));
+augmentAtlas();
 // The public release includes fewer second-example recordings than the live site.
 const missing = idx.words.filter(
   (r) =>
