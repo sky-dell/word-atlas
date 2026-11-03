@@ -72,9 +72,24 @@ export class CloudSync {
       const current = this.local.read(), currentHash = await fingerprint(current);
       if (this.stopped) return;
       if (!cloud.snapshot) { await this.upload(cloud, this.local.read()); return; }
+      const cloudHash = await fingerprint(cloud.snapshot);
+      if (this.stopped) return;
       if (JSON.stringify(this.local.read()) !== JSON.stringify(current)) { this.conflict(cloud); return; }
       const dirty = !meta || meta.hash !== currentHash;
       if (meta?.version === cloud.version) {
+        if (meta.hash !== cloudHash) {
+          if (currentHash === cloudHash) {
+            this.local.saveMeta({ version: cloud.version, hash: cloudHash });
+            this.set({ status: 'synced', version: cloud.version });
+          } else if (hash === currentHash && !occupied(current)) {
+            this.local.stash(JSON.stringify(current));
+            this.local.apply(cloud.snapshot);
+            await this.remember(cloud.version, this.local.read());
+          } else {
+            this.conflict(cloud);
+          }
+          return;
+        }
         if (dirty) await this.upload(cloud, current);
         else this.set({ status: 'synced', version: cloud.version });
       } else if (hash !== currentHash || (dirty && (meta !== null || occupied(current)))) {

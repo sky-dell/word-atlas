@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { AccountClient } from './client';
-const snapshot = (words: string[] = []) => ({ app: 'word-atlas', version: 2, progress: { version: 2, datasetId: 'test', cards: {}, bookmarks: words, days: {}, typing: [], session: null, mistakes: [] }, settings: {}, extras: {} });
+import type { Backup } from './sync';
+import { defaultSettings } from '../store/store';
+const snapshot = (words: string[] = []): Backup => ({ app: 'word-atlas', version: 2, progress: { version: 2, datasetId: 'test', cards: {}, bookmarks: words, days: {}, typing: [], session: null, mistakes: [] }, settings: { ...defaultSettings }, extras: {} });
 
 test('first cloud download never overwrites local edits made during the request', async () => {
   const mod = await import('./sync').catch(() => null); assert.ok(mod?.CloudSync);
@@ -14,6 +16,53 @@ test('first cloud download never overwrites local edits made during the request'
   await ready; local = snapshot(['new-local']);
   finish(Response.json({ version: 3, snapshot: snapshot(['cloud']) })); await pending;
   assert.equal(applied, false); assert.equal(sync.get().status, 'conflict'); assert.deepEqual(local.progress.bookmarks, ['new-local']);
+});
+
+test('matching version metadata restores cloud when local account data is missing', async () => {
+  const { CloudSync, fingerprint } = await import('./sync');
+  let local: any = snapshot();
+  const cloud = snapshot(['cloud']);
+  let applied = false, uploaded = false, saved: any;
+  const emptyHash = await fingerprint(snapshot());
+  const client = new AccountClient(async (_url, init) => {
+    if (init?.method === 'PUT') { uploaded = true; return Response.json({ version: 43 }); }
+    return Response.json({ version: 42, snapshot: cloud });
+  });
+  const sync = new CloudSync(client, {
+    read: () => local,
+    apply: () => { applied = true; local = structuredClone(cloud); },
+    loadMeta: () => ({ version: 42, hash: emptyHash }),
+    saveMeta: meta => { saved = meta; },
+    stash: () => {},
+    persist: async () => {},
+  }, () => {});
+  await sync.run();
+  assert.equal(applied, true);
+  assert.equal(uploaded, false);
+  assert.equal(sync.get().status, 'synced');
+  assert.equal(saved.version, 42);
+  assert.deepEqual(local.progress.bookmarks, ['cloud']);
+});
+
+test('matching version metadata does not overwrite occupied divergent local data', async () => {
+  const { CloudSync, fingerprint } = await import('./sync');
+  const local = snapshot(['local']);
+  const cloud = snapshot(['cloud']);
+  let applied = false;
+  const localHash = await fingerprint(local);
+  const client = new AccountClient(async () => Response.json({ version: 42, snapshot: cloud }));
+  const sync = new CloudSync(client, {
+    read: () => local,
+    apply: () => { applied = true; },
+    loadMeta: () => ({ version: 42, hash: localHash }),
+    saveMeta: () => {},
+    stash: () => {},
+    persist: async () => {},
+  }, () => {});
+  await sync.run();
+  assert.equal(applied, false);
+  assert.equal(sync.get().status, 'conflict');
+  assert.deepEqual(local.progress.bookmarks, ['local']);
 });
 
 test('CAS conflicts require backup and explicit local choice at the newly read version', async () => {
