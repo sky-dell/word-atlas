@@ -44,6 +44,90 @@ test('matching version metadata restores cloud when local account data is missin
   assert.deepEqual(local.progress.bookmarks, ['cloud']);
 });
 
+test('cloud restores when local progress is empty but metadata already matches the cloud hash', async () => {
+  const { CloudSync, fingerprint } = await import('./sync');
+  let local = snapshot();
+  const cloud = snapshot(['cloud']);
+  const cloudHash = await fingerprint(cloud);
+  let applied = false, uploaded = false;
+  const client = new AccountClient(async (_url, init) => {
+    if (init?.method === 'PUT') {
+      uploaded = true;
+      return Response.json({ version: 43 });
+    }
+    return Response.json({ version: 42, snapshot: cloud });
+  });
+  const sync = new CloudSync(client, {
+    read: () => local,
+    apply: () => { applied = true; local = structuredClone(cloud); },
+    loadMeta: () => ({ version: 42, hash: cloudHash }),
+    saveMeta: () => {},
+    stash: () => {},
+    persist: async () => {},
+  }, () => {});
+  await sync.run();
+  assert.equal(applied, true);
+  assert.equal(uploaded, false);
+  assert.equal(sync.get().status, 'synced');
+  assert.deepEqual(local.progress.bookmarks, ['cloud']);
+});
+
+test('stale metadata version restores cloud when local progress is empty', async () => {
+  const { CloudSync, fingerprint } = await import('./sync');
+  let local = snapshot();
+  const cloud = snapshot(['cloud']);
+  const staleHash = await fingerprint(snapshot(['stale']));
+  let applied = false, uploaded = false;
+  const client = new AccountClient(async (_url, init) => {
+    if (init?.method === 'PUT') {
+      uploaded = true;
+      return Response.json({ version: 43 });
+    }
+    return Response.json({ version: 42, snapshot: cloud });
+  });
+  const sync = new CloudSync(client, {
+    read: () => local,
+    apply: () => { applied = true; local = structuredClone(cloud); },
+    loadMeta: () => ({ version: 41, hash: staleHash }),
+    saveMeta: () => {},
+    stash: () => {},
+    persist: async () => {},
+  }, () => {});
+  await sync.run();
+  assert.equal(applied, true);
+  assert.equal(uploaded, false);
+  assert.equal(sync.get().status, 'synced');
+  assert.deepEqual(local.progress.bookmarks, ['cloud']);
+});
+
+test('an explicit local clear uploads an empty snapshot instead of restoring cloud data', async () => {
+  const { CloudSync, fingerprint } = await import('./sync');
+  const cloud = snapshot(['cloud']);
+  const cloudHash = await fingerprint(cloud);
+  let applied = false;
+  const uploads: Backup[] = [];
+  const client = new AccountClient(async (_url, init) => {
+    if (init?.method === 'PUT') {
+      uploads.push(JSON.parse(init.body as string).snapshot);
+      return Response.json({ version: 43 });
+    }
+    return Response.json({ version: 42, snapshot: cloud });
+  });
+  const sync = new CloudSync(client, {
+    read: () => snapshot(),
+    apply: () => { applied = true; },
+    loadMeta: () => ({ version: 42, hash: cloudHash, clear: true }),
+    saveMeta: () => {},
+    stash: () => {},
+    persist: async () => {},
+  }, () => {});
+  await sync.run();
+  assert.equal(applied, false);
+  assert.equal(uploads.length, 1);
+  assert.deepEqual(uploads[0].progress.bookmarks, []);
+  assert.equal(sync.get().status, 'synced');
+});
+
 test('matching version metadata does not overwrite occupied divergent local data', async () => {
   const { CloudSync, fingerprint } = await import('./sync');
   const local = snapshot(['local']);

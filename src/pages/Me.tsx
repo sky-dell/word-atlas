@@ -7,7 +7,7 @@ import { toast } from "../ui/Toast";
 import { AppearanceSettings, type AppearanceCapabilities } from "../ui/Appearance";
 import { streakOf } from "./Today";
 import {useGuest} from '../guest/state';
-import {useAccount} from '../account/state';
+import {markCloudClear, useAccount} from '../account/state';
 import '../styles/me.css';
 
 const meTabs = [
@@ -237,6 +237,7 @@ export function Me({ privateAvailable, appearanceCapabilities }: { privateAvaila
               onClick={() => {
                 const target=guest.guest&&!account.user?'游客暂存':'云端';
                 if (confirm(`确定清空这个词库的全部学习记录？清空结果会同步到${target}，且无法撤销；建议先导出备份。`)) {
+                  if (account.user) markCloudClear();
                   resetProgress();
                   toast("学习记录已清空");
                 }

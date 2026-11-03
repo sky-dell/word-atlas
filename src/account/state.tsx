@@ -74,6 +74,14 @@ export async function renewAccountActivity(){
 export async function syncNow() { if (cloud) await cloud.run(); }
 export function backupConflict() { if (!cloud) throw new Error('云同步未启用。'); return cloud.backupLocal(); }
 export async function resolveConflict(choice: 'local' | 'cloud') { if (cloud) await cloud.resolve(choice); }
+export function markCloudClear() {
+  if (!state.user || state.user.role === 'admin' || state.user.disabled) return;
+  const dataset = store.get().progress.datasetId;
+  const key = scopedKey(`word-atlas:sync:${dataset}`);
+  let meta: Partial<SyncMeta> = { version: 0, hash: '' };
+  try { meta = JSON.parse(localStorage.getItem(key) || '{}'); } catch { /* Replace malformed metadata. */ }
+  localStorage.setItem(key, JSON.stringify({ ...meta, clear: true }));
+}
 export function broadcastIdentityChange() {
   const signal = JSON.stringify([Date.now(), Math.random()]);
   identityChannel?.postMessage(signal);

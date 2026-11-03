@@ -1,7 +1,7 @@
 import { AccountClient, AccountError } from './client';
 import { defaultSettings, type Progress, type Settings } from '../store/store';
 export interface Backup { app: 'word-atlas'; version: 2; progress: Progress; settings: Settings; extras: Record<string, unknown> }
-export interface SyncMeta { version: number; hash: string }
+export interface SyncMeta { version: number; hash: string; clear?: boolean }
 export interface CloudRecord { version: number; snapshot: Backup | null }
 export interface SyncState { status: 'idle' | 'pending' | 'syncing' | 'synced' | 'offline' | 'conflict' | 'unavailable'; message?: string; version?: number; backedUp?: boolean }
 interface Local {
@@ -14,9 +14,12 @@ export async function fingerprint(snapshot: Backup) {
   const hash = await crypto.subtle.digest('SHA-256', bytes);
   return [...new Uint8Array(hash)].map(b => b.toString(16).padStart(2, '0')).join('');
 }
-function occupied(b: Backup) {
+function hasLearning(b: Backup) {
   const p = b.progress;
-  return Object.keys(p.cards).length || p.bookmarks.length || Object.keys(p.days).length || p.typing.length || p.mistakes.length || Object.keys(b.extras).length || Object.entries(b.settings).some(([key, value]) => JSON.stringify(value) !== JSON.stringify(defaultSettings[key as keyof Settings]));
+  return Object.keys(p.cards).length || p.bookmarks.length || Object.keys(p.days).length || p.typing.length || p.mistakes.length;
+}
+function occupied(b: Backup) {
+  return hasLearning(b) || Object.keys(b.extras).length || Object.entries(b.settings).some(([key, value]) => JSON.stringify(value) !== JSON.stringify(defaultSettings[key as keyof Settings]));
 }
 /** One instance per identity + dataset. stop() invalidates every continuation. */
 export class CloudSync {
@@ -75,6 +78,13 @@ export class CloudSync {
       const cloudHash = await fingerprint(cloud.snapshot);
       if (this.stopped) return;
       if (JSON.stringify(this.local.read()) !== JSON.stringify(current)) { this.conflict(cloud); return; }
+      if (meta && !hasLearning(current)) {
+        if (meta.clear) { await this.upload(cloud, current); return; }
+        this.local.stash(JSON.stringify(current));
+        this.local.apply(cloud.snapshot);
+        await this.remember(cloud.version, this.local.read());
+        return;
+      }
       const dirty = !meta || meta.hash !== currentHash;
       if (meta?.version === cloud.version) {
         if (meta.hash !== cloudHash) {
