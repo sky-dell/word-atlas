@@ -276,7 +276,7 @@ function Shell({ privateAvailable, accountOpen, onAccountOpen, onAccountClose, o
   if(route.page==='admin')return <><AppearanceController forceLight /><PageBoundary><Suspense fallback={<div className="boot" aria-busy="true"><span className="spinner" /></div>}><AdminPage /></Suspense></PageBoundary><Toasts /></>;
 
   return (
-    <div className={`app ${focus ? "is-focus" : ""}`}>
+    <div className={`app ${focus ? "is-focus" : ""} ${route.page === "me" ? "is-me" : ""}`}>
       <AppearanceController />
       {!focus && (
         <header className="topbar">

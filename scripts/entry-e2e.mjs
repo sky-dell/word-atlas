@@ -73,6 +73,17 @@ try {
       assert.equal(await p.getByText('请先登录管理员账号。管理权限由服务器验证。',{exact:true}).count(),0);
     }finally{await c.close();}
   });
+  await check('learner tabs fit desktop viewports without a page scrollbar',async()=>{
+    for(const [width,height] of [[1366,768],[1280,720]]){
+      await second.setViewportSize({width,height});
+      await second.goto(origin+'/#/me');
+      await second.locator('.me-tabs').waitFor();
+      for(const label of ['学习概览','学习设置','外观与计划','数据管理']){
+        await second.getByRole('tab',{name:label,exact:true}).click();
+        assert.equal(await second.evaluate(()=>document.documentElement.scrollHeight<=innerHeight),true,`${width}x${height} ${label}`);
+      }
+    }
+  });
   await check('account deep-link registration enters learning without stacked dialogs and logout returns to choices',async()=>{
     const c=await browser.newContext({ignoreHTTPSErrors:true});
     try {const p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(origin+'/#/account');await p.getByRole('button',{name:'注册',exact:true}).click();await p.getByRole('button',{name:'用户名注册',exact:true}).click();

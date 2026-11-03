@@ -53,11 +53,12 @@ for(const mode of ['guest','account'])test(`My categories preserve settings and 
   }
   await page.getByRole('button',{name:'导出备份',exact:true}).waitFor();
   page.once('dialog',dialog=>{assert.match(dialog.message(),/同步到云端|游客暂存/);void dialog.dismiss();});await page.getByRole('button',{name:'清空记录',exact:true}).click();
-  for(const [width,height] of [[1440,900],[390,844],[320,568],[844,390]]){
+  for(const [width,height] of [[1810,933],[1440,900],[1366,768],[1280,720],[390,844],[320,568],[844,390]]){
    await page.setViewportSize({width,height});
    for(const label of ['学习概览','学习设置','外观与计划','数据管理']){
     await page.getByRole('tab',{name:label,exact:true}).click();
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`${mode} ${width} ${label}: horizontal overflow`);
+    if(width>=1440)assert.equal(await page.evaluate(()=>document.documentElement.scrollHeight>innerHeight),false,`${mode} ${width}x${height} ${label}: vertical overflow`);
     assert.equal(await page.getByRole('tabpanel').count(),1);
    }
    await overview.click();await page.screenshot({path:`.local/me-tabs/${mode}-${width}.png`});
