@@ -1,0 +1,52 @@
+{
+  "groups": {
+    "calendar": [
+      "January", "February", "March", "April", "May", "June", "July", "August",
+      "September", "October", "November", "December", "Monday", "Tuesday", "Wednesday",
+      "Thursday", "Friday", "Saturday", "Sunday", "spring", "summer", "autumn", "fall", "winter"
+    ],
+    "time": [
+      "today", "tomorrow", "yesterday", "morning", "afternoon", "evening", "night",
+      "day", "week", "month", "year", "hour", "minute", "second", "now", "later",
+      "early", "late"
+    ],
+    "numbers": [
+      "zero", "one", "two", "three", "four", "five", "six", "seven", "eight",
+      "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen",
+      "seventeen", "eighteen", "nineteen", "twenty", "thirty", "forty", "fifty", "sixty",
+      "seventy", "eighty", "ninety", "hundred", "thousand", "million", "first", "second", "third"
+    ],
+    "colors": [
+      "red", "blue", "green", "yellow", "black", "white", "orange", "purple",
+      "pink", "brown", "grey", "gray"
+    ],
+    "family": [
+      "mother", "father", "parent", "son", "daughter", "child", "brother", "sister",
+      "grandmother", "grandfather", "aunt", "uncle", "cousin", "wife", "husband"
+    ],
+    "body": [
+      "head", "face", "eye", "ear", "nose", "mouth", "tooth", "hair", "hand",
+      "arm", "leg", "foot", "heart", "body"
+    ],
+    "pronouns": [
+      "I", "you", "he", "she", "it", "we", "they", "me", "him", "her", "us",
+      "them", "my", "your", "his", "their", "our", "this", "that", "these", "those"
+    ],
+    "questions": ["who", "what", "where", "when", "why", "how", "which"],
+    "verbs": [
+      "be", "have", "do", "go", "come", "see", "eat", "drink", "sleep", "read",
+      "write", "speak", "listen", "buy", "sell", "open", "close", "start", "stop",
+      "help", "want", "need", "like", "love", "know", "think", "work", "play",
+      "learn", "teach", "make", "give", "take", "get"
+    ],
+    "adjectives": [
+      "good", "bad", "big", "small", "long", "short", "hot", "cold", "new", "old",
+      "young", "happy", "sad", "easy", "difficult", "fast", "slow", "right", "wrong",
+      "beautiful", "ugly", "clean", "dirty"
+    ],
+    "greetings": [
+      "hello", "hi", "goodbye", "bye", "yes", "no", "please", "thanks", "thank",
+      "sorry", "welcome"
+    ]
+  }
+}
