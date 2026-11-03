@@ -89,15 +89,19 @@ try {
     await second.locator('.me-tabs').waitFor();
     await second.getByRole('button',{name:'搜索单词',exact:true}).click();
     const input=second.getByRole('dialog',{name:'搜索单词',exact:true}).locator('input');
-    await input.fill('三月');
-    const march=second.getByRole('option').first();
-    await march.waitFor();
-    assert.match(await march.innerText(),/march/i);
-    assert.match(await march.innerText(),/三月/);
-    await input.fill('一月');
-    await second.waitForFunction(()=>document.querySelectorAll('[role="option"]').length===1);
-    assert.match(await second.getByRole('option').innerText(),/january/i);
-    await input.press('Escape');
+    for(const [query,expectedWord,expectedMeaning] of [['三月','March','三月'],['五月','May','五月'],['一月','January','一月'],['河岸','bank','河岸；湖岸']]){
+      await input.fill(query);
+      await second.waitForFunction(()=>document.querySelectorAll('[role="option"]').length===1);
+      const option=await second.getByRole('option').innerText();
+      assert.match(option,new RegExp(expectedWord,'i'));
+      assert.match(option,new RegExp(expectedMeaning));
+    }
+    await input.fill('五月');
+    await second.getByRole('option').click();
+    const maySheet=second.getByRole('dialog',{name:'May 词条',exact:true});
+    await maySheet.waitFor();
+    await maySheet.getByText('五月',{exact:true}).waitFor();
+    await second.keyboard.press('Escape');
   });
   await check('account deep-link registration enters learning without stacked dialogs and logout returns to choices',async()=>{
     const c=await browser.newContext({ignoreHTTPSErrors:true});

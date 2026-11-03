@@ -31,6 +31,30 @@ test("March is searchable by its month meaning", () => {
   assert.match(march[7] || "", /三月/);
 });
 
+test("all twelve months use canonical names and remain searchable in Chinese", () => {
+  const months = [
+    ["january", "January", "一月"],
+    ["february", "February", "二月"],
+    ["march", "March", "三月"],
+    ["april", "April", "四月"],
+    ["may", "May", "五月"],
+    ["june", "June", "六月"],
+    ["july", "July", "七月"],
+    ["august", "August", "八月"],
+    ["september", "September", "九月"],
+    ["october", "October", "十月"],
+    ["november", "November", "十一月"],
+    ["december", "December", "十二月"],
+  ] as const;
+
+  for (const [id, name, meaning] of months) {
+    const row = index.words.find(word => word[0] === id);
+    assert.ok(row, `${name} is missing`);
+    assert.equal(row[1], name);
+    assert.match(row[7] || "", new RegExp(meaning));
+  }
+});
+
 test("the real index returns the intended month and excludes longer numeral substrings", () => {
   const words = index.words.map(row => ({
     id: row[0],

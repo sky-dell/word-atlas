@@ -104826,7 +104826,7 @@
   "id": "disgusting"
  },
  {
-  "w": "march",
+  "w": "March",
   "uk": "/mɑːtʃ/",
   "us": "/mɑːrtʃ/",
   "senses": [
@@ -324555,5 +324555,39 @@
   "topic": "society",
   "note": "",
   "id": "profess"
+ },
+ {
+  "w": "May",
+  "uk": "/meɪ/",
+  "us": "/meɪ/",
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "五月",
+    "en": "The fifth month of the year, between April and June."
+   }
+  ],
+  "ex": [
+   {
+    "en": "Our school trip is in May.",
+    "zh": "我们的学校旅行在五月。"
+   },
+   {
+    "en": "Many cities hold outdoor festivals in May as the weather becomes warmer.",
+    "zh": "随着天气变暖，许多城市在五月举办户外节庆活动。"
+   }
+  ],
+  "col": [
+   "in May｜在五月",
+   "early May｜五月上旬",
+   "May Day｜五一节"
+  ],
+  "fam": [],
+  "syn": [],
+  "ant": [],
+  "tip": "月份首字母大写；表示在五月用 in May。",
+  "cefr": "A1",
+  "topic": "daily",
+  "id": "may"
  }
 ]

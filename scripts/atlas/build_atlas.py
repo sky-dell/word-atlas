@@ -91,14 +91,29 @@ def main():
             warnings.append({"hid": hid, "word": e.get("src"), "flag": "incomplete"})
             continue
         slug = slugify(e["src"])
+        override = OVERRIDES.get(slug, {})
         if slug in seen:
             slug = f"{slug}-{hid}"
         seen.add(slug)
-        for sense in OVERRIDES.get(slug, {}).get("senses", []):
+        if override.get("word"):
+            c["w"] = override["word"]
+        for sense in override.get("senses", []):
             if sense not in c["senses"]:
                 c["senses"].append(sense)
         c["id"] = slug
         c["_hid"] = hid
+        entries.append(c)
+
+    existing_ids = {c["id"] for c in entries}
+    for entry_id, override in OVERRIDES.items():
+        if "entry" not in override or entry_id in existing_ids:
+            continue
+        source = {"src": entry_id, **override["entry"]}
+        c = clean_entry(source)
+        if not c["senses"] or len(c["ex"]) < 1:
+            raise ValueError(f"Override entry {entry_id} is incomplete")
+        c["id"] = entry_id
+        c["_hid"] = f"override-{entry_id}"
         entries.append(c)
 
     # Learning path: easier levels first, deterministic shuffle inside each level
