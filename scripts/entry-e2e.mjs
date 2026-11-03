@@ -59,6 +59,20 @@ try {
     
     await second.locator('input[name=username]').fill('entry_learner');await second.locator('input[name=password]').fill('Entry fixture password only 2026!');await second.getByRole('button',{name:'登录账号',exact:true}).click();await second.locator('main.main').waitFor();
   });
+  await check('ordinary user login from the admin route returns to the personal center',async()=>{
+    const c=await browser.newContext({ignoreHTTPSErrors:true});
+    try{
+      const p=await c.newPage();
+      await p.goto(origin+'/#/admin');
+      await p.locator('.auth-entry').waitFor();
+      await p.locator('input[name=username]').fill('entry_learner');
+      await p.locator('input[name=password]').fill('Entry fixture password only 2026!');
+      await p.getByRole('button',{name:'登录账号',exact:true}).click();
+      await p.waitForFunction(()=>location.hash==='#/me',null,{timeout:8000});
+      await p.locator('main.main').waitFor();
+      assert.equal(await p.getByText('请先登录管理员账号。管理权限由服务器验证。',{exact:true}).count(),0);
+    }finally{await c.close();}
+  });
   await check('account deep-link registration enters learning without stacked dialogs and logout returns to choices',async()=>{
     const c=await browser.newContext({ignoreHTTPSErrors:true});
     try {const p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(origin+'/#/account');await p.getByRole('button',{name:'注册',exact:true}).click();await p.getByRole('button',{name:'用户名注册',exact:true}).click();

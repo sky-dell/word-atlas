@@ -22,6 +22,7 @@ test(
         entries: [],
         include: [
           "react",
+          "react-dom",
           "react-dom/client",
           "react/jsx-runtime",
           "react/jsx-dev-runtime",
@@ -329,15 +330,32 @@ test(
         page.goto(`${server.resolvedUrls!.local[0]}admin-fixture`);
       await visit();
       await page
-        .getByText("请先登录管理员账号。管理权限由服务器验证。", {
-          exact: true,
-        })
-        .waitFor()
+        .waitForFunction(() => location.hash === "#/me")
         .catch(async (error) => {
+          const state = await page.evaluate(async () => {
+            const { accountState } = await import(
+              "/src/account/state.tsx" as string
+            );
+            const account = accountState.get();
+            return {
+              hash: location.hash,
+              bootstrapped: account.bootstrapped,
+              loading: account.loading,
+              enabled: account.enabled,
+              role: account.user?.role ?? null,
+            };
+          });
           throw new Error(
-            `${error.message}\nFixture errors: ${JSON.stringify(errors)}\n${await page.locator("body").innerText()}`,
+            `${error.message}\nFixture errors: ${JSON.stringify(errors)}\nAccount: ${JSON.stringify(state)}\n${await page.locator("body").innerText()}`,
           );
         });
+      assert.equal(
+        await page.getByText("请先登录管理员账号。管理权限由服务器验证。", {
+          exact: true,
+        }).count(),
+        0,
+        "a signed-in ordinary user must leave the admin route",
+      );
       assert.equal(
         calls.filter((c) => c.path.startsWith("/api/admin/")).length,
         0,
@@ -1046,11 +1064,13 @@ test(
         .getByLabel("确认新密码", { exact: true })
         .fill("NewFixtureOnly!3");
       await page.getByRole("button", { name: "修改密码", exact: true }).click();
-      await page
-        .getByText("请先登录管理员账号。管理权限由服务器验证。", {
+      await page.waitForFunction(() => location.hash === "#/account");
+      assert.equal(
+        await page.getByText("请先登录管理员账号。管理权限由服务器验证。", {
           exact: true,
-        })
-        .waitFor();
+        }).count(),
+        0,
+      );
       assert.deepEqual(
         calls.find((c) => c.path === "/api/auth/password")?.body,
         { currentPassword: "FixtureOnly!2", password: "NewFixtureOnly!3" },
@@ -1058,11 +1078,13 @@ test(
       signedOut = false;
       await visit();
       await page.getByRole("button", { name: "退出登录", exact: true }).click();
-      await page
-        .getByText("请先登录管理员账号。管理权限由服务器验证。", {
+      await page.waitForFunction(() => location.hash === "#/account");
+      assert.equal(
+        await page.getByText("请先登录管理员账号。管理权限由服务器验证。", {
           exact: true,
-        })
-        .waitFor();
+        }).count(),
+        0,
+      );
       assert.ok(
         calls.some((c) => c.path === "/api/auth/logout" && c.method === "POST"),
       );

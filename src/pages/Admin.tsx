@@ -40,6 +40,7 @@ import {
   PASSWORD_ERROR,
   PASSWORD_HINT,
 } from "../../shared/password-policy.mjs";
+import { go } from "../lib/router";
 import "../styles/account.css";
 import "../styles/admin.css";
 interface Audit {
@@ -151,6 +152,13 @@ function Pager({
 }
 export function AdminPage() {
   const account = useAccount();
+  const wrongRole =
+    account.bootstrapped &&
+    !account.loading &&
+    (!account.enabled || !account.user || account.user.role !== "admin" || account.user.disabled);
+  useEffect(() => {
+    if (wrongRole) go({ page: account.user ? "me" : "account" }, null, true);
+  }, [wrongRole, account.user?.id]);
   if (!account.bootstrapped || account.loading)
     return (
       <div className="page">
@@ -163,20 +171,16 @@ export function AdminPage() {
       <p>{account.error}</p>
       <button className="btn" onClick={() => void refreshAccount()}>重新验证会话</button>
     </section></div>;
-  if (
-    !account.enabled ||
-    account.user?.role !== "admin" ||
-    account.user.disabled
-  )
+  if (wrongRole)
     return (
       <div className="page">
-        <section className="panel">
-          <h1>管理后台</h1>
-          <p>请先登录管理员账号。管理权限由服务器验证。</p>
-          <a className="btn btn-ghost" href="#/me">
-            前往账号入口
-          </a>
-        </section>
+        <p role="status">正在返回学习空间…</p>
+      </div>
+    );
+  if (!account.user || account.user.role !== "admin" || account.user.disabled)
+    return (
+      <div className="page">
+        <p role="status">正在返回学习空间…</p>
       </div>
     );
   return <AdminConsole key={account.user.id} user={account.user} />;

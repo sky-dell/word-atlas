@@ -151,12 +151,18 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const dataset = useStore((s) => s.settings.dataset);
   const ready = useStore((s) => s.ready);
-  const isAdmin = account.user?.role === 'admin';
+  const isAdmin = account.user?.role === 'admin' && !account.user.disabled;
+  const redirectingNonAdmin =
+    !account.loading && !!account.user && !isAdmin && route.page === 'admin';
   const requiresLearning = !account.loading && !isAdmin && !!(account.user || guestEntry);
 
   useEffect(() => {
     if (isAdmin && location.hash !== '#/admin') go({page:'admin'}, null, true);
   }, [isAdmin, route]);
+
+  useEffect(() => {
+    if (redirectingNonAdmin) go({ page: 'me' }, null, true);
+  }, [redirectingNonAdmin]);
 
   useEffect(() => {
     if (!requiresLearning) return;
@@ -186,6 +192,13 @@ export default function App() {
     <PageBoundary><Suspense fallback={<div className="boot" aria-busy="true"><Logo /><span className="spinner" /></div>}><AdminPage /></Suspense></PageBoundary>
     <Toasts />
   </>;
+  if (redirectingNonAdmin)
+    return (
+      <div className="boot" aria-busy="true">
+        <Logo />
+        <span className="spinner" />
+      </div>
+    );
   if (!account.loading && !account.user && (!guestEntry || route.page === 'account' || route.page === 'admin')) return <EntryGate
     key={route.page === "account" ? "account-entry" : "entry"}
     initialLogin={route.page === "account"}
