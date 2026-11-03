@@ -39,9 +39,20 @@ for(const mode of ['guest','account'])test(`My categories preserve settings and 
   await learning.click();assert.match(await page.getByRole('button',{name:'20',exact:true}).getAttribute('class')||'',/is-on/);
   await page.getByRole('tab',{name:'外观与计划',exact:true}).click();assert.equal(await page.getByLabel('考试日期',{exact:true}).inputValue(),'2027-06-01');
   await page.keyboard.press('End');assert.equal(await page.getByRole('tab',{name:'数据管理',exact:true}).getAttribute('aria-selected'),'true');
-  assert.match(await page.getByRole('tabpanel').innerText(),mode==='guest'?/游客学习资料/:/当前账户/);
+  const dataCopy=await page.getByRole('tabpanel').innerText();
+  if(mode==='guest'){
+    assert.match(dataCopy,/游客学习资料/);
+    assert.match(dataCopy,/导入会替换当前词库的本机记录/);
+    assert.match(dataCopy,/清空会同步到游客暂存/);
+  }else{
+    assert.match(dataCopy,/登录后会自动同步当前账户的最新云端记录/);
+    assert.match(dataCopy,/云端历史备份.*数据同步与备份/);
+    assert.match(dataCopy,/导入会替换当前词库的本机记录/);
+    assert.match(dataCopy,/清空会同步到云端/);
+    assert.doesNotMatch(dataCopy,/永久保存/);
+  }
   await page.getByRole('button',{name:'导出备份',exact:true}).waitFor();
-  page.once('dialog',dialog=>void dialog.dismiss());await page.getByRole('button',{name:'清空记录',exact:true}).click();
+  page.once('dialog',dialog=>{assert.match(dialog.message(),/同步到云端|游客暂存/);void dialog.dismiss();});await page.getByRole('button',{name:'清空记录',exact:true}).click();
   for(const [width,height] of [[1440,900],[390,844],[320,568],[844,390]]){
    await page.setViewportSize({width,height});
    for(const label of ['学习概览','学习设置','外观与计划','数据管理']){

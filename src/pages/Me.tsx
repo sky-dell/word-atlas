@@ -220,7 +220,9 @@ export function Me({ privateAvailable, appearanceCapabilities }: { privateAvaila
 
       {panel('data', <section className="panel me-data">
           <h3 className="eyebrow">数据</h3>
-          <p className="muted">{guest.guest&&!account.user?'游客学习资料仅在服务器限时暂存，闲置24小时失效、最长7天。请以“已暂存”状态为准，离线未保存的变更请先导出备份；注册账户后可明确选择导入。':'学习记录保存在当前账户的浏览器资料中，可在右上角账户入口管理云同步，并随时导出 JSON 备份。HTTP 与 HTTPS 的历史记录需通过导出、导入迁移。'}</p>
+          <p className="muted">{guest.guest&&!account.user
+            ?'游客学习资料仅在服务器限时暂存，闲置24小时失效、最长7天。请以“已暂存”状态为准；导入会替换当前词库的本机记录，清空会同步到游客暂存。离线未保存的变更请先导出备份；注册账户后可明确选择导入。'
+            :'登录后会自动同步当前账户的最新云端记录。本页管理当前浏览器中的数据；导出、导入为单次快照，导入会替换当前词库的本机记录，清空会同步到云端。云端历史备份与同步状态可从右上角账户入口“数据同步与备份”管理。HTTP 与 HTTPS 的历史记录需通过导出、导入迁移。'}</p>
           {saveError && <p className="warn-text">浏览器拒绝保存（可能是隐私模式或空间已满）。请尽快导出备份。</p>}
           <div className="data-actions">
             <button className="btn btn-ghost" onClick={download}>
@@ -233,7 +235,8 @@ export function Me({ privateAvailable, appearanceCapabilities }: { privateAvaila
             <button
               className="btn btn-ghost btn-danger"
               onClick={() => {
-                if (confirm("确定清空这个词库的全部学习记录？此操作无法撤销，建议先导出备份。")) {
+                const target=guest.guest&&!account.user?'游客暂存':'云端';
+                if (confirm(`确定清空这个词库的全部学习记录？清空结果会同步到${target}，且无法撤销；建议先导出备份。`)) {
                   resetProgress();
                   toast("学习记录已清空");
                 }

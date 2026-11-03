@@ -6,7 +6,7 @@
 
 Account login requires HTTPS. Passwords are salted slow hashes, session/reset tokens are stored as hashes, and the session cookie is Secure/HttpOnly/SameSite. All account APIs enforce server-side identity, account status and ownership checks; API responses are never offline-cached. Anonymous learning remains available without registration. No analytics or tracking has been added.
 
-服务端账号、验证邮箱、学习快照与操作记录位于 `/var/lib/word-atlas/accounts.sqlite`，不在静态目录或发布包中。数据库采用事务、WAL 与一致性备份，保留最近 7 份本机数据库备份。每词库最多 3 份用户云端备份，默认每账号云数据总额 40 MiB、全部云数据 512 MiB；这些限额可由部署配置调整。本机备份不等同于异地容灾。旧授权列仅为兼容历史库保留，不再决定任何免费账户权限。
+服务端账号、验证邮箱、学习快照与操作记录位于 `/var/lib/word-atlas/accounts.sqlite`，不在静态目录或发布包中。注册用户的最新学习快照持续保存、不会自动到期，登录后可自动恢复；用户手动云端备份用于历史回滚。数据库采用事务、WAL 与一致性备份，保留最近 7 份本机数据库备份。每词库最多 3 份用户云端备份，默认每账号云数据总额 40 MiB、全部云数据 512 MiB；这些限额可由部署配置调整。本机备份不等同于异地容灾。旧授权列仅为兼容历史库保留，不再决定任何免费账户权限。
 
 普通会话最长 7 天，匿名 CSRF 会话 1 小时，一次性重置凭据 30 分钟；邮箱验证码为6位数字、5分钟有效、用途隔离、单次消费，重发使旧码失效，最多5次错误。验证码仅保存带独立secret的HMAC，不保存明文；邮件发送、验证和密码计算均有限流或并发上限。过期立即失效，过期记录在后续 API 请求时清理。密码更改、账号禁用和重置会撤销会话及相关验证码。管理员身份只能经本机交互 CLI 建立，不提供默认密码或公开提权入口。
 
