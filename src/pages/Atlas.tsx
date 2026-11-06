@@ -99,6 +99,12 @@ export function AtlasPage({
   const setFilter = (patch: Partial<Extract<Route, { page: "atlas" }>>) =>
     go({ page: "atlas", topic, level, view: route.view, ...patch }, null, true);
 
+  useEffect(() => {
+    if (!q.trim()) return;
+    if (topic || level) setFilter({ topic: undefined, level: undefined });
+    if (status !== "all") setStatus("all");
+  }, [q, topic, level, status]);
+
   return (
     <div className={`page atlas ${view === "galaxy" ? "is-galaxy" : ""}`}>
       <header className="atlas-head">

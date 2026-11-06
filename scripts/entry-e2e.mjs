@@ -103,6 +103,18 @@ try {
     await maySheet.getByText('五月',{exact:true}).waitFor();
     await second.keyboard.press('Escape');
   });
+  await check('atlas search clears an unrelated active topic filter',async()=>{
+    await second.goto(origin+'/#/atlas?topic=work');
+    const search=second.locator('.atlas .search input');
+    await search.waitFor();
+    await search.fill('zone');
+    await second.waitForFunction(()=>{
+      const count=Number(document.querySelector('.result-count')?.textContent?.match(/\d+/)?.[0]||0);
+      return count>0&&document.querySelector('.atlas .tile-word')?.textContent?.trim()==='zone';
+    });
+    assert.equal(await second.getByRole('button',{name:'全部话题',exact:true}).evaluate(el=>el.classList.contains('is-on')),true);
+    assert.equal(await second.locator('.atlas').getByText('zone',{exact:true}).count()>0,true);
+  });
   await check('personal preferences do not block cloud learning restoration',async()=>{
     const c=await browser.newContext({ignoreHTTPSErrors:true});
     try{
